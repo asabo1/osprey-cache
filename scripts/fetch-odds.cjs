@@ -46,7 +46,9 @@ function bestMarket(event) {
     if (yesIdx < 0 || prices[yesIdx] == null) continue;
     const vol = Number(m.volume || m.volumeNum || 0);
     if (!best || vol > best.vol) {
-      best = { question: m.question || event.title, yes: Number(prices[yesIdx]), vol, end: m.endDate || event.endDate || null };
+      let tok = null;
+      try { tok = JSON.parse(m.clobTokenIds || '[]')[yesIdx] || null; } catch {}
+      best = { question: m.question || event.title, yes: Number(prices[yesIdx]), vol, end: m.endDate || event.endDate || null, token: tok };
     }
   }
   return best;
@@ -85,6 +87,7 @@ async function main() {
         end: m.end,
         url: 'https://polymarket.com/event/' + ev.slug,
         slug: ev.slug,
+        token: m.token || null,
       });
     }
   }
@@ -125,7 +128,25 @@ async function main() {
     if (prev[m.slug] != null && prev[m.slug] !== m.yes_pct) m.prev_pct = prev[m.slug];
   }
 
+  // ODDS HISTORY for the desk (clob.polymarket.com/prices-history, keyless):
+  // per kept market, the full-lifetime series at 12h fidelity. Non-fatal per
+  // market; prior history carries forward if a fetch fails.
+  const oldBy = {};
+  try { for (const m of (JSON.parse(fs.readFileSync(OUT, 'utf8')).markets || [])) { if (m.slug) oldBy[m.slug] = m.history || null; } } catch {}
+  for (const m of markets) {
+    try {
+      if (!m.token) throw new Error('no token');
+      const h = await getJson('https://clob.polymarket.com/prices-history?market=' + m.token + '&interval=max&fidelity=720');
+      m.history = (h.history || []).map((p) => [p.t, +(p.p * 100).toFixed(1)]);
+      if (!m.history.length) throw new Error('empty');
+    } catch (e) {
+      m.history = oldBy[m.slug] || null;
+      console.error('history ' + m.slug + ': ' + e.message + (m.history ? ' (carried)' : ''));
+    }
+  }
+
   fs.writeFileSync(OUT, JSON.stringify({ updated: new Date().toISOString(), source: 'Polymarket', markets }, null, 1));
+
   console.log('odds.json: ' + markets.length + ' markets' + (markets.length ? ' — top: ' + markets[0].title + ' @ ' + markets[0].yes_pct + '%' : ' (strip will hide)'));
 }
 
