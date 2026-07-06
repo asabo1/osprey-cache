@@ -210,8 +210,9 @@ async function main() {
     try { existing = JSON.parse(fs.readFileSync(OUTPUT, 'utf8')); } catch(e) {}
   }
 
-  if (wti.length === 0 && brent.length === 0) {
-    console.log('No data. Keeping existing.');
+  wti = wti || []; brent = brent || [];
+  if (wti.length === 0 && brent.length === 0 && !(existing.latest && existing.latest.wti != null)) {
+    console.log('No fresh EIA data and no carried prices (cold start). Keeping existing.');
     process.exit(0);
   }
 
