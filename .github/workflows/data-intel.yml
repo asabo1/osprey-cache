@@ -52,5 +52,18 @@ jobs:
       - name: Redeploy site
         env:
           HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+          NUDGE_KEY: ${{ secrets.SITE_NUDGE_KEY }}
         run: |
-          if [ -n "$HOOK" ]; then curl -s -X POST "$HOOK" > /dev/null && echo "deploy hook fired"; else echo "no deploy hook set"; fi
+          if [ -n "$HOOK" ]; then curl -s -X POST "$HOOK" > /dev/null && echo "deploy hook fired"; exit 0; fi
+          if [ -z "$NUDGE_KEY" ]; then echo "no deploy trigger configured"; exit 0; fi
+          # No Vercel hook: nudge the site repo over a write deploy key so its
+          # git integration rebuilds (bakes fresh data via the build overlay).
+          mkdir -p ~/.ssh && printf '%s\n' "$NUDGE_KEY" > ~/.ssh/nudge && chmod 600 ~/.ssh/nudge
+          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/nudge -o IdentitiesOnly=yes"
+          git clone --depth 1 git@github.com:asabo1/crude-signal.git /tmp/site -q
+          cd /tmp/site
+          date -u +%FT%TZ > .data-tick
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add .data-tick && git commit -qm "data tick" && git push -q && echo "site nudged" 
