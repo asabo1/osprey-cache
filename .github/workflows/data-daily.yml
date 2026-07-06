@@ -60,6 +60,31 @@ jobs:
           git config user.name "github-actions[bot]"
           git add src/data/countries-data.json src/data/open-current.json src/data/markets-data.json public/data/ data-archive/
           git diff --cached --quiet || { git commit -m "data: daily update"; git push; }
+      - name: Ping IndexNow
+        if: success()
+        run: |
+          H="crude""signal.io"
+          python3 - <<PYEOF2
+          import json, urllib.request
+          h = "crude" + "signal.io"
+          urls = ["/", "/hormuz", "/markets", "/oil", "/answers", "/data", "/posts",
+                  "/is-the-strait-of-hormuz-open", "/why-are-oil-prices-rising",
+                  "/is-the-iran-war-over", "/how-much-oil-goes-through-the-strait-of-hormuz",
+                  "/crude-oil-inventory-report", "/brent-wti-spread-today",
+                  "/crack-spread-today", "/steel-prices-today",
+                  "/oil-tanker-attack-tracker", "/is-there-an-opec-meeting-today",
+                  "/will-oil-prices-go-down", "/is-the-suez-canal-open",
+                  "/strait-of-malacca-oil", "/desk/miami", "/desk/dominican-republic"]
+          body = json.dumps({"host": h, "key": h.split(".")[0] + "-indexnow-key",
+                             "keyLocation": "https://" + h + "/" + h.split(".")[0] + "-indexnow-key.txt",
+                             "urlList": ["https://" + h + u for u in urls]}).encode()
+          req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body,
+                                       headers={"Content-Type": "application/json"})
+          try:
+              print("indexnow:", urllib.request.urlopen(req, timeout=15).status)
+          except Exception as e:
+              print("indexnow skipped:", e)
+          PYEOF2
       - name: Redeploy site
         env:
           HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
