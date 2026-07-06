@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-06T16:41:08.531Z",
+  "updated": "2026-07-06T16:51:51.271Z",
   "latest": {
-    "date": "2026-07-04",
+    "date": "2026-07-06",
     "wti": 68.3,
-    "wti_prev": 68.69,
-    "wti_delta": -0.39,
+    "wti_prev": 68.3,
+    "wti_delta": 0,
     "brent": 71.8,
     "brent_prev": 71.8,
     "brent_delta": 0,
@@ -13,6 +13,10 @@
     "score_method": "v2-2026-06-11"
   },
   "scores": [
+    {
+      "date": "2026-07-06",
+      "score": 65
+    },
     {
       "date": "2026-07-04",
       "score": 65
@@ -127,10 +131,6 @@
     },
     {
       "date": "2026-05-31",
-      "score": 76
-    },
-    {
-      "date": "2026-05-30",
       "score": 76
     }
   ],
@@ -399,6 +399,18 @@
     }
   ],
   "snapshots": [
+    {
+      "date": "2026-07-06",
+      "wti": 68.3,
+      "wti_prev": 68.3,
+      "wti_delta": 0,
+      "brent": 71.8,
+      "brent_prev": 71.8,
+      "brent_delta": 0,
+      "spread": 3.5,
+      "crisis_score": 65,
+      "score_method": "v2-2026-06-11"
+    },
     {
       "date": "2026-07-04",
       "wti": 73.59,
@@ -1280,7 +1292,7 @@
     }
   ],
   "currencies": {
-    "mxn": 17.47,
+    "mxn": 17.48,
     "gbp": 1.3351,
     "eur": 1.1442
   },
@@ -1291,18 +1303,8 @@
   },
   "metals": {
     "gold": null,
-    "copper": {
-      "price": 13483.75153846154,
-      "prev": 12890.68772727273,
-      "delta": 593.06,
-      "date": "2026-05-01"
-    },
-    "dxy": {
-      "price": 120.8866,
-      "prev": 121.0559,
-      "delta": -0.17,
-      "date": "2026-06-26"
-    }
+    "copper": null,
+    "dxy": null
   },
   "intel_updated": "2026-07-06T16:41:08.531Z",
   "event_log": [

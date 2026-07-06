@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-04T22:07:23.857Z",
+ "generated": "2026-07-06T16:52:11.653Z",
  "publisher": "Crude Signal",
  "site": "https://crudesignal.io",
  "license": "CC BY 4.0",
@@ -7,21 +7,21 @@
  "datasets": [
   {
    "name": "crisis-score-daily",
-   "rows": 51,
+   "rows": 52,
    "csv": "/data/open/crisis-score-daily.csv",
    "json": "/data/open/crisis-score-daily.json",
    "description": "Daily Hormuz crisis score (0-100) with Brent, WTI, and spread. score_method column marks the composite version. Public file carries history older than 30 days; the trailing 30 days are subscriber early access."
   },
   {
    "name": "graded-calls",
-   "rows": 59,
+   "rows": 64,
    "csv": "/data/open/graded-calls.csv",
    "json": "/data/open/graded-calls.json",
    "description": "Every published Crude Signal market call with its falsifiable condition, outcome grade, and (from W25) pre-registered probability. Grades are never edited after publication."
   },
   {
    "name": "events-sourced",
-   "rows": 2728,
+   "rows": 2784,
    "csv": "/data/open/events-sourced.csv",
    "json": "/data/open/events-sourced.json",
    "description": "De-duplicated wire reports from the 2026 Hormuz crisis, each linked to its original outlet. Coverage from 2026-04-01. Public file carries history older than 30 days; the trailing 30 days are subscriber early access."

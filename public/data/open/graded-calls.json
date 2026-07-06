@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-04T22:07:23.840Z",
+ "generated": "2026-07-06T16:52:11.634Z",
  "license": "CC BY 4.0",
  "source": "https://crudesignal.io/data",
  "rows": [
@@ -605,8 +605,8 @@
    "horizon": "7d",
    "condition": null,
    "probability": 0.85,
-   "grade": "UNRESOLVED",
-   "evidence": "Resolves by Ship & Bunker/Bunker Index (Fujairah, Rotterdam VLSFO) + Lloyd's List/Insurance Business war-risk reporting, Jul 6."
+   "grade": "WRONG",
+   "evidence": "War-risk leg held (~2 pct hull, 8x pre-war; Insurance Business Jul 2) but the bunker leg broke its 35 pct invalidation bar Jul 2 (27.5 pct) and fell to 11.6 pct by Jul 6 (Bunker Index Fujairah/Rotterdam VLSFO). Our 85 pct conviction; the miss drove the new compound-call pricing rule."
   },
   {
    "week": "W27",
@@ -616,8 +616,8 @@
    "horizon": "7d",
    "condition": null,
    "probability": 0.75,
-   "grade": "UNRESOLVED",
-   "evidence": "Resolves by ICE Brent front-month daily closes, Jul 6."
+   "grade": "RIGHT",
+   "evidence": "Closes Jun 29-Jul 3: 73.15/72.92/71.57/71.80/72.13; Monday Jul 6 71.88 after the seven-member OPEC+ +188k bpd August decision (Rigzone/Interfax Jul 5-6). Never approached 80."
   },
   {
    "week": "W27",
@@ -627,8 +627,8 @@
    "horizon": "7d",
    "condition": null,
    "probability": 0.8,
-   "grade": "UNRESOLVED",
-   "evidence": "Resolves by IMF PortWatch/Windward AIS + CENTCOM transit counts, Jul 6."
+   "grade": "RIGHT",
+   "evidence": "AIS (PortWatch) 27-52/day across the window; press aggregation of Windward/CENTCOM 25-35/day; Jul 4 count 25 with 6 diversions on IRGC route warnings. Both source classes far below the 80/day bar."
   },
   {
    "week": "W27",
@@ -638,8 +638,8 @@
    "horizon": "7d",
    "condition": null,
    "probability": 0.75,
-   "grade": "UNRESOLVED",
-   "evidence": "Resolves by ICE DXY daily closes + CME FedWatch, Jul 6."
+   "grade": "PARTIAL",
+   "evidence": "Dollar leg clean: closes 101.11/101.19/101.39/100.86/100.86, never below 100. CME year-end hike-odds leg UNVERIFIABLE at resolution: primary FedWatch tool unreachable, secondary trackers quote non-comparable metrics. Graded on the verifiable leg, labeled."
   },
   {
    "week": "W27",
@@ -649,8 +649,63 @@
    "horizon": "7d",
    "condition": null,
    "probability": 0.55,
+   "grade": "RIGHT",
+   "evidence": "No new US-Iran kinetic strike and no Iranian attack on or blocking of transiting vessels Jun 29-Jul 6 (Reuters/AP/CNN wire sweep); the pause was formalized as an explicit one-week funeral truce with talks resuming after Jul 9."
+  },
+  {
+   "week": "W28",
+   "slug": "2026-w28-crude-signal",
+   "call": "No new US-Iran kinetic strike AND no Iranian attack on or physical blocking of transiting vessels through Jul 13 -> the truce survives the funeral's end",
+   "type": "kinetic-geo",
+   "horizon": "7d",
+   "condition": null,
+   "probability": 0.6,
    "grade": "UNRESOLVED",
-   "evidence": "Resolves by wire reporting (Reuters/AP), Jul 6. Priced as a coin-flip after the W26 MOU miss."
+   "evidence": "Resolves by wire reporting (Reuters/AP), Jul 13. The funeral truce window closes Jul 9."
+  },
+  {
+   "week": "W28",
+   "slug": "2026-w28-crude-signal",
+   "call": "A new US-Iran negotiating round convenes or is formally scheduled (dated, both sides confirmed) by Jul 13",
+   "type": "kinetic-geo",
+   "horizon": "7d",
+   "condition": null,
+   "probability": 0.7,
+   "grade": "UNRESOLVED",
+   "evidence": "Resolves by wire reporting (Reuters/AP) and Qatari MoFA statements, Jul 13."
+  },
+  {
+   "week": "W28",
+   "slug": "2026-w28-crude-signal",
+   "call": "Brent front-month closes below $75 every session through Jul 13",
+   "type": "macro",
+   "horizon": "7d",
+   "condition": null,
+   "probability": 0.75,
+   "grade": "UNRESOLVED",
+   "evidence": "Resolves by ICE Brent front-month daily closes, Jul 13."
+  },
+  {
+   "week": "W28",
+   "slug": "2026-w28-crude-signal",
+   "call": "Fujairah-over-Rotterdam VLSFO premium stays below 25 pct on every print through Jul 13",
+   "type": "macro",
+   "horizon": "7d",
+   "condition": null,
+   "probability": 0.7,
+   "grade": "UNRESOLVED",
+   "evidence": "Resolves by Bunker Index Fujairah and Rotterdam VLSFO prints, Jul 13. Tests the new freight regime from the other side after the W27 miss."
+  },
+  {
+   "week": "W28",
+   "slug": "2026-w28-crude-signal",
+   "call": "Mojtaba Khamenei makes a verifiable public appearance (in person or new video/audio; written statements do not count) by Jul 13",
+   "type": "kinetic-geo",
+   "horizon": "7d",
+   "condition": null,
+   "probability": 0.2,
+   "grade": "UNRESOLVED",
+   "evidence": "Resolves by wire reporting with imagery verification (Reuters/AP/AFP), Jul 13."
   }
  ]
 }
