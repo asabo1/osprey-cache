@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-06T20:56:19.124Z",
+  "updated": "2026-07-06T22:20:16.505Z",
   "latest": {
     "date": "2026-07-06",
     "wti": 68.66,
     "wti_prev": 68.69,
     "wti_delta": -0.03,
-    "brent": 72.06,
+    "brent": 72.13,
     "brent_prev": 71.8,
-    "brent_delta": 0.26,
-    "spread": 3.4,
+    "brent_delta": 0.33,
+    "spread": 3.47,
     "crisis_score": 65,
     "score_method": "v2-2026-06-11"
   },
@@ -160,27 +160,196 @@
   },
   "intel": [
     {
-      "time": "20:16",
-      "severity": "CRIT",
+      "time": "22:01",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Oil Holds Drop as Saudi Arabian Price Cut Amplifies Glut Concern",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-07-06T22:01:13.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-06/latest-oil-market-news-and-analysis-for-july-7"
+    },
+    {
+      "time": "22:00",
+      "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Iran war live: Khamenei’s funeral march begins as mourners threaten Trump",
-      "outlet": "The Independent",
+      "text": "Saudi Arabia Ships 34 Million Barrels Through Hormuz Despite Thin Tanker Traffic - Crude Oil Prices Today | OilPrice.com",
+      "outlet": null,
       "source": "Hormuz",
-      "date": "2026-07-06T20:16:56.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeUFKLTNpZV90Uk95TkJrYUg1czRpTVFTNXRSMkdpQ3BiV0ZPODZZazZfcEUwQWVQMnQ0V001amtkeDRBd1B0UTQ5VENwYWxLeng3ZlQyYkFOdDFFWnhtQm1taU1WN2NaUlhLclYyUU5aakJQempHTDFDN0ZiRDdXSjFXejFNS3Y4UE05YVVHMmVPSW1TNERGdzV6SUZFTjQwNDRQMk85U3hsTVZWTTJLZ1EwXzVwU2dicmJTbkV0NzBPdw?oc=5",
+      "date": "2026-07-06T22:00:51.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMkdObUN2WmE1TDdYVkVsRG5lUmdaZjY3b05YNFJCd1dYOXhfR3pxUDJOcnBQRU14dXJBMVdTM0tEajB6QmdKWW1JU0RicEc1VGFWbEx2bEc4dEw5WU8zOXE1dG02M204UXZOOERmRHNwQVVFOGRPVHBhYllUSHowVVZIN1RLdVRqVmd3NmNCcElhV18zcnRlVi1KVzhWck1YQzJ6VjA5Sm5mVXg3UmRoME9VTzg4S3o4NzFGaE5nTVNuVnNhSUcycDJaSkVuMU53aEHSAdcBQVVfeXFMTVh4VUQzMTl2S0tTSklwUG95YkZKQ3BYblJCMG84UlpzYnlWVmVNUHhVRXJyeGdKcUhWSFMyUDQ5Mm1tTlJLN3JCR2ZyOGpxR3RZWDNDb09pa1JmU3c1Y2d3aWZ6bFJXYTlMelotdlNEUHhEcjBvSDFBQmd6Y2R0Zm5oU3FRWEptZVFGZUJJclBOaWlpT2dydV8zZVJMbVNjTmc1OGVOSmNVWF9yT3g5ZUltXzZHUFRFU2dnaWJ1ZmtFR0IxOERubTVYeTJSQ19CcWxnM3JoV1U?oc=5",
       "cluster_size": 2,
-      "cluster_id": "iran-war-khamenei-funeral-march-begins",
+      "cluster_id": "hormuz-tanker-traffic-slowly-recovers-despite",
       "first": {
-        "outlet": "The Independent",
-        "date": "2026-07-06T04:48:34.000Z"
+        "outlet": "Hormuz",
+        "date": "2026-07-06T13:30:00.000Z"
       },
       "also": [
         {
-          "outlet": "The Independent",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNFJlQlZHUUpDYlNCdDI4V2hqTWlEYUdsSlJ4S3RETnFsbXpMTWZDcWFfZ0tCN2FCazJsekZaZnQzbFVxMVhLbWlRRlppcUZvbTJOY3pXQlRxVkd5TXVXWjRsVjlLVklwdzhEWVlyT1JHSkpDN2hIV2tJTW5zVnp3b055ODhYQy10MkZKSmhYaDkzRk9xZUFEZExpVDE5NjRsLV82NUxxa1VCZExPQ3BCS3QxM1M3dG1venVodW91dw?oc=5",
-          "date": "2026-07-06T04:48:34.000Z"
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2o1Q243dDIxR3cycGxJLVJIZGF3NURtZV9FUUpMa3RXbGRaNWFORWk1RUkzdEVfbHpGaGdjRUZQMDhXYlJQZFhiUUdJT2hxX0Jld2U4Ny1tMnh5dkhHVFBkekx6QjYxM1hCQ2xMc1AyWXZScTB1Wnl3Zjk5M29uOHRfR0EwRVVHbkx3MjcwN0ZKb2t6TE02bm9aMl9kOHN5Q1pEczItYUNwRWpLdl9kZDJZOEUybU9GeGfSAb8BQVVfeXFMTXFpcnY0OE5XSmk5WWtNYTdYTFhCTVBlODluM0liY0E4bjBLakdiQXc1V3dUSGxCQU1yVUZSWkx0LWVqWE9YWG4yeEVkV042Wm9CRFMxVTN6XzdQbXRoNGpWaGRFMWtxVElocEFva2xIcGNzNWlSeVU4VnZ0YmdlMC1OTEJ5NmxvMjNqbTNMTHI0NHhfb0ZLQURSNkc0VTZvU3ZEa1pYUDRwcjFCaERwR2d6Z1JwNnp2enQxdmJDZ2s?oc=5",
+          "date": "2026-07-06T13:30:00.000Z"
         }
       ]
+    },
+    {
+      "time": "21:35",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Fleet of 10 Japan-related ships exit Hormuz, data shows",
+      "outlet": "Japan Today",
+      "source": "Hormuz",
+      "date": "2026-07-06T21:35:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWUhyYTN6ZWg3VGpwM3VUZ3ZxbnpXQVlxcEtCc2FJVko4Ri04N2U5Y0JSZGtMUVpQUTRLNm1yNF9fRENLQlpXOGliNWF0RWtfMHVUYm1yTjhORXpnX1cxNDFzamZlT3FfUHBoMnk3ZG1pUGN1V0JPX0k2cWRQSnY1UXItdlQ2RXJLaDNnUkxKYWdEV0FFZkdMYmVvUQ?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "fleet-japan-related-ships-exit-hormuz",
+      "first": {
+        "outlet": "Reuters",
+        "date": "2026-07-06T07:23:33.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSGZ1N2d5eXZEcHJkam5LekRkYzZRc2NZVHdwYmZ1WFBSY2JhWHd4cFY5RU5nU01Ib0xuLTJXVGdGNkoxWjJIaGxpbVo2TkV5a1BXeG92SHM4WDVlX2ZUY0EtdGRod29ENUVnZ1Z1X0RwZ0xxQ1I0Z1k4RUhxQkJMRjZidjB0R0lTc25WMzZORE5NdktXSVFFYU5lMG50ZlJ0VFhfNk9PNXBLZw?oc=5",
+          "date": "2026-07-06T07:23:33.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:24",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Oil Prices, Jul. 6, 2026",
+      "outlet": "Energy Intelligence",
+      "source": "Oil",
+      "date": "2026-07-06T21:24:27.000Z",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yS1ppaF9NUGtHSFpMRE9IazlGb3M3TWJrYzhrME1HdzN2UldTZVpVNDRpWTN0a2pFR3NWME9rYmpMS1pXcDZ3bG51NlZqOEk3aGVlUzdVRXVta3lNLTI1SVhVa3F0aV8zeE8yMU5zcmpLZw?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "what-affecting-oil-prices-week-july",
+      "first": {
+        "outlet": "Hart Energy",
+        "date": "2026-07-06T16:54:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Hart Energy",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONWExcmxmMFpQdTdWejFKc0RHSnBsc0NaVTJDQ1l5VW8zR0liVWdUZXNqLXJWS1BOUURDWjZnNVl1aWhmUEgyYmhQMmk0dFpGRG5UREdYTHR2LW1KZ2MxR25QMnNkOVZtLWExYmx1QmNZTmhrRWdBSXlXak4tQjdaUlRPRGRVSUNpTXJzZGZUTkI5MWNzc0hF?oc=5",
+          "date": "2026-07-06T16:54:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:06",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Ukrainian drones hit Russia's largest refinery, in one of deepest strikes yet",
+      "outlet": "Reuters",
+      "source": "Reuters",
+      "date": "2026-07-06T21:06:49.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUFBhRkxacmxmTXloVDZNTThZcE5DbGg1R0xsd1dscnB0bHlWVHo5c0tiZzluaHhpT2l3WVl1UnI2alFkNktseUtFdXFSS28xMDRHbmM1X3dFa3VIRGFHVlk1MjFKc2dOdEhaRU5HUTBuRUMySjd0bmtTN2JRaWFpSTUwVEttakkwU3hIamsxUTg0c1dTRWVZbEZhMWJ0SFkzdi1tSHpZTVYyblN0ckd6MjJ3VEtLY1pJR3RpT3h3?oc=5"
+    },
+    {
+      "time": "21:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "ZAWYA: Kuwait targets 4 bn/cfd gas output",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-06T21:00:59.000Z",
+      "link": "https://www.hellenicshippingnews.com/zawya-kuwait-targets-4-bn-cfd-gas-output/"
+    },
+    {
+      "time": "21:00",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "H1 2026: The Moving Target of Maritime Sanctions Compliance",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-06T21:00:59.000Z",
+      "link": "https://www.hellenicshippingnews.com/h1-2026-the-moving-target-of-maritime-sanctions-compliance/"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "China’s H1 Crude Imports Post Sharpest Drop Since War Began",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-06T21:00:58.000Z",
+      "link": "https://www.hellenicshippingnews.com/chinas-h1-crude-imports-post-sharpest-drop-since-war-began/"
+    },
+    {
+      "time": "21:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Japan-linked vessels exit Strait of Hormuz after months stranded in Gulf",
+      "outlet": "reports",
+      "source": "Maritime",
+      "date": "2026-07-06T21:00:57.000Z",
+      "link": "https://www.hellenicshippingnews.com/japan-linked-vessels-exit-strait-of-hormuz-after-months-stranded-in-gulf-reports/"
+    },
+    {
+      "time": "21:00",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Global investors remain confident in Gulf economy after US-Iran deal",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-06T21:00:56.000Z",
+      "link": "https://www.hellenicshippingnews.com/global-investors-remain-confident-in-gulf-economy-after-us-iran-deal/"
+    },
+    {
+      "time": "21:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "BP sells stake in Canada offshore oil project to Equinor",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-06T21:00:55.000Z",
+      "link": "https://www.hellenicshippingnews.com/bp-sells-stake-in-canada-offshore-oil-project-to-equinor/"
+    },
+    {
+      "time": "20:34",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "TSX slips as gold falls, oil prices settle at pre-Iran war levels",
+      "outlet": "TradingView",
+      "source": "Oil",
+      "date": "2026-07-06T20:34:23.000Z",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaC1JUG9LS1pBbjUxVUt6QmtrVDVVdEpjbjRJem9MMTRHSlM2NWgzTXJ4N29meXM4a1Fad1lLM1FqTDJiRVZiQktrNG1hZFNaNTVyeUZDc2JpdlE2ajRVMXJSdGdhamEyaWpfU0ZzcWIxNXRuZl9oRUVvaWsyNThFdG1xLUdOTXA2alNGWHN1Y1BFWWV6MC1iT2RHamR2Vm8tc2pVTTc4S1BFREVKdm9fWGY2Q01SSGpVaFVSNVBSY09jNEV3SmRQUHBjd1ZwbTg?oc=5",
+      "cluster_size": 4,
+      "cluster_id": "oil-prices-head-back-pre-iran",
+      "first": {
+        "outlet": "National Desk",
+        "date": "2026-07-06T13:42:17.000Z"
+      },
+      "also": [
+        {
+          "outlet": "National Desk",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONUctNkl6OHBqYktsUEV4WjAxWDBFVWdMcTZ5ZkZ1SlZsYjFtbWVwQnU4TFZyMTQ2WkVKU241enhNOGdPaUI0a3hGUW5jd054TWFlbU9ZaTl6d2hxVjFUblNlbFNWdTFuZG9KSDhGODVFWWdESXJ1MUhaaEYxekx4SGNrYmViQjRQa3BpSktxbGNXMlBMTTNxUDNBYURrbEozNFI5OWhXMGUzVzVSR2xDMWN2bm5NbVkxV0xKaUlucS1lZVZmbFl6blZmc29PejZoc2tBams0cVBqaVdMR0RYVmV4aTJUNUFKRkM1OXdhV1U0RGg1?oc=5",
+          "date": "2026-07-06T13:42:17.000Z"
+        },
+        {
+          "outlet": "GV Wire",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ud09KRzdRZk5kQlJ4c2w3TTNjNEdFSHp5YkIzVWp3bGdIU25yMlhwVTRseFVrS0NVMkExRVc3T1RVd3RuY21BS3RST1R0UlByZDdvSjlkeU8xZ0MyTklVb0VCQ0I0WlJJNEZQZWlLS3UybkJKR3kxS2xXRQ?oc=5",
+          "date": "2026-07-06T14:25:59.000Z"
+        },
+        {
+          "outlet": "Rigzone",
+          "link": "https://www.rigzone.com/news/wire/russia_oil_price_falls_to_preiran_war_level-06-jul-2026-184069-article/?rss=true",
+          "date": "2026-07-06T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "20:15",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Alberta and Ontario propose new 2,050-mile Canada oil pipeline",
+      "outlet": "Reuters",
+      "source": "Reuters",
+      "date": "2026-07-06T20:15:43.000Z",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ0ZaLUVMRlZuMWZ6YXVrbGpnQ0R2MEEwcjhSMHVMWjl0UWN1VjFSOWxWdF83SjNsNHVacDRqeEpZbGUwaTE3a0gtQ3ZGcEdJUzFlakdsOFlBMU9GRDBEN0NGSVRsWHMxWVhoVjZQeENwUzQ3SERFaU5GU3BmcUVhenRFbU5VYldYbDVQVEdkeXFwNFVqVlBtZWRNTHpfd0xNRndENXo0WFJYdE15REE?oc=5"
     },
     {
       "time": "20:12",
@@ -191,16 +360,6 @@
       "source": "Rigzone",
       "date": "2026-07-06T20:12:22.000Z",
       "link": "https://www.rigzone.com/news/wire/saudi_price_cut_sends_oil_lower-06-jul-2026-184071-article/?rss=true"
-    },
-    {
-      "time": "20:00",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Russia Oil Price Falls to Pre-Iran War Level",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-07-06T20:00:00.000Z",
-      "link": "https://www.rigzone.com/news/wire/russia_oil_price_falls_to_preiran_war_level-06-jul-2026-184069-article/?rss=true"
     },
     {
       "time": "19:38",
@@ -224,144 +383,6 @@
           "date": "2026-07-06T00:00:00.000Z"
         }
       ]
-    },
-    {
-      "time": "19:15",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Windward Daily Report: 16 Outbound Vessels Transit Hormuz",
-      "outlet": "Marine Link",
-      "source": "Hormuz",
-      "date": "2026-07-06T19:15:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVzJxdHc0XzZ6MDFia0ROXzQ2SFBhcHY3Nk9RVlhiaWtsSHdaTjN3QVdQai1kb2hSbmhwZGdkaWxPU3Z1d3FZVlY2U2FOSXpRQkFKNDh6N2JiVzBfa3NSTkNjS0tqaEVhdFEzQVFGdTFBbm5EV1hGcTFnTmt2MHcyN05FMA?oc=5"
-    },
-    {
-      "time": "18:20",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil’s Downtrend Looks Structural as Hormuz Flows Normalize",
-      "outlet": "Investing.com",
-      "source": "Hormuz",
-      "date": "2026-07-06T18:20:36.000Z",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZF9OMmI1WmxXS2U3Szk5b2lOMXhRVThVUzJ4UmdhTVBTY25tdGN5d2NpSGdXSG5pa1hrcEptV00yVHZQdTRzQlRnc3ZfdmNHTDdqNl9wcmwyNmx5M3NhejRsWnMzckFhT3FXb1BQRlJqQkV6dDd3cXBkalF6VXZiNEhUSjB5ZlBZTWM3bUNsal9xNTliSWhCY3dzMG9ld2FwNmtQOA?oc=5"
-    },
-    {
-      "time": "18:11",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "International Recap, July 6: Global Markets Mixed as Oil Prices Dip Alongside Mining Stocks",
-      "outlet": "The Motley Fool",
-      "source": "Oil",
-      "date": "2026-07-06T18:11:15.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTnEtcW1MZ2gyNkJjR0ZIb1dEZUtOWjVCOGRiNGc2QnJObllxUFZaU1RZZUhxMC1RakVsaGNfaXB3TWZiZk81NnM4bkRocko5aTVMX3pwd01LRmR1VjhjeU5FUVRyWXhQQUFOZXNUU1J2bUNFcHRGOHUxZ1FLUExJUlpKcjkyZWZYVl9UVW9SZkEteGJyTzZQYzNocnJscVhZNGFobUl0OXpzaGpYUDU5bWRZN19BU2phcXV0SmJSX2Y3ejR5TVN1NjU3LWNtdXd1aEFJNzhHZTFSVW5XLUpGYmRaZzI?oc=5"
-    },
-    {
-      "time": "18:05",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Q2 2026 BoC Business Outlook Survey: Surprisingly robust firm sentiment amid oil price shock",
-      "outlet": "rbc.com",
-      "source": "Oil",
-      "date": "2026-07-06T18:05:41.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWWdvanBqOTNFODJyTzJ0S2FmNUh1d0NVYm1IVmFpVnRNdUU3aTRHLWNxR1R6aVpJSklDSnd1SmFOdDFmajNOWGs4cXFXNE9RZUp2WVVBeEI4NFRLQVBpVFVLaEZIazRyaDNJQ01la0ZmaGVsMW02emFwb21GdXVnUkZkQWM4MXpvMWlLTmxLSUJZSm16UHg0dExWcm1VZVRPX0hyQzZsMmRKVWF3NFh6Z3VsRC1pM241RjRLaTJpTkRJclZiVXkzeDNYLTM5YzV2WjdYZnJlUjRyQ0hPeVVhSjNCVTM1MkRXaXNydQ?oc=5"
-    },
-    {
-      "time": "17:56",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Iran’s envoy to China says Beijing to get Hormuz concessions",
-      "outlet": "TheDailyNewsOnline.com",
-      "source": "Hormuz",
-      "date": "2026-07-06T17:56:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWmVqUTFyak9WLV9KeHRpN3V2dGJxdjBNbDJuUnc4MjNUZnYzaGdyYnNkRGV5WDZYTXpQenpZNGVSVDV3R0J3ckZ6bVNXUHptVkdyUEZDQUY0RVg3X3NnSjdaUzBVVXFmUGFYV29VQW9hT0pNUko5YmlPTm9uUmpXYThBdDcwQmpfdXNjbkpOcHZfRlpQT0x3SDRBNlJFRGRNQlB1UU9qc1g3cW9KR0psTTcyVmkyTVZvU1VQcDdEekRRQ052RExjTnVKQUk4OUxkQllkaktfSnJ1cjNLX3hoOGppSjU?oc=5"
-    },
-    {
-      "time": "17:32",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "ECB's Schnabel says Iran shock is not over",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-07-06T17:32:16.000Z",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ1ExdjlrUy1NdGJVd2F6OTh0cEZqZWgzS0ZNUklHRFR4MTI1V1lNY0RiejREN2FWU0hIcWlkMmg4eXg0SXhxaDYxQVp0MEZiakdWcE1SUWpKd25vNllDVGN0SlFTZm8wODVGOGl2NjhZUHRxcWlmVzB6MThzQVl4cmJzSGFTVTU0SlZ3T09BSGwwYnp2TjZ0ZHR3?oc=5"
-    },
-    {
-      "time": "17:31",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "The Tanker Tycoon Making Millions on Hormuz Shuttle Runs",
-      "outlet": "gCaptain",
-      "source": "Hormuz",
-      "date": "2026-07-06T17:31:39.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRUhaTVdzN1RNck9jTDVESWhzbGxQaVJ6TVdpR0ZOREIyNG5ZLU1kSGl4VHdQMzNHSFZFMjYza1BINDlOT0Fvc1J1VGo2YWpKcWFySE41RzBtZ0xsaTlnWDJ1dTlPcnJiMEdnTGtOUTdJd3padjdHZThWU0dEZXY2TlFTYmk?oc=5",
-      "cluster_size": 5,
-      "cluster_id": "supertanker-tycoon-making-millions-hormuz-shuttle",
-      "first": {
-        "outlet": "Bloomberg.com",
-        "date": "2026-07-05T19:00:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOVgwR25fY2VCYVEzNmNKdkZOQ1ZMX0ZYdDNCRVd1aUxDYk51ZlVVNmhoSFRsMmJYUzQ2cXRmTTNUNW1zSmtrQVNROVBzQnhYNDM1MHhaYk9hN1NaOGpzX0xmbmNXYXZKc0JaRkl3U19EeEk4TXVweExOQVFyT3FDQU8wQ0hjT3Z1MWV3RUpLUkdDMzR2bnFGMDBNaE0yaVNjYWNoeDZhQWMwOG5qa19FbDVB?oc=5",
-          "date": "2026-07-05T19:00:00.000Z"
-        },
-        {
-          "outlet": "Fortune",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQajN4XzdlbG1WYmhXT042VVRDQWhsU2xDbm5ucWZKZ0lSQUFQbTdncWp6QndSSUcwcXhYMmRvTGNueW01Q2EyS1ViZmZBY0xNWHJaUHRsVktESkRQQzJidGo4Y1Z3cmJSQjVqZmhnQ3JVdTJhY1RlSEJ5VEd1dy1DR2JOY2NPTHNoc09OQS1BZHlhTEJsUi1KRklsNWJpUS1w?oc=5",
-          "date": "2026-07-05T21:04:00.000Z"
-        },
-        {
-          "outlet": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUGdnYWV0NEpZMWIybXZOSFVoTlpnNFIzN0hVUmxOZnhkQTlKbW1oM3FKOTNIUkEzQnk4cHJ2SXJUVjAwaTJhTTd4VEtQcFM0bzllazZnYkNQeHU5blJSNGNzYllhakktZmdQc2M5S3ZCN2J3aFZ4TFZsTzZWWTZIYTdLbkVYNk01cjdaX05tNEdvWDFVSzhHTF95M0dFYjBTcXlOenJyVVQ0b3dPYVYxWjhhTkJZM2Vrd2J6WFoyVlLSAcgBQVVfeXFMUFpMVVVoMk44TzdfOElBQk52ZExFLU93TWYyNDd3eWdYZTVmY29DOUtzMml5THo5S2VWRDRXd1FmTVRHRUJ4RDQ0bjBQa2dfejFnUlktd1k0dmpUSWFDS1JEUGZrdHNBeWhOUTN4VWFEYlE4OE9sbXhuTkg3YTUzdmlXdFJ1dU56dFRscGstUVpBWjBrRGxyUDdYY2xfZWxsazdXdEpyTUVjRjYzRGRxbzViR3V3ZUVLaVI3MjFZTjA0NFJ5QU1jcjc?oc=5",
-          "date": "2026-07-06T04:48:20.000Z"
-        },
-        {
-          "outlet": "Maritime",
-          "link": "https://gcaptain.com/the-tanker-tycoon-making-millions-on-hormuz-shuttle-runs/",
-          "date": "2026-07-06T17:08:31.000Z"
-        }
-      ]
-    },
-    {
-      "time": "17:18",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "New Middle East corridors are about more than just bypassing the Strait of Hormuz",
-      "outlet": "Atlantic Council",
-      "source": "Hormuz",
-      "date": "2026-07-06T17:18:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNelR1T1IwQ3Q0TGVoZFNMNlRPOElDQXduV29GbWFsSl92OEZILVB3NlRuTFZhcVpZRUN1NVNXVFBrLVJJblNXWUFLZkpPVWRMWExqdEpDbzlDLW5ielpJUDl4SDJ4dkRGaERCSEtKZVNxYW8yRGhOTW5mbElLSUR5dXdHRW90LUhnZm5wOUJsdEg0X21MdHlFbEY1Z3p2WVBERjRHUHNrQVE5SGVPcjRSUG9PeWtXWkxJbzM1UkZsQU9QZmIzQ2hmbjJMOA?oc=5"
-    },
-    {
-      "time": "17:00",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Cargo ship reportedly attacked in Red Sea off Yemen",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-07-06T17:00:53.000Z",
-      "link": "https://www.hellenicshippingnews.com/cargo-ship-reportedly-attacked-in-red-sea-off-yemen/"
-    },
-    {
-      "time": "16:55",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil falls on OPEC+ output hike, Hormuz flows recovery",
-      "outlet": "MSN",
-      "source": "Hormuz",
-      "date": "2026-07-06T16:55:19.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNekU5RzJoVmFYZGRPNE5tUmdScEhjOEd0bTAwdlBMdnhZdTFLa0NraFo2b0dHNURwMlJLcjZ3ZEFOWFFGMVZOdVNNZmpSanZ5NjhSQkNqVjVJUUZGUEpZUXFRSWVGY25aYnV5OWhTZXVoQWVjWGhNRHFscml5YXlGZXo4eGhFMF9wZXhhSGJ4cUNVTXZiN2diZlNGbF8wRUFxeFIzV0N0SmVpcGhOQkVKbzZjRzJnRGJLTkJiX25QUy1lLS1yc3dsak81algwcHYxZHZDUXZ3ODl5TjlKOFhlclNmaElCQzFEQkNSRzZaOGJXMEhjaXk5SXN1dW5CQmlMV3FQVjZoLUJVTW5UVDFLTG9ETVcxQXdoTTFFTGw3dFlWdmxZcHZTb2tDSXpYOU1LbVV2YmVKMkpteGFl?oc=5"
-    },
-    {
-      "time": "16:55",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil stocks in US Strategic Petroleum Reserve fall to lowest level since 1983",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-07-06T16:55:10.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMzgtaXBISF9hbFRvSGNVVllndFA4bm9yUncwUGE1V1VaYlRSWVhBRlFVOW5NU1R2S3RhVVRGTXdTMEZTa1g5YjhaTVYwOGpYWU13TGxHQ2tsdF9aSjBCRHNHNjVDMkJPdGIzUkg2dTdjY3NvbGxodGZ2Um1KN1Y0RnNweW1SaXR4dGltc1dtdENEQ2VHUGNtbDBkQjlaX0wxbUU5R1RIUkZ4WjZKdnJabWZ0cmFKQTBobFpTaE10Q0I0VEo4dFFrcExmUQ?oc=5"
     }
   ],
   "snapshots": [
@@ -1272,7 +1293,7 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-07-06T20:56:19.124Z",
+  "intel_updated": "2026-07-06T22:20:16.505Z",
   "event_log": [
     {
       "date": "JUL 06",
@@ -1727,9 +1748,9 @@
   ],
   "sentiment": {
     "bull": 1,
-    "bear": 0,
-    "neutral": 14,
-    "net": "LEAN BULL"
+    "bear": 2,
+    "neutral": 12,
+    "net": "LEAN BEAR"
   },
   "vessels_attacked": {
     "count": 43,
@@ -2741,7 +2762,7 @@
     },
     {
       "t": 1783310400000,
-      "p": 72.06
+      "p": 72.13
     }
   ],
   "chart_wti": [
@@ -3754,7 +3775,7 @@
     {
       "name": "Reserve Runway",
       "severity": "CRIT",
-      "val": "Oil stocks in US Strategic Petroleum Reserve fall to lowest ..."
+      "val": null
     },
     {
       "name": "War Risk Premium",
@@ -3769,12 +3790,12 @@
     {
       "name": "Iran Sanctions",
       "severity": "WARN",
-      "val": null
+      "val": "H1 2026: The Moving Target of Maritime Sanctions Compliance"
     },
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": null
+      "val": "Global investors remain confident in Gulf economy after US-I..."
     }
   ],
   "chart_spread": [
@@ -4780,7 +4801,7 @@
     },
     {
       "t": 1783310400000,
-      "p": 3.4
+      "p": 3.47
     }
   ],
   "chart_sp500": [
@@ -5792,17 +5813,16 @@
   "latest_sp500": 7537.43,
   "vesselCache": {},
   "synthesis": {
-    "updated": "2026-07-06T20:56:19.124Z",
-    "driver": "Saudi price cuts and global oversupply are capping Brent despite a fragile Hormuz ceasefire.",
-    "based_on": "Iran war live: Khamenei’s funeral march begins as mourners threaten Trump",
-    "brent": 72.06,
-    "brent_delta": 0.26,
+    "updated": "2026-07-06T22:20:16.505Z",
+    "driver": "Saudi price cuts and global oversupply are capping Brent gains, despite minor war-risk bid.",
+    "based_on": "Oil Holds Drop as Saudi Arabian Price Cut Amplifies Glut Concern",
+    "brent": 72.13,
+    "brent_delta": 0.33,
     "takes": {
-      "iran war live khamenei s funeral march begins as mourners threaten tru": "Ceasefire limits war premium as Hormuz remains open, muting price impact.",
-      "saudi price cut sends oil lower": "Saudi discounts pressure oil prices lower, outweighing minor risk bid.",
-      "russia oil price falls to pre iran war level": "Falling Russian prices reinforce oversupply narrative, keeping Brent subdued.",
-      "saudis slash main oil price to rare discount": "Saudi discount signals weak demand, further suppressing oil prices.",
-      "windward daily report 16 outbound vessels transit hormuz": "Normal Hormuz traffic reduces supply fears, easing upward price pressure."
+      "oil holds drop as saudi arabian price cut amplifies glut concern": "Saudi price cuts reinforce oversupply, keeping downward pressure on oil prices.",
+      "saudi arabia ships 34 million barrels through hormuz despite thin tank": "Saudi exports through Hormuz highlight limited disruption, muting war-risk premium.",
+      "fleet of 10 japan related ships exit hormuz data shows": "Japan-related tanker exits signal fragile stability, slightly supporting prices.",
+      "ukrainian drones hit russia s largest refinery in one of deepest strik": "Refinery attack adds marginal geopolitical risk, offering limited support to prices."
     }
   }
 }
