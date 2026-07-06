@@ -1,0 +1,56 @@
+name: Intel Data
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+concurrency:
+  group: data-write
+  cancel-in-progress: false
+permissions:
+  contents: write
+  models: read
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --omit=dev
+      - name: Fetch intel
+        run: node scripts/fetch-intel.cjs || echo "intel failed (non-fatal)"
+      - name: "Oil pulse"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          X_CONSUMER_KEY: ${{ secrets.X_CONSUMER_KEY }}
+          X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: node scripts/oil-pulse.cjs || echo "pulse failed (non-fatal)"
+      - name: Thermal
+        env:
+          FIRMS_KEY: ${{ secrets.FIRMS_KEY }}
+        run: node scripts/fetch-thermal.cjs || echo "thermal failed (non-fatal)"
+      - name: Wire synthesis (GitHub Models, keyless)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/wire-synthesis.cjs || echo "synthesis failed (non-fatal)"
+      - name: Market odds
+        run: node scripts/fetch-odds.cjs || echo "odds failed (non-fatal)"
+      - name: QQQ tracker
+        run: node scripts/fetch-qqq.cjs || echo "qqq failed (non-fatal)"
+      - name: Commit and push
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add public/data/daily.json public/data/odds.json public/data/qqq.json public/data/vessel-ref.json public/data/pulse-state.json public/data/vessels.json public/data/thermal.json public/data/thermal-state.json 2>/dev/null || git add public/data/daily.json public/data/odds.json public/data/qqq.json public/data/vessel-ref.json public/data/thermal.json public/data/thermal-state.json
+          git diff --cached --quiet || { git commit -m "data: intel update"; git push; }
+      - name: Redeploy site
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$HOOK" ]; then curl -s -X POST "$HOOK" > /dev/null && echo "deploy hook fired"; else echo "no deploy hook set"; fi

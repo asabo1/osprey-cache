@@ -1,0 +1,9 @@
+{
+  "name": "crude-signal-data",
+  "private": true,
+  "description": "Public data pipeline for crudesignal.io. Fetches market and wire data from public sources on schedule; the site consumes this repo at build time.",
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "ws": "^8.18.0"
+  }
+}

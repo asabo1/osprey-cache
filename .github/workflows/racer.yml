@@ -1,0 +1,34 @@
+name: EIA Racer
+on:
+  schedule:
+    - cron: '25 14 * * 3'
+    - cron: '25 15 * * 3'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  race:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --omit=dev
+      - name: Race the WPSR print
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/eia-racer.cjs || echo "race ended (non-fatal)"
+      - name: Commit
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add public/data/wpsr.json data-archive/alert-log.jsonl
+          git diff --cached --quiet || { git commit -m "data: wpsr race"; git push; }
+      - name: Redeploy site
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$HOOK" ]; then curl -s -X POST "$HOOK" > /dev/null; fi
