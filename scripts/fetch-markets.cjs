@@ -94,6 +94,38 @@ async function fetchChart(sym) {
   };
 }
 
+async function fetchTreasuryBreakeven() {
+  const base = 'https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/';
+  const years = [new Date().getUTCFullYear() - 1, new Date().getUTCFullYear()];
+  const nominal = new Map(), real = new Map();
+  for (const y of years) {
+    for (const [type, map, col] of [["daily_treasury_yield_curve", nominal, '5 Yr'], ["daily_treasury_real_yield_curve", real, '5 YR']]) {
+      const csv = await get(base + y + '/all?type=' + type + '&_format=csv');
+      const lines = csv.trim().split('\n');
+      const cols = lines[0].split(',').map((c) => c.replace(/"/g, '').trim());
+      const di = cols.indexOf('Date'), vi = cols.indexOf(col);
+      if (di < 0 || vi < 0) throw new Error('treasury layout drift: ' + type);
+      for (const l of lines.slice(1)) {
+        const parts = l.split(',');
+        const [mm, dd, yy] = parts[di].split('/');
+        const v = parseFloat(parts[vi]);
+        if (isFinite(v)) map.set(yy + '-' + mm + '-' + dd, v);
+      }
+    }
+  }
+  const series = [...nominal.keys()].filter((d) => real.has(d)).sort()
+    .map((d) => ({ d, c: +(nominal.get(d) - real.get(d)).toFixed(2) }));
+  if (series.length < 20) throw new Error('breakeven series too short');
+  const last = series[series.length - 1], prev = series[series.length - 2];
+  return {
+    price: last.c, prev: prev.c,
+    delta: +(last.c - prev.c).toFixed(2),
+    delta_pct: +(((last.c - prev.c) / prev.c) * 100).toFixed(2),
+    as_of: last.d, contract: '5Y nominal minus 5Y real Treasury par yields (~1 day lag)',
+    series, ok: true,
+  };
+}
+
 async function fetchFredCsv(id) {
   // fredgraph.csv blocks cloud-runner IPs (observed 2026-07-06: timeouts
   // from Actions at 25s while local works). Fall back to the official API
@@ -177,8 +209,12 @@ async function main() {
     out.retail_gasoline = prior.retail_gasoline ? Object.assign({}, prior.retail_gasoline, { ok: false, stale: true }) : null;
   }
 
+  // Breakevens from TREASURY directly (keyless, cloud-friendly): 5Y nominal
+  // minus 5Y real (TIPS) par yields = the T5YIE definition. Validated
+  // against FRED's print (2.24 on 2026-07-02, exact match). FRED itself
+  // blocks runner IPs; treasury.gov does not.
   try {
-    out.breakevens = await fetchFredCsv('T5YIE');
+    out.breakevens = await fetchTreasuryBreakeven();
     out.breakevens.tier = 'transmission';
     out.breakevens.label = '5Y inflation breakeven';
   } catch (e) {
