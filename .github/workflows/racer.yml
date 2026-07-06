@@ -26,7 +26,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add public/data/wpsr.json data-archive/alert-log.jsonl
-          git diff --cached --quiet || { git commit -m "data: wpsr race"; git push; }
+          git diff --cached --quiet || { git commit -m "data: wpsr race"; git push || { git pull --rebase --autostash -q; git push; }; }
       - name: Redeploy site
         env:
           HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
