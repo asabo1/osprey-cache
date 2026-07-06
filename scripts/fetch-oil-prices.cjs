@@ -4,7 +4,11 @@ const path = require('path');
 
 const API_KEY = process.env.EIA_API_KEY;
 const FRED_KEY = process.env.FRED_API_KEY;
-if (!API_KEY) { console.error('EIA_API_KEY not set'); process.exit(1); }
+// No EIA key = degrade gracefully (2026-07-06 free-pipeline move): prices
+// and the crisis score are Yahoo-sourced and keyless; EIA feeds only the
+// weekly spot cross-check, the (frozen-dead) futures curve, and the natgas
+// fallback. Those return null without a key and carry-forward handles it.
+if (!API_KEY) console.warn('EIA_API_KEY not set: EIA-sourced fields will be null/carried');
 
 const OUTPUT = path.join(__dirname, '..', 'public', 'data', 'daily.json');
 
@@ -37,6 +41,7 @@ function get(reqPath) {
 }
 
 function getPrice(series) {
+  if (!API_KEY) return Promise.resolve(null);
   var reqPath = '/v2/petroleum/pri/spt/data/?api_key=' + API_KEY
     + '&frequency=weekly&data[0]=value&facets[series][]=' + series
     + '&sort[0][column]=period&sort[0][direction]=desc&length=30';
@@ -55,6 +60,7 @@ function getFutures() {
   // NYMEX WTI futures contracts 1-6 months out
   var contracts = ['RCLC1','RCLC2','RCLC3','RCLC4','RCLC5','RCLC6'];
   var labels = ['M1','M2','M3','M4','M5','M6'];
+  if (!API_KEY) return Promise.resolve(null);
   var promises = contracts.map(function(c) {
     var reqPath = '/v2/petroleum/pri/fut/data/?api_key=' + API_KEY
       + '&frequency=daily&data[0]=value&facets[series][]=' + c
@@ -166,6 +172,7 @@ function getCurrencies() {
 }
 
 function getNatGas() {
+  if (!API_KEY) return Promise.resolve(null);
   var reqPath = '/v2/natural-gas/pri/fut/data/?api_key=' + API_KEY
     + '&frequency=daily&data[0]=value&facets[series][]=RNGWHHD'
     + '&sort[0][column]=period&sort[0][direction]=desc&length=2';
