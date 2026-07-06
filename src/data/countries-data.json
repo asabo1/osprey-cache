@@ -1,0 +1,768 @@
+{
+ "generated": "2026-07-05T00:11:35.197Z",
+ "source": "Derived from U.S. EIA International Energy Statistics (total petroleum and other liquids, annual)",
+ "unit": "kb/d",
+ "method": "net = consumption - production",
+ "countries": [
+  {
+   "iso3": "CHN",
+   "iso2": "CN",
+   "name": "China",
+   "slug": "china",
+   "year": 2024,
+   "prod_kbd": 5334.3,
+   "cons_kbd": 16370.5,
+   "net_kbd": 11036.2
+  },
+  {
+   "iso3": "IND",
+   "iso2": "IN",
+   "name": "India",
+   "slug": "india",
+   "year": 2024,
+   "prod_kbd": 938.6,
+   "cons_kbd": 5598.9,
+   "net_kbd": 4660.2
+  },
+  {
+   "iso3": "JPN",
+   "iso2": "JP",
+   "name": "Japan",
+   "slug": "japan",
+   "year": 2025,
+   "prod_kbd": 102.9,
+   "cons_kbd": 3071.5,
+   "net_kbd": 2968.6
+  },
+  {
+   "iso3": "KOR",
+   "iso2": "KR",
+   "name": "South Korea",
+   "slug": "south-korea",
+   "year": 2025,
+   "prod_kbd": 110.7,
+   "cons_kbd": 2437.1,
+   "net_kbd": 2326.4
+  },
+  {
+   "iso3": "DEU",
+   "iso2": "DE",
+   "name": "Germany",
+   "slug": "germany",
+   "year": 2025,
+   "prod_kbd": 185.6,
+   "cons_kbd": 2044.1,
+   "net_kbd": 1858.5
+  },
+  {
+   "iso3": "SGP",
+   "iso2": "SG",
+   "name": "Singapore",
+   "slug": "singapore",
+   "year": 2024,
+   "prod_kbd": 20.4,
+   "cons_kbd": 1482.2,
+   "net_kbd": 1461.8
+  },
+  {
+   "iso3": "FRA",
+   "iso2": "FR",
+   "name": "France",
+   "slug": "france",
+   "year": 2025,
+   "prod_kbd": 105.9,
+   "cons_kbd": 1501,
+   "net_kbd": 1395.1
+  },
+  {
+   "iso3": "ESP",
+   "iso2": "ES",
+   "name": "Spain",
+   "slug": "spain",
+   "year": 2025,
+   "prod_kbd": 77.3,
+   "cons_kbd": 1334.2,
+   "net_kbd": 1256.9
+  },
+  {
+   "iso3": "ITA",
+   "iso2": "IT",
+   "name": "Italy",
+   "slug": "italy",
+   "year": 2025,
+   "prod_kbd": 137.2,
+   "cons_kbd": 1206.5,
+   "net_kbd": 1069.4
+  },
+  {
+   "iso3": "TUR",
+   "iso2": "TR",
+   "name": "Turkey",
+   "slug": "turkey",
+   "year": 2025,
+   "prod_kbd": 142.6,
+   "cons_kbd": 1151.5,
+   "net_kbd": 1008.9
+  },
+  {
+   "iso3": "THA",
+   "iso2": "TH",
+   "name": "Thailand",
+   "slug": "thailand",
+   "year": 2024,
+   "prod_kbd": 393.2,
+   "cons_kbd": 1372.5,
+   "net_kbd": 979.2
+  },
+  {
+   "iso3": "TWN",
+   "iso2": "TW",
+   "name": "Taiwan",
+   "slug": "taiwan",
+   "year": 2024,
+   "prod_kbd": 25.4,
+   "cons_kbd": 894,
+   "net_kbd": 868.6
+  },
+  {
+   "iso3": "IDN",
+   "iso2": "ID",
+   "name": "Indonesia",
+   "slug": "indonesia",
+   "year": 2024,
+   "prod_kbd": 841.7,
+   "cons_kbd": 1633.2,
+   "net_kbd": 791.5
+  },
+  {
+   "iso3": "AUS",
+   "iso2": "AU",
+   "name": "Australia",
+   "slug": "australia",
+   "year": 2025,
+   "prod_kbd": 363.4,
+   "cons_kbd": 1150.5,
+   "net_kbd": 787.2
+  },
+  {
+   "iso3": "NLD",
+   "iso2": "NL",
+   "name": "Netherlands",
+   "slug": "netherlands",
+   "year": 2025,
+   "prod_kbd": 79.2,
+   "cons_kbd": 784.9,
+   "net_kbd": 705.6
+  },
+  {
+   "iso3": "POL",
+   "iso2": "PL",
+   "name": "Poland",
+   "slug": "poland",
+   "year": 2025,
+   "prod_kbd": 44.5,
+   "cons_kbd": 739.1,
+   "net_kbd": 694.6
+  },
+  {
+   "iso3": "GBR",
+   "iso2": "GB",
+   "name": "United Kingdom",
+   "slug": "united-kingdom",
+   "year": 2025,
+   "prod_kbd": 768.6,
+   "cons_kbd": 1384,
+   "net_kbd": 615.4
+  },
+  {
+   "iso3": "BEL",
+   "iso2": "BE",
+   "name": "Belgium",
+   "slug": "belgium",
+   "year": 2025,
+   "prod_kbd": 24.7,
+   "cons_kbd": 599.8,
+   "net_kbd": 575.1
+  },
+  {
+   "iso3": "ZAF",
+   "iso2": "ZA",
+   "name": "South Africa",
+   "slug": "south-africa",
+   "year": 2024,
+   "prod_kbd": 92,
+   "cons_kbd": 612.1,
+   "net_kbd": 520.1
+  },
+  {
+   "iso3": "PHL",
+   "iso2": "PH",
+   "name": "Philippines",
+   "slug": "philippines",
+   "year": 2024,
+   "prod_kbd": 14.3,
+   "cons_kbd": 473.5,
+   "net_kbd": 459.1
+  },
+  {
+   "iso3": "PAK",
+   "iso2": "PK",
+   "name": "Pakistan",
+   "slug": "pakistan",
+   "year": 2024,
+   "prod_kbd": 81.4,
+   "cons_kbd": 479.2,
+   "net_kbd": 397.8
+  },
+  {
+   "iso3": "CHL",
+   "iso2": "CL",
+   "name": "Chile",
+   "slug": "chile",
+   "year": 2025,
+   "prod_kbd": 21.1,
+   "cons_kbd": 380.6,
+   "net_kbd": 359.5
+  },
+  {
+   "iso3": "VNM",
+   "iso2": "VN",
+   "name": "Vietnam",
+   "slug": "vietnam",
+   "year": 2024,
+   "prod_kbd": 197.2,
+   "cons_kbd": 555.2,
+   "net_kbd": 358.1
+  },
+  {
+   "iso3": "MAR",
+   "iso2": "MA",
+   "name": "Morocco",
+   "slug": "morocco",
+   "year": 2024,
+   "prod_kbd": 0,
+   "cons_kbd": 321.5,
+   "net_kbd": 321.5
+  },
+  {
+   "iso3": "EGY",
+   "iso2": "EG",
+   "name": "Egypt",
+   "slug": "egypt",
+   "year": 2024,
+   "prod_kbd": 639,
+   "cons_kbd": 959.5,
+   "net_kbd": 320.5
+  },
+  {
+   "iso3": "GRC",
+   "iso2": "GR",
+   "name": "Greece",
+   "slug": "greece",
+   "year": 2025,
+   "prod_kbd": 14.4,
+   "cons_kbd": 316.1,
+   "net_kbd": 301.7
+  },
+  {
+   "iso3": "BGD",
+   "iso2": "BD",
+   "name": "Bangladesh",
+   "slug": "bangladesh",
+   "year": 2024,
+   "prod_kbd": 9.6,
+   "cons_kbd": 291.1,
+   "net_kbd": 281.5
+  },
+  {
+   "iso3": "HKG",
+   "iso2": "HK",
+   "name": "Hong Kong",
+   "slug": "hong-kong",
+   "year": 2024,
+   "prod_kbd": 0.1,
+   "cons_kbd": 278.5,
+   "net_kbd": 278.4
+  },
+  {
+   "iso3": "SWE",
+   "iso2": "SE",
+   "name": "Sweden",
+   "slug": "sweden",
+   "year": 2025,
+   "prod_kbd": 13.9,
+   "cons_kbd": 270.7,
+   "net_kbd": 256.8
+  },
+  {
+   "iso3": "AUT",
+   "iso2": "AT",
+   "name": "Austria",
+   "slug": "austria",
+   "year": 2025,
+   "prod_kbd": 22.7,
+   "cons_kbd": 235.2,
+   "net_kbd": 212.5
+  },
+  {
+   "iso3": "CZE",
+   "iso2": "CZ",
+   "name": "Czechia",
+   "slug": "czechia",
+   "year": 2025,
+   "prod_kbd": 10.9,
+   "cons_kbd": 217.2,
+   "net_kbd": 206.3
+  },
+  {
+   "iso3": "PRT",
+   "iso2": "PT",
+   "name": "Portugal",
+   "slug": "portugal",
+   "year": 2025,
+   "prod_kbd": 12.4,
+   "cons_kbd": 218.5,
+   "net_kbd": 206.1
+  },
+  {
+   "iso3": "UKR",
+   "iso2": "UA",
+   "name": "Ukraine",
+   "slug": "ukraine",
+   "year": 2024,
+   "prod_kbd": 7.2,
+   "cons_kbd": 205.6,
+   "net_kbd": 198.4
+  },
+  {
+   "iso3": "ISR",
+   "iso2": "IL",
+   "name": "Israel",
+   "slug": "israel",
+   "year": 2025,
+   "prod_kbd": 25.2,
+   "cons_kbd": 220.4,
+   "net_kbd": 195.2
+  },
+  {
+   "iso3": "CHE",
+   "iso2": "CH",
+   "name": "Switzerland",
+   "slug": "switzerland",
+   "year": 2025,
+   "prod_kbd": 1.2,
+   "cons_kbd": 195.3,
+   "net_kbd": 194.1
+  },
+  {
+   "iso3": "MYS",
+   "iso2": "MY",
+   "name": "Malaysia",
+   "slug": "malaysia",
+   "year": 2024,
+   "prod_kbd": 571.7,
+   "cons_kbd": 747.1,
+   "net_kbd": 175.4
+  },
+  {
+   "iso3": "IRL",
+   "iso2": "IE",
+   "name": "Ireland",
+   "slug": "ireland",
+   "year": 2025,
+   "prod_kbd": 0.6,
+   "cons_kbd": 157.7,
+   "net_kbd": 157
+  },
+  {
+   "iso3": "FIN",
+   "iso2": "FI",
+   "name": "Finland",
+   "slug": "finland",
+   "year": 2025,
+   "prod_kbd": 16.8,
+   "cons_kbd": 172.4,
+   "net_kbd": 155.6
+  },
+  {
+   "iso3": "ROU",
+   "iso2": "RO",
+   "name": "Romania",
+   "slug": "romania",
+   "year": 2024,
+   "prod_kbd": 73.4,
+   "cons_kbd": 222.6,
+   "net_kbd": 149.3
+  },
+  {
+   "iso3": "DOM",
+   "iso2": "DO",
+   "name": "Dominican Republic",
+   "slug": "dominican-republic",
+   "year": 2024,
+   "prod_kbd": 0,
+   "cons_kbd": 148.4,
+   "net_kbd": 148.4
+  },
+  {
+   "iso3": "NZL",
+   "iso2": "NZ",
+   "name": "New Zealand",
+   "slug": "new-zealand",
+   "year": 2025,
+   "prod_kbd": 19,
+   "cons_kbd": 160,
+   "net_kbd": 140.9
+  },
+  {
+   "iso3": "PER",
+   "iso2": "PE",
+   "name": "Peru",
+   "slug": "peru",
+   "year": 2024,
+   "prod_kbd": 124.6,
+   "cons_kbd": 264.4,
+   "net_kbd": 139.8
+  },
+  {
+   "iso3": "PAN",
+   "iso2": "PA",
+   "name": "Panama",
+   "slug": "panama",
+   "year": 2024,
+   "prod_kbd": 0,
+   "cons_kbd": 135,
+   "net_kbd": 135
+  },
+  {
+   "iso3": "HUN",
+   "iso2": "HU",
+   "name": "Hungary",
+   "slug": "hungary",
+   "year": 2025,
+   "prod_kbd": 46.4,
+   "cons_kbd": 178.5,
+   "net_kbd": 132.1
+  },
+  {
+   "iso3": "KEN",
+   "iso2": "KE",
+   "name": "Kenya",
+   "slug": "kenya",
+   "year": 2024,
+   "prod_kbd": 0,
+   "cons_kbd": 116.2,
+   "net_kbd": 116.2
+  },
+  {
+   "iso3": "LKA",
+   "iso2": "LK",
+   "name": "Sri Lanka",
+   "slug": "sri-lanka",
+   "year": 2024,
+   "prod_kbd": -0.2,
+   "cons_kbd": 92,
+   "net_kbd": 92.2
+  },
+  {
+   "iso3": "CRI",
+   "iso2": "CR",
+   "name": "Costa Rica",
+   "slug": "costa-rica",
+   "year": 2024,
+   "prod_kbd": 0.4,
+   "cons_kbd": 65,
+   "net_kbd": 64.6
+  },
+  {
+   "iso3": "DNK",
+   "iso2": "DK",
+   "name": "Denmark",
+   "slug": "denmark",
+   "year": 2025,
+   "prod_kbd": 79.3,
+   "cons_kbd": 142.4,
+   "net_kbd": 63.2
+  },
+  {
+   "iso3": "JAM",
+   "iso2": "JM",
+   "name": "Jamaica",
+   "slug": "jamaica",
+   "year": 2024,
+   "prod_kbd": 2.3,
+   "cons_kbd": 44.1,
+   "net_kbd": 41.9
+  },
+  {
+   "iso3": "MEX",
+   "iso2": "MX",
+   "name": "Mexico",
+   "slug": "mexico",
+   "year": 2025,
+   "prod_kbd": 1869.4,
+   "cons_kbd": 1830.9,
+   "net_kbd": -38.5
+  },
+  {
+   "iso3": "TTO",
+   "iso2": "TT",
+   "name": "Trinidad and Tobago",
+   "slug": "trinidad-and-tobago",
+   "year": 2024,
+   "prod_kbd": 71.6,
+   "cons_kbd": 27,
+   "net_kbd": -44.6
+  },
+  {
+   "iso3": "GHA",
+   "iso2": "GH",
+   "name": "Ghana",
+   "slug": "ghana",
+   "year": 2024,
+   "prod_kbd": 191.2,
+   "cons_kbd": 102.8,
+   "net_kbd": -88.4
+  },
+  {
+   "iso3": "BHR",
+   "iso2": "BH",
+   "name": "Bahrain",
+   "slug": "bahrain",
+   "year": 2024,
+   "prod_kbd": 187,
+   "cons_kbd": 70.2,
+   "net_kbd": -116.7
+  },
+  {
+   "iso3": "ARG",
+   "iso2": "AR",
+   "name": "Argentina",
+   "slug": "argentina",
+   "year": 2024,
+   "prod_kbd": 891.9,
+   "cons_kbd": 734.6,
+   "net_kbd": -157.4
+  },
+  {
+   "iso3": "ECU",
+   "iso2": "EC",
+   "name": "Ecuador",
+   "slug": "ecuador",
+   "year": 2024,
+   "prod_kbd": 478.1,
+   "cons_kbd": 288,
+   "net_kbd": -190.1
+  },
+  {
+   "iso3": "COL",
+   "iso2": "CO",
+   "name": "Colombia",
+   "slug": "colombia",
+   "year": 2024,
+   "prod_kbd": 803.1,
+   "cons_kbd": 371.6,
+   "net_kbd": -431.5
+  },
+  {
+   "iso3": "AZE",
+   "iso2": "AZ",
+   "name": "Azerbaijan",
+   "slug": "azerbaijan",
+   "year": 2024,
+   "prod_kbd": 597.1,
+   "cons_kbd": 111.6,
+   "net_kbd": -485.5
+  },
+  {
+   "iso3": "GUY",
+   "iso2": "GY",
+   "name": "Guyana",
+   "slug": "guyana",
+   "year": 2024,
+   "prod_kbd": 617.3,
+   "cons_kbd": 26.8,
+   "net_kbd": -590.6
+  },
+  {
+   "iso3": "VEN",
+   "iso2": "VE",
+   "name": "Venezuela",
+   "slug": "venezuela",
+   "year": 2024,
+   "prod_kbd": 902.7,
+   "cons_kbd": 234.5,
+   "net_kbd": -668.2
+  },
+  {
+   "iso3": "OMN",
+   "iso2": "OM",
+   "name": "Oman",
+   "slug": "oman",
+   "year": 2024,
+   "prod_kbd": 1002,
+   "cons_kbd": 230.8,
+   "net_kbd": -771.1
+  },
+  {
+   "iso3": "DZA",
+   "iso2": "DZ",
+   "name": "Algeria",
+   "slug": "algeria",
+   "year": 2024,
+   "prod_kbd": 1380.8,
+   "cons_kbd": 457.3,
+   "net_kbd": -923.5
+  },
+  {
+   "iso3": "LBY",
+   "iso2": "LY",
+   "name": "Libya",
+   "slug": "libya",
+   "year": 2024,
+   "prod_kbd": 1182.2,
+   "cons_kbd": 222.8,
+   "net_kbd": -959.4
+  },
+  {
+   "iso3": "BRA",
+   "iso2": "BR",
+   "name": "Brazil",
+   "slug": "brazil",
+   "year": 2024,
+   "prod_kbd": 4277.1,
+   "cons_kbd": 3268.8,
+   "net_kbd": -1008.3
+  },
+  {
+   "iso3": "AGO",
+   "iso2": "AO",
+   "name": "Angola",
+   "slug": "angola",
+   "year": 2024,
+   "prod_kbd": 1164,
+   "cons_kbd": 128.7,
+   "net_kbd": -1035.4
+  },
+  {
+   "iso3": "NGA",
+   "iso2": "NG",
+   "name": "Nigeria",
+   "slug": "nigeria",
+   "year": 2024,
+   "prod_kbd": 1562.7,
+   "cons_kbd": 492.9,
+   "net_kbd": -1069.8
+  },
+  {
+   "iso3": "KAZ",
+   "iso2": "KZ",
+   "name": "Kazakhstan",
+   "slug": "kazakhstan",
+   "year": 2024,
+   "prod_kbd": 1903,
+   "cons_kbd": 412.1,
+   "net_kbd": -1490.9
+  },
+  {
+   "iso3": "QAT",
+   "iso2": "QA",
+   "name": "Qatar",
+   "slug": "qatar",
+   "year": 2024,
+   "prod_kbd": 1852.4,
+   "cons_kbd": 276.3,
+   "net_kbd": -1576.1
+  },
+  {
+   "iso3": "NOR",
+   "iso2": "NO",
+   "name": "Norway",
+   "slug": "norway",
+   "year": 2025,
+   "prod_kbd": 2051.8,
+   "cons_kbd": 239,
+   "net_kbd": -1812.9
+  },
+  {
+   "iso3": "KWT",
+   "iso2": "KW",
+   "name": "Kuwait",
+   "slug": "kuwait",
+   "year": 2024,
+   "prod_kbd": 2770.6,
+   "cons_kbd": 438,
+   "net_kbd": -2332.6
+  },
+  {
+   "iso3": "IRN",
+   "iso2": "IR",
+   "name": "Iran",
+   "slug": "iran",
+   "year": 2024,
+   "prod_kbd": 4626.7,
+   "cons_kbd": 1999,
+   "net_kbd": -2627.8
+  },
+  {
+   "iso3": "USA",
+   "iso2": "US",
+   "name": "United States",
+   "slug": "united-states",
+   "year": 2025,
+   "prod_kbd": 23612.1,
+   "cons_kbd": 20610.3,
+   "net_kbd": -3001.8
+  },
+  {
+   "iso3": "ARE",
+   "iso2": "AE",
+   "name": "United Arab Emirates",
+   "slug": "uae",
+   "year": 2024,
+   "prod_kbd": 4242.8,
+   "cons_kbd": 879.8,
+   "net_kbd": -3362.9
+  },
+  {
+   "iso3": "IRQ",
+   "iso2": "IQ",
+   "name": "Iraq",
+   "slug": "iraq",
+   "year": 2024,
+   "prod_kbd": 4568.1,
+   "cons_kbd": 1065.3,
+   "net_kbd": -3502.7
+  },
+  {
+   "iso3": "CAN",
+   "iso2": "CA",
+   "name": "Canada",
+   "slug": "canada",
+   "year": 2025,
+   "prod_kbd": 6256.6,
+   "cons_kbd": 2476.6,
+   "net_kbd": -3780.1
+  },
+  {
+   "iso3": "RUS",
+   "iso2": "RU",
+   "name": "Russia",
+   "slug": "russia",
+   "year": 2024,
+   "prod_kbd": 10533.2,
+   "cons_kbd": 3801.9,
+   "net_kbd": -6731.4
+  },
+  {
+   "iso3": "SAU",
+   "iso2": "SA",
+   "name": "Saudi Arabia",
+   "slug": "saudi-arabia",
+   "year": 2024,
+   "prod_kbd": 10872,
+   "cons_kbd": 3695.1,
+   "net_kbd": -7176.9
+  }
+ ]
+}

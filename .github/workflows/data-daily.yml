@@ -1,0 +1,67 @@
+name: Daily Data
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+concurrency:
+  group: data-write
+  cancel-in-progress: false
+permissions:
+  contents: write
+  models: read
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --omit=dev
+      - name: Oil prices + crisis score
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: node scripts/fetch-oil-prices.cjs
+      - name: Sanctioned-vessel watchlist
+        run: node scripts/fetch-watchlist.cjs || echo "non-fatal"
+      - name: Dark intel (PortWatch etc)
+        run: node scripts/fetch-darkintel.cjs || echo "non-fatal"
+      - name: Dark fleet census
+        env:
+          GFW_TOKEN: ${{ secrets.GFW_TOKEN }}
+        run: node scripts/fetch-darkfleet.cjs || echo "non-fatal"
+      - name: Freight signals
+        run: node scripts/fetch-freight.cjs || echo "non-fatal"
+      - name: Segment markets
+        run: node scripts/fetch-markets.cjs || echo "non-fatal"
+      - name: Country oil registry
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: node scripts/fetch-countries.cjs || echo "non-fatal"
+      - name: Event archive
+        run: node scripts/build-event-archive.cjs || echo "non-fatal"
+      - name: Open datasets
+        run: node scripts/build-open-data.cjs || echo "non-fatal"
+      - name: WPSR
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch-wpsr.cjs || echo "non-fatal"
+      - name: Census snapshot (Mondays)
+        run: |
+          if [ "$(date -u +%u)" = "1" ] && [ -f public/data/darkfleet.json ]; then
+            mkdir -p data-archive/census
+            cp public/data/darkfleet.json "data-archive/census/$(date -u +%F).json"
+          fi
+      - name: Commit and push
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add src/data/countries-data.json src/data/open-current.json src/data/markets-data.json public/data/ data-archive/
+          git diff --cached --quiet || { git commit -m "data: daily update"; git push; }
+      - name: Redeploy site
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$HOOK" ]; then curl -s -X POST "$HOOK" > /dev/null && echo "deploy hook fired"; else echo "no deploy hook set"; fi
