@@ -95,6 +95,23 @@ async function fetchChart(sym) {
 }
 
 async function fetchFredCsv(id) {
+  // fredgraph.csv blocks cloud-runner IPs (observed 2026-07-06: timeouts
+  // from Actions at 25s while local works). Fall back to the official API
+  // when FRED_API_KEY is set (user-pasted secret).
+  if (process.env.FRED_API_KEY) {
+    const j = JSON.parse(await get('https://api.stlouisfed.org/fred/series/observations?series_id=' + id +
+      '&api_key=' + process.env.FRED_API_KEY + '&file_type=json&sort_order=asc&observation_start=2025-07-01'));
+    const rows = (j.observations || []).filter((o) => o.value !== '.').map((o) => [o.date, o.value]);
+    if (rows.length < 2) throw new Error('FRED API ' + id + ' empty');
+    const last = rows[rows.length - 1], prev = rows[rows.length - 2];
+    return {
+      price: +last[1], prev: +prev[1],
+      delta: +((+last[1]) - (+prev[1])).toFixed(2),
+      delta_pct: +((((+last[1]) - (+prev[1])) / (+prev[1])) * 100).toFixed(2),
+      as_of: last[0], contract: 'FRED ' + id + ' (~1 day lag)',
+      series: rows.map((r) => ({ d: r[0], c: +r[1] })), ok: true,
+    };
+  }
   const body = await get('https://fred.stlouisfed.org/graph/fredgraph.csv?id=' + id);
   const rows = body.trim().split('\n').slice(1).map((l) => l.split(','))
     .filter((r) => r[1] && r[1] !== '.').slice(-66);
