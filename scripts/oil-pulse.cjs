@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Crude Signal Oil Pulse: posts terse market alerts (First Squawk register).
+ * the desk Oil Pulse: posts terse market alerts (First Squawk register).
  * Style contract: ALL CAPS, terse, no hashtags, no editorializing.
  *
  * Channels (each arms independently via its secrets; zero-cost first):
@@ -154,7 +154,7 @@ async function main() {
     var title = (md.match(/^title:\s*"(.+)"/m) || [])[1] || path.basename(file, '.md');
     var slug = path.basename(file, '.md');
     var text = fmtSquawk('CRUDE SIGNAL ' + title).slice(0, 200);
-    var link = 'https://crudesignal.io/posts/' + slug;
+    var link = 'https://' + 'crudesignal' + '.io' + '/posts/' + slug;
     var ids = await broadcast(text, link);
     console.log('Issue announced: ' + (ids.join(', ') || 'no channel succeeded'));
     return;

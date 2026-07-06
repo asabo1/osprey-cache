@@ -46,7 +46,7 @@ function mdyToIso(mdy) {
 }
 
 async function fetchTable1() {
-  const res = await fetch(TABLE1, { headers: { 'User-Agent': 'CrudeSignal/1.0 (+https://crudesignal.io)' } });
+  const res = await fetch(TABLE1, { headers: { 'User-Agent': 'CrudeSignal/1.0 (+https://the site)' } });
   if (!res.ok) throw new Error('table1.csv HTTP ' + res.status);
   const text = await res.text();
   const lines = text.trim().split('\n');
