@@ -59,7 +59,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git add src/data/countries-data.json src/data/open-current.json src/data/markets-data.json public/data/ data-archive/
-          git diff --cached --quiet || { git commit -m "data: daily update"; git push; }
+          git diff --cached --quiet || { git commit -m "data: daily update"; git push || { git pull --rebase --autostash -q; git push; }; }
       - name: Ping IndexNow
         if: success()
         run: |
