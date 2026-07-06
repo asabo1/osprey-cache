@@ -152,6 +152,15 @@ async function main() {
   }
 
   try {
+    out.retail_gasoline = await fetchFredCsv('GASREGW');
+    out.retail_gasoline.tier = 'reference';
+    out.retail_gasoline.label = 'US retail gasoline, weekly average';
+  } catch (e) {
+    failures.push('GASREGW: ' + e.message);
+    out.retail_gasoline = prior.retail_gasoline ? Object.assign({}, prior.retail_gasoline, { ok: false, stale: true }) : null;
+  }
+
+  try {
     out.breakevens = await fetchFredCsv('T5YIE');
     out.breakevens.tier = 'transmission';
     out.breakevens.label = '5Y inflation breakeven';
