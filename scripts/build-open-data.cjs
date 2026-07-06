@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Crude Signal Open Data -> public/data/open/*.{csv,json} + manifest.
+ * the desk Open Data -> public/data/open/*.{csv,json} + manifest.
  *
  * The citable artifact strategy (researched 2026-07-02): straits.live already
  * publishes a mature raw-transit dataset — duplicating it earns nothing. What
@@ -31,7 +31,7 @@ function writeSet(name, rows, columns) {
     rows.map((r) => columns.map((c) => csvCell(r[c])).join(','))
   ).join('\n') + '\n';
   fs.writeFileSync(path.join(OUT, name + '.csv'), csv);
-  fs.writeFileSync(path.join(OUT, name + '.json'), JSON.stringify({ generated: new Date().toISOString(), license: 'CC BY 4.0', source: 'https://crudesignal.io/data', rows }, null, 1));
+  fs.writeFileSync(path.join(OUT, name + '.json'), JSON.stringify({ generated: new Date().toISOString(), license: 'CC BY 4.0', source: '/data', rows }, null, 1));
   return rows.length;
 }
 
@@ -89,13 +89,13 @@ function main() {
 
   const manifest = {
     generated: new Date().toISOString(),
-    publisher: 'Crude Signal',
-    site: 'https://crudesignal.io',
+    publisher: 'osprey-cache',
+    site: '/',
     license: 'CC BY 4.0',
-    citation: 'Crude Signal (2026). Crude Signal Open Data: 2026 Strait of Hormuz crisis scores, graded forecasts, and sourced event log. https://crudesignal.io/data',
+    citation: 'See the publisher data page for the citation block.',
     datasets: [
       { name: 'crisis-score-daily', rows: n1, csv: '/data/open/crisis-score-daily.csv', json: '/data/open/crisis-score-daily.json', description: 'Daily Hormuz crisis score (0-100) with Brent, WTI, and spread. score_method column marks the composite version. Public file carries history older than 30 days; the trailing 30 days are subscriber early access.' },
-      { name: 'graded-calls', rows: n2, csv: '/data/open/graded-calls.csv', json: '/data/open/graded-calls.json', description: 'Every published Crude Signal market call with its falsifiable condition, outcome grade, and (from W25) pre-registered probability. Grades are never edited after publication.' },
+      { name: 'graded-calls', rows: n2, csv: '/data/open/graded-calls.csv', json: '/data/open/graded-calls.json', description: 'Every published the desk market call with its falsifiable condition, outcome grade, and (from W25) pre-registered probability. Grades are never edited after publication.' },
       { name: 'events-sourced', rows: n3, csv: '/data/open/events-sourced.csv', json: '/data/open/events-sourced.json', description: 'De-duplicated wire reports from the 2026 Hormuz crisis, each linked to its original outlet. Coverage from 2026-04-01. Public file carries history older than 30 days; the trailing 30 days are subscriber early access.' },
     ],
   };

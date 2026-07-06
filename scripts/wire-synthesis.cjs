@@ -109,7 +109,7 @@ function parseJson(txt) {
     const moveWord = delta == null ? 'roughly flat' : delta > 0.05 ? `up ${delta.toFixed(2)}` : delta < -0.05 ? `down ${Math.abs(delta).toFixed(2)}` : 'roughly flat';
 
     const system =
-      'You are the desk editor for Crude Signal, a real-time oil and Strait of Hormuz intelligence wire. ' +
+      'You are the desk editor for the desk, a real-time oil and Strait of Hormuz intelligence wire. ' +
       'Explain WHAT THE NEWS MEANS FOR OIL PRICES. Synthesize the implication; never restate the headline. ' +
       'Get the direction right: escalation, strikes, attacks, closures, and seizures push the war premium UP; ' +
       'de-escalation, ceasefires, talks, de-mining, and reopening let it bleed DOWN. ' +

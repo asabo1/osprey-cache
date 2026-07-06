@@ -73,7 +73,7 @@ const COUNTRIES = {
 
 function get(url) {
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { 'User-Agent': 'crude-signal-fetch' }, timeout: 20000 }, (res) => {
+    const req = https.get(url, { headers: { 'User-Agent': 'the-site-fetch' }, timeout: 20000 }, (res) => {
       let d = '';
       res.on('data', (c) => (d += c));
       res.on('end', () => resolve(d));
