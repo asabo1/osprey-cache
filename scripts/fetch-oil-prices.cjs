@@ -285,12 +285,16 @@ async function main() {
   //                         norm; JMIC threat SUBSTANTIAL + mine warning; Brent
   //                         back at pre-crisis ~$71 (floor 65)
   //   'open'                sustained, uncontested pre-war throughput (no floor)
-  var STRAIT_STATUS = 'standdown-talks';
-  var fullClosure = STRAIT_STATUS === 'full-closure' ? 10 : STRAIT_STATUS === 'contested-ceasefire' ? 8 : STRAIT_STATUS === 'standdown-talks' ? 6 : STRAIT_STATUS === 'reopening-contested' ? 6 : 0;
+  // 2026-07-08: the stand-down collapsed (3 tankers struck Jul 7, US
+  // strikes, waiver revoked, Trump declares truce over). Re-escalation short
+  // of a confirmed closure -> floor between contested-ceasefire (72) and
+  // full-closure (85).
+  var STRAIT_STATUS = 'reescalation';
+  var fullClosure = STRAIT_STATUS === 'full-closure' ? 10 : STRAIT_STATUS === 'reescalation' ? 9 : STRAIT_STATUS === 'contested-ceasefire' ? 8 : STRAIT_STATUS === 'standdown-talks' ? 6 : STRAIT_STATUS === 'reopening-contested' ? 6 : 0;
   var structural = warRegime + fullClosure;                                  // 0-20
 
   var crisisScore = Math.round(Math.min(priceStress + kinetic + structural, 100));
-  var scoreFloor = STRAIT_STATUS === 'full-closure' ? 85 : STRAIT_STATUS === 'contested-ceasefire' ? 72 : STRAIT_STATUS === 'standdown-talks' ? 65 : STRAIT_STATUS === 'reopening-contested' ? 65 : 0;
+  var scoreFloor = STRAIT_STATUS === 'full-closure' ? 85 : STRAIT_STATUS === 'reescalation' ? 78 : STRAIT_STATUS === 'contested-ceasefire' ? 72 : STRAIT_STATUS === 'standdown-talks' ? 65 : STRAIT_STATUS === 'reopening-contested' ? 65 : 0;
   if (scoreFloor > 0) crisisScore = Math.max(crisisScore, scoreFloor);
   console.log('Score v2: price ' + priceStress.toFixed(1) + ' + kinetic ' + kinetic.toFixed(1) + ' + structural ' + structural + (scoreFloor ? ' (' + STRAIT_STATUS + ' floor ' + scoreFloor + ')' : '') + ' = ' + crisisScore);
 
