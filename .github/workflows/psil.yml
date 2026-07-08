@@ -1,0 +1,33 @@
+name: PSIL Tracker Data
+on:
+  schedule:
+    - cron: '20 * * * *'   # hourly, offset from the main intel run
+  workflow_dispatch:
+concurrency:
+  group: data-write
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  psil:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --omit=dev
+      - name: PSIL intel feed
+        run: node scripts/fetch-psil-intel.cjs || echo "non-fatal"
+      - name: PSIL short interest
+        run: node scripts/fetch-psil-short-interest.cjs || echo "non-fatal"
+      - name: PSIL sparklines
+        run: node scripts/fetch-psil-sparklines.cjs || echo "non-fatal"
+      - name: PSIL catalyst days
+        run: node scripts/fetch-psil-catalyst-days.cjs || echo "non-fatal"
+      - name: Commit
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add public/data/psil-intel.json src/data/psil-short-interest.json src/data/psil-holdings.ts src/data/psil-catalysts.ts
+          git diff --cached --quiet || { git commit -m "data: psil update"; git push || { git pull --rebase --autostash -q; git push; }; }
