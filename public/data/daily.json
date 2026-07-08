@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-08T20:25:16.498Z",
+  "updated": "2026-07-08T22:13:51.551Z",
   "latest": {
     "date": "2026-07-08",
-    "wti": 74.4,
+    "wti": 74.69,
     "wti_prev": 70.44,
-    "wti_delta": 3.96,
-    "brent": 78.93,
+    "wti_delta": 4.25,
+    "brent": 79.18,
     "brent_prev": 74.16,
-    "brent_delta": 4.77,
-    "spread": 4.53,
+    "brent_delta": 5.02,
+    "spread": 4.49,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,263 +160,31 @@
   },
   "intel": [
     {
-      "time": "20:20",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Oil prices rise, and stocks drop worldwide after Trump says ceasefire with Iran is ‘over’",
-      "outlet": "AP News",
-      "source": "Oil",
-      "date": "2026-07-08T20:20:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM255ZEIteU82bFZRNFpWYW9fTTlFaXdIajdXbjBYNmEzQTZBNUdXYjNjTGxTRm02S0NUQTBDa2lmYndWOV9sN3JqVFFvemRIaXhXTXFEdlFiVDB3cnc2b09hVF9Pd0dBVWhLMWpsV0UzV0NGQ194SFNVRjZBdGJRbExDN3dyVWROTFJscg?oc=5",
-      "cluster_size": 7,
-      "cluster_id": "oil-prices-rise-stocks-drop-worldwide",
-      "first": {
-        "outlet": "WPLG Local 10",
-        "date": "2026-07-08T04:52:22.000Z"
-      },
-      "also": [
-        {
-          "outlet": "WPLG Local 10",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS3hqWEtMTFpJUHllNWo5OGdzRndiTjVJR2FrUHhaazFSOFdxenFwX2JiR1pobk1kQlFCOUU1eENNZVVNaFpvcWpmVWNvMkplQjUzSVJCLUthc0N1ZFBTNF8xWVFHbmRZc2k0ZzloWEtDdlVwdGZmdEhRX0tTV1VxZFFkUVdpM09vSG1hd2o1LU11M0xHVWRQYzR1eGVKUDJJMGtMd2ZZcG54WllYTHVfc3NINDkzWEhyVlVPSUJBOGhCdDJmNmow?oc=5",
-          "date": "2026-07-08T04:52:22.000Z"
-        },
-        {
-          "outlet": "WSAZ",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcEpfd0lucnZCc0VEOUg1UXhobU9uZ1FLZmdrUUloMXVZZGp0RW1HV3psVTlKdTR2dTNsSmt5Nnh0NE5JcWxKRER3ZGFfRzdSTW51OTZzS3JaVnB3eGxTTmJiUVdvSU9DSkl5V2d4Y1liZVQ5ZDljeVNYRzh3ZUo5SzFYOWJnZUJFb1JlRnBLQnBvYXRZNVZic2tUOUhjbnplMlRzWkxOWknSAbwBQVVfeXFMUF9Hb1VOTmtlZENfbkZMNTZUU0hNLWhoNVYzQ3Z1NGVtS0sxalg0eWtOYjJKcHg2Ym9kdEh4clJxQnkzYk9WZnhIY3UtSlFoVEgzYW9DQ3lHR3hJa1M1am9LWDVEVS1FY25McE1WSjRxUHUyMFFER3BzZmRhYnlqTWVVSmFCUE9wRDltQkFrOWEzRWdhNmZMckEtOC1jcmJqR3JxYVRiZC1DcElqR0Y4MGVGYXA0VmFXYlBTdHY?oc=5",
-          "date": "2026-07-08T11:57:00.000Z"
-        },
-        {
-          "outlet": "El Paso Times",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcDREeXlma2RZS3BXWG51Y29xN1N1dFZ6R0xXN0xPUVJrTmJUbzR6V1lDRFZIekNvY25pUGlLeVdfUFRkUDdqUVhrd3ZHaEdrcDZ3YnlzMk1ueDRjMVE5ZFNRbTRKWXBIVk13Vkota2JBX2N3STRFcVVXSjZQSUc1QW50TXE4TWF6UVdHNU1mdXlCN25Nai1OQ3lqWmI4WlgxSS1vQ0JlLVl0QVFwLXZjeFB6MEZwd0FoTjA5MDNQODdNUEJ6?oc=5",
-          "date": "2026-07-08T12:23:00.000Z"
-        },
-        {
-          "outlet": "Oskaloosa Herald",
-          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQVk5QUWZGYkVrTHJVT2h2UG40TzhPWjFhcGcyWC0zaVNEY3FOQTNIbmNGSzZNZDJOVExrNTVmS3M3OTVjeUpMMnJIZW5EaGEzZ19WRUs2U3RSWk1aV0pTdi1xdkxzaTBkVFZJR05vU0hUc3pHUzJ2eWltRExHWHF5WkFhMTZvV2VZcXR3R1Q5SFM2cUtRcDY0c2Y4NnlYb0NvUHdvOGljanRtdHRONFFrckFvTDdwZmw1aDNVN1dUUVIzY0FodjU4SnE2U0ZLSEZtWWtzT3owel9wVW5OcF9INDhnR2R4OTlKRDk0ZzBJelNzNFQxSVdpYVNQdVN5bXQ0a1d0Vg?oc=5",
-          "date": "2026-07-08T17:45:08.000Z"
-        },
-        {
-          "outlet": "Foundation for Defense of Democracies",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONU0tUGc3ZXFrcy1WOFFTRjd2ZWU0RDhhazZuTHgzLUxfSFJzZmJJRVF5c2I0UjBaRHdPMkpuckgtTURHTEhXWHJzX3VGSWsxOWtyVG53SGVXRGE3Y290SjRUQ3BpakxrM21WeTRTSERtdDlSY240VU9TeHp1MlhlZkJ2SEFFN0ptVkZSVUNGWXNTeGh0?oc=5",
-          "date": "2026-07-08T18:56:07.000Z"
-        },
-        {
-          "outlet": "U.S. News & World Report",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSmV3QUlfeC1ITWd2X2t4X0FGR3A1b0ZEVnloYzh5UjViazQ4dlg5ZmxlWXhNQmpTRlRsNHc2dHdCbG9UNVpNUVFDRl9JaTYzQ0hPUTZlbEFSRjhnX2dIQVlNdUFWcUJGeUFHTHlYc1doQ2loQlllbGNkTmI0MENUaGxnTmZmYjd5OE9ScnRjX2dHejdIdHFIdVZCMXVCcThEQ01mRy1RM0tRelJKVjRYdmJNeGpoT2RiR2NoMHJocXFCX3RRYTRj?oc=5",
-          "date": "2026-07-08T19:19:51.000Z"
-        }
-      ]
-    },
-    {
-      "time": "20:18",
+      "time": "22:01",
       "severity": "CRIT",
       "direction": "BULL",
-      "text": "U.S. strikes Iranian targets in Strait of Hormuz for 2nd straight day",
-      "outlet": "Axios",
-      "source": "Hormuz",
-      "date": "2026-07-08T20:18:19.000Z",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaHF6V3h6aFdrUm9hN1BGeHJrUzdBVzAwSThGZUdMMUJMbHJqbldwaEVFdGk2aXNkbDVpYlRyUVRmdnNTckE3SXVRc2hXWWtxWlVLMWNJWDRyRnNSeEc0VXBueDU4MFZjWVpxQVY3WDQ4T0ZHU050M0FiUngteklKVUQ4Nk5RNnI2THE0cQ?oc=5",
-      "cluster_size": 4,
-      "cluster_id": "hits-dozens-iranian-targets-retaliatory-strikes",
-      "first": {
-        "outlet": "CBS News",
-        "date": "2026-07-07T10:15:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0xMeTgxMmpSdFlramJmMVhMaVJieVh2Q2N4YmJkMm1MSk03QVcteENWQjFjblJhcEJkNTJ3V0JYLUg2YlUzNzRmbFFEZVlYZHFTTTFDZ3pKZUhsaHgtellmUFpESm03WWZIcEJSUnNkUUhiRlp2bGcyempZR1U2U0VqTQ?oc=5",
-          "date": "2026-07-07T10:15:00.000Z"
-        },
-        {
-          "outlet": "Florida’s Voice",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRlJJTkQ5RDhuUktwckFvZm9ORTZUWFR3aDA4VjY3N1hubkhyTURvdVZ1ZmJYZnQ2c3dsLXVXcE5qSmo0Xzl3Zkt5SzNlbTI2dXFzWU1QX3ozUUd5eFhGVDlyX3g3UGZsOUw5WVg1SXpfa3AtUG5NRXBqamVLbFRDX2tNbEVtX1R3ZlhQMFkyVFpZS29jZm1ablJWWWRiTkFJMU9JdmpxQXd3aVpsRXMxS0hQLV8zUDEw?oc=5",
-          "date": "2026-07-08T16:38:00.000Z"
-        },
-        {
-          "outlet": "The Times of Israel",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOME1UaVNXNlB2eEJhM19JTzN6bUg4SjR4X1dra3BzdUlRMkREbUtLdXQwQWo5bUV5bV9ZR0dtZGtKUm5VMDhoTk9vQWhZemlzR2tqN0xvWl9QZVJhaVZCLVdGYktKdG41M2NuQnJ4WUgwS0NvUHBsWlhnakk4WVAtcjV2SnpUTThMRHlpaHNBVUtsLVNFSzl4ZXREUlZfWkVZaVdrdkIyemdPa1lIOUFtRnp4NEdxNVFvX0ZFUnBZR3VFbEtlclpMaEV2cw?oc=5",
-          "date": "2026-07-08T20:16:09.000Z"
-        }
-      ]
-    },
-    {
-      "time": "20:16",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Iran war latest: US begins another round of strikes on Iran",
-      "outlet": "Sky News",
-      "source": "Hormuz",
-      "date": "2026-07-08T20:16:23.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTThFckdrWnZVV2tkUlNrNTVwY0xKTU8tNF83ZTRmN0hrNGJVZnU1MDRHTm5BS2E1ZnQteUY2eDVOVW1pZUNMZXVGeVJ2QjF2WWhzOHVacWR2cVVDS1hKMmd0bWQ0Y2ZZNGhrTmQ4ZFZPR0RhclRVWkVxZlpVMnladG84UHdNUWhJMVRpWW13WE9nWnNqejIzU1U0S3pZLWVLUGFxejdsa1ZYOWtUUWVUZXB6TQ?oc=5"
-    },
-    {
-      "time": "20:15",
-      "severity": "CRIT",
-      "direction": "BEAR",
-      "text": "Iran-US war latest: Trump ‘not sure’ he wants a deal with Tehran’s leaders as ceasefire collapses",
-      "outlet": "The Independent",
-      "source": "Hormuz",
-      "date": "2026-07-08T20:15:27.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTzNqNUJlOXlUVXJQS1NLMjhBTy1UaXdxbmMyRlZJZ0syNnRmYjFsMmFiZExhckZaTzIzOXlYQXNWMUR5YWVjTWRjMGFHWnBXX24yQ3N4MERXampPY1QtSk1TekdVclp0Qk9tQjVqRUE5aXBteTROVTU5U204clBvYUZQOFB6OHo5VThzUFYwRl9BcU1EWHdCcWRPRDJmalNpMi0xZkZXWXdndFE?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "trump-not-sure-wants-iran-deal",
-      "first": {
-        "outlet": "CNBC",
-        "date": "2026-07-08T18:06:28.000Z"
-      },
-      "also": [
-        {
-          "outlet": "CNBC",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOclV6TVN4c2RNazFjVFJuczhJN3Y0bGp0alRJMEk2VVpITDlOTWtMS2lRTFZiaVBSVDFIS3RaN2t3NktGVDBHYWVmRDVwMXpiZDZ6RjBVaUZsbkM4b2JGdlJDTElFRVc5SmZJalJoTS1fMzhVZTFKYVloZm5GRmhTaW50cFFLaVXSAYwBQVVfeXFMTnVsMWxYUDhpQ1Z6U2liVXc3SGZVc2RtVGJnTHhFU3RrZFVWamdBak9BdlBkS05URHlQdE9wZ0l2OTU5OWhVdE9nNkx2a0szQ2hqLUFhMWVEYWNKZ1Z4UXBNajQ5c0hGSnctWld4RGRvZmVWQWVwMzZSak9abWkwZTI5ZFpiYUM2MmttcDc?oc=5",
-          "date": "2026-07-08T18:06:28.000Z"
-        }
-      ]
-    },
-    {
-      "time": "20:08",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "text": "Stocks slump, oil surges after Trump says Iran ceasefire is over",
-      "outlet": "CBS News",
-      "source": "Hormuz",
-      "date": "2026-07-08T20:08:45.000Z",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KdF9LdzBqd290ZDZPV2xCYWpwNlFkeFl6alpMNmJqN0ZVT2FleE5pQ09aaWVmaU1qZk96R2RtcXkxal9kdHRzbWpabllxSE1OUFhNbVJadEVOcjNpeEpoYUlnS2l0QnZJS0VrcEVCU3l4b1dwNXc?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "oil-prices-surge-stocks-tumble-trump",
-      "first": {
-        "outlet": "NBC News",
-        "date": "2026-07-08T19:18:35.000Z"
-      },
-      "also": [
-        {
-          "outlet": "NBC News",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcFJGM3EyYnhPN3ZsY2hPcmpBMHlaNExqUXJEb0M0QktaazczNDdWSXJ3TFZMY0xsczBHVzktS0tScnVqbzdBVVdZUDFsRDVkcFhyZWF5U1NiV2JWdmxidlh0WmhabmhLc0FoRWdFdWF4dWVWMTBvcU1zMi1wR05xaGF1TmdmMnZWOGZxbmUxaUtfU2JJVkM1SUhmbUhzR01tVWRDSU9QOGlXSVJ4VzNzZWZPMzJlS1NUMlZfcVd3?oc=5",
-          "date": "2026-07-08T19:18:35.000Z"
-        }
-      ]
-    },
-    {
-      "time": "20:03",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "text": "Oil prices surge and markets fall after Trump says Iran ceasefire is over",
-      "outlet": "The Washington Post",
-      "source": "Oil",
-      "date": "2026-07-08T20:03:13.000Z",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX2RmNGpLVER2YUdOUEtjVE1QSk0wNXNtcDFzbThsdUliVnA5VmNHbnBsc1hiYkVyV1ByOEtWUTZwdEFQblowa3ptWXV4MXlFdE92eDY3SVVXSjBTNEt1Y01YZ2c1VlR2ZnVwcHdHdVhLcjZHMWQzNUdKS0NzeEVLSFI5WnplUHdReURuSG1xeDlnQmo2cWtDeGRMLU10ZWVRVy0zek5YWGVSVzhTeWxyUzN6Ykg5UkV1cG5DQU00M0tRbEg5endR?oc=5"
-    },
-    {
-      "time": "20:00",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Oil Surges on Renewed Iran Strikes",
+      "text": "Oil Extends Surge as Fresh US Strikes Against Iran Rattle Market",
       "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-07-08T20:00:59.000Z",
-      "link": "https://www.rigzone.com/news/wire/oil_surges_on_renewed_iran_strikes-08-jul-2026-184093-article/?rss=true"
+      "source": "Bloomberg",
+      "date": "2026-07-08T22:01:34.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-08/latest-oil-market-news-and-analysis-for-july-9"
     },
     {
-      "time": "20:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Qatar Role as USA-Iran Mediator Jeopardized",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-07-08T20:00:00.000Z",
-      "link": "https://www.rigzone.com/news/wire/qatar_role_as_usairan_mediator_jeopardized-08-jul-2026-184090-article/?rss=true"
-    },
-    {
-      "time": "19:53",
+      "time": "22:00",
       "severity": "CRIT",
       "direction": "BULL",
-      "text": "Iran war back on after Tehran attacks in Hormuz trigger Trump to declare ceasefire 'over'",
-      "outlet": "Fox News",
+      "text": "US strikes Iran and revokes oil sales permit after Strait of Hormuz attacks",
+      "outlet": "San Mateo Daily Journal",
       "source": "Hormuz",
-      "date": "2026-07-08T19:53:43.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdDRTYTBtQWNDQTM3bS1sS1NydGxYbWd3bmtBamM2QTIyNTVEZ3lHWGdFYjBFdmxtMThWbWNmOTVFODZTM2pjU1FqVklOR1lkQ3UtcU5MdEFEWUFMZGJMeVRHS01QenpIUjB5YkJoNGFaQV9NaUxGMjgtY2pHQk5YN0pudU1aZ2pK?oc=5"
-    },
-    {
-      "time": "19:45",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Live updates: Trump ends NATO summit with threat to strike Iran again",
-      "outlet": "NBC News",
-      "source": "Hormuz",
-      "date": "2026-07-08T19:45:02.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdkFIRVlSSlhDYl82UGVQWkpHZktBMkRiaDZGVVR3WXk3SnNISV9PVmcweDE4Wmd2RDBfeVItOGpwVnpLdWVTUzd5eWxSU1dBeC1ydEpLQ1ZjOFFMTVlERmVjQWpxTzV4a19KTlA0RFdCbGw3cnVvM0I0RElmRmhvaVFaWlhjU3pOSmdaeTdzME5iRnI2dnJNb3F3WVp4djdpNTRmQ1FWNjh3cW5nemVVVnhkYkhwQ0czTUJMNkRn?oc=5"
-    },
-    {
-      "time": "19:40",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Vance warns Iran against closing Strait of Hormuz - Shafaq News | Latest breaking news in Iraq and the world - شفق نيوز",
-      "outlet": null,
-      "source": "Hormuz",
-      "date": "2026-07-08T19:40:47.000Z",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONjc2TUUzU1l5MkcwQjl6cnY4R0U2Ynp4enE3YWdXX3ZxcHgtQkRwUmUxaDBvQUxjd3dXa0QwbTlGR1gzRlNnai1zendoNlNVYm5DOWF4YVl0NUpWcERnV2hNbTFDTWpKRnkwczJ5YTlZblJ0MGNNajBTUGRRY19aOVNDRQ?oc=5"
-    },
-    {
-      "time": "19:37",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Iran threatens to completely close Hormuz strait in response to renewed attacks",
-      "outlet": "Middle East Monitor",
-      "source": "Hormuz",
-      "date": "2026-07-08T19:37:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVnI4ZS1lTHVtTXdhM1d4emNHclZ2MzgxbVpLS0Q3NnJjNkhhSmJrVHlEcndjRkhBR2tMRU5HZXRYbEVxMWJETkhlLW5jTDJLLXNVZG00S1Z1bVJFVmMwaDRUOUVfMjFVVmJ2QlNIeVlPeTlCVEg5WnhmZ2VGUENxVGRmODJnUHZ0YUpjNEROeDNiMHhadmtOZ3RuTUVRX01HZE1zUG1NWUdUVzVJLVlHVUJwN2luRXVRdGE0QTdSei3SAcYBQVVfeXFMUG9ZZFJYZjBQa2pOZTk2ekV3MXBCdFVOUmNMRmdRQTNBaVRfLXFJSW8xRXFta0Z1ZDZIb0prWVdxcU0tNVZ3aFZJUlIyUjJSTkI3WUtRQVRxZ3pJSzdkbWFYV1BKM1UtcWdxR3pNdnRuOG1TWmx1VFVDdHA0NVpmN09ITjlDNFVNRV95SnF4MVBNbDJTVlQ2TjBid0VWQVJJY0ZKRlVTZTViVkNLVFlIRzJaYmVjdWx1elFVRmJuNDV0M0JONm1n?oc=5"
-    },
-    {
-      "time": "19:33",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Connecticut drivers should get ready for possible gas price jump on crude oil hike, experts warn",
-      "outlet": "CT Insider",
-      "source": "Oil",
-      "date": "2026-07-08T19:33:43.000Z",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNkpGa2FNT0hia19UNlBNVHJkS2NOM0VLU2lVUXluNnFmeU4yUFFzTWk3MnRqRWZvQjZYOS1Mamh5Q2JhNkgzQll0U2pWQ01FUzZoazZ2SVAyRTlrc0QwWGdkTHd6RHMwd3JjSkY4dFJteHV5VmxuSmJWY3F5RUx0OUVwWE9GdDhZQ2tMWDMwRlhvbUk?oc=5"
-    },
-    {
-      "time": "19:27",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Vice president says US will respond if Iran attacks shipping in Strait of Hormuz",
-      "outlet": "Anadolu Ajansı",
-      "source": "Hormuz",
-      "date": "2026-07-08T19:27:27.000Z",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLVpTb2VLNVZDTVVaRXVzVDUxSnVhelR0akJQdFlvU3BHcldNcmJNRVNkdUFpaDdxNTZZZW1nam1ORHdMMTBraFI2cXIzeFdaaGZNaUVIamFHamRaMFc2WGg2eDN1WVV0NVlNOVBrSmJod0NDVnJ3RmZ3U0xnRllSNVlFUFZ2aThibVhWZ1pFSEE3bDlGVEQ2M2lFRTFKVFBvdGtXdG1KeDExcVhYdi1BYjJTWU9zOEJWX1B4TTJpeW9nZURadnRVbXRZSU8?oc=5",
-      "cluster_size": 10,
-      "cluster_id": "us-launches-strikes-against-iran-attacks",
+      "date": "2026-07-08T22:00:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSDVmb3pvdGpSeWRqYWZwNWQ0QVRwQXVsZmJDRTRyR2pKY3FVTUhDRW1YcDZaMzB2NzdyRE5QbjhKLV9IaGt6aEU5OGN1M2thLW5xQ3BiVUZPZUMtZGFQMEozbkNjTTNZTS1DSDIzMXhkZXYxYUhvR1lISlh2dVNHdnhRQWxuVUo4WGdrcGw2Zld0bFlTUW50MWIxVDRHMzFZQURqWFRaSWRzb0g2M1BFR2w2TXE4ZmlBNnJqa0t3d2ZoUDB2UEJaVDBxaFVYVGJTUmttX01BNl82a2hQalhicVNoVWJ6bUlTQXRmS29IeURzNGkwb3VLanpQTk8?oc=5",
+      "cluster_size": 14,
+      "cluster_id": "us-military-strikes-iran-tehran-hits",
       "first": {
-        "outlet": "The Guardian",
-        "date": "2026-07-07T16:52:00.000Z"
+        "outlet": "The Hill",
+        "date": "2026-07-07T21:41:00.000Z"
       },
       "also": [
-        {
-          "outlet": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVDNPdTIwTDZReUdXUktsdFZWR1Jhd1BDSm9lVXVqZVN1YTNpSV9xOEZSeEkyRXVSMEkzZ1BLSk83NFNJMV95MlU2WWhtem41UU9nbmJheDkwdVpFUmQ0RVBsSXhLV2ZuLTNXTTlxSGNTNENDTm1NeUNXTURqVDdYNi1wOUY2Y0tyc09zak9HMWFaMjZOSDRiQlJyR1FpQklxX2RQTV9KTU1QM1ZFeGNtV2hVQnZaSFV4dGQzZQ?oc=5",
-          "date": "2026-07-07T16:52:00.000Z"
-        },
-        {
-          "outlet": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWDVrZUVKczZYdURmenJBVGlxVnRXbnRtNFJESVZpclpOcVFYR2lfakk1ZnZzcXFQYnN6dVIyaXRhTWVvYWVnTUFhU0hUVkNhQXVrc1JnOEJtdHdZOEIwQzEtRXByZlBWZ2tJZnJOVWN3bHRsWkhlQUxEMXBFUjF6eVpOMFNwXzhNYWx5QUptdjBVdnQzT2FLeVotUFNiTWN5Y0xURnBkdUdSa0hseXJoWmdPMWtFdTl6UTJfdV8zRQ?oc=5",
-          "date": "2026-07-07T18:24:45.000Z"
-        },
-        {
-          "outlet": "CNBC",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52QkxGTEgtVWtmcW51ZkNXak9XMk11RXZtOGltRVZ4eW5uNnZDYVVOQUVsemlyODEwLURGRXRDSDZmdno3YjhsUno0N3B1TlJ6dVhsTi1zT0pMS0ItdHJURi0zeHppR0ptd3pMNzd1UjlXb0hVSkFtUHl30gF_QVVfeXFMUDVfTU1JaEZZYVp5NmF1LTNtbHhBeG45V1hpR0YyenNGRGxua2toUUNjeGpUVXZVNkI2VkNMdkQxU3NuVGV5cVdhQi1vTUtmT1lnUXZpVjU3WU5nbFB1bU8xek44TXAxdWNIWU9CQzc5ZFo4N1ZQN0hMS1Zralk4SQ?oc=5",
-          "date": "2026-07-07T18:26:26.000Z"
-        },
-        {
-          "outlet": "Axios",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tbGNnLW5qNTl0VDktckZlNFVidXJyTFNIQ3hxZnU0V0ppaHpQTnFxOHdOcHRqdVNGZHMxNkxsRTFYOEF4UGFXNFZTUl9oc3JwRWJCZnZaWllYT1EyMm1kX1BUaWZ3cy11VU9zQndSdWRpN1RrZnVFNnhHOE1ldw?oc=5",
-          "date": "2026-07-07T18:56:56.000Z"
-        },
-        {
-          "outlet": "Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaDcxOFo2a1phUUljVUtDQWZFZ3U0Ujh4S2lKTzRaX0VkcW1KNm9jVWtqbDAxOUZwaDJIRzBlV3hkdXM3bElBQlBZT0IzUFRIZGJLdWgtd1dLV29VR2tBVGVBTjhVR1UxVVM2SU1hY21Pay1MXzB0QTB0OHR0UlUwTVc3ZmcwQXpsUHRYUkNhM3dhMVJQRGxIck9STW1QWlJNN01EdVFnT1BZbzV0QXhPcEp1TnN4VlBGVC1OOEhyQk91UkZ5c3JDVDRkVVhwMGVLcFZMSmZoOE81QTZvVHZnSW44RVhaRGtyR3EwQTFncw?oc=5",
-          "date": "2026-07-07T19:53:38.000Z"
-        },
         {
           "outlet": "The Hill",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOemVDSkdvakJFeUhtMGhMVVhneFk1MHBvb0JBcUptZk1WTzZ5ZWZDaGZvU0VVVWtJMkRQMHZqUndhY3d5c2dVbXlsZjVmdzk2Mi03U05QRjA3emlPMjJlTmtuMmd2dXR3M2U4MEk1clJqWTltRGhpdV9LYXhEZERpTHBwUFBfV2lGTVHSAY8BQVVfeXFMUDZoNVVKSzBfaVVFbGE4cnZLRWlZYy1jdUVIOTlvM3QzdWdxUmxQMk5DU28yN0lER0t0SDF0dmw5Rm5PQ2ZvUzRhbUVRMklzbWphTG1yTjktWThiem5NcDdIRXBCUVVNRm54N0lYZlRZMkNwMVY0eXVvb2VweUF4X0Vnb2c1YlZQN2JOaVVCVGs?oc=5",
@@ -436,18 +204,252 @@
           "outlet": "Axios",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PZ3hMR0poZ1E1WVpvYkRCVzNXYXJ3cm1fcEo3ZW5wVlViY2xsYnR4dzkxaERPcDAwcndERmR5Ry1VMGdZZEpTS3BBekp4eFc3SHhGNWE3bXNIdkJzc2dMc3lMUmFzRG0zdnYybUZlYnpNbFZuOU5z?oc=5",
           "date": "2026-07-08T03:29:31.000Z"
+        },
+        {
+          "outlet": "Kurdistan24",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTUVVekZ0WHZVamRhNFFLT0l1dUhrekllbWNnRDJNaDQwa2ktZ0IwaExlbmlKeXpqeDJJMTYxaDhaeENvanVFYzZyVjl4SUhFM0FISVJlTXJ1N0p0clg5LVJQdU9iMS0zaEh0aGYzQUlra3d4NXg3czYza29nckdDenhGUnFmeU5pOUozVm92Y3pGN0h3Q3A4NlJsYjJ6ZVBXckhHWTBCNWJkY2R4eV9zd1RlVENZQVJwZUc2dDVxYmduRTZU?oc=5",
+          "date": "2026-07-08T19:26:00.000Z"
+        },
+        {
+          "outlet": "WSVN",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSnlsVkx2cWxLUEU2dms0X3JWeEJlUmdyQjZWNHVFeERZb2w1UlQ3X2M5YlBtMFlHQ0lNZG1xNExQeTl4VVZ1dzBUeTRlNTd6TkhZNkVmS3Y2V2pXY2xVMVVkRTJVLXlpQVJWcElfYzFOMVdfaFR2RG9xMWRlaWJReklnQTJVVU5IUUg3Wnkwd0pRZEJiNC1kNk1hWkhtcVNYbmdIa0Zha0J4SXc4TkFVRi1xY05QcGRQaG1uaDRvV0VzVjdfQmh6TjlnSldfdHkteFc5b3BrNkpwdHFJTDhFbnkzS1c?oc=5",
+          "date": "2026-07-08T20:25:42.000Z"
+        },
+        {
+          "outlet": "The Hill",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPV2NKYVl5RlZReXl1MU5aUnZpRHBCbmpIMmdLQ3hGTmZVamFBTHgyeUl6UmxuSjIxV0FuQUFycnRoZzVtWUNqOGR0NnhQUWd1VE41YVh3Q2dwbWdqZjcxVXVyeGR1blFtU3d4UV9KMkIzaUpKWWg2b0Yyamc0bE1FdzE4ZXcybmgwV1ZDdjl3RXFMSV9DZ0lrY19yemR5bDJFLTJKS29OQWJCd0d1R19jS2pxbVVKdlIwSzcyVUlzYkVZdGtYbVpYQVJKd2lpTjhlRmgyVjd5MUvSAd4BQVVfeXFMTVl2SldEUTlKMHRMMlRjdl9VNWsyUUI0dTFtdzdFY1dJLTFPLUpza1JfN3paSXdDUklxM0JWYUN6Z1dKcEZrREhLUzBMbTl0LWY2d3M5TkJFMExNYUllSEI3X2hSejlRbFFkdThtTnoxUzZiWTVqdHdHMHRYcjFqNkZwbXJwbWF6NzJwd2prWDBGS2pCZV9GSkdWNFJmeEc1OTJhQkpySTFleGd4dk9fSjFPN3RGdGZIVkF2U0RselRKVzhlNzc3Sk82TzRvWlA0V2hUa3pMd1ZybGhaVW53?oc=5",
+          "date": "2026-07-08T20:36:00.000Z"
+        },
+        {
+          "outlet": "National Desk",
+          "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxQMi1kZkwybl9yV3NNTlhvbkJ2R3dsYXB1NkJJemw2a3lFN3R1bGEtSzJMTDFnc2FJbmpkdUJkb1l4M1JGRmpsV2pzV0RpZzVNbFhvYnlWbTRsd0g5ZEdWbVR5ei1xb0QySUR6bl9pYk50ZExQRG4tVkxMbk40UE1ybnpaZkc5V2FWeHRjY0NqVV9LbUJ5VURQaklMUDBXUHBkQS1fOXVxbTNLMlhaYlloWFBreW8ybDdFaWNBOGhGSVFJcmFxZ3V5QXJOLWhNa0t0RXNqZURfOGxUUGk0cmdTTldIdTNYcFRIeGJsZTROS3NyN0d3b1RLYTYtMXBnV3lHUTdrSml4WENkNF9VUHU1RVlQLU95c25DNlplNTdJa2dsenZIN1Z2Z0MzNHFsTDZieEFDY3pjNjBaXzhCSG1iRkdnTkxodi1ncVB2cl9oZVdYcFRBN1JNUlZEZGVCdy01VkZSZ2tJS3h4Sk9JaGV2bVludm93WEhnZHVidkk1czhCNWdBelE?oc=5",
+          "date": "2026-07-08T20:39:47.000Z"
+        },
+        {
+          "outlet": "KOMO",
+          "link": "https://news.google.com/rss/articles/CBMi9gJBVV95cUxQV1I5d2NSYW41Znk0dEl5OW1SWjdtOGhNVkpXUFdyT1o2ZElxNGZ2VDc3NEllUC1rQkJ2SHJsTUM0cnBoVmxia0dGZ2tDbzhMNlFqVTJpVkVoNFdyTjAxWHpsN1p2UVBmb3ZtaGgyQ0lMa3VPNW1rUl9JOUhuWFFQVzgyS2Zha1VNN3U3enpwT3NZRlU0UEtkSEtTUXVibmRLdmo0bVNFekt0VldVcmpNM2JRd0Q3MGlUZlRwLUl2SlR3U0lFeXBlVFZLaWxiX3JwbGp1bUVCTVJzejVVdVFaUk5tRTJ6RTZnYldySWxwMF91X1VUTjBuNUw3dUhzNzNJeENRMVRPUmJzOFJVUlg1Q1pWaUtQVWRLWDVRYmVqUkVaa1dMVEtaX3o2VnJOY0RESnRMZHVtR250M19Pc0ZtejBSaDVQb1RmVWgxZzd0WTFaQ01ZakdFdFl4UFh1SFQtSEtCQjBHWV9uS0RnRVZzNlNWRjdMQQ?oc=5",
+          "date": "2026-07-08T20:41:41.000Z"
+        },
+        {
+          "outlet": "The Media Line",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM1F3cWhTSXlId2phN1U5cHhfbjJ3MUp4czFPYUstbUsxSTZaMkJuZlhlX3NYQWpUTUNsYmMzSVNvbTNOcW1xRl9aSmJCb0tPeWplYXdHUlNGalVfWXZKV21vRFVaY2NmNmp4aGNac2VaaDJJUVlCWlA1dF9OdzdhejJ1VDZaUTdSUjFOMnRJQWZIRjZaNHV4QXpHN2JHZ00wVkdHYThxbTY4dw?oc=5",
+          "date": "2026-07-08T20:43:43.000Z"
+        },
+        {
+          "outlet": "France 24",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWFE5N0VjQkdvYkxCVE5PdTZhRHdKU0FJVGZEOG0yVDhhRjFOczcyM0xrWlNBN2xuNlZOaHA2SlF0dm1BZzliRk9PZC1kSWdsd2VjcTdXeXlvWlJKNUw5d09jaWxEdjN0U2xlT0REWEpPYWNJQV9jdFNSOGZmVjhTSDI4UFdELU92UzF1TThwZF9TeV9UWllNWnhQbU1fQ2U4WHUyM1hFVTFGRVk?oc=5",
+          "date": "2026-07-08T20:55:14.000Z"
+        },
+        {
+          "outlet": "France 24",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeU1udEVXZ2FET25vY0JSb1djR0daOGVJTzRkNlY5X2otbm9ZcVRLUGlxUmkxOE8zWlNNeWxwazc5ZHgyM3Q2VDlTcTVfdXVJcFJicHJwbkFUZFE0dnlSLU5VR1gyak1tWXFJR3dWS2ZJX3ZTRGk1UGdQQkV3ZHFDbjdTQm9IcUpIOU5zMkJvNEh3UzRWa3A5VkF2SjRfUUZBZmh1X01wWDUwZ3ZBeHdkTEdYSzc1TDVYVDZaYkpWdURNN0J2aWUycVh5MVZ4Uk0?oc=5",
+          "date": "2026-07-08T21:08:07.000Z"
+        },
+        {
+          "outlet": "KFOX",
+          "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxQTjhmTGpnaDJvQjVuTmFHVV9STVdSUWNGU25QYm1VdEFtOVFhZHRwTG05RThld3hpV2JEWnZyNFl3N21HOHZlTW1nZ0tBUk9yVlFkVkQtRUZuaTgwcHNNaUk1a3ZvM3hkYVM1NUl1ZmlHRHdCTjNPNXBzWkJuZWpXYy02MlJSc0E4M1ZkNWR5bUJpbnVQNU9EbjRMTUMxR1BXVnZqYUpDWEcxNGRLQkpzU2NNcENkODNZMUdEWmZkc0RWX0hPdU1wc0oydWp4ckhXWGpaNGJBSUFBWm1jcHV1VjZjZU1kUzNXNE10ZzFrRTUyUXJ6YzFFa1N5cHpPTnVJaHo5MWV2ZHhjN0diRk1ZM19vdTRlSUdSMXpWeWZvTXBMRzNFR0c0TlZVbXNuN0RuejFHSDM3Y19jZjhCQlJyWWhRMWlXSmdleTZ1bURSZkpqZUVKaEtvQVR3eFJPWjFNUjNlSGNyQVBLZlZVeHpqTzZlYw?oc=5",
+          "date": "2026-07-08T21:15:37.000Z"
         }
       ]
     },
     {
-      "time": "19:18",
+      "time": "21:59",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Live updates: US conducting new strikes in Iran after Trump said ceasefire is ‘over’",
+      "outlet": "CNN",
+      "source": "Hormuz",
+      "date": "2026-07-08T21:59:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbUJvWmM1dG1ldjh4TmdlYUJyTVRiWjhIVUFqcEJIVzcwdVJOb2c0ZlU2V3gxaktFWU9acnkzMGNDUHcwTEtPR2lJQVpaYjd1SU50UWpWUEdLNXBzWWZQbC1LcFBmMjNSRGRQMnRWYTAtRVJydTEwZ1dHMVlfdDVQNl9DMVNxVnlX?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "us-launches-new-strikes-iran-trump",
+      "first": {
+        "outlet": "South China Morning Post",
+        "date": "2026-07-08T21:42:54.000Z"
+      },
+      "also": [
+        {
+          "outlet": "South China Morning Post",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaS1nSmdEWmZVaUxzMzZDNXJ2amJodE9OanFCbjJXRDFLWHFpc1AyVFo0ZG1qTWlWbnJOMXFZd3ZDRTA4d0Qwd1VYci05ZFlPZkNjOUI5Z2c0SG03cGhFcnF2dUN2RFpENGs2VkNHOHY3ekdURHlxUThDNWtSZERPZUJpUjh5R0VwRktwVy12WVVyc3dEWmM2d1NYaER3UE0xQlZqYV9GVkVVZnpxbHR2RzlZbDTSAbQBQVVfeXFMTlVNRnRGRmp2M1hGdThYZ21iV3JUbDFDazRDUEtVTDR5dWlfNFVXMGRuMDNhMUx0RnBjNUNhSXdyaWl5UWJFaEVuRGJTRnBxcWota05jVWZwdHlMN0taQWFWMWRZb3l1RHE4RjE3eFVZUXpRekpaQWh3ODJfR3NrN0pOZGs0LWd6aWoxOUk2NlVmN2F2NzVtb2RXdHRaVXl3Um9fV0FpbWh3bEkxRVgwc3ppbEVR?oc=5",
+          "date": "2026-07-08T21:42:54.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:37",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "U.S. strikes Iran for second straight day amid Strait of Hormuz tensions",
+      "outlet": "World Oil",
+      "source": "Hormuz",
+      "date": "2026-07-08T21:37:24.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0EzMk5PYnV0ejlfc092YlZCVXNPeXlINmR0V1VVNl84UmEyT2VBS3dNMGNiUkpvWk9aNzRwbHAzX2ZLZFZBSmF6RkNBSXM3MXg3YzVYUE9oa0pGQmVtVDZuem91REx2RUpGYjlRYlpydzV4aUtqNXlhSXhyME9rZC1NY3hicVlRWExSRU9URUtrSkg3S1R6MnZXQWt1R0dJOTJ2MV9qMW1HT00?oc=5",
+      "cluster_size": 5,
+      "cluster_id": "hits-dozens-iranian-targets-retaliatory-strikes",
+      "first": {
+        "outlet": "CBS News",
+        "date": "2026-07-07T10:15:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0xMeTgxMmpSdFlramJmMVhMaVJieVh2Q2N4YmJkMm1MSk03QVcteENWQjFjblJhcEJkNTJ3V0JYLUg2YlUzNzRmbFFEZVlYZHFTTTFDZ3pKZUhsaHgtellmUFpESm03WWZIcEJSUnNkUUhiRlp2bGcyempZR1U2U0VqTQ?oc=5",
+          "date": "2026-07-07T10:15:00.000Z"
+        },
+        {
+          "outlet": "The Times of Israel",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOME1UaVNXNlB2eEJhM19JTzN6bUg4SjR4X1dra3BzdUlRMkREbUtLdXQwQWo5bUV5bV9ZR0dtZGtKUm5VMDhoTk9vQWhZemlzR2tqN0xvWl9QZVJhaVZCLVdGYktKdG41M2NuQnJ4WUgwS0NvUHBsWlhnakk4WVAtcjV2SnpUTThMRHlpaHNBVUtsLVNFSzl4ZXREUlZfWkVZaVdrdkIyemdPa1lIOUFtRnp4NEdxNVFvX0ZFUnBZR3VFbEtlclpMaEV2cw?oc=5",
+          "date": "2026-07-08T20:16:09.000Z"
+        },
+        {
+          "outlet": "Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMmdkUDRzck9tZDdZWkZPd0g3QUc5elZZYWY4OEFIN2VNYU9raE9ueHdhaDZycnhhcF9Lbk5MZ2dxRmppaXJodUVWTTJCU0pDanNEXy1rZlFMOUd5ZlR6NlpYNF9zN0Z5LV9xUE9ld0J1OEpKT2lBTlRGal9iWGpCeXNWRG5aWVV2YW9jd25WTk93Qk1YeFpqbXdjQ3pmLU9SV1BobkNVWDh3cmQ0dEc3VA?oc=5",
+          "date": "2026-07-08T20:20:45.000Z"
+        },
+        {
+          "outlet": "Axios",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaHF6V3h6aFdrUm9hN1BGeHJrUzdBVzAwSThGZUdMMUJMbHJqbldwaEVFdGk2aXNkbDVpYlRyUVRmdnNTckE3SXVRc2hXWWtxWlVLMWNJWDRyRnNSeEc0VXBueDU4MFZjWVpxQVY3WDQ4T0ZHU050M0FiUngteklKVUQ4Nk5RNnI2THE0cQ?oc=5",
+          "date": "2026-07-08T20:25:20.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "US strikes Iran after ceasefire ends, raising fears of escalation",
+      "outlet": "WPTZ",
+      "source": "Hormuz",
+      "date": "2026-07-08T21:30:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOVgyNHhPMVFmNEhzc1ljWWlWV3VubllmVXhWYjREb2NoeUNpR3llLUZkdkdBVXpwRmUwckwxQTNhVW9mMDZ1QTNEM2JlRndLalctRWJzOHdKcFFJUDBkR0xsd0lwc0J3Zk42NWMtNzd0UWNXUEhHTl85RktINDQyUEk0Zm53SGtJdE1F?oc=5"
+    },
+    {
+      "time": "21:28",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Prediction Markets Keep Betting The Strait of Hormuz Will Reopen But What If This Is the New Normal?",
+      "outlet": "International Business Times",
+      "source": "Hormuz",
+      "date": "2026-07-08T21:28:43.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObUhnUGVoNlVGMTJjYmVEM0syMm15Qkpwc09wWE5hUjBjN2hSNlZka1FaZ1FIeWF1enBPQ2JtbHdXd1U3WVhhN2gzM2R4R0Q1N3ZoTnFtYTR2RFRWLUJXc2pNakY3NWktNGF5ZzB1LTJjQUdveUxNSUxycTdZbEIxMi1RTy1sSm00eEQ5NmlhOU9Rd21vVS05UEdEM0Rid0l4V2l3?oc=5"
+    },
+    {
+      "time": "21:19",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Global Shipping at Risk: Middle East Instability, Iran, & UAE’s Counter-Strategy",
+      "outlet": null,
+      "source": "Freight",
+      "date": "2026-07-08T21:19:53.000Z",
+      "link": "https://www.freightwaves.com/news/global-shipping-at-risk-middle-east-instability-iran-uaes-counter-strategy"
+    },
+    {
+      "time": "21:02",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "text": "Oil prices surge, stocks slide after Trump says Iran ceasefire is ‘over’",
+      "outlet": "NBC News",
+      "source": "Hormuz",
+      "date": "2026-07-08T21:02:11.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcFJGM3EyYnhPN3ZsY2hPcmpBMHlaNExqUXJEb0M0QktaazczNDdWSXJ3TFZMY0xsczBHVzktS0tScnVqbzdBVVdZUDFsRDVkcFhyZWF5U1NiV2JWdmxidlh0WmhabmhLc0FoRWdFdWF4dWVWMTBvcU1zMi1wR05xaGF1TmdmMnZWOGZxbmUxaUtfU2JJVkM1SUhmbUhzR01tVWRDSU9QOGlXSVJ4VzNzZWZPMzJlS1NUMlZfcVd3?oc=5",
+      "cluster_size": 5,
+      "cluster_id": "oil-prices-jump-stocks-drop-trump",
+      "first": {
+        "outlet": "The New York Times",
+        "date": "2026-07-08T04:45:06.000Z"
+      },
+      "also": [
+        {
+          "outlet": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYXR6a2t1a0lqUzR4Z1RZaEdpclVreTBmODh3NVBxem04eWdIQ3JwQTJzaUI2dk9zWF9mVHdDcTlfblA4OFhqd2x0Tnptd254RWQ3bE9lMHBoQkNIMzhDOVpmWHBMdTNmRWRubDdpQUk0M0U0V1VqbmJaQnpvYlJ0WTRWNzVvZmRHc1haVkFB?oc=5",
+          "date": "2026-07-08T04:45:06.000Z"
+        },
+        {
+          "outlet": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYXR6a2t1a0lqUzR4Z1RZaEdpclVreTBmODh3NVBxem04eWdIQ3JwQTJzaUI2dk9zWF9mVHdDcTlfblA4OFhqd2x0Tnptd254RWQ3bE9lMHBoQkNIMzhDOVpmWHBMdTNmRWRubDdpQUk0M0U0V1VqbmJaQnpvYlJ0WTRWNzVvZmRHc1haVkFB?oc=5",
+          "date": "2026-07-08T04:45:06.000Z"
+        },
+        {
+          "outlet": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KdF9LdzBqd290ZDZPV2xCYWpwNlFkeFl6alpMNmJqN0ZVT2FleE5pQ09aaWVmaU1qZk96R2RtcXkxal9kdHRzbWpabllxSE1OUFhNbVJadEVOcjNpeEpoYUlnS2l0QnZJS0VrcEVCU3l4b1dwNXc?oc=5",
+          "date": "2026-07-08T12:32:00.000Z"
+        },
+        {
+          "outlet": "The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX2RmNGpLVER2YUdOUEtjVE1QSk0wNXNtcDFzbThsdUliVnA5VmNHbnBsc1hiYkVyV1ByOEtWUTZwdEFQblowa3ptWXV4MXlFdE92eDY3SVVXSjBTNEt1Y01YZ2c1VlR2ZnVwcHdHdVhLcjZHMWQzNUdKS0NzeEVLSFI5WnplUHdReURuSG1xeDlnQmo2cWtDeGRMLU10ZWVRVy0zek5YWGVSVzhTeWxyUzN6Ykg5UkV1cG5DQU00M0tRbEg5endR?oc=5",
+          "date": "2026-07-08T21:01:49.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:01",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Is the U.S.-Iran Cease-Fire Over?",
+      "outlet": "Foreign Policy",
+      "source": "Hormuz",
+      "date": "2026-07-08T21:01:32.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSkhpVGRwYzVialNGczYtYWE1U3U0eE1CTHhhWHJ0Nm1fazg1OGFuakRmcUsySlBiWmJQdG9OcjQ0VlptTHdfRjYyNDVaUmhSbGF1dDROWE05aTBKcGhwYkoxZ2ZHZVRsdDFKeDlPMU1lT3dRazdpc0Z4VzVPRVNPMUJqZ1oyeE0xR1ZsSGc3Ymt2M2QyQXJaZTdPTlR3bzlCX29R?oc=5"
+    },
+    {
+      "time": "21:00",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Oil Prices: Why the Strait of Hormuz Is Driving Every Market Now",
-      "outlet": "Investing.com",
+      "text": "DIRTY TANKER QUARTERLY: West of Suez VLCC, Suezmax rates hinge on cargo conversion as forward gaps test market",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-08T21:00:59.000Z",
+      "link": "https://www.hellenicshippingnews.com/dirty-tanker-quarterly-west-of-suez-vlcc-suezmax-rates-hinge-on-cargo-conversion-as-forward-gaps-test-market/"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "text": "Shipping Market Outlook: Q3 2026",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-08T21:00:58.000Z",
+      "link": "https://www.hellenicshippingnews.com/shipping-market-outlook-q3-2026/"
+    },
+    {
+      "time": "21:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Tailwinds for LNG bunkering in 2026",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-08T21:00:57.000Z",
+      "link": "https://www.hellenicshippingnews.com/tailwinds-for-lng-bunkering-in-2026/"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Iran war live: US forces carry out ‘additional strikes’ on Iran",
+      "outlet": "Al Jazeera",
       "source": "Hormuz",
-      "date": "2026-07-08T19:18:30.000Z",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDBuQ1BhQ2hTdHJWcWZTdEhSaTVhQ09ycFE1b3pQNUN3eG5mMXlhRmczcTBPbmZuVDRzWGtadWtYcnRxUzFZSVdDallGTWhkZm4wVXVkUEJLM3RwZGZQTmZyOU85clozQnkwM20tX3VycXBpZnhRM1lRMDNyaDlCamNoTVkyVnY5Qk85T3ItU2R5bFRwNG92QmlpeEdrR2duYXRGZG5UNDU5X0pH?oc=5"
+      "date": "2026-07-08T21:00:01.000Z",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd2Z4M3hOV2ZEdjBGdnhaLWFnS3JVU3g2S3hDbnE4NnU4Vzkzb081elViZ3VBaEtxZlNmdktwb2c0eW96dldZT1pvSmR3N1RYWFE4UFpqZFIzSlNLMy0xM2dTTVllRmxGUFRMQ0xsbWZNX09vcmJJeHV0ZVlPNHg0NnBfS0JzQ01fa0dncGJKckd5S1dBSU5vXzFoUE5ZdUQxVUhDbG5KaDVaazhydjhERjU5SS1zSVXSAbwBQVVfeXFMUFRKTEtCaGQ3ZlV5MlZoQ05CeThIeDd0Sng5OTZ4aG1JNm8wTmhrbDZFZFJMclI0MUZpWS1jY0hSUHhFN2g2S2RfUndlaFVtMUk4TVl0RWZ1MWZFS3VOQUkwakpFZ3lLYTBGOXFQdkhOc0RDWHloVG1aQW8yQS1pN1NldjlUOXgweDY0aGtOMkxSQ25CdE9tdDN0VW9pOExVOHJvdFJEcjB0empwYTJYbE1PclZaRnNlNnBGSTA?oc=5"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "GrainCorp Pushes for Australia Biofuel Mandates After Iran War",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-07-08T21:00:00.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-08/graincorp-pushes-for-australia-biofuel-mandates-after-iran-war"
+    },
+    {
+      "time": "20:56",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "US launches more strikes on Iran with local media reporting explosions along south coast",
+      "outlet": "BBC",
+      "source": "Hormuz",
+      "date": "2026-07-08T20:56:14.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByMXIxUFdtaTVQaE1MQzVoNzVRUXZQSHhRZDFGUDZxZGtEUDF3QXg3V0VkWWhHdk5WZFFTa190c3V1REdaYUZPOFpFc1NvSmZsdnZSZQ?oc=5"
     }
   ],
   "snapshots": [
@@ -1382,8 +1384,89 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-07-08T20:25:16.498Z",
+  "intel_updated": "2026-07-08T22:13:51.551Z",
   "event_log": [
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T22:01:34.000Z",
+      "severity": "WARN",
+      "text": "Oil Extends Surge as Fresh US Strikes Against Iran Rattle Market",
+      "source": "Bloomberg",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-08/latest-oil-market-news-and-analysis-for-july-9",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T22:00:00.000Z",
+      "severity": "CRIT",
+      "text": "US strikes Iran and revokes oil sales permit after Strait of Hormuz attacks",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSDVmb3pvdGpSeWRqYWZwNWQ0QVRwQXVsZmJDRTRyR2pKY3FVTUhDRW1YcDZaMzB2NzdyRE5QbjhKLV9IaGt6aEU5OGN1M2thLW5xQ3BiVUZPZUMtZGFQMEozbkNjTTNZTS1DSDIzMXhkZXYxYUhvR1lISlh2dVNHdnhRQWxuVUo4WGdrcGw2Zld0bFlTUW50MWIxVDRHMzFZQURqWFRaSWRzb0g2M1BFR2w2TXE4ZmlBNnJqa0t3d2ZoUDB2UEJaVDBxaFVYVGJTUmttX01BNl82a2hQalhicVNoVWJ6bUlTQXRmS29IeURzNGkwb3VLanpQTk8?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T21:59:00.000Z",
+      "severity": "WARN",
+      "text": "Live updates: US conducting new strikes in Iran after Trump said ceasefire is ‘over’",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbUJvWmM1dG1ldjh4TmdlYUJyTVRiWjhIVUFqcEJIVzcwdVJOb2c0ZlU2V3gxaktFWU9acnkzMGNDUHcwTEtPR2lJQVpaYjd1SU50UWpWUEdLNXBzWWZQbC1LcFBmMjNSRGRQMnRWYTAtRVJydTEwZ1dHMVlfdDVQNl9DMVNxVnlX?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T21:37:24.000Z",
+      "severity": "CRIT",
+      "text": "U.S. strikes Iran for second straight day amid Strait of Hormuz tensions",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0EzMk5PYnV0ejlfc092YlZCVXNPeXlINmR0V1VVNl84UmEyT2VBS3dNMGNiUkpvWk9aNzRwbHAzX2ZLZFZBSmF6RkNBSXM3MXg3YzVYUE9oa0pGQmVtVDZuem91REx2RUpGYjlRYlpydzV4aUtqNXlhSXhyME9rZC1NY3hicVlRWExSRU9URUtrSkg3S1R6MnZXQWt1R0dJOTJ2MV9qMW1HT00?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T21:30:00.000Z",
+      "severity": "WARN",
+      "text": "US strikes Iran after ceasefire ends, raising fears of escalation",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOVgyNHhPMVFmNEhzc1ljWWlWV3VubllmVXhWYjREb2NoeUNpR3llLUZkdkdBVXpwRmUwckwxQTNhVW9mMDZ1QTNEM2JlRndLalctRWJzOHdKcFFJUDBkR0xsd0lwc0J3Zk42NWMtNzd0UWNXUEhHTl85RktINDQyUEk0Zm53SGtJdE1F?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T21:28:43.000Z",
+      "severity": "WARN",
+      "text": "Prediction Markets Keep Betting The Strait of Hormuz Will Reopen But What If This Is the New Normal?",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObUhnUGVoNlVGMTJjYmVEM0syMm15Qkpwc09wWE5hUjBjN2hSNlZka1FaZ1FIeWF1enBPQ2JtbHdXd1U3WVhhN2gzM2R4R0Q1N3ZoTnFtYTR2RFRWLUJXc2pNakY3NWktNGF5ZzB1LTJjQUdveUxNSUxycTdZbEIxMi1RTy1sSm00eEQ5NmlhOU9Rd21vVS05UEdEM0Rid0l4V2l3?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T21:02:11.000Z",
+      "severity": "WARN",
+      "text": "Oil prices surge, stocks slide after Trump says Iran ceasefire is ‘over’",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcFJGM3EyYnhPN3ZsY2hPcmpBMHlaNExqUXJEb0M0QktaazczNDdWSXJ3TFZMY0xsczBHVzktS0tScnVqbzdBVVdZUDFsRDVkcFhyZWF5U1NiV2JWdmxidlh0WmhabmhLc0FoRWdFdWF4dWVWMTBvcU1zMi1wR05xaGF1TmdmMnZWOGZxbmUxaUtfU2JJVkM1SUhmbUhzR01tVWRDSU9QOGlXSVJ4VzNzZWZPMzJlS1NUMlZfcVd3?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T21:00:01.000Z",
+      "severity": "CRIT",
+      "text": "Iran war live: US forces carry out ‘additional strikes’ on Iran",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd2Z4M3hOV2ZEdjBGdnhaLWFnS3JVU3g2S3hDbnE4NnU4Vzkzb081elViZ3VBaEtxZlNmdktwb2c0eW96dldZT1pvSmR3N1RYWFE4UFpqZFIzSlNLMy0xM2dTTVllRmxGUFRMQ0xsbWZNX09vcmJJeHV0ZVlPNHg0NnBfS0JzQ01fa0dncGJKckd5S1dBSU5vXzFoUE5ZdUQxVUhDbG5KaDVaazhydjhERjU5SS1zSVXSAbwBQVVfeXFMUFRKTEtCaGQ3ZlV5MlZoQ05CeThIeDd0Sng5OTZ4aG1JNm8wTmhrbDZFZFJMclI0MUZpWS1jY0hSUHhFN2g2S2RfUndlaFVtMUk4TVl0RWZ1MWZFS3VOQUkwakpFZ3lLYTBGOXFQdkhOc0RDWHloVG1aQW8yQS1pN1NldjlUOXgweDY0aGtOMkxSQ25CdE9tdDN0VW9pOExVOHJvdFJEcjB0empwYTJYbE1PclZaRnNlNnBGSTA?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T20:56:14.000Z",
+      "severity": "CRIT",
+      "text": "US launches more strikes on Iran with local media reporting explosions along south coast",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByMXIxUFdtaTVQaE1MQzVoNzVRUXZQSHhRZDFGUDZxZGtEUDF3QXg3V0VkWWhHdk5WZFFTa190c3V1REdaYUZPOFpFc1NvSmZsdnZSZQ?oc=5",
+      "auto": true
+    },
     {
       "date": "JUL 08",
       "date_iso": "2026-07-08T20:20:00.000Z",
@@ -1427,6 +1510,15 @@
       "text": "Oil Surges on Renewed Iran Strikes",
       "source": "Rigzone",
       "link": "https://www.rigzone.com/news/wire/oil_surges_on_renewed_iran_strikes-08-jul-2026-184093-article/?rss=true",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T19:53:43.000Z",
+      "severity": "WARN",
+      "text": "Iran war back on after Tehran attacks in Hormuz trigger Trump to declare ceasefire 'over'",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdDRTYTBtQWNDQTM3bS1sS1NydGxYbWd3bmtBamM2QTIyNTVEZ3lHWGdFYjBFdmxtMThWbWNmOTVFODZTM2pjU1FqVklOR1lkQ3UtcU5MdEFEWUFMZGJMeVRHS01QenpIUjB5YkJoNGFaQV9NaUxGMjgtY2pHQk5YN0pudU1aZ2pK?oc=5",
       "auto": true
     },
     {
@@ -1503,6 +1595,15 @@
     },
     {
       "date": "JUL 08",
+      "date_iso": "2026-07-08T18:06:28.000Z",
+      "severity": "CRIT",
+      "text": "U.S. military launches new Iran strikes as Trump says 'not sure' he wants deal",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOclV6TVN4c2RNazFjVFJuczhJN3Y0bGp0alRJMEk2VVpITDlOTWtMS2lRTFZiaVBSVDFIS3RaN2t3NktGVDBHYWVmRDVwMXpiZDZ6RjBVaUZsbkM4b2JGdlJDTElFRVc5SmZJalJoTS1fMzhVZTFKYVloZm5GRmhTaW50cFFLaVXSAYwBQVVfeXFMTnVsMWxYUDhpQ1Z6U2liVXc3SGZVc2RtVGJnTHhFU3RrZFVWamdBak9BdlBkS05URHlQdE9wZ0l2OTU5OWhVdE9nNkx2a0szQ2hqLUFhMWVEYWNKZ1Z4UXBNajQ5c0hGSnctWld4RGRvZmVWQWVwMzZSak9abWkwZTI5ZFpiYUM2MmttcDc?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
       "date_iso": "2026-07-08T17:49:34.000Z",
       "severity": "CRIT",
       "text": "Iran threatens to completely close Hormuz strait in response to renewed attacks",
@@ -1526,6 +1627,15 @@
       "text": "Iran war live: Trump says US may ‘de-nuclearise’ Iran ‘without a deal’",
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd2Z4M3hOV2ZEdjBGdnhaLWFnS3JVU3g2S3hDbnE4NnU4Vzkzb081elViZ3VBaEtxZlNmdktwb2c0eW96dldZT1pvSmR3N1RYWFE4UFpqZFIzSlNLMy0xM2dTTVllRmxGUFRMQ0xsbWZNX09vcmJJeHV0ZVlPNHg0NnBfS0JzQ01fa0dncGJKckd5S1dBSU5vXzFoUE5ZdUQxVUhDbG5KaDVaazhydjhERjU5SS1zSVXSAbwBQVVfeXFMUFRKTEtCaGQ3ZlV5MlZoQ05CeThIeDd0Sng5OTZ4aG1JNm8wTmhrbDZFZFJMclI0MUZpWS1jY0hSUHhFN2g2S2RfUndlaFVtMUk4TVl0RWZ1MWZFS3VOQUkwakpFZ3lLYTBGOXFQdkhOc0RDWHloVG1aQW8yQS1pN1NldjlUOXgweDY0aGtOMkxSQ25CdE9tdDN0VW9pOExVOHJvdFJEcjB0empwYTJYbE1PclZaRnNlNnBGSTA?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 08",
+      "date_iso": "2026-07-08T17:41:25.000Z",
+      "severity": "CRIT",
+      "text": "US carries out another round on strikes on Iran",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX3V0QmVqN2pFajJSVUFTa1F5dGd0b3JqUWtsd0l0UG1oUXhKMFZMX0ttU0N1ZmtoaGl6SkxTZVZIUWtDWmdHQmpxdERtUWkzNUtFb0ZyRmxPLWxSWWxQVENBM2FyZ2RVV0dfLXdBdVQzYmhjbXZpSmpnV1YxQzlGWlFTZjNWeXY1TTc4WlYwYTJDRll2OW1sUVViLVdNOWZjYXg5d3hYcw?oc=5",
       "auto": true
     },
     {
@@ -1724,114 +1834,6 @@
       "text": "Trump Administration Reimposes Iran Oil Sanctions After Strait of Hormuz Ship Attacks",
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQN2Q1UWhOOGVnSVFWN1JfSDZjcW5lNmIwaklMUFZjVlRXbnBKNk9hbGZKY1BlUjJUM2MwNjNuSWpYckNCTFowaEJrd0JSZXhoZEEzTFBQcEp5OE12SVMyRjZ1ZkFSREdhV3I0TWFkSnNhRWt1d0JDNEI0UVNTY3ZpeENpMmlaRDBuZml0dmN3Y0d4c1Myc2JsWHNLaExTX1R4aVZoN1E4eVJHQi1md1lmWGdYVnRRdU9XYnZSdzZNSEswRnRlUTd0SWVlV0Z0bDg?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T14:48:00.000Z",
-      "severity": "CRIT",
-      "text": "Make no mistake: Why Iran's nuclear future is at the heart of the Hormuz wars - analysis",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kYjMzN2Jydm5GUnpNQnRnSGFfYWhJODcwX3BFOHctdmgyUnVnRVl5a1hpRXZ0MzNHaW9Qbm1vWl81T1NWSmVxdnBoR3FNbGxNVmwtSXZNV3QwbFBSTnZQWWNqUkNmdXl0eVE?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T14:44:24.000Z",
-      "severity": "CRIT",
-      "text": "U.S. and Iran launch fresh strikes following attacks on commercial ships",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNY1o5OHkwY0twdzRvVmpHd1IyVXQyOWNObEpxcEJEaS0xSHQ2UDhRRnJ1bURnNlZKb05VWlI4SXFrRXYxZE03ZzRQV2JTTWRjN0FhZU5ZSWRPdl9CTjl5QjljS2Z2Z0hsZzBfLXB0NFpoalZPSGU2aU1zWkxUUDVETV9NcmtCb3RlZ19JUWdDbDlLeHlEWmFoZnFkNUdRV1RXSGdQN0hZTnNuRTNEWERXbTdJOVVGZw?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T14:19:58.000Z",
-      "severity": "WARN",
-      "text": "Iran war live: Trump says MoU to end Iran war is ‘over’",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd2Z4M3hOV2ZEdjBGdnhaLWFnS3JVU3g2S3hDbnE4NnU4Vzkzb081elViZ3VBaEtxZlNmdktwb2c0eW96dldZT1pvSmR3N1RYWFE4UFpqZFIzSlNLMy0xM2dTTVllRmxGUFRMQ0xsbWZNX09vcmJJeHV0ZVlPNHg0NnBfS0JzQ01fa0dncGJKckd5S1dBSU5vXzFoUE5ZdUQxVUhDbG5KaDVaazhydjhERjU5SS1zSVXSAbwBQVVfeXFMUFRKTEtCaGQ3ZlV5MlZoQ05CeThIeDd0Sng5OTZ4aG1JNm8wTmhrbDZFZFJMclI0MUZpWS1jY0hSUHhFN2g2S2RfUndlaFVtMUk4TVl0RWZ1MWZFS3VOQUkwakpFZ3lLYTBGOXFQdkhOc0RDWHloVG1aQW8yQS1pN1NldjlUOXgweDY0aGtOMkxSQ25CdE9tdDN0VW9pOExVOHJvdFJEcjB0empwYTJYbE1PclZaRnNlNnBGSTA?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T14:15:00.000Z",
-      "severity": "CRIT",
-      "text": "Trump threatens to launch ‘big attack’ on Iran, resume naval blockade",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRktzMU5MNnVIMHhheXFkdTAtWm1lb1gwLTFBVDB4dWE0R0ZGUjByblA1Q1dJNjVCcVNfLVRBTlAzUFdiZU1aOUlpeUdUaC1OVHhIRGhMZWxxMktIYVhvbHFvbzVhR0tRNlpxZjVCUEg0WmVSaEVqRXJKYnFCN1l2WHRVTEptSTjSAYwBQVVfeXFMTkR3cFpFdzFFQ1hJMTcxbGJTYTl0Uld6Z0RTRFJSSDdfOV8yMEhZQ211Ul9DYU5QcDlpSWxicDlhc0NxZl8zaTN4d041aUJXcVVCeGhTOWpZQUF2LVd1aHc1bHhkQUkwY1lhVVFoRFZueHRkazYwMldZbkc1ZlRzckJ0dEpUSlIzdDNHWks?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T14:14:25.000Z",
-      "severity": "WARN",
-      "text": "Trump is playing with economic fire by calling the peace deal with Iran ‘over’",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB5Tk9GdGtTbEt3RWRLUUNXbUdKRXQ4a2xYcWpwUEpnT3M2Q3JxZ2UzRzc2RGRRNldVVnBLbGxfT3diVEtqX0ZPZjNVVTgySi1HbVhSQ3BEMVR6aW5iV2lxU0NvNHlGdjhlbkpjY1NkcTRSdkdVajd2R2tuUQ?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T14:13:41.000Z",
-      "severity": "WARN",
-      "text": "Trump Says Iran Ceasefire Is \"Over.\" Are Fed Rate Hikes Back On the Table? - 24/7 Wall St.",
-      "source": "Oil",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSVNpMkJqRFY2emM4c0l5cFZ1MjBodFduZ2trcWlxVGJ3YVhfd1VJV3V1N1FoT2pCaFA2OVFBMzhNSlhPemRhYUlxUFFfZW9mT1dsZVc2c0JUZDZGanFMMXhXWm1SaG5xeWNPM2NEWUpYd295bU5KdHd0YVZiZ2QzU1ZPaVRzM19oUmFRanBCTlBad2E2SHBUYlFpTnNZR2tBcllXcjc2clItOVVlNEZnNWRhakI?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T14:13:16.000Z",
-      "severity": "CRIT",
-      "text": "U.S. launches strikes on Iran after 3 ships attacked in Strait of Hormuz; Bahrain and Kuwait targeted",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQV3laLVhnR2JiNlBLZWNBNXJvM1JtNUhoUFV4T21fS0R4c2k4RUl4VTM2Zl9KOWtMcExaUkJTRU95R3R6TEtmMzJEWndGV2xGT2l4anNkNnd1Nk42VnB6M09LZnFiTFBBSWhGWU9mXzRIREFudWRxa2E1X3dJSDFZcXAtMzdKVWlyMjdiYWYydDcwdWlKaTVVUjM0MUhaMnlLdHBMQ3REUWZZUDFjeGttLUZvYmctSFhBLXJCb0paYm5tbnkxU2t4RVZuZFNaQXJsVkFUSEQzYWlWcnFHRE5KMTZhZnlvQlc2QnJ1NkJEX1p0WTNCdXdYdXdEWHg?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T14:12:14.000Z",
-      "severity": "WARN",
-      "text": "IMO Urges Ships to Avoid Hormuz as U.S. Strikes Iran Over Vessel Attacks",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZWdsY1NGaWRqU2s1RzcxTlUydVJ6bHJ1aFRJbW9DclRGY05jWkJ3ZDAya3NSSW44VTktTkc3OEhuaFkxLWZpX0lkcEEwdmhZOXpXaVNNSnlydXNQdWcwTWtydUMzcG9CSXhUcWFycjZRV3A4ZHJFWXlTSEtJNE1LT01vZXU2ZnhlLWpGa0FLMlRHbWFOUGw1TQ?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T14:09:00.000Z",
-      "severity": "WARN",
-      "text": "Oil prices rise, and stocks fall worldwide after Trump says ceasefire with Iran is ‘over’",
-      "source": "Oil",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM255ZEIteU82bFZRNFpWYW9fTTlFaXdIajdXbjBYNmEzQTZBNUdXYjNjTGxTRm02S0NUQTBDa2lmYndWOV9sN3JqVFFvemRIaXhXTXFEdlFiVDB3cnc2b09hVF9Pd0dBVWhLMWpsV0UzV0NGQ194SFNVRjZBdGJRbExDN3dyVWROTFJscg?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T13:54:46.000Z",
-      "severity": "WARN",
-      "text": "Stocks slump, oil surges after Trump says Iran ceasefire is over",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KdF9LdzBqd290ZDZPV2xCYWpwNlFkeFl6alpMNmJqN0ZVT2FleE5pQ09aaWVmaU1qZk96R2RtcXkxal9kdHRzbWpabllxSE1OUFhNbVJadEVOcjNpeEpoYUlnS2l0QnZJS0VrcEVCU3l4b1dwNXc?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T13:48:41.000Z",
-      "severity": "CRIT",
-      "text": "US-Iran MoU close to collapse as attacks on Gulf states enrage Donald Trump",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1DMEpWblF1cWRseDlzQVBtT0FXd0tBMkFjWC1SQXk2QTZ2ejdUSkhhVHBSV3ZnVEpZTnZxU1FtY0NPTW1zZldhbVl2cGlpd1dtZVdiQ2p3REV0bm0w?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 08",
-      "date_iso": "2026-07-08T13:47:04.000Z",
-      "severity": "CRIT",
-      "text": "Qatari LNG tanker awaits salvage off Oman after projectile strike",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPX0wtak4yR1c5V1VydHktZHRDdncxdk5FSFZFYl9PZ2RxRDR0eFZfVTdhU05ha0c2NWlHa1FQcWlnVjlGb0E3MFdCU2RZVWxCRFNocnl5UVZWakFTOTdfQjJreTRVTlBGMjdJUDA2ODZKSzZ4UFFQSUozdkdJVkp3WFRadV9WQ09UaHQzdW1uc3FoallwOEZyVVF6Q0g3aU9hWWtkcm1IZDJiT0JlaDBucVM5TU9yYllM?oc=5",
       "auto": true
     }
   ],
@@ -2855,7 +2857,7 @@
     },
     {
       "t": 1783483200000,
-      "p": 78.93
+      "p": 79.18
     }
   ],
   "chart_wti": [
@@ -3865,7 +3867,7 @@
     },
     {
       "t": 1783483200000,
-      "p": 74.4
+      "p": 74.69
     }
   ],
   "signal_outlook": [
@@ -3892,7 +3894,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Oil prices rise, and stocks drop worldwide after Trump says ..."
+      "val": "Live updates: US conducting new strikes in Iran after Trump ..."
     }
   ],
   "chart_spread": [
@@ -4902,7 +4904,7 @@
     },
     {
       "t": 1783483200000,
-      "p": 4.53
+      "p": 4.49
     }
   ],
   "chart_sp500": [
@@ -5914,17 +5916,17 @@
   "latest_sp500": 7482.71,
   "vesselCache": {},
   "synthesis": {
-    "updated": "2026-07-08T20:25:16.498Z",
-    "driver": "US airstrikes on Iran and ceasefire collapse are driving Brent higher despite oversupply capping spikes.",
-    "based_on": "Oil prices rise, and stocks drop worldwide after Trump says ceasefire with Iran is ‘over’",
-    "brent": 78.93,
-    "brent_delta": 4.77,
+    "updated": "2026-07-08T22:13:51.551Z",
+    "driver": "Escalating US-Iran strikes are driving Brent up $5, but oversupply limits further gains.",
+    "based_on": "Oil Extends Surge as Fresh US Strikes Against Iran Rattle Market",
+    "brent": 79.18,
+    "brent_delta": 5.02,
     "takes": {
-      "oil prices rise and stocks drop worldwide after trump says ceasefire w": "Ceasefire collapse escalates tensions, lifting oil prices despite global oversupply.",
-      "u s strikes iranian targets in strait of hormuz for 2nd straight day": "Second day of US strikes raises war premium, pushing Brent higher.",
-      "iran war latest us begins another round of strikes on iran": "Renewed US-Iran conflict boosts war premium, supporting oil price gains.",
-      "iran us war latest trump not sure he wants a deal with tehran s leader": "Trump's rejection of diplomacy signals escalation, sustaining upward pressure on oil.",
-      "stocks slump oil surges after trump says iran ceasefire is over": "Ceasefire end fuels war premium, driving oil prices higher."
+      "oil extends surge as fresh us strikes against iran rattle market": "US strikes amplify war premium, pushing prices higher despite oversupply.",
+      "us strikes iran and revokes oil sales permit after strait of hormuz at": "Revoked oil sales permit signals tighter supply, lifting prices sharply.",
+      "live updates us conducting new strikes in iran after trump said ceasef": "Ceasefire collapse and renewed strikes heighten supply risks, boosting prices.",
+      "u s strikes iran for second straight day amid strait of hormuz tension": "Second day of strikes intensifies supply fears, sustaining upward price momentum.",
+      "us strikes iran after ceasefire ends raising fears of escalation": "Ceasefire's end fuels escalation concerns, adding to the war-risk premium."
     }
   }
 }
