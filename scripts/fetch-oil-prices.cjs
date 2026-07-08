@@ -221,8 +221,14 @@ async function main() {
   var brentP = brent[0] && brent[0].value ? parseFloat(brent[0].value) : (existing.latest ? existing.latest.brent : null);
   // Prev = prior day's stored value (one basis: previous close, not EIA weekly steps).
   // EIA weekly [1] only as a cold-start fallback when no prior latest exists.
-  var wtiPrev = existing.latest && existing.latest.wti != null ? existing.latest.wti : (wti[1] && wti[1].value ? parseFloat(wti[1].value) : null);
-  var brentPrev = existing.latest && existing.latest.brent != null ? existing.latest.brent : (brent[1] && brent[1].value ? parseFloat(brent[1].value) : null);
+  // Prior close = the PREV field the hourly intel fetch maintains from the
+  // chart's prior trading-day close. Do NOT read existing.latest.brent here:
+  // intel updates that to today's live value intraday, so using it as "prev"
+  // zeroes the delta whenever the daily run lands after an intel run
+  // (observed 2026-07-08: /why-are-oil-prices-rising showed "up $0.00" during
+  // a $5 spike). Falls back to the EIA weekly [1] on a cold start.
+  var wtiPrev = existing.latest && existing.latest.wti_prev != null ? existing.latest.wti_prev : (wti[1] && wti[1].value ? parseFloat(wti[1].value) : null);
+  var brentPrev = existing.latest && existing.latest.brent_prev != null ? existing.latest.brent_prev : (brent[1] && brent[1].value ? parseFloat(brent[1].value) : null);
   var spread = brentP && wtiP ? +(brentP - wtiP).toFixed(2) : null;
 
   // Crisis Score v2 (methodology updated 2026-06-11). v1 was price-only
