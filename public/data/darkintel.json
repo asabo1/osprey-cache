@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T16:28:19.518Z",
+  "updated": "2026-07-09T08:28:07.744Z",
   "sources": {
     "portwatch": {
       "ok": true,
@@ -405,17 +405,17 @@
     "adsb": {
       "ok": true,
       "sample": {
-        "total": 63,
+        "total": 55,
         "military": 2,
-        "mil_method": "dbFlags_truthy",
+        "mil_method": "dbFlags_bit1",
         "types": {
-          "unknown": 13,
-          "B738": 6,
-          "A21N": 5,
-          "B38M": 5,
-          "A20N": 4
+          "unknown": 12,
+          "B738": 5,
+          "A320": 4,
+          "B789": 4,
+          "TWR": 4
         },
-        "observed": "2026-07-08T16:28:19.518Z"
+        "observed": "2026-07-09T08:28:07.744Z"
       }
     }
   }
