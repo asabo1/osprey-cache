@@ -135,7 +135,7 @@ function fetchText(rawUrl) {
     var opts = {
       hostname: parsedUrl.hostname,
       path: parsedUrl.pathname + parsedUrl.search,
-      headers: { 'User-Agent': 'CrudeSignal/1.0', 'Accept': 'text/csv' },
+      headers: { 'User-Agent': 'osprey-cache/1.0', 'Accept': 'text/csv' },
       timeout: TIMEOUT_MS
     };
     var req = https.request(opts, function(res) {

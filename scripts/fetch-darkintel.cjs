@@ -37,7 +37,7 @@ function fetchJson(rawUrl) {
         hostname: parsedUrl.hostname,
         port: parsedUrl.port || undefined,
         path: parsedUrl.pathname + parsedUrl.search,
-        headers: { 'User-Agent': 'CrudeSignal/1.0', 'Accept': 'application/json' },
+        headers: { 'User-Agent': 'osprey-cache/1.0', 'Accept': 'application/json' },
         timeout: TIMEOUT_MS
       };
       var req = lib.request(opts, function(res) {
