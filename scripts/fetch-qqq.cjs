@@ -19,7 +19,7 @@ const OUT = path.join(__dirname, '..', 'public', 'data', 'qqq.json');
 
 function get(host, p) {
   return new Promise((resolve, reject) => {
-    https.get({ hostname: host, path: p, headers: { 'User-Agent': 'CrudeSignal/1.0' } }, (res) => {
+    https.get({ hostname: host, path: p, headers: { 'User-Agent': 'osprey-cache/1.0' } }, (res) => {
       let d = '';
       res.on('data', (c) => (d += c));
       res.on('end', () => resolve(d));

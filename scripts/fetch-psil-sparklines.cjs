@@ -17,7 +17,7 @@ async function fetchWeeklyCloses(symbol) {
   try {
     const res = await fetch(url, {
       headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; CrudeSignal/1.0; +https://crudesignal.io)",
+        "User-Agent": "Mozilla/5.0 (compatible; osprey-cache/1.0)",
         "Accept": "application/json",
       },
     });

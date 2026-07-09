@@ -17,7 +17,7 @@ function getYahooChart(symbol) {
     https.get({
       hostname: 'query1.finance.yahoo.com',
       path: '/v8/finance/chart/' + symbol + '?interval=1d&range=1y',
-      headers: { 'User-Agent': 'CrudeSignal/1.0' }
+      headers: { 'User-Agent': 'osprey-cache/1.0' }
     }, function(res) {
       var d = '';
       res.on('data', function(c) { d += c; });
