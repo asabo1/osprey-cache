@@ -67,7 +67,7 @@ jobs:
           python3 - <<PYEOF2
           import json, urllib.request
           h = "crude" + "signal.io"
-          urls = ["/", "/hormuz", "/markets", "/oil", "/answers", "/data", "/posts",
+          urls = ["/", "/hormuz", "/markets", "/margin", "/margin/trucking-mile", "/margin/pizza", "/margin/coffee-bag", "/oil", "/answers", "/data", "/posts",
                   "/is-the-strait-of-hormuz-open", "/why-are-oil-prices-rising",
                   "/is-the-iran-war-over", "/how-much-oil-goes-through-the-strait-of-hormuz",
                   "/crude-oil-inventory-report", "/brent-wti-spread-today",
