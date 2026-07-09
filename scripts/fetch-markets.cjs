@@ -65,6 +65,7 @@ const SYMBOLS = [
   { key: 'cattle', sym: 'LE=F', tier: 'resources', label: 'Live cattle' },
   { key: 'rice', sym: 'ZR=F', tier: 'resources', label: 'Rough rice' },
   { key: 'oj', sym: 'OJ=F', tier: 'resources', label: 'Orange juice (FCOJ)' },
+  { key: 'soyoil', sym: 'ZL=F', tier: 'resources', label: 'Soybean oil' },
 ];
 
 function get(url) {
