@@ -16,9 +16,9 @@ const path = require("node:path");
 const crypto = require("node:crypto");
 
 // SEC requires identifying User-Agent (company + email) per fair-access policy.
-const SEC_UA = "CrudeSignal-PSIL Intel Bot asabo413@gmail.com";
+const SEC_UA = "osprey-cache-bot/1.0 (+https://github.com/asabo1/osprey-cache)";
 const DEFAULT_UA =
-  "Mozilla/5.0 (compatible; CrudeSignal-PSIL/2.0; +https://crudesignal.io)";
+  "Mozilla/5.0 (compatible; osprey-cache/2.0)";
 
 // Per-ticker SEC CIKs verified against https://www.sec.gov/files/company_tickers.json
 // Form: 8-K for US filers, 6-K for foreign private issuers (Canadian).

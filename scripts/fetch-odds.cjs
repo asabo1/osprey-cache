@@ -23,7 +23,7 @@ const MIN_VOLUME = 500000; // USD lifetime; below this the "market says" framing
 const MAX_SHOWN = 4;
 
 async function getJson(url) {
-  const res = await fetch(url, { headers: { 'User-Agent': 'CrudeSignal/1.0 (+https://the site)' } });
+  const res = await fetch(url, { headers: { 'User-Agent': 'osprey-cache/1.0' } });
   if (!res.ok) throw new Error('HTTP ' + res.status + ' for ' + url);
   return res.json();
 }
