@@ -55,6 +55,16 @@ const SYMBOLS = [
   { key: 'chips', sym: 'SOXX', tier: 'resources', label: 'Semiconductors (SOXX proxy)' },
   { key: 'memory', sym: 'MU', tier: 'resources', label: 'Memory/DRAM (Micron proxy)' },
   { key: 'dop', sym: 'DOP=X', tier: 'regional', label: 'Dominican peso (USD/DOP)' },
+  // Food & materials expansion (2026-07-09): dairy, cocoa, livestock, rice,
+  // juice — same chart source, widens which product recipes can be priced.
+  { key: 'butter', sym: 'CB=F', tier: 'resources', label: 'Butter (CME)' },
+  { key: 'cheese', sym: 'CSC=F', tier: 'resources', label: 'Cheese (CME)' },
+  { key: 'milk', sym: 'DC=F', tier: 'resources', label: 'Milk (Class III)' },
+  { key: 'cocoa', sym: 'CC=F', tier: 'resources', label: 'Cocoa' },
+  { key: 'hogs', sym: 'HE=F', tier: 'resources', label: 'Lean hogs' },
+  { key: 'cattle', sym: 'LE=F', tier: 'resources', label: 'Live cattle' },
+  { key: 'rice', sym: 'ZR=F', tier: 'resources', label: 'Rough rice' },
+  { key: 'oj', sym: 'OJ=F', tier: 'resources', label: 'Orange juice (FCOJ)' },
 ];
 
 function get(url) {
