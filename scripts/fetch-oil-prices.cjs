@@ -20,7 +20,7 @@ function get(reqPath) {
       port: 443,
       path: reqPath,
       method: 'GET',
-      headers: { 'Accept': 'application/json', 'User-Agent': 'CrudeSignal/1.0' }
+      headers: { 'Accept': 'application/json', 'User-Agent': 'osprey-cache/1.0' }
     }, function(res) {
       var d = '';
       res.on('data', function(c) { d += c; });

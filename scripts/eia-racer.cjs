@@ -19,7 +19,7 @@ const POLL_MS = 15000;          // release-server CSV; be polite, 15s is plenty
 const MAX_MS = 25 * 60 * 1000;
 
 async function currentPeriod() {
-  const res = await fetch(TABLE1, { headers: { 'User-Agent': 'CrudeSignal/1.0 (+https://the site)' } });
+  const res = await fetch(TABLE1, { headers: { 'User-Agent': 'osprey-cache/1.0' } });
   if (!res.ok) return null;
   const text = await res.text();
   const m = text.slice(0, 200).match(/"STUB_1","(\d{1,2}\/\d{1,2}\/\d{2})"/);

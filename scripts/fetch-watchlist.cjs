@@ -30,7 +30,7 @@ function fetchUrl(startUrl, maxRedirects) {
       var opts = {
         hostname: parsed.hostname,
         path: parsed.path,
-        headers: { 'User-Agent': 'CrudeSignal/1.0' }
+        headers: { 'User-Agent': 'osprey-cache/1.0' }
       };
       lib.get(opts, function(res) {
         if ((res.statusCode === 301 || res.statusCode === 302 || res.statusCode === 307 || res.statusCode === 308) && res.headers.location) {
