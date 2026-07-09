@@ -1,28 +1,32 @@
 {
-  "updated": "2026-07-09T15:39:14.226Z",
+  "updated": "2026-07-09T18:14:42.782Z",
   "counts": {
-    "total": 131,
-    "crit": 21,
-    "warn": 40,
+    "total": 91,
+    "crit": 10,
+    "warn": 11,
     "bySource": {
+      "Earth.com": 3,
       "Ad-hoc-news.de": 4,
+      "BioSpace": 1,
       "Rolling Stone": 1,
-      "TipRanks": 9,
+      "TipRanks": 8,
       "Toledo Blade": 1,
       "Medical Xpress": 1,
-      "Investing.com Nigeria": 5,
+      "Atwood Magazine": 1,
+      "Investing.com": 6,
+      "Investing.com Canada": 1,
       "simplywall.st": 5,
-      "Earth.com": 2,
+      "Richmond Review/Sunset Beacon": 1,
+      "TradingView": 3,
       "Glide Magazine": 1,
       "Yahoo Finance": 7,
-      "TradingView": 2,
       "Patch": 1,
       "Gizmodo": 1,
       "Cowboy State Daily": 1,
-      "aol.com": 2,
+      "AOL.com": 2,
       "Moomoo": 3,
       "Blogcritics.org": 1,
-      "Enterprise Security Magazine": 1,
+      "Nautilus | Science": 1,
       "Phys.org": 1,
       "Seeking Alpha": 3,
       "Salt Lake City Weekly": 1,
@@ -34,17 +38,13 @@
       "MarketBeat": 1,
       "Yakima Herald-Republic": 1,
       "Psychedelic Alpha": 1,
-      "Yahoo": 1,
-      "GuruFocus": 4,
-      "MSN": 1,
-      "SEC ALKS": 2,
-      "MDLinx": 1,
+      "MSN": 2,
       "The Daily Cardinal": 1,
       "Issuewire": 1,
-      "Investing.com": 5,
+      "GuruFocus": 4,
       "Stocktwits": 2,
+      "Investing.com Nigeria": 3,
       "Psychology Today": 1,
-      "Stock Titan": 1,
       "HCPLive": 1,
       "Quiver Quantitative": 1,
       "Investor's Business Daily": 1,
@@ -52,26 +52,28 @@
       "The Texan": 1,
       "Times of San Diego": 1,
       "AllSci": 1,
-      "Stock Traders Daily": 1,
-      "The National Law Review": 1,
-      "Endpoints": 1,
-      "SEC CMPS": 1,
-      "SEC Form4 ALKS": 3,
-      "SEC Form4 NBIX": 5,
-      "SEC HELP": 4,
-      "SEC Form4 ATAI": 10,
-      "SEC Form4 HELP": 1,
-      "SEC Form4 MNMD": 10,
-      "SEC MNMD": 3,
-      "SEC ATAI": 1
+      "Endpoints": 1
     },
     "byTier": {
       "T2": 90,
-      "T1": 40,
       "T3": 1
     }
   },
   "items": [
+    {
+      "id": "89a7793c26c1",
+      "time": "2026-07-09T16:47:36.000Z",
+      "source": "Earth.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Scientists teach plants to make rare psychedelic compounds",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONzBQZWpqWmRyZkpLVVlWYWE3eTlrR0JWTGltWFIxQUIxd3pqNEl6XzhYMjhURzhVRDVlUWNiVllRUGE1S3RiTVg2SFpRMmpDcEI3Qzl3cWJBVGduZklPUVhST2ZETEJpWW53Q19tWTNSXzk3OVB2bkpxR2VaYnRfSHVNLXlJZERxRGRmNXJ0dw?oc=5",
+      "tickers": []
+    },
     {
       "id": "2a32d05476de",
       "time": "2026-07-09T15:34:47.000Z",
@@ -86,6 +88,22 @@
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaXZ0M2F4LTU1Nmx6NGUwczVZdjJFbUhVVXFCUUhZbGN6Mk8xWWJXWU5GUm5CU3oxUzk1TDQ2WkpTWmhmVFdzWHBlYXh3MkJQNWV2UzJTdFpuM2tuOU10cjBJbkNNMFNBcGlFY29VaFVkWjlMRWo1U2lhMDZvWUJQWjk5bUozaWtmWWpMbHFVOXNLc29ZWXFoZWF5MklBam1ldU5MVk5OeWFfUmU0LVI2TE5rcmxIaXdNOFZfQmNDZ0RIQjA?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "32751687a5d0",
+      "time": "2026-07-09T15:18:04.000Z",
+      "source": "BioSpace",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Psychedelics surge again as Compass, Definium provide more clinical validation",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTFBRa20zRDlJRWhnOVYzcWo2TnVWa2xVMTZtMXpxOF9jYl83YUdRejRpalJHQnNkenhMWnVxSTZJSklRVmxMd0JtMFoxRHFrVnlBM2lMVEo0YWMzdFFjQ3BZbTNMWjlVOFlhYnczbjdTb1RlSERTVkFoX1kydE42MzBielJiNFUzRnZ5akZ4TkhueGpVVU51bnJBbXBGc29YcHFWd19wT3FqaDUzcHZUSkpxTmZLY0lDa25Z?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -150,6 +168,20 @@
       ]
     },
     {
+      "id": "3c5a4020c890",
+      "time": "2026-07-09T13:30:25.000Z",
+      "source": "Atwood Magazine",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "“Acid and Honey”: How Babe Rainbow Put a Fresh Twist on Old Tricks With a Six-Minute Psychedelic Symphony",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9XeW5wVGNMczVoX1FoVzJQSWVnVHBiWUhobmlkOUMtbmZOQlE2UkxOeWxPWVllY0k2RndQaUFFV3BSTlVCOVdmX1E4SEt2OTFhTjFxSlJYRVpVSFd3YlRGNUljcjJhWFByMENDTC1xZ3l2LTNCOE1yZ1E2Z3k?oc=5",
+      "tickers": []
+    },
+    {
       "id": "724d0ef9a6d0",
       "time": "2026-07-09T13:23:47.000Z",
       "source": "Ad-hoc-news.de",
@@ -166,25 +198,9 @@
       ]
     },
     {
-      "id": "319ad3565d11",
-      "time": "2026-07-09T11:46:08.000Z",
-      "source": "Investing.com Nigeria",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways stock reiterated Buy at H.C. Wainwright after trial data",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTnhWT0VpN2hOWjF4NDh5clN5X0NKNkF0aF9BTk1FN3pyaGlvS1FNa1N5Mm1NYUV2OWtkOTBHdnlwUU0zaU1mdzd0Y1doR3BrLXFzczl1ZkN5cWJEVnBzVjQ5eHR6bWV3R0pyNzBFLWdQM0I5ZlliM0hIM3J5MkhHSGVSQVo0ZGFJcjkzMTkwakl2Yk5SRHEwOHlTZ2ZTUGFWX0xlQnNHZjE1R1loUGJEM2J6eG55YVNVUC1hRWY4QWFhLTROVnFnS25yNk4?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "6231faf3afc8",
-      "time": "2026-07-09T11:46:08.000Z",
-      "source": "Investing.com Nigeria",
+      "id": "e8cf52834726",
+      "time": "2026-07-09T11:51:45.000Z",
+      "source": "Investing.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -192,14 +208,30 @@
       "direction": "BEAR",
       "impact": "MED",
       "title": "H.C. Wainwright cuts Helus Pharma stock price target to $70 on dilution",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNckU1UU1xckF2dHgzdjZhc3k4MlY5TG9yWER6Mk94SHUxNGozTzZIXy1qdHVKWEJZNVJYazdhc0NtME81XzhPc1FWd0daUWh5VWFWRU1HS19RUUE4LTdXdXVVMjFUWVpMUEwyNHltRmZjdlB2dXN0QVpCQmJkcHNYV3FveGJpeEVKZFh2dFV5d1gyV1pVdzY4MGJwb2QxMVlWZnAxOGhOeW5uMEZheGxuVTgtaTQ3QlRKaUtVM1lRTy1IUWQ2X2dydQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY2J5MUJFbVBCM1NoWUxGcTk4bWhuT2NCQTNQV1kxU1B2d3RxeDY4LUt2emhPWEowa3VXZUNITExja1EzSW1vMi1ISHl0VXZGWlhvNGstTS1teWFGWkczM2NXSjgyU3gxcXBYNUdNaVBJSDhVVF9uX3JqYm0xNllVTmE3eDM5Y2ZCdmYzSWdtblNZeFE5SGtub3VOY2hzOUVYSGxvclVKclROek54X3R0dzJORzAwWld1dGljZXk2YnhJaTIzRmRR?oc=5",
       "tickers": [
         "HELP"
       ]
     },
     {
-      "id": "62c1a903df99",
-      "time": "2026-07-09T10:35:43.000Z",
+      "id": "1e6d9d5a85e9",
+      "time": "2026-07-09T11:42:19.000Z",
+      "source": "Investing.com Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Compass Pathways stock reiterated Buy at H.C. Wainwright after trial data",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTVpTTU1HbERQMXM4Vm9RWURaYjBvTXoxYXltNDBONVRsR29XT08xZDdUS0xXWXBKUHoyQzRvMzh6cnJTVVFvWFNSOG80SlJiUi0zRTRXcUoyQXBkMF9XWTNwRUQzZDBIZXdQeE5XRzAzSURFSlZQeDNsREh1dk5wRFI0MXA2aUxOaFp1bENMV2MxZUNXMExGWjQtNExZbUk4MDdoaURZZ2ZOajBNaml4TkR1WEhfYzNCZTFfTnhwZFgyWXVZRDVmenBtMm4?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "54d026d1e1fc",
+      "time": "2026-07-09T10:35:42.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -208,7 +240,7 @@
       "direction": "NEUTRAL",
       "impact": "HIGH",
       "title": "COMPASS Pathways (CMPS) Gets A Fresh Valuation Test On New Phase 3 Data",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTExGTGg0V3JoSVAyeXk5Wlo2eW1SbC03S0dkdGxGZmRTdmhpU3BzX2hoZ0FmUVpITUpmN2o2QUYycTNjNGhYbGlfUVdxMk8tUzQtSlptWFk5YXZsOGhzN2ZCZ2x6dWdEd2dVU0ZrSC1VdXdDZF9vZndicWdLbnVFZVFQcnFYNldVVVFQRXl6VVZFSl8tZllkSlVuaG0zaWtRLVFpNkxWTGUySDJWck1haTNHNzd4Q0VlTDFxU2diQjVQU2lvLXB2RmpkMXBXU2NIRG9iSFpabThoVkM5dXpXZkVWdXhseVlLQ0HSAeoBQVVfeXFMT0xMRkxoNFdyaElQMnl5OVpaNnltUmwtN0tHZHRsRmZkU3ZoaVNwc19oaGdBZlFaSE1KZjdqNkFGMnEzYzRoWGxpX1FXcTJPLVM0LUpabVhZOWF2bDhoczdmQmdsenVnRHdnVVNGa0gtVXV3Q2Rfb2Z3YnFnS251RWVRUHJxWDZXVVVRUEV5elVWRUpfLWZZZEpVbmhtM2lrUS1RaTZMVkxlMkgyVnJNYWkzRzc3eENFZUwxcVNnYkI1UFNpby1wdkZqZDFwV1NjSERvYkhaWm04aFZDOXV6V2ZFVnV4bHlZS0NB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQXp2dy1XeE84WVJvLTlhVnJBZldGaG1jdnNpUVJ3UU00dmdrNlBKbTk5Wl93dFBKMjNZUjZaU1ZfREs0WEdUVjNmekttbUdMZ2RWaFdfd3VfekVoZWxnMlB0NDRCZ0dqX2NSYTU1ZlZrNUY3T04zUXdzSG55akdXbTVUb1RxeE1VTXZMT01vYjBJQ1lsSFM2MDZFczl0eE8zc0YzdGlDYUFVaGFSRzRpRlJFeFJFQmVidmtmbm9fTW8xNDlxbFU0YjRWSUhoMVRnY2JHNUt5Y0V4ZGxFYkZ3U3hqNF_SAeoBQVVfeXFMT0xMRkxoNFdyaElQMnl5OVpaNnltUmwtN0tHZHRsRmZkU3ZoaVNwc19oaGdBZlFaSE1KZjdqNkFGMnEzYzRoWGxpX1FXcTJPLVM0LUpabVhZOWF2bDhoczdmQmdsenVnRHdnVVNGa0gtVXV3Q2Rfb2Z3YnFnS251RWVRUHJxWDZXVVVRUEV5elVWRUpfLWZZZEpVbmhtM2lrUS1RaTZMVkxlMkgyVnJNYWkzRzc3eENFZUwxcVNnYkI1UFNpby1wdkZqZDFwV1NjSERvYkhaWm04aFZDOXV6V2ZFVnV4bHlZS0NB?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -226,6 +258,36 @@
       "title": "Advanced Alzheimer's patient spoke again after taking psychedelic mushrooms",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM0pmb1ZJR1gyQmZrbEJCRFA1Ry1wYklUSGtLYzBCRk1vdE8tLUtDZVBlMzJGakVxRzRBY1FvWlBSXzBLSWc3NkFPbUxSekp2WU1CZFVnZTZIdDBwQVR0TGh1Wlh4WU5ma24tSW5EUWV3aUptTjdYM2ZnNmtiQm5BNWtINmZMZFFkMTBfMEFUTjNTdlJCSTRXeGU3S1FCNFRqVTVaUw?oc=5",
       "tickers": []
+    },
+    {
+      "id": "9b4e1d906c42",
+      "time": "2026-07-09T08:20:26.000Z",
+      "source": "Richmond Review/Sunset Beacon",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Joe Mirante Keeps the Summer of Love Alive with Psychedelic Art and Music",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQk5rRTE0Qy1seU1pQUZlR2RZY3h6TjBIejVEblRqdjdYNFZIWENlQlZGSVdoZWpNa2w3YmpCcy1CSVkwaGlBSVZwbWZxRnVneXo0QVlTUDlrTUpBNXBUdE90cFBta3FocUJWNklmTlJfV1VRNkpaRzhZQmY2b00zUEhtQ2xFZzVOY2liSTZPdkZ6WG1JRk9RSnFOWnZxNW1OZFZ2dGNwZlpBRklrUXhnblBPQ3ZlbUU?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "49e96eaf2456",
+      "time": "2026-07-09T07:34:21.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "ETFs Investing in Neurocrine Biosciences, Inc. Stocks",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91SHRpa0VpUXZmc1Y2clh0MnlfdHVMMG5sM3RpNDRWbW96eVBMRkZUdElCcF9vaEpKZmptMUFpRkpLQnhNWFZfQWFjN3VBNk5PLU5uOUpFS2JUOE42Wmw0eg?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
     },
     {
       "id": "7d65fa0eb8ef",
@@ -399,7 +461,7 @@
     {
       "id": "b89fbc4feaf1",
       "time": "2026-07-08T20:11:48.000Z",
-      "source": "aol.com",
+      "source": "AOL.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -441,20 +503,18 @@
       "tickers": []
     },
     {
-      "id": "8d16b41d3c0c",
-      "time": "2026-07-08T19:29:52.000Z",
-      "source": "Enterprise Security Magazine",
+      "id": "86ac7a5e4b96",
+      "time": "2026-07-08T19:00:00.000Z",
+      "source": "Nautilus | Science",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Redefining Security Leadership for a Global Era",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYnN1R0wzdWRSV3A3QXdMcDFkLXRsYkpIbm5CUDgxVmZLc2JtbTNQY3V4SG5JMWUwOXg5TC1LcEVRclUteU1oMmRLUjhkWS15UFlHb2EzVktya0Nfc3QtNXcxLUpxdHRSdGVYVkVleGZRcklYTjZCakhaVjJkY0tONXdlR0F4bTZPNVhQUEVObTFyWHNJNXJJbFo4VkJKVGhOMl82MzlQM2RzQS1OOFlQZTgxSE1qWURzamU0cGg5bXFrbUlGa2pDOA?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
+      "title": "Hunting for a New Hallucinogen in the Lilliputian Psychedelic",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaWJYZWp4YTRHbUZvNDhHR3lPcWJ3V2lGZ2lfX3BiRU13b0J3VG9qWTV5Tm5HZkR0Tzc2VGg3N2x0dUhfOFhORGo3NDdhbm1LdFBIam9fcERsWUZuanJfdXpHclQxNklqcHhxdjQtY1c5MDNEaEFuWlZLc1V5dEZLZTgyZWxUcWZibldiS05FNW0?oc=5",
+      "tickers": []
     },
     {
       "id": "7d380ecb8bf1",
@@ -613,7 +673,7 @@
     {
       "id": "76dc71e88e5d",
       "time": "2026-07-08T13:54:28.000Z",
-      "source": "aol.com",
+      "source": "AOL.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -751,6 +811,22 @@
       ]
     },
     {
+      "id": "e95e9d242506",
+      "time": "2026-07-08T11:47:35.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Canaccord reiterates Compass Pathways stock rating on trial data",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUDZMc3p6UVQ5WTE4aTA1Y0RyN1hUd0NuY2I5NHU3WFNLLUszY0YyRXRHTWlCaEdzUlRqanVfY0RYT1pGQjVXSlNLQVYwRW4wLXZIdjFEMlNVNmRHaVctS0ZXYXlQRVlYQmYyLWZWQUNnTTBJbDIxeko3aWJYeGZ3NlpsUnJBcnFuM3F5bS1OdHhhRkJHWEhFc084Y05fcW93bzJfLXJLcGU5MEtsMWE1MDF0YkVldkRabUowQkc5c2t1UQ?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "6c3114dcad45",
       "time": "2026-07-08T11:13:23.000Z",
       "source": "TipRanks",
@@ -779,36 +855,6 @@
       "title": "Pα+ Psychedelic Bulletin #227: A Closer Look at Compass’ 6-Month Data; AtaiBeckley Deal Update; ‘Rysanso’ Brand MDMA?",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPSGM4X0ZxWlRWTjRvWTNpWk9sRzZad3ZReEJfMHQyWWhRcndja2hrSEl2ZEtOYUZjcjgySnJPdlVfNVdMclk2NmxtU1NtS1BlaUs5UEVrWmRoUVczNE9oOGtPLTVlR2Z3N2t4X2VFWEdjaC1ETGs4Z25jQkQxdXhMcjluZHFIVHZMRXRTSmJuQUFETmhoTUZURmFmOTROSjh4Q3FKTkh3Zng4QTZoY181M252LVRUX21qVmwyUU5nVWNvc1VGdHoxcHBtTXZ2RHJ5UWNXUWlyUW5IN1czMTZkTTJ3?oc=5",
       "tickers": []
-    },
-    {
-      "id": "93edc2415af2",
-      "time": "2026-07-08T09:00:00.000Z",
-      "source": "Yahoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Hunting for a New Hallucinogen in the Lilliputian Psychedelic",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZmhlZFdWanJXNWNlTzVTR0o2NVhfWGY3cm1NSVVEd1lwbl9HOVFoVEpWMGJTZDBaLUV1VDJReEFGbWE3N2kxbFA1Z2pLODhYNUFvQkRJd21rdTh2WWwyUmNoNWpVYUJZNFRaSnBYenQ1eEozcDh3dlVzZ3YyUEdxblJrY3FNTDdyNHFIakhIbm9sT203bmRybUhsU19PUExMMW9KaHdB?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "c81189c0664d",
-      "time": "2026-07-08T03:46:50.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways (CMPS) Positioned for Growth After Analyst Upda",
-      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxOMS1ob3I3cXl0OWZ0ZnJEdVBQdG5ONWJIa2FIdExUWFpUdmpISlF4c3BYb3FrZmMtdVFveXRoNWFCYjJ1V0x4STN3NlNIWE9KWmVWOU1WMDMwUGtuYms0LTlvbTVzaEp2U2lIUUU5ZnJDdjhFWFVuSWJFVHlZUkxSM1Y2UFJUWGZaRmdQbHpLTVZIRWRiSlNBSVRmZzlQWkFDLWlHX0JTZzBQZ01qV05fQWlVX1FjNVpzcjI0UWRSOUNMR2dfVm00LUF2OV9oTE5UNWZJQ05acGpzb0hadjNlajlJNmZmSXBwbC0tMnVlMDkzekFWNXVIY1RDNDhua0o5bklDenR6cXBvNHpLS1JGdlQ4dEY5dXpOVmFLcmlwM0pwdGVlUlA2dXJ1d0VZcmE4cEhrcG9KTTNqemZCd1VnSENwd1JyQzBpeW5N?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
     },
     {
       "id": "c23471c6d141",
@@ -843,22 +889,6 @@
       ]
     },
     {
-      "id": "439891cb4a7b",
-      "time": "2026-07-08T00:00:00.000Z",
-      "source": "SEC ALKS",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "ALKS 8-K filed 2026-07-08 · Current report",
-      "link": "https://www.sec.gov/Archives/edgar/data/1520262/000119312526298004/0001193125-26-298004-index.htm",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
       "id": "c5a834491afd",
       "time": "2026-07-07T23:58:38.000Z",
       "source": "simplywall.st",
@@ -873,20 +903,6 @@
       "tickers": [
         "CMPS"
       ]
-    },
-    {
-      "id": "3212f0f67d52",
-      "time": "2026-07-07T23:54:39.000Z",
-      "source": "MDLinx",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Before the psychedelic renaissance: How America’s forgotten medical history is shaping the future of mental health",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQY1c5aW13d2p6VVRIeEpnVzFlcVIxN2tOQ09KaVFHdGtsRWw4NlBpcmRLNWd2VjV6dm5QWDUxcEx4UmtFVG1nTlNqc2JERHNPNFVyUDdzc2NpdXJqOTlocEFCZUdnLUh4XzI1MFg5dE5PSGxXc3ZOTkVzVUplVy01dXNWNFBneTJxd05pRVM3R3RBUTktT1ZfWHE1d1NHbjgyUkJqckFqSHRTcDNUWmhQUHFKbHNjYXhTd3pTY1MtZEZoajYybmI4Tm9fbm9wOUlFendsQjhoVHJzTVNqbDdiN29FVzNqeFE?oc=5",
-      "tickers": []
     },
     {
       "id": "7a97f94227e6",
@@ -929,6 +945,22 @@
       "title": "Psychedelic Rock Band Stonecrops Partners with Stonewell Productions for Major European Tour After Live Session Release",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxORDdrcTVMYkEwb25hT2dONzhXYVBJeDlmc3RKMy1HbEgwTW9MSk9ISnpLUTcydENDTDNBWHJoZnc2TVI3cnpVNGxRNjNWdHFBek5lVjh6TV9mOWYzQmNPZW9NUm9keU5LdHdqUEpKSU04RmM2bElZY3RQRk5sV0ZkdzgzTFgxMmN5S2tFWVJxUDhmT3pBNExwZ05oV0ZRdDNsQVY5TGNNT3JMR3k3LUEzTzV1dlQ5c1ZVcVlDTFRIS3BxVDhDR2hKT3R0VDU1NTBYREVkdjk2VkJ4MFdxYTh5TXZYbjl0MFBqR3kzWUQ2VV9lRjND?oc=5",
       "tickers": []
+    },
+    {
+      "id": "a5827486ba9e",
+      "time": "2026-07-07T22:23:44.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Compass Pathways (CMPS) Positioned for Growth After Analyst Upda",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVERKNFpDUy1SSHJDMUlFQnNMNGFMbDRTa29zQzB5ai1NUzN2YTBtM3ZiWlJSaWdQeVk1MHhrU09DdmMxVzhEeXI0MDhuQjRLVzFLMEpyaTFsWWJqa0piNjJJSDZERm9nb3dTY3Y4R29MblNwWmE2WjFoeHVpVjFsWUVRbHNSNmN3c2dVdzBqOF94ZXNVMFBuRlpyaDRia0RhNWxlR29TRldnSFRNMm9WM09fWDMtQQ?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
     },
     {
       "id": "9df3f1881078",
@@ -1088,6 +1120,22 @@
       "tickers": []
     },
     {
+      "id": "feeaf78bf0a3",
+      "time": "2026-07-07T20:56:25.000Z",
+      "source": "MSN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "Compass Pathways upgraded at Evercore after latest data for psychedelic therapy",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQzJ0Y2xMdFBRVnB4TXhrMEJYVGF0Z3Bid1o4TUJVLW5najhVZHNtOUFXNU5Zc05EcGdaaHNMbEE3eVN6cmRsNTlvbzZDYTRUMS1LNWJKN2t2X1FjNDAxNFlDdERxUTYtM21CX0VxWGZFSlFfUTl5VDhTX1VRcWVuMjloNmVMc2sxc3VyaUZPWHRNRkVzd0txWjJDR2Rxc0JHSmtiSVdRc3JXbXFCQlQ4amdOOENUNU9mU0xsZEh3Q093OUk5Z0tYR3ln?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "ec4282823283",
       "time": "2026-07-07T20:52:33.000Z",
       "source": "Investing.com",
@@ -1099,6 +1147,22 @@
       "impact": "LOW",
       "title": "Wolfe Research reiterates Compass Pathways stock rating on durability data",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRHl5Rk1Wb20yWjZfNlVXU1d5R2l0Uml3NmhWM2RaOWdBazJWdWxKRjlXQ0JVM21sNGxQVHp6cEljeldUT2lYbXZKd2hhaHQ3YWdRUXlGVjNKb0pVMERfNG84UnhBdXItZ2x0OUhSQUpuZFl6dU9aOWRlRnBJMlFqOEYwWWRDTFdtbjF0WldrZ3ZfeDdhYmR1am1zeXp3cjVESkVZTjlyMkt4UDlvYmJYMHVSUzU4M2ZUSDdLN1lSNzNRQl96UjdDeDhTOGgxTU0?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "b7a717543bb9",
+      "time": "2026-07-07T20:52:32.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "TD Cowen reiterates Compass Pathways stock rating on dose data",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORk56TkV0R3hCWlhrQnpSa2hIYTNENWpQaHNsZmFZOWRKWF9iU2J3ZVNEMl9XQjV0MnNmZ1JHNHR0S1cyUEVpbG9ENzFzN052WFlVUXYtT2FfQS02U3ozbXA4RldqOXg1MS14NnExaWZEcFJvS2FVYmxUNUxZMkJ1YU4yZzRnX2VrdDBBdzNkeHkxOTlURUlYVEpVUUxUN0QwbU43b0hDLVR5Zi1qTG1oeTM5d3JmTWxUOFJ2V3NqSQ?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -1131,22 +1195,6 @@
       "impact": "LOW",
       "title": "Neurocrine Biosciences outlines its neurology focus as a mid-cap biotech name",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONURXNGdpY3VEQ3lzYmJGbnpkTU9kRDVPVGhlZjd3VGN3N1VORTVqQ2VuX3BHaDVoeHZtd0tyclM0R2hFMThfUjhscGR1Yk05SHI1UG90akl0OHZYdTEtQjBrZGVITlhpbHlMbVdoX3pDZEVxZndxczdNcDhjY3hVd3diNnNraExYZHJpNEdjOExqMWpRZWFybUNqbXRIZmo4WG9YdGR0cnhsc3BmN1NPbUxXOEtyelFNNVpHbE92bHpFcHBWU2thRXhjUQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "e017c56d21be",
-      "time": "2026-07-07T20:33:35.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Insider option exercise and 10b5-1 sales at NBIX (NBIX)",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUWlVZlEyX0phYjVqMkZNakRlaEQxVlkxai1zNkxfeU94bFFxSldqcHZjckdfSEl3SVFQOVozMmF6aGZLVGdiajc1bHhKazdHMGp6clpFVUk4X2FUQmVMdWYxTkhKcXVYTnRNX3ZZV2pSTjFQdFl0VFhHMVlxQjFuTjBQTmpyNU0wdlBqdmJNZjRSNVE2STBQcjlEMkpIU3pDWnN4eElB?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -1396,84 +1444,6 @@
       ]
     },
     {
-      "id": "f576fbae2fd7",
-      "time": "2026-07-07T17:22:01.000Z",
-      "source": "Stock Traders Daily",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Price-Driven Insight from (GHRS) for Rule-Based Strategy",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYkxHbm84T1FwZzh2U1RxeXc5SGVjUGJaMklMV1hILXZ5UFZPTE9NamhSd3VDMDRZTzQ1Q0JDcEhnZUN5S21LdkRvbnR5bDI0cHVyOUxjYlpONm1uSDlCeUt6T055ZmFrSmdmRGN6RTNmYkdHSVliZ0ZKSTROaGl0WjdnaXI5VWN4a19pZi1qT2FGZ3V3NVdVT3VldVVaZ3JIdFpxaThkeDdLMm1XVHJwZ3ROb011VHA3YUZoY0NMS2tHcXQzRHBNVXdKdlQxQ3c?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "851d3ac5dd9e",
-      "time": "2026-07-07T17:17:47.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "BTIG raises Compass Pathways stock price target on trial data",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTXM1LThKQzhYbUZmZk9jT1ZnOVl4WnhkdHYtSl9wUWtHRzJ6RTFrWVhmY1JSeEVGZzBxbDd0SlBIQUtuWEFJRGZDSDNkWU95MHNVZDIxSVFFRzhWQU54bWxPenc2YjQ2UV9vQ1Jaei10cWtxUlZNdlBzVGxCQ0NJR3BTbmVkaFd6b0Rrb3FELWl6VG9tMXNPVHg0LW5LTzRxMUZfZXp3TjdxQWNfdXpJcGpFN3Y4aVVOaUZxSEVR?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "e55953a66a24",
-      "time": "2026-07-07T17:17:46.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Oppenheimer reiterates Compass Pathways stock rating on durability data",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbzN2LXNNUUU2cEcwRDFkVHNxRTdqRXdZd1B0MU03UzdYOFZRUnExZ2dWZUpZNUt3TXgxOXBaMmdybkp3eHhDUkFMYjFNbkEzUVkzbjV3SXpaMXByNmxDbkNJN1NVSy1sS0lPNDdfQ3JKMUF5bU1SamNsb2tocjAwLVpNS2pudEUtUWxYZGVKQUh3cUpiQWk0WjY3S0R5aGJGb0w4S2ZQeEZ1U3BhXzBON1FqRUFwUVpFMU5NeEJzV0pmYnlhRGFTd3B3NA?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "8ff57c5af61e",
-      "time": "2026-07-07T17:05:24.000Z",
-      "source": "The National Law Review",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The States Take the Wheel: A Roundup of Recent State Action on Psychedelics in the South",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQmh5VURSSmlaeE91MU1LUDF6OW0zTEUwWWZQWDR4SnlOb090R1B2UHN1M3NTT0Q4VHF4eEIwRk9XRjROX0tRUmZfVV9QVVJHR0hlRTNqNTNRdDY1Tm1wUjNmcnpZY0JQU05mYS1MSVFxekE5UXkyaE9BSExPLWQ2R001TmZGWGpSVFlyUXY1cHRhZ3pGdUFDUGhZWjV1S0xYdlJv0gGjAUFVX3lxTE9CaHlVRFJKaVp4T3UxTUtQMXo5bTNMRTBZZlBYNHhKeU5vT3RHUHZQc3Uzc1NPRDhUcXh4QjBGT1dGNE5fS1FSZl9VX1BVUkdHSGVFM2o1M1F0NjVObXBSM2ZyelljQlBTTmZhLUxJUXF6QTlReTJoT0FITE8tZDZHTTVOZkZYalJUWXJRdjVwdGFnekZ1QUNQaFlaNXVLTFh2Um8?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "42780cc4f94a",
-      "time": "2026-07-07T16:52:20.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine price target raised to $195 from $183 at RBC Capital",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOUlVrQXhkNHFEZlNBQnp2ME8tUGR4OHR6dWl1T3U3bm9xNjBQcWxxc0lvRlBqbHNfMENvbktQb0l5enVqVG82VGpZcFZlTzlqb1pLZWlrUUx0elYxUHJxWGhoUm5OZXJEaTJpUnJZOXdhaUhmM25aNkRsTTVDZDFBWnZaeVdzeFJiaktqY0ppNUtaelFTMFdKcU12Mmt2dV91TlVNSXJUUks2SGpBSmdaQTV2dTc2WW1NQWV6LTA0QzVOclBtZGNmbEFYVy16b2VpVXBGajJTTlJ6M0FWczZnXy1Pc2tjc0o4azNZNEtDYw?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "9e5edc62729b",
       "time": "2026-07-07T15:27:21.000Z",
       "source": "Endpoints",
@@ -1487,630 +1457,6 @@
       "link": "https://endpoints.news/compass-touts-durability-data-for-psilocybin-drug-in-depression-ahead-of-year-end-filing/",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "54fb410aa0e1",
-      "time": "2026-07-07T00:00:00.000Z",
-      "source": "SEC CMPS",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "CMPS 8-K filed 2026-07-07 · Current report",
-      "link": "https://www.sec.gov/Archives/edgar/data/1816590/000181659026000047/0001816590-26-000047-index.htm",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "7b2cfaadd009",
-      "time": "2026-07-06T00:00:00.000Z",
-      "source": "SEC Form4 ALKS",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ALKS Form 4 filed 2026-07-06 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1520262/000152026226000105/0001520262-26-000105-index.htm",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "92fd1d18188a",
-      "time": "2026-07-01T00:00:00.000Z",
-      "source": "SEC Form4 ALKS",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ALKS Form 4 filed 2026-07-01 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1520262/000152026226000103/0001520262-26-000103-index.htm",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "41090f1d55c8",
-      "time": "2026-06-30T00:00:00.000Z",
-      "source": "SEC Form4 NBIX",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "NBIX Form 4 filed 2026-06-30 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/914475/000150478326000015/0001504783-26-000015-index.htm",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "2ca791831c27",
-      "time": "2026-06-29T00:00:00.000Z",
-      "source": "SEC HELP",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "HELP 6-K filed 2026-06-29 · Report of foreign issuer [Rules 13a-16 and 15d-16]",
-      "link": "https://www.sec.gov/Archives/edgar/data/1833141/000183314126000048/0001833141-26-000048-index.htm",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "35f0e7334f1c",
-      "time": "2026-06-29T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-29 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126026787/0001140361-26-026787-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "7eb214ceeb56",
-      "time": "2026-06-29T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-29 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126026786/0001140361-26-026786-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "eefdf5b6c4e7",
-      "time": "2026-06-29T00:00:00.000Z",
-      "source": "SEC Form4 HELP",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "HELP Form 4 filed 2026-06-29 · Registration statement [Section 12] or Annual Report [Section 13(a), 15(d)]",
-      "link": "https://www.sec.gov/Archives/edgar/data/1833141/000183314126000046/0001833141-26-000046-index.htm",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "8ff3fe81a5c4",
-      "time": "2026-06-26T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-26 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526285567/0001193125-26-285567-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "123625c272be",
-      "time": "2026-06-26T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-26 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526285563/0001193125-26-285563-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "542e68d4b1d4",
-      "time": "2026-06-26T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-26 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526285562/0001193125-26-285562-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "86b20ac81dc7",
-      "time": "2026-06-26T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-26 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526285564/0001193125-26-285564-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "4b752d93863f",
-      "time": "2026-06-26T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-26 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526285558/0001193125-26-285558-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "4d442f619279",
-      "time": "2026-06-25T00:00:00.000Z",
-      "source": "SEC HELP",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "HELP 6-K filed 2026-06-25 · Report of foreign issuer [Rules 13a-16 and 15d-16]",
-      "link": "https://www.sec.gov/Archives/edgar/data/1833141/000183314126000041/0001833141-26-000041-index.htm",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "ee7885a95a11",
-      "time": "2026-06-25T00:00:00.000Z",
-      "source": "SEC HELP",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "HELP 6-K filed 2026-06-25 · Report of foreign issuer [Rules 13a-16 and 15d-16]",
-      "link": "https://www.sec.gov/Archives/edgar/data/1833141/000106299326003338/0001062993-26-003338-index.htm",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "c58262714024",
-      "time": "2026-06-24T00:00:00.000Z",
-      "source": "SEC MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "MNMD 8-K filed 2026-06-24 · Current report",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000110465926077354/0001104659-26-077354-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "3cd7c8c6f0da",
-      "time": "2026-06-24T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-24 · Prospectus [Rule 424(b)(5)]",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000110465926077349/0001104659-26-077349-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "ffb448aafd95",
-      "time": "2026-06-22T00:00:00.000Z",
-      "source": "SEC MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "MNMD 8-K filed 2026-06-22 · Current report",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000110465926076091/0001104659-26-076091-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "925a09d53247",
-      "time": "2026-06-22T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-22 · Prospectus [Rule 424(b)(5)]",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000110465926076393/0001104659-26-076393-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "5e8224515435",
-      "time": "2026-06-22T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-22 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276881/0001193125-26-276881-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "e6d87b3283e9",
-      "time": "2026-06-22T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-22 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276882/0001193125-26-276882-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "f7056f673b03",
-      "time": "2026-06-22T00:00:00.000Z",
-      "source": "SEC Form4 MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "MNMD Form 4 filed 2026-06-22 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526276879/0001193125-26-276879-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "bf74a08ebd0d",
-      "time": "2026-06-15T00:00:00.000Z",
-      "source": "SEC ALKS",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "ALKS 8-K filed 2026-06-15 · Current report",
-      "link": "https://www.sec.gov/Archives/edgar/data/1520262/000119312526270280/0001193125-26-270280-index.htm",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "77cff8b9d3f4",
-      "time": "2026-06-12T00:00:00.000Z",
-      "source": "SEC MNMD",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BEAR",
-      "impact": "HIGH",
-      "title": "MNMD 8-K filed 2026-06-12 · Current report",
-      "link": "https://www.sec.gov/Archives/edgar/data/1813814/000119312526269549/0001193125-26-269549-index.htm",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "4a469955bbfe",
-      "time": "2026-06-12T00:00:00.000Z",
-      "source": "SEC Form4 ALKS",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ALKS Form 4 filed 2026-06-12 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/1520262/000152026226000101/0001520262-26-000101-index.htm",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "66bed40e0ba6",
-      "time": "2026-06-11T00:00:00.000Z",
-      "source": "SEC HELP",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "HELP 6-K filed 2026-06-11 · Report of foreign issuer [Rules 13a-16 and 15d-16]",
-      "link": "https://www.sec.gov/Archives/edgar/data/1833141/000183314126000039/0001833141-26-000039-index.htm",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "f7d4375093f2",
-      "time": "2026-06-09T00:00:00.000Z",
-      "source": "SEC Form4 NBIX",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "NBIX Form 4 filed 2026-06-09 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/914475/000107946226000006/0001079462-26-000006-index.htm",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "7839dcd1b422",
-      "time": "2026-06-09T00:00:00.000Z",
-      "source": "SEC Form4 NBIX",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "NBIX Form 4 filed 2026-06-09 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/914475/000189442526000014/0001894425-26-000014-index.htm",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "6ccf65932393",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BEAR",
-      "impact": "HIGH",
-      "title": "ATAI 8-K filed 2026-06-08 · Current report",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126024474/0001140361-26-024474-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "434dea488ef2",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-08 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126024527/0001140361-26-024527-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "6f7f689842ba",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-08 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126024526/0001140361-26-024526-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "630a2aafca2a",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-08 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126024525/0001140361-26-024525-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "cfd72d045952",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-08 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126024524/0001140361-26-024524-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "8945bc345b56",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-08 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126024523/0001140361-26-024523-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "f713052819c9",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-08 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126024522/0001140361-26-024522-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "84a9eed56c92",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-08 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126024521/0001140361-26-024521-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "67e3f1a3573a",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC Form4 ATAI",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "ATAI Form 4 filed 2026-06-08 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/2081043/000114036126024520/0001140361-26-024520-index.htm",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "4a1bf16c1881",
-      "time": "2026-06-08T00:00:00.000Z",
-      "source": "SEC Form4 NBIX",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "NBIX Form 4 filed 2026-06-08 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/914475/000153356826000009/0001533568-26-000009-index.htm",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "4f70f348f6bf",
-      "time": "2026-06-04T00:00:00.000Z",
-      "source": "SEC Form4 NBIX",
-      "sourceKind": "atom",
-      "sourceTier": 1,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "NBIX Form 4 filed 2026-06-04 · Statement of changes in beneficial ownership of securities",
-      "link": "https://www.sec.gov/Archives/edgar/data/914475/000181852426000004/0001818524-26-000004-index.htm",
-      "tickers": [
-        "NBIX"
       ]
     }
   ]
