@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T08:23:16.138Z",
+  "updated": "2026-07-10T14:30:55.740Z",
   "sources": {
     "portwatch": {
       "ok": true,
@@ -191,7 +191,7 @@
           "cargo": 17
         }
       ],
-      "lag_days": 5
+      "lag_days": 6
     },
     "nga": {
       "ok": false,
@@ -405,17 +405,17 @@
     "adsb": {
       "ok": true,
       "sample": {
-        "total": 58,
+        "total": 36,
         "military": 1,
-        "mil_method": "dbFlags_bit1",
+        "mil_method": "dbFlags_truthy",
         "types": {
-          "TWR": 9,
-          "A320": 7,
-          "unknown": 7,
-          "B789": 6,
-          "B77W": 5
+          "unknown": 9,
+          "A320": 4,
+          "A321": 4,
+          "B38M": 4,
+          "A21N": 3
         },
-        "observed": "2026-07-10T08:23:16.138Z"
+        "observed": "2026-07-10T14:30:55.740Z"
       }
     }
   }
