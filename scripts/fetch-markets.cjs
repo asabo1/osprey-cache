@@ -105,6 +105,34 @@ async function fetchChart(sym) {
   };
 }
 
+
+async function fetchLmrCutout() {
+  // USDA LMR national boxed beef choice cutout (keyless datamart): daily PM
+  // print, $/cwt. One range query backfills the full year. Dedupe by date
+  // (corrections re-print a date; keep the latest row for it).
+  const end = new Date(), start = new Date(end.getTime() - 370 * 864e5);
+  const f = (d) => String(d.getUTCMonth() + 1).padStart(2, '0') + '/' + String(d.getUTCDate()).padStart(2, '0') + '/' + d.getUTCFullYear();
+  const url = 'https://mpr.datamart.ams.usda.gov/services/v1.1/reports/2453/Current%20Cutout%20Values?q=report_date=' + f(start) + ':' + f(end);
+  const body = await get(url);
+  const rows = JSON.parse(body).results || [];
+  const byDate = new Map();
+  for (const r of rows) {
+    if (!r.report_date || r.choice_600_900_current == null) continue;
+    const [mm, dd, yy] = r.report_date.split('/');
+    byDate.set(yy + '-' + mm + '-' + dd, +r.choice_600_900_current);
+  }
+  const series = [...byDate.entries()].map(([d, c]) => ({ d, c })).sort((a, b) => (a.d < b.d ? -1 : 1));
+  if (series.length < 20) throw new Error('lmr cutout series too short: ' + series.length);
+  const last = series[series.length - 1], prev = series[series.length - 2];
+  return {
+    price: last.c, prev: prev.c,
+    delta: +(last.c - prev.c).toFixed(2),
+    delta_pct: +(((last.c - prev.c) / prev.c) * 100).toFixed(2),
+    as_of: last.d, contract: 'USDA LMR national boxed beef choice cutout, 600-900 lb, PM',
+    series, ok: true,
+  };
+}
+
 async function fetchTreasuryBreakeven() {
   const base = 'https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/';
   const years = [new Date().getUTCFullYear() - 1, new Date().getUTCFullYear()];
@@ -218,6 +246,16 @@ async function main() {
   } catch (e) {
     failures.push('GASREGW: ' + e.message);
     out.retail_gasoline = prior.retail_gasoline ? Object.assign({}, prior.retail_gasoline, { ok: false, stale: true }) : null;
+  }
+
+  try {
+    const bc = await fetchLmrCutout();
+    out.segments.beef_cutout = Object.assign({ sym: 'LMR-2453', tier: 'resources', label: 'Beef cutout (choice)' }, bc);
+  } catch (e) {
+    failures.push('LMR cutout: ' + e.message);
+    const carriedBc = prior.segments && prior.segments.beef_cutout;
+    if (carriedBc) out.segments.beef_cutout = Object.assign({}, carriedBc, { ok: false, stale: true });
+    console.error('FAIL LMR cutout: ' + e.message);
   }
 
   // Breakevens from TREASURY directly (keyless, cloud-friendly): 5Y nominal
