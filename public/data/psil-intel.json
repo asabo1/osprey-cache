@@ -1,21 +1,20 @@
 {
-  "updated": "2026-07-12T07:04:44.416Z",
+  "updated": "2026-07-12T09:20:54.662Z",
   "counts": {
     "total": 90,
-    "crit": 8,
-    "warn": 8,
+    "crit": 7,
+    "warn": 10,
     "bySource": {
+      "Stocktwits": 7,
       "Medicine Hat News": 1,
       "sekbernews.id": 1,
       "Psychiatric Times": 1,
-      "Stock Traders Daily": 1,
-      "Stocktwits": 5,
       "ChartMill": 1,
       "simplywall.st": 5,
       "IMDb": 1,
       "Guitar World": 1,
       "Yahoo": 2,
-      "MSN": 2,
+      "MarketBeat": 3,
       "Investing.com UK": 1,
       "Grateful Web": 1,
       "GuruFocus": 1,
@@ -26,8 +25,9 @@
       "Pharmacy Times – Pharmacy Practice News and Expert Insights": 1,
       "48 Hills": 1,
       "Benzinga": 1,
+      "Kavout | AI": 1,
       "The Source - Bend, Oregon": 1,
-      "Yahoo Finance": 9,
+      "Yahoo Finance": 8,
       "The Killeen Daily Herald": 1,
       "FXEmpire": 1,
       "The Microdose": 1,
@@ -36,11 +36,12 @@
       "AOL.com": 2,
       "The Guardian": 1,
       "AFR": 1,
+      "MSN": 1,
       "Talking Joints Memo": 2,
       "Quiver Quantitative": 2,
       "Jefferson Public Radio": 1,
       "The Business Journals": 1,
-      "TipRanks": 2,
+      "TipRanks": 3,
       "WWLP": 1,
       "Earth.com": 1,
       "The Boston Globe": 1,
@@ -58,16 +59,27 @@
       "Rouleur": 1,
       "Gizmodo": 1,
       "Cowboy State Daily": 1,
-      "Nautilus | Science": 1,
-      "Phys.org": 1,
-      "Seeking Alpha": 2,
-      "Salt Lake City Weekly": 1
+      "Nautilus | Science": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "ba4faa896638",
+      "time": "2026-07-12T07:02:45.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "PBM Stock Trips Into Spotlight Again: Rare Ibogaine Supply Edge Gets Boost From Trump’s Psychedelic Push",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDd2OGYwcWpOYUZFa0NlVzVmekZNMDBpcU4zY3NSdDF6R2NxSFZPMy1ySm1NUHZMamRsY09Lem1JSGN0emNQS1g5R0pIci1XUHdFdUg1ck5OSTlaNmZKUXZuZFRLZTN4R3F1TnhkQmVwTXlvWmhmNTBxUEp5WUZtRTZMQjdORWRoeF96TG12SzRreG14emlKLUZNTFpBX2kyUnpTWDdodmhwLUlvZEY0VmpUc0VWaUx0TTI2TF9scDIwX2lYV1hhLU0wRWNKdw?oc=5",
+      "tickers": []
+    },
     {
       "id": "330f3794a392",
       "time": "2026-07-12T02:15:02.000Z",
@@ -113,22 +125,6 @@
       "title": "COMP360 Psilocybin in Treatment-Resistant Depression: Insights From Gus Alva, MD, DFAPA",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSHZ3Zm1RMDZZYjkzQlVyM1VlMTVkTm9qaTdVcTRHMDY3VXJzVmVpazBaM2ZPaTNXSjF5VlRjRElBMUdYZTNJai1EMl9POF9POW5EVk9BcENlVWhYM2lQdk9YYTNYWlJkU1VKN0cyNENSLUcybW5jbVNRc3d3ZnhlM19BR2tlOTZVSUlxVS1NMnJVSWxPaEFibjNURFdqTTd2Sm9rN184SEhUQk1fdDAwaUtuLXVxM1ZNTFljUTFKUQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "e9bc1f4c14df",
-      "time": "2026-07-11T18:52:02.000Z",
-      "source": "Stock Traders Daily",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "(MNMD) Price Dynamics and Execution-Aware Positioning",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd3g5dm5pVFdWVllJdVEyYnd2WEJTdGwxMFQ5MUN6T01CUThpZUF4bFU5VTRZQzZncnR6Z2EwZHU3cmRHNTVMaUNrUGFSRFQ1cXk0YU51SGhtM2htWEp0TXlxaVh1UWlfZUl4WVV0dVdqTEZndmlWMTVRMEJYQ2Q2YmItRnZRek5DMmFSV29lQ09JbXVwMkh3a3NtRzJmTWM5b1hSSXA2T0oyZF9pZGZ6VkozelVxSS1yV1F6cjNfN1pneDR5RXE4LTduSQ?oc=5",
-      "tickers": [
-        "MNMD"
-      ]
     },
     {
       "id": "bb2af33c6eeb",
@@ -221,19 +217,19 @@
       "tickers": []
     },
     {
-      "id": "3a34f1bb20f5",
-      "time": "2026-07-11T02:32:52.000Z",
-      "source": "MSN",
+      "id": "862df95ecac5",
+      "time": "2026-07-11T04:24:47.000Z",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "US stocks mixed; home prices increase 1.1% in April",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPSTlIQ0FPSnVXOS1CaC1adXRtZFRFQ2RuT2lVQVBfejZxUGtlZUpGdE9fVmItR0FPN1JFT2NPMW94RlZkZnpIRURoZm1iSWRTamQ5YVFVbUtZSGJQdF9ZeFJnUG5kRlVSZnRyNlVEY2Zwc0hfeXJ2RWE1WWJBZVlROWtURlB3VzZaZEVBdEswLURPQWlrM2gxaU1QRzhtejdJSlBrVnd3Wi00bC15UURMREpDVzVsM3lxRXBEM1dWQ081bTFPWEpzVzNZWVlKcC16cmw1Zy1oNV9TeVZrSXZjbHF4N1lPbG5LckpPU1ZfeG5EOEFqTUYwR2RuNHVrQk9tVjNMU0RWdXRILTNrUVYwY0xQT2NqZjVyVWdTOXlueEdrZG5YQThXWENJZERReGlBMDZPUQ?oc=5",
+      "title": "Top Cybin (HELP) Competitors 2026",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
       "tickers": [
-        "VTGN"
+        "HELP"
       ]
     },
     {
@@ -329,6 +325,38 @@
       ]
     },
     {
+      "id": "e7b47b524323",
+      "time": "2026-07-10T20:39:07.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "Nasdaq, S&P 500 Futures Fall, Oil Risk Back In Focus After Trump’s Iran Escalation: Why PBM, FRMI, ASTS, BATL Are Keeping Traders Engaged Today",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ0JNN2NnRURZSTYydHpaTXQ4aHNKaWxVWEhhZThKamxydllUdE4td3h3LVNzMEM5akh2TTlyYzBiVmZ6S1YyS3lMbUtOa2FrVmRwaU5mSUw1SVN4bFg0eWhRV0JVMmNOYWZ5ckJpcWcwaGRUUmctWk1KQWFvWE1jal8yNi1VZHJ3NTdmU3VrX2dtRHh2RUtRZ3V0WEs5YUxIOTBybl9OakZIcnYzWDB4TXNQbWt5VjVWczVmSWc4VWpUUmJHUVZHRG5FU1l6dw?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "9348602ba49b",
+      "time": "2026-07-10T20:34:55.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "HELP News Today | Why did Cybin stock go up today? $HELP",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYNnVlQzF0UTVLVmZaSnlXWGMwcGhiU1pnTWt1V20zYkZvNzYtWU1yTFdjX0ZodkhwNXA1eG9EeFdSVnhjZEhVT1BPalVDQnhLUjEwTEpTaEs4dzNUY2x5SA?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "add9d60488a1",
       "time": "2026-07-10T20:23:13.000Z",
       "source": "PsyPost",
@@ -414,6 +442,22 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2tKT2FBODN0eXlWZHhOYjBHRmhQdzNDM1dJZkpibWFPZ1lBcXpWcnptTi1iVE4xSFpRMmE0RWZnSkhJVl9DNDROOWNfcjZ1NTdrb24wYllWTkFNMGpfQTRFeWVnY0x2UGwySFFhOWdPOVNrMWhxWC1RWXRqbGozY192cjZ1N1JBNzdzRGZKYXJkeWVoLS1HZjVENTF0YzJBWVlqM2FFSUt2WVNkRFBrUDhBWVU?oc=5",
       "tickers": [
         "CMPS"
+      ]
+    },
+    {
+      "id": "1d5dffd544ae",
+      "time": "2026-07-10T17:08:01.000Z",
+      "source": "Kavout | AI",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences: Beyond Ingrezza, A Diversified Pipeline Fuels Its Next Growth Chapter",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeUl6SER3YnZCdWdoV2V1N1c0Z1RvRlhJNzQ4ZThJbjVPQk0tTXBESzhpM3NfMXpYLXZsU1lLeGkxZnBXcWVpX1pGR1RLNHRMUXo3R19HaVNseFp3ZHBwZDNmSG9jOENrN1R1bFp5UG8zM1Bab19FU0tpeUpYbnpqSWN0RW9vcnZxb2xhZHREaERveDB5WGtHbHczekM2WnlkbVQ3bWQ5ZXZjQmxBRS1iMmk2NlR5UWQwNXJrS0NFWDYyU2JN?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -503,6 +547,22 @@
       "title": "Colorado man fell from 4th-floor window during unsupervised psilocybin therapy session, lawsuit alleges",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNelh2UkNlVUpkMHlBN0hDRl9BYjZrWmRYUVA0X0lCZV9QQ21OX0Q4RjJVV0pqeU0tbmkzZUdMaF84MlBqZmRrb29vV1JkVnR5TEc3WDM0WFVhemZ3cXIwMnZfWU1IVmFGNnlEVFlKLVlPb1hsNm9FQkVUeHJfTzdSbFc3ZDc1aXM2OEE?oc=5",
       "tickers": []
+    },
+    {
+      "id": "527e8fd38e68",
+      "time": "2026-07-10T11:54:44.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "What is HC Wainwright's Estimate for Cybin Q1 Earnings?",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZXhNZVNCNE5fbm8xTVBub0NGTFo5TlFCWU1RMHhyYlNOMHVYazFxdWRPeUVPa1BJN3BiMmtVcUdycHJfVDRubmJBazhZamZkQURUSzBfbjJ5QXRyVzVCbXAybHplNjhJb2lKMlIxZ1BWcjV0Uy1ZQlVqYjBHN1ljNGNIZUsyckRxX2RTNTd6SVNwWFpoLU5fYXR5SlNHdmNxXzNiLW9EMVhWTk0?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "622790117291",
@@ -605,8 +665,8 @@
       "tickers": []
     },
     {
-      "id": "eb6d68c095e6",
-      "time": "2026-07-10T02:27:41.000Z",
+      "id": "7a817cee231f",
+      "time": "2026-07-10T03:59:07.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -615,9 +675,25 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Did Neurocrine’s (NBIX) CRENESSITY Push Into Infants Just Recast Its Rare-Disease Strategy?",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQc09xanp2bVpFSG0xc1pVbWtyekE5TGtwWnFZcC05SzIxTC0zS3RrTWh5aTY4d2s5eEpyeHlJN000SFRjZFdTdkxUTEZPNm9oT3JoM0Eya0FQUXgyb25FSzRxY3hhRDc3SkNXOFBUOEFJQXZhb1NQU3JFVGVxck13Yk5Lc1lNZ1gwbktydEd1OGVnZWFHQ2lHNjJxNElWcnpUQzJtdm1qQlB5amlLQjVkWXZUZlNTNXZoeldSNEc5cmFOTjByMFZmTGVCQllDVWFta1dZbEd3Mk4zVUp0dDlTeVlaTkVyWG5rMmUyV1NmM1c2UdIB8gFBVV95cUxQc09xanp2bVpFSG0xc1pVbWtyekE5TGtwWnFZcC05SzIxTC0zS3RrTWh5aTY4d2s5eEpyeHlJN000SFRjZFdTdkxUTEZPNm9oT3JoM0Eya0FQUXgyb25FSzRxY3hhRDc3SkNXOFBUOEFJQXZhb1NQU3JFVGVxck13Yk5Lc1lNZ1gwbktydEd1OGVnZWFHQ2lHNjJxNElWcnpUQzJtdm1qQlB5amlLQjVkWXZUZlNTNXZoeldSNEc5cmFOTjByMFZmTGVCQllDVWFta1dZbEd3Mk4zVUp0dDlTeVlaTkVyWG5rMmUyV1NmM1c2UQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQX3F4QlYway0zRUpTT2tiXzJYZkNDa2FoU2RtVXRmTk4wekVUdXNmS0FSM0xQWHl2RU5lYWFGMXA1cmU2SmEtZ0JqNzVaNDhXQllOSDNxb1luWE9DM3gwSXQxZk4wMmRXdEJHQ0tJR1RkcVBYS2t6ZXIxd2FpcGxvMmhyZzZhdTlSVWh4cWQtS1N1dTByNE9UQ1FUbVRzVkI0Q3lOM1VJZ1JmeGs5ZWtxc0N4NU8xdWdYY0dRRmVYeTYyR1hvRzBiMFFQMVNNSTNIdDdQVGljemtaWjE3cF93V2xHTjFZYXc0TFcycdIB8gFBVV95cUxQc09xanp2bVpFSG0xc1pVbWtyekE5TGtwWnFZcC05SzIxTC0zS3RrTWh5aTY4d2s5eEpyeHlJN000SFRjZFdTdkxUTEZPNm9oT3JoM0Eya0FQUXgyb25FSzRxY3hhRDc3SkNXOFBUOEFJQXZhb1NQU3JFVGVxck13Yk5Lc1lNZ1gwbktydEd1OGVnZWFHQ2lHNjJxNElWcnpUQzJtdm1qQlB5amlLQjVkWXZUZlNTNXZoeldSNEc5cmFOTjByMFZmTGVCQllDVWFta1dZbEd3Mk4zVUp0dDlTeVlaTkVyWG5rMmUyV1NmM1c2UQ?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "e4cce70031ea",
+      "time": "2026-07-10T00:24:42.000Z",
+      "source": "PsyPost",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Luvesilocin: This new psychedelic drug could change how we treat postpartum depression",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRmluaUhYVHdHbS1TN2ZIajkzOTBtWER5NmFSUmpXdXUwdzFuVWtZLVBxUDVyWU1OdVpmRDFlUUVuVlp5UFh2NzdPOWlKdnZlbExERVFmSUptTEVsSWhlWVBhWkJkN3pOM3ZtUE5qc05MWWZkUTFEb2tUZjctbFVlbGVydjlueHljbzU5dWt1ay0yRUM5OTQzSzdJcWwtLWsxMWxUalAxcU1naHZlMnJUdFhKbFNUcUYzYVJLbk1zNmY?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -634,22 +710,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORFJndDVJSDA5RjNLYnhlbGJydk1PM1cxVkEySDN1UExXbG5DM2xqUDJZWS1CS3JIYUhHZ1otNXBlR0RvUldHR1ZORnNXd1lzalQ0QkpkcGJ1ZGNyeUpDaFFVYmY2c2FFNjdZWUxvNlpWWFhuNlNiclhwVEx6NHJ1QzlGUUIzWXYzNGhYek9wZkdWdkY2ak52TVRkbHlGblBVOEFmTDVhRDJ0dm8?oc=5",
       "tickers": [
         "CMPS"
-      ]
-    },
-    {
-      "id": "276012d995be",
-      "time": "2026-07-10T00:12:26.000Z",
-      "source": "PsyPost",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Luvesilocin: This new psychedelic drug could change how we treat postpartum depression",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMUZ1eVZfVnpfTVZDUDB3bWh3RWsxdnNQbmszcTJwWV83VVNkWm5Cb2k5elNtMnNrLXF2YU5GblppTWV2d3hDMHJxalFLY3BDMEJDV29Ma2JXXzMxUGpwZng2bVFoeWxibjVYZjk4SmhQSjB3WVFEMEZWaTJjaExsR3RRZjByNlNhSnVsYUZBb2J5NWwtcjNLazZRV3pBMk9lcmFNYUd5d2dsVUZ3eDd1WDZZQ3JRUGl6TU1ROG9BRQ?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
@@ -865,6 +925,22 @@
       "title": "Two years after ballot defeat, House revives psychedelics debate",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMGI2SE90QTd3Zm5PbkZMSFVhOFVBZ1lVR0NJcEwyVlhqRnRpVTlHZkU3N3BNNlZBWDQ1a19WdWpnSTJWMGNwWWVUZFhSdGlWblQyWFNSS3g5UHl6Vm5LVUtUOVZ5dDdyTlBCSjg2V1N2bjFoTk1mNGFaNmstV2hRcEwtQU5HTHh2ZWxyQ1A5RWhXNWhLR1lKSzZqVGVCY3BXb3BBNmxRd9IBrAFBVV95cUxQRnpVWUQ1cG9YUEZHY2hIY0dFMjhraElBUWstZFVxYlZ6aUZkWmd3eHlSQWRQWThuWW5Rc2FGVi1jZy1remIwSmxCdUxPWFlIc0NObW1zTE9DUklhTmw1a2NhcUpvaDZSWXhTSEt0aTFzZEJLc0JjNmNlZ1pHRERSMDgzY2pNbzdrQWVVTlluR3UtOWxpVHBGNldwWWYzbV9tS3hLbnhZejhiaTBJ?oc=5",
       "tickers": []
+    },
+    {
+      "id": "b74c596c69ed",
+      "time": "2026-07-09T17:20:02.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma price target lowered to $70 from $95 at H.C. Wainwright",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQRE1FUF8yeTdYOUFaV1RMSVVvSDZFUkRXVkZtYjctdTloTnNlc2pnT0ZyaG1RcElKQmZaaDRadVBDbkNETUtnakVvR1RHVldPdl9FYVBiOTZ5eFFUN1pqLWlPQVdVWTJ6blZQdjdfVW5td25MU2hsYjZERU5ScnJsTHRwZE1Sczh1MkNXX3BFZzBORGFkazBJdUtpal9ydDluVzdRcVhQd1hubDhOanB3clFKN1NTdFI3TUl3RHpKamJjaGVzcldfZkpVdzRLeEVhdk1mVVhQaU9JRjktc0tobS16dm54b0NBNFl1eGREa3VYMEJz?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "89a7793c26c1",
@@ -1355,84 +1431,6 @@
       "title": "Hunting for a New Hallucinogen in the Lilliputian Psychedelic",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaWJYZWp4YTRHbUZvNDhHR3lPcWJ3V2lGZ2lfX3BiRU13b0J3VG9qWTV5Tm5HZkR0Tzc2VGg3N2x0dUhfOFhORGo3NDdhbm1LdFBIam9fcERsWUZuanJfdXpHclQxNklqcHhxdjQtY1c5MDNEaEFuWlZLc1V5dEZLZTgyZWxUcWZibldiS05FNW0?oc=5",
       "tickers": []
-    },
-    {
-      "id": "7d380ecb8bf1",
-      "time": "2026-07-08T18:30:01.000Z",
-      "source": "Phys.org",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "How Fourth of July celebrations and the national political mood may shape psychedelic experiences",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWXVMVlR6dWV6a285TEI4RElwaXFhMjFtc09xQTJIU3dsUzJCWVdFYUN5T3dlSWpOS0Z6WEtEakFoeWhXbW9yWXRULS1QU3NGTDlCWll3dFZ0NWc1Y2VmWkRpVzNNZEdRWDAyejFSa093Ylg1ZEg2OVlQV0NUQklVTWtUNVk?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "3f1320a934f8",
-      "time": "2026-07-08T18:22:02.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "COMPASS Pathways (CMPS) Extends COMP360 Phase 3 Case As Valuation Questions Return",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMVlSR05rRFdBdWJoUGhRWTBvUU5UZFMwcktEeDhfUnRwal9RTTMzOXlZRUh2bDU5RE9lbEVSbU00YnQ2aGZIcTVCTldQSkVHc3Ftd1dsOVZyZGhKT2x2WkoxOTBNNExLTkJHTExNUi1XZmg4LWpfQ3ZlNUlDejRWTW5VbVVOa3pjRkdBVUJqdFQ1YkF5bl93RG1TTGRSNk0?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "8b2088dd23d2",
-      "time": "2026-07-08T17:23:52.000Z",
-      "source": "Seeking Alpha",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Compass Pathways: 'Strong Buy' COMP360 Trial Wins And Q4 NDA Full Submission (NASDAQ:CMPS)",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTk5qeF9GZmlGRGozT0FWVG9sRDlOV0syUGdVZ1V6N0lRV08xSE9uZlB5dWNuaHNVMHJGcnRodmR2YU1fbDFNc0ZYYTIzUTdvcGtXQXZLay1WcUVYNEpOMklIUmpkT21ia0ZVUXVHdTBidnNKUGRyazhXZXp5Z2xIT1BGbUtzT3J1bUdWVUZ5NV9pcnB5UG9mRHBWcC1UcHNhbGtnN1F1d1lVYVczUUl1Ri1sRi0?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "866a188e4ccb",
-      "time": "2026-07-08T17:06:09.000Z",
-      "source": "Salt Lake City Weekly",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Utahns are traveling abroad for ibogaine, while experts voice both optimism and caution around the emerging drug.",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdjdvaGNwSk1RWTIwUm9aYm1YVEl5cWtldjFzc2t3bk9CaXhwOGZFMkJJWl9UdlZaZmZick9CVE95aWdEUFZybDNJUUdJQ2VRQUNQX0FRM0dxcVltR0k3alZoQlk4WlI0blJBbVozZGc3MHVmMGR2SHBGN1dwNUpJQUhydkNOMGtUSWhZbnlrcERZNmVZSkVXWGtLTThsTl8zR2cxVXBzMXhtN3Y5TGNSN0RjQi0yZVQyLUIyeHV4V3ZsZ3dqTTNmczliTmgyRDNRYzJlNFFnMm9pZkt1UTgwVkh3c0oweHc?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "0cbb56dbe9b8",
-      "time": "2026-07-08T16:28:38.000Z",
-      "source": "Seeking Alpha",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "Compass Pathways stock upgraded at Evercore ISI (CMPS:NASDAQ)",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNT0pQclV6YldRLWlDcGQtY2JzOFZtZ0pUZmZ2blBWa29GbTROX3IyV2VreVBBaVQ1NlhDaHhubHZQR2FMa1ZjWDNQeTFmbi1VbjlpYW92SG91NGRFYmtPLTZXR05rSFFTc3d4NG1DX3R5RTQ1QWlJNTU3eTNvUV85Q2dlMDBySDBXN0E?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
     }
   ]
 }
