@@ -1,14 +1,16 @@
 {
-  "updated": "2026-07-13T21:16:42.403Z",
+  "updated": "2026-07-13T22:15:19.413Z",
   "counts": {
     "total": 90,
-    "crit": 6,
+    "crit": 7,
     "warn": 5,
     "bySource": {
+      "Military.com": 1,
+      "The American Legion": 1,
       "Psychedelic Alpha": 2,
       "RAPS": 1,
       "ETF Database": 1,
-      "Stock Titan": 6,
+      "Stock Titan": 5,
       "Investing.com Canada": 5,
       "Pluang": 2,
       "Yahoo! Finance Canada": 1,
@@ -16,10 +18,10 @@
       "WPXI": 1,
       "Marijuana Moment": 3,
       "TipRanks": 2,
-      "Investing.com": 4,
       "BioSpace": 1,
       "Yahoo": 3,
       "Microdose": 1,
+      "grafa.com": 1,
       "Pharmacy Times": 2,
       "Bloomberg Law News": 1,
       "Benzinga": 1,
@@ -27,12 +29,15 @@
       "The Independent": 1,
       "GuruFocus": 2,
       "yourcentralvalley.com": 1,
+      "Investing.com": 3,
+      "Stocktwits": 5,
+      "Trend Hunter": 1,
       "StreetInsider": 2,
       "Investing.com Nigeria": 1,
       "MarketBeat": 3,
+      "Drug Science": 1,
       "Psychology Today": 2,
       "Phys.org": 1,
-      "Stocktwits": 4,
       "Seeking Alpha": 1,
       "Medicine Hat News": 1,
       "sekbernews.id": 1,
@@ -42,7 +47,6 @@
       "simplywall.st": 2,
       "IMDb": 1,
       "Guitar World": 1,
-      "Investing.com UK": 1,
       "Grateful Web": 1,
       "PsyPost": 1,
       "Newsradio 95 WXTK": 1,
@@ -58,15 +62,43 @@
       "The Guardian": 1,
       "AFR": 1,
       "Talking Joints Memo": 1,
-      "Quiver Quantitative": 2,
-      "Jefferson Public Radio": 1,
-      "The Business Journals": 1
+      "Quiver Quantitative": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "b4c8a076a70a",
+      "time": "2026-07-13T22:08:06.000Z",
+      "source": "Military.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "VA, HHS Launch New Psychedelic Therapy Partnership That Will Impact More Than 1 Million Veterans",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTEZOODNjMHZYc3p2ajhFNVRPcTZka1RfU0pQOHNrbUNZRDNiTkYtRUw0MVpGb2Vhd0FCUzl5QVR3eE4tT1QzRUo2MmIwNlhiRF93LVowTHZRX2dSYXNfTDN6UzFKbzJjVEhJQ1laRFc1NDJCcjNUb3d2T2ViN09QUDZZcXRaTEpzbGpJX3VjZEtoN2RMSFh6bjN6eDZnWHlwNG95UVJ2TnJSWEN3VXVraklSVExsUkNPaWNB?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "ff962bfe053c",
+      "time": "2026-07-13T21:14:54.000Z",
+      "source": "The American Legion",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "VA, HHS sign MOU to improve cooperation on psychedelic drug trials",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdmZhY0Vsc19vMmVDN0JBblgwejlMSlpSU04wb1M2LWYxZTBxQ3h2SVFRWW1JTFI2RU4zVTBJYmdpM3lkUExXOEd5dnQ0Tm5LUXhhcUV3OEYxYm5FT2RFRVUzenpWaUlxcFBpT2w0QWtRUEJfcUM1cWUwNUwyVkdKRnhMaWJIbUp1QWxGX0NVUVJ3OUM2OGllQUhxbk56dzBPRUEwaW5ESUx5WjNmRWpSNnF2b0NYRUVmYTZXWVY4RkkwejNpZm5NbVMxNjlnaXJ0RVZUNGN5UVduQQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
     {
       "id": "0ad796b78e8e",
       "time": "2026-07-13T21:01:59.000Z",
@@ -244,20 +276,6 @@
       "tickers": []
     },
     {
-      "id": "24748dc8879c",
-      "time": "2026-07-13T17:06:16.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FDA sets public hearing on psychedelics for September 14, Jefferies sees FDA willing to move on COMP360",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcXVfYXAxTDMzMFZ2Z3ZfbXVfQUNUX19WWTE3MDlWZFRta0dJS3Zsci1RUU85RzktdnNXdzgxTWtjTWc3NzhzSnlXSXlFZXo4cmlCbEVaQ2owZmg5cm1Za2piTE4xemJpb1dJdHBqcm5fRGxhelNTTkN1TE80UHhqbHN1M1ZyVnlBXzh0VTliR0wtVDVHWG9wZ2ZTMFFhc1FtS0g4N01UWW1CbldnZ2dIR0syeDB5WWVldWVtVXhyX0JVZFhjVmF1aTM1d2h6elptRG5jbXA2Y3ZjR25oUkZHZm1odFZGZ3JaWVlvUkhEelN1eXFtbXBR?oc=5",
-      "tickers": []
-    },
-    {
       "id": "85d40d8696b2",
       "time": "2026-07-13T16:31:54.000Z",
       "source": "BioSpace",
@@ -316,6 +334,22 @@
       "title": "FDA Issues Final Psychedelics Guidance, Schedules September Hearing on the Future of Psychedelic Therapies",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObk9VckF5M2hodjFQT3RGWGVZT08xbW1CTnJiSXlQUHI3aGl5QzA4MWJ5RWQ1bkxxcVBMTmt2SGZtOHB5b2RaakJ5OXJ4REtYdmpkZXNyT2tfc1BwVTZaV2YzVmRvdTBOMTZYQUcweUFtdXRUWjRlLWVQSUd5SkFIQ2R6aGZ0SUx5UktRT2RyRDhxcXZzcE85NUs5bnBROXgtN2NCd1BRNERCSVlLb29JSjhBZ29PSG5BR1VKdmo4R21hWnNEVDNmU0d4Q2NXNE1VUG4tUV85SQ?oc=5",
       "tickers": []
+    },
+    {
+      "id": "75478d91258e",
+      "time": "2026-07-13T15:36:00.000Z",
+      "source": "grafa.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes reports alixorexton narcolepsy trial data",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd0lkR1Zma2pOUUIweHUxbElDbWxSdXZWVE11UUdvZzRWMFN5UDdreGdDSEpzMGlIeXFBOWxONFRzUUhpRHA0SEdETVNLLW9OcFhRLVFMS3ZKLVJxOWRaRVRtUzViU19pUFJWQjUtcTA4djFxblJLb0s1TlRRN0pISjFZb0cwRW81Ym5pcUtUek5hTlhqR1ZoaU5NUQ?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
     },
     {
       "id": "f9e423bdfb00",
@@ -483,6 +517,22 @@
       ]
     },
     {
+      "id": "bb2af33c6eeb",
+      "time": "2026-07-13T12:43:48.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "CMPS On Track For Best Week Ever On FDA Push For Psychedelics",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGN2cERNSmZPYTR1SWxCUm0zYVdqbXZFV0haX1BwRVRCdHlnd1RLeE5acHpTcUpYbE8wYzZjVUNKRkFyN0E3N190VFdlXzFRYWV5azJPRDhzd05QUnFhbXhJNnhRaG5GcVRMci1LUE5oY3l1akRscENWbDVkenVNUGVpb3I2cFBRZTZFOEF4dzk5UDVSTHNhNjBoVk1DU2xQQU16Q0plWm0ybVFUQ1FUcG1yMHl1UEFqOWcxaFlkZVNLVWs?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "be046a2c90a1",
       "time": "2026-07-13T12:00:00.000Z",
       "source": "Stock Titan",
@@ -494,6 +544,20 @@
       "impact": "LOW",
       "title": "Psilocybin laws spread state by state — Hypha Labs bets on mushroom production tech",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ0FVc3hlOHBYSlBDU2xnRm4ybmw2YnhNTUdtT2h1RjdoZkFKZmtaVVFoZzhNTVJ5RlBpbklHRFdhMHY5VkNDMkZsa2wwSjBBV1U1X2hQaGNmQkc2aDRyU0FLSng1bkRGYmZ4NFhwRzhoZGVQTlVwbm82RGhMdEJoT21RYkhiMG9vd0d3eWxsWWRSejk1aXcyREFNMXd1eDFJLVJ4NTNjSTNQRnpJal9SVmFCZ3E5UlRDR09USERrQ2Q?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "f9bc1e60dfb9",
+      "time": "2026-07-13T11:52:52.000Z",
+      "source": "Trend Hunter",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Psychedelic Band-Approved Fashion Capsules",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5QUd3bGd4Y0h0ZFEzQ2x3SWN6QzU2Q2hudUtqLXhMaU5kWU1kTWtsYTlDT3lmM1c4Z3ZvR1UtM0ViejBtTGlrS1JJTHZwRl9mWGExeENwbWFsRGJ4T0ZBR0phb9IBY0FVX3lxTFB5QUd3bGd4Y0h0ZFEzQ2x3SWN6QzU2Q2hudUtqLXhMaU5kWU1kTWtsYTlDT3lmM1c4Z3ZvR1UtM0ViejBtTGlrS1JJTHZwRl9mWGExeENwbWFsRGJ4T0ZBR0phbw?oc=5",
       "tickers": []
     },
     {
@@ -575,6 +639,22 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "f67550ef0779",
+      "time": "2026-07-13T08:19:25.000Z",
+      "source": "Drug Science",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Australia Refined its Psychedelic Therapy Framework — Here's What's Changed",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVXJfTjBMS2gzSVRuU0FqZHJocWdsSjhNcXdTWU5KMWRKZ1JfWlFzbFRvenpnWnZPRVNwS09lRVJ6NkdLeUpKcUVmTUEyWDBicllWOC1qdHcxUXpQUGFCb1B3a0VlSXoyZWJuN3d5aWlNOHBYM1hwY0RuYkk0TG00VEhabEstc19BQkxVZnVsX2NiZEFtMWltZFRTQ3d1VXctaF9paWdFYw?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -882,22 +962,6 @@
       "title": "How a psychedelic-fueled studio session set Ron Blair on the path to becoming a founding member of Tom Petty and the Heartbreakers",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ09yMk9tMmdZSklGM0x0SUNZZXRZVTY2Y0hlZGhqU0F2OVZ3TG1JdXdMVXdIMVl0LTFSQzh6aERjbTA2OFpnREtSdjNFUGM1ZTJCaHdPalZmVmlFM1BsTGZaRnVZMDZ1TXR6bEhYYXR2WjJBOVdSNmt5WEtCRFlwdzZDVFVVZlpkT2UzT3Y3a3lUX1RvUVItdTRmT2pVazVhb2pCaUR3?oc=5",
       "tickers": []
-    },
-    {
-      "id": "82bc2393c9ce",
-      "time": "2026-07-11T02:00:14.000Z",
-      "source": "Investing.com UK",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Form 144 NEUROCRINE BIOSCIENCES For: 10 July",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYmRNNzJXZUhQQ1Z6eXJRY2xSQWxNMnhQa1JJRHJ3RE1MTkdITVNRUDRVUV9Icm1wazVpanlFb1dxUGpwcmtxRGlVTEZDZW1qRzhMS3V3UXhmdWdMaEFqMWhGa2c3U2JTbk4yTmk0X2tFSXc4cEJjWjl2QWVsS0ZObmU4M2NaOTJHZFlaR1BZYm5fU0NhbEZydkJXTHNoYllsNkRudVpkRFFSZllHblNfeTU3X1Y5X2s?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
     },
     {
       "id": "16ec0b75ef1b",
@@ -1359,66 +1423,6 @@
       "impact": "LOW",
       "title": "Neurocrine (NBIX) officer sells 14,571 shares under Rule 10b5-1 plan",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUTdkMWdSdVRRTkdFOFZSSXJXZ1BWdlo0VW94TWxnQXNGS0p0LVhkYjFNaG5UOVBDWnl1RXlldlJlWk9PZ3ZoR0xnYUJOTG85VUFlTDJ6dFVvY19KYjRvVHowMm9TUzVhdGVKWno1MzlYamlnMk5tZkIyUWZQdDZPaVhUZVVEcmRraVV6ckxjdkNDZ1duTWNQcGxLNkd6MmFqSU16bnZEWWlFcDdKT25EY0xDS01CX24zb19McA?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "c15c0b67dfca",
-      "time": "2026-07-09T22:20:00.000Z",
-      "source": "Jefferson Public Radio",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "An Ashland psilocybin business says fee hikes could threaten the industries future",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT25IY2ZnamxwdGRGT0R6cDFPSVJPbk42ZGZRdUdyRkxITFdRQUFaNzVBRjU5eS1ubVdob0tWTUdkNUtYXzhzMkNVNUN0TEEzQUsxLUhJa2YzbkdPYTQ5VVlReW5FTTdyaUJNLWd5Qk91ME5zR01MSkotNG1iRXFwbkRLcGxGbXM1aHVwcFppckFlMUZUUTdFSw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "ca55b52f0f8e",
-      "time": "2026-07-09T22:05:00.000Z",
-      "source": "The Business Journals",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Oregon psilocybin data shows declining use, who's taking it and why",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV2oxcXk2NE9BWVB6TmlDLVBLWDBhVWYzLWl5WjhZN2pWZHIzSHFZbzNFUngtb2VJZWtQYnJKX1gyWWRsZEZoZjZYSm9SYkNKeVVNWFdCa3JVRlpoT2kyZWJqSXByUURmbTM1SnFyZnN0b3pIRFlYWU9VNG92T2dfcGVHRVgyN1loVGxudnlOTW1fbzF4aHpBTXhSVE9UZUI2bHRqSzF2YnJtQQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "587bcad3d35f",
-      "time": "2026-07-09T21:45:00.000Z",
-      "source": "Quiver Quantitative",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Insider Sale: Director at $ATAI Sells 100,000 Shares",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNazVPUllOcWliNkZIMHoxZVRnRUZEVDZ1RUFkazN1N2tFZV9kNi10ZDBBd01XUXF3Z3BDcnFoMHVoOVFRSDBSNUpVZmtKMGRXSl9oemVPSFVVYWo0OG0wS2hlWEsyd3pJaDN6VDB0SHpBZVhkTVhTOGZDVHZETGpxdGxleUxBT25SWHJyQURvVTcxYWFFc0E?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "7ac8ec0ad7e8",
-      "time": "2026-07-09T20:27:46.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "10,000 NBIX shares listed for sale; recent Darin Lippoldt 10b5-1 trades (NBIX)",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMGxXaGxKMGRDTWtJTENmWnpCVHBXaWI1MVJpeW1BN1ZONGdhN3ltSzExMnpUckk5dzRVVks3VS1tMzU3Q0ZVSEVoNy1jVmZhRXdSZDM2cUhrVi0tUXlqdGhEZ2UwNFRUU3VmNzhEU2R0c0JkVGtHUlNVZGVKVEpmZUpIQnNjaERYX3hyVXJzQVoydDAweUxENktJTXc3UkJQSkpaTHdR?oc=5",
       "tickers": [
         "NBIX"
       ]
