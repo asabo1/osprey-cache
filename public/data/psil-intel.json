@@ -1,17 +1,20 @@
 {
-  "updated": "2026-07-15T21:26:23.511Z",
+  "updated": "2026-07-15T23:25:03.298Z",
   "counts": {
     "total": 90,
     "crit": 3,
-    "warn": 3,
+    "warn": 4,
     "bySource": {
+      "fox34.com": 1,
+      "Reuters": 1,
+      "WBFF": 1,
+      "simplywall.st": 4,
       "Proactive financial news": 1,
-      "simplywall.st": 3,
       "MedPage Today": 1,
       "Psychiatric Times": 1,
       "Applied Clinical Trials Online": 1,
-      "Filter": 2,
-      "The Globe and Mail": 3,
+      "Filter": 1,
+      "The Globe and Mail": 2,
       "Yahoo Finance": 9,
       "AllSci": 1,
       "TipRanks": 3,
@@ -64,15 +67,73 @@
       "WPXI": 1,
       "Microdose": 1,
       "Clinical Trials Arena": 1,
-      "grafa.com": 1,
-      "Bloomberg Law News": 1,
-      "Benzinga": 1
+      "grafa.com": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "e0840e858282",
+      "time": "2026-07-15T23:22:00.000Z",
+      "source": "fox34.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Texas leaders push for ibogaine research as veterans report life-changing results from psychedelic treatment",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOczQxRHNQczlsLWp2NnZVdHNnQTYyRE1fM3QzWDUtUDZVMnEwSnFpN2JWM3V6bFpua0h3MjVZSVFBX0lsOFRJb1VfS3l4YkYtSW5GTlhSR2EwNmZlMUl0dkxwZHVWSDJTZGUxTTctdzlQaGhMLXpaTWpxWFBGaEZEODd5M1Fqb3RXSWpDTFVDTEM0bU5Bd0ZOZmpLNmtJU08zdTVxSHBEUUdMZ3NzQ0ozc0Myc2tOUkloeFFrT0dZd3daVGdqV0Y2UmFoa28zMmFaZmc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "696522d328ac",
+      "time": "2026-07-15T23:09:44.000Z",
+      "source": "Reuters",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Eli Lilly nears deal to buy psychedelic drugmaker AtaiBeckley, Bloomberg News reports",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUkdBem1IX3AtekZzbllhUEZyTU9HQU1RY1AxRF9ZSnNoNlAybXNmcnFnTDZ3X3RJWDQ4bXNlNERLeWlUNy02dFNfQl9BbXBKZmRHVXRpdi1oMXltUF9qNVB2NEQ0WDJJbmdXSDJ6WGJDUzR2c0t6MDVycnhKOWRCckwySkc1SjN6d1FZNWpzZW5nSnRHRWl4M3dtaXNMeGN1d0RuMVJsTjR1R25EYWhsbmR5Rk9ndzdhTzJuVzN4QUg2SFR5cDZPbUxDVHhjVmhWaDlaTGI0Z1NwTUhGTlE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "588ec974bdcd",
+      "time": "2026-07-15T23:00:38.000Z",
+      "source": "WBFF",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "VA, HHS act on Trump's order to speed psychedelic drug research",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0VNZ19pZTlORXR1X1E4TXItM1pPNjVGQkhNcDlGUkxoa2hjTG9QMzNHNWRtLXBWMnMwamp6bXoyaDk1YXlxZEhvSHdXRlFXSTdvQ095N2Z0a2ZsQXpaVEczR3VPVldZdEV5UGZ3NkRjUmNxS1NOUktnWjBfcmdtTFFiNFNZNURHRGN2YXlDWmFrTE1aeVpuTy10NFZMSWpUS2ZuVVB0SQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "c215449f89c1",
+      "time": "2026-07-15T22:45:43.000Z",
+      "source": "simplywall.st",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (DFTX) Could Be 30% Overvalued After New GAD Study",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdlU0UFNrcXRyOE5kWkxkd1JTMEQzdHZWOWIxb0swLU5WeklEaE4yZVVGOEI5NGdqTEJIbnE2dTJCOHVnd0wtYnJhOVZMVk9DQlNiNmloM05LcmpMRzhUTExWYWp3N2kwNTRBMnNnZmVOS25rYkoyT1h3VTJqLTFOWWdHWUpGNkhvRFNiUE1BTlhZbHp1UmVwQ3VxT09jNHIzaFpockZCMWo0QlNnNnVUc3ZsU0pHaldXQVkzbGI1ZG02VlFGdnpmMUFiQWdwMWZJbU5tbUx3V0hDZlhyWldJbmN4Yk1yaV9qaXfSAe8BQVVfeXFMTzI4eko4ZFlZbmJWdXZxN2NzenlCSk1RbDZhU2E5emJIamJOYmhHNkZPQ2Rhc01HZWRoOWxwemZWS1p0cFhfX1piUHZwLURPaVBYMG1UTWVubExrMFl5N1pCZ0Q4UlhJQnJRTnNUM3FrWXVWVDk2Z2xtMGtqV1M4bjhleVVOT0N3WXY5UGEtZ0VGcHNjSnVzdXI2TVdlZkVVX2hDVDdRczdiMXdiZ0x4YlFoTktEWkUtcWZ3cVBLSDhVaEZYdGRobUZ3b1FmWWR2dlVJMW1fcDdZYXhfQ1V5UzZwUXZURFAtWXZxMGxrc1E?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
     {
       "id": "a30db353fef8",
       "time": "2026-07-15T19:34:00.000Z",
@@ -257,22 +318,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaG1uaW1tTkJLdF9CT0gzZmNpRF9QMWRnYUR3QVVJcHV3VWVPQUdNRmRWUXNQbG5iYVgyN0lBYnZTcjR2bjBGTVZDbjRNQmlPTDVoN1VjVjJKTlEtVXVPYm15MzdMQU5TMUNlMWxWcmdObWdoczRTMmJYZ0dQRS15bHpGRWdZTEUwU0lzZGRBTXhQNi1mZHhIMmk5MHpOOGNfQjNsaDdnRy1oWUFMaExiVUdtc2ZKZ2V5MVR3WEIybnpGNEtVQTF0RDh5QVlENi1Id3paX2FWS1VnbVo0X1HSAeMBQVVfeXFMTmVpMkRzeTZiMWVxVW5Kci1OX2JubkZGS183T1FEM0F2cnJiakdlTi1CRFFEclFVdl9CTmdWS3BFTkxWdnRWdW5rTUxtbURIM2tSaUI1R1FUOHNzeVlmd1dxb20tUHlSWk1xdGV1TFJpTFFaVU5kYmd6aEdwTjZjb0pFdTNQX2MwQmJlRkFCbDBqcHZBMGo3bjhiXzBXYndpaXJqdEZ3TXpfWk9vdU5LX3h6WFZmRC1Fa0l6TWg5VmkxR0RrV052d1l5SXA1UjVPQ1ZKTEtOV29tV0pSaUhXczJwcjA?oc=5",
       "tickers": [
         "GHRS"
-      ]
-    },
-    {
-      "id": "4960bd912993",
-      "time": "2026-07-15T11:30:00.000Z",
-      "source": "The Globe and Mail",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Canaccord Genuity Remains a Buy on Biogen (BIIB)",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVVVKa0hDYWpyTjVXcTk0SnV3MThNT29DOW1GSkpha0VBM3I4eHZPbTdGdlc4UlBWb2M3N3c3bi1VeENJbGNsRHpKbmtzWm5LSHhSYm02YTZ6cWtTN25IQ2R5bFB4UGI5VnBDS3lqWmR3ME5JVE1pS01xQU4yaVlMMEgyR21HdkJGN2tGUTlOTm80ZlEtbE1QWDNHaV9pR2k3SXZZbjNNZ1E3YWJhOXdHLTlnYktKOEVUQ2FRRURaX2Q4Rl9QdDdnTVlHWQ?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
@@ -499,7 +544,7 @@
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Much Ado About Psilocybin",
+      "title": "Much Ado About Psilocybin - The Source - Bend, Oregon",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12ZWFpZ21mdDEySXNXdUttSEsySWxRRThwOTFSTlBDOUdsaXh3Y01OblBYZkR6VFJ5RWNzQ0d3UEhzSXZlYlkxOEd1UGpCdFBRczY3bEc1MmYwbEczMXExUnJTMG5SYWVyUDZkWmlR?oc=5",
       "tickers": []
     },
@@ -626,7 +671,7 @@
       ]
     },
     {
-      "id": "b06fa4d364fb",
+      "id": "975ccb867d50",
       "time": "2026-07-14T18:48:21.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
@@ -636,7 +681,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Will New GAD Treatment Persistence Data Change Definium Therapeutics' (DFTX) Unmet‑Need Narrative?",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPVVg2SDlmRnBtNlpDVGRFV1I4bFNaOXJEc1pjTUNIV2RDUGRiX0NqaEdnYTdMZXJVOHV2dlJXVUJ4d3Vrdzc1Umo5bUNEcGZ3U3Q5Ty1yUWk3eXlKdW1qcEY0MVZrZmdFaGxPOTNOMlA4SldDLTVjMURjTHpFMFZVZER6MldSTk9zNjNtek8tME5iMU96bXVzN1hkN2prUnBTQUs5RGNGTDVKMHdRbzlZdTE5TDd3bTRFNzBWNXdNdEwwWWhJenhCSnRlR0FreTJ2X2JYT2hDMUtaRk9Qbl80M2lMSVBaTGdqZFI00gHwAUFVX3lxTE1GYy02dTVMSGJ2YlFpMGN5TWNvT2RlOERCazVXYS1oU0dvWXlqQzV4LUlaTTEtYXdLS2xwenA3OUNSS1pseGtKS2hPTGxNSTVBbTFla1I2UVdaQXgwNlI3bXB4MTJSNXRSd2Qxak1mazdhWkdyN0hiRlRqOUp0aHJCQmNuQzVjVFpLdWJEZ2VURGJiVHROZ1IyY2dnMzlKMnVFT1U2bzRja0hMWDVMMVJCWEtPWTIxWXpwYllvd3MyX09Xb2NfckxpbGZnSGhzcW14TWdJMjl3RzEwd21qYWZaYUFNYVVrV0tzM1dadFJBcw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRmMtNnU1TEhidmJRaTBjeU1jb09kZThEQms1V2EtaFNHb1l5akM1eC1JWk0xLWF3S0tscHpwNzlDUktabHhrSktoT0xsTUk1QW0xZWtSNlFXWkF4MDZSN21weDEyUjV0UndkMWpNZms3YVpHcjdIYkZUajlKdGhyQkJjbkM1Y1RaS3ViRGdlVERiYlR0TmdSMmNnZzM5SjJ1RU9VNm80Y2tITFg1TDFSQlhLT1kyMVl6cGJZb3dzMl9PV29jX3JMaWxmZ0hoc3FteE1nSTI5d0cxMHdtamFmWmFBTWFVa1dLczNXWnRSQXPSAfABQVVfeXFMTUZjLTZ1NUxIYnZiUWkwY3lNY29PZGU4REJrNVdhLWhTR29ZeWpDNXgtSVpNMS1hd0tLbHB6cDc5Q1JLWmx4a0pLaE9MbE1JNUFtMWVrUjZRV1pBeDA2UjdtcHgxMlI1dFJ3ZDFqTWZrN2FaR3I3SGJGVGo5SnRockJCY25DNWNUWkt1YkRnZVREYmJUdE5nUjJjZ2czOUoydUVPVTZvNGNrSExYNUwxUkJYS09ZMjFZenBiWW93czJfT1dvY19yTGlsZmdIaHNxbXhNZ0kyOXdHMTB3bWphZlphQU1hVWtXS3MzV1p0UkFz?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -1383,50 +1428,6 @@
       "impact": "LOW",
       "title": "Psychedelic Therapy and Veterans: What Pharmacists Need to Know About the Right to Try Pathway for Ibogaine",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN0tWNmF4X0pmZlVGeGxCWlJFcDBaQkwtYVBjUE9rcXdNZ2ZBdk1aZ3JfWDZBVG93RmpJWWQ0clZDTDljR0J6TXJMYkxES2hNXzJSTF90VnBrVTlYMWVrelR4SUkyZUlmdVpYc1ZVblVLMW9ISnk4NHpfTWdUYXhrNzBDVF9ONTEtNmxla2tBVmtWMUlLZEtEN0RCSzczYnlwOXRtdVFGSnZyeWNzWXlGTzhKS2tIV3pSWkRJSHdGYTEtYjk1ajYwYjd3QU1CNzFaZ1lXTkdNODE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "cfd26bca9848",
-      "time": "2026-07-13T15:27:00.000Z",
-      "source": "Bloomberg Law News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FDA Unveils Guidance, Hearing to Consider Psychedelic Treatments",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaGVxdVJhUnNyMU0yZ3V1WVp5MDV1dkgwdDJLWlZMSnpSekRyRE1tSWNpNElVdnp6ZXRiX0theDNKR0lzTWpCN01jY1RoQWVJb1FPWE03NEJvcThiUzNuN3Q3bURLYUFscEZVNjkyaW45NDV0WHNjWDNmMkpoWDdLUmlsUHRxYlMwcnlFTnZTY2VJM3V2YlVxakd0SjM0UFRHZXFQdXdwOXV3Sng4YW15dDdrbTc5ZHRn?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "304cf389c025",
-      "time": "2026-07-13T15:06:39.000Z",
-      "source": "Benzinga",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "What's Going on With Alkermes Stock Monday? - Alkermes (NASDAQ:ALKS)",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSE1tUVYzX29aa1NKUXhIZDZ0NHZtb0JiVVdOQTc0NUYyZWdLTjJHcmlzTEZKbXhOTEVOUW9OQy00T3ZUUjlWdmdUQXE3M2IwVkFJZU5VQWtRRXRoNXEtTld1elRoMU03QVM2LWw2X0twUV9WU0tOMWxTUjByQWk0R0l4TUxQLTdWLVZiNEhvbDV2OVZZY0t2VG1YTTVzWTlDT2hzXzFId3VZbENqaDZPNmxMTlJJNjFhdTdkNjV1SHFwcGpaMExCU1o4TWctLV9HcVJ1VmtWbF8?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "371e0bba3670",
-      "time": "2026-07-13T14:45:19.000Z",
-      "source": "Filter",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Massachusetts House Advances Psychedelic Therapy Pilot Program",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MM29WeVIwTHhwRV9YOXBCY01FTS1wanlxZWxfV1VGcjYtQUFFM2cwOEI5SU1PYl9TNU50MXhzOFREcEdDa1dOTjlpNEdoUHlGM2JCMzVpUkZRTzgwZkRLS2QwdWZ6dXM?oc=5",
       "tickers": []
     }
   ]
