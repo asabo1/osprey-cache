@@ -1,24 +1,26 @@
 {
-  "updated": "2026-07-15T14:15:49.660Z",
+  "updated": "2026-07-15T15:56:07.433Z",
   "counts": {
-    "total": 92,
-    "crit": 2,
+    "total": 91,
+    "crit": 3,
     "warn": 3,
     "bySource": {
+      "TipRanks": 3,
       "Business Model Analyst": 1,
       "simplywall.st": 2,
       "AllSci": 1,
-      "Yahoo Finance": 6,
+      "sekbernews.id": 2,
+      "Yahoo Finance": 7,
       "Yahoo Finance UK": 1,
       "CNN": 2,
       "Port Townsend & Jefferson County Leader": 1,
       "WCCS AM1160 & 101.1FM": 1,
       "CBS News": 1,
       "Military Times": 1,
-      "Moomoo": 3,
       "ScienceNorway": 1,
       "The Source - Bend, Oregon": 1,
       "Forbes": 1,
+      "Yahoo Finance Singapore": 1,
       "Vicente LLP": 1,
       "Behavioral Health Business": 1,
       "Business Wire": 2,
@@ -29,28 +31,28 @@
       "National News Desk": 1,
       "KJLU 88.9 FM": 1,
       "BioSpace": 2,
-      "SILive.com": 1,
+      "AL.com": 1,
       "Yahoo": 1,
-      "Pharmacy Times": 2,
       "insights.citeline.com": 1,
       "Quiver Quantitative": 1,
+      "Pharmacy Times": 2,
+      "富途牛牛": 1,
       "Psychedelic Alpha": 3,
       "STAT": 1,
-      "STAT News": 1,
       "Stocktwits": 1,
       "The Clinical Trial Vanguard": 2,
       "marketscreener.com": 1,
       "Marijuana Moment": 4,
       "The Globe and Mail": 1,
+      "Moomoo": 3,
       "Morningstar": 1,
-      "TipRanks": 2,
       "Seeking Alpha": 1,
       "Military.com": 1,
       "The American Legion": 1,
       "RAPS": 1,
       "ETF Database": 1,
       "Stock Titan": 3,
-      "Investing.com": 5,
+      "Investing.com": 3,
       "77 WABC": 1,
       "Pluang": 1,
       "HHS.gov": 1,
@@ -67,17 +69,30 @@
       "The Independent": 1,
       "GuruFocus": 1,
       "yourcentralvalley.com": 1,
-      "Trend Hunter": 1,
-      "StreetInsider": 2,
-      "Investing.com Nigeria": 1,
-      "Drug Science": 1
+      "Trend Hunter": 1
     },
     "byTier": {
       "T2": 90,
-      "T3": 2
+      "T3": 1
     }
   },
   "items": [
+    {
+      "id": "a22a1d3bb507",
+      "time": "2026-07-15T15:17:31.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "FDA announces availability of final guidance for psychedelic drug research",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZm8yYm5IZDJXZjdJV1VFUGtCM21yMC16RFJXWlJsdWMzdEdkaGFYYzRibTVLTEQtSXNsci1peHhpb0RvMFoya3ZoZjQ1MUJxdTRUbVNKSW5NYmo1djFPN3hLVVdzSXNyTjlPWHY1N3NoWGhJSUduQ3YzQ0hmMUh0dF9OVmlTa0ZiRVBjZ1RpX1dRX25CYThGbzZiaTNjOHlPV3d6b0doZzJURXRnWk5Mb1gzOTJCekUxczlFZDhEY19nQQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
     {
       "id": "e0dbb1ffae7c",
       "time": "2026-07-15T13:24:05.000Z",
@@ -127,6 +142,38 @@
       ]
     },
     {
+      "id": "c849a0fda374",
+      "time": "2026-07-15T10:18:08.000Z",
+      "source": "sekbernews.id",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics Raises $805 Million Following Positive Trial Results",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UUE9BT1RNN3IyU2hYb1RPMFRHbEhFOWQ3SDVpbXhOYTlpM25ZQXpmdlJKQUdxSThxaGV6VkJvNGRDVHF0WnJncGpPVUlrZjhET1gwNktEMEl6aWM5M2pjQ2RJUjN5YXZXSUxlaW1HaEZpbUI1NWlRSURGU1E?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "6b5171e20963",
+      "time": "2026-07-15T10:17:48.000Z",
+      "source": "sekbernews.id",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "COMPASS Pathways Reports Positive Phase 3 Results for COMP360",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLR0p1d28wMTNGbzl6dXZET091TzI1UlNMbHFhejVFdzFUTElnekVLeGc4N1duUnU1UHRGWkQ1MGgwN1E5RjZQVGpOWk45OGxDVzNDeGp3NTNYNWd1aXF3WlVwX2V2ZUpLMHQ3M0JR?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "f6a6fffeb79e",
       "time": "2026-07-15T09:24:34.000Z",
       "source": "Yahoo Finance",
@@ -172,6 +219,22 @@
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYl93ZnRHcUhabEJCX0hGTEo4Tzk0SE1aYUhTck5ValZoZHBXU21ZX1REdTdOM1FyZzJKV3I1Mi1jNjR3ZlQ4TTdTNl90V200VUk0LW5oZ0k0Rl9MQWIzRlJ2WDFrZmVRSjMyS2gtNU5NT3ZzaTc5TGxlY1RnalI0U1lDaTk1dmVLYVB3aWRaYmtKQko0YWlnNDVab1ZsRmE0?oc=5",
       "tickers": [
         "ATAI"
+      ]
+    },
+    {
+      "id": "e708021e335f",
+      "time": "2026-07-15T09:22:20.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Is Vistagen Therapeutics, Inc. (VTGN) Stock Facing New Challenges After PALISADE-4 Clinical Trial Results?",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWXVhWXVUMExaQ205SGU1QUdEdkFxZjVlb3dLSzFmWXFqRnJHWS1iRVBHUXlpMElUYXRGR3RRN21aX19UUVo3NEF1a0VMQWFBamhWVk1DQXlxQ0x4ajlPSnRDdFJBeHpFd1MyVXBjZlFUT2JjYVNoNkFMcHZoMnZ3bzh4MEFOVERFTGd2bGRNcG5VSUw0ZHNNOVlyNlhxdw?oc=5",
+      "tickers": [
+        "VTGN"
       ]
     },
     {
@@ -279,22 +342,6 @@
       "tickers": []
     },
     {
-      "id": "d4009cf54d4f",
-      "time": "2026-07-14T22:40:00.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Press Release: Alkermes to Report Second Quarter Financial Results on July 28, 2026",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSnhnLVd6eGE2Szc1WVhPVm1WRDljMlRSdThESVRtSnR4d0JpUHNIczRqSVJtUHd2S0l1Z01OWllkNnEtSTI3ZnA1NTFISDBDR3hCT2hHcHpCLXVKZmxfUGNrRkdBTl94YVphUTlPcGJOUHNpaGxHS3hvSlF4d01PY0NlN1FDRDh1SUlVeDA2OFFNNW5Nck9WdDBvSldIYU9oWFVqa0ZNZDF6WFZoa3VRQkxYakNkM3dnSjR1dUFZeHFxZERHT25SeV9lc0FRQVVmTlBBNlg1cERfRkdqQ3c?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
       "id": "06e69b97166e",
       "time": "2026-07-14T22:02:32.000Z",
       "source": "ScienceNorway",
@@ -334,6 +381,20 @@
       "impact": "LOW",
       "title": "Federal Agencies Unite On Psychedelic Trials For Veterans",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdVlzYkZVWVZiYkU3UC14NTdVazFyNjV0M2xlYmxDbkJ1ZlJ6SGVNeFk0UUV1TExhNVNLSEhSWFBlUm5zMEtSVjhDLS1oZzJ6TGZOczE0by1KUlpwcnJScktsemxTTGF2WlROMUJCVjdKTUEwOG9MUW1ueVNVaVZ1QURDeFpHS1FQOWk2NmdGY2NTOE5pM2RKOVlTVVhrcnFBQ3ZfN3p3d2h3cHNlTVQySg?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "1ca55cb81a89",
+      "time": "2026-07-14T20:52:55.000Z",
+      "source": "Yahoo Finance Singapore",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Can scientists build a better trip?",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVUREbjUtNnBGRWd0bF9yYWlWa0xuZDlTOEl1SDlUXzFvdGZwRHdza0NtTFYwZUFPTWxkNW93M0V3bWZtamVtbkRtMC13SDlyMDhKcWcteEZaQlBsdC14LVl6eU04XzdCQnJzSmdHbzdfOFJOclNjQmVKcl9wN29tUWZGNA?oc=5",
       "tickers": []
     },
     {
@@ -498,9 +559,9 @@
       "tickers": []
     },
     {
-      "id": "e2937f59a31b",
+      "id": "28cb37c53a88",
       "time": "2026-07-14T16:29:00.000Z",
-      "source": "SILive.com",
+      "source": "AL.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -508,7 +569,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "How is it legal to test MDMA and magic mushrooms on people? The FDA just spelled out the rules",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWmotdVZCd1R3Y2lmYWU5Yk9SLW16eHNPM3FZaFhrSGdiNUFWUUJUaHNjZGU4cEk0WnQ5OWRZZ3RZWnBUWmx6VmhKSGVMUmZtTW5xeWZxMndhZTZZSVZHNkh6RXRYY3JkLTdtTWhhbDdROVFBYk1odWVyUzVESVp0ajF6WVJkS1R0VHhkZFgzb2hNVVBkbzFtSjVhd2Fvb2gwejQ1X0FzdU9xOEhNQ1JiNlhxdjgyeDRBQllfQjdlV0U5X3V2VV8zZ2xnNE1LZnBRSGfSAeYBQVVfeXFMTTE3d0xiOGNxb0Z2eUJIVlloTk1LVGwzamFySGpNbDdVaXp3OUk2MGhieEplOWl3UjNHWTlJQkUyZkZ4RF9uM3RndUxQZ0g5dDZmek9mYjQ0aS1pNWJVYmV4RHRmWDJEUHVialRBREhGZTRTcDJNcFEyU3dmZ3phbThBZFgzS1RBel9XMmozNXh6a2MyX1NNQWUzcVQ5RnFSMU9sbDN2aktHcDgySXNXYUJCM2tmQUhmRlN3UTFkNWxJaHBRY0N5ZExXSFVZa29ncG8zVlZ0UnBkVENBMEV4VzM3cndOWkE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNd201NWI3TURUU2ZsUk9OOGJTZTFGTS1Wb2NnX0dITFN2YjJYMjVFRy1hcnZBbE9oelVuaDlZQXRGUkxXNFVraWhfS0hWNkdtWS0xRm5vZVlpTUxoMURBamY4SDJDR2U2S3lkNzNHcVd4bDVZUC11d2dPTGVSMTVzQzh2ck5uRHZNYk83RXpIQ0FQOXJjRFM4a05ISjZ6cEhnU1lmY0w5dHZQUWVxQXlMWjRPU0lnWXY3U25rRzNDVWlUY19wTWhJTW5HX3ZzNXJadnlNMDhodHZqc3h5dzM1OdIB4AFBVV95cUxNd201NWI3TURUU2ZsUk9OOGJTZTFGTS1Wb2NnX0dITFN2YjJYMjVFRy1hcnZBbE9oelVuaDlZQXRGUkxXNFVraWhfS0hWNkdtWS0xRm5vZVlpTUxoMURBamY4SDJDR2U2S3lkNzNHcVd4bDVZUC11d2dPTGVSMTVzQzh2ck5uRHZNYk83RXpIQ0FQOXJjRFM4a05ISjZ6cEhnU1lmY0w5dHZQUWVxQXlMWjRPU0lnWXY3U25rRzNDVWlUY19wTWhJTW5HX3ZzNXJadnlNMDhodHZqc3h5dzM1OQ?oc=5",
       "tickers": []
     },
     {
@@ -542,20 +603,6 @@
       "tickers": []
     },
     {
-      "id": "b83cdfc8eafb",
-      "time": "2026-07-14T15:31:50.000Z",
-      "source": "Pharmacy Times",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "What It Means When a Psychedelic is Granted FDA Breakthrough Therapy Designation",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYXZPZERmOS12MC1CS2lnTUt3WnJxa0RDMC15cEpuR01yTnVScXluYmc0MUxvSVNXZkhzU0VyN0dPOV90WHVmckFjLWo0ZHRRYUJVLXF1ZktGTXlqNmViQ1dzLWRxc1lOeWthc3QyQ3VLQWRMVTdRWEhtbjdGS0JSVjdWWnhHYTVlZ3ZDajZrNTRvd2Vvamg3dVpTOF8tY2dnQTBsSFNPTjk5STZILUpQTE1lQ1ZNSy1X?oc=5",
-      "tickers": []
-    },
-    {
       "id": "17174f984609",
       "time": "2026-07-14T15:03:40.000Z",
       "source": "insights.citeline.com",
@@ -585,6 +632,36 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSmZOeWVwSE1FaFlkOW9BeEZRVE5yRXp1VGhCVnd1MGRlUG5heVd5VTE3VHYwallwOVE1Zm9FOWdoWVpHWC1NekxreHh5enE2TXFrbjhkSVhDVDNwU21vMlBhUGRoQlo3ckU2Q2VhLWFjc0ViTURfWGJWYnJ1VGdHekF6R0dKUXhfb3FSb01jRXhqRjhzd1lRVGlmckJlTFU?oc=5",
       "tickers": [
         "ATAI"
+      ]
+    },
+    {
+      "id": "b83cdfc8eafb",
+      "time": "2026-07-14T14:00:00.000Z",
+      "source": "Pharmacy Times",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "What It Means When a Psychedelic is Granted FDA Breakthrough Therapy Designation",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYXZPZERmOS12MC1CS2lnTUt3WnJxa0RDMC15cEpuR01yTnVScXluYmc0MUxvSVNXZkhzU0VyN0dPOV90WHVmckFjLWo0ZHRRYUJVLXF1ZktGTXlqNmViQ1dzLWRxc1lOeWthc3QyQ3VLQWRMVTdRWEhtbjdGS0JSVjdWWnhHYTVlZ3ZDajZrNTRvd2Vvamg3dVpTOF8tY2dnQTBsSFNPTjk5STZILUpQTE1lQ1ZNSy1X?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "485e34522895",
+      "time": "2026-07-14T13:57:06.000Z",
+      "source": "富途牛牛",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "TD Cowen Maintains COMPASS Pathways(CMPS.US) With Buy Rating, Maintains Target Price $29",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeU5Pd1BLNU5zZ09jTTVISnR3dFd1TUtFYmFMSmR0TkgwNE5FYlJlZmFNbS1xVkZZZVN2OC1jTnJicHphVFpkdmppbVBEZjZCOEMzTUhPNy1hVTlrSFJjQXNNNFZDT0R5VkxXOTNEYlVhTktUYmJIUW9yRjlNN2dGNzdWT2tfSzA0S1UwcUl4ZGdPT1l4Rk9ycHpEUXU0MWhwWkg1dW9yU2h4UnlFWkE?oc=5",
+      "tickers": [
+        "CMPS"
       ]
     },
     {
@@ -631,20 +708,6 @@
       "impact": "LOW",
       "title": "Pharmalittle: We're reading about a battle between Lilly and Teva, psychedelic drugs, and more",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTHVQM3FiNkM4OGxmQUtLdVgtTnpRMEV5X2gtZ0UzM19CbWNBc2ljSDhiNzU1S0Vjc3VPcmJoVktQclNYZUFaY1Z3Vm9fU3JaMGNMSHJUZjNGYzFqUnVndFZVdGJTcjdrUEkxVHpiZHp5VFZMVEpUTzM2WTJ0TmItX3d1OEFYNjJoSFpVb0tzYVl0aV9CMlBJSmNvT1pQcXdFb0JwZDVROUlfTEk?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "d3bdbfaf488c",
-      "time": "2026-07-14T13:16:40.000Z",
-      "source": "STAT News",
-      "sourceKind": "rss",
-      "sourceTier": 3,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "STAT+: Pharmalittle: We’re reading about a battle between Lilly and Teva, psychedelic drugs, and more",
-      "link": "https://www.statnews.com/pharmalot/2026/07/14/lilly-teva-court-battle-psychedelic-drugs-guidance-finalized/?utm_campaign=rss",
       "tickers": []
     },
     {
@@ -781,6 +844,22 @@
       "impact": "LOW",
       "title": "Needham Maintains Alkermes(ALKS.US) With Buy Rating, Raises Target Price to $62",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblJsN0d4cU1QX3hsV1FNZkJ6bGF0Q3hMbURnOHVQRjhuRUU4RF9FVmZjcEFQZm5zdWdHUjNvekdSN3lVUHpZOVhBOGl2QjJTMzM4YWdYUkQtUmFZSjZGcXBxNzNwT0REd3V2WHhQZVlrSW5LZkdZUlRUS2xSRmItN3NhNWRsUmZZZGM4OVRmQzVTZFVWYXoxdXJ5N2Izc3NvY1kxVUJwTDVTcnFha05raQ?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "00961404471e",
+      "time": "2026-07-14T09:42:44.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "TD Cowen Maintains Alkermes(ALKS.US) With Buy Rating, Raises Target Price to $57",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzJLemFJQm95dHVFcXlMOTRiYUJUNWhfbFY5TDJuUkY3dElyTTdlYzVieUtUbTgzNzN3cVY5X3UydXA3SWNBY2tPSVZlRllKY3JibkJtcWdwNWI4alNQMHRmbDdoNXd0a1BUUVY1NXNOOFdvMUxpV2x3cUstWWxkNkVmVFZJQmFGRHlVOGxhZXZncU81WmlvSmhNazczd3d3ekI2Vml0UHEtQQ?oc=5",
       "tickers": [
         "ALKS"
       ]
@@ -1363,103 +1442,6 @@
       "title": "Psychedelic Band-Approved Fashion Capsules",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5QUd3bGd4Y0h0ZFEzQ2x3SWN6QzU2Q2hudUtqLXhMaU5kWU1kTWtsYTlDT3lmM1c4Z3ZvR1UtM0ViejBtTGlrS1JJTHZwRl9mWGExeENwbWFsRGJ4T0ZBR0phb9IBY0FVX3lxTFB5QUd3bGd4Y0h0ZFEzQ2x3SWN6QzU2Q2hudUtqLXhMaU5kWU1kTWtsYTlDT3lmM1c4Z3ZvR1UtM0ViejBtTGlrS1JJTHZwRl9mWGExeENwbWFsRGJ4T0ZBR0phbw?oc=5",
       "tickers": []
-    },
-    {
-      "id": "80ed84a52e5e",
-      "time": "2026-07-13T11:43:10.000Z",
-      "source": "StreetInsider",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Bio. (NBIX) PT Raised to $200 at Truist Securities",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSGlvMHRwZkR5YkJraW1Pb0h3ek9vQ1dEUk9kbUdrNTZQS25hNnlYblh2LW55YTZ2bTE4X0JkajMwNkxrY19tRnhsdG5YTFlraGRVaFo0UnFrdEo2QzZTRGk4Y2drby1Gd0JFa1RTcDJJWFFXbVdkTUtrVjAzSkUyRFBpbWFkb3FkZERjdUM2a3JwNDlza1J1N0JRbWY1RURSVGdDNjEzMXZvbG14c3lDWlo5WURtbnA0M3pNWjN1YWR3QlMyUktN?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "6fce25d58312",
-      "time": "2026-07-13T11:37:31.000Z",
-      "source": "Investing.com Nigeria",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "TD Cowen reiterates Buy on Compass Pathways stock citing safety data",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLWphNU5BQTI0cDBOeHhaWXByQTNOdE1JbGZKTWhSVmpTdS1LRTZ3QkVySFFrLV9hVEszb0pCOWduVWRrckJqaFRWdTRFTXFrRkpEYkd3RHR2aTJpR2hvLXZWLVJxNjQyVVJfSEJRN1JHQ3d1TEQxTHotOUx5QjZ0Z0ZNWU5YTVpJN2RudTIzbnZ6dDZPYmVBamRfQlRnb09TUmFUam8xNlNQbzB6TWo0bnMxRlFXQWdIMHRvekhVeDhaR21xRTVSVA?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "7a30c93fdf73",
-      "time": "2026-07-13T11:35:10.000Z",
-      "source": "StreetInsider",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Bio. (NBIX) PT Raised to $170 at BMO Capital",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeW1sM1dHbU9jMGpycVN1RUg3NTJyX2ZmRGIyekVoUTJ3TE1sZ3ZuVHc1cUJWS003VmJxWkRoTVduVHVOT3p2S2hKVUUtS3hiZVByVmVfQTFvS2FoZ09IRVJOdkpMa3dIOHZ0MXExbERjWXVIYkhXWlR4Vkw3VFMxSzMxOHhwQUFERkxPb0V5bWIzcXo0ZVpjQUdUSWU1Y2MyOTZUV0ZPdlNxd2ZsN08xREh6S3FXNHV5R2tzcldDUWI?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "0151cb37bd9c",
-      "time": "2026-07-13T11:17:32.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes reports nine-month narcolepsy drug trial results",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONzBUa0hiWVo1aE5DbFpRZjRycGVZQVdBYUNnM2duckp2MGwyYUU4bHRhVndOWkFpeGNzNXd0cFNUMTNaMmdUTWp0MEhCc0cwYUVQLV9IVzQzdWYwVV9teU9KOUxlVzA5TnVpOUJBQk5CRzlXQTBTaXdvbERxOWpzcnJPbEg5WXM3RHZSV2VXdlA2U0lQT3pjSzZkWUliRGJhSDR6UVdxdkY0aTl6aFdVSXZObw?oc=5",
-      "tickers": [
-        "DRUG",
-        "ALKS"
-      ]
-    },
-    {
-      "id": "f67550ef0779",
-      "time": "2026-07-13T08:19:08.000Z",
-      "source": "Drug Science",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Australia Refined its Psychedelic Therapy Framework — Here's What's Changed",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVXJfTjBMS2gzSVRuU0FqZHJocWdsSjhNcXdTWU5KMWRKZ1JfWlFzbFRvenpnWnZPRVNwS09lRVJ6NkdLeUpKcUVmTUEyWDBicllWOC1qdHcxUXpQUGFCb1B3a0VlSXoyZWJuN3d5aWlNOHBYM1hwY0RuYkk0TG00VEhabEstc19BQkxVZnVsX2NiZEFtMWltZFRTQ3d1VXctaF9paWdFYw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "af3ebd94615e",
-      "time": "2026-07-13T08:17:46.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "JPMorgan resumes Alkermes stock coverage with neutral rating",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQXZfazFxQXFRZURfTnNnNnZuUUxHU3kxOE4yZXo5Z2twSmcxR3BrT2NOTEEtRTU1bzlkeGsycm1CaEtQY2tqNS1pby1BcDR5NkktSm1yTmx4ZS1XSllXVjJ6Z3RLdzRvcXZ3aEhTMmJBZkZxbWlVY0laaFNTVjYwelJwMlpRaFFMN0lvV2ZFam5uLWczR1EwcnVvTUZsb0RjN3Rpa1UtNmxWb20tMHBnLVBNYlFoVm5Qd3E2Tw?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
     }
   ]
 }
