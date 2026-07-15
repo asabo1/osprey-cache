@@ -1,10 +1,11 @@
 {
-  "updated": "2026-07-15T03:41:03.683Z",
+  "updated": "2026-07-15T06:32:51.756Z",
   "counts": {
     "total": 92,
     "crit": 4,
-    "warn": 4,
+    "warn": 5,
     "bySource": {
+      "BioSpace": 3,
       "WCCS AM1160 & 101.1FM": 1,
       "CBS News": 1,
       "Military Times": 1,
@@ -13,33 +14,32 @@
       "Forbes": 1,
       "Vicente LLP": 1,
       "Behavioral Health Business": 1,
-      "Business Wire": 2,
       "TechStock²": 1,
       "WSJ": 1,
       "simplywall.st": 1,
       "Tech Times": 1,
       "MassLive": 1,
-      "KATU": 1,
+      "National News Desk": 1,
       "KJLU 88.9 FM": 1,
-      "BioSpace": 2,
       "SILive.com": 1,
       "Yahoo Finance": 1,
       "Yahoo": 2,
       "Pharmacy Times": 2,
       "insights.citeline.com": 1,
       "Quiver Quantitative": 1,
-      "Yahoo! Finance Canada": 2,
       "Psychedelic Alpha": 3,
       "STAT": 1,
       "STAT News": 1,
+      "Zacks Investment Research": 1,
       "Stocktwits": 4,
       "The Clinical Trial Vanguard": 2,
       "marketscreener.com": 1,
       "Marijuana Moment": 5,
       "The Globe and Mail": 1,
+      "Business Wire": 1,
       "Moomoo": 2,
-      "富途牛牛": 1,
       "Morningstar": 1,
+      "CNN": 2,
       "TipRanks": 2,
       "Seeking Alpha": 2,
       "Military.com": 1,
@@ -47,13 +47,12 @@
       "RAPS": 1,
       "ETF Database": 1,
       "Stock Titan": 3,
-      "Investing.com Canada": 1,
       "Investing.com": 5,
       "77 WABC": 1,
-      "CNN": 1,
       "Pluang": 2,
       "HHS.gov": 1,
       "Investing.com South Africa": 1,
+      "Yahoo! Finance Canada": 1,
       "Endpoints": 1,
       "WPXI": 1,
       "Microdose": 1,
@@ -69,7 +68,8 @@
       "Drug Science": 1,
       "MarketBeat": 1,
       "Psychology Today": 2,
-      "Phys.org": 1
+      "Phys.org": 1,
+      "Medicine Hat News": 1
     },
     "byTier": {
       "T2": 90,
@@ -77,6 +77,22 @@
     }
   },
   "items": [
+    {
+      "id": "588b1d8fce6f",
+      "time": "2026-07-15T05:17:21.000Z",
+      "source": "BioSpace",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes to Report Second Quarter Financial Results on July 28, 2026",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbTJ4emFxam5kSS0wMC1qR25jYTBjUmE2OS1iNVdMTXhrZzJqd2gydFBtZlhuTk9XT25yRzU3cV83bWJDNGFBSTIxNlBYQldIbHlQUnlRa3hCaFRFWU1jdl9GT2FJYXpYSWlOUVNKdGU0TUFBQmJNaE1XODVJWGh3UnREN09kT0kzaWVNTTJ0QndONG9IQzhuZkF0Z1hmSTJmY3FqN09ZSTl4OFk?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
     {
       "id": "74d2a14647f9",
       "time": "2026-07-15T01:57:16.000Z",
@@ -190,22 +206,6 @@
       "tickers": []
     },
     {
-      "id": "9754f0d6f855",
-      "time": "2026-07-14T20:00:00.000Z",
-      "source": "Business Wire",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes to Report Second Quarter Financial Results on July 28, 2026",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTnR3UEVOc2UyMXFxa0FsN29EN3JXdnpOa2gzX1I2X2prRk1MVGc3bUQ3RlMyRWpCaDdhZUN4MENBWUxvRlRMenhqaFhjS1BHRXhWMWhSUklXbXJDU19LZHdCZnkxT3lhQndGNlg2eC1fLVRsTjVBZkt2WTJyXzdFTmk5bmh1VjV5RWNyYnhTbnBRQm1FVVg5ZDVaMzdfWk1yNVk1ZEowY0ZoQVhLYjFjcGpWX2gxT21lMl9GMmI0Tld2dw?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
       "id": "8922037c08cd",
       "time": "2026-07-14T19:46:01.000Z",
       "source": "TechStock²",
@@ -237,7 +237,7 @@
       "tickers": []
     },
     {
-      "id": "975ccb867d50",
+      "id": "b06fa4d364fb",
       "time": "2026-07-14T18:48:21.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
@@ -247,7 +247,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Will New GAD Treatment Persistence Data Change Definium Therapeutics' (DFTX) Unmet‑Need Narrative?",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRmMtNnU1TEhidmJRaTBjeU1jb09kZThEQms1V2EtaFNHb1l5akM1eC1JWk0xLWF3S0tscHpwNzlDUktabHhrSktoT0xsTUk1QW0xZWtSNlFXWkF4MDZSN21weDEyUjV0UndkMWpNZms3YVpHcjdIYkZUajlKdGhyQkJjbkM1Y1RaS3ViRGdlVERiYlR0TmdSMmNnZzM5SjJ1RU9VNm80Y2tITFg1TDFSQlhLT1kyMVl6cGJZb3dzMl9PV29jX3JMaWxmZ0hoc3FteE1nSTI5d0cxMHdtamFmWmFBTWFVa1dLczNXWnRSQXPSAfABQVVfeXFMTUZjLTZ1NUxIYnZiUWkwY3lNY29PZGU4REJrNVdhLWhTR29ZeWpDNXgtSVpNMS1hd0tLbHB6cDc5Q1JLWmx4a0pLaE9MbE1JNUFtMWVrUjZRV1pBeDA2UjdtcHgxMlI1dFJ3ZDFqTWZrN2FaR3I3SGJGVGo5SnRockJCY25DNWNUWkt1YkRnZVREYmJUdE5nUjJjZ2czOUoydUVPVTZvNGNrSExYNUwxUkJYS09ZMjFZenBiWW93czJfT1dvY19yTGlsZmdIaHNxbXhNZ0kyOXdHMTB3bWphZlphQU1hVWtXS3MzV1p0UkFz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPVVg2SDlmRnBtNlpDVGRFV1I4bFNaOXJEc1pjTUNIV2RDUGRiX0NqaEdnYTdMZXJVOHV2dlJXVUJ4d3Vrdzc1Umo5bUNEcGZ3U3Q5Ty1yUWk3eXlKdW1qcEY0MVZrZmdFaGxPOTNOMlA4SldDLTVjMURjTHpFMFZVZER6MldSTk9zNjNtek8tME5iMU96bXVzN1hkN2prUnBTQUs5RGNGTDVKMHdRbzlZdTE5TDd3bTRFNzBWNXdNdEwwWWhJenhCSnRlR0FreTJ2X2JYT2hDMUtaRk9Qbl80M2lMSVBaTGdqZFI00gHwAUFVX3lxTE1GYy02dTVMSGJ2YlFpMGN5TWNvT2RlOERCazVXYS1oU0dvWXlqQzV4LUlaTTEtYXdLS2xwenA3OUNSS1pseGtKS2hPTGxNSTVBbTFla1I2UVdaQXgwNlI3bXB4MTJSNXRSd2Qxak1mazdhWkdyN0hiRlRqOUp0aHJCQmNuQzVjVFpLdWJEZ2VURGJiVHROZ1IyY2dnMzlKMnVFT1U2bzRja0hMWDVMMVJCWEtPWTIxWXpwYllvd3MyX09Xb2NfckxpbGZnSGhzcW14TWdJMjl3RzEwd21qYWZaYUFNYVVrV0tzM1dadFJBcw?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -281,9 +281,9 @@
       "tickers": []
     },
     {
-      "id": "bdd813e8a7e1",
-      "time": "2026-07-14T17:21:31.000Z",
-      "source": "KATU",
+      "id": "5161aae1da4c",
+      "time": "2026-07-14T17:19:02.000Z",
+      "source": "National News Desk",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -291,7 +291,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "HHS, VA launch partnership to advance psychedelic therapies for veterans in need",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbERBMlRRSkdYVHcwY3NPYlhGbkE2NTNIZHdoSG1ta0RKejVqdWNkQjl5SjRmQjFvUDNmY3ZEMUpTaFhlS2d4cTRZUV9GaVpYOVRpZTZxejRLTmNydERLbGhXd2RPWloxSFhKM3pmVTQyUHFTcDRaNE12N2dhcFNRb0tfMkZjb3BEYVZYWHVBVGNGNmlxcTlDWHdKMXBWOTY4Z05DSHRhZVA1X2lZYVc0eGlUa3FBMVVYRFV1LTdyd1F6dDk5UUxZMkVXTVNkTFlRWTEyZXNtQ3NVbHVtUGZIUFh3dDVOaFNFbW8wb1ZZQU9Iek5x?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPMGFnU1JwU05WSTZjU2dtVGczNEltWFpwVW9mVnFJVzVVNHM1U05zSzh1aWR2RjRLTTIwSUJHdEZjY2xrNjRVMjRHLUFPUUhlMkhFMENudDY4aFRETHI4d25VN3B5cXA4cGtCaXRhVWhLTS1JdFlNR2NXbm9uNUJpM2JWN0ZQQU04c0dJVkRWazdWVVpKOWF6anFHZW8zMGs1M0c1bXF4VEpiMGZRaE9peENmZUxldi1UY1ZSZFdkZHRnN1RCODRkam0zZTVOVUZMSkhZQ2I4M1VsLXFkTnJTcUJneEVzVWROTHE5OVN2dkwycjZ1aFJxV2NVN21TSFRmT1FvZzctandkdw?oc=5",
       "tickers": []
     },
     {
@@ -413,22 +413,6 @@
       ]
     },
     {
-      "id": "320e5dd9a638",
-      "time": "2026-07-14T13:55:04.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Wall Street Analysts Think Definium Therapeutics, Inc. (DFTX) Could Surge 32.42%: Read This Before Placing a Bet",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaVc5M0VYeVpKWU5ZaVZhZTMwdnZEVnBCN01jZTZ4QkQydGszbkxMSWhTUzZ4LVF1cFNRSFJUdm1vdzVvQ1VmNk1zU1VXWHpITVFENTRSM0VvQUFsT092d2s1U0lta0s1NWVQdl9BeTM4RklKcDJoWlgxLXhoclh6RjRMbjkwUk5zdzJLNQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "6474d1a64145",
       "time": "2026-07-14T13:34:19.000Z",
       "source": "Psychedelic Alpha",
@@ -471,6 +455,22 @@
       "title": "STAT+: Pharmalittle: We’re reading about a battle between Lilly and Teva, psychedelic drugs, and more",
       "link": "https://www.statnews.com/pharmalot/2026/07/14/lilly-teva-court-battle-psychedelic-drugs-guidance-finalized/?utm_campaign=rss",
       "tickers": []
+    },
+    {
+      "id": "69f6a6950160",
+      "time": "2026-07-14T13:04:07.000Z",
+      "source": "Zacks Investment Research",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Wall Street Analysts Think Definium Therapeutics, Inc. (DFTX) Could Surge 32.42%: Read This Before Placing a Bet",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRExaWWdSUkt0bjZENW5kdFdubWRrTFVnREE2QkQyUlItV1NzMWZOSjlhQlRtRFVSZW5KN0xIQW54U1JVbzRRRU5uUTUyd2tsaUFWazRLOHBGS3hpR0hCRnpGTWd3cGZCOHNKTmI3M1hpNDFkTHJxNzExakFPNnVodXFrRzJkT3UteXpkNk9kWVRTcVdfcHRsb0tSSy1CWEppemxjZFJ1ZEx0bU05VDNkQzZ4eVlQeXFpMWFjaXh4cUJrcFR3T1R0X281R0RhNms0bGhJRVNoY01kQUZoYmFV?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "01c1c214588e",
@@ -579,8 +579,8 @@
       ]
     },
     {
-      "id": "00961404471e",
-      "time": "2026-07-14T09:42:44.000Z",
+      "id": "06ae6c4f302b",
+      "time": "2026-07-14T09:48:01.000Z",
       "source": "Moomoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -588,26 +588,10 @@
       "severity": "INFO",
       "direction": "BULL",
       "impact": "LOW",
-      "title": "TD Cowen Maintains Alkermes(ALKS.US) With Buy Rating, Raises Target Price to $57",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzJLemFJQm95dHVFcXlMOTRiYUJUNWhfbFY5TDJuUkY3dElyTTdlYzVieUtUbTgzNzN3cVY5X3UydXA3SWNBY2tPSVZlRllKY3JibkJtcWdwNWI4alNQMHRmbDdoNXd0a1BUUVY1NXNOOFdvMUxpV2x3cUstWWxkNkVmVFZJQmFGRHlVOGxhZXZncU81WmlvSmhNazczd3d3ekI2Vml0UHEtQQ?oc=5",
+      "title": "Needham Maintains Alkermes(ALKS.US) With Buy Rating, Raises Target Price to $62",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblJsN0d4cU1QX3hsV1FNZkJ6bGF0Q3hMbURnOHVQRjhuRUU4RF9FVmZjcEFQZm5zdWdHUjNvekdSN3lVUHpZOVhBOGl2QjJTMzM4YWdYUkQtUmFZSjZGcXBxNzNwT0REd3V2WHhQZVlrSW5LZkdZUlRUS2xSRmItN3NhNWRsUmZZZGM4OVRmQzVTZFVWYXoxdXJ5N2Izc3NvY1kxVUJwTDVTcnFha05raQ?oc=5",
       "tickers": [
         "ALKS"
-      ]
-    },
-    {
-      "id": "1b3da3f553d0",
-      "time": "2026-07-14T06:19:07.000Z",
-      "source": "富途牛牛",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "LifeSci Capital Maintains COMPASS Pathways(CMPS.US) With Buy Rating, Maintains Target Price $24",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ09jV2J1ZGg5aFBXeEM5THl0RklDOVZqX3ZCVzNTeHVKbHdHQnZlOTAxRDNiU0h4Rmh2bC0tQmZJZmJRaDNra1hCaFRjbTNDekU3R3lBd2U0YkU5dEpDdnNpczRkelBXQ1FhRmc5Snc4OHVSbEVNM2tUV3hhT2F2NUtKckl5QzJJMzlGTXZVMTBETzJHbHp5ZTFrelJIQWF0MS1fUU5WR0RXOXN0OEM1bU9rN0d2cWM?oc=5",
-      "tickers": [
-        "CMPS"
       ]
     },
     {
@@ -639,6 +623,38 @@
       "tickers": []
     },
     {
+      "id": "8ef536cb7237",
+      "time": "2026-07-14T03:51:28.000Z",
+      "source": "CNN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "HELP Stock Quote Price and Forecast",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwMGtPT2huOERzcXlCQ2RHZjg2SERwbzBNSUM2T0pZWWJzb2pPNDRtMUd2ck1wdVR6Z2VxSGhDTFNIeTU4dGNHMDlncVp5NGtm?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "8b9ef302b38d",
+      "time": "2026-07-14T01:55:34.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Trump Provides Fresh Boost To Quantum Computing Space, Signs Two Orders - IBM, INFQ, QBTS, RGTI, QUBT Stocks In Focus",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNllSY1VfWGxKRDE2ZFBCaFY4dWtCa3MxaGhvbGg3djVqSkxwMUZ2T3N1UTVlUWVqczZnS1RVX3hOcURZWDNzT3ZVM2V1VFdrMGN2NElHMjNnZk1KTmwwMnphdXNoNnNhMC0tZGNROXpHLW40RGR3RG41R1lqdDFVRUZhOTZJektSSGc2aGs3bDgzYkNUUldDZGkzTExjRjd2T0FkcVp2d1dkNWVnbW9YMWNPUzNKX25NMnliYndNaFQwVkstcFBIV1hRNXRUWmdqYjYtME9OYW96Vk0yWm5PdXYwdkFoQ09rRTk1RDZQMU1iTmtJdnlXRXhQQ0tmS041bldKbQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "feeb65d3a297",
       "time": "2026-07-14T00:18:08.000Z",
       "source": "TipRanks",
@@ -667,6 +683,22 @@
       "title": "Psychedelic drugmakers could get boost from HHS, VA memorandum",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWHdKY3VLTWx5N1BfNlpvQmVZeTQ1UEhQczZsUF9YTndmMmVKRThQekpNWEQ3QkQ1aGdwU1B6UU4xRE1oZkVhWnd0NFdmbWVzTURSWFU3LTBKUXZDekNNVExzT1c5YlgyZHdPZU52aWZFZ1E2MHc5MlpZampZMnpoODF1anE1V1pBck1VMXQ5QzBmUU5aQ0d1VktR?oc=5",
       "tickers": []
+    },
+    {
+      "id": "f2c459e568e0",
+      "time": "2026-07-13T22:25:37.000Z",
+      "source": "CNN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "symbol__ Stock Quote Price and Forecast",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8yQWpPU0VVQW5VdG1RWXRvbFl5bGstTXlVSmc4TUt0MlBsbS16c3Axd3h6akdjaDA5VE5YWTVOUWx4TkxrQVYwZklPbTAxSHlq?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "b06cf2238b34",
@@ -759,22 +791,6 @@
       ]
     },
     {
-      "id": "439bd2adc8f6",
-      "time": "2026-07-13T20:41:30.000Z",
-      "source": "Investing.com Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Form 4 Neurocrine Biosciences Inc For: 13 July By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa0FDREJmcTVyQjBPM3pDZEtlX3ctMUxDOUc2VjZwcDhfS0tvcUtKVmJYVnFrZ3JETk5kYnNudVJrcm13eHJYaEo0anFSc3J2U0N6WmVTazNNNy1lQWswdW5YTHZKbktwZDZ3WmZXVVdITkRhalJ3MkpoWGNhN0k5RkppREZGbF8xN01DS0hXN0tGSGRxdjNNd1dRbWVTME1XV09QOVZ2N1JTQQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "99d6ce41e22c",
       "time": "2026-07-13T20:38:38.000Z",
       "source": "Investing.com",
@@ -819,22 +835,6 @@
       "title": "HHS and VA Launch Major Partnership to Fast-Track Psychedelic Treatments for Veterans' Mental Health",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTlBJMTFpei0zRjZVcEdoT1NDR09iYjZFTFc5M3haMjU1X3gzLTlCdWwwaE5CdW0zRVpWUTdUdE9mdmJQNS1vTmVGRW92NUtRcS12OG9UYkxIeDUyZlBLbVZNR2NvS0xnOUpVdTlPeUd1WkFVQm85c1hTRnhQWGk5dU1jVHNGcGNxUkZaLUdUR2ctZDh3dkVRU1dEWk5XSE5yNjhhdkVjQjEyVDc5MjFyZG5NX0dGRDBCRzh2bjhLN0FzNHA5Qm1qcEY5Ry1aUQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "8ef536cb7237",
-      "time": "2026-07-13T19:58:40.000Z",
-      "source": "CNN",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "symbol__ Stock Quote Price and Forecast",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwMGtPT2huOERzcXlCQ2RHZjg2SERwbzBNSUM2T0pZWWJzb2pPNDRtMUd2ck1wdVR6Z2VxSGhDTFNIeTU4dGNHMDlncVp5NGtm?oc=5",
-      "tickers": [
-        "HELP"
-      ]
     },
     {
       "id": "03826b9dc546",
@@ -1132,22 +1132,6 @@
       "title": "Man on psychedelic mushrooms in therapy hospitalized after fall: suit",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa01tNkY2cHFMSXJFbXQ3LTRmMzdyRjJ1Sm5seXRmdk1zQXAwb3o1ZHdkWHU3ZFVvejdibE1nU1JaUzZQRVQ1NVMzSjRpWVJ1UkhIcGNNLU4zbUpfZWxOb2h5OVZoRFcwcnVlTW5qdkJzTWF3OEV5cG9NaGV4eF80d2NkVk5vNTRyNzRRaU5lcF9vQXd1a01tbVNqa19hR2xZWlBnSVQxay0?oc=5",
       "tickers": []
-    },
-    {
-      "id": "e537f406da05",
-      "time": "2026-07-13T13:28:48.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "DFTX Stock Clocks Best Day In Over Two Years On 'Best-Case' Clinical Results For Oral Lysergide In Depression",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZ1hMY2hiQUVpaFVJZ1dnakIyRmduMTJ5Y1hKTDdkeUZtYkZBMUVFc2p4X1RLemhMY3NQZl96UUpQNzdCdmtERDdJMUQ2cG4yZGNRaHhkTVh0LWNWSDUxZHcwckppamVsSVlQNFdtTnlGVkw0cDZqNmxCeUNDNmRzdWZiQXpTLWxOa3UyaUdVRWI0THhocGJDdldYdmxPQkU2d1RMQTVZbXJYc2IxOHk4bjRhcF9zMTBGOFphX1ZNTkQyNTdzZUFpQ1BIRC1xbU1TQmQzc3FNYjBjMkk1MldTQVo1YXNoZVcwSGdtMm5NTQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     },
     {
       "id": "4d3ca8678c22",
@@ -1452,6 +1436,22 @@
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdkd1Tkdzc3FnNDN0VGhaVTlBdXBkNFZZVmFuN2ZfTTBLSUtnc0VrNnFnSXpuWUFvTkRTVDRVZHlMMTVJNXpReGxyd3JISTFiV1NuMHdmeUVDdk9rZ3JZZkwxV0UybE4xSFp1OFcxdWRVQ2J5UXh6SkVfdTlGWkpJNGRpWHNub2FIM3RzOXU3YXZiRkpscHNYYVkzQVVaSTNTQUVkWDV2MUFBd0hjZV91OWJxM0FCTW1yUm52OUo5aUM3dw?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "330f3794a392",
+      "time": "2026-07-12T02:45:08.000Z",
+      "source": "Medicine Hat News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Hornets GM says LaMelo Ball trade to Timberwolves was made with sustained long-term success in mind",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQWp0ZEQyMmxWcTRxUG1vam1zWmJyeDIzNktCSUhKMk9mdEFxU29aUVhPTkN3ZVhrZDFPdmNwRmplc2p6b2ZhV1RUYjh1QW1kcGRwWUpxeEd5Y3pkS2FhZEZlSEhzTVRqSERsbUlsUkpJUVhCb2swZ213SnJzRVVWRE9DWGg2Q2NFdTh4NnFoc2FCX1h5RlNwancyVTZKOS1ETkZMSWsxZGVxcjFpNEptQWw4czRmNWM1dmVBazVPdXJmdDlUcUlxcFdjcHVrVGw5V0NIV0NQT09yZDdPREt1cldTZzltWUhCSXBSdzdLSHRqeFBl?oc=5",
+      "tickers": [
+        "MNMD"
       ]
     }
   ]
