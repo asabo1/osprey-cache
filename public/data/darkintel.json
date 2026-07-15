@@ -1,57 +1,15 @@
 {
-  "updated": "2026-07-14T07:10:40.735Z",
+  "updated": "2026-07-15T07:14:55.465Z",
   "sources": {
     "portwatch": {
       "ok": true,
       "latest": {
-        "date": "2026-07-05",
-        "total": 34,
-        "tanker": 17,
-        "cargo": 17
+        "date": "2026-07-12",
+        "total": 10,
+        "tanker": 1,
+        "cargo": 9
       },
       "series": [
-        {
-          "date": "2026-06-06",
-          "total": 3,
-          "tanker": 0,
-          "cargo": 3
-        },
-        {
-          "date": "2026-06-07",
-          "total": 3,
-          "tanker": 1,
-          "cargo": 2
-        },
-        {
-          "date": "2026-06-08",
-          "total": 8,
-          "tanker": 2,
-          "cargo": 6
-        },
-        {
-          "date": "2026-06-09",
-          "total": 6,
-          "tanker": 2,
-          "cargo": 4
-        },
-        {
-          "date": "2026-06-10",
-          "total": 6,
-          "tanker": 1,
-          "cargo": 5
-        },
-        {
-          "date": "2026-06-11",
-          "total": 7,
-          "tanker": 2,
-          "cargo": 5
-        },
-        {
-          "date": "2026-06-12",
-          "total": 7,
-          "tanker": 1,
-          "cargo": 6
-        },
         {
           "date": "2026-06-13",
           "total": 4,
@@ -120,78 +78,120 @@
         },
         {
           "date": "2026-06-24",
-          "total": 52,
+          "total": 51,
           "tanker": 21,
-          "cargo": 31
+          "cargo": 30
         },
         {
           "date": "2026-06-25",
-          "total": 51,
+          "total": 50,
           "tanker": 23,
-          "cargo": 28
+          "cargo": 27
         },
         {
           "date": "2026-06-26",
-          "total": 38,
+          "total": 37,
           "tanker": 19,
-          "cargo": 19
-        },
-        {
-          "date": "2026-06-27",
-          "total": 28,
-          "tanker": 9,
-          "cargo": 19
-        },
-        {
-          "date": "2026-06-28",
-          "total": 21,
-          "tanker": 11,
-          "cargo": 10
-        },
-        {
-          "date": "2026-06-29",
-          "total": 32,
-          "tanker": 13,
-          "cargo": 19
-        },
-        {
-          "date": "2026-06-30",
-          "total": 22,
-          "tanker": 6,
-          "cargo": 16
-        },
-        {
-          "date": "2026-07-01",
-          "total": 42,
-          "tanker": 23,
-          "cargo": 19
-        },
-        {
-          "date": "2026-07-02",
-          "total": 36,
-          "tanker": 18,
           "cargo": 18
         },
         {
-          "date": "2026-07-03",
+          "date": "2026-06-27",
+          "total": 27,
+          "tanker": 9,
+          "cargo": 18
+        },
+        {
+          "date": "2026-06-28",
+          "total": 20,
+          "tanker": 11,
+          "cargo": 9
+        },
+        {
+          "date": "2026-06-29",
+          "total": 31,
+          "tanker": 13,
+          "cargo": 18
+        },
+        {
+          "date": "2026-06-30",
+          "total": 21,
+          "tanker": 6,
+          "cargo": 15
+        },
+        {
+          "date": "2026-07-01",
+          "total": 40,
+          "tanker": 23,
+          "cargo": 17
+        },
+        {
+          "date": "2026-07-02",
           "total": 34,
+          "tanker": 18,
+          "cargo": 16
+        },
+        {
+          "date": "2026-07-03",
+          "total": 31,
           "tanker": 21,
-          "cargo": 13
+          "cargo": 10
         },
         {
           "date": "2026-07-04",
-          "total": 25,
+          "total": 22,
           "tanker": 11,
-          "cargo": 14
+          "cargo": 11
         },
         {
           "date": "2026-07-05",
-          "total": 34,
-          "tanker": 17,
-          "cargo": 17
+          "total": 26,
+          "tanker": 16,
+          "cargo": 10
+        },
+        {
+          "date": "2026-07-06",
+          "total": 28,
+          "tanker": 14,
+          "cargo": 14
+        },
+        {
+          "date": "2026-07-07",
+          "total": 28,
+          "tanker": 12,
+          "cargo": 16
+        },
+        {
+          "date": "2026-07-08",
+          "total": 15,
+          "tanker": 5,
+          "cargo": 10
+        },
+        {
+          "date": "2026-07-09",
+          "total": 11,
+          "tanker": 4,
+          "cargo": 7
+        },
+        {
+          "date": "2026-07-10",
+          "total": 9,
+          "tanker": 4,
+          "cargo": 5
+        },
+        {
+          "date": "2026-07-11",
+          "total": 14,
+          "tanker": 4,
+          "cargo": 10
+        },
+        {
+          "date": "2026-07-12",
+          "total": 10,
+          "tanker": 1,
+          "cargo": 9
         }
       ],
-      "lag_days": 9
+      "lag_days": 3
     },
     "nga": {
       "ok": false,
@@ -405,17 +405,17 @@
     "adsb": {
       "ok": true,
       "sample": {
-        "total": 84,
-        "military": 0,
-        "mil_method": "dbFlags_truthy",
+        "total": 115,
+        "military": 1,
+        "mil_method": "dbFlags_bit1",
         "types": {
+          "A320": 21,
           "TWR": 11,
-          "B77W": 10,
-          "A388": 10,
-          "A320": 8,
-          "SR22": 7
+          "B77W": 11,
+          "B38M": 9,
+          "SR22": 9
         },
-        "observed": "2026-07-14T07:10:40.735Z"
+        "observed": "2026-07-15T07:14:55.465Z"
       }
     }
   }
