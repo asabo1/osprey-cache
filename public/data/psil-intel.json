@@ -1,27 +1,29 @@
 {
-  "updated": "2026-07-16T06:36:48.552Z",
+  "updated": "2026-07-16T09:33:06.041Z",
   "counts": {
     "total": 90,
     "crit": 4,
-    "warn": 5,
+    "warn": 6,
     "bySource": {
+      "Investing.com": 2,
+      "ChartMill": 1,
+      "Bloomberg.com": 1,
+      "North Carolina Health News": 1,
+      "Yahoo Finance": 10,
       "simplywall.st": 5,
       "Seeking Alpha": 2,
       "Lowell Sun": 1,
-      "Investing.com": 2,
       "TradingView": 2,
-      "Stocktwits": 4,
-      "WLUK": 1,
+      "Stocktwits": 5,
       "KCBD": 2,
       "TipRanks": 3,
       "Reuters": 1,
-      "Bloomberg.com": 1,
+      "WBMA": 1,
       "MedPage Today": 1,
       "Psychiatric Times": 1,
       "Applied Clinical Trials Online": 1,
       "Filter": 1,
       "The Globe and Mail": 2,
-      "Yahoo Finance": 9,
       "AllSci": 1,
       "Proactive financial news": 1,
       "Business Model Analyst": 1,
@@ -29,12 +31,14 @@
       "Lexington Herald Leader": 1,
       "Port Townsend & Jefferson County Leader": 1,
       "CNN": 1,
+      "WCCS AM1160 & 101.1FM": 1,
       "CBS News": 1,
       "Military Times": 1,
       "Moomoo": 2,
       "ScienceNorway": 1,
       "The Source - Bend, Oregon": 1,
       "Forbes": 1,
+      "Yahoo Finance Singapore": 1,
       "Vicente LLP": 1,
       "Behavioral Health Business": 1,
       "Business Wire": 2,
@@ -52,7 +56,6 @@
       "Pharmacy Times": 1,
       "富途牛牛": 1,
       "Psychedelic Alpha": 2,
-      "Sahm": 1,
       "STAT": 1,
       "The Clinical Trial Vanguard": 2,
       "marketscreener.com": 1,
@@ -61,17 +64,90 @@
       "Military.com": 1,
       "The American Legion": 1,
       "RAPS": 1,
-      "ETF Database": 1,
-      "Stock Titan": 2,
-      "77 WABC": 1,
-      "Pluang": 1,
-      "HHS.gov": 1
+      "ETF Database": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "4cec7f8715b9",
+      "time": "2026-07-16T09:18:17.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "GH Research stock jumps on Eli Lilly-Atai acquisition talks",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQUlyRXh6RHU5S21HWW9LdG1qLUVWUEhSVy0zZmVacU9keDR2RlItVTFqeUZOVXdTR1J1TW9zbE5qamJVWWJsM1RQbmFCMlFKUkxuUkZMYWt4Q08td2dRTjlHdGM3ak95YklFbHhYbnd3RkdlU3h3dGV6YUcxRXBGSUJnVmh6dXN6Uk9XU19RWE1vcHhIQTR5elZNUTFicDNhYnhEM05fcFN2c2VYZXFCaWJsV0ZZMm1qaTBZZA?oc=5",
+      "tickers": [
+        "ATAI",
+        "GHRS"
+      ]
+    },
+    {
+      "id": "c1dbc906e7a1",
+      "time": "2026-07-16T09:00:29.000Z",
+      "source": "ChartMill",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences (NASDAQ:NBIX) Fits the Growth at a Reasonable Price Mold of Peter Lynch Screening",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcjB5TkN6czEtZUtJcWhydlRPaWlpVklUUnI2ZmpDclFGejVhR3BYRnhpZDhWWkMxeTNhOV9TQzRfREZxcEdoeGtWcVFNZmtwR25zdERjXzRHWTVMZ2pKcXB6bTgyS0NCcWQ3SGpIUHkxTjlQWHRVb0Qzc0NXZTJEMnNsVU9EWG5WcXl1Y3NPcExSLXNfVnhsTmxzS1BmbG5jcVZyakttUDNsNDhmaDJQTzNhRGptcTdxN0RpWE84TWhOTjdyLWctZVdwcHo0X1dCNXZOLVUtSEdFMWpRRVdEM2NBellqam1h?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "fe5687ea8164",
+      "time": "2026-07-16T08:47:53.000Z",
+      "source": "Bloomberg.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Lilly Said to Near Deal for Psychedelic Drugmaker AtaiBeckley",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd1NEbmhORl9JUHljTHlqdHRhbGl0MUNfM3k3b0ZSbThGekZ5TTlvN1k2dVZvY3JncnlEQ0UyWVJIQUN5eVNmRUZFTHhJSEE1a2Q4enRzeVBlNmhfS2h3bmtSRDk3eE5FVXdGdXcwQ3hSd2g0cE1ZYVl6Mkwydm5ycXA0NGJwcV9TQi1Sd1RNNHgwRWZGRk1VZGY3V0JheEpWWkQ0YkRENGFveTFMc1Uwb1dB?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "72b38e4eff85",
+      "time": "2026-07-16T08:32:00.000Z",
+      "source": "North Carolina Health News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Psychedelic-assisted therapy research gains traction with NC lawmakers, academics",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTW1ZaW1iWUdlVnBqWjFXa2xobFNiU0VmMWRUUU5xanVqTDRwTVRyaXRGdFZYWVRMQWlBUW9PclRwWnJNV2JVSnBLbFBLYWk0OTFLZ1hlRU1tUWFBdnZIS084RkkxaTVqQmVhcWpVWURUWkZHeTUwNXFlbm9aSW1LaFRfc3Q2cnZ1OXNXcW1zMm9aQWJIZmM2Q2VWamxKMWRqMFBZWW5lLUt0N0g4X0ZrZG9EQ1FUZHNU?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "48dcaa49cb29",
+      "time": "2026-07-16T07:47:00.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Zacks.com featured highlights include NVIDIA, Neurocrine Biosciences and Ball",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdS1mUW16TmMtblZqVkJFUDd6S19NWFFUSWdyOVlDMmRtWTdlMUNHcHY3TU5zYjEwd1lGcUlLc2tDNzJiNXBzR25LaWVrb3Fjd19vT2p0d3gyWUhBY0IwV0pqZVhEMDEwaFllUEs4aWYtdE9STnc1ZERBSktNMHI3OXBEOFdGbGlTVmhwcjFmTGtUY1ZZRTVTZkQ1aFItVlJOYlZr?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
     {
       "id": "034a728a5069",
       "time": "2026-07-16T05:04:10.000Z",
@@ -161,22 +237,6 @@
       "tickers": []
     },
     {
-      "id": "72f57c0921e8",
-      "time": "2026-07-16T01:19:18.000Z",
-      "source": "WLUK",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "VA, HHS act on Trump's order to speed psychedelic drug research",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcklLVWd0cnJmM2YyRjBBR29fV2ZZMkJDWWlmdmNQdEcyaHpPWVo5a0FoRndnTW9xaHF5RzcyWjBPSzQ2QlhJT0ZIX01MWVY4VXBvTjJ5aENSUkFHTkplRjAwUWFySTlfamRHSVU4amFfVzZaNU93cV9VWHRVSjRUZkNybmFWTVdxX21fazJFNmJ6bzFRU05aaGxNSGlFVHdaZ1NnY1lR?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "6c5c74373f37",
       "time": "2026-07-15T23:41:00.000Z",
       "source": "KCBD",
@@ -251,18 +311,20 @@
       "tickers": []
     },
     {
-      "id": "fe5687ea8164",
-      "time": "2026-07-15T22:46:15.000Z",
-      "source": "Bloomberg.com",
+      "id": "1f0dfbba5de6",
+      "time": "2026-07-15T23:05:12.000Z",
+      "source": "WBMA",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Lilly Said to Near Deal for Psychedelic Drugmaker AtaiBeckley",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd1NEbmhORl9JUHljTHlqdHRhbGl0MUNfM3k3b0ZSbThGekZ5TTlvN1k2dVZvY3JncnlEQ0UyWVJIQUN5eVNmRUZFTHhJSEE1a2Q4enRzeVBlNmhfS2h3bmtSRDk3eE5FVXdGdXcwQ3hSd2g0cE1ZYVl6Mkwydm5ycXA0NGJwcV9TQi1Sd1RNNHgwRWZGRk1VZGY3V0JheEpWWkQ0YkRENGFveTFMc1Uwb1dB?oc=5",
-      "tickers": []
+      "category": "regulatory",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "VA, HHS act on Trump's order to speed psychedelic drug research",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTDdtQnZ3Y0luaFdEemZGVWR2dERzRnlPeGI1R0s2TmNDb1NCZVR6ZW43UmMzQjNQeFJrVlV3UkFqZmlEUTdrbm15OHVPLU9IeHpXMmV0b2laclVva19hZWpPVHdnTDc1WlpTRngxb1lxb1N2VEF5TThnYVJyejhGa1VmWHlVM2tZTDFMbzZob3YyNmJEQ0RwMEExdnQtYUF0?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "c215449f89c1",
@@ -430,6 +492,22 @@
       "impact": "LOW",
       "title": "FDA announces availability of final guidance for psychedelic drug research",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZm8yYm5IZDJXZjdJV1VFUGtCM21yMC16RFJXWlJsdWMzdEdkaGFYYzRibTVLTEQtSXNsci1peHhpb0RvMFoya3ZoZjQ1MUJxdTRUbVNKSW5NYmo1djFPN3hLVVdzSXNyTjlPWHY1N3NoWGhJSUduQ3YzQ0hmMUh0dF9OVmlTa0ZiRVBjZ1RpX1dRX25CYThGbzZiaTNjOHlPV3d6b0doZzJURXRnWk5Mb1gzOTJCekUxczlFZDhEY19nQQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "8b9ef302b38d",
+      "time": "2026-07-15T13:36:39.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Trump Provides Fresh Boost To Quantum Computing Space, Signs Two Orders - IBM, INFQ, QBTS, RGTI, QUBT Stocks In Focus",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNNllSY1VfWGxKRDE2ZFBCaFY4dWtCa3MxaGhvbGg3djVqSkxwMUZ2T3N1UTVlUWVqczZnS1RVX3hOcURZWDNzT3ZVM2V1VFdrMGN2NElHMjNnZk1KTmwwMnphdXNoNnNhMC0tZGNROXpHLW40RGR3RG41R1lqdDFVRUZhOTZJektSSGc2aGs3bDgzYkNUUldDZGkzTExjRjd2T0FkcVp2d1dkNWVnbW9YMWNPUzNKX25NMnliYndNaFQwVkstcFBIV1hRNXRUWmdqYjYtME9OYW96Vk0yWm5PdXYwdkFoQ09rRTk1RDZQMU1iTmtJdnlXRXhQQ0tmS041bldKbQ?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -639,6 +717,20 @@
       ]
     },
     {
+      "id": "74d2a14647f9",
+      "time": "2026-07-15T01:57:16.000Z",
+      "source": "WCCS AM1160 & 101.1FM",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "WESTMORELAND COUNTY MAN ACCUSED OF GROWING PSILOCYBIN MUSHROOMS",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc3Q4MTNtaVFUaXJCbW9fOTA3S0pYMVhULWdDUEZIemZZSmZzT2VNem1HdGlMLTN0d3kyVExEXzA1X3VvQ2NmSHctUnphVnlkUXdBbHBOejExLW80OVVYYjNLOUVYcFBZRXBfd01sTUxSTDNLWmpySHlPc1hkTGk0VEw5V1BTMDlpU3lnTG1pdmstYk9TbmM2Rkh6N3ozeXBuNG5r?oc=5",
+      "tickers": []
+    },
+    {
       "id": "c138df455914",
       "time": "2026-07-15T00:39:10.000Z",
       "source": "CBS News",
@@ -722,6 +814,20 @@
       "impact": "LOW",
       "title": "Federal Agencies Unite On Psychedelic Trials For Veterans",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdVlzYkZVWVZiYkU3UC14NTdVazFyNjV0M2xlYmxDbkJ1ZlJ6SGVNeFk0UUV1TExhNVNLSEhSWFBlUm5zMEtSVjhDLS1oZzJ6TGZOczE0by1KUlpwcnJScktsemxTTGF2WlROMUJCVjdKTUEwOG9MUW1ueVNVaVZ1QURDeFpHS1FQOWk2NmdGY2NTOE5pM2RKOVlTVVhrcnFBQ3ZfN3p3d2h3cHNlTVQySg?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "1ca55cb81a89",
+      "time": "2026-07-14T20:52:55.000Z",
+      "source": "Yahoo Finance Singapore",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Can scientists build a better trip?",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVUREbjUtNnBGRWd0bF9yYWlWa0xuZDlTOEl1SDlUXzFvdGZwRHdza0NtTFYwZUFPTWxkNW93M0V3bWZtamVtbkRtMC13SDlyMDhKcWcteEZaQlBsdC14LVl6eU04XzdCQnJzSmdHbzdfOFJOclNjQmVKcl9wN29tUWZGNA?oc=5",
       "tickers": []
     },
     {
@@ -1024,23 +1130,6 @@
       ]
     },
     {
-      "id": "a8978e67bede",
-      "time": "2026-07-14T13:25:30.000Z",
-      "source": "Sahm",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes Says Lead Drug Maintains Wakefulness Benefits in Long-Term Narcolepsy Study",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU2FtRlU1S3JLek9FNlF6WTExSEtKazdhRlFhM3lsOFUtOUtaZC1RZHhkcU5VV1MyZTJ5d0tFZGJSbGl4cGE4Vm9iaTJkaXgzMnZIWmcxSnk3OU4tdG5ha01nc0RTUEhLT1dTTUpLTDhWMnJhVWV0TnVsT0hQZkdybU1XRDhFQ2MyLUJybWV1REVXdEhDYlhnaUtKbnN4R1BvbEdDSW9DMXBQTUhza0s5cjRpSjU1RTc5Ry1QVklRLU5RYWl2OC1EZmtvRlpISXUtbEE?oc=5",
-      "tickers": [
-        "DRUG",
-        "ALKS"
-      ]
-    },
-    {
       "id": "e8caf05f71ca",
       "time": "2026-07-14T13:20:30.000Z",
       "source": "STAT",
@@ -1340,96 +1429,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "99d6ce41e22c",
-      "time": "2026-07-13T20:38:38.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences chief legal officer sells $1.79m in stock",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWnlxbXZ0amJyY1E4THNBMVJhOHlQb3NLdTdwbVFBNm5vdTlXTURmS1VlUmwxei1qOVNRc0dZcW9NeHdSSldfVmxpZzNDWC1zaDE4djNLeXNEUUxuWm1HenpERzczREVzX3o5eXg2azE1cjctbmJkdmNoX1J5RlZldnpCaUx6SWpRc0VNbEZYQTRkVmRxQmdrcTA2bG9hWVpvMU5HWVhveUFZUFpBM25BdnpVTkdENlZRV2hCMXkyVE4wa1RheUE?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "acea4ac88b00",
-      "time": "2026-07-13T20:28:09.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences (NBIX) officer exercises options, sells 4,367 shares",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbjVwZ2llYU9QUVduZVhDSFUybVhsRXVLMGQ0ZHRfRUhMYlR4YTE5Y0FxNTAxeDNPN19aTy1UakRLczVpRmZJUUs5bFZYdlo5alkxZDg2MlJOaHRBSDZYa3l6Z3oyMk5SMnE2a011MDlyWFE5cWpqMF93VmFLcDRVRml0U1Y3cEhXTlRib2lmNFZBNVY5UXY5VnFxOEQ4bk9FUUdCN1o4Mk51bWNTMm5CaDh0bVBFVFNMLUJ2Qg?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "1fc696883ba6",
-      "time": "2026-07-13T20:27:28.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "[Form 4] NEUROCRINE BIOSCIENCES INC Insider Trading Activity",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMEx6YkJKeDIwNnV5M3pGVXplTXl0TmloVHRsdkV1emtzMk5RS2F4NHFBdFRqa2JidDItRko3NGZGMXpvX3I5cXVKRHNVNmdZRExtT20wNXNaUmFob3BLcnFpMlB6a3FNQ2U3bGE3dk9tTFAzRkFTSzhrODJhaXF3ekdkZ2Y3MnJOSVg2MDBaYWo4LTNXdmF5dlQ0ZHV2ZmlBRDhlcDJNVy1JOVlsQWFoNzFZWDA3eDE4dlZEZQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "b15e3a0be5f7",
-      "time": "2026-07-13T20:23:23.000Z",
-      "source": "77 WABC",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "HHS and VA Launch Major Partnership to Fast-Track Psychedelic Treatments for Veterans' Mental Health",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTlBJMTFpei0zRjZVcEdoT1NDR09iYjZFTFc5M3haMjU1X3gzLTlCdWwwaE5CdW0zRVpWUTdUdE9mdmJQNS1vTmVGRW92NUtRcS12OG9UYkxIeDUyZlBLbVZNR2NvS0xnOUpVdTlPeUd1WkFVQm85c1hTRnhQWGk5dU1jVHNGcGNxUkZaLUdUR2ctZDh3dkVRU1dEWk5XSE5yNjhhdkVjQjEyVDc5MjFyZG5NX0dGRDBCRzh2bjhLN0FzNHA5Qm1qcEY5Ry1aUQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "03826b9dc546",
-      "time": "2026-07-13T19:36:07.000Z",
-      "source": "Pluang",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FDA's new guidance boosts regulatory clarity fo...",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM3VrYlg3ZURVazY0UWZJb0NPcUlhSW0zd2xNMUF0ZmlhLUtQMmNUTWo4WkNXY051eXZYdm9Mamw3Z0tsUVh2XzhILVZhY3BsZWtRLXVMUmdHeHl4VkVNT3JaU25xSTJ0c0oteDVUZFFxQWt6YmMxZGprS0ZHeGRWVFNVZ3V2MzU4OWIwaVByYUpGd05UeUoxV1ZYbFRZdUE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "575a92596ee9",
-      "time": "2026-07-13T19:30:00.000Z",
-      "source": "HHS.gov",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "HHS & VA Announce Bold, Comprehensive Partnership to Advance Rapid-Acting Mental Health Treatments for Veterans",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ19hRnZUbVo2cUhfSEJCUlo5ZnJaOVc4TGVqWGIyaEllUXVhR1IxaWFWaExDblE4bWt6bUE2aU5yQWEyaUNNaE1mYzZiLUd2YkduR2JpREV3eURYSFlILXBRa3NfNUFadVU4MFJOd1BwNmVDR1VQTUlMY0w2enY3OXRGdjlDSWpFQUNmQXBsVVRQYW8?oc=5",
-      "tickers": []
     }
   ]
 }
