@@ -1,15 +1,18 @@
 {
-  "updated": "2026-07-15T23:25:03.298Z",
+  "updated": "2026-07-16T03:44:14.741Z",
   "counts": {
     "total": 90,
     "crit": 3,
     "warn": 4,
     "bySource": {
-      "fox34.com": 1,
+      "Investing.com": 2,
+      "KCBD": 2,
+      "TradingView": 1,
+      "TipRanks": 3,
       "Reuters": 1,
-      "WBFF": 1,
+      "WLUK": 1,
+      "Bloomberg.com": 1,
       "simplywall.st": 4,
-      "Proactive financial news": 1,
       "MedPage Today": 1,
       "Psychiatric Times": 1,
       "Applied Clinical Trials Online": 1,
@@ -17,7 +20,7 @@
       "The Globe and Mail": 2,
       "Yahoo Finance": 9,
       "AllSci": 1,
-      "TipRanks": 3,
+      "Proactive financial news": 1,
       "Business Model Analyst": 1,
       "sekbernews.id": 2,
       "Lexington Herald Leader": 1,
@@ -37,16 +40,17 @@
       "Stocktwits": 2,
       "Tech Times": 1,
       "MassLive": 1,
-      "National News Desk": 1,
+      "KATU": 1,
       "KJLU 88.9 FM": 1,
-      "BioSpace": 2,
+      "BioSpace": 1,
       "SILive.com": 1,
       "Yahoo": 1,
       "insights.citeline.com": 1,
       "Quiver Quantitative": 1,
-      "Pharmacy Times": 2,
+      "Pharmacy Times": 1,
       "富途牛牛": 1,
-      "Psychedelic Alpha": 3,
+      "Psychedelic Alpha": 2,
+      "Sahm": 1,
       "STAT": 1,
       "The Clinical Trial Vanguard": 2,
       "marketscreener.com": 1,
@@ -58,16 +62,13 @@
       "RAPS": 1,
       "ETF Database": 1,
       "Stock Titan": 2,
-      "Investing.com": 1,
       "77 WABC": 1,
       "Pluang": 1,
       "HHS.gov": 1,
       "Investing.com South Africa": 1,
       "Yahoo! Finance Canada": 1,
-      "WPXI": 1,
-      "Microdose": 1,
-      "Clinical Trials Arena": 1,
-      "grafa.com": 1
+      "Endpoints News": 1,
+      "WPXI": 1
     },
     "byTier": {
       "T2": 90
@@ -75,22 +76,68 @@
   },
   "items": [
     {
-      "id": "e0840e858282",
-      "time": "2026-07-15T23:22:00.000Z",
-      "source": "fox34.com",
+      "id": "6bf83a71a9b5",
+      "time": "2026-07-16T00:45:00.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Eli Lilly in talks to buy psychedelic drugmaker AtaiBeckley - Bloomberg",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa0tLcmNqZkpzUktwWGRRQWZvakhJbUdUQzludHlMTnVGUDRrUHQ3WmY5Rmw4cTBrZkYzMFNpUDVuekNKbWZyT0dxZWVVbC1SeHFKeGpVUFBFS0QtLXg2UUxMWHBZZVZUaWJqcVB5MEVyYTZLNVZOb2NwQnhfNGwxZ0pfYUVaN3paRTdVY21DOWZtanBoeDZWZGd0dTlISWpHbVhaVVYwRTJtVVBmNDBROWpVV082ZE9tb1g3Vkx4bmdUVEx6UEE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "6c5c74373f37",
+      "time": "2026-07-15T23:41:00.000Z",
+      "source": "KCBD",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "BULL",
       "impact": "LOW",
-      "title": "Texas leaders push for ibogaine research as veterans report life-changing results from psychedelic treatment",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOczQxRHNQczlsLWp2NnZVdHNnQTYyRE1fM3QzWDUtUDZVMnEwSnFpN2JWM3V6bFpua0h3MjVZSVFBX0lsOFRJb1VfS3l4YkYtSW5GTlhSR2EwNmZlMUl0dkxwZHVWSDJTZGUxTTctdzlQaGhMLXpaTWpxWFBGaEZEODd5M1Fqb3RXSWpDTFVDTEM0bU5Bd0ZOZmpLNmtJU08zdTVxSHBEUUdMZ3NzQ0ozc0Myc2tOUkloeFFrT0dZd3daVGdqV0Y2UmFoa28zMmFaZmc?oc=5",
+      "title": "Texas leaders push for ibogaine research as veterans share stories of recovery",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTWlBRHpiQXB4dVN5QlBDcXZyODVBaVdLUDRxb0QydUxfTHA0VVJIWkdtQTNwaF9sUC1PMEdMUHpGeVFLZkNibWxLMnRDS0trMkRETGNDYU55U2lIZWpQSnVvUUtTaVU2dVlKQmdwVXNoSWRmODdPZVMtQXU5YWk3RV9Cb1EzT2xvVjhSM1k0emw3VS1Wc2lUdXU2RUVBRTJUbFZj0gG3AUFVX3lxTE5pYTlIZllKOFhicVF3WVpQbkVXZnp2YjZYR0tPdWlldTZzQXpQaHBOT2xlbzZYT1pEMVdORmhMemN6RkRUQUJmQkpfaThXVFNxVzJCejNGYlI0cEo4dld3cFFuMjhUVkNza3p6RVoxSnI3WE4tWXlxTnJ5bnI0X2YtaXB1WWFvVS05aC1tc3BjWWJOTXAtVGlraWl6TnR4anZNM25NQS1DR254QVZTU3FNVk9jTVBZcw?oc=5",
       "tickers": []
     },
     {
+      "id": "5bcbf3efb58a",
+      "time": "2026-07-15T23:39:24.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQUNRNDlmNjBXeGVLcFlPZW0xNXVZc01sckR2RFdTUDdrNXBwV0ktQ1pkSDVBbE1KUEtHNXpzczd5dldmLUpxbDlnR2x2cEtWTHRqNjBBRF9PSk10NEtIY3Y5YjJOZ0dra1dySlNFMl9LWVZ2U2FaRW0zeTUtU3NLQ2hQaFJySXRDeXBqcFllWVJGa0JxU09qc1EzN2pSWG04emJn?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
+      "id": "7f9474b351f0",
+      "time": "2026-07-15T23:35:37.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Biotech High‑Flyer Definium Suddenly Falls Out of Favor",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOamZ2UmdxYXpXUFRFelFybWFNei03cEY4VDhkbGh1YzZHcTcydEVEWWJ6WUN2aUtNdUJXVGEzSXJ2MFFmbWxwaC1MSHhjMjBnbm12WWlCRnRlN1lYeThFRGk2VzhHNFo3Qkg5U3dxT2UzeVVvbVByRjRuSjZ1TGJja2tQR1ZzdW5lWkU1Mzc1b2R1X2lmRVZiUg?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "696522d328ac",
-      "time": "2026-07-15T23:09:44.000Z",
+      "time": "2026-07-15T23:30:02.000Z",
       "source": "Reuters",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -103,9 +150,23 @@
       "tickers": []
     },
     {
-      "id": "588ec974bdcd",
-      "time": "2026-07-15T23:00:38.000Z",
-      "source": "WBFF",
+      "id": "65f4c7e4e184",
+      "time": "2026-07-15T23:22:00.000Z",
+      "source": "KCBD",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Texas leaders push for ibogaine research as veterans report life-changing results from psychedelic treatment",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMzBtRFFpUHRRVk1jRGJDMzdqUEYzNVZJbDBoQ094SG9VMUt1NG94UTlqRDZkUTQyMTJIbDdPTlJuUFF3Slk0Q1V6NGlvcUF3NUd0RFRwZkhHaUJHdkZObzdKRXNPZXctWDN0S2hMRG5zVk92R2l6QlRIU19ObTN0TTdDQVB2Q1hjTDQyX2tYRzNreFRKaU9XbWtORGRFYlRnR2FGdG9kZHRGcFJ4S0dybWVZZDgwbjZBVHhwVXlXcmpvTGpRY2t0NkVIekR6a3Qw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "72f57c0921e8",
+      "time": "2026-07-15T23:21:32.000Z",
+      "source": "WLUK",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -113,10 +174,24 @@
       "direction": "NEUTRAL",
       "impact": "MED",
       "title": "VA, HHS act on Trump's order to speed psychedelic drug research",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM0VNZ19pZTlORXR1X1E4TXItM1pPNjVGQkhNcDlGUkxoa2hjTG9QMzNHNWRtLXBWMnMwamp6bXoyaDk1YXlxZEhvSHdXRlFXSTdvQ095N2Z0a2ZsQXpaVEczR3VPVldZdEV5UGZ3NkRjUmNxS1NOUktnWjBfcmdtTFFiNFNZNURHRGN2YXlDWmFrTE1aeVpuTy10NFZMSWpUS2ZuVVB0SQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcklLVWd0cnJmM2YyRjBBR29fV2ZZMkJDWWlmdmNQdEcyaHpPWVo5a0FoRndnTW9xaHF5RzcyWjBPSzQ2QlhJT0ZIX01MWVY4VXBvTjJ5aENSUkFHTkplRjAwUWFySTlfamRHSVU4amFfVzZaNU93cV9VWHRVSjRUZkNybmFWTVdxX21fazJFNmJ6bzFRU05aaGxNSGlFVHdaZ1NnY1lR?oc=5",
       "tickers": [
         "DRUG"
       ]
+    },
+    {
+      "id": "fe5687ea8164",
+      "time": "2026-07-15T22:46:15.000Z",
+      "source": "Bloomberg.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Lilly Said to Near Deal for Psychedelic Drugmaker AtaiBeckley",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd1NEbmhORl9JUHljTHlqdHRhbGl0MUNfM3k3b0ZSbThGekZ5TTlvN1k2dVZvY3JncnlEQ0UyWVJIQUN5eVNmRUZFTHhJSEE1a2Q4enRzeVBlNmhfS2h3bmtSRDk3eE5FVXdGdXcwQ3hSd2g0cE1ZYVl6Mkwydm5ycXA0NGJwcV9TQi1Sd1RNNHgwRWZGRk1VZGY3V0JheEpWWkQ0YkRENGFveTFMc1Uwb1dB?oc=5",
+      "tickers": []
     },
     {
       "id": "c215449f89c1",
@@ -130,22 +205,6 @@
       "impact": "LOW",
       "title": "Definium Therapeutics (DFTX) Could Be 30% Overvalued After New GAD Study",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdlU0UFNrcXRyOE5kWkxkd1JTMEQzdHZWOWIxb0swLU5WeklEaE4yZVVGOEI5NGdqTEJIbnE2dTJCOHVnd0wtYnJhOVZMVk9DQlNiNmloM05LcmpMRzhUTExWYWp3N2kwNTRBMnNnZmVOS25rYkoyT1h3VTJqLTFOWWdHWUpGNkhvRFNiUE1BTlhZbHp1UmVwQ3VxT09jNHIzaFpockZCMWo0QlNnNnVUc3ZsU0pHaldXQVkzbGI1ZG02VlFGdnpmMUFiQWdwMWZJbU5tbUx3V0hDZlhyWldJbmN4Yk1yaV9qaXfSAe8BQVVfeXFMTzI4eko4ZFlZbmJWdXZxN2NzenlCSk1RbDZhU2E5emJIamJOYmhHNkZPQ2Rhc01HZWRoOWxwemZWS1p0cFhfX1piUHZwLURPaVBYMG1UTWVubExrMFl5N1pCZ0Q4UlhJQnJRTnNUM3FrWXVWVDk2Z2xtMGtqV1M4bjhleVVOT0N3WXY5UGEtZ0VGcHNjSnVzdXI2TVdlZkVVX2hDVDdRczdiMXdiZ0x4YlFoTktEWkUtcWZ3cVBLSDhVaEZYdGRobUZ3b1FmWWR2dlVJMW1fcDdZYXhfQ1V5UzZwUXZURFAtWXZxMGxrc1E?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "a30db353fef8",
-      "time": "2026-07-15T19:34:00.000Z",
-      "source": "Proactive financial news",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Johnson & Johnson’s Spravato sales growth supports psychedelic drug opportunity: Jefferies",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNUxzeGI4bkY4MU51ZjVkcDNnNEJBWkY3MXJBWWhPSXdPUlZlNlhGM1RlS0k5a2QwS3puNW9mb0tkd0RVdWxtV1NES2NETWREMzljaGZQdUVvZGhhbkEwc0ljVEhOd05tRW5UazluSDQ4NlZic0U5QVlmTlFEbzVHaGJ2TV9PM2dWbkFybU9panZtWkx1ZHh0TGM2dnExWjRWQzFOVDMwT21kTTJTdW5TM09CQnNFLWZ4eGdkajJXUW56ZjhCRVY0OUdVZWw3cXlELVAwckFVbUtiSTBzSXZLNVQyZ2FuOE1yOTE4dnlhYw?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -268,6 +327,22 @@
       "impact": "LOW",
       "title": "FDA finalizes guidance on psychedelic drug clinical trial design and safety considerations",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUEF0cFRLOG5EQU5GRG40dUg3T21iQzMxOXI3UkRsVlpMYmVNcnR4TzZUaWpOT3lhZTFpVndSTFVOWVVKWlFjWnNLOVpIcUVTZlV4c1lORkZva05OcWx5bFdpMHdmWlFEZ2hRTjJEY0dhaERKZGY0YURudXJyNFFjRklzLXdLOGpjcW9GbGZSSldWajdyM1o0b3o0RE1lazJ3a2hOdnZHeEc0bzBkdlV4SVJzZy1rMkotUXExQkZWUWtwWF9H?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "a30db353fef8",
+      "time": "2026-07-15T15:34:00.000Z",
+      "source": "Proactive financial news",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Johnson & Johnson’s Spravato sales growth supports psychedelic drug opportunity: Jefferies",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNUxzeGI4bkY4MU51ZjVkcDNnNEJBWkY3MXJBWWhPSXdPUlZlNlhGM1RlS0k5a2QwS3puNW9mb0tkd0RVdWxtV1NES2NETWREMzljaGZQdUVvZGhhbkEwc0ljVEhOd05tRW5UazluSDQ4NlZic0U5QVlmTlFEbzVHaGJ2TV9PM2dWbkFybU9panZtWkx1ZHh0TGM2dnExWjRWQzFOVDMwT21kTTJTdW5TM09CQnNFLWZ4eGdkajJXUW56ZjhCRVY0OUdVZWw3cXlELVAwckFVbUtiSTBzSXZLNVQyZ2FuOE1yOTE4dnlhYw?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -715,9 +790,9 @@
       "tickers": []
     },
     {
-      "id": "5161aae1da4c",
-      "time": "2026-07-14T17:19:02.000Z",
-      "source": "National News Desk",
+      "id": "bdd813e8a7e1",
+      "time": "2026-07-14T17:21:31.000Z",
+      "source": "KATU",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -725,7 +800,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "HHS, VA launch partnership to advance psychedelic therapies for veterans in need",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPMGFnU1JwU05WSTZjU2dtVGczNEltWFpwVW9mVnFJVzVVNHM1U05zSzh1aWR2RjRLTTIwSUJHdEZjY2xrNjRVMjRHLUFPUUhlMkhFMENudDY4aFRETHI4d25VN3B5cXA4cGtCaXRhVWhLTS1JdFlNR2NXbm9uNUJpM2JWN0ZQQU04c0dJVkRWazdWVVpKOWF6anFHZW8zMGs1M0c1bXF4VEpiMGZRaE9peENmZUxldi1UY1ZSZFdkZHRnN1RCODRkam0zZTVOVUZMSkhZQ2I4M1VsLXFkTnJTcUJneEVzVWROTHE5OVN2dkwycjZ1aFJxV2NVN21TSFRmT1FvZzctandkdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQbERBMlRRSkdYVHcwY3NPYlhGbkE2NTNIZHdoSG1ta0RKejVqdWNkQjl5SjRmQjFvUDNmY3ZEMUpTaFhlS2d4cTRZUV9GaVpYOVRpZTZxejRLTmNydERLbGhXd2RPWloxSFhKM3pmVTQyUHFTcDRaNE12N2dhcFNRb0tfMkZjb3BEYVZYWHVBVGNGNmlxcTlDWHdKMXBWOTY4Z05DSHRhZVA1X2lZYVc0eGlUa3FBMVVYRFV1LTdyd1F6dDk5UUxZMkVXTVNkTFlRWTEyZXNtQ3NVbHVtUGZIUFh3dDVOaFNFbW8wb1ZZQU9Iek5x?oc=5",
       "tickers": []
     },
     {
@@ -892,6 +967,23 @@
       "link": "https://psychedelicalpha.com/news/backed-by-11m-nida-grant-harvard-moves-forward-on-ibogaine-for-opioid-use-disorder-research/",
       "tickers": [
         "DRUG"
+      ]
+    },
+    {
+      "id": "a8978e67bede",
+      "time": "2026-07-14T13:25:30.000Z",
+      "source": "Sahm",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes Says Lead Drug Maintains Wakefulness Benefits in Long-Term Narcolepsy Study",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU2FtRlU1S3JLek9FNlF6WTExSEtKazdhRlFhM3lsOFUtOUtaZC1RZHhkcU5VV1MyZTJ5d0tFZGJSbGl4cGE4Vm9iaTJkaXgzMnZIWmcxSnk3OU4tdG5ha01nc0RTUEhLT1dTTUpLTDhWMnJhVWV0TnVsT0hQZkdybU1XRDhFQ2MyLUJybWV1REVXdEhDYlhnaUtKbnN4R1BvbEdDSW9DMXBQTUhza0s5cjRpSjU1RTc5Ry1QVklRLU5RYWl2OC1EZmtvRlpISXUtbEE?oc=5",
+      "tickers": [
+        "DRUG",
+        "ALKS"
       ]
     },
     {
@@ -1283,6 +1375,20 @@
       "tickers": []
     },
     {
+      "id": "7fd516910138",
+      "time": "2026-07-13T18:52:00.000Z",
+      "source": "Endpoints News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "FDA finalizes guidance on psychedelics, plans broader hearing",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdEdNQzVPd0FJODl4UkVPSjVaa25tTGNzRG1KSUZIQzBsUHhsUTVJeWNLV2dPc3MyUjBqMDk0b0d3ZXpPOTA3WnBDa3c3ek94bUlmYXFVMGhsZlp2QjExSl82SkNGSTViQm9CTy1CMFJxUVV2WjltaS16ekpic2ZLQ1hOX3hUWXI4LVFWWg?oc=5",
+      "tickers": []
+    },
+    {
       "id": "a5c62e813990",
       "time": "2026-07-13T18:44:34.000Z",
       "source": "WPXI",
@@ -1324,110 +1430,6 @@
       "impact": "LOW",
       "title": "FDA Finalizes Guidance On 'Unique Challenges' Of Psychedelic Research And Schedules Hearing On Therapeutic Uses",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYzVhYUZHRmhpTGl0bFhGSTZqSkJkOHI1SVlBUnluTnhOMXVOOHQzXzE3c1g2N3JWeG9jTDVtcEw5VlVsUDUwLWRrb0JNR2dUbk9UR253QkJUTGZmdnFZNEROeUNlcUNxQXZYcFRQS3k0bF9EZ1VDdDNCbXhCeFg5VHRjNFRub0t0Y19xVTdXdkE2TDZ0Yi14M3E2WmdIR0lXWGxDdmE5V1RKOEREQlJmaGJLdnpSb3pjc0M2MGczbVpfLXdfWnJEQk1ldXkyQnAzRjdkZFlQQnBZZw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "3dc80b9d997a",
-      "time": "2026-07-13T17:41:48.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Jefferies says guidance suggests FDA receptive to helping psychedelic sponsors",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONnhXMFE1UENmdzNGcTZ0U3ZGa0lyWVIxOWh4Q1NOVjRLaXZsR3JIRkZiQVMyZWhjSnhDc2pubE1BR2RKckZobHFXZV9acjVtRW0yNURzZHBKYXRuSy1zVVhQVHl5ZG9xQVJPbHdnaFpJVGZDMHFfZ18xY29RQXh0dFZ0b1JQaExWcWFmQzkxbUdTZ2NNZFRSbXYxdWJ5alhyQTM1OHdGSE5KWGk0NGFtMVItMzkyWTZ5NFBKRF8xMGxXdFpRclZn?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "85d40d8696b2",
-      "time": "2026-07-13T16:31:54.000Z",
-      "source": "BioSpace",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes’ Alixorexton Demonstrated Sustained Improvement in Wakefulness in Adults With Narcolepsy Type 1 and Type 2 in Long-Term Extension Study Interim Analysis",
-      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQYm9IMThYeFZ2eHFQbjE2OGJWRG1yVkZBMlBCTVJBNjFlX0Rmcm5xdW1nS3E3QVlPTzU0Q3RlVG1VaFI2b1NCU19tVDg5TXRGeVdmUFlPR0Z4REpZbWFwQW0tQXg2eVRSaEVLRktKTmMybjV1OFpkRDE0T1lQOFpSaEJsN1c2a1FTMWUyU0xJV1RzNGoyY2t5WEgxUTh3eWMwQS1CYkhTcDdSM29tQnR6cW0xb0ZkSmtmU2RnQzN0WTZIaFVmNy1aamVsOWVhSFg2UW9WdUpXN2ZGRklFV2hjaDhrSDRSUFU4aElHcloxVzVUOWMtSlF4YWp4TnVaM0t5eFFQdi00YUY2YTYxRjhxN01NdzlLWmQ1djljWlBjbjljWEIwQUtR?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "40245cf136da",
-      "time": "2026-07-13T16:05:42.000Z",
-      "source": "Microdose",
-      "sourceKind": "rss",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "The Psychedelic Sector Has Grown Up. Wall Street Just Hasn’t Fully Realized It Yet",
-      "link": "https://microdose.buzz/news/the-psychedelic-sector-has-grown-up-wall-street-just-hasnt-fully-realized-it-yet/",
-      "tickers": []
-    },
-    {
-      "id": "d3f16d164900",
-      "time": "2026-07-13T15:47:43.000Z",
-      "source": "Clinical Trials Arena",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes releases nine-month data as OX2R race heats up",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMHlaM0JyOUxUbVRtZFRQZ3VUUGw4LWlqTlhScDJlTEhVeXRiMC0ydm9IQ1RkNmRVal81U09UVTY3Q1hxWW81Q2lVVE9YMUtPb0VaUUdybFdScXhrZVFpbVpVUkJCQjNNenFmNFd0Mm9sVGZRRlFFRGFXaXR0TW16SXZvWExHbUsyY1N6VXlvZDA5dHJuamtZNUk5dHNFUQ?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "54034b5fa979",
-      "time": "2026-07-13T15:41:54.000Z",
-      "source": "Psychedelic Alpha",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FDA Issues Final Psychedelics Guidance, Schedules September Hearing on the Future of Psychedelic Therapies",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObk9VckF5M2hodjFQT3RGWGVZT08xbW1CTnJiSXlQUHI3aGl5QzA4MWJ5RWQ1bkxxcVBMTmt2SGZtOHB5b2RaakJ5OXJ4REtYdmpkZXNyT2tfc1BwVTZaV2YzVmRvdTBOMTZYQUcweUFtdXRUWjRlLWVQSUd5SkFIQ2R6aGZ0SUx5UktRT2RyRDhxcXZzcE85NUs5bnBROXgtN2NCd1BRNERCSVlLb29JSjhBZ29PSG5BR1VKdmo4R21hWnNEVDNmU0d4Q2NXNE1VUG4tUV85SQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "75478d91258e",
-      "time": "2026-07-13T15:36:00.000Z",
-      "source": "grafa.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes reports alixorexton narcolepsy trial data",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd0lkR1Zma2pOUUIweHUxbElDbWxSdXZWVE11UUdvZzRWMFN5UDdreGdDSEpzMGlIeXFBOWxONFRzUUhpRHA0SEdETVNLLW9OcFhRLVFMS3ZKLVJxOWRaRVRtUzViU19pUFJWQjUtcTA4djFxblJLb0s1TlRRN0pISjFZb0cwRW81Ym5pcUtUek5hTlhqR1ZoaU5NUQ?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "f9e423bdfb00",
-      "time": "2026-07-13T15:34:07.000Z",
-      "source": "Pharmacy Times",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Psychedelic Therapy and Veterans: What Pharmacists Need to Know About the Right to Try Pathway for Ibogaine",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN0tWNmF4X0pmZlVGeGxCWlJFcDBaQkwtYVBjUE9rcXdNZ2ZBdk1aZ3JfWDZBVG93RmpJWWQ0clZDTDljR0J6TXJMYkxES2hNXzJSTF90VnBrVTlYMWVrelR4SUkyZUlmdVpYc1ZVblVLMW9ISnk4NHpfTWdUYXhrNzBDVF9ONTEtNmxla2tBVmtWMUlLZEtEN0RCSzczYnlwOXRtdVFGSnZyeWNzWXlGTzhKS2tIV3pSWkRJSHdGYTEtYjk1ajYwYjd3QU1CNzFaZ1lXTkdNODE?oc=5",
       "tickers": []
     }
   ]
