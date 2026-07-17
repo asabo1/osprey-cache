@@ -1,10 +1,12 @@
 {
-  "updated": "2026-07-17T17:34:26.097Z",
+  "updated": "2026-07-17T19:37:06.544Z",
   "counts": {
     "total": 92,
-    "crit": 7,
+    "crit": 9,
     "warn": 5,
     "bySource": {
+      "Fitt Insider": 1,
+      "Pluang": 1,
       "Proactive financial news": 1,
       "Psychedelic Alpha": 2,
       "Investing News Network": 1,
@@ -12,14 +14,16 @@
       "Semafor": 1,
       "TradingView": 2,
       "simplywall.st": 6,
+      "Moomoo": 1,
       "HCP Live": 2,
       "Investing.com Australia": 1,
       "The Manila Times": 1,
       "TipRanks": 2,
       "Colorado Newsline": 1,
       "The Presidential Prayer Team": 1,
-      "WBTV": 1,
-      "Stocktwits": 7,
+      "Yahoo Finance": 3,
+      "WSMV": 1,
+      "Stocktwits": 5,
       "Smartkarma": 1,
       "San Antonio Report": 1,
       "drugdiscoverytrends.com": 1,
@@ -30,6 +34,7 @@
       "RAPS": 1,
       "Medscape": 1,
       "Targeted Oncology": 1,
+      "San Francisco Chronicle": 1,
       "finance.biggo.com": 1,
       "24/7 Wall St.": 2,
       "MedCity News": 1,
@@ -40,17 +45,17 @@
       "Benzinga": 2,
       "BioPharma Dive": 1,
       "Axios": 1,
-      "Yahoo Finance": 2,
       "qz.com": 1,
       "TradingKey": 2,
       "The Pharma Letter": 1,
       "Investing.com India": 2,
       "Reuters": 2,
-      "Investing.com": 3,
+      "Investing.com": 2,
       "Pharmaceutical Commerce": 1,
       "Barron's": 1,
       "Bloomberg.com": 1,
       "Investing.com Canada": 1,
+      "Biostock": 1,
       "BioSpace": 2,
       "Blockonomi": 1,
       "Oregon Public Broadcasting - OPB": 1,
@@ -68,10 +73,7 @@
       "Applied Clinical Trials Online": 1,
       "Business Wire": 1,
       "MSN": 1,
-      "Technology Networks": 1,
-      "Investing.com South Africa": 1,
-      "ChartMill": 1,
-      "North Carolina Health News": 1
+      "Technology Networks": 1
     },
     "byTier": {
       "T2": 90,
@@ -79,6 +81,36 @@
     }
   },
   "items": [
+    {
+      "id": "593da58ea4e8",
+      "time": "2026-07-17T19:30:47.000Z",
+      "source": "Fitt Insider",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Eli Lilly Acquires AtaiBeckley in $3.8B Psychedelic Medicine Deal",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbDBSZG9FTFpYUTZaemlud3ZtbUlJeFFQTDAwVlhjaHZ2c2tSWUNZYkdlZ1RmWXNYdkpyR0Q5dVI2Qy1mN0d0ZTNUWVhxc3R4MGJBb2FJYmFabE4wa3NqNjBDMFVtOVNEV0p1VFpjMFZDRUVTdDJ0Wi1fc2Zfbm9VbktzWWdpeXNjS2Jab2hkdw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "7da3f707b616",
+      "time": "2026-07-17T17:57:07.000Z",
+      "source": "Pluang",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Jefferies backs Compass Pathways as new data cl...",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWWdkQkt6MXU1WXctSkF1SXo5Z0hBV3RfUGoxYk5rckFzNktiVENOdF9scFI3QTVxNmtiQm9zSFhGSktiR0JDZDg1dFVra1RudlV2T0swV3psVTh6ZDRTOXl1TVJlTnFOaUUwR2ZvMlJXSHF2cnV1WllVVThaRDNSVzJVNjh1U2JwOG1RTUVmaVktTGlTTEZ1YW5MN2VmMjFvcmxaYWtCaTFrZHFxR3pXbHZ3?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
     {
       "id": "a82521a8a43c",
       "time": "2026-07-17T16:50:00.000Z",
@@ -94,17 +126,17 @@
       "tickers": []
     },
     {
-      "id": "ba21b0c2214e",
-      "time": "2026-07-17T16:02:37.000Z",
+      "id": "3c33958855d8",
+      "time": "2026-07-17T16:07:00.000Z",
       "source": "Psychedelic Alpha",
-      "sourceKind": "rss",
+      "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "HIGH",
       "title": "Field Notes #3: Washington’s Busy Week, and the Biggest Psychedelic Buyout Yet",
-      "link": "https://psychedelicalpha.com/news/field-notes-3-washingtons-busy-week-and-the-biggest-psychedelic-buyout-yet/",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRjZMY1BvT2FnZVNfWW8yVG1RMmhuSzdlQXlBdllROEdMOWpYWVJXQkxLaThQSTR3TlhQTjROVnZNWUF6NHQ0UTBlV0NJeXhIMnh2SG9RenRodlBBRDdTSU5XRFZxaHVHcmdvMTltSDB6V2pGNS1VTUJmdHBDTjA5NXhBalR3MmFTU3VYN2xwLWFzZ1ZhcGpmNGoxdWU1YXgzdFNqaF8wVmRSLTFfUkE?oc=5",
       "tickers": []
     },
     {
@@ -164,8 +196,8 @@
       "tickers": []
     },
     {
-      "id": "f05c846b11da",
-      "time": "2026-07-17T12:42:59.000Z",
+      "id": "6dce2df3faa7",
+      "time": "2026-07-17T12:42:58.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -174,7 +206,7 @@
       "direction": "BULL",
       "impact": "HIGH",
       "title": "Cybin (HELP) Advances Psychedelic Depression Drug to Phase 3 Amid Fresh Funding – What Really Matters?",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVWZtZkFvVGIydU8tWTl6QWlEY25veE11empiVENNY1kteUFNZXRqVHRUTlNCV0NQYzlSR2cxYWk5NHphODc5MnlPWUM2SlEwMkJhREc0TFVIWW5JYzNNdzN3RkVsU1BEbENaVFJ4eXpJWmdWTDNZOE9MOVlveFV4RldrVjl1Nk53cUpkUXR4LURtWFRJY1pabnBkMjlxY1FBUEhJdE9iTHYwd0VqNnVoNW9kS2ZYMzRoaVFjaFJBQ1l4bGJIYW11cG5GTTN2dTFyUDl2Q1JEQ09XUVnSAdsBQVVfeXFMTlVmbWZBb1RiMnVPLVk5ekFpRGNub3hNdXpqYlRDTWNZLXlBTWV0alR0VE5TQldDUGM5UkdnMWFpOTR6YTg3OTJ5T1lDNkpRMDJCYURHNExVSFluSWMzTXczd0ZFbFNQRGxDWlRSeHl6SVpnVkwzWThPTDlZb3hVeEZXa1Y5dTZOd3FKZFF0eC1EbVhUSWNaWm5wZDI5cWNRQVBISXRPYkx2MHdFajZ1aDVvZEtmWDM0aGlRY2hSQUNZeGxiSGFtdXBuRk0zdnUxclA5dkNSRENPV1FZ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQelMxTFlwN196ZkZQSnFxR3pYQkxxb2pINFllNUxWNzMtOEktN3huSTNKcGNYTm9MdnctS1NLdWJEVUhZNzdpbFQ3YUNYUkg1UkNlNFdXY2xRc21teVpmX1YxZlk2SDN3cUJTTXBWVnNiaFhZOXR4OV83clFXa3VyQ25Pd1BOczUwSmp6R0RHVXcxTmdlRFZOdEFLejdtTkZUV0dXLTlaYTRieVhadURsSi15aTJFY1VBOVQ0RHo0UkJvcTZDcDh1RG04VnJCT3NsMjBIX1VB0gHbAUFVX3lxTE5VZm1mQW9UYjJ1Ty1ZOXpBaURjbm94TXV6amJUQ01jWS15QU1ldGpUdFROU0JXQ1BjOVJHZzFhaTk0emE4NzkyeU9ZQzZKUTAyQmFERzRMVUhZbkljM013M3dGRWxTUERsQ1pUUnh5eklaZ1ZMM1k4T0w5WW94VXhGV2tWOXU2TndxSmRRdHgtRG1YVEljWlpucGQyOXFjUUFQSEl0T2JMdjB3RWo2dWg1b2RLZlgzNGhpUWNoUkFDWXhsYkhhbXVwbkZNM3Z1MXJQOXZDUkRDT1dRWQ?oc=5",
       "tickers": [
         "HELP",
         "DRUG"
@@ -197,8 +229,24 @@
       ]
     },
     {
+      "id": "4d3182e68417",
+      "time": "2026-07-17T12:20:48.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "ATAI Life Sciences Cut to Hold From Buy by Jefferies",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTWIxQ0dfUWd3S0xVWl9GRTJFV29EaFYwY1dFZ0U1S1pJU2oxZ0xkZGhNZmlLdlEwbkhLQ1ZWUFF3VlJURFc3ZEM3cHZKSnptdVc5RkI1N0VMZkNMcEE5SVFUU3dZZ3lmT2Jpd2J0S3BvdkVUNHdRVkN4bTFOQmlGYlBac3VTdmxXaTctaGZ3S0pPMkd4Rzk2cEtB?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
       "id": "0f6794b6b6ae",
-      "time": "2026-07-17T12:03:32.000Z",
+      "time": "2026-07-17T12:07:46.000Z",
       "source": "HCP Live",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -283,8 +331,8 @@
       "tickers": []
     },
     {
-      "id": "560e7a5233f5",
-      "time": "2026-07-17T09:32:06.000Z",
+      "id": "c8b851a2a80a",
+      "time": "2026-07-17T09:31:59.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -293,7 +341,7 @@
       "direction": "NEUTRAL",
       "impact": "MED",
       "title": "Should Strong Earnings Projections and Zacks Rank #1 Status Require Action From Neurocrine Biosciences (NBIX) Investors?",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWnhTbXFqSlpTXzg3RGltVjRFWUhoVzd4cFpCaFVLZWpTMldieGwwbW04OHRqMm0tbW1yWDFXbXlGb1dtWjZsM1Nic0k5dmFtQW80Rk1fUmhLVGlWcy1iOWhhSmxJMG5zVEpoRGZzazVVOXQ2OTdHaXB0aEk0VmRoRFQtN3VWSk5kNzI4MG9FbzNmVDVyZ3hhMDMtT2lZZk8yNU1ZLTZCZ09GQXlyRzRSTGZKalpVZXhQb3hkaW96V19fMk92eTk5UHVFZHB2WVMtWE5OMlB6emQ1MUNhaDNYOC1oNVp4SU50bXo3YzNZZE5od9IB8gFBVV95cUxNWnhTbXFqSlpTXzg3RGltVjRFWUhoVzd4cFpCaFVLZWpTMldieGwwbW04OHRqMm0tbW1yWDFXbXlGb1dtWjZsM1Nic0k5dmFtQW80Rk1fUmhLVGlWcy1iOWhhSmxJMG5zVEpoRGZzazVVOXQ2OTdHaXB0aEk0VmRoRFQtN3VWSk5kNzI4MG9FbzNmVDVyZ3hhMDMtT2lZZk8yNU1ZLTZCZ09GQXlyRzRSTGZKalpVZXhQb3hkaW96V19fMk92eTk5UHVFZHB2WVMtWE5OMlB6emQ1MUNhaDNYOC1oNVp4SU50bXo3YzNZZE5odw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWmdINmN3RGlNd2t0cUllMnR3T1A0Ni0xZHkyWHMwd09Odi1yMGtnc0dqOUZ5QXJJc25oSUNhanVSdzdDSU02VkpfajZtNndXRzBoQXZQeE1LTXFEWXNWRTZPNHVUbjM2Wk9iMUxScUI5MHdIcjRpeXpDdmVlQjRBYXFOTUdzZU1tM3FNYnVBY0ZQTlhXUE4xU1pSVjhrWHdabHdLLTlxckhTZE8wNUROWGJpNWsyOF8zSXFuSHh3cE5GM2M5TlNWOEpoZXp0OThEQ0MzUHFmcnE4VGJGa1l0TlphMDRDN1VTVGpBcdIB8gFBVV95cUxNWnhTbXFqSlpTXzg3RGltVjRFWUhoVzd4cFpCaFVLZWpTMldieGwwbW04OHRqMm0tbW1yWDFXbXlGb1dtWjZsM1Nic0k5dmFtQW80Rk1fUmhLVGlWcy1iOWhhSmxJMG5zVEpoRGZzazVVOXQ2OTdHaXB0aEk0VmRoRFQtN3VWSk5kNzI4MG9FbzNmVDVyZ3hhMDMtT2lZZk8yNU1ZLTZCZ09GQXlyRzRSTGZKalpVZXhQb3hkaW96V19fMk92eTk5UHVFZHB2WVMtWE5OMlB6emQ1MUNhaDNYOC1oNVp4SU50bXo3YzNZZE5odw?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -331,6 +379,22 @@
       ]
     },
     {
+      "id": "e68f9968800c",
+      "time": "2026-07-17T07:12:05.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "COMPASS Pathways (CMPS) Is Down 8.6% After Phase 3 Durability Data For COMP360 In TRD",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWUpQSG1fQjhsOWsxMmtMakd5X3otOWRtSDFLSy10Q1RRUWtBck5HdDlPblNKRk9nT0lBNHZacTZBelV3S3FSNm9iUTNhbzQ4ZWpSYllZMWFiZ2JrYmEwWWlsU281Q19UZkpCajNtRkNMc1kyOFJYSVdxN1dhTVl0dElLSW9DQjZYRUFCOWZjZ3JtQkU?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "9c0f5fa13259",
       "time": "2026-07-17T06:26:49.000Z",
       "source": "simplywall.st",
@@ -347,9 +411,9 @@
       ]
     },
     {
-      "id": "c62eabd6d429",
+      "id": "6800bc36b550",
       "time": "2026-07-17T03:36:00.000Z",
-      "source": "WBTV",
+      "source": "WSMV",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -357,7 +421,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Whitewater Police find 26 grams of psilocybin mushrooms during domestic abuse incident arrest",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbTN6SzVxSzdNRW1reFBtWU5nTlJRM0dmd3pITWZ3Q1l5Q2dOS1pqVU5LSXhmTXI3X2h6THNGQ3V4aWFlajlNWVpJdVhRY3hpUHVVVnY4QmwtMV9vR1ctZnhyT21UWlpUM2REUEFidW5PN0JpYTVSNGpZR1pCaW53SDNfUnZycncwZU5TeDJNZE5BVGpRakNGZ3IzREJ1NDZrbXdMUlNXYTFtMnpEWFpELTk3TG50MUFqek0xcDl1SGFsU19pTF9PTg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYkxwZ0NRS3QzVF81b3I2NlFmMlVENjJZdXNfXzdtQW9kS2JWRUM1eWIzZkVmVG0yd2hBZHUtWWRjZ3lrdUM2SFN3eDhNS1ppZ0JJVDJ4Zkk1a1V4emVFSDlkSGVJNC1tUzZJRkJjdVd6M05waHVDZFBQSEpVR1RjWVlRRWRrMjZYWmN0QWZCdTRfYjZoc3JNNVZ5YW1uMlBoTkZQbmlxekhLZldCOGxzSklJeFlLTUpLcUo0QmU0ZldHYW1neFFKRA?oc=5",
       "tickers": []
     },
     {
@@ -388,23 +452,6 @@
       "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWUdNalpfRjhlekJWT2Jzc2VCVHRCQlFKaVpQdVRvRWlwUUxfejluQ3Bfbmw1dEEyU2tRdElnY0w1d1JDWjdkdHNYbkJTVDRQZER3SmNDTFZ0anp1UGNFTXNMRDB6MFBrMjV6aGZxVks3STI4VXplSWxIQ0pZYVdUbUNRblF6dWZVeEN4ZWp4dU0wNTE1SkV1RVRFUFZOTkNGcjBzSC1hNVl4b0w4RzZuWDdkZ25qM0RUOVN3aWZubTJfQkRIZ0pTMW1la3NDbTUxNzlRcHR1Q0FVOEEwamJiWVh3QmhVaVRwejJ1ZDNTVjNfOHZqb0M5MzVfd2E5VG44V2hheTlmM0dta3AtMklrd1pRV2FsR0lPc2ZsdEluUjZzc1B3YTR5XzRtdHJwUHh2NWhrRFZVUlJSOXdPYUlsYmQ3LUxmSWFucGc?oc=5",
       "tickers": [
         "ATAI"
-      ]
-    },
-    {
-      "id": "b645ac3d36aa",
-      "time": "2026-07-17T01:09:38.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "CMPS Stock Clocks Muted Gains But Analysts Back Psychedelic Drug’s Durability Ahead Of FDA Filing",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMjFhaEsxVWwtTjBVbGVhN3pQdjFoUjNzbEVmcVRraWUxb096N0R5YkpnSnlLcVFqMVRoaXQ1UWkxRHoyemd5RHgxS0RWQlN3MUduR25LSml3Ym4wamVRSkcxRnVxWlNOeGVDWHRrOG8tX2FrRldPckNNazR3MUhlc2NYbHhqdTA4dEdJUElRZ0xVVHExMjNCTV80TmlGVGNLSWwtR1kybUhXQlgtTzEzdll0U2ZpRHV1Uk1JN25fd0poNk1xZmo0Z2lqbnp3S1dIbVRQcVpNT0NCSTNiY241dlhPcldOTWNyTEhhZDFBLVh3QQ?oc=5",
-      "tickers": [
-        "CMPS",
-        "DRUG"
       ]
     },
     {
@@ -576,6 +623,20 @@
       "impact": "LOW",
       "title": "Exploring Psilocybin-Assisted Therapy for Cancer Patients' Trauma",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmdHTTF0d1N2WFJRaFhKeDdxVldYRFQ0dGxrY2FucTVsYTEzbDdJLWRXS2N0akV3Sm4yNlFtVUc4dVJ4MjZKVVM3ODNtUWZWM3JxdTkxUWx0Mk94REN5WG1VZ2gzVkV0cWNnLVVPUFlscmVYTG1FLXpiQnNqcmNVUHU5UGEwaURBeUNkcHN1c2txQmJHd3Zkc044dHQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "3897f9c013e8",
+      "time": "2026-07-16T19:03:12.000Z",
+      "source": "San Francisco Chronicle",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Exclusive: Meet the Bay Area-themed art car that will be rolling through the region in 2027",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdHhUa0FkTFZsNmhuaU5IQ21SWDNQZUd3cC13MWJJTGczZUI5eVk3RGkwa0N5NkJXNEZDdUNaN1hyQXoxaXNwLWxxNkVjVEtzSjFlQng0b0pIMkZNc1l4ZkZWalZsRWN6MndQZUhvc1JYSEIzT21QMUlELTk3bHpKT2l4UG0tcnlOSzkxU0QyWkNZTnY0Vks5eDgwOU00YlM4Smo4bw?oc=5",
       "tickers": []
     },
     {
@@ -960,6 +1021,20 @@
       "tickers": [
         "GHRS"
       ]
+    },
+    {
+      "id": "fc02f8c82f00",
+      "time": "2026-07-16T13:32:52.000Z",
+      "source": "Biostock",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Lilly buys psychedelic company",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OT2F3VmdfdDRKNWtyYVJfaHkyd2NjSWhZZFdRS0ZOZzVfd2locmpwUk5XOExEcEJBSTBBSW1RZHlKdEVfd2ZRWFhZd0w2YzFXUVRVckEyVjdSV2ZYRzRWY0hlX3NuWFFrb280Qw?oc=5",
+      "tickers": []
     },
     {
       "id": "749182f72582",
@@ -1399,85 +1474,6 @@
       "tickers": [
         "HELP"
       ]
-    },
-    {
-      "id": "bb2af33c6eeb",
-      "time": "2026-07-16T09:49:24.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "CMPS On Track For Best Week Ever On FDA Push For Psychedelics",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGN2cERNSmZPYTR1SWxCUm0zYVdqbXZFV0haX1BwRVRCdHlnd1RLeE5acHpTcUpYbE8wYzZjVUNKRkFyN0E3N190VFdlXzFRYWV5azJPRDhzd05QUnFhbXhJNnhRaG5GcVRMci1LUE5oY3l1akRscENWbDVkenVNUGVpb3I2cFBRZTZFOEF4dzk5UDVSTHNhNjBoVk1DU2xQQU16Q0plWm0ybVFUQ1FUcG1yMHl1UEFqOWcxaFlkZVNLVWs?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "38effdbcc05e",
-      "time": "2026-07-16T09:48:17.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Why is GH Research stock surging today?",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUHI2cWd1aWFyeV91UzFjaE4wNlFtc3NlSXJDLU1saXBjd2FNcHhkQkFIb3dZMEk5RnRFQlh6TDZGUzdHSkJJZWNySVpzMXFDZEo4eUlUQm4wdE9TRHhMNjNtRkJNbm5wS1RJUUQ0SFdReFNsTWlJLVVJaFh4cklYSDJSd013WEpOMzVibFhTdGFyYVVXVk5kdkRxd1N4a2RPcmc?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "785371f503c8",
-      "time": "2026-07-16T09:32:16.000Z",
-      "source": "Investing.com South Africa",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Why is ATAI Beckley stock surging today? By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYTRKbDBDRms3TUoyS3JhYXB5TlFaYWlOWGV6ZGd4UzB1VzEteDk4TXZrR2xfNGwtMjNWNUVtQnNfZ0FKbVRJUThiQ3VGcEY0bHdMV1Z0M0pTS0M0SkE4QmR1Wl9iUWVmREhYdGZ4TTdfUjNiRXc1WXJMaVBhUHVVXzdWYU8zOTg2QVROTzc2UE1qU0JKVHVkOFFCaVVkdy1udEFFU2tzOF9DYzRqd2NEMlBn?oc=5",
-      "tickers": [
-        "ATAI",
-        "GHRS"
-      ]
-    },
-    {
-      "id": "c1dbc906e7a1",
-      "time": "2026-07-16T09:00:29.000Z",
-      "source": "ChartMill",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences (NASDAQ:NBIX) Fits the Growth at a Reasonable Price Mold of Peter Lynch Screening",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcjB5TkN6czEtZUtJcWhydlRPaWlpVklUUnI2ZmpDclFGejVhR3BYRnhpZDhWWkMxeTNhOV9TQzRfREZxcEdoeGtWcVFNZmtwR25zdERjXzRHWTVMZ2pKcXB6bTgyS0NCcWQ3SGpIUHkxTjlQWHRVb0Qzc0NXZTJEMnNsVU9EWG5WcXl1Y3NPcExSLXNfVnhsTmxzS1BmbG5jcVZyakttUDNsNDhmaDJQTzNhRGptcTdxN0RpWE84TWhOTjdyLWctZVdwcHo0X1dCNXZOLVUtSEdFMWpRRVdEM2NBellqam1h?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "72b38e4eff85",
-      "time": "2026-07-16T08:32:00.000Z",
-      "source": "North Carolina Health News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Psychedelic-assisted therapy research gains traction with NC lawmakers, academics",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTW1ZaW1iWUdlVnBqWjFXa2xobFNiU0VmMWRUUU5xanVqTDRwTVRyaXRGdFZYWVRMQWlBUW9PclRwWnJNV2JVSnBLbFBLYWk0OTFLZ1hlRU1tUWFBdnZIS084RkkxaTVqQmVhcWpVWURUWkZHeTUwNXFlbm9aSW1LaFRfc3Q2cnZ1OXNXcW1zMm9aQWJIZmM2Q2VWamxKMWRqMFBZWW5lLUt0N0g4X0ZrZG9EQ1FUZHNU?oc=5",
-      "tickers": []
     }
   ]
 }
