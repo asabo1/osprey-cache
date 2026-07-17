@@ -1,5 +1,5 @@
 // PSIL holdings reference data. Replaced by GH Action fetch in production.
-// Last manual update: 2026-07-16 (sparklines auto-refreshed daily)
+// Last manual update: 2026-07-17 (sparklines auto-refreshed daily)
 
 export type Holding = {
   ticker: string;

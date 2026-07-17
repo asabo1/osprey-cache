@@ -1,10 +1,11 @@
 {
-  "updated": "2026-07-16T23:14:56.277Z",
+  "updated": "2026-07-17T00:16:18.564Z",
   "counts": {
     "total": 93,
-    "crit": 6,
+    "crit": 5,
     "warn": 4,
     "bySource": {
+      "San Antonio Report": 1,
       "RAPS": 1,
       "HarianBasis.co": 2,
       "GuruFocus": 1,
@@ -16,7 +17,6 @@
       "drugdiscoverytrends.com": 1,
       "finance.biggo.com": 2,
       "24/7 Wall St.": 2,
-      "San Antonio Report": 1,
       "MedCity News": 1,
       "MDLinx": 1,
       "Psychiatric Times": 2,
@@ -38,14 +38,13 @@
       "Barron's": 1,
       "Investing.com UK": 1,
       "BioSpace": 2,
-      "Yahoo Finance": 1,
+      "Yahoo Finance": 2,
       "Blockonomi": 1,
       "Oregon Public Broadcasting - OPB": 1,
       "STAT News": 2,
       "Psychedelic Alpha": 1,
       "pharmaphorum": 1,
-      "Investing.com": 4,
-      "Sahm": 1,
+      "Investing.com": 3,
       "TradingView": 3,
       "WSJ": 1,
       "المتداول العربي": 1,
@@ -58,10 +57,10 @@
       "Seeking Alpha": 1,
       "Bloomberg.com": 4,
       "CNBC": 1,
-      "Applied Clinical Trials Online": 1,
+      "Applied Clinical Trials Online": 2,
       "Business Wire": 1,
       "Technology Networks": 1,
-      "Stocktwits": 3,
+      "Stocktwits": 2,
       "Investing.com South Africa": 1,
       "ChartMill": 1,
       "North Carolina Health News": 1,
@@ -71,7 +70,8 @@
       "KCBD": 2,
       "TipRanks": 1,
       "CNN": 1,
-      "MedPage Today": 1
+      "MedPage Today": 1,
+      "Filter": 1
     },
     "byTier": {
       "T2": 90,
@@ -79,6 +79,22 @@
     }
   },
   "items": [
+    {
+      "id": "d9de2963fb49",
+      "time": "2026-07-16T23:55:00.000Z",
+      "source": "San Antonio Report",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "San Antonio could get VA psychedelic drug clinical trials",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVmh0M25QMVJVS2F2YXNtWGFpUDlXNDJlUFJzeE8xSVlmeUJrT2Zwcko2OHdoUjFvdGtiVi0tM2MzblQxRkpjUkdlcXlheUdadXJ4d0Y3NUNwTUtiZzBINlY5NXBheVMxVHE3WHk5Y1I1TlEwNG91VlJvZ21jYnNaNWdaWTVsZFJGZE42Uk1zWUZDekcxdDRVa0FCYw?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
     {
       "id": "beb386cc009d",
       "time": "2026-07-16T21:22:32.000Z",
@@ -261,23 +277,6 @@
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5odkd6cjhWZnFZRjlPZlNITGhsckRja1pwaGt3WTk4bF9sYmZObkpYV3IyX2Z1UllHOTFVNGR5RVFvaEhNdjBNQk0yd1dWZw?oc=5",
       "tickers": [
         "GHRS"
-      ]
-    },
-    {
-      "id": "d9de2963fb49",
-      "time": "2026-07-16T18:00:21.000Z",
-      "source": "San Antonio Report",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Mayor Gina Ortiz Jones wants San Antonio to get psychedelic drug clinical trials to help treat veterans",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVmh0M25QMVJVS2F2YXNtWGFpUDlXNDJlUFJzeE8xSVlmeUJrT2Zwcko2OHdoUjFvdGtiVi0tM2MzblQxRkpjUkdlcXlheUdadXJ4d0Y3NUNwTUtiZzBINlY5NXBheVMxVHE3WHk5Y1I1TlEwNG91VlJvZ21jYnNaNWdaWTVsZFJGZE42Uk1zWUZDekcxdDRVa0FCYw?oc=5",
-      "tickers": [
-        "HELP",
-        "DRUG"
       ]
     },
     {
@@ -795,22 +794,6 @@
       ]
     },
     {
-      "id": "a24e06d43199",
-      "time": "2026-07-16T11:48:10.000Z",
-      "source": "Sahm",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "GH Research (GHRS) In Focus As FDA Psychedelic Shift Raises The Question Of Value",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYk1JbElBejlDV1ZMLTN4TjluTWJ0OUxDWl9BSVlaSlh2a2hOYXo2NkFfU0Y0MjQwd3VPbm9GdVhoWE1BbTdMWWFzOWlGUDhfODhMbFRXQU1XU3U3RDlMdjdSdm5sbXl4NE4wZHN5NWVEQTJRZFh1cTVIU0lKQktrbEc0QncxSmI2ckRZNkhkMkt4RXpCSlFWVEhFd2JxWThod3IyR01UaWRURmRsVVZ1V05YcVN2OVpXRDkySnJmVUJ4S09lUTJKMWs0NA?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
       "id": "942150c98bfd",
       "time": "2026-07-16T11:42:45.000Z",
       "source": "TradingView",
@@ -1222,20 +1205,6 @@
       ]
     },
     {
-      "id": "6bf83a71a9b5",
-      "time": "2026-07-16T03:23:39.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Eli Lilly in talks to buy psychedelic drugmaker AtaiBeckley - Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa0tLcmNqZkpzUktwWGRRQWZvakhJbUdUQzludHlMTnVGUDRrUHQ3WmY5Rmw4cTBrZkYzMFNpUDVuekNKbWZyT0dxZWVVbC1SeHFKeGpVUFBFS0QtLXg2UUxMWHBZZVZUaWJqcVB5MEVyYTZLNVZOb2NwQnhfNGwxZ0pfYUVaN3paRTdVY21DOWZtanBoeDZWZGd0dTlISWpHbVhaVVYwRTJtVVBmNDBROWpVV082ZE9tb1g3Vkx4bmdUVEx6UEE?oc=5",
-      "tickers": []
-    },
-    {
       "id": "9ea4ce246cb9",
       "time": "2026-07-16T03:20:00.000Z",
       "source": "TradingView",
@@ -1264,23 +1233,6 @@
       "title": "PBM Stock Trips Into Spotlight Again: Rare Ibogaine Supply Edge Gets Boost From Trump’s Psychedelic Push",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDd2OGYwcWpOYUZFa0NlVzVmekZNMDBpcU4zY3NSdDF6R2NxSFZPMy1ySm1NUHZMamRsY09Lem1JSGN0emNQS1g5R0pIci1XUHdFdUg1ck5OSTlaNmZKUXZuZFRLZTN4R3F1TnhkQmVwTXlvWmhmNTBxUEp5WUZtRTZMQjdORWRoeF96TG12SzRreG14emlKLUZNTFpBX2kyUnpTWDdodmhwLUlvZEY0VmpUc0VWaUx0TTI2TF9scDIwX2lYV1hhLU0wRWNKdw?oc=5",
       "tickers": []
-    },
-    {
-      "id": "a6f8efd11b1b",
-      "time": "2026-07-16T01:55:35.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "FDA Fast-Tracks Psychedelic Research After Trump’s Executive Order — CMPS, HELP Stocks Gain",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSVkwN2FvZ2NEaXExbXR2YWJydHAxb1JZVGJLV2tkZVg2Ym02ZGQ0OFJfX3Y2QnREdmdqYTRpTTZNWF9DT1E1a0tmaE9zRGNCSWNrRXd1Y2hIQmR4QzB2RGtZUmlVUDM1QVp2aG1kZTc2MmlvRlJESmNIMmc5WkZudDM2TWdmZmhwaHNYcEkybHg2VkU3cmdEWFVZRV9tUUk0aWNGeUJBYy1kR0ZtUkNQZkxrMVpwXzJYNndqV1VKX0REcmNrdXJuLXJvODFySXNfSU9jUjhR?oc=5",
-      "tickers": [
-        "CMPS",
-        "HELP"
-      ]
     },
     {
       "id": "79a65a614b5b",
@@ -1490,6 +1442,50 @@
       "impact": "LOW",
       "title": "COMP360, Synthetic Psilocybin, Shows Enduring Benefit",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeHVsLXRSYUhMeFZkUGUzaXhCbnlvSWhveENkNUFFMVU3WDRwZXBCZHdhWkJ3UF9CUTRyN01VSVpMZlA5WjZkRThOSkFQVnl0OV80cHd4UGFEdnRudDRQRXlnNjQwdUQ3TGRibnk2aXJSZGNnS0JCaUs1cWtyT25PV3ZKTzJCczNQLXNoMWxwUmtUQmk1NWc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "9dd90311a02c",
+      "time": "2026-07-15T17:18:56.000Z",
+      "source": "Applied Clinical Trials Online",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "FDA Finalizes Guidance on Clinical Trial Design for Psychedelic Drug Development",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSGF1TndFd3pFb0hPMFFUZHZKeU1xc1NkZHVmRERMaEt0eFpDV1FxSUpEUDBLQUZwZG5QcDAxZUl0Ykp4d2hmM2d1NnY4Sm9WcF80NHVuajhVcTctbDVtekNxeThpeUV1NnhJLWEyUkVfQWdWRWlnN212WXkyYTA1LWtzUzhPYzhoM1pTRkFoWk5ZSjZ2cTRub00wNGJZX09MNHY4N1lIT0pJYTZQVHNpaUMwX0wtTzh3ZGM0UG1nOA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "432a6f457071",
+      "time": "2026-07-15T17:06:08.000Z",
+      "source": "Filter",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "FDA Schedules Psychedelics Hearing, Amid New Push for Medical Approval",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeDNOZm9Zbmpadm4zU0ZoOUNyMURfbTFUZS1yclFUX3U5U3YzRXF6LUR6NmJ3RGExRU1BWWczV2E4ZE9sb0Z2YmdFdmhlbjFZUmNxVTF2bXB3VWR1cW9Fd2UyZG9EYlRacW1LeEtIeVBmVy05d3d5UW4wS0tqelc5bnpEWDViU2VSZGJqaHJRcGd6bVdhVERr?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "a0769fb16f02",
+      "time": "2026-07-15T16:05:00.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Transcend Public Benefit Corporation Launches $20 Million Philanthropic Initiative for Research of and Access to Psychedelic Mental Health Care",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQX01QZE5JQzJFQ011MnpnczRxX2dEZUZhc2EzSWZOVGxSa3FyejVFcVc2eXJhbWd5NGk3LTMya0k4UFkyNmF0ZG9xbXJwbG9fODdlZ0hNREJvS1QtTGx6RFZkVGd1NnBWYW1FZjZzUW1nX2ZObmtOY2RWOXJXT1l6dHN6N2VZLUN2MG5IRGJTRDV6OXFoMEVRLUJYOEtFbDNURjNJcnRkLTlxZw?oc=5",
       "tickers": []
     }
   ]
