@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-17T00:05:31.480Z",
+  "updated": "2026-07-17T03:31:38.916Z",
   "latest": {
     "date": "2026-07-16",
-    "wti": 78.97,
-    "wti_prev": 79.6,
-    "wti_delta": -0.63,
-    "brent": 84.95,
-    "brent_prev": 84.95,
-    "brent_delta": 0,
-    "spread": 5.98,
+    "wti": 78.93,
+    "wti_prev": 78.95,
+    "wti_delta": -0.02,
+    "brent": 84.8,
+    "brent_prev": 84.23,
+    "brent_delta": 0.57,
+    "spread": 5.87,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,275 +160,229 @@
   },
   "intel": [
     {
-      "time": "23:59",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Gold Heads for Weekly Fall as Hormuz Strikes Raise Fed-Hike Bets",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-07-16T23:59:51.000Z",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-16/gold-heads-for-weekly-fall-as-hormuz-strikes-raise-fed-hike-bets"
-    },
-    {
-      "time": "23:51",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Live updates: US launches fresh wave of strikes as war with Iran shows little sign of de-escalating",
-      "outlet": "CNN",
-      "source": "Hormuz",
-      "date": "2026-07-16T23:51:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RWk1Qa1dMb0Y3cjlkWWtFUFpPQzhEMnk4N0lFRmswd2t1R1F0Yi1oS1Z6TUJFQ0xpRzZPcGd3Yi1ndU5YYlk3ZjRJYkJxRVkxdmlPU2RxY052ekFOWWc5NDd3LTJLMmx5MkdmZ293?oc=5",
-      "cluster_size": 4,
-      "cluster_id": "iran-targets-military-bases-us-launches",
-      "first": {
-        "outlet": "BBC",
-        "date": "2026-07-16T11:48:49.000Z"
-      },
-      "also": [
-        {
-          "outlet": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wT3AxUHpRTkxFQmhsdTRsaTJsencyS1pvRUczUzh1bFJoWXR2MEFwb3JRTTJDTk5sUEhabjRIa1UyYkVGUnRZaWVZbmROR3drdmVoYnRwMzVZdw?oc=5",
-          "date": "2026-07-16T11:48:49.000Z"
-        },
-        {
-          "outlet": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVVhCLTFHeXp3YmtOeWFYVE1xcHBsMnRQT3QxRmtLZFYxZVRRalo0WGpGUlF4RF8tV3ZaSW9CdjR3VEpDUGlNSDVsYXJZV3hSSVZSV3U5NEhKYmxWY2U1NVF0QUFHeGVOdm5PZnlPYTEtM1NkMUFrT0t1T0J0cThtM3lKZm40aGdJMUI3bk5RZVVVSDZyN1dqNnJQMWJYOTZxSmZNb0JGaTZDN0lkSEtJbjZJUlk0Zw?oc=5",
-          "date": "2026-07-16T18:34:15.000Z"
-        },
-        {
-          "outlet": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGS2EteFNKR1VrbVVwZ0kwRkpWaVdCTFhwNWtISThhYnFnYzRPNTRCYWpaa3FGdDYzUWJmcmZfN1VhQWNuM2pSZ2l3WGVkTW1BeHM3b3ZkWW5UQQ?oc=5",
-          "date": "2026-07-16T21:44:37.000Z"
-        }
-      ]
-    },
-    {
-      "time": "23:33",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "U.S. expands attacks on Iran, which calls Strait of Hormuz a 'red line' as it strikes back",
-      "outlet": "PBS",
-      "source": "Hormuz",
-      "date": "2026-07-16T23:33:29.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbVUydzcxTzZKNzVrQUFnZ2J0eVVfYWc5TFRyamJTdjJZTmtLTXZoeGNrMmRWcFRaMmlWbVpDTVNxa3pKZDJiTHBTeGhGNmx1b21UUmN6OXJsZlRPOTNkTkRmSmY5bU9ob1hrUzlnNDVTUWVIaW5vU3E0ZDRXZklpUHp6MmpyVk9YeG95RGtyeEVJdFE5QW9FSFNjSWIxUkE5djBqOFJjZWlYZUJDdkxpdnFXQjZqSHVOYlVUWWRB0gHDAUFVX3lxTE9uUWJGdTc1WFExU1lBcUJOZkYtWnRpbTVBbkF3VlRiM1BoeFVVLXNvbF9aSGV2R0xwT1h1RU9hcFNRa2lWRlZiWkE2VVhoRGRxc0J5UGJhZlZJdUZkN2IxM2lTaENYWXpEUEdsX3dydUlDLWVBaC1JZDZkLU5CbWVmb0swX2tXM0ZaN09halU2SzhEaHM5RG9LNm9YM2xBQXg4eFBKUTk2WEkxVUh1ZEs0WmdWTE43T0lTTWJVblhXQ19hOA?oc=5",
-      "cluster_size": 6,
-      "cluster_id": "us-expands-attacks-iran-which-calls",
-      "first": {
-        "outlet": "Yahoo",
-        "date": "2026-07-16T03:41:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xU2NLLW9jU3NTZ3c5d0FfRzRkSmlQZ2ZxSkZkdndLWGQxUG4ySmVzYUtHSXR6MEF2SzYwSHpGZDFkQURVX0tibVlmeVJmV3UtSFU2dHNTNzd2TWN0TVB6SFlQZk1KV0pWWHpsdWRyYzItRlVGRUJJ?oc=5",
-          "date": "2026-07-16T03:41:00.000Z"
-        },
-        {
-          "outlet": "WPLG Local 10",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWGNzMzhhRGVkM280ZDd4c1V2OTMtRE56Tm81X0dnVWpxWkt4UzVXTy1MSjlRYWFqWW40OUpkdy1ReDJyc0owM2R5ay1mcWtLSUp2RjZtMV9jV1I1ZTUyY18zUXVqWE5kRVBKbTJLNkdBTlBQT1BUdVpwa1JMZ0tDSkRlZElrbnREZ2ZPc2RNLW5wMzhHUlBmTUVESWF3REJsZWpqcC16Mm8tVHEwNmNzcmFCaU9mNTRIblJhNms4N2NqbzFpV0kzUlFR?oc=5",
-          "date": "2026-07-16T04:07:40.000Z"
-        },
-        {
-          "outlet": "CNN",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONzR1OTJaVnMzdmdoOWQ3c3ZGbW5YWC1DSlVpNUpjdFEzNjhSMHB4bFZEVG5QVkREb1ZKYXYtcUlPXzdPclIweFBvRl9nRE9PVmhuY3JXdGNyblNaOGczdjR6dEl5Rnp6eHRWZUJvUEE4TVNEQlViTjlPZ3J4b1V1c1RLZldVcmFnbDUyM18yMGM?oc=5",
-          "date": "2026-07-16T18:28:41.000Z"
-        },
-        {
-          "outlet": "Anchorage Daily News",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLXlkdUdySGpkTklBUEpWd3MtUFVFd3dhMmRxUVFwNU1GUm8wUFVwOHNzcVo0YW1FNVJzUXlnc3lQUDdTVXJHVzkzZ3FkekU0eElGVTNBRzgyWnRMZlFlUXlPSFlpcWxzYkRhY0Z0Mm9JRnJrSWp2RTJ5VG9oN1kzUFk1Wnl1MzBKcHlicVNNQnRsQjlPaDh6TDc4bWxyOGFaQTA1OHJONHo3TFJfR0JkWlVOUFRscl9sU2ZUMGRKbm1KWFZ4T0lV?oc=5",
-          "date": "2026-07-16T20:18:02.000Z"
-        },
-        {
-          "outlet": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYXFnZWtOU1NXb01HY2FxbTBsUmJqNDlaa3NORmpyZ0pYVzhSVFZkaUNYTjczY0E1YjhpR1F1OGRoT3dJNnVTMjVuUGJyamVCckJwMi1WY0hJR2NyVGQ0ZDdzbF9LMzgteGZDRGtMd0ZQV211YWF3cHpYLWdhTXZjTXVhTG1zRkRmR3Q1NVdQRWNEb2xhZU0zRTFodmM4ZXc?oc=5",
-          "date": "2026-07-16T21:55:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "23:12",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Trump has declared the Strait of Hormuz open. The facts say otherwise.",
-      "outlet": "The Washington Post",
-      "source": "Hormuz",
-      "date": "2026-07-16T23:12:09.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORzd6Vl9SaXRrVjg0YlppeGNRS2NvRHRTSnZBMlZsSkgyZ1FxaVc1VXRZazAyS3NENmc4TkpYY29xdHVIM2twOXRaZzV5UWtXcFFBWlNEcmxTZXZmbFJCcTNuNGh2dzkyeGhkam0yNTN3RlkyTzNQeXJYZjZFSGl3QkROZ0FDX2lZZFU3NE9qaHZtc21mV0hpSXRmQ3VJZjZ0STdxSVVoYk5zbDcwLW1NcVNSU09ZMkt4blE?oc=5"
-    },
-    {
-      "time": "23:11",
+      "time": "03:19",
       "severity": "CRIT",
       "direction": "BULL",
       "text": "Iran war live: Trump launches wave of strikes on Iran for sixth night in a row",
       "outlet": "The Independent",
       "source": "Hormuz",
-      "date": "2026-07-16T23:11:28.000Z",
+      "date": "2026-07-17T03:19:05.000Z",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeTRWZWZHbjVpcXhxR29UODZFbFBob0hldzBaT2NDRVBPcUo2czlDVFhGbjM0QlZSZUlFdzQxVTYxZG5UbTF2SUxibkItSEdIWWV4WGZRUk1zUE9uM2hraGhua3Y5QjNMRzVSTXktYjRmOVpZQjI0SldGOUZBdzVuQlRCb19qaFU5S3l6ejFQbTZpcjdMQUt4ZkhYRjl3SHhWMlBoMXhNWVN1YzhQajRJRjF2YlBBYmxjLUYzTg?oc=5"
     },
     {
-      "time": "22:46",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "US gas prices edge up again as US-Iran tensions heighten over strait of Hormuz",
-      "outlet": "The Guardian",
-      "source": "Oil",
-      "date": "2026-07-16T22:46:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaWxHMFFoQ2FEeDZIRWJoVi1vNDcyMG1Od0lQMFowbjB6WjVKRHprblhqVHl0aDhNZmVoV1p1VmRrWDhodDlsS2xOUEg3NElzODNCRTRtWFBjYlNJeHRhWnk3Vkx5Q3hxVjRkenlXQnBwRVg2Q1J0T0NiOVB0N1VxeXRqeW5PUjVa?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "us-gas-prices-edge-again-us",
-      "first": {
-        "outlet": "The Guardian",
-        "date": "2026-07-16T22:46:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaWxHMFFoQ2FEeDZIRWJoVi1vNDcyMG1Od0lQMFowbjB6WjVKRHprblhqVHl0aDhNZmVoV1p1VmRrWDhodDlsS2xOUEg3NElzODNCRTRtWFBjYlNJeHRhWnk3Vkx5Q3hxVjRkenlXQnBwRVg2Q1J0T0NiOVB0N1VxeXRqeW5PUjVa?oc=5",
-          "date": "2026-07-16T22:46:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "22:35",
+      "time": "03:00",
       "severity": "WARN",
       "direction": "NEUTRAL",
-      "text": "Dollar firms as US-Iran tensions renew oil price risk",
-      "outlet": "Reuters",
-      "source": "Oil",
-      "date": "2026-07-16T22:35:10.000Z",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVmF3R1ZHV3lranY1VmN0b3gxUTJtUnAtVUJSSVFJRnBBX2hnVVBCcXJrOVBiZ09jcEtVS3dYSG03SzJocnZvWXJpRXVLdEp4dTBJcWtLX19aeUstOW9FdzFtVFNQeTF6YU1sc1FvZDVWMG5nSGVlZ2IweHE0YXhqMmVZN3VHblZKZ1FmT2dQYVlXWHoxcGE3bkxGWHd0SjJIQzdjN3BWNy1tenk0RVcyNVFn?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "dollar-firms-us-iran-tensions-renew",
+      "text": "IEA chief warns Strait of Hormuz crisis threatens global energy security",
+      "outlet": "Al Jazeera",
+      "source": "Hormuz",
+      "date": "2026-07-17T03:00:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSmQxUmtOTlJWczF1VlJkTkZGc2dQdUhYcG83QWhtSHBfYURqdnFhSFo0Mm43Q3BISngwMDJzX0lFdElGXzJ0Y3YxY3JqMlVpZDJZbWhKTjJ6M2txRkczVTNsX2xrR1FYaWJZNzdFTmF1eUVDWEdtNGNuX1pjRHZNcGp5WEtJeFVCVV8tYVFXUUJSZ1pWcmdaZ1lBWV83cG9BWEloZlZJcF9OUFJFTF9RUXAxWdIBuAFBVV95cUxORHFzOEFDcFVpdnNtTEJzVVJ2ZVFZNUF2cHdySTMzemVXcHQ0dTF0RUItSXJCUm5MRms2bEVDZ0J4b2NGbmNGSTBFaVVfRm9hdXdWZVV1ckFVYjFyUXBURnVUOVIwbks0QXVOYVVVVkVvdnNUTy1OeWVDVjRpUlVZSU5GdHZodzRDRUZtSTVOOHpQNjRTbDhsOXhjYUNlbzhRekRFWVU5cURSMVdPNEd4Q2wydkFUbGU4?oc=5",
+      "cluster_size": 3,
+      "cluster_id": "global-energy-security-risk-strait-hormuz",
       "first": {
         "outlet": "Reuters",
-        "date": "2026-07-16T22:35:10.000Z"
+        "date": "2026-07-17T00:34:00.000Z"
       },
       "also": [
         {
           "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVmF3R1ZHV3lranY1VmN0b3gxUTJtUnAtVUJSSVFJRnBBX2hnVVBCcXJrOVBiZ09jcEtVS3dYSG03SzJocnZvWXJpRXVLdEp4dTBJcWtLX19aeUstOW9FdzFtVFNQeTF6YU1sc1FvZDVWMG5nSGVlZ2IweHE0YXhqMmVZN3VHblZKZ1FmT2dQYVlXWHoxcGE3bkxGWHd0SjJIQzdjN3BWNy1tenk0RVcyNVFn?oc=5",
-          "date": "2026-07-16T22:35:10.000Z"
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemtCTGQ0SDdIMFRmVlNYbkRuTDZHT194eDY1MzBrYVZyTzZNUlZvWDd5ZjFZRFdUeV8xbnJIb2wtSHZ2WGZFeHR1X3o2MjUtc0h1MUNkOERBdFZCVnVaMkJwaHVnbk9IaDJiVV9RRE82U3NwTmFrMDJuaFpnOUl1Y2Y2eWNaNXhLMjlRWk5uV0ZZMnVPV18zeTZPcTFWeWM4N1JiS01DSWRzT2Q1NzZ3Yk5ubm54TDUwUldyUkpkSjVjNUQxLTY1Q3ZLMA?oc=5",
+          "date": "2026-07-17T00:34:00.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPemtCTGQ0SDdIMFRmVlNYbkRuTDZHT194eDY1MzBrYVZyTzZNUlZvWDd5ZjFZRFdUeV8xbnJIb2wtSHZ2WGZFeHR1X3o2MjUtc0h1MUNkOERBdFZCVnVaMkJwaHVnbk9IaDJiVV9RRE82U3NwTmFrMDJuaFpnOUl1Y2Y2eWNaNXhLMjlRWk5uV0ZZMnVPV18zeTZPcTFWeWM4N1JiS01DSWRzT2Q1NzZ3Yk5ubm54TDUwUldyUkpkSjVjNUQxLTY1Q3ZLMA?oc=5",
+          "date": "2026-07-17T00:34:00.000Z"
         }
       ]
     },
     {
-      "time": "22:26",
+      "time": "02:54",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "US hits more bridges in Iran in an expansion of its airstrike campaign",
+      "outlet": "AP News",
+      "source": "Hormuz",
+      "date": "2026-07-17T02:54:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYXFnZWtOU1NXb01HY2FxbTBsUmJqNDlaa3NORmpyZ0pYVzhSVFZkaUNYTjczY0E1YjhpR1F1OGRoT3dJNnVTMjVuUGJyamVCckJwMi1WY0hJR2NyVGQ0ZDdzbF9LMzgteGZDRGtMd0ZQV211YWF3cHpYLWdhTXZjTXVhTG1zRkRmR3Q1NVdQRWNEb2xhZU0zRTFodmM4ZXc?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "us-strikes-bridges-iran-expanding-airstrike",
+      "first": {
+        "outlet": "Anchorage Daily News",
+        "date": "2026-07-16T21:18:26.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Anchorage Daily News",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPLXlkdUdySGpkTklBUEpWd3MtUFVFd3dhMmRxUVFwNU1GUm8wUFVwOHNzcVo0YW1FNVJzUXlnc3lQUDdTVXJHVzkzZ3FkekU0eElGVTNBRzgyWnRMZlFlUXlPSFlpcWxzYkRhY0Z0Mm9JRnJrSWp2RTJ5VG9oN1kzUFk1Wnl1MzBKcHlicVNNQnRsQjlPaDh6TDc4bWxyOGFaQTA1OHJONHo3TFJfR0JkWlVOUFRscl9sU2ZUMGRKbm1KWFZ4T0lV?oc=5",
+          "date": "2026-07-16T21:18:26.000Z"
+        }
+      ]
+    },
+    {
+      "time": "02:48",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Iran war live: US carries out strikes on civilian infrastructure in south",
+      "outlet": "Al Jazeera",
+      "source": "Hormuz",
+      "date": "2026-07-17T02:48:05.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlc9IBxAFBVV95cUxOUTBWOUczSEhTSVBKdlVkeERTdE1uYTFwUEI4OGVxZkhQUjVBMXhSR0xFdktMcTk0MFUzUU51YnZJYk9jYWMtemkwcXE2Nmg3c2FfamhJZ2RoaGxTcGV3bEtaazZ0bkJSZnpMV1BHVFcyNFlfWndMYWZnS2hpdWZSNElELXItdTh6SXNaT09GQjZqcjlXRTNhdV9GOElvbXhKX0l6R2tkTEM3dXFrZUtNN1lZRHI3R2dLZHRXeWdncjBHOUJP?oc=5"
+    },
+    {
+      "time": "02:46",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Iran war latest: US forces board tanker near Strait of Hormuz as Iran hit with more strikes",
+      "outlet": "Sky News",
+      "source": "Hormuz",
+      "date": "2026-07-17T02:46:51.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOajZOMWNTRFdVNDkwTDZvNVlhSFkxQ1lwM1ZPNVJDRlFzbDRqQnltZVRDOGp5eC1RdFdTYVlISHVUbVg3Y3l3dG0yV21QUzVHMVFBRUVpRW1mVWo5ekw3ekFPczNkX2w1WlpiUm1JTDdjSXFWS1B2cVJlMjJHMWNNTVJYd0RIV0JmWnJ4ZGZRcUtuZHJ6ekdEeWY1aXVfU09wMUcwaEg4TzRURXdmOFRhd21rRGNYLTVjb1dzMHd3?oc=5"
+    },
+    {
+      "time": "02:46",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "India Chemical Shares Surge on Hormuz Disruption, Better Pricing",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-07-17T02:46:21.000Z",
+      "link": "https://www.bloomberg.com/news/newsletters/2026-07-17/india-chemical-shares-surge-on-hormuz-disruption-better-pricing"
+    },
+    {
+      "time": "02:10",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Live Updates: U.S. concludes 6th consecutive night of Iran strikes as battle continues over Strait of Hormuz",
+      "outlet": "CBS News",
+      "source": "Hormuz",
+      "date": "2026-07-17T02:10:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR1pGUHJ0UXlGRjNPZzNtdHJyUC0wbXh6UmxYUWhMQ2l6U0txd1NWT3BscU1CVk4wRTd6VkxOakx3eXBqQ3RRSWVwbWJLVGJGWGIwUFJ5QzkyTFZmVHBkVUFhc1hNUmxmdzhhWHdvOWNsMktCQzlPd1JLSl9STzluQi1oaTZIUU5VU2xuVDhnZW9JS1MtcDJYVA?oc=5"
+    },
+    {
+      "time": "02:04",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "What Donald Trump's Strait of Hormuz Stance Could Mean for Your Social Security Benefits in 2027",
+      "outlet": "The Motley Fool",
+      "source": "Hormuz",
+      "date": "2026-07-17T02:04:12.000Z",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMlV2cTN3YV9kanhucTJQVTVpSXNXQ2tuZ1VNMHFGNlJNR3hHcERwdEZpYW95Tm9DeGkxVFZhbkNpZkhlMFhDc09WNG1MVlVmVlI0TF9aalpteW1vVUhaU3pyWjJDaVZDTUtnbHVGSl9pSHZNRE11VXVPeHNHU1hVTlVCLUV2Z21IaXBPS3BMZTNzdlRFUE1DaHRn?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "what-donald-trump-strait-hormuz-stance",
+      "first": {
+        "outlet": "Yahoo Finance",
+        "date": "2026-07-17T01:59:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTklMTXNEeHVYTTAxZXQxZ1pObVc5eTdSYWEyYUJ5Q0NzbE1tSHpwY1V0QTJrZHpZTUY0eERiNVFUZXNRM0Rhcm9BS1dEeE5TeE9LVEVJTWlUTERldEpZUkVROEx0c3E4ajNBS2hhZ1o3T3o3QllhdHZhUXpWWlY2eGNNWVA5Zmx0MEQ5czVmQXN6TXptZmhFQmtKellfRmdX?oc=5",
+          "date": "2026-07-17T01:59:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "01:51",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Oil rises as Iran threatens retaliation if Trump targets country's critical infrastructure",
+      "outlet": "CNBC",
+      "source": "Oil",
+      "date": "2026-07-17T01:51:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQMXN4ZXNiODlXYWFTakk0MmFJZC1COWRISlM5azVsYVZXWHNqV242eVFPdFNVcUtxODlVSndoTHdrdFlld29hS3JlMzVqR0tFSFNGanE1dXhNakxoTmwtZnRTRmFoNVhsVzhSNnVGTdIBdEFVX3lxTE1SMFRwN01INEh6b1BrbVU3MkI0amVfT1ltdldYd205SGtsSVFyVGh3NDNYQU0tcEdxeGZkb0lLNUJ2czJ4QXpXZXkwOUZWSWotamU4dmFoanM3cC1zcy1iVEFONUQtYzNzWnFLMzc5cDAwSHRz?oc=5"
+    },
+    {
+      "time": "01:40",
       "severity": "CRIT",
       "direction": "BULL",
       "text": "Iran threatens to lash out at Arab neighbors as US ramps up strikes",
       "outlet": "Fox News",
       "source": "Hormuz",
-      "date": "2026-07-16T22:26:10.000Z",
+      "date": "2026-07-17T01:40:45.000Z",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5jTVhZd0FfWURfdTk2dk1XM0NKMDdlNG1OeW5FSVd0Y3lGTHJmcjBmRVllTGJPbjIwWkFKRUFVOF9uN0MyRUc0LUxrYWJWd1czeWtSZ05iVUxMZVpSOEN5Z1pVZE5CUjVTbDE0OHJISGtudmVtN2JOYnkyV2UzUQ?oc=5"
     },
     {
-      "time": "22:13",
+      "time": "01:39",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Why is it so hard to open the Strait of Hormuz?",
-      "outlet": "The Hill",
-      "source": "Hormuz",
-      "date": "2026-07-16T22:13:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbWxhVG1ldXAzR0JhTW5JYlY1dEhPMDAxVm5OT3EyUHY1anFvN3dDSlpaeUZYZmszRFRSLUNvaEZzcnhOb1BHNVdSVHBXcWxjd1pBYktDM3pjMEFXeExNRWRpejNmc1d3Y1F2blpkYnJvZE1WOHBncjh0cjZPOGlqdDJoWjlPZVhrYWhsNFNBdHEwSFlvUHhKV1NxZkRDZjRSTjRObTN4S1lyQdIBrwFBVV95cUxQWlh4T1JJeF8yT1prd2N4OUVzMERrczBtOXlmWkc5cjQxM0hrZ0kwang2M1R2YWxiWkE5ZmRoa0ZCLWZhdGhWQlFQZ2tLaEd2enBnVlNWOHVjaE4tNElDdmxlS25mT1hyanl4VHdCaXgtWl80VXlyT0NjQUh3OFFWaFRyUEI3dUFSS0FLbkpTTmVnS0VKNFJyYm5tZlBDLUtsb0RjbW01NjN5bnNMTUJJ?oc=5"
+      "text": "Hyundai LNG Shipping sale inches towards the finish line as one final review remains outstanding",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-17T01:39:26.000Z",
+      "link": "https://www.tradewindsnews.com/gas/hyundai-lng-shipping-sale-inches-towards-the-finish-line-as-one-final-review-remains-outstanding/2-1-2017852"
     },
     {
-      "time": "22:09",
+      "time": "01:31",
       "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Iran and US step up attacks, release of American in dispute",
+      "direction": "NEUTRAL",
+      "text": "Oil rises on intensifying US-Iran hostilities and threat of Red Sea closure",
       "outlet": "Reuters",
-      "source": "Hormuz",
-      "date": "2026-07-16T22:09:06.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbGxQSEpXZmFYRldBSGhRcTZWZlBvbUFOZFJDeVoxdXVZczVtY2w1TlhqSnhFaGxsSWlINnBKbDZhNi1mT0Q1anJRTjM0Z0toaVg3QXhMcmkyZlBQRTZ1cVZvbmhZSmU4WDU4NGdnN3FJZGRzbnYzdm0zQUVxWjNUZ1dTZHlwMTA0VTNhbUg0UHVxZmFLUlVtSmVfeHZCb0tfWEE?oc=5",
+      "source": "Oil",
+      "date": "2026-07-17T01:31:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnAzc0RfelUyaHNBcU5ERWVndUwxNkhxOC1sREo3M2xoeGp0Vko0MTREMXludzBTcG52UVpvSmpRdlpLV2FFU0VNT2cybFU2b3NjTkhUMkZKWlNZMmo0RWFDV0pfSEU1RDFtVURxQjAtRVBXeTB6VWZCNUpFUVRJRFRSRDA0NzJlN1d2bjl5T3VLZ2lxQndYZ29SUFB0Y05YUkxzd1pOSktyME9XMTFMVWRsVnhRV2RG?oc=5",
       "cluster_size": 2,
-      "cluster_id": "iran-us-step-attacks-release-american",
+      "cluster_id": "oil-rises-intensifying-us-iran-hostilities",
       "first": {
         "outlet": "Reuters",
-        "date": "2026-07-16T22:09:06.000Z"
+        "date": "2026-07-17T01:31:00.000Z"
       },
       "also": [
         {
           "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbGxQSEpXZmFYRldBSGhRcTZWZlBvbUFOZFJDeVoxdXVZczVtY2w1TlhqSnhFaGxsSWlINnBKbDZhNi1mT0Q1anJRTjM0Z0toaVg3QXhMcmkyZlBQRTZ1cVZvbmhZSmU4WDU4NGdnN3FJZGRzbnYzdm0zQUVxWjNUZ1dTZHlwMTA0VTNhbUg0UHVxZmFLUlVtSmVfeHZCb0tfWEE?oc=5",
-          "date": "2026-07-16T22:09:06.000Z"
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnAzc0RfelUyaHNBcU5ERWVndUwxNkhxOC1sREo3M2xoeGp0Vko0MTREMXludzBTcG52UVpvSmpRdlpLV2FFU0VNT2cybFU2b3NjTkhUMkZKWlNZMmo0RWFDV0pfSEU1RDFtVURxQjAtRVBXeTB6VWZCNUpFUVRJRFRSRDA0NzJlN1d2bjl5T3VLZ2lxQndYZ29SUFB0Y05YUkxzd1pOSktyME9XMTFMVWRsVnhRV2RG?oc=5",
+          "date": "2026-07-17T01:31:00.000Z"
         }
       ]
     },
     {
-      "time": "22:01",
+      "time": "01:16",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Latest Oil Market News and Analysis for July 17",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-07-16T22:01:44.000Z",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-16/latest-oil-market-news-and-analysis-for-july-17",
-      "cluster_size": 2,
-      "cluster_id": "latest-oil-market-analysis-july",
-      "first": {
-        "outlet": "Bloomberg",
-        "date": "2026-07-15T22:02:01.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Bloomberg",
-          "link": "https://www.bloomberg.com/news/articles/2026-07-15/latest-oil-market-news-and-analysis-for-july-16",
-          "date": "2026-07-15T22:02:01.000Z"
-        }
-      ]
+      "text": "Stocks stumble, oil set for weekly gain on renewed Gulf hostilities",
+      "outlet": "Reuters",
+      "source": "Reuters",
+      "date": "2026-07-17T01:16:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTBUX2ZaNk9EY2M2SU5BaEw4VkRFXzF6OE1MeENrcVRwT1hnd2gtbzVDODJ3VUh2ZXdOYi03b2ZobHhhdlMzSE1fOWM0b3lWTlh1Q2VENEFFdHlKWmNuOVltd0R4X254aFM0SmNjZ3RIWVNqREU3OXlHSFNsUGtBUXYyUQ?oc=5"
     },
     {
-      "time": "22:00",
-      "severity": "CRIT",
+      "time": "00:53",
+      "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "The war is all about the Strait of Hormuz now",
-      "outlet": "NBC News",
+      "text": "Gen Jack Keane: Iran will lose complete control of Strait of Hormuz",
+      "outlet": "Fox News",
       "source": "Hormuz",
-      "date": "2026-07-16T22:00:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tU1duU2JId1FSbUpJeDg4NmcyaE5LZ3J2ZmZReGpaSjRRNmhVY3dFaTFJYzlGQjNkQ0lmZW9PNDVtYy1aLTBpQU42dTFFdDg4c0w4d1c4RGRCNTdoc0h0emVmZzhKcWNiU0dXRXQyY0FSRWJqWXc?oc=5"
+      "date": "2026-07-17T00:53:15.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yU0hyQ1c2TG1WTG96LWdNZTRROEQ0U24yMHZocWNwREdoN0poZThaOTAtbDF4RkxpYTVkYXY4QTdBdFBUcElNOFVaSlpPWHJoNllQY2l3?oc=5"
     },
     {
-      "time": "21:49",
+      "time": "00:48",
       "severity": "CRIT",
       "direction": "BULL",
-      "text": "Live Updates: U.S. launches another night of strikes as battle continues over Strait of Hormuz",
-      "outlet": "CBS News",
+      "text": "Iran War Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz",
+      "outlet": "The New York Times",
       "source": "Hormuz",
-      "date": "2026-07-16T21:49:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR1pGUHJ0UXlGRjNPZzNtdHJyUC0wbXh6UmxYUWhMQ2l6U0txd1NWT3BscU1CVk4wRTd6VkxOakx3eXBqQ3RRSWVwbWJLVGJGWGIwUFJ5QzkyTFZmVHBkVUFhc1hNUmxmdzhhWHdvOWNsMktCQzlPd1JLSl9STzluQi1oaTZIUU5VU2xuVDhnZW9JS1MtcDJYVA?oc=5"
-    },
-    {
-      "time": "21:26",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Chevron Will Explore a Pipeline Bypassing the Strait of Hormuz",
-      "outlet": "WSJ",
-      "source": "Hormuz",
-      "date": "2026-07-16T21:26:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWTFqZnRTbzVuTFV1WmxKZ1oxcEhwUTdJWEJ6cUhjMVpjWXZBWm81elYxWko2YUwzNmxNSjhVVmp4RzlmY29vRVBUdHNUZ0Y2SlpJQWRKSl9acmItOGZXeUt6bklGUVgwNVpkZ24zd0pBeTRkUlZBbF9iUU0yN000TjZhZ2ZIN2NISUZ6SGJKR2xiSGk5YS10ZTRRYXdwOXNwNGtrUUluWTFPZw?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "chevron-will-explore-creating-strait-hormuz",
+      "date": "2026-07-17T00:48:10.000Z",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HMFU3ZksxNFowRUZpTWUzYXctRndpT0pyS3J5dGRRY0lRTVg2ZmYtYkdHaGZtbTBLcVE5RkplRklBVU1jSE5UZF8zNzMzQS1mam5TYXV5ZFFtWkpkQVdyX3pzbFNWTjdFWVNNUWViRnpHdnpNZ0E?oc=5",
+      "cluster_size": 3,
+      "cluster_id": "july-2026-us-new-strikes-iran",
       "first": {
-        "outlet": "WSJ",
-        "date": "2026-07-16T16:48:00.000Z"
+        "outlet": "CNN",
+        "date": "2026-07-16T04:22:00.000Z"
       },
       "also": [
         {
-          "outlet": "WSJ",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOTlxZXRiQ29KeGtqVWhuU1ZTakV3ZjU3TmRoZENGUFJsdjA5Nm1pN1dwTGs0QUxibDhjOXdvaFBMLURleDdRb1U2M3Zhei1YM29VdmZZT3JxWmVnMzNFLTd6SHZtZDBNclVKUU5NeF92LTdTRXdaTzBrUjVBOW9pd3U1em8yWUROVXNVWnRtX3c3V2JYRll4X2JKN0JyTXRDT3lZSHJRdDZuRUhKLTlHTXo4bVk3bWhUZzdF?oc=5",
-          "date": "2026-07-16T16:48:00.000Z"
+          "outlet": "CNN",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxVGZoUVBJNUtEYi1ONDBNWDZnX1o3ZTVLblF5RkY0dzR0VG1NRE5ZQzd1VHFTU3FDVnhIRENicjJIalVjRElNTjBtV0pfMVd3QVJMazBCMkZDZVNpRGZfNjdTdWJkcnZWT2VwVWd3?oc=5",
+          "date": "2026-07-16T04:22:00.000Z"
+        },
+        {
+          "outlet": "Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVVhCLTFHeXp3YmtOeWFYVE1xcHBsMnRQT3QxRmtLZFYxZVRRalo0WGpGUlF4RF8tV3ZaSW9CdjR3VEpDUGlNSDVsYXJZV3hSSVZSV3U5NEhKYmxWY2U1NVF0QUFHeGVOdm5PZnlPYTEtM1NkMUFrT0t1T0J0cThtM3lKZm40aGdJMUI3bk5RZVVVSDZyN1dqNnJQMWJYOTZxSmZNb0JGaTZDN0lkSEtJbjZJUlk0Zw?oc=5",
+          "date": "2026-07-16T18:34:15.000Z"
         }
       ]
-    },
-    {
-      "time": "21:22",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "VISTA/A: Q2 2026 delivered record production, revenue, and profitability, fueled by asset acquisitions and higher oil...",
-      "outlet": "TradingView",
-      "source": "Oil",
-      "date": "2026-07-16T21:22:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQdlBRRFd2SGVnd1NMQ3VILXpLRnptQU1QNTVRUmo3MUNiV3doa1FrZ0t4S2hUR3NkdDBoTy1lOXNvR2tQdjdMbDRBVTE0VFRWNFRwVmIyNmQtLW51NnpGR2x0WkRrTXdCdlozNElJc09VT1ZSNTRCMzFpNERQREZpLThFQk50VWVGTXJYSjMxZGJBRktrdjFQVFNxNUVnWmo3c1ZGaW5EbGNtWEx2M1dxYlJudGFXVFU2dUZSeDdPLVNjRkFRVnM5RTk3SVlaWFFGTXRjYzIyUWFwdWNoZUc1dEhKdzJrQTJIdHBFZnhqeUc4ZkJWTW1qdDl6LWRzbEROQ3RIa2VrZlZodE5weS1DUl9oNklvN0tZX1paUERnV3Y4a2J0bnRDWWgyMA?oc=5"
     }
   ],
   "snapshots": [
@@ -1459,8 +1413,44 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-07-17T00:05:31.480Z",
+  "intel_updated": "2026-07-17T03:31:38.916Z",
   "event_log": [
+    {
+      "date": "JUL 17",
+      "date_iso": "2026-07-17T02:54:00.000Z",
+      "severity": "CRIT",
+      "text": "US hits more bridges in Iran in an expansion of its airstrike campaign",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYXFnZWtOU1NXb01HY2FxbTBsUmJqNDlaa3NORmpyZ0pYVzhSVFZkaUNYTjczY0E1YjhpR1F1OGRoT3dJNnVTMjVuUGJyamVCckJwMi1WY0hJR2NyVGQ0ZDdzbF9LMzgteGZDRGtMd0ZQV211YWF3cHpYLWdhTXZjTXVhTG1zRkRmR3Q1NVdQRWNEb2xhZU0zRTFodmM4ZXc?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 17",
+      "date_iso": "2026-07-17T02:48:05.000Z",
+      "severity": "CRIT",
+      "text": "Iran war live: US carries out strikes on civilian infrastructure in south",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlc9IBxAFBVV95cUxOUTBWOUczSEhTSVBKdlVkeERTdE1uYTFwUEI4OGVxZkhQUjVBMXhSR0xFdktMcTk0MFUzUU51YnZJYk9jYWMtemkwcXE2Nmg3c2FfamhJZ2RoaGxTcGV3bEtaazZ0bkJSZnpMV1BHVFcyNFlfWndMYWZnS2hpdWZSNElELXItdTh6SXNaT09GQjZqcjlXRTNhdV9GOElvbXhKX0l6R2tkTEM3dXFrZUtNN1lZRHI3R2dLZHRXeWdncjBHOUJP?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 17",
+      "date_iso": "2026-07-17T02:10:00.000Z",
+      "severity": "WARN",
+      "text": "Live Updates: U.S. concludes 6th consecutive night of Iran strikes as battle continues over Strait of Hormuz",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR1pGUHJ0UXlGRjNPZzNtdHJyUC0wbXh6UmxYUWhMQ2l6U0txd1NWT3BscU1CVk4wRTd6VkxOakx3eXBqQ3RRSWVwbWJLVGJGWGIwUFJ5QzkyTFZmVHBkVUFhc1hNUmxmdzhhWHdvOWNsMktCQzlPd1JLSl9STzluQi1oaTZIUU5VU2xuVDhnZW9JS1MtcDJYVA?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 17",
+      "date_iso": "2026-07-17T00:48:10.000Z",
+      "severity": "WARN",
+      "text": "Iran War Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HMFU3ZksxNFowRUZpTWUzYXctRndpT0pyS3J5dGRRY0lRTVg2ZmYtYkdHaGZtbTBLcVE5RkplRklBVU1jSE5UZF8zNzMzQS1mam5TYXV5ZFFtWkpkQVdyX3pzbFNWTjdFWVNNUWViRnpHdnpNZ0E?oc=5",
+      "auto": true
+    },
     {
       "date": "JUL 16",
       "date_iso": "2026-07-16T23:59:51.000Z",
@@ -1468,6 +1458,24 @@
       "text": "Gold Heads for Weekly Fall as Hormuz Strikes Raise Fed-Hike Bets",
       "source": "Bloomberg",
       "link": "https://www.bloomberg.com/news/articles/2026-07-16/gold-heads-for-weekly-fall-as-hormuz-strikes-raise-fed-hike-bets",
+      "auto": true
+    },
+    {
+      "date": "JUL 16",
+      "date_iso": "2026-07-16T23:57:26.000Z",
+      "severity": "CRIT",
+      "text": "Blasts reported in Iran as US launches new wave of strikes",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGS2EteFNKR1VrbVVwZ0kwRkpWaVdCTFhwNWtISThhYnFnYzRPNTRCYWpaa3FGdDYzUWJmcmZfN1VhQWNuM2pSZ2l3WGVkTW1BeHM3b3ZkWW5UQQ?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 16",
+      "date_iso": "2026-07-16T23:56:00.000Z",
+      "severity": "CRIT",
+      "text": "Middle East live: US strikes in Iran hit airport, bridges and railway station",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQmRWdnZUbmoxdzRWcEZSMkl2ZHAzMlFaLUtOUjdZYUN1QWhmS1VtR1JuTFhoem9QQUhfTHowMk9wYXJXLUNBV2Y5eHQ3MjdBVGlSUWtnZi1JVmpCMWZ3UWVVaW8yWGxiV19oYzZiMXpKbkpsZGJQaWIwYWY2MlRGZkZMdW42bnR0SlU5dzEwT284MUZYN01jcXcteWVza2hQeTA0dXRXTDd0d0F0MTdNd2FhY05EaUhPbTVNa3ZYZUpkZw?oc=5",
       "auto": true
     },
     {
@@ -1513,6 +1521,15 @@
       "text": "Iran war live: Trump launches wave of strikes on Iran for sixth night in a row",
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeTRWZWZHbjVpcXhxR29UODZFbFBob0hldzBaT2NDRVBPcUo2czlDVFhGbjM0QlZSZUlFdzQxVTYxZG5UbTF2SUxibkItSEdIWWV4WGZRUk1zUE9uM2hraGhua3Y5QjNMRzVSTXktYjRmOVpZQjI0SldGOUZBdzVuQlRCb19qaFU5S3l6ejFQbTZpcjdMQUt4ZkhYRjl3SHhWMlBoMXhNWVN1YzhQajRJRjF2YlBBYmxjLUYzTg?oc=5",
+      "auto": true
+    },
+    {
+      "date": "JUL 16",
+      "date_iso": "2026-07-16T21:10:00.000Z",
+      "severity": "CRIT",
+      "text": "U.S. airstrikes hit Iranian bridges, following Trump's threats to strike infrastructure",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Mc1dGdlc1VG9ocEptTFlURF9sSW5QdEFSSWx2Wm9MVXdlT3VXRzNVdFVXUXQxTVFkWnJxQ205UTVwV215YV9fT2h1RlY1bTlDQzM0Ukl2NmRVcU93SEpsVktmUWEzTTB0TnBEbVo0bG02TmpqOGlvaw?oc=5",
       "auto": true
     },
     {
@@ -1847,75 +1864,12 @@
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU0UzM1RqVEZOZDY5Z3RMcDN4UEpaejlVUnBZOW51azFzWmNaZEVtTHJSdThpTnYwbmlzRjd2Sno0SjZKdHFyYU5JZmJyMzFoeWZLZTVGVUsydVJFZ0MxVGlMVVY0NlpVaW5TMENxSGdTZ2NLYlZtZUdXTVZYVU1zQkZuNkFLNnFFQjVGbUpOUDZremQ1SHg1UTZVclpWSVQxa2ZpNDJ1N0dnVXFMX0NqT0JvaUhGMkFoc1dv0gHAAUFVX3lxTFB1U0ZRVHh2cWdJMmN4MGlmakxadUctVXhxNFZpR05SZGtYNEhyakRKT0NYTXBhSDhmYnpZYzhscS1lRy0wTWVmR3pJenZtQXB3VkNZM0szaWxoYlY4dkwxTXJhVEpHdFdiV2dqcFVEQ3NUNWlkclZjTU5hNExJZzM4VmhFTDlMVDNJV2RySk53dlVEVmZFak1VdTYwWV9aaEFILThmdHRxc3phV1ZuZmxGUTdsQ2hOeFZZbmJGMzNqSg?oc=5",
       "auto": true
-    },
-    {
-      "date": "JUL 16",
-      "date_iso": "2026-07-16T07:50:54.000Z",
-      "severity": "CRIT",
-      "text": "U.S. expands strikes into northern Iran and disables ship trying to run blockade",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUUNvQTBsQUlUYWtPX0hBX1N0eHRqR2dDV1AycVlWN3B3UXNGb2NUaEliZm9FeVNlekRhaGx4eEtkRzJIaDJaN3NCWjhCcnhUU3FoNlRmRWJ2Znh5eVZHaTJvQzdKTlQxV2JkU1RrMjNFZUlMa3RSOFFWOUt0OXhCeERLYlNNM2dBWUNvVkxoelI4LTJUd3JVUnc5S05LaVViZ01PcXRiaTlILU5henp0NlR3?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 16",
-      "date_iso": "2026-07-16T07:16:49.000Z",
-      "severity": "CRIT",
-      "text": "Iran war latest: All evidence indicates US responsible for Minab school bombing, seven experts tell Sky News",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOajZOMWNTRFdVNDkwTDZvNVlhSFkxQ1lwM1ZPNVJDRlFzbDRqQnltZVRDOGp5eC1RdFdTYVlISHVUbVg3Y3l3dG0yV21QUzVHMVFBRUVpRW1mVWo5ekw3ekFPczNkX2w1WlpiUm1JTDdjSXFWS1B2cVJlMjJHMWNNTVJYd0RIV0JmWnJ4ZGZRcUtuZHJ6ekdEeWY1aXVfU09wMUcwaEg4TzRURXdmOFRhd21rRGNYLTVjb1dzMHd3?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 16",
-      "date_iso": "2026-07-16T07:16:49.000Z",
-      "severity": "CRIT",
-      "text": "Iran war latest: Iranian army warns war will spread if US attacks continue",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOajZOMWNTRFdVNDkwTDZvNVlhSFkxQ1lwM1ZPNVJDRlFzbDRqQnltZVRDOGp5eC1RdFdTYVlISHVUbVg3Y3l3dG0yV21QUzVHMVFBRUVpRW1mVWo5ekw3ekFPczNkX2w1WlpiUm1JTDdjSXFWS1B2cVJlMjJHMWNNTVJYd0RIV0JmWnJ4ZGZRcUtuZHJ6ekdEeWY1aXVfU09wMUcwaEg4TzRURXdmOFRhd21rRGNYLTVjb1dzMHd3?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 16",
-      "date_iso": "2026-07-16T07:13:00.000Z",
-      "severity": "WARN",
-      "text": "Iran reports fresh strikes near Qeshm Island and accuses US over ‘barbaric’ hospital attack – Middle East crisis live",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV3RCOGxOS1Q0RlJ1UkpCMkY5eExQbHdIUjJXci1PSzhKMlVDMVJ2U0NZbUtiZHphN1FiMXkzTDdSdEpMWlpDQ0NBRFhBdUV5VE50blRNSE5PZTFsM3o3UzBQSzFCOUphUVhucjkzUDNDQ1RrakJyT01LV2tISjNGeDZjT0xMQXp2aGV1MmVWdXV4Ykl1WVV5VUw0d296Q3ktVUdWU0h6SzJQMUxrY0dwdmZkV1AxZ0N2OGRlaU91UE9pOFdudDB3?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 16",
-      "date_iso": "2026-07-16T07:13:00.000Z",
-      "severity": "CRIT",
-      "text": "Iran accuses US of ‘barbaric’ strike near hospital as Kuwait says it is under attack – Middle East crisis live",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV3RCOGxOS1Q0RlJ1UkpCMkY5eExQbHdIUjJXci1PSzhKMlVDMVJ2U0NZbUtiZHphN1FiMXkzTDdSdEpMWlpDQ0NBRFhBdUV5VE50blRNSE5PZTFsM3o3UzBQSzFCOUphUVhucjkzUDNDQ1RrakJyT01LV2tISjNGeDZjT0xMQXp2aGV1MmVWdXV4Ykl1WVV5VUw0d296Q3ktVUdWU0h6SzJQMUxrY0dwdmZkV1AxZ0N2OGRlaU91UE9pOFdudDB3?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 16",
-      "date_iso": "2026-07-16T07:13:00.000Z",
-      "severity": "CRIT",
-      "text": "US strikes expand to northern Iran as Tehran fires on Bahrain, Kuwait and Jordan – Middle East crisis live",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV3RCOGxOS1Q0RlJ1UkpCMkY5eExQbHdIUjJXci1PSzhKMlVDMVJ2U0NZbUtiZHphN1FiMXkzTDdSdEpMWlpDQ0NBRFhBdUV5VE50blRNSE5PZTFsM3o3UzBQSzFCOUphUVhucjkzUDNDQ1RrakJyT01LV2tISjNGeDZjT0xMQXp2aGV1MmVWdXV4Ykl1WVV5VUw0d296Q3ktVUdWU0h6SzJQMUxrY0dwdmZkV1AxZ0N2OGRlaU91UE9pOFdudDB3?oc=5",
-      "auto": true
-    },
-    {
-      "date": "JUL 16",
-      "date_iso": "2026-07-16T06:26:03.000Z",
-      "severity": "CRIT",
-      "text": "US sanctions IRGC weapons network, Iran escalates attacks in Strait of Hormuz",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oWTUyT3JVTWVMdGV4U3JrVmh5ZXYzaDJiU1lmU1FvMlQ0bmFlRk5KSEJvYlJZdjVmeFJRcGUyWTk2cmlySHZmaDlNR2ltQnZRT1pORkIteUJXWDlkQXJz?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 7,
-    "bear": 1,
-    "neutral": 7,
+    "bull": 6,
+    "bear": 0,
+    "neutral": 9,
     "net": "BULLISH"
   },
   "vessels_attacked": {
@@ -2932,7 +2886,11 @@
     },
     {
       "t": 1784174400000,
-      "p": 84.95
+      "p": 84.23
+    },
+    {
+      "t": 1784258433000,
+      "p": 84.8
     }
   ],
   "chart_wti": [
@@ -3942,7 +3900,11 @@
     },
     {
       "t": 1784174400000,
-      "p": 78.97
+      "p": 78.95
+    },
+    {
+      "t": 1784258486000,
+      "p": 78.93
     }
   ],
   "signal_outlook": [
@@ -3969,7 +3931,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Live updates: US launches fresh wave of strikes as war with ..."
+      "val": null
     }
   ],
   "chart_spread": [
@@ -4979,7 +4941,11 @@
     },
     {
       "t": 1784174400000,
-      "p": 5.98
+      "p": 5.28
+    },
+    {
+      "t": 1784258433000,
+      "p": 5.87
     }
   ],
   "chart_sp500": [
@@ -5991,16 +5957,17 @@
   "latest_sp500": 7533.77,
   "vesselCache": {},
   "synthesis": {
-    "updated": "2026-07-17T00:05:31.480Z",
-    "driver": "US-Iran escalation is driving a war-risk premium, but oversupply and weak demand cap prices.",
-    "based_on": "Gold Heads for Weekly Fall as Hormuz Strikes Raise Fed-Hike Bets",
-    "brent": 84.95,
-    "brent_delta": 0,
+    "updated": "2026-07-17T03:31:38.916Z",
+    "driver": "US airstrikes on Iran are sustaining a modest war premium, but oversupply caps Brent at $84.80.",
+    "based_on": "Iran war live: Trump launches wave of strikes on Iran for sixth night in a row",
+    "brent": 84.8,
+    "brent_delta": 0.57,
     "takes": {
-      "live updates us launches fresh wave of strikes as war with iran shows ": "US-Iran escalation sustains war-risk premium, but oversupply limits upward price pressure.",
-      "u s expands attacks on iran which calls strait of hormuz a red line as": "Iran's 'red line' warning signals risk to Strait, keeping war premium intact.",
-      "trump has declared the strait of hormuz open the facts say otherwise": "Strait's contested status underscores supply risk, but glut prevents price breakout.",
-      "iran war live trump launches wave of strikes on iran for sixth night i": "Sustained US strikes reinforce war premium, but oversupply keeps Brent flat."
+      "iran war live trump launches wave of strikes on iran for sixth night i": "Prolonged US strikes sustain upward pressure on oil prices via war premium.",
+      "iea chief warns strait of hormuz crisis threatens global energy securi": "Energy security fears reinforce the war premium but fail to break oversupply cap.",
+      "us hits more bridges in iran in an expansion of its airstrike campaign": "Expanded strikes risk further disruption, adding to upward pressure on oil prices.",
+      "iran war live us carries out strikes on civilian infrastructure in sou": "Civilian infrastructure strikes heighten risk, keeping upward pressure on Brent prices.",
+      "iran war latest us forces board tanker near strait of hormuz as iran h": "Tanker boarding signals escalation, reinforcing war premium despite oversupply constraints."
     }
   }
 }
