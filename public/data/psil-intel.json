@@ -1,21 +1,23 @@
 {
-  "updated": "2026-07-17T14:08:17.205Z",
+  "updated": "2026-07-17T15:49:27.333Z",
   "counts": {
-    "total": 93,
-    "crit": 6,
+    "total": 92,
+    "crit": 7,
     "warn": 5,
     "bySource": {
+      "Investing News Network": 1,
+      "WSJ": 2,
       "Semafor": 1,
       "TradingView": 2,
-      "simplywall.st": 7,
+      "simplywall.st": 6,
       "HCP Live": 2,
+      "Investing.com Australia": 1,
       "The Manila Times": 1,
       "TipRanks": 2,
       "Colorado Newsline": 1,
       "The Presidential Prayer Team": 1,
-      "WSMV": 1,
-      "Investing.com": 5,
-      "Stocktwits": 6,
+      "WBTV": 1,
+      "Stocktwits": 7,
       "Smartkarma": 1,
       "San Antonio Report": 1,
       "drugdiscoverytrends.com": 1,
@@ -32,7 +34,6 @@
       "MDLinx": 1,
       "Psychiatric Times": 1,
       "Pharmaceutical Technology": 1,
-      "Inside INdiana Business": 1,
       "The Times": 1,
       "Benzinga": 2,
       "BioPharma Dive": 1,
@@ -43,17 +44,18 @@
       "The Pharma Letter": 1,
       "Investing.com India": 2,
       "Reuters": 2,
+      "Investing.com": 3,
       "Pharmaceutical Commerce": 1,
       "Barron's": 1,
       "Bloomberg.com": 1,
+      "Investing.com Canada": 1,
       "BioSpace": 2,
       "Blockonomi": 1,
       "Oregon Public Broadcasting - OPB": 1,
-      "STAT News": 2,
+      "STAT News": 1,
       "Psychedelic Alpha": 1,
       "pharmaphorum": 1,
       "Sahm": 1,
-      "WSJ": 1,
       "المتداول العربي": 1,
       "Fierce Biotech": 1,
       "Investing.com UK": 1,
@@ -70,15 +72,42 @@
       "ChartMill": 1,
       "North Carolina Health News": 1,
       "Zacks Investment Research": 1,
-      "CNN": 1,
-      "Sentinel and Enterprise": 1
+      "CNN": 1
     },
     "byTier": {
       "T2": 90,
-      "T3": 3
+      "T3": 2
     }
   },
   "items": [
+    {
+      "id": "4c0c516b38ad",
+      "time": "2026-07-17T15:11:20.000Z",
+      "source": "Investing News Network",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Eli Lilly Expands with $2.8B Psychedelic Acquisition",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xdUxoS2RIbk9KcE5lcktzd0JWdVZjODdPaDlQT2I2bVkwS2ZsbTZwMDE5X1pVd2RPQlhGek96b2tUQnZsa3oyOEtvNFE3SjAxUEtGTWdnbXZERE9RNmtFMExaUjBNVDZjR3lsY0Nxd0ZQRzQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "710a2e2f3a06",
+      "time": "2026-07-17T15:10:00.000Z",
+      "source": "WSJ",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The Therapeutic Potential of a Powerful Toad Poison",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVzhtcGJpeVBaLVJSQ2ZEajh1UUVCNmNzcUhRaXBIV2RfYVRCR01BUXltMUR2RDVZMEgwQUd5U0RESVM1MGp5UHJqZmRjTTNkRUszYk1pZXhhTWM0TWNISEdmWDh4eUVpTHczTlpQYVhyU0RUYUk1Vi1yQ0JjRE1Td2FzNW91SE5XUlpGRy1uLWtXZw?oc=5",
+      "tickers": []
+    },
     {
       "id": "cfd36bb0b728",
       "time": "2026-07-17T12:54:00.000Z",
@@ -94,7 +123,7 @@
       "tickers": []
     },
     {
-      "id": "6f5b6f0379b7",
+      "id": "ed9455e1773f",
       "time": "2026-07-17T12:50:00.000Z",
       "source": "TradingView",
       "sourceKind": "gnews",
@@ -104,7 +133,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Big Pharma Just Paid Up to $3.8 Billion for Psychedelic Medicine, and the Rest of the Sector Is Being Repriced in Real Time",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPczM0NnlNYVJkUC0wRWRKdTR1dkUyTzU3VnpySV83SEVzQkRIVGNlaTNXdno1REdzS0JWTVk3WC1YVHhWaEd2cENnWDk4V3puR0l4ZDVBdW1ndnU5ejgwNzhQQW1NQmdqak52bTV0el96YXlCVVNDQVh0MFdEWUduOEM1SFpJWi1KVVNPVDVUQngwWm9MMDdkRlAzVG5uYllCTV9Rd285NGVvdkNTcTRYTmZ1NWlnRWltYXNEMVF6WFp3UjlPVkNVcHJia1VfWHFBaVIycG5DZGZIVVN0YzAzNmtZUmVpN1dlUHMyekFWRm9zYmVYbFRyVzFyWGxkSjVBcE4zTl9LU0lJTEhONjZN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNa1gtZGhkRWNKYy1jRXl5VHJ4OGViSm9Bb0pRSE8zQ0JMbWVrcUxodDdVd0VsTHV0Y1ZOVldtdDVtRVFMYVlfRldHX2E0TUEtRWZYZWxMVWQtSTRzNXQ3TDNiRGhISW9zRU5zODhxeFVMQlQ1R3VGR0QtWkEtUVNBazVlSjgwLVUyaUpHRjJxZGVQUjQycllOMjV5bC1oNjBDVU5ZYzdRcWRUXzNFQTRoU00yMG93T1doOFRQY29wTk1nOTdzLTVyS0JRLUhMQ1JmT0xvaUI1ZlBPdkNfXzd0YnJsTVZBeGRWc3Nhb01ZQ3ZScU9mSXFYd1Z1VkRLcUROa0RVT3hUUExZUWI4MXVr?oc=5",
       "tickers": []
     },
     {
@@ -125,8 +154,8 @@
       ]
     },
     {
-      "id": "c05ccef0f6ce",
-      "time": "2026-07-17T12:28:36.000Z",
+      "id": "80d5e851d22d",
+      "time": "2026-07-17T12:28:37.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -135,7 +164,7 @@
       "direction": "BULL",
       "impact": "HIGH",
       "title": "Is COMPASS Pathways (CMPS) Undervalued As Phase 3 Progress And FDA Review Advance?",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdXBJSkswUEI2SWlDUl9QajYtVzRrLUU4SHFESWNld203RXFvNXRxVzk0a09GUWVNOXZfQV93SDR6WDdOa0szdVN6TWRVLTBOYm50X1hpQ3hMQzI5dVI4eHI0cUlhUW9ha2E1MkVVVjJfX2YyYlBIN1U3ekFtaGpTclVCSjZvc09ucTI5R2d3M05pa3VvWkg3YUt1V2hhRVdRbFNDc3d3Mkxjcko4U1N2OGFoN1pVODZxUFFKOWZEVlZiNlE1RWpPNmJad2dCakdINFFaLVFRVHpqOWtrTTNDNTJ5cGTSAeoBQVVfeXFMTWp2X0ZMMGlWZzZ1MzVYY0U5a2hBWHNxZmJZbWNjV3BWU3lxYzZNalYteXZrd1VfcV96VktTWGw0UFplcHpqbXZsM2VjaWc3b1dNc0lfc3BjeHhfVzZqVUhrZVdyVjJudkNuaGliSWhvRDJWS2h5cDk0VVZoWUlNWkllNFFDZFNnMUx1WXpQaGJwMjRUaTBhU1Z2b0NkMXp3REUwY3lLWVd3SHFGa2xDT1lWLXJCdkVzeTN1bGRPaFJSZUw3emJJTHUybXFDRzNYdGwzVFBERl9SSFVfdTM3RnU0Q3ZGNmNQMVJR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNanZfRkwwaVZnNnUzNVhjRTlraEFYc3FmYlltY2NXcFZTeXFjNk1qVi15dmt3VV9xX3pWS1NYbDRQWmVwemptdmwzZWNpZzdvV01zSV9zcGN4eF9XNmpVSGtlV3JWMm52Q25oaWJJaG9EMlZLaHlwOTRVVmhZSU1aSWU0UUNkU2cxTHVZelBoYnAyNFRpMGFTVnZvQ2QxendERTBjeUtZV3dIcUZrbENPWVYtckJ2RXN5M3VsZE9oUlJlTDd6YklMdTJtcUNHM1h0bDNUUERGX1JIVV91MzdGdTRDdkY2Y1AxUlHSAeoBQVVfeXFMTWp2X0ZMMGlWZzZ1MzVYY0U5a2hBWHNxZmJZbWNjV3BWU3lxYzZNalYteXZrd1VfcV96VktTWGw0UFplcHpqbXZsM2VjaWc3b1dNc0lfc3BjeHhfVzZqVUhrZVdyVjJudkNuaGliSWhvRDJWS2h5cDk0VVZoWUlNWkllNFFDZFNnMUx1WXpQaGJwMjRUaTBhU1Z2b0NkMXp3REUwY3lLWVd3SHFGa2xDT1lWLXJCdkVzeTN1bGRPaFJSZUw3emJJTHUybXFDRzNYdGwzVFBERl9SSFVfdTM3RnU0Q3ZGNmNQMVJR?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -152,6 +181,20 @@
       "impact": "LOW",
       "title": "COMP360 Psilocybin for TRD: What to Know Before a Possible 2027 Launch",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTEJkdmtYb3B0TWVQYTB1OUp4c3RQOGd3S0szWmZZUE4xNlBKejI5SzZtQTJ0Rzl3Mk81a01GU3paemFjVHBOZklRMnVKSHdfWXg4VHdkOVZFNkRWRXF1SVBFWGVLWmVWcl9Jek9OY0Y5MzloRDJUUTd5X2d3SmJaR2FhZUpBTTA?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "55a65722ac7f",
+      "time": "2026-07-17T11:55:36.000Z",
+      "source": "Investing.com Australia",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Clearmind Medicine comments on federal psychedelic guidance By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTzZ6YmNHckd5MEZRS1NISjRnQmlKZmVmZTNTRTdma0p2V3g3X1FGalozSEtZZXltdmg3ekJ0elRsS25kdktRQzVYdW43dGZscUNfbmZDUzYyWWZyRGFabzZHVWdhY2FOWlpURzkyTFk2VHBrSXpMbExqQURMRkhyRXlYb25jSmQ1amphc25mYnpDSXNENU9LTDZvTXBGMnNQeXZPVjdfcmZleGdVWEZ3aERjOTRxbEVZNXRnM3FiQ3Q2dmZ0VklCWk8zMm8?oc=5",
       "tickers": []
     },
     {
@@ -277,9 +320,9 @@
       ]
     },
     {
-      "id": "6800bc36b550",
+      "id": "c62eabd6d429",
       "time": "2026-07-17T03:36:00.000Z",
-      "source": "WSMV",
+      "source": "WBTV",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -287,24 +330,8 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Whitewater Police find 26 grams of psilocybin mushrooms during domestic abuse incident arrest",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYkxwZ0NRS3QzVF81b3I2NlFmMlVENjJZdXNfXzdtQW9kS2JWRUM1eWIzZkVmVG0yd2hBZHUtWWRjZ3lrdUM2SFN3eDhNS1ppZ0JJVDJ4Zkk1a1V4emVFSDlkSGVJNC1tUzZJRkJjdVd6M05waHVDZFBQSEpVR1RjWVlRRWRrMjZYWmN0QWZCdTRfYjZoc3JNNVZ5YW1uMlBoTkZQbmlxekhLZldCOGxzSklJeFlLTUpLcUo0QmU0ZldHYW1neFFKRA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbTN6SzVxSzdNRW1reFBtWU5nTlJRM0dmd3pITWZ3Q1l5Q2dOS1pqVU5LSXhmTXI3X2h6THNGQ3V4aWFlajlNWVpJdVhRY3hpUHVVVnY4QmwtMV9vR1ctZnhyT21UWlpUM2REUEFidW5PN0JpYTVSNGpZR1pCaW53SDNfUnZycncwZU5TeDJNZE5BVGpRakNGZ3IzREJ1NDZrbXdMUlNXYTFtMnpEWFpELTk3TG50MUFqek0xcDl1SGFsU19pTF9PTg?oc=5",
       "tickers": []
-    },
-    {
-      "id": "5267a9b9572f",
-      "time": "2026-07-17T03:22:22.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "GHR Research PLC stock hits 52-week high at $30.20",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbUtKaXh5LXVtMmJBQVY1Ulo1M2xPaFNXUENFYTlLSEQyWThJS1N5NUFaTTV0WlVyWkVub3hDRHhpNV8tWGZMYXNHcHdVb3ZjU09wenpiUG1Melp0SE1lbzNueUxDWDJnNVhRQXN2X0pGWVhseTB3X2FudUhZN1NkOE5vV2dLWk9EWXNJNUptRWd4UWlsU3NSYUROLTFLdmhsY0c0eG4zUQ?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
     },
     {
       "id": "ba4faa896638",
@@ -525,6 +552,23 @@
       "tickers": []
     },
     {
+      "id": "a6f8efd11b1b",
+      "time": "2026-07-16T18:58:18.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "FDA Fast-Tracks Psychedelic Research After Trump’s Executive Order — CMPS, HELP Stocks Gain",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSVkwN2FvZ2NEaXExbXR2YWJydHAxb1JZVGJLV2tkZVg2Ym02ZGQ0OFJfX3Y2QnREdmdqYTRpTTZNWF9DT1E1a0tmaE9zRGNCSWNrRXd1Y2hIQmR4QzB2RGtZUmlVUDM1QVp2aG1kZTc2MmlvRlJESmNIMmc5WkZudDM2TWdmZmhwaHNYcEkybHg2VkU3cmdEWFVZRV9tUUk0aWNGeUJBYy1kR0ZtUkNQZkxrMVpwXzJYNndqV1VKX0REcmNrdXJuLXJvODFySXNfSU9jUjhR?oc=5",
+      "tickers": [
+        "CMPS",
+        "HELP"
+      ]
+    },
+    {
       "id": "f0b46926f9ba",
       "time": "2026-07-16T18:25:00.000Z",
       "source": "finance.biggo.com",
@@ -628,20 +672,6 @@
       "impact": "LOW",
       "title": "Lilly enters psychedelic realm through $2.8bn AtaiBeckley takeover",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc2ZrcFZuYXg0Rzh1bVlqUUhLanRYNjlhYmdjUkVFb3hIc0l2WEQxRmVUaGJMZmpmRG43NTFxbEpvU3RvSzZDSFI0dXlyR2RmOGh0Rzk5bWxZeDRJWVk2TE13S0tkbGl3ZEtBaVdtQUtuRlV6TmRNSGo5VVBtVUxQek1lNk1PUmN5SGlVWGUwV3F3aVRUVVAyNFRoaVMxQQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "d041a74a06ee",
-      "time": "2026-07-16T17:02:34.000Z",
-      "source": "Inside INdiana Business",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Lilly acquiring firm developing psychedelic depression treatments for up to $3.8M",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSXpWX0VyY1FyYXpkTWhZaTVLd090bWs4bl9Pb185TEJNODJiOFZ5OW9rRVVQN293MGROZEZoMUptcFdkWUNHcEVYRGpiWk9VU1YxOVp6QzM3ajFEcldLOUJUVWhxWWlnazRSejlFamhNcUNCN0t5QXlzaTRVQzROTWxBMUIzTzBSbWJYdDVwZHNiRzNPbWpWcDluNHF0WGU3aVI0ZkI1a1Z1U0hibUt4UG0wdnhvQUROajFUdGhSVmVRTUlzeVE?oc=5",
       "tickers": []
     },
     {
@@ -889,6 +919,22 @@
       "tickers": []
     },
     {
+      "id": "86888414edc1",
+      "time": "2026-07-16T13:35:17.000Z",
+      "source": "Investing.com Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "GHR Research PLC stock hits 52-week high at $30.20 By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeFdOTXoydHRfODlTOFRPLVBZX1lKS1ZTOF9IR2cwNG1BNC01Rmh2dm5rX0pFakNKd3Z3MjliZHFsMThvUDF2cFliNHctZTNIVThNOW5yRV9FdUtqcDBWUm53bzRfU0pDcE40RjRkQkNmMThGQnRmaklGbkpmREVuS3phRkxuV1BPOUlUdUJLdVJkb3dmZVhORjdpNmJLSm1DQjk5ajdpSURmckJY?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
       "id": "749182f72582",
       "time": "2026-07-16T13:27:19.000Z",
       "source": "BioSpace",
@@ -1128,20 +1174,6 @@
       "impact": "LOW",
       "title": "Lilly buys AtaiBeckley for $2.8B upfront to challenge J&J for psychedelic mental health market",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR2Z4dWs4Yms1QzVzLV85MTA4V0oxOXdOUUpZVTRzU3ZYekRYN0RUNmk3VjRKeHJjT1NiNHAzZVV2dUV5VUZjOThRdlMxNDVrNDEwbU1kQUZtZzhEN0N3ZHBjSlN3d01ZWGhTMXpCZ0dzY1FFcW1JTXlkaDh4RWxSWkpobm1DQ1RqS05RNldHUWRNOExFMG8tdGhLYVNNTEFnVjJKUnZFRzBocERFN1VueWp5UXUzNVMtanRVX0JB?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "67f804965b34",
-      "time": "2026-07-16T11:28:27.000Z",
-      "source": "STAT News",
-      "sourceKind": "rss",
-      "sourceTier": 3,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "STAT+: Eli Lilly to acquire psychedelics-focused biotech AtaiBeckley",
-      "link": "https://www.statnews.com/2026/07/16/eli-lilly-acquire-ataibeckley-psychedelics-depression/?utm_campaign=rss",
       "tickers": []
     },
     {
@@ -1453,50 +1485,6 @@
       "tickers": [
         "HELP"
       ]
-    },
-    {
-      "id": "ee9c00dd1ec9",
-      "time": "2026-07-16T04:54:16.000Z",
-      "source": "Sentinel and Enterprise",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Editorial: Psychedelics pilot could provide proof of medicinal value",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZTlCYW91NjM2dTZBT1pTY19kWnBzcTNDT0tDNW9sSFVOTXhGQ2J0RUQ4b3lJZ0JMOVZPejJLbW4wMWYybE5OVm5zWi11TnZwQXR2b0JYaWQ1VTlWeTNaOXBuNlNfblhtN0NWRFdBYTk0YWFqU18wbzhiMHVRY0w0RzFCcGc0ZDJ4ckxvYzZla2JOeU9MYTlUWmNFb0l5enRoMjVnUEF4NzVhYzVGNG5paXpNU2NVTzlF?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "76b461e7049f",
-      "time": "2026-07-16T04:50:14.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Sustained Alixorexton Narcolepsy Data Could Be A Game Changer For Alkermes (ALKS)",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUUktMGlYalM1eURmbnBxeGlnWXpaUnF4TndKcDZLQWhrZlJPbVpaeEFuNXJQLVliQ0YwYU8zVWk1RlA1d3JOVlhxV3R6MXNrU3FZS0FyN1FLeEF1TUtVSU90NU1tZHZGajhpV3h1UWFrQUNXOFgydUVKYXVQbWl4VFBSSWFoYUFxVERtRElfYkh5bUQ5TEtFemZWSmZ6X0pyMFUzU01QM2pZQUtNZFNCeERFa3hscGRGMF9TeFNEeW4zSjBQcG9FNFhKUkxESkNjVVNZZ282TF9EanJPc3I40gHfAUFVX3lxTE1RSS0waVhqUzV5RGZucHF4aWdZelpScXhOd0pwNktBaGtmUk9tWlp4QW41clAtWWJDRjBhTzNVaTVGUDV3ck5WWHFXdHoxc2tTcVlLQXI3UUt4QXVNS1VJT3Q1TW1kdkZqOGlXeHVRYWtBQ1c4WDJ1RUphdVBtaXhUUFJJYWhhQXFURG1ESV9iSHltRDlMS0V6ZlZKZnpfSnIwVTNTTVAzallBS01kU0J4REVreGxwZEYwX1N4U0R5bjNKMFBwb0U0WEpSTERKQ2NVU1lnbzZMX0Rqck9zcjg?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "6bf83a71a9b5",
-      "time": "2026-07-16T03:23:39.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Eli Lilly in talks to buy psychedelic drugmaker AtaiBeckley - Bloomberg",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQa0tLcmNqZkpzUktwWGRRQWZvakhJbUdUQzludHlMTnVGUDRrUHQ3WmY5Rmw4cTBrZkYzMFNpUDVuekNKbWZyT0dxZWVVbC1SeHFKeGpVUFBFS0QtLXg2UUxMWHBZZVZUaWJqcVB5MEVyYTZLNVZOb2NwQnhfNGwxZ0pfYUVaN3paRTdVY21DOWZtanBoeDZWZGd0dTlISWpHbVhaVVYwRTJtVVBmNDBROWpVV082ZE9tb1g3Vkx4bmdUVEx6UEE?oc=5",
-      "tickers": []
     }
   ]
 }
