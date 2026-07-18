@@ -1,9 +1,9 @@
 {
-  "updated": "2026-07-18T13:54:05.175Z",
+  "updated": "2026-07-18T15:26:47.894Z",
   "counts": {
     "total": 91,
     "crit": 9,
-    "warn": 4,
+    "warn": 5,
     "bySource": {
       "Mad In America": 1,
       "Stocktwits": 6,
@@ -21,6 +21,7 @@
       "heavyblogisheavy.com": 1,
       "finance.biggo.com": 3,
       "simplywall.st": 4,
+      "Semafor": 1,
       "MSN": 1,
       "TradingView": 3,
       "Proactive financial news": 1,
@@ -34,7 +35,8 @@
       "The Presidential Prayer Team": 1,
       "WSMV": 1,
       "CNN": 1,
-      "Smartkarma": 1,
+      "Investing.com": 2,
+      "Bitget": 1,
       "San Antonio Report": 1,
       "drugdiscoverytrends.com": 1,
       "GuruFocus": 1,
@@ -55,9 +57,8 @@
       "Axios": 1,
       "qz.com": 1,
       "TradingKey": 2,
-      "Investing.com India": 3,
+      "Investing.com India": 2,
       "Reuters": 1,
-      "Investing.com": 1,
       "Pharmaceutical Commerce": 1,
       "Barron's": 1,
       "Bloomberg.com": 1,
@@ -68,7 +69,6 @@
       "pharmaphorum": 1,
       "Sahm": 1,
       "المتداول العربي": 1,
-      "Fierce Biotech": 1,
       "Endpoints": 1
     },
     "byTier": {
@@ -327,6 +327,20 @@
         "HELP",
         "DRUG"
       ]
+    },
+    {
+      "id": "cfd36bb0b728",
+      "time": "2026-07-17T12:54:00.000Z",
+      "source": "Semafor",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Eli Lilly makes $3.8 billion bet on psychedelic drugs",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTkxWMm04M1ZHMWF3X2Qtd3I4UjRFTnpvUlhGMjNZbDI2eUpfRV9JR0ZIa3k2OERTci05czZuNU9fUEpiaUJfZkoxVzludzU2UURIb2d3XzVTV1c0NTFqX2YwNGsxS1E1TkFJLU9XbXh0eUFSOU1iQ01vWE9ndUFrY2pnbU9uTGdqYU9QNEJQRE9zMUJHOXdoWDlB?oc=5",
+      "tickers": []
     },
     {
       "id": "b91917591ca9",
@@ -634,6 +648,38 @@
       ]
     },
     {
+      "id": "5267a9b9572f",
+      "time": "2026-07-17T03:22:22.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "GHR Research PLC stock hits 52-week high at $30.20",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbUtKaXh5LXVtMmJBQVY1Ulo1M2xPaFNXUENFYTlLSEQyWThJS1N5NUFaTTV0WlVyWkVub3hDRHhpNV8tWGZMYXNHcHdVb3ZjU09wenpiUG1Melp0SE1lbzNueUxDWDJnNVhRQXN2X0pGWVhseTB3X2FudUhZN1NkOE5vV2dLWk9EWXNJNUptRWd4UWlsU3NSYUROLTFLdmhsY0c0eG4zUQ?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
+      "id": "03629c0f97ca",
+      "time": "2026-07-17T02:33:55.000Z",
+      "source": "Bitget",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "NEUROCRINE BIOSCIENCES, INC. : WELLS FARGO RAISES TARGET PRICE TO $200 FROM $175",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3SmRKTms0NXhLd3dOUGFmU3lTX3o5YXd2NWMtc05yRExZM0FqZ1BJbVBEWUxnNEo1emlIZDJEMzFjQkZDNXBTYTR6WHhtbGJHc3A3d01Qbk9KSTZvSzF6QWNheUTSAWpBVV95cUxNeHNHUjZLbDV3ZlhSVUMzUzlUby13d2FDU3VpbXp1SDN3WHpKRU81ZW9aLV8zenRneV9DQmUydnBkOU5MNndfRE1YNmI4a1V1M0Y5eU1HOE1rNDA3cWVqTFlLZmZESVRxS0Jn?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "ba4faa896638",
       "time": "2026-07-17T02:29:38.000Z",
       "source": "Stocktwits",
@@ -646,22 +692,6 @@
       "title": "PBM Stock Trips Into Spotlight Again: Rare Ibogaine Supply Edge Gets Boost From Trump’s Psychedelic Push",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDd2OGYwcWpOYUZFa0NlVzVmekZNMDBpcU4zY3NSdDF6R2NxSFZPMy1ySm1NUHZMamRsY09Lem1JSGN0emNQS1g5R0pIci1XUHdFdUg1ck5OSTlaNmZKUXZuZFRLZTN4R3F1TnhkQmVwTXlvWmhmNTBxUEp5WUZtRTZMQjdORWRoeF96TG12SzRreG14emlKLUZNTFpBX2kyUnpTWDdodmhwLUlvZEY0VmpUc0VWaUx0TTI2TF9scDIwX2lYV1hhLU0wRWNKdw?oc=5",
       "tickers": []
-    },
-    {
-      "id": "9066e97b6ed8",
-      "time": "2026-07-17T02:02:06.000Z",
-      "source": "Smartkarma",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Daily Brief Health Care: First Wave BioPharma , NeuroSpectrum Insights, Mesoblast Ltd, Know Labs , Zoetis Inc, CTT Pharmaceutical Holdings, Oncolytics Biotech, ATAI Life Sciences NV and more",
-      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNWUdNalpfRjhlekJWT2Jzc2VCVHRCQlFKaVpQdVRvRWlwUUxfejluQ3Bfbmw1dEEyU2tRdElnY0w1d1JDWjdkdHNYbkJTVDRQZER3SmNDTFZ0anp1UGNFTXNMRDB6MFBrMjV6aGZxVks3STI4VXplSWxIQ0pZYVdUbUNRblF6dWZVeEN4ZWp4dU0wNTE1SkV1RVRFUFZOTkNGcjBzSC1hNVl4b0w4RzZuWDdkZ25qM0RUOVN3aWZubTJfQkRIZ0pTMW1la3NDbTUxNzlRcHR1Q0FVOEEwamJiWVh3QmhVaVRwejJ1ZDNTVjNfOHZqb0M5MzVfd2E5VG44V2hheTlmM0dta3AtMklrd1pRV2FsR0lPc2ZsdEluUjZzc1B3YTR5XzRtdHJwUHh2NWhrRFZVUlJSOXdPYUlsYmQ3LUxmSWFucGc?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
     },
     {
       "id": "d9de2963fb49",
@@ -711,7 +741,7 @@
       ]
     },
     {
-      "id": "094c858c78c4",
+      "id": "c8cd16725435",
       "time": "2026-07-16T20:55:35.000Z",
       "source": "GuruFocus",
       "sourceKind": "gnews",
@@ -721,7 +751,7 @@
       "direction": "BEAR",
       "impact": "MED",
       "title": "ATAI Downgraded by Canaccord Genuity -- Rating Changed to Hold",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFlaZjh6eGRGanl2cVV4NTJlUjliZHIxTTItTm9sSGhUOTd2UkNvU0xEX29idkxxQ25mUlVGYXdjYzd1eU5LbXEtaVRRYTRvSHhNaGZVeGJ3ZGh3T3E1dTJGWFdyUi05WE41Sll4dVQ4SHRhc3V3X0hpbFQ4SFNYeTA2b1RqYlJYak9EN05QTkFXYzJJU0tSUTJlLUxvWUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM0MyZG9EWUN6M2ltLWR0ZW94WVJUbVZKMVBHcU9HSkg5c2NSZVBxcFBYbXU5NVpNV3VxME5tSWFHOWJGWENIdVFtMmo3Q1pvcHVYVmFYWnhwcHR4cmhCZTd6bm4xR3dNX2piWUkxQXhnY2VhdkhFM3FHaVVxRm1PTl9GNjJGTk1wbFo1Vmw1ckVBaTFRcVhKbHBFYjJ0aDJudlpXUkpGQnA5ZTBvWFo0?oc=5",
       "tickers": [
         "ATAI"
       ]
@@ -1186,22 +1216,6 @@
       "tickers": []
     },
     {
-      "id": "acae7a7e6139",
-      "time": "2026-07-16T13:37:20.000Z",
-      "source": "Investing.com India",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "GHR Research PLC stock hits 52-week high at $30.20 By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObUx5Rm05c1pQVzRzVlBfZnVrU1ZrRm9DbkNjZ2tlN1R3SFpOanM4dzVfM01wNEhQNEpBdG5nNUZIVHFGbF9DWWFqblpUV3JBak93Y2s0c21DZkpRd3ZQQ2JBWWJ2RWZRSVVjOTNORUdpNXhrTE41TDNGTy00WmFIeDZIMWlDLTNXaGtyLTZ6OFNDSnRiM2QtbHNJR3IzZ1htc2w1U3ZjdjZPRHdzd29lRnY5a25JX1FFM0lENQ?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
       "id": "749182f72582",
       "time": "2026-07-16T13:27:19.000Z",
       "source": "BioSpace",
@@ -1428,20 +1442,6 @@
       "tickers": [
         "ATAI"
       ]
-    },
-    {
-      "id": "4da564919eb3",
-      "time": "2026-07-16T11:32:42.000Z",
-      "source": "Fierce Biotech",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Lilly buys AtaiBeckley for $2.8B upfront to challenge J&J for psychedelic mental health market",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNR2Z4dWs4Yms1QzVzLV85MTA4V0oxOXdOUUpZVTRzU3ZYekRYN0RUNmk3VjRKeHJjT1NiNHAzZVV2dUV5VUZjOThRdlMxNDVrNDEwbU1kQUZtZzhEN0N3ZHBjSlN3d01ZWGhTMXpCZ0dzY1FFcW1JTXlkaDh4RWxSWkpobm1DQ1RqS05RNldHUWRNOExFMG8tdGhLYVNNTEFnVjJKUnZFRzBocERFN1VueWp5UXUzNVMtanRVX0JB?oc=5",
-      "tickers": []
     },
     {
       "id": "754d3a291b0d",
