@@ -1,15 +1,16 @@
 {
-  "updated": "2026-07-18T21:09:24.352Z",
+  "updated": "2026-07-19T04:02:12.293Z",
   "counts": {
     "total": 91,
     "crit": 9,
-    "warn": 6,
+    "warn": 5,
     "bySource": {
+      "Stocktwits": 9,
       "simplywall.st": 6,
       "The Globe and Mail": 3,
       "Mad In America": 1,
-      "Stocktwits": 8,
       "Nature": 1,
+      "Bitget": 1,
       "The Coast News Group": 1,
       "Shaw Local": 1,
       "stripes.com": 1,
@@ -20,23 +21,21 @@
       "Pluang": 1,
       "Psychedelic Alpha": 2,
       "WSJ": 1,
-      "finance.biggo.com": 3,
       "Semafor": 1,
-      "MSN": 1,
       "TradingView": 2,
       "Proactive financial news": 1,
       "Moomoo": 1,
       "HCP Live": 2,
       "Investing.com Australia": 1,
       "The Manila Times": 1,
-      "TipRanks": 2,
       "Colorado Newsline": 1,
       "Yahoo Finance": 5,
       "The Presidential Prayer Team": 1,
+      "TipRanks": 1,
+      "Morning Brew": 1,
       "WBTV": 1,
       "CNN": 1,
       "Investing.com": 2,
-      "Bitget": 1,
       "San Antonio Report": 1,
       "drugdiscoverytrends.com": 1,
       "GuruFocus": 1,
@@ -46,13 +45,14 @@
       "RAPS": 1,
       "Medscape": 1,
       "Targeted Oncology": 1,
+      "finance.biggo.com": 2,
       "24/7 Wall St.": 2,
       "MedCity News": 1,
       "Psychiatric Times": 1,
       "Pharmaceutical Technology": 1,
       "Inside INdiana Business": 1,
       "The Times": 1,
-      "Benzinga": 1,
+      "Benzinga": 2,
       "BioPharma Dive": 1,
       "Axios": 1,
       "qz.com": 1,
@@ -65,7 +65,7 @@
       "BioSpace": 2,
       "Blockonomi": 1,
       "Oregon Public Broadcasting - OPB": 1,
-      "STAT": 1,
+      "MSN": 1,
       "Sahm": 1,
       "Endpoints": 1
     },
@@ -75,6 +75,22 @@
     }
   },
   "items": [
+    {
+      "id": "e537f406da05",
+      "time": "2026-07-18T22:50:46.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "DFTX Stock Clocks Best Day In Over Two Years On 'Best-Case' Clinical Results For Oral Lysergide In Depression",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZ1hMY2hiQUVpaFVJZ1dnakIyRmduMTJ5Y1hKTDdkeUZtYkZBMUVFc2p4X1RLemhMY3NQZl96UUpQNzdCdmtERDdJMUQ2cG4yZGNRaHhkTVh0LWNWSDUxZHcwckppamVsSVlQNFdtTnlGVkw0cDZqNmxCeUNDNmRzdWZiQXpTLWxOa3UyaUdVRWI0THhocGJDdldYdmxPQkU2d1RMQTVZbXJYc2IxOHk4bjRhcF9zMTBGOFphX1ZNTkQyNTdzZUFpQ1BIRC1xbU1TQmQzc3FNYjBjMkk1MldTQVo1YXNoZVcwSGdtMm5NTQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
     {
       "id": "d6674e348f34",
       "time": "2026-07-18T18:30:40.000Z",
@@ -106,6 +122,37 @@
       "tickers": [
         "NBIX"
       ]
+    },
+    {
+      "id": "cfafc11bfd4a",
+      "time": "2026-07-18T13:36:40.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "CMPS Stock Climbs After-Hours: Analyst Sees Depression Drug Approval By H1 2027 Or Sooner After Strong Trial Data",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN3p0UWVmSEZvcHA3aW5MbkhUdDlDbTYxRFRMXzZZdmpwREJsS2RDQzhEd2kzZ0gwWXBiaHUyQTF4dnhfOGtFQmU2YXhNUHNLODNfc0lxYjZKT0toQVd1enZQTGxjbjNxbVNWYmRISnlIeHhOVmV0UlYwUm1rNmhpUnJnTkNoLVQ2aUVTNnFuWUlMenJ6MlhWSXVWM0RYb09XcldGcHZ5TGI5X053M09fSzJiTGZHQzg?oc=5",
+      "tickers": [
+        "CMPS",
+        "DRUG"
+      ]
+    },
+    {
+      "id": "ba4faa896638",
+      "time": "2026-07-18T10:33:27.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "PBM Stock Trips Into Spotlight Again: Rare Ibogaine Supply Edge Gets Boost From Trump’s Psychedelic Push",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDd2OGYwcWpOYUZFa0NlVzVmekZNMDBpcU4zY3NSdDF6R2NxSFZPMy1ySm1NUHZMamRsY09Lem1JSGN0emNQS1g5R0pIci1XUHdFdUg1ck5OSTlaNmZKUXZuZFRLZTN4R3F1TnhkQmVwTXlvWmhmNTBxUEp5WUZtRTZMQjdORWRoeF96TG12SzRreG14emlKLUZNTFpBX2kyUnpTWDdodmhwLUlvZEY0VmpUc0VWaUx0TTI2TF9scDIwX2lYV1hhLU0wRWNKdw?oc=5",
+      "tickers": []
     },
     {
       "id": "0d7553e1e126",
@@ -166,6 +213,22 @@
       "title": "Psilocybin produces amplified acute responses and sex-specific long-term increases in sensorimotor gating in the mGlu5 knockout mouse model of schizophrenia",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKWDY2Y1hsWl9YVFFRR1ZjWmdvZ09yUXFyOTRrOFMtaFpVMnNvbHFDWC1DdjU1aGxXcWNjS2VLb2xKVV9IcldYaDN1NzZJbHFHREREcUkxSTgtMHFXX1I0?oc=5",
       "tickers": []
+    },
+    {
+      "id": "f093fc5accab",
+      "time": "2026-07-18T06:39:12.000Z",
+      "source": "Bitget",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NEUROCRINE BIOSCIENCES, INC. : WELLS FARGO RAISES TARGET PRICE TO $200 FROM $175",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zdldxdms1aFNyeEdVX0RLQjEza2daa2E3blduOEZyQm84MjJNWVlqTGFEb0lHMzlIQ0tlNzY1bWl3SWJOSjdWamZtbnJkVHlGMjIxX1ZkMjZyTEhNc0l1ZHVSb9IBY0FVX3lxTE4zdldxdms1aFNyeEdVX0RLQjEza2daa2E3blduOEZyQm84MjJNWVlqTGFEb0lHMzlIQ0tlNzY1bWl3SWJOSjdWamZtbnJkVHlGMjIxX1ZkMjZyTEhNc0l1ZHVSbw?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
     },
     {
       "id": "b9a1b12529b7",
@@ -376,36 +439,6 @@
       ]
     },
     {
-      "id": "e537f406da05",
-      "time": "2026-07-17T14:06:35.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "DFTX Stock Clocks Best Day In Over Two Years On 'Best-Case' Clinical Results For Oral Lysergide In Depression",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZ1hMY2hiQUVpaFVJZ1dnakIyRmduMTJ5Y1hKTDdkeUZtYkZBMUVFc2p4X1RLemhMY3NQZl96UUpQNzdCdmtERDdJMUQ2cG4yZGNRaHhkTVh0LWNWSDUxZHcwckppamVsSVlQNFdtTnlGVkw0cDZqNmxCeUNDNmRzdWZiQXpTLWxOa3UyaUdVRWI0THhocGJDdldYdmxPQkU2d1RMQTVZbXJYc2IxOHk4bjRhcF9zMTBGOFphX1ZNTkQyNTdzZUFpQ1BIRC1xbU1TQmQzc3FNYjBjMkk1MldTQVo1YXNoZVcwSGdtMm5NTQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "b30dcd5940c3",
-      "time": "2026-07-17T13:55:00.000Z",
-      "source": "finance.biggo.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Eli Lilly Drops $3.8 Billion on AtaiBeckley, Sending Psychedelic Stocks Soaring",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TREhfenM1cU9raFBOV1pSSndjRFhZX0UyXzFuMnp6M0cwMEdyZUJPYlZ3SmV1amZRcU1ybnpwdno4bFVIREJrakdnRE5SNTVXTVAtWDNmTk5HdWNsTHVhOEhDOVUyV3BZZ1Ryd0szakd6NlNNNkE?oc=5",
-      "tickers": []
-    },
-    {
       "id": "6dce2df3faa7",
       "time": "2026-07-17T13:04:32.000Z",
       "source": "simplywall.st",
@@ -434,20 +467,6 @@
       "impact": "LOW",
       "title": "Eli Lilly makes $3.8 billion bet on psychedelic drugs",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTkxWMm04M1ZHMWF3X2Qtd3I4UjRFTnpvUlhGMjNZbDI2eUpfRV9JR0ZIa3k2OERTci05czZuNU9fUEpiaUJfZkoxVzludzU2UURIb2d3XzVTV1c0NTFqX2YwNGsxS1E1TkFJLU9XbXh0eUFSOU1iQ01vWE9ndUFrY2pnbU9uTGdqYU9QNEJQRE9zMUJHOXdoWDlB?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "b91917591ca9",
-      "time": "2026-07-17T12:52:10.000Z",
-      "source": "MSN",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Lilly to buy AtaiBeckley in $3.8B psychedelic push",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZGl6SGYwQ25ncGpDNlhybkt1VjJ1SlFUTlZlcVIwWDEyUHBIRjY0eHJTODZjVVBMRE5IbHNCNUlQdGVFZHljLTZMYlN4UVdoRWV2T1NoWDBpejJhb1ZURjBwam51cFVXQkREalYxX2o4TlFvQW5leFBUQ01ZaXlKTjhRVy1oa0hMYy1MNW1sS3p5X19OdzgyVDRObjhIQnlVczJHQ29IU011dV9QRVdtZnhzRUhlUkhpUzFrRk51U0JDaVk5bU94T1lUNF9PcTVzc1EzVkRvMk5mNTE5a2dpSFNRbFVZQQ?oc=5",
       "tickers": []
     },
     {
@@ -572,22 +591,6 @@
       ]
     },
     {
-      "id": "dbeccde5d683",
-      "time": "2026-07-17T11:21:48.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Helus Pharma price target lowered to $45 from $48 at Guggenheim",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMEEtYkc1U2huU3pzaUlDUVRsOXFLRmg5OHhjamgtZVpaS1FPODNOSjNza1FabS1pLVNNT0NiX1RiVTI3ZjN4NVpueEhVa0M1SHZOTUJ3SWZqOXBzWFhwaUlZaG9jc0NEcXJVV2ViYWlhRGNGd183OVR1WF9Damw2VnJjOGwzWjYteTh4M3NaNDN5QU5ielE0VjVrTEprUGpXS19ZcTQ4NnhmTm5tSm9pNQ?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "4bdbb44fe987",
       "time": "2026-07-17T09:36:52.000Z",
       "source": "Colorado Newsline",
@@ -602,8 +605,8 @@
       "tickers": []
     },
     {
-      "id": "560e7a5233f5",
-      "time": "2026-07-17T09:32:06.000Z",
+      "id": "c8b851a2a80a",
+      "time": "2026-07-17T09:31:59.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -612,7 +615,7 @@
       "direction": "NEUTRAL",
       "impact": "MED",
       "title": "Should Strong Earnings Projections and Zacks Rank #1 Status Require Action From Neurocrine Biosciences (NBIX) Investors?",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWnhTbXFqSlpTXzg3RGltVjRFWUhoVzd4cFpCaFVLZWpTMldieGwwbW04OHRqMm0tbW1yWDFXbXlGb1dtWjZsM1Nic0k5dmFtQW80Rk1fUmhLVGlWcy1iOWhhSmxJMG5zVEpoRGZzazVVOXQ2OTdHaXB0aEk0VmRoRFQtN3VWSk5kNzI4MG9FbzNmVDVyZ3hhMDMtT2lZZk8yNU1ZLTZCZ09GQXlyRzRSTGZKalpVZXhQb3hkaW96V19fMk92eTk5UHVFZHB2WVMtWE5OMlB6emQ1MUNhaDNYOC1oNVp4SU50bXo3YzNZZE5od9IB8gFBVV95cUxNWnhTbXFqSlpTXzg3RGltVjRFWUhoVzd4cFpCaFVLZWpTMldieGwwbW04OHRqMm0tbW1yWDFXbXlGb1dtWjZsM1Nic0k5dmFtQW80Rk1fUmhLVGlWcy1iOWhhSmxJMG5zVEpoRGZzazVVOXQ2OTdHaXB0aEk0VmRoRFQtN3VWSk5kNzI4MG9FbzNmVDVyZ3hhMDMtT2lZZk8yNU1ZLTZCZ09GQXlyRzRSTGZKalpVZXhQb3hkaW96V19fMk92eTk5UHVFZHB2WVMtWE5OMlB6emQ1MUNhaDNYOC1oNVp4SU50bXo3YzNZZE5odw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWmdINmN3RGlNd2t0cUllMnR3T1A0Ni0xZHkyWHMwd09Odi1yMGtnc0dqOUZ5QXJJc25oSUNhanVSdzdDSU02VkpfajZtNndXRzBoQXZQeE1LTXFEWXNWRTZPNHVUbjM2Wk9iMUxScUI5MHdIcjRpeXpDdmVlQjRBYXFOTUdzZU1tM3FNYnVBY0ZQTlhXUE4xU1pSVjhrWHdabHdLLTlxckhTZE8wNUROWGJpNWsyOF8zSXFuSHh3cE5GM2M5TlNWOEpoZXp0OThEQ0MzUHFmcnE4VGJGa1l0TlphMDRDN1VTVGpBcdIB8gFBVV95cUxNWnhTbXFqSlpTXzg3RGltVjRFWUhoVzd4cFpCaFVLZWpTMldieGwwbW04OHRqMm0tbW1yWDFXbXlGb1dtWjZsM1Nic0k5dmFtQW80Rk1fUmhLVGlWcy1iOWhhSmxJMG5zVEpoRGZzazVVOXQ2OTdHaXB0aEk0VmRoRFQtN3VWSk5kNzI4MG9FbzNmVDVyZ3hhMDMtT2lZZk8yNU1ZLTZCZ09GQXlyRzRSTGZKalpVZXhQb3hkaW96V19fMk92eTk5UHVFZHB2WVMtWE5OMlB6emQ1MUNhaDNYOC1oNVp4SU50bXo3YzNZZE5odw?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -698,6 +701,20 @@
       ]
     },
     {
+      "id": "148d57904dbe",
+      "time": "2026-07-17T06:13:35.000Z",
+      "source": "Morning Brew",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The GLP-1 leader expands into psychedelics",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUERVcUdQb1hhSVZ1RFJ4VURtYm9LRWNyOXhxZ0xnVXllVWR1SzVYODFFTlpMTHRjTjF5TExlUGdJV1F3YjhrVEc4dXpMTXR6R2dyZV8wNmxleWl2S1Bqcks4Rk5sX0Rqald2WS01TDFVLVdYb0ZwcUZMX1Rld2FsNVUzV2I?oc=5",
+      "tickers": []
+    },
+    {
       "id": "9fd53495a520",
       "time": "2026-07-17T04:01:00.000Z",
       "source": "Yahoo Finance",
@@ -773,36 +790,6 @@
       "tickers": [
         "GHRS"
       ]
-    },
-    {
-      "id": "03629c0f97ca",
-      "time": "2026-07-17T02:33:55.000Z",
-      "source": "Bitget",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "NEUROCRINE BIOSCIENCES, INC. : WELLS FARGO RAISES TARGET PRICE TO $200 FROM $175",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3SmRKTms0NXhLd3dOUGFmU3lTX3o5YXd2NWMtc05yRExZM0FqZ1BJbVBEWUxnNEo1emlIZDJEMzFjQkZDNXBTYTR6WHhtbGJHc3A3d01Qbk9KSTZvSzF6QWNheUTSAWpBVV95cUxNeHNHUjZLbDV3ZlhSVUMzUzlUby13d2FDU3VpbXp1SDN3WHpKRU81ZW9aLV8zenRneV9DQmUydnBkOU5MNndfRE1YNmI4a1V1M0Y5eU1HOE1rNDA3cWVqTFlLZmZESVRxS0Jn?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "ba4faa896638",
-      "time": "2026-07-17T02:29:38.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "PBM Stock Trips Into Spotlight Again: Rare Ibogaine Supply Edge Gets Boost From Trump’s Psychedelic Push",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDd2OGYwcWpOYUZFa0NlVzVmekZNMDBpcU4zY3NSdDF6R2NxSFZPMy1ySm1NUHZMamRsY09Lem1JSGN0emNQS1g5R0pIci1XUHdFdUg1ck5OSTlaNmZKUXZuZFRLZTN4R3F1TnhkQmVwTXlvWmhmNTBxUEp5WUZtRTZMQjdORWRoeF96TG12SzRreG14emlKLUZNTFpBX2kyUnpTWDdodmhwLUlvZEY0VmpUc0VWaUx0TTI2TF9scDIwX2lYV1hhLU0wRWNKdw?oc=5",
-      "tickers": []
     },
     {
       "id": "d9de2963fb49",
@@ -1355,22 +1342,6 @@
       "tickers": []
     },
     {
-      "id": "1796a672495f",
-      "time": "2026-07-16T13:06:07.000Z",
-      "source": "STAT",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FDA approves Merck’s oral PCSK9 drug, a first",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeGM0WmhnOHg1aHlKUk9RdHFYYmk3dDYtZUpRbDk3d20tNHhmbzBtbFZDV1RTdXJCSUVXdmNmU0x3MUxQc0lFaTlPVUo3NXlDc0JQZ2pqdGRWSnZBMmw5Yzh0MGpZSkN4Q2N2ZnNpOC14TlV0bVNEM29VdXBINVlGNG9UdWRUNS1fVWZwamRHZU5heEliS0M1ZGtadw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "d6473abd1418",
       "time": "2026-07-16T12:41:35.000Z",
       "source": "Psychedelic Alpha",
@@ -1412,6 +1383,36 @@
       "impact": "LOW",
       "title": "J&J sees Spravato sales surge as psychedelic competitors loom",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdWkzVTdpYkkxemt2LUlxMjlRR25oM05fdXVnd0xQT2Y3RGc2Njk5ZV8zTFA4cFBKMHNONmlxTGZ2djBCRW1naGczbThTbkhOVUdQdTJCSnNfeUdsTXNHQ2hkalp3d0w1aU53WHJXUzIzenM3MC13TmNfQW5kVXBuTko2TTVyWGFTN185TWpyVkN6aDFLSnBwQTd5Zw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "ef776408cae3",
+      "time": "2026-07-16T12:05:43.000Z",
+      "source": "Benzinga",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "12 Health Care Stocks Moving In Thursday's Pre-Market Session",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUTBqMzR5dWx0WTNoSXAxcklyaFRpYTVNUHZiQlRTQVBLdnpHdUtXV1RqTVplYkZkR1Q4V1VzMUlXS2dwbm56U3o3bUszRVZuYWg0QllMODl6MGc1LUYzcnNQWWZGb0RtQXNnbXVkWnI2UkpBQVhGS19kNmRIbUo1czVPaVhTWHhGZGZrZFhOMjV2dDZqajNDTFNLZFVZNzFwTjVTQ29hdjhGS3o3WlBONG5vSV9lRmE5U21F?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
+      "id": "b91917591ca9",
+      "time": "2026-07-16T12:05:12.000Z",
+      "source": "MSN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Lilly to buy AtaiBeckley in $3.8B psychedelic push",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZGl6SGYwQ25ncGpDNlhybkt1VjJ1SlFUTlZlcVIwWDEyUHBIRjY0eHJTODZjVVBMRE5IbHNCNUlQdGVFZHljLTZMYlN4UVdoRWV2T1NoWDBpejJhb1ZURjBwam51cFVXQkREalYxX2o4TlFvQW5leFBUQ01ZaXlKTjhRVy1oa0hMYy1MNW1sS3p5X19OdzgyVDRObjhIQnlVczJHQ29IU011dV9QRVdtZnhzRUhlUkhpUzFrRk51U0JDaVk5bU94T1lUNF9PcTVzc1EzVkRvMk5mNTE5a2dpSFNRbFVZQQ?oc=5",
       "tickers": []
     },
     {
