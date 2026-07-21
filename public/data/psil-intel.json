@@ -1,10 +1,11 @@
 {
-  "updated": "2026-07-21T03:52:06.120Z",
+  "updated": "2026-07-21T06:44:48.200Z",
   "counts": {
     "total": 92,
     "crit": 8,
-    "warn": 7,
+    "warn": 8,
     "bySource": {
+      "Financial Times": 1,
       "Investor's Business Daily": 1,
       "HCP Live": 2,
       "Business Wire": 1,
@@ -19,12 +20,14 @@
       "Endpoints": 2,
       "European Pharmaceutical Review": 1,
       "Psychology Today": 1,
+      "GuruFocus": 2,
       "TipRanks": 3,
       "citybiz": 1,
       "Healthcare Digital": 1,
       "Investing.com": 3,
       "Nature": 2,
-      "simplywall.st": 8,
+      "simplywall.st": 7,
+      "ChartMill": 3,
       "Fierce Biotech": 1,
       "genengnews.com": 1,
       "MyChesCo": 1,
@@ -33,37 +36,33 @@
       "Shaw Local": 1,
       "The Globe and Mail": 1,
       "Mad In America": 1,
+      "Sahm": 2,
       "Bitget": 1,
       "Volume One": 1,
       "The Coast News Group": 1,
-      "ChartMill": 2,
       "stripes.com": 1,
       "sekbernews.id": 1,
-      "E! News": 1,
       "Fitt Insider": 1,
       "Pluang": 1,
       "Psychedelic Alpha": 1,
       "WSJ": 1,
-      "finance.biggo.com": 2,
+      "finance.biggo.com": 1,
       "Semafor": 1,
       "Proactive financial news": 1,
       "The Manila Times": 1,
       "Colorado Newsline": 1,
       "The Presidential Prayer Team": 1,
-      "Sahm": 1,
       "Morning Brew": 1,
       "fox8live.com": 1,
       "Stock Traders Daily": 1,
       "San Antonio Report": 1,
       "drugdiscoverytrends.com": 1,
-      "GuruFocus": 1,
       "Chemical & Engineering News": 1,
       "Baton Rouge Business Report": 1,
       "RAPS": 1,
       "Medscape": 1,
       "Targeted Oncology": 1,
-      "Mealey's": 1,
-      "24/7 Wall St.": 1
+      "Mealey's": 1
     },
     "byTier": {
       "T2": 90,
@@ -71,6 +70,20 @@
     }
   },
   "items": [
+    {
+      "id": "b1e0d9e608df",
+      "time": "2026-07-21T04:00:30.000Z",
+      "source": "Financial Times",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psychedelic drugs are going mainstream",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbXdpWUltTzBkUDdRSzl4SUw4RzZNUXNweVlrcy1wd1lneG4wZFZnRmJ6d3FTbkNWbEpqd2tzajFHa0RtdFZ3RWhnNW9HNmllQ2RicmlzUGlteHVWLUQ3ZVJLRXlWaEczOEUyT1Via0tQV3hTWHlnMTNFZ1hNaWcyRl9Mcy0?oc=5",
+      "tickers": []
+    },
     {
       "id": "d6ec139d9054",
       "time": "2026-07-20T20:43:00.000Z",
@@ -302,6 +315,22 @@
       "tickers": []
     },
     {
+      "id": "ff87fd43e2fb",
+      "time": "2026-07-20T13:25:14.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "ATAI Downgraded by HC Wainwright & Co. -- Price Target Lowered t",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWRxdi1tYmVhbXVtODk3T193VG52UmNjWnpvOFJDYzlwaU84Skk4aDNVOGsyYWY4dzVPRXpVVllKSmZVaW1CZmhyTnNiUEVBanlRSDVOVWd5Z2NfOG1ZMkN1WURMb1lKeFBmbWZmZnJ0SjV4OU1ILWFNYUFpMGh6SEFVd09kdzRHcTNoYk1kR0d1U2FLU091SllvcTc4eWxHUmJfSA?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
       "id": "cde30f0c8564",
       "time": "2026-07-20T13:03:19.000Z",
       "source": "TipRanks",
@@ -442,6 +471,22 @@
       ]
     },
     {
+      "id": "09a50fdcb346",
+      "time": "2026-07-20T08:50:24.000Z",
+      "source": "ChartMill",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences (NASDAQ:NBIX) Offers a High Growth Momentum Breakout Setup",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTi04UUdkeUpIM2JnOXhqckFsWUhCczdDS2s4alJRWnJFY2lQNGNJSC0wN1BpdzljX0NtRy1PQ1dlMENDU1hVTnlmSVZzMzZMTmt5Rjh2TjFRb0RoMFNYeWdiQlBVc2ZwdmJ4NVBaYVJlTzVhMGRPZlhJVXJTYy1XaEdwWGVFVTV5SVQ3YkF6N0xiUWN0RHBiSnpLY2VRWDZZLVo3ZC1ZWlMzWGNnSloxejYtWDY1M3lZM1puQW92OF9XOEFrbE50a2RB?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "d89780702a38",
       "time": "2026-07-20T08:00:00.000Z",
       "source": "Fierce Biotech",
@@ -472,7 +517,7 @@
       ]
     },
     {
-      "id": "5fef13a7339a",
+      "id": "a16d081367ff",
       "time": "2026-07-20T05:18:00.000Z",
       "source": "TradingView",
       "sourceKind": "gnews",
@@ -482,7 +527,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "ATAI Stock Slips After Blockbuster Week: Cathie Wood Calls $3.8B Lilly Deal ‘Well-Deserved’ Return For Shareholders",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOU1EzOHpxcmtiTVFwTUNCSWpaeGZCV3V6OVl4cFNOSTg5Wm1KbTZtd2RLZmhNSHQ1TXdmNWQ3SkJRQi1YWjE1SElTS0EwcGk3YmZkNWp0Rm90MkdXbTctUHhUcDQ2OW15bExlYmtmM19NMS1mYk1SYzlXUFp6Mk9ucnJoRnpQZHlZZWJPam1yRkhHMWpxdUJrTTFjS1RSUTVFVTZTRTgzbmFvLUVBNUxsdjVwZXhXR2xCemhBRjhGYnpvRENwdkJBSm1SY1Nhb21xWXZNalRTM2hNYUNHUnd3ZHJVWlNwc0l2cDlNUGJTbUhZNUFwbjVtY0R6OTQ0WXBL?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPeUpiNm42TmdLbWlXaElJSUJUWGpUSmFxVmhXeGNERDFwQjlXanVjakJXcUZ3eXJtSGY3VVpqVENfUTVSc3hKd1ZDM3VFRFAyZjM3Nm5MZU9Zc3FiSk5NMmJMbXExU01ESEgtSE52UDhINV9VbDRXUU1zeGlKZXBjSzM0Qktsc3Z4d01PeGhEekZ6eWZYcnQzSGc3d1dpRUt0SERkd21DNXhfVjVOdV8xNUlPbDFOOUs3bW1Ub1hncElYODJ1LUJEbmY1ejdmcGVKNG9UNUlzU25XRFN1T3BhRTZpUDQyV3JQcXRObU15NjNJMTFSTTRnWE01eGQyQ0ZkTkE?oc=5",
       "tickers": [
         "ATAI"
       ]
@@ -610,22 +655,6 @@
       ]
     },
     {
-      "id": "07bc9788e69e",
-      "time": "2026-07-18T16:34:04.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Is Neurocrine Biosciences (NBIX) Still Undervalued Or Does Its P E Leave Little Upside?",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQV2FZMF9FWXhkWGZDTnBEWElNWmlsQjY4V3UwZjMxUDUxeFRHZ3Nfb3FILUc0bW92ZktQazJYcGNXMDdCZURCWFNCX2FxNy1SdE1veFFXUGliTTdsQ21ZS0hncV9FaDRwZ1Y2R2R1OUJzNGd4WGFTQXlMT3hFZEllMnFQby0xUkhZRVRzcnp4NzBUck96MXdKaVlCanQzMXJVR1Q0WGhCekttX0xqcHNKRHV5ZElPUmUxOFJacnFmNXRMME92NzV3ZDNhWU5UUjZrdUJqM3hMb2xUZjZBNHFPcVppZ1h0d1pTc1pjddIB8gFBVV95cUxNdzM4QlFlX2ZCaEozN2lVY3ZWR1NYSXZyWV91NWxKeURoOFFrbDV6WUcwSU95TzF3VjR6bXFSWTNiTUQyWHV2bTM4UDBoLWFWZHEzM0pJcDFhR2pUMVlPZ3FmNGR3Tk5qaWtuTEMtTXBTVnlPMUNCNzdNN2V2Z2tUZ212ZEUwVWpOQ00wM1c1dk1RaUhDM1Izb3FSVGdqQnNvX2ZPTjM4alRyTnh5SFlUUTVULU01NEZYSGtCRE42cEVsV0V2TXk4WnJiZEpCTW9kaFh3OTZkV0t4ZTlfZUtkVUVWXzNJM08xMzVESVlqcGtoUQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "01c1c214588e",
       "time": "2026-07-18T15:35:13.000Z",
       "source": "Stocktwits",
@@ -698,6 +727,22 @@
       "title": "Psychedelic Therapy Paper Linked to Sexual Abuse Faces Possible Retraction",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONzJoanVEdHUzb1NnSlZpWXdTZmN1THZHZjMwSEVyVE9KQ1lScURQMXRjcHpZRlV5VGpfMEpWODdTenhDZFRuOGlaNDBuWnc5VnNWUmE1U2RibHlkTDJpckp6Yl90ekM2WFl2QzBTc1MwM0xuMl9kaWowNlZqcXNOR0hsLVdIV1JVMlljYjgtamk2bVpMeFNqZmlFM2ttZE1BZVF0OE5XOEdXMldfa2hmZmtn?oc=5",
       "tickers": []
+    },
+    {
+      "id": "9f22e4b0c651",
+      "time": "2026-07-18T07:00:00.000Z",
+      "source": "Sahm",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Is Neurocrine Biosciences (NBIX) Still Undervalued Or Does Its P E Leave Little Upside?",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbG5ta3FXVE84elpKWk9td2VGTUwxQU9GUHJPUUpCQ2NDZU1hZy1zTU93UFk2bTRKd2wtdnZLZE5JT2ZJSjRJWVpjRjItbFo2ek5NczJoY2o1ekhEUlZTQ3BLOFRJcW1INlNHSjRwSHFFYXNiTkM1MnV2Z1J4OGNCM0lzTmlENWtYMml6T1BoLU1PSGFwMmxkTEhkTTMxbjNSV1VoX3dlOVROUkhzRV8zTUd1alduejJLbjZFazlWaFZPTHJ4QktzczN1QzcxMllHWUE?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
     },
     {
       "id": "9072e37e2032",
@@ -850,20 +895,6 @@
       "tickers": [
         "GHRS"
       ]
-    },
-    {
-      "id": "3cbbbb5f618d",
-      "time": "2026-07-17T19:45:00.000Z",
-      "source": "E! News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Celebs Are Loving Pucci-Inspired Psychedelic Prints for Summer",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaHA1cURfbGh6OVJCaU1pSV9MSVJ6dmFYODRMSzJIc1NvUlExUFFISVhfWEpNS2g0Ukt0cEhySjR5SFVWT1g5TXMyOTVkbHZQaXBOQ1lEZUF6d0wtOEtqVk91b0FtVTBHWGpqVWg2QXA2eTFNdXNmSVJnY2ZKZndqOUl5d3hDclRFSUEzZGl3MEVKMWVLckZNaFBVRkVuOFhIa091RFVobkxHUVFrbmc?oc=5",
-      "tickers": []
     },
     {
       "id": "593da58ea4e8",
@@ -1324,7 +1355,7 @@
       ]
     },
     {
-      "id": "094c858c78c4",
+      "id": "c8cd16725435",
       "time": "2026-07-16T20:55:35.000Z",
       "source": "GuruFocus",
       "sourceKind": "gnews",
@@ -1334,7 +1365,7 @@
       "direction": "BEAR",
       "impact": "MED",
       "title": "ATAI Downgraded by Canaccord Genuity -- Rating Changed to Hold",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFlaZjh6eGRGanl2cVV4NTJlUjliZHIxTTItTm9sSGhUOTd2UkNvU0xEX29idkxxQ25mUlVGYXdjYzd1eU5LbXEtaVRRYTRvSHhNaGZVeGJ3ZGh3T3E1dTJGWFdyUi05WE41Sll4dVQ4SHRhc3V3X0hpbFQ4SFNYeTA2b1RqYlJYak9EN05QTkFXYzJJU0tSUTJlLUxvWUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM0MyZG9EWUN6M2ltLWR0ZW94WVJUbVZKMVBHcU9HSkg5c2NSZVBxcFBYbXU5NVpNV3VxME5tSWFHOWJGWENIdVFtMmo3Q1pvcHVYVmFYWnhwcHR4cmhCZTd6bm4xR3dNX2piWUkxQXhnY2VhdkhFM3FHaVVxRm1PTl9GNjJGTk1wbFo1Vmw1ckVBaTFRcVhKbHBFYjJ0aDJudlpXUkpGQnA5ZTBvWFo0?oc=5",
       "tickers": [
         "ATAI"
       ]
@@ -1430,38 +1461,6 @@
       "tickers": [
         "DRUG",
         "ALKS"
-      ]
-    },
-    {
-      "id": "f0b46926f9ba",
-      "time": "2026-07-16T18:25:00.000Z",
-      "source": "finance.biggo.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Eli Lilly to Acquire AtaiBeckley for Up to $3.8 Billion, Shares Surge 34%",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9uWHJzdk1obVppbi0xVjZTdm9yNzAxc1dqaFkwaGY5ZXNrdUxYMElobThWTFYxV0xYTlRhbjE1aFNmV2RsNFFtSWlqZmRObjNhUU5rM2ZGY3pEUE94UFNRalhaRG1uM04wXzVRX0I0NEJhUWpqU3c?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "84d6eac02abf",
-      "time": "2026-07-16T18:23:53.000Z",
-      "source": "24/7 Wall St.",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "GH Research : GHRS",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5odkd6cjhWZnFZRjlPZlNITGhsckRja1pwaGt3WTk4bF9sYmZObkpYV3IyX2Z1UllHOTFVNGR5RVFvaEhNdjBNQk0yd1dWZw?oc=5",
-      "tickers": [
-        "GHRS"
       ]
     },
     {
