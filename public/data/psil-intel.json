@@ -1,18 +1,24 @@
 {
-  "updated": "2026-07-21T12:03:24.961Z",
+  "updated": "2026-07-21T14:29:07.429Z",
   "counts": {
     "total": 91,
-    "crit": 9,
-    "warn": 7,
+    "crit": 11,
+    "warn": 6,
     "bySource": {
+      "Investing.com Canada": 1,
+      "Psychedelic Alpha": 2,
+      "The Dales Report": 1,
+      "Pluang": 2,
+      "The Clinical Trial Vanguard": 1,
       "Helus Pharma": 1,
       "Psyche": 1,
       "CNN": 1,
       "Financial Times": 1,
       "Investor's Business Daily": 1,
       "HCP Live": 2,
+      "Stocktwits": 7,
       "Business Wire": 1,
-      "Moomoo": 4,
+      "Moomoo": 3,
       "Investing.com Nigeria": 1,
       "Benzinga": 1,
       "Psychiatric Times": 1,
@@ -24,7 +30,7 @@
       "Endpoints": 1,
       "European Pharmaceutical Review": 1,
       "Psychology Today": 1,
-      "GuruFocus": 2,
+      "GuruFocus": 1,
       "TipRanks": 4,
       "citybiz": 1,
       "Healthcare Digital": 1,
@@ -36,9 +42,7 @@
       "genengnews.com": 1,
       "MyChesCo": 1,
       "CNBC": 1,
-      "Stocktwits": 7,
       "Shaw Local": 1,
-      "富途牛牛": 1,
       "The Globe and Mail": 1,
       "Mad In America": 1,
       "Sahm": 2,
@@ -48,21 +52,17 @@
       "stripes.com": 1,
       "sekbernews.id": 1,
       "Fitt Insider": 1,
-      "Pluang": 1,
-      "Psychedelic Alpha": 1,
       "WSJ": 1,
-      "finance.biggo.com": 1,
       "Semafor": 1,
       "Proactive financial news": 1,
       "The Manila Times": 1,
       "Colorado Newsline": 1,
       "The Presidential Prayer Team": 1,
       "Morning Brew": 1,
-      "fox8live.com": 1,
+      "WCAX": 1,
       "Stock Traders Daily": 1,
       "San Antonio Report": 1,
-      "drugdiscoverytrends.com": 1,
-      "FirstWord PHARMA": 1
+      "drugdiscoverytrends.com": 1
     },
     "byTier": {
       "T2": 90,
@@ -70,6 +70,84 @@
     }
   },
   "items": [
+    {
+      "id": "e8b0e578d415",
+      "time": "2026-07-21T14:20:50.000Z",
+      "source": "Investing.com Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Helus Pharma stock jumps on Phase 3 enrollment completion By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWmJwR0hIalU1NkxFVTdsN3A0b3NRWDVfSm5zQWZETUJNaWZMel8ySElGUFhVaW5CQTBaYlE0ZHRIaUp1ZVJ4aGdTcENZNGRuODRDSnNzcElHS1RBbjV5ZlpYWGFUclQzQ1BOVFhxQzlobk1aLTJ4SUxJMkpsUS1oWTZaenJUTWxTYVBYX0U3WmtGUHNvLTVPLURFVEVzU3NCR0NFVnpHUmQ0R0lma2toQndjUTJEMEFIV0E?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "972818a96998",
+      "time": "2026-07-21T13:42:06.000Z",
+      "source": "Psychedelic Alpha",
+      "sourceKind": "rss",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Q3’26 Psychedelic Drug Development Pipeline: Bullseye Charts",
+      "link": "https://psychedelicalpha.com/news/q326-psychedelic-drug-development-pipeline-bullseye-charts/",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "8192e1329d13",
+      "time": "2026-07-21T13:25:00.000Z",
+      "source": "The Dales Report",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "ALJ Julius Locks in August 17th Filing Deadline",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPakRyOTRvUW5pbEZWLUFBaU9TVmd3ejMycVpLNW54MTVZaWMtcXJyQTZsMUxkWUNQMXpUQlAtODItSDczTmxTODB1Y0xVNy00RlV1Nm1YSzRhLXlvNDg5WHB0Um9KM1NkclVuZ3MwWnFfN01qSFZGX3VsZVY5MFNhVEgzcEpTTC13SW9IVg?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "4a89afa74a70",
+      "time": "2026-07-21T12:10:20.000Z",
+      "source": "Pluang",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Helus Pharma completes enrollment in Phase 3 tr...",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVjVISU1WbW83MkY5S25EeS1NODVDbGFzS1Bxc2dVYl9TNzQ1VmJLZk9wTDhSZ004eFpRUkswRHhFeVR6eDN2amNpXzVxdUN6Vlo4M0I2YzdrQjYyeVpkeVVnQ1pjMDJ5YVJQTHVJUEZCbmhnVWtpV1ctSDZad3BoZWd3bENXWGRqc09GR0FZS2VlbXRLVTQyMWs3UTl4dnMwSmc?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "be34efc38ea0",
+      "time": "2026-07-21T12:08:54.000Z",
+      "source": "The Clinical Trial Vanguard",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Lilly’s $2.8 Billion Bet on Psychedelics Buys Science That Conventional Trial Infrastructure May Not Be Able to Run",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQc2xJZHp2MnRoQ2VheU1lS2RGakZ0OVJkT3VSWGg1UEgtS3VSaUpHajFhZ3dOTTRDdHhqMlE1TUZ5VmROT205VmxRUE40OWJVS21tVDhjUTVDY2dZOUFEYXB2WDNOYWhDWTZRTWZDaExiWkxmNlpSdlJDOG5Rc0JZT2hqNlZvVUthWHdUUU1ueWZ1RVJGMENEVXY2eUhnQ2NiWVRIdzBUUU42MkJvdXhBa2s1MThJQWVpU2wtcWJNNE1tcUZGdy0wU1dHQ0JaOXh5RzZ0dUNkbFJtbFByQmlZbUZYV0lrc203NTVOeEtWS2R3TERURVRfMGl6c21mYkozSkE?oc=5",
+      "tickers": []
+    },
     {
       "id": "673f64826770",
       "time": "2026-07-21T12:00:57.000Z",
@@ -163,6 +241,22 @@
       ]
     },
     {
+      "id": "afd3a2abaf18",
+      "time": "2026-07-20T20:06:03.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "b2967ab0766d",
       "time": "2026-07-20T20:01:00.000Z",
       "source": "Business Wire",
@@ -193,6 +287,20 @@
       "tickers": [
         "CMPS"
       ]
+    },
+    {
+      "id": "ba4faa896638",
+      "time": "2026-07-20T19:09:36.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "PBM Stock Trips Into Spotlight Again: Rare Ibogaine Supply Edge Gets Boost From Trump’s Psychedelic Push",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDd2OGYwcWpOYUZFa0NlVzVmekZNMDBpcU4zY3NSdDF6R2NxSFZPMy1ySm1NUHZMamRsY09Lem1JSGN0emNQS1g5R0pIci1XUHdFdUg1ck5OSTlaNmZKUXZuZFRLZTN4R3F1TnhkQmVwTXlvWmhmNTBxUEp5WUZtRTZMQjdORWRoeF96TG12SzRreG14emlKLUZNTFpBX2kyUnpTWDdodmhwLUlvZEY0VmpUc0VWaUx0TTI2TF9scDIwX2lYV1hhLU0wRWNKdw?oc=5",
+      "tickers": []
     },
     {
       "id": "99513dee554e",
@@ -717,20 +825,6 @@
       ]
     },
     {
-      "id": "ba4faa896638",
-      "time": "2026-07-18T14:34:24.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "PBM Stock Trips Into Spotlight Again: Rare Ibogaine Supply Edge Gets Boost From Trump’s Psychedelic Push",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDd2OGYwcWpOYUZFa0NlVzVmekZNMDBpcU4zY3NSdDF6R2NxSFZPMy1ySm1NUHZMamRsY09Lem1JSGN0emNQS1g5R0pIci1XUHdFdUg1ck5OSTlaNmZKUXZuZFRLZTN4R3F1TnhkQmVwTXlvWmhmNTBxUEp5WUZtRTZMQjdORWRoeF96TG12SzRreG14emlKLUZNTFpBX2kyUnpTWDdodmhwLUlvZEY0VmpUc0VWaUx0TTI2TF9scDIwX2lYV1hhLU0wRWNKdw?oc=5",
-      "tickers": []
-    },
-    {
       "id": "6f85fdbeb38b",
       "time": "2026-07-18T12:00:03.000Z",
       "source": "Shaw Local",
@@ -743,22 +837,6 @@
       "title": "Wilmington man, woman charged with delivery of fentanyl, psychedelic mushrooms",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNXBNdnRnclF3ZU1NbHA1Q2FyenpnZnpvVmlEODJXaHlJRnQ2N2xpSFNqVnlMTGZUMzJqZ0FCclZCQXB6Z0pxLVNpWS1aMGJHSHRiVnZ2LWxlb2VjY1BTTThwU0JRcFlNZ1J4Y09KdzFHdVVUSDhNeEVZbEt3R2RrT0oySGV6MUN1eGcteDdNdzBFUmlZV1JKOEhkbmRSM21VSWRpTUkxX2JlZXRScXBqbkEwempGcmNGa3lBNF9Yb05tM0lwemFQQy1B?oc=5",
       "tickers": []
-    },
-    {
-      "id": "bc4a67af458c",
-      "time": "2026-07-18T11:37:07.000Z",
-      "source": "富途牛牛",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "J.P. Morgan Maintains Alkermes(ALKS.US) With Hold Rating, Raises Target Price to $60",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSW5rcml2bDU1YlRPT1JRbERnVzhYRlpuc2FaeHNDM3hESUUxM2FtOEd1dnJvOXNRUXF6aXBtc2tZOHM5RlAwcnItTXRnNlhNeTY3QVBnRjdETExyX3BDM1NvSmpyVTZGajc1TWtITW9Udld3UlRHLVotZnN2WUlKUDc0R05tMVoxOE53eWNudWRUa2NXSFJ0TU5ZTEJIeGpndUVCTU5QWlQ2VW8?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
     },
     {
       "id": "9801a47d3f33",
@@ -897,22 +975,6 @@
       ]
     },
     {
-      "id": "afd3a2abaf18",
-      "time": "2026-07-18T01:24:15.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
       "id": "55c1e8c4ba19",
       "time": "2026-07-18T00:18:36.000Z",
       "source": "ChartMill",
@@ -1017,18 +1079,21 @@
       "tickers": []
     },
     {
-      "id": "b30dcd5940c3",
-      "time": "2026-07-17T13:55:00.000Z",
-      "source": "finance.biggo.com",
+      "id": "6dce2df3faa7",
+      "time": "2026-07-17T13:04:32.000Z",
+      "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Eli Lilly Drops $3.8 Billion on AtaiBeckley, Sending Psychedelic Stocks Soaring",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TREhfenM1cU9raFBOV1pSSndjRFhZX0UyXzFuMnp6M0cwMEdyZUJPYlZ3SmV1amZRcU1ybnpwdno4bFVIREJrakdnRE5SNTVXTVAtWDNmTk5HdWNsTHVhOEhDOVUyV3BZZ1Ryd0szakd6NlNNNkE?oc=5",
-      "tickers": []
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Cybin (HELP) Advances Psychedelic Depression Drug to Phase 3 Amid Fresh Funding – What Really Matters?",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQelMxTFlwN196ZkZQSnFxR3pYQkxxb2pINFllNUxWNzMtOEktN3huSTNKcGNYTm9MdnctS1NLdWJEVUhZNzdpbFQ3YUNYUkg1UkNlNFdXY2xRc21teVpmX1YxZlk2SDN3cUJTTXBWVnNiaFhZOXR4OV83clFXa3VyQ25Pd1BOczUwSmp6R0RHVXcxTmdlRFZOdEFLejdtTkZUV0dXLTlaYTRieVhadURsSi15aTJFY1VBOVQ0RHo0UkJvcTZDcDh1RG04VnJCT3NsMjBIX1VB0gHbAUFVX3lxTE5VZm1mQW9UYjJ1Ty1ZOXpBaURjbm94TXV6amJUQ01jWS15QU1ldGpUdFROU0JXQ1BjOVJHZzFhaTk0emE4NzkyeU9ZQzZKUTAyQmFERzRMVUhZbkljM013M3dGRWxTUERsQ1pUUnh5eklaZ1ZMM1k4T0w5WW94VXhGV2tWOXU2TndxSmRRdHgtRG1YVEljWlpucGQyOXFjUUFQSEl0T2JMdjB3RWo2dWg1b2RLZlgzNGhpUWNoUkFDWXhsYkhhbXVwbkZNM3Z1MXJQOXZDUkRDT1dRWQ?oc=5",
+      "tickers": [
+        "HELP",
+        "DRUG"
+      ]
     },
     {
       "id": "cfd36bb0b728",
@@ -1072,23 +1137,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQc1pxb3NHVDhUY1laMm50Qm90aTVZR1FDSFVEb1AyU3JSck85ekpLNUVrOUdqdE9mTUo3aUpnZ2VkZHc5ZmJFVXctSXRqX2xJV3RRSXhVQ1RzYktMaVNUenRjUU1LMVZsdjAxOTN5MkZBM0tvajBCdFBOOUllclhKZjEzQW12dkpXWEN3c1REWnduRTdqcFRiYkx5b1YyN21QdXpueHZCVjJraG9wQWhVRFRUUWp0RTZrUVhtOUFNRlNtT2xnSURqRnIxTTRnY1lwUmtNbHhGU3d2WUdCdlJFMVk2aFNoUEh5c3dKTWQ4YW1ZSzVTMFJzdmNXdXJfeUR1ZkZrc1hYT1pUdEkxYkhJ?oc=5",
       "tickers": [
         "CMPS"
-      ]
-    },
-    {
-      "id": "6dce2df3faa7",
-      "time": "2026-07-17T12:42:58.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Cybin (HELP) Advances Psychedelic Depression Drug to Phase 3 Amid Fresh Funding – What Really Matters?",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQelMxTFlwN196ZkZQSnFxR3pYQkxxb2pINFllNUxWNzMtOEktN3huSTNKcGNYTm9MdnctS1NLdWJEVUhZNzdpbFQ3YUNYUkg1UkNlNFdXY2xRc21teVpmX1YxZlk2SDN3cUJTTXBWVnNiaFhZOXR4OV83clFXa3VyQ25Pd1BOczUwSmp6R0RHVXcxTmdlRFZOdEFLejdtTkZUV0dXLTlaYTRieVhadURsSi15aTJFY1VBOVQ0RHo0UkJvcTZDcDh1RG04VnJCT3NsMjBIX1VB0gHbAUFVX3lxTE5VZm1mQW9UYjJ1Ty1ZOXpBaURjbm94TXV6amJUQ01jWS15QU1ldGpUdFROU0JXQ1BjOVJHZzFhaTk0emE4NzkyeU9ZQzZKUTAyQmFERzRMVUhZbkljM013M3dGRWxTUERsQ1pUUnh5eklaZ1ZMM1k4T0w5WW94VXhGV2tWOXU2TndxSmRRdHgtRG1YVEljWlpucGQyOXFjUUFQSEl0T2JMdjB3RWo2dWg1b2RLZlgzNGhpUWNoUkFDWXhsYkhhbXVwbkZNM3Z1MXJQOXZDUkRDT1dRWQ?oc=5",
-      "tickers": [
-        "HELP",
-        "DRUG"
       ]
     },
     {
@@ -1340,9 +1388,9 @@
       "tickers": []
     },
     {
-      "id": "940496ad6378",
+      "id": "fd02f7bf8244",
       "time": "2026-07-17T03:36:00.000Z",
-      "source": "fox8live.com",
+      "source": "WCAX",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1350,7 +1398,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Whitewater Police find 26 grams of psilocybin mushrooms during domestic abuse incident arrest",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLUhBZXQ5QXpqVXZCMnJ6eWFEc2JNRjlOY3QwVGh5SUpqRkJtNUtpd0RPZkhYbm1GS0w1WTliemRLYW12cEtYNUhKRU53NGNPTDhqaG55TE5RLTRDOVE5Z1ZOdWtmdlNBZ0EwcnJGYVg1R2JXVnZmNk54b1M3dmNLZ1JTNzBYTGgyZGhKYlQ0Z3N6WkozLVY5VHJ1QjAxSkpmVnVjbEpWWmVqWks5MG4xa2tzeVdaWXJxbUJBeU5iaU1fUHFBb01nalZpV2VDZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd0lCMm04V1VFdjBZMTVVcmFCRFNNTmRRVVpwQmh3ekVfZ0tCVFFHMGVjWmhrNzdSZVZsYUUwZi00UDBjeWNUUnA2TzVvWXRJQkNiUHBsM1BYWmZGaVhhUkJQMnVEZkVTT3Z2azZiR19FcUJoQUpqSmdtdG9XdVRfTWphWC1OcXhILWZUTGlTaXh0Z2dBRHY4UHJJczE1Y3YyZWhmTF9YdFJUTDg4Qkl1Ymp6VzhzVVlYamtwNmVKNHVUMk5XZWhKUw?oc=5",
       "tickers": []
     },
     {
@@ -1415,54 +1463,6 @@
       "title": "Lilly offers up to $3.8 billion for AtaiBeckley in bet on ‘God molecule’ found in toad venom",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMEhqbzB1YmhKajlZN1p5UGhSVXJILWprWEtQcVozb1hCcC1BTktmcGtGa3I3MkUzUWoxSlFSRUM2ZElnMHVzYnFYOXM0bWNoNFBaM2lvR3dWZ1RSVmNhQ0dlZE9zSkxZX2xEOXBCYU5ULXFFZ3o3Uk5tZlRvMGJwX2hVMXY0LS1HUDhScHFWOU1oZWprU1dCZ3JfUHJ2aVhhUHptSjRRSTkxS1E1V2NPc1JLQ21rN1Z0NHhN?oc=5",
       "tickers": []
-    },
-    {
-      "id": "bec043283012",
-      "time": "2026-07-16T21:18:12.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "ATAI Life Sciences Cut to Hold From Buy by Maxim Group",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcTJBNXNlX01CWE5KSHVpMS1uU2FyNDNCc3Z1dmZ6UmRJVFVJSjdEd3M5RmtCSXJnaWc3cXAzeVNGdk1jNURTTzlBOWJSYk9DZWw4aUxneUZHWmZCd3pMNDItclZMcjduMFhGTEN3T0xaSWNTejZSZUdpQ0pwMmRJaTJPUjdDUWFWWF9ZS3M3UEdkSWlB?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "094c858c78c4",
-      "time": "2026-07-16T20:55:35.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "impact": "MED",
-      "title": "ATAI Downgraded by Canaccord Genuity -- Rating Changed to Hold",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFlaZjh6eGRGanl2cVV4NTJlUjliZHIxTTItTm9sSGhUOTd2UkNvU0xEX29idkxxQ25mUlVGYXdjYzd1eU5LbXEtaVRRYTRvSHhNaGZVeGJ3ZGh3T3E1dTJGWFdyUi05WE41Sll4dVQ4SHRhc3V3X0hpbFQ4SFNYeTA2b1RqYlJYak9EN05QTkFXYzJJU0tSUTJlLUxvWUE?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "6e419e2904d7",
-      "time": "2026-07-16T20:25:37.000Z",
-      "source": "FirstWord PHARMA",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Lilly to enter psychedelics field with $3.8B AtaiBeckley buy",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wVHRxZ21KNDdZN0dOY1hGcmRBZldTVXVCZHpyOWRxMTVfb0lueFBEeVUxNmFVZFdwOHViMndJTkNycHJla25RWW41QWpRVnBLTWNn?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     }
   ]
 }
