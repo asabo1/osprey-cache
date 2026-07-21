@@ -1,11 +1,12 @@
 {
-  "updated": "2026-07-21T06:44:48.200Z",
+  "updated": "2026-07-21T09:45:35.205Z",
   "counts": {
     "total": 92,
     "crit": 8,
     "warn": 8,
     "bySource": {
       "Financial Times": 1,
+      "MarketBeat": 3,
       "Investor's Business Daily": 1,
       "HCP Live": 2,
       "Business Wire": 1,
@@ -13,9 +14,8 @@
       "Benzinga": 1,
       "Psychiatric Times": 1,
       "Forbes": 1,
-      "MarketBeat": 2,
       "TradingView": 5,
-      "Yahoo Finance": 3,
+      "Yahoo Finance": 4,
       "Ad-hoc-news.de": 2,
       "Endpoints": 2,
       "European Pharmaceutical Review": 1,
@@ -24,9 +24,10 @@
       "TipRanks": 3,
       "citybiz": 1,
       "Healthcare Digital": 1,
-      "Investing.com": 3,
+      "Investing.com": 2,
       "Nature": 2,
       "simplywall.st": 7,
+      "Investing.com UK": 1,
       "ChartMill": 3,
       "Fierce Biotech": 1,
       "genengnews.com": 1,
@@ -42,6 +43,7 @@
       "The Coast News Group": 1,
       "stripes.com": 1,
       "sekbernews.id": 1,
+      "E! News": 1,
       "Fitt Insider": 1,
       "Pluang": 1,
       "Psychedelic Alpha": 1,
@@ -59,10 +61,7 @@
       "drugdiscoverytrends.com": 1,
       "Chemical & Engineering News": 1,
       "Baton Rouge Business Report": 1,
-      "RAPS": 1,
-      "Medscape": 1,
-      "Targeted Oncology": 1,
-      "Mealey's": 1
+      "RAPS": 1
     },
     "byTier": {
       "T2": 90,
@@ -83,6 +82,22 @@
       "title": "Psychedelic drugs are going mainstream",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbXdpWUltTzBkUDdRSzl4SUw4RzZNUXNweVlrcy1wd1lneG4wZFZnRmJ6d3FTbkNWbEpqd2tzajFHa0RtdFZ3RWhnNW9HNmllQ2RicmlzUGlteHVWLUQ3ZVJLRXlWaEczOEUyT1Via0tQV3hTWHlnMTNFZ1hNaWcyRl9Mcy0?oc=5",
       "tickers": []
+    },
+    {
+      "id": "be5a244e5682",
+      "time": "2026-07-21T02:46:29.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin (HELP) Institutional Ownership 2026 $HELP",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlZUlDbFl3S0lMU2p1SUwxYnNISG9mdXVJWTlwUXhieUgxeTVMTkxMQVVET01yMVdrV2JsaXp2RlRBYkZLVzBoMEN0akNTbXREWnBUQ1hGaG1ZYl8yeUItdDdCbF9kRWRUZ3ZwSk11Z1VQZGFJUmdWcHRB?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "d6ec139d9054",
@@ -423,24 +438,8 @@
       "tickers": []
     },
     {
-      "id": "b0523bfe3982",
-      "time": "2026-07-20T10:28:39.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Stifel raises Alkermes stock price target on orexin program outlook",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVW5kS2NOQ2p3RE5Dam9Mc1hDZE5OYUJvcXZKd0E2a0NZSlozY1VHbFMxMm41RXc5TERFZERna2ROM1Ixd3NpRzhnY1BIT1diaW5YdmRxSk9NZnlvdmtOUHdqVnNOMjItNy1HNHZWb1RzNVdIaDFOSW4tbVJNR041UUJ3Tkc0UVFMWnViMTlXTXFZS2xQQnljeEIzdU8zVjRVUF9EWjFyZlc2VUJFRXNSaVBmT0d3RUpLaHd1bEVONkhiS2RTMUE?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "6e5a0062e854",
-      "time": "2026-07-20T10:20:39.000Z",
+      "id": "f2b862696325",
+      "time": "2026-07-20T10:20:40.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -449,9 +448,25 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Chief Financial Officer Greg Cavers Sold A Bunch Of Shares In Cybin",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPT0tOZllqUDBpVEZPb2J3WFJjZG44Y0E2NnJ0YVUxeldfZ1VxRVlqZ3pLcnNSMWNRQjJVSWdIUEtWa3NieVprc3ZXMHJXN2ZZVnV6NzBRVE5sZnhxbzNtM0dXakVXb1FWTDZMQXdLeEMtc3ZIbDF2ajNsYnNYSklOMFU4bFRRTV9JOWlRYko0Z2VxNng5LVBMME13ejZWREJLMFZjQW5LZG5MWVVUZEN2UzBSZ2dsZTJxVmNVMzhfQjIxVmpuZk9zdkFvcGVKX1ZLck42eWR30gHbAUFVX3lxTE05ZlhpQl9sQVVnWFBEVTFyOTZnZ1JFUER1aTJGTmFSZHdjeXR5d29FeENCT0lwUm9yS3JTWmtFZVF0VFc3bjZSalBfQS1ZZFY2YThZZWtRRHJnaWdhbTJrSWFaTGZPZ0wxdUZNekxJcTYzRkhfVE5yalBuX2c2OHAzWXZhRm4xTldFSU5kalVCVjZFNkZiWS1mNElIVGUwdk5ISDNHbGQ5ejY4MTVHcVZ6UGZjWV9KcG9JemQ4WDR1VWgtSXNPaXJaVmxWQUN6VnN3SHE3el9PY1gwSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOWZYaUJfbEFVZ1hQRFUxcjk2Z2dSRVBEdWkyRk5hUmR3Y3l0eXdvRXhDQk9JcFJvcktyU1prRWVRdFRXN242UmpQX0EtWWRWNmE4WWVrUURyZ2lnYW0ya0lhWkxmT2dMMXVGTXpMSXE2M0ZIX1ROcmpQbl9nNjhwM1l2YUZuMU5XRUlOZGpVQlY2RTZGYlktZjRJSFRlMHZOSEgzR2xkOXo2ODE1R3FWelBmY1lfSnBvSXpkOFg0dVVoLUlzT2lyWlZsVkFDelZzd0hxN3pfT2NYMEnSAdsBQVVfeXFMTTlmWGlCX2xBVWdYUERVMXI5NmdnUkVQRHVpMkZOYVJkd2N5dHl3b0V4Q0JPSXBSb3JLclNaa0VlUXRUVzduNlJqUF9BLVlkVjZhOFlla1FEcmdpZ2FtMmtJYVpMZk9nTDF1Rk16TElxNjNGSF9UTnJqUG5fZzY4cDNZdmFGbjFOV0VJTmRqVUJWNkU2RmJZLWY0SUhUZTB2TkhIM0dsZDl6NjgxNUdxVnpQZmNZX0pwb0l6ZDhYNHVVaC1Jc09pclpWbFZBQ3pWc3dIcTd6X09jWDBJ?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "86507d890e4b",
+      "time": "2026-07-20T10:06:00.000Z",
+      "source": "Investing.com UK",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Stifel raises Alkermes stock price target on orexin program outlook By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUXpwUlZxS1JoUERXcHo2ZDZOWXdvNm1YeW5qZGVkdFFjREJ4Tkh1UVN3WXh1THVMbTRLMVBOQkpXRTd5Y3NGdm1KZTZYUlRIVXpBOFAwdDRONkR6RGVBakNONnVUMHdjR1NtWjF4UnZTaWVYU0VJZUdvWkxLZ1FPRFpOZ1dpSVZ5WG01Y1ppM2NqRUU1M0ZhczJibUdQc1V3Q0llVXB6M0V6N2VES2dEZ3pHZVk4eDIxbzVTeXItUjZjd3lFd0gw?oc=5",
+      "tickers": [
+        "ALKS"
       ]
     },
     {
@@ -897,6 +912,20 @@
       ]
     },
     {
+      "id": "3cbbbb5f618d",
+      "time": "2026-07-17T19:45:00.000Z",
+      "source": "E! News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Celebs Are Loving Pucci-Inspired Psychedelic Prints for Summer",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaHA1cURfbGh6OVJCaU1pSV9MSVJ6dmFYODRMSzJIc1NvUlExUFFISVhfWEpNS2g0Ukt0cEhySjR5SFVWT1g5TXMyOTVkbHZQaXBOQ1lEZUF6d0wtOEtqVk91b0FtVTBHWGpqVWg2QXA2eTFNdXNmSVJnY2ZKZndqOUl5d3hDclRFSUEzZGl3MEVKMWVLckZNaFBVRkVuOFhIa091RFVobkxHUVFrbmc?oc=5",
+      "tickers": []
+    },
+    {
       "id": "593da58ea4e8",
       "time": "2026-07-17T19:30:47.000Z",
       "source": "Fitt Insider",
@@ -1262,6 +1291,20 @@
       "tickers": []
     },
     {
+      "id": "9fd53495a520",
+      "time": "2026-07-17T04:01:00.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Eli Lilly to Pay up to $3.8B for AtaiBeckley in Big Pharma’s Latest Psychedelic Foray",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUDE1TDVMajV4RGFmSXVWeWhBZWRfRHNhbVN0X0JUWDc2UHl6eXEtN0NTLUtDZ2NFbHNaYUNOekFybnF3ZnhHLTlaNm5VWVMwdEhRdDJzaEZlaF9ZT3dLVDFsMGxzM2JkLTNtUTBIU1B0S0xCRG53eFVqRHVZaEx4R0hWLVZZdw?oc=5",
+      "tickers": []
+    },
+    {
       "id": "940496ad6378",
       "time": "2026-07-17T03:36:00.000Z",
       "source": "fox8live.com",
@@ -1414,53 +1457,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWEFoeUpySnMwOUFzWmJZeDFhZHI3MklETnpHMkNtZGdZdXU5SnRvbzBoLTBZVDVqZEhSS2xfOHBTSFN2WVY3TElLT0JON1llTEx6cEZ6dDJTRmVhTUN2SGxtVk15QWVIOFJpeG5zREhkV3psU0R0ZmlQTURWdFRnMlktN1Bpc0t1ZHdURjdRb0ZfM2pHcHdESFlCVU84YnpzNjZYNjZpTFVxcmxyNnh2U1lPejJaM0RKeW5ZUHlSZWZXeTJiTjdxb3FKV3dQNHJhbFBuRmIyT2I0VUhud2VZ?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "67b594b11647",
-      "time": "2026-07-16T19:49:30.000Z",
-      "source": "Medscape",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Dual Orexin Receptor Antagonists Improve Sleep Quality in Insomnia",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZlUtTVFfV3NacmlBQjdodXpqR2RTUXVjd1c5MzVUT2R4eGF0YVR2Q2VIaUM2R20tX2kxcUNWUHRBVnlLdEU4blhWNFEyRmJNMzJhdGc3eFRNMUNJNnFGbHBacVVLLWxZMTV3N1hHbXR6TUwzeC1jLUZQMlR6SnZ2QzJXeTFSNW14U0tJR0dnMEJNcjRNamFBQlh6Sl9tdjNFVzB0eUl2TWI?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "9569ebb14873",
-      "time": "2026-07-16T19:10:21.000Z",
-      "source": "Targeted Oncology",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Exploring Psilocybin-Assisted Therapy for Cancer Patients' Trauma",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZmdHTTF0d1N2WFJRaFhKeDdxVldYRFQ0dGxrY2FucTVsYTEzbDdJLWRXS2N0akV3Sm4yNlFtVUc4dVJ4MjZKVVM3ODNtUWZWM3JxdTkxUWx0Mk94REN5WG1VZ2gzVkV0cWNnLVVPUFlscmVYTG1FLXpiQnNqcmNVUHU5UGEwaURBeUNkcHN1c2txQmJHd3Zkc044dHQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "2adb051b9d66",
-      "time": "2026-07-16T18:58:00.000Z",
-      "source": "Mealey's",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "2nd Circuit Won’t Order Changes To MS Drug Patent License Arbitration Award",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVDBHcUJqa01nQkQ5Y0hLWFFZYkpuSzN6Z1dSMFZSNGVOY0xSS1hRdUVybDFyT1gtTjhUSTc4VUFZOThlQnJZWDFLZS1GSVBzWDhpak1LX3FyYzhrQUphT1d3UHYxOXJkZWhuTERBamRsbVlfSFh6TEZBTjFlSnh4dEVXWUs1M3E5VXdseUc5TVBZVkZDOE9HYXhUWGZjdm8zQ2pfRzVMcHBaYjJZcEVOMjdpTmtuQzNJUEtjYUdHV1ZWQVBkSFB1ZGtpOVJIRVJyQnM1Z1JEa9IBYkFVX3lxTE5hZW5RVzhhY3N4TFhIcWttOXVZY0E5Ynl2OWRsLUxZTFgzSDEzZ0hQWmNMTWppYnFkNkc5T0xtMTQ0b2dCSDg2WW4wSHpPNUlDNVVLRHExekw4SU1uamJXRDFn?oc=5",
-      "tickers": [
-        "DRUG",
-        "ALKS"
       ]
     },
     {
