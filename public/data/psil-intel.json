@@ -1,19 +1,22 @@
 {
-  "updated": "2026-07-21T16:50:16.569Z",
+  "updated": "2026-07-21T18:44:53.766Z",
   "counts": {
     "total": 92,
-    "crit": 12,
+    "crit": 10,
     "warn": 7,
     "bySource": {
-      "Fierce Biotech": 2,
+      "Fierce Biotech": 3,
+      "Technology Networks": 1,
+      "The Nugget Newspaper": 1,
+      "BenefitsPRO": 1,
       "GuruFocus": 2,
       "Stocktwits": 7,
       "Investing.com India": 1,
-      "Yahoo Finance": 4,
+      "Yahoo Finance": 2,
       "Psychedelic Alpha": 2,
       "The Dales Report": 1,
-      "MarketBeat": 3,
-      "FinancialContent": 1,
+      "MarketBeat": 1,
+      "TradingView": 5,
       "Pluang": 2,
       "The Clinical Trial Vanguard": 1,
       "Helus Pharma": 1,
@@ -28,27 +31,27 @@
       "Benzinga": 1,
       "Psychiatric Times": 1,
       "Forbes": 1,
-      "TradingView": 5,
-      "Ad-hoc-news.de": 2,
+      "Ad-hoc-news.de": 3,
       "Endpoints": 1,
       "European Pharmaceutical Review": 1,
       "Psychology Today": 1,
-      "TipRanks": 4,
+      "TipRanks": 3,
       "citybiz": 1,
       "Healthcare Digital": 1,
       "Investing.com": 1,
       "Nature": 2,
       "simplywall.st": 6,
-      "ChartMill": 3,
+      "ChartMill": 2,
       "MSN": 1,
       "genengnews.com": 1,
       "MyChesCo": 1,
+      "exploreJefferson": 1,
       "CNBC": 1,
       "富途牛牛": 1,
       "Shaw Local": 1,
-      "The Globe and Mail": 2,
+      "The Globe and Mail": 3,
       "Mad In America": 1,
-      "Sahm": 2,
+      "Sahm": 1,
       "Bitget": 1,
       "Volume One": 1,
       "The Coast News Group": 1,
@@ -57,10 +60,11 @@
       "Fitt Insider": 1,
       "WSJ": 1,
       "Semafor": 1,
+      "PR Newswire": 1,
       "Proactive financial news": 1,
       "The Manila Times": 1,
-      "Colorado Newsline": 1,
-      "The Presidential Prayer Team": 1
+      "Investing.com Canada": 1,
+      "Colorado Newsline": 1
     },
     "byTier": {
       "T3": 2,
@@ -70,7 +74,7 @@
   "items": [
     {
       "id": "c80d5f598146",
-      "time": "2026-07-21T16:50:12.463Z",
+      "time": "2026-07-21T18:44:52.714Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -83,6 +87,48 @@
       "tickers": [
         "DRUG"
       ]
+    },
+    {
+      "id": "b3712bc65888",
+      "time": "2026-07-21T18:13:47.000Z",
+      "source": "Technology Networks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Can Psychedelics Be Redesigned To Avoid Nausea and Treat Depression?",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOFpUZXd2dHBhazludTgyOVVjQVZnNjJOV3N2MEFYUUc1MVY2V1JEeWVTUnBFQUxnYkczVUpFVnNxc1RKM0h0T2xOUWNTU1ZTN082MjZCazRMc19DS3Vld2tJckgzc3ZITXNrRWtKRVM4R1FIZU9MMzNqZjZFYUZ0bURwRTQ5bXY5MWFOTFVPaWgzenZoV0lQY2pYaVkxd3NxSXdKR0xrdllzLXdLZElScjUyaUpMN1JK?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "026d4eac7cdb",
+      "time": "2026-07-21T17:44:12.000Z",
+      "source": "The Nugget Newspaper",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psilocybin raises safety concerns",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbV9sME1IVHZ3cHlBQkZ1ak1VSnd3Vl9ULWJXS3BGTExqN001aGRKTjBSVlZsYmJrLTlrVnRwMHVqNkRSOEdWd0g2d0NUVldKQjczTUNxMk4zcVFCVUlEUWxsUDJLRHlweThWbTVYQlBucWNxWU5MMkpDdXFScEhkdUZPTTc3Nk5XeUdpSmZXcldsREJTNjUwUExZYw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "d1101b2be686",
+      "time": "2026-07-21T16:26:03.000Z",
+      "source": "BenefitsPRO",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Eli Lilly makes $3.8B psychedelics bet as federal support builds",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNURiRzlTZTdIUzBkaVpZVDNNLUlqWEQ1UzFhejVVZm9zYUtTRmtZRER6eFRMNE1Jby12a185X3o1dWR6SExJYjdFUHBNMWJONkRNZzR0bUlJa0lPWjJXdDlYaW1melNZTk9sdDRDUGhOMXdGM1o4aHJRRHQzNWR2enl6QzBrbmZJLUtUWWNaSDRZb3YxTEVBSk1FOVc5ZXQ3Nmt6WA?oc=5",
+      "tickers": []
     },
     {
       "id": "2f7236c7bda8",
@@ -130,6 +176,22 @@
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdC02UVBaa1lNdzJaNFVqRDBjY0FicVF4cTNneUZIckVZY3Awa2VHNUduVFd6ekZ4VC1iVHJ6bHE1b1VQaG9pMGVBcE1iNHNTRnhoZENtbGNiZG1DcGMyRlFZVFZoVS14ejcwc3Bpb3BTLTRXWmxLR1NzX2xURk12ZEl3T2pzYXM0eFQ3TUZCaXRwbG84QWUwV0tlUENLdlZ4T2dvOHItSVZjdlFJNDhZZEUtRnBuSWIzSzFyMHVTTFNfOHNTdFk2ZmdB?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "8bdef37115e1",
+      "time": "2026-07-21T14:00:40.000Z",
+      "source": "Fierce Biotech",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Jupiter enters psychedelics space with $100M deal for MDMA drug",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbnpVRXJzVkFyY0twQklYNVFXOUdYVDJKbXRNNVduRFRjM1ppdUlwVE1pMlVOVURLY09NT09OYnFuT0N4bUIyTDJkT2tnZ1Jabnd1UThveERwalV0OTJjUGo0Vk5MUk1UNEtQbEdJYVVIejZIQVlPLXgxdEllcXJUZHN3di1qX0ZBSXEtMkt1SmJRVU9MUEdKb0xfWl8zRl96WDNZTXREUWo?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -197,17 +259,17 @@
       ]
     },
     {
-      "id": "5f1ce301bc2d",
+      "id": "be09c2260d1e",
       "time": "2026-07-21T12:30:00.000Z",
-      "source": "FinancialContent",
+      "source": "TradingView",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
-      "direction": "BULL",
+      "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Billions Flow Into Next-Generation Depression Treatments as Pharma Innovation Accelerates",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQanhyU1AtWmF4bWF1WlBaRUZWSVd0bUFxbTlha2hza2dLSmljZVp2dkFvOGVocE0zQjNPZncwdmVjWmd5dzhRVW1Sc3RfOTlxRWZZWllUc0x3UngxX25OSzRtLWY1TjV6TXp2b1Vodjd5SWNwb2N4VXJGOTR6a0NlTHJWUU1jdUREUXBrckc3RHhmREQ2czRjZlVKOUxVYkpGNXZKc0dUcjZ0bE03U2ZKU2VSODBhSjJZQk1WNjduR1dKdTB0ZnduemtwUHBSQUgzZFNpRGkzalJVMUt6ekVhbFdWQXhRYktiZ2dXUUtTcU8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxORXRBR0R1YWtEU2NwNXVSVGNJTzU3WGZ5alpRd2ZwU3RXMUEzcndDOWZ6NFNOcFlRMWpHN1dYeDh2MDRzQVFrTU5za3FDNHJCNVMtVmVia1NxRzFHMXd6c0FXVkZtbmlsZ1dLeU1NbmtILWFidHlDalBWMDEwbnlhQS1nNlRtOGdDVEc2TXFpWEN6bTZGMU9NU29xeExFa1hJUjdmX3hqaUpITUtBQzNVdlhRUGEwNV9UMVItNUVLY1pSLS1HTFE2QUxvak8zSm9EUDBvM191R3BaNnota3hfY0Y2Qzk?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -301,22 +363,6 @@
       "title": "Psychedelic drugs are going mainstream",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbXdpWUltTzBkUDdRSzl4SUw4RzZNUXNweVlrcy1wd1lneG4wZFZnRmJ6d3FTbkNWbEpqd2tzajFHa0RtdFZ3RWhnNW9HNmllQ2RicmlzUGlteHVWLUQ3ZVJLRXlWaEczOEUyT1Via0tQV3hTWHlnMTNFZ1hNaWcyRl9Mcy0?oc=5",
       "tickers": []
-    },
-    {
-      "id": "be5a244e5682",
-      "time": "2026-07-21T02:46:29.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin (HELP) Institutional Ownership 2026 $HELP",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlZUlDbFl3S0lMU2p1SUwxYnNISG9mdXVJWTlwUXhieUgxeTVMTkxMQVVET01yMVdrV2JsaXp2RlRBYkZLVzBoMEN0akNTbXREWnBUQ1hGaG1ZYl8yeUItdDdCbF9kRWRUZ3ZwSk11Z1VQZGFJUmdWcHRB?oc=5",
-      "tickers": [
-        "HELP"
-      ]
     },
     {
       "id": "51ac2f44732b",
@@ -475,22 +521,6 @@
       "tickers": []
     },
     {
-      "id": "33eec904aa7d",
-      "time": "2026-07-20T16:06:47.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Top Definium Therapeutics (DFTX) Competitors 2026",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOei1hblhLV0daTTVDX3p4QlhfOWphZWdsTGVLdTAxcTYyLXVfNUgtQlJzcEZFLVZZOTlzSHM4YjhHOTVpMTFKRkxGOW9ScUVLOVpvMm9hOE9tZ0llQnRfVlZaRTNNSlBjOUEtcEZad0d4UnFjLWxQT2hJa2NzWUxOcw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "df775caacc2e",
       "time": "2026-07-20T16:06:44.000Z",
       "source": "TradingView",
@@ -532,6 +562,22 @@
       "impact": "LOW",
       "title": "Lilly's $3.8B Psychedelic Bet Turns Atai Beckley Into a Milestone-Linked Payout Story",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQSDFnVjZFeHFQQlNWVXV0a1pYa2Z3ZnRhQlJtdzY5Qy1WVHJxaGdsV1Z1aE9ZcHFLZVVlS1czX0dSdjcySVEzMU1CQjR3bjJMR1o3RTNJdGl3MVhHUDFoR25BZlNhX0s0a3R2WUJ3MTRyRndXQ2x6dDZrM2huSXV0VXhaV0lJa3ZQS0p0bDlONklnTmU5MC1ldUlMRzl4QlZ4dHR1WWZTcklKSWhhTGxoQ1U2N2tKWm9OV2xiQ3JsSWFuekY4SVVFSHpB?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
+      "id": "f8059fb76435",
+      "time": "2026-07-20T15:06:29.000Z",
+      "source": "Ad-hoc-news.de",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Eli Lilly’s $3.8 Billion Psychedelic Bet Puts Atai Beckley in a Holding Pattern",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWFNrcXhNekRxbVpBTWM0Ny1ON3FRQkk5cnhVeEtHQVVSY3Nrb1hyc2hvemZIQ2hsYnY5Sng3b3YyRkZianQ0NUtDWTZyaFRCLUpmTDVxNmE1aGh5NExobnR0dmhpU3NDSy1LTmtfOXFCYzZaR1pOOUxsZmcyWUJfR1RBT1FhcGJNcTJQNGlCM2VEbG1BejUtbGZGOGxNWmFfcnI1VmR1WFgxVThxTzEwYVRpcXpQTzhpcUUzckVlWVAxNDc5eU1OXw?oc=5",
       "tickers": [
         "ATAI"
       ]
@@ -703,8 +749,8 @@
       "tickers": []
     },
     {
-      "id": "f2b862696325",
-      "time": "2026-07-20T10:20:40.000Z",
+      "id": "6e5a0062e854",
+      "time": "2026-07-20T10:20:39.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -713,7 +759,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Chief Financial Officer Greg Cavers Sold A Bunch Of Shares In Cybin",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOWZYaUJfbEFVZ1hQRFUxcjk2Z2dSRVBEdWkyRk5hUmR3Y3l0eXdvRXhDQk9JcFJvcktyU1prRWVRdFRXN242UmpQX0EtWWRWNmE4WWVrUURyZ2lnYW0ya0lhWkxmT2dMMXVGTXpMSXE2M0ZIX1ROcmpQbl9nNjhwM1l2YUZuMU5XRUlOZGpVQlY2RTZGYlktZjRJSFRlMHZOSEgzR2xkOXo2ODE1R3FWelBmY1lfSnBvSXpkOFg0dVVoLUlzT2lyWlZsVkFDelZzd0hxN3pfT2NYMEnSAdsBQVVfeXFMTTlmWGlCX2xBVWdYUERVMXI5NmdnUkVQRHVpMkZOYVJkd2N5dHl3b0V4Q0JPSXBSb3JLclNaa0VlUXRUVzduNlJqUF9BLVlkVjZhOFlla1FEcmdpZ2FtMmtJYVpMZk9nTDF1Rk16TElxNjNGSF9UTnJqUG5fZzY4cDNZdmFGbjFOV0VJTmRqVUJWNkU2RmJZLWY0SUhUZTB2TkhIM0dsZDl6NjgxNUdxVnpQZmNZX0pwb0l6ZDhYNHVVaC1Jc09pclpWbFZBQ3pWc3dIcTd6X09jWDBJ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPT0tOZllqUDBpVEZPb2J3WFJjZG44Y0E2NnJ0YVUxeldfZ1VxRVlqZ3pLcnNSMWNRQjJVSWdIUEtWa3NieVprc3ZXMHJXN2ZZVnV6NzBRVE5sZnhxbzNtM0dXakVXb1FWTDZMQXdLeEMtc3ZIbDF2ajNsYnNYSklOMFU4bFRRTV9JOWlRYko0Z2VxNng5LVBMME13ejZWREJLMFZjQW5LZG5MWVVUZEN2UzBSZ2dsZTJxVmNVMzhfQjIxVmpuZk9zdkFvcGVKX1ZLck42eWR30gHbAUFVX3lxTE05ZlhpQl9sQVVnWFBEVTFyOTZnZ1JFUER1aTJGTmFSZHdjeXR5d29FeENCT0lwUm9yS3JTWmtFZVF0VFc3bjZSalBfQS1ZZFY2YThZZWtRRHJnaWdhbTJrSWFaTGZPZ0wxdUZNekxJcTYzRkhfVE5yalBuX2c2OHAzWXZhRm4xTldFSU5kalVCVjZFNkZiWS1mNElIVGUwdk5ISDNHbGQ5ejY4MTVHcVZ6UGZjWV9KcG9JemQ4WDR1VWgtSXNPaXJaVmxWQUN6VnN3SHE3el9PY1gwSQ?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -869,6 +915,22 @@
       "title": "VA, HHS Expand Psychedelic Research for Veterans",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeHNRZ2I1N255SzZsSGhtb2poc19kQTJpaW9ackFtRHRWdnJwWkcxSGFpd2hhcGJRSWt1STVqS2ZhdUhfX2k4UlNadEdtaTZzVU1lMGtJeWJPeFhBaHJJdHJBSndSaGxERTVlWnhCOW12LWNzQWswZUVIc0dRTTNnMmV0Z1JPTkxDMGdoNElHZkpSWnM?oc=5",
       "tickers": []
+    },
+    {
+      "id": "3f010ac24e1e",
+      "time": "2026-07-19T15:02:46.000Z",
+      "source": "exploreJefferson",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The Medical Minute: Psychedelics, Cannabis, GLP-1s and Drug Policy Changes",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcUI0OTZ1MW9VSFI0R21ibWtYUmtjNlR3bkU4U0hOZmhaWlBYZEZnQXdmMnhkalFMMWVHSGxxQWpNQjRUbmRzYVl0Zll4d0Y5MUItMXZlVGtsTnVmdU9WOXhOcTBfT091M2VxSnlsUTZUZlY3U3FGSkM0WHluWEdSMmpURkZjb2JlcjhkemFtdktlOGtDQS1HNEVSdC1rT3RmY0xOZ0FMZFV5c21ueHYxSEFTWXJrLTJtazJPbWlBVHJuNEZrUGJSWGoyYkVHUQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "3dbe7ddb23c0",
@@ -1234,9 +1296,9 @@
       "tickers": []
     },
     {
-      "id": "6f5b6f0379b7",
+      "id": "97c6a21722e4",
       "time": "2026-07-17T12:50:00.000Z",
-      "source": "TradingView",
+      "source": "PR Newswire",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1244,7 +1306,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Big Pharma Just Paid Up to $3.8 Billion for Psychedelic Medicine, and the Rest of the Sector Is Being Repriced in Real Time",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPczM0NnlNYVJkUC0wRWRKdTR1dkUyTzU3VnpySV83SEVzQkRIVGNlaTNXdno1REdzS0JWTVk3WC1YVHhWaEd2cENnWDk4V3puR0l4ZDVBdW1ndnU5ejgwNzhQQW1NQmdqak52bTV0el96YXlCVVNDQVh0MFdEWUduOEM1SFpJWi1KVVNPVDVUQngwWm9MMDdkRlAzVG5uYllCTV9Rd285NGVvdkNTcTRYTmZ1NWlnRWltYXNEMVF6WFp3UjlPVkNVcHJia1VfWHFBaVIycG5DZGZIVVN0YzAzNmtZUmVpN1dlUHMyekFWRm9zYmVYbFRyVzFyWGxkSjVBcE4zTl9LU0lJTEhONjZN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPM3RPdC1QVS1oazhpWlNsdlVVOTBteEs5dW5UVjdOOW9seFQ0a1gwNFViTlNzMVl4YU9rdnBoaE1sU1RUZWpMVmExdzhLeHpjMWQ2SzBuUG5HUGRnczRoNXVBTFF0bnRXaWNVOU15MUIwcVhWZzc5MVVGOGQ4VF9fVXk5VkdTZmEwUGE3SmpHVnpzMEtlYVVnaW00bGFQdHZTV3dYX3p2UWd0aWt2SWNjb1AzSVZ1S1o5NFNqcUU0TGE3NnVKdXg4b3RBd0w1b2ZlT3JQNWpaLUphQVhGZnJBMTFqaDVyeWhSLWF0YVhGUTJLY1FHeHREOHFTZU9feDRWaG1iSi1GVzA?oc=5",
       "tickers": []
     },
     {
@@ -1306,6 +1368,37 @@
       "title": "Clearmind Medicine Commends Federal Momentum in Advancing Psychedelic-Based Therapies for Mental Health and Addiction",
       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOVnNZWGRIaEVsWmYyN2kxdVRuVGtQZ2Qyanh6X3VZSk1OWTNJR3ZCYTVITlVOSktRTm0xdlg1M1RLQktPdEk1WlRFc3JISUZIQ1lwSjlhQlhLWTl2aUVkQ254TXVUYzBBc0tCc3dfaExEaGR3emFVa0gxM3Ywd21JOVdXcGxuQURGWExGR3pPdk5INlg1aEhWM3JIeENlM2FZdlpHQWhYWXlEamhlVnRULTVraUE0RWVWLVg3LVJyTWxxbm5NZWhhY0dpS1o5aGEzbl9hUllKNjliRkM1MUZXeVNmQjl0eHY3LW10anRxT0ozd1oxU1JEclVSSWFHTEczVFl5alkyMDNaVzJxdFJaMW5MRjNFMDBKczU00gGgAkFVX3lxTFBvMHFMS3lubTctZFBLWFJuMjFYT1V2SzJlTHJ3bE44dGtwWFNsUDlneDJ2MG5jUDk0NGp6NjVhZUNsQWUzQW9zekw3U2w0cG40WUtlTjBSeVJxWlp5RndEYThBbmUtTE1PY1RLWVFTLUxNWmRWaGhGZ0JRMTR3aGd1ZVY5djl6cm5ZSFBxNGh3N3JwWHlad1ZJMzVjbGdrYTlaUXItcFJqM1RwNWgzckRvS0k1UUxfNlZ2SXl6U2hsOEFKdzhBN2I2cVhLWkQ3NlNfWmZQUXhobThoV2JJUHV2ZkFCdUtqTWZMS1ctZmtMaWJYSUZLZk5OVWJsa3NVVTlxQmRTOVJfMV9TdzRtbU5NaUFCTUxXdmlVaWJON0FSRw?oc=5",
       "tickers": []
+    },
+    {
+      "id": "cf7f7d20026a",
+      "time": "2026-07-17T11:43:29.000Z",
+      "source": "Investing.com Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Clearmind Medicine comments on federal psychedelic guidance By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR2RoRTRRUzFIUm5seExHU09nS3dZNGJtUnJkQkNhdTFtbFBBRkl4MU9iREM0Mm1JWjROVEtVNVhUeVNOc2VCeWV4ZkNqbVlYZXZDZkF5VE02QlpWN1BKSXk2UFBaRnBPQmhQTmRVR3E3U21Od1pSTElZRGFrRVFzdUpBa0VyLVVsUERpMTE3TGxsTHdKM2VRS3hDNmZ1bHUwTEs1UVZGU29HSE9pVXNjb0V6akJiVkw5RzJTMQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "acd60cdb8046",
+      "time": "2026-07-17T11:31:00.000Z",
+      "source": "The Globe and Mail",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Analysts’ Opinions Are Mixed on These Healthcare Stocks: Atai Beckley N.V. (ATAI), Alnylam Pharma (ALNY) and Elevance Health (ELV)",
+      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOYkw4VzBhRlVyNkc3ZFZSaldLSXlORnk3OVRQTnUyc2FWemt5YzFreDB4dWcxNURINVVjaWN3RlltcTFSZHVpSFp6YTJhS29RUDZsQkFUREw4QTdKZkswdVFaUVFnY25SN0hCZ0JOcmhyTUlFVzNYZ29fU1lBTTJ4SmR6WFV2UXFMTGlHaEE2aUcwSnVVb0ZUZWhfX3BEdzB1RVo0VXR1b25wQkNWLUVWSC1ldm1mdFNxQzNrTk43azZseFpDVUNhZEctV3N3WDBfMVdGUkwtVXVsWDE1T1VkY3JNTzljcE5rRXZ4dzhWRGZyOVl0LU9WM195TnVuSWlucGJzbXpHaXZqOU10Tllycmd1NjMxZzU4TDlLUll1QmxEVldxS3JZb0dFVQ?oc=5",
+      "tickers": [
+        "ATAI",
+        "DRUG"
+      ]
     },
     {
       "id": "dbeccde5d683",
@@ -1383,102 +1476,6 @@
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWmdINmN3RGlNd2t0cUllMnR3T1A0Ni0xZHkyWHMwd09Odi1yMGtnc0dqOUZ5QXJJc25oSUNhanVSdzdDSU02VkpfajZtNndXRzBoQXZQeE1LTXFEWXNWRTZPNHVUbjM2Wk9iMUxScUI5MHdIcjRpeXpDdmVlQjRBYXFOTUdzZU1tM3FNYnVBY0ZQTlhXUE4xU1pSVjhrWHdabHdLLTlxckhTZE8wNUROWGJpNWsyOF8zSXFuSHh3cE5GM2M5TlNWOEpoZXp0OThEQ0MzUHFmcnE4VGJGa1l0TlphMDRDN1VTVGpBcdIB8gFBVV95cUxNWnhTbXFqSlpTXzg3RGltVjRFWUhoVzd4cFpCaFVLZWpTMldieGwwbW04OHRqMm0tbW1yWDFXbXlGb1dtWjZsM1Nic0k5dmFtQW80Rk1fUmhLVGlWcy1iOWhhSmxJMG5zVEpoRGZzazVVOXQ2OTdHaXB0aEk0VmRoRFQtN3VWSk5kNzI4MG9FbzNmVDVyZ3hhMDMtT2lZZk8yNU1ZLTZCZ09GQXlyRzRSTGZKalpVZXhQb3hkaW96V19fMk92eTk5UHVFZHB2WVMtWE5OMlB6emQ1MUNhaDNYOC1oNVp4SU50bXo3YzNZZE5odw?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "0e204114c44b",
-      "time": "2026-07-17T09:13:09.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Cybin (HELP) Is Up 6.2% After Advancing HLP003 To Phase 3 And Raising US$50 Million",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbk1VRS1nbDEwUHBpNXBiVWp4TE1KN3FPRk14QklLOVd3SjZkNVRqMDZXRkI1VUFINnptQjBWLXhtNVVCUy1qMXhUdE1ISzJDUnVfRlJWeXAxbDhMYmh3RmxpeGVZOHl4VjM0ZjZiYUhjUWFrUWNETlRLNGxFcGRqbUY2NlRKSkJ5S2Y2Qm13?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "37e735763b75",
-      "time": "2026-07-17T09:00:00.000Z",
-      "source": "The Presidential Prayer Team",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "VA and HHS Announce Psychedelic Drug Trials for Veteran Mental Health",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQVM0NUxJaVg1SXBrMWF0emNVVWtxQ3l4SkxnU0hvaEQ0STdXd2pFLTVTUmJXSFlmZTBCN3lMbnVZMWs5S3VQZVBDR1hQRmdQYy1xUWpyMGw4akxTeHl1R21DSWVfVjU5RUlJYWJJUDl2eFVydGcxTU5HdVR5d1RTMkJVWmt4OEdFaHk1UENxVjU1T3dWdEtjU3p1cl94R0poREVlOHZkVjh4WDV6SEszeXJDNkM4LTRUQU5kOQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "d9249e879cf8",
-      "time": "2026-07-17T08:49:30.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Helus Pharma Raises US$50 Million to Advance Novel Mental Health Pipeline",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPREFjMGJ3ZXllWENkUUlmQU5hWXllN0pjcG1md0tmcnlkZVlhU2Q2eGw5VHVLTFEzMHJ1dzFBbmxoVVR4LW5OZ3pocXozLVJHSE9HU1J3MmEyVDBHM09XQWtWbUItcFQyc1JBYXF3NVZSaWVEQ1JPSmNZLVVpWlI4bFpxR19jUUdTYWdOZTlYYjlGdWNpN29QU0d5TjFsdTlENUY2M1dPMUZBVHlUOXp6LVA5LXhrY1pVclFMdE5oVklIUQ?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "d4b5b3633f2c",
-      "time": "2026-07-17T07:48:02.000Z",
-      "source": "Sahm",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "12 Health Care Stocks Moving In Thursday's Pre-Market Session",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUXYwUEZQU2xGZ2l2M1dMTlFWRVJOU1huaGJRYUo5MWt1QjQ4ZU9FWmlvWFVhRG9kVVBtN0RNVTlWUnFwM21jS3BXclFKVkVyWkNLamxxWlE2Z0t0OTJmcEl1UUxnd1BSeHlFWmJoVHFCQ2RPVWtLWDIwVUZqQzd1WTFQLXJfS24xR01ObDBGUU1Zb3VPa184RHZkcVNkeWx5M1d1RUlDSm1yYVR5M216d0Rn?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "e68f9968800c",
-      "time": "2026-07-17T07:12:05.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "COMPASS Pathways (CMPS) Is Down 8.6% After Phase 3 Durability Data For COMP360 In TRD",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWUpQSG1fQjhsOWsxMmtMakd5X3otOWRtSDFLSy10Q1RRUWtBck5HdDlPblNKRk9nT0lBNHZacTZBelV3S3FSNm9iUTNhbzQ4ZWpSYllZMWFiZ2JrYmEwWWlsU281Q19UZkpCajNtRkNMc1kyOFJYSVdxN1dhTVl0dElLSW9DQjZYRUFCOWZjZ3JtQkU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "dadbacf0726f",
-      "time": "2026-07-17T07:00:00.000Z",
-      "source": "ChartMill",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRXP Stock Price, Quote & Chart",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FLWFOUm9yb3dFMU0wVV85V3h6dFFyYWhYTDFCN1AtWkJZREZMV0VSdUhqZHBMMVVjRUJkQzllQ2I5a3o1NDNvdHhCVWNoLUNGczJ5UGRoNnhOZkI2N1BN?oc=5",
-      "tickers": [
-        "NRXP"
       ]
     }
   ]
