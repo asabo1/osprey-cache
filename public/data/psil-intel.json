@@ -1,33 +1,36 @@
 {
-  "updated": "2026-07-21T09:45:35.205Z",
+  "updated": "2026-07-21T12:03:24.961Z",
   "counts": {
-    "total": 92,
-    "crit": 8,
-    "warn": 8,
+    "total": 91,
+    "crit": 9,
+    "warn": 7,
     "bySource": {
+      "Helus Pharma": 1,
+      "Psyche": 1,
+      "CNN": 1,
       "Financial Times": 1,
-      "MarketBeat": 3,
       "Investor's Business Daily": 1,
       "HCP Live": 2,
       "Business Wire": 1,
       "Moomoo": 4,
+      "Investing.com Nigeria": 1,
       "Benzinga": 1,
       "Psychiatric Times": 1,
       "Forbes": 1,
+      "MarketBeat": 2,
       "TradingView": 5,
-      "Yahoo Finance": 4,
+      "Yahoo Finance": 3,
       "Ad-hoc-news.de": 2,
-      "Endpoints": 2,
+      "Endpoints": 1,
       "European Pharmaceutical Review": 1,
       "Psychology Today": 1,
       "GuruFocus": 2,
-      "TipRanks": 3,
+      "TipRanks": 4,
       "citybiz": 1,
       "Healthcare Digital": 1,
       "Investing.com": 2,
       "Nature": 2,
       "simplywall.st": 7,
-      "Investing.com UK": 1,
       "ChartMill": 3,
       "Fierce Biotech": 1,
       "genengnews.com": 1,
@@ -35,6 +38,7 @@
       "CNBC": 1,
       "Stocktwits": 7,
       "Shaw Local": 1,
+      "富途牛牛": 1,
       "The Globe and Mail": 1,
       "Mad In America": 1,
       "Sahm": 2,
@@ -43,7 +47,6 @@
       "The Coast News Group": 1,
       "stripes.com": 1,
       "sekbernews.id": 1,
-      "E! News": 1,
       "Fitt Insider": 1,
       "Pluang": 1,
       "Psychedelic Alpha": 1,
@@ -59,19 +62,63 @@
       "Stock Traders Daily": 1,
       "San Antonio Report": 1,
       "drugdiscoverytrends.com": 1,
-      "Chemical & Engineering News": 1,
-      "Baton Rouge Business Report": 1,
-      "RAPS": 1
+      "FirstWord PHARMA": 1
     },
     "byTier": {
       "T2": 90,
-      "T3": 2
+      "T3": 1
     }
   },
   "items": [
     {
+      "id": "673f64826770",
+      "time": "2026-07-21T12:00:57.000Z",
+      "source": "Helus Pharma",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Helus Pharma Completes Enrollment in Phase 3 APPROACH Study of HLP003 in Adjunctive Treatment of Major Depressive Disorder Ahead of Schedule - Tue, 07/21/2026 - 07:50",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR3BiYmhjMlI1OWNMZXMzTGpTOV9ybGhMSVVwVGZ4VGVWX0xuXzNPcjFmVUozNlFHaVZFWTJBek1LbGRkQzlYeVRucVRFRk5sMVpTaldkengwTjUzekY4S3k0UXBCWWZzR3JsbUh2ZUhFVTU4ZDlRWXk5emI4a0VYcFI0bkNvSWtoenFCUjJmNXp1aDZOZFVhTHlEN3YzOFJscm1rYXA1dkJ3UGFvbExQT3pOUlpjN29XcTNN?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "619a67c5eb48",
+      "time": "2026-07-21T10:00:00.000Z",
+      "source": "Psyche",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "What ancient art tells us about modern psychedelic medicine",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQkN2OGxOUFR3b0JKQm5MY0JtQ3VXTXpKNVRET2lHVnVHRHlKOHJSU1RFZHl0Yks3WlliTlVjV21lMVl2d0gwSndYeDFXVURjMFFsSW9jdlFOTHZxUTRsQ2l0V0E1WnhtRVFGMFFCNW5aczQtb1lCTldKSExxbExFY3FUYmpFRmNsTnhiMWFoOVA1LTBXRGlz?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "7239b3fb9e4c",
+      "time": "2026-07-21T08:46:35.000Z",
+      "source": "CNN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "symbol__ Stock Quote Price and Forecast",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8xUjlFRl9tcHE1MC1ONU1BcDhJV2ZmdUdLYUpvX1NUdjZVUy0tZnZDSnJTR29MeWw5NkNnTjNqc1p1V3Bua3RpekFPd2gtYXEx?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "b1e0d9e608df",
-      "time": "2026-07-21T04:00:30.000Z",
+      "time": "2026-07-21T04:00:53.000Z",
       "source": "Financial Times",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -82,22 +129,6 @@
       "title": "Psychedelic drugs are going mainstream",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbXdpWUltTzBkUDdRSzl4SUw4RzZNUXNweVlrcy1wd1lneG4wZFZnRmJ6d3FTbkNWbEpqd2tzajFHa0RtdFZ3RWhnNW9HNmllQ2RicmlzUGlteHVWLUQ3ZVJLRXlWaEczOEUyT1Via0tQV3hTWHlnMTNFZ1hNaWcyRl9Mcy0?oc=5",
       "tickers": []
-    },
-    {
-      "id": "be5a244e5682",
-      "time": "2026-07-21T02:46:29.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin (HELP) Institutional Ownership 2026 $HELP",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlZUlDbFl3S0lMU2p1SUwxYnNISG9mdXVJWTlwUXhieUgxeTVMTkxMQVVET01yMVdrV2JsaXp2RlRBYkZLVzBoMEN0akNTbXREWnBUQ1hGaG1ZYl8yeUItdDdCbF9kRWRUZ3ZwSk11Z1VQZGFJUmdWcHRB?oc=5",
-      "tickers": [
-        "HELP"
-      ]
     },
     {
       "id": "d6ec139d9054",
@@ -161,6 +192,22 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM1ZfcG54MjIzanpuRjJKNlBfaEdfMkpGQU9sZTNWMVJYRlhFZDlla0lnLTRyV2IzNDV3X01ON2JLeVRCNGViN1dvVXJkZDlwaUVPc2gyOVMxUWpyQldnWWpRcWNUbjg2cVNGNmN4RGVpVF9KQmhZZ1pDODB3X2RhRzhabDdxWUNjbTR5RGVmQ3VPUkhqc0I3bk9OcUw4YTZ0SUU1M3UxYnhpbG4yUWhWOFRIZDh3QQ?oc=5",
       "tickers": [
         "CMPS"
+      ]
+    },
+    {
+      "id": "99513dee554e",
+      "time": "2026-07-20T18:52:10.000Z",
+      "source": "Investing.com Nigeria",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Stifel raises Alkermes stock price target on orexin program outlook By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZDN6ei1HeFZZaXRULS01UnV5Zm5TSTBRUVRCSjdDaC1OcUpaY043VWlCMGp1dk5tcFgtZFVwZHJzbXRHTjRpUnJIVGk4X1NvM0lENFVFMHJ5UFEwSFRsamo4V0lSOGttNkk0djRJZ2U4TXpwNmpQV1dFZWtjSzRhcUpRTTc3YWg0U2JveXJUak5FanhUOUtrSHF4OEszaWRsWXdNaEt5X2p4MWlQcnhjd3pmWHB4S3NleGNYVDJ5NmU0MWJieUlz?oc=5",
+      "tickers": [
+        "ALKS"
       ]
     },
     {
@@ -454,22 +501,6 @@
       ]
     },
     {
-      "id": "86507d890e4b",
-      "time": "2026-07-20T10:06:00.000Z",
-      "source": "Investing.com UK",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Stifel raises Alkermes stock price target on orexin program outlook By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUXpwUlZxS1JoUERXcHo2ZDZOWXdvNm1YeW5qZGVkdFFjREJ4Tkh1UVN3WXh1THVMbTRLMVBOQkpXRTd5Y3NGdm1KZTZYUlRIVXpBOFAwdDRONkR6RGVBakNONnVUMHdjR1NtWjF4UnZTaWVYU0VJZUdvWkxLZ1FPRFpOZ1dpSVZ5WG01Y1ppM2NqRUU1M0ZhczJibUdQc1V3Q0llVXB6M0V6N2VES2dEZ3pHZVk4eDIxbzVTeXItUjZjd3lFd0gw?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
       "id": "b608e45a7b85",
       "time": "2026-07-20T08:52:53.000Z",
       "source": "TipRanks",
@@ -714,6 +745,22 @@
       "tickers": []
     },
     {
+      "id": "bc4a67af458c",
+      "time": "2026-07-18T11:37:07.000Z",
+      "source": "富途牛牛",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "J.P. Morgan Maintains Alkermes(ALKS.US) With Hold Rating, Raises Target Price to $60",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSW5rcml2bDU1YlRPT1JRbERnVzhYRlpuc2FaeHNDM3hESUUxM2FtOEd1dnJvOXNRUXF6aXBtc2tZOHM5RlAwcnItTXRnNlhNeTY3QVBnRjdETExyX3BDM1NvSmpyVTZGajc1TWtITW9Udld3UlRHLVotZnN2WUlKUDc0R05tMVoxOE53eWNudWRUa2NXSFJ0TU5ZTEJIeGpndUVCTU5QWlQ2VW8?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "9801a47d3f33",
       "time": "2026-07-18T10:26:00.000Z",
       "source": "The Globe and Mail",
@@ -912,20 +959,6 @@
       ]
     },
     {
-      "id": "3cbbbb5f618d",
-      "time": "2026-07-17T19:45:00.000Z",
-      "source": "E! News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Celebs Are Loving Pucci-Inspired Psychedelic Prints for Summer",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaHA1cURfbGh6OVJCaU1pSV9MSVJ6dmFYODRMSzJIc1NvUlExUFFISVhfWEpNS2g0Ukt0cEhySjR5SFVWT1g5TXMyOTVkbHZQaXBOQ1lEZUF6d0wtOEtqVk91b0FtVTBHWGpqVWg2QXA2eTFNdXNmSVJnY2ZKZndqOUl5d3hDclRFSUEzZGl3MEVKMWVLckZNaFBVRkVuOFhIa091RFVobkxHUVFrbmc?oc=5",
-      "tickers": []
-    },
-    {
       "id": "593da58ea4e8",
       "time": "2026-07-17T19:30:47.000Z",
       "source": "Fitt Insider",
@@ -998,23 +1031,6 @@
       "tickers": []
     },
     {
-      "id": "6dce2df3faa7",
-      "time": "2026-07-17T13:04:32.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Cybin (HELP) Advances Psychedelic Depression Drug to Phase 3 Amid Fresh Funding – What Really Matters?",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQelMxTFlwN196ZkZQSnFxR3pYQkxxb2pINFllNUxWNzMtOEktN3huSTNKcGNYTm9MdnctS1NLdWJEVUhZNzdpbFQ3YUNYUkg1UkNlNFdXY2xRc21teVpmX1YxZlk2SDN3cUJTTXBWVnNiaFhZOXR4OV83clFXa3VyQ25Pd1BOczUwSmp6R0RHVXcxTmdlRFZOdEFLejdtTkZUV0dXLTlaYTRieVhadURsSi15aTJFY1VBOVQ0RHo0UkJvcTZDcDh1RG04VnJCT3NsMjBIX1VB0gHbAUFVX3lxTE5VZm1mQW9UYjJ1Ty1ZOXpBaURjbm94TXV6amJUQ01jWS15QU1ldGpUdFROU0JXQ1BjOVJHZzFhaTk0emE4NzkyeU9ZQzZKUTAyQmFERzRMVUhZbkljM013M3dGRWxTUERsQ1pUUnh5eklaZ1ZMM1k4T0w5WW94VXhGV2tWOXU2TndxSmRRdHgtRG1YVEljWlpucGQyOXFjUUFQSEl0T2JMdjB3RWo2dWg1b2RLZlgzNGhpUWNoUkFDWXhsYkhhbXVwbkZNM3Z1MXJQOXZDUkRDT1dRWQ?oc=5",
-      "tickers": [
-        "HELP",
-        "DRUG"
-      ]
-    },
-    {
       "id": "cfd36bb0b728",
       "time": "2026-07-17T12:54:00.000Z",
       "source": "Semafor",
@@ -1056,6 +1072,23 @@
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQc1pxb3NHVDhUY1laMm50Qm90aTVZR1FDSFVEb1AyU3JSck85ekpLNUVrOUdqdE9mTUo3aUpnZ2VkZHc5ZmJFVXctSXRqX2xJV3RRSXhVQ1RzYktMaVNUenRjUU1LMVZsdjAxOTN5MkZBM0tvajBCdFBOOUllclhKZjEzQW12dkpXWEN3c1REWnduRTdqcFRiYkx5b1YyN21QdXpueHZCVjJraG9wQWhVRFRUUWp0RTZrUVhtOUFNRlNtT2xnSURqRnIxTTRnY1lwUmtNbHhGU3d2WUdCdlJFMVk2aFNoUEh5c3dKTWQ4YW1ZSzVTMFJzdmNXdXJfeUR1ZkZrc1hYT1pUdEkxYkhJ?oc=5",
       "tickers": [
         "CMPS"
+      ]
+    },
+    {
+      "id": "6dce2df3faa7",
+      "time": "2026-07-17T12:42:58.000Z",
+      "source": "simplywall.st",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Cybin (HELP) Advances Psychedelic Depression Drug to Phase 3 Amid Fresh Funding – What Really Matters?",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQelMxTFlwN196ZkZQSnFxR3pYQkxxb2pINFllNUxWNzMtOEktN3huSTNKcGNYTm9MdnctS1NLdWJEVUhZNzdpbFQ3YUNYUkg1UkNlNFdXY2xRc21teVpmX1YxZlk2SDN3cUJTTXBWVnNiaFhZOXR4OV83clFXa3VyQ25Pd1BOczUwSmp6R0RHVXcxTmdlRFZOdEFLejdtTkZUV0dXLTlaYTRieVhadURsSi15aTJFY1VBOVQ0RHo0UkJvcTZDcDh1RG04VnJCT3NsMjBIX1VB0gHbAUFVX3lxTE5VZm1mQW9UYjJ1Ty1ZOXpBaURjbm94TXV6amJUQ01jWS15QU1ldGpUdFROU0JXQ1BjOVJHZzFhaTk0emE4NzkyeU9ZQzZKUTAyQmFERzRMVUhZbkljM013M3dGRWxTUERsQ1pUUnh5eklaZ1ZMM1k4T0w5WW94VXhGV2tWOXU2TndxSmRRdHgtRG1YVEljWlpucGQyOXFjUUFQSEl0T2JMdjB3RWo2dWg1b2RLZlgzNGhpUWNoUkFDWXhsYkhhbXVwbkZNM3Z1MXJQOXZDUkRDT1dRWQ?oc=5",
+      "tickers": [
+        "HELP",
+        "DRUG"
       ]
     },
     {
@@ -1101,6 +1134,22 @@
       "title": "Clearmind Medicine Commends Federal Momentum in Advancing Psychedelic-Based Therapies for Mental Health and Addiction",
       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOVnNZWGRIaEVsWmYyN2kxdVRuVGtQZ2Qyanh6X3VZSk1OWTNJR3ZCYTVITlVOSktRTm0xdlg1M1RLQktPdEk1WlRFc3JISUZIQ1lwSjlhQlhLWTl2aUVkQ254TXVUYzBBc0tCc3dfaExEaGR3emFVa0gxM3Ywd21JOVdXcGxuQURGWExGR3pPdk5INlg1aEhWM3JIeENlM2FZdlpHQWhYWXlEamhlVnRULTVraUE0RWVWLVg3LVJyTWxxbm5NZWhhY0dpS1o5aGEzbl9hUllKNjliRkM1MUZXeVNmQjl0eHY3LW10anRxT0ozd1oxU1JEclVSSWFHTEczVFl5alkyMDNaVzJxdFJaMW5MRjNFMDBKczU00gGgAkFVX3lxTFBvMHFMS3lubTctZFBLWFJuMjFYT1V2SzJlTHJ3bE44dGtwWFNsUDlneDJ2MG5jUDk0NGp6NjVhZUNsQWUzQW9zekw3U2w0cG40WUtlTjBSeVJxWlp5RndEYThBbmUtTE1PY1RLWVFTLUxNWmRWaGhGZ0JRMTR3aGd1ZVY5djl6cm5ZSFBxNGh3N3JwWHlad1ZJMzVjbGdrYTlaUXItcFJqM1RwNWgzckRvS0k1UUxfNlZ2SXl6U2hsOEFKdzhBN2I2cVhLWkQ3NlNfWmZQUXhobThoV2JJUHV2ZkFCdUtqTWZMS1ctZmtMaWJYSUZLZk5OVWJsa3NVVTlxQmRTOVJfMV9TdzRtbU5NaUFCTUxXdmlVaWJON0FSRw?oc=5",
       "tickers": []
+    },
+    {
+      "id": "dbeccde5d683",
+      "time": "2026-07-17T11:21:48.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma price target lowered to $45 from $48 at Guggenheim",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMEEtYkc1U2huU3pzaUlDUVRsOXFLRmg5OHhjamgtZVpaS1FPODNOSjNza1FabS1pLVNNT0NiX1RiVTI3ZjN4NVpueEhVa0M1SHZOTUJ3SWZqOXBzWFhwaUlZaG9jc0NEcXJVV2ViYWlhRGNGd183OVR1WF9Damw2VnJjOGwzWjYteTh4M3NaNDN5QU5ielE0VjVrTEprUGpXS19ZcTQ4NnhmTm5tSm9pNQ?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "4d3182e68417",
@@ -1291,20 +1340,6 @@
       "tickers": []
     },
     {
-      "id": "9fd53495a520",
-      "time": "2026-07-17T04:01:00.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Eli Lilly to Pay up to $3.8B for AtaiBeckley in Big Pharma’s Latest Psychedelic Foray",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUDE1TDVMajV4RGFmSXVWeWhBZWRfRHNhbVN0X0JUWDc2UHl6eXEtN0NTLUtDZ2NFbHNaYUNOekFybnF3ZnhHLTlaNm5VWVMwdEhRdDJzaEZlaF9ZT3dLVDFsMGxzM2JkLTNtUTBIU1B0S0xCRG53eFVqRHVZaEx4R0hWLVZZdw?oc=5",
-      "tickers": []
-    },
-    {
       "id": "940496ad6378",
       "time": "2026-07-17T03:36:00.000Z",
       "source": "fox8live.com",
@@ -1398,7 +1433,7 @@
       ]
     },
     {
-      "id": "c8cd16725435",
+      "id": "094c858c78c4",
       "time": "2026-07-16T20:55:35.000Z",
       "source": "GuruFocus",
       "sourceKind": "gnews",
@@ -1408,69 +1443,23 @@
       "direction": "BEAR",
       "impact": "MED",
       "title": "ATAI Downgraded by Canaccord Genuity -- Rating Changed to Hold",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOM0MyZG9EWUN6M2ltLWR0ZW94WVJUbVZKMVBHcU9HSkg5c2NSZVBxcFBYbXU5NVpNV3VxME5tSWFHOWJGWENIdVFtMmo3Q1pvcHVYVmFYWnhwcHR4cmhCZTd6bm4xR3dNX2piWUkxQXhnY2VhdkhFM3FHaVVxRm1PTl9GNjJGTk1wbFo1Vmw1ckVBaTFRcVhKbHBFYjJ0aDJudlpXUkpGQnA5ZTBvWFo0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFlaZjh6eGRGanl2cVV4NTJlUjliZHIxTTItTm9sSGhUOTd2UkNvU0xEX29idkxxQ25mUlVGYXdjYzd1eU5LbXEtaVRRYTRvSHhNaGZVeGJ3ZGh3T3E1dTJGWFdyUi05WE41Sll4dVQ4SHRhc3V3X0hpbFQ4SFNYeTA2b1RqYlJYak9EN05QTkFXYzJJU0tSUTJlLUxvWUE?oc=5",
       "tickers": [
         "ATAI"
       ]
     },
     {
-      "id": "7b0b892569be",
-      "time": "2026-07-16T20:21:46.000Z",
-      "source": "Chemical & Engineering News",
+      "id": "6e419e2904d7",
+      "time": "2026-07-16T20:25:37.000Z",
+      "source": "FirstWord PHARMA",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Lilly to buy psychedelic-drug firm AtaiBeckley",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNGctaWF1dFE5MlV3blRZUXNlWmduRkVZMUdrLUREc3dfNEc5LWJ2VGRBa2dfNUZFdjVNT2tlSThZNnZfRVFRZWFXU01kZkhFdUhGRGg5WXhrUlY2XzFBN0dBYm5McDIzZW9YTWVfNnlxal93TW13Vno0dXkxZlM0bi1CSnZ6OGc0NW4tQ0tkYXRhaWN3dWJQaHN5U1N1aFhnTTAzV2FOQ1dRNWtoXzE0Yg?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "95f5ef21a22f",
-      "time": "2026-07-16T20:07:30.000Z",
-      "source": "Baton Rouge Business Report",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Roundup: Trump’s social posts / Lilly’s psychedelic bet / Visa’s stablecoin push",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeHViYlJ5V09SSU1MTk5PQU1zTGo2UFYyV0Y3VFF5X3ZfU0czU3RUVll0SE5QaC1rNkRwS2pyOC1xU1ctTzY3R3RuazdRazRPaEVuLWhyMGZkbW96bG9oeDc3UFhETF9jbDZQa2h6SURZcjZ0ZllmYXh1V01iX1c1azFweS11VVozQ3Y0TU9MR0JydFRpRVdnbTBuZkVfak1RZkJBcTJESmRQZExkM0xmNdIBuAFBVV95cUxNdVU1YWx2SG9QR3lkZ2Vjb1FkQnBaeGVUdkhnR3JCcGtES1FDSVJXTTA1WDJQZDE0ckppb09ydnBHWU5WT1FjT2VRcTEwbFFoTWlSakNEeDZjNXhYZ3hSdE93TnptVnk0MDExVDJBcUIyMFptakxBYTdEbFI2bjdWYmY4a29TRWpYUmw5OTQzVG5VVGIyQjF2SlhTemE5T2FEb0NGNXhtcDd3X184eEh0dVVUc09hUExS?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "beb386cc009d",
-      "time": "2026-07-16T19:58:00.000Z",
-      "source": "RAPS",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Recon: Lilly to buy psychedelic developer AtaiBeckley for up to $3.8B; FDA approves Merck’s novel cholesterol drug",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWEFoeUpySnMwOUFzWmJZeDFhZHI3MklETnpHMkNtZGdZdXU5SnRvbzBoLTBZVDVqZEhSS2xfOHBTSFN2WVY3TElLT0JON1llTEx6cEZ6dDJTRmVhTUN2SGxtVk15QWVIOFJpeG5zREhkV3psU0R0ZmlQTURWdFRnMlktN1Bpc0t1ZHdURjdRb0ZfM2pHcHdESFlCVU84YnpzNjZYNjZpTFVxcmxyNnh2U1lPejJaM0RKeW5ZUHlSZWZXeTJiTjdxb3FKV3dQNHJhbFBuRmIyT2I0VUhud2VZ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "754d3a291b0d",
-      "time": "2026-07-16T11:09:28.000Z",
-      "source": "Endpoints",
-      "sourceKind": "rss",
-      "sourceTier": 3,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Lilly bets $2.8B upfront on psychedelics in deal to buy AtaiBeckley",
-      "link": "https://endpoints.news/lilly-bets-2-8b-upfront-on-psychedelics-in-deal-to-buy-ataibeckley/",
+      "title": "Lilly to enter psychedelics field with $3.8B AtaiBeckley buy",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wVHRxZ21KNDdZN0dOY1hGcmRBZldTVXVCZHpyOWRxMTVfb0lueFBEeVUxNmFVZFdwOHViMndJTkNycHJla25RWW41QWpRVnBLTWNn?oc=5",
       "tickers": [
         "DRUG"
       ]
