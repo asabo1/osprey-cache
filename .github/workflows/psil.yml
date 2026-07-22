@@ -1,10 +1,10 @@
 name: PSIL Tracker Data
 on:
   schedule:
-    - cron: '20 * * * *'   # hourly, offset from the main intel run
+    - cron: '14,34,54 * * * *'   # 3x/hour, offset from the intel runs
   workflow_dispatch:
 concurrency:
-  group: data-write
+  group: psil-write
   cancel-in-progress: false
 permissions:
   contents: write
