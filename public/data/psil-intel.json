@@ -1,24 +1,28 @@
 {
-  "updated": "2026-07-23T18:53:39.262Z",
+  "updated": "2026-07-23T20:07:56.381Z",
   "counts": {
     "total": 93,
-    "crit": 12,
-    "warn": 8,
+    "crit": 11,
+    "warn": 9,
     "bySource": {
       "Fierce Biotech": 3,
+      "StreetInsider": 2,
+      "PR Newswire": 2,
+      "Grateful Web": 1,
+      "Yahoo Finance UK": 1,
       "Louder": 1,
       "simplywall.st": 4,
-      "Benzinga": 2,
+      "Benzinga": 1,
       "TipRanks": 8,
-      "Tioga Publishing": 1,
       "Yahoo": 1,
       "WDRB": 1,
       "WAVE News": 1,
       "Endpoints": 1,
       "Yahoo Finance": 6,
+      "Medscape": 1,
       "Sky News": 1,
       "富途牛牛": 1,
-      "Stocktwits": 8,
+      "Stocktwits": 7,
       "The Dales Report": 2,
       "Psychedelic Alpha": 2,
       "Quiver Quantitative": 1,
@@ -43,14 +47,12 @@
       "Yahoo! Finance Canada": 1,
       "Good Times | Santa Cruz California's Leading Free Weekly": 1,
       "ScienceDaily": 1,
-      "MarketBeat": 1,
       "GuruFocus": 2,
-      "StreetInsider": 1,
-      "PR Newswire": 1,
+      "That Eric Alper": 1,
       "Technology Networks": 1,
       "The Nugget Newspaper": 1,
       "BenefitsPRO": 1,
-      "Investing.com Australia": 1,
+      "Investing.com South Africa": 1,
       "Commonweal Magazine": 1,
       "EIN Presswire": 1,
       "The Globe and Mail": 1,
@@ -63,12 +65,10 @@
       "Houston Press": 1,
       "Sahm": 1,
       "Financial Times": 1,
+      "The Australian": 1,
+      "Ynetnews": 1,
       "Investor's Business Daily": 1,
-      "HCP Live": 1,
-      "Business Wire": 1,
-      "Moomoo": 1,
-      "buzzmusic": 1,
-      "Forbes": 1
+      "HCP Live": 1
     },
     "byTier": {
       "T3": 3,
@@ -77,8 +77,24 @@
   },
   "items": [
     {
+      "id": "c80d5f598146",
+      "time": "2026-07-23T20:07:52.304Z",
+      "source": "Fierce Biotech",
+      "sourceKind": "rss",
+      "sourceTier": 3,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Jupiter enters psychedelics space with $100M deal for PharmAla's MDMA drug",
+      "link": "https://www.fiercebiotech.com/biotech/jupiter-neurosciences-enter-psychedelic-space-100-million-mdma-deal",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "5d6aba3635eb",
-      "time": "2026-07-23T18:53:38.156Z",
+      "time": "2026-07-23T20:07:52.303Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -91,19 +107,65 @@
       "tickers": []
     },
     {
-      "id": "c80d5f598146",
-      "time": "2026-07-23T18:53:38.156Z",
-      "source": "Fierce Biotech",
-      "sourceKind": "rss",
-      "sourceTier": 3,
+      "id": "ff7c58431aa1",
+      "time": "2026-07-23T20:06:26.000Z",
+      "source": "StreetInsider",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
-      "direction": "BULL",
+      "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Jupiter enters psychedelics space with $100M deal for PharmAla's MDMA drug",
-      "link": "https://www.fiercebiotech.com/biotech/jupiter-neurosciences-enter-psychedelic-space-100-million-mdma-deal",
+      "title": "Neurocrine Biosciences names three senior vice presidents",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWFzZzV3WURuOHcyenhHVkw4RXk0c0pQM0F2bjBaX016TE5NMUtReXJ6Q2RTWnJqZl9aQ1dHV3FpbFBOcG0xTHQ0c0FpVy1QbXYwWkd1TWVaVW0xQnZRX1BDNnYxR0cyLWlGUHc3Q196U0dPQXhsSnlmSnM3S1dZVDlkV0hZeWxOLWo1S2wzb2tGLV9DSzY2WlV2Q3ZyYzEtWWc3cVJob2xLYXpocHp2bExCaXk1TUE?oc=5",
       "tickers": [
-        "DRUG"
+        "NBIX"
+      ]
+    },
+    {
+      "id": "28bf8263a24c",
+      "time": "2026-07-23T20:05:00.000Z",
+      "source": "PR Newswire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences Announces Key Leadership Hiring, Promotions",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcVJDRVNnMUxnRGJuZWhPeFdyZmhLTEZfSnkyaFg2dkNsYWVXckxvZ003QmlCMWYwMFA5aG5MZnFQZzA4NnNTRDdfMG9ZRnhFYmtWUkd0eE5TS2FvWm5Rb21GSXRXeWg5dGJKS0VuSlJpZnpyUmFvOHdKLWdFazQ0djNOOGdZSlQ0dm9vbWpwWXJaQmJDWXAwUjBNdkJiZW1PcEFSVkFxb0h6U2NPemRQcmZ4TnZoTHZLc29OQXlR?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "36b0184982f7",
+      "time": "2026-07-23T20:04:14.000Z",
+      "source": "Grateful Web",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Billy Strings Brings High-Energy Bluegrass and Psychedelic Jams to Boston",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEZfbnN1ZGpKakhnVVRIU2NhTVEyaG85cFlONURfb2FWMFBFRmxBV3JvanRXd0phX29PODk1Nk4wOWdKazduc21pRmpwQmZVYW8tNFg0Ti1IUGw5TEZBTXVGNXFhckNlVXp3T2w4TGxPVnRMalR5emFfSFlsNy14NThHYnRva2FVY0xsQnFvMXZkUWdROVktU0lpTU1wODhodHVDYVlQRUxJdFBhRU9MaQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "e1c610925ba0",
+      "time": "2026-07-23T19:11:22.000Z",
+      "source": "Yahoo Finance UK",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Neurocrine Biosciences (NBIX) Stock Trades Fair On Earnings But Mixed On Value",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRk92STU5b2FnMnI3S2lNanBBMDdkak9EVkNhTE5vMFRLTUItMEhwVFhiTURZZlF5OGZIV1dzMUJfanpqZzEwYmlRSXZwN0RVRG53SU1EYUZKbGs2UVNJWVhOaDBSX1hYQ0REa2ZpRXpERUxSMTRxM1dUVzlTQzdYNmVweFVBTDJyVkZxRGFqVm1waU0?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -164,20 +226,6 @@
       "impact": "LOW",
       "title": "Psychedelic: PharmAla enters license agreement with Jupiter Neurosciences",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNDVleGxHWXdvYWNfbHotY3BoOG96bDlKOVVIRGIxSnNZZDBYRVM5cjdGaTBDekZJdnFSaFN0QzVsYURWeWhiemdfN1VWTkQybTZ2bGFUcjNWcTBwUTcwMGdQMjE0dUlQYW04eWp3WEZ5SzU5ZU5SX1B0MEZlZzJOSUNtZUxtZEtlQjl2XzFVa0M5dnBhLXJVYU9xelZEUE53TWZVWERkR2xEcy0zTVBuWmk4a2xRbjNkQzNsSEtBbw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "1b2d3f5ac87c",
-      "time": "2026-07-23T15:13:56.000Z",
-      "source": "Tioga Publishing",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "What does a dose of magic mushrooms actually do to your brain?",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa3I0UG55YU5BX2thRTdfcVNPR1Y0UkFFWGl4RWl1cTljeGxLcGJ3Sk9jUVdVQ1JwME5MR3plNnBuM2ZvaFcxN0lRaXpxN0RXZ0tOcUtHNUYxYnNRbVg0ZGN5ZkFNZDBELXA4Y3Q2RHRDS3pZVVQ0eFFDNHBRRy1LUnk2UXlLQm9fdXlKUnF5VFVPZkstQkR2RnJjTHBVMW9yM3R0NXhHbXVjUW8zelhNN3hvWWxfUjlDbHM5X2h6R2Y4czUwbjRFMG5NMlJyZl9PQ3pmcXBMQUJKbjhHUHpVVnJKYm4yMFlQUlI4?oc=5",
       "tickers": []
     },
     {
@@ -253,6 +301,23 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzFhRDVxaWU5N2dYbEVWZXpMQXEwbEJDRm9Uc1k5dlVwc2NoQ3hQbzlsZWJWTnhNTEdHTFBRbDhrdlphWjFGRXJlSzYtR2VQWXhOT0VQaVJ3NDZERm1iVzc4TGtCY3l6RXVISUg5ZFRSSXdQZ2xzTjVkS1VZQmkyamh4ZURHRmh3Sy1iQXNUZy1MNVBjOGo1enFDb0Nqc0FqZ2pManJYUGFPUQ?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "69ad2599d089",
+      "time": "2026-07-23T13:39:08.000Z",
+      "source": "Medscape",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "First MS Mobility Drug Gets Green Light From NHS England",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOXdQdDJWSllsRG9WbkJ4bzB3V05xT0Z1Y2Q3UXk2MXlKRVM3OXNxelg4SlkyZ2xEM3RhdFNCVWlieGczb0R3anAxSTY4Mjk0WlUyaHNQUW93ZjhpRXhhbVVlNjQ1MklweG5DVWZBUjJJT1pUQWE3UFE3QV9fQ00zNi12aG9laW01R0N5anloRG8zSlNhUzdJTzltWUUtMXZqUXRv?oc=5",
+      "tickers": [
+        "DRUG",
+        "ALKS"
       ]
     },
     {
@@ -865,22 +930,6 @@
       "tickers": []
     },
     {
-      "id": "862df95ecac5",
-      "time": "2026-07-22T03:00:58.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Top Cybin (HELP) Competitors 2026",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "4668e8d9cd1b",
       "time": "2026-07-22T02:51:50.000Z",
       "source": "TipRanks",
@@ -994,6 +1043,20 @@
       ]
     },
     {
+      "id": "d77ff5bc7ff0",
+      "time": "2026-07-21T18:37:14.000Z",
+      "source": "That Eric Alper",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Space Rock Artist Rod Krieger Shares Psychedelic Live Session At Maquinaria Studio",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzE2SkNLaHZGTzFVYTduN0dNbUplNEZwYXYwbzZVOEdRMjFzZEp0WmtULVVYekRrTzZzc0ZqTXhUWXUwNG1mdEdHRFNJVXRmYzRiQ2lTelcwX043ZnpwMVZqNWZhNmQtSmZGUmViTlVWSVFwRDFEZlBIUVlOSkJmbkhhd2lZdWMzUE9xZG9wZTBNZDhia2pDOHdDRnlXMkFnZTEwcFNWUy1FVzlJd0ZOUzhGQlpPelBMaUNOT0VXMl9DZw?oc=5",
+      "tickers": []
+    },
+    {
       "id": "b3712bc65888",
       "time": "2026-07-21T18:13:47.000Z",
       "source": "Technology Networks",
@@ -1068,9 +1131,9 @@
       ]
     },
     {
-      "id": "5fc8a8271591",
-      "time": "2026-07-21T14:25:41.000Z",
-      "source": "Investing.com Australia",
+      "id": "e62213688a9a",
+      "time": "2026-07-21T14:23:48.000Z",
+      "source": "Investing.com South Africa",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1078,7 +1141,7 @@
       "direction": "BULL",
       "impact": "HIGH",
       "title": "Helus Pharma stock jumps on Phase 3 enrollment completion By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORm1WVjBrYVk3alAtUl91dXlTNDNtVUR4cnhOSkVMaHBqcnRUNXo0WXpieWR3YVdhaG1BN0luLXdnSGkwVVdmWDBWdGZ0T2J2VFpQSElIZkVMTFJNbHJZQlZiWklTS1hKTVhYSVVKUWJnMk14NF9TTl9reVU5XzBPNENGWmN5LXY0cXliM2hGNzhlVGItWGRzc1p4MnZyaklfQWZvRXpHLXB5cERQRWZwS29vSmRxclMzbW5fWm92Yi0zTVc3TU5xZ2dR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaFRrV25ldTZ4b2kyVEtQaUhtdUlaQzZzZURlVzZpT3ZsZmpOYzFrOHBCWjN2cEozdVVvRVJaZER0NUxkdDA4SDhORFlvOUNUUW83THFGMTNUZmtwQ0UzRFlFU01nRzh1dGZpQ21ORWhmeHZBTThWWU0ya0FVWEpxSmZaZ0lrb1FjT0hjcHZmMUF1anRMQ2c2M1lvaGlxNWJ4LXIyeDFuZnNjcHdhMHhIbDVrYm1URXE1MWMzM2YyN04tb2pZY0UyWXh3?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -1376,7 +1439,35 @@
       "tickers": []
     },
     {
-      "id": "d6ec139d9054",
+      "id": "1cc9a7a1c8bc",
+      "time": "2026-07-21T01:02:25.000Z",
+      "source": "The Australian",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Entropy secures South African patent",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNaEdWNTJHTlhOWVE3aVk2dU9rajBQNDBTMnFKd0pTZElYRURrcDdjempmcmdjOC1meDlZZ1lTcm1oRzFVNWhfWnpoeWdOSHJ6a1EyQ1NKSVhmc1VIR3B2aEotdTVrS1RFNS1aSTBqNzM5YWx0TjRESHdUM00yN0xfWnA0eE9uV00zdzRtUThJbm9ISXduWTVLaDQtXzhmQTRqcVp4VHY3N0ZwaDEweDA1cG82RzFYN2I3QjJBUEdkVUp6d2UzY2xNNHBhWklJczVRODB2VWFKdThNa00xU0RRVWEzalg5LXJjVGk1c00tc3RLbGhuWDQ3Nm96U0lOVllHaExLTmk5X2V1dnFSZnMybtIBlgJBVV95cUxPSGd0TU4yRFh1UHZDTnF6VWhuZDNMalIwdGtUamdUbUJLYmg1U1BGdmpUZHI4VmRBaDRNTlNpblZEUExDLTVQMVZ6YlllTEoya3RsRHpTemE4UjJTZi1BSl8tdDNZbm8tLWpLSzB3aVJYRG1pOEtic3RUNEpaR0hIdmpqemxrbC05ZFB5enJ2Sl9GX1FRdk1JMEhZWFpFTENBbGdVS0NJeDVDcmZtQU8tUzgtWW1uYWg1SVZ4NmxZa1dfVFZOUW9Da3dERTNuVk1UbEg1TGgwbmI0eEM4YVNZN3U0NWl6LVJfZ3BkYnctcDVKUUJZUGlwTlpZY0xucl9rRUFOM3FMSWp1RmNIY0liVV9DSWR2QQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "94957be843f2",
+      "time": "2026-07-20T23:01:23.000Z",
+      "source": "Ynetnews",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The next biotech boom could begin with the mental health crisis",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ONEJSaVJwaHhNTW5ZT3o0cXlWY3AxcTFHT3dORmlkY09sY1BRUktRYXBQVmVlYS03UnRWaDRnZEVXZU1TSWhMU1dnaUozNW4zODRuWUVwVnlfSVcxaG1Yd1gwc19zZDNhUmc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "bdf13df161bc",
       "time": "2026-07-20T20:43:00.000Z",
       "source": "Investor's Business Daily",
       "sourceKind": "gnews",
@@ -1386,7 +1477,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Stock Market Today: Monday Gap Up Doesn’t Hold; Neurocrine Bio, Rush Street, Burlington In Focus",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZi01SHNSQjYyaFhnVk55ZmI2bnBvYXVHVEVSR3pnMVpZdDQ1c3FubTNHSnc3b21PX0RNc0p1Qy1lYmpNR21OSkJDWV9HbWNqbk5LYkJEMmtxTHgwSk0tTWJ1SmFXY0JOQU5CNTgzN1BfcEczNlNxWG1MSmRXdDJXMFFJXzBnb2g1ZlVRdUVnZ1pUalk0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd1ZRcU1jQTUweUF6dmI4VW5kZHZnOElDTm1YdHJrSllLemc4T1NmUkZDVk85M2R4OXYtOS1uc29WZkU2Y1pFeW5SYUJQR085MzU4V2owMVdmVFFKX3NOYjRaTnpycmlfaVFHTkRZUzc1RTFsSzhIb0d0d0NyUWU4YVowTWtFSUJrdmRvbHYwNVRaY1J4V0FzNXplSDZNNUt3QWp4QTAydw?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -1406,98 +1497,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "afd3a2abaf18",
-      "time": "2026-07-20T20:06:03.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "b2967ab0766d",
-      "time": "2026-07-20T20:01:00.000Z",
-      "source": "Business Wire",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics Announces New Employee Inducement Grants",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdTUwLU96SS1TZExfeU1CcXJIendqd0cyTDZXUFVkLXhGT2VIMUpkd0xOS2theE90OEliR1cxMXctaXRYLWFNZFc0bnVFSE9PM05sM2VlcmdLZmdaYVNHbFc0dE5aNlhKanBib3BfTVhGUE15VUZ3bm85dEdFSmh1blF0dy1VTklUejhudVVZd2MzSU9xVk9PZ1pDTW52RWlUSkcyVGF3eVJka0lKSXhTUzZQUlhSelFEOHpV?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "7c5e2d172739",
-      "time": "2026-07-20T19:21:23.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "H.C. Wainwright Maintains COMPASS Pathways(CMPS.US) With Buy Rating, Maintains Target Price $70",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM1ZfcG54MjIzanpuRjJKNlBfaEdfMkpGQU9sZTNWMVJYRlhFZDlla0lnLTRyV2IzNDV3X01ON2JLeVRCNGViN1dvVXJkZDlwaUVPc2gyOVMxUWpyQldnWWpRcWNUbjg2cVNGNmN4RGVpVF9KQmhZZ1pDODB3X2RhRzhabDdxWUNjbTR5RGVmQ3VPUkhqc0I3bk9OcUw4YTZ0SUU1M3UxYnhpbG4yUWhWOFRIZDh3QQ?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "77f85c6f7a50",
-      "time": "2026-07-20T18:21:17.000Z",
-      "source": "Benzinga",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why Is Neuronetics Stock Soaring Monday?",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVEtxYW03UGRRaXRieTdnLTFjUWxUbW9HSjB6d3g5MktXbkozTGZmaTNVbU5KellWZEwxWUFYNDNtZmVYbnV6MkhweXFuaDk0MWN5MWQyT3RXclEwc0FiUUxFWjlnMHlWbFhhZDZGV0R1dEpsN1dRWUNUZF9HWDhkY21UYVhnb1EweXZfNVZhcnlyd3VZblRxaVBPZ0lzT0czR3NrQUNjbmc1dmU1N3hIa1NB?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "595d6855aa21",
-      "time": "2026-07-20T17:04:55.000Z",
-      "source": "buzzmusic",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "BRYTWD's \"Choose Love\" Is a Psychedelic Anthem That Finds Hope in the Chaos",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBMFhwbFMwMG1sREl0QlRYQXpsclFuMThZT3Y0SGVFbXBnT1plNGg1V0U0SkYwLXo1UVRhamdkZ2JILUpoRzdSMFF2YTZuOENmTmp3VXF6THNSNm5DeWxYeHpBTmVrRTRJWTUwTVl3?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "ce4e2cbe8bf0",
-      "time": "2026-07-20T16:47:00.000Z",
-      "source": "Forbes",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Big Pharma And Psychedelic Medicine—Eli Lilly’s $3.8 Billion Bet",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZHZoNFZFZGZfd2pQOE56MmRPR25FVTduN1h6djFuakpiaFJycWxPWWc4SlRnY1YzU0tUWXRCLXRfelVzZ3RzT2l1N0VIcHlPdXF4eWJJaUpCX1dadVJJTjNqbFFaNG5mZC1aOUFOMUktR3NJVDhMbEpnSGZrbFBLMmdRUGNaXzBRT2JrM1l5R3VTU0htZ3o0LWN5ZEJHamJYbDRiRmJPNUEwMVJkUEpyWEY5eHFpb00?oc=5",
-      "tickers": []
     }
   ]
 }
