@@ -1,14 +1,15 @@
 {
-  "updated": "2026-07-23T07:44:11.785Z",
+  "updated": "2026-07-23T10:07:32.240Z",
   "counts": {
     "total": 91,
     "crit": 11,
-    "warn": 8,
+    "warn": 9,
     "bySource": {
       "Fierce Biotech": 2,
-      "MediaPost": 2,
+      "simplywall.st": 4,
+      "富途牛牛": 1,
+      "MediaPost": 3,
       "Psychedelic Alpha": 2,
-      "simplywall.st": 3,
       "The Cancer Letter": 1,
       "Congressman Michael McCaul (.gov)": 1,
       "Yahoo Finance": 5,
@@ -38,7 +39,7 @@
       "Investing.com India": 1,
       "The Dales Report": 1,
       "The Globe and Mail": 1,
-      "TradingView": 5,
+      "TradingView": 3,
       "Pluang": 1,
       "The Clinical Trial Vanguard": 1,
       "Helus Pharma": 1,
@@ -56,8 +57,7 @@
       "Psychology Today": 1,
       "Healthcare Digital": 1,
       "Nature": 1,
-      "ChartMill": 1,
-      "inventiva.co.in": 1
+      "ChartMill": 1
     },
     "byTier": {
       "T3": 1,
@@ -67,7 +67,7 @@
   "items": [
     {
       "id": "c80d5f598146",
-      "time": "2026-07-23T07:44:10.008Z",
+      "time": "2026-07-23T10:07:30.886Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -77,6 +77,54 @@
       "impact": "LOW",
       "title": "Jupiter enters psychedelics space with $100M deal for PharmAla's MDMA drug",
       "link": "https://www.fiercebiotech.com/biotech/jupiter-neurosciences-enter-psychedelic-space-100-million-mdma-deal",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "356af6ad023f",
+      "time": "2026-07-23T08:43:09.000Z",
+      "source": "simplywall.st",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Could COMPASS Pathways’ (CMPS) Low-Touch Psilocybin Protocol Quietly Redefine Its Competitive Edge in PTSD?",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVHJDRHB4NkZhQU9BOEVWYzJ2RngzVUVReWR4cFFKeDVqNGp6cy1qdDhVQ2xUalBlZFVLcGxNVXk3YzM1Q0dKQklRbmRPcUQ5dzNTdFBuV3pHeGVCMVB4VXh3X0ZmOU83UHJVaXRqQ0JLdEQ4NENqMDRjaFdtTzNBeUVtMFM5OEJ1VU9rdTJrTTA1SWRXOVY1MlJGSmJDUVNmNzhsSXpETWdPZlBaTGd2bHh6U1gxSkJub09XdGVVOUk0dUVrQ2tGNXZWcVFQS3VYMTE3UVl2TjBaZVhzdmp4eXpaU0zSAeoBQVVfeXFMT2lVQWtPVkpfQlRuSVBvV2VuWmVVU1hiOXpFWTBjbDBQdl9HVUVURHVnbVJkd1pMczRVSlpJSE11d2NnaUh4YWRpMGN1NnVjTkt0Qmk2cm96QU82U0swQzZRRnVYdmtZemE1R1BHT0piTUxneHRnbmVZT2ZBbkxKTGNseXNLN1l1SXVqZ3dUaVlhaEJ4T2hlakZkZnZFTHB3MG9CbWYwUjRBbmI2NUM0SnphSS1qbFhJaUFtYXFhUFB5OGVyZEE0RlZ4Z3RfNi1qTGNEd3M1dHR4Wlp5SExURDVVSC1IUlBCU3RR?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "e0a6be95105c",
+      "time": "2026-07-23T07:20:44.000Z",
+      "source": "富途牛牛",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Earnings Preview: Alkermes to Report Financial Results Pre-market on July 28",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORldMVUNvNFgtZVJjc3RqSG1zYXV0RFptTnVyeXFKWEpZeEpDV05lU0hKSEpBNDN2ZkVRVElxcU9UNWdEZWhKZHEzeHJCY19NN2J6NXR0ZVlKYUE4M20xSGVzSUlLWnN1aGVDRkM1bG9ydGUwaFRwVHVVSnRBSFd6eWNCaWVQOXNOOEU3Y25MT3l6TzkxYmhocmZJejJqSTBQMkNIdnpsdEFYTXgz?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "05dfd34ecca8",
+      "time": "2026-07-23T02:37:43.000Z",
+      "source": "MediaPost",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Habit Burger Grill Taps Chef Jet Tila For Residency 07/23/2026",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTVlSV0I3cEFDSC1vTEhUc1R3T1ZXQklDa1d4X0pWSEQxSnY4ZzNSY3RDLWhCWjdrZnRBWUxGbG1SUUs4aHpKWGN0dXAyZHd5Q1JfMXR4QlU3NnpsUGFOZk1pcXpMdUVqU29ULXZ0SENVUlB2YUxlZFhsMUdtcklhUEFYZW5ibWtYeV9HZVBRZmw3MDVJRWNRaER4Ym1uelc1LXpkYlVSTV9qZkhjcmc?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -700,7 +748,7 @@
       ]
     },
     {
-      "id": "7503bc968802",
+      "id": "72fa21a2c710",
       "time": "2026-07-21T15:37:55.000Z",
       "source": "GuruFocus",
       "sourceKind": "gnews",
@@ -710,7 +758,7 @@
       "direction": "BULL",
       "impact": "HIGH",
       "title": "Helus Pharma (HELP) Achieves Enrollment Milestone in Phase 3 Stu",
-      "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQQ25lY1ZKZnBWLXBnMDNxTXlQazBNckhjX29sUXJ5aWczRWNuZk0zZHZDbmpDelc1cUVxQkItUVk3ZGZnWVpZN3h2N1B4VXJCU3V1RXRsbXREZTNIU18yQmFmQ3h6d3YwOU9CS0c5UEZUUUJMYnQtU05fbjhxWUlDZEE5T0s0TXRZWnhGamhaZGZsT2JucFMzZkdld2NOUmpTY196bEQ4cFNoWm13dmkwZENRSFp3ZDctT01BLWhrRjAzQ2I3aWRMOUNZb0xETDhhUk8waU1ySzBJcHlISTRFS3I2T3VNamY0THBHVmYyNjdUQV9MZnpXWUQ4NEgtV0tndkFodllURG95TUNKVWtNUlVyVTE2V0tZZEJnMHlSVUZtVnByOUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQa1RfSWlZaGd6dzBveDRId3lWc180UjVXZVZfb2xmbkhxdVhJbjdrTUFqbnNqZWpkNHkzdUIzYmJjXzcySlBZZUNQMmpDNHJjOG1KVkxWYTFhTTEyZU9Pb3NaUTlxQ2dmN0VUYzRGTzRKd05CWUtMcEFtdU82b01FbEJEWlFMeXR6azU1YzFaNmI0cUp5b3Q3eDhmZzY3YkY4dVZhRlpieC1EZ2YwX0s2NFhNZk5jN2w1Q0lwZ1h4Y2dhUWs5SldMc2JLQTRSSVJUSXltc2d5eGtIQkU?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -1427,52 +1475,6 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUkFVNmp0RFZBUWYxVElLZWNUc3pTeVlhazE0WkpHMWVxa2N2cnZJeFl1Y2M4MTloNHlqc2t6d3JPQThDdHF3OFhRSDFCYm1jNG0yclY5aXA0R0JfX2xxajFVZnJlRFBEVUVGXzJhdlV0b1hCbHIwbkxQc2p5aE9xUHNWVzd3ZUxtR3MycnZ4QWFoZmI1QXpTMDNNV0ZERHl3Sml5V3BDWUtQUEVQYWlqb2c4SWF1dw?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "26c200b484c8",
-      "time": "2026-07-20T06:09:49.000Z",
-      "source": "inventiva.co.in",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Big Pharma's Next Billion-Dollar Bet Is Magic Mushrooms, MDMA And LSD. Could Psychedelic Drugs Change Mental Healthcare Forever?",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdEFVUXlILVFlc1hXYkVVME1FRXpTd0xkNHhvclVteVBjVkpVSnN3c2VsTHNNV0ZwbnpaQmFvSnVVVzVxc3hJendORjY5NU1WUHdiN083VzE3dDNzQ2hNMWJSQUNwd3pfcDljVXZWT0w0WHRrWGV1Q3R1cnpkY3JueVIxRF9feXZpQm05Y3QzVVhlM1FRaEJrc0R2WHJMRUQxVFZMbEdydGhEek44T2hQeGFpQWRVSnNSXzNrYlRBckpHWUVSZUtPTDJ5c0wyVFNmTVRXMy1xc2hXelZ3ODJ6d0t0Znkyd3BUVVRubDN6ZXd2UQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "a16d081367ff",
-      "time": "2026-07-20T05:18:00.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "ATAI Stock Slips After Blockbuster Week: Cathie Wood Calls $3.8B Lilly Deal ‘Well-Deserved’ Return For Shareholders",
-      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPeUpiNm42TmdLbWlXaElJSUJUWGpUSmFxVmhXeGNERDFwQjlXanVjakJXcUZ3eXJtSGY3VVpqVENfUTVSc3hKd1ZDM3VFRFAyZjM3Nm5MZU9Zc3FiSk5NMmJMbXExU01ESEgtSE52UDhINV9VbDRXUU1zeGlKZXBjSzM0Qktsc3Z4d01PeGhEekZ6eWZYcnQzSGc3d1dpRUt0SERkd21DNXhfVjVOdV8xNUlPbDFOOUs3bW1Ub1hncElYODJ1LUJEbmY1ejdmcGVKNG9UNUlzU25XRFN1T3BhRTZpUDQyV3JQcXRObU15NjNJMTFSTTRnWE01eGQyQ0ZkTkE?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "68d279035c76",
-      "time": "2026-07-20T03:52:00.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why Did ATAI, PANW, TRV Stocks Surge To 52-Week Highs Last Week?",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMlF4S1QzV2Y0UUFZVW9RaUdVa3F2amFEdGlUY19wUmpXWWp3YTlKMUdxN0dxaE5TRFl6VHdJZTBjQVJfUWx2dVJ2aW1OZXJGb3A5N2FzblhENmNFZFJVckNKMWk0NnBFLUF1SUR0d3V3Z1VHOU02X3I4WnFOTHN3VUlpMlFJTDh6bDQ0TlpRRVA0Y3A3TGpqSEJVWmVRUTVtaURmNE9FREg3NU4wczZ1aFc0b1lMR3VySnlqREpxcw?oc=5",
-      "tickers": [
-        "ATAI"
       ]
     }
   ]
