@@ -1,24 +1,23 @@
 {
-  "updated": "2026-07-25T10:44:07.535Z",
+  "updated": "2026-07-25T11:53:40.769Z",
   "counts": {
     "total": 93,
     "crit": 6,
-    "warn": 11,
+    "warn": 10,
     "bySource": {
       "Fierce Biotech": 2,
       "ChartMill": 1,
       "AOL.com": 1,
-      "TradingView": 1,
       "TipRanks": 4,
       "simplywall.st": 6,
-      "AD HOC NEWS": 1,
+      "AD HOC NEWS": 2,
       "Patch": 1,
       "MarketBeat": 1,
-      "Stocktwits": 3,
       "The Economic Times": 1,
       "That Eric Alper": 1,
       "Axios": 1,
       "psychologytoday.com": 1,
+      "Moomoo": 1,
       "Psychedelic Alpha": 2,
       "Newsweek": 1,
       "Medical Daily": 1,
@@ -30,9 +29,9 @@
       "UpToHear": 1,
       "Investing.com": 1,
       "BioSpace": 1,
-      "TradingKey": 7,
+      "TradingKey": 6,
       "streamlinefeed.co.ke": 1,
-      "Yahoo Finance": 6,
+      "Yahoo Finance": 7,
       "The Atlantic": 1,
       "Yahoo Finance UK": 2,
       "Forbes": 1,
@@ -62,6 +61,7 @@
       "musomuso.com": 1,
       "Marijuana Moment": 1,
       "富途牛牛": 1,
+      "Stocktwits": 2,
       "Encyclopedia Britannica": 1,
       "Yahoo! Finance Canada": 1,
       "The Dales Report": 1,
@@ -80,8 +80,22 @@
   },
   "items": [
     {
+      "id": "5d6aba3635eb",
+      "time": "2026-07-25T11:53:39.890Z",
+      "source": "Fierce Biotech",
+      "sourceKind": "rss",
+      "sourceTier": 3,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Scancell to go public after winning reverse merger bid for troubled Neuphoria",
+      "link": "https://www.fiercebiotech.com/biotech/scancell-go-public-after-winning-reverse-merger-bid-troubled-neuphoria",
+      "tickers": []
+    },
+    {
       "id": "c80d5f598146",
-      "time": "2026-07-25T10:44:06.352Z",
+      "time": "2026-07-25T11:53:39.890Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -94,20 +108,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "5d6aba3635eb",
-      "time": "2026-07-25T10:44:06.351Z",
-      "source": "Fierce Biotech",
-      "sourceKind": "rss",
-      "sourceTier": 3,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Scancell to go public after winning reverse merger bid for troubled Neuphoria",
-      "link": "https://www.fiercebiotech.com/biotech/scancell-go-public-after-winning-reverse-merger-bid-troubled-neuphoria",
-      "tickers": []
     },
     {
       "id": "57032fe30a8d",
@@ -126,31 +126,17 @@
       ]
     },
     {
-      "id": "efd42a986bdf",
-      "time": "2026-07-25T04:01:01.000Z",
+      "id": "94f5dd23d61b",
+      "time": "2026-07-25T03:30:11.000Z",
       "source": "AOL.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
-      "direction": "NEUTRAL",
+      "direction": "BEAR",
       "impact": "LOW",
-      "title": "Kristen Stewart’s New Stoner Comedy Movie Looks Hilarious in Psychedelic Tease",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdkNuWFJ4VGItcjNlYmhwbTA2aDBXR0xoYUNDVF92T2xsTDd1dERJYlljSkd2RFhkQWRmSlM0Rmkxa3JOUjdtRThkZFpwZ3g4Sjk4Y1QtbHpCcWIwaEZzdldvTGpkTjN3YWtiaENIb2xZc2dRNE5Cb2Z2anItSUdwZlp0a1N4QQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "fbb65cfd371e",
-      "time": "2026-07-25T01:55:04.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Universal Ibogaine Inc Revenue Breakdown – MUN:JC4",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MMTAxWXV3WkNaQmp6VXFJb1o1V1hjUEhIa3ZUTVhaLTJpTmV0QUN2REdYTXVhOGx0ZHlaaXRsakVvaWlXa1ZyZXRSZFVhQUQtMEpwcDNERjlEbkYxcDI2QV9GOFdic2ZiSzc4NW02TVVHdw?oc=5",
+      "title": "Psychedelic pizza chain plans to reopen in Lexington. Here’s when and where",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWE14czltMjdXSXowWVFjZnU0SjRWb3hBamstYW9fRllidXdvMWdyR2p4NzZ6TkY0NElyTzhuN3kxMXZyVVBaNkNWZWlrbEtIMS1kRFhMR0N6VURBWkc5SkRTT0VJcDlDbDBEWnUwYUgxT25aak4tMlF4b0JoRGNCMVpWTHJIejQ?oc=5",
       "tickers": []
     },
     {
@@ -248,20 +234,6 @@
       ]
     },
     {
-      "id": "e7b47b524323",
-      "time": "2026-07-24T19:07:19.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "impact": "MED",
-      "title": "Nasdaq, S&P 500 Futures Fall, Oil Risk Back In Focus After Trump’s Iran Escalation: Why PBM, FRMI, ASTS, BATL Are Keeping Traders Engaged Today",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ0JNN2NnRURZSTYydHpaTXQ4aHNKaWxVWEhhZThKamxydllUdE4td3h3LVNzMEM5akh2TTlyYzBiVmZ6S1YyS3lMbUtOa2FrVmRwaU5mSUw1SVN4bFg0eWhRV0JVMmNOYWZ5ckJpcWcwaGRUUmctWk1KQWFvWE1jal8yNi1VZHJ3NTdmU3VrX2dtRHh2RUtRZ3V0WEs5YUxIOTBybl9OakZIcnYzWDB4TXNQbWt5VjVWczVmSWc4VWpUUmJHUVZHRG5FU1l6dw?oc=5",
-      "tickers": []
-    },
-    {
       "id": "8be9af3480d9",
       "time": "2026-07-24T18:16:00.000Z",
       "source": "The Economic Times",
@@ -318,6 +290,22 @@
       "title": "Industry and D.C. Are Racing Ahead on Psychedelics. They Should Let Science Lead.",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQckpNTmFvdTh0SHJkcmdyV09DWDZaSmw5YnE5TlZCei1JYUozbW5fS0YwdUJaejd4WW1rdUJjUl9Dbk5sOVJkWEtVR2xfQXRuQlVJamhNR2s2T1Q5N1BDX3ZBMU1OMUNYanBMd0djMGk1a1JhMFhJLTNpb1pEV0RmMURUd2xpMEhmbWlRWERSSTU2bDY1RFNrUFhTUFA5OThzeG5qVnNHZTRkT21SWERCUFJZQ1EybTZsSldqamVZT2lJSTZkQWFILWstaDBncFZXVVE?oc=5",
       "tickers": []
+    },
+    {
+      "id": "3ae2a2d333ec",
+      "time": "2026-07-24T16:26:24.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Piper Sandler Maintains Definium Therapeutics(DFTX.US) With Buy Rating, Raises Target Price to $73",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORWkyRDZPT1R2bFVJN0pNSzBKVE5oTm1icl9EN1BCc2dWSFozNFVOTGEtR3d1VmRuMFAyNDlGTTBMeVd1dVRhNkotY2ZkOWd4X0R4NFhId1ZtR3N2MEI5QzJuam1XSWJIWTRFTllMSzhNTmtua3VFaVRMTWgtRjFOamU1T1ZIXzFvU3JtQ1hJMlVxUWpkaGE0OGNtQlEwcnIwQndMWDdMcHN6bDJWZUpqdXdZdHgyVTJG?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "a7ae80ed7f8f",
@@ -1169,22 +1157,6 @@
       ]
     },
     {
-      "id": "ee74cb2a554c",
-      "time": "2026-07-23T07:00:00.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "ATAI Life Sciences NV|Price:7.160|Chg%:-0.010",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LZ2kyS1pFU0JaamRTVTRqeFBOMW5pVktqUHN4Z29ZM3R5czU2YXQzdTBMTVBmbnRIdEtPdEs3YlNBSi1iaDBncHdYUTMzcG43bkxqcG90WWZYekpDZFZxTVpnby1BR3IwUDlxTkd3?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
       "id": "edefb4552633",
       "time": "2026-07-23T07:00:00.000Z",
       "source": "TradingKey",
@@ -1486,6 +1458,38 @@
       "title": "Federal Agencies Advance Psychedelic Therapy Following Trump’s Executive Order",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWnB6NUZRQ0tRY292ZENoNkVyc19HX1VPeTJybXVsNldfSlpQaWt4WW9vMW44di1lY29yclVwOEt4aVY2WVNFV1VDZ1o0QjNqVUdJN1JHdWlINWpfZ0EzemNqSTVYQnpwS0ZCbTBwcmFjZXlrOFBtVTdhVHFxcUMzVXhuTndWa1hDWmI2bG4xYkNFNjlxbkdFVHU1VGpvSGwyZGJfMFhGWFF5Tms?oc=5",
       "tickers": []
+    },
+    {
+      "id": "386675cfd21c",
+      "time": "2026-07-22T14:32:24.000Z",
+      "source": "AD HOC NEWS",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NBIX stock consolidates after solid 2024 guidance and Ingrezza growth",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOUJMckxfWVI2ZzdYMjN1U3hlZ2RuVzJKMEk4ZlpxSjdPWUJxVE5oUkpJa2xjZ0RKVjdCblRFTFF1YzdJOTk2QWZQU2V2MTRxdE5pX2lPYTFXaDg2dURJZ3NldE5VcWg3SzJRMml5V012UGxibjBrZGZqa2tRRHhFVWpvX1l6aWFLOWJNRHEtb1Q1b3d2WE8xcTZhaU05WE0yV05xQ0tXYkJUWmNMRm80RVZuLUhiQ1JVLWpfNHA3Qy1TRlRpSlhF?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "4b08e4b7d151",
+      "time": "2026-07-22T14:14:22.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (DFTX) Highlights GAD Care Gaps, Is The Stock Already Overvalued?",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMHNhR0l0RkFudWxqckdLdHdhSmhHR1l1Mk94STFYd0JrOXQ0ekFSZC1peGxnb1FSOHhwTGNLenFyd3prcVVrVW1fa0RINWxyRkY2MVgxQ0RZX3lmbkFWUlU4Z2ZacFFkRTA2ZWZvc3JjeFhPVDlMT2RrNlA0TmVFQ3kweGwza2NiamNRNVk3cDJ1eHdINWtVUGJqNkpyZkR6OWY2aA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     }
   ]
 }
