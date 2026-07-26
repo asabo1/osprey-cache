@@ -85,6 +85,13 @@ jobs:
           except Exception as e:
               print("indexnow skipped:", e)
           PYEOF2
+      - name: IndexNow ping (Bing + partners; content rebakes daily)
+        run: |
+          curl -s -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d '{"host":"crudesignal.io","key":"c922e5f1bfe3048fd8b13a916bfdbe89","keyLocation":"https://crudesignal.io/c922e5f1bfe3048fd8b13a916bfdbe89.txt","urlList":["https://crudesignal.io/","https://crudesignal.io/is-the-strait-of-hormuz-open","https://crudesignal.io/is-the-iran-war-over","https://crudesignal.io/hormuz","https://crudesignal.io/chokepoint-index","https://crudesignal.io/track-record","https://crudesignal.io/data","https://crudesignal.io/margin","https://crudesignal.io/posts"]}' \
+            > /dev/null && echo "indexnow pinged" || echo "indexnow ping failed (non-fatal)"
+
       - name: Redeploy site
         env:
           HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
