@@ -52,5 +52,14 @@ jobs:
       - name: Redeploy site (hook only; hourly freshness rides the proxy)
         env:
           HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+          NUDGE_KEY: ${{ secrets.SITE_NUDGE_KEY }}
         run: |
-          if [ "$(date -u +%M)" -ge 20 ]; then echo "skip deploy (only the :07 run deploys; the proxy carries the rest)"; elif [ -n "$HOOK" ]; then curl -s -X POST "$HOOK" > /dev/null && echo "deploy hook fired"; else echo "no hook; proxy carries freshness"; fi
+          if [ "$(date -u +%M)" -ge 20 ]; then echo "skip deploy (only the :07 run deploys; the proxy carries the rest)"; elif [ -n "$HOOK" ]; then curl -s -X POST "$HOOK" > /dev/null && echo "deploy hook fired"; elif [ -n "$NUDGE_KEY" ] && [ $(( $(date -u +%H) % 3 )) -eq 0 ]; then
+            # No Vercel hook configured: bound baked-page staleness at ~3h via
+            # the same deploy-key nudge the daily workflow uses (8 empty
+            # commits/day max; the hook, once set, replaces this cleanly).
+            mkdir -p ~/.ssh && echo "$NUDGE_KEY" > ~/.ssh/id_ed25519 && chmod 600 ~/.ssh/id_ed25519 && ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+            git clone --depth 1 git@github.com:asabo1/crude-signal.git /tmp/site -q && cd /tmp/site
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com" && git config user.name "github-actions[bot]"
+            git commit --allow-empty -m "bake: freshness nudge (3h bound; set VERCEL_DEPLOY_HOOK for clean hourly)" -q && git push -q && echo "nudge deploy fired"
+          else echo "no hook; proxy carries freshness"; fi
