@@ -1,17 +1,23 @@
 {
-  "updated": "2026-07-27T13:44:20.709Z",
+  "updated": "2026-07-27T16:05:26.887Z",
   "counts": {
     "total": 92,
-    "crit": 5,
-    "warn": 8,
+    "crit": 6,
+    "warn": 9,
     "bySource": {
       "Fierce Biotech": 1,
+      "Stock Titan": 1,
+      "Psychedelic Alpha": 3,
+      "MarketBeat": 3,
+      "TradingKey": 23,
+      "Investing.com": 2,
+      "The Manila Times": 1,
       "citybiz": 2,
-      "TradingKey": 25,
       "American Songwriter": 1,
       "TradingView": 5,
-      "MarketBeat": 2,
-      "ChartMill": 2,
+      "Moomoo": 2,
+      "Moneyweb": 1,
+      "ChartMill": 1,
       "TipRanks": 9,
       "Entertainment Focus": 1,
       "Louder": 1,
@@ -20,35 +26,26 @@
       "ScienceAlert": 1,
       "YouTube": 1,
       "Stocktwits": 4,
+      "Ad-hoc-news.de": 2,
       "simplywall.st": 5,
       "Mshale": 2,
       "The Times of Israel": 1,
       "Caledonian Record": 1,
       "Kavout | AI": 1,
       "Yahoo Finance Singapore": 1,
-      "AOL.com": 1,
+      "CNN": 1,
       "That Eric Alper": 1,
-      "Ad-hoc-news.de": 1,
       "Patch": 1,
       "Axios": 1,
       "Psychology Today": 1,
-      "Moomoo": 1,
-      "Psychedelic Alpha": 1,
       "Medical Daily": 1,
       "Pharma Voice": 1,
-      "Investing.com": 1,
       "Contract Pharma": 1,
       "Alternet": 1,
       "The Debrief": 1,
       "UpToHear": 1,
       "Inverse": 1,
       "streamlinefeed.co.ke": 1,
-      "Yahoo Finance": 1,
-      "The Atlantic": 1,
-      "Yahoo Finance UK": 1,
-      "Forbes": 1,
-      "The Pharma Letter": 1,
-      "openPR.com": 1,
       "Endpoints": 1
     },
     "byTier": {
@@ -59,7 +56,7 @@
   "items": [
     {
       "id": "5d6aba3635eb",
-      "time": "2026-07-27T13:44:16.449Z",
+      "time": "2026-07-27T16:05:24.981Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -69,6 +66,98 @@
       "impact": "HIGH",
       "title": "Scancell to go public after winning reverse merger bid for troubled Neuphoria",
       "link": "https://www.fiercebiotech.com/biotech/scancell-go-public-after-winning-reverse-merger-bid-troubled-neuphoria",
+      "tickers": []
+    },
+    {
+      "id": "d8c6f5b95f75",
+      "time": "2026-07-27T15:17:57.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "JPMorgan discloses 6.3% Neurocrine stake in 13G/A filing (NBIX)",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ0ZoVTVFdlh6SW93WmR6WWRNQmkyalpyZElUTkVjcHBzLVQ1RG9CNXN2RDBpdElhakc4MElHazdXV1luSC00bjE4VXU5R2M1VmVGUFdPbVhPUENjRFBGdU1USlRUYlRZWU1LTkI3UlRJbThIR24yaTdfV0NQMXpTMlFPTlFoU2VPSU82ZDhlNTdqWm11cWFycU1VZUVzUnhTaWxMbGczSUFXS0NDTVQ1ak1ZaVZhaWp1Q0dFZUxiWU94MjRiYkZ2VXRObw?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "a5cb2e202de0",
+      "time": "2026-07-27T14:59:03.000Z",
+      "source": "Psychedelic Alpha",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Q1 2026: Oregon Psilocybin Services Update",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2poZDZ2TGphLTlkbk9kOHk2TXM4cEJhUXRSM2RoLUpVV3UxTDZSMkZ4ckJJTW4zOWlfS2NpMWJRTFZLcmx5Uk51SjRlMmVZMVlIQXJXZDhseHl5VXIyemdGWURPWTBNZjMydFR3RDFjT0k3SVZYb1FzWlpaTWN0dmJR?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "db43cbd3e355",
+      "time": "2026-07-27T14:18:11.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin Inc. (NASDAQ:HELP) Receives Average Recommendation of \"Buy\" from Analysts",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRlhmS01YeGxVWHFlVVpsWFdoMGFJTkoyTFBmRG1wWXc4S3pXS3oyM1BEWURnUmVJSEhvQlJhREdWajRrVnh5ekg2YzRibWxMdVU1aUcyMU5FTW1heEJqNDllM0JLb0JPNE5zdHVPRlBIdHhXUTZuNk5nc3ZEck52dnZMRDFoWklzUV9KaGxuVUJfX2VneXNpRFh1ZGFUYmpGaDdNLTF3YklQUm16em95eG9ZT1V1VDM5S0FQamxUZmhJcENfSEE?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "2cdadf3bf318",
+      "time": "2026-07-27T13:58:52.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Mind Medicine Subordinate Voting Ord Shs (DFTX) Cash Flow",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hSnYzRndtMnpPQzNKdHBQWUxVbEtqc3hPWU02Z00wWGY2cWxxV0NJQm1QUmtBMWlzMTQxNUpNV0puNG02QkxOczB0NFRhLTJOZ3Y1X3NsbldTSDhYU2gtQUV3ZmJ6SDg?oc=5",
+      "tickers": [
+        "MNMD"
+      ]
+    },
+    {
+      "id": "5ca53a3993dc",
+      "time": "2026-07-27T13:52:00.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Alkermes set to report earnings amid orexin frenzy and M&A buzz",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMjhZWTlKSnhScWl2OGw3UTdhay1XYXZwcFJZcUJjbHJrM183Ml9IamQ3aUpoSklUM05jamtoYW9ZajdZbUkwQTJOeDdad0RaLXVYOHU1V0FQWmt1QmQzajB1T1ZKRzdyd2c3UGl2UGJlMTRpNkdybTg0eVZBTEF0MnFmd2o5VldZZ3ptRmlOTGNVZ0FLbDhNSFF2eUFBazhGWG5LY0czem9CYjVva0ZmSl9VV1RkMEdXNjctYWtLRlQ?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "867fa2adcd8e",
+      "time": "2026-07-27T13:42:46.000Z",
+      "source": "The Manila Times",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Rose Hill Life Sciences Appoints Jama Pitman as Chief Executive Officer",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbnBsdkdWRF9PZEdEcmhySEJ3LTVseXUyOTFnV2dJWUg4azh0OE8xRlJ3VVBIZGw1NlU5eFJwUEFxZkFsbWRrZUdqRzFSakM5UFdxZnFFOEQwY0FHOVBxRkxBRExSZGlOWFRkUzVwdmZBRW5Lc2taTDljUlI2dk5pSHJ2dVV2djlDblNyMkVGcFRhbXd3dV9xZEtiek9mMkZTRjNHcGt3ZHlGUnhrbjVMVzBweXkzWEFjTlJNMWdXdnZxcXdaN1FYa1I0UlhYcktobHJkLXdwZUZWQjB1Y1VBT2w2NNIB4wFBVV95cUxNbnBsdkdWRF9PZEdEcmhySEJ3LTVseXUyOTFnV2dJWUg4azh0OE8xRlJ3VVBIZGw1NlU5eFJwUEFxZkFsbWRrZUdqRzFSakM5UFdxZnFFOEQwY0FHOVBxRkxBRExSZGlOWFRkUzVwdmZBRW5Lc2taTDljUlI2dk5pSHJ2dVV2djlDblNyMkVGcFRhbXd3dV9xZEtiek9mMkZTRjNHcGt3ZHlGUnhrbjVMVzBweXkzWEFjTlJNMWdXdnZxcXdaN1FYa1I0UlhYcktobHJkLXdwZUZWQjB1Y1VBT2w2NA?oc=5",
       "tickers": []
     },
     {
@@ -195,6 +284,38 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE05VDBrMERTRTRxU3R2VkR2WlBoVFR3S25GQU05ME1hSExlMm9XM1owc2JxcVRCSk1YWmFiS3JSdm1fY1d3S2VWUkZac2lrekhMbkljSkR2MXhQVkRSSWs3VjNVSFRMRk1GRzMwREgyNA?oc=5",
       "tickers": [
         "ALKS"
+      ]
+    },
+    {
+      "id": "b4e00e0cb769",
+      "time": "2026-07-27T11:08:32.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Wells Fargo Initiates COMPASS Pathways(CMPS.US) With Hold Rating, Announces Target Price $13",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUVJTVGZuSENvZUc3QmhPb0FpYlNhQjViLTZDalcxNzNYdWtBWENXOUNzZ0RZVTA3YVhRZGxyZktheEQyRTJ0cWE1b3dGRlRDejJBT3hmalNweUVWbS1aYlRkNENnNHN3OTd6SmowaHhrU3R2U3ZUQkpNWFBlaFVvX0hhckQyWW02MVNLUTlPRThwQzY1VmFrVWJrSVJDZi1YbjlGaVhwUnM5TzJpbWdEcEl5MEk?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "569db0f57588",
+      "time": "2026-07-27T09:46:00.000Z",
+      "source": "Moneyweb",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "CILO CYBIN HOLDINGS LIMITED – Change to the Board – Appointment of Director",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUJKLWk4eWl5TmF4MGtMR3ZPWGxPSzR6V3EtemJpUmRienZaUnNXWllCZjBRUjZYY1ZKZEFXUnY3RzNBMy1vSm5Gb2FVSTE3ZFhtTGV2elhxM2JaWmdLYV9RekxFcUU3LS1vM3p6bHdIektLX2txa19mMGx0WVdRdU8xWTRSbkNIZTBuUkEyX0luMGQxZmZkX2hOZnZtWERnNDlBcVVRaVJmTlVl?oc=5",
+      "tickers": [
+        "HELP"
       ]
     },
     {
@@ -526,6 +647,20 @@
       ]
     },
     {
+      "id": "d6473abd1418",
+      "time": "2026-07-26T23:03:41.000Z",
+      "source": "Psychedelic Alpha",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Breaking: World’s Largest Pharmaceutical Company, Eli Lilly, Acquires 5-MeO-DMT Developer AtaiBeckley for Up to $3.8 billion",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYkRrMm8ybVdETmRwOVFnbktWVTJnOW5JN1BDdWtRUXNUbXdPdm1waDlPT1dmNWFzc2c0RTBaTFRNYmJyeXdZZk81VEZ3RTBFZlg4MmM4Q2c1czlHV1JNbURLNXpZUmdRaVVvd2V1dXk1UjBZWFVETzVXbnpmWjR0NW5YVk14WVh4b2FQQkNURnNaajJwdk1QYjd0THpuejVEaldBV0RGMTFpUjlPUzRtbzhXUTJuZzN6UjhPQXFlUkdUbWJncHRJWkZHZWhPYXhGdlZpUXhNRER0eWpwUTRONnJQOUJaSFhsSmc?oc=5",
+      "tickers": []
+    },
+    {
       "id": "3a6180002bc3",
       "time": "2026-07-26T22:02:54.000Z",
       "source": "ScienceAlert",
@@ -567,6 +702,36 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2tKT2FBODN0eXlWZHhOYjBHRmhQdzNDM1dJZkpibWFPZ1lBcXpWcnptTi1iVE4xSFpRMmE0RWZnSkhJVl9DNDROOWNfcjZ1NTdrb24wYllWTkFNMGpfQTRFeWVnY0x2UGwySFFhOWdPOVNrMWhxWC1RWXRqbGozY192cjZ1N1JBNzdzRGZKYXJkeWVoLS1HZjVENTF0YzJBWVlqM2FFSUt2WVNkRFBrUDhBWVU?oc=5",
       "tickers": [
         "CMPS"
+      ]
+    },
+    {
+      "id": "1503e2864ccd",
+      "time": "2026-07-26T13:08:09.000Z",
+      "source": "Ad-hoc-news.de",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Tame Impala - The Sound Of InnerSpeaker After 15 Years",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOFNOYmhvaHctbkNGdDdEbTNjZjJ1REZfMndKc1p1X2paSGhZUlRfMFdFcENtdzZlYXFub0dIcTVnRnBtc1NYR2R5YUMzdXlucHJhV3RXR3dtSEhqQVFFREhXbDZCenpzLUdua0RTVTRELXJOOWVRVFhBeHIyTHRXZEtFeEN2S2F0dmZjelRMRjhFaWpxbjRkVE1ZUUx0VHNKSm42OEtQTG5rS0E?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "e992c27e000e",
+      "time": "2026-07-26T12:51:28.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "SRx Health Decided To Invest In A Psychedelic Drug Company That Just Went Public – Here’s What Aided The Decision",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNW5LdE5JOEdPOTBEdHNYSTJTQTRpUGZldUVPQjliMlc4eWZtR3V4VUxaVDE2QjRhMnhHcXRNeGhYLWZ3ejBIcWhFRjRHeFZ4dndobjMzOEQxZWpxSlpHVVlWNmJMTlJHN0ZCNC1HRm1JOFZDd2dzcl9zVUlkZEcxS0k4Z3ZkdmN5M05qRDRNWE0xeHpZSTZoWVBlZ0VpVUExa0lmY1RUQmJlMjBBT2ZldGJoU19ZT3NKYl8zYUhVUTcySE5yMGJ3dEFiSE5SQWlUQUdNODNyMnNuSUFRLUVRR2Y1ZHpBdGtEc0JZbTJwWXRSZzRFc1JtRms2VlRSWXZoMjNUZ2pPNA?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -710,20 +875,6 @@
       ]
     },
     {
-      "id": "c4eea4c719e4",
-      "time": "2026-07-25T23:38:53.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "PBM Stock On Track For Best Session On Report Of Upcoming Trump Executive Order On Psychedelic Ibogaine",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWxqbFdIeVh2RDgxbVV6a2oxWmx3UUtVSW9OYW90dHlCOVVfU1o1b19GcGtYZzRGdmhkdkREbHhHZzZhaGtPWUFHZHRNU1F0QklKXy13SlRkamVkMVBuVE9SSzVDUTc2Zkg0bFZPamttM2E0bkZuUXF4S0JLX18zX1pkbTB1MlAyX1YxMXBvay0xQndMRFRkU0drZ3hvWjBISi1oQ1ZIck5LcFFKUnhNVUdCOUVyQ2gtN18wSHBwM0V1czNyc3VlV21ROGdKMERSeTByaF9jUlM1UF82ZEdMbWJ6OTVmUWNjSDNhQko4dmJ5NXc?oc=5",
-      "tickers": []
-    },
-    {
       "id": "f9fcd5e11bbf",
       "time": "2026-07-25T20:44:22.000Z",
       "source": "TradingView",
@@ -818,6 +969,22 @@
       ]
     },
     {
+      "id": "fce296c05eae",
+      "time": "2026-07-25T08:01:23.000Z",
+      "source": "CNN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "CMPS Stock Quote Price and Forecast",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9UaEJqd3RZcTBFeTdaNGZlTzNvUXVVUS1HTkFia2x4anVuWWZDSnJyWmV3WnpHTHY2al8xcEMzOWw1WGt1TkZyNGhwTEo2Vndm?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "b02ecaf3636b",
       "time": "2026-07-25T07:49:56.000Z",
       "source": "TipRanks",
@@ -848,20 +1015,6 @@
       "tickers": [
         "CMPS"
       ]
-    },
-    {
-      "id": "efd42a986bdf",
-      "time": "2026-07-25T04:01:01.000Z",
-      "source": "AOL.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Kristen Stewart’s New Stoner Comedy Movie Looks Hilarious in Psychedelic Tease",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdkNuWFJ4VGItcjNlYmhwbTA2aDBXR0xoYUNDVF92T2xsTDd1dERJYlljSkd2RFhkQWRmSlM0Rmkxa3JOUjdtRThkZFpwZ3g4Sjk4Y1QtbHpCcWIwaEZzdldvTGpkTjN3YWtiaENIb2xZc2dRNE5Cb2Z2anItSUdwZlp0a1N4QQ?oc=5",
-      "tickers": []
     },
     {
       "id": "a6f8efd11b1b",
@@ -1031,6 +1184,22 @@
       "tickers": []
     },
     {
+      "id": "357844d97e7f",
+      "time": "2026-07-24T19:04:26.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "ATAI Life Sciences NV (ATAI) Valuation: PE, PB & Fair Value Analysis",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9tWHlQTTdYMG14VUxBYjdJeVBsMlQtRGROQk1pU2FDaUg4ZFFKR3lNQnlFaENGSnVMMzB4YjluVHcxbGxlU0t6UkZBd1V6aUR4dlBvUGNCb2VGdEtvb3VHbXEtUXNzcDhQVlYtMmdMR1VEdw?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
       "id": "6c5c3240a4c5",
       "time": "2026-07-24T18:43:06.000Z",
       "source": "Axios",
@@ -1089,8 +1258,8 @@
       "tickers": []
     },
     {
-      "id": "2b4dc2d0fe9f",
-      "time": "2026-07-24T14:35:31.000Z",
+      "id": "7be45cfe1eae",
+      "time": "2026-07-24T14:35:30.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -1099,7 +1268,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "How Investors Are Reacting To Neurocrine Biosciences (NBIX) Leadership Hires In Business And Market Access",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQT19MVjB0WUJ6WmVQdTdNNUpCSS12dDJQLXk2cXVaLTg0Wm4yUmczR3FXRzRRZ1FYa045SjY1SXdKWlh2bzg0WG41MldaT3VqRXNBQVNZc0piSWpGMFN0QkFXYm11dUtLSERMYm1RQ2h3MUI0S2FJY2NVQ1BXSEJBeDhiMnZFUnF0bUZTVTdRdV9kT0tTeTZNMWJLTVV3dTJvUG8xSUlreDNKSWpQQWIySEUwNURNamtyMzJaR2k0WVFIVXhZTEI0VjFpZEdYUnMxN1paa2RwS3ZSWGJ5VTc0MzFFODVkcl9iNVFQaTZBem1OUdIB8gFBVV95cUxQT19MVjB0WUJ6WmVQdTdNNUpCSS12dDJQLXk2cXVaLTg0Wm4yUmczR3FXRzRRZ1FYa045SjY1SXdKWlh2bzg0WG41MldaT3VqRXNBQVNZc0piSWpGMFN0QkFXYm11dUtLSERMYm1RQ2h3MUI0S2FJY2NVQ1BXSEJBeDhiMnZFUnF0bUZTVTdRdV9kT0tTeTZNMWJLTVV3dTJvUG8xSUlreDNKSWpQQWIySEUwNURNamtyMzJaR2k0WVFIVXhZTEI0VjFpZEdYUnMxN1paa2RwS3ZSWGJ5VTc0MzFFODVkcl9iNVFQaTZBem1OUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNT1dmZlNsdy1Ca3ZkeU9MeEhuck9pU3FLcUtJeEZ5T3VXNS1wakVxZVFaZDRUelVoRWtfdkZucTdwOU5udjVFMW80ckpxX25BWnRPUU5IRkdDTlk3Mk1SdnZ0LU9mU1F0c0IyaW4yT0Z3MmFtM3F4S09lZE1OZUdDVnNWMFNZY2NJMUdhZDJmOFFlNE9YWVpWMkJndE1tX1o3emlLd1JjLVgtSHI1NjN3VkNYRFEtWHBHcTNKQnktUUJQQktmMXk4azlsQXFxZ3dPSDlqc2c4UE1CcTN5R2otTnJpT21DbkVRV3FnWtIB8gFBVV95cUxQT19MVjB0WUJ6WmVQdTdNNUpCSS12dDJQLXk2cXVaLTg0Wm4yUmczR3FXRzRRZ1FYa045SjY1SXdKWlh2bzg0WG41MldaT3VqRXNBQVNZc0piSWpGMFN0QkFXYm11dUtLSERMYm1RQ2h3MUI0S2FJY2NVQ1BXSEJBeDhiMnZFUnF0bUZTVTdRdV9kT0tTeTZNMWJLTVV3dTJvUG8xSUlreDNKSWpQQWIySEUwNURNamtyMzJaR2k0WVFIVXhZTEI0VjFpZEdYUnMxN1paa2RwS3ZSWGJ5VTc0MzFFODVkcl9iNVFQaTZBem1OUQ?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -1255,6 +1424,20 @@
       "tickers": []
     },
     {
+      "id": "79b47cb33a28",
+      "time": "2026-07-24T12:23:28.000Z",
+      "source": "streamlinefeed.co.ke",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Eli Lilly Acquires Psychedelics Developer AtaiBeckley in $2.8 Billion Deal",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTJxbjJfZ2JVb0RwVVZWX2h6MTUwZW05cjBSTlZRWjFXTVNSMWRUVXpPMk9DOEVSR3hjMnc0ZW9oS0pxQmZobUY4RHFqSGZCT0l1WTFFS0tDZE43VHk2aW9vSUt2bjA3OWYtcGRkY1d6YlQ5ZHdCMXhPRHhlUUdBOXRkYnM4dVNTYXVqbDhwazgtY1FHWnRIdUFySlJ4Rkowb0tfRS1hc1Z2dEE?oc=5",
+      "tickers": []
+    },
+    {
       "id": "58711ddbf4d0",
       "time": "2026-07-24T11:58:29.000Z",
       "source": "TipRanks",
@@ -1268,192 +1451,6 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RU1FJV1RiTGE1cHNEVnlKZHhRbG9VTWUxN0hpQ2VvWFFEUGdYWDM5ZHBCUWV6QUotTmJVZ2VLb1VVYU1XTE9DR1B6U2laNEt3VWJ0UnNMY2ZuRF8wamNLUXBvZkN1ZVZ0djNRWg?oc=5",
       "tickers": [
         "ALKS"
-      ]
-    },
-    {
-      "id": "5b56f6a5041e",
-      "time": "2026-07-24T11:31:18.000Z",
-      "source": "streamlinefeed.co.ke",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Inside the White House Battle Over Psychedelic Health Policy",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXNDdDMxeW43WTBmSkNrekdPYXJVcHFDYlRoOG4xc0NESmRwdHRLY1lySnFXRWgtSGVXTG1lWVF5bkticUNRamZocVNxSC1vb1RvVUtpaDR6OTd4Vk9oTHgxbm92Y2U0UFBVR1ZDUnlBWUxYalNkYk55VWVfemJMQ2FRbDc0OUJoVkFuNE1RYmN1RlZuZHBMQ193?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "bd4fcd80b586",
-      "time": "2026-07-24T10:57:35.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "NEUROCRINE BIOSCIENCES INC. R (NB3.F) Q1 FY2026 earnings call transcript",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYUhuY0dYbEdKMm1KNS10QmpXQmRzQTBXYXh3eXYtbU4yNkxMVjVsMENGUUtwS0tQUmtJVkJNa2lDd21uYURkMklEbUl0Y1M0bEI5VHpyQ0JwcUZNLXExRmdWRGlvMUdfdU9tcFo3WlhpREN1WmxPR0w4elFnX3R5UmNMeThIb1dWM09yYnA4TQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "55c88d5253ab",
-      "time": "2026-07-24T10:30:00.000Z",
-      "source": "The Atlantic",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The White House’s MAHA Gatekeeper",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPc3dLeFg0RDNUamJVWUVzNlNVTFRlMjg1a1hlRUxkRUp2Z1E3d2tLTWs1NjNhajZzdzRwRHllTjdmVS1YR3VjZHpMeFJIaUQzQmc5OTlKTUxNaHc4TTVuak9iVUNTZmpVX0JVaXBLT2ZkbjY5eG5zaVhFSVozWGY4Vw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "e0402c18920c",
-      "time": "2026-07-24T10:07:47.000Z",
-      "source": "Yahoo Finance UK",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRX Pharmaceuticals Inc (B1Q.HM) stock major holders",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FYnlWVVB0RzBtdGFldHBjOFc1WWxxUG5ndFFwanN1eXhxbWIyZGF0NU9LdnRjMklJYXkydklDVjRwSmxMQ3JWVThwVWlRcTNseDVIMTNveC1oOWdUdnVR?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "2b33e0e49250",
-      "time": "2026-07-24T10:00:00.000Z",
-      "source": "Forbes",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "This Billionaire Made $360 Million Selling His Psychedelic Company To Eli Lilly",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOR2ZzcXJOV0w5U0J4RkNxLTNZUTNRRmlkYnlyZG9lWC1mWHlKWGVKelNrczg3WVhnb0ZBOVR5UHRDaXZVMVJiV3JjeTFPcXdzb0lJd1BwMU9wV1JyNks5VHgwbDlLcWNYRkZxdjRKRXFEVV9EUm9tcUpVQXVVUkFfTGRMcDdfd1ZFSHFtQmowQldzYVBqTHVzNE1wcHFlaVl3TVFreUQxMk5SYWxHTXRZVFZTVHowbGFmMUtLZ3BkT0x2endpR0ZrNFhKTTA?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "f0ef5cce841a",
-      "time": "2026-07-24T09:33:34.000Z",
-      "source": "The Pharma Letter",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine bolsters senior ranks as it builds beyond Ingrezza",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYjFXZUNyRllLNjlmN0t5cy0wVF9oOE55X2VmTnQ0M2lBRzRaT0RCcXJXVTJ5aFAwTkFROWhlMlA4SG1RdWF6ZkFlTmVXOFE0NDR4UUVTRVlZWnRRVnZZWkhoMjV6UjU5YlFGcVd5YkNNSWQxdkM2X3pndWRGTzR4SnVQREtzd1ByR3YzT0NJazhjeDJyOG9keFp5QjhmdE5SRFhwTGJPTGM?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "b52423ac155a",
-      "time": "2026-07-24T07:22:55.000Z",
-      "source": "openPR.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Addiction Treatment Market Size, Growth Analysis & Future",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ292UGhhTHNtYWJ1VkNMRl9GRVBHWDdSVE50ZjE0RTdXdDlqZUsyWDFhWmxZU2VrRi1VQ3h5ZXN3RWNIOTdPampJWG9KbUZZSnQxdHl4TmdNWEpvQm5Zek1SQzJvbW1CajRuMXdqeTZYdDlBcjdqdmZHYzdjNEpnSTRPRnlnN2lQMWVHakRTNnIxQmJa?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "44384a265305",
-      "time": "2026-07-24T07:00:00.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences Inc (NBIX) Risk Assessment: Volatility, Financial Risk & Investment Risk",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zUHBrbURKdllSNWNvQ2VqSjhnNGRwSVBQSGhHREtsTm9QSC15N1lzZzJIYTV1UUhEOGZKMDVhWHJkaHduOGJvR29rR3Z2UFJxTGhRVnYycVU4TTU1ZHVldk1OX1BTWl9tOUc0M2x3?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "dadbacf0726f",
-      "time": "2026-07-24T07:00:00.000Z",
-      "source": "ChartMill",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRXP Stock Price, Quote & Chart",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FLWFOUm9yb3dFMU0wVV85V3h6dFFyYWhYTDFCN1AtWkJZREZMV0VSdUhqZHBMMVVjRUJkQzllQ2I5a3o1NDNvdHhCVWNoLUNGczJ5UGRoNnhOZkI2N1BN?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "03f656c17a47",
-      "time": "2026-07-24T07:00:00.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRXP|NRX Pharmaceuticals Inc|Price:3.810|Chg%:+0.060",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PQUZ2UmJPWlVFOTdTMnZ4Z0d3N0t2LWtRVXFWVW5yUGVVdG9TX1lkQXBmN0N4OVNzcUhPVV9rWE91YlZ1enZkM2x5M0pfUlZ0RFJqdkktNFFTRFV3dnBtUTRrOU9FMDdfWHNuWTBB?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "392e5fce30f9",
-      "time": "2026-07-24T07:00:00.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "NRX Pharmaceuticals Inc (NRXP) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fYWFsdVVLWmxZbXZ6bnJVYTdGTUFuWWNBejY0aHlQR2F2ZFp4WTlLQ2JxQ0pKYktYckpzVEZHQUZDbkRKbHVzdXo4YVFBMFYtN1FYaVY0Q0RsX3NEY3NwdWh5X3hGV2M?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "92847be7185e",
-      "time": "2026-07-24T07:00:00.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRX Pharmaceuticals Inc (NRXP) Financial Health: Profitability & Balance Sheet Analysis",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XN05MUGg5LVJVWkYyZ2s2YXRkX0J6LW9VbHpJYkl1bjE5RkhtekNVaFJENkxCVFREbjlQSXZDZ190R3ctbjFGb3hHVVpzSlFtM3ZFQU5HRXRBVkJlVjJ2NHhrOThmSlA1dU5sbzBQQXI?oc=5",
-      "tickers": [
-        "NRXP"
       ]
     },
     {
