@@ -20,6 +20,19 @@ jobs:
       - run: npm install --omit=dev
       - name: Fetch intel
         run: node scripts/fetch-intel.cjs || echo "intel failed (non-fatal)"
+      # marginretention.ai collar evaluator: osprey is ONLY the scheduler —
+      # all engine math and store credentials live on the site. Self-disables
+      # until the MR_CRON_SECRET repo secret exists (set it when the owner
+      # arms Upstash on Vercel; same value as the site's MR_CRON_SECRET env).
+      - name: MR collar evaluator
+        env:
+          MR_CRON_SECRET: ${{ secrets.MR_CRON_SECRET }}
+        run: |
+          if [ -n "$MR_CRON_SECRET" ]; then
+            curl -fsS -m 90 -X POST -H "X-MR-Cron-Secret: $MR_CRON_SECRET" https://crudesignal.io/v1/evaluate || echo "evaluator non-fatal"
+          else
+            echo "MR not armed; skipping evaluator"
+          fi
       - name: "Oil pulse"
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
