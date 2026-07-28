@@ -1,10 +1,12 @@
 {
-  "updated": "2026-07-28T17:57:41.921Z",
+  "updated": "2026-07-28T19:50:48.016Z",
   "counts": {
     "total": 90,
     "crit": 1,
-    "warn": 13,
+    "warn": 14,
     "bySource": {
+      "Glide Magazine": 1,
+      "Yahoo! Finance Canada": 1,
       "The Mercury News": 1,
       "New York Daily News": 1,
       "This Is Anfield": 1,
@@ -14,7 +16,7 @@
       "TradingView": 9,
       "Yahoo Finance": 4,
       "Medical Daily": 1,
-      "TipRanks": 6,
+      "TipRanks": 5,
       "Stock Titan": 2,
       "GuruFocus": 2,
       "scanx.trade": 1,
@@ -23,8 +25,8 @@
       "Quiver Quantitative": 1,
       "Goodwood": 1,
       "Microdose": 1,
-      "MarketBeat": 3,
       "TradingKey": 21,
+      "MarketBeat": 3,
       "kens5.com": 1,
       "PsyPost": 1,
       "Johnson City Press": 1,
@@ -42,14 +44,43 @@
       "Bitget": 2,
       "Moneyweb": 1,
       "ChartMill": 1,
-      "Stocktwits": 1,
-      "DirectorsTalk Interviews": 1
+      "Stocktwits": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "114d5b639da8",
+      "time": "2026-07-28T19:09:59.000Z",
+      "source": "Glide Magazine",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "LISTEN: Jeff Darko’s “All I Need” Brings Jazzy Feel to Psychedelic Gospel",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSlh0TV9XVlhlXzFSYXN6U05mb1JxN1ZXTlNJcmUxLUdUcmJZVW5vNk5feE1fblhNSE4xcFJyRXlqVV9GUFlkUFJ5UnVOUmZhT0J5S0hfWW1rLXY1RUF3bV9feEFhd0pSM0NSQUQ4dldtZnB4eUEyNi1zUVkxUVA3SlZrNGNiOExXbjNaN0d6WmVkZ0RMbWw4YUh2VXJ1emJjZmVZOXFB?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "a21584409736",
+      "time": "2026-07-28T19:01:34.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Alkermes PLC (ALKS) Q2 2026 Earnings Call Highlights: Strong Sales Growth Amidst Competitive ...",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SMjYtMW1LRFJhWHBVVlQxZzJLWHNIQTJBUmdPUnZ0dk5rOEtSbzRvTEFWZWpoVnhuUkppeHBsT2lXU2lZc1pZZS1hOEt3WkVWbEJjXzd4RUhtQkRCUHM2eHl2Qm1paUZmZGZRbm13eUVtLWtHX3pldTBvNk5RSk0?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
     {
       "id": "be09c566206b",
       "time": "2026-07-28T17:51:41.000Z",
@@ -88,7 +119,7 @@
       "severity": "INFO",
       "direction": "BEAR",
       "impact": "LOW",
-      "title": "Liverpool’s last 12 away kits RANKED – Ecru classics to psychedelic misstep",
+      "title": "LFC's last 12 away kits RANKED - Ecru to psychedelic misstep",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQTdOUldTV0Q3bVc3bFppdXVoMU9yUVZqRklOMGxYWTVpMVpXZWtwSGFIZGZYQzc1cUwyRURNTWM2TDQyWXBVdi1rWWVKU3VreUYxb2I5aGpOb0pwTFZhMjd1Yld1VTdVZlZDUXdIUFUxS0Y4dnQwaE9scy1ja3dBSg?oc=5",
       "tickers": []
     },
@@ -500,6 +531,22 @@
       "link": "https://microdose.buzz/news/fdas-new-psychedelic-guidance-signals-a-maturing-industry-now-comes-the-hard-part/",
       "tickers": [
         "DRUG"
+      ]
+    },
+    {
+      "id": "e336a3f8e2af",
+      "time": "2026-07-28T08:41:48.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "ATAI|ATAI Life Sciences NV|Price:7.175|Chg%:-0.005",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91dk9TQ2gwM2ozYkkzeU42ZUw5MXJHb0xWa1ZIQm1HQjU3RlBHNE9Yd2tKS0ZQcVE5c2QteXNFRU9vT3hieGtLUkRLZmJhT1NSZEI3ald0a1pVQQ?oc=5",
+      "tickers": [
+        "ATAI"
       ]
     },
     {
@@ -1363,22 +1410,6 @@
       ]
     },
     {
-      "id": "0d83f6a4f7fa",
-      "time": "2026-07-27T09:33:10.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways initiated with an Equal Weight at Wells Fargo",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWHgtbUJscF9jZDJNUVoxX1RuS1Z3dDcxLWx2NkFWeno0b2k0WkpZaXphbll3RVVlRnE5ZUcxMEF3c2ZnOGlERTZOSHh0bUhCUTdreTVRVy13NXNQY0dQYi1uZGJTaHlnM3dfU3FNMUw0WklteEk3Z212aWh0YkNFNEk2RXBINVlQWHA1eGcxcmQ2czRVUWRtX08xUW56N0xIVzlleTd0YS12OFZzeE9PQmpB?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
       "id": "0636b8c6daa1",
       "time": "2026-07-27T09:33:10.000Z",
       "source": "TipRanks",
@@ -1424,38 +1455,6 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOUs3bGt0Q0RwX3NYZWlLSk1yNHdERHcwV05jS280VTVjeWlHRVhCeGo4QjJxaWtUTEg0X25wbTBHeFFfcGlIQTU0alh5bUNYdzQ0SmZJZ3dvTGxZbTBqU3pVX055eXllaTZnT3lzWDBQV1pKTGQtQ3hhZVd0UkM0dmh1LU9VeXc2LUZGWmd4R2NUbmNzckJnY0ktQlRWUUFmMDNhbkNaUHBsQU9DbzJyVmRCVTEtZw?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "08e7b5a0882f",
-      "time": "2026-07-27T09:22:50.000Z",
-      "source": "DirectorsTalk Interviews",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes Plc (ALKS) Stock Analysis: Robust Revenue Growth Amidst Strategic Expansion",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObHpoNWVlNHNWVml2RU9SYlVON2Q5d25OcHNjZmJPZnF5bXhNeUlOSjBXdzVrZ0ViU3I3OHRmai1LM0htRWZNWUFxT2JadlE5aUI5bFJiTHEyZ3Zmc2hpLWtkanpaTlZxWkhFdVF6MU5oc3B1aGFsdThUM05rWmpETGp1WGo1MjJScXJsNWthLXducVR1NVVlbkFacURqaXUwMTYyYjFFVU1zZGRxSmNFWkVUUjlONkg0YTE1S2N4Y1J0em9wWW4wMlVtY18?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "2ba2d6d19d00",
-      "time": "2026-07-27T09:05:26.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Cybin Ord Shs (HELP) Risk Assessment: Volatility, Financial Risk & Investment Risk",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2eGRhcjJtZXdCbzJDOVpvbERYNGw2anZoMU91WW9WMTJVN3paNGtGMXdRSl9IMXhwU0FkZ242WHNWcTRkQm5ZWkVjWWg5Vnh2OXdBckprTGtvREhUMER3aTJ2V3gxc29RQ1RHMDZB?oc=5",
-      "tickers": [
-        "HELP"
       ]
     }
   ]
