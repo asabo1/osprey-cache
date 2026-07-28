@@ -1,48 +1,49 @@
 {
-  "updated": "2026-07-28T07:17:10.232Z",
+  "updated": "2026-07-28T10:10:22.325Z",
   "counts": {
     "total": 91,
     "crit": 4,
-    "warn": 6,
+    "warn": 7,
     "bySource": {
       "Fierce Biotech": 1,
-      "TradingKey": 35,
+      "Microdose": 1,
+      "TradingKey": 36,
+      "MarketBeat": 3,
       "Westword": 1,
       "kens5.com": 1,
       "PsyPost": 1,
       "Johnson City Press": 1,
       "Gander Newsroom": 1,
       "WGRV.com": 1,
-      "TradingView": 9,
       "dailycaller.com": 1,
       "Psychiatric Times": 1,
       "Bergen Record": 1,
+      "TradingView": 6,
       "Stock Titan": 1,
       "Psychedelic Alpha": 1,
       "TicketNews": 1,
-      "MarketBeat": 3,
       "Investing.com": 1,
       "citybiz": 1,
       "The Manila Times": 1,
       "Moomoo": 2,
       "marketscreener.com": 2,
       "American Songwriter": 1,
+      "Bitget": 1,
       "Moneyweb": 1,
-      "ChartMill": 2,
+      "ChartMill": 1,
+      "Stocktwits": 4,
       "TipRanks": 5,
       "DirectorsTalk Interviews": 1,
       "Entertainment Focus": 1,
       "Louder": 1,
       "Baltimore Sun": 1,
       "Kalkine": 1,
-      "Stocktwits": 3,
       "ScienceAlert": 1,
       "YouTube": 1,
       "Ad-hoc-news.de": 1,
-      "simplywall.st": 1,
+      "simplywall.st": 2,
       "The Times of Israel": 1,
-      "Caledonian Record": 1,
-      "Yahoo Finance Singapore": 1
+      "Caledonian Record": 1
     },
     "byTier": {
       "T3": 1,
@@ -52,7 +53,7 @@
   "items": [
     {
       "id": "5d6aba3635eb",
-      "time": "2026-07-28T07:17:09.058Z",
+      "time": "2026-07-28T10:10:20.658Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -62,6 +63,68 @@
       "impact": "HIGH",
       "title": "Scancell to go public after winning reverse merger bid for troubled Neuphoria",
       "link": "https://www.fiercebiotech.com/biotech/scancell-go-public-after-winning-reverse-merger-bid-troubled-neuphoria",
+      "tickers": []
+    },
+    {
+      "id": "4dbfadc1937f",
+      "time": "2026-07-28T09:09:12.000Z",
+      "source": "Microdose",
+      "sourceKind": "rss",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "FDA’s New Psychedelic Guidance Signals a Maturing Industry. Now Comes the Hard Part.",
+      "link": "https://microdose.buzz/news/fdas-new-psychedelic-guidance-signals-a-maturing-industry-now-comes-the-hard-part/",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "e336a3f8e2af",
+      "time": "2026-07-28T08:41:48.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "ATAI|ATAI Life Sciences NV|Price:7.175|Chg%:-0.005",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91dk9TQ2gwM2ozYkkzeU42ZUw5MXJHb0xWa1ZIQm1HQjU3RlBHNE9Yd2tKS0ZQcVE5c2QteXNFRU9vT3hieGtLUkRLZmJhT1NSZEI3ald0a1pVQQ?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
+      "id": "862df95ecac5",
+      "time": "2026-07-28T07:00:32.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Top Cybin (HELP) Competitors 2026",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "dc9b944dbdc2",
+      "time": "2026-07-28T06:21:05.000Z",
+      "source": "Westword",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cannabis calendar: Summer markets and music showcases",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQWwzYUVvV0hlekUwUkxrRnM3LUtfQmtqTm5MMnU2cUNnemhaSDZHdjNGUlFqeXJuSkZIQXFrd3UyRnJSaGtVMGJDT0Q4N1Y1cldrdWpwM3pIRGtMbUYzczNvaS1zWG1ISEFvaDJ6WHI2TjNzMDFHcXZmLXI2Qkt1OHgwMV9qb3dwakE?oc=5",
       "tickers": []
     },
     {
@@ -78,22 +141,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sMm9FeXBqcWsxdnAtTFRja3lJa3p3UVpibGp2OU5DY3VvMDFmd0VzQWs1OTNuWmFfZzRLMnp1U24tMVU3RmZTQjdTM3ZtWjNTQUU4Sk03SDB6QQ?oc=5",
       "tickers": [
         "GHRS"
-      ]
-    },
-    {
-      "id": "e336a3f8e2af",
-      "time": "2026-07-28T03:02:53.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "ATAI|ATAI Life Sciences NV|Price:7.175|Chg%:-0.005",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91dk9TQ2gwM2ozYkkzeU42ZUw5MXJHb0xWa1ZIQm1HQjU3RlBHNE9Yd2tKS0ZQcVE5c2QteXNFRU9vT3hieGtLUkRLZmJhT1NSZEI3ald0a1pVQQ?oc=5",
-      "tickers": [
-        "ATAI"
       ]
     },
     {
@@ -129,18 +176,20 @@
       ]
     },
     {
-      "id": "dc9b944dbdc2",
-      "time": "2026-07-28T00:21:05.000Z",
-      "source": "Westword",
+      "id": "0014bc4ab226",
+      "time": "2026-07-28T00:43:47.000Z",
+      "source": "TradingKey",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "sector",
+      "category": "earnings",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Cannabis calendar: Summer markets and music showcases",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQWwzYUVvV0hlekUwUkxrRnM3LUtfQmtqTm5MMnU2cUNnemhaSDZHdjNGUlFqeXJuSkZIQXFrd3UyRnJSaGtVMGJDT0Q4N1Y1cldrdWpwM3pIRGtMbUYzczNvaS1zWG1ISEFvaDJ6WHI2TjNzMDFHcXZmLXI2Qkt1OHgwMV9qb3dwakE?oc=5",
-      "tickers": []
+      "title": "Cybin Ord Shs (HELP) Cash Flow",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5URmJ6SjZyckwyR2FERGY2ZnU4SE5VU29lc2s1TGVpQ1VoUC1CRmpBVmhYODlFZ2JDOXFfV2diblFTeGJ6RjJIQmlza2VaWW1TdUNXa0E1T1ZqQXJkdmhKRkVKZGpsVnc?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "97c81597d252",
@@ -245,22 +294,6 @@
       "title": "Greeneville Man Arrested For 8 Grams Psilocybin Mushrooms",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYUFmUWF6TFpSV2ctSXZFRHp6aEtQSzA1ZTljR0hPWDBCQkI5LUtscEItYk9IV0ZIRDduR21aZ19YZjBnTWRCYWtYNVFxMHppR0hWSTdqQnB2cWt2WlR1MEJReVVjYUVndDNrdGYzUTMyM1BNclZwZDNqLWlGWHVENg?oc=5",
       "tickers": []
-    },
-    {
-      "id": "a234967edaae",
-      "time": "2026-07-27T19:16:07.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Net margin % of Neurocrine Biosciences, Inc. – HAM:NB3",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbF9MSVpJdDY1NEFreVlZbFJJNXhiQ2pGUHJzUU5XNXBLSjg4c0RtRXRrUzJSak96Rm5zUF85WXZxZnJweEFlRzlKSVRqZmZuY0FHbDJtYnJ3bXNTMlN5Vkp3VHBFcFhvb1NheFJNM0tnZU9VemVQZ3h2TWV2U20zZUhaOUZxeW1JTjZiTWszdy1kQQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
     },
     {
       "id": "a6be7b9fd700",
@@ -387,6 +420,22 @@
       ]
     },
     {
+      "id": "a4b3babcaeb4",
+      "time": "2026-07-27T15:02:10.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Alkermes Plc (ALKS) Risk Assessment: Volatility, Financial Risk & Investment Risk",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1OXpJdGVramlDSmFpOGdTNFRMQ3BFYjZJc0E1RmM0VWlnZVFJR0U1WldySlk2RmJoRnZOSmhRajNQQ2dPTkNvVXNtb2tfaFlxU2xtLWVoMjJKTmxsd3RlSXYwSF9Kb3U2U1ZUMFZR?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "7844ebce8d4a",
       "time": "2026-07-27T15:00:37.000Z",
       "source": "TradingKey",
@@ -444,22 +493,6 @@
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRlhmS01YeGxVWHFlVVpsWFdoMGFJTkoyTFBmRG1wWXc4S3pXS3oyM1BEWURnUmVJSEhvQlJhREdWajRrVnh5ekg2YzRibWxMdVU1aUcyMU5FTW1heEJqNDllM0JLb0JPNE5zdHVPRlBIdHhXUTZuNk5nc3ZEck52dnZMRDFoWklzUV9KaGxuVUJfX2VneXNpRFh1ZGFUYmpGaDdNLTF3YklQUm16em95eG9ZT1V1VDM5S0FQamxUZmhJcENfSEE?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "558d92ddddd0",
-      "time": "2026-07-27T14:11:07.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes Plc (ALKS) Balance Sheet",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04bF9hNk5XVUVxVEVEM0VYWXlUZ2M0Ni1iVzRXUzdiRmR3X0N6UWo5YklGdHhYaTFwVUVIZ0RldjN2M2RfSG1ZcjJ6ODM1VjY5a04xNEtOVjZmY2NUSUpHdUZvQVFMbk5BSVRSMQ?oc=5",
-      "tickers": [
-        "ALKS"
       ]
     },
     {
@@ -573,6 +606,22 @@
       ]
     },
     {
+      "id": "e987b2ebd0a2",
+      "time": "2026-07-27T12:30:06.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes Plc (ALKS) Income Statement",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MSnlyRWt1NHNmZnlPMWU1U1ZDOW5FT29iY1pUel93b1dRZ0NoSEd2UTN4VV9ZcDRjS3dacDRDd0ozdVBkMkMtNi1MNDJ4dVI1SFY5MDk2Z04zc0Q1bmI2VUpmQzNEUnE3MXcybDNVSVQ?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "f77cc25d7284",
       "time": "2026-07-27T12:22:32.000Z",
       "source": "marketscreener.com",
@@ -586,6 +635,22 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMWY4dzRnR244cnhPU19BOVdfNVJDR0ZZQVoyZjRyMGhzSjdzdVdSN1NremVlT3RKdHVxUGxycFI5V21YcDd5MDRldkxaaVJZUFc2NXV0N05qWHJaeWhBME5iNDRKaEJDR3B0WF9xMkVXU2ttQ0M4Z2EyaXlXRktON2JDdWlzMHVNMjVhbWRCTlZJVWxFZnJLM3g5N1c2bVhMTno5a19fSHZ6NVNnY2dzZ19ZUkhJQ3pzNHREYjF3?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "0c2e7fc1d4fa",
+      "time": "2026-07-27T12:21:08.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "ATAI Life Sciences NV (ATAI) Risk Assessment: Volatility, Financial Risk & Investment Risk",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBzcjhETWtpcU9nYXFKcWF4cFFWRU1qV1FaQlptVFZmY3BXc1dkRDVBdFBYWVV1UXkwWW1YQTlYMmZBUnFXYUhfNnBmamE4WXlVN2FvQjc4UEhobnFtSWJ4bmU5YmVCSTM2NHloUUZB?oc=5",
+      "tickers": [
+        "ATAI"
       ]
     },
     {
@@ -731,6 +796,22 @@
       ]
     },
     {
+      "id": "f8fd8fd3442a",
+      "time": "2026-07-27T10:22:49.000Z",
+      "source": "Bitget",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cilo Cybin appoints Henk Vivier as independent non-executive director",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBoWG05bm1rUWRpbHN1czBsR210WF9WandKYWRoRUJNYVMyY010NXE1Z3RiREpzSjdFdHNqODc5SUdtcU9VckZ6QVktOVNpbzFlaGtmd2h3SnVMa1R4WklfYmFCTGNWUDhEMnfSAWpBVV95cUxQaFhtOW5ta1FkaWxzdXMwbEdtdFhfVmp3SmFkaEVCTWFTMmNNdDVxNWd0YkRKc0o3RXRzajg3OUlHbXFPVXJGekFZLTlTaW8xZWhrZndod0p1TGtUeFpJX2JhQkxjVlA4RDJ3?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "569db0f57588",
       "time": "2026-07-27T09:46:00.000Z",
       "source": "Moneyweb",
@@ -761,6 +842,20 @@
       "tickers": [
         "NBIX"
       ]
+    },
+    {
+      "id": "558b1b95b6e9",
+      "time": "2026-07-27T09:38:41.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "IBRX Founder Backs Trump’s Psychedelic Push In ‘Transforming’ Health Policy — Flags New Anktiva Breast Cancer Risk Data",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSFNwX0ZjNnNkT29QWEZlNjdKOU13RlpReE1rckdyRzhEYjdDZGZid082LTNxMDNYZi1QRE5IWW5KUWtGQ1lXTGFzbmw0SjhPbEJMQmI4ZElvS2NCNXc4OEdwUURfTmY4WkxjREdhb0t0VEJmVmJlQnRQaVhZWnozNmdVYXk3ejVTTGVsMWlsU0h6RzdkNUotWnpOa2JEU2ZiRWZWb3FUT2o1Mmljb2NmdC1jRVAxYVIyM1NsQjJRM0xydW9pZmpCM0xVMlFRTXhiZW5hTGpFam0xNlE?oc=5",
+      "tickers": []
     },
     {
       "id": "2e150a823bf1",
@@ -1063,22 +1158,6 @@
       ]
     },
     {
-      "id": "862df95ecac5",
-      "time": "2026-07-27T02:34:58.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Top Cybin (HELP) Competitors 2026",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "df2843f9df38",
       "time": "2026-07-27T00:39:50.000Z",
       "source": "Baltimore Sun",
@@ -1323,6 +1402,22 @@
       ]
     },
     {
+      "id": "7dee9d4a99e7",
+      "time": "2026-07-26T04:46:54.000Z",
+      "source": "simplywall.st",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences (NBIX) Refreshes Leadership On A Narrative That Still Sees Undervaluation",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTlN1Y0J2VVJkWWV6LWUybmJxeTlKQXJIeGI4T0lLY1pfT0hZN3JBZDl5ck1hemh4RU5pQ0tXRmFxM3NRaHFVTEphWFBCN2tSMmctZXQwS19mVWMxYndwUjhwLV9wYVBHeExnVWVJMENuSDAxYnVKc0lISHBsUEpzOXIzeVBzbjhWSm5fZEd4RFp5MWFTLUU2ODNQT05pWGRqLUw3LUtjTlNLRXAxSDgtTUVjYVJMOUd6X0FJYTlDX3BrWU9sUWVJdHd2c1dvQ3VlTlRuTXlLYTl5VEFjaWVmcG0xUzhNb1EwSHp2MtIB8gFBVV95cUxPZW0xanNUU2pFS3dhSUlkcmNSbnV4UEQ1NFBmd1NReF84RW9WM21lenVqRVEtTHlyNnN2QmN2WDBmTXk1eTFEdWs2SUwyRjMxanNDSzdfakFKU1VVeE5UamJwaUdWOXVTa3ZpdEhEUG1jenZHcEFrOXd4dEl4c21TcTcxWkRZZmVCVHpKeTFoc2ZOa1E3WmNpYW5ndlZYRGl2SmQ4Zjc5ZXB3YTl2TUFqSFN6UDI3NVR4VkJjWEIwVTBaYVVpbXgzdVhuODRyN2FDN0dWSzhhWUFySUFsaDNMcnUwa3Bpb0FNSzF6QnZzbVlsZw?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "a84c0da01b38",
       "time": "2026-07-26T00:03:00.000Z",
       "source": "The Times of Israel",
@@ -1365,100 +1460,6 @@
       "title": "PBM Stock On Track For Best Session On Report Of Upcoming Trump Executive Order On Psychedelic Ibogaine",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWxqbFdIeVh2RDgxbVV6a2oxWmx3UUtVSW9OYW90dHlCOVVfU1o1b19GcGtYZzRGdmhkdkREbHhHZzZhaGtPWUFHZHRNU1F0QklKXy13SlRkamVkMVBuVE9SSzVDUTc2Zkg0bFZPamttM2E0bkZuUXF4S0JLX18zX1pkbTB1MlAyX1YxMXBvay0xQndMRFRkU0drZ3hvWjBISi1oQ1ZIck5LcFFKUnhNVUdCOUVyQ2gtN18wSHBwM0V1czNyc3VlV21ROGdKMERSeTByaF9jUlM1UF82ZEdMbWJ6OTVmUWNjSDNhQko4dmJ5NXc?oc=5",
       "tickers": []
-    },
-    {
-      "id": "e8e81c94e88c",
-      "time": "2026-07-25T22:21:43.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "CMPS|Compass Pathways PLC|Price:11.300|Chg%:+0.040",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Nc2hTT250a3k2WUdKT3poc1NzdlZScTBxMkxTSHF0MHlVOTBYdllrMlFtQ2kyZmxINF95Y2dlSVFLUkl4dlhNbjJ4cFVuVnJ0NnlQZ2pOSVlqUFNRZ1o1T2dmcExXSkhyRUhoeG93?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "f9fcd5e11bbf",
-      "time": "2026-07-25T20:44:22.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin Inc. Revenue Breakdown – BOATS:HELP",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IWDE4c3ZwTzZvTGNTWnZHVEl2Z1Y3cWxUNDRJRFlHSEVLTG0yQmhFakJpQkZNTXRib21YMWYyQzNWWVVzZUFiWDZGaEgzZXN4b1NyeVJjc3VkMm9MZUlrbVJWZVppMV9XcWE4N3B2UnV6UDVPTkE?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "e84a55dd18ca",
-      "time": "2026-07-25T18:49:36.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "VTGN|Vistagen Therapeutics Inc|Price:0.226|Chg%:+0.000",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RdEtlcE5wSTFzS0FpRkV2eXRNb2FmdHBqLTlzejM5MG90M1BJR2dKc0xORU5SSV9lQm9SYWNZVVJKQ0I4SkhLdFJJd1B3MFVyQXBqZzJGSTE3dw?oc=5",
-      "tickers": [
-        "VTGN"
-      ]
-    },
-    {
-      "id": "bdd7291badf5",
-      "time": "2026-07-25T18:46:24.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRX Pharmaceuticals, Inc. Revenue Breakdown – FWB:B1Q",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jWVNUZklmVDZTT1NaZXd4Vnk0eGlxZDEtelZFVjNJWXFpVnpRN3FLTGZqNWdjZWdQUzFMU1ZXVUJpRDVsa2RQSmtaMDR0WHR4S3dRZjg2cWpaRE4xaXhONzBJeTEwU1ZfbzlKeHNEM3BIZw?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "3b1eb66b8ca1",
-      "time": "2026-07-25T15:13:35.000Z",
-      "source": "Yahoo Finance Singapore",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin (CYBN) Stock Fair Value Moves Lower As Analysts Rework Psychedelic Sector Assumptions",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWGxzOW1oOThlUzMyenAwM2hxMjl4Rllsa05YcUw1SEtwSk5USlcyYVRQd2VEMEhhdnVWMHVIS1piaUtwRW5XeHZNZWtFclV2Y3hDZklYNlVQYVl1aGxnektqUUlsa2RPNGZvTlBWblhSYlM2cWthOWJhOEVRRFZQVHJB?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "57032fe30a8d",
-      "time": "2026-07-25T09:20:42.000Z",
-      "source": "ChartMill",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences (NASDAQ:NBIX) Screens as a High Growth Stock",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS09JYmZHb2xOZjhORTBrXy02YU9LLU45ZFVmU2M5eGRCdWxfS0NfT2tqNHlUNEctUUhCUWcxb3BMZTJvQzRTQ1JnLUdFQmo2TmV2V0t0UmZvRVBLc2I3REJTODJqMHZ4d2VneWpoR0h2Vy1oYnRYTkFDVXVZSTNzSE5Wb2hoQ1UwWkl4X1cxYmpoODd1UDBibzE5VW5mcV9ZN3NoNGpzLWZVeVlTaFZOc21nVzRhZXM?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
     }
   ]
 }
