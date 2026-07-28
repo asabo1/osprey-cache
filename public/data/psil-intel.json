@@ -1,20 +1,29 @@
 {
-  "updated": "2026-07-28T12:12:20.993Z",
+  "updated": "2026-07-28T14:37:41.432Z",
   "counts": {
     "total": 91,
-    "crit": 3,
-    "warn": 7,
+    "crit": 2,
+    "warn": 11,
     "bySource": {
       "Fierce Biotech": 1,
-      "Investing.com Nigeria": 1,
-      "TradingView": 6,
+      "Yahoo Finance": 3,
+      "Investing.com": 5,
+      "Medical Daily": 1,
+      "TradingView": 7,
+      "Stock Titan": 2,
+      "Investing.com Canada": 1,
+      "Investing News Network": 1,
+      "TipRanks": 5,
+      "GuruFocus": 1,
+      "scanx.trade": 1,
+      "marketscreener.com": 3,
       "Quiver Quantitative": 1,
       "Goodwood": 1,
-      "Business Wire": 1,
       "Microdose": 1,
-      "TradingKey": 36,
+      "SSBCrack": 1,
       "MarketBeat": 3,
       "Westword": 1,
+      "TradingKey": 29,
       "kens5.com": 1,
       "PsyPost": 1,
       "Johnson City Press": 1,
@@ -23,29 +32,19 @@
       "dailycaller.com": 1,
       "Psychiatric Times": 1,
       "Bergen Record": 1,
-      "Stock Titan": 1,
+      "Asianet Newsable": 1,
       "Psychedelic Alpha": 1,
       "TicketNews": 1,
-      "Investing.com": 1,
       "citybiz": 1,
       "The Manila Times": 1,
       "Moomoo": 2,
-      "marketscreener.com": 2,
       "American Songwriter": 1,
-      "Bitget": 1,
+      "Bitget": 2,
       "Moneyweb": 1,
       "ChartMill": 1,
-      "Stocktwits": 3,
-      "TipRanks": 5,
+      "Stocktwits": 1,
       "DirectorsTalk Interviews": 1,
-      "Entertainment Focus": 1,
-      "Louder": 1,
-      "Baltimore Sun": 1,
-      "Kalkine": 1,
-      "ScienceAlert": 1,
-      "YouTube": 1,
-      "Ad-hoc-news.de": 1,
-      "simplywall.st": 1
+      "Entertainment Focus": 1
     },
     "byTier": {
       "T3": 1,
@@ -55,7 +54,7 @@
   "items": [
     {
       "id": "5d6aba3635eb",
-      "time": "2026-07-28T12:12:18.810Z",
+      "time": "2026-07-28T14:37:39.975Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -68,17 +67,239 @@
       "tickers": []
     },
     {
-      "id": "570e964b861d",
-      "time": "2026-07-28T11:38:00.000Z",
-      "source": "Investing.com Nigeria",
+      "id": "6a88cdd64f4d",
+      "time": "2026-07-28T14:04:11.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Alkermes Q2 Earnings Call Highlights",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVlRaOUhJT2FpeExyOFhCOEhCdms4RXh0SlZMWVpiQ0xJV0t0Unp2R1RHTnVJOGlIVFhKMk9tZGxnRTVlQ2lDLXhLZVdMUmJ6dS1teV9MeFdEc1l3S1J1cGhwQmwzaEwzV1lvcjZWaGVsSmRVSWM0eEc4SEpXRThqTXRGNmxRaXpUa3dFS1M5T194QU1ZU3p4MU1mNk9YQQ?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "3c09d66829e7",
+      "time": "2026-07-28T13:58:48.000Z",
+      "source": "Investing.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
       "severity": "INFO",
       "direction": "BULL",
       "impact": "LOW",
-      "title": "Alkermes beats Q2 estimates, reaffirms revenue guidance By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTnBuSlhNdUxubHNHdHpnRl9SUW9ZYmxHRzljWVhPUVg2dV9VbjBpUXNnR1dGV09mSjN0b0lzbTgzV0NCNGVsY3NONFFBWDlRcjdRZXN4VVlhVmhlUUlUTE4ybUlnd2FnRVNvS2FxMU1Wc3JiOFRWS0F1QUhtaFVZVVJHUEJwTlVyNjhMQTk0WnpLcjl1a1JGS2Eta0lyYkdmNXQzbUlvaWxNNC1EVmZTMmdWYlhGdw?oc=5",
+      "title": "Alkermes Q2 2026 slides: revenue surges 27% but acquisition costs squeeze",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdzZyVmxtOUtGeW9fVDBCVEI1S2Z3bklTQnZ0TGNkaEJYbDRBUzVLeldmWHhMNnlkeTQ1ZEw3VFlReEpCUzJZQUdXa1RGUkJtTndoTENqUzRyVlJQeGlnMTVuZTU2c2NEY1FEOTFvRlZ4TWUtN2hLeGdIblBPLTRVS09XdE1MM25tMmRaRFM0WjdybUdLckR4SFNyNWpybGIwS2dfcXBmUjA4X01sMjZLYmd4NGJmYlBJbEpIbzFpQ0I1eHBpblM0?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "2ad91c5a632b",
+      "time": "2026-07-28T13:54:54.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "Earnings call transcript: Alkermes tops Q2 2026 estimates but shares fall premarket",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQczZEVjdmdXRoUWxqQ3NuX2RYM0NRaXNJcHBxNERPU3ZpSEtDYXRkSDVtUkl2cDRQMkNkbWdMNFBpNVBPR0FnSUtoSGRsMkM0RHNKakxhX3lQT0VlSlhWUS1uTFd4U2lfV3dhOW9VX0NEVkNYbkhrSlhxOFpXN2RkOUxxZmRIV0VJd0dLaFNOdTBCNW4yQW1YLWR4Z1Zqc1FaRFZnRTJvUjNuQV9rcGxMYmlLT2hNQXVUTHRJelBhYTNDa3B1UGtBM05xQ2tBdGhtV1RUaA?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "6153b79afd26",
+      "time": "2026-07-28T13:40:23.000Z",
+      "source": "Medical Daily",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Funny Visions Caused by Suspicious Candy Leaves Children Hospitalized, Highlighting the Dangers of Psychedelic Mushroom Use",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdml4ME1hWWppRjMxU3ZQVWxsLXI1LUptTTlGT0pOMEdINHNHcFROZVVhR0FWanByRE1jOHRDdnk2NmVpR0VZYjFnZk1zVHd6Y2FabEpQNEgyVE5NUUhZcVRxTlBJUFZsckhjNGg5dTl1TXF4R2J5R1VOeDVpNjJiSWlFZUtoNlBSQ3I3TU5DbVF6MGNRMmttYmNkNXBNZw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "efdce45340cb",
+      "time": "2026-07-28T13:31:03.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes plc. Q2 2026: Revenue $496M, EPS $0— 10-Q Summary",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYUFRWDdFdUFFcng5VV8wX3R1S05IN2FzX0ZlYkMtOHE4SHV6OUlKNkNSdHBscGRJbVl5Wkl1dDMyRUx2ZTlWS05mRE1kdnpHUmtwNjhDYmQ4RDhxYXNKTDFzX1NfVVhRcXFoTVV0UG5sRVBVUHozTGlyRlhGUGs5dnpVQ2FWeUZrdy1LMDBmNEFvYkhvUW9iTG9saFhocURFN0lfcW9kY0VKOWMzQjllVzJnTGY?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "bc316a8015fb",
+      "time": "2026-07-28T13:23:09.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Avadel deal pushes Alkermes (NASDAQ: ALKS) to H1 2026 net loss",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOHQ1WlQ2RDFTTkx1OW1PYjNxRDRoUVYtVGNsbXVTZmxyeVppWFV2ODJRNHhLMDhWZ3dqWmJ2cXVEN205VmNrR0RQbTdjemFhYWpSbnczSFkyM3BubzkyNXdGM0ozMnNjUE5rTkNXd2x2dWROcXBVSGlHQkJTbHIzUG5jbUYtVHE5MVVpMmdxamtlU1FMdG0xbmNvd3Q2dFVGY2hHbVpfVXA?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "7a5e4263b2db",
+      "time": "2026-07-28T13:14:31.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Why is Alkermes stock sliding today?",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkl5SVhrbmtzUjg4U1EzUkdYMElBWE5XQ2NxNXRNQkp3U3E5TXRHUEQyQWdrcjZBaU1qN0F1THp6QXVaTmhiYzM0U2piS1RRQVl4Y2xsVDFBYURJWXpPN1djc3RhOG14cXYzeERyaTRDbFVNcVpjQ2ZVb0g3Nk1WVTl3anhXaUFtLTZtOFZOc1hKeUZLSzN5R3BHd0VEdw?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "7fad3cf9b7f6",
+      "time": "2026-07-28T13:13:35.000Z",
+      "source": "Investing.com Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Piper Sandler raises Alkermes stock price target on pipeline value By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbmkyb01jU3drazFxY3ZWaV9vNngzYVp4enloelpERFFpbEJZZDNZbVU0Vk5vRkwxQnVwbjlBd3ZZUUhNaVhxYU5wLTMzelI0dkJ4OHRTaW81aDVEaVgycTBZQnFHd1JHTzdJdDVRdDdBdEhnVHNqcDZwbHZmdmxieS01ekZSV0JqX25LVjM3YS1RTVpScHJYRERoNlFPUnhKRm83cVF6TFJxYVhIWS1QZ2FQVjQzWFA1WEtHTnVjYXdIOEFGNUE?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "debfd7a21182",
+      "time": "2026-07-28T13:03:37.000Z",
+      "source": "Investing News Network",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Enveric Biosciences Welcomes Final FDA Guidance for Psychedelic Drug Development",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb2JSUWxfekRaeHp0cUNHenAzS2FEd3dwMlQ3a1l2YWREeklQUllvWVIyWU5SMVpzWnFPUW8yTWhGWDV5NmpJMzh3bmowRTdURS1lbUhuMVpPbndLZGsxbWtaS2xONnlzWlQ0UHItaEZUam5IVmpzWUtnbkZsTHFtRGFVSDFiMVVxQ0ExZllmeGRRVUNYX3dXQjZuejItekNONWduN3VjT0l2QTA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "2ca16929b46d",
+      "time": "2026-07-28T12:44:37.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes price target raised to $65 from $43 at Piper Sandler",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNelpYMkpXZndfUjAzdGNfcE5sS1dnb2JoaXpveDdwWTB3X2M2THRFbC0zMEU3UmFsa3BnNDNNTThFMXB6aDZTYWFfbmprREN6MFVZVWIwRjlya242LUZPS1ZyeG96ZURpSjVjajlsTlFxN3dnY3FUVGd1aHlzQzhmanBiQ01YcVhXN2lVTmkzdTN2bmJtd0FwRHVfNWhQOGx5RktWRWtYdnBVbDRrU0E?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "3d8d32ca9870",
+      "time": "2026-07-28T12:33:57.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Is Alkermes PLC (ALKS) Overvalued After Q2 Earnings Beat Expecta",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUHRXT3dVdDN1cUpwM2RsajBZZHF6MGRwUnltSzg1dG9sNlBRNjNjcUxsLVVVd1d1ZmM4R1ZxYVUxbElCSG5BdE1BYncwaVh6UzBpeExyc0xGM0xfaHp5LVk2V3I5bTExN3RuMThiNlRfLUxNRU90elJoWGJhUlZ4QTBfSTBaM0tvaUwxaEs4eDNIU2JTR0VBSmZlWFItSzZUcXE0MDlmN0tpR0daZ2V5MXlDYi1zNTdoX2pCSWZYSlpfOXFUT3NOVXoyQTJqTWd0OHF4OE9HZk9QclE?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "4f4be0999ef9",
+      "time": "2026-07-28T12:31:13.000Z",
+      "source": "scanx.trade",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes affirms FY26 sales guidance of $1.730B-$1.840B",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYXItYklHNWhBTGpBYUN4ZVVUaGFvTDgybVZXb2M1T3J4MVJuU01vaGtLSlpTMDdTdmJiYzNwSDhfei1GV3lYZ3dQd0c5QVlJcU55d04zZWx2aVZ4QmVYOWtfdkxpblJIbDdkUjNUQ1plRU5Wb1M0OFhqS1dnTHhVX1MxcXhzanRkY0ViR3oydTVmYkR6UnZvdUw3R0k5TTZ2QmZUUThnVk1oY2lkcFNz?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "15fe2227fcca",
+      "time": "2026-07-28T12:15:01.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Alkermes (ALKS) Reports Break-Even Earnings for Q2",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc0NoWnZlMjkyZFZXZTAtYVpmcVdpRXc1SHpWTXRfeENsVkVpZW9NOEswbkxwaU9memQ2ZHF4Rm1ja0lEQXRQUjU4REYwUk1rR3dPeHliaEJXQUZPbXR3YWMtb0JXN2VTTnVlc25hbDc1b2c0WkFBbEcwTUd4cHk1MHJyMV9oU1FUN2dIQS1fVXJtTDhZR3F0VTFGUElxUQ?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "061fcb06ec72",
+      "time": "2026-07-28T11:35:22.000Z",
+      "source": "marketscreener.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "Earnings Flash (ALKS) Alkermes Public Company Posts Q2 EPS Breakeven, vs. FactSet Est of $0.03 Loss",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNU2pTZGgxTFVNUHExME0yMWlxS2wwMGV5YnlWNVpqUGExdC0wcm5hR0NNTVRjS1hTb0c5Yk9uYlNEYVV3dmxxeFNqSURYOXlLYzZLa0ZuMkpYUTliM0RZM0xWVTFORFJYUWstLXVEdy1fcXJXamtHT25UbHN6alBLZUJuaC1oYTBLT0o2dGQ4aGhNLVJVZEtTVlBuMks0T0FNYjhjM1c4cy0tYVBIMDhubXJlM1VISE95S1BzaVdTS2FmWFdVUmYzSVJNOXdQSG96WGlvX2tCM090ekpJc2MxNA?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "f0dd8a7b0cf2",
+      "time": "2026-07-28T11:33:00.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Alkermes beats Q2 estimates, reaffirms revenue guidance",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaWQxa2VRdU84b1lnYk5RQkNTejVwMHpPdVNRd053bWx5Nm5sTDdnVXh4c0x3Z1FKclFUZnBOckFVN1VpZF9uaWUwNGdqdm1ZRHd6LVlVX1EzbloxOVVDaWNLYWlfTFBjLUhJUHVyS1hjcFhadHBXU2YtX1RzMnhiUGZpcTVTVWp5ZDRDcGJnREg1M2k0cVk3aTlWR2lnTl8tTnptUDgzZG1YWG1uOVJaM0otT1A5QQ?oc=5",
       "tickers": [
         "ALKS"
       ]
@@ -130,9 +351,9 @@
       "tickers": []
     },
     {
-      "id": "423de59a20ae",
+      "id": "06b152b6eb30",
       "time": "2026-07-28T11:00:00.000Z",
-      "source": "Business Wire",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -140,7 +361,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Alkermes plc Reports Second Quarter 2026 Financial Results",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ21HR2RsY2dxcU1SNFJFLTNfQlZFVzhwTFUyNm5PVGhJV0FicWtEN0F1SFNtdVhaOEVGNnpqYWVkQnQtM092UFRuQ2F1RENrRXNUbDNCb05HVFM4SU9zTnhoVDFqbUdDdTNxSVBVaWp6VXNzemJkMjJnWGxGS2FEMTN1UENZRENUOWR2cUFzOXV3VEJsTDBkSGlCbEF6QXNXUlhoNzVBdENGdU1QVDBncWV2emlmUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWWcyUkNwQTVhVVViSmNlSHZLWU4tS1RfQ0Zjd1lVdjRiSGQ0TFhXWnBFVUNZWUNEMmZyVmdlcldxSWRIREViRUkzWmZhWWt3RFlVSTZFZWdwRlJvMEpqNWJhYmFWeVNKQXNubTc1Zm9zWm5kNnpOa01qbG9TUW81Q1FqVjhQSHJoY3BwMlc4SlZsOHVTRHlBMG1kZ1M?oc=5",
       "tickers": [
         "ALKS"
       ]
@@ -162,20 +383,18 @@
       ]
     },
     {
-      "id": "e336a3f8e2af",
-      "time": "2026-07-28T08:41:48.000Z",
-      "source": "TradingKey",
+      "id": "fa07426e22c4",
+      "time": "2026-07-28T07:02:39.000Z",
+      "source": "SSBCrack",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
-      "direction": "NEUTRAL",
+      "direction": "BEAR",
       "impact": "LOW",
-      "title": "ATAI|ATAI Life Sciences NV|Price:7.175|Chg%:-0.005",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91dk9TQ2gwM2ozYkkzeU42ZUw5MXJHb0xWa1ZIQm1HQjU3RlBHNE9Yd2tKS0ZQcVE5c2QteXNFRU9vT3hieGtLUkRLZmJhT1NSZEI3ald0a1pVQQ?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
+      "title": "Singer-songwriter Linda Perhacs, pioneer of psychedelic folk, declared missing at 82",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYUZ1VU1ldkdzRVloVHo1OHFtU3FPdVFsdW1EcDN4WVVaT1hPdl9xd1cwakN5U1JIV3ptZkNGYWcxaEwzY2pDbXpMMWIydWhiVzFkT3dEdG5xWEt0VnJOb0dncG1BaG1lUUczM1ZKaGVpaFh6MG1udVFuaGppc2MwYXA5UmE5bDUyZ0pLNHVIaEIweUhkVlhmN1JObkw2aUJoc2JPMm94U1h1YmpyR1E?oc=5",
+      "tickers": []
     },
     {
       "id": "862df95ecac5",
@@ -332,22 +551,6 @@
       "tickers": []
     },
     {
-      "id": "e4857ab4c4c2",
-      "time": "2026-07-27T20:03:10.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NBIX|Neurocrine Biosciences Inc|Price:176.825|Chg%:+1.055",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vckhReEVXZG9CdnBneUpGM2E5THEwaGZQeENZZG5aTUtMcmVmQUdYTmktLXVsVC02QlhVeUU0azlHVzRRQUhwa3NObFNVeG9IaElidVh0cklxWGJfMG1LWUhnU18xTFFR?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "0d01b6d77f14",
       "time": "2026-07-27T19:57:15.000Z",
       "source": "Gander Newsroom",
@@ -436,6 +639,24 @@
       "tickers": []
     },
     {
+      "id": "a5293ed7793b",
+      "time": "2026-07-27T15:45:01.000Z",
+      "source": "Asianet Newsable",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "CMPS, MDGL, DFTX, GHRS, HELP Stocks In Spotlight Today – Why Wells Fargo Thinks Next Wave Of Depression Drugs Could Create New Winners",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNV3pJdFROa2Jmd0QtNWZfZVFYcGlNS05KQmpKcjhTb2xjcjlrUklZQUZyckVIcXRyTEMxMWtMeVYweC1FX3BvbERjZUpZazZscTNZbjMxeUtfd1Vjajc5TGRxLVh6Q1RyOHdSdWRxTVpYMmlJLUtsRDJ4Vy1lc0htdDZwblhFX01VYnNRZGJNU1FVeVhyeFpLdGE4T1hHbTZ0NWE2d1lfVjRBYmVfTlpKNUphMzQ4cWRweS1VWTQ4Ujh3dWlxOXhLMjhGcmxJdjFMeG9qeXFKYmZJcGdZNGVmc2lBM1NFVEdmN2NCaTVCYnpGNzV0SDJtblpEWW5FU1ZRMmhRQVllRzhpYTYxR0tVcVgzZlRZNWlM0gGeAkFVX3lxTE9SYXQ0QUZiOUVrbFdyX3NtZGRqMktWNUg1c1BYeFZTcE5LdEhCcFd0TjVQUjVsNU50V0ctbl8tODIyQVJsSFJ2UXFwYlN6UUlVRFpVMnFMT2JHYU5KazN4eXdsdUtMWTRlYXIzdnlMNjEyaFJfcnJBdjRBcGhrQ1BWY1ZyY2hwZ0dOZm1wbmU1VWI5aHFoaVh5TFpDaVlIQ29Ob3ZqQ3VRaTd3N1lnc0R1UTVrSXhVc1BJMkNjQVRhQVRwZ2xqdjNybzZjTlAtaVNFcTRfQl8xemo1WEg2WXFwOUlrdm0wR0EzWFNOQUhDcEpoZTlLbGxOb1JSN0V4SXFuOUpsdkhQdXlGU2d6VkRnNDhtNjNMaGt1dC1OY2c?oc=5",
+      "tickers": [
+        "CMPS",
+        "GHRS",
+        "HELP"
+      ]
+    },
+    {
       "id": "be2b98b58c3c",
       "time": "2026-07-27T15:44:59.000Z",
       "source": "TradingView",
@@ -465,6 +686,38 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92cnNmTmlYMTRTRkFDODJpTHgyVHVpc0RtUElEemgxWGxUUUVxbE1tRUVOX0RxMVphaEltc1VIZzQxazJENEF1bldyLTZwbHBYU0VYdjhucmVMQ0pxUnRVWGpyaXN2dzFSNHNZbTBCSVQ?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "802737b92a12",
+      "time": "2026-07-27T15:36:29.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes Plc (ALKS) Institutional Confidence",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HSnlySkprOXNReHc2WXBDbjNhVVB2SXlNemQ4eEgtdmZVSDg5R1dhTEs0dFhxeDZDUE1hMjFMRS12eUsxMTg0M0NkTDNfVzAyQWxVNVktTXcyV1dVV1pYdElIUTlDeFU?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "14552d0bc965",
+      "time": "2026-07-27T15:33:29.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes Plc (ALKS) Financial Health: Profitability & Balance Sheet Analysis",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vX19uZWNDZDE2cGc4aGNTT1pQdWk2VlFEUUlBaGw3UDhFcUVVY0JoQXJHQnpyWHRFNTFlRWhTTFhRSDBydG1fWGVlZVFSQVd1bWU2TTFvcFluc1RBd3BNMVhqTnU1WjRHUDA1TXJ3Y18?oc=5",
+      "tickers": [
+        "ALKS"
       ]
     },
     {
@@ -908,6 +1161,22 @@
       ]
     },
     {
+      "id": "695568b15b8d",
+      "time": "2026-07-27T10:02:20.000Z",
+      "source": "Bitget",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Bpifrance Participations, linked to DMS board, sells EUR 2 million stake",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxbVVwam80Uk90TmJTNTVIMmtzWk90bzBHM29QR1ZxbGJ1SVJOeE9LdW1rcVB1WU1MNHU1U0xGNkNGWU04eXRzcHhIU1Z5VzBHQUdGaVZURm1FN1ZEckdxdUhGRdIBY0FVX3lxTFBxbVVwam80Uk90TmJTNTVIMmtzWk90bzBHM29QR1ZxbGJ1SVJOeE9LdW1rcVB1WU1MNHU1U0xGNkNGWU04eXRzcHhIU1Z5VzBHQUdGaVZURm1FN1ZEckdxdUhGRQ?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "569db0f57588",
       "time": "2026-07-27T09:46:00.000Z",
       "source": "Moneyweb",
@@ -1098,6 +1367,22 @@
       ]
     },
     {
+      "id": "e4857ab4c4c2",
+      "time": "2026-07-27T07:00:00.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NBIX|Neurocrine Biosciences Inc|Price:176.415|Chg%:+0.645",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vckhReEVXZG9CdnBneUpGM2E5THEwaGZQeENZZG5aTUtMcmVmQUdYTmktLXVsVC02QlhVeUU0azlHVzRRQUhwa3NObFNVeG9IaElidVh0cklxWGJfMG1LWUhnU18xTFFR?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "35e58cd7d9c4",
       "time": "2026-07-27T06:48:18.000Z",
       "source": "Entertainment Focus",
@@ -1189,280 +1474,6 @@
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MOEN6MTlzaXRWNFJGUm16OTNISm1KMF9iUnV2LWJiam12VGpmdTR1YlNmMk9sbUNicGNIV1BXQWpwR2pHRFdJZDRtRVZadkJyS01VRHZqSzhNLXBEdGg3QWNuOElCeHM?oc=5",
       "tickers": [
         "NRXP"
-      ]
-    },
-    {
-      "id": "b927cb866f2a",
-      "time": "2026-07-27T05:00:00.000Z",
-      "source": "Louder",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "“Our music comes from all the trips we’ve had”: The birth of Hawkwind",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwTUM0YXhIQTZ0VXhlLXZNOUZFbFVKcjNmTGlPU09tS08yMTdidEwxNS16U0ZValE4QVp6dDZ2T2dFNTgxNUdSRlNaRWo0blFDY19tbTJQYzI2Mk8zLXhJWm45UmhQd1ZqNGJCZ2xoYzVtOUlDNURGMHZ3?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "1cb27024134f",
-      "time": "2026-07-27T04:33:19.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "GH Research PLC (GHRS) Valuation: PE, PB & Fair Value Analysis",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBsNFRGdzdxYVNlY3hDRkY4cmFpSUZVTk40QVQ1NFZkc3ZmLTF0MnJHRms0UnJnRDAtWlA1bHA0MWZaRXBaYy1sU3FsWkt6QWowS0FWM1hfWTRGREJHa2dDWGNMRm5BRzBZX2NuS2Z3NHQ3Zw?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "064eb82a6be0",
-      "time": "2026-07-27T03:08:25.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BWWIwa24zVHZxUFdfc2s2bnFDbG1MT1BGZlBOcmFHeVJETTRaQ21JbHRXRW5wNXg4Qkl3VlAzYzVxMUFTMncxZjNkVG1sTklfOUFzTHZkYUxja1kyWDdFbGEzd0dLbHdsUERUUno2YlY?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "d7c70cf85219",
-      "time": "2026-07-27T02:43:02.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "DFTX|Mind Medicine Subordinate Voting Ord Shs|Price:43.170|Chg%:+0.240",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zN0lENW1SOHhZNlJrcmh2SWN6NWQtQmZnVUpxdWQ2OEFrT3g3UDBYYkpKbjJyNnJPcnBwTjVWNzRyTmlVQmhEYk1GNERkc1oyMXZydmEtZDJQdw?oc=5",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "df2843f9df38",
-      "time": "2026-07-27T00:39:50.000Z",
-      "source": "Baltimore Sun",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Profs and Pints: Psychedelics’ emerging role in therapy",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1lNRTYtdFBQTTNPcnY5QWFZbmlmQkc0OWw4WTkzdm9NazVUWjVTaEQ2Z3ZiWUJNX0ZOeHJDNUVORThtekVwOVU5MTIzdGo4SGEweTdmcng0bl9DUmVHZ2N6XzNKMTZhZWpsWHdXTDl4d1g2YkU2VjM1dWFDZkNDRA?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "ddba8611367b",
-      "time": "2026-07-26T23:54:39.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Emyria underscores risks and regulatory hurdles in psychedelic mental health therapies",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOLUxONml5YWtZMGVMVmN5TnlLd3FmZjgtWlJVdjNmbV9DaE1YUE8zeTI4anp3WG94NU9iR0ktd0ItWWVmbmhMNEFsaVAzbFVQVktsbld2WkJLaVJJX3lVRHFldVU3eW9IZkw4UGRNdnVHTVRuNmRUdGJ5UkhPb3F2NmZYenVUU0xpdXJhVGhiNm5tck44MTZiajB6YkhxZjYyQ2NtbW1LY1RYRUlfb0oxdFA2WWsxdWNLbU5vYUdwTkRTWWp5V0ZoMk91Z0FqZUJVT3RuQg?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "314bfba0b134",
-      "time": "2026-07-26T23:49:06.000Z",
-      "source": "Kalkine",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Emyria Establishes Network of Psychedelic-Assisted Therapy Clinics Across Australia Following Regulatory Breakthrough",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSE1QeloteEpoU1hWZEdzSEVqWjNzYWZuQnFYaVVZNE5vc0NudEhuU290OTh5UDQ0NkFzOVRoZHBYYnh4aVRlcnRyX2dJTk1CRVJoS29EYjVINWE2Q1lfWFFGZ2RWaFNCdGpQaHhRNXg0azVodzhaWkxUQlJIR0hoSHRXZkQ1VTRrdWY5LTdYMWdZTzJFVjU0NVk0TXoxaDFadHNFUnZhTFN3ZEd1TmlNWVJaM1NMYzFCVFdrVFdhZ01nRUpqVHRQMXk5cHRiTmFBZHh2SXJ4dGRfUHhyVjJtMUxORWRqSEg0ZmdtR0hfZkE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "eec535703b57",
-      "time": "2026-07-26T23:13:08.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "ATAI Life Sciences NV (ATAI) Revenue Breakdown: Business Segments, Regional Revenue & Profit Contribution",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02N1hjZzVTa2RRbUZuOTJ0ektYTGU1Z2VCeDJDSl9GOV93QV9FY1d5MEcwYTRETV8zU0ZkdHdZeldDX0ZpZWxRRGp1UWMyQ0dMbk9uMlg2YWxFTl92ZGIxYk9mSkQ?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "afd3a2abaf18",
-      "time": "2026-07-26T23:07:32.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "3a6180002bc3",
-      "time": "2026-07-26T22:02:54.000Z",
-      "source": "ScienceAlert",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "A Spacecraft Skimmed 2,800 Miles From Mars, And Captured This Breathtaking, Trippy Timelapse",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWVVWVG9NcXd4eFp4eEUxcUVwVkZBOUx2a2YxdkFLVndWS1VaekxIT3ZkZlpEcnRjNFd1cUFUME9XQzVkTnM5anZ0Vkh3SEphTi01bzMzeWlBMGNwUDZiVmZOa2JNNmRrc3dpdTE2LVZIY2pDeF9JS2VQVnVOdjRZZ2ZLdnRjNU5EYkg4cnhqbnoycmJ5QlVxa2trdUw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "5dfb822735a2",
-      "time": "2026-07-26T19:36:51.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "GH Research PLC (GHRS) Cash Flow",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55a3M1YUg5OU1fTU5XSS1aT1hGQWtoSUt3c3pmY1VoVFAxNUU2V1RvLUZfMzAxRF84QjQzbGxMdGRGU1d2X2ZQU0NfdXpPNFlsSXpGbmJtbVo0VEkxaGFhZUxmb0FHSWs?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "088fbb5a236a",
-      "time": "2026-07-26T15:46:37.000Z",
-      "source": "YouTube",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "COLB - Ambrosia (AmbientDub,Experimental,Psychedelic,Atmospheric,DeepElectronicMusic)",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE44U1RoR2hxWmRKRGhhSzNjMEdvdHppSVhsdHhXMDJyejl4NWx4R2ZJRm9nNWtiNFdYWVgwRWR3WjMyYWM4aTJuMkZGb3pCTmhPdEhmU0NrZDUzYTVk?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "01c1c214588e",
-      "time": "2026-07-26T15:24:22.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "DFTX Vs CMPS: Which Stock Has More Upside From Trump’s New Psychedelic Therapy Push?",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2tKT2FBODN0eXlWZHhOYjBHRmhQdzNDM1dJZkpibWFPZ1lBcXpWcnptTi1iVE4xSFpRMmE0RWZnSkhJVl9DNDROOWNfcjZ1NTdrb24wYllWTkFNMGpfQTRFeWVnY0x2UGwySFFhOWdPOVNrMWhxWC1RWXRqbGozY192cjZ1N1JBNzdzRGZKYXJkeWVoLS1HZjVENTF0YzJBWVlqM2FFSUt2WVNkRFBrUDhBWVU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "1503e2864ccd",
-      "time": "2026-07-26T13:08:09.000Z",
-      "source": "Ad-hoc-news.de",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Tame Impala - The Sound Of InnerSpeaker After 15 Years",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOFNOYmhvaHctbkNGdDdEbTNjZjJ1REZfMndKc1p1X2paSGhZUlRfMFdFcENtdzZlYXFub0dIcTVnRnBtc1NYR2R5YUMzdXlucHJhV3RXR3dtSEhqQVFFREhXbDZCenpzLUdua0RTVTRELXJOOWVRVFhBeHIyTHRXZEtFeEN2S2F0dmZjelRMRjhFaWpxbjRkVE1ZUUx0VHNKSm42OEtQTG5rS0E?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "fc9fabdf1801",
-      "time": "2026-07-26T10:36:38.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Costco Stock Leads 3 Low Risk Picks For A More Resilient Portfolio",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZWQ4ekZVOE1wTU43NXNiRllTcS1GSGxkUm9iRHVYN3VISWljUEFDZkpFQUFzQVI5OG1mckxpRUhObFpiUXlhQkhuQ3BSRFJ5Rmg1T2RJQURTWkJkUDVXeTJFdkloczlGclA1TWZSc3EyampFWWdFXzhQX2ZFaXJ3NkNudkdLWVBNT180TUVzc3NSMjM2S3prMmNUUHFzeTY5VEJ1clN6WUdHRmMyYXhYZl90T2h4LWZwMTFzRzd3eXB6UVBobjF1UGVuSFhacnZCYjNMMFB0MDN2ZVZhVzJaczVmS3p3Uk5GdWlNZzJUclZvUdIB8gFBVV95cUxQZWQ4ekZVOE1wTU43NXNiRllTcS1GSGxkUm9iRHVYN3VISWljUEFDZkpFQUFzQVI5OG1mckxpRUhObFpiUXlhQkhuQ3BSRFJ5Rmg1T2RJQURTWkJkUDVXeTJFdkloczlGclA1TWZSc3EyampFWWdFXzhQX2ZFaXJ3NkNudkdLWVBNT180TUVzc3NSMjM2S3prMmNUUHFzeTY5VEJ1clN6WUdHRmMyYXhYZl90T2h4LWZwMTFzRzd3eXB6UVBobjF1UGVuSFhacnZCYjNMMFB0MDN2ZVZhVzJaczVmS3p3Uk5GdWlNZzJUclZvUQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "266e1ff2abfa",
-      "time": "2026-07-26T08:57:59.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Compass Pathways PLC (CMPS) Risk Assessment: Volatility, Financial Risk & Investment Risk",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5leWNMQU9sdHZqdDJrLThhbW5rcXRrR2xZdFVBMl82WXZmVkw2VXBmOVEtRXRSV3l5aHZyby1tZ0M5UUVwOXJudV9KaU1VOWtOX20tVGlwaFVSZnU1Y0J2SzdxS19ZSmFBbTVZQmdR?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "350784966781",
-      "time": "2026-07-26T07:15:50.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Mind Medicine Subordinate Voting Ord Shs (DFTX) Balance Sheet",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vSVFVdDlubWpBMGk3NGE1Vi1TZHJjNi1ZcDI3Q2JFdVpZWGpCMjJSUERyX3NLbFRNQlBvOWxaTXZ1SE00NVdXOVdUWVBkSGtXaVQ2SFF6ZXB4ZHM2bkFUUjgtMDFIMzZxNjFtMg?oc=5",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "6f05a876a29b",
-      "time": "2026-07-26T07:00:00.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Cybin Ord Shs (HELP) Earnings Forecast: Future EPS & Revenue Growth Estimates",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaLWdScDd5aTZ3cDZLc0c2Y25mcGpGR3ZjRXJzVndDQU9LZ1lhNGc3X01nbnNUR2xHWFlLS0o5N3ZwczFQbTRLZDFfLTVHNDZZVG0zX0JOb0dkVFN3NkNtcmdNc2lTUQ?oc=5",
-      "tickers": [
-        "HELP"
       ]
     }
   ]
