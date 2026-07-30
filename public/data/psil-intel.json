@@ -1,12 +1,22 @@
 {
-  "updated": "2026-07-30T19:49:15.948Z",
+  "updated": "2026-07-30T20:51:02.140Z",
   "counts": {
     "total": 91,
     "crit": 0,
-    "warn": 13,
+    "warn": 15,
     "bySource": {
-      "Fox News": 1,
       "Investing.com India": 1,
+      "Neuroscience News": 1,
+      "marketscreener.com": 1,
+      "StreetInsider": 1,
+      "Smartkarma": 1,
+      "quiverquant.com": 1,
+      "24/7 Wall St.": 1,
+      "PR Newswire": 1,
+      "Business Wire": 1,
+      "capradio.org": 1,
+      "foxnews.com": 1,
+      "Investing.com": 3,
       "Psychedelic Alpha": 1,
       "Yahoo": 1,
       "Seeking Alpha": 2,
@@ -22,15 +32,14 @@
       "MarketBeat": 1,
       "PopMatters": 1,
       "News-Medical": 1,
-      "Investing.com": 2,
       "streamlinefeed.co.ke": 1,
-      "independent.co.uk": 1,
+      "The Independent": 1,
       "Reuters": 1,
       "Nature": 1,
       "Devdiscourse": 1,
       "grist.org": 1,
       "TradingKey": 8,
-      "simplywall.st": 3,
+      "simplywall.st": 2,
       "The National Law Review": 1,
       "Investing News Network": 1,
       "Psychiatrist.com": 1,
@@ -39,33 +48,28 @@
       "Patch": 1,
       "Woman's World": 1,
       "mydailyrecord.com": 1,
-      "Stocktwits": 5,
+      "Stocktwits": 4,
       "YES! Weekly": 1,
       "Finimize": 1,
       "Investing.com UK": 2,
-      "That Eric Alper": 2,
-      "TipRanks": 4,
+      "That Eric Alper": 1,
+      "tipranks.com": 3,
       "EIN Presswire": 1,
       "treblezine.com": 1,
-      "OnlySky": 1,
+      "onlys.ky": 1,
       "TalkingDrugs": 2,
       "GuitarPlayer.com": 1,
       "Moomoo": 1,
-      "GuruFocus": 5,
+      "GuruFocus": 4,
       "Mshale": 1,
-      "The Motley Fool": 1,
-      "tradingview.com": 2,
-      "The Boston Globe": 1,
+      "fool.com": 1,
+      "TradingView": 2,
+      "bostonglobe.com": 1,
       "cbs19.tv": 1,
       "GreenevilleSun.com": 1,
       "Times Union": 1,
       "The Spectator": 1,
-      "Psychology Today": 1,
-      "Glide Magazine": 1,
-      "Minichart": 1,
-      "The Mercury News": 1,
-      "New York Daily News": 1,
-      "This Is Anfield": 1
+      "Psychology Today": 1
     },
     "byTier": {
       "T2": 90,
@@ -74,9 +78,165 @@
   },
   "items": [
     {
+      "id": "179f1f04d20c",
+      "time": "2026-07-30T20:48:11.000Z",
+      "source": "Investing.com India",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences posts Q2 results ahead of analyst expecations By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWUtRFEwMEJobmJhX1lPM2t0NXBwU25HUmZuQTk1aUc4QWJPVkJ1M3BHOXlQYVZGb0lRTjVrVXFUSVgzWU5wR3hmaU9Cb2E1ejB6Ui1kQ2VUc09QR2RTR0JUaHM0WkdoVVZLQ3pYZldFTHRsR1Z4UXJkMWxidDBETjdGTXo1emxfZ3dRZ0g4N0hFUE5LTUJ2WXE4M2tPRWRCeWh1OWt1RHJCUUh3Uy1pVnJQLXI2N1REV2pWV3o5UHNyWDRFTFhxSA?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "57afdc65b9f2",
+      "time": "2026-07-30T20:34:14.000Z",
+      "source": "Neuroscience News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Psilocybin Therapy Drives 75% PTSD Remission",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SeFBlazFGZmp2Rlh0QTROTTk2UjB3R19ybkdVN3EtMnFlZGN0eDNmOFN5YXlZcHFxdzVNWFlmckhrTmZVRnZJSnRPUEpGMzUtRERYQV9VNmd3S3F6RVdQUjFTU1pFWmd4RHhVMTBR?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "865c19c985de",
+      "time": "2026-07-30T20:28:19.000Z",
+      "source": "marketscreener.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Neurocrine Biosciences Q2 Adjusted Earnings, Revenue Rise",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZXVkZDVSRFJtR0N3WmdmQTNtUGxWNEJpSjNyREVrZmZvWFZLdlFUbHNsRVBOWDZxOFZWRkVlQTNuUGhIMDhMUS1hLUNwd0hOUDRtZkdSRTB2ZE5PSXFRTzYzV2g2VHR1aE5kWXI0NkJmUHZRM01kVEotMHVNTWJkNXF3eTNlM1RRRFItZC1yOHN4MzUzQngtSHl1TTI3eVNhR2N5bnJHVWlRZllIRUE?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "35ef56cb6205",
+      "time": "2026-07-30T20:21:38.000Z",
+      "source": "StreetInsider",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences (NBIX) Tops Q2 EPS by 127c ; Offers Guidance",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeGZvRVFkaHFRTmJDY0JuWExkNGhqVWlIelg0OG9HZmVESmlQS3pOMjI3cE10eDNZMU95WW1ubW1Qclo3WTd3RDdoeDVBdUFsLWJUS1pXa2tUNEFuTjJuWTRxYVJaOFRrNVZ0cWZVemJ3RG8yTDBLM0RqR3RtMURDX0Z0djJ5SEJLU2NVVDBub0paNG5mVmpLV0lCQlR5Y1MwT3pWZGpRREM3VVJkN2l0NzM1aFVOd3lmQnk4aUxlZG1ra0ky?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "bc691b966677",
+      "time": "2026-07-30T20:18:27.000Z",
+      "source": "Smartkarma",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Neurocrine Biosciences (NBIX) Earnings: Q2 Surpasses Expectations with $2.85 EPS and 39% Revenue Growth",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYXNLenl5OHR1RGE3NjhNZE1ZNDV2LWhmRURWOWdMTU5MemkxVHZORUlrWmxiZmhaQkpKM0dDTG5sMXhyMW5zQTFBdDVFSDZmOGhFVHUxOHp3Z1JseS1KZ0hxajIyN2ZVQTd5S0std0VSREEwUWNycm5xM0dTclpJaGd2YS1mZmJLUVZwU0V6emtuT0psVXA0d2xaeWUtSm52azBBd3htRVZBaUpjTjlyQUpxVjJYUTlHd3JieXVzV1E4RnFMYjc3ZjNvSmppcW5nbVdtQnpRLWlrZ3BfUUJpTDVsb0g1SkRuaTJvYQ?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "7def327aeea6",
+      "time": "2026-07-30T20:14:00.000Z",
+      "source": "quiverquant.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences Q2 revenue rises 39% to $959 million",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVlJIX083cmtBazBKeUMtQkNSSFJKTXFtYTF4cGdZTjBxYzFyX1RvaDNPUzJUWDkxLWEzSlNmRG5hZV9ndmhaMjE1ODliUHhfcmRULU9wM242RHBVcWFpMllLLXh1Sl9iUzBaTGZTNUtjamdBUlJyOHVuVW5YVTRJZXlCaUd5Ukk4YjhLNDJLTHRSbFBNN3p4aXhidDQ?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "713560f0a9e5",
+      "time": "2026-07-30T20:10:25.000Z",
+      "source": "24/7 Wall St.",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Neurocrine Biosciences (NBIX) Q2 2026 Earnings",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcElNZnA3enF3NDFJWTdRY1h6d0tFTEczOWNJWXhuNy1VTU1OUXV0TjRsblB0cVhUYVdZNzJIRzdlNVk2Q2cyU2l4VXpzYnFjOGt5MlNjM3kzQW9TcWhOSzEzN0dEbmdlUDBoU2F5RzdSR3R4eXpzTE92UnhxRDlHY0NGNTExR2VRWTQ4N05pQjNTaFdGMXhvN3JvQ1djMDRC?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "048517f595c2",
+      "time": "2026-07-30T20:01:00.000Z",
+      "source": "PR Newswire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences Reports Second-Quarter 2026 Financial Results",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSUEwSFItbWpwV3lvV0Q1aGZVUkJtcVdibE5nVGJZTzJWd3BoSVBnSnRlT2h4dEkweFVJbG5kSUE2V1RWM3hMakItbEJSOFgtV1ZNYmRKV0FELVZNZkZZcC1MQ0FXU1Ywa3FINHZkN1NTajJiTGk3cWtmQzJITzRKbG5tSkIyOGt0Ym1aSlZLSEVSOVozendKNXVhSzlNWkpGdXpuT3pJMWVtM3EtTEo1LWVkY0Zwb1EtbUh2aXg5VXEtQQ?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "8461257d8d85",
+      "time": "2026-07-30T20:01:00.000Z",
+      "source": "Business Wire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Definium Therapeutics to Report Second Quarter 2026 Financial Results on August 6, 2026",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNckpZeWFvVVlPakhVcTFBV0hBOVZIR21SaGxBZXJTUVprWDhwdFQ0clFmdldCYU81THB1ZndLc013STVodGcxcjhqMGVqM3NzMFU3NFVvdzlEWVBhLUswUmZtVFV4Q29nMm5JU3Z6bHVYLVV0NkZMOVJzTlBTcFA4bHhKY3hJVy1nZ3c0eWQzeW9Wc1BjVGk0bjFIU0sxckZNQ0UyMWdfVndLT1NPd213dURnT1lHV3BxSXNIYXFKM0ctSU9wMXpMY1YtVE1lNmlyV29rVi0zMC05S3c?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "5d9fb0c8737f",
+      "time": "2026-07-30T19:14:07.000Z",
+      "source": "capradio.org",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Odd time signatures, psychedelic textures, emo ballads and ‘saving the planet’ one song at a time",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ0FNY28tMFNUODIxR2VPeEU2QnE0TXVNTndsbHNwSHV2eUVDbFJ3MVFFMTI5YmtISGxkVGxweFNkVTM0QXEycHdhMzFaenotWnczNkRHeDR1blVzc0VJckQwUk5Ta2ZscXVGMEo4QVFOQkN0T0s1U1NiZzlvRHVOZUY4eE9BRlVRcnhZZ3FiQy04YTl0WkJpUTJfS3hFU1lmSjhXMEJKdGs5LXJzc3hVNFNzRnpzWUkwN3BDVTJJS0l0cEFYMFhSYU9VZ3d2SHR5dWRkWUJ3?oc=5",
+      "tickers": []
+    },
+    {
       "id": "4fed0fd90d84",
       "time": "2026-07-30T19:10:27.000Z",
-      "source": "Fox News",
+      "source": "foxnews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -88,17 +248,17 @@
       "tickers": []
     },
     {
-      "id": "53c4ad60c5cf",
-      "time": "2026-07-30T18:46:52.000Z",
-      "source": "Investing.com India",
+      "id": "52bb8835677c",
+      "time": "2026-07-30T18:48:03.000Z",
+      "source": "Investing.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
       "severity": "WARN",
       "direction": "NEUTRAL",
       "impact": "MED",
-      "title": "Neurocrine in the spotlight as Q2 earnings test growth story By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV0dXaDhzMG5CMGhXSGxWMUgtUWRFYk01SERTT1RrTGM5SnhwX1FqdDJaQy1yWTB3R3ZiWVcyaDRaTE9yV05MYUFjOE1fUk1FcURfbXpyTU5FbDRYendVMGNTTXBLV05COHVjenhkeVFFQTNDUUt1UmJFYWdBREdRYWxFN1BmVDA5N0s5ZDhGZGxsR0x5MGJaRlB1VWpaTnFfcDYxNlZKa1BqZ2wyaDlieF9n?oc=5",
+      "title": "Neurocrine in the spotlight as Q2 earnings test growth story",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb0VrWkYxZ3pkWVhkMFI0aVlKWFFMajhpMDFaUkpWR2FwMHdoX25XcDd4RHlTdUxCVG8xRVFDN2o4NEllSk5sMUNDeDF4YWNTUkk0UU9ERVg0cGdRNFFTaEpGQWR5V25Dc3NBWFAtRW00eHYxODJ3Tl93OFByOXdiX3l3UUduRzFKY2F2U0cyaTY2M3poaFAtZHg5NXRFRElFeXVpTk9UMjBWck1GaDFYVzZLcw?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -354,7 +514,7 @@
     {
       "id": "d44b83bf1975",
       "time": "2026-07-30T10:28:00.000Z",
-      "source": "independent.co.uk",
+      "source": "The Independent",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -394,7 +554,7 @@
       "tickers": []
     },
     {
-      "id": "545865725f7e",
+      "id": "281b31906077",
       "time": "2026-07-30T09:00:43.000Z",
       "source": "Devdiscourse",
       "sourceKind": "gnews",
@@ -404,7 +564,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Psilocybin: A New Ray of Hope for Veterans Battling PTSD",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY2JZRlBkSHBpamhsTVFDSW5yNlA3amJVY0RQYnIwclZWald6NlZWQV9NRWZ3ZzkzZjY2dHotaHFBU1ByNUNwQ2lwOFlVWGpEV0lXSkdYYU54cDY2VlV3d3lMTGNVbUxjODNIVFhiamRITWt1WjZRbnk3emk1Zm83YVZka2JmaG4xUnpaOVp6eFRidGxEcnI2eWNTa0JNR09hbEZpRjE1dXUyOGhBOS1PdtIBsAFBVV95cUxOY2JZRlBkSHBpamhsTVFDSW5yNlA3amJVY0RQYnIwclZWald6NlZWQV9NRWZ3ZzkzZjY2dHotaHFBU1ByNUNwQ2lwOFlVWGpEV0lXSkdYYU54cDY2VlV3d3lMTGNVbUxjODNIVFhiamRITWt1WjZRbnk3emk1Zm83YVZka2JmaG4xUnpaOVp6eFRidGxEcnI2eWNTa0JNR09hbEZpRjE1dXUyOGhBOS1Pdg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOY1Ewdk5DTXk4WjJDQ2lab1NkQ2xBMllYNDRnSFNPbkdkbVVoMFlwcE9PQlhTZE1WdV9fSm9GNS1YVTFkcjYtc0NYSDNaZ3JoM2JQY3Q1eGZ2aHBSV1RLMGZhbzJFYU1nWUMzR0NEdVhRUGlQTHRMN0lDa2hmNUk1UGlvaDg5ZzQ1REViZ002T09WY3JhWnpXc1pGZW9KSjVwQ1ZjbzBzMzJOT1XSAbABQVVfeXFMTmNiWUZQZEhwaWpobE1RQ0lucjZQN2piVWNEUGJyMHJWVmpXejZWVkFfTUVmd2c5M2Y2NnR6LWhxQVNQcjVDcENpcDhZVVhqRFdJV0pHWGFOeHA2NlZVd3d5TExjVW1MYzgzSFRYYmpkSE1rdVo2UW55N3ppNWZvN2FWZGtiZmhuMVJ6WjlaenhUYnRsRHJyNnljU2tCTUdPYWxGaUYxNXV1MjhoQTktT3Y?oc=5",
       "tickers": []
     },
     {
@@ -710,9 +870,25 @@
       "tickers": []
     },
     {
+      "id": "617a56f3a47d",
+      "time": "2026-07-29T15:10:19.000Z",
+      "source": "tipranks.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes price target raised to $58 from $48 at Baird",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORER3QzdHclRDelhzYUVDNkNKQVBfbGNuWG1hSWVPeWJDSUltX1VVT2pSbXgtRGNBalE3b0g4WWUtYTZZa3JqMDJGVjVlMVl1ejY3S200ZzZubmxwcXpkVHptMDY0UGU0UEFOT2pBcHFGVlgxV0luU1hrY2R6YTVXSHdtdzRHR2htOEN4alpJbDNvOEx1VGpaNlBjZEVHSlFUNFQw?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "f4b790480ac5",
       "time": "2026-07-29T14:40:34.000Z",
-      "source": "TipRanks",
+      "source": "tipranks.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -822,7 +998,7 @@
     {
       "id": "c2da7afabdef",
       "time": "2026-07-29T12:21:31.000Z",
-      "source": "OnlySky",
+      "source": "onlys.ky",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -924,7 +1100,7 @@
     {
       "id": "a64b28c1251b",
       "time": "2026-07-29T10:00:00.000Z",
-      "source": "The Motley Fool",
+      "source": "fool.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -940,7 +1116,7 @@
     {
       "id": "51b07094fa4c",
       "time": "2026-07-29T09:31:04.000Z",
-      "source": "tradingview.com",
+      "source": "TradingView",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -988,7 +1164,7 @@
     {
       "id": "7d8b68bd1973",
       "time": "2026-07-29T07:03:33.000Z",
-      "source": "The Boston Globe",
+      "source": "bostonglobe.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1018,7 +1194,7 @@
     {
       "id": "2af0e0c9bb05",
       "time": "2026-07-29T06:30:23.000Z",
-      "source": "TipRanks",
+      "source": "tipranks.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1155,7 +1331,7 @@
     {
       "id": "6abd857ba4f9",
       "time": "2026-07-29T03:04:16.000Z",
-      "source": "tradingview.com",
+      "source": "TradingView",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -1273,172 +1449,6 @@
       "tickers": [
         "CMPS"
       ]
-    },
-    {
-      "id": "18e85eba8215",
-      "time": "2026-07-28T21:05:39.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes reports Q2 revenue $496.0M, consensus $457.36M",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaW0zU0YyZjV1Z2hGU2Z1OXZIb0VGN0lHSEpJZGJZU2hsM0hzY3FtanpaQy10SXNsNzZqdFk1Y3dCd2ZHa2ctdnByZVVMUVVLVFRPRjlFV084dU9pbkZjbi1CSnlzZk9ZN3loWlBZRmtaTGh0Z29PaWhIdjVGWHBrOHNIcEVsNkFRSE1XN1NTSWV5T21QM3dZMUpkNDNJM0hVZzZQZjUwS3FWTS1OT0xBT21JeXAxVEg2d3RQbg?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "73bb95948db4",
-      "time": "2026-07-28T21:04:54.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes reports Q2 EPS 0c, consensus 29c",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZXVOQTZpQ21wN1NiV2VrZVZweFN6ZHZFamlfc0xZRFdZTGEyTmVyZ2tpQjd3X3ZYZVB1V1FoNno0WTU1V2YtWExJSVl4UHo3RnFCT0xQOVlfZTBPaDN0X3RLWlhFTV9YVnVSUWgtNjUtQnFjU2tTaFBrOWdCdDJrb3pvNTBJRGhTcldyX3VlRF9UV1ZodTVQbV9LSEd4VGg2Q1h4anVTNjdrenE5?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "ebf844e184e1",
-      "time": "2026-07-28T20:28:10.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Alkermes (ALKS) Could Be 11% Above Fair Value As Earnings Land】【。",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSE5JSFJLSnZOUDh1eTR4NFZxQWFVN2UwQlZFWnNZZkN4Rk8yUkVQYV8xa1VBMXhTcVhwSDlpRkh4aU1iNVFUTjZiUV8zRU5JbGphNnFIbTFuR3BFeURRM1cyV2RMRzN5cVdiQXVRRWVLb2FvbGVoRnBUa1NpOVNvbl9uanpFRTdPYTRTNW1HMU9jU1NXQkI1Sld0UE5lS1U0cDhSZVpRVGtXQTZhcEk1SUlFVXBZbi1BTVVKcEdHNzNXUFNlY1hhcFN4YjlPRksyNVJjZXF5aHLSAd4BQVVfeXFMUFF6VVdydVdIQ2FMZjlnLVhxcHFUbFhPdlBwZjZZdVQ4TWtwaDNVMmNYSXZVTGNhb0Q5RVN3UkRXVFYzRDZxdWhuT2l4blhhZTc5Y3UxY0M4enFUNTFaZ2NoWU9nSlU1MnI0WUJHQ1NkOWo2OUM2d2VlNW11X21QWmFmSHJBdGxzWEVha2l0QzNrQ0R6a2NBY0hMSUVQT0N2aURsVkFYOS02NXE5ZWpNT3lUeGcxUVctUkdkWkJyYWdZZFZGWjRMMFgyMzk0eFI5MTlpQWUwbXVsMnRzQlV3?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "f8d8305e514c",
-      "time": "2026-07-28T20:15:35.000Z",
-      "source": "That Eric Alper",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Peruvian Cumbia Legends Los Mirlos Bring Psychedelic Groove To Live On KEXP",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWt5QkROMFNEV29ZeGZ0WEVWN2RkOFl3MzZSZ1ZyMFhWOWJhUHBhVC03QXRoYlRqZTBqVS1KQmlHSlRBZlA1NVV1ZEFidnVhRzJaekhzY3FTUHJRV2cyVGM4R2lKa1BYTDNwSC1sMlN3UENETEtWR3picGJNY3pjQUo1MkI2aVdZZXNmcTZpQ2E4a29hc3QtdVpCRVVSMW1nODJNNkxSWElXZmhkQU9MNVJaMWlVNnA1?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "114d5b639da8",
-      "time": "2026-07-28T19:09:59.000Z",
-      "source": "Glide Magazine",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "LISTEN: Jeff Darko’s “All I Need” Brings Jazzy Feel to Psychedelic Gospel",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSlh0TV9XVlhlXzFSYXN6U05mb1JxN1ZXTlNJcmUxLUdUcmJZVW5vNk5feE1fblhNSE4xcFJyRXlqVV9GUFlkUFJ5UnVOUmZhT0J5S0hfWW1rLXY1RUF3bV9feEFhd0pSM0NSQUQ4dldtZnB4eUEyNi1zUVkxUVA3SlZrNGNiOExXbjNaN0d6WmVkZ0RMbWw4YUh2VXJ1emJjZmVZOXFB?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "a8d9c9c65324",
-      "time": "2026-07-28T19:07:30.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Is Alkermes PLC (ALKS) Overvalued After Q2 Earnings Beat Expecta",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQLXFySmtaZG1jS1pDTXNQQWZVSGY1RlhkTFA3eXNrWVNhOGhVbkNveTdMZFRHN2dfdDFLUS1LTGxEczdZbmhTU3Q5NHc5OVJGRXZDdnNhZHBjQjh4Q2RGcGJ3WDFYb2NybFFDTkJzdi05bkNMTFItXy1ScXFWdFNYLXBJRVc2TmVCYm1ZcEVycUZCSEJRVHdyaHVVbF9BTzM3MFQ0UVFMOWZDMTNJVHcycGtOUnhsQkpJSmhOY1Z5NmNCSGo2eEdOZEppT0l1X2sxbC1FRlYtMkJVX1JzMjlCbVprd21HaDRuMHlR?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "5109ffebc9e7",
-      "time": "2026-07-28T17:58:00.000Z",
-      "source": "Minichart",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes plc Q2 2026 SEC Filing: Financial Highlights, Risk Factors, and Forward-Looking Statements",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYzlhSWlkdFlwZ0FvWTB6eU10VEt6OVdYRUhoUzdKQTZBQmZ4NlhfckdjOHB2bzFXQmtjdXZKQ0U1TmVhZG15Y2hSUFdTWE9VdjlnWk5UR21zNjIzd00wYi12Z01sVjVZS1pFc3hXNmdVVG81c0ZvV3pmSjZZbzYxY3V3R1dfX1VDQmpzS19rblV3SDVwa0JuamxxVmljM0I4cG9TSURGVVVLdG9uRXpQb2lYWWZHeTdNVUVOU3BJSlFuVDUyWEhMR0dwNE5qMndqTEVN?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "be09c566206b",
-      "time": "2026-07-28T17:51:41.000Z",
-      "source": "The Mercury News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Oakland dad charged after 5-year-old ate chocolate loaded with psilocybin mushrooms",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUHZfeXNNR3ozM1RuRndIb3didXNUcDQ1ck83dlhhakdSOGlyNHlwcEpldlZxazdnU1RlT3VKOTFZSDNfZW11aXZfRnRSSEhGbkdJNGo5WHdacFpYcGJSMllMSWNjNmhsSFlMMmpuUkxFWG5fdFlnWVNSajIzc0pLTEZNTU01b1RjOVByRVVsVjlUVzdYeFZzY3JXajBDcEM4UFYzSkplT19rb29uM1NDYWczTmFrY0JOc2ptSEhJVUbSAcYBQVVfeXFMT2pzSEFTbUtQbFk3Y284WVh2Y29Wc3RLWlhaQ1RaWDhtcVYzVDlDUm52QUVlSWRuVEk1VUZYQ3Z1d25jcTRUOXVNbVdwRFVzSjEzRjE5bTM2aVFmNWJ2SG9FYmJ3LURyZzhXVWtMT09lRmIydGpEcU9OLTFuNWVfZXJmd0VyV2xVdWFQRml4blhCY3Q1Wl9HQy1hTXl4RFMwSm9IUldROWx1QzJqSmdoLWpaUTFfRlhrd3ZDRFU0RmVwY3J1Q1hn?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "a2e7aacf9919",
-      "time": "2026-07-28T17:22:35.000Z",
-      "source": "New York Daily News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Psychedelic folk singer Linda Perhacs, 83, reported missing by friends",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORFN5NkFoZzJNdXo4bTB0WWNUQWJlUGVBWkdHOW9BYS1rekJIRTg4a1VwS3FJc2M5VjJfOUZDU2ZtamdhYld4UkIzaU9nalpsX0ROWlQzb0NrRmN6YjEySWF6a1FCVlZCazRwUUk5X2JBVmVBVm9fOXhpa3RrakwzS2JFaW5aaGNZR25hQVZB?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "bb75b6d1e2b4",
-      "time": "2026-07-28T16:54:32.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "DFTX: Definium Therapeutics Inc. Latest Stock Price, Analysis, News and Trading Ideas",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBOdjJfbmVUX3o4Tl9FTFVRcUo2UVVjeGozLV95RXRhM3lyU0tFRWJGbGtORnZ1dTkwVzBDVFgyUkVmZ045aG9SVFJ3?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "98b22e2b5758",
-      "time": "2026-07-28T16:34:52.000Z",
-      "source": "This Is Anfield",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Liverpool away kits RANKED – Ecru classics to psychedelic misstep",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQTdOUldTV0Q3bVc3bFppdXVoMU9yUVZqRklOMGxYWTVpMVpXZWtwSGFIZGZYQzc1cUwyRURNTWM2TDQyWXBVdi1rWWVKU3VreUYxb2I5aGpOb0pwTFZhMjd1Yld1VTdVZlZDUXdIUFUxS0Y4dnQwaE9scy1ja3dBSg?oc=5",
-      "tickers": []
     }
   ]
 }
