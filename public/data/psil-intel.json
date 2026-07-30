@@ -1,15 +1,16 @@
 {
-  "updated": "2026-07-30T18:05:35.851Z",
+  "updated": "2026-07-30T19:49:15.948Z",
   "counts": {
     "total": 91,
     "crit": 0,
-    "warn": 12,
+    "warn": 13,
     "bySource": {
+      "Fox News": 1,
+      "Investing.com India": 1,
       "Psychedelic Alpha": 1,
+      "Yahoo": 1,
       "Seeking Alpha": 2,
       "Tech Times": 1,
-      "TipRanks": 7,
-      "Newswise": 1,
       "Military.com": 1,
       "Endpoints": 1,
       "Florida Phoenix": 1,
@@ -20,12 +21,13 @@
       "Yahoo Finance": 4,
       "MarketBeat": 1,
       "PopMatters": 1,
-      "Investing.com": 3,
+      "News-Medical": 1,
+      "Investing.com": 2,
       "streamlinefeed.co.ke": 1,
-      "The Independent": 1,
+      "independent.co.uk": 1,
       "Reuters": 1,
       "Nature": 1,
-      "devdiscourse.com": 1,
+      "Devdiscourse": 1,
       "grist.org": 1,
       "TradingKey": 8,
       "simplywall.st": 3,
@@ -37,11 +39,12 @@
       "Patch": 1,
       "Woman's World": 1,
       "mydailyrecord.com": 1,
+      "Stocktwits": 5,
       "YES! Weekly": 1,
       "Finimize": 1,
       "Investing.com UK": 2,
       "That Eric Alper": 2,
-      "Stocktwits": 3,
+      "TipRanks": 4,
       "EIN Presswire": 1,
       "treblezine.com": 1,
       "OnlySky": 1,
@@ -51,19 +54,18 @@
       "GuruFocus": 5,
       "Mshale": 1,
       "The Motley Fool": 1,
-      "TradingView": 2,
+      "tradingview.com": 2,
       "The Boston Globe": 1,
       "cbs19.tv": 1,
       "GreenevilleSun.com": 1,
+      "Times Union": 1,
       "The Spectator": 1,
-      "Investing.com Nigeria": 1,
       "Psychology Today": 1,
       "Glide Magazine": 1,
       "Minichart": 1,
       "The Mercury News": 1,
       "New York Daily News": 1,
-      "This Is Anfield": 1,
-      "The Globe and Mail": 1
+      "This Is Anfield": 1
     },
     "byTier": {
       "T2": 90,
@@ -71,6 +73,36 @@
     }
   },
   "items": [
+    {
+      "id": "4fed0fd90d84",
+      "time": "2026-07-30T19:10:27.000Z",
+      "source": "Fox News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Tim Robbins turns to ayahuasca after feeling 'consumed by anger' over cancel culture",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaVFPemlXd3hwRW9ueUdqSFZvMlUwTERYQW0tRzVieVAxZWhCcGNyRzFrWi1mUWlncWRibXk3WGdqY2NfY3hkNGl0TlRidEFXR2NoZUZoUVNEeDJpbE95ZklYR3dEa1dCQ3haWnh1bWZYdjFoTF8wRC1uUTA3N0Q4THgwb3gwNGNra1RmemJfbmZfYnNpODdTZzRqSk5LeE14VjYyVW9kLVg4Njg4LTVoRHlGbmfSAboBQVVfeXFMTnFFTGNkdDgzZ1FQRElIT19NUUxBM3pUZlpGUkZBQjBCdEFHWURtUzBfYkJ1UGhmLWRqT1k1ak1QeUs2dVBlTVBqVmt3S3ZiTExIRlZGTXI5YnBxZmJNcDhtQUlGOGRyQlE0LUZMSXdUWXZRNWc2eUx2R3hrekJYWkZZaTZnaG5CRk9oekw1cU9vTHNPc0lVbnhONlhNNW9YQk82OTRrczhDekRCRGxBaml0WWg5bS1tU3lR?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "53c4ad60c5cf",
+      "time": "2026-07-30T18:46:52.000Z",
+      "source": "Investing.com India",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Neurocrine in the spotlight as Q2 earnings test growth story By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV0dXaDhzMG5CMGhXSGxWMUgtUWRFYk01SERTT1RrTGM5SnhwX1FqdDJaQy1yWTB3R3ZiWVcyaDRaTE9yV05MYUFjOE1fUk1FcURfbXpyTU5FbDRYendVMGNTTXBLV05COHVjenhkeVFFQTNDUUt1UmJFYWdBREdRYWxFN1BmVDA5N0s5ZDhGZGxsR0x5MGJaRlB1VWpaTnFfcDYxNlZKa1BqZ2wyaDlieF9n?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
     {
       "id": "5a1187de491a",
       "time": "2026-07-30T16:30:12.000Z",
@@ -83,6 +115,20 @@
       "impact": "LOW",
       "title": "Beyond the Biological Baseline: Dr. Grace Blest-Hopley on Developing Female-Inclusive Psychedelic Frameworks",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQN1I5YzNjbC1Yb21MWURSSC1WZUlwNG9QUEExd19qNmY2c2NRVlhQMGt0ZV83bzY2NFZyWFE1T3A0aVlNYkhKU3BqTWI1Yk5XZDNycndvcUZnZHVSSkZzRGw2VzV6LXM5Qi1uWGhWRDJ4MTEyLVZYLUxSNUplcmhCVDk4YUZDdWVqa3ZrTDJOM3pNbHMzUFFJdzVGNUNONUx1QndTUHhaMWJOcHpVUF9tclRPX3ZVTW5mZm5DZGtpeEJqVWtQMDFoRVFDc2d1UlJBZkRSM2NXUEg?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "06d589954092",
+      "time": "2026-07-30T16:20:47.000Z",
+      "source": "Yahoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Linda Perhacs found ‘safe’ 8 months after 82-year-old folk singer went missing",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjZ3WE9GLUp3SWc3NHZNTEgwVE1yenM4UEhPMXh3Y29ZT2VQX3RpcmpVRy0telFJbnROckRlQy1SaDh2NUdTVzItS1lrWUgtbndKSExsWTVtTUpPMVV3d1lmcnVKTVVhNVpkb1hjOW1BdTU2TDh2SW9QaHk0Z0ZyOWZzWmhvWjNZZmlxUzNrN1VUcC0yZnp3?oc=5",
       "tickers": []
     },
     {
@@ -112,36 +158,6 @@
       "title": "Botulinum Toxin Wins First FDA Clearance to Test Frown-Muscle Theory of Depression",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOWlGdXJmTU45dzdEVE1PVUh4alFoMUs3c0VxbFF6NDFuQWtOM2VuMzJxVlhTWU00akdmUnROTG5KZlQ1Q1Y3dmhOSWtkMFF1RVBkbnRIZHI5aVdrbU0xQ01xcWtLUzZUQ2Rsb01EdC1oX1FmNHRHZ0RXNW9Wa09MWFZjVG1RV2xZbzd6SjRBUFpnNk1sVzE4UUFqSXExSnpaaWs3eUtodldla0c4RHBDTk1oYkFfVjhBUC1mV2NIeU5YejRuUFZwXzlYVQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "a63591653171",
-      "time": "2026-07-30T15:25:07.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic: Clearmind reports safety findings for CMND-100",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa2RQV2wxdGZNZGlfU2l2NWVsZ09rUW0tOFYyQTJDSC1haVgzNW5VQmhCZU5pa2tKeFRFSm15V1piLVl0cUUzUjhVVUZXQkF5U3dHTjZXZUNRazk4R04yY2pMeUp0RzBoT2NMZENZQmxDYlNCNXFreGVxQzJ4ZW1fNmpVTkY2ZVotVnZlLXoxMXJSNi1iZDJfRG9EaVZYdWNXVmx1cXVVM2RHR1VO?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "6289ec46c308",
-      "time": "2026-07-30T15:20:00.000Z",
-      "source": "Newswise",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "For veterans with severe PTSD, psilocybin-assisted therapy may help | Newswise",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPak1Da0ZKQVE2STNuTXgya0FwOTYxcDQxSmc1U0xmdGZNX2YzMkxfeHg5blNzZy01Q1drd3V2RnZUZmhoaUhBSWdERE84Z0JVaDAzZmF3bFV5eFh1TDhXelNET2h3TGUwa0F5YmtqYUZRQldqck5TZnhCTkR3SmYzYnNhTWVBNzJUckxPOWd3Q1NSU2tKYnFpWkl3ZUtyQ25ObGfSAaIBQVVfeXFMT2pNQ2tGSkFRNkkzbk14MmtBcDk2MXA0MUpnNVNMZnRmTV9mMzJMX3h4OW5Tc2ctNUNXa3d1dkZ2VGZoaGlIQUlnRERPOGdCVWgwM2Zhd2xVeXhYdUw4V3pTRE9od0xlMGtBeWJramFGUUJXanJOU2Z4Qk5Ed0pmM2JzYU1lQTcyVHJMTzlnd0NTUlNrSmJxaVpJd2VLckNuTmxn?oc=5",
-      "tickers": [
-        "HELP"
-      ]
     },
     {
       "id": "28cbf5cd8392",
@@ -233,7 +249,7 @@
     },
     {
       "id": "b089ecab3788",
-      "time": "2026-07-30T13:38:50.000Z",
+      "time": "2026-07-30T13:39:43.000Z",
       "source": "WhatsOnStage",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -292,6 +308,20 @@
       "tickers": []
     },
     {
+      "id": "a2ecdaf15113",
+      "time": "2026-07-30T12:12:00.000Z",
+      "source": "News-Medical",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Psilocybin trial shows striking remission rates for veterans with PTSD",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQXpMNVBuMlpGeUhvV2xZZmVQQWpRSVliajFvTjVCRU1YUjU3YXUwcGI4ckxTX2ZaVnhUQkVDSHpMNXIwT0Y2OUNjNlEyR1VBY18zbHNRNFNobGM4aE1ubjRqZU9fVDRzN2JZRTdPaS1ZTy1kYkxyVEltS1FLeU1jNDlyRmJmN0FLMENiQ3FpWEd6amN2a1dEb2FzbHdCTFk4d2hOOHktampHdC0xVG9MLVBsOU5aMEVpX1E?oc=5",
+      "tickers": []
+    },
+    {
       "id": "21835bd09ad5",
       "time": "2026-07-30T11:42:00.000Z",
       "source": "Investing.com",
@@ -324,7 +354,7 @@
     {
       "id": "d44b83bf1975",
       "time": "2026-07-30T10:28:00.000Z",
-      "source": "The Independent",
+      "source": "independent.co.uk",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -366,7 +396,7 @@
     {
       "id": "545865725f7e",
       "time": "2026-07-30T09:00:43.000Z",
-      "source": "devdiscourse.com",
+      "source": "Devdiscourse",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -574,6 +604,22 @@
       ]
     },
     {
+      "id": "de1a5579eba5",
+      "time": "2026-07-29T16:54:24.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "MLTX Stock Gains As Retail Eyes Buyout From Big Pharma, Upcoming Investor Day Event",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY2NEZkQ0MmJhaFFfc3R5UlljdEVGVWVQeU1NcVVQX2czSlFySjd1dTZIbWdKNzg1aEJhZFdVbkY5T2NPZUhPWm5xeFRiOTRLYmE2eUJzZFhzX1N6Q1lYbEw5MXoxRmNnSTRzNnRfZ0JPbmU2blJTY0FwcFJaUnFIMzRpb1hVRTlRRV9wbjR5LU1xbzZKVVhSaHRuUGgtQWUwMEZqaWZQcnZGNGYyUWhzRnNiRVFVZnNleEE?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "93630db3b91d",
       "time": "2026-07-29T16:11:00.000Z",
       "source": "YES! Weekly",
@@ -662,22 +708,6 @@
       "title": "Linda Perhacs, Psychedelic Folk Pioneer Behind ‘Parallelograms,’ Reported Missing",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa3Z3RlE1M2VmR2xkRkRNZUpMM2plRDZBQ3VrOVRxTG14T1haN0Uxd0JTMlh6MDVpb0huNnhHZFJEa2huM0Y5YmJTVTlnMEhYcmxHWVY2Vklfd3dzTHVKMHg3MVd5NE5aemlHQUh4N0lyc0pxNTJoNGhqZjdlQkVDcGRTaWJlX19FUFZLS0pnWm9paUg3UUR6VnFVemUxaGJvc3BzR0plTUoxMlZvTGlMU3QxSTVKMlJaZlN3?oc=5",
       "tickers": []
-    },
-    {
-      "id": "617a56f3a47d",
-      "time": "2026-07-29T15:10:19.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes price target raised to $58 from $48 at Baird",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORER3QzdHclRDelhzYUVDNkNKQVBfbGNuWG1hSWVPeWJDSUltX1VVT2pSbXgtRGNBalE3b0g4WWUtYTZZa3JqMDJGVjVlMVl1ejY3S200ZzZubmxwcXpkVHptMDY0UGU0UEFOT2pBcHFGVlgxV0luU1hrY2R6YTVXSHdtdzRHR2htOEN4alpJbDNvOEx1VGpaNlBjZEVHSlFUNFQw?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
     },
     {
       "id": "f4b790480ac5",
@@ -910,7 +940,7 @@
     {
       "id": "51b07094fa4c",
       "time": "2026-07-29T09:31:04.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -979,7 +1009,7 @@
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "ALKS|Alkermes Plc|Price:48.330|Chg%:-2.170",
+      "title": "ALKS|Alkermes Plc|Price:49.184|Chg%:+0.844",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uYS1tTjBCSHZObVVrNHdib0FxVWZsVmNtM1BXQjk1S29odE8tYVExRERSelc2b1dvekdhVThYRDc2eGJsRlBzTlk4enFYZWczN1NqbXVxSUQyUQ?oc=5",
       "tickers": [
         "ALKS"
@@ -1061,6 +1091,22 @@
       "tickers": []
     },
     {
+      "id": "c61163e8ee40",
+      "time": "2026-07-29T04:18:45.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Alkermes PLC (ALKS) Shares Fall 4.2% -- What GF Score of 64 Tells Investors",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY21GTmxUMjZjSWp5dTFFNFdNM1UtYUtjRzE1Z192NEc1YnFWSWU0TWZnZVFDQ3A5eWlPQzhPVEhRQmFMWjlvOWxwVFRJZE05VlZqSjhSTko4eDU1OWlUOVJQaEFQTzI4MExiX0MzR0ZFc1l0Qnl6SElDZWZJNmdJNFVybmpUd004dXdZV2RLeUIySjRpNktUOXVoQ2p0U2VnU3RhUmlPb3hYd1pNZHVGalZXekNuOEFIcldJ?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "24b81768f2ae",
       "time": "2026-07-29T03:33:58.000Z",
       "source": "TradingKey",
@@ -1109,7 +1155,7 @@
     {
       "id": "6abd857ba4f9",
       "time": "2026-07-29T03:04:16.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -1121,6 +1167,20 @@
       "tickers": [
         "NBIX"
       ]
+    },
+    {
+      "id": "0e818c32aa47",
+      "time": "2026-07-29T02:49:52.000Z",
+      "source": "Times Union",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Capital region nightlife, events and more things to do — Albany Times Union",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUkdBelNsRnN2UjlpUTFvQVlGOTg2VjROTmwtV1JNVmMtNWNacEYtWDR5NEE0OENySXB4dTFUOERTNXVua0RWWTAwQXppckJIVUVWNkQ4cFdvMTVLbm9hcWdZNWh0dUhha1lQZ01QR1E5YTJQZERyRmM5bnN1SDY5UDFGNldWN0NDRk5sOEgyQkF2TnhVSlZCMllScFhSOTdXWjlpX0Zib1Z6NnRvWm9td056UVdYSHQ3aHVZ?oc=5",
+      "tickers": []
     },
     {
       "id": "18e5e3257fe6",
@@ -1139,22 +1199,6 @@
       ]
     },
     {
-      "id": "8d6810a21014",
-      "time": "2026-07-29T01:32:41.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Alkermes PLC (ALKS) Shares Fall 4.2% -- What GF Score of 64 Tells Investors",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRDFCLW9vckNrLVNlYVJjOTdLMEdtUVlOcWhXTm53UEJjakFtaWxwX3N4SzNja0I3N2NEVC1Bd1RoUE1qZ21wckwyRkNaMEEtZHBGeXVsajJwZlR6bEpaQlpLNS1sVzZEXzN4cElTZHY5UDlnY0FYTFFUOWpVWE1xbHZPaHd3Y3hjdjhaemgtQU1Ua2pIQVlyRDlYMkVCV1NPUVQ3SVY0OFR2SkU?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
       "id": "84408dedf7f9",
       "time": "2026-07-29T01:11:05.000Z",
       "source": "The Spectator",
@@ -1167,22 +1211,6 @@
       "title": "Big Pharma wants to sell you psychedelic drugs",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPak1LNnV1UEFwSEZ2RjlsTlNQTlY5R0ZmMXBCMVRqUkRNSEV1UGoyTC1hY24tcXRyX3pUYm9WQjVlTlpQQ3ZYUDdxVXJRQkhUWTd3dnpMa0NfUmlGOVRZdHQ0OF9JX2VlcDFWd280LWxMalJvazBiaWU4TWlvQmZfSFZMSQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "8ff7eb98fa35",
-      "time": "2026-07-29T00:03:33.000Z",
-      "source": "Investing.com Nigeria",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Alkermes Q2 2026 slides: revenue surges 27% but acquisition costs squeeze",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV1hNZmVMYUI1SmlteXdJZVZHMHByWjZFYmhQOWJWYmVMRUtFZW1pclR1ZFVQYUtXUDAyTHZXanBIbHhOTjhvZXdGQy1ibHR4NFR4VnQxTC1MdE5kYXBhLUIzTWo5bmlSem1UQnlXZnNrQklvb1Z4QW1vV0F1NFIyZU1GWDNmN0ZjUy1wcjZyY1dnRHBXZkl2LXk0NzA2S240QlUtX0dRRDl1RUVpT1Zjb1RTVTBkSXZRSkNGTUdTaEFOaGV1d3c?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
     },
     {
       "id": "0b9b03521db7",
@@ -1383,6 +1411,22 @@
       "tickers": []
     },
     {
+      "id": "bb75b6d1e2b4",
+      "time": "2026-07-28T16:54:32.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "DFTX: Definium Therapeutics Inc. Latest Stock Price, Analysis, News and Trading Ideas",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBOdjJfbmVUX3o4Tl9FTFVRcUo2UVVjeGozLV95RXRhM3lyU0tFRWJGbGtORnZ1dTkwVzBDVFgyUkVmZ045aG9SVFJ3?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "98b22e2b5758",
       "time": "2026-07-28T16:34:52.000Z",
       "source": "This Is Anfield",
@@ -1395,54 +1439,6 @@
       "title": "Liverpool away kits RANKED – Ecru classics to psychedelic misstep",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQTdOUldTV0Q3bVc3bFppdXVoMU9yUVZqRklOMGxYWTVpMVpXZWtwSGFIZGZYQzc1cUwyRURNTWM2TDQyWXBVdi1rWWVKU3VreUYxb2I5aGpOb0pwTFZhMjd1Yld1VTdVZlZDUXdIUFUxS0Y4dnQwaE9scy1ja3dBSg?oc=5",
       "tickers": []
-    },
-    {
-      "id": "7429ac9c31e3",
-      "time": "2026-07-28T16:34:00.000Z",
-      "source": "The Globe and Mail",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Alkermes Q2 Earnings Break Even, Revenues Beat Estimates, Stock Down",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUlp4WnpGVkp4aXVMRHBjUk9JWDVJN3V6ek9IR1dRV3hYaWh4cXI5d0hORU1Id2lQeGk1b3dod0FzeFZ3R2JUQ1llb0tLUlRXc3JSNTdKSDNWR2x3NlVnd2VtOS1rcUZMRTZpQlE5d1NyVFZuXzN3Zl91Z04xU0xwUGRXMDJsakw4WUFncmljWm5Qd3FGeGlES0h4UTRMSjM2MXVqdVhyYzQyQ1NwUUowOHc1Z1psVm1odDBsM3I2OG1FSl9XdkIyZTI2U3k1ajRSc01wVzFDUFlQNjFEcTQ3RzV0U01zb2xC?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "5b3a453f45b6",
-      "time": "2026-07-28T16:25:37.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes says Blair Jackson to assume CEO role on August 1",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeEhvRF9ubklra05XdTlFT3hMLVQ5YXNsQVVUUmkyTGJXckQ2blZsUHMxTjNhQ2U0WEVyVFAzOW41SmR6S3JmUDJvUHJhemE5STdYUFVrYUVFendKcEI1YkZGVnhyUGQ0Qm9SZVBTTXRCYzFjbUNjY1N3ekt2WmFnT1pwcXdleXB6Rzc5cExsdk9TR1FsYndHd244Z214U05qZjJld3Z2eTZZeVlZ?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "ed3e444d44a6",
-      "time": "2026-07-28T15:56:03.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences stock hits all-time high at 181.3 USD",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaTU1VEVpRDVSamJ6QlRnMGNtV0RmV0pqeEVoQU01WndIUkRnQVFmV2pxdndLS1k4Z2ZxQUJTcnZUaXM4RWltY1NXTUcxU0V4R2JnSENMc0F0LUtOWF93RkZSMnhpUERadXNaTXNhMTg5MjdwbDBBT1dZTXlFS3ZybGpIYk9uTDYyWGdUZVRuUUN4LWJ3ZUFQdWt3MDFRbnpFTkMtR3NsRF91UHRNY0RMOTBJSG11UQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
     }
   ]
 }
