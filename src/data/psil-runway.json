@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-31T18:00:27.990Z",
+ "updated": "2026-07-31T18:02:47.324Z",
  "source": "SEC XBRL: (cash + ST investments at latest balance date) / (trailing ANNUAL operating burn / 4); burn lags up to ~15mo by construction",
  "covered": [
   "ALKS",
@@ -23,17 +23,21 @@
    "cashAsOf": "2026-03-31",
    "burnPeriodEnd": "2025-12-31",
    "ageDays": 123,
-   "stale": false
+   "stale": false,
+   "verifyLow": false
   },
   "ATAI": {
-   "runwayQ": 1.7,
+   "runwayQ": 8.2,
    "selfFunding": false,
-   "cashM": 43.1,
+   "cashM": 209.9,
    "burnQM": 25.7,
    "cashAsOf": "2026-03-31",
    "burnPeriodEnd": "2025-12-31",
    "ageDays": 123,
-   "stale": false
+   "stale": false,
+   "override": true,
+   "overrideSource": "company-stated (Q1 2026 PR + 10-Q); XBRL misses the securities line",
+   "verifyLow": false
   },
   "DFTX": {
    "runwayQ": 11.4,
@@ -43,7 +47,8 @@
    "cashAsOf": "2026-03-31",
    "burnPeriodEnd": "2025-12-31",
    "ageDays": 123,
-   "stale": false
+   "stale": false,
+   "verifyLow": false
   },
   "ALKS": {
    "runwayQ": 99,
@@ -53,7 +58,8 @@
    "cashAsOf": "2026-06-30",
    "burnPeriodEnd": "2025-12-31",
    "ageDays": 32,
-   "stale": false
+   "stale": false,
+   "verifyLow": false
   },
   "NBIX": {
    "runwayQ": 99,
@@ -63,7 +69,8 @@
    "cashAsOf": "2026-06-30",
    "burnPeriodEnd": "2025-12-31",
    "ageDays": 32,
-   "stale": false
+   "stale": false,
+   "verifyLow": false
   },
   "NRXP": {
    "runwayQ": 1.9,
@@ -73,7 +80,8 @@
    "cashAsOf": "2026-03-31",
    "burnPeriodEnd": "2025-12-31",
    "ageDays": 123,
-   "stale": false
+   "stale": false,
+   "verifyLow": true
   },
   "RLMD": {
    "runwayQ": 20.4,
@@ -83,7 +91,8 @@
    "cashAsOf": "2026-03-31",
    "burnPeriodEnd": "2025-12-31",
    "ageDays": 123,
-   "stale": false
+   "stale": false,
+   "verifyLow": false
   }
  }
 }
