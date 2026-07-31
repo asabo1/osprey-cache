@@ -39,9 +39,11 @@ jobs:
         run: node scripts/fetch-psil-filings-watch.cjs || echo "non-fatal"
       - name: PSIL lobbying
         run: node scripts/fetch-psil-lobbying.cjs || echo "non-fatal"
+      - name: PSIL insider Form 4
+        run: node scripts/fetch-psil-insider.cjs || echo "non-fatal"
       - name: Commit
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add public/data/psil-intel.json src/data/psil-short-interest.json src/data/psil-holdings.ts src/data/psil-catalysts.ts src/data/psil-catalysts-live.json src/data/psil-fund.json src/data/psil-shares.json src/data/psil-mentions.jsonl src/data/psil-runway.json src/data/psil-filings-watch.json src/data/psil-lobbying.json
+          git add public/data/psil-intel.json src/data/psil-short-interest.json src/data/psil-holdings.ts src/data/psil-catalysts.ts src/data/psil-catalysts-live.json src/data/psil-fund.json src/data/psil-shares.json src/data/psil-mentions.jsonl src/data/psil-runway.json src/data/psil-filings-watch.json src/data/psil-lobbying.json src/data/psil-insider.json
           git diff --cached --quiet || { git commit -m "data: psil update"; git push || { git pull --rebase --autostash -q; git push; }; }
