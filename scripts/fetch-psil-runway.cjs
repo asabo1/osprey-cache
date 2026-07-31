@@ -39,6 +39,15 @@ const CASH_TAGS = [
 ];
 const BURN_TAG = "NetCashProvidedByUsedInOperatingActivities";
 
+// Curated cash overrides where XBRL tag coverage is PROVEN incomplete against
+// the company's own stated liquidity (dated + sourced; remove when the tag
+// mapping is fixed). ATAI: 10-Q line "securities carried at fair value"
+// $166.8M lands in no standard us-gaap current-securities tag; company PR
+// 2026-05-12 states $209.9M cash + short-term securities at 2026-03-31.
+const CASH_OVERRIDES = {
+  ATAI: { cash: 209.9e6, asOf: "2026-03-31", source: "company-stated (Q1 2026 PR + 10-Q); XBRL misses the securities line" },
+};
+
 async function fetchConcept(cik, tag) {
   const url = `https://data.sec.gov/api/xbrl/companyconcept/CIK${cik}/us-gaap/${tag}.json`;
   const ctrl = new AbortController();
@@ -109,19 +118,28 @@ async function main() {
     const annual = burnFacts[burnFacts.length - 1];
     if (!annual) { gaps.push(ticker); continue; }
 
-    const ageDays = Math.round((Date.now() - Date.parse(balDate)) / 86400000);
+    const ov = CASH_OVERRIDES[ticker];
+    const effCash = ov ? ov.cash : cash;
+    const effDate = ov ? ov.asOf : balDate;
+    const ageDays = Math.round((Date.now() - Date.parse(effDate)) / 86400000);
     const selfFunding = annual.val >= 0;
     const burnQ = selfFunding ? 0 : -annual.val / 4;
-    const runwayQ = selfFunding ? 99 : Math.round((cash / burnQ) * 10) / 10;
+    const runwayQ = selfFunding ? 99 : Math.round((effCash / burnQ) * 10) / 10;
     tickers[ticker] = {
       runwayQ,
       selfFunding,
-      cashM: Math.round(cash / 1e5) / 10,
+      cashM: Math.round(effCash / 1e5) / 10,
       burnQM: Math.round(burnQ / 1e5) / 10,
-      cashAsOf: balDate,
+      cashAsOf: effDate,
       burnPeriodEnd: annual.end,
       ageDays,
       stale: ageDays > 200,
+      ...(ov ? { override: true, overrideSource: ov.source } : {}),
+      // The ATAI lesson generalized: a very low XBRL-summed runway is as
+      // likely a missing-tag artifact as a real cash crunch. Sub-3Q readings
+      // without a verified override are flagged; consumers must not score
+      // them until checked against the company's stated liquidity.
+      verifyLow: !ov && !selfFunding && runwayQ < 3,
     };
   }
 
