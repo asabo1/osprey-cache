@@ -453,6 +453,12 @@ async function fetchFeed(feed) {
       // Apply keyword filter for non-trusted feeds
       if (!feed.trusted && !matchesKeyword(title, it.description)) continue;
 
+      // Noise gate: obvious off-topic hits on the "psychedelic" keyword
+      // (music/entertainment/weather listicles). News feeds only — SEC and
+      // company feeds are never gated.
+      const NOISE = /psychedelic furs|tickets? on sale|setlist|album|playlist|emo ballad|time signatures?|festival|concert|weather app|images reveal|film review|movie review|\bsong\b|\bband\b|\bvs\b.*\bguardians\b/i;
+      if (feed.kind === "gnews" && NOISE.test(title)) continue;
+
       let time;
       try {
         time = it.pubDate ? new Date(it.pubDate).toISOString() : new Date().toISOString();
