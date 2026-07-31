@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-31T20:13:14.103Z",
+ "updated": "2026-07-31T21:29:40.224Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 0,
@@ -155,10 +155,10 @@
   },
   "NBIX": {
    "buyFilings": 0,
-   "sellFilings": 12,
+   "sellFilings": 15,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 131524,
+   "sellShares": 395422,
    "latest": [
     {
      "date": "2026-07-28",
@@ -980,6 +980,51 @@
    "owner": "Mercier Johanna",
    "txns": [],
    "filingDate": "2026-05-21"
+  },
+  "0001123343-26-000006": {
+   "ticker": "NBIX",
+   "owner": "LYONS GARY A",
+   "txns": [],
+   "filingDate": "2026-05-21"
+  },
+  "0001201096-26-000010": {
+   "ticker": "NBIX",
+   "owner": "GORMAN KEVIN CHARLES",
+   "txns": [
+    {
+     "code": "S",
+     "shares": 245088,
+     "price": 154.3318,
+     "date": "2026-05-19"
+    }
+   ],
+   "filingDate": "2026-05-21"
+  },
+  "0000914475-26-000027": {
+   "ticker": "NBIX",
+   "owner": "POPS RICHARD F",
+   "txns": [
+    {
+     "code": "S",
+     "shares": 15000,
+     "price": 157.6507,
+     "date": "2026-05-15"
+    }
+   ],
+   "filingDate": "2026-05-18"
+  },
+  "0001533568-26-000003": {
+   "ticker": "NBIX",
+   "owner": "Norwalk Leslie V",
+   "txns": [
+    {
+     "code": "S",
+     "shares": 3810,
+     "price": 155.0134,
+     "date": "2026-05-12"
+    }
+   ],
+   "filingDate": "2026-05-14"
   }
  }
 }
