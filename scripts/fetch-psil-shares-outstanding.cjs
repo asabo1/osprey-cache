@@ -18,16 +18,24 @@ const TIMEOUT_MS = 10000;
 
 // Same CIKs as fetch-psil-intel.cjs SEC_FILERS (verified against
 // sec.gov/files/company_tickers.json). DRUG/DFTX etc. absent = not in EDGAR.
+// name = required token in the XBRL entityName — a wrong CIK can never
+// silently supply another company's share count (mismatch → reported gap).
 const CIKS = {
-  CMPS: "0001816590",
-  ATAI: "0002081043",
-  GHRS: "0001855129",
-  MNMD: "0001813814",
-  HELP: "0001833141",
-  ALKS: "0001520262",
-  NBIX: "0000914475",
-  NRXP: "0001719406",
-  VTGN: "0001578523",
+  CMPS: { cik: "0001816590", name: "compass" },
+  ATAI: { cik: "0002081043", name: "atai" },
+  GHRS: { cik: "0001855129", name: "gh research" },
+  // 0001813814 was mapped to MNMD in the intel script; the entityName
+  // assertion revealed the company is now Definium Therapeutics = DFTX
+  // (the fund's #2 weight). MNMD is not a current holding.
+  DFTX: { cik: "0001813814", name: "definium" },
+  HELP: { cik: "0001833141", name: "cybin" },
+  ALKS: { cik: "0001520262", name: "alkermes" },
+  NBIX: { cik: "0000914475", name: "neurocrine" },
+  NRXP: { cik: "0001719406", name: "nrx" },
+  // Candidates added blind (SEC lookup rate-limited locally) — the name
+  // assertion verifies or rejects them on the runner.
+  RLMD: { cik: "0001553643", name: "relmada" },
+  ANRO: { cik: "0001976334", name: "alto neuroscience" },
 };
 
 async function fetchJson(url) {
@@ -47,9 +55,16 @@ async function fetchJson(url) {
 async function main() {
   const tickers = {};
   const gaps = [];
-  for (const [ticker, cik] of Object.entries(CIKS)) {
+  for (const [ticker, { cik, name }] of Object.entries(CIKS)) {
     const url = `https://data.sec.gov/api/xbrl/companyconcept/CIK${cik}/dei/EntityCommonStockSharesOutstanding.json`;
     const data = await fetchJson(url);
+    const entity = (data?.entityName || "").toLowerCase();
+    if (data && entity && !entity.includes(name)) {
+      console.warn(`psil-shares: ${ticker} CIK${cik} resolved to "${data.entityName}" (expected ~"${name}") — rejected.`);
+      gaps.push(ticker);
+      await new Promise(r => setTimeout(r, 150));
+      continue;
+    }
     const facts = data?.units?.shares || [];
     // One value per cover-page date (end), latest last; dedupe by end date
     // keeping the most recently filed figure.

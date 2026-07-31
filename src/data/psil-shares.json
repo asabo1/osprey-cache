@@ -1,23 +1,22 @@
 {
- "updated": "2026-07-31T15:37:57.740Z",
+ "updated": "2026-07-31T16:24:52.187Z",
  "source": "SEC XBRL company-concept dei:EntityCommonStockSharesOutstanding (cover-page share counts; quarterly cadence, not float)",
  "covered": [
   "ALKS",
   "ATAI",
   "CMPS",
+  "DFTX",
   "GHRS",
   "HELP",
-  "MNMD",
   "NBIX",
   "NRXP",
-  "VTGN"
+  "RLMD"
  ],
- "gaps": [],
+ "gaps": [
+  "ANRO"
+ ],
  "not_in_edgar": [
-  "DFTX",
   "DRUG",
-  "ANRO",
-  "RLMD",
   "NEUP",
   "KTTA",
   "SILO",
@@ -127,7 +126,7 @@
     }
    ]
   },
-  "MNMD": {
+  "DFTX": {
    "sharesOut": 109066783,
    "asOf": "2026-04-30",
    "ageDays": 93,
@@ -347,51 +346,51 @@
     }
    ]
   },
-  "VTGN": {
-   "sharesOut": 113059000,
-   "asOf": "2018-12-24",
-   "ageDays": 2777,
-   "stale": true,
+  "RLMD": {
+   "sharesOut": 104890223,
+   "asOf": "2026-05-07",
+   "ageDays": 86,
+   "stale": false,
    "series": [
     {
-     "asOf": "2016-11-12",
-     "sharesOut": 14059000,
-     "filed": "2016-11-15"
+     "asOf": "2024-08-02",
+     "sharesOut": 30174202,
+     "filed": "2024-08-07"
     },
     {
-     "asOf": "2017-06-28",
-     "sharesOut": 14059000,
-     "filed": "2017-07-14"
+     "asOf": "2024-11-04",
+     "sharesOut": 30174202,
+     "filed": "2024-11-07"
     },
     {
-     "asOf": "2017-08-11",
-     "sharesOut": 14059000,
-     "filed": "2017-08-14"
+     "asOf": "2025-03-25",
+     "sharesOut": 33191622,
+     "filed": "2025-03-27"
     },
     {
-     "asOf": "2017-11-10",
-     "sharesOut": 14059000,
-     "filed": "2017-11-14"
+     "asOf": "2025-05-07",
+     "sharesOut": 33191622,
+     "filed": "2025-05-12"
     },
     {
-     "asOf": "2018-02-12",
-     "sharesOut": 414059000,
-     "filed": "2018-02-15"
+     "asOf": "2025-08-04",
+     "sharesOut": 33191622,
+     "filed": "2025-08-07"
     },
     {
-     "asOf": "2018-05-21",
-     "sharesOut": 414059000,
-     "filed": "2018-05-21"
+     "asOf": "2025-11-10",
+     "sharesOut": 73333622,
+     "filed": "2025-11-13"
     },
     {
-     "asOf": "2018-08-13",
-     "sharesOut": 113059000,
-     "filed": "2018-08-20"
+     "asOf": "2026-03-16",
+     "sharesOut": 104890223,
+     "filed": "2026-03-19"
     },
     {
-     "asOf": "2018-12-24",
-     "sharesOut": 113059000,
-     "filed": "2018-12-27"
+     "asOf": "2026-05-07",
+     "sharesOut": 104890223,
+     "filed": "2026-05-12"
     }
    ]
   }
