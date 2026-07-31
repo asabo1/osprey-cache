@@ -35,6 +35,7 @@ const CASH_TAGS = [
   "CashAndCashEquivalentsAtCarryingValue",
   "ShortTermInvestments",
   "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+  "MarketableSecuritiesCurrent",
 ];
 const BURN_TAG = "NetCashProvidedByUsedInOperatingActivities";
 
