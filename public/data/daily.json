@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-31T20:34:53.652Z",
+  "updated": "2026-07-31T21:48:11.677Z",
   "latest": {
     "date": "2026-07-31",
-    "wti": 84.49,
+    "wti": 86.8,
     "wti_prev": 83.59,
-    "wti_delta": 0.9,
+    "wti_delta": 3.21,
     "brent": 90.12,
     "brent_prev": 89.03,
     "brent_delta": 1.09,
-    "spread": 5.63,
+    "spread": 3.32,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,6 +160,79 @@
   },
   "intel": [
     {
+      "time": "21:33",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Oil Prices, Jul. 31, 2026",
+      "outlet": "Energy Intelligence",
+      "source": "Oil",
+      "date": "2026-07-31T21:33:21.000Z",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1peFBjR3FxdV9LRHhyWkpCdExIQWlEZnRDQ3lCNllIbC1mTURrQWtHVVp2R1hWTFhmdFhtNmhlNTNWVGlSaHZkam02UFNDbTF3ZjlraXFYOXFoQ2FQMHVxejAzV2NfaDR6X0w2Uk1sT0NOUQ?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "iran-war-oil-prices-energy-stocks",
+      "first": {
+        "outlet": "Intellectia AI",
+        "date": "2026-07-31T16:09:59.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Intellectia AI",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenBESlJtY1hNSXQzanMtQ3JqREtGWERhem5QX2J6cDBsbUFYMlAyYmJZb2k5d2JrSDY5Q3VQZXMtbk9VNmtkblpsbnJ5VW9CZzRUc2NqbnZjbERXNWs2TEc4UmVFMHYyS0RFMzN5ZjE5dV9ZREczN2JqZU5iWEl6dzlaRi1ZbEh3QlE?oc=5",
+          "date": "2026-07-31T16:09:59.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:17",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "The Strait of Hormuz Is Exposing a Blind Spot in the Energy Transition",
+      "outlet": "Time Magazine",
+      "source": "Hormuz",
+      "date": "2026-07-31T21:17:32.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTExzRXRPS3NWeUJCdVUwbzdZalE4ZnpxblZ0R095Uldvcmg2UFRFb0M4eWFjUFZ5elJVR2x0WVB0alNzeGhTWlNzSTRBbDVsSUhYNy1VQnBiaWpjcVFxNFREejNwc25HZUpZYXFwbkFXeDNfbHVyZmRLRGdoNkdsMFN5SUNRYnM?oc=5"
+    },
+    {
+      "time": "21:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Venezuela Steps In as the Hormuz Crisis Re-routes VLCC Trade Out of the Gulf",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-31T21:00:58.000Z",
+      "link": "https://www.hellenicshippingnews.com/venezuela-steps-in-as-the-hormuz-crisis-re-routes-vlcc-trade-out-of-the-gulf/"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "GMS Week 31 – PAUSE BREAKS, PASSAGE OPENS",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-31T21:00:53.000Z",
+      "link": "https://www.hellenicshippingnews.com/gms-week-31-pause-breaks-passage-opens/"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Middle East shipping bottleneck persists as Iran, Houthi rebels ramp up attacks",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-07-31T21:00:53.000Z",
+      "link": "https://www.hellenicshippingnews.com/middle-east-shipping-bottleneck-persists-as-iran-houthi-rebels-ramp-up-attacks/"
+    },
+    {
+      "time": "20:59",
+      "severity": "MKT",
+      "direction": "BULL",
+      "text": "Hedge Funds Add Bullish Bets on Oil at Fastest Pace Since March",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-07-31T20:59:57.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-31/hedge-funds-add-bullish-bets-on-oil-at-fastest-pace-since-march"
+    },
+    {
       "time": "20:29",
       "severity": "CRIT",
       "direction": "NEUTRAL",
@@ -200,16 +273,6 @@
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVGtyWEtiUHRyRDFEdGtXSFE0YUQyMmgyUUVjU3JaV083bkh6bU5MeWp3bi03eDZ4WkdqT3hRMy1TbllhNEp0MWRCekpsZktqYkM0dUM1Si15bXBxVUk3bXpQMVRvT2h0RnBNZmQ1bTlmaW84TG9TZElSQUdyX1dqS0p4RmZacHd5NnRrMW42SmZ0aV9ZSGV2UnktMURCVkJ1SXVHSGV2aF9KSkloXzY4QmZoRkwxYW9relI1YkZSamk3aDM3T0xqWGVfdlc1WWU0eVZyRzRFMmViTzl2ZjdUV1I2TQ?oc=5"
     },
     {
-      "time": "19:41",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Wall Street’s wild July is ending with more swings as Amazon leaps, Apple sinks and oil prices rise",
-      "outlet": "Boston Herald",
-      "source": "Oil",
-      "date": "2026-07-31T19:41:15.000Z",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNM2tMeXlhbE90VW1wcjRrSjh3RndFLWxncEtiS0RSQldqZTF3VUpxcVo3c0F0Y1gtaHNQdWV6T092NW1haFg1azE3ZGdQZkdCYkh3VVZTOGxyMHJoS1dXcFU0c1RicG9GNjdrR2h0c0pFM0t1TkV1bEpsMjhlS1J4eUVITlhHUm05UlNCTjRtbW81QQ?oc=5"
-    },
-    {
       "time": "19:38",
       "severity": "WARN",
       "direction": "NEUTRAL",
@@ -240,23 +303,13 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcFg2VUdLSVRRclNHYVVfNEQ2SWx6amVDZmVZWnlCbHVJWXVmTXA3N2NnRHR6am5uQzROemR2bEhpSmNfZWVoVGxDMExrS1d4S0JFM1dDUzRDWWYzZjFKNWNrb05uOG5rcVpkalYtMV8tWUcweXJTQUFRcWo4bklIUzZfOF9KNjBwak5GaV9USmpGeVEycHEzSG5EVGRkYzVqaDJnXzVJZk0zWlpaZ3lzYjh5YVY?oc=5"
     },
     {
-      "time": "19:05",
-      "severity": "CRIT",
-      "direction": "BEAR",
-      "text": "Trump Casts Doubt on New Iran Negotiations as War Drags On",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-07-31T19:05:48.000Z",
-      "link": "https://www.bloomberg.com/news/videos/2026-07-31/trump-casts-doubt-on-iran-negotiations-as-war-drags-on-video"
-    },
-    {
-      "time": "18:56",
+      "time": "19:00",
       "severity": "MKT",
       "direction": "NEUTRAL",
       "text": "Oil Price Rises After Iran Says It Stops Ships in Hormuz",
       "outlet": "U.S. News & World Report",
       "source": "Hormuz",
-      "date": "2026-07-31T18:56:15.000Z",
+      "date": "2026-07-31T19:00:09.000Z",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNmlXSnFScU1zMzlhc1poMHlkcU5KR21MXzNNTTZEZDdYUXdORlpfamtUM3F3WGVDbEwzLTBBMW9ZdHlLcU1uTW5nTDl4MDJQZW9ULVNjbWJKbGZYRGx2RDA0QlluNHg4YUh3b2RFUlZ0WWZrRk5SOWF3WUJVaHYzcFBUWndpbDUyZVJtUEdHOVJkdk5OWk9CWEZsbTlEQ05ibkhQNzhHaVJRMjdZRTdn?oc=5",
       "cluster_size": 5,
       "cluster_id": "oil-price-rises-iran-stops-ships",
@@ -307,59 +360,6 @@
           "outlet": "Maritime",
           "link": "https://gcaptain.com/oil-spill-from-shadow-fleet-tanker-spreading-off-oman-satellite-images-show/",
           "date": "2026-07-31T15:05:10.000Z"
-        }
-      ]
-    },
-    {
-      "time": "18:41",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "US Says Not Involved in Redirecting Pakistan-Bound LNG Tanker",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-07-31T18:41:44.000Z",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-31/us-says-not-involved-in-redirecting-pakistan-bound-lng-tanker"
-    },
-    {
-      "time": "18:02",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil’s 22% July Rally Leaves Hormuz Throughput in Control",
-      "outlet": "Investing.com",
-      "source": "Hormuz",
-      "date": "2026-07-31T18:02:21.000Z",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRUtNaWk0YTdOQk04bl82eDRPX1BXRnRvNE1uVWZ1cjVwZVJkRXhUNFlMVG5ZUldGaEl5UFoxSFV4MnBoa2laM1BwNHRFdVNiMWhzdl9HbU1BSm9QeHNsMGdvYWRzSU41Rk5tTFpyQ3hDVUpFbnV0bU1adWZLWm90Z3d2eHZoakpnM0NfN21XR2lTZkMyYjduY3FUWGhuYi05?oc=5"
-    },
-    {
-      "time": "17:58",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Canada's Enbridge postpones plans for second phase of Mainline oil pipeline expansion",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-07-31T17:58:21.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUlBzM0dyWlBSSE1EWkhqd2Zia1cwVXl6Y1hTbnBMeS1ka2RoLV9Xa3dFRE96N09KazdZWGlNenQwdXNHQlVCUV9VSGUxY2VnT1I0cm5BRnpleXBZeTJvYWJOTWZJYm9GTmk4cmpyb3hhWEdDNFg3T290cXZhNThSMWN4QjZXSWZ3WXVvZzZjaXREa2tzUjBZYjk3SDZGTHYtMHZoUzM3R2w3eHVvVlRSS1FfZVA2OHQzbi1UenEtNEx4Q1RXekVwYw?oc=5"
-    },
-    {
-      "time": "17:40",
-      "severity": "MKT",
-      "direction": "BULL",
-      "text": "Oil prices seen gaining as Middle East supply disruptions persist: Reuters poll",
-      "outlet": "Reuters",
-      "source": "Oil",
-      "date": "2026-07-31T17:40:39.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUM3OEEydGZRN2ZOeGZGR1JJNUhXMExvUlZfS1NiR2REZGMtVTFtVHRvcnQ2dUdtM0VOTndIOGkxSmVpYzVIZ1ZfWlRQUTgtNEpZdFFhcU9RenRWN1ZYaElBLV8tZ2VWc2VRU1k0UHNGd1ZqYVVRMjNzRjR5dDNfLXJGVXVRSFdoYnZ5elFhUmFJaDc4QXhuSWtFdEVHWmFQZXJ1T2ZYUjZXVGhvZlBaa1lOYnY?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "oil-prices-seen-gaining-middle-east",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-07-31T17:40:39.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUM3OEEydGZRN2ZOeGZGR1JJNUhXMExvUlZfS1NiR2REZGMtVTFtVHRvcnQ2dUdtM0VOTndIOGkxSmVpYzVIZ1ZfWlRQUTgtNEpZdFFhcU9RenRWN1ZYaElBLV8tZ2VWc2VRU1k0UHNGd1ZqYVVRMjNzRjR5dDNfLXJGVXVRSFdoYnZ5elFhUmFJaDc4QXhuSWtFdEVHWmFQZXJ1T2ZYUjZXVGhvZlBaa1lOYnY?oc=5",
-          "date": "2026-07-31T17:40:39.000Z"
         }
       ]
     }
@@ -1417,8 +1417,17 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-07-31T20:34:53.652Z",
+  "intel_updated": "2026-07-31T21:48:11.677Z",
   "event_log": [
+    {
+      "date": "JUL 31",
+      "date_iso": "2026-07-31T21:00:53.000Z",
+      "severity": "CRIT",
+      "text": "Middle East shipping bottleneck persists as Iran, Houthi rebels ramp up attacks",
+      "source": "Maritime",
+      "link": "https://www.hellenicshippingnews.com/middle-east-shipping-bottleneck-persists-as-iran-houthi-rebels-ramp-up-attacks/",
+      "auto": true
+    },
     {
       "date": "JUL 31",
       "date_iso": "2026-07-31T16:54:00.000Z",
@@ -1859,22 +1868,13 @@
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQS0xeGFSdmdDUXFVVTBCZlhyY0tDYng2S0NFVmlPNUtMMm93aXhzTTdBdG5DUGt1ajhRSURSRTFQV0taeTAwQ1dDSjhQWHVoS1BHYnUyal9yMlQzQ0JqUTExT1NPUVdobkF2Ukc5R2dNdC0tcExzeDBXUTN4NVJJd2hNbG5ON0swZWcwTVRzY3RxRHAxSU0yREF1VW45ZHFQalhDeGcyV19tdEIwOEpzN0VlUlB1UQ?oc=5",
       "auto": true
-    },
-    {
-      "date": "JUL 30",
-      "date_iso": "2026-07-30T06:20:27.000Z",
-      "severity": "CRIT",
-      "text": "Jordan shoots down 5 Iranian missiles as US unleashes ‘heavy wave’ of strikes against Iran",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVWtZUEtiLThmck1KTllKbDhVQnd4M25iSW1vbEZpQUtmRUJrTXhqazVRdS1GaW5sUXFMM2tHZ3RBUE1DQVpYZlJ6QnFBNkFIN0w0YmgwSEtFb2RTdjJXM0IyQ3o1R3FxLTdoR1phWmI3SmoyTVFuZHQ2ZVFtSGwtdTU1ZTFuYzJnby1rRUw4Qm5mVXVwbUJQTGN6TXhORHVyaHlJX3VHMy1NZzhwbXJOb1dsaGtEVk1lV1JWajVaeHFObklJcGfSAcsBQVVfeXFMT0JURkN4Sk1KSXpkb3gySGNYVm11QXkyUWhubERwa3VJemN4U1ZpUnlNWS1GeURDaWxWWmY0U2VKekJ4MU55VVNTVV9HZ1FWXzdDS1JsNkxuRzdnLTFKUW5VSXNIaHhxWUt0TXo2Y2JpenpWU3pEb0lDaGRscF84WTVHY2pUNDIwVnR4RkFjTjBpMmZuQXBSOGNEc2lBNVI2REhpWjBCbmpMeGhzenVHTjB2dlFob0U3S1A1VEw2ZFprX1RKSmdyb1p1MXc?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 1,
-    "bear": 1,
-    "neutral": 13,
-    "net": "NEUTRAL"
+    "bull": 3,
+    "bear": 0,
+    "neutral": 12,
+    "net": "BULLISH"
   },
   "vessels_attacked": {
     "count": 43,
@@ -3900,7 +3900,7 @@
     },
     {
       "t": 1785470400000,
-      "p": 84.49
+      "p": 86.8
     }
   ],
   "signal_outlook": [
@@ -3927,7 +3927,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Trump Casts Doubt on New Iran Negotiations as War Drags On"
+      "val": null
     }
   ],
   "chart_spread": [
@@ -4937,7 +4937,7 @@
     },
     {
       "t": 1785470400000,
-      "p": 5.63
+      "p": 3.32
     }
   ],
   "chart_sp500": [
