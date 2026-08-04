@@ -1,49 +1,51 @@
 {
-  "updated": "2026-08-04T07:16:40.347Z",
+  "updated": "2026-08-04T10:13:08.773Z",
   "counts": {
     "total": 92,
-    "crit": 5,
-    "warn": 11,
+    "crit": 6,
+    "warn": 10,
     "bySource": {
+      "Medscape": 1,
+      "GlobeNewswire": 1,
+      "Stocktwits": 4,
+      "Barchart.com": 1,
       "Diario AS": 2,
       "WHIO TV": 1,
-      "The Australian": 1,
+      "theaustralian.com.au": 1,
       "Pulse 2.0": 1,
       "MarketBeat": 4,
       "citybuzz -": 1,
-      "Investing.com Canada": 1,
+      "Investing.com Canada": 2,
       "BiotechDispatch": 1,
       "aol.com": 1,
       "TipRanks": 5,
       "Stock Titan": 5,
-      "marketscreener.com": 2,
       "Boing Boing": 1,
       "American Songwriter": 1,
       "The Microdose | Substack": 1,
       "Chemistry World": 1,
       "Men's Health": 1,
       "BioPharma Dive": 1,
-      "Investing.com": 2,
       "TradingView": 2,
-      "Investing.com Nigeria": 2,
+      "Investing.com Nigeria": 1,
+      "Investing.com Australia": 1,
       "Helus Pharma": 1,
-      "Investing.com India": 1,
       "Endpoints": 1,
       "StreetInsider": 3,
       "i24NEWS": 1,
       "State-Journal": 1,
-      "fcbayern.com": 3,
-      "ArentFox Schiff": 1,
-      "spectator.com": 1,
+      "FC Bayern": 3,
+      "afslaw.com": 1,
+      "The Spectator": 1,
       "University of Auckland": 1,
       "CLTure": 1,
-      "Stocktwits": 4,
+      "marketscreener.com": 1,
       "marketexclusive.com": 1,
       "leafmagazines.com": 3,
       "Ultimate Guitar": 1,
       "Yahoo Finance": 7,
       "PsyPost": 2,
-      "oregonlive.com": 1,
+      "OregonLive.com": 1,
       "Paste Magazine": 1,
       "simplywall.st": 6,
       "TradingKey": 1,
@@ -54,11 +56,11 @@
       "sekbernews.id": 1,
       "GuruFocus": 2,
       "Seeking Alpha": 1,
-      "military.com": 1,
-      "benzinga.com": 1,
+      "Military.com": 1,
+      "Benzinga": 1,
       "Mshale": 1,
       "Pluang": 1,
-      "finance.biggo.com": 1
+      "Investing.com": 1
     },
     "byTier": {
       "T2": 90,
@@ -66,6 +68,66 @@
     }
   },
   "items": [
+    {
+      "id": "d42bd4a623ef",
+      "time": "2026-08-04T09:44:03.000Z",
+      "source": "Medscape",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "FDA Psychiatry Roundup: July 2026",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVm53STFkMUtWTDFUUE5jOUtURk1EWXViWDZYaHNLb2FEcFBNNkU2MXhHZ3UyZU5CYzBoVnZWSkRCYkFoUWRJOU5JRG5ManhxSFNiUXZfTzlJSHVuR1htMFNwdFJobHRHYlh0MFZPdGRHWElTYTNkMXdRXzFMRDFDd3RYYmROSnpNRXc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "49453c81b39e",
+      "time": "2026-08-04T09:00:00.000Z",
+      "source": "GlobeNewswire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "SRX Global Acquires Stake in Vistagen Therapeutics (NASDAQ: VTGN)",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcGNQQTJlaHhPQWN5TlVBakpDTFFYYks4NEcxdk50bThKQmE2QVRESk1GaFgxWmRhc2UyVGh1NDFuZl94a0h1MFYxakstVmtFMFhwcklaekZ4UjZtci1FSUhFRFN1RjEyeENEOEpnQnFkRGIyNVFVMVdtOTV5bWVScC0wYm5nZS1pVkc2bk5kakxFUERfdE9ia3pMSlJleWlHZ0tBdlE0MnJQd0JaTWM5NEk0eDB1MnBLaDlGWG5tM0dlSkFZLXN6MV9HaUZKeUE?oc=5",
+      "tickers": [
+        "VTGN"
+      ]
+    },
+    {
+      "id": "e992c27e000e",
+      "time": "2026-08-04T08:44:08.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "SRx Health Decided To Invest In A Psychedelic Drug Company That Just Went Public – Here’s What Aided The Decision",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNW5LdE5JOEdPOTBEdHNYSTJTQTRpUGZldUVPQjliMlc4eWZtR3V4VUxaVDE2QjRhMnhHcXRNeGhYLWZ3ejBIcWhFRjRHeFZ4dndobjMzOEQxZWpxSlpHVVlWNmJMTlJHN0ZCNC1HRm1JOFZDd2dzcl9zVUlkZEcxS0k4Z3ZkdmN5M05qRDRNWE0xeHpZSTZoWVBlZ0VpVUExa0lmY1RUQmJlMjBBT2ZldGJoU19ZT3NKYl8zYUhVUTcySE5yMGJ3dEFiSE5SQWlUQUdNODNyMnNuSUFRLUVRR2Y1ZHpBdGtEc0JZbTJwWXRSZzRFc1JtRms2VlRSWXZoMjNUZ2pPNA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "f1b63da8bb47",
+      "time": "2026-08-04T05:52:03.000Z",
+      "source": "Barchart.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Ibogaine By David Dardashti Unveils Minimalist Jungian Paradigm for Early Trauma, Appoints Licensed Therapist David",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUTE5TnVRU3pfOTI3T2lCTzgzRWs5NFRvZUpaNXcxb0tRbld1ekZaUmFNdU1JQ05sR2I0LXFHbTh4NWhCZTVnOGo0b3VoZE92VVN5STlWeXdpOFh1MXlrNjNjYzJXMXdWdlpIWl9ndTBDUnZiX0R1Wk9FSGN4ZElnanN3ZnJPUzRra2dsSzZKNThJYk56c3Y2ZmhPNU1nYXByMFJ6VmJLMEgzdDlERU5UcVpyUUhUQW8xZG9YWG83eV9mY0o3Z3Btb2ZmZm1udDNWaFhpQzhlamxuOU9ONWozRzJ5M0tqRWtxVlo0UmF6Zw?oc=5",
+      "tickers": []
+    },
     {
       "id": "d5e005ed7f6e",
       "time": "2026-08-04T05:24:31.000Z",
@@ -101,7 +163,7 @@
     {
       "id": "6de03ada452a",
       "time": "2026-08-04T03:31:00.000Z",
-      "source": "The Australian",
+      "source": "theaustralian.com.au",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -256,22 +318,6 @@
       ]
     },
     {
-      "id": "efa2882e7287",
-      "time": "2026-08-03T20:02:06.000Z",
-      "source": "marketscreener.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics Announces New Employee Inducement Grants",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlVNU1J4aklXVWVET29nVk83b3U5OUVKT0xZMzB2cDU3ZllGX0NUcDFEWTVYMjZnSmw1aUhQaVpKcnVQaW01NDM2TVc3UjQwclJMazhRTGtodjJoX3lYa1BqUlRHWTRFM3FVQ0s1VkdwMzByQWlaUDdVLWNfQ3dRbWFmZ2tXdkhwVWw2RlM1WTdJUGlfMjBiMnQxZlNTSkF1UDVjYjRJb0FtYU5sNEEwQmJpSEE0QQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "7defc48b732a",
       "time": "2026-08-03T18:03:49.000Z",
       "source": "Boing Boing",
@@ -392,22 +438,6 @@
       ]
     },
     {
-      "id": "5f47abed1e8c",
-      "time": "2026-08-03T13:11:32.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Helus Pharma appoints Michael Halstead as chief executive",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM004b3g2WjFaaURvb0tzVGNrNjdVVTVEXzhpaGNSX285UGNGUXNaNWpQdUdzdmFSdWZwcXU5RlBGZXpPbEFibU9qem1takI2aXBXb3R4Y2NxcDBxVkQ5SzYwUXp6VTBBaFZHVVNCaFRKaHJHRktyWGZydlRBalZ1dm5IWll0NmNBVTNZVGdfQ3o5enY4bHdmY2w2d1JMa2ZOd3c0ajRGOVotZ0F2VXlGOWEybFo?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "623f7a3b09f9",
       "time": "2026-08-03T13:11:05.000Z",
       "source": "TradingView",
@@ -440,19 +470,19 @@
       ]
     },
     {
-      "id": "7c13870097fe",
-      "time": "2026-08-03T11:48:30.000Z",
-      "source": "Investing.com Nigeria",
+      "id": "398a04011bde",
+      "time": "2026-08-03T12:15:51.000Z",
+      "source": "Investing.com Australia",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Canaccord raises Neurocrine Bio price target on strong sales beat By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa0tOYUpnWkhiMWhna0hGVzZMZ1FXdmNqTVV2UVhPTU9JNUZpaGl1WGRWVmViUjZ6Sl9EVFhCdXM1Y0lYWW1oamtiQ01qMnlnQWtla2JlWllqWjFhZzNPeWUyS0toYlpWYjRiLWR2bjFWWnVkTmkxSWN0T0dSbXZodU5tRnduUVI0a3Z2WVBUbTliLVd4MW83MVZ1ZXBUelhkQkdhWkRTa0dyUXpaUlQyUU1fUGpFSWF0cHktRFVBQjVnTG50?oc=5",
+      "title": "Helus Pharma appoints Michael Halstead as chief executive By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQenNWcTFxWUNSaXhaQ1pUMXBGWU1FX3hjQk9TWHFJQTMzYTYxZHhCWnF5SU1aS0RVdVU1dlJ1UnlYRWlTX2M4LURJQmVMRnRsQ0ZBd0g0U19rLXBWU0Fnc1VjQzJxMm92MEJaNm05SFBwOWkwZUV1MzZqejVoNXJkWmdaa09aOFZtRmJvbXVEZXVWZFVuMXBfeDloNGZLVGtfc042YmNFbEx1ZVRaMXRSR3ZJSDd4eTNHX3c?oc=5",
       "tickers": [
-        "NBIX"
+        "HELP"
       ]
     },
     {
@@ -488,17 +518,17 @@
       ]
     },
     {
-      "id": "09e65115f25e",
-      "time": "2026-08-03T11:40:28.000Z",
-      "source": "Investing.com India",
+      "id": "15b630fadd67",
+      "time": "2026-08-03T11:36:47.000Z",
+      "source": "Investing.com Canada",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Canaccord raises Neurocrine Bio price target on strong sales beat",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMEN3LVQ3cGo5NlhoN2FXUkdreGtJYThsakVQaV9KSy1GaExrWFgxNWk4bl92MXFVWmlxR2pwcmNVemw1NENtZVlZTGp3ektnN1FubjJiU2ZDcUEwaDRXNnVfa2hYdXZDWnZlU2hPbWZGaXRCTnhnT2tHeWpiTG81eWp4X0JWZXdMOUl6YU1pZWR1UmtDN0dzdUNtU0NSVUtWUmR2QmRPZmFRR1F5Z0hSSTN0UkNodTZWMDlsNG5BdGhwVmcw?oc=5",
+      "title": "Canaccord raises Neurocrine Bio price target on strong sales beat By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRWhfSlYyZDNZS3N1RUw4cHk0UU1tYVlqNmxUeXBRaVdCQUE5SkRKcUFGUnloREVEaTFkaWhtRC1IWHBlX3lOSExYTGxTRkVpcjlkOXhpSUI2MHNZS3VzeC1IdlRsT2dGbUZRNFFaVlBCZndqZ3FDX0F3SHZfZFN6TjN1ZmZ6Q1ZZV29GQ2F0bWs0WTVCRWJ5c2ZjWTBZUmhsMXgxS2lIQ0pURDJqRXJMUDU5ZDNZdUMtRVVINzJFdldHUC0x?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -551,7 +581,7 @@
     },
     {
       "id": "8f2c9e342eae",
-      "time": "2026-08-03T08:44:05.000Z",
+      "time": "2026-08-03T08:38:00.000Z",
       "source": "i24NEWS",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -580,7 +610,7 @@
     {
       "id": "b593371cf404",
       "time": "2026-08-03T05:14:51.000Z",
-      "source": "fcbayern.com",
+      "source": "FC Bayern",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -594,7 +624,7 @@
     {
       "id": "7c16f5c7dc58",
       "time": "2026-08-03T05:00:00.000Z",
-      "source": "ArentFox Schiff",
+      "source": "afslaw.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -610,7 +640,7 @@
     {
       "id": "84408dedf7f9",
       "time": "2026-08-03T03:41:09.000Z",
-      "source": "spectator.com",
+      "source": "The Spectator",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -758,7 +788,7 @@
     {
       "id": "8cf6dcdf8c99",
       "time": "2026-08-02T16:13:00.000Z",
-      "source": "fcbayern.com",
+      "source": "FC Bayern",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -786,7 +816,7 @@
     {
       "id": "e465a290bbde",
       "time": "2026-08-02T13:00:00.000Z",
-      "source": "oregonlive.com",
+      "source": "OregonLive.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -830,7 +860,7 @@
     {
       "id": "4258d6b55141",
       "time": "2026-08-02T11:40:46.000Z",
-      "source": "fcbayern.com",
+      "source": "FC Bayern",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1279,7 +1309,7 @@
     {
       "id": "035869b7a41d",
       "time": "2026-07-31T21:54:44.000Z",
-      "source": "military.com",
+      "source": "Military.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1311,7 +1341,7 @@
     {
       "id": "fd763c3a2b92",
       "time": "2026-07-31T21:06:27.000Z",
-      "source": "benzinga.com",
+      "source": "Benzinga",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1421,20 +1451,6 @@
       ]
     },
     {
-      "id": "558b1b95b6e9",
-      "time": "2026-07-31T18:03:28.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "IBRX Founder Backs Trump’s Psychedelic Push In ‘Transforming’ Health Policy — Flags New Anktiva Breast Cancer Risk Data",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSFNwX0ZjNnNkT29QWEZlNjdKOU13RlpReE1rckdyRzhEYjdDZGZid082LTNxMDNYZi1QRE5IWW5KUWtGQ1lXTGFzbmw0SjhPbEJMQmI4ZElvS2NCNXc4OEdwUURfTmY4WkxjREdhb0t0VEJmVmJlQnRQaVhZWnozNmdVYXk3ejVTTGVsMWlsU0h6RzdkNUotWnpOa2JEU2ZiRWZWb3FUT2o1Mmljb2NmdC1jRVAxYVIyM1NsQjJRM0xydW9pZmpCM0xVMlFRTXhiZW5hTGpFam0xNlE?oc=5",
-      "tickers": []
-    },
-    {
       "id": "00cdf3b11933",
       "time": "2026-07-31T17:36:47.000Z",
       "source": "StreetInsider",
@@ -1465,20 +1481,6 @@
       "tickers": [
         "NBIX"
       ]
-    },
-    {
-      "id": "ef7e66466c98",
-      "time": "2026-07-31T16:15:00.000Z",
-      "source": "finance.biggo.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Will Maddox: Eli Lilly’s $2.8 Billion Psychedelic Bet, Peptide Politics, and the GLP-1 Ad War Are Redefining What Counts as Legitimate Medicine",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tOFlvTU9QTF83VnlqV05uTW8tVDNWenFseGpJQlFMYUVrM2N6cHA5cmZrMlp3d2FoMjRGUkxjNGxYV0JHOXJBaXdxRmVWUlhwMkNIWWJFMFRMYlU?oc=5",
-      "tickers": []
     }
   ]
 }
