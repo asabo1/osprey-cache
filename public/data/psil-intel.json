@@ -1,40 +1,45 @@
 {
-  "updated": "2026-08-05T19:55:50.414Z",
+  "updated": "2026-08-05T21:31:09.500Z",
   "counts": {
     "total": 91,
     "crit": 9,
-    "warn": 5,
+    "warn": 6,
     "bySource": {
+      "medicalxpress.com": 1,
+      "Seeking Alpha": 1,
+      "ANSA": 1,
+      "CBC": 1,
       "CambridgeToday.ca": 1,
+      "CTV News": 1,
       "CityNews Kitchener": 1,
-      "Investing.com Canada": 2,
-      "medpagetoday.com": 1,
+      "Investing.com Australia": 1,
+      "Stocktwits": 4,
+      "MedPage Today": 1,
+      "AlphaStreet": 2,
       "That Eric Alper": 1,
       "Spencer Fane": 1,
       "The American Legion": 1,
       "JD Supra": 1,
       "Heady NJ": 1,
       "Knoxville News Sentinel": 1,
-      "Investing.com": 2,
       "marketscreener.com": 4,
       "simplywall.st": 1,
+      "Investing.com": 2,
       "finance.biggo.com": 1,
-      "Stocktwits": 4,
       "Yahoo Finance": 4,
       "Collider": 1,
       "ACCESS Newswire": 1,
-      "AlphaStreet": 1,
+      "Quiver Quantitative": 1,
       "TradingView": 5,
       "Business Wire": 1,
       "Scientific American": 1,
       "San Juan Daily Star": 1,
-      "biospace.com": 1,
+      "BioSpace": 1,
       "MarketBeat": 2,
+      "Kalkine": 1,
       "Investing.com UK": 1,
       "KJZZ": 1,
-      "FC Bayern": 3,
       "Glide Magazine": 1,
-      "Investing News Network": 1,
       "Barchart.com": 1,
       "pastemagazine.com": 1,
       "Benzinga": 1,
@@ -53,6 +58,7 @@
       "Pulse 2.0": 1,
       "citybuzz -": 1,
       "The Times of India": 1,
+      "Investing.com Canada": 1,
       "BiotechDispatch": 1,
       "AOL.com": 1,
       "Stock Titan": 3,
@@ -64,14 +70,10 @@
       "Men's Health": 1,
       "BioPharma Dive": 1,
       "Investing.com Nigeria": 2,
-      "ir.helus.com": 1,
+      "Helus Pharma": 1,
       "Investing.com India": 1,
-      "streetinsider.com": 2,
-      "i24NEWS": 1,
-      "Westword": 1,
-      "GuruFocus": 1,
-      "TradingKey": 1,
-      "State-Journal": 1
+      "StreetInsider": 2,
+      "i24NEWS": 1
     },
     "byTier": {
       "T2": 90,
@@ -79,6 +81,66 @@
     }
   },
   "items": [
+    {
+      "id": "7afa0f20faa7",
+      "time": "2026-08-05T21:00:01.000Z",
+      "source": "medicalxpress.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "New psychedelic candidate may spare the gut while still healing the brain",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTWJxSWl6RDE5T3hVclY0X1J0NjBLZzA1SGxyZU5PZElEWGFkUEdHeGdaRlpuZUVEVEVfOGxIQlhCeGx3YnVuZzAzS2NlS3NBSC1rMjBUUXctdzFEV3k0Mkh5ZTloNmI3alpmTVhYMzZsSnI2WThjNTdNOTZpMGRrcQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "3f5171ece7ef",
+      "time": "2026-08-05T20:37:45.000Z",
+      "source": "Seeking Alpha",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Cybin continues rally following CEO appointment, up another 13% (HELP:NASDAQ)",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUHBHWFQwTXBpUFppT3BfeHNqSmFmYXVlc0hwMW1LdklpZU5sT0tVYWFkTHZwUFhReVpmM2dWdmp0clgxb2NGZVYxT3N2ZkpSZTZSMG9nVk5ucHJjSkh3OVUzOHlKbGNBQ0xPd0ZCbGpFcWhpNEtZdWFpU1dzZUtpZjNpUUw0NmRadktTUXpBclZMdmU0aTJwZVoxSGp0QTZf?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "b5fbf8bef2c9",
+      "time": "2026-08-05T20:30:00.000Z",
+      "source": "ANSA",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Compass Pathways Announces New Employee Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPWkpGSTNzeDRzSFctLVdleHBRQ080U21XNzcweV9hamtCclFKNW03MkJhZTJRSExmVGxwcWptZ2x6RkhzRUZjUEhQY3FZY2FISnJEdmlqQ0R5Y2lYNEU4cGEzNXJESVBJM0xLaUVMRkNoR0M1cmJCMkx0QkRZRHVOemI3c1pnWHlvQ1VtRlAtZDJFNVZFSExUMFBXWUkxallnN2NIYldyN293VFBYeWRoTzFuZTFRU0h4Q1h6NC1fN3JZYmtuRGlFVnhaUnZfWVo1N1hLMjRPRnJ6N0tkTmdZcm9sMV9ERm5zR24ydVJrZVVEaVBLR0cwTXVnSzdxNlNWTGFpTE9kMXJ1T2VQS1JRSzZKNDR5UQ?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "4af61c85a48c",
+      "time": "2026-08-05T19:58:46.000Z",
+      "source": "CBC",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Mississauga man charged following sudden death of Cambridge man after taking part 'healing experience'",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMnFCT2JpVEhZUlpvdHhkMHVUVW01YVBNOG04a19lclFZZThIM3FiU1VGUXBDUFNwVzFQQ0RnRHBjS1lZVEJ3N211UmxBakYyVGk5WlNEdk1GS19ZaTRGRW1FMl83UzBwSkUtWVRDSVl5TVVwUGJQWDJpYVFzVmg4ejNhZG1UMWZ4OTVBNXgxWHd1S1VoRTNIcm41ajJ3SktVYzNaam80WnBmZDc0c1lERFRlOWUtV015eXFBeDd1MVBFc3NaclR2Tg?oc=5",
+      "tickers": []
+    },
     {
       "id": "d328421ac130",
       "time": "2026-08-05T19:52:05.000Z",
@@ -96,8 +158,22 @@
       ]
     },
     {
+      "id": "9a051326d265",
+      "time": "2026-08-05T19:52:00.000Z",
+      "source": "CTV News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Sudden death investigation in Cambridge launched following ‘ibogaine healing experience’",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFl1ZVRuU3RJc0d0OFJUTVo3UVZpZ2E4NzlKM0lUMmRZVzJxU2pjVWEtNngzb2F0T01lZlZuTHBzaFVHU2NJYXlHU3kzLUlaOGtNUmRXR3ZOTmtDUDI1WVJCNTMwMFBIaG1WRnhwUUE5clVrVGVKWWpIYWpjdEtxM295SXpQb1NHS3lzV25tVUpqX2o3SnRxTnRXRHZ3MWt4WmVHdXR0c05uZDNqbllKcmREckZiVHFEeERIRVpKOWhXbS14SDlB?oc=5",
+      "tickers": []
+    },
+    {
       "id": "9c7bf91ffadb",
-      "time": "2026-08-05T19:46:01.000Z",
+      "time": "2026-08-05T19:51:29.000Z",
       "source": "CityNews Kitchener",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -110,9 +186,9 @@
       "tickers": []
     },
     {
-      "id": "38ea4af0e43e",
-      "time": "2026-08-05T19:10:23.000Z",
-      "source": "Investing.com Canada",
+      "id": "84683643fb4a",
+      "time": "2026-08-05T19:36:50.000Z",
+      "source": "Investing.com Australia",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -120,7 +196,23 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Oppenheimer reiterates Compass Pathways stock rating on FDA progress By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUXRWNmVRM0lQZUJTcjdpNGNWMURzOWFRek04Tld6SjZOZ3BNbGNBdVRscWRNRWZ5ZWFOblc5dXNSeVFXTXcxT3VLcnVCMFNldHF2Nk9jaVlWUVJGbGJDUm1PU2JvX004UTJaSHZta2ctU1lmU2hIbnE5ckx1R2tSRlphSTl5MmVDRXI5VzdwZUJMQVNKaVFrQ0dGVWpVQW9mZi1zMGxkNDRxNG1jc0hwVUJpYzhidm5MSzRpOEFUX2tnVXhOR0Q0Mw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdDNlSzRIX2JFLXFCTml2b1pEcVZQQ1dBWXR2TzdFMmJkZVJoakd3cDkzcVdoMWRqdHFneUwwMEVoQXRQczhmWHRMN2FXQVVJOEtQR2ZGbG5DNHpWMGhTZmxJTzhKQnNURl91TnpaQ0FNZGpYQVRPY1hmYTFPT21qdXBETENoeld4YW1oTUhaTzN5YVRDTDVsejZJYzZsTnZHSVVTTFVfWTdEVmVXeHl6b0oyVDN4MVBrWTFqb0RLN01tWUVTNWQ3aA?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "ddf961f65f55",
+      "time": "2026-08-05T18:19:26.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "CMPS Stock Climbs Toward 2-Year Highs – What’s Driving This Rally?",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM3ZyTGNNaGl5U1BJY295aUp6SjM4eUJPd3VxQWRIX0h3aWRocTJoem1OUlBFU0x0YlBzcG50SmZDcUdCNFdaYWRndlZscFBxX0dCcnp6NVNtLXdJR056RHc4a3hTY3NFUHAtSUxpUHZvUHZrVEJnZENEQ190RXVheDloaEtUUVFBNHkwcnU2Vk5fOTBYXzMwQ0h5dUlsMlJvOW0zX2t5QWpjSl9WMzE3VENTblQxeDdVU1E?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -128,7 +220,7 @@
     {
       "id": "bf30eb11e2a1",
       "time": "2026-08-05T17:55:32.000Z",
-      "source": "medpagetoday.com",
+      "source": "MedPage Today",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -138,6 +230,22 @@
       "title": "Psilocybin for PTSD; Breathwork and Cravings; 'Game of Thrones' Writer's Depression",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uUkFBeDl2NVd4eFFJTHl4LTRUd3lWWW9CT0VoOGZ1Q3NaZEtVY3BGZFgydUJOVFU3LWxVbG93bjZNTVpkQ01UTTktR2w2X0NjUFdfUnBVTVM1Ul9CVVdub2pLcmNQVGVlSGlPY1dZN1JGQQ?oc=5",
       "tickers": []
+    },
+    {
+      "id": "8b4c9718b531",
+      "time": "2026-08-05T17:52:53.000Z",
+      "source": "AlphaStreet",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "COMPASS Pathways Q2 2026 Loss Widens 358.5% Beyond Estimates",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT1VJSjVjTUZkU0NPNTZhRlVzWUprbFpwN1NWcExQWjdTZnowMk9GdGJCY1RhdUxOM0FJTnlhUEd2dUFVc1lnZHh6UGFCUG82UFZ4Qm5PQS00NEtZbkdRSzM3REoteVZhMkRpSDUzV00yYUdGc1p5NWc1a2xiSGRVYnpnU3FQRTJVNUFVVzhyOVNzV21kVVRNdNIBmAFBVV95cUxQT1VJSjVjTUZkU0NPNTZhRlVzWUprbFpwN1NWcExQWjdTZnowMk9GdGJCY1RhdUxOM0FJTnlhUEd2dUFVc1lnZHh6UGFCUG82UFZ4Qm5PQS00NEtZbkdRSzM3REoteVZhMkRpSDUzV00yYUdGc1p5NWc1a2xiSGRVYnpnU3FQRTJVNUFVVzhyOVNzV21kVVRNdA?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
     },
     {
       "id": "d9a0be1057b4",
@@ -198,6 +306,22 @@
       "tickers": []
     },
     {
+      "id": "292956b7ee32",
+      "time": "2026-08-05T16:31:06.000Z",
+      "source": "AlphaStreet",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "COMPASS Pathways Releases Q2 2026 Financial Results",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT2w3RnYxM1FqM1Z6RzZuaTV0OXZIVzdsRGRKSTMxVEtWZ3ZPMGMxWVZiU2x5Qno2a3FhODlhT1M0Y0lCVm82S2twWVdFMjlFeUh4NE9KWmVXdjBpdnZXRXVSaVItRENEb0J6cHFZWmNJYTF3MGpvbHNiWGhRUkNUM1h5SnE5N0gzYm52bURR0gGOAUFVX3lxTE5PbDdGdjEzUWozVnpHNm5pNXQ5dkhXN2xEZEpJMzFUS1Zndk8wYzFZVmJTbHlCejZrcWE4OWFPUzRjSUJWbzZLa3BZV0UyOUV5SHg0T0paZVd2MGl2dldFdVJpUi1EQ0RvQnpwcVlaY0lhMXcwam9sc2JYaFFSQ1QzWHlKcTk3SDNibnZtRFE?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "53aae13d57cb",
       "time": "2026-08-05T15:54:14.000Z",
       "source": "Heady NJ",
@@ -224,22 +348,6 @@
       "title": "Tame Impala's sold-out show proves Nashville's appetite for psychedelia",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTTBkNnZUemRkWVJGckRMOHBjdHpkLWpUQnpqUnl6MnFlYmZUUTBpelRNdGpCTUF0OHlYMUk3ajVDbGpsWXZNQ2NBYjBwWG9QalBQLWJHN0wwM2xNOEFtWm53emtyY0lFQXpkdHQ2bWZobDNHQ2FJWm41bVpzajZfZEt0OFdzZEJnWVBDeGN2TXN4OWFHb0lxbkdYbm1weTJyUl9sNF9mY3hGT3Jhempoam5iUUdmbTQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "f1d19123a8ff",
-      "time": "2026-08-05T14:22:39.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why is Compass Pathways stock rallying today?",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQb3ZTdlBUMm0zT1BfbW5FVmU1SmpVTndZMzFKVHBROWdoVWNEZWRELWtTbVdSZGFiX0tvOGVoRDZaZVpULTQ2SDZiVkpjdVdLOGxGTkdnQkt3UllfU0NKbUhaOFRhd1dYN2VPNTBQN2JlNnZueXhBVklwODdIbzIxYUdUS3F2dVEySmxRb0RkZ2tSNXBna0ZaWFJaTnFYdThHOS1vbXZ4Y1NPWjNVRWcyZnVsQlc?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
     },
     {
       "id": "b751eeb5f910",
@@ -274,6 +382,22 @@
       ]
     },
     {
+      "id": "7e1f18434d70",
+      "time": "2026-08-05T13:53:22.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Why is Compass Pathways stock rallying today?",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc3BmeWs3VWU5UzFhZXVQMjR6TDFaaDhydDlkVGwyelkxRnBQNDMyeUlQQkhRcGVkUS0tc2JWM3p2cmk0QmtENUxkQW01MWxiSlpVVlVnV3VMQmJsbDFVdWNJeWFvZ0VCS2NDMzVtOE1UaW5vWmFVQ3JUdHR1WXYyU0hyaDQtOUV1U2ZSNHBBMFFqcDcyMkpVTVlBSmJSM1Y1bDFobUtFNWVEQQ?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "bd0bbd5c38a3",
       "time": "2026-08-05T13:45:00.000Z",
       "source": "finance.biggo.com",
@@ -285,22 +409,6 @@
       "impact": "HIGH",
       "title": "[CMPS Q2 2026 Earnings Call] COMPASS Pathways Says 90% of Psychiatrists Would Prescribe COMP360 in First Year, as Phase III Data De-Risk Approval",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0Q1EwdkVhRmhiSm4yNUsyemxjbnluR2RzRUV3X19tZS1Vald0cDhWRmVfZUx2Vzd3cEJOWGdTc2tPVG05b01pYWdIQ1h5bTkzLWh3ZjU2ZnFyUzVsZFE?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "ddf961f65f55",
-      "time": "2026-08-05T13:04:20.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "CMPS Stock Climbs Toward 2-Year Highs – What’s Driving This Rally?",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM3ZyTGNNaGl5U1BJY295aUp6SjM4eUJPd3VxQWRIX0h3aWRocTJoem1OUlBFU0x0YlBzcG50SmZDcUdCNFdaYWRndlZscFBxX0dCcnp6NVNtLXdJR056RHc4a3hTY3NFUHAtSUxpUHZvUHZrVEJnZENEQ190RXVheDloaEtUUVFBNHkwcnU2Vk5fOTBYXzMwQ0h5dUlsMlJvOW0zX2t5QWpjSl9WMzE3VENTblQxeDdVU1E?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -366,17 +474,17 @@
       "tickers": []
     },
     {
-      "id": "292956b7ee32",
-      "time": "2026-08-05T11:43:33.000Z",
-      "source": "AlphaStreet",
+      "id": "027e01bb7254",
+      "time": "2026-08-05T10:55:00.000Z",
+      "source": "Quiver Quantitative",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
-      "severity": "INFO",
+      "severity": "WARN",
       "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "COMPASS Pathways Releases Q2 2026 Financial Results",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT2w3RnYxM1FqM1Z6RzZuaTV0OXZIVzdsRGRKSTMxVEtWZ3ZPMGMxWVZiU2x5Qno2a3FhODlhT1M0Y0lCVm82S2twWVdFMjlFeUh4NE9KWmVXdjBpdnZXRXVSaVItRENEb0J6cHFZWmNJYTF3MGpvbHNiWGhRUkNUM1h5SnE5N0gzYm52bURR0gGOAUFVX3lxTE5PbDdGdjEzUWozVnpHNm5pNXQ5dkhXN2xEZEpJMzFUS1Zndk8wYzFZVmJTbHlCejZrcWE4OWFPUzRjSUJWbzZLa3BZV0UyOUV5SHg0T0paZVd2MGl2dldFdVJpUi1EQ0RvQnpwcVlaY0lhMXcwam9sc2JYaFFSQ1QzWHlKcTk3SDNibnZtRFE?oc=5",
+      "impact": "MED",
+      "title": "COMPASS PATHWAYS ($CMPS) Releases Q2 2026 Earnings",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbkJyM3h1cE9ZYUFLVnlaeks5M3lQdDgxTEp5eGFiWF95ZW9NWkhFWWFUNlNJTlJCU1d4c3JyOUJsNVJ6TU91SDZoWUhXOU5MWTFoakw2VDA1SVZqQ21EMFozMjJhdWFVTlBUMGlXd3JmS01CaF9Nb2JfVnk4UEdfR0RGdGhROVNqYmhfdUpJTEJXRmM?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -456,7 +564,7 @@
     {
       "id": "7142d9ab41b6",
       "time": "2026-08-05T04:14:26.000Z",
-      "source": "biospace.com",
+      "source": "BioSpace",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -484,6 +592,20 @@
       "tickers": [
         "HELP"
       ]
+    },
+    {
+      "id": "39283b7ec298",
+      "time": "2026-08-05T03:20:00.000Z",
+      "source": "Kalkine",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Entropy Clears Ethics Hurdle for “World-First” Eight-Disorder Psychedelic Trial",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQm9UQnE4WUtldkd2YzRYOE45THVlT1o5SGZnU1RibWdsMWlIcHk0Z0ZhNlRxNXZVcXRFNko3aE9HYVZFeHJYbEJLY1RZa1lYVFQ1Q2xKQzRtckl4dGJVamZacXNzTnJNbzFIdXc2T1lJbWo5MGVyVWxzbk5mMllVaGxMM2NwU2N6aTVBWFpFZ3N1TVBKSlBhQlhjLTdwc0psVlczZTM0WncxcERXTzBUUlNNMDVDYUFubVE?oc=5",
+      "tickers": []
     },
     {
       "id": "33eec904aa7d",
@@ -562,20 +684,6 @@
       "tickers": []
     },
     {
-      "id": "8669529cfb54",
-      "time": "2026-08-04T20:06:52.000Z",
-      "source": "FC Bayern",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psilocybin Erectile Dysfunction: Evidence-Based Insights for Wellness and Sexual Health *uheEUfFCs*",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZ0Q1SExfUGg2dk1rcy1sUHBhTXF4TXNzTEQyRzg3c1QzaFVSSUxTOVNaQm1uYjRFRy1rVUtlc2NUT29OaHBHa2RyYkh5cmFhMmlZeUZBeDlnZHVlT1NDbU1Yb1pYVjhTVGRZdE9sRW53VURVRjFDZ1NEdDlyTGlkVWp4Q2hoSlRjZEhoZXJNQ29vbk9mRHc4RV9xbXNfelRUZHNlRndCb1JCM3pIUmFTWWpaWERzdTAtRm5Zb2tKeVcxX2luUTdkNWRUYmlFaW1faHJQQUY4U3c0NkJxS0gw?oc=5",
-      "tickers": []
-    },
-    {
       "id": "3776d7190b61",
       "time": "2026-08-04T19:30:00.000Z",
       "source": "Yahoo Finance",
@@ -603,20 +711,6 @@
       "impact": "LOW",
       "title": "LISTEN: DOOM SLUG’s “Genesis” Powers Through a Psychedelic Ride Back to the Beginning",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRnNsZkVsZWZGMzBhaUJkRkNPRjFWM25kNTBxVmdnMUxvVk85YTRIcGp2QjdhZnRhYmc2ZWdORDVjQktzVFVOUllOcnM2anF2N0FPcF9Vb3VXNGh5SWY5UTJlb25GX1I3OWtCRmF5d0xfdXlCWTVMOG1xLTBnSjBXSjRJSG12bkNFRVhrMlhENEdYWkxZSWItdkNmdzZhVlpGWGl0d0E4MXpLQnF4TGtrSERDZy1kdw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "d29b9519d873",
-      "time": "2026-08-04T18:01:07.000Z",
-      "source": "Investing News Network",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways to Announce Second Quarter and First Half 2026 Financial Results on August 5, 2026",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTGRVdTJxdjROMGc1RDJQSm9zbks1UVJqQXphazZOUExyRExjdjBnMHZEMmRuWkpVVlZVcHJWdDh5S21MQkh4YWdSNkxXMHJEQTRaZzJWc0hPYjdxLWdGZlAzRWV4ZnhPMDJtc1UyM19ZSlhNWGpOT2hPay1JVkhKeldLYmkyZDVLMUctSHlqSS0wbFRfS0lzVUpPWTVONmxwU0llTGgyc252VmNXY2VTdXExQVIzZzF6WWJRb19sT2YwNTg?oc=5",
       "tickers": []
     },
     {
@@ -707,20 +801,6 @@
       "impact": "LOW",
       "title": "Three potential takeover targets in psychedelics",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWp2QUJ3YW56VjVickZ4R0JWVk9vcTVuNVcwTkFfNjhvVm1DM2ZQZ2VJdTEtemtTSnJtSV9sZHgzbjUtOU1ZaGtXWjFmNUNiTHZZTFNaX285LWRnRFRZd1NXUkltbUNBM3RoMk04cFVXcmNhYVVkYkpmdE9BWjBSU0dGZi1LLUR3VWlKYXFqSkcwME9fUHc?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "fdbb4ee62c09",
-      "time": "2026-08-04T12:32:29.000Z",
-      "source": "FC Bayern",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psilocybin And Erectile Dysfunction: Exploring The Neuropsychological Connection And Future Therapeutic Potential [fMWdO8Z7uI0]",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUjVSM09fR1FYQ3VHaFZ6dloxcUJHcXp0bFctYVFqRXdXdDY3Z0VlMWVjR01XVmViZ1NqWUZwT2tncmE0ZmNWZ0VFOW9HV29CSDFxSDFxd2EtYWpxNUFUUndTME96YXZMZjlWYTBKTHg0cjRwVGgyRnd6UXNxNWdvUHU0OTVYbTR1Zy1UalJHR0hkRWpkWV9kY2ZKM1ZEMzdnb21oYWlma3RVdjBmQXZKWHVBQS1YSDRlNS11YUphTTk0OXRsaVJGY0EyRUxINmV3N0xINXl0czA3UExiZnYwNERnMEhZU2dnZGhTTDlWcw?oc=5",
       "tickers": []
     },
     {
@@ -1294,7 +1374,7 @@
     {
       "id": "51842dc2e4e7",
       "time": "2026-08-03T11:46:01.000Z",
-      "source": "ir.helus.com",
+      "source": "Helus Pharma",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1342,7 +1422,7 @@
     {
       "id": "ec1b24afb036",
       "time": "2026-08-03T10:55:39.000Z",
-      "source": "streetinsider.com",
+      "source": "StreetInsider",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1358,7 +1438,7 @@
     {
       "id": "d61f2cf735a2",
       "time": "2026-08-03T10:43:39.000Z",
-      "source": "streetinsider.com",
+      "source": "StreetInsider",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1383,80 +1463,6 @@
       "impact": "LOW",
       "title": "Israeli Soldiers See PTSD Symptoms Drop In MDMA Therapy Study",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcVRRNlI2cTVNMkZhZ1RyYUdEUFZwUTBXbWU5aWZtUlJ1ak9JX3ltaWNyWjlVUVRxWTBCWGtnR2NjUHBLLS1KUS13SlFIYmRHOVcxc0NaZWFsMy1TQUxsRXJmdXRCS1dqUzZiSF9VRlYzbGxtZkpCT2dKYnVzNzZYUkJKelpKLWJlSGpCZVJ1dGJ2WlA4NzZFenBYM29mbFZQLU9rRU5IWV90SGVWdndGS3NOSjZyTXl3bjBNWEJVbkw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "dc9b944dbdc2",
-      "time": "2026-08-03T07:00:00.000Z",
-      "source": "Westword",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cannabis calendar: Hip-hop and disco nights, mushrooms speed dating",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQWwzYUVvV0hlekUwUkxrRnM3LUtfQmtqTm5MMnU2cUNnemhaSDZHdjNGUlFqeXJuSkZIQXFrd3UyRnJSaGtVMGJDT0Q4N1Y1cldrdWpwM3pIRGtMbUYzczNvaS1zWG1ISEFvaDJ6WHI2TjNzMDFHcXZmLXI2Qkt1OHgwMV9qb3dwakE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "19d1a5aa0f0a",
-      "time": "2026-08-03T07:00:00.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes (ALKS) EVP, CLO David Gaffin Sells 2,034 Shares",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbk1WSk43VXQxZXI5S2RuWk1nNTFndkN0X2ZSUTR2VjkteTI1Y0hRNUZCVlB3OG1MU3RnYkpPQmdsdzFEQmpfOTFiOEhmQnJPc2dndTNFSVNDdVdJWUFSd29UYUJyMS1mQlVfdUdLd2JiRjJsOEg2cXFoX0JMSFhhMmFFUExGUWJjdTlyZGRoYUM5ODFSVVE?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "b806672581da",
-      "time": "2026-08-03T07:00:00.000Z",
-      "source": "TradingKey",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "ALKS|Alkermes Plc|Price:49.305|Chg%:-0.225",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBRUExGcEFsWm1VanZTNDVKSGpNODhoVVM4YTA0ak1zazBvdDhrakJKeXJVcnZoZ010aUVlZGxEcFZEY2VZVUpBS1Ryc2dtN3lzWFhEV3JEWVF0Tjh0ODNlMlpCU1U5eE1aNHJVREZR?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "a955d760238f",
-      "time": "2026-08-03T05:26:16.000Z",
-      "source": "State-Journal",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Guest columnist: FDA moving faster on psychedelics",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYlB6YU0zRFJYNjBOSnZxa1Z1T2tnSFlXR0JSVkZMVHpWRzlNaWllZDRRTDlkUWNMVkNDYmR0T0tPNG5rcXpwU1ZtbTJNd1dLaXNveWRVSlBZdFpVTEYzSWMwTHFHRGtwM1g2QnlNUXBJQ2FmLW14OXUyckJxRkQzX0psT2NUUFh1WXRBY1JWWjE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "b593371cf404",
-      "time": "2026-08-03T05:14:51.000Z",
-      "source": "FC Bayern",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Do Mushrooms Cause Erectile Dysfunction? - View K5APHUWnB",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaGg3cFJld3pBYjh2WmEyVkVmT0JPdUpObWFSb0Yya1g0bmQzbEh2RkhtM0Y0d0J5SUpFcE81clVBTzNYeTl6ZXVza19oSG01OFk3QnRidzJsNmE4bEJTXzI5VW5mSGNjZDRfSlplSVQ3dmtjNURFS2lNY1ExdG5YdExCVVJzamtBcERDOGlpdU1mUGNOeDFuR1JLd1lTQ1lVTXBHTGVpZ0h3MVI2N0s4c1A2R3J3QzJsUlA1clhJZEhINHN4Y1FYeUxiSDVxcDZmX0E3bmxxbzltR0lRMUJJ?oc=5",
       "tickers": []
     }
   ]
