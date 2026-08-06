@@ -1,51 +1,54 @@
 {
-  "updated": "2026-08-06T07:18:29.258Z",
+  "updated": "2026-08-06T10:11:28.496Z",
   "counts": {
     "total": 90,
-    "crit": 10,
-    "warn": 8,
+    "crit": 9,
+    "warn": 6,
     "bySource": {
+      "Investing.com South Africa": 1,
+      "CNN": 1,
+      "simplywall.st": 2,
       "News-Medical": 1,
-      "Bioengineer.org": 1,
-      "IMDb": 1,
-      "Moomoo": 1,
+      "bioengineer.org": 1,
+      "imdb.com": 1,
+      "Moomoo": 3,
       "FirstWord Pharma": 1,
       "KUTV": 1,
       "Dagens.com": 1,
-      "stocktitan.net": 4,
+      "Stock Titan": 3,
       "TipRanks": 3,
-      "medicalxpress.com": 1,
+      "Medical Xpress": 1,
       "Seeking Alpha": 1,
-      "businesswire.com": 2,
+      "Business Wire": 2,
+      "Elko Daily Free Press": 1,
       "CBC": 1,
-      "CTV News": 1,
+      "ctvnews.ca": 1,
       "CityNews Kitchener": 1,
-      "Investing.com": 2,
+      "Investing.com": 3,
       "Stocktwits": 5,
       "MedPage Today": 1,
       "AlphaStreet": 2,
-      "That Eric Alper": 1,
+      "thatericalper.com": 1,
       "Spencer Fane": 1,
-      "jdsupra.com": 1,
+      "JD Supra": 1,
       "The American Legion": 1,
       "Heady NJ": 1,
-      "finance.biggo.com": 3,
       "Knoxville News Sentinel": 1,
-      "marketscreener.com": 4,
-      "simplywall.st": 1,
-      "TradingView": 6,
+      "finance.biggo.com": 1,
+      "TradingView": 7,
       "Yahoo Finance": 4,
-      "Collider": 1,
+      "marketscreener.com": 2,
+      "collider.com": 1,
       "ACCESS Newswire": 1,
       "Quiver Quantitative": 1,
       "Scientific American": 1,
       "San Juan Daily Star": 1,
-      "biospace.com": 1,
+      "BioSpace": 1,
       "MarketBeat": 2,
       "Kalkine": 1,
       "Investing.com UK": 1,
       "KJZZ": 1,
-      "Glide Magazine": 1,
+      "glidemagazine.com": 1,
       "Paste Magazine": 1,
       "Benzinga": 1,
       "Psychedelic Alpha": 1,
@@ -65,16 +68,59 @@
       "citybuzz -": 1,
       "The Times of India": 1,
       "Investing.com Canada": 1,
-      "BiotechDispatch": 1,
-      "Boing Boing": 1,
-      "Bloody Disgusting": 1,
-      "SSBCrack": 1
+      "BiotechDispatch": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "10fd2e325102",
+      "time": "2026-08-06T10:08:43.000Z",
+      "source": "Investing.com South Africa",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "COMPASS Q2 2026 slides: psychedelic launch nears as stock slips By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRmhsazJiWC15d3VMM3RYell5Q0lZYWJQSnF4SkJaRkFQemhFY2NNa01EdE5mM1J1ektvcThjRXZkRkNncnNkdlJqb1htQ2N1eDNtTDJGUHJpNW5XSzdpWUMxU0tYdWx4c1FDYkoycjY3WlBEdzZoMGF0dDhva242S3MzMHFMSnUzUkF2eFEtQ3RpOXNZX0YtQ1E1Wlk1SF9vLUoyMU45NVJCeXlkWHI5MmlxU3BjQUUwUUE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "8ef536cb7237",
+      "time": "2026-08-06T08:58:22.000Z",
+      "source": "CNN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "symbol__ Stock Quote Price and Forecast",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwMGtPT2huOERzcXlCQ2RHZjg2SERwbzBNSUM2T0pZWWJzb2pPNDRtMUd2ck1wdVR6Z2VxSGhDTFNIeTU4dGNHMDlncVp5NGtm?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "09d878e3ac4c",
+      "time": "2026-08-06T07:16:00.000Z",
+      "source": "simplywall.st",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Could Helus Pharma’s New CEO Reframe Cybin’s (HELP) Path From Clinical Trials To Commercial Scale?",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORUVwX0I1NTZTM1pwU2xScllPWGJfVjFDMkxBVnNtZFV6MUJxU2ZtWWlSS29UN0h1aHNLM2lLN25Lbmw5enlfY0RiR1JrLTRseEMxdWJIclJpMkZjdjk3QWVVb0trR3Q4NXo5NkVudFFnMUxtLU5HT1g5MXhvTHV2TjkyR2lXMjBzTTlIcldhcUFTU0hZVkRCZGtEa0ZxRmZNQmd1cFdEVjBTME4xYlhsamhjcGV5WG12Q2dlbkdnV0R1SXBJbFQ1SlJTaTkwMkhVVlpodE85M3ZfSWPSAdsBQVVfeXFMTkVFcF9CNTU2UzNacFNsUnJZT1hiX1YxQzJMQVZzbWRVejFCcVNmbVlpUktvVDdIdWhzSzNpSzduS25sOXp5X2NEYkdSay00bHhDMXViSHJSaTJGY3Y5N0FlVW9La0d0ODV6OTZFbnRRZzFMbS1OR09YOTF4b0x1dk45MkdpVzIwc005SHJXYXFBU1NIWVZEQmRrRGtGcUZmTUJndXBXRFYwUzBOMWJYbGpoY3BleVhtdkNnZW5HZ1dEdUlwSWxUNUpSU2k5MDJIVVZaaHRPOTN2X0lj?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
     {
       "id": "37ab7f9ef112",
       "time": "2026-08-06T04:31:00.000Z",
@@ -91,8 +137,8 @@
     },
     {
       "id": "88f3ec9e4877",
-      "time": "2026-08-06T03:34:12.000Z",
-      "source": "Bioengineer.org",
+      "time": "2026-08-06T03:53:47.000Z",
+      "source": "bioengineer.org",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -106,7 +152,7 @@
     {
       "id": "5d306e36ed5c",
       "time": "2026-08-06T03:14:49.000Z",
-      "source": "IMDb",
+      "source": "imdb.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -180,7 +226,7 @@
     {
       "id": "964200231cb8",
       "time": "2026-08-05T21:36:27.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -212,7 +258,7 @@
     {
       "id": "7afa0f20faa7",
       "time": "2026-08-05T21:00:01.000Z",
-      "source": "medicalxpress.com",
+      "source": "Medical Xpress",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -242,7 +288,7 @@
     {
       "id": "8ad7d4b26d0b",
       "time": "2026-08-05T20:30:00.000Z",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -258,7 +304,7 @@
     {
       "id": "f920025ee87b",
       "time": "2026-08-05T20:19:21.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -269,6 +315,22 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeXFJVG15MGh0TzFleW9lS1A5M0tWWWo2c2pzODNvTFNtdnoxNGJyd0dQc2Jyd3ozYjBReEplT1NkSzhyTUJBTzVwYkIwYjVLdWhNWldFRDBGel9ncmdzT1hjbU1RYWctSWF5ZS0zZ21jcUZ2aENZTUp4OElzd3VrRExFM0VYNHZLUEItV2t3b0o5S3JabEZpUlRic0tjdXdwWGt5ZDRGXzB2eXB1NjdpYlhOXzM?oc=5",
       "tickers": [
         "CMPS"
+      ]
+    },
+    {
+      "id": "dadd91369485",
+      "time": "2026-08-05T20:11:00.000Z",
+      "source": "Elko Daily Free Press",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Spring Creek drug investigation leads to seizure of 56 firearms, cocaine, Adderall and psilocybin",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3I0S0NueDlNUWhKNWdMU1p0OVhJNklSYVU4TlZ4eVc3X3NfV29BSjBDN2VOUU1rNnhfNGZhRU9JeDl5ck4xbjRUV1cweGJjQ2h6TWpIUE1WNVN1eWJDaXlfZkFBbmlZRkQxdkNYQlgzWGhFdTNjaENmVlBBUGF2RzJmWUVfejJkSGw0UHlLdlA4V2c2Q0dhWkNCSQ?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -288,7 +350,7 @@
     {
       "id": "9a051326d265",
       "time": "2026-08-05T19:52:00.000Z",
-      "source": "CTV News",
+      "source": "ctvnews.ca",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -376,9 +438,23 @@
       ]
     },
     {
+      "id": "c0a69d04fddf",
+      "time": "2026-08-05T17:35:52.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "COMPASS Q2 2026 slides: psychedelic launch nears as stock slips",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOC14S1VHZmlQYjBQcS12UDBGYzNtdHp6WEFZamtDOHZOSEhmUkRRaXhVc1FjcHI4QkZIeXVuSTRLczFzSHVNd3A3NnVkV2xpRlFmN0tPUnhQc2xaMjlyWUhPdm1MdW5nR3ZsclB4LTdqdUxYaUJrcDVlaTZNc09FRVBJMTI0ekR2bXFudWN5NW5sZHhmdjVNTmFCdldzZ1pjSzVnYWREd3E5YUE0UzZtYTVVQUtEWHFLYnJR?oc=5",
+      "tickers": []
+    },
+    {
       "id": "d9a0be1057b4",
       "time": "2026-08-05T17:09:32.000Z",
-      "source": "That Eric Alper",
+      "source": "thatericalper.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -408,7 +484,7 @@
     {
       "id": "7648cbc1d8c6",
       "time": "2026-08-05T16:55:08.000Z",
-      "source": "jdsupra.com",
+      "source": "JD Supra",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -450,6 +526,22 @@
       ]
     },
     {
+      "id": "5d9283d7e16f",
+      "time": "2026-08-05T16:22:44.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Compass Pathways Shares Rise Amid Wider Q2 Loss, Higher Operating Expenses",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc3VoQm9TaVNsZGtPVERqcE03UVY1X0tsUjVhdkZtNVpVSEowcWxwaWpFYjZ3Qm94Q21JMTBCcWtlQk9peUxBNjYtdmhiT0xLM2dKcTVZVlg5cnQ4N1lfT2c3WUpKZFRQMVJaTFVKb2lQQUdxZDhDX2plck5pUHk0UVdqYi1sdmdMUHpNM0xYa3ExZURZSG4zRFBYamcwWlZtcVZRN3MtY2o2UQ?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "53aae13d57cb",
       "time": "2026-08-05T15:54:14.000Z",
       "source": "Heady NJ",
@@ -462,22 +554,6 @@
       "title": "The Commodification of Legal Healing Psychedelics",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZUxEbVM0a3FUOW9namxzaGFzcEZBWGNIWHhSRXdDR0k3azBWNi1aTFctazR1UmJlam5rSTlZZXZNQ1dHT0hWSTlYeFNwaHlUSi1ydTJKRE9uYmhtTzllbWJ6UTBWWTFkTWttajJGaTRkR3FzaGJrOG1kMUp6WjBtVXN2WWxMQQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "8c309f823849",
-      "time": "2026-08-05T15:52:21.000Z",
-      "source": "finance.biggo.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "CMPS Q2 FY2026 earnings call",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzYjJJa05XMFZQR0x4bDFYck9Pc3JSWU80eU1MbTdlTDVnZXJmb29UX1hVSUhaaGRTU3NKR3RPSFpvSTNaMGthOGFiY1JNU0EtRHNfM0I4UjhIbGE1cktRNjNGV19YcVdFLXhsd21iWmVGSjd4aG1TeA?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
     },
     {
       "id": "aa8cf644c8db",
@@ -494,24 +570,8 @@
       "tickers": []
     },
     {
-      "id": "b751eeb5f910",
-      "time": "2026-08-05T14:03:34.000Z",
-      "source": "marketscreener.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Compass Pathways Shares Rise Amid Wider Q2 Loss, Higher Operating Expenses",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZFVlY3d1Q1lXMng5YlRrMUpxMHM0Q2ljRGZ6X3habEs4U3F6ck1zNDdyZE9DejEwVnNWV2xhQ0hyVDJ4bkVzN1gwLUZBeFB2NFlXWUpQUDBRYy1VbVYyeklCejJCRFdjc0QweWhUWm1GbzM0RE85VEhlMUFLc2xMSGdRQUtjLWxsTC1UZDhzellocWZmb0dod1dISnVuTzNValRIa1o5R2gtbWk1dS05T2RudDZ5Yzl1RDhTcUtOSmFUVWlo?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "7e1f18434d70",
-      "time": "2026-08-05T14:01:55.000Z",
+      "id": "f1d19123a8ff",
+      "time": "2026-08-05T14:22:39.000Z",
       "source": "Investing.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -520,7 +580,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "Why is Compass Pathways stock rallying today?",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc3BmeWs3VWU5UzFhZXVQMjR6TDFaaDhydDlkVGwyelkxRnBQNDMyeUlQQkhRcGVkUS0tc2JWM3p2cmk0QmtENUxkQW01MWxiSlpVVlVnV3VMQmJsbDFVdWNJeWFvZ0VCS2NDMzVtOE1UaW5vWmFVQ3JUdHR1WXYyU0hyaDQtOUV1U2ZSNHBBMFFqcDcyMkpVTVlBSmJSM1Y1bDFobUtFNWVEQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQb3ZTdlBUMm0zT1BfbW5FVmU1SmpVTndZMzFKVHBROWdoVWNEZWRELWtTbVdSZGFiX0tvOGVoRDZaZVpULTQ2SDZiVkpjdVdLOGxGTkdnQkt3UllfU0NKbUhaOFRhd1dYN2VPNTBQN2JlNnZueXhBVklwODdIbzIxYUdUS3F2dVEySmxRb0RkZ2tSNXBna0ZaWFJaTnFYdThHOS1vbXZ4Y1NPWjNVRWcyZnVsQlc?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -608,7 +668,7 @@
     {
       "id": "33fc41351dd1",
       "time": "2026-08-05T12:42:15.000Z",
-      "source": "Collider",
+      "source": "collider.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -650,6 +710,22 @@
       ]
     },
     {
+      "id": "66dec81f4601",
+      "time": "2026-08-05T10:49:37.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Compass Pathways Q2 Net Income USD -253.794 M",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY3hOR3EwX3JOa0F0ZzEwb1k3dEl6WHNFVTJ3WGpPeGM4THdqODlvTW8xVDVxaHFqb01GeHYxR3pPSHpoZmFqX2pJWEZ6NXVxd1Z5MlNEM0tjdHVqazN4MGMyNnpmNTl6RWFQUm04ZWFpM0x1WmZnX0ZhQ05uR0ZTY3VMSzRma3pWQUtYQ2ZOa3FDV0RDeXdXYw?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "3b1be8296a85",
       "time": "2026-08-05T10:45:14.000Z",
       "source": "TradingView",
@@ -680,9 +756,23 @@
       "tickers": []
     },
     {
+      "id": "5fb444cd24c0",
+      "time": "2026-08-05T10:33:01.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Compass Pathways reports Q2 2026 net loss $253.8M, cash $433.3M; NDA rolling with launch targeted H1 2027",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzRndmUkdVdzBWc2wzaGlpdDNoMkZ0OHdTX21ZeUp0bEE3UnZhVVh1U1VLanV0NnlpbjROUm91LW52LUx5YTV1SWZoRUN5eGpNY3RudDYxdGNWR2d5Q1ZKdnhPU1JZWXh2VnZKSg?oc=5",
+      "tickers": []
+    },
+    {
       "id": "3d52bd2371c7",
       "time": "2026-08-05T10:30:00.000Z",
-      "source": "businesswire.com",
+      "source": "Business Wire",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -695,7 +785,7 @@
     },
     {
       "id": "2ef0c491437d",
-      "time": "2026-08-05T10:02:27.000Z",
+      "time": "2026-08-05T10:00:00.000Z",
       "source": "Scientific American",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -724,7 +814,7 @@
     {
       "id": "7142d9ab41b6",
       "time": "2026-08-05T04:14:26.000Z",
-      "source": "biospace.com",
+      "source": "BioSpace",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -874,9 +964,25 @@
       ]
     },
     {
+      "id": "45cd13e856d9",
+      "time": "2026-08-04T19:17:01.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "SRX Global acquires stake in Vistagen",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTUlkZkw3dlJTQnZ4LWotdHZSWGx6akNjRnJiY2FfbU10dkFYNnZaeTFUZk00WUhPNUVhdzJrSDZuQkdXMFVVb1ZXa1RBaWlETDBSOWttUTZTQXkwUHlPckJfUWRLbnBRSjhXbndtSFJ5OGNIWEhJY005X3ViOFcwT0ZKc3lBMlBDT3UxMDFmbjZTc2JYemNxT2dZcGN4RklaOGRFLVRIUms?oc=5",
+      "tickers": [
+        "VTGN"
+      ]
+    },
+    {
       "id": "07a8494e2e98",
       "time": "2026-08-04T18:59:04.000Z",
-      "source": "Glide Magazine",
+      "source": "glidemagazine.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1069,22 +1175,6 @@
       "tickers": []
     },
     {
-      "id": "89594a8eb569",
-      "time": "2026-08-04T09:56:52.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "SRX Global acquires stake in Vistagen",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT3M5X3lJMWlqV1RzUW9XcGRGY3dRWHAzaTlqNUxSZ0xuZmZNOE5RTzdPMUVVNWZhUzB1dDB3ZU9LeU1kU2JyalI5QkdXVTZNeXpKYWRzM0U2WjJFREViRHJRWUF2aFY0UW9hRG4zbjdkd1YwdDhEZFJvbFo2Y1k5aVlpcHJ3TjBJYmFxQXFiN2ZlWk5aaHp1VmdZSVItdnN1akFIdHJ2S01rX1dlMTdKa2xQS1g0V3BRYVZIakZwZ1k5U1JkZEhDNUZVcmFLUm8?oc=5",
-      "tickers": [
-        "VTGN"
-      ]
-    },
-    {
       "id": "d42bd4a623ef",
       "time": "2026-08-04T09:44:03.000Z",
       "source": "Medscape",
@@ -1143,20 +1233,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "725deb0a5a06",
-      "time": "2026-08-04T08:13:00.000Z",
-      "source": "finance.biggo.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Stephen Hansen: AstraZeneca-BMS Merger “Not a Great Idea” as Shares Shed $20 Billion",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkMk9qRklDZDhuN3J1aklPeE50ZHlGTEZKd1dhZlRENHNJOWxyVnlYT3dwcWRKdS1YcHVOUVJyQnIyLVJuNHpVLWp5dE5VY2t0RkJqTDIzV0tMRkU?oc=5",
-      "tickers": []
     },
     {
       "id": "371207e63cd7",
@@ -1346,7 +1422,7 @@
     {
       "id": "24a1b950b58e",
       "time": "2026-08-03T20:33:01.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1358,80 +1434,6 @@
       "tickers": [
         "ALKS"
       ]
-    },
-    {
-      "id": "908e03e8821c",
-      "time": "2026-08-03T20:32:02.000Z",
-      "source": "stocktitan.net",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes plc (NASDAQ: ALKS) insider schedules 9,000-share sale after option exercise",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM1puXzY0OUM3TWIzR2pabHAzSGdhVGpCdThpOFBUVE5LMlRXbGFraVJEc0pubnlFc2xiUktVWnNMUmtGSWtBbDJQSXhsc3RTMEloaVFwb0pwM0djMmREVlZvc3lsZ1hyLWI2cHZjN0hYR2pRRU1Eb0VxcUd4WDM2al9ldlZ0bVU5QVNmQzlVNTBoS2c?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "efa2882e7287",
-      "time": "2026-08-03T20:02:06.000Z",
-      "source": "marketscreener.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics Announces New Employee Inducement Grants",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlVNU1J4aklXVWVET29nVk83b3U5OUVKT0xZMzB2cDU3ZllGX0NUcDFEWTVYMjZnSmw1aUhQaVpKcnVQaW01NDM2TVc3UjQwclJMazhRTGtodjJoX3lYa1BqUlRHWTRFM3FVQ0s1VkdwMzByQWlaUDdVLWNfQ3dRbWFmZ2tXdkhwVWw2RlM1WTdJUGlfMjBiMnQxZlNTSkF1UDVjYjRJb0FtYU5sNEEwQmJpSEE0QQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "7defc48b732a",
-      "time": "2026-08-03T18:03:49.000Z",
-      "source": "Boing Boing",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The world's only psychedelic animal lives in a cartel zone",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PUXVyY3hTRFVITld5bkhIRE5rV3AtRE1jU2NKRDRFVm9mYnRENlNJWEUzdWZjQVJSX2JwNXRxTndJSjVqQnE3Nlc0bTFFNF9LSnExUG10MklVY1FUM3I2bWZYQXl4dDVtMWl5eUhVVEdBUdIBd0FVX3lxTE9wRmNnSG93VmJ3LTBBT2RhNXMwbjQxYmw0WDNia01idjBtRGtRRmdGX3c4d2tCUHMyVGlNczJnU3FsVjVxdnR4cmR5N0pnZUp0aFM4Z1p0akhKTW1RdHpvOXZsN05ZOUxNMmZBQlZyLWlPTFVwOVc4?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "f4a0244cd053",
-      "time": "2026-08-03T17:46:21.000Z",
-      "source": "Bloody Disgusting",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Kid Cudi and Jessica Rothe to Star in Psychedelic Horror ‘Pathetic Fallacy’ From Adam Egypt Mortimer",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONXU4U0syYjdXbUxaeS1ObnB4M0gzeDl3QzZkcDhnSVY2VmlJaFFQM1RIc1RudjRHanR1d3VxSTgzZXFZck1DdElnNHZiZlY1cDZOSG1EM1dSUlBreEdMV3JMeEVDdkpGWjlCWmhndkJ4bE56R1ZwM3pFOGxDSVY3dWhuTkwxTTZIbG1jUGFtNEhZYXR6QlhqNWdzdExjRXFZd1NUbjZmWm5icVVZd0w4RUx6aVR0bVlIZGdPeldIMjd3dGdtbEpXb0N4ZUVKSGFMcVM4amp2TURsbFk?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "402252a8382b",
-      "time": "2026-08-03T17:08:56.000Z",
-      "source": "SSBCrack",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Veterans applaud Trump’s initiative on psychedelic treatments for PTSD",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR0ZHUTRoN2NjaXFtQUR3REVsZ1BnQ1FkdEE1NkFDanRhWDdaeDZ0aHpYZy0xaDV6OVBKR3lCTElNb2hmWWwtaGJMRUdoY3o1RTVJd2ZISjZpT2lQdEFKMHJjc2J4dk51ZWZYSzhrQ29IQzFRQU5OQWVBQkpmYXhzaEpEMnhlSmYyUktxbjFHNzZTcnN6N3Vlc3ZBU1M?oc=5",
-      "tickers": []
     }
   ]
 }
