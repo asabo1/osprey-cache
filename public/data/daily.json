@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-06T14:44:09.189Z",
+  "updated": "2026-08-07T00:22:19.488Z",
   "latest": {
     "date": "2026-08-06",
-    "wti": 76.33,
+    "wti": 78.23,
     "wti_prev": 75.22,
-    "wti_delta": 1.11,
-    "brent": 80.98,
+    "wti_delta": 3.01,
+    "brent": 83.59,
     "brent_prev": 79.45,
-    "brent_delta": 1.53,
-    "spread": 4.65,
+    "brent_delta": 4.14,
+    "spread": 5.36,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,25 +160,276 @@
   },
   "intel": [
     {
-      "time": "14:42",
-      "severity": "MKT",
-      "direction": "BULL",
-      "text": "Excelerate Energy explains its choice of LNG carrier for FSRU conversion",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-06T14:42:23.000Z",
-      "link": "https://www.tradewindsnews.com/gas/excelerate-energy-explains-its-choice-of-lng-carrier-for-fsru-conversion/2-1-2025969"
-    },
-    {
-      "time": "14:37",
+      "time": "00:00",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Iran says a joint agreement with Oman on the Strait of Hormuz is in its final stages and could be announced soon. #dw...",
-      "outlet": "facebook.com",
+      "text": "Can Iran’s Diminished Diplomats Deliver a Hormuz Deal?",
+      "outlet": "WSJ",
       "source": "Hormuz",
-      "date": "2026-08-06T14:37:14.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQTFDX2RTamlqUlhzZk9uRDNHU0N6OVVUT0VWYTNXX1E1LW1iVXFEZVJRbTQ4a1pqcjhUdm5YdlpjNENvTHZOdXI1dlc4MmU1REdaNEUtSmxvZHhFLVdMd09uNGpHeTh1QnhpM3hMdnNVOXdMaVVXRldHRW1nNmZyRTVhUWtVTlhybjdSbnU1V3JWNzZMY0hEUFBpUWU1UFpWdTlYMm5INTZoWjFoT3dmbGJHU1NHTnNicEFsX2VnTm9zZTRRSURlaDd6eDJlS1ZldDY0R2lzZEp0a3FDNURvRQ?oc=5",
-      "cluster_size": 9,
+      "date": "2026-08-07T00:00:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY3kxMXdTcWl5TERZamtCX0RhSW56Ukp2RkZvX09HNWk3bjgxNG5KdG5ocFhKcDhjaHdNaWZPMDE0aDQtMEtGX2puWUEzdTE3ak9FZm1pekp4WGRodFlWSEpaSU8taEtqQmY4a3BvZmhmX19RQXQ4THpFeGUzLVBWTjVTQ2x5RlFZVTRIQzdLYURIS2VYSmp2WFBzSzhqQUY3?oc=5"
+    },
+    {
+      "time": "23:59",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "text": "Iran-US war latest: Trump says Strait of Hormuz ‘sort of open’ as he denies munitions shortage in war with Tehran",
+      "outlet": "The Independent",
+      "source": "Hormuz",
+      "date": "2026-08-06T23:59:47.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYlcyVDIwb1M1bG00eURWVTFYYk1lZHR3bjNpNFpOeFpSLVdJdk5HdmhuMUxEQ1dxNEtoTG1vNWl2c0VlVVRudWdSS1pBalRZT1c0RnNVMVlCbGpycjRIUHlCZkluQ29jcWxRUnV3cmV0UE9neFpPR09ZcGZRdG5aT19kc1Jva0VJdERSN2hJd1RSSWxZblVJMTNTZ1psckZodk9VVE9saWJVVVRSUlgzbmhUYw?oc=5",
+      "cluster_size": 4,
+      "cluster_id": "trump-strait-hormuz-sort-open-right",
+      "first": {
+        "outlet": "jpost.com",
+        "date": "2026-08-06T21:07:04.000Z"
+      },
+      "also": [
+        {
+          "outlet": "jpost.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5ZmRQQ2lqbW5oOFV4WWZfTXRsVkNMRmV6bTRTVjNzYVRRbkVIWHNDYU5aOVZ1UVJxOVRGTUptYW9iSnpjeGdieUJsS2NiZnk2cW5RaENyUGpSbmVOR29WQ1dGNmpVU0F2WFE?oc=5",
+          "date": "2026-08-06T21:07:04.000Z"
+        },
+        {
+          "outlet": "Mediaite",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNXzVPckQyRGhTR09XRk9GXzBjVjAzb1FXNFRPdWlxNnUwam1MVWJiVTAyRG9OOWdUanNoemJHQnJMYXF2d3NYeXRaN3huWkZVYy1Tb1c3RGpIeXZhWVBWZE5rZkNMdFFWbVRmdElXbWVDTHRvekpUc29sb21rSTI1QmY4dGNNYU9YbjJYam1NQlJlMnAxS2pDdUZR?oc=5",
+          "date": "2026-08-06T21:14:00.000Z"
+        },
+        {
+          "outlet": "Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUWVfYlM3MWdsZ2ZFT29RMWozRV8tbmJCX1g1c1M5VHZ0ZjAtYTdoQndBVVVlcGdaTWQ3YUlWUkdmZDMxdmtLMVN1NlEtdlFWR1RWeTZiUEFKaG45TVd5V3lPTW5kakpuUVlmbkt6TUdWcm1WMFRrTWhRdUE4X3YwUVdiQ0E5aW9paldha0NXZ1pEajQ?oc=5",
+          "date": "2026-08-06T21:14:04.000Z"
+        }
+      ]
+    },
+    {
+      "time": "23:49",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "text": "Iran war updates: Trump says war to end ‘pretty soon’, Hormuz deal nears",
+      "outlet": "Al Jazeera",
+      "source": "Hormuz",
+      "date": "2026-08-06T23:49:48.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckdUc2Y4OENERUU1bnljYVdvUUN2ZndDcVZveUxtNnBXVGVvdVNzX0pDUzF5M1pTUzBhcnhXMmE3OWhZUnh0aVFoUHJuOFR3STRSVTJjVUtmaG12bHVZSFNjVlJJbGZJdGZER213Vm1SZXVFcUJLMk5IUjNPSEZZY0JQUlBOdUV0OF9kVDBWSm5jRHdVd1V6STF5NEZlV01udHhFaGlBa3JHTXFyRHpvTW00S1V6cmVHazFYeWZ30gHDAUFVX3lxTFBTS2l0Y1VYMThhM3lzM0lzSXdSMHFCcGhLMzd0ZGg0cGpHbmk2OUNwSUJsaUoxalliOEtEaEx6VDNXMURfY2twUldxUW5Pbl9KWndackE0R3Y4eEtkcTVvQ0x5UHYtOWFqakZJWU9pVkhtaEVIMjNNeUtINHNQZVZzVEJmX2pXOVJrNjVaczQ3OEhmQUpMV053ZGNiXzZDMDlZODFZUnJXTGllalNTczhqQ3hybHVvS0QyVl9BTGMweTZ2QQ?oc=5"
+    },
+    {
+      "time": "23:46",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Live updates: Iran says Hormuz deal is close but US must meet commitments before strait reopens",
+      "outlet": "CNN",
+      "source": "Hormuz",
+      "date": "2026-08-06T23:46:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?oc=5",
+      "cluster_size": 8,
+      "cluster_id": "iran-strait-hormuz-deal-close-but",
+      "first": {
+        "outlet": "NBC News",
+        "date": "2026-08-05T10:05:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "NBC News",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamticW5nRzZSd0M4YllpX21VR2JYUGtWVG9IOVQtbmFselZrZW1iZkZqaEJnaWtkX3hDTFhfWFZGLXAxalFlQ09yOUhsMFBybDlpdEhleDRpNUkwdjJLamNyTnNjY0lQVEh3bWY3WUx1RTF4MkhNc0U5UFFwbHFjY3ItQ0hNdm1fUzVOWXFFNFV5YVU?oc=5",
+          "date": "2026-08-05T10:05:00.000Z"
+        },
+        {
+          "outlet": "upi.com",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSFVfd2d3SC1vYXZiSUFXcFJYNDBHeXZGOHZuX2pMODA3dFloandnRlVPRjgtSUtUM2d1cXlxOXRERDFZdm1WVU9Fc19WQTE4dUgxVlU3S18xSHFCYjJvQ3FheDhWNmdzTzZIVXRyeHp3ZEVYM2QzUUk1bld3V01adVk4ekdJMEVfcF9jQV9sQmhtWmdicFV3V1pUTXY3OHh3UG1KcGM2TFV2UdIBrwFBVV95cUxPTGVvWElRUklKNWFiS1ZQMVVqeVBlRndqZHhCdXZyMkcwbHZaX2NSTXotQjB3SG5PZF82YmhKM19KZE50OFhNRGhiSmtBN3l5LUN1blA1V1lNMElfV2JvQ1BBM0lTYVlDOXM0ajJFdHkzWmloMVh4akEzYkZnbmlSREhMeUhHS1NmT25nYXNNSy1EOVVUVGw2dXhwUmYxcXBGZGdyZ2tVN2xIMlVoVTFB?oc=5",
+          "date": "2026-08-05T23:46:27.000Z"
+        },
+        {
+          "outlet": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcXpENFpMQ0V4N2VNNW9aXzJoWmV5V0R5U2t1QmY1OUFuSmQwcUIxb0x2aUZIdk9WWFFVc2RZM0NHSnh4eFhiekFUdWNjWDVkMlFkdzVCSXJaQnVyNmUtazRkVk1fUHVtc2w0N19OQnNTQV9XV0FqQUF4anhhNmhybkp3TF85NTY2MXR5MW9scDNrYWswN244QTBDRXFIM0E?oc=5",
+          "date": "2026-08-06T00:36:00.000Z"
+        },
+        {
+          "outlet": "AsiaOne",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWE1vZW85NEkwQUk3WWs1RDV2bGdORmFfWWRjVDd3RHVpOXRaZTkza2NsZkpucjhQeXdiSE93dmcxOERST1lzVzlZRU9TOHBESWdyampGSWszZWlZS1lUSDY0a0F2dnB4UnFsZlhkZFNweEVHVWl6Mm5SNTZ0blJDTEcwS3dGSDhXazFZOTJBNEI5R0VPZFg3WjJPbWRaeEhQQk1FYnlB?oc=5",
+          "date": "2026-08-06T02:43:23.000Z"
+        },
+        {
+          "outlet": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZWZXbWRWTEJLeE5EOGs5a2cyZ2s5Tm9POUh0NWZUZ1QwYVBkeTFSQ08zTGdHLTY1d2gxTkY2RFZpeURVU2pOLTlyMVhSUVg1WDBkM0pJQ1JaRk1ScHlKREpkQWt0Y0U4R3JpT1pMdlBPWTV0RkFiekk4aVNQNkg1Vm5ta0RfNGo4NzM3dUtuMk5KOWhmTHdtUzR3emlZNzB1cHJHYkpn?oc=5",
+          "date": "2026-08-06T13:06:00.000Z"
+        },
+        {
+          "outlet": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWthcUdyd0w5X3hRWVlSMC1kcW9IWS12eXZvMGluanBzM3B5aW9ucFZWSHRrVVo4MF9DcmVETnpUTnhUZHRydVQ5MEJzZXlYSGlBWVFoa3FVVVNEa3FIUWU0U3hDd1I2d0tnWXBaV3FYSjgyX0V3UTdBZU1RWTR4TWw0d29QSmtBN01IRkw3eVF0ZHNlV0tXcGtwTUtzY1JyWHpjdHoyeTNNUVI5OXJwcUxtRUZLZ3p4?oc=5",
+          "date": "2026-08-06T18:06:00.000Z"
+        },
+        {
+          "outlet": "Foundation for Defense of Democracies",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVjMxSC1iX2JpWi1ZeWRHVGxaeDFfWGNyQkFfQnVGZ255YnMtSzRfTExaeGNMaG5DV2FzcUV1b04yT1I2Tm0xVzRENmdTcUZDQkx3djhsZ05lelNTblUzcjFRQ1lKTlVteHd2c0lPcVZsamJXaVZUZGVKSjFoVTBpRG1CMkRQaTFMRHQ1ZWpUN0s3ek13bjlZUWNn?oc=5",
+          "date": "2026-08-06T19:19:55.000Z"
+        }
+      ]
+    },
+    {
+      "time": "23:43",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Gold Steady as Traders Assess Impact of Hormuz Flare-Up on Rates",
+      "outlet": "Bloomberg.com",
+      "source": "Hormuz",
+      "date": "2026-08-06T23:43:38.000Z",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT1d3VC0wXzhrUVV2UFJ1STF6RS1PSGx3WjlLOFpvLVNmQTIxcXprbFFNZHJ0dGJkVU1yQWVEa1J4TFJVaWFoR2l4SUEyQVRLX2tOOHo3ajBlM093LVN5WkdZZVZzS1EyWWZfTmhrTUpoUFdzcld5ZjlmdVhCUmgzNjF4cTltZ1NUaGRTbVFVYndkX3JJWVF6T25qSDZPOFFSU0RXYW5pakJSVnUtODluWmdUWEZqdw?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "gold-steady-traders-assess-impact-hormuz",
+      "first": {
+        "outlet": "Bloomberg",
+        "date": "2026-08-06T23:43:38.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Bloomberg",
+          "link": "https://www.bloomberg.com/news/articles/2026-08-06/gold-steady-as-traders-assess-impact-of-hormuz-flare-up-on-rates",
+          "date": "2026-08-06T23:43:38.000Z"
+        }
+      ]
+    },
+    {
+      "time": "23:31",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Possible Strait of Hormuz deal, a large attack in Yemen and other Mideast news",
+      "outlet": "AP News",
+      "source": "Hormuz",
+      "date": "2026-08-06T23:31:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd1R4TEFIQVkxS1I2SDdWVUZfalVNQXk2VnNDc1FHUnNYU0xRY3ExT0JiLUp6cDl2N2ZYLUl3UHFlbFUzY2F0MU9iVW9ZRTBTYTIxUWd1RXh0dnY4ZTJPT1Q3cTNFNi1ja2lTVnNsZmZPd09SMFFFMjBUNVJPZWxLVlR6OG9fYk1Cc3Byc3JUY3lTYlhqV2xjRl9RVkFDRnU4Vmx2WkV6R19fcjlHYVZWOQ?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "possible-strait-hormuz-deal-large-attack",
+      "first": {
+        "outlet": "WPLG Local 10",
+        "date": "2026-08-06T08:34:41.000Z"
+      },
+      "also": [
+        {
+          "outlet": "WPLG Local 10",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa20xV1RXTFBwbGx1UEc3RGZyZ0ZXRDg2ME5PcFpMeUxvZjdkX1JXeEZac282cWdkUk94Unl4cklWRmsyd3hsNW1SanJiTUxLUjQ2OG5jbE5WeDlaQVZjNEc5SElpUWUyTkpOTUFyQ3Q3bmU0UnBWbnk5WUU3bzJmaGpKaWdQd0J2bGpxb0tyRmlDd2NqN3FDUWg0YkNvdlVtTk9qYVVwM1c0dVhHMVBXWU5mSElYSE9ZN0E?oc=5",
+          "date": "2026-08-06T08:34:41.000Z"
+        }
+      ]
+    },
+    {
+      "time": "23:19",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Stocks edge lower as oil prices rise and more earnings reports roll in - Pittsburgh Post-Gazette",
+      "outlet": null,
+      "source": "Oil",
+      "date": "2026-08-06T23:19:24.000Z",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdDdiUy05R1hJTERJN3psUDRnUWpoM0hoR0lKQVZvVllUcDRxNTllRkVtZXdRSExiRl9ka0VzRDZvTVNaRUxFQUZEWlc1TE1xOFgtZmtBbHBjQjZJQjY3UjVzWmctcWhQSzB2NVZ3a0hiLW9OZVRycUFUWnJIc3BwTkdVaVludlNjT2FGMHNMSTBJS1ZxTE9EWmdMbDhWSVBoWVRnYzFTTG81TC1E?oc=5"
+    },
+    {
+      "time": "23:16",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Flurry of diplomacy as Gulf nations seek Iran deal to reopen the Strait of Hormuz",
+      "outlet": "NBC News",
+      "source": "Hormuz",
+      "date": "2026-08-06T23:16:15.000Z",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWHNSU2FPdjhUVnRWM1MyMk5TSXFUWkxXVlpXSzZiVHhxZzI2a2dTSHZWaVUxLTE1ZFgxNndMZ2p3UmZCZ3BodEJwWVVoYWZYb2YtUEh5Y3pCRlUwVmRmTzhTZkxwcVF2bzBBYUc1aGNTNHg0RmFxeHpoVmxuZS1OdzBodFpJNXFtYnExRWNOclZZdUVIcDdCSzRQdU91aW5kdTZ1T2pJbEhnZGpCaGxkag?oc=5"
+    },
+    {
+      "time": "23:09",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Iran says Hormuz deal with Oman won’t fully reopen strait",
+      "outlet": "The Washington Post",
+      "source": "Hormuz",
+      "date": "2026-08-06T23:09:44.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSHhFb2tmTW1CZ2s3dnYxa1hnY3RqdHdxeFVCaUxUWGlkMXptaWkzVzZlWGwyN0pfREZzU1NFdmZ1dmNlVWNGcVpiajg4SlhYYnJ2d0RwYU95d1NkNzJ2TlFqVXZ4ZlM1UHpCbFJLMk90VVVoQy0ySFpQN3dtOTJNa09jS0I4MmRCUENxSmRNMWEyQVA4OHR0Q1E0N2xzUVdnQWlVRkd1a2M?oc=5",
+      "cluster_size": 3,
+      "cluster_id": "iran-deal-oman-strait-hormuz-final",
+      "first": {
+        "outlet": "BBC",
+        "date": "2026-08-06T01:19:59.000Z"
+      },
+      "also": [
+        {
+          "outlet": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fekdKWmRFYngyd0VMS2pPdWdJekx4Vk5Rb3hPSFhNN1FsSUt0cHdkMDZNeWdjNEh3VXBzdXBHaVdKa1h3bTJjM2Y1TmdIZm9SVndJS0hyeWNfZw?oc=5",
+          "date": "2026-08-06T01:19:59.000Z"
+        },
+        {
+          "outlet": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaHRCUGpiLU9zNG1laFNWWmpxbC1uREhhTzVJcVl3VndVZjc1MnRWSTRHLTNEZU4xeTBaeXlOdTlFN3ZlU0ZyTXJNTGcyRUtpOTJzMGxpUS1RcHJVUnRNcEtnTEdWWlFXdnlHb1RmUGNZRzF5Z0h4S0EyS21jckVwUFlhdzFDTnRtZzBvVkFFUjVFSTdHQlpZVlp2ZzI1d1pKcWZyQ0VfQmgzalRRcFN2dVRoVmU5LU9DMkpldzlodFZWRndmQ1hOYkh5VGpCcjZyeDUwLTVrOHJUUGktQ2gyRXdPM0F4SS1QN1I2aQ?oc=5",
+          "date": "2026-08-06T08:21:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "23:08",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Iran claims Strait of Hormuz deal is finalized as fears of wider war grow",
+      "outlet": "Fox News",
+      "source": "Hormuz",
+      "date": "2026-08-06T23:08:58.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE44MVcyb2lpT29qVVVINElTS0RVeTl6eDUxWEpiMV9LWHRMbEpIN0ZKUGMwN2gyS1lUalZ4MGRVN3o2aWJhOEtWb3JsRmlhM1ZtbV96OEpn?oc=5"
+    },
+    {
+      "time": "23:01",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Iranian parliament bill would ban US, Israeli ships from Strait of Hormuz",
+      "outlet": "New York Post",
+      "source": "Hormuz",
+      "date": "2026-08-06T23:01:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRmJLdE1obXdxYnNKVFR0V082Z3dzU3Jyd1BuWHBzcWJqU0ZrektUQS1XS0VVU3N4ZVFXMFo1WGdwSlFqcG4zd2VQS0Y3bEplY3JVZ09IR1FveGxEQjJBcGpwQXlCdEthOHFKQkxpYldkMWptY0o1N0FBODVpWENxZXhSa3d3WUNEdEZ5NUFpWTRMOFFaY29qUWFER0RMdHN0eHpYVllKeDlVY2h1bzc5NmJHT1o?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "iranian-parliament-reviews-bill-restrict-strait",
+      "first": {
+        "outlet": "Anadolu Ajansı",
+        "date": "2026-08-06T17:25:38.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Anadolu Ajansı",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUWN6OUZaZmNEbFJ6VlFDai1nSkJWZmZqWWJaVHBQaHFiMTVUMTBGQmVXYzZCcEhRNmIxblc4ZEVlTGFNTlJOUVBCY3oyLTBEMjJ2ckIxZTZEWTFmMXZOVFNMS0JWYVptazNtTWRGc3IzMk1HUkZ3T2ptSDh2V2JqUExiNnRDUkJPOF9QWjBSZkJ1aWlmazJ1VFVtQUJlc3I1bHR6Yk1wbWVYWl9xcFRRNDByTndmOFY0ckFsNA?oc=5",
+          "date": "2026-08-06T17:25:38.000Z"
+        }
+      ]
+    },
+    {
+      "time": "22:41",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Stocks fall ahead of US jobs data, oil prices rise - 香港電台",
+      "outlet": null,
+      "source": "Oil",
+      "date": "2026-08-06T22:41:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNY3l3bmNQbWFPYjI5U1NEOVkxNEprR1Zfa21hMWRnbGtaQWgxYzA5LTAtdVRudktKVGhhWXgwZzdaaU12aVNfQzdHUXB6bllsMlBTSE1ZbjhERTdEejBjYm8yRzlvX3hnOVJVLU5kUGVWdHo1NzdrT1hBcHUtb0hydk8xcGM4NldwSmtGZ1lIaVBOVFVFYVIwalVlYUR6R19WeHZj?oc=5",
+      "cluster_size": 3,
+      "cluster_id": "stocks-fall-ahead-friday-us-jobs",
+      "first": {
+        "outlet": "Reuters",
+        "date": "2026-08-06T01:27:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE5UZ1dJanFrQ1hFUUNWWmM2N2cxckRKUFYtOHNLUHhtVkdpLXpmNXZjeVMzd2dycVUxSmVlNU54aE1DLVFnMmY0VnVsZk1IT1puQVQydHlUS19RNkVhRXlfbU1fdlhIZ0tORnBOWHl4a2dUZFUyZFpoUzZuZDFkUFZucw?oc=5",
+          "date": "2026-08-06T01:27:00.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE5UZ1dJanFrQ1hFUUNWWmM2N2cxckRKUFYtOHNLUHhtVkdpLXpmNXZjeVMzd2dycVUxSmVlNU54aE1DLVFnMmY0VnVsZk1IT1puQVQydHlUS19RNkVhRXlfbU1fdlhIZ0tORnBOWHl4a2dUZFUyZFpoUzZuZDFkUFZucw?oc=5",
+          "date": "2026-08-06T01:27:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "22:34",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Proposed agreement between Iran and Oman on Strait of Hormuz could complicate supply chains",
+      "outlet": "CBS News",
+      "source": "Hormuz",
+      "date": "2026-08-06T22:34:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN2hLSWlqbnJoRWl3a0xVY2RkRkNsczI1cHFBeGdKS2lIczU4RzU0RGdNU09iX19MaHZfZldxT3RqM1RWaWlhMGpOWXlzSEZkVDhPSTE3WC05aUFTRE5BVWNOWURyZ1JzRmFBTm85UkFUNWZyTHhDQzZ1UmFPR3gtamJ1bGNWSC03THpHclcxdWlSSnBwVFJfRDVxOVd2TnRwTkVzRHhLcTJqXzBlakR5N0dvVllwdUt1dVc5MUFQMA?oc=5",
+      "cluster_size": 3,
       "cluster_id": "iran-oman-strait-hormuz-talks-final",
       "first": {
         "outlet": "CNBC",
@@ -194,337 +445,61 @@
           "outlet": "The New York Times",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRXJRaEtJTk9ncTZRVDg3aFJBNG9EbThQSlFFTEV0QUlITkoxMHpEOHpRTjVYVTFPNkNGYUF3dnBLUjRPRHNlOV9QS2JITjMwRllndXlUODBuWlNvMmtLOS1mYWM1R2ZaVnYybXNYQks0R3FXLUVtdmRrM3hOZnA5Z0FrZXZyWTV4eVdz?oc=5",
           "date": "2026-08-05T17:08:46.000Z"
-        },
-        {
-          "outlet": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fekdKWmRFYngyd0VMS2pPdWdJekx4Vk5Rb3hPSFhNN1FsSUt0cHdkMDZNeWdjNEh3VXBzdXBHaVdKa1h3bTJjM2Y1TmdIZm9SVndJS0hyeWNfZw?oc=5",
-          "date": "2026-08-06T01:19:59.000Z"
-        },
-        {
-          "outlet": "Sky News",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeUNuYmFPMFBwdjhjLXdCaUFpWlkwLTF1SkFVemY2Y3ZDdGwxd3hxT2ZUZFNjYy1TRFdIcTQycTQ0cmkwRkdtaGJyS1NXcEFzejhLVVE3RHpGbndlaEkybnVfOTlmWWFiU2VCbXl1MmhPX3JyVW12NWZITlMxZHdsaS04MnZjTmVsWWJwVFh2UVZUVy1ZY1Vv?oc=5",
-          "date": "2026-08-06T08:17:31.000Z"
-        },
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcVcxdjgwaUJaa2RVa1l3M0cwUGUtUWhpUUhQSUZYYVVnZmxjZG9OQmxVWlE5U1JaTm9YaUMyTU5Jcm1IUnVyckZOV0xHVERMdkpQanZtenBZNzFscVdvMFFOVFN6VlZkM1ZZY3FSZlU4WWJraUNkdFJmMWtRZVhPaXFORjU4TXJJWGVfVndzdkQ0Y2M?oc=5",
-          "date": "2026-08-06T11:07:10.000Z"
-        },
-        {
-          "outlet": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEF2M2c3WFhqSmNYRk5mTXV1MW9FcUUxcmFHWWQxU1YzTnRWeHRVTm1INnpRTXFwRVk4NWZPM241eTNOUkFMaG50NzBUVUhNQ29KSU42c2s5TmtVQlR1ZVBnZV9kM0l2bkdSbmg2SGFsbjFrVU5UVzFWSkMzU1oxV2x2eWRaY3dTUTZTUVV5QUtJcGhHMjN5NWl1b2VUUXYzN1g2elE2UFd2Zk5SMWZhNWpjY3c2QQ?oc=5",
-          "date": "2026-08-06T11:46:38.000Z"
-        },
-        {
-          "outlet": "Spectrum News",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVFQxTDRiZkhsYmxHMXpuRnZsM24zWWR3LU8tYkwzQkxQeC1XZ1dXakJON2ZEWnZ6SnFsWGl2Y3A5NmdjU2t5SURHMVZkX0dVczdKWGg1VjVxU3VkMkVfS08zel81Yl9mcWsxaUY4VkJpTElZaldROWd5OTVoRWZOUExKcmJENGpaek96NDVkRGpsMzh2anV3YThpMDVURGVo?oc=5",
-          "date": "2026-08-06T13:19:00.000Z"
-        },
-        {
-          "outlet": "stripes.com",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMTV4Y3lzWGpvR2tpR2h1TEFqNWZlT0YyUVJLQmlrdzRhQjdMalBoOC1MTU9QRTZnMDZmbEY5a1N3SWNSNTBHTC13bjBVRlh4WXAycV83dk05RUd1azRUU0pKRzRTQ2Y2Uk1LSVppSG0zRkF6MnI0NU4yRnJBNVlmVFZFczVsMW5ZQnBkYk92X0g4ZEpvZDJBMmtlZVNRZk1tUmU3aUpUUQ?oc=5",
-          "date": "2026-08-06T13:26:44.000Z"
         }
       ]
     },
     {
-      "time": "14:29",
+      "time": "22:33",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Iran Is Staking Everything on Controlling the Strait of Hormuz",
-      "outlet": "wsj.com",
+      "text": "Iran says deal ‘in the final stages’ to open temporary, narrow path through Strait of Hormuz",
+      "outlet": "New York Post",
       "source": "Hormuz",
-      "date": "2026-08-06T14:29:59.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJBSWlPX25nbTdzRVlVeU5ESHE2WXdVeXVXVi1wRU9DUGdnWGZTN2xOMVhGUWlWZEZkWXZXeTMwdEFXa05qdkMxWkpJWG5BWVFTWGs4c2htNXRLVkpPTC1adGNfalBTb19UamdNSldPVlRKbDVQMEpGTTJRbkI3V0NBZEd2aEU?oc=5"
+      "date": "2026-08-06T22:33:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV3ZYQ2FvU2FZbUZzaGhqMVhNLU9Cc2RKQXFkWVliRjQ4Tk1kZzc0QWFtdG1FUTM4aTRTRW9zRl9ZM2owc2tlamJmbjUycGlGSUhHUWpaQnF3bnlZODFidVpSRERSSklWdkpfSmpFTnJ0NndsVEJjbzB2Z2FqMTBNLXJyMFlJaTR0ZGl5dWR5QkVOT0ltNWVLcVNORXJHa2ZtMGVFMjZDbHZXNXZTWmtIUGdoZ3ZNRUlXT2FvV1JHZGs?oc=5"
     },
     {
-      "time": "14:19",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Iran Says Deal With Oman on Hormuz Agreed in Principle",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-06T14:19:18.000Z",
-      "link": "https://gcaptain.com/iran-says-deal-with-oman-on-hormuz-agreed-in-principle/",
-      "cluster_size": 3,
-      "cluster_id": "iran-deal-oman-reopen-strait-hormuz",
-      "first": {
-        "outlet": "The Guardian",
-        "date": "2026-08-06T08:21:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaHRCUGpiLU9zNG1laFNWWmpxbC1uREhhTzVJcVl3VndVZjc1MnRWSTRHLTNEZU4xeTBaeXlOdTlFN3ZlU0ZyTXJNTGcyRUtpOTJzMGxpUS1RcHJVUnRNcEtnTEdWWlFXdnlHb1RmUGNZRzF5Z0h4S0EyS21jckVwUFlhdzFDTnRtZzBvVkFFUjVFSTdHQlpZVlp2ZzI1d1pKcWZyQ0VfQmgzalRRcFN2dVRoVmU5LU9DMkpldzlodFZWRndmQ1hOYkh5VGpCcjZyeDUwLTVrOHJUUGktQ2gyRXdPM0F4SS1QN1I2aQ?oc=5",
-          "date": "2026-08-06T08:21:00.000Z"
-        },
-        {
-          "outlet": "Military.com",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcEZkUGZzOVZYQnJEQlBCdVF0bnlVVnd5RkZYai1DZzEzWFFkbU43RGp2Yk1QSzVDTDU5V1ZlcFhzc0xXUWZwN3BWcFlibGdESVJUcHdqSFY4NFp1M3d4VWEwT29jR1Rqamp3VVBxQ2o5OTFxOXdKeVhFVmxGNWpfSloxdWxOQQ?oc=5",
-          "date": "2026-08-06T13:25:45.000Z"
-        }
-      ]
-    },
-    {
-      "time": "14:17",
+      "time": "22:17",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Reopening: Strait of Hormuz awaits Iran-Oman agreement",
-      "outlet": "Yahoo",
-      "source": "Hormuz",
-      "date": "2026-08-06T14:17:55.000Z",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVkg0MGZzTWxsaWJDQU9fbGJ2OHpVM2ZTZTNHUXlaVkwzVFFkZ01GWlZpdFloSHJCbmJSTjVNTnFhMGkyay1SOFgxWmhjZVdzTnp4dFUzVklISi1qRXRpUnJnN2NOUk1QYklrNTZwOU82RWRIU3RmV1ZkejJ5QW1ueW0tcUM1OXdYNlZ6ME5kNHNXY1RJVDlJ?oc=5"
-    },
-    {
-      "time": "13:59",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Deal to reopen Strait of Hormuz with Oman is getting close, Iran says",
-      "outlet": "Yahoo",
-      "source": "Hormuz",
-      "date": "2026-08-06T13:59:44.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdjVSYU5TT0xGYlZMRVM3Qk5kOU03OGlRcXZSZjdlMm5kNEpaRk1vZEFsazExMF9rMUxyTThoS1JndDdXZHI0VG1ZMW10TjlkNkhCTVlfU0c2NHJ3dEQzNDgwc0F4LW1KNUVyQzNoQ093RkVncHZMbTJ6a3RidGVFelVVd0tOdw?oc=5",
-      "cluster_size": 26,
-      "cluster_id": "iran-oman-make-progress-deal-reopen",
-      "first": {
-        "outlet": "AP News",
-        "date": "2026-08-04T17:45:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWVM4RFNkcmVJOXdtbENVNzYxYm9hc3JTVmE2V1JzVzBHd2FKRFdVQmRwc21IbHM4YmVvQUNMamFSQWNiYTRjQ0lKWDJERzg5QzlnMDJIaDYtNXg1aWMwVGF0YjhLRE1XcVZuZjdKR01nZVV4czcyeXNYLThQWVdRLTdERXJhZGp0aVU1UHFYSmg1Mk9lXzlOLXRHZ2dsc2hGckE?oc=5",
-          "date": "2026-08-04T17:45:00.000Z"
-        },
-        {
-          "outlet": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObXBWcm1tUGMzTS10VXhUNlBaMENHZzBNMnRxVzhQZnEyN3kwSF9Cd0pQUHZLQS11Y0Jpd2tiTGIxRE1WVXNxa3lqWXBiSmdONXFjTkRXb195eThEeEpVYzlZOU1uaTE0d3M1N3Y5NU9IVGpTM0MzUkRjVzA4SnFXTk9RWDhZRzhPc1JZNVhKZUM1ZFBkSk9qeHJsanhpUzdaVUs4UFlMXzVxRE0?oc=5",
-          "date": "2026-08-05T02:04:00.000Z"
-        },
-        {
-          "outlet": "Fortune",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQR1VGdkVpREVPZEtSZHdzdDFuYzdVZmplYU1Dek9hbWw2ZDRwS29FRk85RUxVZDJzQ3NFZHR3SHY1RndweU82VWhobXR6elk5dFlzczhFZHZKaGhEX0lFb05zLXl3MDZFLUJ1Tzk3REltTTNfNm9QWTVDektzU3BsZG5PXzBPQQ?oc=5",
-          "date": "2026-08-06T10:13:00.000Z"
-        },
-        {
-          "outlet": "CBS News",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSUIwNl8tR1NvWGxTZDhqTFRkTG10NmUtMlFFd2hqNklLT2thNjdaU1oxSGh0dGRMSzV1UzJidFk5bmh5ejBSaE1GeWVJbFBBZW5ZdWpNdmhtNXdtbUwzMlczclVPenBOWjNzcmRrb094Z1Nrb3hWckJrdHdJOWNRN0h5UnJGNnRqM2VENVdIeUZINi1tQVJ6T3Y1YU5ETjlf?oc=5",
-          "date": "2026-08-06T11:29:00.000Z"
-        },
-        {
-          "outlet": "KCCI",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb25yNWhRY1FJR0JxQXN1RzU1eVlYVW1rYWtTQ0JWQkdtZDR1UDNDQ1hNOFZsdlFVSWtRQlZBa0JLZ213dllUdW9raFp3czhmRV8xaGY2RFVwNkYyMVFHTHhOSFpoZnkyWHZ5ZWV3cnR1a194M2FkZVVNcWRURS1xTHlNX2F6c2dHTXc?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "KCRA",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWDVrUmlaV0FhNUtzOXVUZlpVX2tmWkdVekVRMk1aaFVqMzg4VUhjcnFxV1NnUF8wTkNKS0c2eGtqTTdLYllOOEU1d2VyMjg2UzJQVzNyOTZIc3VueWJTSDktMV9tdDk1SWlGSDFSN29wanFxUDlpbEdrVk9kNzl6VFdtREF0a2k4WlE?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "WMUR",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTWszdVlFdUJRNjdIS0NiZTc1cHpvSFQ0TmxHV0NES3Z4cjVXeFhleFNXZnlEVjNhYk1DVmNHakppbDJmejZjTEg4Y295ZDRxTlJOV2VKQmdSX2YyTUI3M2xuVlRITlViMFBJWjdOZWstdjdSYVR4aXNiTVpJTTBCcjRLX2VrcGNXRWc?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "WCVB",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS0RSWWR3cEVyamM2RTZoNi00ejJmZkdYUFNUSFQ5eGkwaWNXUFl5OFRGWkxRQWNkb25mdnBweWFsOWozR0U1MTI1VTNPRlhrZVFnVDd4OXZFNnNFR0dGWWFfeFFyR01VYTNaQVVPWnRFVFFwM2taUVpCZnRHcUtvV2F1cHhZaExuZGc?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "WLWT",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdFNPUWc3aGtUYjViVzFPajlXakVEcE5UazhmM29yOEh2aGs1LXZIVWlqZG1USkg1T09CME1WS3UxUTROV1B4X01POG93V1NpRkZodHFScktxWGxSaDhSRzUwZzRYcHhtUE85SDl5YTlPU0VhVkNPYm93dWdfQjB0dVpwR3d5dy1VcFE?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "WYFF",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZl9HdTczUkY1bnU4NExxeFJqT2pMLTNwb1Fic3lCWWp3dGlDRVY0ajRJemMwSTZRdWVnYXB6TXdUOWpZQVVKUVBiVGxkZ3FqN3l5YzRuV1FqcHViVzloSUROUjVjSkRLWXF4TmNpd1ZsdHk0UndiSkxPdjJLV2FDVVZWSXdGWFBWUUE?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "kmbc.com",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ2VLM2JNRlVHQ09lRGhhblRHb1hwU3N1V3dTZTk3WE1hdGRSX0ZSaUU1d3BvT21MZ3Jhdk5vc1E2alU1TlUwR0d3ZHZFNXFGbVZEYVl3bmVBZXZqNGlsWGRpbVlKQ29kU1BYTWY5ZlBzcTAwVUs3eDJEOHZSX3B6QkxSSnBCOWdqV0E?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "WESH",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd1cyVWhLaVJ0bGY1S2xsaGlZcTZ4YjlISElyUkdSQUNxMm0yZmR4TGs4RThYV01pakJfbEF0dGlfZ1F3Q0UtU2t6VmxZRVIwWXVMUldCaHJTTmNpaTFPdzFXYmgwdzU4TkZlRVBSaEJzVVNGT2tWS0o3OXFWeUg4MzFVNkNGbWhsYVE?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "WXII",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWTlqQ0hnWU8yakQySEN6N3RDSXhKMHpYQ3BYUXhlMFZFZFRlem9lMFZQNlFMRTBmMWpkZkJmVE1iNm9oWkh6Qk1fSno4NW05Y0xDMEExdGdMaUs5NkNvM1ZJcFltRW9KSEpPbWtiVF85cGYwc09HZFBzM2d6QTVGZHRNZS12YklnOXdCUA?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "WDSU",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPX0U5UmtoaXJNQ2JBdHdacWh2S2FYcGxqZ2EyTFYwY1pPdEZQbmNPbnV6bGNaV1Y4aERwbnFIZWJ5STdXc3Z1di1tTWVVblkzS3QxLU5RZFpxcUJWZVpfajZYcWtXM2FTeDR4YVQ5QnltbHBBa3BDUTE5dlhXMEpaYVZOcGRyUFZmSUE?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "WTAE",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQnNRY3hwOEM2azd2MWpxeXR3VlEyeVdXZXF4MVVhdlpDcVNEY2YwN1czNFB5NjlvQkR2Y0VOanpNMjF6eHZVZzZEMkFIRjV0N2hwcVQxRGRoemZ3RjBVZnd0eTd1MFg2QVdpUVlMalBJaExzVUlhamVwQ19IVmM4OHM4RUxuZ1JMbGc?oc=5",
-          "date": "2026-08-06T11:42:00.000Z"
-        },
-        {
-          "outlet": "Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZTJGcWk3YU1VallrWFFtQ0xEbV9PV3VSOE9td01JaVU2T2lKR1gwcUFvUXAwbGRHMEZLM1V1b3NCUTktbmplRVBqTzMyM2s0MW9DVlhPSjBoWG5CVHF1Uk5sWU9zOVlaNlNlS3lxYlltYUhFeHdhY011YkJ5NnlicDNkZzFRc3hKdF9kVw?oc=5",
-          "date": "2026-08-06T11:47:24.000Z"
-        },
-        {
-          "outlet": "KOMO",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPWEhKcXFaZm02ZF9tN0UtWjcxeDVROWp0cHpWUHhoaG1qdkpuTFBVakVlMEFSZmxiZTFLZXN2cWNNOEpOQ0NaelltS1B3V0JQZ3FpaGhGemdBSG9TMUxuY1F4V2hIZXhWRGtKam9KOTNERDRNc196Z3BrOENWVlQ4dnp2aUsxZ2huWXRseDVvbGxfd2h1UHRYU2dPWkpzaUtkSGNyVU11SU1pSVlNaTVZY05EdjdxQkNEZjRzOHFobzFJSnRJSHZmMVJrZFVGTnhNX3djbUxxZE5fQWJzb2dLR2Y4b0FNN05EclUyOHo0aTA0cUdWcmp0RHFGYmw1WHZjUDBWS29xMTYtZXBRa0E?oc=5",
-          "date": "2026-08-06T13:27:23.000Z"
-        },
-        {
-          "outlet": "WOAI",
-          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQTkowVWJzOFduVXZJM2tkd25vMUtNVU0wdktvcGtiSXotOXhJUUxVRGJ5bE1LZ1d6d2UzWGwxUFNILWxEMTZqUVVoYzNLUkcybTRsaFk4OTN0RVo0cF9BSHhGRG1OcEdZX081OElUSkNfdURZS0tnV2ZnNU5zODhEWmxtcHZCQS1BajY1dVhraDllR283R0JybVZUTU94VEVVX3M1VHVKRnlwNmlqdm1MUmdjUEQzTUZOZUdQdm9VdzEwVVY4Rkx6d29jczdzOVI0NElDdnRDYTJ0NkNIQ3ptOWFNZ2pMUkhYeUZvaGNsQmN5TzBuMnMyUHJZVFdndzJmakstd3JVdHFTclc4LVYxSlg4VVBZdHM?oc=5",
-          "date": "2026-08-06T13:27:31.000Z"
-        },
-        {
-          "outlet": "KBOI",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOc0ROS0ZWMUVWVkxOSXQ1MzJvNURiU3IzQWtkU3h1NTltX3ZVSHd1UmdEa28xT3ZienVHRFdxVmJvcEVuWU9rcTBRWHVDVDRwckI5RGthWFdna25zTFIyNDhmME5mOFdfdVdjd0hVRlNkVzlhMk5ERG4ta0ZMT0l0SThMTHNnU09LS21OYWNQaDlsbEYzOG1xVEplTGlZNVd2cXA0LWU1eDYyVFRJLUdmS2JrazJSY3c2QmFQR0YzTkk1NVBLQmJNRlh6TGluVzdFYWp1UGJWNnhaV1lHUU00blZKcnQ3cEY2dU8yUE9VNlJIVDBFVGlvLXdobUtNdHpfZXMxNzZBSDA3VUwyWUxR?oc=5",
-          "date": "2026-08-06T13:27:33.000Z"
-        },
-        {
-          "outlet": "KATU",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNUFg4UTVPZ211Vzg4bDlkLUoxYVBPN2JadTZjYTY3WlRtSUpUWm5pd0NZYWJzeG5DenQ2Q1VoV18zWWxGOS1aV0lpdm5pS0Rab2pPbDhjNWs3RXphTGZoNG1ScnEzb1FoTDhoa2xkX3RsUTYwWlFZZWs3cWUxSXNYTzBCQlE2RmQxcTF3YnRWOTJrM3FDZjJOT2pBUkc5R3VPVHQ5MTZvMFhCUnNMTWoxZndWT3FXUHBwMVRtenVQLVhKZDlNME9saUJKMjJnQ2dsVXN6MnhjQmFyMlNtZkM4QXJmaWhkLVFHNGZvZlM2R3lraXpuN190T1d6YTBWZHc3b1BpMXBybEo?oc=5",
-          "date": "2026-08-06T13:28:56.000Z"
-        },
-        {
-          "outlet": "WJLA",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPZkt1RFMzRWg5WXVfbTZXZWwyNHk4RmtHV243OWlsYUpHVG0yUDVvSTZzR3d4VXNlbDZBNVNLd0Y2VVBKdWFNLTJIeUNuZG1VSkYxMUxOaGJRRTdsUC1haUZSN0hvYzhNaVVkUE9RaWVUdEg4ZDhoV05SMGdhSFdHLWp0cWNYWE9qN1g1RFg1UFhoVlZCRFJwbl96Yy1xNnhZR1oxQ3NVNEFYSTVHeVViV2FBVHgxWnQxRzc3R1pvMDc3SE4yR0daUUpFb2lpZ3dsT2xYSVBxN0tadkE3VXdpNnB4NHpNZHFpQVJNX3RKdWZLNXhEMXM4ZnFaazZTUUxYWVdZQXdxMC0?oc=5",
-          "date": "2026-08-06T13:28:57.000Z"
-        },
-        {
-          "outlet": "WBFF",
-          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPSHZZSjJ2NGNXc29pQ01RdGduWUVhVHFGOFZZc3lRZkVUWURtdGlUNk5HR3ZHbDU2OFN0ZHBnTnZ2U19qRjBjMGVpWE1DVUZHSHkwVHZJak5FRUZia2hRb3FsbEJleVJKYWkwOTZtdVFzOF91S1ZHZUdfd0hTbHlyOUhHYU02RktSZUkzTjhXVEc5T2FtWlVIWWxWTllhZUlycHpPVFUzOXFHRzBlazdsRWJldGVFMTVpSEdzMnFQVGJKdS00WFlQcmJqWjRIRlNVbHpaYTZIcmNaaFpScC1zcjBGd00zbWx4ekp5N2dVSlBNRWM1R0RDclhaZGRFOU5qLV9scnZzR2dzc1hiSkNqYjlwcw?oc=5",
-          "date": "2026-08-06T13:31:20.000Z"
-        },
-        {
-          "outlet": "WCYB",
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNUWtZSEVrS3hNTWsyN0x3Um1nSGNpSTJ6eW1CQ3RvNUUxSVUwRlI4SnQ1aXVYUFlyVVFUS0p3c1lOQUFSMlVoS3AtWW5JdHlFYlVYNXVORkFyaS1HNkRsN2QxNGlyWW8wNHdjOTc2SzQ3dW05QUZSenZsTFA1aFFRb0lycU5BWkhXeWlsRjdRd2FhbjRBeDN3ckJsZUVaTmxsYmpTcVBGMjFQSHpzXzYtSnNWcXo2SnU5NWZSYmhKZWFjcERLaThZM2xuN0pQVXg5UFFwYnhVNXlfczdjTjIzVTJnWHF6RHdUbVktbkpMUHB0QVdhQ2dEM2dMejE1cGsxRUJPb2stVng?oc=5",
-          "date": "2026-08-06T13:31:38.000Z"
-        },
-        {
-          "outlet": "KFOX",
-          "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPdmhSbFMwVmRmUHgwRDVHUDdQcm9Cb0VUQm9odHF4U2hzLWxYdlpLOHYzSTRua0FoajZFeFZhZzVfR2M4Z2xoNmJwakgwaEdmcHR0QVlNQ3owTjJ3WW16YVhyQk5naVdPWmhObFpDeFpEWjZQLTlJbnJoakdfdjdjVXlPbHhLY0NNZ2hXU1dPZHdNaUhpQW9lRUdnOHB1YlNHRWwzcVcyR3pzRnFfcjhLUXZsbVdWTlJ3Ul83RkhGenRzaU5iSDdTSzJSdURwZWRDU3pvS0JyR3V5OHFleDlUY04wYjR2aFlieFcxN1Z4akZ0SExjN2tPb0hwbjhSeG5fM0lwQndvVXV1dk8wdzJGZkFMalFkdXNKeHVQMVJodmxWbUhRVW5jQlNlOA?oc=5",
-          "date": "2026-08-06T13:37:44.000Z"
-        },
-        {
-          "outlet": "KATU",
-          "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNcUQzWmZKWkhxajBjV19RaVd3WHFrdDI3TTRLR2M4My1FbUhKSndKVEdYOFpjcDRYS21Sdnh6MjFla3lERmlZTzh2dnExR0Q1Mnl3TVExRTVHVzV2LVNDRjlZeXBPV01WNnZOMDBkaVhGNHZUbDVsT0VsdW14UWk5a25IekhRSElfY2tTcjY2RTRwdl8xUXlPSlBOR3RjSUJrVFA0anVCakZqUUcwTlM1RXZZLXNyVVZQY05QMGY3NGVrbXVWR2w5ZEYtdnhuZVFxWFBweHhOZm54UUpMS0NndFV0dVY3WXdCdkhkazJLcDltWWpsanpKRnBSS29YeTRGTk93aGRkVktZZm5qN3dvSXVTNmpPWXEtRlF1WWFoVXRYUUQ2U2huTA?oc=5",
-          "date": "2026-08-06T13:38:31.000Z"
-        }
-      ]
-    },
-    {
-      "time": "13:55",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Live updates: Iran says Hormuz deal is close but US must meet commitments before strait reopens",
-      "outlet": "CNN",
-      "source": "Hormuz",
-      "date": "2026-08-06T13:55:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?oc=5"
-    },
-    {
-      "time": "13:47",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Economic expert analyzes oil disruption from the Strait of Hormuz",
-      "outlet": "Fox Business",
-      "source": "Hormuz",
-      "date": "2026-08-06T13:47:18.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSTDVNaTRHMFpmTThEUG5PWnR3TjN5dC10VXQ3a3BmLXBKMThGbG9PQlk4d1pPNXpTdGNyYnZRZXp1V0I0RVpuX1BtYmM1d0MxRWtXYWIzalpMZDA?oc=5"
-    },
-    {
-      "time": "13:47",
-      "severity": "CRIT",
-      "direction": "BULL",
       "text": "Live Updates: Iran, Oman deal on Strait of Hormuz getting close, Tehran says",
       "outlet": "CBS News",
       "source": "Hormuz",
-      "date": "2026-08-06T13:47:00.000Z",
+      "date": "2026-08-06T22:17:00.000Z",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ3luLUxvekFtWFdpQU9vSnJ2RzRwdndUZ205VmYwcEl2WDNPSmZ1YUNteThESjB4LW5SdHlXX3pyZkdqNGtQd0JDQU5oeER4U21BY1AtMUpiSEdDWHZacnV5SGdQOXpzdllRU1lTLUtFZlFlU25JWGgtMnRSaE9sdVNOWQ?oc=5",
-      "cluster_size": 3,
-      "cluster_id": "iran-oman-agree-route-ships-strait",
+      "cluster_size": 6,
+      "cluster_id": "watch-iran-oman-deal-open-strait",
       "first": {
-        "outlet": "Euronews",
-        "date": "2026-08-05T16:14:39.000Z"
+        "outlet": "Bloomberg.com",
+        "date": "2026-08-06T00:00:00.000Z"
       },
       "also": [
         {
-          "outlet": "Euronews",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWkRDUFBzNG8zREVFYjdETDJUd1BvYlRXSkJDYWFobEhzV1lGNl95Q09oMDI2amxVMGlOMmJta01kQ1daN2V4NG9ORS1VY1k0T2dIWlVVYXpDckR4NUMzeGJwWk5PYlBuaTNKbHkzd19adlI0MGZGQnN0eEg5NW5JWEp0SjM2aFhabERtZWk5QnlOaThxNEtNaTdmSGlEcDRmYWpUX1Rn?oc=5",
-          "date": "2026-08-05T16:14:39.000Z"
+          "outlet": "Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN25BNDBYS2g1WXI5S0J0alUtYjJsbUpjcDVYNnVCSTQzVnh4WS05S1QwbkNaRDkyN25aa0xFU2ZMUmFWbVJsY2xBV2psSzZ4MDctaVJQTUh0MUxSQTFCNGZMOUxlNEljTGZMcnI1MTN2N1NwaDNMRkROQXE1eDlNU042dzBMb3F4ZEdrVlpzelpRWTVXVGktMWlFc1RhZ0k1ZmRFeUExN0owVnoycVRscnJpYWd1V0JEcVUyZw?oc=5",
+          "date": "2026-08-06T00:00:00.000Z"
         },
         {
           "outlet": "Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVU5RVVl4OFFXRHQ1QVVxRWJjSGdLZ1lqaW16ZjhlZFNSaEFqTFFFMWlIemxvZm9RY1I3SGRvbDd1UndhNFRVaDZoUTFlNk82WER3TTJqN0NoNG0yVkMxM0Y1NlpmRktPQlBienpIZzVtZTNmNTVvOWZ1QmVLMzJxMVlRVFRnMjQ0QkFURk84cTV2aC1obmpfaWF4R2RORy1WQ096WmVkbzVBdkR3aThFLTlzUGRTZTZUMFM4b2hqaXV5bzJWTkxlR1lCOUhOX3VCbklNbXZZNnBCQQ?oc=5",
-          "date": "2026-08-06T11:21:00.000Z"
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaXZFT2pVM3RJZDYzQS1XVm5WbEE5NmtNSUFXN1ZhVnJ2bmRxRDJUZXhjenJsRko4cEFaaHVLdDR1NDBzZjd1T2VPMVdHUDlfVE5JVVNwdE1MV0ZYTmFCajdIeHczeU43Uk1NbUc1cG52eld2amF0bXgtMTJNZ3hweDRvTjdfZFpOa0VmUjVIN3pNM3hUeFg1UWlxeU5GeXJoemtlcEowVFRSSlZpZ2JWMXdla0FWd9IBuwFBVV95cUxNa2FtUkZXR2RacUx1clBnS3l5VlEwYVB6dGw3bkRJaUpFY0l4THZxbGNhVHZBRC11QllOUzlfcWdIYlFHcjdKVWt3RGlXWkJRVERacHZBNGdkbWFuUjduRnVWa2MxVG4wbGpjcFpvVTlqYWFpSUtHSVBlbURCWmZwUnZKY1FSNUtsYWs2MmZLazZaY1hwVVR4VEdhMl9QR0x0bFJZRHJlbExFTXYxaFktWkItaUpxbDVkWWJJ?oc=5",
+          "date": "2026-08-06T05:10:00.000Z"
+        },
+        {
+          "outlet": "The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWDJ4NnBHODl1MW42eWVYSTlERVE2b1hqNi0xbG14aFU3Tzcwd1FpRDdvTG1GaGJBUDUtMUpfUHJOeldTOTdsQ0pObjN2SkZkbkJEVk03WUlUQnA5bzdVVloyZkNscG9rVDdVLURPSnlTZnd0ZkhKVTE3NEJGeTZMOERnTTM2cGF0YVBhRw?oc=5",
+          "date": "2026-08-06T15:09:34.000Z"
+        },
+        {
+          "outlet": "gulfnews.com",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOa1FnVjduQkp6cnF1LUlZU1FxeFUtWnlmQ3cxQnQ5MG1HY0hzelJVekxVWHNzajItUXl6aGNHM1Q0dV9BS3JsVjB0LWZpYnNaWXROejF4UEZsd09QQzU0TXl5TWNCM0VySDJyY3lnSHBoRGR3OV9FMDAzUEVtZDVCV1d1b0NUZEQ3dU8ySmo1d3ZyQWPSAaYBQVVfeXFMUEpaaklHck8wWl9jTDU0X09FMUV4Z044VjFBNkZMd3dudWJaNWxvN0VZOHlkbC1jSWx3WUw4RWttRzNEbFpIazdsaVd2cnJJTjhka1pBdnpWaWtUSEx3anVTTlRUQVV4Wm4xYmw4UFowaU1BTGs5NEpBbEdpQWM5cm5tVjd0Mk5WZmN1OXZOUmVlbnl1RURCVkFrN2I0V29lWW9oaVctdw?oc=5",
+          "date": "2026-08-06T15:36:09.000Z"
+        },
+        {
+          "outlet": "Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaHNBVzlCMjRFUUJqc1dkTEk5WkdiaVdwbnlrR0U0X0FXWlhXM2FEdjdYSWhabkktRm0wdzlfaE9EeE9aOG5SdHJkMjZOaFdoaGJ2QmE0QkNuRlJFRVdrV2F4Qnl0R1JBelBCVkxPRm9PSHJjSTZnMzc3WlBHUGdtQU93TGFaakRvVEVLQm9sQzlUN1BkU21uNkdWY3QtM29sWVY3OWI2MGpzcGlqYTJjcUxVTVhxbFpZdVFXak9BbnUyVGhXbk84d1l3?oc=5",
+          "date": "2026-08-06T19:39:29.000Z"
         }
       ]
-    },
-    {
-      "time": "13:46",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Oil refinery in Russia's Yaroslavl is on fire after Ukrainian drone attack, governor says",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-08-06T13:46:23.000Z",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX2xaV1UzNlZ4VjZPOTN2SGs5RHExNThnZEJ6TXJVbFlrTkpxcnlTLWZXSURydWlHTWJVbkc5cko3aHZad2hqUmtVWm5JTmR0M1A5UnBvUEZNZm9uQmowcFp0U1FNN0VkdUo1WWVuQ2RNWVpiQUhaa1Uta1lBU19TbHVCaTBZZURLZ3dON19HRm1ZN3hGeS1HZzZzVjh4QWN3dUJCR3ExVjV2eV9UUHNuQmVKMEVFWk5jelpsNmNxTTEtb3FZMEFJ?oc=5"
-    },
-    {
-      "time": "13:45",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "MS NOW: Iranian official says deal on Strait of Hormuz will be announced soon",
-      "outlet": "Yahoo",
-      "source": "Hormuz",
-      "date": "2026-08-06T13:45:48.000Z",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOa1RWTXFLT2w4Z3dEVm5fN1ctUHo2b2R4emhNUHN5SjZjc3VpZ1RmTHp6d05nMlVELXU1MlBwcTBubzVrMTdtdFJuUXNDc3FLX3h6OGtraVFnQWtxSTlNZmdxQnZaV3hYVDN4OUY3Rm5wVDZRam05RzJDRFF0VEU5TDNlVQ?oc=5"
-    },
-    {
-      "time": "13:39",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Middle East Situation Remains “Predictably Unpredictable,” Lloyd’s List Intelligence",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-06T13:39:23.000Z",
-      "link": "https://gcaptain.com/middle-east-situation-remains-predictably-unpredictable-lloyds-list-intelligence/"
-    },
-    {
-      "time": "13:32",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Exmar buys Maran Gas steamship and charters it out as new LNG bunkering unit",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-06T13:32:15.000Z",
-      "link": "https://www.tradewindsnews.com/gas/exmar-buys-maran-gas-steamship-and-charters-it-out-as-new-lng-bunkering-unit/2-1-2025892"
-    },
-    {
-      "time": "13:31",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Will the US-Iran war and Hormuz deadlock last for months?",
-      "outlet": "Al Jazeera",
-      "source": "Hormuz",
-      "date": "2026-08-06T13:31:37.000Z",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeWV1dlM0Uk8ya1hsSnUwMDluTlBGQW9zak8zVzh4RnRRNVBIMEszdkZjdTNoTFN2UlNpSDFXNXZZUlBfcWQ5YWpVMkptd2ZSV3oxNTBPbkU5eTAzRkhSUHhuSTVRclNQbS1kOF9QaDlVV21nZ3c5eVkyVWRYY09xZWlWMFZ0X0tZQTNTSlV0MGlKblFKS3ppN1p4bETSAaIBQVVfeXFMTWZkOHNkZkRlMUE5dTVSbXNsLVo3ZDB5b1hsS1QtMnY2Q1B2aG84dGoyYldwMmpidnZXdUtZa1JGMUVIS3VJcmhtaGU4eXRzVzVSR2o0QTR4R3ltZlM1aExuU3dyMWlkU3RIYmM1Sy0yZTRNMWFpTnFKbkRXTmxkTDNJRUVRbmZxal9vWWgwZUNDRHF5MDEyUHFiWUVOR1dWZ09n?oc=5"
-    },
-    {
-      "time": "13:15",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Hormuz Maritime Traffic Collapses",
-      "outlet": "IranWire",
-      "source": "Hormuz",
-      "date": "2026-08-06T13:15:23.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Lam1kZm5jYTEwRXZVMC1acktnN2tJMGRBT0RLWk5Wa1ZJWG03UF9vVXFJNDl6UlVMUlVQZ25LaGFnOXBfc2tWeUlpcDI4LVdvNl9SdU5va281aDZCV05yaXBfRVVnZnE0VVA2a2RZRDltTW1YZ0VZYXJR?oc=5"
     }
   ],
   "snapshots": [
@@ -1586,8 +1561,62 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-06T14:44:09.189Z",
+  "intel_updated": "2026-08-07T00:22:19.488Z",
   "event_log": [
+    {
+      "date": "AUG 06",
+      "date_iso": "2026-08-06T23:59:47.000Z",
+      "severity": "WARN",
+      "text": "Iran-US war latest: Trump says Strait of Hormuz ‘sort of open’ as he denies munitions shortage in war with Tehran",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYlcyVDIwb1M1bG00eURWVTFYYk1lZHR3bjNpNFpOeFpSLVdJdk5HdmhuMUxEQ1dxNEtoTG1vNWl2c0VlVVRudWdSS1pBalRZT1c0RnNVMVlCbGpycjRIUHlCZkluQ29jcWxRUnV3cmV0UE9neFpPR09ZcGZRdG5aT19kc1Jva0VJdERSN2hJd1RSSWxZblVJMTNTZ1psckZodk9VVE9saWJVVVRSUlgzbmhUYw?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 06",
+      "date_iso": "2026-08-06T23:49:48.000Z",
+      "severity": "WARN",
+      "text": "Iran war updates: Trump says war to end ‘pretty soon’, Hormuz deal nears",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNckdUc2Y4OENERUU1bnljYVdvUUN2ZndDcVZveUxtNnBXVGVvdVNzX0pDUzF5M1pTUzBhcnhXMmE3OWhZUnh0aVFoUHJuOFR3STRSVTJjVUtmaG12bHVZSFNjVlJJbGZJdGZER213Vm1SZXVFcUJLMk5IUjNPSEZZY0JQUlBOdUV0OF9kVDBWSm5jRHdVd1V6STF5NEZlV01udHhFaGlBa3JHTXFyRHpvTW00S1V6cmVHazFYeWZ30gHDAUFVX3lxTFBTS2l0Y1VYMThhM3lzM0lzSXdSMHFCcGhLMzd0ZGg0cGpHbmk2OUNwSUJsaUoxalliOEtEaEx6VDNXMURfY2twUldxUW5Pbl9KWndackE0R3Y4eEtkcTVvQ0x5UHYtOWFqakZJWU9pVkhtaEVIMjNNeUtINHNQZVZzVEJmX2pXOVJrNjVaczQ3OEhmQUpMV053ZGNiXzZDMDlZODFZUnJXTGllalNTczhqQ3hybHVvS0QyVl9BTGMweTZ2QQ?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 06",
+      "date_iso": "2026-08-06T23:31:00.000Z",
+      "severity": "CRIT",
+      "text": "Possible Strait of Hormuz deal, a large attack in Yemen and other Mideast news",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd1R4TEFIQVkxS1I2SDdWVUZfalVNQXk2VnNDc1FHUnNYU0xRY3ExT0JiLUp6cDl2N2ZYLUl3UHFlbFUzY2F0MU9iVW9ZRTBTYTIxUWd1RXh0dnY4ZTJPT1Q3cTNFNi1ja2lTVnNsZmZPd09SMFFFMjBUNVJPZWxLVlR6OG9fYk1Cc3Byc3JUY3lTYlhqV2xjRl9RVkFDRnU4Vmx2WkV6R19fcjlHYVZWOQ?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 06",
+      "date_iso": "2026-08-06T23:09:44.000Z",
+      "severity": "WARN",
+      "text": "Iran says Hormuz deal with Oman won’t fully reopen strait",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSHhFb2tmTW1CZ2s3dnYxa1hnY3RqdHdxeFVCaUxUWGlkMXptaWkzVzZlWGwyN0pfREZzU1NFdmZ1dmNlVWNGcVpiajg4SlhYYnJ2d0RwYU95d1NkNzJ2TlFqVXZ4ZlM1UHpCbFJLMk90VVVoQy0ySFpQN3dtOTJNa09jS0I4MmRCUENxSmRNMWEyQVA4OHR0Q1E0N2xzUVdnQWlVRkd1a2M?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 06",
+      "date_iso": "2026-08-06T22:01:46.000Z",
+      "severity": "WARN",
+      "text": "Oil Extends Gains as Iran Strikes Targets in Strait of Hormuz",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWk5jQUk2ejFRUXkyV29wSG94Rl9UbENwNTJ3NzJqOU9sMHdudTVwcEE0azdVSkdOMUpmX1JSaEdiMnljU0hyWkp3QU55NkRZZjBHUzRlRF84NlNyNVI5bzAyaEtEVVZWc3g3WmZoY0VpMVBPWEt0b0JGaEFkQjR3VVFRMVhvVXQya016VEQ5ZmVxNzJHYTdVWGlKRHQ?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 06",
+      "date_iso": "2026-08-06T19:36:24.000Z",
+      "severity": "CRIT",
+      "text": "Iran war latest: Two Israeli reserve soldiers killed in southern Lebanon, military says",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4wQjRpTktXZm1lY1A2T0VtX09LVkhNWU12bEZEeGNXaVc1dFVYazh5cHR1d3U5Q1ByaVYyV2hYQmt0aGFMSVMtWTlyODF5MmRfQW1FOGd0c0hDQmRHQ0FsN21yX3lyTUpNV0hVSEV6V1B1NTVfMm9BMF9Ba09Mdw?oc=5",
+      "auto": true
+    },
     {
       "date": "AUG 06",
       "date_iso": "2026-08-06T12:01:00.000Z",
@@ -1983,67 +2012,13 @@
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYlcyVDIwb1M1bG00eURWVTFYYk1lZHR3bjNpNFpOeFpSLVdJdk5HdmhuMUxEQ1dxNEtoTG1vNWl2c0VlVVRudWdSS1pBalRZT1c0RnNVMVlCbGpycjRIUHlCZkluQ29jcWxRUnV3cmV0UE9neFpPR09ZcGZRdG5aT19kc1Jva0VJdERSN2hJd1RSSWxZblVJMTNTZ1psckZodk9VVE9saWJVVVRSUlgzbmhUYw?oc=5",
       "auto": true
-    },
-    {
-      "date": "AUG 05",
-      "date_iso": "2026-08-05T08:37:07.000Z",
-      "severity": "CRIT",
-      "text": "Houthis claim attack on Bahri oil tanker off Red Sea port",
-      "source": "Maritime",
-      "link": "https://www.tradewindsnews.com/tankers/houthis-claim-attack-on-bahri-oil-tanker-off-red-sea-port/2-1-2024976",
-      "auto": true
-    },
-    {
-      "date": "AUG 05",
-      "date_iso": "2026-08-05T07:27:57.000Z",
-      "severity": "CRIT",
-      "text": "Yemen's Houthis say they attacked Saudi oil tanker in Red Sea",
-      "source": "Reuters",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWEQwU2pxeTRYSXhNQWtrT3hmNFhmOUx6eVUzUUt4aVBtOEpub01Fa3U5S0ZOYXRmU2oyb0t4WEpRRXZ3VmwxWksyYkNRcF9GbFJvbEpkMGxWWVY5alo2NS1LdDFzMWVPdmYtV082T3JOaVpoYW5NTFNncUxHZndSdnUzMXdWWHNXQWQ3NXZXMy02MDloQ3dWTHJhWHBfS2pNVnZoUXBEcVZKQm1HZXl5Ug?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 05",
-      "date_iso": "2026-08-05T06:32:29.000Z",
-      "severity": "WARN",
-      "text": "Strait of Hormuz's 'middle corridor': New shipping route emerges in reopening talks",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNa2tjMHhRN2g4OWFMWS1SMHN5WHBaZmZRalZVSDRXellpU00tS0dSeS1ZclQyY0JVUl9hbjVfblhNM0lEclk5bWhkQzM0aXNhaUtIN0pRSU5XRFVJY2pnZ202SWN1aTFHN0ppRUVYR3dXV3E5ZURQaFBJcUN6a1llaklmSkdzZnJVbUJBSzRZVVk3enQtczRWcE5sLUF4Z2ZYMlhZcWlFbGtCajNLTURNTV9hZFZVOHkzajBzZkxRT2lXN2dLREE?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 05",
-      "date_iso": "2026-08-05T06:29:42.000Z",
-      "severity": "CRIT",
-      "text": "Frontline strikes $270m deal for VLCC pair",
-      "source": "Maritime",
-      "link": "https://splash247.com/frontline-strikes-270m-deal-for-vlcc-pair/",
-      "auto": true
-    },
-    {
-      "date": "AUG 05",
-      "date_iso": "2026-08-05T04:32:42.000Z",
-      "severity": "WARN",
-      "text": "Donald Trump: Iran asked for talks with US, Strait of Hormuz to open soon",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3X0tpQmNNQ2FvSEhfWmZySTluYXdYSnlvbDBvNWdQcDRPTWZpc081Mzd1U0FmSXZDNmJKay1ROVZmdFRFUy1TcE8yU0poay1pWjBTbE5TUktnUEdXX0tjY0V6YkVKeERKMlE?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 05",
-      "date_iso": "2026-08-05T03:45:50.000Z",
-      "severity": "WARN",
-      "text": "Trump says Strait of Hormuz to open 'very soon,' warns Iran of 'very hard' response if talks fail",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3lKX0lBU1hRWHhlcmlXVW9IQmlaQVVJWnA0R1hSV1dKenRjUFp1WlJPYUx6V0Nja1ZsWGxNd3hDdmpZWkFxVEF0aU5NeVBLSW9oM3I3Y3IxMFR5cWVaR09qcEVxMWhqVzQ3Ri1IVENTZzdSQkZwLWYzZ0QwRGk1VE11R0FYS3pMMG1QSXBrS0c5OF85Nk15QS1rQ1RFWEpsQ2ZwUF9ka19BMkdYeVEyZ293WV9aMGxocFVQTURLd2ZDMEZieXdpWXFTVzItNms?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 3,
-    "bear": 3,
+    "bull": 1,
+    "bear": 5,
     "neutral": 9,
-    "net": "NEUTRAL"
+    "net": "BEARISH"
   },
   "vessels_attacked": {
     "count": 43,
@@ -2054,1012 +2029,8 @@
   },
   "chart_brent": [
     {
-      "t": 1754452800000,
-      "p": 66.89
-    },
-    {
-      "t": 1754539200000,
-      "p": 66.43
-    },
-    {
-      "t": 1754625600000,
-      "p": 66.59
-    },
-    {
-      "t": 1754884800000,
-      "p": 66.63
-    },
-    {
-      "t": 1754971200000,
-      "p": 66.12
-    },
-    {
-      "t": 1755057600000,
-      "p": 65.63
-    },
-    {
-      "t": 1755144000000,
-      "p": 66.84
-    },
-    {
-      "t": 1755230400000,
-      "p": 65.85
-    },
-    {
-      "t": 1755489600000,
-      "p": 66.6
-    },
-    {
-      "t": 1755576000000,
-      "p": 65.79
-    },
-    {
-      "t": 1755662400000,
-      "p": 66.84
-    },
-    {
-      "t": 1755748800000,
-      "p": 67.67
-    },
-    {
-      "t": 1755835200000,
-      "p": 67.73
-    },
-    {
-      "t": 1756094400000,
-      "p": 68.8
-    },
-    {
-      "t": 1756180800000,
-      "p": 67.22
-    },
-    {
-      "t": 1756267200000,
-      "p": 68.05
-    },
-    {
-      "t": 1756353600000,
-      "p": 68.62
-    },
-    {
-      "t": 1756440000000,
-      "p": 68.12
-    },
-    {
-      "t": 1756785600000,
-      "p": 69.14
-    },
-    {
-      "t": 1756872000000,
-      "p": 67.6
-    },
-    {
-      "t": 1756958400000,
-      "p": 66.99
-    },
-    {
-      "t": 1757044800000,
-      "p": 65.5
-    },
-    {
-      "t": 1757304000000,
-      "p": 66.02
-    },
-    {
-      "t": 1757390400000,
-      "p": 66.39
-    },
-    {
-      "t": 1757476800000,
-      "p": 67.49
-    },
-    {
-      "t": 1757563200000,
-      "p": 66.37
-    },
-    {
-      "t": 1757649600000,
-      "p": 66.99
-    },
-    {
-      "t": 1757908800000,
-      "p": 67.44
-    },
-    {
-      "t": 1757995200000,
-      "p": 68.47
-    },
-    {
-      "t": 1758081600000,
-      "p": 67.95
-    },
-    {
-      "t": 1758168000000,
-      "p": 67.44
-    },
-    {
-      "t": 1758254400000,
-      "p": 66.68
-    },
-    {
-      "t": 1758513600000,
-      "p": 66.57
-    },
-    {
-      "t": 1758600000000,
-      "p": 67.63
-    },
-    {
-      "t": 1758686400000,
-      "p": 69.31
-    },
-    {
-      "t": 1758772800000,
-      "p": 69.42
-    },
-    {
-      "t": 1758859200000,
-      "p": 70.13
-    },
-    {
-      "t": 1759118400000,
-      "p": 67.97
-    },
-    {
-      "t": 1759204800000,
-      "p": 67.02
-    },
-    {
-      "t": 1759291200000,
-      "p": 65.35
-    },
-    {
-      "t": 1759377600000,
-      "p": 64.11
-    },
-    {
-      "t": 1759464000000,
-      "p": 64.53
-    },
-    {
-      "t": 1759723200000,
-      "p": 65.47
-    },
-    {
-      "t": 1759809600000,
-      "p": 65.45
-    },
-    {
-      "t": 1759896000000,
-      "p": 66.25
-    },
-    {
-      "t": 1759982400000,
-      "p": 65.22
-    },
-    {
-      "t": 1760068800000,
-      "p": 62.73
-    },
-    {
-      "t": 1760328000000,
-      "p": 63.32
-    },
-    {
-      "t": 1760414400000,
-      "p": 62.39
-    },
-    {
-      "t": 1760500800000,
-      "p": 61.91
-    },
-    {
-      "t": 1760587200000,
-      "p": 61.06
-    },
-    {
-      "t": 1760673600000,
-      "p": 61.29
-    },
-    {
-      "t": 1760932800000,
-      "p": 61.01
-    },
-    {
-      "t": 1761019200000,
-      "p": 61.32
-    },
-    {
-      "t": 1761105600000,
-      "p": 62.59
-    },
-    {
-      "t": 1761192000000,
-      "p": 65.99
-    },
-    {
-      "t": 1761278400000,
-      "p": 65.94
-    },
-    {
-      "t": 1761537600000,
-      "p": 65.62
-    },
-    {
-      "t": 1761624000000,
-      "p": 64.4
-    },
-    {
-      "t": 1761710400000,
-      "p": 64.92
-    },
-    {
-      "t": 1761796800000,
-      "p": 65
-    },
-    {
-      "t": 1761883200000,
-      "p": 65.07
-    },
-    {
-      "t": 1762146000000,
-      "p": 64.89
-    },
-    {
-      "t": 1762232400000,
-      "p": 64.44
-    },
-    {
-      "t": 1762318800000,
-      "p": 63.52
-    },
-    {
-      "t": 1762405200000,
-      "p": 63.38
-    },
-    {
-      "t": 1762491600000,
-      "p": 63.63
-    },
-    {
-      "t": 1762750800000,
-      "p": 64.06
-    },
-    {
-      "t": 1762837200000,
-      "p": 65.16
-    },
-    {
-      "t": 1762923600000,
-      "p": 62.71
-    },
-    {
-      "t": 1763010000000,
-      "p": 63.01
-    },
-    {
-      "t": 1763096400000,
-      "p": 64.39
-    },
-    {
-      "t": 1763355600000,
-      "p": 64.2
-    },
-    {
-      "t": 1763442000000,
-      "p": 64.89
-    },
-    {
-      "t": 1763528400000,
-      "p": 63.51
-    },
-    {
-      "t": 1763614800000,
-      "p": 63.38
-    },
-    {
-      "t": 1763701200000,
-      "p": 62.56
-    },
-    {
-      "t": 1763960400000,
-      "p": 63.37
-    },
-    {
-      "t": 1764046800000,
-      "p": 62.48
-    },
-    {
-      "t": 1764133200000,
-      "p": 63.13
-    },
-    {
-      "t": 1764340200000,
-      "p": 63.2
-    },
-    {
-      "t": 1764565200000,
-      "p": 63.17
-    },
-    {
-      "t": 1764651600000,
-      "p": 62.45
-    },
-    {
-      "t": 1764738000000,
-      "p": 62.67
-    },
-    {
-      "t": 1764824400000,
-      "p": 63.26
-    },
-    {
-      "t": 1764910800000,
-      "p": 63.75
-    },
-    {
-      "t": 1765170000000,
-      "p": 62.49
-    },
-    {
-      "t": 1765256400000,
-      "p": 61.94
-    },
-    {
-      "t": 1765342800000,
-      "p": 62.21
-    },
-    {
-      "t": 1765429200000,
-      "p": 61.28
-    },
-    {
-      "t": 1765515600000,
-      "p": 61.12
-    },
-    {
-      "t": 1765774800000,
-      "p": 60.56
-    },
-    {
-      "t": 1765861200000,
-      "p": 58.92
-    },
-    {
-      "t": 1765947600000,
-      "p": 59.68
-    },
-    {
-      "t": 1766034000000,
-      "p": 59.82
-    },
-    {
-      "t": 1766120400000,
-      "p": 60.47
-    },
-    {
-      "t": 1766379600000,
-      "p": 62.07
-    },
-    {
-      "t": 1766466000000,
-      "p": 62.38
-    },
-    {
-      "t": 1766586600000,
-      "p": 62.24
-    },
-    {
-      "t": 1766725200000,
-      "p": 60.64
-    },
-    {
-      "t": 1766984400000,
-      "p": 61.94
-    },
-    {
-      "t": 1767070800000,
-      "p": 61.92
-    },
-    {
-      "t": 1767157200000,
-      "p": 60.85
-    },
-    {
-      "t": 1767330000000,
-      "p": 60.75
-    },
-    {
-      "t": 1767589200000,
-      "p": 61.76
-    },
-    {
-      "t": 1767675600000,
-      "p": 60.7
-    },
-    {
-      "t": 1767762000000,
-      "p": 59.96
-    },
-    {
-      "t": 1767848400000,
-      "p": 61.99
-    },
-    {
-      "t": 1767934800000,
-      "p": 63.34
-    },
-    {
-      "t": 1768194000000,
-      "p": 63.87
-    },
-    {
-      "t": 1768280400000,
-      "p": 65.47
-    },
-    {
-      "t": 1768366800000,
-      "p": 66.52
-    },
-    {
-      "t": 1768453200000,
-      "p": 63.76
-    },
-    {
-      "t": 1768539600000,
-      "p": 64.13
-    },
-    {
-      "t": 1768885200000,
-      "p": 64.92
-    },
-    {
-      "t": 1768971600000,
-      "p": 65.24
-    },
-    {
-      "t": 1769058000000,
-      "p": 64.06
-    },
-    {
-      "t": 1769144400000,
-      "p": 65.88
-    },
-    {
-      "t": 1769403600000,
-      "p": 65.59
-    },
-    {
-      "t": 1769490000000,
-      "p": 67.57
-    },
-    {
-      "t": 1769576400000,
-      "p": 68.4
-    },
-    {
-      "t": 1769662800000,
-      "p": 70.71
-    },
-    {
-      "t": 1769749200000,
-      "p": 70.69
-    },
-    {
-      "t": 1770008400000,
-      "p": 66.3
-    },
-    {
-      "t": 1770094800000,
-      "p": 67.33
-    },
-    {
-      "t": 1770181200000,
-      "p": 69.46
-    },
-    {
-      "t": 1770267600000,
-      "p": 67.55
-    },
-    {
-      "t": 1770354000000,
-      "p": 68.05
-    },
-    {
-      "t": 1770613200000,
-      "p": 69.04
-    },
-    {
-      "t": 1770699600000,
-      "p": 68.8
-    },
-    {
-      "t": 1770786000000,
-      "p": 69.4
-    },
-    {
-      "t": 1770872400000,
-      "p": 67.52
-    },
-    {
-      "t": 1770958800000,
-      "p": 67.75
-    },
-    {
-      "t": 1771304400000,
-      "p": 67.42
-    },
-    {
-      "t": 1771390800000,
-      "p": 70.35
-    },
-    {
-      "t": 1771477200000,
-      "p": 71.66
-    },
-    {
-      "t": 1771563600000,
-      "p": 71.76
-    },
-    {
-      "t": 1771822800000,
-      "p": 71.49
-    },
-    {
-      "t": 1771909200000,
-      "p": 70.77
-    },
-    {
-      "t": 1771995600000,
-      "p": 70.85
-    },
-    {
-      "t": 1772082000000,
-      "p": 70.75
-    },
-    {
-      "t": 1772168400000,
-      "p": 72.48
-    },
-    {
-      "t": 1772427600000,
-      "p": 77.74
-    },
-    {
-      "t": 1772514000000,
-      "p": 81.4
-    },
-    {
-      "t": 1772600400000,
-      "p": 81.4
-    },
-    {
-      "t": 1772686800000,
-      "p": 85.41
-    },
-    {
-      "t": 1772773200000,
-      "p": 92.69
-    },
-    {
-      "t": 1773028800000,
-      "p": 98.96
-    },
-    {
-      "t": 1773115200000,
-      "p": 87.8
-    },
-    {
-      "t": 1773201600000,
-      "p": 91.98
-    },
-    {
-      "t": 1773288000000,
-      "p": 100.46
-    },
-    {
-      "t": 1773374400000,
-      "p": 103.14
-    },
-    {
-      "t": 1773633600000,
-      "p": 100.21
-    },
-    {
-      "t": 1773720000000,
-      "p": 103.42
-    },
-    {
-      "t": 1773806400000,
-      "p": 107.38
-    },
-    {
-      "t": 1773892800000,
-      "p": 108.65
-    },
-    {
-      "t": 1773979200000,
-      "p": 112.19
-    },
-    {
-      "t": 1774238400000,
-      "p": 99.94
-    },
-    {
-      "t": 1774324800000,
-      "p": 104.49
-    },
-    {
-      "t": 1774411200000,
-      "p": 102.22
-    },
-    {
-      "t": 1774497600000,
-      "p": 108.01
-    },
-    {
-      "t": 1774584000000,
-      "p": 112.57
-    },
-    {
-      "t": 1774843200000,
-      "p": 112.78
-    },
-    {
-      "t": 1774929600000,
-      "p": 118.35
-    },
-    {
-      "t": 1775016000000,
-      "p": 101.16
-    },
-    {
-      "t": 1775102400000,
-      "p": 109.03
-    },
-    {
-      "t": 1775448000000,
-      "p": 109.77
-    },
-    {
-      "t": 1775534400000,
-      "p": 109.27
-    },
-    {
-      "t": 1775620800000,
-      "p": 94.75
-    },
-    {
-      "t": 1775707200000,
-      "p": 95.92
-    },
-    {
-      "t": 1775793600000,
-      "p": 95.2
-    },
-    {
-      "t": 1776052800000,
-      "p": 99.36
-    },
-    {
-      "t": 1776139200000,
-      "p": 94.79
-    },
-    {
-      "t": 1776225600000,
-      "p": 94.93
-    },
-    {
-      "t": 1776312000000,
-      "p": 99.39
-    },
-    {
-      "t": 1776398400000,
-      "p": 90.38
-    },
-    {
-      "t": 1776657600000,
-      "p": 95.48
-    },
-    {
-      "t": 1776744000000,
-      "p": 98.48
-    },
-    {
-      "t": 1776830400000,
-      "p": 101.91
-    },
-    {
-      "t": 1776916800000,
-      "p": 105.07
-    },
-    {
-      "t": 1777003200000,
-      "p": 105.33
-    },
-    {
-      "t": 1777262400000,
-      "p": 108.23
-    },
-    {
-      "t": 1777348800000,
-      "p": 111.26
-    },
-    {
-      "t": 1777435200000,
-      "p": 118.03
-    },
-    {
-      "t": 1777521600000,
-      "p": 114.01
-    },
-    {
-      "t": 1777608000000,
-      "p": 108.17
-    },
-    {
-      "t": 1777867200000,
-      "p": 114.44
-    },
-    {
-      "t": 1777953600000,
-      "p": 109.87
-    },
-    {
-      "t": 1778040000000,
-      "p": 101.27
-    },
-    {
-      "t": 1778126400000,
-      "p": 100.06
-    },
-    {
-      "t": 1778212800000,
-      "p": 101.29
-    },
-    {
-      "t": 1778472000000,
-      "p": 104.21
-    },
-    {
-      "t": 1778558400000,
-      "p": 107.77
-    },
-    {
-      "t": 1778644800000,
-      "p": 105.63
-    },
-    {
-      "t": 1778731200000,
-      "p": 105.72
-    },
-    {
-      "t": 1778817600000,
-      "p": 109.26
-    },
-    {
-      "t": 1779076800000,
-      "p": 112.1
-    },
-    {
-      "t": 1779163200000,
-      "p": 111.28
-    },
-    {
-      "t": 1779249600000,
-      "p": 105.02
-    },
-    {
-      "t": 1779336000000,
-      "p": 102.58
-    },
-    {
-      "t": 1779422400000,
-      "p": 103.54
-    },
-    {
-      "t": 1779768000000,
-      "p": 99.58
-    },
-    {
-      "t": 1779854400000,
-      "p": 94.29
-    },
-    {
-      "t": 1779940800000,
-      "p": 93.71
-    },
-    {
-      "t": 1780027200000,
-      "p": 92.05
-    },
-    {
-      "t": 1780286400000,
-      "p": 94.98
-    },
-    {
-      "t": 1780372800000,
-      "p": 96
-    },
-    {
-      "t": 1780459200000,
-      "p": 97.81
-    },
-    {
-      "t": 1780545600000,
-      "p": 95.03
-    },
-    {
-      "t": 1780632000000,
-      "p": 93.09
-    },
-    {
-      "t": 1780891200000,
-      "p": 94.25
-    },
-    {
-      "t": 1780977600000,
-      "p": 91.45
-    },
-    {
-      "t": 1781064000000,
-      "p": 93.1
-    },
-    {
-      "t": 1781150400000,
-      "p": 90.38
-    },
-    {
-      "t": 1781236800000,
-      "p": 87.33
-    },
-    {
-      "t": 1781496000000,
-      "p": 83.17
-    },
-    {
-      "t": 1781582400000,
-      "p": 78.96
-    },
-    {
-      "t": 1781668800000,
-      "p": 79.55
-    },
-    {
-      "t": 1781755200000,
-      "p": 79.85
-    },
-    {
-      "t": 1782100800000,
-      "p": 77.9
-    },
-    {
-      "t": 1782187200000,
-      "p": 77.08
-    },
-    {
-      "t": 1782273600000,
-      "p": 73.74
-    },
-    {
-      "t": 1782360000000,
-      "p": 75.26
-    },
-    {
-      "t": 1782446400000,
-      "p": 71.99
-    },
-    {
-      "t": 1782705600000,
-      "p": 73.15
-    },
-    {
-      "t": 1782792000000,
-      "p": 72.92
-    },
-    {
-      "t": 1782878400000,
-      "p": 71.57
-    },
-    {
-      "t": 1782964800000,
-      "p": 71.8
-    },
-    {
-      "t": 1783310400000,
-      "p": 71.99
-    },
-    {
-      "t": 1783396800000,
-      "p": 74.16
-    },
-    {
-      "t": 1783483200000,
-      "p": 78.02
-    },
-    {
-      "t": 1783569600000,
-      "p": 76.3
-    },
-    {
-      "t": 1783656000000,
-      "p": 76.01
-    },
-    {
-      "t": 1783915200000,
-      "p": 83.3
-    },
-    {
-      "t": 1784001600000,
-      "p": 84.73
-    },
-    {
-      "t": 1784088000000,
-      "p": 84.95
-    },
-    {
-      "t": 1784174400000,
-      "p": 84.23
-    },
-    {
-      "t": 1784260800000,
-      "p": 88.1
-    },
-    {
-      "t": 1784520000000,
-      "p": 89.22
-    },
-    {
-      "t": 1784606400000,
-      "p": 91.01
-    },
-    {
-      "t": 1784692800000,
-      "p": 94.07
-    },
-    {
-      "t": 1784779200000,
-      "p": 100.69
-    },
-    {
-      "t": 1784865600000,
-      "p": 96.78
-    },
-    {
-      "t": 1785124800000,
-      "p": 88.36
-    },
-    {
-      "t": 1785211200000,
-      "p": 84.09
-    },
-    {
-      "t": 1785297600000,
-      "p": 90.74
-    },
-    {
-      "t": 1785384000000,
-      "p": 89.03
-    },
-    {
-      "t": 1785470400000,
-      "p": 90.12
-    },
-    {
-      "t": 1785729600000,
-      "p": 83.77
-    },
-    {
-      "t": 1785816000000,
-      "p": 79.36
-    },
-    {
-      "t": 1785902400000,
-      "p": 79.45
-    },
-    {
-      "t": 1785988800000,
-      "p": 80.98
+      "t": 1786061523000,
+      "p": 83.59
     }
   ],
   "chart_wti": [
@@ -4068,8 +3039,8 @@
       "p": 75.22
     },
     {
-      "t": 1785988800000,
-      "p": 76.33
+      "t": 1786061537000,
+      "p": 78.23
     }
   ],
   "signal_outlook": [
@@ -4081,7 +3052,7 @@
     {
       "name": "War Risk Premium",
       "severity": "CRIT",
-      "val": "Middle East Situation Remains “Predictably Unpredictable,” L..."
+      "val": null
     },
     {
       "name": "IRGC Activity",
@@ -4096,1024 +3067,16 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Iran Says Deal With Oman on Hormuz Agreed in Principle"
+      "val": "Can Iran’s Diminished Diplomats Deliver a Hormuz Deal?"
     }
   ],
   "chart_spread": [
     {
-      "t": 1754452800000,
-      "p": 2.54
-    },
-    {
-      "t": 1754539200000,
-      "p": 2.55
-    },
-    {
-      "t": 1754625600000,
-      "p": 2.71
-    },
-    {
-      "t": 1754884800000,
-      "p": 2.67
-    },
-    {
-      "t": 1754971200000,
-      "p": 2.95
-    },
-    {
-      "t": 1755057600000,
-      "p": 2.98
-    },
-    {
-      "t": 1755144000000,
-      "p": 2.88
-    },
-    {
-      "t": 1755230400000,
-      "p": 3.05
-    },
-    {
-      "t": 1755489600000,
-      "p": 3.18
-    },
-    {
-      "t": 1755576000000,
-      "p": 3.44
-    },
-    {
-      "t": 1755662400000,
-      "p": 3.63
-    },
-    {
-      "t": 1755748800000,
-      "p": 4.15
-    },
-    {
-      "t": 1755835200000,
-      "p": 4.07
-    },
-    {
-      "t": 1756094400000,
-      "p": 4
-    },
-    {
-      "t": 1756180800000,
-      "p": 3.97
-    },
-    {
-      "t": 1756267200000,
-      "p": 3.9
-    },
-    {
-      "t": 1756353600000,
-      "p": 4.02
-    },
-    {
-      "t": 1756440000000,
-      "p": 4.11
-    },
-    {
-      "t": 1756785600000,
-      "p": 3.55
-    },
-    {
-      "t": 1756872000000,
-      "p": 3.63
-    },
-    {
-      "t": 1756958400000,
-      "p": 3.51
-    },
-    {
-      "t": 1757044800000,
-      "p": 3.63
-    },
-    {
-      "t": 1757304000000,
-      "p": 3.76
-    },
-    {
-      "t": 1757390400000,
-      "p": 3.76
-    },
-    {
-      "t": 1757476800000,
-      "p": 3.82
-    },
-    {
-      "t": 1757563200000,
-      "p": 4
-    },
-    {
-      "t": 1757649600000,
-      "p": 4.3
-    },
-    {
-      "t": 1757908800000,
-      "p": 4.14
-    },
-    {
-      "t": 1757995200000,
-      "p": 3.95
-    },
-    {
-      "t": 1758081600000,
-      "p": 3.9
-    },
-    {
-      "t": 1758168000000,
-      "p": 3.87
-    },
-    {
-      "t": 1758254400000,
-      "p": 4
-    },
-    {
-      "t": 1758513600000,
-      "p": 3.93
-    },
-    {
-      "t": 1758600000000,
-      "p": 4.22
-    },
-    {
-      "t": 1758686400000,
-      "p": 4.32
-    },
-    {
-      "t": 1758772800000,
-      "p": 4.44
-    },
-    {
-      "t": 1758859200000,
-      "p": 4.41
-    },
-    {
-      "t": 1759118400000,
-      "p": 4.52
-    },
-    {
-      "t": 1759204800000,
-      "p": 4.65
-    },
-    {
-      "t": 1759291200000,
-      "p": 3.57
-    },
-    {
-      "t": 1759377600000,
-      "p": 3.63
-    },
-    {
-      "t": 1759464000000,
-      "p": 3.65
-    },
-    {
-      "t": 1759723200000,
-      "p": 3.78
-    },
-    {
-      "t": 1759809600000,
-      "p": 3.72
-    },
-    {
-      "t": 1759896000000,
-      "p": 3.7
-    },
-    {
-      "t": 1759982400000,
-      "p": 3.71
-    },
-    {
-      "t": 1760068800000,
-      "p": 3.83
-    },
-    {
-      "t": 1760328000000,
-      "p": 3.83
-    },
-    {
-      "t": 1760414400000,
-      "p": 3.69
-    },
-    {
-      "t": 1760500800000,
-      "p": 3.64
-    },
-    {
-      "t": 1760587200000,
-      "p": 3.6
-    },
-    {
-      "t": 1760673600000,
-      "p": 3.75
-    },
-    {
-      "t": 1760932800000,
-      "p": 3.49
-    },
-    {
-      "t": 1761019200000,
-      "p": 3.5
-    },
-    {
-      "t": 1761105600000,
-      "p": 4.09
-    },
-    {
-      "t": 1761192000000,
-      "p": 4.2
-    },
-    {
-      "t": 1761278400000,
-      "p": 4.44
-    },
-    {
-      "t": 1761537600000,
-      "p": 4.31
-    },
-    {
-      "t": 1761624000000,
-      "p": 4.25
-    },
-    {
-      "t": 1761710400000,
-      "p": 4.44
-    },
-    {
-      "t": 1761796800000,
-      "p": 4.43
-    },
-    {
-      "t": 1761883200000,
-      "p": 4.09
-    },
-    {
-      "t": 1762146000000,
-      "p": 3.84
-    },
-    {
-      "t": 1762232400000,
-      "p": 3.88
-    },
-    {
-      "t": 1762318800000,
-      "p": 3.92
-    },
-    {
-      "t": 1762405200000,
-      "p": 3.95
-    },
-    {
-      "t": 1762491600000,
-      "p": 3.88
-    },
-    {
-      "t": 1762750800000,
-      "p": 3.93
-    },
-    {
-      "t": 1762837200000,
-      "p": 4.12
-    },
-    {
-      "t": 1762923600000,
-      "p": 4.22
-    },
-    {
-      "t": 1763010000000,
-      "p": 4.32
-    },
-    {
-      "t": 1763096400000,
-      "p": 4.3
-    },
-    {
-      "t": 1763355600000,
-      "p": 4.29
-    },
-    {
-      "t": 1763442000000,
-      "p": 4.15
-    },
-    {
-      "t": 1763528400000,
-      "p": 4.07
-    },
-    {
-      "t": 1763614800000,
-      "p": 4.24
-    },
-    {
-      "t": 1763701200000,
-      "p": 4.5
-    },
-    {
-      "t": 1763960400000,
-      "p": 4.53
-    },
-    {
-      "t": 1764046800000,
-      "p": 4.53
-    },
-    {
-      "t": 1764133200000,
-      "p": 4.48
-    },
-    {
-      "t": 1764340200000,
-      "p": 4.65
-    },
-    {
-      "t": 1764565200000,
-      "p": 3.85
-    },
-    {
-      "t": 1764651600000,
-      "p": 3.81
-    },
-    {
-      "t": 1764738000000,
-      "p": 3.72
-    },
-    {
-      "t": 1764824400000,
-      "p": 3.59
-    },
-    {
-      "t": 1764910800000,
-      "p": 3.67
-    },
-    {
-      "t": 1765170000000,
-      "p": 3.61
-    },
-    {
-      "t": 1765256400000,
-      "p": 3.69
-    },
-    {
-      "t": 1765342800000,
-      "p": 3.75
-    },
-    {
-      "t": 1765429200000,
-      "p": 3.68
-    },
-    {
-      "t": 1765515600000,
-      "p": 3.68
-    },
-    {
-      "t": 1765774800000,
-      "p": 3.74
-    },
-    {
-      "t": 1765861200000,
-      "p": 3.65
-    },
-    {
-      "t": 1765947600000,
-      "p": 3.74
-    },
-    {
-      "t": 1766034000000,
-      "p": 3.67
-    },
-    {
-      "t": 1766120400000,
-      "p": 3.81
-    },
-    {
-      "t": 1766379600000,
-      "p": 4.06
-    },
-    {
-      "t": 1766466000000,
-      "p": 4
-    },
-    {
-      "t": 1766586600000,
-      "p": 3.89
-    },
-    {
-      "t": 1766725200000,
-      "p": 3.9
-    },
-    {
-      "t": 1766984400000,
-      "p": 3.86
-    },
-    {
-      "t": 1767070800000,
-      "p": 3.97
-    },
-    {
-      "t": 1767157200000,
-      "p": 3.43
-    },
-    {
-      "t": 1767330000000,
-      "p": 3.43
-    },
-    {
-      "t": 1767589200000,
-      "p": 3.44
-    },
-    {
-      "t": 1767675600000,
-      "p": 3.57
-    },
-    {
-      "t": 1767762000000,
-      "p": 3.97
-    },
-    {
-      "t": 1767848400000,
-      "p": 4.23
-    },
-    {
-      "t": 1767934800000,
-      "p": 4.22
-    },
-    {
-      "t": 1768194000000,
-      "p": 4.37
-    },
-    {
-      "t": 1768280400000,
-      "p": 4.32
-    },
-    {
-      "t": 1768366800000,
-      "p": 4.5
-    },
-    {
-      "t": 1768453200000,
-      "p": 4.57
-    },
-    {
-      "t": 1768539600000,
-      "p": 4.69
-    },
-    {
-      "t": 1768885200000,
-      "p": 4.58
-    },
-    {
-      "t": 1768971600000,
-      "p": 4.62
-    },
-    {
-      "t": 1769058000000,
-      "p": 4.7
-    },
-    {
-      "t": 1769144400000,
-      "p": 4.81
-    },
-    {
-      "t": 1769403600000,
-      "p": 4.96
-    },
-    {
-      "t": 1769490000000,
-      "p": 5.18
-    },
-    {
-      "t": 1769576400000,
-      "p": 5.19
-    },
-    {
-      "t": 1769662800000,
-      "p": 5.29
-    },
-    {
-      "t": 1769749200000,
-      "p": 5.48
-    },
-    {
-      "t": 1770008400000,
-      "p": 4.16
-    },
-    {
-      "t": 1770094800000,
-      "p": 4.12
-    },
-    {
-      "t": 1770181200000,
-      "p": 4.32
-    },
-    {
-      "t": 1770267600000,
-      "p": 4.26
-    },
-    {
-      "t": 1770354000000,
-      "p": 4.5
-    },
-    {
-      "t": 1770613200000,
-      "p": 4.68
-    },
-    {
-      "t": 1770699600000,
-      "p": 4.84
-    },
-    {
-      "t": 1770786000000,
-      "p": 4.77
-    },
-    {
-      "t": 1770872400000,
-      "p": 4.68
-    },
-    {
-      "t": 1770958800000,
-      "p": 4.86
-    },
-    {
-      "t": 1771304400000,
-      "p": 5.09
-    },
-    {
-      "t": 1771390800000,
-      "p": 5.16
-    },
-    {
-      "t": 1771477200000,
-      "p": 5.23
-    },
-    {
-      "t": 1771563600000,
-      "p": 5.37
-    },
-    {
-      "t": 1771822800000,
-      "p": 5.18
-    },
-    {
-      "t": 1771909200000,
-      "p": 5.14
-    },
-    {
-      "t": 1771995600000,
-      "p": 5.43
-    },
-    {
-      "t": 1772082000000,
-      "p": 5.54
-    },
-    {
-      "t": 1772168400000,
-      "p": 5.46
-    },
-    {
-      "t": 1772427600000,
-      "p": 6.51
-    },
-    {
-      "t": 1772514000000,
-      "p": 6.84
-    },
-    {
-      "t": 1772600400000,
-      "p": 6.74
-    },
-    {
-      "t": 1772686800000,
-      "p": 4.4
-    },
-    {
-      "t": 1772773200000,
-      "p": 1.79
-    },
-    {
-      "t": 1773028800000,
-      "p": 4.19
-    },
-    {
-      "t": 1773115200000,
-      "p": 4.35
-    },
-    {
-      "t": 1773201600000,
-      "p": 4.73
-    },
-    {
-      "t": 1773288000000,
-      "p": 4.73
-    },
-    {
-      "t": 1773374400000,
-      "p": 4.43
-    },
-    {
-      "t": 1773633600000,
-      "p": 6.71
-    },
-    {
-      "t": 1773720000000,
-      "p": 7.21
-    },
-    {
-      "t": 1773806400000,
-      "p": 11.06
-    },
-    {
-      "t": 1773892800000,
-      "p": 12.51
-    },
-    {
-      "t": 1773979200000,
-      "p": 13.87
-    },
-    {
-      "t": 1774238400000,
-      "p": 11.81
-    },
-    {
-      "t": 1774324800000,
-      "p": 12.14
-    },
-    {
-      "t": 1774411200000,
-      "p": 11.9
-    },
-    {
-      "t": 1774497600000,
-      "p": 13.53
-    },
-    {
-      "t": 1774584000000,
-      "p": 12.93
-    },
-    {
-      "t": 1774843200000,
-      "p": 9.9
-    },
-    {
-      "t": 1774929600000,
-      "p": 16.97
-    },
-    {
-      "t": 1775016000000,
-      "p": 1.04
-    },
-    {
-      "t": 1775102400000,
-      "p": -2.51
-    },
-    {
-      "t": 1775448000000,
-      "p": -2.64
-    },
-    {
-      "t": 1775534400000,
-      "p": -3.68
-    },
-    {
-      "t": 1775620800000,
-      "p": 0.34
-    },
-    {
-      "t": 1775707200000,
-      "p": -1.95
-    },
-    {
-      "t": 1775793600000,
-      "p": -1.37
-    },
-    {
-      "t": 1776052800000,
-      "p": 0.28
-    },
-    {
-      "t": 1776139200000,
-      "p": 3.51
-    },
-    {
-      "t": 1776225600000,
-      "p": 3.64
-    },
-    {
-      "t": 1776312000000,
-      "p": 4.7
-    },
-    {
-      "t": 1776398400000,
-      "p": 6.53
-    },
-    {
-      "t": 1776657600000,
-      "p": 5.87
-    },
-    {
-      "t": 1776744000000,
-      "p": 6.35
-    },
-    {
-      "t": 1776830400000,
-      "p": 8.95
-    },
-    {
-      "t": 1776916800000,
-      "p": 9.22
-    },
-    {
-      "t": 1777003200000,
-      "p": 10.93
-    },
-    {
-      "t": 1777262400000,
-      "p": 11.86
-    },
-    {
-      "t": 1777348800000,
-      "p": 11.33
-    },
-    {
-      "t": 1777435200000,
-      "p": 11.15
-    },
-    {
-      "t": 1777521600000,
-      "p": 8.94
-    },
-    {
-      "t": 1777608000000,
-      "p": 6.23
-    },
-    {
-      "t": 1777867200000,
-      "p": 8.02
-    },
-    {
-      "t": 1777953600000,
-      "p": 7.6
-    },
-    {
-      "t": 1778040000000,
-      "p": 6.19
-    },
-    {
-      "t": 1778126400000,
-      "p": 5.25
-    },
-    {
-      "t": 1778212800000,
-      "p": 5.87
-    },
-    {
-      "t": 1778472000000,
-      "p": 6.14
-    },
-    {
-      "t": 1778558400000,
-      "p": 5.59
-    },
-    {
-      "t": 1778644800000,
-      "p": 4.61
-    },
-    {
-      "t": 1778731200000,
-      "p": 4.55
-    },
-    {
-      "t": 1778817600000,
-      "p": 3.84
-    },
-    {
-      "t": 1779076800000,
-      "p": 3.44
-    },
-    {
-      "t": 1779163200000,
-      "p": 3.51
-    },
-    {
-      "t": 1779249600000,
-      "p": 6.76
-    },
-    {
-      "t": 1779336000000,
-      "p": 6.23
-    },
-    {
-      "t": 1779422400000,
-      "p": 6.94
-    },
-    {
-      "t": 1779768000000,
-      "p": 5.69
-    },
-    {
-      "t": 1779854400000,
-      "p": 5.61
-    },
-    {
-      "t": 1779940800000,
-      "p": 4.81
-    },
-    {
-      "t": 1780027200000,
-      "p": 4.69
-    },
-    {
-      "t": 1780286400000,
-      "p": 2.82
-    },
-    {
-      "t": 1780372800000,
-      "p": 2.24
-    },
-    {
-      "t": 1780459200000,
-      "p": 1.79
-    },
-    {
-      "t": 1780545600000,
-      "p": 1.99
-    },
-    {
-      "t": 1780632000000,
-      "p": 2.55
-    },
-    {
-      "t": 1780891200000,
-      "p": 2.95
-    },
-    {
-      "t": 1780977600000,
-      "p": 3.25
-    },
-    {
-      "t": 1781064000000,
-      "p": 3.07
-    },
-    {
-      "t": 1781150400000,
-      "p": 2.67
-    },
-    {
-      "t": 1781236800000,
-      "p": 2.45
-    },
-    {
-      "t": 1781496000000,
-      "p": 2.42
-    },
-    {
-      "t": 1781582400000,
-      "p": 2.91
-    },
-    {
-      "t": 1781668800000,
-      "p": 2.76
-    },
-    {
-      "t": 1781755200000,
-      "p": 3.25
-    },
-    {
-      "t": 1782100800000,
-      "p": 3.08
-    },
-    {
-      "t": 1782187200000,
-      "p": 3.87
-    },
-    {
-      "t": 1782273600000,
-      "p": 3.4
-    },
-    {
-      "t": 1782360000000,
-      "p": 3.34
-    },
-    {
-      "t": 1782446400000,
-      "p": 2.76
-    },
-    {
-      "t": 1782705600000,
-      "p": 2.4
-    },
-    {
-      "t": 1782792000000,
-      "p": 3.42
-    },
-    {
-      "t": 1782878400000,
-      "p": 2.99
-    },
-    {
-      "t": 1782964800000,
-      "p": 3.11
-    },
-    {
-      "t": 1783310400000,
-      "p": 3.44
-    },
-    {
-      "t": 1783396800000,
-      "p": 3.72
-    },
-    {
-      "t": 1783483200000,
-      "p": 4.5
-    },
-    {
-      "t": 1783569600000,
-      "p": 4.22
-    },
-    {
-      "t": 1783656000000,
-      "p": 4.6
-    },
-    {
-      "t": 1783915200000,
-      "p": 5.16
-    },
-    {
-      "t": 1784001600000,
-      "p": 5.39
-    },
-    {
-      "t": 1784088000000,
-      "p": 5.35
-    },
-    {
-      "t": 1784174400000,
-      "p": 5.28
-    },
-    {
-      "t": 1784260800000,
-      "p": 5.61
-    },
-    {
-      "t": 1784520000000,
-      "p": 5.99
-    },
-    {
-      "t": 1784606400000,
-      "p": 6.1
-    },
-    {
-      "t": 1784692800000,
-      "p": 7.24
-    },
-    {
-      "t": 1784779200000,
-      "p": 8.5
-    },
-    {
-      "t": 1784865600000,
-      "p": 7.47
-    },
-    {
-      "t": 1785124800000,
-      "p": 5.75
-    },
-    {
-      "t": 1785211200000,
-      "p": 4.83
-    },
-    {
-      "t": 1785297600000,
-      "p": 6.28
-    },
-    {
-      "t": 1785384000000,
-      "p": 5.44
-    },
-    {
-      "t": 1785470400000,
-      "p": 5.45
-    },
-    {
-      "t": 1785729600000,
-      "p": 3.43
-    },
-    {
-      "t": 1785816000000,
-      "p": 3.59
-    },
-    {
-      "t": 1785902400000,
-      "p": 4.23
-    },
-    {
-      "t": 1785988800000,
-      "p": 4.65
+      "t": 1786061523000,
+      "p": 19.24
     }
   ],
   "chart_sp500": [
-    {
-      "t": 1754487000000,
-      "p": 6345.06
-    },
     {
       "t": 1754573400000,
       "p": 6340
@@ -6116,10 +4079,10 @@
     },
     {
       "t": 1786023000000,
-      "p": 7731.06
+      "p": 7709.96
     }
   ],
-  "latest_sp500": 7731.06,
+  "latest_sp500": 7709.96,
   "vesselCache": {},
   "synthesis": {
     "updated": "2026-07-30T19:46:28.788Z",
