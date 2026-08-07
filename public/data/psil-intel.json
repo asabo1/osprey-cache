@@ -1,26 +1,28 @@
 {
-  "updated": "2026-08-07T09:14:15.629Z",
+  "updated": "2026-08-07T10:28:01.393Z",
   "counts": {
     "total": 90,
-    "crit": 10,
-    "warn": 8,
+    "crit": 8,
+    "warn": 9,
     "bySource": {
+      "TipRanks": 16,
+      "The New Yorker": 1,
+      "TradingKey": 2,
+      "GuruFocus": 3,
+      "Medscape": 1,
       "The Clinical Trial Vanguard": 1,
-      "Stocktwits": 5,
-      "GuruFocus": 2,
+      "Stocktwits": 3,
       "Investing.com": 2,
-      "Yahoo Finance UK": 1,
       "Moomoo": 4,
       "TradingView": 3,
       "marketscreener.com": 3,
-      "TipRanks": 15,
       "Alaska's News Source": 2,
       "Yahoo Finance": 6,
       "Medical Daily": 1,
       "Fox News": 1,
       "Investing News Network": 1,
-      "tradersunion.com": 1,
-      "theglobeandmail.com": 1,
+      "Traders Union": 1,
+      "The Globe and Mail": 1,
       "ChartMill": 1,
       "WHIO TV": 1,
       "Stock Titan": 6,
@@ -33,7 +35,6 @@
       "MLive.com": 1,
       "Benzinga": 1,
       "Fierce Biotech": 1,
-      "Law.com": 1,
       "Military.com": 1,
       "The Telegraph": 1,
       "King's College London": 1,
@@ -48,16 +49,108 @@
       "simplywall.st": 1,
       "CNN": 1,
       "News-Medical": 1,
-      "IMDb": 1,
       "FirstWord Pharma": 1,
-      "Dagens.com": 1,
-      "Medical Xpress": 1
+      "Dagens.com": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "babff5a9f55a",
+      "time": "2026-08-07T10:12:17.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Compass Pathways price target lowered to $65 from $70 at H.C. Wainwright",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOamlrM21EV2NNUFhfRXktV3cxRlQ0ODQyOGhpZ3dhRnROZkdEcVBZOWd1RlRWNW9USUIyRkNmbmt2bE1ua3I5azZnUTVYQjNobi1uUTFmdHRPeGtrT3ZEUkUzS3lqVWpKZHoyWTJaUnR5bTZKWGlDYXhTSVFyMlNpSWt4Z2RLbEpGRThhZ2I3M3B0dmtzZ21mczRJZG5BS3ZZUXNiWGM1QkNidVpyUGhVb1pCVjRTV195NDF3?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "d33dc8220a66",
+      "time": "2026-08-07T10:00:00.000Z",
+      "source": "The New Yorker",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Why the Right Wing Is Embracing This Psychedelic Drug",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83ekJfeXJST0NYRDZHQmVLMXlDMDA1V2tsczZCaTBUUlZicWFuQmNkc1VnOXpYalJsRjRuZFBUYjNNYi1NakpqZ0dCUXNDV25VcjJ6VVhwLU9yaVdZSWlYSmdoUmZXa0JzbGh0S1VQNFl6UzZ3UC1YUjY3NA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "034ec4b006e5",
+      "time": "2026-08-07T09:42:14.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "ATAI Life Sciences NV (ATAI) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB6SFdOQ3BSejcwdkVXS21TTGtoVm1ZMEdkYjNZUXlZQzZxM3BqTWtsMTFfUWVSR242VkI2am80cTZrU0p4OEx6YlJyaDBKa255bHlOTFlWc1ZWNlRlOGIxWFlxZ042WEU?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
+      "id": "3cacac19a7ea",
+      "time": "2026-08-07T08:37:30.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Definium Therapeutics Inc (DFTX) (Q2 2026) Earnings Call Highlig",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNQmkySlF6NHBabllKZkFwdlB3cW8wSTdmU25ZdmZ2WHQxV3RuQjEwQ2RyR2dCVnFHOVZUSG5lNjBNVUVSdVFpMkhSNnJacGxvdVVVV0ZBcGhHcDNYM0lJNDl4c2VMelk3NFJRb0xHMWEwYkplazhKTjVNSkhMUm8yTG9VbEhhM1lRaWdBa3NULUNfelJvTFhnQ29vb0pRcGNpUjdQOW4tUnpMVWhwcGYwUTE3R3VLYUt0aTJ0ek1fRTZJQUJNbUpTc3ZKdzNxcXk4QVVoYWtEQjEzVkJ6YkxxY0dRMXBhMDJsVHA4Vkg1TFJnRWtSejRwdS1zcjFON1hZR25lZzEza0FiRFBUM2lHSA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "881552a760fd",
+      "time": "2026-08-07T08:17:22.000Z",
+      "source": "TradingKey",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin Ord Shs (HELP) Stock News Today",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrNW5ZbzVvazlIN3FZX1RiZC1DOVkwT2lDNVhpcEJ1UWtfdldoa1BqNzJFQV9vSWRMMFZfV29DWVFSWlZmUFlTVXZ3Zm1QYmQ1VDE5QW53MGluMXNYSVBCVA?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "a57ef8b93183",
+      "time": "2026-08-07T07:36:17.000Z",
+      "source": "Medscape",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psilocybin-Assisted Tx Shows Early Promise in Severe PTSD",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbHZ6VER6SHRoVHNXa0RlaUJmYk1oOVVSZkc5Qk9aZkVjZUh6UTFZeGp6Mjlxdmo0b2VPdmtFSGdqQTZtNklVdmdsbjVxS1F4SGZ2dzNoOHctNVZuTkwycVp4Q1lyVzNhUmFxY2JzX3VVeU5FSmdKTkY0S0s1a3BkYXdaZXE0UHZGaTJneFZsWWt4RUhnelE0bUp1MEZSWFJ4aVdLWXVSWGFxNHhmWEE?oc=5",
+      "tickers": []
+    },
     {
       "id": "a59a1d98a9a5",
       "time": "2026-08-07T06:39:00.000Z",
@@ -118,22 +211,6 @@
       "impact": "LOW",
       "title": "Why is Definium Therapeutics stock rallying today?",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUzBWb3U4Tlk3TVZ2TDBINEJUaWotRzA5VGR5aWl3N3NQQXdpQ1lxNUdYSXBXV0lzRjlYU0F0QnNmWXI5VDEzdHRKLV8zNmxtVXY2OTNpTmM3Qk1kaVlCRVR0akF2R2dMMHhsUko5VWsyYzVHTU9KNFM3UzBvQzFPUUFFLUwyNjBGMWY4S25BdHhVXzlXaVZrcnRvaHBXUnZydVhUQTktdzVGRklDVDJoRw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "59e45c0b5aaf",
-      "time": "2026-08-07T05:10:44.000Z",
-      "source": "Yahoo Finance UK",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics Inc (DFTX) (Q2 2026) Earnings Call Highlights: Record Phase III MDD ...",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZXl3TWwwcVFmckxBVGlUYnVxZW94WnhMdkd4VDEzdjRhVTAzdDJNOTFIeExzeE9VbzAybDA1YU1VSmpDNUtrb0JUWS1BWmQ5aWFnSnBmTExrY0p1VzNtRFB3OHQyNmhIZDAwa2hwaVlZYXk2WTNNQXZwUTJqX3Z6WFdscWRmMWViWHc?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -390,7 +467,7 @@
     {
       "id": "6a2dcb5863cf",
       "time": "2026-08-06T21:40:27.000Z",
-      "source": "tradersunion.com",
+      "source": "Traders Union",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -454,7 +531,7 @@
     {
       "id": "7a8963c7f56a",
       "time": "2026-08-06T21:06:00.000Z",
-      "source": "theglobeandmail.com",
+      "source": "The Globe and Mail",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -921,22 +998,6 @@
       ]
     },
     {
-      "id": "a54465d64d78",
-      "time": "2026-08-06T14:01:22.000Z",
-      "source": "Law.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "New Deals",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ucTU5RUl6VWd0c01lb3NhclhLaTd6XzQ4Qjdvcmdrd29Ib1NPVHhyM0Z6N2pTTU44MS14M3Y3X2lubG9yT0ZpMzd3WHgzRlM4RVhiUGRoNEZMOGhX?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
       "id": "049e6dd854df",
       "time": "2026-08-06T13:50:51.000Z",
       "source": "Military.com",
@@ -1149,6 +1210,22 @@
       "tickers": []
     },
     {
+      "id": "9a8ecfd865a4",
+      "time": "2026-08-06T11:25:29.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "GH Research (Nasdaq: GHRS) grows cash to $362.7M as R&D spending rises",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYVZJUGR5aWdpTU9JRk1IU3Z1ZG50ZVJ6SmhTSDFMeloyOHN1S1BBSHpBRy1mMlJIQ2NOQm1HQnlPNDhkUUxLZXFyVlhSZHlVazRRdGF2SHcwQ2RVc2NrQS1XNGZwUm0yR1VKY3BNRzhIRE4weV9kRGg4THdsUklESGpZc3JPU2hlYWdybEhHcmc4MElQb2VYVlA0ZVY5cmwwa3FNUmxxRUpOQlhZQmxrbQ?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
       "id": "34c342c846ff",
       "time": "2026-08-06T11:08:49.000Z",
       "source": "Stock Titan",
@@ -1329,20 +1406,6 @@
       "tickers": []
     },
     {
-      "id": "5d306e36ed5c",
-      "time": "2026-08-06T03:14:49.000Z",
-      "source": "IMDb",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Fitness Vlog #2: 8/8 PORTAL! 550 Pound Squat Exorcism, Bosnian Musical Therapy, and Fresno Friendship",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2LUFiS3NXYllZNEFBaU0zNWtZMVhvczVYb0Z3ck1MQ0ZWb3I2bE4zMUlXR1FKb3JHYTVxSTJ1YUZSSkc5a2hUTXI1TTljWTg2SXRRLUtPR0tlWkE?oc=5",
-      "tickers": []
-    },
-    {
       "id": "06ba65551c95",
       "time": "2026-08-06T02:36:26.000Z",
       "source": "Moomoo",
@@ -1386,66 +1449,6 @@
       "impact": "LOW",
       "title": "New study challenges the mushroom miracle for depression",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOGJkNDhXVGdYaTZYaGZLZ3RGbXRmQlZzSGJ5WUhLem5vajhDOWhBMHpLeDBIUmJIQk1mWTQyX1E5RW1CTzlhZkw1UG5JUnNpbm12V0MwVWhWUWs4aGZpTV9Kb05VczhkaTQ4YXkwRVMySHJzblFJVHJkNFg2RHBuR3hwaVB4Nmh3ZExCUnhXSQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "c4eea4c719e4",
-      "time": "2026-08-05T22:43:03.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "PBM Stock On Track For Best Session On Report Of Upcoming Trump Executive Order On Psychedelic Ibogaine",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWxqbFdIeVh2RDgxbVV6a2oxWmx3UUtVSW9OYW90dHlCOVVfU1o1b19GcGtYZzRGdmhkdkREbHhHZzZhaGtPWUFHZHRNU1F0QklKXy13SlRkamVkMVBuVE9SSzVDUTc2Zkg0bFZPamttM2E0bkZuUXF4S0JLX18zX1pkbTB1MlAyX1YxMXBvay0xQndMRFRkU0drZ3hvWjBISi1oQ1ZIck5LcFFKUnhNVUdCOUVyQ2gtN18wSHBwM0V1czNyc3VlV21ROGdKMERSeTByaF9jUlM1UF82ZEdMbWJ6OTVmUWNjSDNhQko4dmJ5NXc?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "964200231cb8",
-      "time": "2026-08-05T21:36:27.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences (NBIX) CSO Jude Onyia makes bona fide stock gift",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOczVObkhNbW1WMlpUeWR1XzlMTlZxT3JUT3RVX2t6LXFQLWlhWTdKM01ZYUpNTUs2QzZ1aGowTmVydUhLUFJrLVVaTEpDeERpTGZoSnIybE85eHdHalNyTDI1VGU4ejltREZnVmR3LTIycWRZVFg2YmtVbXh0RjhVVDAyZEdrcWNoWDRKeFI0TzVMd3Q2djRONU5Va0p0S0FGaTZ2NVBXWnBKQVRfSWpnMW5SenJLUk5qUUJfNQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "ddf961f65f55",
-      "time": "2026-08-05T21:13:44.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "CMPS Stock Climbs Toward 2-Year Highs – What’s Driving This Rally?",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM3ZyTGNNaGl5U1BJY295aUp6SjM4eUJPd3VxQWRIX0h3aWRocTJoem1OUlBFU0x0YlBzcG50SmZDcUdCNFdaYWRndlZscFBxX0dCcnp6NVNtLXdJR056RHc4a3hTY3NFUHAtSUxpUHZvUHZrVEJnZENEQ190RXVheDloaEtUUVFBNHkwcnU2Vk5fOTBYXzMwQ0h5dUlsMlJvOW0zX2t5QWpjSl9WMzE3VENTblQxeDdVU1E?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "7afa0f20faa7",
-      "time": "2026-08-05T21:00:01.000Z",
-      "source": "Medical Xpress",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "New psychedelic candidate may spare the gut while still healing the brain",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTWJxSWl6RDE5T3hVclY0X1J0NjBLZzA1SGxyZU5PZElEWGFkUEdHeGdaRlpuZUVEVEVfOGxIQlhCeGx3YnVuZzAzS2NlS3NBSC1rMjBUUXctdzFEV3k0Mkh5ZTloNmI3alpmTVhYMzZsSnI2WThjNTdNOTZpMGRrcQ?oc=5",
       "tickers": []
     }
   ]
