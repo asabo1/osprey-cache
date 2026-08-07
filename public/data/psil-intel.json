@@ -1,28 +1,29 @@
 {
-  "updated": "2026-08-07T08:02:09.046Z",
+  "updated": "2026-08-07T09:14:15.629Z",
   "counts": {
     "total": 90,
     "crit": 10,
     "warn": 8,
     "bySource": {
       "The Clinical Trial Vanguard": 1,
+      "Stocktwits": 5,
+      "GuruFocus": 2,
       "Investing.com": 2,
-      "ChartMill": 1,
       "Yahoo Finance UK": 1,
-      "moomoo.com": 4,
-      "TradingView": 4,
+      "Moomoo": 4,
+      "TradingView": 3,
       "marketscreener.com": 3,
-      "Stocktwits": 4,
       "TipRanks": 15,
-      "alaskasnewssource.com": 2,
-      "Yahoo Finance": 4,
+      "Alaska's News Source": 2,
+      "Yahoo Finance": 6,
       "Medical Daily": 1,
       "Fox News": 1,
       "Investing News Network": 1,
-      "Traders Union": 1,
-      "The Globe and Mail": 1,
+      "tradersunion.com": 1,
+      "theglobeandmail.com": 1,
+      "ChartMill": 1,
       "WHIO TV": 1,
-      "Stock Titan": 7,
+      "Stock Titan": 6,
       "Military Times": 1,
       "Yahoo! Finance Canada": 2,
       "finance.biggo.com": 1,
@@ -30,20 +31,19 @@
       "Metro News Channel Nebraska": 1,
       "MarketBeat": 2,
       "MLive.com": 1,
-      "GuruFocus": 1,
-      "Medical Xpress": 2,
       "Benzinga": 1,
       "Fierce Biotech": 1,
+      "Law.com": 1,
       "Military.com": 1,
       "The Telegraph": 1,
+      "King's College London": 1,
       "NR Times": 1,
       "kalkine.ca": 1,
       "GlobeNewswire": 2,
       "Bioengineer.org": 2,
       "IDIOTEQ.com": 1,
       "Investing.com Canada": 1,
-      "nature.com": 2,
-      "Business Wire": 2,
+      "Nature": 2,
       "Investing.com South Africa": 1,
       "simplywall.st": 1,
       "CNN": 1,
@@ -51,7 +51,7 @@
       "IMDb": 1,
       "FirstWord Pharma": 1,
       "Dagens.com": 1,
-      "Seeking Alpha": 1
+      "Medical Xpress": 1
     },
     "byTier": {
       "T2": 90
@@ -75,6 +75,38 @@
       ]
     },
     {
+      "id": "01c1c214588e",
+      "time": "2026-08-07T06:25:40.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "DFTX Vs CMPS: Which Stock Has More Upside From Trump’s New Psychedelic Therapy Push?",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2tKT2FBODN0eXlWZHhOYjBHRmhQdzNDM1dJZkpibWFPZ1lBcXpWcnptTi1iVE4xSFpRMmE0RWZnSkhJVl9DNDROOWNfcjZ1NTdrb24wYllWTkFNMGpfQTRFeWVnY0x2UGwySFFhOWdPOVNrMWhxWC1RWXRqbGozY192cjZ1N1JBNzdzRGZKYXJkeWVoLS1HZjVENTF0YzJBWVlqM2FFSUt2WVNkRFBrUDhBWVU?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "6926a0d52152",
+      "time": "2026-08-07T06:12:29.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (DFTX) Boosts Cash Reserves Amid Psychedelic Medicine Advances",
+      "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQTWNVWGRzcWZNLWlHYkxDY1lKdWllUVpqc1lmR01PeTlZR3BDUEpzS21LSi0wVVYzbGJsSjhybWw0c0MyS2FnYXVWSTlYVGlnZ2hjWmkwUHVCa1I3ckRUX3d0bzFzSTRCdzQwSkh6SWlIVWlSU1MtWTdnU2sxZTd4a2JrSXBIMXI0WS1EMURjTlgzUUdRRjNIQ184NmZDdjcyY2l4R19xOGs4SXVRWjI2Zk1sNU9iQ1BHOUxidWpTend4TVJaQXpMNWpDbUQ4NURUeUF2dkFmeFEtZlBieU90Nm1qMS1Gb1AtMFNCbHdOU0Z4RUhFOHNQdnFHMndqWXBtS0JYWWRoMXFPNzEtZERJUU8xX2VYXzAtUXBJUG5GSFJqZzA2am40a1R1NFdwQ0VTVnE1TXJoaFNNNDZVam9oam9CQnVyeWltYnVDMzU5Tk1rSlJ5X3pjY2NDMmJFdWdf?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "20e688d09430",
       "time": "2026-08-07T05:38:24.000Z",
       "source": "Investing.com",
@@ -86,22 +118,6 @@
       "impact": "LOW",
       "title": "Why is Definium Therapeutics stock rallying today?",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUzBWb3U4Tlk3TVZ2TDBINEJUaWotRzA5VGR5aWl3N3NQQXdpQ1lxNUdYSXBXV0lzRjlYU0F0QnNmWXI5VDEzdHRKLV8zNmxtVXY2OTNpTmM3Qk1kaVlCRVR0akF2R2dMMHhsUko5VWsyYzVHTU9KNFM3UzBvQzFPUUFFLUwyNjBGMWY4S25BdHhVXzlXaVZrcnRvaHBXUnZydVhUQTktdzVGRklDVDJoRw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "a7a5e62b91f3",
-      "time": "2026-08-07T05:28:52.000Z",
-      "source": "ChartMill",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Definium Therapeutics (NASDAQ:DFTX) Slides After Q2 Loss Misses Estimates on Warrant Charge",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb2l6WFhrenZZNWppN3haT2liNllONXdKblBvZE50Z1BDdGxOdkNzeHYtSWllajVDWldiQThSaTF6cWdaTW9ZUjBwLWhVeUlBWnlOOFYzN3ExeXZfRmR0Tm12ZlA1Yl9uR0ZfTzQ0dGQ0Uld0UGZidVlUSUk1dWJUSWdBNWFYa25sVzBqUFFvb0Z3cUw1Q1hwcVh6dFBtbTRXbzNTVkpNNmg3UTc3V2FSY2ZKbjFhTnZKTnpWUjhGbGhjTHVkenBuOVUySTNLR0p3TE1ZQ2x1MA?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -125,7 +141,7 @@
     {
       "id": "2ecd7040aa94",
       "time": "2026-08-07T04:49:33.000Z",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -204,7 +220,7 @@
     {
       "id": "623c85c4372b",
       "time": "2026-08-07T02:18:00.000Z",
-      "source": "alaskasnewssource.com",
+      "source": "Alaska's News Source",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -234,7 +250,7 @@
     {
       "id": "9e65aeffd255",
       "time": "2026-08-07T01:09:00.000Z",
-      "source": "alaskasnewssource.com",
+      "source": "Alaska's News Source",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -356,9 +372,25 @@
       ]
     },
     {
+      "id": "9bb6576c1893",
+      "time": "2026-08-06T21:52:20.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Definium Therapeutics Q2 Loss Widens",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTF82OThlQkJaLXFvR3dJek1NR25VVDhOZ0QwSmhwOFNaWjJSZDZ4Y3ZUR2ZfMkxIVHAtSWxWTjRvSDc2Rkw5eXJGTzJhY0IyRDVKRk9RSWdXRHdhRFNmMV9rVUY3MEFSUkJEZDAxa1RJNDh2TEhHSl9oS2l0d1JQY1FZWU9XWXZnVU9TOUdXaGtvMGRCS2RUandscGk4UQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "6a2dcb5863cf",
       "time": "2026-08-06T21:40:27.000Z",
-      "source": "Traders Union",
+      "source": "tradersunion.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -422,7 +454,7 @@
     {
       "id": "7a8963c7f56a",
       "time": "2026-08-06T21:06:00.000Z",
-      "source": "The Globe and Mail",
+      "source": "theglobeandmail.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -433,6 +465,22 @@
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNnI4SEVvcktodXZJNHpGM01SMUI5MXlyVHh4OWtMWnQ5aUJRaGJXTlRoRUlRWm91RVNGdFY5bHB0RmUxdkYxUVVOaFRLUTdKRXN3b3diRXJ5ZU82ckdTNkZTeElVVHBPemZOMWRKWm9CdGhjWEFyUWZYV3dhWjJGdjJnYWZwNHZoeDZjNjJCOG9iVVk2aEI4T0M5Zzg4WlNQNGpySTRLUE9LQS1nLXJ4VGEzUlVySmNITm9PUHg4S1k2dHI5ek9qUTc4c2RfUDdJMl9aRUEyWmpfT0dmZ3c?oc=5",
       "tickers": [
         "VTGN"
+      ]
+    },
+    {
+      "id": "a7a5e62b91f3",
+      "time": "2026-08-06T20:50:33.000Z",
+      "source": "ChartMill",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (NASDAQ:DFTX) Slides After Q2 Loss Misses Estimates on Warrant Charge",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb2l6WFhrenZZNWppN3haT2liNllONXdKblBvZE50Z1BDdGxOdkNzeHYtSWllajVDWldiQThSaTF6cWdaTW9ZUjBwLWhVeUlBWnlOOFYzN3ExeXZfRmR0Tm12ZlA1Yl9uR0ZfTzQ0dGQ0Uld0UGZidVlUSUk1dWJUSWdBNWFYa25sVzBqUFFvb0Z3cUw1Q1hwcVh6dFBtbTRXbzNTVkpNNmg3UTc3V2FSY2ZKbjFhTnZKTnpWUjhGbGhjTHVkenBuOVUySTNLR0p3TE1ZQ2x1MA?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -516,7 +564,7 @@
     {
       "id": "5a2f16ed2222",
       "time": "2026-08-06T19:50:30.000Z",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -626,7 +674,7 @@
     {
       "id": "5e6420dc335a",
       "time": "2026-08-06T18:35:48.000Z",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -824,20 +872,6 @@
       ]
     },
     {
-      "id": "411b9d85f7eb",
-      "time": "2026-08-06T15:20:05.000Z",
-      "source": "Medical Xpress",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Single dose of psilocybin for depression shows promising results in UK's first publicly funded randomized trial",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUXpjaUdpSnFPZlVONWtPQlhfb0dyb2RwbTllOF9ndnlaQzVQZUZaRmUtdVhZOWNva1Buc2lGWXpnQWl3STctUmhISVk5MHhVMjltM0NTSFAwbk5OVDV1SWJVeWl0NmdCTUdpNmZyX0FNZUdCcU16SExKbVBSS2R5MDZiNzVsXzQ3?oc=5",
-      "tickers": []
-    },
-    {
       "id": "b076a40b91dd",
       "time": "2026-08-06T15:16:02.000Z",
       "source": "Benzinga",
@@ -887,6 +921,22 @@
       ]
     },
     {
+      "id": "a54465d64d78",
+      "time": "2026-08-06T14:01:22.000Z",
+      "source": "Law.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "New Deals",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ucTU5RUl6VWd0c01lb3NhclhLaTd6XzQ4Qjdvcmdrd29Ib1NPVHhyM0Z6N2pTTU44MS14M3Y3X2lubG9yT0ZpMzd3WHgzRlM4RVhiUGRoNEZMOGhX?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "049e6dd854df",
       "time": "2026-08-06T13:50:51.000Z",
       "source": "Military.com",
@@ -912,6 +962,20 @@
       "impact": "LOW",
       "title": "Psychedelic in magic mushrooms can ease depression",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUml5R2E2UFlvbzdPOVRfYms3R1E4RlJIalN5dzR5MVBCVG5iTFJiZDBPc1ZBOE5BVlRRS1FLOWZkTGwtakZGcUdLMVY5aWdENF80cFRVRjNUWmMxd0VITDJTT1BSbnlYY2Y2ckQzMnlqVlIySDF0X3AtQ1NJcWh3Tzh1Ny1zSGtIN2hVTFJMRE5OYlJSaHA4?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "41c4dc4229f1",
+      "time": "2026-08-06T13:15:24.000Z",
+      "source": "King's College London",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Promising results from first UK trial of psilocybin for depression",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWg0R3pJZ2MzZmw1NWlDUkxFMFlPb1kwRU5zRUxrRkRkS0JTRi1RLS0ySXdWcktCZW5IeFhWWmN0UmNHWW54dkRWa1hhN0lqbUIzRU50UktNV0VCWDhjZ1oybGdfRHlkQldJQnlQaV9CeHpBSVM3YjFVSWNrbDBHd1hvbTVDUk9QVTVna1luR0NCcTJxV1VuOUxIb3hDWHRPWXI4d2hNb0Z2Z0o1bW5CRjRoMDFibDdKTkJQTw?oc=5",
       "tickers": []
     },
     {
@@ -1133,7 +1197,7 @@
     {
       "id": "8d4cbad781ca",
       "time": "2026-08-06T10:40:34.000Z",
-      "source": "nature.com",
+      "source": "Nature",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1147,9 +1211,9 @@
       ]
     },
     {
-      "id": "396e2cf1ea4e",
+      "id": "ba5c4b5c8b0b",
       "time": "2026-08-06T10:30:00.000Z",
-      "source": "Business Wire",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1157,7 +1221,7 @@
       "direction": "BEAR",
       "impact": "LOW",
       "title": "Compass Pathways Working with U.S. Department of Veterans Affairs for Investigational Study of Psilocybin",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVW83LXhpQnFJVDA1aGZDWlctQXZiNGg1MFBmU2ZFbFJFRGE4NkVfN0FuMVlVb1J3a0RPVDM5Sks0V3k2ZDYtRFhfWmtXdWtkdzBjMjRqbUJzNEhReTBSckRIR2xDbGZOdVI3S25tRGV4Z2JGaXFuV05hRDZzeGZIdDhqbWRfLTlnTnRDdWo5NE9WemlvLXF5dE1ONUIxYzJwZm5NZC1nQTNxWS0zZzU3b2tNaFRWbW1Rd1hKU0w0QXlHb3V3YjVDaElzaG1YcDd4UDZRSnBmN1IwV0F2SmFTVlRqMUxVRFVKcmJWWDlZbjlxOThu?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1dRbUdreHg3MHIwMmRyWXpRNWhnX2M4aTRnTXBDZkxJRmZzZ2kwWFBQYUoyWVZYaEl0VUZkWmdsdmc0M1BEU2tQeDFGZWpoeXZDbXZsWWRQRlVDUmRYREQta1JaZzNubmctZ2l5bWNnWmR6VEM5dExVTHA1d3QxMEczVGtNWnlaWmtHUUpVZ3BraVRLVWtDUTROSHlLdzQ?oc=5",
       "tickers": []
     },
     {
@@ -1177,7 +1241,7 @@
     {
       "id": "a19eaeacfa2c",
       "time": "2026-08-06T09:06:57.000Z",
-      "source": "nature.com",
+      "source": "Nature",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1186,20 +1250,6 @@
       "impact": "LOW",
       "title": "Psilocybin-assisted therapy for treatment-resistant major depressive disorder in a public healthcare setting: a randomized controlled trial",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00ci1JMDN3MzJsWkFTUndVVFJxVEZGSjZnYVVyUzN3S3FoUGdQcjRrSzJmT0JtZFpZM2ZFbTVoOW1lcFQ5U3VHc1VtRV9NNXpvN3lXWjlUQ1NRdDBMWkY0?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "3978a1865019",
-      "time": "2026-08-06T08:40:45.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "impact": "MED",
-      "title": "Adam Schiff Warns Trump Research Cuts Put US Innovation Edge at Risk: 'We Cannot Let These Harmful Policies…'",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQckRMeTY0TnRHSEtHeWZ5MjBlTzNsWVVSY2c0RnQ3Qzk1X0VucXd2dU8ya2JoYWIzdjMwWEVWemRCQS05R1FiMXRLR1hiTGdmME1VcVVKa2p2LUU5WFh0OWc2M2txZ1U4WkhheE1EVTNDZlBaNzVjdW9wbDIzdnJCRVpEYkxob3Fpb2RBMTNsa0xrR2F0R1Z6UC1Sdl9CLUJHQWlGeHRrcTVGQTdmNFB2ZEJqY2w4Z28zMWJCTW82Z3Y0d1RrUGt4MUJuMmdvR0dpR2JKb0g3aHNQNFRaNUk0emtyVGszM2EyWE1zM05BTnlyVV9RVlZZ?oc=5",
       "tickers": []
     },
     {
@@ -1295,7 +1345,7 @@
     {
       "id": "06ba65551c95",
       "time": "2026-08-06T02:36:26.000Z",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1397,54 +1447,6 @@
       "title": "New psychedelic candidate may spare the gut while still healing the brain",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTWJxSWl6RDE5T3hVclY0X1J0NjBLZzA1SGxyZU5PZElEWGFkUEdHeGdaRlpuZUVEVEVfOGxIQlhCeGx3YnVuZzAzS2NlS3NBSC1rMjBUUXctdzFEV3k0Mkh5ZTloNmI3alpmTVhYMzZsSnI2WThjNTdNOTZpMGRrcQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "3f5171ece7ef",
-      "time": "2026-08-05T20:37:45.000Z",
-      "source": "Seeking Alpha",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Cybin continues rally following CEO appointment, up another 13% (HELP:NASDAQ)",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUHBHWFQwTXBpUFppT3BfeHNqSmFmYXVlc0hwMW1LdklpZU5sT0tVYWFkTHZwUFhReVpmM2dWdmp0clgxb2NGZVYxT3N2ZkpSZTZSMG9nVk5ucHJjSkh3OVUzOHlKbGNBQ0xPd0ZCbGpFcWhpNEtZdWFpU1dzZUtpZjNpUUw0NmRadktTUXpBclZMdmU0aTJwZVoxSGp0QTZf?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "8ad7d4b26d0b",
-      "time": "2026-08-05T20:30:00.000Z",
-      "source": "Business Wire",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways Announces New Employee Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMElFcldvZzYxRmptYzk4ZXFjbHUybUNYU1NqTkhTWXpMdWZiX3lNd1VuUjdxU05Zd0VKNmdDY1FMMXBuN3RMcVNHbExzdmVHSG40aE9DQzdoakFvTXpUaFpzSkpCMEJjM0Y2cmJ0SVprUUZFcTlPN1Bxcm1LTzhFMDJrSm9Pc1hDNFBicl81WExKSy1rZmhDdndUVS1ZbW9sRXRRNEZBZVJuMHBrS0d0VnhJSjAwZ2V5eUIyZkt0d0lCcDhiNXp5aVA5S0J5NlV1V1BXLXJla0tZTnU1eE85VQ?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "f920025ee87b",
-      "time": "2026-08-05T20:19:21.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "CEO Kabir Nath has shares withheld for taxes at COMPASS Pathways (CMPS)",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeXFJVG15MGh0TzFleW9lS1A5M0tWWWo2c2pzODNvTFNtdnoxNGJyd0dQc2Jyd3ozYjBReEplT1NkSzhyTUJBTzVwYkIwYjVLdWhNWldFRDBGel9ncmdzT1hjbU1RYWctSWF5ZS0zZ21jcUZ2aENZTUp4OElzd3VrRExFM0VYNHZLUEItV2t3b0o5S3JabEZpUlRic0tjdXdwWGt5ZDRGXzB2eXB1NjdpYlhOXzM?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
     }
   ]
 }
