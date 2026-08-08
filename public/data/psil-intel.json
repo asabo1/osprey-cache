@@ -1,31 +1,33 @@
 {
-  "updated": "2026-08-08T17:03:51.340Z",
+  "updated": "2026-08-08T17:44:45.641Z",
   "counts": {
     "total": 90,
     "crit": 7,
     "warn": 13,
     "bySource": {
+      "Yahoo Finance Australia": 1,
       "The Killeen Daily Herald": 1,
-      "sg.finance.yahoo.com": 2,
-      "MarketBeat": 14,
+      "Stocktwits": 8,
+      "MarketBeat": 13,
+      "TradingView": 2,
       "simplywall.st": 4,
-      "Moomoo": 7,
       "Stock Titan": 3,
       "TipRanks": 6,
       "Law360": 1,
       "Seeking Alpha": 2,
       "Yahoo! Finance Canada": 4,
+      "Moomoo": 5,
       "Finimize": 1,
       "Investing.com Nigeria": 1,
       "Buttondown": 1,
+      "Yahoo Finance Singapore": 1,
       "Quiver Quantitative": 1,
-      "GlobeNewswire": 2,
-      "neurosciencenews.com": 1,
+      "globenewswire.com": 2,
+      "Neuroscience News": 1,
       "Yahoo Finance": 3,
       "citybiz": 1,
       "BioPharm International": 1,
       "AllSci": 2,
-      "Stocktwits": 6,
       "Psychedelic Alpha": 1,
       "Investing.com": 4,
       "Newsweek": 1,
@@ -33,18 +35,17 @@
       "Pluang": 1,
       "Marijuana Moment": 1,
       "PR Newswire": 1,
-      "BioSpace": 1,
+      "biospace.com": 1,
       "PsyPost": 1,
       "kalkine.ca": 1,
       "Polity.org.za": 1,
       "The New Yorker": 1,
-      "tradingkey.com": 2,
+      "TradingKey": 2,
       "GuruFocus": 2,
       "Yahoo Finance UK": 1,
       "Medscape": 1,
       "The Clinical Trial Vanguard": 1,
       "CNN": 1,
-      "TradingView": 1,
       "marketscreener.com": 1,
       "Alaska's News Source": 1
     },
@@ -53,6 +54,22 @@
     }
   },
   "items": [
+    {
+      "id": "1a06b7f80141",
+      "time": "2026-08-08T13:11:47.000Z",
+      "source": "Yahoo Finance Australia",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals, Inc. (NRXP) stock price, news, quote and history",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OZ19JZExLVkppVmoyclNFemlkNkNZLW1XNGJYM2QyZVYxUTlhYVY4ZVk0VnRaZUQzQU4wNktYMF81WjVQREVHalZjd1o3U0xSWlE?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
     {
       "id": "2ede878637f4",
       "time": "2026-08-08T13:00:00.000Z",
@@ -68,19 +85,20 @@
       "tickers": []
     },
     {
-      "id": "56595e52bf12",
-      "time": "2026-08-08T07:52:30.000Z",
-      "source": "sg.finance.yahoo.com",
+      "id": "cfafc11bfd4a",
+      "time": "2026-08-08T08:02:26.000Z",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "sector",
+      "category": "trial",
       "severity": "INFO",
-      "direction": "NEUTRAL",
+      "direction": "BULL",
       "impact": "LOW",
-      "title": "NRx Pharmaceuticals, Inc. (NRXP) stock price, news, quote and history",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KXzBCQWpyVFo4bzdRejlHa3NvYWZ5VEpra05hWHVTZWRYRDVpbTJqeFNCSlMxQ2VsWFU5LXg2eE1JeXI2R0JvWmRONFRnZ2s0ZWc?oc=5",
+      "title": "CMPS Stock Climbs After-Hours: Analyst Sees Depression Drug Approval By H1 2027 Or Sooner After Strong Trial Data",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN3p0UWVmSEZvcHA3aW5MbkhUdDlDbTYxRFRMXzZZdmpwREJsS2RDQzhEd2kzZ0gwWXBiaHUyQTF4dnhfOGtFQmU2YXhNUHNLODNfc0lxYjZKT0toQVd1enZQTGxjbjNxbVNWYmRISnlIeHhOVmV0UlYwUm1rNmhpUnJnTkNoLVQ2aUVTNnFuWUlMenJ6MlhWSXVWM0RYb09XcldGcHZ5TGI5X053M09fSzJiTGZHQzg?oc=5",
       "tickers": [
-        "NRXP"
+        "CMPS",
+        "DRUG"
       ]
     },
     {
@@ -129,6 +147,22 @@
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZVFuSzdLWTFOSU9uWXVGUmI3MnZ6WC1udzhQUm5BVWZMU1VBLW9zellNazVzRm9kUThQY2xGR0RDM25kMXdsbHdIZmZjbXJ0ZTV3bGQ1WjQyX0NFdjhnWG5HWUNyaFppOXZTc2lQdklzeW5HTllRSUZtLUIxMFc2SmE5LXp2OURnQmo5OUdRVGpraVpiaGEwYVVvNFpOcEo4UGlvU05hVUpqZDB4VkpKdEVRODd5cDU1OU5TX19nN3doU0U2QmtqMmtRTkdjdDV1cl9ZTUstUkE0Q2s?oc=5",
       "tickers": [
         "DRUG"
+      ]
+    },
+    {
+      "id": "38e10d4a6b8e",
+      "time": "2026-08-08T06:34:52.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "ETFs Investing in Neurocrine Biosciences, Inc. Stocks",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11ZllDYW9aZnRQS3NIYVFwMkwyMW1IeWlpOW1QUzV1TXhlZTFKeExqRURyaU5uTHRCa0ZTbzFiMW9Bd3JPWFVWZFlFaDRJazFWOWVuT1V0WjQ0WUVzWXVV?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -196,22 +230,6 @@
       ]
     },
     {
-      "id": "ede1cef954ae",
-      "time": "2026-08-08T04:22:03.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "TD Cowen Maintains GH Research(GHRS.US) With Buy Rating",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeXlPckFvZVZvalBWMEJBWm1oMFZMVWJpZXQtQkNPZDhUWTVTUkJKOGtNUkRCOUhSRndWdEJJeW4tV2RwUi16Q3cwQlJHNmlKYi1PazNaUVhMX3pOVi1aUVBQVjZJVVhjT2ZHTlZVYThfZDZGUUNBUm41TzBrX3VCYzRBRmxKOXI2V20xZ3dxU0tBYVp2ZlBPekRkTQ?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
       "id": "fffb4abfb453",
       "time": "2026-08-08T03:05:42.000Z",
       "source": "Stock Titan",
@@ -244,6 +262,22 @@
       ]
     },
     {
+      "id": "b6a3069ffea5",
+      "time": "2026-08-08T01:50:21.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "CMPS Stock Slumps Premarket As $150M Offering Cuts Into Psychedelic Trial Buzz",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdmh2Zm8zT19qU2d1MWpDbS1NN1pYY1hjdWhUckdVUUtfUjFfSlR2MmZCOVdDcE9nVk9hd0FxTDlzQVpqSEsxNWkydVZpNkxVbVpxWUNqTktidFJPTWhXbENtOTlib1NrbFpIQjB6cHczWWoxbkZwVVZ5VUN0SUk2bGJkb0N4Mi1LcElFd0FnbHo1QzBFRmJ3anpuTUlKUWNGenJZUmFXclIxTkQ2NFJDNWxDYTY4TjBrQS1vSTZDWjNIdE5XWC1VS0JMZ0xTbWRaTzc0YkxISlU?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "082c04fd1f49",
       "time": "2026-08-07T23:48:00.000Z",
       "source": "Law360",
@@ -256,22 +290,6 @@
       "title": "VA To Test Psilocybin For Veterans With Severe Depression",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNVczTENFQm9vcDZfT01tbUJvb0YwRUo4aUozeU51bkN3cm5pNF9JenNNNkQydXNDeUhNaEFRWlludk51aFkydElZTGV3dzVZekJUN2xzOXdvY2Q3cktrM3EzbmxUR0I0OWpzTmpkTGZSYUk2cm5mYUJ2R1hfR2JPQ0JCSm9OaV82X1dYc0pDN1dsSlBYS09SVEx4d1IwUdIBVkFVX3lxTFBmdG5FVXNtb0lmdmNQQzZ5OGpMQXE5NG80LWpSNEpENFBKS2JyVEdYRkV3WG1QVlNwWjAyYU5XbXlPVUtVRW96elhuazhHVWlDZmwweUpB?oc=5",
       "tickers": []
-    },
-    {
-      "id": "28eb8976ca6e",
-      "time": "2026-08-07T23:22:45.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "A Quick Look at Today's Ratings for Definium Therapeutics(DFTX.US), With a Forecast Between $50 to $75",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWDFZajlTMEE0bmVFX2FndVhxaTgta0NKU20yeXR5SXF3eTJ6eHdxa25ZQ3k1NXU1WnVYT3hqUWNTMTNHRW4tbGJ6M1BFSkVUakEtQ3dpR1F3akEtX2FxZ1ZxelJIVDN3WEdRSWJMNThwblpHSDdaYjB1OFhHUnJwNmdhdTV6Qy13b2k3Y3ZoeHBoZ184OERPYmdOTmVsaHh5?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     },
     {
       "id": "0676a8fe2032",
@@ -400,7 +418,7 @@
     {
       "id": "b82c545fc965",
       "time": "2026-08-07T20:31:40.000Z",
-      "source": "sg.finance.yahoo.com",
+      "source": "Yahoo Finance Singapore",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -430,7 +448,7 @@
     {
       "id": "d05811a45165",
       "time": "2026-08-07T20:01:00.000Z",
-      "source": "GlobeNewswire",
+      "source": "globenewswire.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -462,7 +480,7 @@
     {
       "id": "69acc2d34b1f",
       "time": "2026-08-07T19:29:05.000Z",
-      "source": "neurosciencenews.com",
+      "source": "Neuroscience News",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -957,7 +975,7 @@
     {
       "id": "e847f4e05903",
       "time": "2026-08-07T12:22:37.000Z",
-      "source": "BioSpace",
+      "source": "biospace.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1003,7 +1021,7 @@
     {
       "id": "6b51463f8c32",
       "time": "2026-08-07T11:00:00.000Z",
-      "source": "GlobeNewswire",
+      "source": "globenewswire.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1113,7 +1131,7 @@
     {
       "id": "034ec4b006e5",
       "time": "2026-08-07T09:42:14.000Z",
-      "source": "tradingkey.com",
+      "source": "TradingKey",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1145,7 +1163,7 @@
     {
       "id": "881552a760fd",
       "time": "2026-08-07T08:17:22.000Z",
-      "source": "tradingkey.com",
+      "source": "TradingKey",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1452,22 +1470,6 @@
       "impact": "LOW",
       "title": "DFTX Stock Clocks Best Day In Over Two Years On 'Best-Case' Clinical Results For Oral Lysergide In Depression",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZ1hMY2hiQUVpaFVJZ1dnakIyRmduMTJ5Y1hKTDdkeUZtYkZBMUVFc2p4X1RLemhMY3NQZl96UUpQNzdCdmtERDdJMUQ2cG4yZGNRaHhkTVh0LWNWSDUxZHcwckppamVsSVlQNFdtTnlGVkw0cDZqNmxCeUNDNmRzdWZiQXpTLWxOa3UyaUdVRWI0THhocGJDdldYdmxPQkU2d1RMQTVZbXJYc2IxOHk4bjRhcF9zMTBGOFphX1ZNTkQyNTdzZUFpQ1BIRC1xbU1TQmQzc3FNYjBjMkk1MldTQVo1YXNoZVcwSGdtMm5NTQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "acdd4f84e0b8",
-      "time": "2026-08-07T01:22:34.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Definium Therapeutics Q2 Earnings Call Highlights",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRjMycTBuZFUxaXhkM3FPT050RWVMS0x2d19pTlJlaFk5dms1YURaVHNSRUdFV0ZMSjFTM3BIOXhBelRlWjV1dUttT3ZEX2dXS0ZZWnhEb2FNUFBrTE9mc1J4NExaQVVCUHliMnU4VjlrREktbnllbl9rMmgzdXpQM3pUQnJ1Wnd2Vi1oMFByZ0Fmb254SkwxZnQwbnhaeDV2RTVKbVJB?oc=5",
       "tickers": [
         "DRUG"
       ]
