@@ -1,21 +1,21 @@
 {
-  "updated": "2026-08-08T20:12:40.803Z",
+  "updated": "2026-08-08T20:48:18.779Z",
   "counts": {
     "total": 90,
-    "crit": 7,
-    "warn": 14,
+    "crit": 8,
+    "warn": 13,
     "bySource": {
       "Yahoo! Finance Canada": 4,
       "The Globe and Mail": 1,
       "Yahoo Finance Australia": 1,
       "The Killeen Daily Herald": 1,
-      "MarketBeat": 12,
+      "MarketBeat": 11,
       "TradingView": 2,
       "simplywall.st": 4,
-      "TipRanks": 6,
-      "Stocktwits": 7,
+      "TipRanks": 7,
+      "stocktwits.com": 7,
       "Law360": 1,
-      "Moomoo": 5,
+      "Moomoo": 6,
       "Seeking Alpha": 2,
       "finimize.com": 1,
       "Investing.com Nigeria": 1,
@@ -26,11 +26,10 @@
       "Neuroscience News": 1,
       "Yahoo Finance": 3,
       "citybiz": 1,
-      "biopharminternational.com": 1,
-      "marketscreener.com": 2,
+      "BioPharm International": 1,
       "AllSci": 2,
       "Psychedelic Alpha": 1,
-      "Stock Titan": 2,
+      "stocktitan.net": 2,
       "Investing.com": 4,
       "Newsweek": 1,
       "PRLog": 1,
@@ -43,13 +42,14 @@
       "Polity.org.za": 1,
       "The New Yorker": 1,
       "TradingKey": 2,
+      "GuruFocus": 2,
       "uk.finance.yahoo.com": 1,
       "Medscape": 1,
-      "GuruFocus": 2,
       "The Clinical Trial Vanguard": 1,
       "CNN": 1,
-      "The Spectator": 1,
-      "Alaska's News Source": 1
+      "marketscreener.com": 1,
+      "Alaska's News Source": 1,
+      "KTVF Fairbanks": 1
     },
     "byTier": {
       "T2": 90
@@ -249,7 +249,7 @@
     {
       "id": "b6a3069ffea5",
       "time": "2026-08-08T01:50:21.000Z",
-      "source": "Stocktwits",
+      "source": "stocktwits.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -447,6 +447,22 @@
       ]
     },
     {
+      "id": "4e2980ff88a4",
+      "time": "2026-08-07T19:30:06.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals Shares Rise After FDA Finishes Ketamine Review",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUtXY0U1UlRLUkdfOVZLMHFaaHB0UFo2TVc1X2luajNiOXc5LVZIUDBGQjA4cjZRajl1dDI3NFJHSHVpUHhFNWNWSXFHRGJzWnpMWGVpN2NTNHJlUU81a0p3RTNFQ2JxaGs4aHp2U0xkUVJWS0JvQVNFa2ZqSnFlRllYcHBtOFFXa2wxQmRFNHFsV3QzWGZSWDNuT0laS1J4VGRCeU5JNV84RVpP?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
       "id": "69acc2d34b1f",
       "time": "2026-08-07T19:29:05.000Z",
       "source": "Neuroscience News",
@@ -527,7 +543,7 @@
     {
       "id": "198e99ac6963",
       "time": "2026-08-07T17:19:41.000Z",
-      "source": "biopharminternational.com",
+      "source": "BioPharm International",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -552,22 +568,6 @@
       "impact": "LOW",
       "title": "NRx Pharma rises on FDA review of ketamine ANDA (NRXP:NASDAQ)",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZXJwRUpnVFZBWm05V2dIZVlQQ0JpMnE0S0E0ZlJJRHJqeUpTZEU5NHFnZFVvVGVWaTU4aU5Sbnk3RWkzRzhRRVk0WmNJY0lreEh6bHZNVXhlUFFjbTRXM19ZbzNvRlpWRmZ5S0o2aGs3eU5JeFBMcldpa2dvV0cyRFRxNlFEUQ?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "4810ad7bbd2d",
-      "time": "2026-08-07T16:40:21.000Z",
-      "source": "marketscreener.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRx Pharmaceuticals Shares Rise After FDA Finishes Ketamine Review",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMjF5ZnQyMkU3bW1qVHhJZmZpQk9QRGVXSzNyQ09YWE01aUpuRk5TbHU0MFRPOFVCRGsxR2YtTG81T3BCaXVPaGgwd1lwcEt6Z3Z3Si1YX3hiTGIxcGdNcVRad2FkcXpGWUhQOVZ2UGh3VkN4Qi1DR0djcHpPTDhYbXpCa25hTkVVZzh4Wkk2V1R6d1pJX3F3MlpFQ1ZqZWZDSmVxTXRUWXZBeVd3TFFuN1B1SVAwUDZQaXZB?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -607,7 +607,7 @@
     {
       "id": "afd3a2abaf18",
       "time": "2026-08-07T15:54:57.000Z",
-      "source": "Stocktwits",
+      "source": "stocktwits.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -655,7 +655,7 @@
     {
       "id": "9ee7e6e90d6e",
       "time": "2026-08-07T15:36:48.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -715,22 +715,6 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSGZWc0tueWlJMm5zM2s4eTdQZkpla2JQd2pmTUNBVElQbEYtZDJzLXYxYnd5RUZ3UllzRThHTV9oeF9kbHBTOTR2RGRWNnRJbG1sa1VpX2hpZE1ZN0JTSU1rRVZaSWllVVh4cG9LWHJQa3JXQWNtbjdoNzlQWkp1VnBrV0tHQkREakNPR0M2a1poUnhNUVdJZlQyYU1udWIzWVNSTmJGWEtuSzIxU1B6aXpGQQ?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "fdc10e22fbd7",
-      "time": "2026-08-07T14:23:37.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "GH Research (NASDAQ:GHRS) Reaches New 12-Month High Following Earnings Beat",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaUVfTTFyQ0IwRnRXQjlGVE40WnhMTXZhTUY5cnZUSWF6QnktNjd4cXFBRkhhU0dLSGgtT0c2NV9YTkRVaWNlRGc2RzdBa0N2YWVSdmZhSTJiUGNEWUJ0MHEyUGY0akFHZG9BSE1VZWp0UE10UkZOcVNTZEkyejBLbTF1dmN0TFVnMkhDZXp4SnduMGs2cWhQRWFRR3JFWjl5eXE4SFBxUDZKRDQtN20xdm9scXczYkdiek1zcUlIYVkwNURJ?oc=5",
-      "tickers": [
-        "GHRS"
       ]
     },
     {
@@ -896,7 +880,7 @@
     {
       "id": "bb2af33c6eeb",
       "time": "2026-08-07T12:35:49.000Z",
-      "source": "Stocktwits",
+      "source": "stocktwits.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -974,7 +958,7 @@
     {
       "id": "5925b83995ac",
       "time": "2026-08-07T11:00:00.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1114,6 +1098,22 @@
       ]
     },
     {
+      "id": "71121c058e76",
+      "time": "2026-08-07T08:29:32.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (DFTX) Boosts Cash Reserves Amid Psychedelic Medicine Advances",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa2k4ZTBkUmZQckVlbmYzQ1Zmb3F3c1B0SkNaMlZlVjBZVzg0Vm41VHJCdi1ua3J5Z2RHRkU0MnB4aVlMMUh0Mjd0NVg5Z2w5RmRuMUhGd0tyUVFTellzbDBsMlN2NkU0aFhuR2tBRlJLZDZQdldmbURSanJiMVk3RzRjSTBqdnZvdF9yWG1XUjhVMGxBTzZCSENXeHk1dTZyOUNMRExZNlZJbmsyV0dGbERtcU1qVXFTeElvV01R?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "881552a760fd",
       "time": "2026-08-07T08:17:22.000Z",
       "source": "TradingKey",
@@ -1162,7 +1162,7 @@
     {
       "id": "e992c27e000e",
       "time": "2026-08-07T07:35:34.000Z",
-      "source": "Stocktwits",
+      "source": "stocktwits.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1226,7 +1226,7 @@
     {
       "id": "01c1c214588e",
       "time": "2026-08-07T06:25:40.000Z",
-      "source": "Stocktwits",
+      "source": "stocktwits.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1237,22 +1237,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2tKT2FBODN0eXlWZHhOYjBHRmhQdzNDM1dJZkpibWFPZ1lBcXpWcnptTi1iVE4xSFpRMmE0RWZnSkhJVl9DNDROOWNfcjZ1NTdrb24wYllWTkFNMGpfQTRFeWVnY0x2UGwySFFhOWdPOVNrMWhxWC1RWXRqbGozY192cjZ1N1JBNzdzRGZKYXJkeWVoLS1HZjVENTF0YzJBWVlqM2FFSUt2WVNkRFBrUDhBWVU?oc=5",
       "tickers": [
         "CMPS"
-      ]
-    },
-    {
-      "id": "6926a0d52152",
-      "time": "2026-08-07T06:12:29.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics (DFTX) Boosts Cash Reserves Amid Psychedelic Medicine Advances",
-      "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQTWNVWGRzcWZNLWlHYkxDY1lKdWllUVpqc1lmR01PeTlZR3BDUEpzS21LSi0wVVYzbGJsSjhybWw0c0MyS2FnYXVWSTlYVGlnZ2hjWmkwUHVCa1I3ckRUX3d0bzFzSTRCdzQwSkh6SWlIVWlSU1MtWTdnU2sxZTd4a2JrSXBIMXI0WS1EMURjTlgzUUdRRjNIQ184NmZDdjcyY2l4R19xOGs4SXVRWjI2Zk1sNU9iQ1BHOUxidWpTend4TVJaQXpMNWpDbUQ4NURUeUF2dkFmeFEtZlBieU90Nm1qMS1Gb1AtMFNCbHdOU0Z4RUhFOHNQdnFHMndqWXBtS0JYWWRoMXFPNzEtZERJUU8xX2VYXzAtUXBJUG5GSFJqZzA2am40a1R1NFdwQ0VTVnE1TXJoaFNNNDZVam9oam9CQnVyeWltYnVDMzU5Tk1rSlJ5X3pjY2NDMmJFdWdf?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
@@ -1290,7 +1274,7 @@
     {
       "id": "ddf961f65f55",
       "time": "2026-08-07T05:05:27.000Z",
-      "source": "Stocktwits",
+      "source": "stocktwits.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1382,20 +1366,6 @@
       ]
     },
     {
-      "id": "84408dedf7f9",
-      "time": "2026-08-07T02:18:40.000Z",
-      "source": "The Spectator",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Big Pharma wants to sell you psychedelic drugs",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPak1LNnV1UEFwSEZ2RjlsTlNQTlY5R0ZmMXBCMVRqUkRNSEV1UGoyTC1hY24tcXRyX3pUYm9WQjVlTlpQQ3ZYUDdxVXJRQkhUWTd3dnpMa0NfUmlGOVRZdHQ0OF9JX2VlcDFWd280LWxMalJvazBiaWU4TWlvQmZfSFZMSQ?oc=5",
-      "tickers": []
-    },
-    {
       "id": "db9c264eeab5",
       "time": "2026-08-07T02:18:12.000Z",
       "source": "TipRanks",
@@ -1444,7 +1414,7 @@
     {
       "id": "e537f406da05",
       "time": "2026-08-07T01:29:54.000Z",
-      "source": "Stocktwits",
+      "source": "stocktwits.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1469,6 +1439,36 @@
       "impact": "MED",
       "title": "Definium Therapeutics Q2 Earnings Call Highlights",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRjMycTBuZFUxaXhkM3FPT050RWVMS0x2d19pTlJlaFk5dms1YURaVHNSRUdFV0ZMSjFTM3BIOXhBelRlWjV1dUttT3ZEX2dXS0ZZWnhEb2FNUFBrTE9mc1J4NExaQVVCUHliMnU4VjlrREktbnllbl9rMmgzdXpQM3pUQnJ1Wnd2Vi1oMFByZ0Fmb254SkwxZnQwbnhaeDV2RTVKbVJB?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "9e4810bd9d89",
+      "time": "2026-08-07T01:09:00.000Z",
+      "source": "KTVF Fairbanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Mass. officer to share mental health and psychedelic insights at Arctic Visions Conference",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMFFHMURCTXNuNm1Vdl9aUFp5VW8tdl8wWXU5VWNVMEJMOU9TSHN6VWFCN0tjUHQ5SG16ZDRQY2otcUZoTEJIQ29pYTlYSDA2ZTc4ZVJBNmNRWU43V1BuZFc0MGdGMjVMc1l6TnN4WjF6ZDZOUEdwazZrNkd4NlEzS3pBakVfRW9FY2V0UTZ6Nmx5TEtRZHRpdU1zZU9XMjM0OVBwcEtGS1E4Vlczem8wQTZhZExvNUVTRi1WTGJRSjJOSzZLbG5nZ3Z1Vnk?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "2ce7dd6e3adb",
+      "time": "2026-08-07T00:56:52.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Definium Therapeutics Posts Strong Phase 3 Data and Capital Raise to Fund Psychedelic Pipeline",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNnNzc09QbkNMMDdIVGI3d3g0Wl8wWVhZaFdMbkIwSFlTY2V0TEZoQUlpMXF3RnZtQTlNb01tcGJ6dWdDVUNoMXN2TFkzNmxEaUpoTUVjbkJLa0NCaFVKLVdDX0p0UkZaQTRiYkJWSUxLOWc5bm0zS1c4QWJYdElyTXZ3ZVg1UzdWWlo4bGhJQWRVdUctZ0pxY2lpNGxFTzM1bmxwT05DYWtVN0xER1A0RlRuY1Z0VVNwYmJGREdxVU5lOFBOaG9uVUg0NXlrTF9yaDREdDlaWm85WWVvdHF3?oc=5",
       "tickers": [
         "DRUG"
       ]
