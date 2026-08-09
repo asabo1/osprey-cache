@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-09T16:13:11.743Z",
+  "updated": "2026-08-09T23:03:57.176Z",
   "latest": {
     "date": "2026-08-09",
-    "wti": 78.18,
-    "wti_prev": 77.29,
-    "wti_delta": 0.89,
-    "brent": 83.55,
-    "brent_prev": 82.49,
-    "brent_delta": 1.06,
-    "spread": 5.37,
+    "wti": 78.83,
+    "wti_prev": 78.18,
+    "wti_delta": 0.65,
+    "brent": 84.44,
+    "brent_prev": 83.55,
+    "brent_delta": 0.89,
+    "spread": 5.61,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,58 +160,262 @@
   },
   "intel": [
     {
-      "time": "15:52",
+      "time": "22:36",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Live updates: Pentagon asks defense companies to ramp up production as stockpiles run low during Iran war",
+      "outlet": "CNN",
+      "source": "Hormuz",
+      "date": "2026-08-09T22:36:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zczFtNVN4ekhEZnBzcmk1a0JsOHlRanpTblowSUN5d1pCbHRmMTN5Y045bkdTdG92bncxWUhqZ2ZOdEV0X3kxU29TZ3lkYU0zd3N4Qk1LMUhvU3RYM2RhcXpJN2FEZjdoSVBNWVZR?oc=5"
+    },
+    {
+      "time": "22:31",
       "severity": "MKT",
       "direction": "BEAR",
-      "text": "Iran says Hormuz deal close but its conditions must be met",
-      "outlet": "The Daily Chronicle",
+      "text": "Iran-Hormuz Deal Fails to Reopen Strait as Oil Holds Above $80: What It Means for U.S. Gas Prices, Inflation and Stocks",
+      "outlet": "finchannel",
+      "source": "Oil",
+      "date": "2026-08-09T22:31:38.000Z",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdzhRVE9SSzJ4bkk4OVFkQ0dWMnFjcFpwX3dPRFRtWXJrdmtKNkgwQVBLellrVlZNb1hiWTQzOHZzWFc2dGhpeTh4SVRFY3pIVE9uSEEyQS1QQXJBbXRjZk1RLXBvT0h3cVU1Nk5KUDZxbGlqaUxZa1NPOFJTMi1zNHA0bmNtR1U2bFoxUW9xMA?oc=5"
+    },
+    {
+      "time": "22:27",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Iran live: Tehran demands compensation from Trump to reopen Strait of Hormuz",
+      "outlet": "The Independent",
       "source": "Hormuz",
-      "date": "2026-08-09T15:52:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdzh4ZzdwM2lCS19tXzAzU3VyUFNyM2JEemcxVHk0cTktNzdfd1VyYWwxNWhRRUE4UE02RUM4X0FDaVlsVDR5QkFkYjI4c3c0ZGx6RGFUVUZXM3lXWkFnYmpjQzJFNVF2cHFmemt6N0tobDhZR3BmYjBNQlhLYkowb2dZUG5DXy1QMDEtUFhTT00yOFhkUGJxZ0pubzVtU2tt?oc=5",
-      "cluster_size": 6,
-      "cluster_id": "iran-signals-strait-hormuz-deal-close",
+      "date": "2026-08-09T22:27:53.000Z",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUlRBbkRRSDlfbDVmbk9ZVGExVzIyYTRZcExKcFdmaGh4TG5ZMlRNdlpDQ1JBYlNZdHhJSWZOOGJpXzNFVlJSZ0o5aHNudTZnNm4zS245YlQwd3NabV9RWHNPWTFITTNiRTNKaHBuQkM4bm5Fby0xNV9GYUc5OFhKVTZQeFh4YXNLNVVVWTdYNDF4Q256WHBlYWF2Z3dkWHExanpjZGo3VGJ0TEN5?oc=5",
+      "cluster_size": 10,
+      "cluster_id": "iran-issues-tough-demands-reopen-strait",
       "first": {
-        "outlet": "The Hill",
-        "date": "2026-08-08T15:31:00.000Z"
+        "outlet": "The Guardian",
+        "date": "2026-08-08T21:01:00.000Z"
       },
       "also": [
         {
-          "outlet": "The Hill",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLU5tdDdyb1l5SXNQVE50Nm9VR0lTbzM2RWRXTEk1OG1EQnZ6NjA4R2hyMFd5ZEJRaEt0WVdNaXdJVmpHT0FSZmZDWGpqT0dKaVJEd2ZBNl91ZXhpbExxWDZzREJhZmxNMVEwZnVGeFlfY1FDMGtzZUZzeUZhQUFpOWJ3X2dlaFpwQ21BaNIBkgFBVV95cUxPdG5ieVRjdmZ1ak1iM2p4TV9iN1MwYnJGQnEzZXlXNXlyRFRXNU9IekFZTlN4TVpzelREcm9pbXdMNTVjTHpvRGluemdwa1NLS09aQUJiemZtajRpWGs4cV9xd3lfVjhLYWRTczEtbmtmYmJ4eGdFekxQdThSRDZkMTR3SFRmakdyRk9aWWk1Tm43Zw?oc=5",
-          "date": "2026-08-08T15:31:00.000Z"
+          "outlet": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaUNTWVFLLXhncGRwVGVoMGZSWXhtMlNFZmFFVG5jcUV4MmhSVDA2UEJoS1NWSkotQUJwSEZEZVBjbGRWVEItY1VJR0RReVA0aXpXNlNNc1c4RkZTN1pDazh4eVc5cXlFSUR6em41VzFKdGd6SURhLUY2RFhlSlBfNTZsUjM3QkdEaXJTUEg0RXp4c2w0cVdGLTRnQzRaa0Q2c3RFdHczRDIyMnltYUVybUpjLTRRcW9wTUxwano0NllJRW1VcVE?oc=5",
+          "date": "2026-08-08T21:01:00.000Z"
         },
         {
-          "outlet": "Australian Broadcasting Corporation",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYnAxTWxsNVUtTmJvTWJmLU85UzRkd0xGN1dra0pacFc2anI1Q0hyWnM1WmJWZFBxSUpZOGFMYnVHcFhRX1dISnZoWFVFOGlnTlAtZ0JUREN2OWlnT1hBejZzX0pSNVpfR1ZfaTl2XzFCT0JnYTZJSnNKT0NGYXJiUTdLZjJrX1Y1dk0xOGJ5SFBOakJrdWZ4SWFKSGNXU28?oc=5",
-          "date": "2026-08-08T19:38:13.000Z"
+          "outlet": "NBC News",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTjRyQnZ2aG5rTlFvRmplYkNqQ3Rxck5pREMzSGxnRm1oOFRSd3hic3BlUzZ3alAtZFB5RjFiSC1ibnVpNm9DQzZWVVk5c2Iwd24yeUlEQzBqWGZ6eHdMaFI4d0MtdDIxbXlzTDgzT0tsX3ZJb2Zvb3ZnLTNTbzFla1BORl9sN1pkeDEtVFE5SWhJY3BLUHFfaWhKRjh3WHBRS1FV?oc=5",
+          "date": "2026-08-08T23:24:34.000Z"
         },
         {
-          "outlet": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQamRGcXFaNi1MR2thUGZTRWtRQmN1aEZkb0JrMktmellDNFdlQ2tkcGp0WjhNdDZsX1dheVprbHo0cTAzUFg1WjU5TlNpLTBZTzhka2FwRklNQWVaQXFnZHZMS1NXd0JWWXJpNUo5T3NRa0wxRFZ0eS0xdm9QTjAxUzItNEFDN3lrdTN2cWJONi1TTndaNnpaOHVOcFFLRE40YzhLd0tNakF4eUpJOHZZWUFhUVA?oc=5",
-          "date": "2026-08-08T20:04:30.000Z"
+          "outlet": "RTE.ie",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lVExvaUZXOXdyUXE5UGhCUmREY251cjRjcUc2cGJCRmw5WTAwZWNLMGVHeEt3eEJEY3lDVE9iaU13UjIxcUo4WlJqMlNBVzRYY1lMOWhHWXpacHc0NTdqMlplSEJNT19PSlJqQWsyVQ?oc=5",
+          "date": "2026-08-09T04:42:44.000Z"
         },
         {
-          "outlet": "NewsNation",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04a0JfWlUtUkdobDBYR0J0dXhBbkd3QTdtR2tENkF0LThQSk5NMTVvWmV3MlJKNWZsYlItVU9oT0U3WVc1a1FnUXdGc3hBN2ZpUEQxZDR5d1lHLTRQNmhJTlpZZlZ6ZXZqSDZNSzRBa3NueG5GOHpyZjEzc0PSAYIBQVVfeXFMTVZreV90Tmw4a1RKWGl6R3hGUjlTa1pnUzh3RXZvYjU0dFFnZ0E4UmpYNFFoNFIxM3JMb1psZ2MwSkd3NGVfaTgyQ2llSjEwN25NVGdpOXd2Q1lxLTlRbERQQk5qY0NrbTRMN1ZPM2FHZzd2SkVTOG1jd0lWOW5MZXQydw?oc=5",
-          "date": "2026-08-08T21:00:14.000Z"
+          "outlet": "Inquirer.net",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONk5RQUtYVDBvV2VqallzQ0J3cXJqTy1FcVMyS09qVEFPZ1dQR25SUHhCczZZaVo4d0t1YXNMdThVZl9Kbmt5bjBSd3RETW8xMkdKMVFzeTBtdUotNlBYNHdmVVNIMURGWG9Md2U0UnpOV3YxY1VrZE8tV0hvOXBYTU5UZ3lucksyMDV1dEtVVkEtZVB0S2tEcnZ30gGfAUFVX3lxTE5KVzAyMldfSEJiNHlkZmZoV3pkUFIxbEZ1MlVYNU55MnQxZkV6QU9PWXFzSzJhUU5uTXpDU0FnQ0lfVlNmMjh2TzQxaFpfamYtTDl1bWhtWF9fdVlCVVZITkRJWXlROEN6YzFzenhpcXJucnJrVV9iVUR2dThDNzcxSk9TeDgyUzlTMmNSclYwZDlKZ3k4bXZYcXBodVZ6SQ?oc=5",
+          "date": "2026-08-09T05:13:00.000Z"
         },
         {
-          "outlet": "Jefferson City News Tribune",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3lDT3BTSk9aSEpxcnh6MmFaYXdXWFhfRFpSMThoQVhLQjM4UG9PNFhuc01TWGJNbDBqdDgtVmt3VGFMd1d3Y3BaS1pTLW1ISUQ2NDg0ZzkyX0RnWXpZYjludGY5TmxTbHlRa0h5cTlnSHJISEVsZk1mM1BTVGluNU5pVkY1REJPUTBPM21QOTZ3ZFZBc3Fj?oc=5",
-          "date": "2026-08-09T09:00:00.000Z"
+          "outlet": "The Irish Times",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPMkp5OHpweTNnN1RZdUxJX0dPRTdDanpHWUxaQUpUZUstWi1zYkIzUEpaTHlFQWJMU29yV0hxcU9VZGJCSXBiRDdtSXRRak5MMWJpM3dwbGdhbkNVSjV0R3djVmVwZzdWOTkxQ2UyNFBvdzYyY3BmblJmQUtLai1MTGN6T0FWU1o3LXJOTllQOTBMVzBFWC12Z0hKOGNheWNiOTVqR3VWVmpNM1lSY2FxZ0dSQWwzZy1VNUthTEhrd19xSEc4V1lYOUhZanRKZU9YQUE?oc=5",
+          "date": "2026-08-09T09:02:15.000Z"
+        },
+        {
+          "outlet": "The Telegraph",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR3NoOHFLUkFSSXZvTDFZQ1h5ZnZmLVBxOGFuM2pjdUlZQTdhamlvT0xpSm4yWW5qM2lORHpwN2djNHlMcTIxYkkwQ1lJQzdURjFEWGFfdTQ3bG0xTjdEcUhIUHM2WVZEMWtZQWhtQk9rNG96bHdwM3VhY1RseFFvVnRJQzhqaTJfSFJ1WGp6ZUQ0cFpLUk85RUR3?oc=5",
+          "date": "2026-08-09T09:42:00.000Z"
+        },
+        {
+          "outlet": "Kyiv Post",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96ZkJpbFZpWjNMck0tRkV3cUZrWjVaSExIb0R3a0FlUFFNbU14WHY0S19zOGZDOXhtOXItODd1OS1tX1BCSHJCc1ZONA?oc=5",
+          "date": "2026-08-09T12:19:12.000Z"
+        },
+        {
+          "outlet": "France 24",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeGJtdXJSMHZZSVZ6SHQ1X1pmSDFFZ3AyRGVNNUVodUt1Ql9JenZUMi1naFFWTVVTRGpqMkxCNGNxOHRSd3NBeVZYYmhyWWxaTVZVOHBzOUtmSTE4ZmplRjVFWVpZdlR3TktpVU1aUFpLc253Qk5jNDNleGh2dzM5VVVB?oc=5",
+          "date": "2026-08-09T14:32:05.000Z"
+        },
+        {
+          "outlet": "Forex Factory",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUFlWdlN2dURRMUdHaXZGUFB0OWdFNmtUMUo5SXhxaG1aTFZ4bVpLallWOUVjTjJOTklLcTNnVXFicWxCRUVWTWVJWlZZOHJ1c3VHc0w5NTVsY09pMzVPT2taNFVhSFBYVjVFZERvSndValM4WUh0MkFkaWFJdlJJMmNYVXBaaUxPTldhSmlxRnfSAZYBQVVfeXFMTXNzbkVBaUx3eEhEd0Y0ZUp6SXdDVl9ncXZmLXRfdkpzR21Rc1FEU0dvUnJJb2Q4bUgxUVhHQ3gwQVBwQWtSRV9wQUtYd1ZOZDNPNGxyZWtTU2xuM0ZYV3c4ZmZtRGNHUXlIa3RkMGhDYVZtc2IxTUZNcTlaenVhLTN6VEYzVlBXaXNwa25aU3UxTVQwNHZR?oc=5",
+          "date": "2026-08-09T17:46:00.000Z"
         }
       ]
     },
     {
-      "time": "15:50",
+      "time": "22:23",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Iran replaces top security official at crucial moment in talks over Strait of Hormuz",
+      "outlet": "Financial Times",
+      "source": "Hormuz",
+      "date": "2026-08-09T22:23:21.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZmpaa3A2RWFTaFF4ajZIc3FYREV5czhHaExEV0JRUjAzTExkUmppLUtTZ0xuaVZ5MXFUMnFSUTE0NFROZDNGQ2pyd2JVNl9pRGI4U2I3cUE0YjYyYnN4X1cwR0NpTngzZUhkXzlFQUlLc0VMRVlaU0Z2RndpNmg4REhzZHk?oc=5"
+    },
+    {
+      "time": "22:11",
       "severity": "MKT",
       "direction": "BEAR",
-      "text": "Iran Sets Six Conditions for Strait of Hormuz Reopening - 조선일보",
+      "text": "Oil Extends Gains as Hormuz Deal Remains Elusive: Markets Wrap",
       "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-08-09T22:11:01.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-09/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "time": "22:09",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "US Iran War News Live Updates: 'Iran has no money' - Trump targets Iran’s economy, says ‘currency is trash’",
+      "outlet": "The Times of India",
       "source": "Hormuz",
-      "date": "2026-08-09T15:50:32.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWVE4NFBWSFhqNDd0UktCd0U5OWNSd3BiWmdTc09uR2owZTlHYjdMYlo5ME9scGhhNjBBRTJ0OUtJME8tcjJ1LVppWWtoRVNNVVMyaWwybmoyX25YQTRaM0xIZ2hEa2E4bTlqVjV2dTVMd3ptSldiSENuZGc5M0xoOHkwLTY?oc=5",
-      "cluster_size": 10,
+      "date": "2026-08-09T22:09:15.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNMkZGQjlvZW5famltS2Y1S0hrOEVhQjhZWXczNTFIVnB6YURnS2VwNzQyTnlYaTQyRTBvRnNmMHIxdU5EdDM1aGFWbVp2UGxyX2pnZHM5TVJlSHkxOFIyTkkwTjVyV29pYnNGUUxsdlJtcHpIMnU1UE1KTy1obXlYNTZGYUJfU2gzQUh1aVhQRy1EYXBHdUN1T0R6TWdCZHdSLV9sc2FQcEI3ZDZhSUQ4MWY0bVAzdC1GbDhoVXZvUWo5Z1lkd1JnenEzRDdvUTNvTkI3SEJmdk5kNkM2ZmZ5M3huNDdFLWJhcWh0dmt6N20zM01SM2RBYUFfbUg1b2tuZE9CVlB2SWd6RHk2R2gxaEZoeHFUaXZaU2NkZjQ5YVJjbzVxMmNoZno4ZG1tLXVwRTZsVWQ3RFdoeDNVanVF?oc=5"
+    },
+    {
+      "time": "22:02",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Latest Oil Market News and Analysis for Aug. 10",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-08-09T22:02:45.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-09/latest-oil-market-news-and-analysis-for-aug-10"
+    },
+    {
+      "time": "21:44",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Iran war latest: Oman condemns attacks on vessels in Strait of Hormuz",
+      "outlet": "thenationalnews.com",
+      "source": "Hormuz",
+      "date": "2026-08-09T21:44:15.000Z",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkRIR0dNR3FfRXVTMDVwNWZwT1N2VlE2M2tIeEQ4S3hRLU4wS01TRmpYS0IzbHF0TFFBOU5mY2ZCdk9lYUxrUDdDRlJTV0ZuRVpjQ3QxOE1EU2FMd2xSOHlZQ3R0SGxnempyRnBqRGFWbXpPYXYyWEgyT2VSeHV4Qw?oc=5"
+    },
+    {
+      "time": "21:20",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Trump claims he’s ‘low-keying it’ with Iran after report he could walk away without nuclear deal",
+      "outlet": "The Independent",
+      "source": "Hormuz",
+      "date": "2026-08-09T21:20:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbXFfQUIyb2FObmdFdjRpMFhUbnNQTUdXeWFVa25jUi1MLVo3ZDJ5cTNBMXQxajFXZGdNRl9zTFhwWWtZTGdyMTZRcEZfQVdwNFd3N2Z3S2MyYXE1VktIX3ZOVnhUZVRLempfc3JkaENGUlRyT19ZZkdFUzlDb2RsOGlGNEVFbmhyT0Rmb0NWX2pZVlJFSFNEZjFYb3lubS1HeWNqUldFLTNWY2hDX0hNUnZGcEp0UDlaNjU0UVlPdw?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "trump-axios-low-keying-iran",
+      "first": {
+        "outlet": "Axios",
+        "date": "2026-08-09T16:57:16.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Axios",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VRTFsbVotRUtYVFc1M0hWQktsNFVfODhxNGhIaGFPV3BDNHhRTk1fYXFYUHpHLWJQQmxJdGJxbllQc3ZLSkRjSkxfYWdadzNnX1FfSmxnQUZBUjJFR013MnE1dw?oc=5",
+          "date": "2026-08-09T16:57:16.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:16",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "As Trump Shows 'Desperation,' Iran Says Strait of Hormuz Will Not Open 'Until America Corrects Its Behavior'",
+      "outlet": "Common Dreams",
+      "source": "Hormuz",
+      "date": "2026-08-09T21:16:49.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SYTYyQ0Ftc0ROWmt2dkdrVW9wcEJ2ZGpta3EtZFdvdHYzTW5KUDVoQmFBalhaUmJzSHVMNGp4NnBabV9kYi1SNjRsbEJ0S1U5U1Z3Xy1tVUllako2amg3alZaNA?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "iran-strait-hormuz-won-open-until",
+      "first": {
+        "outlet": "HuffPost",
+        "date": "2026-08-09T00:34:21.000Z"
+      },
+      "also": [
+        {
+          "outlet": "HuffPost",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSTU3T2NFOGRoQTRvR19TRXpPdUp6dzlPYnBKZDMxTjh0SEItdUYxVHk0eXAxTVFhSXhPVjZHTVZDdGhXWGVpMFh1bDR0MmhzMWNGMXhBSk93elk2N3E4Q2s3VlJIMmNDaHlmVWRXbTBFVTludEpEc2k0dUdxRXlra3djUC0xQkh2VmlUZ0tCZkZzX2FpRW9NdzQtN3dyUGUyLXBOckgweWMzaTgwcy1oajlhemgwVjY2dC0zUm9IVTVnbzTSAcgBQVVfeXFMTVN3Vjl5SllfU3diVTZMVTNMRDZLdjE0UjNNZHZRMldaVEJib0JjWmx0OWZFd2taaW11V2h6cXVSVm93SG5RYll1dmpocE5SWWlDekxSek93OXE3eW4xcktjamNyTWJIYzZ6TlllS3FOajdWTGpuMm5ab0hOSTVoel9Hd3FzSTFBWWZ1LTJhaF9xSHJDbURhZnFJR043NW9ReVViNU9KZzN2R3c5aUxkRC0wY1d4OGE0N0t4Q1JLWHNTTDR5MDQ1bjc?oc=5",
+          "date": "2026-08-09T00:34:21.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:15",
+      "severity": "MKT",
+      "direction": "BULL",
+      "text": "Israel rejects Trump's Gaza plan, more details emerge on the Strait of Hormuz and other Mideast news",
+      "outlet": "PBS",
+      "source": "Hormuz",
+      "date": "2026-08-09T21:15:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSVNWN0k3aDZoNi1kaWR2a3lfaHBTZ2RxZjZSSmJQOVZUSXVaNlNRUDVoSFRVWEJleUwyUTZHczJYUXMteEhTUzZmOURUWEQzQW03eFR0aGMya3dYaVdsM3RhRjY1T0xJQlhDejVodld5NTZNdVlHWWRPOXdSWG5VRzE4Z0JTMG85Q1o4Q2FDdFZyT3BFZVA3c2Iwd043TTVzOUZwOFRfQnFEd0QtbTd5LXhzVjFkVlI5YmlTOUdkeUd1SVZtdkFYSmNQcGxzUdIB0wFBVV95cUxObFQxdXRtY2RXQXdhTW5JU3g4SjQ4cXd1WkxPSzUwTm0teGlpLVBYWndjVDJiSVdzQ2hpdjZiZUxaNTZWNWI0MUNDLXVlbTBNTmtSU0ZERzhSLWZLLXZGY0RlczNHNWM0Uy1rMTIzRVpLbXFaVUpzQ1VzaUFWYUg0T2VnNmh2OEFSeVQ0R25IZ2tkVFRtVDJWODlyQkxsOFExTDM3SGJQbVdpLVd2ckRvOEE2dWZ2cUFnOXgwYWYtT1A1Z1pndDhXVEY2a0Qtem5PVzZN?oc=5",
+      "cluster_size": 5,
+      "cluster_id": "israel-rejects-trump-gaza-plan-more",
+      "first": {
+        "outlet": "Anchorage Daily News",
+        "date": "2026-08-09T17:54:05.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Anchorage Daily News",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOU3A3eTdlVzVQZjVZbU1FS2xKQW01V3hMMnVMOFhHOGdIVlBKS3QwMVRVR3B2VmxzLWg5dHo3aDI2WW1NVWpBSUpwQ3FpVVd1Y09CdXczUnZTQ0wtblVlU29DNUJRdU9IV3dMRXJGWTBJVUJpR1lWb1JNb2VlQ3N2OEJBM0dtWFNfYjRxRVRmTElyMlBqQjI2cnNISFJtRWlHaHZIc2dteW80TmtGa3d4azJCZ1U1WXJCaml5NUl4emZ6NWhzQk9sQXhXaHlmZjkwR2x4MkxSMW5iLXM?oc=5",
+          "date": "2026-08-09T17:54:05.000Z"
+        },
+        {
+          "outlet": "NewsNation",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcEFhTDM5M0JuNldqR0MydzE0X2NVQWc1QmVXWnVPU2NZQlRTYVBENlJQSC1vOUYyd3RHWEFXU1hqREJmNnAxMm1pZFBOang0U3gxTWJKUUw4M29oU2JLNGU2eE1pLVA1TFQwbkR3NVU1ZVM2LXk4WHdYT2llWG5qTTk1STNDZzNkVXFVUV96eDFSWE1BYXlwQVdaQ25VaXR4U1NiZF9od3hSMEtjMzN1UUF3Y1h4eDVoM05vSGFaYVV2UDRKcVBGNVdCWGg4T0Y5czFVYkcxMjFhSzZJTjNwSUVB0gHnAUFVX3lxTE93dUs1UFBLVVI2WTFQaDJ5SnRGeGZVWGJPelpBT0RiRm8ydlV0akw3b25KWVlEM3M3dFJNTlVqaFJVQ0ZRc1hBeWZpUDR5bmpCNFZIdEhMVzlCMm8zdHBKLTlYcTdBbk02WFZzTnpEQzFsUTdYZ2hMYWxxZ013NGVTTWdpWHFwNF9rSzZEdG4tVDZxRXhKdWFMcDI5LWtvM0tnd0ZudWx0cllpZDZKUXR3WVd2RlJUQlhIVW1NWEVOeHdvbnBncVU4cHdMNXpIUGU5Q2NjdGg4XzBpdkpxVXNiT29MUG9Pbw?oc=5",
+          "date": "2026-08-09T19:13:47.000Z"
+        },
+        {
+          "outlet": "TribLIVE.com",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVU44MmtYUDFXUkhIbU1fcU5LSkRZcE9wZGJuQm9QZ1VkaTdYY29UaE1GbUFyQjJXNG05TUtCdVl1TEpnSmNVS1d0b2djTWk5VDlHZ2huNmlmZ0xYM0tiTzY2MkswVUFxWUY4Y3lFZkRSQXRUVUVfWjluRi0xdXluV1pLX0hvVWZiSzU4allDTnNGYjFBN2hib1dTenA0ZE0ycXBvTDJ1Q0FtaWRq?oc=5",
+          "date": "2026-08-09T20:36:47.000Z"
+        },
+        {
+          "outlet": "WTOP",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd0FScFRDYmRhYjNzNHNUQjF5WnFUS25LRExRVTQ5LWNJdWdMdjlzUXRvRXQ5d25XX1NKRU1pMjJZUGcyeTdkaUxBdGVqN0UwbmdZSGVGd3J0MUhBQlp0OF90UlE2ZElBSjRBcGZkOUFfSGkzOFlhUWNJZm1ZcXc5bk9yVlJVOFVadzBHdUMwd2JfcExpanU4TWQ3OFBqMG1EM0tWMWk3MWJVWWV3emUzT3JYaFRIYWpLRkdYWDFqblV0S1YtQ1U0?oc=5",
+          "date": "2026-08-09T20:37:30.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Tanker Market: Can Kazakh Crude Fill the Gaps?",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-09T21:00:59.000Z",
+      "link": "https://www.hellenicshippingnews.com/tanker-market-can-kazakh-crude-fill-the-gaps/"
+    },
+    {
+      "time": "21:00",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Hormuz talks positive, Oman says, as Iran warns deal would not open strait",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-09T21:00:54.000Z",
+      "link": "https://www.hellenicshippingnews.com/hormuz-talks-positive-oman-says-as-iran-warns-deal-would-not-open-strait/"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Oil Producers Buy Tankers Directly to Navigate Blocked Routes",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-09T21:00:52.000Z",
+      "link": "https://www.hellenicshippingnews.com/oil-producers-buy-tankers-directly-to-navigate-blocked-routes/"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "text": "Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-09T21:00:50.000Z",
+      "link": "https://www.hellenicshippingnews.com/iran-sets-conditions-for-opening-strait-of-hormuz-after-uae-says-one-of-its-ships-was-targeted-by-airstrike/",
+      "cluster_size": 2,
       "cluster_id": "iran-sets-conditions-opening-strait-hormuz",
       "first": {
         "outlet": "CNBC",
@@ -222,358 +426,6 @@
           "outlet": "CNBC",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOHg1SGZ0bkhEeVc2QWNHb3ZDbUJsUVRLMHZhdUxxV1dZQXlZM2lkYTJmSDZVQlFmV1EtRHFHV294N1pkbERPZXk0dHJSbWJtOUFwTHBwRERWY2xFMVJMZ1ZIM1ZLelR6QTJkUXVZVEFsRktVVUJObWhvRlQzU0t0aFc1Y2xraDkxV2J4MDQ2c3pVMm_SAZgBQVVfeXFMTVBpTHl0QWRxSHFON2dTREVVTmNjUGVRSW0yMWo1ZFpVMjlDdXhPdTJwUGl4Y1pOSHIzT3NjTHU4UXd6Vk80X3hEODF4V29tQnc1dGg2NENoZmU2ME1aUWVmZzRhZEVxbzRCQlc5RFRxX1NHTF9jdFdHczVrVXBiWXlPM0lNR19udzMtRURBYXFnSnVVWk16SFY?oc=5",
           "date": "2026-08-08T13:06:30.000Z"
-        },
-        {
-          "outlet": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQ0Z6VE9zOTlXc2VKSUt0MU9fMDVneXJVN2d5bTVVdDNsT1dSZnNscEhZSXc4SkpQd1JwaTlFajA4T1Q2dG1LekRpa3VGblNJM2RnVVg0SUV6dFdTd0Y3UFg0QWctQ0ZhUkRfQk92MkpaTDF5WFV3aTJyRlB6a3VPdGFxY2tUbmNKa2J4bUNjQQ?oc=5",
-          "date": "2026-08-08T14:55:50.000Z"
-        },
-        {
-          "outlet": "The Hill",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQjBfTnhNLW5JTUgyY19JZVh0UXNhZHhoTThEdnVxLWRKZGtvbTIyZkczaFo0U0JmY0hhZFJDSExUaU4zbFBhZWhBZWZpR2lWUE9BTm52YVRKOUxRS1c2bzhYTTVwRjJGMDREMEFOV2o2NTJTMzZEMFhHVXpVbTQySTZhSlN4ZWlBRXpOZmJB0gGTAUFVX3lxTFBCU3dHQlBSU2U2YzJoRDN2VEVCRll4WHRxRVhWeEZ2b1U0VjVHTUc0Z1VSbktZMWlBdU1KNDFlWW4yRFVCWHBTTVB3elNFOFBZTkNNUkJmY0xkWVYzMkRrd3pTeVdxQTNiTE9YTG9CdDk4cWpiTW9IVjE1TDVGX1VIMGVWY3BMQWFCQkRtemRjSDZnUQ?oc=5",
-          "date": "2026-08-08T22:31:00.000Z"
-        },
-        {
-          "outlet": "Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTlZ2WmtMV2F2QUk3M0ZwZ0RQVy0yY1FPWW5QQTljSG93TFBPcVQ4c1JNX2ZYT3FNYVZZZTN2NHZXVHdYbk1RVUFIbXlKTWFOaVFPRjA5NkRNM1I2UDhoYjV5NUVhRnNlY3VKZVVhbXg1SURIYnZwbzNyYXBaWHRWNHZtbFhFeGEyaXJhcVNRRFl4VDNsOHJ0UE1XaU9uUVV1ZnBFSnAyTFpRN2lsYTRPZ085UGFhZ2Z6SHNVb2YtQQ?oc=5",
-          "date": "2026-08-09T09:34:57.000Z"
-        },
-        {
-          "outlet": "La Voce di New York",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQalZQWkVjdFlucmpmd2E5RzN0d3hhTXBrdTZVNjRkYjU0TWpnZkpWU0FqbmVzeTFQOUZ5QUdzYUlrYUc5VjcyRVNBRW9pcGtQaXgta1Y2SDRVRm9YTWh4bTdKTmF6cHpQZks4Ti12Mi12SnZTRUVEWEF5SXhfOUduREtwODdSeUZlY1ZhQmh2b0RLZmxXbk1kcDE2U21tWkdjaENUVkhEZkVmenpob3NRSmhXTFhkRDdscGVxN0ZhdWJzTHFyUGRN?oc=5",
-          "date": "2026-08-09T10:36:02.000Z"
-        },
-        {
-          "outlet": "dailysabah.com",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUTJZR1l6eFhDeHNxVDhjU0x2QUdJS2JNdnhzS2ZUUWpQdm1rLXRLVXRfSGk5eVFoeDNZM0VqVklCZEF1SkFKc0N4YmJTRHg5OWs5R2w5WWlUQXpSeHZybHlKOXYzUk45akJYY2NBYkkwcW0yWHZJX1BuQ3A3OFBNVEIwc2ZyREdrTXl0ZmV3M2lHc0xLb0xHUHptM2RHZFpLakJrVDVR0gGrAUFVX3lxTE10dmR2V0dHN2JaRVZGMzBaM3pORGpxSDZrSFVsZ2xFbHZKSzM0SWVITzNYdUM5WHNuVTJucGdlR0hiakM5VnN4TGZ3NUdZWWNZT2hJWTUxb3kwSkU4dDJjWE9aeF9nQWxocjZVd29vS296ejV6NTAtRjZSQmowbVhJejZoOVJjS0dRd24xUllKd2Y2ekVPTF9RbDNsbEFvMUZQVE9wZ3VkUk5OYw?oc=5",
-          "date": "2026-08-09T11:44:00.000Z"
-        },
-        {
-          "outlet": "abcnews.com",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUDNBcHcxUnVELUVFUG51R1RSTDgwNFJxbVpaNjlMcTFobUs3eHNJTFNIQ0ltQ2t0SnlCU1c3ZWlHMFBfLTdGd0FyU19kdFpjV0dadExjTzQ0YWdYc1RlcHU2a2ptUGJUQ1Y4YW1vODJsYjZtZVhCdUI1Tmg5VEU2S1MyLUVuOTAwVnZRLTFFSEtXMDJ5cDBpM0lNeTlVc09QOUlB0gGoAUFVX3lxTE54T1dsbzlwbGJqeTNoaWRhTC1PUUxHZF9WVXNwY2NISlRPTFhfcXVGOVp5Q3o0a0pUaEs0TkkyemU0bTZrRTlyaTRLcHJiUFVPdmhTalBQTFpEMndLRGY3UE1ra2VXVVVuRFoyczVHVWRNM0VNV0VYM0ItZjVITk1UbXpLeW93bDhfV01jcl9ZVDY2T0oyR3pid3FYaG1ycjAzUEhWdmR6SA?oc=5",
-          "date": "2026-08-09T12:13:06.000Z"
-        },
-        {
-          "outlet": "NBC News",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV2J0bUZTUDZmaGFyZHBza2I4RVlRR2pCenJQVV9NdVlxT3p6MG0zUkJOVll1WmJCZ29hQXc3WWEzaXZiQUJhUU1kV2o2MS1sSkFQelppdUtNQUk5X3hwT01rR1dEeGJkMzJZaXJOa3hOWGwxLW8tZzEwUElXM3FGbGVlNWRXR3M1eE9QUDlmaXI5a2sxcmdwMmJ5RTFsR1RaTHhBdXl6QjB1dlRaRXFMVkxQS2U0dGs?oc=5",
-          "date": "2026-08-09T14:34:41.000Z"
-        },
-        {
-          "outlet": "newsweek.com",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YdUdybHJuX0RUa04wRXYyNHE1Q0RlQl90Yjg4MlFtNVVLN2VqWXo0UUg1VUpyUEo3WHgzUENKUTB5NVZzbTBCTTBGZFEtbzd5b01RUDBjYm0tMEgyU2hLdnlhQ1R6c0p3a1BndkpzSmVtVU1pRmNiZWdB?oc=5",
-          "date": "2026-08-09T15:22:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "15:45",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "News Review: Iran says Hormuz Strait won’t reopen until US accepts its conditions",
-      "outlet": "PressTV",
-      "source": "Hormuz",
-      "date": "2026-08-09T15:45:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON2hzZXM4eGJkRi1CZEhhSHZrR0lNZWdENHowN3FzeG42SXgwWnQxdG1xUzhLUy1RNUVVYjE4Z09SUTZ2ajNxbERMU3RYenQxV2d6TnI4ek1fZmVJWVlKeUpKYlcxVzFJbWpRVUZ2anZzeUwxclp6TWRrODJrc3FHeDV3LWNheXNqNFBDWmt2WDU0Ri1yT0hXbVdXWGxOVTBoalE?oc=5"
-    },
-    {
-      "time": "15:38",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Iran says no direct talks with U.S. as it touts incoming deal on Strait of Hormuz",
-      "outlet": "Washington Times",
-      "source": "Hormuz",
-      "date": "2026-08-09T15:38:34.000Z",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUHVoX19SbEZSdERIaUhMUThhRGxBMTF6b1JkWWZwMzdfQmQxcUM2Qi1qVDF5R3UxNE1hN0ZUMDdaTmR3OHY5ZmpzNHlycXdyTVZYMS1yd1dCbHZ3OTZHSHkyNG45Njc2N0ZFTjR0VEVWZ3lBcWJYcXl6MmtiRExLNWRpbGEwamxEaGtKeDZ2QTRFVC1SWTU4ek5XUUNuZ0N1MzJDWXRhQlRWSVBZeUZqag?oc=5",
-      "cluster_size": 8,
-      "cluster_id": "us-official-expect-deal-soon-between",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-08-07T19:15:43.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5",
-          "date": "2026-08-07T19:15:43.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5",
-          "date": "2026-08-07T19:15:43.000Z"
-        },
-        {
-          "outlet": "PBS",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcXAxZlhxSXlkQ1FJdkVNcGJQVlpwZ2U0Z19fSDRTWTVaUUlHVW1qREh5b01OdVZiV3p5MFZTMkZnRGNESFYtbEpIeVY0Tnh0dlBsZjlnT0t1eG00WnFvSTZ2ZVp2ZXVuYUx1YnZQd2hWd2w4cGpnZDlmdUpKZFJjQWtvR01wY0h5b2tRWHhuWm5IaDlFb3BjOGxocktTT3MtUkl2YVNVOA?oc=5",
-          "date": "2026-08-07T22:40:21.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5",
-          "date": "2026-08-08T22:54:58.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5",
-          "date": "2026-08-08T22:54:58.000Z"
-        },
-        {
-          "outlet": "Rappler",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRi1jWDhNVl8wejZRWUp0UUhsUndKc0stanJjSnVOUnpnLWV1VG5Oc1pjVTl1Y0dFajl1dV9XaXNtLUR1WmVfUTJpN3NQTFViU0ktVnZzTlF6aWlFMm8yUHVSMlBlMW1qMHdmUnBCbFhLRXh5X1hhZ0JHd2xtaklEMnl4NTZsbm4tTXBsYVFvWVA0YUdDd1E?oc=5",
-          "date": "2026-08-09T02:42:14.000Z"
-        },
-        {
-          "outlet": "France 24",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nUUFtMi1xc1hkcTNSMG5OVEM1TTVPeFZYczJueFludFRkZzR1WWEwZEVWNmkwVFBueVdvRDVINmdaSFBsRWVGQVFaa3ViSlJtMXJvYmMyaVd5Q21lUDZGeTRBcHFNRkVqOFFaelVnLTBNX3ZrbkE?oc=5",
-          "date": "2026-08-09T11:25:45.000Z"
-        }
-      ]
-    },
-    {
-      "time": "15:30",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Iran Guards say won't reopen Hormuz without US meeting Tehran's demands - Al-Monitor",
-      "outlet": null,
-      "source": "Hormuz",
-      "date": "2026-08-09T15:30:16.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRUpCMUVsdDhGWU5BeXduZHIwbnpmU29iTEljb05FUmZtejlhRUZjdXVHNGphRWFtdjllZTVsRnNGTnQwaDNpV3RLZ2JfZzAtVlAyZ3NmQ0oyaF96T2VFQXBSR0ZsZXc0ZktjTG5BTGtYTl9EY1RCYTdEMnRWemZicjJndUZHNkhKQ3d2M3FHSjNsM2hTal81MVNjdkpRSldvc0UycEZYMjJaam8yWlJTZHUwbEs?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "iran-guards-won-reopen-hormuz-without",
-      "first": {
-        "outlet": "RFI",
-        "date": "2026-08-09T09:06:11.000Z"
-      },
-      "also": [
-        {
-          "outlet": "RFI",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONVhPZU9tZ1FlazZOb0luRWtLaUtKZzZLdDc1aVE0cHA1eWlUS2pmWVpycWlHOXl4TEQ1eS1DaXdMY2JXaTVfbjFxR081bUszcGRtaE4zMUJybVQ1aGszMHVvSlBHaEpLUi1LcGxram11a2hYc2dkSWlsQ2FVS09sOTRrVnZZUXNkNFA1TGRwVmhROXhBRFlMdENwaHg0V2wwLVdTZldOTFU5Z0Y2aHBybmZaNG9XanpMV2VJbzV6Njg0YkY5RUZR?oc=5",
-          "date": "2026-08-09T09:06:11.000Z"
-        }
-      ]
-    },
-    {
-      "time": "15:15",
-      "severity": "MKT",
-      "direction": "BULL",
-      "text": "Iran rejects U.S. talks for now as wait for Hormuz deal drags on",
-      "outlet": "Fortune",
-      "source": "Hormuz",
-      "date": "2026-08-09T15:15:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMlVJVlIwWDFSTGJyMC1yRXdrbG5ESFlhM290UlAtWFphdVU0Zk1FQ0lIenQwTF9ONHFDeF8zMWxDMXBUYWoxb1ZCSFNubkJDUmM3M0duQkwxSEtjZHd4RVR0SWFobFF3emJJUVVSMW0tZVFOWmdRYTRMaFRXYnVkekhPQ28?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "iran-rejects-us-talks-now-wait",
-      "first": {
-        "outlet": "Bloomberg.com",
-        "date": "2026-08-09T12:44:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT3RVRHBobUFIcl9QblA0YTZVOTV5SENzZ1N1MEJaWDlsdFNBLUhZS0I3em9ndklHT29mLVF4cFpZcHRLTVNXcXhlMUpuLVlGTzhYTml3S2IyQUUwV3JqaXlLZkZWV3R1UkE5ZXBjeUlOLVNXQ2F2OG91WEZwbWswTWlqT2paamFmZkF6a1VPbmhYNTB4UEZaVmpPMHc0R04wOXNkUGdrZERJSkk5bGxIT00xckkzZw?oc=5",
-          "date": "2026-08-09T12:44:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "15:10",
-      "severity": "MKT",
-      "direction": "BULL",
-      "text": "Strait of Hormuz Reopening Uncertain: Iran Rejects Direct US Talks, Shipping Deal Not Imminent - News and Statistics",
-      "outlet": "IndexBox",
-      "source": "Hormuz",
-      "date": "2026-08-09T15:10:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLW9zWEdPeEkwWlREV3AxdDJCcmExZzQtcTlmUXhidHgySVJyQXloX1hndWRGUFQyQjl2NlhwdDBxRTA3ZExkZmN3cjVXVzlqY256emxjaUlad3laWmpldW1mMXpUUXJnOWNVYkl2X2F1MGNoM181LU81MWtXeDZKSmxlM1FpbFJ0RzNaTmlrcWljV0ZwVl9hSmdleVRPSmVaVVE?oc=5"
-    },
-    {
-      "time": "14:50",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "What's happening with the Strait of Hormuz?",
-      "outlet": "The Lufkin Daily News",
-      "source": "Hormuz",
-      "date": "2026-08-09T14:50:20.000Z",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQTNydm1kMHpqNWN1ZUt6OXd3RHRLNWVDVzRWZU4xSm5kcVpsaEwtdldJSmliZGJ3b2hDemtnOHRqUllheF85UjBGODJNc0thZjVKNXo3Y3BvQkFjTlJ3akhQc19NNUlUM1lHbjJ2Ti14YVFxTXUxV1ZMelU2WHByTmVFeld2bmJwVUhldUpTLUs5Ymt1aWI1SFN0VTlWUlZ3Zy1sY252blZpUUJPb2Rqc1hoMDhVYXo0M3djN185YkduNVJq?oc=5",
-      "cluster_size": 6,
-      "cluster_id": "iran-makes-dramatic-new-demands-around",
-      "first": {
-        "outlet": "Politico",
-        "date": "2026-08-08T21:43:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Politico",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbEtKbFh3WVZpeE1xWDFaT3l0NE5rYm16Q0hDcW9QZGltMnlsVTQ4NDRESWRILWJlRXZmenhVOTdGTUw3dmhjaHNHazhhTW5TZzVWUGdNOWNxckppZlFXOGllMjJ3RjQ2ZG1YNXNtOWNnWEExS1V2b1ZwdkZhZU5qU0RDbkNVRzZjYjJ0Y0ExcEoyTzZlMzZQQTZIME1QcWpkUEdHMnYxamI?oc=5",
-          "date": "2026-08-08T21:43:00.000Z"
-        },
-        {
-          "outlet": "abcnews.com",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE92NkpoMm4wY0RMbTBocDcwdmVsZ0tLZmQzYWZMWFY5clNNcW0xalpWcncyRUx0Y0swNjJwSUlKZTlHVW1kbkVFNkUxb28?oc=5",
-          "date": "2026-08-08T23:05:23.000Z"
-        },
-        {
-          "outlet": "NBC News",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTjRyQnZ2aG5rTlFvRmplYkNqQ3Rxck5pREMzSGxnRm1oOFRSd3hic3BlUzZ3alAtZFB5RjFiSC1ibnVpNm9DQzZWVVk5c2Iwd24yeUlEQzBqWGZ6eHdMaFI4d0MtdDIxbXlzTDgzT0tsX3ZJb2Zvb3ZnLTNTbzFla1BORl9sN1pkeDEtVFE5SWhJY3BLUHFfaWhKRjh3WHBRS1FV?oc=5",
-          "date": "2026-08-08T23:24:34.000Z"
-        },
-        {
-          "outlet": "The Times of India",
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZEVNWE9DTUFvbDVMbnU5TzBtOFR2d0MtZXBmYk1FR0RtME1mbmtoSzY1Q3otTC1lYkVVT3pwMlRueUtib3Q3TERMOW5hM0xkU3ZUdVFCWE5qa05CZmQ2aDgyci1qa2xMSEpIMFg0TVFLckkzY3FkenVTbUVSQ3JmSDl5NGtYM2NGdjRBTDdvS2VPQ3J6cXIwX2J6VmgzQkhqRXowa3dGODVsY2JrZ05TTmJycHZBS2xaZXQwN0c0YTFwZF9tY3dyT052dXR5aW1wWU1pNFVXdzY5MTJpYnFmbmtfX2dyQnFRYm5jYjZxSFNUd9IB9wFBVV95cUxOUUsyWGVRSHZiVFNvS21TalZYd0RRYTE2X1VWSjRNcTdhdU1sVW04aVRTS3dpWDRqQTIxSUVqQ1l1NjFHSWRXekNvS1RjOTYzeXA0bmVtcHNpWnRMZF9JX04tOG1PN3hNaTZsajZVRlBQTkRGNm4zbmpOSVdKU3NNb2xtMlNIYkg2MExHYXlqR2Jlbll0akt3aDFrRVZxTFZmNGs4QW9meEF5eXZwanNTc3ZCS05XTVB2MlZCZmJISEtVeUVDaHZxbVF5X042YUw3VHduVEFUWVZoOEszVF8zRDVOaDdJbUd4VDEwZ0lrdllQMG9CejQ0?oc=5",
-          "date": "2026-08-09T02:29:00.000Z"
-        },
-        {
-          "outlet": "NDTV Profit",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZXNaalJKZlZKOUZzRVliNVpPWndHdkZlWngyVHdsSzBSZ2NQWlI4bGhZX21vOE4xdzhiaGRKYkE0RVpDZFlabTVKZzhFRHdrRUpGQjR3c1F3UTZrVFJSN2dmMnRJTGZpZ0ppdW92UHJidE03LXpCQmtRWXhVUFE4NDlTdER4ZDhEZ3FWM2hpaVR1dUNhWnpFTkwyZWNCdzlwSTR1N2gzMXZDQzFuVG1qeVhCVkF4Nm15Wnd30gHDAUFVX3lxTE15elJ0YWtfWUNiT19FUGR1YnRWdXR5ZXFrUXRwSUQ2aGtYaUd5SmR5di1URDBLVWdFTVFBN1I0ZFQtYjZtU0FNM2NaUlY0QkZfSThoOWZmZnlZeVRjaGthR1MzeVJ6YXVYdmtZYjltRjZ6NFppTjR3RC1MYmtNMGVrTTNZbW9mQ2Z3T2k4aGdhZFNlazBFTTNrZmRUVUZoa3pJRk5kdUpkRkZScmJMclRKN2w3UGdQQjc3NWpLWktUb0xBMA?oc=5",
-          "date": "2026-08-09T10:29:54.000Z"
-        }
-      ]
-    },
-    {
-      "time": "14:44",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Iran and Oman close to agreement to reopen the Strait of Hormuz, Iran officials say",
-      "outlet": "Modern Ghana",
-      "source": "Hormuz",
-      "date": "2026-08-09T14:44:33.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ob3ZId3VydVduSXloZi1QTzZMalpEY3F3TkktWFNKRHh1TEFjVW0xQmJQUncyUkFsM2duOWVHM3c2aHVma0FVdy1ZdnN1a2Z1UUV6aXpKOUxINE1XRXV30gFcQVVfeXFMT0JOQS12WXBoT0RwNHpxWmdINVpSN01xdGFFbmdtN29PVkdlOEN1MDdqWnpzb3ZtZFM0ejcyNnNxanpEb3hrQlhFUGpua1ZNQUpuM2l1S3VqY3VNR2Y?oc=5",
-      "cluster_size": 4,
-      "cluster_id": "iran-names-price-reopen-strait-hormuz",
-      "first": {
-        "outlet": "The Telegraph",
-        "date": "2026-08-09T09:42:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "The Telegraph",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR3NoOHFLUkFSSXZvTDFZQ1h5ZnZmLVBxOGFuM2pjdUlZQTdhamlvT0xpSm4yWW5qM2lORHpwN2djNHlMcTIxYkkwQ1lJQzdURjFEWGFfdTQ3bG0xTjdEcUhIUHM2WVZEMWtZQWhtQk9rNG96bHdwM3VhY1RseFFvVnRJQzhqaTJfSFJ1WGp6ZUQ0cFpLUk85RUR3?oc=5",
-          "date": "2026-08-09T09:42:00.000Z"
-        },
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaEhyaWdVVHlvQVhrQ1BnWHZseER5dkhYc0MwVHZWS180TXpteU91UFQ5YmRTMENCTTVWZklXSnJfZjE5UHVtcWFDQkhCUXhiQVBTcHJEYVkwcDg5ak04SnNfeDl0Q1gyclF5b3ljWFphMmdQLUVmc1RrQmFnYUQ1Q0t2ZXp3Y2VJb1VRUHFGUko?oc=5",
-          "date": "2026-08-09T09:42:23.000Z"
-        },
-        {
-          "outlet": "Central Oregon Daily",
-          "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNZVdlWGRwNDA5anUzODl6dlV0dU5lY2llWjloSnV5YTBWQmRfSDA0UThwSVpvVDI1U0prNlY0VXNCQ3l4b09YLXktTHNPa05pNWxoSnZNd2d5Mm5jMHJuNDBkSVlxTXBxdUc3dGdkcFQwS1lrVElsSjNwWHotQkx6SmxWc3p5QWVJS3c5NjBsX2g5alNGWFlSNDJ3Ukg0eHNpWWRoNVl5SDhfNk1KMmVyaDBPaVI0aktHUGdxOUNYZEFndHpQQjFsYUc0S1d0cWN6eURfeEI4SVE4UnlHZzc1YlBMdXdmOE4zNDhueEt6ZjVvSzA0eWRsbzl2UTV6YVo0YjVOM1BMSVJHeE1NRXhKSw?oc=5",
-          "date": "2026-08-09T14:21:48.000Z"
-        }
-      ]
-    },
-    {
-      "time": "14:44",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Iran, Holding Firm to Strait, Steers Trump Back to June Deal",
-      "outlet": "The New York Times",
-      "source": "Hormuz",
-      "date": "2026-08-09T14:44:02.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcElZRGd1Tm1kTUMwaXV2MHRLLXdlYm1EZE42SUdlX1UyM2lXYnQwSFQ0S1BFQzA4VFltU3Q2SU15Y3ZMZTlhLU5qVW1UWFRqeGFVMXRxeXV4WUNENnUyM0taZTRwMmhibEFWTzdDbUVTQlBrVHdmOWtlcWtYUnV6ODl2VDFPaUp3N1E?oc=5"
-    },
-    {
-      "time": "14:39",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Iran Says Strait of Hormuz Will Stay Closed Until US Meets Demands",
-      "outlet": "Kurdistan24",
-      "source": "Hormuz",
-      "date": "2026-08-09T14:39:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX2szcFRVdFVnekkzTFhLOUFCeGM0ckFFSVF5Zkx4ajBwcENaWkNJcnBPOHhxRldUZHBINEtIMTZGRzNZcUt3Y09KdERhVTNSMHd2YXZnbDNPU3dSYjUycnVUNFJaS3hFRlJjT1g3NThsdmVKdExzX2N3NXAwaDkzQWJ4Nm81VUFxdDlHeGNaOVdLZFJwVW0yM2o3RlRoWTVPMWxGTTV2eFh5U3FPdnRn?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "iran-strait-hormuz-will-remain-closed",
-      "first": {
-        "outlet": "The Independent",
-        "date": "2026-08-08T20:58:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "The Independent",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUlZDU1FGRFFPNmozeDhFSFdFR0pRUUdFM0loSENzWFlIaWdMR2RMRzVfbkZ5TWp2MFJfbXhQNVJYVEk4dy01LXdmUmlvN3cwWFNpZnV3bnpIa0ZrYkE3dTVpYmhUZGszUndId0FIaFU1NmIyMnhlMzVhbWp2MDVwRTRIV1Y5VlVEWWVkbHBTTWI2aDJSRG5aTnI2Zw?oc=5",
-          "date": "2026-08-08T20:58:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "14:32",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Iran sets tough terms to reopen Strait of Hormuz",
-      "outlet": "France 24",
-      "source": "Hormuz",
-      "date": "2026-08-09T14:32:05.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeGJtdXJSMHZZSVZ6SHQ1X1pmSDFFZ3AyRGVNNUVodUt1Ql9JenZUMi1naFFWTVVTRGpqMkxCNGNxOHRSd3NBeVZYYmhyWWxaTVZVOHBzOUtmSTE4ZmplRjVFWVpZdlR3TktpVU1aUFpLc253Qk5jNDNleGh2dzM5VVVB?oc=5",
-      "cluster_size": 3,
-      "cluster_id": "iran-sets-tough-terms-reopen-strait",
-      "first": {
-        "outlet": "Investing.com",
-        "date": "2026-08-09T09:35:36.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORG5RdHpPbVRxb1ZtOWdNR1VINXFweTJJQ0h1ajZLZGNVb3B5REtHalhyNEhacDlXN0xLbFpoRnRQVk1LZjZvdFVFWFVtQjdISkhuRmJZMnktbzhvemF2N2doNkJKNE1Ua0EzWTNLRGNpaXF0a1duVjVBQlE2SzZGUk9Lamk3dVVQdExoaGtMLXEzWDd6c1JWY3d1VUlVaEhBSU83Tk1Qazg2bWZhT0JwV1JKX1JwVXR6a0IwVDRwVE4?oc=5",
-          "date": "2026-08-09T09:35:36.000Z"
-        },
-        {
-          "outlet": "Kyiv Post",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96ZkJpbFZpWjNMck0tRkV3cUZrWjVaSExIb0R3a0FlUFFNbU14WHY0S19zOGZDOXhtOXItODd1OS1tX1BCSHJCc1ZONA?oc=5",
-          "date": "2026-08-09T12:19:12.000Z"
-        }
-      ]
-    },
-    {
-      "time": "14:22",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Iran says Hormuz shipping deal nears completion, but U.S. must meet conditions (CO1:COM:Commodity)",
-      "outlet": "Seeking Alpha",
-      "source": "Hormuz",
-      "date": "2026-08-09T14:22:57.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMGNoMjRPUkl2SS1NT0Fwc3FZRWpGSFUyRGdGTW8yQXJodXphb1ZkclVvUGowRVJNVmstVk1TZFIxa0lHM0tHU3VrVEN6YVdHOUZIMnF5TF9jR1FtdDQ3OE9lZFpwcVNsR2Q1eHo2dW80b01uUUdJdGxmQ2VQRC1CZEpTVmpHRlY5dlBIVkdlQlFLTlcwUlVEb0NiblFsWHlkaDVzaTJOZzRZYWJZemN6a2w4VEM?oc=5"
-    },
-    {
-      "time": "13:59",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz",
-      "outlet": "Reuters",
-      "source": "Hormuz",
-      "date": "2026-08-09T13:59:33.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "iran-oman-deal-final-stages-but",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-08-09T13:59:33.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
-          "date": "2026-08-09T13:59:33.000Z"
-        }
-      ]
-    },
-    {
-      "time": "13:59",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Iran's foreign minister says new routes through Strait of Hormuz being finalized with Oman",
-      "outlet": "The Lufkin Daily News",
-      "source": "Hormuz",
-      "date": "2026-08-09T13:59:14.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQVk1PNEdRb0dCbXpHQlNISFo4RU9sUnpBRURYM25ncS1uLVQzWjQxMGFvUmRVUGtSUURsLS1EVFM5Um91OUNDemZ2ZUs4ZXhmeXpBdG5tU3lNUDV1a0pTLVk0Yk1PYmJfSVBCZHU5UW5ZYXZYQ0xXc05aMWN0N3JmZW9ScC1Mc1RJR05manZuRU5HS3pmNnZ2WHlPS0twcl9DNjQzcUdrSEt3am0zTGV4cHVwaHNXSjA5X3BrZHRidFFiNzVoR1hIVk1TaTlRNlhLTDlnWDkzOGRPZXdXaTNicXRmV05WTVgwSnNUSThwN1V0TjQ3UFZadWFkN2VFNF9TLXBCMQ?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "iran-foreign-minister-new-routes-through",
-      "first": {
-        "outlet": "AP News",
-        "date": "2026-08-09T13:30:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOaFZ3TlJGVE5sWWJJbVgtOF8tRENPTm1VRUhzSHlwMU41aV9kY1dGVFVndDNBNXFVNUdMSTlmY0dld2MtZkgtTVJ3NHNoQzIta21EdnF6ZWFiNlVWeUgxZmZXcU5SWDN2MklkLVN6UkFRQ25taTQ0YzdUU3gyWVZud2xtelllcVNMUnlBc0xBdzVYWTZ2dE9hYS1OYVhVcTJDZnFsTlk0YkZ1T1NjR3Q0WXpyNjJZOWlKNDNSMmlsTTJ4OEt0eXRwRml6QnctQndDVFVoX3M5MFBPLXpITmh4UQ?oc=5",
-          "date": "2026-08-09T13:30:00.000Z"
         }
       ]
     }
@@ -1640,8 +1492,80 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-09T16:13:11.743Z",
+  "intel_updated": "2026-08-09T23:03:57.176Z",
   "event_log": [
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T22:31:38.000Z",
+      "severity": "WARN",
+      "text": "Iran-Hormuz Deal Fails to Reopen Strait as Oil Holds Above $80: What It Means for U.S. Gas Prices, Inflation and Stocks",
+      "source": "Oil",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdzhRVE9SSzJ4bkk4OVFkQ0dWMnFjcFpwX3dPRFRtWXJrdmtKNkgwQVBLellrVlZNb1hiWTQzOHZzWFc2dGhpeTh4SVRFY3pIVE9uSEEyQS1QQXJBbXRjZk1RLXBvT0h3cVU1Nk5KUDZxbGlqaUxZa1NPOFJTMi1zNHA0bmNtR1U2bFoxUW9xMA?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T21:20:00.000Z",
+      "severity": "CRIT",
+      "text": "Trump claims he’s ‘low-keying it’ with Iran after report he could walk away without nuclear deal",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbXFfQUIyb2FObmdFdjRpMFhUbnNQTUdXeWFVa25jUi1MLVo3ZDJ5cTNBMXQxajFXZGdNRl9zTFhwWWtZTGdyMTZRcEZfQVdwNFd3N2Z3S2MyYXE1VktIX3ZOVnhUZVRLempfc3JkaENGUlRyT19ZZkdFUzlDb2RsOGlGNEVFbmhyT0Rmb0NWX2pZVlJFSFNEZjFYb3lubS1HeWNqUldFLTNWY2hDX0hNUnZGcEp0UDlaNjU0UVlPdw?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T21:16:49.000Z",
+      "severity": "WARN",
+      "text": "As Trump Shows 'Desperation,' Iran Says Strait of Hormuz Will Not Open 'Until America Corrects Its Behavior'",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1SYTYyQ0Ftc0ROWmt2dkdrVW9wcEJ2ZGpta3EtZFdvdHYzTW5KUDVoQmFBalhaUmJzSHVMNGp4NnBabV9kYi1SNjRsbEJ0S1U5U1Z3Xy1tVUllako2amg3alZaNA?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T21:00:50.000Z",
+      "severity": "WARN",
+      "text": "Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike",
+      "source": "Maritime",
+      "link": "https://www.hellenicshippingnews.com/iran-sets-conditions-for-opening-strait-of-hormuz-after-uae-says-one-of-its-ships-was-targeted-by-airstrike/",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T20:56:09.000Z",
+      "severity": "WARN",
+      "text": "Trump signals economic pressure over new Iran strikes as Hormuz talks stall",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPejVqM3BWMkxDdzZ2WGRSd0daMUMyMzQtejJabTJwVkJNVWNwYTVneVJUWnZHMmpzZFlHMVl6SlVMenVoNmRCTTJEYnFwWUlwYm85M3RTTFg5RHpiM1lwd2dUeDRvS0tGdHByUjB0cndjbk5IR0tTOXV6R2ZJQTJuWnFvMFotejJaYjNmLXJCWUMyRERGSHFmdHl5ZExOaGhIdXEzbWNlSXliNHBCbHM0RTZwZw?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T20:14:34.000Z",
+      "severity": "CRIT",
+      "text": "Iran vows to keep Strait of Hormuz closed until US meets demands",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZy1KTHFVaVRHeVUzelhJbURMeVpyLWdBVUUxZDdjdEllQXdEZ0QyZVZQVy0wY293UXlhV055WkJSV0lVV0VIdVpIcF9ZeHJFUnBkcU1EdDg2VklMR3QzdXRubEdGR1ZtYVFsVXhpdFNoczlHeFJBS3Q4Q294TGo2cXpZYzNTOFE0MzFONlJRWUNkbHhQNnc3bkxaMFM3M3RGaEdqMjNvLTlkVi1pTG5IS3plVQ?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T17:23:24.000Z",
+      "severity": "WARN",
+      "text": "Iran says US must meet new conditions before Strait of Hormuz reopens",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVW9zRlpxWFRLSVRQTHgwS3FHVXRrZ011RFh5MXdvdGU4cjZrSlFXXzVCWU4xMk5oSE1DaXZwRFh2VVJrMWE2TndESE13RGFpMUpwTjZXRDduaGNQbUkwRHhBazcxalZnbkRfUGZlT0FpOWt5M0pvRVE5aThteTNXR2tJLU1iOFhIWEJBcHpPeDFvNFpCZElKalcxcWQ5aUFQNExKTGpQX1htY29qdDNPVGRnNUV3QUIxZ3A3MlRQcll4VXNP?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T16:24:20.000Z",
+      "severity": "WARN",
+      "text": "Trump Started Iran War Over Nukes, He Will Give It Up For Hormuz: Report",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdndzSUlYR1dQcHEzUFFpYmVjZndlQkgyMFR0OWtXMk1nc3N0T19oSFFIeFVLeFZmUE5EN296ekpWNk1iZTlnUXJOVmNFcEZ0N2h0VXRnQm1HeDR6MVdaWmhnS2VfeTZtbmlFT0NCV2FTZVAtdk5tYXphYmI0TUFEUUVEd3FsUUZHVTQwLXlWTF96RXU3amRJQ254SzlfTEZMZjlwYXR0OENHZFRMUEVheWhZdFJLVzJ1MEhnMkdxVVk1a3NTVzVSdkswLUxSdk1lT1Y3RE51d9IB3wFBVV95cUxOYXNGRmYtZFc2MHNZLUp5UTNSNnM1YXUxMlhOV0NUVXotbW1nMDVOVXB6Q2FoMUVMbldQZGxIeFpuYzBXWExUajcwNkh6VEpfVFJxZkZkSjM0NExXNE1DVFJRRWtNbHBoLXZweUowaUtRcmVNUTZxeHNoS3lma29sT1lhaXEtOU5ybWE3MVVKZ3BXWXE0TkhRTXM5Mi13WTlUMURPNGFVMlhSSzlwVXQwb1Y3dU8tNVlNYVlycXVsekE4WEVXbm1BZGVrNjhLWGlUdnJLeDFleE1fUVdlYjNv?oc=5",
+      "auto": true
+    },
     {
       "date": "AUG 09",
       "date_iso": "2026-08-09T15:50:32.000Z",
@@ -1707,6 +1631,15 @@
     },
     {
       "date": "AUG 09",
+      "date_iso": "2026-08-09T12:29:00.000Z",
+      "severity": "CRIT",
+      "text": "Iran-aligned Houthis claim they attacked oil refinery in Saudi Arabia",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONUczZGxpN3lGb084MkNINGQtY1FfSDNZM1NpZk9La2xSbVB5VkpuMEVJTm03X0JpWElISU11Q1JaM1lTOHkzZGRYUl9DVWNCbnJCVXlCMzlXRjNkbGU0UUJwODF3dHU5OGFJNFFBMi1razRnQ0FEVzZXR1dsbHVqaE13dTRQRmlkZ0NfWEppa0lxeTlUeVNOWTM3Z2JmM1pPNUpXbkVTSUFzZWRfUmhiOS11TQ?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
       "date_iso": "2026-08-09T12:12:54.000Z",
       "severity": "WARN",
       "text": "Strait of Hormuz reopening remains uncertain, mixed messages from Iran",
@@ -1748,6 +1681,15 @@
       "text": "Iran says no US talks underway, Strait of Hormuz not reopened",
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxON2IxU2ZFOEpZcUtiSFBsdlV3bDV3SmtVbGpHVVV1R0xlaFN0b1JOSjB3dXhNN251Q1JxSk5aVjRpUWg3SFBGWkJVVm5uUWhiSEVrRFFndEZ3U0l0TU1MN09QYk9yLTdraFhQYUVQR0JoZnR1akNIc1NuMWRNclNoa1B2YXVEYWQwc3Z3bHZ4dGZCeHE1Q3BNcnVPLUVBNjNIVU9OWlZXZkVfOF9rM2hhTkphOWFMbGNU?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T11:23:00.000Z",
+      "severity": "WARN",
+      "text": "Iran denies any direct talks with U.S. on opening Strait of Hormuz as Houthis claim attack on Saudi refinery",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQazZuYlhScWdna0IzWTBUSzQzbG0tVFVHU2VyeFZmTDdVRmNvRS1uR24yamI0R2U0X0ZlX2dLMEYxMGRtclFXbEhNaVpYRDAzRGNqRDNaS01pQllHbWtGa3lSN2FXZVhWMVdFZGlsdFBZc2Y3REdHakF4SEVKNHFnVlF4Wm13eU9hQ2IzRFVncEZqemJhUVNCMVV2eGhHUdIBowFBVV95cUxOWXpUWkE5VlRXTG1NMFdBRTZjVGVDc0FlbUU4SGs0bmIxVno3VmpqdHNUa2N5ZGhHcHlMWmVxUmgwZE1vVTh1N2NLSVFDV3dPdS1Rdmk0TzMybk91OHFHV1FjSXR6bTV0WDBmWjVZTmI4ZmRNVlJnUzVxZjRVQUtZLUI5NGU4amQ4UVhSUGl5eERUOVo2UUU4VUY3bXEtYmFhNVVj?oc=5",
       "auto": true
     },
     {
@@ -1806,6 +1748,15 @@
     },
     {
       "date": "AUG 09",
+      "date_iso": "2026-08-09T06:16:46.000Z",
+      "severity": "CRIT",
+      "text": "Iran-US war latest: Trump military chief seeks ‘off-ramp’ from conflict as Strait of Hormuz ‘hit by missile strike’",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOamFyOVhnZG9PZUJlenFjNUhXd0doVTNNS2dCTm5tQU5Wc3NCV1Z4UUVhVDF6ZVZjVEtiYzZVOHVVb281V2ZwS3J1TlRxVjB2eXlHYTVLYUpIZkpfMWw4OWVyVVFvYnRoRFpGamFMRFRSTFp3TVBObDJ1VHpVM3NKM3pQZFVDaEtFcWhZMnFaUWZtbVRwbElXQnQ4OFJublpJbWxEMGxaUnowbkNT?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
       "date_iso": "2026-08-09T06:14:58.000Z",
       "severity": "WARN",
       "text": "Iran-US Tensions Show Signs of Diplomatic Breakthrough: Push for Dialogue, Hormuz Strait Reopening, and Global Relief...",
@@ -1820,6 +1771,15 @@
       "text": "Strait of Hormuz will only reopen once US withdraws and compensates damages, Iran warns",
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZTXZ5dzJMMFBGRC1kRDNrQTYzR3RadENIYkJVNlRTOVJpU1ZURjNoY3hLMWhZQVNzamFKV1FMSnpoWVIwX045aktRWWZhUTNyczZ1WS1JYnRZUUp5UFFhaW5R?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 09",
+      "date_iso": "2026-08-09T02:56:18.000Z",
+      "severity": "WARN",
+      "text": "Iran sets new conditions for Hormuz reopening",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVnBXemtSbGtoSmZ4U2lvdlFJeHJvTDR0c3pwd0hZUzJlQ2l4WXFhVGZaczVaaHB3VzZaSERkUUhhQ0NSMHY0VXBFX0ExRS04OFlQNjZCWkliaGt4b2htdnJpc3N4YjlsTjZ3eVl0bm5PQ2NmSFN1RUdKMkw4bDZjanpCcVpqUWFUUER6V9IBnAFBVV95cUxORXF2djJTb2NNVnNYRlhuci1tUWpzZHBjT3lQZm9rMXVNLUpmTWFyTlhaX0VtTURqUFpsMWxDUFdhWFR4b2k4dFhZZk1ZYUw2b2xyMnF3RlJFMDNqWGJmb0FMc0szcERmdTN4TkpCTzAxQmxFRWVIeVNINzRreWFBQ1dtSHd4czhKdnNvZ25WLW10MkdpY09ZRTNSaU4?oc=5",
       "auto": true
     },
     {
@@ -1874,6 +1834,15 @@
       "text": "Iran’s 6 demands to US for Strait of Hormuz reopening: End sanctions, lift blockade, pay war reparations, withdraw tr...",
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1B2UHY5bUNJUDZlSnV3SHpSUzBEdVItakpkTl9OQ1R1M3lJaVA5b1hwVHlIN3NZQTNyS0kzMmtIN3BCMVZyV0hYdlVNMHJsVzNmdTRjMlM0WmdlemtwWXZJdnNjTWs2dzdRS1E0NG9xS2ozc0c4WHR3LWNncExzMXl5VngyT0VQWEZXNVRKT0ZJRnVFZVBILVhLR09tNGNNa0o5d0Q3WWRVdmdNNGlmSXRYLUltR0hJZWVv0gHAAUFVX3lxTE9IanI0c3Q0TmZpS19jQ0RCa2tpLVliVHg5eUlDcXNuTWZUZjJHTTctaUVpb3NnMFY3NzRUamtPeFBfX29QMXM2YkNTcGZCVmZ3UlNGNjZoLTBZMURKcmZuRjJ3QkJiWk9pM3hFbWRwRnBaSlNMbGpfYXZ4R2hNZE5ZZVVCUDhmT2RvcHk4S1ladHhrbXFZZWxYeW1iQWtpWFlqY3dLTUp1MWxSYjVyZXNXbTM0R18yU1o1eWZMMWxvag?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 08",
+      "date_iso": "2026-08-08T23:02:37.000Z",
+      "severity": "WARN",
+      "text": "Strait of Hormuz could soon reopen as deal between Iran & Oman looms, US claims - the-sun.com",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQc2loVzN0amxfV3poQzZuSDd4NEx3aU1VSk5KWFVNNEVrU2c2dEtaM3h1dGZQbjRRQ3NTVEpUZjd1YUsxaGZIUWsySU5OXzM4cm91UmUxaEpIdHhQT0k3STNITmlqMzNwVkhrMFM1VE5KMGJFTUpwYTVIZ3Vyamo4X19QOGZMVms?oc=5",
       "auto": true
     },
     {
@@ -1974,130 +1943,13 @@
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9lV3hTeGUxUkxjLS1YemJBVHlZQTFWbHBidHBEYlVlSDVIWnNPUnhSdjc2aVVOQmQxYnc1MUx0VVZxeXFmMlQ4ZG9sSWU1b2ZMMWRrWmFYb1FiRWhm?oc=5",
       "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T19:05:35.000Z",
-      "severity": "WARN",
-      "text": "Iran, Oman ‘very close’ to deal: Why Strait of Hormuz reopening may still wait",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaS04dHpwOW9SclhPVEJBaGRxS1lleVNCd2w1YmJBZFRpVy1uZnVNcGdkUFB2VmVFZHpRVHhoVEFfTUFFaldmWjVybm04V0E0ZzVRS29BZkFjQUxCVVc2ZDBuZWRKZGF3QnFTU09VcFU2bU1qM0c2ZldFTjdBd3lKUURmU25VVTBxT01OTlVFampwdXBxSWc5WU1yVnppN0lMb1FxdmRVVjgxX015Z29NV1JhdDNGUmx4ckE?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T19:01:00.000Z",
-      "severity": "WARN",
-      "text": "Iran’s top security official threatens Hormuz won’t reopen fully ‘until America corrects its behavior’",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOUlvNFZNRkl2WU9xMWprTXBLNkF4WkstTllXZEJKM1k1Y19xZGI0T3JKczZFbDZLU3dYNTdhMDlwZV9UWE95M2owRW1SUVFwcGJZWEdOUWc2WjZzY0hDdnQyR0VBWkZXTjJGR2pESVF0SzNncEVYcFFOUjgweHNPd21mMVRJU0pfckxuQWE0Szk5T0pFTkVnMGU3ZEFJQllGMlFqSnlHUzNueXhPdk0yMTB1LVl3OG9SRWV2em5SNkFaZTYtNnc?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T18:48:02.000Z",
-      "severity": "WARN",
-      "text": "Iran sets conditions for Strait of Hormuz reopening",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORWVvMTROZnc4bzA5UVRyNlNLT24xSHhBVXMyU3o4WHhmdWlaVVN4TGpFZkIzZ0JCM2tYNFFUZGtsbUk5VzZnd1J3MWpTTzdxT1pldFYtc0xoRVlwUmZGQmJPRW0wT043MEtHOUZuelpLY0o2aHNlNlFCS2xyOXRoTw?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T18:42:39.000Z",
-      "severity": "CRIT",
-      "text": "Iran strikes vessel in Strait of Hormuz as Pezeshkian calls for deal",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMlpTMEI4eHhkTFV5aVpzSU05WlJpUXJuTG1hTnZCVkQ5LTUwY3NBcjdWRGdWd08xcjZ6emVvaWw5Mm9PU3otZUNwVFkwVFBNMXkzUVBSU3VBaTZYNktCYnpuOWFpa3ktYmNaMEZ0enZhWWhzZkpqYmhka3dGaGMxMlQzeG1HcGVGV1RLUzRHTnkwNDgyRlpad2FSSnVzN2FQMGpaWVhuckVETWUt?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T17:53:45.000Z",
-      "severity": "CRIT",
-      "text": "UAE Condemns Iranian Missile Attack on ADNOC Tanker in Strait of Hormuz: 13 outlets compared",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUG5RQlBscnl0UEl3VmRPMGN5WkRvbm9iZ1JDLUQ3VEc4VGZPaEgzNDNrTnNmSXRyYlBSWkJyN1N3ZkZkdERZVEdvSU1ZSkhDTjdnTWdBVTgxWmloZHlRc0xlSlB6OHM5VzB3UXJKbmgzMFc5bGtreG55NlpPXzdzeWZOM0Q1R3B5WllTVFl1SklsU3RFd2VEeWszeFYwRjh2b21DS1ROcU4tZzJ3X1lRamNVa3dmZU92WVpGUWt0N1gxOXEyYUJJeVU0ckRSaS1RakRTYTlzdUxRWHN5SWc?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T17:24:00.000Z",
-      "severity": "WARN",
-      "text": "Strait Of Hormuz reopening: These conditions set by Iran could decide what happens next",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRWotUWFYMmgwdklrRHZxbFc0czJQX0RaZ2VVWU90Q2xtX0pOeWRKdGxfdm1KeVBvZjY1em5oMWRUdmRuRXpZQ2FmcEpJVERnRGRYS1M2MjdzbXkxNk1abFVjYURXa1lidU5YOW9tU3FlSS1hSmd5UU10QVMtQWlMRV9CVkQ1c0J3Y01QREN5QkFmRmxrQmgzbHAyNEJYX2tjMkJSWXJPVE5PbEVlVm13c19iS1hBVHF3dG5weFM0WUZaZ196YzBIY0hR0gHPAUFVX3lxTFBWNzZpWUVUSThTa3VjeDNOOEhRRmhiaFVxMzVEd0xERUU0Y3c5ZnB3MklwZVQ1MXVNb0ZPdEV1ZkxkVWFQdEl1MWcyc1pNUVIzcXJEcW45YkI0ZjJuczNwVGxlNmlkM25wcWJweTl3TVpBWGNJTW50TndsMGMwYUtaWmdEeUZTV2FVM2Z2R2JNck82MV92VmZvSmRUbFNQSjVKYTFpSHdURlpjYmo0SUtxRHJsZExDVDN2dDhrcDFyTVp5OGx0QjRNR1NvLS1XNA?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T17:15:00.000Z",
-      "severity": "WARN",
-      "text": "Iran issues new demands, says Strait of Hormuz won't reopen until US 'corrects' behavior",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPZG9FVldzZUpsQ25FdlJ0NV9aSXc3OHZIaGd2SHRSbFdheEtNR3JlS3lJWFFjWU4wQXB6ZHpqa1hmS3Itb0xDQlAtR042Vlo2Y3NXNXlLdlhwT2E1TkFGekFEaUhWb1BQRG1HR0ZqQjVmb3V3b0l6N1BPekc3OVRtNmZSLXpaRFFzWjBYYmdvRDhfWFF1WEVGSV9wLUcyU0hPcV8wMXJ4ZVhqT2I2OFRsTHAzWkc5NnA4VjJvVEExRjZKVENhMUhqeTl3MjViZUVwOGEwX003MjRWV2ZCLUZCd2NleTBkYW5NSWl3ZEJPWXBMRnVCcTl3MWhqRnkzak1sbWpMQ0tfdzlLZzRJSkd2MW5sOXpPcGJsZnYxTDhVMjZlczlSUGtkSmFFVzZfRnNKRk5kTndEeXF5Z2tNekFfYjg1VTRkX0NrTnNUM1dGWEJxakl5Szl2T0dfMG84Z0FPS2lQMlZiYWE3TVowTTJ3S3F5Y1gwcUpoT3NCN0FTeWZoVWZoYWFUNHRqY0pjU1E?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T16:36:03.000Z",
-      "severity": "CRIT",
-      "text": "Iran Says Hormuz Stays Closed Until U.S. Meets Six Sweeping Demands - Crude Oil Prices Today | OilPrice.com",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMVBucWUyd2JOSkxOTlF3NUJpeWNoMFBJSXY2VFllaFRLN2s4NFVOdUxNbTNiVnpVSE5PbFlyWGo5N0l0WFBmUmJoc18zdGdqZUtaalpPTENPN2c5NzlUeXNGMFdOeTQzcVh6M0Mzb1NseExkOWRadnM2WDJrdFhEUDZRUEtRdG5ORjZRNnctT2FUR18xSzdNTUFRbnFEMkkwLXhpVG80aTlsNTRJLTNXQkRHYkJDeFM3YWdpWVB3?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T16:27:33.000Z",
-      "severity": "CRIT",
-      "text": "Trump pursues Iran negotiations as new Strait of Hormuz attacks raise stakes",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxOUEVQdHRDc0ZMeUVhc0FjMXY4djdrc0FQVkZUeVBYM05UczdyZFRzZEMza29CRWJCbDg0a3daWEZaVWVJNnJoaEpyNWpKblRHZ2tLN1ZiVkdyUmgxdjh2MXcySW5EQnJJT0RtNHRHNmhYaGk4NWQ1eVB1eGdWWnE2MVJFNDd1cnRmYXh4MVVNZXRHR1I3dzhfMkhuZDE3Wk9DNWRYbzZ4U21OMWRlWUpsd1lIOGRJSkdSUDhxOFN4aTNBemhia0JuZzVvbVU2Xzk1R1l4d1A1cDV1emJqWHg2bVNGMXVJVm10NHNCUUJ1bVZXY3FZOW8yZlBFa1RidUZUVlVkMFR0aGRvMWY4SG9Ka3VDRmNDeEYzVEZkOHVFVmppSTlLZzFiaF9BVzlmdEh6dXg0dkUtSDVHRUtRNjZ4RE9OdzkwMU85U0xxazVrR3JnRVBLb0NhRFBvUWZCcmRBWVdrM05BcXNKMklibHZN?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T16:19:09.000Z",
-      "severity": "CRIT",
-      "text": "Vessel Owned by UAE’s ADNOC Attacked While Transiting Strait of Hormuz - ASHARQ AL-AWSAT English",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNek10Q2oxUE4wYmg5RUxUYjNRdmN2b0lIY092aHZaZ0tBUFhqbmMtUTVWZFIyek5qN25OeUFsRFlNcHBJQjlMbWdVMlZ0c3BnOTRYRGw4emNDZzl2U3dTVk9yWnE0Z084U1RPaG9obmk0YU9GN0hmSVY4R3FoX3NZNTlndzhWQjB5dGt0UTdmTkowbm43UnUxZ0p2bDF2czBuV0d4ZEpHVDFiSnZiZWFpblRB?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T16:08:00.000Z",
-      "severity": "WARN",
-      "text": "Live updates: Iran says Strait of Hormuz deal is close, but reopening is conditional on US compensation",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T16:03:12.000Z",
-      "severity": "WARN",
-      "text": "Iran Issues Trump Long List Of Demands Over Strait Of Hormuz Reopening",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUE1qOUxzTTJhU1RhWi1HeDdCSm9YYVpkaHY0d2N4VTVDMWRHdzJBVVFoZXRWaTlMSElLQlZvTjRON1FwcmxEdHdnZnJSQmlnTnktenZFVjJMWmFSSWZSOHRRenhQNXIzQkh0eWR0OGlfRU1yRENKWUZuTnlCcU9wb3h0TXJIZDU3WUUyZXpQZ0VocUZvT0tzZFJJSWRaOUp5RUZKUHYyVy12ajhhRzRfQWpVWE9SMVU?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 08",
-      "date_iso": "2026-08-08T16:00:42.000Z",
-      "severity": "CRIT",
-      "text": "Gavin Newsom Says Strait of Hormuz Is Closed Despite Trump's Claims—UKMTO Reports Explosion Near Vessel",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbTR4QkpvUk5uSk5XMUZPNndrMWZlcW4tU2tmekJtQ181czB3cHFMTjg5WjQyS2RVR1ZWVlBJQ3U0NllMR1hPckJiOThlQUFEMktKU2pGelAyUU5LX3dEbUN4NFhVT1gzOHdQekM5eDFjeWRkUGRQbDdneXlFUXpnaEVuWkhnejZZaUt3MVVGSWlrNl8wMlE?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
     "bull": 3,
-    "bear": 7,
-    "neutral": 5,
-    "net": "BEARISH"
+    "bear": 5,
+    "neutral": 7,
+    "net": "LEAN BEAR"
   },
   "vessels_attacked": {
     "count": 43,
@@ -3106,6 +2958,10 @@
     {
       "t": 1786075200000,
       "p": 83.55
+    },
+    {
+      "t": 1786316012000,
+      "p": 84.44
     }
   ],
   "chart_wti": [
@@ -4108,13 +3964,17 @@
     {
       "t": 1786075200000,
       "p": 78.18
+    },
+    {
+      "t": 1786316034000,
+      "p": 78.83
     }
   ],
   "signal_outlook": [
     {
       "name": "Reserve Runway",
       "severity": "CRIT",
-      "val": null
+      "val": "Live updates: Pentagon asks defense companies to ramp up pro..."
     },
     {
       "name": "War Risk Premium",
@@ -4134,7 +3994,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Iran says Hormuz deal close but its conditions must be met"
+      "val": "Iran-Hormuz Deal Fails to Reopen Strait as Oil Holds Above $..."
     }
   ],
   "chart_spread": [
@@ -5137,6 +4997,10 @@
     {
       "t": 1786075200000,
       "p": 5.37
+    },
+    {
+      "t": 1786316012000,
+      "p": 5.61
     }
   ],
   "chart_sp500": [
