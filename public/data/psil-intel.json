@@ -1,10 +1,11 @@
 {
-  "updated": "2026-08-09T04:10:36.659Z",
+  "updated": "2026-08-09T05:17:39.376Z",
   "counts": {
     "total": 90,
     "crit": 7,
     "warn": 10,
     "bySource": {
+      "ad-hoc-news.de": 1,
       "marketscreener.com": 2,
       "simplywall.st": 5,
       "MarketBeat": 8,
@@ -14,7 +15,7 @@
       "The Killeen Daily Herald": 1,
       "Stocktwits": 9,
       "富途牛牛": 1,
-      "tradingview.com": 2,
+      "TradingView": 2,
       "TipRanks": 5,
       "Yahoo Finance UK": 2,
       "Law360": 1,
@@ -25,11 +26,11 @@
       "Buttondown": 1,
       "Yahoo Finance Singapore": 1,
       "Quiver Quantitative": 1,
-      "GlobeNewswire": 2,
+      "globenewswire.com": 2,
       "Neuroscience News": 1,
       "Yahoo Finance": 3,
       "citybiz": 1,
-      "BioPharm International": 1,
+      "biopharminternational.com": 1,
       "AllSci": 1,
       "psychedelicalpha.com": 1,
       "Stock Titan": 2,
@@ -44,19 +45,34 @@
       "PsyPost": 1,
       "kalkine.ca": 1,
       "Polity.org.za": 1,
-      "newyorker.com": 1,
+      "The New Yorker": 1,
       "DirectorsTalk Interviews": 1,
       "GuruFocus": 2,
       "Medscape": 1,
-      "clinicaltrialvanguard.com": 1,
-      "The Spectator": 1,
-      "Alaska's News Source": 1
+      "The Clinical Trial Vanguard": 1,
+      "The Spectator": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "550ab2235a59",
+      "time": "2026-08-09T04:22:03.000Z",
+      "source": "ad-hoc-news.de",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Helus Pharma's Rally Puts Phase-3 Data in the Spotlight as New CEO Takes the Helm",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUk1fOEh1cS1tQnRwa3lFNk5RdEpXVGUxUjNDMVlyYUQ1OWFldWRETmpKY3FNS1NJanhaWkFOY2pidVptOFlReWdtVVQ2SVBVTmw4b1I2ZjlhSXBkQTVZcUdBQjNhTVlTTm1lZDd2b09Ncm1iUGpQU29GdUhBRVh4UWkyUnpKUWw1czhyTnZqY0ctOTVPQk1IODMxQ3hpdmlLdEtXZWpHRkFlZl8wYVdSUXE3OWtyMkx6c0tEVzhHV19nYVQ5T2sxeW9pR3kyQl9zV2VKdUFCWldDYUlH?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
     {
       "id": "d4988a46ce55",
       "time": "2026-08-09T00:38:55.000Z",
@@ -251,7 +267,7 @@
     {
       "id": "38e10d4a6b8e",
       "time": "2026-08-08T06:34:52.000Z",
-      "source": "tradingview.com",
+      "source": "TradingView",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -564,7 +580,7 @@
     {
       "id": "d05811a45165",
       "time": "2026-08-07T20:01:00.000Z",
-      "source": "GlobeNewswire",
+      "source": "globenewswire.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -674,7 +690,7 @@
     {
       "id": "198e99ac6963",
       "time": "2026-08-07T17:19:41.000Z",
-      "source": "BioPharm International",
+      "source": "biopharminternational.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1070,7 +1086,7 @@
     {
       "id": "6b51463f8c32",
       "time": "2026-08-07T11:00:00.000Z",
-      "source": "GlobeNewswire",
+      "source": "globenewswire.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1164,7 +1180,7 @@
     {
       "id": "d33dc8220a66",
       "time": "2026-08-07T10:00:00.000Z",
-      "source": "newyorker.com",
+      "source": "The New Yorker",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1210,6 +1226,22 @@
       ]
     },
     {
+      "id": "71121c058e76",
+      "time": "2026-08-07T08:29:32.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (DFTX) Boosts Cash Reserves Amid Psychedelic Medicine Advances",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa2k4ZTBkUmZQckVlbmYzQ1Zmb3F3c1B0SkNaMlZlVjBZVzg0Vm41VHJCdi1ua3J5Z2RHRkU0MnB4aVlMMUh0Mjd0NVg5Z2w5RmRuMUhGd0tyUVFTellzbDBsMlN2NkU0aFhuR2tBRlJLZDZQdldmbURSanJiMVk3RzRjSTBqdnZvdF9yWG1XUjhVMGxBTzZCSENXeHk1dTZyOUNMRExZNlZJbmsyV0dGbERtcU1qVXFTeElvV01R?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "881552a760fd",
       "time": "2026-08-07T08:17:22.000Z",
       "source": "TradingKey",
@@ -1223,22 +1255,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrNW5ZbzVvazlIN3FZX1RiZC1DOVkwT2lDNVhpcEJ1UWtfdldoa1BqNzJFQV9vSWRMMFZfV29DWVFSWlZmUFlTVXZ3Zm1QYmQ1VDE5QW53MGluMXNYSVBCVA?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "aeafd60a4749",
-      "time": "2026-08-07T08:04:00.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Is Definium Therapeutics Inc (DFTX) Facing Challenges After Repo",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNbEdHZksycjJoanRsMEV3Ui1ySmFSWWJRUUpBMlNaWEsxc1VuVEVHam1Fa2d5ZEUxQlBaZVFEVmlidHF6UFhpTE1HQ3ZKUFI4ZE5aSWY5ZlFJSk40Q2h4dEIyZ0VsLVZVc0FuT0tPdHVOY3E1M2JkYzNFZXpvZi1lVUg0UFN0aW0yYm5sUG1xakhuaXg3N2o3LW1SVmRZSWUwQ2hLbU8xeVVMbk9RcW9US3AwcElGMjBBR3pnVkpEZzNfTGk4eVU5Q0FDODhWeWZjSGFHVUtjdWI1MTlG?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
@@ -1288,6 +1304,22 @@
       ]
     },
     {
+      "id": "66211a213ff5",
+      "time": "2026-08-07T07:06:09.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Is Definium Therapeutics Inc (DFTX) Facing Challenges After Repo",
+      "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPcXhya04tNnZGaElWYm9kMXVaVW1zNVJEYjJxYWdaNEZaa3Z5RDBZYXhEWXZ5SG9Iejl0RjRMWm8yc1JTTDlEQkRNV1dZZldmN3hFMWxYN2tkNmgxUEJlc3BacDJkRlM5Q0pkNno0TTdaby01bjJTb2VmdEJZNVlwUFNCX2dORlo3U2FyU0wxNVRsanZndGt4U1NYNWVib21fNWpyRGdoX1lkbWtQUW5TZFBodkZHRU9uMk4tQ29aZ2hsMERNOHhNQzdzUzJOUFFtWkVFblMwdjNNbElNOEZEbmtTUzQ1Z24xOF9QWGxSRU5OMXV3ZGpqYzR0UDlKQkRYTmp4M1pRZmk4NktPTVRLdkNfN2Q1Z3VIUGpIUThxTXFEYUpoc2ZPWEVHN1BURGxnd3VmdHprdWdLNmdCVG1JeHAwSVg3Tkotc1NHNGdCNjhsRFJfQXNCVkxjeHV6YmgzV3NibTk1d2xEVXphZFpyVEFOdW5rT0dwZTc4cW9OZw?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "20e688d09430",
       "time": "2026-08-07T07:00:00.000Z",
       "source": "Investing.com",
@@ -1306,7 +1338,7 @@
     {
       "id": "a59a1d98a9a5",
       "time": "2026-08-07T06:39:00.000Z",
-      "source": "clinicaltrialvanguard.com",
+      "source": "The Clinical Trial Vanguard",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1333,22 +1365,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2tKT2FBODN0eXlWZHhOYjBHRmhQdzNDM1dJZkpibWFPZ1lBcXpWcnptTi1iVE4xSFpRMmE0RWZnSkhJVl9DNDROOWNfcjZ1NTdrb24wYllWTkFNMGpfQTRFeWVnY0x2UGwySFFhOWdPOVNrMWhxWC1RWXRqbGozY192cjZ1N1JBNzdzRGZKYXJkeWVoLS1HZjVENTF0YzJBWVlqM2FFSUt2WVNkRFBrUDhBWVU?oc=5",
       "tickers": [
         "CMPS"
-      ]
-    },
-    {
-      "id": "6926a0d52152",
-      "time": "2026-08-07T06:12:29.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics (DFTX) Boosts Cash Reserves Amid Psychedelic Medicine Advances",
-      "link": "https://news.google.com/rss/articles/CBMi4AJBVV95cUxQTWNVWGRzcWZNLWlHYkxDY1lKdWllUVpqc1lmR01PeTlZR3BDUEpzS21LSi0wVVYzbGJsSjhybWw0c0MyS2FnYXVWSTlYVGlnZ2hjWmkwUHVCa1I3ckRUX3d0bzFzSTRCdzQwSkh6SWlIVWlSU1MtWTdnU2sxZTd4a2JrSXBIMXI0WS1EMURjTlgzUUdRRjNIQ184NmZDdjcyY2l4R19xOGs4SXVRWjI2Zk1sNU9iQ1BHOUxidWpTend4TVJaQXpMNWpDbUQ4NURUeUF2dkFmeFEtZlBieU90Nm1qMS1Gb1AtMFNCbHdOU0Z4RUhFOHNQdnFHMndqWXBtS0JYWWRoMXFPNzEtZERJUU8xX2VYXzAtUXBJUG5GSFJqZzA2am40a1R1NFdwQ0VTVnE1TXJoaFNNNDZVam9oam9CQnVyeWltYnVDMzU5Tk1rSlJ5X3pjY2NDMmJFdWdf?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
@@ -1386,7 +1402,7 @@
     {
       "id": "99761880b082",
       "time": "2026-08-07T04:07:53.000Z",
-      "source": "tradingview.com",
+      "source": "TradingView",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1458,20 +1474,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "623c85c4372b",
-      "time": "2026-08-07T02:18:00.000Z",
-      "source": "Alaska's News Source",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Mass. officer to share groundbreaking mental health and psychedelic insights at Arctic Visions",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb1lzX0U2VEV3SXZ0aVJXei04akhZUDBVaEZ3R3htWS1pdGlyTU1xT2dpQXJGYjlmNkdreXF6eFExMVlrRUw1bHdjc2FVWHY1R0IzSkY3V0ZqY1RMMlAtSm9GZVFVaUZnWnlxM0R4NDEzTmItd3BvcDRSem03VnpjNUJTZW5nUll1NXM3VWtpU2wtLWRxM2Q5S2xGUDdSZTdfdkJEME9yRE55Y3pYU243SHZnMzNUbUpaVC1JZ25GY2FpRFpCWU1sck92ck9DeHFy?oc=5",
-      "tickers": []
     }
   ]
 }
