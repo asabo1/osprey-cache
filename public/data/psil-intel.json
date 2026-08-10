@@ -1,15 +1,17 @@
 {
-  "updated": "2026-08-10T11:38:35.546Z",
+  "updated": "2026-08-10T12:35:01.911Z",
   "counts": {
     "total": 90,
-    "crit": 4,
+    "crit": 2,
     "warn": 8,
     "bySource": {
+      "Investing.com": 4,
+      "Investing.com Canada": 1,
       "Post Bulletin": 1,
       "MyChesCo": 1,
-      "The New York Times": 1,
       "Yahoo": 1,
-      "news-medical.net": 1,
+      "The New York Times": 1,
+      "News-Medical": 1,
       "BioSpace": 2,
       "KTAR News 92.3 FM": 1,
       "facebook.com": 1,
@@ -17,21 +19,22 @@
       "New York Post": 1,
       "AD HOC NEWS": 3,
       "PsyPost": 2,
-      "The Media Line": 1,
+      "themedialine.org": 1,
       "The Spectator": 1,
       "EMJ": 1,
-      "Yahoo! Finance Canada": 5,
+      "ca.finance.yahoo.com": 5,
       "KESQ": 1,
       "marketscreener.com": 1,
       "Yahoo Finance UK": 2,
-      "MarketBeat": 6,
+      "marketbeat.com": 5,
       "The Globe and Mail": 1,
-      "stocktwits.com": 7,
+      "Stocktwits": 8,
       "The Killeen Daily Herald": 1,
       "Yahoo Finance Singapore": 2,
       "富途牛牛": 1,
       "TradingView": 1,
       "lucid.news": 1,
+      "TipRanks": 3,
       "Law360": 1,
       "Moomoo": 4,
       "Seeking Alpha": 2,
@@ -39,29 +42,57 @@
       "Buttondown": 1,
       "Pluang": 2,
       "Quiver Quantitative": 1,
-      "GlobeNewswire": 1,
+      "GlobeNewswire": 2,
       "Neuroscience News": 1,
-      "Yahoo Finance": 2,
+      "finance.yahoo.com": 2,
       "citybiz": 1,
       "BioPharm International": 1,
       "AllSci": 1,
       "Psychedelic Alpha": 1,
-      "Stock Titan": 2,
-      "Investing.com": 3,
+      "Stock Titan": 1,
       "Newsweek": 1,
       "TradingKey": 1,
       "PRLog": 1,
-      "tipranks.com": 3,
       "Marijuana Moment": 1,
-      "PR Newswire": 1,
-      "kalkine.ca": 1,
-      "Polity.org.za": 1
+      "PR Newswire": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "2627e616f129",
+      "time": "2026-08-10T11:46:41.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "H.C. Wainwright reiterates GH Research stock rating on FDA progress",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUndSXzRQNV8wdU5GUXZoTTVUUHpkOHRIZFZXdUY4bV9vUjRxYUJJVURqQnZJa25FcUhZamh4VWpGdVRwNC1FMWkyNTd2TnpIcUEwNERDNlRlU0RGLVg3Mm8wak1ua2x6cElpNG81bmFZTHRrTExVWTNXQkFUZXRVMFFjQ0Q5NUwyNUNWbFNnQlAzZ1YyWk0taERFemx3ejlFU3pOUzczUXVpWWhlVkZWcjMzb3hoZVppekxRZk1aMUJpSE0?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
+      "id": "95d1f16fa945",
+      "time": "2026-08-10T11:45:38.000Z",
+      "source": "Investing.com Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "H.C. Wainwright reiterates NRx Pharmaceuticals stock rating at buy By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORlFSaWVrejdpUkhfY3dnMlo0aXR1YmpUSm55UkFGX2doTW1Yd2Y3OFNJeEkwc2tGaDFTcWdkQTMxMlZHUWJtN1NwVVUwdldXT1ROLWYxWjNDZ2lGdlUwQ0I4OExKdHZuQ18wQVN6eDhwMDFwQlpVM0V1eVJOenY2dEVQVVYxNy0tMk5oU1BFTklpdFppZ19DTlppSVdURzVaT2t5LW1hZ2h6TmVGYmNLMHJXd3lDT3AxZ0NfM09zakFiNHc?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
     {
       "id": "2f01c85247c6",
       "time": "2026-08-10T11:31:06.000Z",
@@ -91,20 +122,6 @@
       "tickers": []
     },
     {
-      "id": "99c224a25ccd",
-      "time": "2026-08-10T10:36:55.000Z",
-      "source": "The New York Times",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The ‘Furthur’ Bus’s Long, Strange Trip, and Why It’s Returning to San Francisco",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91czR2X05CZDR6Y2V1RzhrWGt1RU8wMjUxVkJrai1QQ2lqWWp1eWtVRzFRdF9ta3VJQWJMOE1wbnVnVUVTa3UwS3g3NGNxX01fUTBxaFY1Q1dQcW4zY1N4WUxjVmhKZkFSWmN1Qi1DeF9wNnBLb0VVMUVGeDlpdWc?oc=5",
-      "tickers": []
-    },
-    {
       "id": "576801663f32",
       "time": "2026-08-10T09:44:21.000Z",
       "source": "Yahoo",
@@ -121,9 +138,23 @@
       ]
     },
     {
+      "id": "99c224a25ccd",
+      "time": "2026-08-10T09:09:00.000Z",
+      "source": "The New York Times",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The ‘Furthur’ Bus’s Long, Strange Trip, and Why It’s Returning to San Francisco",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91czR2X05CZDR6Y2V1RzhrWGt1RU8wMjUxVkJrai1QQ2lqWWp1eWtVRzFRdF9ta3VJQWJMOE1wbnVnVUVTa3UwS3g3NGNxX01fUTBxaFY1Q1dQcW4zY1N4WUxjVmhKZkFSWmN1Qi1DeF9wNnBLb0VVMUVGeDlpdWc?oc=5",
+      "tickers": []
+    },
+    {
       "id": "9e27a71820ae",
       "time": "2026-08-10T05:20:00.000Z",
-      "source": "news-medical.net",
+      "source": "News-Medical",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -273,7 +304,7 @@
     {
       "id": "8e8ec87d135c",
       "time": "2026-08-09T13:22:42.000Z",
-      "source": "The Media Line",
+      "source": "themedialine.org",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -347,7 +378,7 @@
     {
       "id": "6ef87801ae9d",
       "time": "2026-08-09T01:53:58.000Z",
-      "source": "Yahoo! Finance Canada",
+      "source": "ca.finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -425,7 +456,7 @@
     {
       "id": "862df95ecac5",
       "time": "2026-08-08T20:02:28.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -441,7 +472,7 @@
     {
       "id": "9230e440182b",
       "time": "2026-08-08T18:10:30.000Z",
-      "source": "Yahoo! Finance Canada",
+      "source": "ca.finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -473,7 +504,7 @@
     {
       "id": "cfafc11bfd4a",
       "time": "2026-08-08T16:47:06.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -504,7 +535,7 @@
     {
       "id": "f54baeb83e02",
       "time": "2026-08-08T09:53:08.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -536,7 +567,7 @@
     {
       "id": "b602041e46f8",
       "time": "2026-08-08T07:37:10.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -568,7 +599,7 @@
     {
       "id": "35d68a07f1b7",
       "time": "2026-08-08T06:43:13.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -616,7 +647,7 @@
     {
       "id": "0d68dfcb8a6c",
       "time": "2026-08-08T06:16:46.000Z",
-      "source": "Yahoo! Finance Canada",
+      "source": "ca.finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -632,7 +663,7 @@
     {
       "id": "ddf961f65f55",
       "time": "2026-08-08T06:04:17.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -648,7 +679,7 @@
     {
       "id": "d812c9e0ebf5",
       "time": "2026-08-08T05:57:53.000Z",
-      "source": "Yahoo! Finance Canada",
+      "source": "ca.finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -678,7 +709,7 @@
     {
       "id": "648d985f7762",
       "time": "2026-08-08T05:52:41.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -694,7 +725,7 @@
     {
       "id": "c20bc808e473",
       "time": "2026-08-08T05:48:57.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -726,7 +757,7 @@
     {
       "id": "c4eea4c719e4",
       "time": "2026-08-08T04:09:14.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -740,7 +771,7 @@
     {
       "id": "b645ac3d36aa",
       "time": "2026-08-08T03:55:51.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -755,9 +786,25 @@
       ]
     },
     {
+      "id": "44242bbe4fca",
+      "time": "2026-08-08T02:49:54.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics: Buy Rating Reiterated on Strong Clinical and Financial Positioning; $74 Price Target Maintained",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQc2Jja2Q5ME1xYXc1MVl4V3dHLVBqZFlCYzM3SkM2bnpQVjlsT2NjT3p1bE03R2Q4ZUZ4TGx4anFvMDl1YmZOSW13QlFIM0JOVWF0SG5ORWxOdUFCUHB0clBENUxDdG9hbWxHa254Q2NxOHpzUUg5SUZzU2EwYXdpcDZnZVljc29YMlliWHEyWkc3THoxTjVyODJGdHZNR01TZ0tVSjVDRHhKYk5WanZHY204LXhPaTlCLXlRU3h0RDJuQ2JnWXRtNVVFRnNaQmNySDFadUNIZHp1S1VnS1NKTkIxVFZIbXh1NjlGVDNObjJqUzZOWVVCS1Nn?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "b6a3069ffea5",
       "time": "2026-08-08T01:50:21.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -787,7 +834,7 @@
     {
       "id": "e1f8e91f1bfa",
       "time": "2026-08-07T23:35:57.000Z",
-      "source": "Yahoo! Finance Canada",
+      "source": "ca.finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -863,6 +910,20 @@
       "tickers": [
         "GHRS"
       ]
+    },
+    {
+      "id": "e7b47b524323",
+      "time": "2026-08-07T21:56:06.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "Nasdaq, S&P 500 Futures Fall, Oil Risk Back In Focus After Trump’s Iran Escalation: Why PBM, FRMI, ASTS, BATL Are Keeping Traders Engaged Today",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ0JNN2NnRURZSTYydHpaTXQ4aHNKaWxVWEhhZThKamxydllUdE4td3h3LVNzMEM5akh2TTlyYzBiVmZ6S1YyS3lMbUtOa2FrVmRwaU5mSUw1SVN4bFg0eWhRV0JVMmNOYWZ5ckJpcWcwaGRUUmctWk1KQWFvWE1jal8yNi1VZHJ3NTdmU3VrX2dtRHh2RUtRZ3V0WEs5YUxIOTBybl9OakZIcnYzWDB4TXNQbWt5VjVWczVmSWc4VWpUUmJHUVZHRG5FU1l6dw?oc=5",
+      "tickers": []
     },
     {
       "id": "900d3f312aac",
@@ -989,7 +1050,7 @@
     {
       "id": "c072f8f7948c",
       "time": "2026-08-07T19:11:43.000Z",
-      "source": "Yahoo Finance",
+      "source": "finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1085,7 +1146,7 @@
     {
       "id": "37020601b154",
       "time": "2026-08-07T16:22:40.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1211,7 +1272,7 @@
     {
       "id": "e62016a7032f",
       "time": "2026-08-07T13:39:44.000Z",
-      "source": "Yahoo Finance",
+      "source": "finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -1244,7 +1305,7 @@
     {
       "id": "4044c847d479",
       "time": "2026-08-07T13:08:21.000Z",
-      "source": "tipranks.com",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1260,7 +1321,7 @@
     {
       "id": "3c35b88baae5",
       "time": "2026-08-07T13:00:34.000Z",
-      "source": "tipranks.com",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1383,82 +1444,20 @@
       "tickers": []
     },
     {
-      "id": "5925b83995ac",
+      "id": "6b51463f8c32",
       "time": "2026-08-07T11:00:00.000Z",
-      "source": "Stock Titan",
+      "source": "GlobeNewswire",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "A vial used in products that shipped 11.9M doses remains in NRx's FDA review",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVDYyOUtRYTdCOHFjVklvLTFPWXB6a0JvYmtNNHFfc3ItLWpMUFJUZk5uSEhaZkZyZDNyMW1JMU9jZVR1Yjlyb00zck9GWTJvZTllQWxOT0dERXJOWXZ2NDNTQjdNN21jdGF5bUQ2M29rb21ndDRUYkZiLXhwQWo0MEdjQk5waDlGcXluMm5KWTBtUkNMdFcxekxGT19aV1YxbzJKV21wdzlKYk9nMW5NWVNXbjAxaThxd3ZLRnlaSQ?oc=5",
+      "title": "FDA Completes First-Cycle Review of Preservative-Free",
+      "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNLWhESkViaFVoNXBjUVBDOG1Kc0xqc1R6T1ltamhFTE9VcmwtX1J6UnRyVHE1UGFTbmpibU91WkVoWVJfTWJSemxJcHBXb0FHMVAyU0RGQ1JiUkhqUXRDOXFsdmFMdUt4UkhfYXl5N01rTFZYdzFSWmFkVWF2LW54SFJkUkZUb1JadTViZGVIcTRDWGR0Q05sbmk4cXRIRjFSVWpTRy1FNUJEODc0MWpYYXNlSzhjZzM3ZVBFZFhDemw5OVhkQXU2Nk1kWDJULWd1WDZSSExPcExpTExaT1l4dTU2OTI5QnhxMFlMRlJBZzRqVzgwejJkaDM0bUFZdXJRZUhkdlNRQjlZMzl5ZF9EWGRFRmlpYTBYR01UajViNm5HYlhVY0xPR3NQVWd4YmdlY19xakt6bEZnNE1UbWxqTXJGQmN2WFhNbUo4SjhfR0hWQQ?oc=5",
       "tickers": [
         "NRXP"
       ]
-    },
-    {
-      "id": "a63ad9b99f26",
-      "time": "2026-08-07T10:55:54.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "impact": "MED",
-      "title": "Neurocrine Biosciences, Inc. $NBIX Stake Boosted by PKO BP BANKOWY Universal Pension Society JSC",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQjc0aVFFMnRaTTF0VHVuLVhQLUlhTGI0Tm1pLXo1X2dQamtFRnpEdHd1RUlpYWlGM3Rnb1ZEd1dHNDJHbjUxbjlDODI1emt1ZV9HYmZfNUtEYmtVOWdNT3VkdV9ERGdRT1dZSnAzX0RGNjF1a3dtcGxCdHlwOEFSWkdFS2ctVG14WVo1WVR4UnJfekhJRGFZQ0JDazcwY0dwWEdCQm9ucUp6Z1ZUMDhkYk5ubHJVVXFNZlRvNHVpSXRhdzhqTG1XRUtCV0ZxanZZaWZweDliSmFMMHMzUkxiTVBSY3ZSOWd3Nnc?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "41f99d7b44c5",
-      "time": "2026-08-07T10:54:45.000Z",
-      "source": "tipranks.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "GH Research Earns Buy Rating on FDA Phase 3 Green Light, Strong TRD Strategy and Solid Cash Runway",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQNm9jZ1FtODJ3MnBiclZGWFVSUEoyek5wRVduR0l6LUFjWTZTUEM0QVRZbi1oMEVkdUJLdS1PdGpOaVJNc0tlMmw0NzkzVEFhRVIzaExNRTdFQVB4bGNHOVRJcktRWEtfTFRSMDZVelJBbXJBa0JqR05hZ2VURWE1d3pzdEVtNThmQmVmaVBHb0xoU2diSmFRQTFONHlXbmtHTWRPcEs2NlJfOC1kN3NySkJBUktZek1FX2dTZ295SURreUw3NE9wMkJQYURnMVRYa2UtR05ua0lmbURLS1F4SEZ3?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "5a7ef6d1978d",
-      "time": "2026-08-07T10:36:00.000Z",
-      "source": "kalkine.ca",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Cybin Inc (CN:HELP) Rallies 4.62%: rebranded psychedelic-medicine developer is trading briskly after a new CEO and an ahead-of-schedule Phase 3 enrollment,",
-      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPZ3hCYmhlT0ltS0JZblFPR1dCb1JuWmpyZ2NpakhxSkZtTTMtYlBNM200Tzh6X25vaWRKbFJFTGpaV2hhdVRlMk80Uml6dkxEdXpobF9yTmxuMWoxLTZkNFRHZjF6T01jeU41Y0tqWFNHVDJIRzk5TER3Y1BfeHdwc29xLTJpVVNxSWxjRFR2eUlybHc3ckF5YjBJVEJNR3ltRjhQZ19jdkJLQWdyUEhhQWRJQVVzRGhsVDBXbS1vRHQxcTlsNjZJaC02bU1RMDFfRmhLSUhnalg0R3VDN3JKZWFSQ25Ed3QwYXA1YlZqQ09kS1FURDFqaXJTU25uQlFuNTI5VUk1MVFzRnZERndmUg?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "415ca8ca8428",
-      "time": "2026-08-07T10:30:29.000Z",
-      "source": "Polity.org.za",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "The Ego Trip: Psychedelic Toads, A Trail of Deaths and The Guru Who Peddled Transcendence",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUGhuWlJPMGpsc2cxcUF1ZFpVenp3bUZkdzVMay05Um14YkdIVlZsX1hnVmdNanByVHB6TDJrOW5wVXhUOTdmZHNxQ1pwUHAwcEh4MnkxT2RQbzkxSU8tX0I3Qkl0Sm1DZ3JvRFJiLWhPS3ROcGd1eF94ZnloZGRKbDduZDRtUXFvdVYtemk5M196RzdTMWVCTTQ2SEE5N093ZnE2MDlTQlJ5ZkU1VnFKTkZ4ODFVeVdDZ21jdFdES21DN0lnaXNtTUNfWFQ?oc=5",
-      "tickers": []
     }
   ]
 }
