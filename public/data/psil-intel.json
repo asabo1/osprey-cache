@@ -1,19 +1,21 @@
 {
-  "updated": "2026-08-11T06:40:22.358Z",
+  "updated": "2026-08-11T07:58:54.258Z",
   "counts": {
     "total": 90,
     "crit": 4,
     "warn": 9,
     "bySource": {
+      "The New York Times": 1,
+      "Drug Science": 1,
+      "Yahoo Finance": 2,
       "WVTM Channel 13": 1,
       "WFAA": 1,
-      "Drug Science": 1,
       "AD HOC NEWS": 4,
-      "Yahoo! Finance Canada": 6,
+      "Yahoo! Finance Canada": 5,
       "HCPLive": 1,
       "Behavioral Health Business": 1,
       "Tech Times": 1,
-      "GlobeNewswire": 1,
+      "globenewswire.com": 1,
       "Psychiatric Times": 1,
       "simplywall.st": 7,
       "Stock Titan": 1,
@@ -26,21 +28,19 @@
       "The Microdose | Substack": 1,
       "FirstWord Pharma": 1,
       "BioSpace": 2,
-      "MarketBeat": 7,
+      "marketbeat.com": 7,
       "marketscreener.com": 2,
+      "Yahoo Finance UK": 2,
       "Clinical Trials Arena": 1,
       "PsyPost": 2,
       "Alabama Political Reporter": 1,
-      "Yahoo Finance": 1,
       "FM News 101 KXL": 1,
       "Investing.com": 2,
       "Post Bulletin": 1,
       "MyChesCo": 1,
-      "Yahoo Finance UK": 2,
       "DirectorsTalk Interviews": 1,
-      "The New York Times": 1,
       "News-Medical": 1,
-      "KTAR News 92.3 FM": 1,
+      "ktar.com": 1,
       "facebook.com": 1,
       "New York Post": 1,
       "The Media Line": 1,
@@ -48,12 +48,13 @@
       "EMJ": 1,
       "KESQ": 1,
       "The Globe and Mail": 3,
-      "stocktwits.com": 8,
+      "Stocktwits": 8,
       "The Killeen Daily Herald": 1,
+      "富途牛牛": 1,
       "TradingView": 1,
       "lucid.news": 1,
       "Law360": 1,
-      "Moomoo": 2,
+      "Moomoo": 1,
       "Seeking Alpha": 1,
       "Investing.com Nigeria": 1,
       "Buttondown": 1,
@@ -65,6 +66,50 @@
     }
   },
   "items": [
+    {
+      "id": "99c224a25ccd",
+      "time": "2026-08-11T07:17:42.000Z",
+      "source": "The New York Times",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The ‘Furthur’ Bus’s Long, Strange Trip, and Why It’s Returning to San Francisco",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91czR2X05CZDR6Y2V1RzhrWGt1RU8wMjUxVkJrai1QQ2lqWWp1eWtVRzFRdF9ta3VJQWJMOE1wbnVnVUVTa3UwS3g3NGNxX01fUTBxaFY1Q1dQcW4zY1N4WUxjVmhKZkFSWmN1Qi1DeF9wNnBLb0VVMUVGeDlpdWc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "2d8fac0aac26",
+      "time": "2026-08-11T07:13:43.000Z",
+      "source": "Drug Science",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Two countries, two different approaches to the use of medical psilocybin",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOMTV3bG16Qm5aRUZaZ2ZZVVFrUndBcDNZY29zX2Z6NHAxU1otTk9SSlNHYVpjWjhmNDk0RGNKU3hBTTZ5Znh2MlRvbzAxX0k3VXdRQlhscDllVDByWEpSdTFveDQ5RU1CSVhHS3prVkI?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "f0c15675cc31",
+      "time": "2026-08-11T07:00:00.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "\"All Access with Andy Garcia\" to Feature Sunstone Therapies' Clinical Approach to Psychedelic-Assisted Therapy",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTUhLTDA3OXdtNU1iQjVlWHNLNUExaGMzZm9zSWpGaVJfSzBnZjN6VlFMNU5lMEJyTTF2bktCWmVSQmk1UUNWMUg3NFBZZl9DUXRJMmVTbTBsLXUwYm1LejMzTkNnUVBCNEFXTlNjaWs1Rm1Pa2hXdUY1VWVqM0phQ0pORVRTTlc0RkZPMVhCdWdXcmVmX3FkR2VCQ1U?oc=5",
+      "tickers": []
+    },
     {
       "id": "48f684dcd2d1",
       "time": "2026-08-11T01:54:00.000Z",
@@ -92,22 +137,6 @@
       "title": "Mushroom edibles with 'designer drugs' sold online are spilling onto Texas shelves. Sources say they contain undisclosed psychedelic substances.",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYWt5bGlCNVhfUnVhTDBoTHlrQWhpYXhpbnNzSTJ4OVpLX1ZJY2FkWUQtbTJBT2FyMm1XYkc2S25yZThGbV8wUmJkWmp5LWJDcjZwbWstLURSZEhzOGRTYmxzMUx5TGFjOGs3U00zNW9HY19rUGYtajdwV3JEN29USU96andadkZZQ0NCQzJmekhrYnMwUG13S2RiVnU5bWxLU1AtV051NFFFakQ2N0w4aHBvZmh6OWlWbFNPUEZn?oc=5",
       "tickers": []
-    },
-    {
-      "id": "2d8fac0aac26",
-      "time": "2026-08-11T01:13:43.000Z",
-      "source": "Drug Science",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Two countries, two different approaches to the use of medical psilocybin",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOMTV3bG16Qm5aRUZaZ2ZZVVFrUndBcDNZY29zX2Z6NHAxU1otTk9SSlNHYVpjWjhmNDk0RGNKU3hBTTZ5Znh2MlRvbzAxX0k3VXdRQlhscDllVDByWEpSdTFveDQ5RU1CSVhHS3prVkI?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     },
     {
       "id": "90b05caa9901",
@@ -186,7 +215,7 @@
     {
       "id": "54f8484cb5a3",
       "time": "2026-08-10T18:46:22.000Z",
-      "source": "GlobeNewswire",
+      "source": "globenewswire.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -380,7 +409,7 @@
     {
       "id": "23e6687b00e9",
       "time": "2026-08-10T14:19:54.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -407,6 +436,22 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOEFsSmxKWGtaaXp3eG8tZ3NJWXdiN1pYTTNOT295cDlnQXhTcFdYT2RtUlJmNUtFYzcweEI1NHVTMVk4VElqQm5kYnBEYmRURGtDakJyYmRucjYwM0lNblc0WlU4UVdJb0p4a3g4TWUycUdQN0wwQXFncWIyU1hiS2pWU1lMR2J3M2dBM3ZmSkotUUdpUG5jdmVQQUk5TDJ2c2c?oc=5",
       "tickers": [
         "NRXP"
+      ]
+    },
+    {
+      "id": "05c52a183a33",
+      "time": "2026-08-10T13:36:01.000Z",
+      "source": "Yahoo Finance UK",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "COMPASS Pathways plc (CMPS) stock price, news, quote and history",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tdGdkcUFCZkl6TkZDVktVakZ0Mzc4aFJvZnlfVUNlc0R4OHA4RS1EeGo2bkhVYWFJT2hVWkdJVHU3NWQ3RlFtVWs0ajJYZVdsRlE?oc=5",
+      "tickers": [
+        "CMPS"
       ]
     },
     {
@@ -576,7 +621,7 @@
     {
       "id": "eb50a44a9960",
       "time": "2026-08-10T09:09:58.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -588,20 +633,6 @@
       "tickers": [
         "NRXP"
       ]
-    },
-    {
-      "id": "99c224a25ccd",
-      "time": "2026-08-10T09:09:00.000Z",
-      "source": "The New York Times",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The ‘Furthur’ Bus’s Long, Strange Trip, and Why It’s Returning to San Francisco",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91czR2X05CZDR6Y2V1RzhrWGt1RU8wMjUxVkJrai1QQ2lqWWp1eWtVRzFRdF9ta3VJQWJMOE1wbnVnVUVTa3UwS3g3NGNxX01fUTBxaFY1Q1dQcW4zY1N4WUxjVmhKZkFSWmN1Qi1DeF9wNnBLb0VVMUVGeDlpdWc?oc=5",
-      "tickers": []
     },
     {
       "id": "9e27a71820ae",
@@ -634,7 +665,7 @@
     {
       "id": "c3981ab10df4",
       "time": "2026-08-10T02:17:54.000Z",
-      "source": "KTAR News 92.3 FM",
+      "source": "ktar.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -800,7 +831,7 @@
     {
       "id": "7da9ccd1ae5b",
       "time": "2026-08-09T08:57:51.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -830,7 +861,7 @@
     {
       "id": "1e23324b22b3",
       "time": "2026-08-09T05:17:49.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -906,22 +937,6 @@
       ]
     },
     {
-      "id": "7b4d60e3135f",
-      "time": "2026-08-08T21:20:09.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences, Inc. (NBIX) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XbHpKS3ljOURKWXNNX1c4cFRIYkhSeko4RXJWUXRzMC1uSGQtWkhaclh1MlJDZnJOa1FmTTkwVjJOcENib19QMVRLTmZfbE1DTXc?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "62974cd7094a",
       "time": "2026-08-08T20:36:00.000Z",
       "source": "The Globe and Mail",
@@ -938,25 +953,9 @@
       ]
     },
     {
-      "id": "05c52a183a33",
-      "time": "2026-08-08T20:35:18.000Z",
-      "source": "Yahoo Finance UK",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "COMPASS Pathways plc (CMPS) stock price, news, quote and history",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tdGdkcUFCZkl6TkZDVktVakZ0Mzc4aFJvZnlfVUNlc0R4OHA4RS1EeGo2bkhVYWFJT2hVWkdJVHU3NWQ3RlFtVWs0ajJYZVdsRlE?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
       "id": "b645ac3d36aa",
       "time": "2026-08-08T18:47:45.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -984,23 +983,6 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORTgzejhBMFI2QUk1YkJGVHpENHd6aVRTNW5wWXJVbkhjUkgtY3V4cFZOY1NPblFaYnRKdmJJTEdDdGxYUFJiSjFwMnJaUERqYTNhMjE5akNfM0J2dWVFNlQ1Z1g2MUY2Uk9NeEJKY1ZfWkVDbWNXQ0tfM0pJSG84dg?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "cfafc11bfd4a",
-      "time": "2026-08-08T16:47:06.000Z",
-      "source": "stocktwits.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "CMPS Stock Climbs After-Hours: Analyst Sees Depression Drug Approval By H1 2027 Or Sooner After Strong Trial Data",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN3p0UWVmSEZvcHA3aW5MbkhUdDlDbTYxRFRMXzZZdmpwREJsS2RDQzhEd2kzZ0gwWXBiaHUyQTF4dnhfOGtFQmU2YXhNUHNLODNfc0lxYjZKT0toQVd1enZQTGxjbjNxbVNWYmRISnlIeHhOVmV0UlYwUm1rNmhpUnJnTkNoLVQ2aUVTNnFuWUlMenJ6MlhWSXVWM0RYb09XcldGcHZ5TGI5X053M09fSzJiTGZHQzg?oc=5",
-      "tickers": [
-        "CMPS",
-        "DRUG"
       ]
     },
     {
@@ -1036,9 +1018,26 @@
       ]
     },
     {
+      "id": "cfafc11bfd4a",
+      "time": "2026-08-08T15:45:30.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "CMPS Stock Climbs After-Hours: Analyst Sees Depression Drug Approval By H1 2027 Or Sooner After Strong Trial Data",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN3p0UWVmSEZvcHA3aW5MbkhUdDlDbTYxRFRMXzZZdmpwREJsS2RDQzhEd2kzZ0gwWXBiaHUyQTF4dnhfOGtFQmU2YXhNUHNLODNfc0lxYjZKT0toQVd1enZQTGxjbjNxbVNWYmRISnlIeHhOVmV0UlYwUm1rNmhpUnJnTkNoLVQ2aUVTNnFuWUlMenJ6MlhWSXVWM0RYb09XcldGcHZ5TGI5X053M09fSzJiTGZHQzg?oc=5",
+      "tickers": [
+        "CMPS",
+        "DRUG"
+      ]
+    },
+    {
       "id": "afd3a2abaf18",
       "time": "2026-08-08T13:44:19.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1100,7 +1099,7 @@
     {
       "id": "ba4faa896638",
       "time": "2026-08-08T12:14:47.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1114,7 +1113,7 @@
     {
       "id": "f54baeb83e02",
       "time": "2026-08-08T09:53:08.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1130,7 +1129,7 @@
     {
       "id": "b602041e46f8",
       "time": "2026-08-08T07:37:10.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1144,9 +1143,25 @@
       ]
     },
     {
+      "id": "dc92bb644ec1",
+      "time": "2026-08-08T07:28:13.000Z",
+      "source": "富途牛牛",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Guggenheim Maintains GH Research(GHRS.US) With Buy Rating, Raises Target Price to $40",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWUU3V2x1NW5JTGVzeG5DWnNuTW5fcWZ4RHBjUmVWNG9kbGpKTW9PV1pDZmg4RkR1SFEwVmNCeHgtTDRVOGoyV2lTUlRia1pRUmVuY1E2SmhzYk9mcjRTdV9MUWRaY1Z0c3l4TjBIRnZBejhCcXI5Z0pSc2JLdWhTaWdXR3N3dnduNjRsVlMxNmY3OFhUY0FSTmNVTlMyVGhwX2s1eFF4TVRqajJXQVRV?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
       "id": "35d68a07f1b7",
       "time": "2026-08-08T06:43:13.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1194,7 +1209,7 @@
     {
       "id": "ddf961f65f55",
       "time": "2026-08-08T06:04:17.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1224,7 +1239,7 @@
     {
       "id": "c20bc808e473",
       "time": "2026-08-08T05:48:57.000Z",
-      "source": "MarketBeat",
+      "source": "marketbeat.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1256,7 +1271,7 @@
     {
       "id": "c4eea4c719e4",
       "time": "2026-08-08T04:09:14.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1286,7 +1301,7 @@
     {
       "id": "b6a3069ffea5",
       "time": "2026-08-08T01:50:21.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1359,22 +1374,6 @@
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQzZPcGFER0U5VUtQZkhWVmRVZ1l2WTlNdTVjay1hUlFSTnpoM2FkWVFyeF9IRHpkUEF1OGZLOU1meC1EX0FqVW5NcnRLcHFDTm5nVVdPRktScHhIMi1HUGRtRFhfQl9tU3dEUWVIeEdpVTlEUGVmbjM2MnQ0Y2h1TDNjekQ2dS10T0l1T3JVTDZScTY5?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "b87d88ec1467",
-      "time": "2026-08-07T23:07:17.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Guggenheim Maintains GH Research(GHRS.US) With Buy Rating, Raises Target Price to $40",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSHBnS21FaEdkc0Z5elNwWVhrTDhWVGp6WTk3eXY1OVEtZUxJdVRULWJtakdVM1JYdzdTc1l0ZXBSaWN2aEQ2Z1JhQUFheEROVW1aR0xpT3BxNUUxc0NaNzFtNGh2QkNZWlFFbklIck5MSEVuT1dPTkFwcVB5LWZQNVZSZWp4MkxTd1hveHA0R1RBMFgxQkgxZ3RIdkhBWEdVWVIzMHlxcUtibXEwTHhfOA?oc=5",
-      "tickers": [
-        "GHRS"
       ]
     },
     {
