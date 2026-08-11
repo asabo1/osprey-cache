@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-11T10:10:38.097Z",
+  "updated": "2026-08-11T11:03:58.695Z",
   "counts": {
     "total": 90,
     "crit": 5,
     "warn": 9,
     "bySource": {
+      "The New York Times": 1,
       "The Business Journals": 1,
       "FemTech World": 1,
-      "The New York Times": 1,
       "Drug Science": 1,
       "Yahoo! Finance Canada": 4,
-      "WVTM Channel 13": 1,
+      "wvtm": 1,
       "WFAA": 1,
       "AD HOC NEWS": 4,
       "HCPLive": 1,
@@ -21,20 +21,20 @@
       "simplywall.st": 7,
       "Stock Titan": 1,
       "kalkine.ca": 1,
-      "Tuscaloosa Thread": 1,
-      "TipRanks": 3,
+      "tuscaloosathread.com": 1,
+      "tipranks.com": 3,
       "WVUA 23": 1,
       "Helus Pharma": 1,
       "TheStreet Pro": 1,
       "The Microdose | Substack": 1,
-      "FirstWord PHARMA": 1,
-      "BioSpace": 2,
-      "MarketBeat": 7,
+      "FirstWord Pharma": 1,
+      "biospace.com": 2,
+      "MarketBeat": 8,
       "marketscreener.com": 2,
       "Yahoo Finance UK": 2,
       "Clinical Trials Arena": 1,
       "PsyPost": 2,
-      "alreporter.com": 1,
+      "Alabama Political Reporter": 1,
       "Yahoo Finance": 1,
       "FM News 101 KXL": 1,
       "Investing.com": 2,
@@ -46,27 +46,41 @@
       "facebook.com": 1,
       "New York Post": 1,
       "The Media Line": 1,
-      "The Spectator": 1,
+      "spectator.com": 1,
       "EMJ": 1,
       "KESQ": 1,
-      "The Globe and Mail": 3,
-      "Stocktwits": 8,
-      "The Killeen Daily Herald": 1,
+      "The Globe and Mail": 2,
+      "Stocktwits": 7,
+      "kdhnews.com": 1,
       "NPR": 1,
-      "富途牛牛": 1,
       "TradingView": 1,
       "lucid.news": 1,
       "Law360": 1,
-      "Moomoo": 1,
+      "Moomoo": 2,
       "Seeking Alpha": 1,
       "Investing.com Nigeria": 1,
-      "Buttondown": 1
+      "Buttondown": 1,
+      "Yahoo Finance Singapore": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "99c224a25ccd",
+      "time": "2026-08-11T10:16:31.000Z",
+      "source": "The New York Times",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The ‘Rosetta Stone’ of San Francisco’s Counterculture Revolution Comes Home",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91czR2X05CZDR6Y2V1RzhrWGt1RU8wMjUxVkJrai1QQ2lqWWp1eWtVRzFRdF9ta3VJQWJMOE1wbnVnVUVTa3UwS3g3NGNxX01fUTBxaFY1Q1dQcW4zY1N4WUxjVmhKZkFSWmN1Qi1DeF9wNnBLb0VVMUVGeDlpdWc?oc=5",
+      "tickers": []
+    },
     {
       "id": "f1051c7ab385",
       "time": "2026-08-11T09:52:00.000Z",
@@ -96,20 +110,6 @@
       "impact": "LOW",
       "title": "New psychedelic treatment shows early promise against postpartum depression",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ3FYbnRMQ3JQOTROaWJ0eUFMOVpNSFY3NE1hUmtHYnZnVklFM1hZNmhXdV9LU2hsVlR6aWdCZmFid2tucEtpZEQ4cWRWZjgtNDA0RkNmWlBMRG1ZSGhjcUl6b0V4VVM5eVBGc3hCLWJuUlF4YjBnb1FVYi1tZjJBUkozWDFCWm1UazM4SEgwa3ZCNFl4S3h6dEV1MlpDS01GNjg3ZFVfUWhuZy02aUtUbHBJNUdVejBjLU1hT1hLQ2g?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "99c224a25ccd",
-      "time": "2026-08-11T07:17:42.000Z",
-      "source": "The New York Times",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The ‘Furthur’ Bus’s Long, Strange Trip, and Why It’s Returning to San Francisco",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91czR2X05CZDR6Y2V1RzhrWGt1RU8wMjUxVkJrai1QQ2lqWWp1eWtVRzFRdF9ta3VJQWJMOE1wbnVnVUVTa3UwS3g3NGNxX01fUTBxaFY1Q1dQcW4zY1N4WUxjVmhKZkFSWmN1Qi1DeF9wNnBLb0VVMUVGeDlpdWc?oc=5",
       "tickers": []
     },
     {
@@ -145,7 +145,7 @@
     {
       "id": "48f684dcd2d1",
       "time": "2026-08-11T01:54:00.000Z",
-      "source": "WVTM Channel 13",
+      "source": "wvtm",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -307,7 +307,7 @@
     {
       "id": "943d6a96dbbd",
       "time": "2026-08-10T16:52:03.000Z",
-      "source": "Tuscaloosa Thread",
+      "source": "tuscaloosathread.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -321,7 +321,7 @@
     {
       "id": "073e895143c7",
       "time": "2026-08-10T16:42:18.000Z",
-      "source": "TipRanks",
+      "source": "tipranks.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -337,7 +337,7 @@
     {
       "id": "73e815fd26b0",
       "time": "2026-08-10T16:21:29.000Z",
-      "source": "TipRanks",
+      "source": "tipranks.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -411,7 +411,7 @@
     {
       "id": "6eb43664ca57",
       "time": "2026-08-10T15:27:17.000Z",
-      "source": "FirstWord PHARMA",
+      "source": "FirstWord Pharma",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -427,7 +427,7 @@
     {
       "id": "58ac34b0486d",
       "time": "2026-08-10T14:55:28.000Z",
-      "source": "BioSpace",
+      "source": "biospace.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -519,7 +519,7 @@
     {
       "id": "63b6f75ee27c",
       "time": "2026-08-10T13:00:00.000Z",
-      "source": "alreporter.com",
+      "source": "Alabama Political Reporter",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -683,7 +683,7 @@
     {
       "id": "2007b9632732",
       "time": "2026-08-10T04:05:17.000Z",
-      "source": "BioSpace",
+      "source": "biospace.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -833,7 +833,7 @@
     {
       "id": "84408dedf7f9",
       "time": "2026-08-09T09:47:43.000Z",
-      "source": "The Spectator",
+      "source": "spectator.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1069,7 +1069,7 @@
     {
       "id": "2ede878637f4",
       "time": "2026-08-08T13:00:00.000Z",
-      "source": "The Killeen Daily Herald",
+      "source": "kdhnews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1094,22 +1094,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuODFPMWJrTFgwUHo4TUJXY1dYb1VnVUtpazVQRngxWWRycjYxaE5QR0pJSklwVmZwZWRJOFB3Z3VLQ1J5ZW80SzZxUGVhWFJ1c2x6aUFBdnZCUQ?oc=5",
       "tickers": [
         "CMPS"
-      ]
-    },
-    {
-      "id": "f80e52a38557",
-      "time": "2026-08-08T12:19:00.000Z",
-      "source": "The Globe and Mail",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "NRx Advances FDA Review of Ketamine ANDA Packaging Issue",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdFdaVXpHZDhkYW45OU44THV2UHllSXltdndDMHRzSUo4Nmc2TVBpUEZOZHZ2d3pNc3hoRk81UV95c05OcE5WUE1QUUtaVXhiQlFHQmRnVXNqM2ZqX01NbWwwYkY5d0Uyek03SVlPdXdHMk85dndrb2s4UlgzLU1wVk95QVVZY25hNldQNzdZRmQxempaT3FobDRnaEdLRDBOTFhEekluR3dJb1poMlVvT0dXNmlYcnJkQ3RmWjRlWVF6OVVzU0I0U3dIeVdkNDdpR0hiRXlqSGg?oc=5",
-      "tickers": [
-        "NRXP"
       ]
     },
     {
@@ -1157,6 +1141,22 @@
       "tickers": []
     },
     {
+      "id": "9f251b8736d6",
+      "time": "2026-08-08T07:41:34.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences, Inc. $NBIX Shares Purchased by Cetera Investment Advisers",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORC14YzVfcE9ReEtpcURkSUl6azg4LXB3RkgyREFDRFlHZjc3RUZXRHJoNFBJdy1PcUxmUUlEZ09wN0MwZGhZaEFJM0NjVnNuRXhqekdwV0pQVTFjVkxzNG5MWWg5c21iZHhBYy1jemc2bUs0Qmg3M1E1NHFkS1NQSC03NVpBX08yUmFxVlg2dzJoVlV0NlNtcHlRQVFmLU1EMXk3QjRmREtLOVh4bjZMMVc4UGR1am1VMTFPRUdJLTRoNkRjdm1NSTBBYUFyb0N3UnhWNWF3?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "b602041e46f8",
       "time": "2026-08-08T07:37:10.000Z",
       "source": "MarketBeat",
@@ -1168,22 +1168,6 @@
       "impact": "MED",
       "title": "GH Research (NASDAQ:GHRS) Upgraded at Wall Street Zen",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMmlzajM1TzYtWm8tNTIzOXVhblQwM2Y3SDN3ZE1jMDJRMXo1SkFNS1VYNGhPbG1JQ3VubVFhN0dSUTk0U19CZEc1SEVmSHI2MDk0Y1Zpd1hFS3lTWlN5TTl5azJLbURYeU1xc25udjMwWVJ3cERTRjJCSHZLVGExNzZTSHFXMnplMTVIbThVaWhGTUhKRlhhZXY2eFRWNXhwOHdGaFJVUQ?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "dc92bb644ec1",
-      "time": "2026-08-08T07:28:13.000Z",
-      "source": "富途牛牛",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Guggenheim Maintains GH Research(GHRS.US) With Buy Rating, Raises Target Price to $40",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWUU3V2x1NW5JTGVzeG5DWnNuTW5fcWZ4RHBjUmVWNG9kbGpKTW9PV1pDZmg4RkR1SFEwVmNCeHgtTDRVOGoyV2lTUlRia1pRUmVuY1E2SmhzYk9mcjRTdV9MUWRaY1Z0c3l4TjBIRnZBejhCcXI5Z0pSc2JLdWhTaWdXR3N3dnduNjRsVlMxNmY3OFhUY0FSTmNVTlMyVGhwX2s1eFF4TVRqajJXQVRV?oc=5",
       "tickers": [
         "GHRS"
       ]
@@ -1234,22 +1218,6 @@
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM3pZN0hVYUhzcThQaVFla1JNaUtXQmhqMU5PTlBUT3N5YVRGSHIwZFdUWFNZcXQtY0g5QjZvXzdIVkkzQUtNX19qRHFTcEg4cVNGZ0pHaF9ZaDJJb1kwUDh0NVBaeVo2MXlYMW9nWG1mTjlTYVI0NDJSNVlsMWIzaG1PNGU2R2ZFMHVrVXJrc2V6ZnJmZ0J0Tlh1SzVOV0RIeGV4Z1RuVWhndG9Vd1FuR2RIc201SUtGSE9xOF9SOExJZVZWY083OU8zZ1JaR3NuMjNPRVhXcDhRNmZuX3I1bEdyTUZiNnpKNVJR0gHwAUFVX3lxTFBIWEtjTzh2Unc5RmRRaGtxdmN4MzBsdklaWXYzS2JZUF9xQjBnbXhwQUV1RE0zVndWc1d6SEQxbUJZVFlWcjJJOElEMkZjVk5xMGV6NkYzeHV6dkZRQ0QySUJqUHRKZFk1aXdYUVRtNTF4YXhhNU42TVNNa3VTSnNCejVtMzR3UlQ5NjFDY0p0UXN6eDczOEhSRHFCWFhhbkNNY3dfOU04bFRMRDNjLVplRDE1S3JSSXd5bXc1eXc0ckk0dUlYS2I5T1QwdldwaE9xM0dTQkExM3pBenVhTFpQb3hhV0JkaEdGRzUySVIxdg?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "ddf961f65f55",
-      "time": "2026-08-08T06:04:17.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "CMPS Stock Climbs Toward 2-Year Highs – What’s Driving This Rally?",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM3ZyTGNNaGl5U1BJY295aUp6SjM4eUJPd3VxQWRIX0h3aWRocTJoem1OUlBFU0x0YlBzcG50SmZDcUdCNFdaYWRndlZscFBxX0dCcnp6NVNtLXdJR056RHc4a3hTY3NFUHAtSUxpUHZvUHZrVEJnZENEQ190RXVheDloaEtUUVFBNHkwcnU2Vk5fOTBYXzMwQ0h5dUlsMlJvOW0zX2t5QWpjSl9WMzE3VENTblQxeDdVU1E?oc=5",
-      "tickers": [
-        "CMPS"
       ]
     },
     {
@@ -1315,7 +1283,7 @@
     {
       "id": "44242bbe4fca",
       "time": "2026-08-08T02:49:54.000Z",
-      "source": "TipRanks",
+      "source": "tipranks.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1407,6 +1375,22 @@
       ]
     },
     {
+      "id": "b87d88ec1467",
+      "time": "2026-08-07T23:07:17.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Guggenheim Maintains GH Research(GHRS.US) With Buy Rating, Raises Target Price to $40",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSHBnS21FaEdkc0Z5elNwWVhrTDhWVGp6WTk3eXY1OVEtZUxJdVRULWJtakdVM1JYdzdTc1l0ZXBSaWN2aEQ2Z1JhQUFheEROVW1aR0xpT3BxNUUxc0NaNzFtNGh2QkNZWlFFbklIck5MSEVuT1dPTkFwcVB5LWZQNVZSZWp4MkxTd1hveHA0R1RBMFgxQkgxZ3RIdkhBWEdVWVIzMHlxcUtibXEwTHhfOA?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
       "id": "5bb994246dda",
       "time": "2026-08-07T22:14:40.000Z",
       "source": "Investing.com Nigeria",
@@ -1434,6 +1418,20 @@
       "impact": "LOW",
       "title": "The Latin Psychedelic sounds of Los Duendes!",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSkVRYnVZUUNDZUlLeXpwM3dtVTRuOFd2dWxIUktwY3l4Zjk2M3k1TTkxU1d5QmxHTmJ5WVh1WlhKTGswbGdMcFJLU1Vha3o3bmxMRkx0R1h2dTZBLVN0dmpzQzJ2a2Zvc1plTTBjQXYyUFVUMFBIdi1GY2RMb2FCbHVOVk9lQ2laSkpNekQwTTJKZw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "b82c545fc965",
+      "time": "2026-08-07T20:31:40.000Z",
+      "source": "Yahoo Finance Singapore",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "COMPASS Pathways plc (5Y6.F) stock price, news, quote and history",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE11eVhmQXBOLTdwN290akFKZmZVNzZiWnFlMEFTVGN1RFlWMkhQX1ZHUy1sbWo0Q3lOUi11SlRXWU1INHhSTkh5Z1VoOEZXakF1Ti05N0d2TWJhb2xwOHI4NU1Sbw?oc=5",
       "tickers": []
     }
   ]
