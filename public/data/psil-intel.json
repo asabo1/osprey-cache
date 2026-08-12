@@ -1,38 +1,40 @@
 {
-  "updated": "2026-08-12T19:17:43.142Z",
+  "updated": "2026-08-12T20:10:19.813Z",
   "counts": {
     "total": 94,
-    "crit": 27,
-    "warn": 1,
+    "crit": 26,
+    "warn": 2,
     "bySource": {
       "Fierce Biotech": 2,
-      "PharmaLive": 1,
       "MarketBeat": 8,
+      "Investing.com India": 1,
       "Endpoints": 1,
+      "Quiver Quantitative": 1,
       "Psychedelic Alpha": 2,
+      "The Globe and Mail": 1,
       "Yahoo Finance": 4,
       "Investing.com": 7,
       "Reuters": 2,
       "WebWire": 1,
       "kalkine.ca": 1,
       "Gizmodo": 1,
-      "stocktitan.net": 8,
+      "Stock Titan": 8,
       "Benzinga": 2,
       "firstwordpharma.com": 1,
       "TipRanks": 4,
       "Seeking Alpha": 1,
       "tradingview.com": 8,
+      "BioSpace": 2,
       "AD HOC NEWS": 1,
       "StockInvest.us": 1,
       "BioPharma Dive": 1,
       "Kalkine Media": 3,
       "Moneyweb": 1,
-      "BioSpace": 1,
       "PsyPost": 1,
       "AllSci": 1,
       "psychiatrictimes.com": 1,
-      "hcplive.com": 1,
       "Investing.com Canada": 2,
+      "HCPLive": 1,
       "Investor's Business Daily": 1,
       "GuruFocus": 1,
       "streamlinefeed.co.ke": 2,
@@ -51,9 +53,7 @@
       "edhat": 1,
       "VA.gov Home | Veterans Affairs": 1,
       "Mshale": 1,
-      "Stocktwits": 3,
-      "ABC News - Breaking News, Latest News and Videos": 1,
-      "NBC 7 San Diego": 1
+      "Stocktwits": 2
     },
     "byTier": {
       "T3": 4,
@@ -63,7 +63,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-12T19:17:41.897Z",
+      "time": "2026-08-12T20:10:17.353Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -76,19 +76,34 @@
       "tickers": []
     },
     {
-      "id": "110bf79c4863",
-      "time": "2026-08-12T19:15:31.000Z",
-      "source": "PharmaLive",
+      "id": "04842ec75501",
+      "time": "2026-08-12T19:35:57.000Z",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
-      "severity": "CRIT",
+      "severity": "INFO",
       "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Deaths reported after treatment with Neurocrine’s approved Prader-Willi drug",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORDlsaFBUb3VOQVZueGg0c1ZjVW1DN1JEMzZkZlRaYmdxWlY4UzI4U1IwVWNNejNVR2JNWENSbW9VODBxOElOWVZ4aVNfa0dBSTZjUG1QWE03dE9xLUdGZnRpTFJjY0lfNmJOSlZWcUs1YkNqX2s3YUhpUnhidGxkQUIyeGdENW9qT1E0YlRzTUhCY3BfbVk1UkhPNFRJNl9sb213d2Zn?oc=5",
+      "impact": "LOW",
+      "title": "Needham & Company LLC Raises Definium Therapeutics (NASDAQ:DFTX) Price Target to $66.00",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZTN6UWgyUzhENjBFUWJ6YmRaME5xOVNPOTZvMHJWWXctSC1kSVBlallnSHFfcXp0eFpZR2g5TDloMlZ4NXpiWUlEMmxDUE9oaUJTNUVrNU40dTduYS02bjByQ1Q5bHRPQnVWblgtWUIzTGtURVBqZ0xITmE5WDRqeGVCT2U4WHppSUpFX1pBaU96bHFxQ0NEdGt3UWJPMFdOc3pBUHNJdlVHNDhXMUxFZUZCLXJWNlVSSmc1U0xlb3hmN0JteUNKel9ybnhmbjQ?oc=5",
       "tickers": [
-        "DRUG",
+        "DRUG"
+      ]
+    },
+    {
+      "id": "1421d617d9b4",
+      "time": "2026-08-12T19:34:45.000Z",
+      "source": "Investing.com India",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Why is Neurocrine Biosciences stock sliding today? By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbkh1cGVDZGVwd1gyRkk2VkdmT3Zpcm1uQkR6ekhFRVBpNWllVjlURkhhMXNPU1ZQYVROQmpLNmNKaXNSYktkZUFGZm9aUHVweDFRRmVNclRiOXVpQk9TSXg5bk9rX1hoc19mdWU1VlhyX3cyYTZUX0dXTDg2bFJoVXAyLW8wSkxOVnVXOWxtLVpWdTMzSkVveGg0eVRuUFJ1eUV1N1FEeUtQdTV1VWxZ?oc=5",
+      "tickers": [
         "NBIX"
       ]
     },
@@ -123,6 +138,22 @@
       "tickers": []
     },
     {
+      "id": "003c1215db49",
+      "time": "2026-08-12T18:38:00.000Z",
+      "source": "Quiver Quantitative",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Why Neurocrine Biosciences (NBIX) Stock Is Down Today",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSkhRUWFNY3FPQVNmWGhFMXJjdXowbWozdG9JZGhIMExkbG9zTlpKaUsxU3BidHppaTBTQUVkMEpFMmw2YkVIWEhIS1Z4YjVxeF83VGREMUEyczJQYW4zbVpYQWNKa1dGTUcxMVpWa0p5U2hLeEJudzIzX1BRV1ZFaDJNbk9yOUt5OEdGenpiSlVxUm9P?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "54289e7c1563",
       "time": "2026-08-12T18:20:50.000Z",
       "source": "Psychedelic Alpha",
@@ -135,6 +166,22 @@
       "title": "Two Years After Rejection, Resilient Quietly Refiles MDMA for PTSD Application",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSmRnX3h4ZkxoM0F5d1UtZF9OeHRIc0FzQlBUNkFIRTBDSHVLQ3VISzBYa1gyYk9hOFpZN1hYRnkxWnZNakN6NXhpalZ6SGt1NTIzYUlSU3g5Z1hreF9VNExKd0IwajYtSkx0MDRHbXdCcHR0TERLMVhxUWlGUC14YTVTeGpSQXdjWU0tb2ZkNDluWkhoeUFHZzFRbUhtenZuZXhoR24tZ2tyVC13a180N0d3?oc=5",
       "tickers": []
+    },
+    {
+      "id": "2a4b939d90cd",
+      "time": "2026-08-12T17:45:16.000Z",
+      "source": "The Globe and Mail",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "COMPASS Pathways (CMPS) Q2 2026 Earnings Call Transcript",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQa3JhTFpoQzZPWC0yTXppREJvNUVyWEoyV3FQYm9ZMlU4OU1VTGowQTEzdENKYWpUY3VWQ0Fla3lXZXkyY1Z4VW53WXJPcGxRd1FwZDBaV0JWdklBV3lSR1lUWVpaZWZCTjVZT0hLWGVYdGVRSEJESnNjR0dsb2JjSzRHbkE1ZnQtSHRwX3JSeVNDV25QOXhTRmFLSHA0VEJpay1ZS1UzSFQwUUpkb096OG5FdTdrRzRUSlFIdHF0MWRLUkRIWmJRNk5CckFZVlV4T2pTZmxNZw?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
     },
     {
       "id": "5616d5a6a764",
@@ -232,7 +279,7 @@
       ]
     },
     {
-      "id": "2e43ae0fa749",
+      "id": "43e464453d6e",
       "time": "2026-08-12T16:14:53.000Z",
       "source": "MarketBeat",
       "sourceKind": "gnews",
@@ -242,7 +289,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "Compass Pathways Targets 2027 COMP360 Launch as FDA Filing Advances",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUG9KeUtGbGFpVXNLVFUyblpNNzNIMzJnaHFrYXEyVzI1OVVNUUMyWktGNE9EQzF3YmVublVRdkp4cEpNbk9TLUgxaC1FbjVHRVh1RGhZUE16ck1vVUxMcU53UGV5M3IwazFSWlF5OXVsQXk1aVByakNTWlBtem9tMi0tb01SYWxvTm9SaTZPVUlzdlpGMGJNbU1PMktWRHU1Z0JDd3hNbkJBS0tKV1paX2hidVpIMnpNS3BVa2dn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVEswUllVSnJ6NXlKNWx3aVNVWFNkNVlJcVI2aE5PdTJhZEV4N2ZyZjlpZWdTSDBwS29uX0JnQW44Smd4NlJYd3NzQ1JQZUhjMjlaaGdSVTN5X0VQcDRLVE5sNU1pM25GcVlyT2pxRjJaV2c5R2t0UE9rLVYyTnVoQksyem80UlhJY0NkNlIyLTNlSVk5c3JfWURqQTNZVm9BQ2lnMnZwZzZfWTRWbTc0cnRyc09YdTI3VDJRTjktMWs2OEtodG9zd0JBZDlybnA1RGpvamNkaVB2eXg0cEYxcnAtOXZWM1pENDVtTld3Qm1rOXZlRkRTTw?oc=5",
       "tickers": []
     },
     {
@@ -264,7 +311,7 @@
     {
       "id": "2b440de1aaa9",
       "time": "2026-08-12T16:10:22.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -401,6 +448,23 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa3BRUXNmamFzN1dKLS1IV09UdGpPdHdRSmo5c2xEYlBtLWk3S0xEaVZDNkdtUDhsdFpHcVROTkdyYllxZlY2NThfdFU3ZW0wd3p2Qzl0V1NlV2R0OWlZazRhWS1YNFM5Ny1Gd0VUN0wybVhfSFUzcG9UdHBmS3Y0QndPVVdHNDItd0ZaSDFZa1AwUnpoTXYtNE1fdWpoMUdUWUczNmt2LVlsYWxxSWZ2NTVhNHoxQQ?oc=5",
       "tickers": [
         "ALKS"
+      ]
+    },
+    {
+      "id": "b137e7e446fc",
+      "time": "2026-08-12T15:20:46.000Z",
+      "source": "BioSpace",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Deaths reported after treatment with Neurocrine’s approved Prader-Willi drug",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaURSYmZsUmVZM19ZUzlteDF5bVU5YXBkNzJGRk5tbHg3bFVwaktJV2tXUmNhNmlkRG5WYWtReWZjTW9RTml2UFozbFF1SXhxNm9sS1BJZ0pXUE41VkhqV2hSZU5oWGxZQlR1UGEyM0dPdTdQVDA2NEUtS3V0ZEpITVl3ZHdHUGY1VzlaV2lJbVF1OWpCaFozRWVmVTRRZlVLX3hjOEQzNUJLU3Y3ZzF0UnNxMnhyUTFk?oc=5",
+      "tickers": [
+        "DRUG",
+        "NBIX"
       ]
     },
     {
@@ -656,24 +720,8 @@
       ]
     },
     {
-      "id": "a86924aa44ad",
-      "time": "2026-08-12T13:41:13.000Z",
-      "source": "hcplive.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Voyage: DT120 ODT Reduces Anxiety in Phase 3 GAD Trial",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFOeGNISUFkZUd5c3YzU0xLX1hURGFwSVdmNG9XN09uWUU1dHRoX1JiWXJJTFFBa3FJV1N6MTMwX3ZFSTJ2ampaV19vVkNqTVE5Vkx0MlI1ZnEzZk8xclJUT1o0cjlXd19RaTM0NUJFM2E1OFFUbm5aRVg5QkdNXzdfLVBuemJK?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "301728b08a90",
-      "time": "2026-08-12T13:40:18.000Z",
+      "time": "2026-08-12T13:45:18.000Z",
       "source": "Investing.com Canada",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -685,6 +733,22 @@
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ25OWm9zclRqN2JEeVJRTVY5dW5xaWVsenkyenVHaEMxOW9ndHRoOHR4QW1ReEVOLXZrOHZZMDNYNEs0WmFzcWNJUlN2Si1CM2lPdFBEOEJ3dzNwQmIwT2xMV1M2dkNHSXhyWDFVQU9PZzRka3NfS3J1SFJYYnpUejluaThhUnkxWEp6anROSGlCMGt3M1ZycGhyOA?oc=5",
       "tickers": [
         "ALKS"
+      ]
+    },
+    {
+      "id": "a86924aa44ad",
+      "time": "2026-08-12T13:41:13.000Z",
+      "source": "HCPLive",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Voyage: DT120 ODT Reduces Anxiety in Phase 3 GAD Trial",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFOeGNISUFkZUd5c3YzU0xLX1hURGFwSVdmNG9XN09uWUU1dHRoX1JiWXJJTFFBa3FJV1N6MTMwX3ZFSTJ2ampaV19vVkNqTVE5Vkx0MlI1ZnEzZk8xclJUT1o0cjlXd19RaTM0NUJFM2E1OFFUbm5aRVg5QkdNXzdfLVBuemJK?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -738,7 +802,7 @@
     {
       "id": "d75658956efd",
       "time": "2026-08-12T13:27:11.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -896,7 +960,7 @@
     {
       "id": "dabc395ee417",
       "time": "2026-08-12T12:30:46.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -912,7 +976,7 @@
     {
       "id": "b72103432668",
       "time": "2026-08-12T12:30:38.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -928,7 +992,7 @@
     {
       "id": "d156ac58edd6",
       "time": "2026-08-12T12:30:38.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -944,7 +1008,7 @@
     {
       "id": "aa920ca90878",
       "time": "2026-08-12T12:30:34.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -960,7 +1024,7 @@
     {
       "id": "c1aee6e6b6db",
       "time": "2026-08-12T12:30:25.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1024,7 +1088,7 @@
     {
       "id": "e24664af523d",
       "time": "2026-08-12T12:06:03.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1473,68 +1537,6 @@
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZ1hMY2hiQUVpaFVJZ1dnakIyRmduMTJ5Y1hKTDdkeUZtYkZBMUVFc2p4X1RLemhMY3NQZl96UUpQNzdCdmtERDdJMUQ2cG4yZGNRaHhkTVh0LWNWSDUxZHcwckppamVsSVlQNFdtTnlGVkw0cDZqNmxCeUNDNmRzdWZiQXpTLWxOa3UyaUdVRWI0THhocGJDdldYdmxPQkU2d1RMQTVZbXJYc2IxOHk4bjRhcF9zMTBGOFphX1ZNTkQyNTdzZUFpQ1BIRC1xbU1TQmQzc3FNYjBjMkk1MldTQVo1YXNoZVcwSGdtMm5NTQ?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "afd3a2abaf18",
-      "time": "2026-08-11T22:16:36.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "03ae6ecc56bc",
-      "time": "2026-08-11T21:14:00.000Z",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Video Restrictions on psychedelic drugs loosened for research purposes",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8tRVNMVGthYjRTeW1EREY0X194ME4tQ2xFQVloMElIV0dVMzZBQzhaMDFxYWZEeXo3bWpjREJmS2M3bkw5VW5PcXpUcTM?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "862df95ecac5",
-      "time": "2026-08-11T20:53:07.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Top Cybin (HELP) Competitors 2026",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "f4c615413212",
-      "time": "2026-08-11T20:35:12.000Z",
-      "source": "NBC 7 San Diego",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "UC Irvine researchers study how ibogaine may help treat opioid addiction",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWVp5WmlfdmNxQlpROHdYN3JnWFM5X1hFR0JteklTSTJtNFkwRzhHbFRTNF9QXzYxUmpjbk1FQWtJeDhLTjNENE9Wejd5NW51UG10TlVhSjRpVXRJcW11dE9PTGZ2eXd3S2h3TENfMzNaSDJ4N2d3dFpvZi1PZGp5Rkd3MzlrS2tVeXR0V2tDdE1kVWdGNklMeVJKMF9EaF9yM2FJZlNreXFYemFFWExyMGdZeG7SAbQBQVVfeXFMT1laeVppX3ZjcUJaUTh3WDdyZ1hTOV9YRUdCbXpJU0kybTRZMEc4R2xUUzRfUF82MVJqY25NRUFrSXg4S04zRDRPVno3eTVudVBtdE5VYUo0aVV0SXFtdXRPT0xmdnl3d0tod0xDXzMzWkgyeDdnd3Rab2YtT2RqeUZHdzM5a0trVXl0dFdrQ3RNZFVnRjZJTHlSSjBfRGhfcjNhSWZTa3lxWHphRVhMcjBnWXhu?oc=5",
-      "tickers": [
-        "HELP"
       ]
     }
   ]
