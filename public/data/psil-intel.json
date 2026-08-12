@@ -1,36 +1,38 @@
 {
-  "updated": "2026-08-12T18:06:16.001Z",
+  "updated": "2026-08-12T19:17:43.142Z",
   "counts": {
-    "total": 93,
-    "crit": 25,
+    "total": 94,
+    "crit": 27,
     "warn": 1,
     "bySource": {
       "Fierce Biotech": 2,
+      "PharmaLive": 1,
+      "MarketBeat": 8,
+      "Endpoints": 1,
+      "Psychedelic Alpha": 2,
       "Yahoo Finance": 4,
       "Investing.com": 7,
       "Reuters": 2,
-      "Psychedelic Alpha": 1,
       "WebWire": 1,
       "kalkine.ca": 1,
-      "MarketBeat": 7,
       "Gizmodo": 1,
       "stocktitan.net": 8,
-      "benzinga.com": 2,
-      "FirstWord Pharma": 1,
+      "Benzinga": 2,
+      "firstwordpharma.com": 1,
       "TipRanks": 4,
       "Seeking Alpha": 1,
-      "TradingView": 8,
-      "BioSpace": 2,
-      "ad-hoc-news.de": 1,
+      "tradingview.com": 8,
+      "AD HOC NEWS": 1,
       "StockInvest.us": 1,
       "BioPharma Dive": 1,
+      "Kalkine Media": 3,
       "Moneyweb": 1,
+      "BioSpace": 1,
       "PsyPost": 1,
       "AllSci": 1,
-      "Kalkine Media": 2,
-      "Psychiatric Times": 1,
+      "psychiatrictimes.com": 1,
       "hcplive.com": 1,
-      "Investing.com Canada": 3,
+      "Investing.com Canada": 2,
       "Investor's Business Daily": 1,
       "GuruFocus": 1,
       "streamlinefeed.co.ke": 2,
@@ -38,6 +40,7 @@
       "StreetInsider": 1,
       "pharmaphorum": 1,
       "PR Newswire": 1,
+      "Investing.com UK": 1,
       "STAT": 2,
       "STAT News": 2,
       "marketscreener.com": 1,
@@ -46,23 +49,21 @@
       "Endpoints News": 1,
       "Space Daily": 1,
       "edhat": 1,
+      "VA.gov Home | Veterans Affairs": 1,
       "Mshale": 1,
       "Stocktwits": 3,
       "ABC News - Breaking News, Latest News and Videos": 1,
-      "NBC 7 San Diego": 1,
-      "Microdose": 2,
-      "EIN News": 1,
-      "intellectia.ai": 1
+      "NBC 7 San Diego": 1
     },
     "byTier": {
-      "T3": 3,
+      "T3": 4,
       "T2": 90
     }
   },
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-12T18:06:15.081Z",
+      "time": "2026-08-12T19:17:41.897Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -72,6 +73,67 @@
       "impact": "HIGH",
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
+      "tickers": []
+    },
+    {
+      "id": "110bf79c4863",
+      "time": "2026-08-12T19:15:31.000Z",
+      "source": "PharmaLive",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Deaths reported after treatment with Neurocrine’s approved Prader-Willi drug",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORDlsaFBUb3VOQVZueGg0c1ZjVW1DN1JEMzZkZlRaYmdxWlY4UzI4U1IwVWNNejNVR2JNWENSbW9VODBxOElOWVZ4aVNfa0dBSTZjUG1QWE03dE9xLUdGZnRpTFJjY0lfNmJOSlZWcUs1YkNqX2s3YUhpUnhidGxkQUIyeGdENW9qT1E0YlRzTUhCY3BfbVk1UkhPNFRJNl9sb213d2Zn?oc=5",
+      "tickers": [
+        "DRUG",
+        "NBIX"
+      ]
+    },
+    {
+      "id": "8d2638d3edf3",
+      "time": "2026-08-12T19:13:57.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "GH Research (NASDAQ:GHRS) Sees Strong Trading Volume - Should You Buy?",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMGIxYm5VaTk4cGJycnNzTTYyWUpaT3l4V0pYT1ZSdG03WldUODREQllwWFhfLXVPdUozR3FqRG5oWEZ0TGdWTlF3eFplVk9rZGF3ejhyWHpvOF9kZEdieVdDQVVsbURjU240N3I4bVh6U01OdUt2RVo4MFhGNGwyOG9CTE81a3RlcHlJQTYwNWt6UWZxYUw4X1dLZWNTZXdDZ3gtWGNRV0dlN1JHb0Vrb2UzU0lZTjdaZlE?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
+      "id": "2b9c5c11b552",
+      "time": "2026-08-12T18:48:41.000Z",
+      "source": "Endpoints",
+      "sourceKind": "rss",
+      "sourceTier": 3,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Four questions on new safety warnings for Neurocrine’s Vykat XR",
+      "link": "https://endpoints.news/four-questions-on-new-safety-warnings-for-neurocrines-vykat-xr/",
+      "tickers": []
+    },
+    {
+      "id": "54289e7c1563",
+      "time": "2026-08-12T18:20:50.000Z",
+      "source": "Psychedelic Alpha",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "impact": "HIGH",
+      "title": "Two Years After Rejection, Resilient Quietly Refiles MDMA for PTSD Application",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSmRnX3h4ZkxoM0F5d1UtZF9OeHRIc0FzQlBUNkFIRTBDSHVLQ3VISzBYa1gyYk9hOFpZN1hYRnkxWnZNakN6NXhpalZ6SGt1NTIzYUlSU3g5Z1hreF9VNExKd0IwajYtSkx0MDRHbXdCcHR0TERLMVhxUWlGUC14YTVTeGpSQXdjWU0tb2ZkNDluWkhoeUFHZzFRbUhtenZuZXhoR24tZ2tyVC13a180N0d3?oc=5",
       "tickers": []
     },
     {
@@ -234,7 +296,7 @@
     {
       "id": "cfd5f3adb9ab",
       "time": "2026-08-12T15:57:15.000Z",
-      "source": "benzinga.com",
+      "source": "Benzinga",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -266,7 +328,7 @@
     {
       "id": "7fe70901acf9",
       "time": "2026-08-12T15:52:22.000Z",
-      "source": "FirstWord Pharma",
+      "source": "firstwordpharma.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -312,7 +374,7 @@
     {
       "id": "632e966d6556",
       "time": "2026-08-12T15:37:13.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -328,7 +390,7 @@
     {
       "id": "9d2a6433a9eb",
       "time": "2026-08-12T15:22:00.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -342,26 +404,9 @@
       ]
     },
     {
-      "id": "b137e7e446fc",
-      "time": "2026-08-12T15:20:46.000Z",
-      "source": "BioSpace",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Deaths reported after treatment with Neurocrine’s approved Prader-Willi drug",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaURSYmZsUmVZM19ZUzlteDF5bVU5YXBkNzJGRk5tbHg3bFVwaktJV2tXUmNhNmlkRG5WYWtReWZjTW9RTml2UFozbFF1SXhxNm9sS1BJZ0pXUE41VkhqV2hSZU5oWGxZQlR1UGEyM0dPdTdQVDA2NEUtS3V0ZEpITVl3ZHdHUGY1VzlaV2lJbVF1OWpCaFozRWVmVTRRZlVLX3hjOEQzNUJLU3Y3ZzF0UnNxMnhyUTFk?oc=5",
-      "tickers": [
-        "DRUG",
-        "NBIX"
-      ]
-    },
-    {
       "id": "ed016da308c5",
       "time": "2026-08-12T15:02:21.000Z",
-      "source": "ad-hoc-news.de",
+      "source": "AD HOC NEWS",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -407,7 +452,7 @@
     {
       "id": "96386185aff1",
       "time": "2026-08-12T14:41:33.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -416,6 +461,22 @@
       "impact": "HIGH",
       "title": "DFTX: DT120 showed unprecedented efficacy and safety in phase III GAD, supporting broad clinical impact",
       "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOdlhiZ2luLVlPUUo4b0lsZnV0NkYtcFoxNDRuRmt0a3FwMHpMNWRmd2RvaExyanRDZmxJOGVjMXVWbWlBZjFLWmFqekJEd2JHTDBDMGdlSFZMVFJiRHhpUXVfTGJSRmhJaTZfYXBkU0NPOE5ZQmhyR0x4LUY2bGhyMk0xZjZtNWNFSGhQQk1kUldEZmI0TVV4OXNnZDVZenp2ekdYanhaemg1RHVRa0ZzbnFCM09acms5X0VFdENrbWRBOUFCT0ktWHZZTTBqM21oaEQ2SHljcExxUU1XUGNQTkJzN1JNOGszTlBfQm5qYnh6VmVSOExZSHhTV1d0OVY2NWpzdUhkNDYxd2ppTDViTzdZbzNSOUk?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "d232d7e71c58",
+      "time": "2026-08-12T14:27:29.000Z",
+      "source": "Kalkine Media",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Definium Therapeutics CEO Robert Barrow Acquires 375,000 Shares via Performance Share Units",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcHkxODhVeTZVX2huTEVKWnp0YTNmbm45VWtPcWJpQzVkRjdrYmg3TklUazNXRGdvenFJNXZBSjRFZUlLSWtUQXgtUmVWR1p5UzFUMm5tcEtiSUZIY2dXWldMOFdWRkRGNjFjSEE2VDB5c2tXdk5NdFBqMGV6cl9iQ2h0QmtaVDhmU2M4aXY2ODBVLWtMdlJKZENqNFJBdEtndDhtb1pmVjMtVEFkRzV3RnBqYmY5WnB1ZkZUcUl0RE05UTNTM3ZmLXd1X1VPTTVLZENr?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -439,7 +500,7 @@
     {
       "id": "43db1e867c70",
       "time": "2026-08-12T14:23:28.000Z",
-      "source": "benzinga.com",
+      "source": "Benzinga",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -533,7 +594,7 @@
     {
       "id": "e2ca10cbd32a",
       "time": "2026-08-12T13:55:09.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -565,7 +626,7 @@
     {
       "id": "0fe54f62c4dc",
       "time": "2026-08-12T13:49:32.000Z",
-      "source": "Psychiatric Times",
+      "source": "psychiatrictimes.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -604,7 +665,7 @@
       "severity": "CRIT",
       "direction": "NEUTRAL",
       "impact": "HIGH",
-      "title": "DT120 ODT Meets Primary Endpoint in Voyage Phase 3 GAD Trial",
+      "title": "Voyage: DT120 ODT Reduces Anxiety in Phase 3 GAD Trial",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFOeGNISUFkZUd5c3YzU0xLX1hURGFwSVdmNG9XN09uWUU1dHRoX1JiWXJJTFFBa3FJV1N6MTMwX3ZFSTJ2ampaV19vVkNqTVE5Vkx0MlI1ZnEzZk8xclJUT1o0cjlXd19RaTM0NUJFM2E1OFFUbm5aRVg5QkdNXzdfLVBuemJK?oc=5",
       "tickers": [
         "DRUG"
@@ -661,7 +722,7 @@
     {
       "id": "e2e72282ccce",
       "time": "2026-08-12T13:33:23.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -929,25 +990,9 @@
       ]
     },
     {
-      "id": "0a6d3fdb8050",
-      "time": "2026-08-12T12:16:09.000Z",
-      "source": "Investing.com Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Form 8K Definium Therapeutics Inc For: 12 August By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOelk2NVNFMm5BdHdyU1VxbVo2TC04aVZHM1BOd0d1bTVZRTl6dUxkbXVUTl9sbGlDS0dzSHp2dU1NM1dVczZmM0lYd2dwc0cyWkxMX1c2WUgxWHNqU01aVGVLRlNBVzVvYWlZU0tQSWQwT2U5TXkzUXViMlhtU09LRVBMRkh0cWt0M2MySUsySXZRX1RBQTlwMDZtelhTRE15QWFOSEpnZmI1aWtT?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "ff8c13b37cca",
       "time": "2026-08-12T12:13:01.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -956,6 +1001,22 @@
       "impact": "HIGH",
       "title": "Definium Therapeutics posts positive Phase 3 Voyage topline: DT120 ODT cuts HAM-A by 5.4 pts vs placebo",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQVC1yNmVCT1lZM1diV2RMck02QkVLMVI3dFJsU0tUa2hUaFNUMnNJWXUtNTNJSV9QTHVBcGFTVXI5OXBvUUhKODhpY2psWGxNcUhHcUdobTVVYWVzUnFiUDdIbmoyRUYzMFlnQjVJV0FraGJqRHBra2VKbnA4a3U1d1JaV25adjV4WHZYMGo4WUxaeFlMSXh0bmxCb0JTeUpnV21ab0p4a3pGUlZQeUQzMUFBbG1EZEM2Y3BGNzlDOU0tX25RVE5fSlhacEdVRXg3TFlYM1plM2RPMHhaalNvOGE4UlFYVHVLU1dyZE9RV0xFX3RfdnRN?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "4e882e1679f1",
+      "time": "2026-08-12T12:12:00.000Z",
+      "source": "Investing.com UK",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Form 8K Definium Therapeutics Inc For: 12 August By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHhPaWV0NVdwaWU2QVFrc2xyVUhlRlVCYnVId0pEejRDSXBLMmd2T09xaVZmMDVxUmxySUI2cXB1WTZHSE1WcXBYd0ZlY09SQ2xNR3dJVkhmbkNDX3FYaDNjQ3d5alpMa2ZwN2dUZ3pqeGtjWkRLZDhVNXhBRWpUVDRjelBsUHAzWEd2dFV5dzFfZEprTnR5NU05aTh5UHh5ZmRZVVZuSnQ3NmVS?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -995,7 +1056,7 @@
     {
       "id": "722f9282271a",
       "time": "2026-08-12T12:03:27.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1087,7 +1148,7 @@
     {
       "id": "d5c01a629297",
       "time": "2026-08-12T11:23:12.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1355,6 +1416,20 @@
       ]
     },
     {
+      "id": "935280194a9f",
+      "time": "2026-08-12T02:56:43.000Z",
+      "source": "VA.gov Home | Veterans Affairs",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Birmingham VA named one of five VA sites to test efficacy of psilocybin as treatment for depression",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMHBuV1lYLVc5Q2p0WmRhUnlHN2dsOWkzejQ1WjFwNjNESFpEMmhyUXBHS2l2cFBuZ0JMbTlBVjJjVFFSM0NKT0xpblN0TGEzMy1NSWxnLU1McHh1VGp4aWdSUGMxZG1hTWpycm5URG8xM3pxMXlpNjlQd0hhQXJuVjVKTUZ4YVJ1c3N1UEpINlAwX3VFTktaNVJLLTJrY25tNk9JZldQdFhDR1dweXJEWHdGWGkzU0ZmRUp0RVdhTE1BN05xRWlZOEtsRXh6LTlObVNLUUNDeWxvajczSEQyRGZZeXQ?oc=5",
+      "tickers": []
+    },
+    {
       "id": "d74fdf3eb6be",
       "time": "2026-08-12T00:53:13.000Z",
       "source": "Mshale",
@@ -1460,66 +1535,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWVp5WmlfdmNxQlpROHdYN3JnWFM5X1hFR0JteklTSTJtNFkwRzhHbFRTNF9QXzYxUmpjbk1FQWtJeDhLTjNENE9Wejd5NW51UG10TlVhSjRpVXRJcW11dE9PTGZ2eXd3S2h3TENfMzNaSDJ4N2d3dFpvZi1PZGp5Rkd3MzlrS2tVeXR0V2tDdE1kVWdGNklMeVJKMF9EaF9yM2FJZlNreXFYemFFWExyMGdZeG7SAbQBQVVfeXFMT1laeVppX3ZjcUJaUTh3WDdyZ1hTOV9YRUdCbXpJU0kybTRZMEc4R2xUUzRfUF82MVJqY25NRUFrSXg4S04zRDRPVno3eTVudVBtdE5VYUo0aVV0SXFtdXRPT0xmdnl3d0tod0xDXzMzWkgyeDdnd3Rab2YtT2RqeUZHdzM5a0trVXl0dFdrQ3RNZFVnRjZJTHlSSjBfRGhfcjNhSWZTa3lxWHphRVhMcjBnWXhu?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "a559bdc2f8d4",
-      "time": "2026-08-11T20:07:49.000Z",
-      "source": "Microdose",
-      "sourceKind": "rss",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic Medicine Is Having an Identity Crisis — And That’s a Good Thing",
-      "link": "https://microdose.buzz/news/psychedelic-medicine-is-having-an-identity-crisis-and-thats-a-good-thing/",
-      "tickers": []
-    },
-    {
-      "id": "4ecea421fef8",
-      "time": "2026-08-11T19:56:13.000Z",
-      "source": "Microdose",
-      "sourceKind": "rss",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Enveric Biosciences Adds Another Data Point to Its Case That EB-003 Won’t Get You High",
-      "link": "https://microdose.buzz/news/enveric-biosciences-adds-another-data-point-to-its-case-that-eb-003-wont-get-you-high/",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "d7ffb621e61d",
-      "time": "2026-08-11T18:57:00.000Z",
-      "source": "EIN News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Institute for Integrative Therapies Selected as Clinical Trial Site for COMPASS Pathways’ Psilocybin Treatment for PTSD",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeWhJZWx5RV9NaTJnQkNJRlJsWEFkZzlPOGVWbTVGWFBmLWJReEVlMDZZak4wZEFNVVRkU1U2UU0za1EwUXd0NXp0OTRfWXdUaHJBbVFiTGJzTlRoeTNTT1lfOEdDZi0wRm82dGs5NGxidi1FSlFlRzZuZkJCTUJlMGxiT0ZGaHR4ZVRQcS1tZlI5anJ6MTAtNUh5V1RUa0ZuZHhXQzg3c2NTUVd1eVI3bTZCd3V4SjNwT1FhaFZpLXBlSVVBYVJKVmNrM3lvLU1qVmYyRXcwSFowXzRXUHJpVkc3QzFXUEt5QmVpaWhEMkI5UQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "b62fcb303c26",
-      "time": "2026-08-11T18:04:39.000Z",
-      "source": "intellectia.ai",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium's Drug Trial Results Expected This Week",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTjNhalNGZVp5bzdCc1oyVk1nQ2lRemRiMHFRYjk5d09JX0kxMUdQOVNNSTR0UnU5RDZBUTNDWjZPcTdzME82ZnBWZDVjMWU0UkdwZTFPdFpKMThGRHQwUHVqZ2toSklONlJ5cGQ4TjIyMURGeHdoUlVjdFc3SzRXcF9GSVRLcVY4?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     }
   ]
