@@ -1,14 +1,15 @@
 {
-  "updated": "2026-08-12T07:49:34.644Z",
+  "updated": "2026-08-12T08:55:17.927Z",
   "counts": {
-    "total": 90,
-    "crit": 4,
+    "total": 91,
+    "crit": 5,
     "warn": 4,
     "bySource": {
-      "Mshale": 2,
+      "MarketBeat": 10,
+      "STAT": 1,
+      "STAT News": 1,
       "ABC News - Breaking News, Latest News and Videos": 1,
-      "marketbeat.com": 9,
-      "NBC 7 San Diego": 1,
+      "nbcsandiego.com": 1,
       "Microdose": 2,
       "EIN News": 1,
       "edhat": 1,
@@ -32,7 +33,7 @@
       "PR Newswire": 1,
       "wvtm": 1,
       "WFAA": 1,
-      "AD HOC NEWS": 3,
+      "ad-hoc-news.de": 3,
       "HCPLive": 1,
       "Behavioral Health Business": 1,
       "Tech Times": 1,
@@ -51,13 +52,13 @@
       "PsyPost": 2,
       "Alabama Political Reporter": 1,
       "Yahoo Finance": 1,
-      "kxl.com": 1,
+      "FM News 101 KXL": 1,
       "Post Bulletin": 1,
       "MyChesCo": 1,
-      "DirectorsTalk Interviews": 1,
-      "The New York Times": 1,
+      "directorstalkinterviews.com": 1,
+      "nytimes.com": 1,
       "News-Medical": 1,
-      "ktar.com": 1,
+      "KTAR News 92.3 FM": 1,
       "facebook.com": 1,
       "New York Post": 1,
       "The Media Line": 1,
@@ -67,24 +68,58 @@
       "Stocktwits": 3
     },
     "byTier": {
-      "T2": 90
+      "T2": 90,
+      "T3": 1
     }
   },
   "items": [
     {
-      "id": "d74fdf3eb6be",
-      "time": "2026-08-12T00:53:13.000Z",
-      "source": "Mshale",
+      "id": "9ef72e57fe85",
+      "time": "2026-08-12T08:47:22.000Z",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "This $3 Penny Stock Has A $25 Target – Backed By Peter Thiel | Wealden Council Elections 2026 (LUSzPrKfnt)",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43Qlg5NzdhcDR4a1dpWGxnRk9jSzNCdldxcU54RFdxdkFKUFBfSDUySmo4bnRwTGltTnhMbnZzLU5YLWRuZEZLaGFqT1NielpYYlM1ekwycFJZeFk?oc=5",
+      "title": "Compass Pathways PLC Sponsored ADR (NASDAQ:CMPS) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPX0J1bG5mVVg5WkxsZkVqc25ZOUlGZEdZUVhMdklFbGFvcU8zT2FIenZRWi0taVRYeUlWTjd3RElIVWxLRnppUlBVU3RoSzVDaWRjRl93c3F5WUVseWl6a3VwMWZjUDVia3laeFdUTEFocVFNZldnaUdSZGI4YzRQQWZNWS1BazQ5UEVxdXhtWl9aSnlOcG9PdXp6S2tTSms1VWVYMkphczNVVHVhaHhWdzBicEVEWjJIc3FhNjdNNy1XUUpUOEFjWEh2dU1wTzVtT1RCTlNKbHd1RnljR1JUM1FpcjVDNnI4Uk5oLWk1ZGlQX1hnSm94Rg?oc=5",
       "tickers": [
-        "ATAI"
+        "CMPS"
+      ]
+    },
+    {
+      "id": "ab2130f759a4",
+      "time": "2026-08-12T08:35:23.000Z",
+      "source": "STAT",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences rare disease drug possibly tied to safety issues, experts say",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU3ZYS3hlWFlDU1ZISEZHYkFVODlmX2hJUWJtVlRHZFh4NTVWM1plUXROeTVzODczcERlTXRQWmFzUmxjTHp6LXVoRDU1Z0pFTzN4anZWV0FBcUQxemdIZ0twT3VhU1pQYmxXUU9DdEk0Ql9GMDVoQVdFeVBCZXRMc21zY1Y?oc=5",
+      "tickers": [
+        "DRUG",
+        "NBIX"
+      ]
+    },
+    {
+      "id": "cbfdd1be8199",
+      "time": "2026-08-12T08:30:00.000Z",
+      "source": "STAT News",
+      "sourceKind": "rss",
+      "sourceTier": 3,
+      "category": "sector",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "STAT+: Neurocrine Biosciences rare disease drug possibly tied to safety issues, experts say",
+      "link": "https://www.statnews.com/2026/08/12/neurocrine-biosciences-vykat-prader-willi/?utm_campaign=rss",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -104,7 +139,7 @@
     {
       "id": "862df95ecac5",
       "time": "2026-08-11T20:53:07.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -120,7 +155,7 @@
     {
       "id": "f4c615413212",
       "time": "2026-08-11T20:35:12.000Z",
-      "source": "NBC 7 San Diego",
+      "source": "nbcsandiego.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -242,7 +277,7 @@
     {
       "id": "57f3a7e84d1c",
       "time": "2026-08-11T17:03:38.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -352,7 +387,7 @@
     {
       "id": "d8bc1fe5bbbf",
       "time": "2026-08-11T12:10:41.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -471,22 +506,6 @@
       "tickers": []
     },
     {
-      "id": "962391063200",
-      "time": "2026-08-11T07:42:50.000Z",
-      "source": "Mshale",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Top 10 Stocks For September 19, 2022 ( $AAPL, $AAOI, $NIO, $AMC, $DRUG, And More! ) Di Marco (kH2fTsqaoQ)",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VRk9qTzYzdmZGZklpUXZ2V28tVEwyOWdpdG5ZejN2YWdlbHNvLWMxOHBPT3RMN01ha1JjellXRUxPc3dCNjBnc1U5ejZPZ2xWRnBoRkdocDFhQ2wzLXE2dA?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "2d8fac0aac26",
       "time": "2026-08-11T07:13:43.000Z",
       "source": "Drug Science",
@@ -547,7 +566,7 @@
     {
       "id": "90b05caa9901",
       "time": "2026-08-10T23:40:37.000Z",
-      "source": "AD HOC NEWS",
+      "source": "ad-hoc-news.de",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -647,8 +666,8 @@
       "tickers": []
     },
     {
-      "id": "4eeb23288696",
-      "time": "2026-08-10T17:31:29.000Z",
+      "id": "475842c3d983",
+      "time": "2026-08-10T17:31:30.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -657,7 +676,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Is Neurocrine Biosciences (NBIX) Fully Valued As It Enters Phase 1 Obesity Testing?",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZGtHanhEcHh2NGJBUXlqRy02aEEtRVJlck5jNG5McGo1eWIzMEprSVFXRTNhX3IySW9xUEVmT3IxaFpaNEtGbGR3Y2R4RUpURFZla3g0RV9JQWh1SS1kNW1iV0JJWGFENlVEWFp4YnJsS3FhOHNHY1ZBMjZFN3c3RGUzel9BeGljanlZZkJiVkJ6dmw2ZE5DZHpqSlZGUkw5VmFqekhLaWdORW5wdXNDRlF6SjNZbUpaTEd4aTBpNm90ak1lRHVBVEd3ZnZnb3dTTzFsaUtRRmFYdVhDWmd4Nkp1LWhZeVJEV3RCZtIB8gFBVV95cUxQZGdZY01qb180UnFhVndvc3RTTGNIVmlEYmZfbldqWWo4d05xR241Sms1VnRYdlRNRmMzUEt4YXBEMjVrdHpNVUswZ1BtbVhYZ0x2cXhaaWExam9YbWgwSVhwS1p6ek9YMkU2SjRZVVBBMTMwRXNNN2NObFhqUGEtdTVGOVFudTA4QmN3ZnA0VVU2V0E5QXpaWU4yUnowNkVTcWJSbzZsMG9tWms3VFZUNHpaOWxLcDVqUzlHS3NBVllMUmJWaUNteUd5YV9BQ1g2TlRyc3VXWU9mNDZSZzEySUZiZnR2emRsVFV2MzhaUWk2dw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZGdZY01qb180UnFhVndvc3RTTGNIVmlEYmZfbldqWWo4d05xR241Sms1VnRYdlRNRmMzUEt4YXBEMjVrdHpNVUswZ1BtbVhYZ0x2cXhaaWExam9YbWgwSVhwS1p6ek9YMkU2SjRZVVBBMTMwRXNNN2NObFhqUGEtdTVGOVFudTA4QmN3ZnA0VVU2V0E5QXpaWU4yUnowNkVTcWJSbzZsMG9tWms3VFZUNHpaOWxLcDVqUzlHS3NBVllMUmJWaUNteUd5YV9BQ1g2TlRyc3VXWU9mNDZSZzEySUZiZnR2emRsVFV2MzhaUWk2d9IB8gFBVV95cUxQZGdZY01qb180UnFhVndvc3RTTGNIVmlEYmZfbldqWWo4d05xR241Sms1VnRYdlRNRmMzUEt4YXBEMjVrdHpNVUswZ1BtbVhYZ0x2cXhaaWExam9YbWgwSVhwS1p6ek9YMkU2SjRZVVBBMTMwRXNNN2NObFhqUGEtdTVGOVFudTA4QmN3ZnA0VVU2V0E5QXpaWU4yUnowNkVTcWJSbzZsMG9tWms3VFZUNHpaOWxLcDVqUzlHS3NBVllMUmJWaUNteUd5YV9BQ1g2TlRyc3VXWU9mNDZSZzEySUZiZnR2emRsVFV2MzhaUWk2dw?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -831,7 +850,7 @@
     {
       "id": "23e6687b00e9",
       "time": "2026-08-10T14:19:54.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -921,7 +940,7 @@
     {
       "id": "45e0dae3c90a",
       "time": "2026-08-10T12:00:00.000Z",
-      "source": "kxl.com",
+      "source": "FM News 101 KXL",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -995,7 +1014,7 @@
     {
       "id": "f6a6d5349d28",
       "time": "2026-08-10T09:21:51.000Z",
-      "source": "DirectorsTalk Interviews",
+      "source": "directorstalkinterviews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1011,7 +1030,7 @@
     {
       "id": "eb50a44a9960",
       "time": "2026-08-10T09:09:58.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -1027,7 +1046,7 @@
     {
       "id": "a499a683ff80",
       "time": "2026-08-10T07:25:55.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1043,7 +1062,7 @@
     {
       "id": "99c224a25ccd",
       "time": "2026-08-10T07:00:00.000Z",
-      "source": "The New York Times",
+      "source": "nytimes.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1085,7 +1104,7 @@
     {
       "id": "c3981ab10df4",
       "time": "2026-08-10T02:17:54.000Z",
-      "source": "ktar.com",
+      "source": "KTAR News 92.3 FM",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1145,7 +1164,7 @@
     {
       "id": "b0dbfd43f60e",
       "time": "2026-08-09T15:42:50.000Z",
-      "source": "AD HOC NEWS",
+      "source": "ad-hoc-news.de",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1221,7 +1240,7 @@
     {
       "id": "7da9ccd1ae5b",
       "time": "2026-08-09T08:57:51.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1237,7 +1256,7 @@
     {
       "id": "03f37d3687f0",
       "time": "2026-08-09T07:33:22.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1267,7 +1286,7 @@
     {
       "id": "1e23324b22b3",
       "time": "2026-08-09T05:17:49.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1283,7 +1302,7 @@
     {
       "id": "550ab2235a59",
       "time": "2026-08-09T04:22:03.000Z",
-      "source": "AD HOC NEWS",
+      "source": "ad-hoc-news.de",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
