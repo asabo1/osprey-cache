@@ -1,16 +1,8 @@
 {
- "generated": "2026-08-11T05:53:47.750Z",
+ "generated": "2026-08-12T06:15:01.267Z",
  "gate_days": 30,
  "license": "CC BY 4.0 (subscriber early access)",
  "crisis_score_daily": [
-  {
-   "date": "2026-07-12",
-   "crisis_score": 78,
-   "brent_usd": 76.01,
-   "wti_usd": 71.41,
-   "brent_wti_spread_usd": 4.6,
-   "score_method": "v2-2026-06-11"
-  },
   {
    "date": "2026-07-13",
    "crisis_score": 78,
@@ -242,123 +234,17 @@
    "wti_usd": 82.14,
    "brent_wti_spread_usd": 5.59,
    "score_method": "v2-2026-06-11"
+  },
+  {
+   "date": "2026-08-12",
+   "crisis_score": 78,
+   "brent_usd": 89.64,
+   "wti_usd": 83.92,
+   "brent_wti_spread_usd": 5.72,
+   "score_method": "v2-2026-06-11"
   }
  ],
  "events_sourced": [
-  {
-   "date_iso": "2026-07-12T00:31:00.000Z",
-   "severity": "CRIT",
-   "text": "US launches third round of strikes after Iran announces strait closure",
-   "source_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rclVBV3NOWkZ1anJEem16QXhnTElxOGNHcFd6Tktkd25MYVVJTDJXSTlkSzN2b0dPNVlrV3JZVVhvNHdtTmFRQ1pIT2puc3k4YnBoZ0FoRmFsVE8yeU1JYjlyTjM4WVVxTms3OXlmZVJ6LU5nUkhPZdIBfkFVX3lxTFBfQnJzZDJGUlBnM3VyV09YeUo4VkwwTVBQc3RwX0NwWUNRLTZUYnI4VFhzYWtQR2U5MTBtODNRYzVLT2JQeXBFdHFMSlFrVDZQZ25XMTFYWWlZaVlIVGRUd3dRVnlDdHlHNTNHaE5hY1k4cnVfamNfMGp5QUdCUQ?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T00:51:00.000Z",
-   "severity": "CRIT",
-   "text": "US says it launched strikes against Iran after attack on Cyprus-flagged container ship",
-   "source_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaVlDWEtfWEhnNkZzeE9nRTlmaHlPRUlBQU9MRXZjb0MwM2lIdUUxVkt1V1ZIUDJzeGkzQXRtaEkxc09nQWhUN0VOZnN5NVlpLUF1UGt1UXZ4NmhjdzJ1UjJ1dFdsV081TXNoLWwwNFhjLTNXcVVfTFZET1l4SjVPNHNfMlhrclZhZzZFQ2FReUU0bEtLSHlGVjJLeFczQjRabHpyejB6eng3ajlnRWdHX29IVElRMU1VUFJ5bGJkblFqUjYtZl9fVy1QZDU?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T01:53:07.000Z",
-   "severity": "CRIT",
-   "text": "Iran attacks ship, announces Strait of Hormuz is closed — and US strikes back in response",
-   "source_link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQc2FqNHhGMHpBV2Y4Z1p1WG8yZTRDeXcydlRkZEFxU2QwN2l0b3Q2cFQ5ejdPRVBKTjFkMlVObVVZZ1VsdVRDMzNERXctWTltQzVlTC1iYk55dkRzZzZoeFVqMjhZN2MtWGNLSnV0bHZObVVPUGVzREpnT1lGVTJvbzFlZVZJc21LSHo5RFNRUjdTNDQ1ZHQ5eXpiU2pjVGxrMkJiVEVXbE9EX0ZSMjN6bDZhVkhpaDl4UXVmNkl3enRCYkZTbnRjU2V5MnAtc0FqZlhV?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T02:13:22.000Z",
-   "severity": "CRIT",
-   "text": "Oil Prices Set for More Volatility After Latest Iranian Attack on Ship in Gulf",
-   "source_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcVNCUXM1Rnk0bjJIbzAxT0wzbjZaa1IxWjVZOU80QmxXdXJaeUZ4dFVNSUZoeEFyVnkwRlJjbHFfdlZUZm9UdTF0bHFGRWZRNm5TbVkyS1pTUGNwajRrN3piV0dKRlpEV05SSmZ4b3lsQ01NU01HSEhBTHhydXlGVzlhbkZISWVwdzF5eTBBcGU2QlZk?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T04:00:12.000Z",
-   "severity": "CRIT",
-   "text": "US strikes Iran again, after IRGC attacks ship in Hormuz and declares strait closed until further notice",
-   "source_link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT1RyRXp4Qm93b1RER1NtMXR4THQxLTlPWjBSYWx3TzA3M21HQ0JMUUd6cHJWTjhlOS1Bd0RhbUtkdGNENFlyY05aWWEwWmcxRXc3cHZDWGNheC1zZkh6RXZHVEstZGYzRWFpYXoxRGdpMzMtdDFXaXhhT2cxcjhlUHRDM1pMektXTU03WXNlVVhxbEN6NmFyV2V3RDdHNDNyTXBzOHlXYjBkanpiMklMYXZ5X1ZRRFBsdTJUQnpmQzhjR2pWRngtMlh4WDFJenPSAdQBQVVfeXFMTW1raFlIQUtjTk91YndNeFhDcHp2QWxuYWk4ci1zSVBMUmpPS0xpLVdNT1RlR0FZbnZBei1zUFczYlZydWNpbU0wcnJ4bTk2YkRHYnV1S2gwbnpUQ3c5SHhQTklvdFR4eDlZRzR3QnFSLW1YZW5zbExRZE9QSWx2V1VnWFprTF9pdnhyYTZIaVBvbW45M055dG9DTkxHWWhtZ2JsYTAyMVRWTDNWY1pfZmY0aWZpX1AwcVpNVEtsdFdkYzNYa2M1VkpaX2lMcjc2NXg4T2o?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T04:24:05.000Z",
-   "severity": "CRIT",
-   "text": "Iran Strikes Gulf Neighbors After U.S. Attacks as Strait of Hormuz Closure Deepens Regional Crisis",
-   "source_link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN1FkTG1VQ1YyYVAySTN2TDd0Z1lURVFFeHZJR1BqZFhMeTRLcWFJeGdITTBYQjZ5cW0yUnRFMWxyUUpKbVdRald1bUwyUjAwbHpVbS1Ybm0tSVoyMzVIbEtJVUpmSW9oV18wR2xyd1ZONV84RDZmQnhyUDQtUGZ2dmVhQWw5cnU4OV9RcV9jWk9OODAyS09XUV9zZzROTGJxdHJybjZCbVZsMno1X3ZBZUhrNzh4SDJEUTRXbVk5bFdUUThIaFg1Q01TSFFycmNtMHgzSHdWSQ?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T04:48:07.000Z",
-   "severity": "CRIT",
-   "text": "Third US strike on Iran triggers strait closure, attacks on regional bases - ABC News & Headlines",
-   "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMy1lck1nMHU1SUlweTg3dThPcnhCWXZzaXFJU282RjRnbGZIaWFSd01YeHlmdlhLS0FZNHR4S19ray1wWG0tMERuSkhXRk9EaDgxbXZ4WDFDOUd0RTVGdjRxMG5yOERBNTBZVEFjVExtVFJEb2NmRXNpTFQyS293VlBqaUJKdnctNTlDckVvRGVPcE5iX2RUSko3YjFWeTk4c1U5MEZxei1id3AyVFZXcm9vaw?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T04:48:15.000Z",
-   "severity": "CRIT",
-   "text": "Iran's Ghalibaf warns 'reality is knocking' after US, IRGC trade strikes in Strait of Hormuz",
-   "source_link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51SmVNWF9XZWxvbWc1YkZ4Q0ZNN3dmT3N6WmpEX3JBRlk5NmgzRDZJMFdnS1dJN2lkclMwREVGdGVDMFRBOGF6M0dwc3ZKcThHZURhc0F2QnRwNHBFblFFZEJyWHNWaGxadlE?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T04:52:30.000Z",
-   "severity": "WARN",
-   "text": "US attacks Iran over ship being hit in Strait of Hormuz; Tehran lashes out again at Gulf Arab states",
-   "source_link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbjd0WFJJRmVTaEJXNWpHNkUyUmJDU0xoMlloTGRSMm5yMlVFYnU4MmROUUlTcnNJeUZvTERDTm1QYjVOSkZuVzUzcEVXRERvNnJLekJOM1B6cTJvZ3YzOGtwcnNLSHhqd3BQSDl3TGFhWEJkX01WNXpWcWNjRVYzdmRyTjAzNzJ0SmJwR2JRdUh0WE1ZWXhtY2puSFMySnJWYkhQREhNck1uTUdfRElQdkRfNllMTy1zMG85MlJWZ3VZcU9IdVZwTDBFSFZCOG81UVpaQlVZTzF2M2lneDRZ?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T05:09:45.000Z",
-   "severity": "CRIT",
-   "text": "US forces launch new strikes on Iran; Tehran closes Strait of Hormuz",
-   "source_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWkFyZDBTeDMzM3B3Sm85MkJ4MDJveWVKX3NuZnlBNUJRcklGWmphQ2hDa3JuNUpOcjZ3R1EzX0FlZ0FKNThoXy1oU0FQZDhreEtlRlA2T0RaQm9kYU94Vkh5eVRiTVR3OHRNb1lnc2hMY3JGUDlPTV9sckxUOF9RaXVNcnAxQUk5MmthTjVPWTJiM2MtbjcyZ0JFLXlQMWlPNTM0RXh5TGowdUVOalVTejAweVZzR1dsQXfSAb8BQVVfeXFMT1hVM2xFbGkxN0h0RjlhSHpOdlhwdlhXWEdYNVRWQVVPT3dZVjhPOU5NTmtkdEhCakh6eEw0ZkV0QkdpMnJMUFR1bUtkeWo4UnZZY0t3YVRiaEhyNmtmdjBTeFR3Z1ppX01ZUU9TRmNYWEtCaTlrdXcwZFFPYzRTQU4tYXNnVzVUdkFsUXFtNTRwN2Vnbmo2VU1odk5IMDY0YU1sRVJhenhvUElSQXhWZTBFMzM1SzlWcExESGFIZkU?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T05:52:25.000Z",
-   "severity": "CRIT",
-   "text": "Hormuz Strait closed, Iran fires on Gulf as US launches new offensive",
-   "source_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVlpBSF9YUWlVVWE0eE92WFpKTTM3RUFXZUhjekU2anN0eVdJRjlDdTJhS2xIaHpiajFMeHlBbUU4dGxpdTNjdWRxd0hTb2FzeUoySXQyLVYxX01JNlBUUWxoaXg4R0pLdmlGTDk2bDBJb0RlYk5SQ2FqU3R5RzBvb3R0SUhWTkpENTNKTG02cVlfT2JCNkxkSGg2V3QtUHN1WWdlXzZLNW04MWtX?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T06:30:37.000Z",
-   "severity": "CRIT",
-   "text": "U.S. carries out strikes on Iran in response to attack on ship in Strait of Hormuz",
-   "source_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORUNEd2J3SmxCOVdjblNITm5abTREZkJaOXZIRzFNTWFLaTV4aTBsZnB0MXllclhjQzRZb0ppYWZObmIzeXJ5SkNNNU1QalZPRTZEdFo4Qm1tMVFzSi10YXN4aVMxU2gyOXhhTFE5RE9DUVJLT3JPLXV6OVJ0S3FrTm9jX25HUVJFSmNDZXE4eDZGZ3RVemc4enlVUlFncDh4MXZLUUdWVVpVazc2?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T23:06:09.000Z",
-   "severity": "CRIT",
-   "text": "US launches new wave of strikes against Iran aimed at ‘degrading’ military",
-   "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeE9veWxkT0VMYTI0NUFUbjFPNVI2MlpmYnNZMW8xdno3dUVKaVVqdWxSY1JnZDBOU2RvWDZST01uSkE1RktlNTItdU1oNEQzbEdQMFI3RmU0UVRSa3pkdlV1bHljRzNDV083RkQyalNwVXUxcld6d24zYkRycERZdTc4c3ZVc2FJNVk3ZDRwV25QOUNTZjRwQnVmaEFoNkJqMktvSjFSYkw3ek90dkQzb1RSa9IBuAFBVV95cUxPcTRYT2dJdDlPZDRqblkwUUNNbWJSUHhZNTdyb1NQc1BNeWNOMDdRb1dXUXJfYWlfTUlQZXY3ZEpJV2NjQmNQbGVrUzR4aFlNY0kzTEVNbzc3S0NPajl3Q0FkZldna2ExT2ZmYmlWblNfS3hSOXVxMXBfVHRObER6cWhHcE1vTG9XTmdTWkQ5YklHZnNicXNzWTdEWXJ2WVJETlM5TGRKMENTQlliUGx5aGZIN21Nd0lB?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T23:13:35.000Z",
-   "severity": "CRIT",
-   "text": "Gold and Silver Drop as Mideast Strikes Heighten Rate-Hike Risks",
-   "source_link": "https://www.bloomberg.com/news/articles/2026-07-12/gold-declines-as-renewed-us-iran-strikes-raise-rate-hike-bets"
-  },
-  {
-   "date_iso": "2026-07-12T23:17:00.000Z",
-   "severity": "CRIT",
-   "text": "Escalation in the Strait of Hormuz! Iranian missiles strike multiple Gulf states; Iran announces closure of the strai...",
-   "source_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRV9jbmlzVmV4Rld1TERQQjFac1R1QVByXzdOMkE3ZUVEUEVUeG5rTU9pN1kyeHJXQkFyRlh0QTNCTnRndl9RVW5mOWEtb0NQWUFDdFp5NWFyN2dJY1NaOXJFWTU1dFZybEM1VXdobXp6R0N0SmszaGNtcWJtNjdJMjQwa09OdmNGVE42eHVWWEdrZWQ1eDhkZnZFbHhNSkZNOENCYmpUcmd0enZv?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T23:18:00.000Z",
-   "severity": "CRIT",
-   "text": "Live updates: US and Iran launch new round of strikes after days of escalation",
-   "source_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91YV9WLTU4cXN4cjF5RWVKc3lJUlpWQ1BjS2RqUURnTzVRN1VhTUthTjBsdjNHZ1FRam1KMHM3Tkh4ZTJBdlhYZTVXeENUWDVkWnQ2NDBHY2xoZGJSOEtmaEp3Y0M5NTMzbDB5QUl3?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T23:24:27.000Z",
-   "severity": "CRIT",
-   "text": "Oil jumps 3% after US, Iran escalate strikes in Mideast",
-   "source_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUFpPY1lfc0lIc0xsNVlaSkZQanVuM3RZd0lUMTdLMlktT0dLajFOWExXSTZEd1pJd1kteDBWeTk5UnFHMmFtdUE1cWdmMEZwaDR4M09lV3NENXlhTHIwOUc1NEhTbGNYQTBZUmFNYlRIT3RUWWNyc3JZOXR2WXFrTWRFTmc1V2FHWnlDRW90YkJrOW1WWGstZ0d1bS1JaEJYZTcya0dUdkN4VzZQczhz?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T23:47:18.000Z",
-   "severity": "CRIT",
-   "text": "Live - US expands strikes as Hormuz dispute deepens - ایران اینترنشنال",
-   "source_link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nSm95M1E4cU4xLVlDY2xWUldXN2RfUjZ4RWRYWVo2N3UyVkg5RmNDV0Z0LVVBX282TjFLWEUwVEZWN2FUWkh3MkhJcVQ0U01MLXFnN015WlhIam5JbXc?oc=5"
-  },
-  {
-   "date_iso": "2026-07-12T23:55:44.000Z",
-   "severity": "CRIT",
-   "text": "Gold falls as US-Iran strikes boost oil prices, Fed rate hike expected",
-   "source_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOUl1aEszc2ZaYXZZeDlKZDF5LWtjamdWSV93VS1kNXVKZ1BzcmJrLWNiN1ZvMVh5NUtUNFVJLUNSVVNmNWhqRVJ0eDJyZVc5SnNnZzVpUkFHN0VlbUdyOWVfQVpYU0RMZ3pJTWd3b0ZjcTU2YWhjN2NpOEFTWF95TE5uQkdFdjFvSlpzUEZOU2NsX2ZDTmhRYkVXMTJJQQ?oc=5"
-  },
   {
    "date_iso": "2026-07-13T00:00:00.000Z",
    "severity": "CRIT",
@@ -6810,6 +6696,18 @@
    "source_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?oc=5"
   },
   {
+   "date_iso": "2026-08-10T19:48:00.000Z",
+   "severity": "CRIT",
+   "text": "Firefighters battle Zawiya refinery blaze after drone attacks",
+   "source_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaXltbWpibFBieFlGQi1PQXlTWktFYXdFSENITmhTenpTVFhpSkhhMG1CMUJKTXo4VUdDX29YdVpmRHViaHowb3k0WjE1ajdjM0JldlRVN0ZVZVlMYU5HaXFlVWlqcmQ5Uk9JbWxsUkhVVUlFSzlMUFNnSnJyNnBhQkR1WVV6UjJFenJPaVNSVVh0YUpwUkduWTFXSkhEMW9IeVhJMFpB?oc=5"
+  },
+  {
+   "date_iso": "2026-08-10T20:07:02.000Z",
+   "severity": "WARN",
+   "text": "Trump declares Strait of Hormuz 'open now'; says only US Navy has control over it",
+   "source_link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeV9aTFNyVjRBQWVvWXB3RWo2WlZCSlo4Vm1XWHVlSi0xN2hrajJfR2lsd2dIdEdFSmlyWWJGVkxvUzRyeWhpWEVfak9Gb1NEMHg3Q1VBc3puc2o3TzBmNjRscFRaNW1Ea0NSLXNRVjFjbnBCNDdSTDdldHU0TDVpWlRDU0FXaVlPMzA4ZmVSdG0xN2VyQjRkWW92X0pBTzlCeU8xcndZUEhMS0taWm9uZy1LNjVvWlNuaklkMlQ4VndMVjZsNVFvdUpLQkw0M3Br0gHWAUFVX3lxTFBlRFhwek1VMUlHSjN5YkpXbzUtSE9iNUkyalBWVWQwd1FWUU5QbTA4cTZBVGxMZGVMd2xYb1ljVktHcllMMlhSNlBrampfSFRwYm1Wa0dCRUlIYVNVb0dkSmp6WEVjUlJ1VTFhZEU0Si1JTlhRQnBfZWM0S3Ezc2lBTDJzVkNEWklDVTQ5dHIwWm5BSHpfRVNyU2FFM3lyQktDb0tvVUttSjV2V2tJcUN2UkxfeGtudW5KLWdaU0NQSnpWUjdGZzdwbnBZZUZveEhJbFUwbHc?oc=5"
+  },
+  {
    "date_iso": "2026-08-10T21:09:00.000Z",
    "severity": "WARN",
    "text": "U.S. Stocks Fall as Hopes for Strait of Hormuz Reopening Are Dashed Again",
@@ -6820,6 +6718,12 @@
    "severity": "CRIT",
    "text": "Libya's NOC warns of force majeure, Zawiya refinery shutdown if drone attacks continue",
    "source_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaXltbWpibFBieFlGQi1PQXlTWktFYXdFSENITmhTenpTVFhpSkhhMG1CMUJKTXo4VUdDX29YdVpmRHViaHowb3k0WjE1ajdjM0JldlRVN0ZVZVlMYU5HaXFlVWlqcmQ5Uk9JbWxsUkhVVUlFSzlMUFNnSnJyNnBhQkR1WVV6UjJFenJPaVNSVVh0YUpwUkduWTFXSkhEMW9IeVhJMFpB?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T00:00:00.000Z",
+   "severity": "CRIT",
+   "text": "World in Brief: Iran says Hormuz will remain shut; Houthi strike kills six",
+   "source_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWk9qaHpNY19wN3JrbVhZcjNISUdkeUstT200V3hlQmhveFlhVTI4NHdLNHBSNG91Y3oyQ0RDSDZTY1FWRFZncDFpQ2RxZHRoSDBfMUtSaFozTnA2aEJpUVlteFFUZVZtWXhuUVpKRGxNUlphS3hRWnU1WThrV2tUTUNfaUtQQ0hTU1Z1d1NiY1pIcXVkeTBR?oc=5"
   },
   {
    "date_iso": "2026-08-11T00:34:00.000Z",
@@ -6850,6 +6754,174 @@
    "severity": "WARN",
    "text": "Iran war live: Trump claims Hormuz Strait open, seeks Iranian compensation",
    "source_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbXlESEowYVBxMnhTaGNfZFlnaDAyVGRUYmtBRFZsenUxV1FZWGpDM09DYUtLejNFOXYyZVBGN2laYVBvalJEbllOZnVDX3NlX24tT2VBUWxnX216eFFWYXRJbzl3NzM5ZE9sTk15RXRWNDc1YW1wbmZnY3lyTllmT1RaSndVZ05LVEw2a1VjSHJTb18yLU5vU1FzSktOSUxaMjdicW5IcVRVUHVXRk9HMGNaUTQ1VzRfcE1RUTcyNNIBxAFBVV95cUxQOWVLNmpzaUVWb3dFY1ltNXZIb2N4RkZRTGNKNVR5dy1wdUNmWWdzdVdkUHhFeWRDWlg4RGt3R3dWcUhZeUhZTHdrLVg0RXgza0VUaEtyWDhMeGJzWWREcUszM3AzcC1xMkNVTUlwU1dma0R5eHV0NHBxbEVMNEUzb0dGdXB4UG9vLWloSHRleDhtckVHTlVyenlycGJQNDIwVUtab2ptUi1Lb1d0X2tqZ05mSnpWazcxbUk2TVpwX2Z6Y3Jt?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T08:04:40.000Z",
+   "severity": "WARN",
+   "text": "Stock futures edge lower as traders focus on Strait of Hormuz reopening (SPX:)",
+   "source_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWmJFdVdZSmdSVExHOVRsb083dTBxYUFpT0ZRWlgyZzZKNVlCclBqb254OHBkYzhPQmtnbzVDYTNQeEVyRThKamFMTzQ0SnZlYm9zb0hMV1k0N09aWEdkeGJyRE54NVFyUlNHTTJJTlJ5RlVjMGVqWlZxTGN6Yy1YUHF6ZlhHeTJi?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T08:48:08.000Z",
+   "severity": "CRIT",
+   "text": "Ukrainian military says it attacked oil refinery in Russia's Orsk",
+   "source_link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVEQwVHhsc1RpSXlkM3llOUlsR1RmN1dtZ0V5SmJHdDlzQjJaaEVQSnFTUmlYQnh3SEVSSXlDYkxYMVFubXpNYlpGOGFIWGdlY0M0ZjJDNEJMM29qdE4wZTNnZUhINmF3MHo4ZEtwdjlIeVBSSGkwSVpYejY3SGFDaElCRnh6QjRUaFhSTjVEbkZVZ2RqN1JpRmpTR0lNVVFPVEhhOWVoVmtkWldqN1p1dmJWaw?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T09:12:25.000Z",
+   "severity": "WARN",
+   "text": "U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met",
+   "source_link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ERXgzSE9wdWREUDZacUg3UWdOLWpxOEhYZ1VZanZjZjRXejNiWFotSnVyOXNEaGdySGU3SDRhVUx4dlBTd2pjRnVveUlsNDFiU1gtSlpjQkdkUTBUcVVmWHN2S0JWaEZvNzBuMWtqdWpFQ2fSAXhBVV95cUxQZTZkNVRYbGJoMEd3bnU4TWpJWEd0bzBvYnd0ZHRhMDI3Sy01bllGZlhlMV9oeGxXVldqOWtCTm1tNWpJUkQwdzZtckhQWThvcHpaamJxb1JwTkhVTS16UmN6ckI4YlA4dUxDcWgyeEpUYjV1T1hkMUg?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T10:20:52.000Z",
+   "severity": "CRIT",
+   "text": "Ship hit by missile in Gulf of Oman, link between Hormuz Strait and Arabian Sea, near Pakistan: Report | World News",
+   "source_link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcEFJa0RLeGxzZjdodWFXcHpRNklzNlVQYXd0cVBjd0ZJSFUwYzNDbXYwZ1NjZkFPcjg1bWhzS29ucFZpVFd5QVdGMnRGSm8yUnBDb0dmVWktRVR4VGFOVVJ0WUV0S0owSDFMbUNCWDBsNGZtbE5kcDhCYTNLdUU5cnpjY2RTQ2hRS2NpM25EbjNoUEUyWWtWNDNzTmJUcFVmT29XNG10M0hiaHloeFg4UGdHRU9aOGgyaEZB0gHAAUFVX3lxTE03Uzk2RmVVNVBFNFVDWVA2cGlFMFVsTi1hQ2hNSXBOODFvMEFYMXZXNnRwVjVHTnk2LW03M1Y2VkJ5enM3Mk5WWGp0SHkzbUVfVno1VFJ5QVVQY1VKa1Z5VXI2bWNoS2dNR0p3U2U3RG9seVM4V0dKcjlEQ0xLamZ5YXZseWFoeXlaQzYxV3E5UlY2Z0U1Z09HME5RRWxHSzlQRlRmRXdNTVREUWUtNDRuVFBJMGZIbGM1MW1NczM0dA?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T10:25:00.000Z",
+   "severity": "WARN",
+   "text": "Analysis • Iran leadership shake-up: Tehran arming up for Trump's economic war over Hormuz",
+   "source_link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQNVFxZ09wVHF6MU9KM0ktV3lDU1lreTZjQ1V6LVdNUXg2MWhydUd1amVQcFdhNm5QVTM1N2k1N2VaZVU4M01JV3VxSC1NWTM1U25yWEhoX3R6a0FBdW5OaFJ0TUV3ajdONlhZN0pPNEhGbDA1a1NOLWtsMXp2dzY1dUVZbjdFR1BOdTNuZWw3aTlGQjBJNXlGRS1oTzgyQ3M4X1M4Tmt4YmtxY0RKaEZqTXM4RmFBMHlsQmtleFV1Y2hUTllLQ2JoLWZNWkVGRGN1ajBBRFB4eWZJQ2MxTU4tVXVybHRWaXZ3MElnbGFlRGQ3OVhoejJfZTFLbUhlSjJUdGg5QmVHX3IxU2ZJRXF1OE1EanRtR2hmZUE0?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T10:31:20.000Z",
+   "severity": "WARN",
+   "text": "Uniper expects elevated gas prices as Hormuz opening elusive",
+   "source_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNS19ZUksxSnliT05sLVlKZ2JFeVdpU0l0elN5Y1o1UVRXU3NjMGFVMndlUWxNSkFhUzdkRnBsaEs1Y3Z5ampPSFZpR0tXVnpENldMdEtNR2d4M1NmakRteWx5cEM5T29wdWpzbmFkSko4aElxb0JWWTlLN2FmYVY3R2xzS21SaHlsRVlpeEFkQ3hUUllwQjExdGpPeTBkemdZOGRPOEZ4NkFnZ0ozQ2c?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T10:39:54.000Z",
+   "severity": "CRIT",
+   "text": "CEZ Raises 2026 Outlook as Nuclear Output and Power Prices Improve - Crude Oil Prices Today | OilPrice.com",
+   "source_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkl2Nks5czByaTVqTl9ER3p3UndzTFVBUWF3N3o4Z1RUUzJxYkhDTE5UY1dycmpWd2R4UV84NWRFRndTUU1NMzNDRjgwX0k0QXlKVE5rbG1qWEdtQUp6MWdkaVZnekdGV0tFajRQa1F2bkZyZ2xvTExFYWpzUXREczRNN3hTVl94elBsbWExNGxkX01taGpmb0xfSkwxOEJROFFIODBYYlHSAa4BQVVfeXFMUDlkeDNvamZ5b1Q4a3BUUGI2X3hFMFZKQXFtd3J3TkNsZDZMSlU2bldOZF9PRVVJajFXV3l4NUVfWGU5c01mUkFjcmFiMmNZR29uc040ekMxcEJIdnRQVWZfOHdjT2lBdTRMeW4yX1JTdWdiZ2lSajFBdFVxd0ZxUGNyaWQ2MkxERUZoa2tHVURleU8wdXRSckl0RkpnV09mSDBKZDlOZENpTm4yRjh3?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T12:22:38.000Z",
+   "severity": "CRIT",
+   "text": "US Iran War News Live Updates: Cargo ship, tanker struck in separate maritime attacks as Red Sea, Gulf of Oman see es...",
+   "source_link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPT0lmd0cycy0wMUd2RDMwc29VWEwtWXFBVlRrVlpBU2lDNXZfY0d0TXZ2MXM4a1AxbG1LSGFNZks5TlViTGUxTHp5emZyU3FKekF0Sy11YWJ0d2ZtNW5pNnBfbGRBNmFoTV9JUzkyWnk0WS00RFRJLU1CSG9TV1oxY2NYeFFpYW1Nclh2WFF5cWo4QzhjTVFBT2M4THg4WE5mMTVLYk5RdGp4dFBDYW90alZtb1U3U1JKcjRiOFFxUEZ0SnZRei1TOFMwRDBLQnktbnJuYV9QWU5QVDR4TE1kOXQzUElhQlFBVHZMUThoSThsNnZYdWVNY0F1VVlIdDh1dHN0N2dsWk1ZLTQwcFBFXzd2WTdXSVRCekdNbUZVQjM1UHRxUjBvcWpFRUFNcDJ0djQw0gG4AkFVX3lxTFB3N29ncHZxaVNQXzcxcW5VWUVJM2ZFak9fX0pTUEN4SS1tNlVIU1BDTmRvYTMxU3dyWkhvdFRiRjJFQjRVZzJ0M3htOTJGZTFDZGV2bXgycFJHZlluVXdaVVBEMWRvMVhfOEFnYUYyV3dqRkJkek9RdWxNQUVBU1pJeUFPVlE5UV9IZm5LeGo5NmV6MUJUOTVLclI1cUMyYXBYNHVYTlNRd0hIZmJqNVQ5V29OaGZEZU9UVUlXaGdQLVRJdHlGQXlod3RWZjlBajFLV2dqTG1nbVNDRktLNHpqNmxocU5udGRncG1xWl9WRWNhSjBQdzBHa0Eya044TDBWLVVvam1fb1JjdThVTnNuMDFzdHNsVm1Xd1RZZFdaVkxSLXM3U2tDZWc4bGx1SXVFbU1QR0J6TQ?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T12:38:00.000Z",
+   "severity": "WARN",
+   "text": "Live Updates: U.S. and Iran close to a \"peace arrangement or a deal,\" Pakistan says",
+   "source_link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T13:12:00.000Z",
+   "severity": "CRIT",
+   "text": "Live updates: Attacks at sea threaten region as hopes fade for Strait of Hormuz deal",
+   "source_link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE13NWtvZmNhOFJidDBEeGhoOUhxOUlOcTNYSWxLQnpQemtOVlhBc0pLRGhFMlJfX1JwMWJQNDBGRkFzTDJNQWwzVmtwMEN5djFfNDB2b053RS1zWXlwaGlKeVhrNnNwazM3WjVSYTVB?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T13:20:20.000Z",
+   "severity": "CRIT",
+   "text": "US forces fire on Panama-flagged vessel near Strait of Hormuz, WSJ reports",
+   "source_link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWWUdjLUZkQWxJREN6Yk8wV3lXRkh0UVRBQzZCYnFya3JtX0dORXlhUDJEa0FJX1VOdDNKQnJsMUszVVRJclBuSjB6N1NCRVhsZDFNaDdCQXZyNzQ?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T13:31:00.000Z",
+   "severity": "WARN",
+   "text": "Stock market inches up as traders focus on Strait of Hormuz reopening (COMP:IND:)",
+   "source_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWmJFdVdZSmdSVExHOVRsb083dTBxYUFpT0ZRWlgyZzZKNVlCclBqb254OHBkYzhPQmtnbzVDYTNQeEVyRThKamFMTzQ0SnZlYm9zb0hMV1k0N09aWEdkeGJyRE54NVFyUlNHTTJJTlJ5RlVjMGVqWlZxTGN6Yy1YUHF6ZlhHeTJi?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T13:35:44.000Z",
+   "severity": "WARN",
+   "text": "S&P 500, Nasdaq open higher as investors weigh report of fresh U.S.-Iran peace deal",
+   "source_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjkzU2JZemo3b1RFMlU3SU1qeTE0NEY0eHBaakpscDY4blhsX3c5VFdFUmxkWVk2Yk9ab040Z1dRbEN4SDMwQU9fSnFrWUN2SkZHNzZqOFRJc0FXWUNOZTFRTnRvX0hqRTFfMGdBMnh2S2lPMjlqZ01kSFNyT0dqLVZMNDBZcm13a01lQWdScHVhSUFXQ215cjJGWXg2T180?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T13:39:00.000Z",
+   "severity": "CRIT",
+   "text": "Houthi attacks in Yemen threaten new shipping crisis in Red Sea as Iran digs in on Hormuz demands",
+   "source_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mVGU5WWo4SGhQaVdqd1JEM3c0Y2hXQm1hN3pSN1U3aFVRb1d2VTItTWJMZjV1RkpzWHhlVHZ3MlByekk4Sm1NUHRhNDNsc2k4OTBSRnN6dzUwWXYwckd1Y2xFWUZ6T0dLdmJ3SGJTbzNBWlNfN01WWGVUWFY?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T15:47:14.000Z",
+   "severity": "CRIT",
+   "text": "Iran says Hormuz to stay closed until conditions met (CL1:COM:Commodity)",
+   "source_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcDlCbXF1bkNjSFhWWDJXU2dpaGZvVXd1eFhhc0lfRDNkT1VvRE1XVW9rekhTZWRNNjJ5SElJbFl1RkszV2d3aGJlVkxRMG9aSm14TVhNM1lvMTlRLWwyTEFWMWNGUzNyR0JXTUpBTUFBYlRnSUJYM3BnVHVPTTJwNDcwT1RnbXZMOE41SGZvM0RQTUNp?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T15:50:18.000Z",
+   "severity": "WARN",
+   "text": "Qatar LNG Loading Jumps Ahead of Potential Hormuz Reopening",
+   "source_link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUUF3V29tRThVSE9MZWJwMmVGVVB6ZzhKQnNJWXlJdWxzSmpOV0dON0pUQkV5WUY5aUI4YUU0V0FQajFTczNpMFowR0ZXZjZoV2dXYWl1cm84bS1QeXVCeDE5MUV0ekthcUg3TEZ4d1JNQjlnMXR5OWlBT3hvbTNYVkhTekhGTXBNNjRRd2cwaHNrUTZJZHBBbXluY3lVQy1WcWRtQlZWUU85NHRUNVM0?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T16:09:56.000Z",
+   "severity": "CRIT",
+   "text": "Hormuz Strait to remain closed unless U.S. meets Iran's conditions, Iranian security council says",
+   "source_link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFUwQU11ZTNtdlg0Zm1iSlQ0QlBkaFhUSzI2ZkdPY2M2anViX2l3R2xsUkxXdmszWlVDZU91ckpmeUZFOTlJUzB3T1NXZ3VNZm81R19hX25kdldEcUNZYlh0RDZYUlFYY05hVkM4dkdOUi1IMlVyak96OVphU0U5T3RwYkpqZlpQcVk4cThFM3M5U1dEcS13TDBIamk5OW5TcmEwaDY2d1JRbU80bzVFRGVSbnJTOUItdlhfNFgxRVpnTnRnNHVRRzJZOA?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T16:40:23.000Z",
+   "severity": "CRIT",
+   "text": "Pakistan Says US and Iran Close to ‘Some Sort’ of Deal Despite Attacks on Shipping",
+   "source_link": "https://gcaptain.com/pakistan-says-us-and-iran-close-to-some-sort-of-deal-despite-attacks-on-shipping/"
+  },
+  {
+   "date_iso": "2026-08-11T16:45:52.000Z",
+   "severity": "CRIT",
+   "text": "Four Crew Killed in Red Sea Attack While Missile Strike Reported in Gulf",
+   "source_link": "https://gcaptain.com/four-crew-killed-in-red-sea-attack-while-missile-strike-reported-in-gulf/"
+  },
+  {
+   "date_iso": "2026-08-11T17:00:41.000Z",
+   "severity": "WARN",
+   "text": "Iran stated that the Strait of Hormuz will not reopen until the U.S. meets its conditions, causing international oil ...",
+   "source_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTnh6RmcxRFBTbHFoQlBIU2lCMTctYlRRVktOZ2ZHdE1DWVk1TTNoQVR4NlBrTGVFSWJEdHNwYnJTUTRGVXJacV8xdXlGOVkwWHZBWmV1TlpCYWttRFBlbmZnRUxfSnFRMGFnZjZUYWlDN2NVVDcxVUk4WVZpUmhCcUUyU1FEVTNNdEJFazhjVDl0b09ZYXlPMTdzOA?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T17:44:45.000Z",
+   "severity": "WARN",
+   "text": "Update: Equities Fall, Oil Advances as Hope Dims for Hormuz Reopening",
+   "source_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQanBodnZPN1ZFOERxcmduM18zZFBLNkdhVTg3cjJSaXJBbF80el84SFdwWkhmMEM1WDlhR1FMdGNNalZlWmlLSVpZUkFMc0Y4TVlmSVpTVGlDRzRzdVRaQzRnXzEzSlQ3UEl2X19EaFFVYTFIbmRaUXBOcmtTZnVjZE1ucDlSZW9SeVZBV1ZLNzRTZWs?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T18:33:00.000Z",
+   "severity": "WARN",
+   "text": "Oil Advances as Hopes Fade for Strait of Hormuz Reopening",
+   "source_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSHllYnFQQmtaMUc1Wmd6OHg2VnlaS1ltWTd1a2hPUHRWYTE4YXRLUmUwRG8tZmliS29XYUhpT2VWUG1FZEZVQWtoT2hzaWFSZGZwdFBLN2lUODFSSDhWQVVscm1Bb1lpQnUzVHJoWVRLQ0t6MExGbXV0NnFvY1VGTnUyck5lVjRuZmp3YUlIOEc?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T20:30:07.000Z",
+   "severity": "CRIT",
+   "text": "Iran says Strait of Hormuz will stay closed until U.S. meets demands - Honolulu Star-Advertiser",
+   "source_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUUppcjEtSGFubE44TGdPTkZMc3NMbEk0dXFCZGdmX0JHejNVVEN3eGh1bmpHbkZ6T29ucnR1MDNKZHBuX0RzVzZDajZFNE1lLUNwMnRKOExFS21wbWp1V2loMTZ0SS0wblYyZy1FRlQyRmVKY3JZM04walRfWkUxcHBpclV6LWVEeXlFV0dVc3RxVzFTckZtcnZnMUV2MEFvLUdJS18ydUF3WWc0cWhiV2FXTDhGdWpJNTl3dk15Sm02Zw?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T20:30:55.000Z",
+   "severity": "CRIT",
+   "text": "US strikes Iran-bound ship as mediators signal Hormuz breakthrough",
+   "source_link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByaWR6NWxFbEVVdVFzYnU3LV9PekdXZDZuMVdhRWwwY2NBc3RJMEdBYkRNdUNDTkJwZWp5dnVrZWNXQTdEQUtsbE5UQkpld1hUUVE?oc=5"
+  },
+  {
+   "date_iso": "2026-08-11T22:52:43.000Z",
+   "severity": "CRIT",
+   "text": "New attacks on shipping as Iran war talks hit fresh impasse",
+   "source_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?oc=5"
+  },
+  {
+   "date_iso": "2026-08-12T03:44:02.000Z",
+   "severity": "WARN",
+   "text": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening",
+   "source_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWWotc2YtdGx5bHp5YXZieWNCaVQ0SzhwRzlnbVd1MkFmdXhmUXl3YmdqR2F1Q1ctTGRpVU5GUkZIQkpia3F5bFdSYXJYYjlpSzNTaFkzRjlBVThrdl9XMjFGOXFYbTJnaE5NbEVMTmphNks4ZHpZQjh6ZjVDZzIzYkYwX0wweTEwdlRoX0lDcjdvYWU4RV80SXdWME9CeGRmUGwtUzhWX09TZWpNMnZlSC130gG3AUFVX3lxTFBhZHlEWGh6eEJFRHVWTmxxVEoyTFlRWUpsbHdFU25kWDNWM1RUWlgxNEoxR1NKOFJqOHNtX2pETkY2LVgtdUZvam41SGNVR2RabUc5NU92YnVVSWVUVnZrM0FLTFdldlV6LVlZSXpBSExmWTNpU1hHWTZBWEdyOVNSVnd5dWdaSHlseGpYcGR0Q0VjeG1mSlZVN1AxQjljMWZWY1UtTVd1cjZwdVJ6Z0ZXLVRJNElRSQ?oc=5"
+  },
+  {
+   "date_iso": "2026-08-12T04:52:00.000Z",
+   "severity": "CRIT",
+   "text": "Ukraine halts strikes on tankers using Russian port at US request, FT says",
+   "source_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVkZkYzMtVVN3NE53N0Zpbk8xV3hlVjJFLUU0c1p2S291LW03Y05IRG11ZFA4QVZQZUJFSHFiT1hNaFgzTkdkbHc4Ri1HbEx3MzVyQkpYMHo3dGY0aURzam5zX1piSzhQZGFYUzczWUVEVTYzZDdVRGQ2OEp3aTVoZUE5dlBsODN3NWxBdWJyVXJkajdmc3BJZDlmWkszUl9hU0dmcEpCZm1ER0twSkE?oc=5"
+  },
+  {
+   "date_iso": "2026-08-12T04:56:36.000Z",
+   "severity": "CRIT",
+   "text": "Oil prices rise as Red Sea, Gulf of Oman attacks heighten supply concerns",
+   "source_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1DUGtHWXRCMkh5Y0hKaHl1MTYxYThUT210WjBqdmVrUlEyTFc3RkRuc2hFeF9qSjRIaTB2RnM0MXAteTZmMFBUdXNDUEZkUFlld1pYbkhRMVpObWNOb244UEZKUTNXQW5aVkZGMmdIdEMyek9zQ3ZBQ2Nrb9IBgAFBVV95cUxPdi1sWGRJdmJPTzVFSGMwM3JPTV9hWTBveUQ3cGlTVElHd2JfWU02TXYxWks2ZmFoWkhWRlplT19faF9GcWdyNG1mRndYTjc1a0dHYUp1REdfRHJxWTFzWm95VzNGbjNNdzZ3RW1ZNHlBT2pmLWdtX25RLTM3RllnSQ?oc=5"
   }
  ]
 }
