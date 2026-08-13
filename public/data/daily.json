@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-13T17:44:26.344Z",
+  "updated": "2026-08-13T18:40:20.898Z",
   "latest": {
     "date": "2026-08-13",
-    "wti": 81.96,
+    "wti": 81.15,
     "wti_prev": 83.27,
-    "wti_delta": -1.31,
-    "brent": 87.75,
+    "wti_delta": -2.12,
+    "brent": 86.98,
     "brent_prev": 88.98,
-    "brent_delta": -1.23,
-    "spread": 5.79,
+    "brent_delta": -2,
+    "spread": 5.83,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,59 +160,261 @@
   },
   "intel": [
     {
-      "time": "17:27",
+      "time": "18:28",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "IEA slashes global oil demand forecast as war drives up prices - Arabian Gulf Business Insight | AGBI",
+      "outlet": null,
+      "source": "Oil",
+      "date": "2026-08-13T18:28:32.000Z",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa0dxeTJGakRqZWduR3BDMkdlWEdiUkY4ZzB5cmI1djBaT1Z2ZDhqaUI2elBpMlF1RmhDUzhhZlpiU2xONFZSRi12ZkV5OXAyLTBMU0RYX2tYYm5Pc1FLNWNfYjg3VHo2eC1leVBtbW5GVUhQd2NNVEtpalBxUmViSTAyVUJ6bldESlJvRUhwQkpVYTlUZ2tldGZiRzQ3WUcwMElQN29rRQ?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "iran-war-tensions-hormuz-fail-lift",
+      "first": {
+        "outlet": "Oil",
+        "date": "2026-08-13T16:58:20.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Oil",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRjBUWmJJQjJHRHBSeFlwbnBBX3Ayb1JNQUFVdWxhMS02bS1qWE0wWmN1d1NrcUdmY0ZXbXJhNWVYaVl6dW12X3pCWmF4Wmp5MlhLY0J5VkNSSTNMOTNDbV82Um5MS21qVzFRODB0bi1JbDRnVjBHNmF0REV1OEJiMkx2R2pmR19xdTlzUk9PbUxmQ1k0TlBuRjlvNA?oc=5",
+          "date": "2026-08-13T16:58:20.000Z"
+        }
+      ]
+    },
+    {
+      "time": "18:27",
+      "severity": "WARN",
+      "direction": "BULL",
+      "text": "Persian Gulf supply disruption is now the defining freight risk of 2026",
+      "outlet": "MarketScale",
+      "source": "Oil",
+      "date": "2026-08-13T18:27:50.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdEIzX1pXTTVmRzJPYW9sdEdNNkZGNVI3aTd2SHJEX2l5YjRZaDZCdkgyQnhXSGg3RTRDNXprbkdyYmVKcmQ1Q3pCVnJnVXdDYXA0djc2aGo5NE9ZMzhLMF9lS2wzSlVPYm9nT2UxelRpb1FRS3FEYXdYb3FlQW5TYXQ0cHE5UWVKZzRVc2hUWUkxQjZ2T3REa0tOMDM1MU5DWUJ4eWdYX1oxVlZDeWNBZHFWTGxsUEJpNWdKTFVRbUlENTg?oc=5"
+    },
+    {
+      "time": "18:18",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "U.S. stocks tick toward records as oil prices drop and inflation gets less bad - Pittsburgh Post-Gazette",
+      "outlet": null,
+      "source": "Oil",
+      "date": "2026-08-13T18:18:47.000Z",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNclpmbkp2MjNLLTFqa1F3ejBsR1FTWlFPdDdkYy1fVGtLM1k1MWFuRE9hb21HenZSMGxRWFM2aEdCVDNNZGNKSzdKeFVxbjI1Zlh5b3Z6a05nZTB4US1pd1VPTGxYSl8yVzBoOEFzU0V2WVdTc2JYcGYxTFdYMnpZRml6bEtEdUNBOFFMNVptNjdQT1FPQlMwdW1EazJMd19FU3BIcDRwaHdCUVJ2YkE?oc=5",
+      "cluster_size": 6,
+      "cluster_id": "us-stocks-tick-toward-records-oil",
+      "first": {
+        "outlet": "WPLG Local 10",
+        "date": "2026-08-13T08:48:06.000Z"
+      },
+      "also": [
+        {
+          "outlet": "WPLG Local 10",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVzFCTk55NHJMRVRSc1dRYk5yV3p3TERwMFpmaGdtQkFXRm5GQWRZbm9QLTZlckwzRmtnbDdNRFZ1WjVBV0pNOVlNY1RGTW1vQlpqZmxfWDRHdlJFcjJfcGVVZ0E3WmE2em15OWJ3WDU2MDVidHN6WnIxZ1BQbER2QVRpdlEyMm1PMTdjQ0MtYlRjVEIwWjBtRkk4WW5NTUdJYmJfSUNuYU54UlZNZ0tEaHFpSnY3bnZFWjJOb2dn?oc=5",
+          "date": "2026-08-13T08:48:06.000Z"
+        },
+        {
+          "outlet": "nvdaily.com",
+          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxObWd6QTNOTFpmLXpreldrdnQwbTVKalhZdVAtTGc2Ujd1QWJnd21XSlF0ZWJ5OUl0LWNhcXVkX24wYXNDZ0dSX0FCd0hwWnVHM096ckpsRHlYUWhQZHI0SVZmdGliOENwc0syeFhkUzV6ejRmQ3lHeWlpOUROZ09VSTRUNUlQcDA0V0VpVlhKaS1pc0E3OWp3NWwzbFpvSUhjd3RQUjBocDltMkpBMEZUMlQ0a2ozOTlxY3VuQzFmdXpKcnJUaTZLWllMclNmWmlvdlJLR1dUOW84UVpMQTMtYjZtWnhHcDRUSVdhbFEtT2ZlWFFlSVdXakZ0X3FsR25lTVgwX2NnVQ?oc=5",
+          "date": "2026-08-13T13:33:34.000Z"
+        },
+        {
+          "outlet": "Oil",
+          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNckNIVnJlMTB4M0JXTTlFdVVvdlhhTnhlUW1IMklCWnEtYVpuVEV6Zkt5N3NRbmx1bnQ0TzhNa3lDZEdNN0IxeFYtZ0hYMVdJSWhfejVxT1VkU2pxRC1hYnB3WDlraXNSR2ttT3UtX0lfYWdSVUJVbjR3MU1ZbzI1WThOVE5yQ0VUYU5vSDlGUFZ3MEpPQUVNRTZMcERMYnA3Y2F1UkFFcFZPcnBsQ202TkJpd1p1bDltQXh1YkVHSF9hMThuVEdpLVRmNlIycncySldlSkFLaHNWOWh4NDExZDJuel9iSjRPRmpxUGNJRzNHb3FMUHNzNTFubw?oc=5",
+          "date": "2026-08-13T13:48:03.000Z"
+        },
+        {
+          "outlet": "LancasterOnline",
+          "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOZHVKQmRGOXF1OFAzUHkwYVEyTUVDa2JOdHc5T1R4MmNnbVBhbVRCTmRPUlVkaGNWM0JuRnJFcDMxVnp0TmhFTjNvMENFak9DaGJFS2Rwd1JySTEzcEpqTVN3SGxuOGJLTmhkTHlUQjVnQzZPbUpnOUFrRmdmc1pEdHF6OGFqcDhBaDZYVkpiQkNMQUlnb01Ud3pqN0lpZlBaUW9BQXIxc2h1YS1JR0I5TGlvUXJmcktjQzBldERPbVFiaTRwVDc4ZWdVdm5FMlpmbjk4d0dLb2xLamx5S1k3dXhkV2Y2c2FHZGkxYU5WUFNQdTRDWXBNTVBTLXFNU0NBRnZmSTIwS1ZMZGJMTTFyMS1DQnhvSUVjS3hUQ0tQYjZ3NXphdE03dmJEbk1pUzVqZ0pwRXJQWldlYXZKdFdPQVFqbzl2U3pqbHhKT3I5bXk4Wllib0lNTnRCR2xqYTd1QjFNYkIzNA?oc=5",
+          "date": "2026-08-13T14:24:14.000Z"
+        },
+        {
+          "outlet": "guardonline.com",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVjZyS3BoVkJJcGt3Z1laOHNTbnFSMU1DR01lZkw2UW4xUU0yaUUxVXVYeXBCSER3TU1GVFdlNmpkUGVMMUhhcXBVWG0wQnBhUUtFSGdRbmtvWVE4M1B2by0yb3duTHVVLUFxXzdxZUl6WjNBeWhHeUpibnZpQkV2YWt4bXBBWFVTQ0wtSVVfVUdEZ1M1aDlHNDFFZldlLWtVVkV1RjlqSHI2N1FZQ2NqMlFIWGcxR1Y5NUd6YmcyU2wyQkY5c0tLNFBfVmFpS2loa1ZxQ0sxcWtmVXhvMlFvbVdRaFVBeVloclRWcXdjdWNvYzhmdHA4dw?oc=5",
+          "date": "2026-08-13T15:55:38.000Z"
+        }
+      ]
+    },
+    {
+      "time": "18:10",
       "severity": "CRIT",
       "direction": "NEUTRAL",
       "text": "Iran war live: Tehran threatens to prolong war until Trump’s term ends",
       "outlet": "The Independent",
       "source": "Hormuz",
-      "date": "2026-08-13T17:27:59.000Z",
+      "date": "2026-08-13T18:10:53.000Z",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORWtMOVFGb2Nxckd3Ym00Q1dTUDhzTFAzQkY0Y3UzNXNtYldvRVJDNFl6NDdhc3RBQTIyRkN4Y05MYUFYOWItRDZiYlpNVDVhbC0wNzJtWDFkVDJwNGJBU2FXVkZBd2FMeGVZSXJtU0RZMC05MF96RnV5Tk5vbXYzaTdqNGh3RDUtbHplRFB6Y2ZQd0xxUHc5T0xjeXptbHN6TnRhZjJCS1BBVWVs?oc=5",
       "cluster_size": 2,
       "cluster_id": "iran-tehran-vows-prolong-war-until",
       "first": {
         "outlet": "NewsNation",
-        "date": "2026-08-13T11:01:53.000Z"
+        "date": "2026-08-13T16:15:58.000Z"
       },
       "also": [
         {
           "outlet": "NewsNation",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUnYtV21uOVlrVWdTMzR4MGd5cmREWVB4MWplbk5IcGd0QXRMTUlnX3Z0QTl0djYxT0RLeW5kSnk2TTM0VW5qR3lJX2hacFZhZ29jTE5NVWF0elRieVlGSW9QY0M3M1lHQWdKWmtKZ25id0YyVU1qRWtURUxkWnlYUW9RQdIBiAFBVV95cUxOaXdUb1FoaWlGcGxzQ3ZoOHFIUEFxQjVrYXgzNGVLVlp6dkRTaUZXdGpEZEx6MHVIcVBfRVZHV1h5cS1LZzdlQXZnYWxJVXYyTDVTRXZ1cVoyaGRJUTJPUW1sMk5YbUY0TXFNeXR1dG1fT0FCU19yXzNTNldiQUFubVc3Tl9mU1Fl?oc=5",
-          "date": "2026-08-13T11:01:53.000Z"
+          "date": "2026-08-13T16:15:58.000Z"
         }
       ]
     },
     {
-      "time": "17:15",
-      "severity": "CRIT",
+      "time": "18:07",
+      "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Are global oil stocks big enough to weather another six months of US-Iran war?",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-08-13T17:15:46.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "global-oil-stocks-big-enough-weather",
+      "text": "Stocks rise as traders reduce rate hike bets, oil prices drop",
+      "outlet": "tradingview.com",
+      "source": "Oil",
+      "date": "2026-08-13T18:07:36.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRkx5bkl5VWFhWDVVSXFlSnhQUllHdVlNLU56M2d5eExpQ2g3TUo4ZG1HNUV1aGctTXA5QWp2c2tpaGo4cEliQU1selJmX0FNNkdqM2luZ0MwMVduRnJjYmhnaHBTV3RseVdvMGRCZExnT1M1TjFfQkJIOW5xRWxyenBWN1hzdVowZ1duLVZ4US1VWGRxWHc0eFgxQ1E2UG42emxiRDQwVGhtcXVpWFdyWHBUeXJSZ2xCSHBHZ2pjV0VEczFYcllyUklR?oc=5",
+      "cluster_size": 3,
+      "cluster_id": "stocks-rise-traders-reduce-rate-hike",
       "first": {
-        "outlet": "Reuters",
-        "date": "2026-08-13T11:13:35.000Z"
+        "outlet": "reuters.com",
+        "date": "2026-08-13T01:02:00.000Z"
       },
       "also": [
         {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
-          "date": "2026-08-13T11:13:35.000Z"
+          "outlet": "reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNazlfTWozZlI1am8yV1pmREdVZGswQ1NPWl92dGhIN3lVbWJRaFA2YWhWNDQ4NWwweXZpbmpLOGFmcDlUdDhBSGFyU1piOVBzam1JOEN2RVFDOXdWOFk2LTB1MklsRzRfVmlaR3BTb2ZFNmw2U0hjUnhNLUd3cVV0WElxVQ?oc=5",
+          "date": "2026-08-13T01:02:00.000Z"
+        },
+        {
+          "outlet": "reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNazlfTWozZlI1am8yV1pmREdVZGswQ1NPWl92dGhIN3lVbWJRaFA2YWhWNDQ4NWwweXZpbmpLOGFmcDlUdDhBSGFyU1piOVBzam1JOEN2RVFDOXdWOFk2LTB1MklsRzRfVmlaR3BTb2ZFNmw2U0hjUnhNLUd3cVV0WElxVQ?oc=5",
+          "date": "2026-08-13T01:02:00.000Z"
         }
       ]
     },
     {
-      "time": "17:10",
+      "time": "18:04",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "US-Iran War News LIVE: Iran dismisses Trump’s claims of ‘total control’ over Hormuz as ‘lies and fabrications’",
+      "outlet": "livemint.com",
+      "source": "Hormuz",
+      "date": "2026-08-13T18:04:21.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaVBEMEhxVER1U0hrQ1lSa2UxM1JFSWwxQlN3aXlhYkZUanVZaUVrMGNEMmhEN21lbE5DOUNVZzVzY2d0eTZrUEZiYlVUMjBvWExmTmh0U1hKbWNhdFpqR3NWQlpUOUUxTldnaE9PU0xHVVVFaXU2d29jV19Xblh0THdXMzJVSTQxWU5aenR2SHExMzFIUlRUYm54TmdLbWhCSmU3SGZfUTh0OEJjaUw4UEVDNVVVd2JiTkRvd0lhYlNoYUNNajBYLTRHZFAxdHp5alQ5VkNDVnBXbVZWM0pmSktqRWphVmc?oc=5",
+      "cluster_size": 12,
+      "cluster_id": "iran-war-latest-trump-claims-control",
+      "first": {
+        "outlet": "The Independent",
+        "date": "2026-08-12T05:03:55.000Z"
+      },
+      "also": [
+        {
+          "outlet": "The Independent",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUDBFdjV1S2xzeGdicXJ1T2Y3aFdUQjJPTzM0Y2Fxc2RoRkZTWkpUNmMxek4tMlJXbmdvakdEemFXRkRYWTlFVUtGQzVIR21MN19XVG13bmhhUm9odFlad1RNM1BGT1NPWHRPODJLSWI4ZEw0Y0lnVWVDdkVIZnA2U2NEV0Y3MHhLdU9TUTZJMldZSmZFWXpzYldwU29zUVQ4empKaXBWMzN4X01SRnVGT2FoSl94QTJCalE?oc=5",
+          "date": "2026-08-12T05:03:55.000Z"
+        },
+        {
+          "outlet": "reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2o4cWFmWUZQNXN2WUhmYU1GVFpxdk9WM3d1YzhtS3lkQVpFdUoyNjJZMG9oSXpRNkk2VXM3X2FlTXp2T2V2VldGR3dBMGczQ0JQQkM2YjJTT2VkRkFBMVpOamlFNTBocGtvR2ZJUWJ2TnRtYVhnTVMzM1RkRks0MzV0MFQ5RWxrdmlTZThMUXh1emcycXdz?oc=5",
+          "date": "2026-08-12T14:39:00.000Z"
+        },
+        {
+          "outlet": "reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2o4cWFmWUZQNXN2WUhmYU1GVFpxdk9WM3d1YzhtS3lkQVpFdUoyNjJZMG9oSXpRNkk2VXM3X2FlTXp2T2V2VldGR3dBMGczQ0JQQkM2YjJTT2VkRkFBMVpOamlFNTBocGtvR2ZJUWJ2TnRtYVhnTVMzM1RkRks0MzV0MFQ5RWxrdmlTZThMUXh1emcycXdz?oc=5",
+          "date": "2026-08-12T14:39:00.000Z"
+        },
+        {
+          "outlet": "The Hill",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObm5sN3BXYTJEZGVRaVMxQXhUZmk5ejZiTF9uTHkzMU1hbFVqQVNOeWRKbENaRk1TWkZ5TWhWRk5LN1dlUWF1dVc5RktOT0R3Njk1ckNMVllFVDgwdkp5NnRYQmNZTEVnZnRLYzhmc2Y0emhacFB2TS1fS09XZmJ6bnl0ZnZlR3FycFNTZHRGONIBlAFBVV95cUxOalNELWxVTTZWbVhwUm1KTmFXOTNYUlVsMTE5SFR6djJSeDNsNDRzU2xfcWl2R3RlMG5oS0R6LUZnNXhRZWhDYUx0VVU2a0RWSk1NaFp5UTNXcWtkdC1YTGtCcDNidFgza1kxTGs1UXZTcjhKcUFCNEhYOTVqWnN6dHhNbUs0MUdhQ0d3dk10NjVEOElC?oc=5",
+          "date": "2026-08-12T18:47:00.000Z"
+        },
+        {
+          "outlet": "aol.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVFlWNmVpOU40QXhzM09EamlFZUhGYnFpN0VHYm5LZC0tSmZaYktleHhXYmlKMEpYR2N5M0o0dWlzU1dpVkpNNmlvcmRSVV9EeWc1S2lEZG9pNlZHVW9CTGIybGdIcGRCT1BCYU05VGNaSUlWaEVYd3BuMGJJcllSTg?oc=5",
+          "date": "2026-08-12T20:01:00.000Z"
+        },
+        {
+          "outlet": "Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjZURm1KMHp1TXp0dG1ZTl9rVXpfVUltcG9xNE5IY3BSTHl2SjZyX2tkVkdtSTEyNlBVTk5NMVFMdGItVnVLWFZUVWo0MjhUclNXczNqempUM3pWRWZDY1ozdzREN1dsdVh2aE9HR1JEOGhnc3FmVjNWT0pHbzRaTXdINEI2clVZVFpZRTY3eU1ZN3VzT2syXw?oc=5",
+          "date": "2026-08-12T20:59:41.000Z"
+        },
+        {
+          "outlet": "The Independent",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ2F3clFsWkJBdzRUVmZNZFM0MHJQR1IwdGtaR3pGOENQdDZFYnptMDJnckY2WnZLWTJEdk1tMEVCcUtiaUZhRDZkaE44WmxGX0FnWGp2M2l1OGNvdllVMUpnUjJ3NExJb1M3c0xzMG9XYVU4OXpneFI0WUcwbmtLNkFXVmNfRjFFRkwwbUJrM05laWlFT1FCUV9oa1VySkRZQ0Y1NTBUck9MRjhOSWh3bXE4UVlURkF1?oc=5",
+          "date": "2026-08-13T06:33:15.000Z"
+        },
+        {
+          "outlet": "U.S. News & World Report",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbmpBOFNLYnlBb0o4cDRFTFdxMWFIR3Zfc25wbmFJeGFER0NZQTJuZmdOby1GeXEzUXJ4eHpHbDhUTTBFUnh6cHVmNkthM0JtUnVORVdoNkJ5NFluVWtxNEdDWjJoRW93MjFmOG9XSmNLV1pFM1NULTV1UTNIQUlQVnAtbGJINjNJdF9GNE9zd2tQTkt6c09aeE02MkRIRlViNkdxMkZYdGFxbFFpSXQ5azNQcVV2S0FkR3o4?oc=5",
+          "date": "2026-08-13T10:30:58.000Z"
+        },
+        {
+          "outlet": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLTNOYzlIQUFzd2ZmNXU5eEJzS0g1ZHNwcVo0Nm1HeUExa2RJQzNQSGJpSWFfZWdoSmxYLVZBMlkzMG10T0R0WWN1dWM1VG5fbjFkcGlBQUZtSWxzVTd4dEJtVUwzdVBRTTNMZWhURWF1Ry1SLW93aGxVX25kcFZtNldkV1REcW91ZGZ3YzZkak9wZTJWOG9HVEx3UUg0RURheVZyZWpFZkpFV1dqUmdWZQ?oc=5",
+          "date": "2026-08-13T10:39:48.000Z"
+        },
+        {
+          "outlet": "The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAyX3Ezc3lqNmpLZUE2VjdXZTVKNHR1WGhFMG13VEFXSW9ueHY2V0h3TTVsY1V6NHYtaDZyVjJWNjFsYUtzWG1rUkxiRm0wZmljbEVVNUZHZ0VyRHhJX0duR0Y3S1ozTVdVbE9oVk42VEZuN2J2SUZDODBlUQ?oc=5",
+          "date": "2026-08-13T13:27:04.000Z"
+        },
+        {
+          "outlet": "Fox News",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGQURDT1pQWGR0cEV1dmR1MGV0XzE3ajc5elBIMVZxMUlRTUEzeUtXTGIxaHdqM1dGVkJFTlhHTHF5dGRHZWNfZjdRaHRCS29uZ0p5TF9n?oc=5",
+          "date": "2026-08-13T15:40:52.000Z"
+        }
+      ]
+    },
+    {
+      "time": "17:51",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Iran, US make competing claims over control of Strait of Hormuz",
+      "outlet": "reuters.com",
+      "source": "Hormuz",
+      "date": "2026-08-13T17:51:32.000Z",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5",
+      "cluster_size": 7,
+      "cluster_id": "iran-hormuz-authority-denies-trump-claims",
+      "first": {
+        "outlet": "Hormuz",
+        "date": "2026-08-13T00:05:33.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNejlSaTBDWFFtdUFraVc5NEItUnpUaUJKYkwybHE0ODNTeDNQendZdzQ5dG9mYUp0ZzhVdU9kUDRTR2oxWDBuMkVzQkdBUGlVUVg0bjc3YWMzYzRfQldWQ1JhTmk1SnM5OGhJWlMzUmhrTjZHNzdBLUZKWmt3bXN3ZkdybDB1ZEExM0F1Y0JjQ0hWWG0zalo4SVBGMjFfTkxvbHdXQ2hTLU9sc3l3N29yeWh4dkVUUVdh?oc=5",
+          "date": "2026-08-13T00:05:33.000Z"
+        },
+        {
+          "outlet": "The Jerusalem Post",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OeUdiY0JrdExwZjFLSnozbktiUnU1OEh3S1RibnZYNUM1TGM5NVZ0UXlsc1NSN3hFOVJHYmpXci1xMWFtYUE1THZldVAzZ0tmR1lzU2NGWndFdlQy?oc=5",
+          "date": "2026-08-13T07:32:28.000Z"
+        },
+        {
+          "outlet": "Euronews.com",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZWlyeXVOdkNxWVZrYU5wNHdJODZRTGRXa1BmRkJKWWxvRmRiYVdHRl93dEtDZTBjM2JaS0FBOUw1bjNGeXpBc2MydUp3X3lFVHhxZ1A2UWZZaXl1NjQ0ZzU5WWxHNGozQlA4eDdvdXhmR3l2Q1VBOC1ZSjJsSmpDSXJ6em5QRVZld2JzaHhvbVNreFBkQ2loenBoaGZldkhwU000aGRoUndocDZ6NHdnQ1cxLWdhRDA?oc=5",
+          "date": "2026-08-13T13:50:19.000Z"
+        },
+        {
+          "outlet": "France 24",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRldpM08xZ3gyTElLNWlPdU0wTDBFeW96NlA3UkdwczRMbllaaG53ZVFGWWtfci1SOGllN3ZNcy1QWjQ1LUN0c29qb2RIMjd1aTdXZ1VNbnBJVVVQa2x0S3lDdkFfb2lySTRVX2NPVXh6Njh4WUlVR3V4Y3M1aTVlWjBYUlZObHpqVEVQM3JrNVhYUlBvc1NVNi1MNzh1WnpQd2Y1TVJuSWNKT0Fz?oc=5",
+          "date": "2026-08-13T14:08:54.000Z"
+        },
+        {
+          "outlet": "Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQWdTZmxCRnVCQWpIajN6SENnMmxRYUxqaEpUZkkxcjNmUVB2MGpjZnhxYXQ5U0N3NVBPeXA2VUZSR3pvMWtaSnIwdnJXZjY4WEI1N0loTGlDVFN1MlRzZm9sb0t6dDFBSmxCUm5sRHRfMGQ4TEpJbjcxZC12a3psZ09xcUk5WmktWUh6ZGhPd3ZONkdxVm1kYkZoTkwwUThncXFMUWROQjV0c0k2QmlsQ0xvY0xaRmdNMU01eWh3?oc=5",
+          "date": "2026-08-13T14:09:47.000Z"
+        },
+        {
+          "outlet": "reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5",
+          "date": "2026-08-13T17:51:32.000Z"
+        }
+      ]
+    },
+    {
+      "time": "17:49",
       "severity": "MKT",
       "direction": "NEUTRAL",
       "text": "Live updates: Strait of Hormuz traffic remains low as world rapidly burns through oil stockpiles",
       "outlet": "CNN",
       "source": "Hormuz",
-      "date": "2026-08-13T17:10:00.000Z",
+      "date": "2026-08-13T17:49:00.000Z",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?oc=5",
       "cluster_size": 2,
       "cluster_id": "world-should-strait-hormuz",
@@ -229,13 +431,112 @@
       ]
     },
     {
+      "time": "17:45",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Live Updates: Tehran says Strait of Hormuz \"under Iran's control\" after Trump threatens U.S. might \"keep it\"",
+      "outlet": "CBS News",
+      "source": "Hormuz",
+      "date": "2026-08-13T17:45:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR2RHTTJfTFBtYldWN0p1aFl6bWNhQ3FHc3VLVUVodGl4SmY1RGZuTmhFNjRWZjBpLUlvaktWVnhpQ2FFZHJZYV9SeWVGVFNaZ0VKQ2xLNF9LVnAwOVE2MFhBUTlaWm1TZFFELW53bC1vekluLXlHanRTdE9aU3ZpWG9aRmhvUDdiMTFoUzlkcFFvcWVscTA3YWxaZDBIbi1xbkVaMURGVFpPTXY0WEcwWTBn?oc=5",
+      "cluster_size": 6,
+      "cluster_id": "head-iran-paramilitary-basij-hossein-taeb",
+      "first": {
+        "outlet": "Forex Factory",
+        "date": "2026-08-13T07:03:15.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Forex Factory",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX0QtNy1wNWJjRmpNMVh3R2RodUNOcVJPWWRyaWEySjZTcEs5Y0xsSFduRXo5bjFNZzFtT1Fzb0hQUm03cVdDUUFpUDMwY0ZSR0twckREdHkwancya0JuLVBpYkdoSzE1YzcxTk5iTHdZRFF0aVd1SWRjbURJRFE5VEZCN2N3R1p6Nk8yM1c3TnpjV1A2Y1HSAZsBQVVfeXFMTVFhaVVDR3BWOFhSbjFtaXhtZUJxQUdYV0dCRXBfaUZaMjlwN3hmMWEwYkV3NW5OZGtyUzNvVG95YW14R041eTRQcm1qV2tNRDBBNVR1Z2F4TGI4dGNyS0tqY2hLWUxaV203NGJleUNNM3V1TXdzUUtwZHltRmxYRi1CRmhJY0JYQXI4bHN0LVY0VFRacFFCRWdfaTA?oc=5",
+          "date": "2026-08-13T07:03:15.000Z"
+        },
+        {
+          "outlet": "The Times of Israel",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSFR6NkZMbExya0otLTI2UV9zMkxRV3ZNTk5ib0hQYWM2MVBDeVoyUWN3RjhhUmNCRjFLb0doSWhDQUdRZXZvcENUU3RuQ1NIWjJzWG43US1NeDQyNTJQUXlYVGdwUl9FckRzWlZybnV3SUNTVlJNdzRUTk92NTUxeEJnN2VLdS1zaTdrM0ExbTN1RUdXMWRFQzNnVG5hOVpVaEcxcjNIS1JKckt1MERobQ?oc=5",
+          "date": "2026-08-13T07:56:42.000Z"
+        },
+        {
+          "outlet": "NDTV",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOGo3RnhtRy0xSTRKWU13dExNaThxZDg0enc0ZHFBenk3Y3lTblZsNlhuMVotcXZTUC12RV84NV9OM2JXcFZvU29tV05Icm53MUswUUo0TEhfZzQ1cXppel80aWlLeUxwNm1Qanp5azRmb1JyZGZkTGhDZF9ES2NrZUVQVnRkRkFOaUZ3Umw0b1pQOWpTUkZ5ZGJlUdIBowFBVV95cUxPeXVYSHAxdHliUFN4ZEtXa1pfX2h0R2RqYm5XUjRQRnFCclJVV0dieEtQY1lISEM2LTNZVDV0ZzloVDZ4Q09nZEtKSGp4N3d6aHh4THRmdV81UmNXOGVqWXlhWmlzREFRcVQ4QUh4TjEzTUxLWmRpOFpneGc5U1hoTHEzWkpZSEozOHlmcHphbTBJNVIzUTVmbXBLSmtGR0FGbkxj?oc=5",
+          "date": "2026-08-13T08:35:13.000Z"
+        },
+        {
+          "outlet": "africanews.com",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTUktMW5qa0hCTHdreVF0dFhheXJwempXMXBZenVuMU45WWgzWFdPLUVrVHVpY1VlZWVEZ255bkNSZkZQM05fOTh2V3JrSHRtUTUyVWpibjF1aW52LW9KMVpDV0ZmX2tNd3hJU21RWVkyT1R2Mk9tUVRaMVVLd044RVY4OGk2M0NBbVVjcVRvUTM5WERzazNscGpmdEhFdkp0N1FrdEJPWjRCMmhwSlEwZFI0cHBTMHlFS3BDUUlB0gHDAUFVX3lxTE8wbzJBSFhBdWdhU3JaVzNTVFZwY2hiRndkTXUzM2d3VS1ZdDNycXpJVVQtYTdFS3VPYjhIRG04QTJhbVRUYVFuLXk0TmhZNnY2WXBwZllTZGEwc2tsWDJCNXhkcWZPREl1MnZiXzI5WGMtNG02R3BOaWJkTHgwM1V3cjBpV1Z6UjU4TG5RTVBXUzN1WjZ6dWhneTF6ZWFoR1ZoSnU4LTRoeHFISWFIQ2lScEx6NlRNTndQdUkxampqZklXbw?oc=5",
+          "date": "2026-08-13T11:29:22.000Z"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVFk0bmozV1E1Y1VKTWVVaEp4enNvWWxEbzhEUXoyMDFzMjRrWDNGb2tIWEJSci1UZnduWHJFV1AxeFcxWFh4bUhPT3ZTNC1lOTFDUVpja20tbDFuWnZydnBGc01mR05hQmtVN0FlNGg2cUY4V0RRUU45eXVKUi1DdHZCdHBKYTNHSVdPQWpFQ2M0UzVzQWtpR1FYYko1U21PT0ItTHFtVEhVZ9IBrwFBVV95cUxQTWdMUVJlQW5vejdBNmJqWGh5Xzh6Y05wdkIybXpyNVpVUWxURU40bDVOYk1Uc09PeVQwcE1QZDQ1X1NHY2p1TERwd1UxaGY3UlE1UGU4enRvSkYxU0hMUEJyMFRhRUlVNEJyQjVDWHNwS2lJZ0l0eTNTdVJsb1B2Wkk3bERjVXRGMDRmMWtWYnVZNHo5SXpvSXR6cnV4NHFmTmtmeHhVcnVGeUxrM0Q0?oc=5",
+          "date": "2026-08-13T15:15:31.000Z"
+        }
+      ]
+    },
+    {
+      "time": "17:42",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Hormuz Shipping Traffic Shows No Sign of Recovery",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-13T17:42:51.000Z",
+      "link": "https://gcaptain.com/hormuz-shipping-traffic-shows-no-sign-of-recovery/"
+    },
+    {
+      "time": "17:32",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Iran challenges Trump over the Strait of Hormuz: military expert warns",
+      "outlet": "Fox News",
+      "source": "Hormuz",
+      "date": "2026-08-13T17:32:35.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RbDc4OUQ4Z3dnbnh1SjdzTjlqSDFHRktFUENtTzd5c0FZNFk5S3dJVVpHQlI5eVlCbDU2a1ZfY056WkFTLXJqU0s2MW5YVklSOUhMVFFR?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "iran-challenges-trump-strait-hormuz-military",
+      "first": {
+        "outlet": "Fox Business",
+        "date": "2026-08-13T17:00:33.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Fox Business",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13WVVNWThGYjNvTTN4cWp3cjRieUsyR0pFOGVCbngxYWkxeVJ5SlM5d3ZaSVlvZF9ZTzY3Q01KYUVDbURJSVdsMnRzeDFqMkNoeDdZUmIya0VETTg?oc=5",
+          "date": "2026-08-13T17:00:33.000Z"
+        }
+      ]
+    },
+    {
+      "time": "17:15",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Are global oil stocks big enough to weather another six months of US-Iran war?",
+      "outlet": "reuters.com",
+      "source": "Hormuz",
+      "date": "2026-08-13T17:15:46.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "global-oil-stocks-big-enough-weather",
+      "first": {
+        "outlet": "reuters.com",
+        "date": "2026-08-13T17:15:46.000Z"
+      },
+      "also": [
+        {
+          "outlet": "reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
+          "date": "2026-08-13T17:15:46.000Z"
+        }
+      ]
+    },
+    {
       "time": "17:07",
       "severity": "CRIT",
       "direction": "BULL",
       "text": "Watch For Oil Markets, the Strait of Hormuz Isn’t Closed Says Blas",
       "outlet": "Bloomberg.com",
       "source": "Hormuz",
-      "date": "2026-08-13T17:07:53.000Z",
+      "date": "2026-08-13T17:07:54.000Z",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNndXNWd0V0dYQUNTRVZJaEMtMlA4eXdQcU1fdW5wTGJxb2ZhWHBFN29LNlVPQ2wtYmE1ZmVCUnJKdDNhWjhFMS1NYXhGMWtnaU4ya1duQ2ZZejZjUGRoUWxaMldQdVZEbnREcmpURVRzVTZjSk5XbGJ0aHFBTHpFd2xoUkRnMW12XzNENU9DTk1PS1Y5a1N0Z3lMVFk2dGpvUy1iclVBNFVLbGYwX0E?oc=5",
       "cluster_size": 2,
       "cluster_id": "oil-market-strait-hormuz-isn-closed",
@@ -270,254 +571,6 @@
       "source": "Bloomberg",
       "date": "2026-08-13T17:02:32.000Z",
       "link": "https://www.bloomberg.com/news/articles/2026-08-13/second-supertanker-seen-loading-at-saudi-oil-hub-in-persian-gulf"
-    },
-    {
-      "time": "16:58",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Iran war tensions over Hormuz fail to lift oil prices - Arabian Gulf Business Insight | AGBI",
-      "outlet": null,
-      "source": "Oil",
-      "date": "2026-08-13T16:58:20.000Z",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRjBUWmJJQjJHRHBSeFlwbnBBX3Ayb1JNQUFVdWxhMS02bS1qWE0wWmN1d1NrcUdmY0ZXbXJhNWVYaVl6dW12X3pCWmF4Wmp5MlhLY0J5VkNSSTNMOTNDbV82Um5MS21qVzFRODB0bi1JbDRnVjBHNmF0REV1OEJiMkx2R2pmR19xdTlzUk9PbUxmQ1k0TlBuRjlvNA?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "iea-slashes-global-oil-demand-forecast",
-      "first": {
-        "outlet": "Oil",
-        "date": "2026-08-13T16:47:59.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Oil",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOa0dxeTJGakRqZWduR3BDMkdlWEdiUkY4ZzB5cmI1djBaT1Z2ZDhqaUI2elBpMlF1RmhDUzhhZlpiU2xONFZSRi12ZkV5OXAyLTBMU0RYX2tYYm5Pc1FLNWNfYjg3VHo2eC1leVBtbW5GVUhQd2NNVEtpalBxUmViSTAyVUJ6bldESlJvRUhwQkpVYTlUZ2tldGZiRzQ3WUcwMElQN29rRQ?oc=5",
-          "date": "2026-08-13T16:47:59.000Z"
-        }
-      ]
-    },
-    {
-      "time": "16:57",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Iran, US make competing claims over control of Strait of Hormuz",
-      "outlet": "Reuters",
-      "source": "Hormuz",
-      "date": "2026-08-13T16:57:45.000Z",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5",
-      "cluster_size": 14,
-      "cluster_id": "trump-us-total-control-strait-hormuz",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-08-12T14:39:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2o4cWFmWUZQNXN2WUhmYU1GVFpxdk9WM3d1YzhtS3lkQVpFdUoyNjJZMG9oSXpRNkk2VXM3X2FlTXp2T2V2VldGR3dBMGczQ0JQQkM2YjJTT2VkRkFBMVpOamlFNTBocGtvR2ZJUWJ2TnRtYVhnTVMzM1RkRks0MzV0MFQ5RWxrdmlTZThMUXh1emcycXdz?oc=5",
-          "date": "2026-08-12T14:39:00.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2o4cWFmWUZQNXN2WUhmYU1GVFpxdk9WM3d1YzhtS3lkQVpFdUoyNjJZMG9oSXpRNkk2VXM3X2FlTXp2T2V2VldGR3dBMGczQ0JQQkM2YjJTT2VkRkFBMVpOamlFNTBocGtvR2ZJUWJ2TnRtYVhnTVMzM1RkRks0MzV0MFQ5RWxrdmlTZThMUXh1emcycXdz?oc=5",
-          "date": "2026-08-12T14:39:00.000Z"
-        },
-        {
-          "outlet": "AOL.com",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVFlWNmVpOU40QXhzM09EamlFZUhGYnFpN0VHYm5LZC0tSmZaYktleHhXYmlKMEpYR2N5M0o0dWlzU1dpVkpNNmlvcmRSVV9EeWc1S2lEZG9pNlZHVW9CTGIybGdIcGRCT1BCYU05VGNaSUlWaEVYd3BuMGJJcllSTg?oc=5",
-          "date": "2026-08-12T20:01:00.000Z"
-        },
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjZURm1KMHp1TXp0dG1ZTl9rVXpfVUltcG9xNE5IY3BSTHl2SjZyX2tkVkdtSTEyNlBVTk5NMVFMdGItVnVLWFZUVWo0MjhUclNXczNqempUM3pWRWZDY1ozdzREN1dsdVh2aE9HR1JEOGhnc3FmVjNWT0pHbzRaTXdINEI2clVZVFpZRTY3eU1ZN3VzT2syXw?oc=5",
-          "date": "2026-08-12T20:59:41.000Z"
-        },
-        {
-          "outlet": "Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNejlSaTBDWFFtdUFraVc5NEItUnpUaUJKYkwybHE0ODNTeDNQendZdzQ5dG9mYUp0ZzhVdU9kUDRTR2oxWDBuMkVzQkdBUGlVUVg0bjc3YWMzYzRfQldWQ1JhTmk1SnM5OGhJWlMzUmhrTjZHNzdBLUZKWmt3bXN3ZkdybDB1ZEExM0F1Y0JjQ0hWWG0zalo4SVBGMjFfTkxvbHdXQ2hTLU9sc3l3N29yeWh4dkVUUVdh?oc=5",
-          "date": "2026-08-13T00:05:33.000Z"
-        },
-        {
-          "outlet": "U.S. News & World Report",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbmpBOFNLYnlBb0o4cDRFTFdxMWFIR3Zfc25wbmFJeGFER0NZQTJuZmdOby1GeXEzUXJ4eHpHbDhUTTBFUnh6cHVmNkthM0JtUnVORVdoNkJ5NFluVWtxNEdDWjJoRW93MjFmOG9XSmNLV1pFM1NULTV1UTNIQUlQVnAtbGJINjNJdF9GNE9zd2tQTkt6c09aeE02MkRIRlViNkdxMkZYdGFxbFFpSXQ5azNQcVV2S0FkR3o4?oc=5",
-          "date": "2026-08-13T10:30:58.000Z"
-        },
-        {
-          "outlet": "Euronews.com",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZWlyeXVOdkNxWVZrYU5wNHdJODZRTGRXa1BmRkJKWWxvRmRiYVdHRl93dEtDZTBjM2JaS0FBOUw1bjNGeXpBc2MydUp3X3lFVHhxZ1A2UWZZaXl1NjQ0ZzU5WWxHNGozQlA4eDdvdXhmR3l2Q1VBOC1ZSjJsSmpDSXJ6em5QRVZld2JzaHhvbVNreFBkQ2loenBoaGZldkhwU000aGRoUndocDZ6NHdnQ1cxLWdhRDA?oc=5",
-          "date": "2026-08-13T13:50:19.000Z"
-        },
-        {
-          "outlet": "Yahoo News Canada",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOejJIVnpaR0NEWjFPWTZZYWgyOEFfU0V0eGtIakU5b1BnaDk1MHQ3WXlXZFNOSzBtUW0xSVRwTjlEZVFYMG9HTXhma0J2ZmJzQXhsNXlTdTQxbGVMcFNWLTZxc2paN0FhWDlWWmhkZmxNZG96NTNRWFhEZ05fYzl2MFVuNA?oc=5",
-          "date": "2026-08-13T13:50:19.000Z"
-        },
-        {
-          "outlet": "France 24",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRldpM08xZ3gyTElLNWlPdU0wTDBFeW96NlA3UkdwczRMbllaaG53ZVFGWWtfci1SOGllN3ZNcy1QWjQ1LUN0c29qb2RIMjd1aTdXZ1VNbnBJVVVQa2x0S3lDdkFfb2lySTRVX2NPVXh6Njh4WUlVR3V4Y3M1aTVlWjBYUlZObHpqVEVQM3JrNVhYUlBvc1NVNi1MNzh1WnpQd2Y1TVJuSWNKT0Fz?oc=5",
-          "date": "2026-08-13T14:08:54.000Z"
-        },
-        {
-          "outlet": "Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQWdTZmxCRnVCQWpIajN6SENnMmxRYUxqaEpUZkkxcjNmUVB2MGpjZnhxYXQ5U0N3NVBPeXA2VUZSR3pvMWtaSnIwdnJXZjY4WEI1N0loTGlDVFN1MlRzZm9sb0t6dDFBSmxCUm5sRHRfMGQ4TEpJbjcxZC12a3psZ09xcUk5WmktWUh6ZGhPd3ZONkdxVm1kYkZoTkwwUThncXFMUWROQjV0c0k2QmlsQ0xvY0xaRmdNMU01eWh3?oc=5",
-          "date": "2026-08-13T14:09:47.000Z"
-        },
-        {
-          "outlet": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOclhjRDk5UWR6UkZvVnQzZ0JxVE94UldRbU9ycWRneEtzSEcwc0JQbXZxS3o3R3FXWGZpbUhTLXV5MXBOaUYwRE1sZHJ1bmhoTEdGem9Nc3FkVTVTQ0Zlbks1MVgwX0x5aTRiQTNQVWlQVHRRWW5tT2Y5czhVVlNWcUNkeUlTNkdQWXJwT2ZmeER1QkF4TVZELUFIbTNUTW45VTNldHB6YUFtTnVaaDdVbVdja0NCMjlDWXhtaTc2QTE1eHR40gHLAUFVX3lxTE5TeTV0aXMyMmViN0NRT3BoVW5vc2Jua0FNSGFkZE8ydmJ1QWY4LWtmZW4wc3Rzc0FBNHJtRG9hZ2JKR3FHZnZLWWVQWm50Ny1SSnMtMVg3NXBEcVpmSVZnS09WNVNXLUtPbk1uUFJPM0F5ZXZaSWpZSHlUb0hCQTRWY0lKT2N2XzFEOUdKQklVZmJhY1B0V2ZSaWw3VXJYbGFaX3RuMmFWcUY1eDAzYVVKdFkyU0tZd1Q2MmRUcVk1d09WSTZabVd2TWxB?oc=5",
-          "date": "2026-08-13T15:37:57.000Z"
-        },
-        {
-          "outlet": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGQURDT1pQWGR0cEV1dmR1MGV0XzE3ajc5elBIMVZxMUlRTUEzeUtXTGIxaHdqM1dGVkJFTlhHTHF5dGRHZWNfZjdRaHRCS29uZ0p5TF9n?oc=5",
-          "date": "2026-08-13T15:40:52.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5",
-          "date": "2026-08-13T16:57:45.000Z"
-        }
-      ]
-    },
-    {
-      "time": "16:47",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "U.S. stocks tick toward records as oil prices drop and inflation eases up - Pittsburgh Post-Gazette",
-      "outlet": null,
-      "source": "Oil",
-      "date": "2026-08-13T16:47:43.000Z",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNclpmbkp2MjNLLTFqa1F3ejBsR1FTWlFPdDdkYy1fVGtLM1k1MWFuRE9hb21HenZSMGxRWFM2aEdCVDNNZGNKSzdKeFVxbjI1Zlh5b3Z6a05nZTB4US1pd1VPTGxYSl8yVzBoOEFzU0V2WVdTc2JYcGYxTFdYMnpZRml6bEtEdUNBOFFMNVptNjdQT1FPQlMwdW1EazJMd19FU3BIcDRwaHdCUVJ2YkE?oc=5",
-      "cluster_size": 6,
-      "cluster_id": "us-stocks-tick-toward-records-oil",
-      "first": {
-        "outlet": "KSAT",
-        "date": "2026-08-13T03:33:27.000Z"
-      },
-      "also": [
-        {
-          "outlet": "KSAT",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPV2xhRk96b3Bxc0ZDOThwbE1EQkl6ZDRRUUd2SjBFcmNWd2loY3hSZ0ZXbmhVUnlpVnNNNHRnM2ZqS2J4RktLdlB4WHNMYXVTVlFoS1k5UjNxTC0xOTJBMDlsMlh4dVNVandFQ19YOEhDUU5fRW9mT0lkaHZhMUhaT01kZEV1TklOUzdoNmhJQkNERngyNjNSR2FpbnlKdXExUTFiN0xQWE1VRGZnX2lZT05GSEthNUh5V1k4ZW1UcHJ5OVhXQmdPSA?oc=5",
-          "date": "2026-08-13T03:33:27.000Z"
-        },
-        {
-          "outlet": "The Northern Virginia Daily",
-          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxObWd6QTNOTFpmLXpreldrdnQwbTVKalhZdVAtTGc2Ujd1QWJnd21XSlF0ZWJ5OUl0LWNhcXVkX24wYXNDZ0dSX0FCd0hwWnVHM096ckpsRHlYUWhQZHI0SVZmdGliOENwc0syeFhkUzV6ejRmQ3lHeWlpOUROZ09VSTRUNUlQcDA0V0VpVlhKaS1pc0E3OWp3NWwzbFpvSUhjd3RQUjBocDltMkpBMEZUMlQ0a2ozOTlxY3VuQzFmdXpKcnJUaTZLWllMclNmWmlvdlJLR1dUOW84UVpMQTMtYjZtWnhHcDRUSVdhbFEtT2ZlWFFlSVdXakZ0X3FsR25lTVgwX2NnVQ?oc=5",
-          "date": "2026-08-13T13:33:34.000Z"
-        },
-        {
-          "outlet": "LancasterOnline",
-          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPLXJHZFpzdjNXZ1E3aW5URGRXc2YyX3JkNVpsYkFDSG9FekhRZUZVVi1abjRhM3BmNlpFMVgxRE9oY2p6S05RWHlXTXZKV01rMEs3bWplYURwbl93UkFzelZQOTNBRWdnTHNsSURIRG1uYzFkdUV6Q2ZUakpMZ2o3bzJ3V2tJQk0wamVKZG54VjlqN3U2SHZ3dE5NdEl1LW41MndFVURhSzdqbWdMaU8tNjhKYXV0SEktWlRjZExpU1RiWGhOM1lsVzdLQnhvdFBxb0NOZTlKbjdLRnAwb1c0WEtra2hqWUh3ZHJyMVpEUVk2eWRhTlRsZVBVTVFTQ1diVHlHNHBpNA?oc=5",
-          "date": "2026-08-13T13:48:03.000Z"
-        },
-        {
-          "outlet": "Oil",
-          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNckNIVnJlMTB4M0JXTTlFdVVvdlhhTnhlUW1IMklCWnEtYVpuVEV6Zkt5N3NRbmx1bnQ0TzhNa3lDZEdNN0IxeFYtZ0hYMVdJSWhfejVxT1VkU2pxRC1hYnB3WDlraXNSR2ttT3UtX0lfYWdSVUJVbjR3MU1ZbzI1WThOVE5yQ0VUYU5vSDlGUFZ3MEpPQUVNRTZMcERMYnA3Y2F1UkFFcFZPcnBsQ202TkJpd1p1bDltQXh1YkVHSF9hMThuVEdpLVRmNlIycncySldlSkFLaHNWOWh4NDExZDJuel9iSjRPRmpxUGNJRzNHb3FMUHNzNTFubw?oc=5",
-          "date": "2026-08-13T13:48:03.000Z"
-        },
-        {
-          "outlet": "The Batesville Daily Guard",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVjZyS3BoVkJJcGt3Z1laOHNTbnFSMU1DR01lZkw2UW4xUU0yaUUxVXVYeXBCSER3TU1GVFdlNmpkUGVMMUhhcXBVWG0wQnBhUUtFSGdRbmtvWVE4M1B2by0yb3duTHVVLUFxXzdxZUl6WjNBeWhHeUpibnZpQkV2YWt4bXBBWFVTQ0wtSVVfVUdEZ1M1aDlHNDFFZldlLWtVVkV1RjlqSHI2N1FZQ2NqMlFIWGcxR1Y5NUd6YmcyU2wyQkY5c0tLNFBfVmFpS2loa1ZxQ0sxcWtmVXhvMlFvbVdRaFVBeVloclRWcXdjdWNvYzhmdHA4dw?oc=5",
-          "date": "2026-08-13T13:48:03.000Z"
-        }
-      ]
-    },
-    {
-      "time": "16:43",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "US can keep naval blockade on Iranian ports \"indefinitely,\" Pentagon chief says",
-      "outlet": "Reuters",
-      "source": "Hormuz",
-      "date": "2026-08-13T16:43:12.000Z",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVG5Gb2NKOTltbG9CVlpKTElmclFqS1JyWGtIckF6UzhMYlVCQUp4a1FEWnRzWDQxS24ycTZYTEstVHIzbzhpMENnMWVzV2kxdklsV0pFR3h5Nk93OGtDRUJndkJhWEMtaUNjQm1scHdJZlczYWlfcUZXQ2pLMGp6S3k0YTdMUS1zaUxyWk1Sd2VSUWpFUmxxb285T1JaUGdUM2paUGotRk5JLWY1QVJWR1lTOC1XWC1xbndPdk5LdkdpTXR2VXc?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "us-can-keep-naval-blockade-iranian",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-08-13T16:43:12.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVG5Gb2NKOTltbG9CVlpKTElmclFqS1JyWGtIckF6UzhMYlVCQUp4a1FEWnRzWDQxS24ycTZYTEstVHIzbzhpMENnMWVzV2kxdklsV0pFR3h5Nk93OGtDRUJndkJhWEMtaUNjQm1scHdJZlczYWlfcUZXQ2pLMGp6S3k0YTdMUS1zaUxyWk1Sd2VSUWpFUmxxb285T1JaUGdUM2paUGotRk5JLWY1QVJWR1lTOC1XWC1xbndPdk5LdkdpTXR2VXc?oc=5",
-          "date": "2026-08-13T16:43:12.000Z"
-        }
-      ]
-    },
-    {
-      "time": "16:37",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Oil’s Rally Stalls as Hormuz Deadlock Brings Flows Into Focus",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-08-13T16:37:04.000Z",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-13/oil-rally-stalls-hormuz-deadlock-brings-focus-on-flows-video"
-    },
-    {
-      "time": "16:24",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Tech stocks power S&P 500 to record high as oil prices, producer inflation ease",
-      "outlet": "Reuters",
-      "source": "Oil",
-      "date": "2026-08-13T16:24:15.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUHR2anJaRElybkU1MUtsS1JsREMyQW90SU9hRXAwblVMSDdMZ1d2bDRBUTczVy1pQVh6ZnpDWnhUR3ZqSjNpTXYyektQN0JsSTNaS3MxQVJQLVlvakRnUzAxelE5RFkwMWRqY3ZJUGk4THRXblEtejVuUDdYS3MtVDd3ZEFtN3ItS05JWGxwTklCSkg3YXRQbUZhRDdRWngxVC1xWHgzMVR2TWJPYzZFaFZRV3hHNFpQbm5SZTRacw?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "tech-stocks-power-500-record-high",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-08-13T16:24:15.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUHR2anJaRElybkU1MUtsS1JsREMyQW90SU9hRXAwblVMSDdMZ1d2bDRBUTczVy1pQVh6ZnpDWnhUR3ZqSjNpTXYyektQN0JsSTNaS3MxQVJQLVlvakRnUzAxelE5RFkwMWRqY3ZJUGk4THRXblEtejVuUDdYS3MtVDd3ZEFtN3ItS05JWGxwTklCSkg3YXRQbUZhRDdRWngxVC1xWHgzMVR2TWJPYzZFaFZRV3hHNFpQbm5SZTRacw?oc=5",
-          "date": "2026-08-13T16:24:15.000Z"
-        }
-      ]
-    },
-    {
-      "time": "16:19",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil prices decline as IEA forecasts a decline in demand",
-      "outlet": "upi.com",
-      "source": "Oil",
-      "date": "2026-08-13T16:19:34.000Z",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObTY2Y2lma1NBVE9vdDFLdkxEUVVmejkwdUVSSng4X3U4SE5yN0xiLV9YeERFTWxSQmMzdy1lN3FlNzNPNTRNbXFZR3NtdGhDVW05bjdNcVZBMFBlc3ZuSnZqNDFLRmZUZjM4emhWbHo5M25xaEx3eWdtVlUzaGNoMzJlZV95V0pHcFFHdnNvLUpwQVVKVmJoMFNtdktZTUXSAaQBQVVfeXFMTlU3elNyMlJ5RC10N3lKUWY2eFpqcHlMLUxKNXFadzEyMUhsZGdkOEo2N2hXYjJ3LWhlM0NGa0ljVTVNLWk4MmgzcEJBa3dPcXhlYVc1cF93T0RDdUlRQ2dIS1lmUXd4cHRKdFJ4bElFRTkwWklzTDZCV0NCRlNya2ZYM2NiblVSSWFDY01GN1h5dEg0VFo5TFd2RHprWkFETVI5NEI?oc=5"
-    },
-    {
-      "time": "16:07",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "The US says more oil is leaving the Middle East, but is it really?",
-      "outlet": "Reuters",
-      "source": "Hormuz",
-      "date": "2026-08-13T16:07:25.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFpiaHV1WkZPRDd0NDNsalc3RURUajFQYWtJdVE1LU4tQTZBWmhDWGl3RnE0bGVfcjk5TzNsNkVoNFQxbXIwa1paaGRnSnFlY1VoaE1uSUQ0RmNxR3h3cmwxdGcyMjhwWC1ncE04OHJSWGFtOVF1bnRCbWlSam01MkdldGFsaVpIcGxnTVFSQ3pUb0FLZ0JaZlJsUHp6NFN6b0tjck4zUDc3QnZBVDk0YTRLU3cycHoydjBRUERR?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "us-more-oil-leaving-middle-east",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-08-13T16:07:25.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFpiaHV1WkZPRDd0NDNsalc3RURUajFQYWtJdVE1LU4tQTZBWmhDWGl3RnE0bGVfcjk5TzNsNkVoNFQxbXIwa1paaGRnSnFlY1VoaE1uSUQ0RmNxR3h3cmwxdGcyMjhwWC1ncE04OHJSWGFtOVF1bnRCbWlSam01MkdldGFsaVpIcGxnTVFSQ3pUb0FLZ0JaZlJsUHp6NFN6b0tjck4zUDc3QnZBVDk0YTRLU3cycHoydjBRUERR?oc=5",
-          "date": "2026-08-13T16:07:25.000Z"
-        }
-      ]
-    },
-    {
-      "time": "15:57",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Container Shipping Companies Navigate Route Challenges",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-08-13T15:57:08.000Z",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-13/container-shipping-companies-navigate-route-challenges-video"
     }
   ],
   "snapshots": [
@@ -1586,8 +1639,17 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-13T17:44:26.344Z",
+  "intel_updated": "2026-08-13T18:40:20.898Z",
   "event_log": [
+    {
+      "date": "AUG 13",
+      "date_iso": "2026-08-13T18:04:21.000Z",
+      "severity": "WARN",
+      "text": "US-Iran War News LIVE: Iran dismisses Trump’s claims of ‘total control’ over Hormuz as ‘lies and fabrications’",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaVBEMEhxVER1U0hrQ1lSa2UxM1JFSWwxQlN3aXlhYkZUanVZaUVrMGNEMmhEN21lbE5DOUNVZzVzY2d0eTZrUEZiYlVUMjBvWExmTmh0U1hKbWNhdFpqR3NWQlpUOUUxTldnaE9PU0xHVVVFaXU2d29jV19Xblh0THdXMzJVSTQxWU5aenR2SHExMzFIUlRUYm54TmdLbWhCSmU3SGZfUTh0OEJjaUw4UEVDNVVVd2JiTkRvd0lhYlNoYUNNajBYLTRHZFAxdHp5alQ5VkNDVnBXbVZWM0pmSktqRWphVmc?oc=5",
+      "auto": true
+    },
     {
       "date": "AUG 13",
       "date_iso": "2026-08-13T17:07:53.000Z",
@@ -2028,21 +2090,12 @@
       "source": "Oil",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWWotc2YtdGx5bHp5YXZieWNCaVQ0SzhwRzlnbVd1MkFmdXhmUXl3YmdqR2F1Q1ctTGRpVU5GUkZIQkpia3F5bFdSYXJYYjlpSzNTaFkzRjlBVThrdl9XMjFGOXFYbTJnaE5NbEVMTmphNks4ZHpZQjh6ZjVDZzIzYkYwX0wweTEwdlRoX0lDcjdvYWU4RV80SXdWME9CeGRmUGwtUzhWX09TZWpNMnZlSC130gG3AUFVX3lxTFBhZHlEWGh6eEJFRHVWTmxxVEoyTFlRWUpsbHdFU25kWDNWM1RUWlgxNEoxR1NKOFJqOHNtX2pETkY2LVgtdUZvam41SGNVR2RabUc5NU92YnVVSWVUVnZrM0FLTFdldlV6LVlZSXpBSExmWTNpU1hHWTZBWEdyOVNSVnd5dWdaSHlseGpYcGR0Q0VjeG1mSlZVN1AxQjljMWZWY1UtTVd1cjZwdVJ6Z0ZXLVRJNElRSQ?oc=5",
       "auto": true
-    },
-    {
-      "date": "AUG 12",
-      "date_iso": "2026-08-12T03:07:28.000Z",
-      "severity": "CRIT",
-      "text": "US-Iran war: Hormuz remains closed as talks continue",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaF95UDNPazZvVkdJcDJrQjJXU2wzVFB6c281dWlRQTZNZXZnSDZkOEpNcnNNYlZNNEZZZGdxZWRVOXVjeWpGOWxIUmZFUnFSY3luc1NNUFlXNThCYlluTl8yYml4VEdWUlhfdjBoN3pKUEphZTZzU3NDTmtDRzBiYUVub0RNTGlCVkwzSS03MEx4QTczRUVpWFNaZ9IBrgFBVV95cUxNcW8tbGZ0eWtlaEdBaGJ6RUh4c3EtcnNGYjN5UmtqczNQWFF3UnYzWnR4LWNYdS1xLXcydDlINV9MYTNmRVBkZXFSQTloZmlmclBaSzVwT2NOMUJwLWZnVjduYzJNM1hmbHVRcVdkc1lldmJKei1sVUZJbmItdUUtV05IeXZFaHkza1VrV24zMk1HTUx1ZkRfN3dwMkk1TGZuOUVrTW5GNGhxb0NQLXc?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 1,
+    "bull": 2,
     "bear": 0,
-    "neutral": 14,
+    "neutral": 13,
     "net": "LEAN BULL"
   },
   "vessels_attacked": {
@@ -3059,7 +3112,7 @@
     },
     {
       "t": 1786593600000,
-      "p": 87.75
+      "p": 86.98
     }
   ],
   "chart_wti": [
@@ -4069,7 +4122,7 @@
     },
     {
       "t": 1786593600000,
-      "p": 81.96
+      "p": 81.15
     }
   ],
   "signal_outlook": [
@@ -5106,7 +5159,7 @@
     },
     {
       "t": 1786593600000,
-      "p": 5.79
+      "p": 5.83
     }
   ],
   "chart_sp500": [
@@ -6047,14 +6100,6 @@
       "p": 7443.28
     },
     {
-      "t": 1784640600000,
-      "p": 7509.2
-    },
-    {
-      "t": 1784727000000,
-      "p": 7498.96
-    },
-    {
       "t": 1784813400000,
       "p": 7408.3
     },
@@ -6077,10 +6122,6 @@
     {
       "t": 1785418200000,
       "p": 7437.63
-    },
-    {
-      "t": 1785504600000,
-      "p": 7489.72
     },
     {
       "t": 1785763800000,
@@ -6116,10 +6157,10 @@
     },
     {
       "t": 1786627800000,
-      "p": 7789.92
+      "p": 7796.6
     }
   ],
-  "latest_sp500": 7789.92,
+  "latest_sp500": 7796.6,
   "vesselCache": {},
   "synthesis": {
     "updated": "2026-07-30T19:46:28.788Z",
