@@ -1,16 +1,20 @@
 {
-  "updated": "2026-08-13T08:57:56.754Z",
+  "updated": "2026-08-13T10:20:13.737Z",
   "counts": {
     "total": 95,
-    "crit": 25,
+    "crit": 26,
     "warn": 2,
     "bySource": {
-      "Fierce Biotech": 2,
+      "Fierce Biotech": 1,
+      "MarketBeat": 8,
+      "Clinical Trials Arena": 1,
+      "EMJ": 1,
+      "Stocktwits": 1,
       "STAT News": 3,
-      "MarketBeat": 7,
-      "clinicaltrialvanguard.com": 1,
+      "The Clinical Trial Vanguard": 1,
       "Clinical Leader": 3,
       "FirstWord Pharma": 2,
+      "Yahoo Finance": 4,
       "GuruFocus": 2,
       "Reuters": 2,
       "Seeking Alpha": 2,
@@ -22,34 +26,31 @@
       "Psychedelic Alpha": 2,
       "Psychiatric Times": 2,
       "Yahoo": 1,
-      "The Globe and Mail": 1,
-      "Yahoo Finance": 4,
+      "theglobeandmail.com": 1,
       "WebWire": 1,
       "kalkine.ca": 1,
       "Gizmodo": 1,
-      "stocktitan.net": 8,
-      "TradingView": 9,
-      "TipRanks": 4,
-      "biospace.com": 2,
+      "Stock Titan": 8,
+      "Benzinga": 2,
+      "tradingview.com": 8,
+      "tipranks.com": 3,
+      "BioSpace": 2,
       "StockInvest.us": 1,
       "AD HOC NEWS": 1,
-      "BioPharma Dive": 1,
+      "biopharmadive.com": 1,
       "Kalkine Media": 3,
       "moneyweb.co.za": 1,
-      "Benzinga": 1,
       "PsyPost": 1,
       "Investing.com Canada": 3,
       "HCPLive": 1,
       "streamlinefeed.co.ke": 1,
-      "streetinsider.com": 1,
+      "StreetInsider": 1,
       "Pluang": 1,
       "pharmaphorum": 1,
       "PR Newswire": 1,
       "STAT": 1,
       "marketscreener.com": 1,
-      "Traders Union": 1,
-      "Endpoints News": 1,
-      "Space Daily": 1
+      "tradersunion.com": 1
     },
     "byTier": {
       "T3": 5,
@@ -59,7 +60,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-13T08:57:55.660Z",
+      "time": "2026-08-13T10:20:11.602Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -70,6 +71,84 @@
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
       "tickers": []
+    },
+    {
+      "id": "d373f28fe3ff",
+      "time": "2026-08-13T10:05:54.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Definium Therapeutics’ DT120 Meets Phase III Goals in GAD Study",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYS00OFJGZnRQbWMzNVZLbUxfbUotRkctTUUtUkYtS1BCdS10aGFsTDRWTE5PTHlLR1hNY3hsQnhOZk1aMElha3JxX21LZ1F0elE0dF9qbXh5VXR4SkJ0TTYxaGRKQ3N3Z1lSdEtjVk1LcjdkNmJhcHZrdnVOMkNZVnM0eExxWVA0Q09UVTcwNGpkaU9PS3E5ZnN0ZXphNk92NWlfdVo0VjlCc1lwQWNZb3RDdWJrWHc?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "e064061b0f5b",
+      "time": "2026-08-13T09:29:06.000Z",
+      "source": "Clinical Trials Arena",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Definium’s psychedelic prospects brighten further on Phase III success",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVNBOWNxOWs2OFkyNnhlYWZzdF9sZUdSTWJ5NnY5T3VFTldfNVhHOHNyR2dSeFJvWWY2OXRjRmhJakkwbG9CZXZ6SjlpUDZLYVpqc25mRnB6RHd2R2VkLWRpdjdhRjFvdEZwaTI4cUZtZllqbUZ2dlhVT0hKRTAzNC1idjNiWjBQZ3lBeGdOUkZMZWdq?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "0eb7f6b1886c",
+      "time": "2026-08-13T09:14:40.000Z",
+      "source": "EMJ",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "DT120 shows positive phase 3 results in anxiety",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTRtcGpOMVdZSGZYQ0Y5d2ZoalpZTFJEQnZyLXJYam1KLW92VU1DdUFoSl84dXJOQTljRjhPM1ZEd1NiNUF4TG1GbDBpWWU5Z2FmLU50djBWd3FETC03RWFfWHBMdHpJNkZpTnN3WFZhUmY0TVJGVFhkR0JMMGJlVVpTVy1qOFc0bDNmeV9SQWhPdFk?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "777139adbb2f",
+      "time": "2026-08-13T08:57:47.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Quantinno Capital Management LP Grows Holdings in Alkermes plc $ALKS",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdmhRbnUyYjhzU3pnU2g1VlZjSm5xSE9IQ244MmZteFZlZUpGVDBZWEZ4dlV5Szc4YktyMnNBQVdjMTl1LVNJb1ZuVVgxc2EzSHBxOG9PZ3NvV3luZktITTZUVDhkS2R6UEEtaTlzLTJTb3hSNGhoNmxjOHBNZ25pRFpwRkJMSFczY1FURTNhdTFEeE10b1g1b05ET2pDX1BPZVFkbG1qXzd1cDRSU2V3OExxZnhEdlE0VTJtdFgzUUF2S3NEaWVn?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "e537f406da05",
+      "time": "2026-08-13T08:42:11.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "DFTX Stock Clocks Best Day In Over Two Years On 'Best-Case' Clinical Results For Oral Lysergide In Depression",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPZ1hMY2hiQUVpaFVJZ1dnakIyRmduMTJ5Y1hKTDdkeUZtYkZBMUVFc2p4X1RLemhMY3NQZl96UUpQNzdCdmtERDdJMUQ2cG4yZGNRaHhkTVh0LWNWSDUxZHcwckppamVsSVlQNFdtTnlGVkw0cDZqNmxCeUNDNmRzdWZiQXpTLWxOa3UyaUdVRWI0THhocGJDdldYdmxPQkU2d1RMQTVZbXJYc2IxOHk4bjRhcF9zMTBGOFphX1ZNTkQyNTdzZUFpQ1BIRC1xbU1TQmQzc3FNYjBjMkk1MldTQVo1YXNoZVcwSGdtMm5NTQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "265d170c9837",
@@ -120,7 +199,7 @@
     {
       "id": "24ea7a5da52d",
       "time": "2026-08-13T06:34:37.000Z",
-      "source": "clinicaltrialvanguard.com",
+      "source": "The Clinical Trial Vanguard",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -129,22 +208,6 @@
       "impact": "HIGH",
       "title": "Definium’s DT120 Meets Primary Endpoint in Phase 3 Anxiety Trial",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2piai1yTVhNTVllRFd6VU5rb29UZ2ZwZnMzc0FLWmNBU05IbUN2M2d2Z1VPN1QyUWlJM3FsaU9kc2RmbHJZOWJhSGh4RlYyUDRPSFZlOE5RbFdGQy1XdDZMZW54R25FYVRSZU5icU9heGo0UUI5ZlF5T0otc2ZWNUVCV3Rrd3JVZkgyenYyYlhuYzByenNZci1Hd1VTREhrMFZhaUtiMThXUm8?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "9326bb51c1a0",
-      "time": "2026-08-13T04:14:50.000Z",
-      "source": "Clinical Leader",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "What The FDA's Latest Move On Psychedelics Means For Non-Hallucinogenic Drug Sponsors",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeXRrOG9VQU02eWpsZThjQUt5cjB2UDE2VkJ2dkIzdE51SDYwbmRvMjhwMm9sX1FEWVhaeHBfLUtVUEgtMmlJbnVLNTkzRmZKRmdGSHNsdlpsZWw4OWhhZHU5R2xxZzlYR1lJNTFrdjZOekxsX3VvbWNvQk9iR0JKbHgySjZsa2ZRbWUxYXJidlpXakR1akRoOTc4dm9aLWRtR1FXVXhTQ0tPeUdoYXFzOE0xeWJpVWRmNnhQME15d2poX1U?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -166,6 +229,22 @@
       ]
     },
     {
+      "id": "9326bb51c1a0",
+      "time": "2026-08-13T04:13:58.000Z",
+      "source": "Clinical Leader",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "What The FDA's Latest Move On Psychedelics Means For Non-Hallucinogenic Drug Sponsors",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeXRrOG9VQU02eWpsZThjQUt5cjB2UDE2VkJ2dkIzdE51SDYwbmRvMjhwMm9sX1FEWVhaeHBfLUtVUEgtMmlJbnVLNTkzRmZKRmdGSHNsdlpsZWw4OWhhZHU5R2xxZzlYR1lJNTFrdjZOekxsX3VvbWNvQk9iR0JKbHgySjZsa2ZRbWUxYXJidlpXakR1akRoOTc4dm9aLWRtR1FXVXhTQ0tPeUdoYXFzOE0xeWJpVWRmNnhQME15d2poX1U?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "c357486b4c2f",
       "time": "2026-08-13T01:42:22.000Z",
       "source": "FirstWord Pharma",
@@ -178,6 +257,22 @@
       "title": "Spotlight On: Three questions facing Definium's LSD-based psychedelic",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aejFGX0IyZHZreFJXc1hUN0lncEVLSW03d21CRktoWDFrR3VJWmhjc1lyWVdGMllwR1IyaVZOZjB0SUQzVHctTERiMmRFQVVtdUlj?oc=5",
       "tickers": []
+    },
+    {
+      "id": "613b81fd2a69",
+      "time": "2026-08-13T00:27:40.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences, Inc. (NBIX) Stock Forecasts",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOajBnUFQ5VmZHQXRZbDI0OUtBaXY4d1RvSGRQZ0xQNHNmQnA4RER2ZlpZVFhrWjNzb1F0WllXNGd0bmNQV0Q0dVZQaW1BWi1mUUpyQmlidGJLWmVWMmFHZEt6RllKYVd1QVNiMnotZzJzZHZYaHJlblE1U3RjOHI0NzZnczdsWDEyOVRZSkdzaw?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
     },
     {
       "id": "116a75e612a9",
@@ -383,7 +478,7 @@
     {
       "id": "40d9bd54797d",
       "time": "2026-08-12T17:43:00.000Z",
-      "source": "The Globe and Mail",
+      "source": "theglobeandmail.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -507,7 +602,7 @@
     {
       "id": "2b440de1aaa9",
       "time": "2026-08-12T16:10:22.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -537,9 +632,9 @@
       ]
     },
     {
-      "id": "35f081bd0bef",
+      "id": "cfd5f3adb9ab",
       "time": "2026-08-12T15:57:15.000Z",
-      "source": "TradingView",
+      "source": "Benzinga",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -547,7 +642,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "What's Going On With Neurocrine Biosciences Stock On Wednesday?",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbDk4WHc4a1dXamRHOFlGZGd5M1kxUmMxb2NNU0J5NFZZM2lpdHhrLVhkQXVmVkV5aERnbUY0NzVsSXhHbGRoSklia21UaEk3V3BMWG0zdTZxcnAya0NybDBPMzI4b1ZWbThEUDYyU2tvME5SSFBMcTUyLVdzc1FJeGZPRlByWUZLOTloNFJaTXd5dkpvcFd5dTFZaHFlMzhpZXJWalBQWVI0UllKanYwR2FMMGJic1NMbnRESEl3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTVpuaEJIa0xXbnRJNmw4WVA4THhWTGl3TExIakhLNjR1MmM3VmFhLUxHMGVDVVBzYVZ4dU1lSWlGNTZUVzBWYkpjRmpVdmJ3aTRrSHFjUXJsWGJYS1k1OUVpRUF5UkNhSTdIN0hFRWFsYktPdTZ2V2lSaThlZEU3R3JRTWgtVWJTUlo5a2lNTElDZkplUHhPcEVGemtqNlQyVFVjYXJGXzU0YmlMUUFwT0MxZk1SWjh0?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -601,7 +696,7 @@
     {
       "id": "632e966d6556",
       "time": "2026-08-12T15:37:13.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -617,7 +712,7 @@
     {
       "id": "608def744d1c",
       "time": "2026-08-12T15:33:45.000Z",
-      "source": "TipRanks",
+      "source": "tipranks.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -633,7 +728,7 @@
     {
       "id": "9d2a6433a9eb",
       "time": "2026-08-12T15:22:00.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -649,7 +744,7 @@
     {
       "id": "b137e7e446fc",
       "time": "2026-08-12T15:20:46.000Z",
-      "source": "biospace.com",
+      "source": "BioSpace",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -698,7 +793,7 @@
     {
       "id": "8613f5fac968",
       "time": "2026-08-12T14:47:59.000Z",
-      "source": "BioPharma Dive",
+      "source": "biopharmadive.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -712,7 +807,7 @@
     {
       "id": "96386185aff1",
       "time": "2026-08-12T14:41:33.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -776,7 +871,7 @@
     {
       "id": "0e0cc1ca64f5",
       "time": "2026-08-12T14:20:46.000Z",
-      "source": "biospace.com",
+      "source": "BioSpace",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -838,7 +933,7 @@
     {
       "id": "e2ca10cbd32a",
       "time": "2026-08-12T13:55:09.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -854,7 +949,7 @@
     {
       "id": "52b843b04d70",
       "time": "2026-08-12T13:53:51.000Z",
-      "source": "TipRanks",
+      "source": "tipranks.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -966,7 +1061,7 @@
     {
       "id": "e2e72282ccce",
       "time": "2026-08-12T13:33:23.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -982,7 +1077,7 @@
     {
       "id": "d75658956efd",
       "time": "2026-08-12T13:27:11.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1062,7 +1157,7 @@
     {
       "id": "a81b1b0973b9",
       "time": "2026-08-12T12:48:38.000Z",
-      "source": "streetinsider.com",
+      "source": "StreetInsider",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1126,7 +1221,7 @@
     {
       "id": "8ad0f1a89a90",
       "time": "2026-08-12T12:37:39.000Z",
-      "source": "TipRanks",
+      "source": "tipranks.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1142,7 +1237,7 @@
     {
       "id": "dabc395ee417",
       "time": "2026-08-12T12:30:46.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1158,7 +1253,7 @@
     {
       "id": "b72103432668",
       "time": "2026-08-12T12:30:38.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1174,7 +1269,7 @@
     {
       "id": "d156ac58edd6",
       "time": "2026-08-12T12:30:38.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1190,7 +1285,7 @@
     {
       "id": "aa920ca90878",
       "time": "2026-08-12T12:30:34.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1206,7 +1301,7 @@
     {
       "id": "c1aee6e6b6db",
       "time": "2026-08-12T12:30:25.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1238,7 +1333,7 @@
     {
       "id": "ff8c13b37cca",
       "time": "2026-08-12T12:13:01.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1254,7 +1349,7 @@
     {
       "id": "e24664af523d",
       "time": "2026-08-12T12:06:03.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1286,7 +1381,7 @@
     {
       "id": "722f9282271a",
       "time": "2026-08-12T12:03:27.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1378,7 +1473,7 @@
     {
       "id": "d5c01a629297",
       "time": "2026-08-12T11:23:12.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1426,7 +1521,7 @@
     {
       "id": "2ee6aa8d760a",
       "time": "2026-08-12T11:10:31.000Z",
-      "source": "Traders Union",
+      "source": "tradersunion.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1438,98 +1533,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "57bd34e9ad2e",
-      "time": "2026-08-12T11:00:00.000Z",
-      "source": "Fierce Biotech",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium hits another ph. 3 homerun with anxiety ‘sea change’",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQWFfRkpoYnMtZUVzWG1WQzdfQzV3eTFKRnJUdkNnM2YyMVdXU05Md2VtSXVLbWNEZFFrMHhHa3ZJcFBRaWpLcGF0UkYxdU9uWVBIMU5CTWFoczdHWWJ0NXdHYVlNM3VZaGJmNmZnVXdJVTc2RkFpYXFEMEVyUjlJcXJrOWhUZTVfd1ZUeGdLc1VXOHFDUDlNUWRYVHZDZF9SdFJJaGRn?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "2f5c4c73a3ae",
-      "time": "2026-08-12T11:00:00.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics Announces Positive Topline Results from Phase 3 Voyage Study of DT120 ODT in Generalized Anxiety Disorder",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnBQeTVscjI3bG9DdFlvT2p0anRJVkl2Q1JZVzFGUTcxUHl0N2psdWhTdXk4a21kSE80c3lvM3A5Y0I1THNMVlFTZUpFclBKbXg1X2tpNG5JYV9lM1A2bW1EcW5oVGt1WjA4ajV3Z1Jodmc5QkplVzBsZHFCeXg0WmtHMzM1d29PSnN3ZEp1LVp6VlRXY2plUThkMkNNc2xscG50NjhWSDlOOTVPNkE?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "a44207acf7d0",
-      "time": "2026-08-12T11:00:00.000Z",
-      "source": "Endpoints News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium’s LSD drug clears bar in first of two Phase 3 anxiety disorder trials",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYXFfcS1zWmRRSDhDTlBfRlJ4czg0VGVSVmpmMzNabVMzbDgxR3o1NDA5Znh4V2JKUXRjOXFaa2VZSGY5X2VhUE5jOUwwU0dIWHVEMjJwRzVuSnMzUEFzU3lqZzUwaHdWNXlDbVNDbjlkSWp2XzctQlF2LUZaaHNBNVdIUnppc0QwVTRWWFpSYTg2N2JEVzR6V0RtcFFSR2EzSFhtWEFmdw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "24b8e3618b70",
-      "time": "2026-08-12T10:55:30.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Stock Sinks as New Schizophrenia Data Disappoint",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYnlzeVpPV2pkc3VtSzhmeFlVUmpnTFR5YmlPMU5qUC10VzNsbXBKcnpXZ3FvSVBCcUpheXhQNDNHT2pPc3l3OUZ2dE9xaVAtbkFSWTJGaGl2VDg3dThvVmoxQ05paEFWN3hfcU9MVGxiN3NXTUNwZFZOSlE5SUxuUVI5eXlqamdibGwzem1WLUFYWmVpbGZjZThBQXJReDA?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "8c0d814df2a1",
-      "time": "2026-08-12T10:49:46.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FY2026 EPS Estimates for GH Research Boosted by Analyst",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUTAwdGJ2WFpFVllXNWVjZFphNHltUE1DN3ZlbHA2cF9IdmRXekZXSVdna2w3YTNFcWs0MUdRNHMxaThkR3o1UWZLa1doWDJxQlVWNUpMYlIyN01rY016U050UElsdGxzc21sWG10dHh3cDItTVV2Zm9idE03alRFdFE0UEsxZk5MNlJCZUVFMjY5bkNWVXVqa0JiRXhtc2wwcUZNQ25rbmtqYkhhRkE?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "87e6f11d820b",
-      "time": "2026-08-12T10:00:40.000Z",
-      "source": "Space Daily",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Wellness retreats are sold as a break from your life. What a 2025 neuroimaging study found is that after seven days, the brain network responsible for that constant inner narrator went about as quiet as it typically does",
-      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPb1ctTjdEemUzZDdYdmRwNXAzQzBtWW5rT2gzbVU5emkza3FrYk0zd3NBbmtHUkRiTnFjUk5OSUJhd1ExazFSUURYdlVnR2FLVjR0aE0teDJVNjMyVmpGRjBDZmI0WEIwQ096OG5XQTk5Q3pZMGsxMGN0eEpneWF3RmxPcFJJSWMwYWdacU96cUZUdGNiY2VlQlRudm1yZmNFZ0FUT2ZmNHV2Tld3Z0ZnR3lMTHB6LXlrc3o1RV9qZlZySUg2MlJqSVB4NTJ0aHktdy02ajRkVU5IV1hPVlhhMFNKdmoxRzk3V0E1aUtHNmlIQWNBLVdOUTVZUmFBd2U1V1A0cUVZczlQR3NzM2FxMkUybTliZ1RoZzY0ZzltekhoSkhwN2VyY3g5NA?oc=5",
-      "tickers": []
     },
     {
       "id": "cbfdd1be8199",
