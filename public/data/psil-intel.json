@@ -1,31 +1,32 @@
 {
-  "updated": "2026-08-13T12:11:53.705Z",
+  "updated": "2026-08-13T13:47:21.818Z",
   "counts": {
-    "total": 96,
-    "crit": 21,
+    "total": 95,
+    "crit": 19,
     "warn": 2,
     "bySource": {
       "Fierce Biotech": 1,
-      "Investing.com Canada": 3,
+      "Fierce Pharma": 1,
+      "MarketBeat": 8,
       "marketscreener.com": 2,
+      "Investing.com": 7,
       "kalkine.ca": 2,
-      "NewsBytes": 1,
-      "STAT": 2,
-      "STAT News": 4,
+      "thepharmaletter.com": 1,
+      "STAT": 1,
+      "STAT News": 3,
       "Yahoo Finance": 4,
       "simplywall.st": 1,
       "Clinical Trials Arena": 1,
       "EMJ": 1,
-      "MarketBeat": 7,
       "Stocktwits": 1,
-      "TipRanks": 4,
+      "TipRanks": 3,
       "The Clinical Trial Vanguard": 1,
       "Clinical Leader": 2,
       "FirstWord Pharma": 2,
       "GuruFocus": 2,
+      "AOL.com": 1,
       "Reuters": 2,
       "Seeking Alpha": 2,
-      "Investing.com": 6,
       "Investor's Business Daily": 1,
       "Endpoints": 1,
       "Quiver Quantitative": 1,
@@ -36,7 +37,7 @@
       "The Globe and Mail": 1,
       "WebWire": 1,
       "Gizmodo": 1,
-      "Stock Titan": 8,
+      "stocktitan.net": 7,
       "Benzinga": 2,
       "TradingView": 6,
       "BioSpace": 2,
@@ -46,6 +47,7 @@
       "Kalkine Media": 3,
       "Moneyweb": 1,
       "PsyPost": 1,
+      "Investing.com Canada": 2,
       "HCPLive": 1,
       "streamlinefeed.co.ke": 1,
       "StreetInsider": 1,
@@ -55,14 +57,14 @@
       "Moomoo": 1
     },
     "byTier": {
-      "T3": 6,
+      "T3": 5,
       "T2": 90
     }
   },
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-13T12:11:52.695Z",
+      "time": "2026-08-13T13:47:20.116Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -75,17 +77,33 @@
       "tickers": []
     },
     {
-      "id": "66eb678ddee1",
-      "time": "2026-08-13T11:51:57.000Z",
-      "source": "Investing.com Canada",
+      "id": "f2930b39de23",
+      "time": "2026-08-13T13:40:54.000Z",
+      "source": "Fierce Pharma",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "trial",
+      "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Canaccord raises Definium Therapeutics price target on trial data By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcGNkYzN0N2MzcFgyRGdmVWlBMkVic0U2anhvaFVkZ2tSOHYwYWlfa056MTdOQ1JKSTRFMTRVNlFUUmYwSm03WjhMRWZ4TmhMR3QtM1EtYi1OVUdwM2tMRXFSOGhHNWdLd2VJWlJMMXBUcjE4Q1dqYVBwZFY5VlJzSzZmbTVXRmRrWjVnbV9PNFVjRlBFSDRmNFRxbVdXeENjN0hVTmM2MXFoQVdHSzdaZjUzX2lWdGJfakdtS3JHdUtOQWtZ?oc=5",
+      "title": "Neurocrine stands by blockbuster hopeful Vykat XR as Prader-Willi docs raise potential safety flags",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeWU4R1hoVEpaMXhxeGZUbEpQU3hxZlhpTUNEY3MxSTI5Y0NqVVl2TGJIdERLOVRCMmhyMjN1LTVraTFWdk1iaHYyUDJVaENYYVRfQzhnejlTVk1aSExaUUJWd1F5eXNjUEctVmpZOExhX01wanJxM1VQTmlFMWlvU2JBWGJXeXRlaG9zYVlKMEpXVjU4Z0NMY1h1WmRHbjBTemdNa2dqbTY2T1ZFdHNZQmVjUG9hUzUyeFlBeXgxc3VHUEliV1E?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "a3111b57c887",
+      "time": "2026-08-13T12:22:43.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Robert W. Baird Increases Definium Therapeutics (NASDAQ:DFTX) Price Target to $75.00",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdl9sU0p1OEVGakxYUDZlalBYc0ZrWmlKUmxCN3AtcW1rRW4tbV9oRnpCX05rVDJVLVJSVU9qdFFHbnNsMXlqSVFSd3JqbkltZkR0VkNUVEhCVnM1dHNjaWVLYjQwcjN6X250N0dUZ2w3MHk1NzEwcjJlNkg5MTJZMjBFRTYxSllqcjlYU25uUHpuZ0o5V3VudXFCdVM2UC1hRHNSdXhCOE5KNkRGOExmdU1GNlZUenpxaUMtT25tRVl3VjVzWXVvbVV6NE0?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -107,6 +125,22 @@
       ]
     },
     {
+      "id": "5b8eab4c1092",
+      "time": "2026-08-13T11:39:00.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Canaccord raises Definium Therapeutics price target on trial data",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSnBXbzhHNGRfVU1oUzNrUGh6bEI4NFcyLXJKbXp4T3lwb1BMR0RZOWZ2VTcxVnJZZmJrdTJ0ZEo5UDNtcS1GYnJkZERXcUJzSWlDejBpOGhSYnZneGxzVWNUOTd0ZmZYaldkR2ZZdVRWdmZKMXROaDBiVHR0SHBLYnVBblZrdVV2M1g0d3A1dkJHMVhtRGp4NDdrTFh0NTRzTGx3bFV0WkJJYzhxTXQxeTY0YjVLWDB6SFdYajFjWUxQbWp1elJ2VUdKU1VFdw?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "be55822a1db5",
       "time": "2026-08-13T11:21:00.000Z",
       "source": "kalkine.ca",
@@ -123,17 +157,17 @@
       ]
     },
     {
-      "id": "65daa998fb5e",
-      "time": "2026-08-13T11:01:16.000Z",
-      "source": "NewsBytes",
+      "id": "bc16840cc5b4",
+      "time": "2026-08-13T11:15:47.000Z",
+      "source": "thepharmaletter.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
+      "category": "trial",
+      "severity": "CRIT",
       "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics's DT120 LSD eased GAD after single 100-microgram dose",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVlBRbUZjR0JxNjZsSExjb29kOEJHWVYwbk1LSkZGaE0tSmwyLU1JcXZjYnNaX0ZEUDB1eTZQLVhiV3B0NG9rcGVGVjFaN29wSEZTSWhRVkpaUE0zcHFRWURJYXdsSDBLZUpPLXBqazZpRzdfU0Qwb0V0ajZKdzUyUWVBNXhPWUpJQlFqN3N5Y1IyVmp2bXhYRG1jMlFwbm5DQWlMTWZHSXk2U21mTVRWYk5iSHZ4cTVTWHpKNFRqYw?oc=5",
+      "impact": "HIGH",
+      "title": "Definium Phase III success with DT120 in anxiety",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSGxYQndVQmtLaXZLUzQydU0zVW1sNVJTYWhMdWZsbXNacnJRTUkxRDJqRmdoQi0zMkR6dDdnb3NtczJFbkx0YTB0X25CTHh0amloVmFobTd3VE9EMFhFMHJ6YmZoa0xzb3JOOGdvY0pXZGwwMWM1NmJYWEQtc3F2ajYyaXpmWU9xT0ZlZDNzN3c4TmxiMEtmVg?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -201,8 +235,8 @@
       ]
     },
     {
-      "id": "b2615fb356ee",
-      "time": "2026-08-13T09:38:09.000Z",
+      "id": "1894f0772802",
+      "time": "2026-08-13T09:38:07.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -211,7 +245,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Should VA-Backed PIVOT Trial on COMP360 in Veterans Require Action From COMPASS Pathways (CMPS) Investors?",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOdXlBRHdOdkJHVTQxOGJFclhDX3pLeHoxY1Z3c1daOXFDcFljNnRQS0pmMk5faU9FTmFkUHA3c3ZqQnZLYm9rTnNaMktNSXR1LU4tODVpcVVJUUtVSkQ4WWxhaTJ2cHB1ZmpZdlEya0Fvdi01MVltUmpUZEdBVzAtMmVZRlZrbVRadlRTSjRub0NZOHc5dm5nYjdWSFJWUjloS2c1MDRYQjItODFyeF9fdnJncU5oMmtKMXFuY1RVaWlfSzFnQjdxVnBSS1JkX1FxcUQ3QmN1emgxZk1SSGZOWXRyUE5KcUtY0gHoAUFVX3lxTE51eUFEd052QkdVNDE4YkVyWENfekt4ejFjVndzV1o5cUNwWWM2dFBLSmYyTl9pT0VOYWRQcDdzdmpCdktib2tOc1oyS01JdHUtTi04NWlxVUlRS1VKRDhZbGFpMnZwcHVmall2UTJrQW92LTUxWW1SalRkR0FXMC0yZVlGVmttVFp2VFNKNG5vQ1k4dzl2bmdiN1ZIUlZSOWhLZzUwNFhCMi04MXJ4X192cmdxTmgya0oxcW5jVFVpaV9LMWdCN3FWcFJLUmRfUXFxRDdCY3V6aDFmTVJIZk5ZdHJQTkpxS1g?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORktzclVxcnh3Tks3bG1uakpYZG5ydURrQjZlaklxZWRqU241by1iaVRhRlhJcndjSzQyZXQ1UXBiSlZ4R0JmY2o2QWpoV3ZQd1BBYk1acW4weXhsclVPdS1OTXlwVnJOMVp0ZnZ1VnF4VEdMR0piUHcxaS1KdU85MnJsMEtkLTZoNGdxUFFkaXc1LUdWaGozWmRqX2l2N09XWGNRcDE4REtnWjlTWGc2MEpGSXV2SEFkY21mOXdWWGpZQnZ6VzBTaEhvQmlsUkUtcFEzVVBueFdBUWNGY0ExcXd5RdIB6AFBVV95cUxOdXlBRHdOdkJHVTQxOGJFclhDX3pLeHoxY1Z3c1daOXFDcFljNnRQS0pmMk5faU9FTmFkUHA3c3ZqQnZLYm9rTnNaMktNSXR1LU4tODVpcVVJUUtVSkQ4WWxhaTJ2cHB1ZmpZdlEya0Fvdi01MVltUmpUZEdBVzAtMmVZRlZrbVRadlRTSjRub0NZOHc5dm5nYjdWSFJWUjloS2c1MDRYQjItODFyeF9fdnJncU5oMmtKMXFuY1RVaWlfSzFnQjdxVnBSS1JkX1FxcUQ3QmN1emgxZk1SSGZOWXRyUE5KcUtY?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -325,6 +359,22 @@
       ]
     },
     {
+      "id": "24ea7a5da52d",
+      "time": "2026-08-13T06:39:19.000Z",
+      "source": "The Clinical Trial Vanguard",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Definium’s DT120 Meets Primary Endpoint in Phase 3 Anxiety Trial",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2piai1yTVhNTVllRFd6VU5rb29UZ2ZwZnMzc0FLWmNBU05IbUN2M2d2Z1VPN1QyUWlJM3FsaU9kc2RmbHJZOWJhSGh4RlYyUDRPSFZlOE5RbFdGQy1XdDZMZW54R25FYVRSZU5icU9heGo0UUI5ZlF5T0otc2ZWNUVCV3Rrd3JVZkgyenYyYlhuYzByenNZci1Hd1VTREhrMFZhaUtiMThXUm8?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "c316d6d584c0",
       "time": "2026-08-13T06:34:45.000Z",
       "source": "MarketBeat",
@@ -338,22 +388,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUE1WSVB5Sm5LVXp3ZmNZa2FQVTRXNVFXTnFaaFh4ZmRlU0ZUNElQZXozSW1kalNvNzIxQWJfUmY2Yjd0VEZxQzl5a09VYVl4Q0dteVpjNDBuVV90a3NFeGpJRlN1czViSHBZcEFRbnU3cURrMS03OWF6aGY5WWpqc1lfd3cwUjRqcjJwbXZ3dVY1cmdGUGptQjg4WF9LQ05iNlN1S1kyWU80c2tZTmw2MGpDMFlCaFpQRXc0MXBYODh0NzhsRldvOFF5Q0FpUm9oMEpOS3FjMERtNjdU?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "24ea7a5da52d",
-      "time": "2026-08-13T06:34:37.000Z",
-      "source": "The Clinical Trial Vanguard",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium’s DT120 Meets Primary Endpoint in Phase 3 Anxiety Trial",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2piai1yTVhNTVllRFd6VU5rb29UZ2ZwZnMzc0FLWmNBU05IbUN2M2d2Z1VPN1QyUWlJM3FsaU9kc2RmbHJZOWJhSGh4RlYyUDRPSFZlOE5RbFdGQy1XdDZMZW54R25FYVRSZU5icU9heGo0UUI5ZlF5T0otc2ZWNUVCV3Rrd3JVZkgyenYyYlhuYzByenNZci1Hd1VTREhrMFZhaUtiMThXUm8?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
@@ -433,6 +467,20 @@
       "tickers": [
         "NBIX"
       ]
+    },
+    {
+      "id": "2dd1794796e1",
+      "time": "2026-08-12T21:49:29.000Z",
+      "source": "AOL.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psychedelic in magic mushrooms can ease depression",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVFpSSWQ5bjZZX0dJVHNGY01oQldDUzEzdG9qR0RzNlZhVHpzS0lsOUlyS0N0NUl3RlJKLWNEcHBpNmNxZEpLZ0UtVnBJZmVGUERvUWpiZHJ5cnJlRmtfQTNSLVI2U3FiQWlVeTd0TjZ2b2ZwS0lqeFdHd2Y0dzQwWDZ0R3hMblR4QTljUjVTX2o?oc=5",
+      "tickers": []
     },
     {
       "id": "ba785be32f87",
@@ -746,7 +794,7 @@
     {
       "id": "2b440de1aaa9",
       "time": "2026-08-12T16:10:22.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -849,22 +897,6 @@
       "impact": "LOW",
       "title": "DFTX: DT120 demonstrated rapid, robust, and durable efficacy in GAD with a strong safety profile",
       "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNaUcxTFFzOTJlNTZIcUxlRVM0bFdCVFBGXzFQNEF1WlRpTUlKdEpZanVwT1ZGejc2a0JVLUtEZW1Ic2lEb3VXakRzU2d1UzlJcXBIZ0J3WV9OV3RiRkRpa2NBSHJQWUwwYmRyUWRoTHRmNS1ybDI0dDlCVTBwWUJrTzZtTnVQMXpPaTlyc0ExOTZtT3FIUEhnYngyMDlUU2tXQ0x1ZGxjS2ZSNzU2ZWNTR1pjRkdOVmR4Y2xsTUxKXzBTbWJreTBSb29oR01WNVlsaEJvWTBLNXpzSkRFcFYwNmRXc3FVbkhQUVlUQ0p2NUI4a0RtNVA4Qlp3bWozTmt1Q0ladk5JRFFNNkt3?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "608def744d1c",
-      "time": "2026-08-12T15:33:45.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Ami Fadia Reiterates Buy on Definium (DFTX) as Strong Phase 3 VOYAGE Data Support Unchanged $50 Price Target",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSGNQckR5bWY3Zk8zMDgxTzV4NlZ5UmV0ZVBQeFRCTklUQUFHNjE1THNoTWlPTWdYdERmZm5ZSEppUGwxZlJnMjdJOWQzQlhFREUzbFprdWg3cTZMM08tYWhLNzNFdExkTHNBVkQzWTRTc3I0Qm1nQnN2dU1oc1hFaTRZNEJVMElTdDR3enowTHJnNFRDdEItTVY2QnBfRF9ZS1BBM29qN1BsLXlvb0xrTzVKX2pJdGt0b2pvSVZDTk12TzdBaTVsclZwTFRoMWFBNXd1V3ZpS3RHTmhVaEQ0X3BUbnZFVm9lWTRnWA?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -1223,7 +1255,7 @@
     {
       "id": "d75658956efd",
       "time": "2026-08-12T13:27:11.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1383,7 +1415,7 @@
     {
       "id": "dabc395ee417",
       "time": "2026-08-12T12:30:46.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1399,7 +1431,7 @@
     {
       "id": "b72103432668",
       "time": "2026-08-12T12:30:38.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1415,7 +1447,7 @@
     {
       "id": "d156ac58edd6",
       "time": "2026-08-12T12:30:38.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1431,7 +1463,7 @@
     {
       "id": "aa920ca90878",
       "time": "2026-08-12T12:30:34.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1447,7 +1479,7 @@
     {
       "id": "c1aee6e6b6db",
       "time": "2026-08-12T12:30:25.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1509,38 +1541,6 @@
       ]
     },
     {
-      "id": "e24664af523d",
-      "time": "2026-08-12T12:06:03.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics (Nasdaq: DFTX) reports positive DT120 GAD Phase 3 data",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMlh2Y1BtNTdMSkRnME9EclBoT2hhaU5RSFFTWkFDZEpGeFdlSWtUbHlnZ1JveXR4ZTVrUmpRX0J3RnRtbzJ4QVpUTnJ3b3RiM1BlRi1lTWhydDBMMy1uR0ktbmNoOEVYbk1zMjladnFDVlUzYmJUWUMybHRLNk5taU1vazNHUWpyazdMWkx5Y0d6VFVXb0c1VUtpakFBSWpXRlhZOWs2ZTJBTnp4MEhEZER3WVo?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "c912c4de639f",
-      "time": "2026-08-12T12:05:31.000Z",
-      "source": "STAT",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics says its LSD therapy eased anxiety in late-stage trial",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9pNzJzWng5R25lczJjN0VNXzBySHhzUlNnRkxUNlNhcE9oMVBZUFNGeHhDb3d6Z3VXTmp3elFWZExmdGVleGh6S0VHald6T0xqV3I2bWc4VUVYSm1kRG5yM0NOMlA4X1F4WjhqcC1OVEE3eWplV1Z4d1hVOGtDQQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "827b579b8bb2",
       "time": "2026-08-12T12:01:16.000Z",
       "source": "STAT News",
@@ -1553,22 +1553,6 @@
       "title": "STAT+: Definium Therapeutics says its LSD therapy eased anxiety in late-stage trial",
       "link": "https://www.statnews.com/2026/08/12/definium-lsd-treatment-anxiety-study/?utm_campaign=rss",
       "tickers": []
-    },
-    {
-      "id": "cbfdd1be8199",
-      "time": "2026-08-12T08:30:00.000Z",
-      "source": "STAT News",
-      "sourceKind": "rss",
-      "sourceTier": 3,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "STAT+: Neurocrine Biosciences rare disease drug possibly tied to safety issues, experts say",
-      "link": "https://www.statnews.com/2026/08/12/neurocrine-biosciences-vykat-prader-willi/?utm_campaign=rss",
-      "tickers": [
-        "DRUG"
-      ]
     }
   ]
 }
