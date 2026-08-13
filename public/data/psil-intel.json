@@ -1,26 +1,27 @@
 {
-  "updated": "2026-08-13T13:47:21.818Z",
+  "updated": "2026-08-13T14:47:13.077Z",
   "counts": {
     "total": 95,
-    "crit": 19,
+    "crit": 20,
     "warn": 2,
     "bySource": {
       "Fierce Biotech": 1,
+      "STAT News": 3,
+      "nytimes.com": 1,
+      "MarketBeat": 9,
       "Fierce Pharma": 1,
-      "MarketBeat": 8,
+      "EMJ": 1,
+      "The Pharma Letter": 1,
       "marketscreener.com": 2,
       "Investing.com": 7,
       "kalkine.ca": 2,
-      "thepharmaletter.com": 1,
-      "STAT": 1,
-      "STAT News": 3,
-      "Yahoo Finance": 4,
-      "simplywall.st": 1,
       "Clinical Trials Arena": 1,
-      "EMJ": 1,
+      "STAT": 1,
+      "Yahoo Finance": 3,
+      "simplywall.st": 1,
       "Stocktwits": 1,
       "TipRanks": 3,
-      "The Clinical Trial Vanguard": 1,
+      "clinicaltrialvanguard.com": 1,
       "Clinical Leader": 2,
       "FirstWord Pharma": 2,
       "GuruFocus": 2,
@@ -29,6 +30,7 @@
       "Seeking Alpha": 2,
       "Investor's Business Daily": 1,
       "Endpoints": 1,
+      "MedPage Today": 1,
       "Quiver Quantitative": 1,
       "YouTube": 1,
       "Psychedelic Alpha": 2,
@@ -37,9 +39,9 @@
       "The Globe and Mail": 1,
       "WebWire": 1,
       "Gizmodo": 1,
-      "stocktitan.net": 7,
+      "Stock Titan": 7,
       "Benzinga": 2,
-      "TradingView": 6,
+      "TradingView": 5,
       "BioSpace": 2,
       "StockInvest.us": 1,
       "AD HOC NEWS": 1,
@@ -49,7 +51,6 @@
       "PsyPost": 1,
       "Investing.com Canada": 2,
       "HCPLive": 1,
-      "streamlinefeed.co.ke": 1,
       "StreetInsider": 1,
       "Pluang": 1,
       "pharmaphorum": 1,
@@ -64,7 +65,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-13T13:47:20.116Z",
+      "time": "2026-08-13T14:47:12.022Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -75,6 +76,52 @@
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
       "tickers": []
+    },
+    {
+      "id": "630f3b6bc3ca",
+      "time": "2026-08-13T14:46:37.000Z",
+      "source": "STAT News",
+      "sourceKind": "rss",
+      "sourceTier": 3,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "STAT+: Eli Lilly targets booming black market for retatrutide",
+      "link": "https://www.statnews.com/2026/08/13/biotech-news-eli-lilly-targets-booming-retatrutide-black-market/?utm_campaign=rss",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "da583d9e45b6",
+      "time": "2026-08-13T14:00:38.000Z",
+      "source": "nytimes.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Video: Opinion | Bryan Johnson’s Psychedelic Experience",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVkJ1UmRSZ2hoVGxxaUJ6aUhDT1ZQWVFiTl9pTEd0d1piclJSX2FjVUFWdGVrNVQxaDgzQUJCbUIzUGtCRmphWnFkaDFlbWxrbEpDbzM3bVRXYXRjN0JzZlpkNFhpWUxDVWZWNWhIQ1lkbUwtOUNHU0R1Sm5TQXphZGFidGdjcTgxbVRYaGJZRVRwQ0h0Y3ZnTFlFSEU?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "2ab76013d8dc",
+      "time": "2026-08-13T13:55:34.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (NASDAQ:DFTX) Price Target Raised to $72.00 at Wells Fargo & Company",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUVg5VUdWdFQ5TEg4QXFEVnFPUE96YlV4TElUc3lQdEF2MnBLM3B2TWtJQUtHM21qMGFudVZjdEI2VlFHQ25TcW5yWXNvVmRhZVd5clgyRTFPa3hRWGEtU19NX3ViUXNGVFhpdUhqYjdMMjE1c2pJN2hWNVY3bGdiVkY1bXNmQnN1TVVTY0poZ2NjRUJYR0o4eDNBNzlzbmU0ZTVHczM2UFYtNjA5T1BtWGtSQnJhczViZmR5Y3dNdVZMd2s4MzZSTXpRN3dTMUxESTRV?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "f2930b39de23",
@@ -90,6 +137,38 @@
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeWU4R1hoVEpaMXhxeGZUbEpQU3hxZlhpTUNEY3MxSTI5Y0NqVVl2TGJIdERLOVRCMmhyMjN1LTVraTFWdk1iaHYyUDJVaENYYVRfQzhnejlTVk1aSExaUUJWd1F5eXNjUEctVmpZOExhX01wanJxM1VQTmlFMWlvU2JBWGJXeXRlaG9zYVlKMEpXVjU4Z0NMY1h1WmRHbjBTemdNa2dqbTY2T1ZFdHNZQmVjUG9hUzUyeFlBeXgxc3VHUEliV1E?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "0eb7f6b1886c",
+      "time": "2026-08-13T13:33:51.000Z",
+      "source": "EMJ",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "DT120 shows positive phase 3 results in anxiety",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTRtcGpOMVdZSGZYQ0Y5d2ZoalpZTFJEQnZyLXJYam1KLW92VU1DdUFoSl84dXJOQTljRjhPM1ZEd1NiNUF4TG1GbDBpWWU5Z2FmLU50djBWd3FETC03RWFfWHBMdHpJNkZpTnN3WFZhUmY0TVJGVFhkR0JMMGJlVVpTVy1qOFc0bDNmeV9SQWhPdFk?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "bc16840cc5b4",
+      "time": "2026-08-13T13:18:45.000Z",
+      "source": "The Pharma Letter",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Definium Phase III success with DT120 in anxiety",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSGxYQndVQmtLaXZLUzQydU0zVW1sNVJTYWhMdWZsbXNacnJRTUkxRDJqRmdoQi0zMkR6dDdnb3NtczJFbkx0YTB0X25CTHh0amloVmFobTd3VE9EMFhFMHJ6YmZoa0xzb3JOOGdvY0pXZGwwMWM1NmJYWEQtc3F2ajYyaXpmWU9xT0ZlZDNzN3c4TmxiMEtmVg?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -157,22 +236,6 @@
       ]
     },
     {
-      "id": "bc16840cc5b4",
-      "time": "2026-08-13T11:15:47.000Z",
-      "source": "thepharmaletter.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium Phase III success with DT120 in anxiety",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSGxYQndVQmtLaXZLUzQydU0zVW1sNVJTYWhMdWZsbXNacnJRTUkxRDJqRmdoQi0zMkR6dDdnb3NtczJFbkx0YTB0X25CTHh0amloVmFobTd3VE9EMFhFMHJ6YmZoa0xzb3JOOGdvY0pXZGwwMWM1NmJYWEQtc3F2ajYyaXpmWU9xT0ZlZDNzN3c4TmxiMEtmVg?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "55edbf5edf01",
       "time": "2026-08-13T10:45:20.000Z",
       "source": "marketscreener.com",
@@ -187,6 +250,20 @@
       "tickers": [
         "DRUG"
       ]
+    },
+    {
+      "id": "e064061b0f5b",
+      "time": "2026-08-13T10:38:49.000Z",
+      "source": "Clinical Trials Arena",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Definium’s psychedelic prospects brighten further on Phase III success",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVNBOWNxOWs2OFkyNnhlYWZzdF9sZUdSTWJ5NnY5T3VFTldfNVhHOHNyR2dSeFJvWWY2OXRjRmhJakkwbG9CZXZ6SjlpUDZLYVpqc25mRnB6RHd2R2VkLWRpdjdhRjFvdEZwaTI4cUZtZllqbUZ2dlhVT0hKRTAzNC1idjNiWjBQZ3lBeGdOUkZMZWdq?oc=5",
+      "tickers": []
     },
     {
       "id": "2f72256cb651",
@@ -248,36 +325,6 @@
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORktzclVxcnh3Tks3bG1uakpYZG5ydURrQjZlaklxZWRqU241by1iaVRhRlhJcndjSzQyZXQ1UXBiSlZ4R0JmY2o2QWpoV3ZQd1BBYk1acW4weXhsclVPdS1OTXlwVnJOMVp0ZnZ1VnF4VEdMR0piUHcxaS1KdU85MnJsMEtkLTZoNGdxUFFkaXc1LUdWaGozWmRqX2l2N09XWGNRcDE4REtnWjlTWGc2MEpGSXV2SEFkY21mOXdWWGpZQnZ6VzBTaEhvQmlsUkUtcFEzVVBueFdBUWNGY0ExcXd5RdIB6AFBVV95cUxOdXlBRHdOdkJHVTQxOGJFclhDX3pLeHoxY1Z3c1daOXFDcFljNnRQS0pmMk5faU9FTmFkUHA3c3ZqQnZLYm9rTnNaMktNSXR1LU4tODVpcVVJUUtVSkQ4WWxhaTJ2cHB1ZmpZdlEya0Fvdi01MVltUmpUZEdBVzAtMmVZRlZrbVRadlRTSjRub0NZOHc5dm5nYjdWSFJWUjloS2c1MDRYQjItODFyeF9fdnJncU5oMmtKMXFuY1RVaWlfSzFnQjdxVnBSS1JkX1FxcUQ3QmN1emgxZk1SSGZOWXRyUE5KcUtY?oc=5",
       "tickers": [
         "CMPS"
-      ]
-    },
-    {
-      "id": "e064061b0f5b",
-      "time": "2026-08-13T09:29:06.000Z",
-      "source": "Clinical Trials Arena",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium’s psychedelic prospects brighten further on Phase III success",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVNBOWNxOWs2OFkyNnhlYWZzdF9sZUdSTWJ5NnY5T3VFTldfNVhHOHNyR2dSeFJvWWY2OXRjRmhJakkwbG9CZXZ6SjlpUDZLYVpqc25mRnB6RHd2R2VkLWRpdjdhRjFvdEZwaTI4cUZtZllqbUZ2dlhVT0hKRTAzNC1idjNiWjBQZ3lBeGdOUkZMZWdq?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "0eb7f6b1886c",
-      "time": "2026-08-13T09:14:40.000Z",
-      "source": "EMJ",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "DT120 shows positive phase 3 results in anxiety",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTRtcGpOMVdZSGZYQ0Y5d2ZoalpZTFJEQnZyLXJYam1KLW92VU1DdUFoSl84dXJOQTljRjhPM1ZEd1NiNUF4TG1GbDBpWWU5Z2FmLU50djBWd3FETC03RWFfWHBMdHpJNkZpTnN3WFZhUmY0TVJGVFhkR0JMMGJlVVpTVy1qOFc0bDNmeV9SQWhPdFk?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
@@ -361,7 +408,7 @@
     {
       "id": "24ea7a5da52d",
       "time": "2026-08-13T06:39:19.000Z",
-      "source": "The Clinical Trial Vanguard",
+      "source": "clinicaltrialvanguard.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -435,22 +482,6 @@
       "title": "Spotlight On: Three questions facing Definium's LSD-based psychedelic",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aejFGX0IyZHZreFJXc1hUN0lncEVLSW03d21CRktoWDFrR3VJWmhjc1lyWVdGMllwR1IyaVZOZjB0SUQzVHctTERiMmRFQVVtdUlj?oc=5",
       "tickers": []
-    },
-    {
-      "id": "613b81fd2a69",
-      "time": "2026-08-13T00:27:40.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences, Inc. (NBIX) Stock Forecasts",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOajBnUFQ5VmZHQXRZbDI0OUtBaXY4d1RvSGRQZ0xQNHNmQnA4RER2ZlpZVFhrWjNzb1F0WllXNGd0bmNQV0Q0dVZQaW1BWi1mUUpyQmlidGJLWmVWMmFHZEt6RllKYVd1QVNiMnotZzJzZHZYaHJlblE1U3RjOHI0NzZnczdsWDEyOVRZSkdzaw?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
     },
     {
       "id": "116a75e612a9",
@@ -592,6 +623,22 @@
       "title": "Four questions on new safety warnings for Neurocrine’s Vykat XR",
       "link": "https://endpoints.news/four-questions-on-new-safety-warnings-for-neurocrines-vykat-xr/",
       "tickers": []
+    },
+    {
+      "id": "3a96ba23b370",
+      "time": "2026-08-12T18:44:32.000Z",
+      "source": "MedPage Today",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Psych Meds Scrutinized in Murder Trial; LSD's Phase III Win; Bipolar Mortality Study",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QVEtkMDNSNUN5NUExM0MydDRTaTdUVlF2ZzlSUlJ1SHRpWlhzWERiTjhwR2djSEhaZnVMLWp6TXVocU9TZDNacDZTWUM4N1pIN3hYdFp6YmtCX0h0aUtlV3pHcHgxQ1RWZmFiTWZvSUx4Zw?oc=5",
+      "tickers": [
+        "VTGN"
+      ]
     },
     {
       "id": "003c1215db49",
@@ -794,7 +841,7 @@
     {
       "id": "2b440de1aaa9",
       "time": "2026-08-12T16:10:22.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1255,7 +1302,7 @@
     {
       "id": "d75658956efd",
       "time": "2026-08-12T13:27:11.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1298,22 +1345,6 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaDE2ZWFka01jRFFiOGpqaURQdTdwNlhBQ3FLMkhZZlBPWVYtM0xlblB1dUJEZzZnRXlXZWROWXFJcUR5NEZzSGtMNGRRa2RiNlhFUTl1SDVtMXF4Z0NhZDJpVHZPNTJubmN4b0hfRXJ5Q1lYT0I3VnhaM3ltbS10N0xtZjVlTzZZVWlqRFhFdm1GWnNwTTAzQTA4ZHJzbWFoSjNqWkVRT2psa3ZzRWhZelE0UURoUktCV2ttUERB?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "074e273c4346",
-      "time": "2026-08-12T12:54:51.000Z",
-      "source": "streamlinefeed.co.ke",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics LSD Trial Signals Psychedelic Mental Health Shift",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYXoydEdSY3VTT0FWenV3MEFlSDFxb2FSN1gteHltX0pmZjRsN3ZTRDM1c3VzRE5rOUdGaS1aMHZUQkQyRjJCVE04UmNfRTZ2WjhjWFJUSTJvb2QwVC04S0pNREo0d0puNGpHTWo5ektTVVNfdWNETzNYUUtNR1BMbTMwQm42RTlZRjNjN2lIc2xNcXFaM2hkSGJQdzVvLTdVY1BFdnU4czk?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
@@ -1415,7 +1446,7 @@
     {
       "id": "dabc395ee417",
       "time": "2026-08-12T12:30:46.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1431,7 +1462,7 @@
     {
       "id": "b72103432668",
       "time": "2026-08-12T12:30:38.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1447,7 +1478,7 @@
     {
       "id": "d156ac58edd6",
       "time": "2026-08-12T12:30:38.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1463,7 +1494,7 @@
     {
       "id": "aa920ca90878",
       "time": "2026-08-12T12:30:34.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1479,7 +1510,7 @@
     {
       "id": "c1aee6e6b6db",
       "time": "2026-08-12T12:30:25.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1523,36 +1554,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "ff8c13b37cca",
-      "time": "2026-08-12T12:13:01.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics posts positive Phase 3 Voyage topline: DT120 ODT cuts HAM-A by 5.4 pts vs placebo",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQVC1yNmVCT1lZM1diV2RMck02QkVLMVI3dFJsU0tUa2hUaFNUMnNJWXUtNTNJSV9QTHVBcGFTVXI5OXBvUUhKODhpY2psWGxNcUhHcUdobTVVYWVzUnFiUDdIbmoyRUYzMFlnQjVJV0FraGJqRHBra2VKbnA4a3U1d1JaV25adjV4WHZYMGo4WUxaeFlMSXh0bmxCb0JTeUpnV21ab0p4a3pGUlZQeUQzMUFBbG1EZEM2Y3BGNzlDOU0tX25RVE5fSlhacEdVRXg3TFlYM1plM2RPMHhaalNvOGE4UlFYVHVLU1dyZE9RV0xFX3RfdnRN?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "827b579b8bb2",
-      "time": "2026-08-12T12:01:16.000Z",
-      "source": "STAT News",
-      "sourceKind": "rss",
-      "sourceTier": 3,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "STAT+: Definium Therapeutics says its LSD therapy eased anxiety in late-stage trial",
-      "link": "https://www.statnews.com/2026/08/12/definium-lsd-treatment-anxiety-study/?utm_campaign=rss",
-      "tickers": []
     }
   ]
 }
