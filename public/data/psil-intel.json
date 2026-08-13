@@ -1,15 +1,16 @@
 {
-  "updated": "2026-08-13T18:41:45.769Z",
+  "updated": "2026-08-13T19:47:19.967Z",
   "counts": {
     "total": 95,
-    "crit": 21,
+    "crit": 20,
     "warn": 2,
     "bySource": {
       "Fierce Biotech": 1,
-      "marketbeat.com": 12,
-      "Psychedelic Alpha": 1,
-      "Traders Union": 1,
-      "finance.yahoo.com": 5,
+      "The Maine Wire": 1,
+      "ABC News & Headlines – Australian Broadcasting Corporation": 1,
+      "MarketBeat": 12,
+      "Psychedelic Alpha": 3,
+      "Yahoo Finance": 5,
       "theprogressiveaspect.net": 1,
       "The Clinical Trial Vanguard": 1,
       "JD Supra": 1,
@@ -17,32 +18,32 @@
       "STAT": 2,
       "STAT News": 3,
       "ClayCoNews": 1,
-      "nytimes.com": 1,
+      "The New York Times": 1,
       "Fierce Pharma": 1,
       "EMJ": 1,
       "The Pharma Letter": 1,
       "marketscreener.com": 2,
-      "Investing.com": 7,
+      "Investing.com": 5,
       "Clinical Trials Arena": 1,
       "kalkine.ca": 2,
       "Stocktwits": 1,
       "TipRanks": 2,
-      "Clinical Leader": 2,
+      "clinicalleader.com": 2,
       "FirstWord Pharma": 2,
       "GuruFocus": 2,
-      "aol.com": 1,
+      "AOL.com": 1,
       "Reuters": 2,
       "Seeking Alpha": 2,
       "Investor's Business Daily": 1,
+      "Investing.com Australia": 1,
       "Endpoints": 1,
       "MedPage Today": 1,
       "Quiver Quantitative": 1,
       "YouTube": 1,
-      "psychedelicalpha.com": 2,
       "Psychiatric Times": 2,
       "Yahoo": 1,
       "The Globe and Mail": 1,
-      "webwire.com": 1,
+      "WebWire": 1,
       "Gizmodo": 1,
       "Stock Titan": 2,
       "Benzinga": 2,
@@ -65,7 +66,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-13T18:41:41.642Z",
+      "time": "2026-08-13T19:47:19.073Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -78,9 +79,37 @@
       "tickers": []
     },
     {
+      "id": "0b15c4bed4cf",
+      "time": "2026-08-13T19:33:00.000Z",
+      "source": "The Maine Wire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Norridgewock Man Arrested After Being Found with Massive Bag of Psychedelic Mushrooms",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQjcwOXNNamxNeUE0czN2N2hrajhQTlZ3Rng1Sk5CUWNwbnRWSnVhdWNBMHJkaXFoQnNfWmE1S2k0blE1Q2FIM1lPWHJVaks1MFBSNXVRclVyOGRUR1dfUU5KR3hBM3pKZlJvd0ZvbU5MUl9nUkJQbnllYjNwak9OZ3Njdy1zdjNEUElyelJHX29aekxJSVhuZ1FVbDNBRVdsSTNibDlJRXlZUnJTSW5pTW9lZ2g2Z2FoVXF6RGoyNDE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "6c510be889ee",
+      "time": "2026-08-13T18:55:03.000Z",
+      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "AI used by doctor falsely claims patient takes psychedelic mushrooms",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQejRqai1xeDhIdEhkU2RwRU1oSWgwZXBMTkxxdTFqdHpUUTlOOEdJN0lxTXgzUVhvT0NJczFSbW9PeW56a0VpOEYtRHNxcWp1a3VmSmFpeF9nbDI1LVJZTlpOU2RzcFRiVTl4SmpyMFcwcTV1ejZHV0ZjSTFnMmFuNFFBSnRySlg4bDdhYVFiaGg4anNYRE5LZGhjb25oX2c?oc=5",
+      "tickers": []
+    },
+    {
       "id": "9163bcac1ea6",
       "time": "2026-08-13T18:27:52.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -108,25 +137,9 @@
       "tickers": []
     },
     {
-      "id": "e6607dce28a7",
-      "time": "2026-08-13T17:15:38.000Z",
-      "source": "Traders Union",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics advances pivotal Phase 3 Voyage trial in generalized anxiety disorder",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTHpXVF85VzRSZ25VSnhUajJHSEJSUkhPeVU2bmZENFhvYloza1R3TWRWWXZxc2stQk1Yb3IwNTNUY1VER1BjTENTM0lMUDh6R3BEVkt2LS1IQzQ3bjNKZ0oxOEF0UkxpYmlWQ2ZQMGdRUmpSNHpsMG4tUUtvbUtNQVdPVWt0R1U?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "da5cc6695871",
       "time": "2026-08-13T17:11:44.000Z",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -186,7 +199,7 @@
     {
       "id": "a8916b7e6007",
       "time": "2026-08-13T15:44:17.000Z",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -202,7 +215,7 @@
     {
       "id": "428d2c7b5113",
       "time": "2026-08-13T15:38:31.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -234,7 +247,7 @@
     {
       "id": "f51647faf3e8",
       "time": "2026-08-13T15:13:48.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -296,7 +309,7 @@
     {
       "id": "da583d9e45b6",
       "time": "2026-08-13T14:00:38.000Z",
-      "source": "nytimes.com",
+      "source": "The New York Times",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -310,7 +323,7 @@
     {
       "id": "2ab76013d8dc",
       "time": "2026-08-13T13:55:34.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -357,7 +370,7 @@
     },
     {
       "id": "bc16840cc5b4",
-      "time": "2026-08-13T13:18:45.000Z",
+      "time": "2026-08-13T13:19:12.000Z",
       "source": "The Pharma Letter",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -374,7 +387,7 @@
     {
       "id": "a3111b57c887",
       "time": "2026-08-13T12:22:43.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -498,7 +511,7 @@
     {
       "id": "cfe18dab48e9",
       "time": "2026-08-13T10:04:39.000Z",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -530,7 +543,7 @@
     {
       "id": "777139adbb2f",
       "time": "2026-08-13T08:57:47.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -592,7 +605,7 @@
     {
       "id": "632e8c950e1b",
       "time": "2026-08-13T07:30:45.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -608,7 +621,7 @@
     {
       "id": "c316d6d584c0",
       "time": "2026-08-13T06:34:45.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -624,7 +637,7 @@
     {
       "id": "21d6d8682868",
       "time": "2026-08-13T04:13:58.000Z",
-      "source": "Clinical Leader",
+      "source": "clinicalleader.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -640,7 +653,7 @@
     {
       "id": "9326bb51c1a0",
       "time": "2026-08-13T04:13:58.000Z",
-      "source": "Clinical Leader",
+      "source": "clinicalleader.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -686,7 +699,7 @@
     {
       "id": "2dd1794796e1",
       "time": "2026-08-12T21:49:29.000Z",
-      "source": "aol.com",
+      "source": "AOL.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -763,9 +776,25 @@
       ]
     },
     {
+      "id": "7d3662974019",
+      "time": "2026-08-12T19:44:01.000Z",
+      "source": "Investing.com Australia",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Why is Neurocrine Biosciences stock sliding today? By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOVY4SVhNV1U0dm5lUG1oc01ET0hxUGdTUVRqVFRsYk1zdjF4cVJWNWUtcjZFTEFyRmdjNGRoUENCdklYQmxIZ0FGX2tDaDlOZzI5SWZyUlhtb00zU3RORzJwZlBsaE1xZHdhQnJzdFRwRHBBNUZ4dDJNeXI2dF9uTHZWdjJQckM1dU9neHhGNEJnTGJWUWFma2IzdkpiX2RhSXdpQi1JMFNLeV9mbk80?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "04842ec75501",
       "time": "2026-08-12T19:35:57.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -781,7 +810,7 @@
     {
       "id": "8d2638d3edf3",
       "time": "2026-08-12T19:13:57.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -857,7 +886,7 @@
     {
       "id": "54289e7c1563",
       "time": "2026-08-12T18:20:50.000Z",
-      "source": "psychedelicalpha.com",
+      "source": "Psychedelic Alpha",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -917,7 +946,7 @@
     {
       "id": "5616d5a6a764",
       "time": "2026-08-12T17:06:43.000Z",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -949,7 +978,7 @@
     {
       "id": "8fb04805f762",
       "time": "2026-08-12T16:25:46.000Z",
-      "source": "psychedelicalpha.com",
+      "source": "Psychedelic Alpha",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -965,7 +994,7 @@
     {
       "id": "9e391743ca4a",
       "time": "2026-08-12T16:24:53.000Z",
-      "source": "webwire.com",
+      "source": "WebWire",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -993,9 +1022,9 @@
       ]
     },
     {
-      "id": "43e464453d6e",
+      "id": "2e43ae0fa749",
       "time": "2026-08-12T16:14:53.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1003,7 +1032,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "Compass Pathways Targets 2027 COMP360 Launch as FDA Filing Advances",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVEswUllVSnJ6NXlKNWx3aVNVWFNkNVlJcVI2aE5PdTJhZEV4N2ZyZjlpZWdTSDBwS29uX0JnQW44Smd4NlJYd3NzQ1JQZUhjMjlaaGdSVTN5X0VQcDRLVE5sNU1pM25GcVlyT2pxRjJaV2c5R2t0UE9rLVYyTnVoQksyem80UlhJY0NkNlIyLTNlSVk5c3JfWURqQTNZVm9BQ2lnMnZwZzZfWTRWbTc0cnRyc09YdTI3VDJRTjktMWs2OEtodG9zd0JBZDlybnA1RGpvamNkaVB2eXg0cEYxcnAtOXZWM1pENDVtTld3Qm1rOXZlRkRTTw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUG9KeUtGbGFpVXNLVFUyblpNNzNIMzJnaHFrYXEyVzI1OVVNUUMyWktGNE9EQzF3YmVublVRdkp4cEpNbk9TLUgxaC1FbjVHRVh1RGhZUE16ck1vVUxMcU53UGV5M3IwazFSWlF5OXVsQXk1aVByakNTWlBtem9tMi0tb01SYWxvTm9SaTZPVUlzdlpGMGJNbU1PMktWRHU1Z0JDd3hNbkJBS0tKV1paX2hidVpIMnpNS3BVa2dn?oc=5",
       "tickers": []
     },
     {
@@ -1041,7 +1070,7 @@
     {
       "id": "6782f970f3eb",
       "time": "2026-08-12T16:03:03.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1438,7 +1467,7 @@
     {
       "id": "7c8c9c7b5118",
       "time": "2026-08-12T13:38:02.000Z",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1513,38 +1542,6 @@
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVFdMazNyRUwzZTdCbVFOT25YQmN0Z1g2eE9kN3ZFNUp1Vl9OclhFRDRhdE9BeGFNamR6Q1ljZV9SZW9GdlFEZW1NVGUxa3Jya1g2UjVkNUs5eW1FdVI4LXZGdWZLYzZqZ0czSElsS3BpNC1jRm5laEZqQ2EwZmVPWHFHS2Y1dlFhc25nRG5rX1lvdzBSX2N0S0dUdWpTbldjU2tIcFRfanJLTW5OT0VtWEhDT2VMODZpeWtwdVItWFpTZEMxMXBtTGs2TXZfWjB5NldmX3lNTl8?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "2142d097b265",
-      "time": "2026-08-12T13:02:53.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences stock falls on Vykat safety concerns",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaDE2ZWFka01jRFFiOGpqaURQdTdwNlhBQ3FLMkhZZlBPWVYtM0xlblB1dUJEZzZnRXlXZWROWXFJcUR5NEZzSGtMNGRRa2RiNlhFUTl1SDVtMXF4Z0NhZDJpVHZPNTJubmN4b0hfRXJ5Q1lYT0I3VnhaM3ltbS10N0xtZjVlTzZZVWlqRFhFdm1GWnNwTTAzQTA4ZHJzbWFoSjNqWkVRT2psa3ZzRWhZelE0UURoUktCV2ttUERB?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "9b041c26c918",
-      "time": "2026-08-12T12:52:48.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine study shows Ingrezza improved tardive dyskinesia symptoms",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcldvR1p3Z0FidDRVeWw3RHlEWlRkTGExZEVOTTlmczFCSWFtQTh0ZnJtZHFwMWFyQmtOVkNER0ZoRUNuWnZGekJvZEt2WXZXd2loOEc1elgxejljMmxlb2ExMlhGM1RNQXZWWnFMOU9RbHNXRndxck1TSG0tU3JKVGs5ZFFDZUxXU3JldHlKU0xWUF9WRkF3YVJxbFBWeFkxTEtxcFkyS3oyakFWNERIbDR2SVA2Q0NYajZVRUsyWjhLbHM?oc=5",
-      "tickers": [
-        "NBIX"
       ]
     }
   ]
