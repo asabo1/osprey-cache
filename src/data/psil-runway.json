@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14T19:56:05.765Z",
+ "updated": "2026-08-14T20:44:17.492Z",
  "source": "SEC XBRL: (cash + ST investments at latest balance date) / (trailing ANNUAL operating burn / 4); burn lags up to ~15mo by construction",
  "covered": [
   "ALKS",
@@ -73,15 +73,15 @@
    "verifyLow": false
   },
   "NRXP": {
-   "runwayQ": 1.9,
+   "runwayQ": 7.6,
    "selfFunding": false,
-   "cashM": 6.7,
+   "cashM": 26.7,
    "burnQM": 3.5,
-   "cashAsOf": "2026-03-31",
+   "cashAsOf": "2026-06-30",
    "burnPeriodEnd": "2025-12-31",
-   "ageDays": 137,
+   "ageDays": 46,
    "stale": false,
-   "verifyLow": true
+   "verifyLow": false
   },
   "RLMD": {
    "runwayQ": 19,
