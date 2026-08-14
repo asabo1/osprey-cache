@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-14T10:43:31.044Z",
+  "updated": "2026-08-14T11:33:09.130Z",
   "counts": {
     "total": 95,
-    "crit": 15,
+    "crit": 17,
     "warn": 3,
     "bySource": {
       "Fierce Biotech": 1,
+      "Helus Pharma": 1,
+      "Stock Titan": 4,
+      "MarketBeat": 15,
       "Axios": 1,
       "kalkine.ca": 3,
-      "MarketBeat": 14,
       "Yahoo Finance": 5,
       "geneonline.com": 1,
       "BioSpace": 1,
@@ -18,12 +20,11 @@
       "PsyPost": 1,
       "NEWStalk 870": 1,
       "The Center Square": 1,
-      "Stock Titan": 4,
       "Quiver Quantitative": 2,
       "Stocktwits": 3,
-      "nautil.us": 1,
+      "Nautilus | Science": 1,
       "LiveNOW from FOX": 1,
-      "The Maine Wire": 1,
+      "themainewire.com": 1,
       "ABC News & Headlines – Australian Broadcasting Corporation": 1,
       "Psychedelic Alpha": 3,
       "TipRanks": 2,
@@ -44,10 +45,10 @@
       "marketscreener.com": 2,
       "Investing.com": 3,
       "Clinical Trials Arena": 1,
-      "newsbytesapp.com": 1,
+      "NewsBytes": 1,
       "TradingView": 1,
       "Clinical Leader": 2,
-      "Reuters": 2,
+      "Reuters": 1,
       "Seeking Alpha": 1,
       "Investor's Business Daily": 1,
       "Investing.com South Africa": 1,
@@ -58,8 +59,7 @@
       "Yahoo": 1,
       "The Globe and Mail": 1,
       "webwire.com": 1,
-      "Gizmodo": 1,
-      "Benzinga": 1
+      "Gizmodo": 1
     },
     "byTier": {
       "T3": 5,
@@ -69,7 +69,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-14T10:43:29.279Z",
+      "time": "2026-08-14T11:33:07.740Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -80,6 +80,54 @@
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
       "tickers": []
+    },
+    {
+      "id": "84e24b58e610",
+      "time": "2026-08-14T11:29:56.000Z",
+      "source": "Helus Pharma",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma Reports First Quarter Fiscal 2027 Financial Results and Recent Business Highlights - Fri, 08/14/2026 - 07:28",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTmt1YktrTkZRRy1iVHNBaUdPcXVJVFZ6Z2NzUzV5eUMtSmlmLVpueDE4RVFCUjRjckJmLXBjRUk5dm5KN1VXMDg2TUtXS1RzcUhhZG9KMlhIUGJIYXZUOVpGMmlmNkxZY3FmUVlDbGZSX0dVbTdVaXh3UTZaSHZ0VWNVTms1WWg5RmFaQ0hqS3E0QklZMlIxUVZNck92WXl1Q0VVdm9IakI2TG9XaU5HMVNxSjljMUJ6ZFRxbA?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "6d95ad1e28b8",
+      "time": "2026-08-14T11:28:00.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Helus Pharma finishes Phase 3 depression trial enrollment",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNFFYTTUxYWdxMHQwdGFPUDM2NXoyTmFsOHp0VFItamllUWc4VFhsOHFfRmVyTnRKTDJQMFZLMWV0WnNQQ3psV2NlRHJ2SGNHTXQzTXk0TUc4Vk80ek16VzZpeU1Yc1dhU0hpaHNiQW9NQUZaODI0SUMzang5dUZnZDFmNy1PS1d0bGdHMVJZR1g5S2pSa0F1V1JlRFVIUEF4aUQ1Rk5pZUtvMHRXVUxPLVRsWlZibU5RS3ZFRHM1SVk?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "f0647671b4e4",
+      "time": "2026-08-14T11:12:07.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Cybin Conference: Helus CEO Eyes Q4 Phase III Depression Data for HLP003",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLWJ2b3FtZ1ZHb3Z4ZTB6dUlVYl9zaFoxNEpjWlhKUEtIZzg5TEtKMWFRc1JTeW5hclBfTW9iUVpsTUdNSEtmTTI2WndXeGdVQXJlOGYta1ZDQ1Q0eU9YaW5zRTVmaHdiTXdkS052WmZfXzlKNGZ3TWxaUk9xcmlOMUNyc2hrdDg1Rk51WkVsb0tsNVFwZ2VJYldLREFnMDM5Rldqd29STlZDbEI3Z2dnTWprYlk3VGZuY2VoV20wLTNCY0E?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "f7e615d94fb8",
@@ -94,6 +142,22 @@
       "title": "Indiana's at the forefront of medical research into use of psychedelics",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOENkcVJXekpWYXVhYzBwQXlCVmdmSDk2OHl2MU1FcW8zdmdoUTBWaENMNldYckNnTFJ3aHNsRVBWbVo0NFgyWUJ1R1Z0Q0JOc3AwaVZUaUI3NXBLTW44TXJfUGtGVzJpTlo2QWhaR2RqSFU4N3BDTWp4bHhPelFaWFhRaklRbkJCV0lKdExDUEp5Mk1qZjhGN2JZZTlsTW8teURHdWx3SUkxREdCdW8tU0FteXZ3MzM5aFdrU0FMOVdNa3BmOXZmX0didw?oc=5",
       "tickers": []
+    },
+    {
+      "id": "84b8b8b2a8f1",
+      "time": "2026-08-14T09:43:17.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "GH Research PLC (NASDAQ:GHRS) Receives Average Rating of \"Moderate Buy\" from Analysts",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUjNia1puVEt6V2xNcTVJWXFaVGhNQlhSVW5LUlJrZEJhb2RIT29RQ1dLWWpjSTJCNzdwWWJucjVzWWlQU0F5TE03QW5vcGhnSUZ0YzcycHJtbkc4UXVlRERESU5WNkZ1NWZCTjNGbE5QczRUcldKQmdwbE5qRmN3RkkwdzBiVzdudG4zZXRoNEEySmlHUk1DUUdzQS16R0xxc2NnaThaYVlROG5yV2NVZXVyNVp5b1ItLVdlNVpQWmxUWWdpR3V6bnVVaXRydDg?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
     },
     {
       "id": "9a577d8ba520",
@@ -377,7 +441,7 @@
     {
       "id": "33733c1091d9",
       "time": "2026-08-13T20:00:00.000Z",
-      "source": "nautil.us",
+      "source": "Nautilus | Science",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -405,7 +469,7 @@
     {
       "id": "0b15c4bed4cf",
       "time": "2026-08-13T19:33:00.000Z",
-      "source": "The Maine Wire",
+      "source": "themainewire.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -901,7 +965,7 @@
     {
       "id": "65daa998fb5e",
       "time": "2026-08-13T11:01:16.000Z",
-      "source": "newsbytesapp.com",
+      "source": "NewsBytes",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1469,70 +1533,6 @@
       "impact": "LOW",
       "title": "LSD Just Passed Its Biggest Trial Yet for Anxiety",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeXhDa0JnLTI3bnhkSnd1M213a1FETHNzTkVnUHA3UUdkMjRuejNyZ05rcmN2SkFfeXFDQ3VpaVZ4U3hYaUJ2a2pwRFd3WEpUcjdUZl81eWN6dERjTlZ6aTdBSGswTjZzRDFPcXpFZ1VWX1puN3RsUGV6YmItV0l4NDRDNXV5X28?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "2b440de1aaa9",
-      "time": "2026-08-12T16:10:22.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Adage Capital reports 5.29% Cybin Inc. (HELP) ownership, 3.29M shares",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWFFGaXQ1TjducThXZE5pQ0Rfd09adkhzWnlVTlVKU3FlbjdqcWg1djhtdDZQb1NhMjAxYTUxaEhGVTVzYWJLMkpsaXpVdGpSRjE3Tjhuel9hS0hlaHdWRXNaSjR2cTMzWkJ4eWVwZXZaT0V4YTg1ZXZxcTJ4WWVySGxhQ1ZCWmU5X1pLazJLcUJaSS1qWTRYWS1CQ2FEU2YxRWdvNjZ1S0VRc2k0Y3dJcjR6MVpLRXM?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "6782f970f3eb",
-      "time": "2026-08-12T16:03:03.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics (NASDAQ:DFTX) Shares Gap Up - What's Next?",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU0tjYVkyMnJlR19acmptVDNsOERjNEZrOHlNcjhCRGNEakV5VDlfTHAtZVZFSUhQdXkyM3lsckRFbWxlYjk4N0x2M05xSHJjOUlPdk9WT0VkOFNxYlUyc1hUb1JXeXlpR0VVS2FKTXpKWFpqRzNIZDNmVVM5UzVFazUyRXFCb1Z3OXZ3RFBVb3o0YUhjamt2YUlqeHZoZER4ejcwNkJwTXJKRXFob3pFVw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "cfd5f3adb9ab",
-      "time": "2026-08-12T15:57:15.000Z",
-      "source": "Benzinga",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "What's Going On With Neurocrine Biosciences Stock On Wednesday?",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTVpuaEJIa0xXbnRJNmw4WVA4THhWTGl3TExIakhLNjR1MmM3VmFhLUxHMGVDVVBzYVZ4dU1lSWlGNTZUVzBWYkpjRmpVdmJ3aTRrSHFjUXJsWGJYS1k1OUVpRUF5UkNhSTdIN0hFRWFsYktPdTZ2V2lSaThlZEU3R3JRTWgtVWJTUlo5a2lNTElDZkplUHhPcEVGemtqNlQyVFVjYXJGXzU0YmlMUUFwT0MxZk1SWjh0?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "391d354654f4",
-      "time": "2026-08-12T15:54:06.000Z",
-      "source": "Reuters",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium says LSD-based pill reduces anxiety in late-stage study",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaVJtXzlnUVdYbzdUUzhnSmFFSFB6dm9sNS0wdi1WMjZWc1JvZVlXdVFHcmNZUGROUi1ZcDAxYWl4TlQ5dWJGUGZycHFnLWRvS0xOcTlNWW5VYlU3Y09DT3g2ZDNqNDJrS0p1LTBrSTRzR1VXMkdROTRZeWVHQ2F5QWJyQ0tvS0xacmVSMENrdDVnWUZwa3JDcmNUb0xaM0gzbU1CaW9pUEpRR2N1bUszUnZGVFlPcHNiM3VPVk9mTjBjdEFKc2gyWVFVd2xydw?oc=5",
       "tickers": [
         "DRUG"
       ]
