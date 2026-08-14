@@ -1,18 +1,20 @@
 {
-  "updated": "2026-08-14T22:04:25.852Z",
+  "updated": "2026-08-14T22:38:21.202Z",
   "counts": {
     "total": 95,
-    "crit": 16,
-    "warn": 12,
+    "crit": 15,
+    "warn": 14,
     "bySource": {
       "Fierce Biotech": 1,
+      "TipRanks": 3,
       "AspenTimes.com": 1,
-      "Stock Titan": 14,
+      "Stock Titan": 15,
+      "MarketBeat": 9,
       "Elkhorn Media Group": 1,
       "Alexandria Echo Press": 1,
       "Behavioral Health Business": 1,
       "AOL.com": 1,
-      "MarketBeat": 10,
+      "AlphaStreet": 1,
       "Investing.com": 1,
       "Yahoo": 1,
       "Pluang": 2,
@@ -27,24 +29,24 @@
       "Investing.com UK": 1,
       "Quiver Quantitative": 3,
       "The Manila Times": 1,
-      "TipRanks": 2,
       "Yahoo! Finance Canada": 1,
-      "marketscreener.com": 3,
+      "marketscreener.com": 2,
       "Audacy": 1,
       "Axios": 1,
       "kalkine.ca": 1,
+      "Wicked Local": 1,
       "Yahoo Finance": 4,
       "geneonline.com": 1,
-      "BioSpace": 1,
+      "biospace.com": 1,
       "New Noise Magazine": 1,
       "FirstWord PHARMA": 2,
       "NEWStalk 870": 1,
       "The Center Square": 1,
       "Nautilus | Science": 1,
-      "FOX 5 DC": 1,
+      "FOX 35 Orlando": 1,
       "The Maine Wire": 1,
       "ABC News & Headlines – Australian Broadcasting Corporation": 1,
-      "psychedelicalpha.com": 1,
+      "Psychedelic Alpha": 1,
       "Traders Union": 1,
       "theprogressiveaspect.net": 1,
       "The Clinical Trial Vanguard": 1,
@@ -57,9 +59,7 @@
       "The New York Times": 1,
       "Fierce Pharma": 1,
       "insights.citeline.com": 1,
-      "EMJ": 1,
-      "The Pharma Letter": 1,
-      "Investing.com Nigeria": 1,
+      "emjreviews.com": 1,
       "Endpoints": 1
     },
     "byTier": {
@@ -70,7 +70,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-14T22:04:24.359Z",
+      "time": "2026-08-14T22:38:19.719Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -81,6 +81,22 @@
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
       "tickers": []
+    },
+    {
+      "id": "4c743353b9ed",
+      "time": "2026-08-14T22:20:31.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Alkermes Stock Sinks As Earnings Jolt Investors",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdlhneDJMTDlhdDN1RnVIbnRSWXhnTWZ3eHpOTjlWSFpKLXRRUGFJejJLMEFzM1hCU0RDOXFCZ3g0Y2JSeU9ZQ3BpaW93YUZCcHB6bjV3MFZKVURBcU5PNHVHc1FKRTJOQ1R6RjJVLW1PSk1CbWpNOFlpSDNuRWZJWURPMWJaZmY3TE0tcl9DWQ?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
     },
     {
       "id": "0b2526b752e2",
@@ -113,6 +129,22 @@
       ]
     },
     {
+      "id": "33eec904aa7d",
+      "time": "2026-08-14T21:25:54.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Top Definium Therapeutics (DFTX) Competitors 2026",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOei1hblhLV0daTTVDX3p4QlhfOWphZWdsTGVLdTAxcTYyLXVfNUgtQlJzcEZFLVZZOTlzSHM4YjhHOTVpMTFKRkxGOW9ScUVLOVpvMm9hOE9tZ0llQnRfVlZaRTNNSlBjOUEtcEZad0d4UnFjLWxQT2hJa2NzWUxOcw?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "2c75fff871c8",
       "time": "2026-08-14T20:58:37.000Z",
       "source": "Elkhorn Media Group",
@@ -140,6 +172,22 @@
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRjZlNjh1aVJUWTFmSm84T2k2aXMtcURQYmZldGFpTWtxaUxhdF8wVXhKRkl2alEwQlA3Y3ZaVksyOGgwT3VwS2ZmZWVob0Q1NUVOUVlSZkxvS3pkTC1nZnRQMnJCSktNeVUxMmFwc3VUZGNiNnpZekFWVmdPQVZaamZuR0RUNE1PSzN2Sm9wSkpSVDRjTzFZdEFnc0FBVWxUTFI1UDlKU3VtV0dCUExJTTV4WlR0Ujg?oc=5",
       "tickers": [
         "NRXP"
+      ]
+    },
+    {
+      "id": "2c035c1159ab",
+      "time": "2026-08-14T20:34:19.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Lynx1 Capital Management (NASDAQ: GHRS) reports 19.3% stake in GH Research",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc1B2elV4NGVjQjU3NDNJdm1jR0ZtR0NDdko0T3hCa3Fza1hCazRyNVNYeGRSeGJVb3JnYTdEb01lbkx4TUotQjA4NlVDdm00dG5MdDNMeEg4bG9zem95REZfUFFDRUdUUzdZYkJER0ppSjRUR20wblM5NTNNRW1xdFN0Y3lxaEtrOGlBbHBxMFJZY3JPNzMtNC1YMFl3VU1NQkpKSVk4VG1UUGJ3bGk5b3lHVWtBenFQdzdRWTBxdVMwNWZNVWJkSUtR?oc=5",
+      "tickers": [
+        "GHRS"
       ]
     },
     {
@@ -264,6 +312,22 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "73d9c45a9477",
+      "time": "2026-08-14T17:31:24.000Z",
+      "source": "AlphaStreet",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Vistagen Therapeutics Releases Q1 2027 Financial Results",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTUk5NWY2QU85T09YMTBzMjNXZE1kSkNaNW9iM2daR0lUc05LOW9zMlo0Y0Utb09SNXRBQlZYa05BNkprZEpwZW5uQWJyZ2lrR2lZd2xvT0V4Z3RYNXdfczBGQVktcHpwUTJObkhITTZYQjV5VjVPemtqdjhCUWFRYmZ4dG9RUzI2NmMtOXIyNNIBjwFBVV95cUxOTUk5NWY2QU85T09YMTBzMjNXZE1kSkNaNW9iM2daR0lUc05LOW9zMlo0Y0Utb09SNXRBQlZYa05BNkprZEpwZW5uQWJyZ2lrR2lZd2xvT0V4Z3RYNXdfczBGQVktcHpwUTJObkhITTZYQjV5VjVPemtqdjhCUWFRYmZ4dG9RUzI2NmMtOXIyNA?oc=5",
+      "tickers": [
+        "VTGN"
       ]
     },
     {
@@ -797,6 +861,22 @@
       ]
     },
     {
+      "id": "ce228379537a",
+      "time": "2026-08-14T08:28:31.000Z",
+      "source": "Wicked Local",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Salem Gazette Events - 9th Neuropsychiatric Drug Development Summit",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObk00ZDdLTG1GbWo1Smstek1sa1F4TG1zT095VmNhRC1WZkYwN2FKM201UmpQS3d6WjVWWEVmVVJEdUEwa1FFenZOUlNjekppR0dzQVkybGdyQUtkZUNGMmtkSnM1dGJyUEhNTS1VMzg3V3VCQ05CWW9zanhxcVBkejRSZ3AtLVZQTHMyQnBzLWp4NWZ0cEptMFVMeW9pQzdyNi11a1VIbklja1VCUnZtZ2habmVPaVZtT3gwMnBDLWdBdUlFQ0t3SExwN3JJdVl2UW1rcA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "15b4b8966372",
       "time": "2026-08-14T07:46:02.000Z",
       "source": "MarketBeat",
@@ -847,7 +927,7 @@
     {
       "id": "f411d28fa579",
       "time": "2026-08-14T04:16:19.000Z",
-      "source": "BioSpace",
+      "source": "biospace.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1030,7 +1110,7 @@
       ]
     },
     {
-      "id": "33733c1091d9",
+      "id": "c041e42fccd1",
       "time": "2026-08-13T20:00:00.000Z",
       "source": "Nautilus | Science",
       "sourceKind": "gnews",
@@ -1040,13 +1120,13 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "The Quest to Understand the Forgotten Psychedelic",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUnNpTTV4TVVMMDhucEFvYnVYQmRHYkpNcHJXWmV1VnBjWDZJS1ROTHFIVUNaRFdPUzF4bVJ4bllqekVuUFo4YXJYYVRSaGVjQ0d0QU1teURYTkV3ZmhCby1VNGJLNExzUEhUNDdYOG9xQS1qNUpVMGZXVWdOSTJZaw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUTZLRVM0enlDMjltalhUVnpHSG5Kd2N4Ymc1ZTBBMjZOUTlzcHRtTjdjcUVTc3NUZ3dvN0Q2MVBRZVIwTVc3cmZWQWw1cXpLYzdQZXN5cXQ3QjJyS3Zrb1Y2eEo1aXRXNXdZNkVXQ1ZkQVdQbmczT3JmcTJ1cjREdUJ3?oc=5",
       "tickers": []
     },
     {
-      "id": "79dc7aa852af",
+      "id": "ae047de5e31f",
       "time": "2026-08-13T19:34:05.000Z",
-      "source": "FOX 5 DC",
+      "source": "FOX 35 Orlando",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1054,7 +1134,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "VA launches clinical trial of psilocybin to treat veterans suffering from depression, PTSD",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUlZBaU8wTC1LUm9RZE5YajlLUWxYTXBvNkppLXV4QVBMTXpLczFXajVMMlltVHN6M2pnN2Y0OTZQM0tDQWtSbHg3SU83blZ1OExmdkpVblA5Vl9vZUo0cVFPNmdKV1JYS2xralpnSHh0WGdtUmp6ckM5NHZJbkZNek4yeWY1MWN2SEFKMkJrMURsTGhvVVhqQ1BzMDZXSGxiOHlZVGlsaWZWU2p6QWRfdA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSWp2MEE4RGpQNVBGQ1hpb2NlanFTclh4bzZWcWFabXNmLXljN2xrb2J2RFdsX1dPQjREUHJqZkJHNVhpZWx4ejVfRy0tbENWZHhUOHdqRjNfUWkteWtvNUVDRWwtREwzM2V5eThKSW9ITXhKUlNLaFJZbk94aDlHc2NVeGNkek9FUzBteUNybTR5WTBUZkRuY0Yzd1RQVm9ERXJUUkNUVmhpYWNMa2xVOXVobGtvTmR5?oc=5",
       "tickers": []
     },
     {
@@ -1070,22 +1150,6 @@
       "title": "Norridgewock Man Arrested After Being Found with Massive Bag of Psychedelic Mushrooms",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQjcwOXNNamxNeUE0czN2N2hrajhQTlZ3Rng1Sk5CUWNwbnRWSnVhdWNBMHJkaXFoQnNfWmE1S2k0blE1Q2FIM1lPWHJVaks1MFBSNXVRclVyOGRUR1dfUU5KR3hBM3pKZlJvd0ZvbU5MUl9nUkJQbnllYjNwak9OZ3Njdy1zdjNEUElyelJHX29aekxJSVhuZ1FVbDNBRVdsSTNibDlJRXlZUnJTSW5pTW9lZ2g2Z2FoVXF6RGoyNDE?oc=5",
       "tickers": []
-    },
-    {
-      "id": "33eec904aa7d",
-      "time": "2026-08-13T19:28:02.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Top Definium Therapeutics (DFTX) Competitors 2026",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOei1hblhLV0daTTVDX3p4QlhfOWphZWdsTGVLdTAxcTYyLXVfNUgtQlJzcEZFLVZZOTlzSHM4YjhHOTVpMTFKRkxGOW9ScUVLOVpvMm9hOE9tZ0llQnRfVlZaRTNNSlBjOUEtcEZad0d4UnFjLWxQT2hJa2NzWUxOcw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     },
     {
       "id": "6c510be889ee",
@@ -1120,7 +1184,7 @@
     {
       "id": "7fb90dd19a11",
       "time": "2026-08-13T17:45:46.000Z",
-      "source": "psychedelicalpha.com",
+      "source": "Psychedelic Alpha",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1414,7 +1478,7 @@
     {
       "id": "0eb7f6b1886c",
       "time": "2026-08-13T13:33:51.000Z",
-      "source": "EMJ",
+      "source": "emjreviews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1425,70 +1489,6 @@
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTRtcGpOMVdZSGZYQ0Y5d2ZoalpZTFJEQnZyLXJYam1KLW92VU1DdUFoSl84dXJOQTljRjhPM1ZEd1NiNUF4TG1GbDBpWWU5Z2FmLU50djBWd3FETC03RWFfWHBMdHpJNkZpTnN3WFZhUmY0TVJGVFhkR0JMMGJlVVpTVy1qOFc0bDNmeV9SQWhPdFk?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "bc16840cc5b4",
-      "time": "2026-08-13T13:19:12.000Z",
-      "source": "The Pharma Letter",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium Phase III success with DT120 in anxiety",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSGxYQndVQmtLaXZLUzQydU0zVW1sNVJTYWhMdWZsbXNacnJRTUkxRDJqRmdoQi0zMkR6dDdnb3NtczJFbkx0YTB0X25CTHh0amloVmFobTd3VE9EMFhFMHJ6YmZoa0xzb3JOOGdvY0pXZGwwMWM1NmJYWEQtc3F2ajYyaXpmWU9xT0ZlZDNzN3c4TmxiMEtmVg?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "a3111b57c887",
-      "time": "2026-08-13T12:22:43.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Robert W. Baird Increases Definium Therapeutics (NASDAQ:DFTX) Price Target to $75.00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdl9sU0p1OEVGakxYUDZlalBYc0ZrWmlKUmxCN3AtcW1rRW4tbV9oRnpCX05rVDJVLVJSVU9qdFFHbnNsMXlqSVFSd3JqbkltZkR0VkNUVEhCVnM1dHNjaWVLYjQwcjN6X250N0dUZ2w3MHk1NzEwcjJlNkg5MTJZMjBFRTYxSllqcjlYU25uUHpuZ0o5V3VudXFCdVM2UC1hRHNSdXhCOE5KNkRGOExmdU1GNlZUenpxaUMtT25tRVl3VjVzWXVvbVV6NE0?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "3a98be097a1f",
-      "time": "2026-08-13T12:05:04.000Z",
-      "source": "Investing.com Nigeria",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Canaccord raises Definium Therapeutics price target on trial data By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbVdrQWpINmZFZHF3SUxzNF91UlktMFhBTXNqdWxUb2VwSXJrLWU3VDF4b2JwMkRmcjFXbXRXRDBMbGs0dlBFaHpHQkRIQy1jYWZHS05fdWpKMmtNSmpfaURsNmp4bk91QnZSaFhUM2JDdWo0ZVJXNjJfSmtmdFpJV0RBUkRiZ1RrOFR3djVCTjVxM2U2a29EWkZFLXlCYkxXX1g0OFkwdXluRmVMNENxYVRZREJmZnU1RC10VktSVjV2TzRO?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "71c020325e3f",
-      "time": "2026-08-13T11:41:09.000Z",
-      "source": "marketscreener.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Deutsche Bank Adjusts Neurocrine Biosciences PT to $165 From $190, Maintains Hold Rating",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQejNicjJGTDNQaVR4MzlZYlRFR3IxQjlKZUdaS29FbE43eF9yUWdRRmdFR1NoR1lwV2ZFY2ZkSkJEZUxQUDR4bTFZWDY1RGtLSE9sUERZRXlSRGJtT3VMSzhIZS1WRVJheDZJaHZfeHIyek95c2tVVDRvOW5HVDcxV1o1QU1LS0M2cmVLV0k2bXVxLUVWZUlCSjlVV0VkaXlxZ3Jwd2d1aks4RFhkSmN0eG8zNFpOZjRXRzNuSGNwaGxTTjQ2c3ZMNlp2TWlqN3F2YjNzOA?oc=5",
-      "tickers": [
-        "NBIX"
       ]
     },
     {
