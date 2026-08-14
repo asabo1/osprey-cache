@@ -1,29 +1,31 @@
 {
-  "updated": "2026-08-14T21:11:27.442Z",
+  "updated": "2026-08-14T21:40:19.658Z",
   "counts": {
     "total": 95,
-    "crit": 17,
-    "warn": 10,
+    "crit": 16,
+    "warn": 11,
     "bySource": {
       "Fierce Biotech": 1,
       "Elkhorn Media Group": 1,
       "Stock Titan": 13,
-      "echopress.com": 1,
+      "Alexandria Echo Press": 1,
       "Behavioral Health Business": 1,
+      "AOL.com": 1,
       "MarketBeat": 10,
-      "Investing.com": 2,
+      "AlphaStreet": 1,
+      "Investing.com": 1,
       "cbs42.com": 1,
       "Pluang": 2,
       "The Microdose | Substack": 1,
       "Missouri Independent": 1,
       "AD HOC NEWS": 1,
       "Forbes": 1,
-      "The Business Journals": 1,
+      "bizjournals.com": 1,
       "TradingView": 5,
       "GuruFocus": 2,
       "scanx.trade": 1,
       "Investing.com UK": 1,
-      "Quiver Quantitative": 3,
+      "quiverquant.com": 3,
       "The Manila Times": 1,
       "TipRanks": 2,
       "Yahoo! Finance Canada": 1,
@@ -39,11 +41,11 @@
       "PsyPost": 1,
       "NEWStalk 870": 1,
       "The Center Square": 1,
-      "Nautilus | Science": 1,
-      "LiveNOW from FOX": 1,
+      "nautil.us": 1,
+      "FOX 5 DC": 1,
       "The Maine Wire": 1,
       "ABC News & Headlines – Australian Broadcasting Corporation": 1,
-      "psychedelicalpha.com": 1,
+      "Psychedelic Alpha": 1,
       "Traders Union": 1,
       "theprogressiveaspect.net": 1,
       "The Clinical Trial Vanguard": 1,
@@ -52,14 +54,13 @@
       "simplywall.st": 1,
       "STAT": 1,
       "STAT News": 3,
-      "ClayCoNews": 1,
+      "clayconews.com": 1,
       "The New York Times": 1,
       "Fierce Pharma": 1,
       "insights.citeline.com": 1,
       "EMJ": 1,
       "The Pharma Letter": 1,
       "Investing.com Nigeria": 1,
-      "Clinical Trials Arena": 1,
       "Endpoints": 1
     },
     "byTier": {
@@ -70,7 +71,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-14T21:11:25.473Z",
+      "time": "2026-08-14T21:40:17.769Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -115,7 +116,7 @@
     {
       "id": "c813ec5dbac9",
       "time": "2026-08-14T20:33:33.000Z",
-      "source": "echopress.com",
+      "source": "Alexandria Echo Press",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -205,6 +206,22 @@
       ]
     },
     {
+      "id": "02e3f652fd8c",
+      "time": "2026-08-14T19:52:35.000Z",
+      "source": "AOL.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Neurocrine: Q2 Earnings Snapshot",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUHF5ckN4QnREN3p4bGhRbTlyOENrdFhjX1hxQ0d5Z0xzRHM4M2xUalNRamV3czVyT0dSQ0YtcGxWOWhwcEtwR2lESVJGa1BCZzdPdDhzdUpBSFE5MkRmUGUzWml1a3UxYWgxbEhINlpueXB1UHp3S1RadktrUnpHdA?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "862df95ecac5",
       "time": "2026-08-14T18:03:47.000Z",
       "source": "MarketBeat",
@@ -218,6 +235,22 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "73d9c45a9477",
+      "time": "2026-08-14T17:31:24.000Z",
+      "source": "AlphaStreet",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Vistagen Therapeutics Releases Q1 2027 Financial Results",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTUk5NWY2QU85T09YMTBzMjNXZE1kSkNaNW9iM2daR0lUc05LOW9zMlo0Y0Utb09SNXRBQlZYa05BNkprZEpwZW5uQWJyZ2lrR2lZd2xvT0V4Z3RYNXdfczBGQVktcHpwUTJObkhITTZYQjV5VjVPemtqdjhCUWFRYmZ4dG9RUzI2NmMtOXIyNNIBjwFBVV95cUxOTUk5NWY2QU85T09YMTBzMjNXZE1kSkNaNW9iM2daR0lUc05LOW9zMlo0Y0Utb09SNXRBQlZYa05BNkprZEpwZW5uQWJyZ2lrR2lZd2xvT0V4Z3RYNXdfczBGQVktcHpwUTJObkhITTZYQjV5VjVPemtqdjhCUWFRYmZ4dG9RUzI2NmMtOXIyNA?oc=5",
+      "tickers": [
+        "VTGN"
       ]
     },
     {
@@ -327,7 +360,7 @@
     {
       "id": "cab7f1dc2d8d",
       "time": "2026-08-14T13:45:00.000Z",
-      "source": "The Business Journals",
+      "source": "bizjournals.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -424,7 +457,7 @@
     {
       "id": "4d87fa83516f",
       "time": "2026-08-14T12:45:00.000Z",
-      "source": "Quiver Quantitative",
+      "source": "quiverquant.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -613,7 +646,7 @@
     {
       "id": "e0511440e35a",
       "time": "2026-08-14T11:41:00.000Z",
-      "source": "Quiver Quantitative",
+      "source": "quiverquant.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -936,7 +969,7 @@
     {
       "id": "b87b8b753bbb",
       "time": "2026-08-13T20:52:00.000Z",
-      "source": "Quiver Quantitative",
+      "source": "quiverquant.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -998,9 +1031,9 @@
       ]
     },
     {
-      "id": "33733c1091d9",
+      "id": "c041e42fccd1",
       "time": "2026-08-13T20:00:00.000Z",
-      "source": "Nautilus | Science",
+      "source": "nautil.us",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1008,13 +1041,13 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "The Quest to Understand the Forgotten Psychedelic",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUnNpTTV4TVVMMDhucEFvYnVYQmRHYkpNcHJXWmV1VnBjWDZJS1ROTHFIVUNaRFdPUzF4bVJ4bllqekVuUFo4YXJYYVRSaGVjQ0d0QU1teURYTkV3ZmhCby1VNGJLNExzUEhUNDdYOG9xQS1qNUpVMGZXVWdOSTJZaw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUTZLRVM0enlDMjltalhUVnpHSG5Kd2N4Ymc1ZTBBMjZOUTlzcHRtTjdjcUVTc3NUZ3dvN0Q2MVBRZVIwTVc3cmZWQWw1cXpLYzdQZXN5cXQ3QjJyS3Zrb1Y2eEo1aXRXNXdZNkVXQ1ZkQVdQbmczT3JmcTJ1cjREdUJ3?oc=5",
       "tickers": []
     },
     {
-      "id": "488cca51aefe",
+      "id": "79dc7aa852af",
       "time": "2026-08-13T19:34:05.000Z",
-      "source": "LiveNOW from FOX",
+      "source": "FOX 5 DC",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1022,7 +1055,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "VA launches clinical trial of psilocybin to treat veterans suffering from depression, PTSD",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUF80Z0ZnNjNCWm9IMlNjcXdEV05GMlc0ZVVoZTNJUkt2eTlXa196M1FkSTg4c3Z5aHBUZWhfYTdaMHhRVU56YXFpMzlnaGp2M01IN2xHOEtvdWNYXzlISVQyNWw2LWl4VmFqclllczZaSWotcjhJd3JDaVVsQkZUZU5zN0dlNW8zZmRwMjFPa0NHSWhJWWZkMG8tZzNzbjc2U0h4R0szSHVUamhsVzI1LTNXcXVPdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUlZBaU8wTC1LUm9RZE5YajlLUWxYTXBvNkppLXV4QVBMTXpLczFXajVMMlltVHN6M2pnN2Y0OTZQM0tDQWtSbHg3SU83blZ1OExmdkpVblA5Vl9vZUo0cVFPNmdKV1JYS2xralpnSHh0WGdtUmp6ckM5NHZJbkZNek4yeWY1MWN2SEFKMkJrMURsTGhvVVhqQ1BzMDZXSGxiOHlZVGlsaWZWU2p6QWRfdA?oc=5",
       "tickers": []
     },
     {
@@ -1088,7 +1121,7 @@
     {
       "id": "7fb90dd19a11",
       "time": "2026-08-13T17:45:46.000Z",
-      "source": "psychedelicalpha.com",
+      "source": "Psychedelic Alpha",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1306,7 +1339,7 @@
     {
       "id": "a3acfa15e2e4",
       "time": "2026-08-13T14:35:14.000Z",
-      "source": "ClayCoNews",
+      "source": "clayconews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1458,36 +1491,6 @@
       "tickers": [
         "NBIX"
       ]
-    },
-    {
-      "id": "5b8eab4c1092",
-      "time": "2026-08-13T11:39:00.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Canaccord raises Definium Therapeutics price target on trial data",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSnBXbzhHNGRfVU1oUzNrUGh6bEI4NFcyLXJKbXp4T3lwb1BMR0RZOWZ2VTcxVnJZZmJrdTJ0ZEo5UDNtcS1GYnJkZERXcUJzSWlDejBpOGhSYnZneGxzVWNUOTd0ZmZYaldkR2ZZdVRWdmZKMXROaDBiVHR0SHBLYnVBblZrdVV2M1g0d3A1dkJHMVhtRGp4NDdrTFh0NTRzTGx3bFV0WkJJYzhxTXQxeTY0YjVLWDB6SFdYajFjWUxQbWp1elJ2VUdKU1VFdw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "e064061b0f5b",
-      "time": "2026-08-13T11:32:40.000Z",
-      "source": "Clinical Trials Arena",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium’s psychedelic prospects brighten further on Phase III success",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVNBOWNxOWs2OFkyNnhlYWZzdF9sZUdSTWJ5NnY5T3VFTldfNVhHOHNyR2dSeFJvWWY2OXRjRmhJakkwbG9CZXZ6SjlpUDZLYVpqc25mRnB6RHd2R2VkLWRpdjdhRjFvdEZwaTI4cUZtZllqbUZ2dlhVT0hKRTAzNC1idjNiWjBQZ3lBeGdOUkZMZWdq?oc=5",
-      "tickers": []
     },
     {
       "id": "0808f93ecac7",
