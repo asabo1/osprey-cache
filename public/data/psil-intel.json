@@ -1,24 +1,26 @@
 {
-  "updated": "2026-08-14T00:09:30.148Z",
+  "updated": "2026-08-14T02:43:25.255Z",
   "counts": {
     "total": 95,
-    "crit": 18,
-    "warn": 1,
+    "crit": 16,
+    "warn": 2,
     "bySource": {
       "Fierce Biotech": 1,
+      "FirstWord Pharma": 4,
       "GuruFocus": 2,
       "PsyPost": 1,
-      "FirstWord Pharma": 3,
       "NEWStalk 870": 1,
-      "Bloomer Advance Newspaper": 1,
+      "thecentersquare.com": 1,
       "Stock Titan": 4,
       "Quiver Quantitative": 2,
       "Yahoo Finance": 4,
+      "Stocktwits": 2,
+      "nautil.us": 1,
       "LiveNOW from FOX": 1,
       "The Maine Wire": 1,
       "MarketBeat": 13,
       "ABC News & Headlines – Australian Broadcasting Corporation": 1,
-      "Psychedelic Alpha": 3,
+      "psychedelicalpha.com": 3,
       "Traders Union": 1,
       "theprogressiveaspect.net": 1,
       "The Clinical Trial Vanguard": 1,
@@ -32,16 +34,15 @@
       "insights.citeline.com": 1,
       "EMJ": 1,
       "The Pharma Letter": 1,
+      "Investing.com Nigeria": 1,
       "marketscreener.com": 2,
       "Investing.com": 3,
       "Clinical Trials Arena": 1,
       "kalkine.ca": 2,
-      "newsbytesapp.com": 1,
-      "TradingView": 4,
-      "Yahoo": 2,
-      "Stocktwits": 1,
+      "NewsBytes": 1,
+      "TradingView": 3,
       "TipRanks": 2,
-      "clinicalleader.com": 2,
+      "Clinical Leader": 2,
       "AOL.com": 1,
       "Reuters": 2,
       "Seeking Alpha": 2,
@@ -51,15 +52,14 @@
       "MedPage Today": 1,
       "YouTube": 1,
       "Psychiatric Times": 1,
+      "shopping.yahoo.com": 1,
       "The Globe and Mail": 1,
       "WebWire": 1,
-      "Gizmodo": 1,
+      "gizmodo.com": 1,
       "Benzinga": 1,
       "BioSpace": 1,
       "StockInvest.us": 1,
-      "AD HOC NEWS": 1,
-      "BioPharma Dive": 1,
-      "Kalkine Media": 1
+      "AD HOC NEWS": 1
     },
     "byTier": {
       "T3": 5,
@@ -69,7 +69,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-14T00:09:29.028Z",
+      "time": "2026-08-14T02:43:24.143Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -80,6 +80,22 @@
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
       "tickers": []
+    },
+    {
+      "id": "ceaec2447c7f",
+      "time": "2026-08-14T01:21:38.000Z",
+      "source": "FirstWord Pharma",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "Friday Five – Definium blazes LSD trail, Trump's long-shot vaccine aims, Lilly lawyers up again for retatrutide…and more",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE50RENxODZObXRVdHRSSDVwTGYyWXBDbWdUeGJpMk5FcGlTSjFVWlJxQ2tOaWFEZ2JmS0MtcGttc1c3WWxJRGQtYmtTWkduME80SzM4?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "30e54ad93fa3",
@@ -143,17 +159,17 @@
       "tickers": []
     },
     {
-      "id": "b7c4f5c20eda",
+      "id": "f848d4116e10",
       "time": "2026-08-13T21:04:00.000Z",
-      "source": "Bloomer Advance Newspaper",
+      "source": "thecentersquare.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
       "severity": "INFO",
-      "direction": "BULL",
+      "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "VA touts psilocybin trial for vets, but relief could take time",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnFXa1JneFBMYXExVERub3FOa2tnQ2hNNlVRY0YtYlBrWEk3YlVib2ZyT1pUUnNUbDVHeGNLbzRCbF8wRXp5VTVWZEdVWFZwZ2RCYUFmS0Y4cjBjU09FQjRfSU9Kd3VKOEJQUnY0LVZRZzRsMmh3YU9xRld0Uk0zVHh2bGEtNk04bzJ5b3hUSXlJdW5KQy1HcXNB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYWRxUGpMV3kxZHFnYWVBNDRGdGhpUFB4dDAzUzI0bWJtaXc4bGgweW5GeGwwMGoyMEY0SGxRX2JiSzZ5NFp4elQ2NDFuemxSZ051WUpCOEJNUFN5VC1hdlBLQ0Y2QTZFNHF2cDhDYnFMaFV5U3lTbVU4Xy10Q2xrcFdwV0g1U3RZM1oyakpzTmVreFFlMGhEb3pR0gGaAUFVX3lxTE5hZHFQakxXeTFkcWdhZUE0NEZ0aGlQUHh0MDNTMjRtYm1pdzhsaDB5bkZ4bDAwajIwRjRIbFFfYmJLNnk0Wnh6VDY0MW56bFJnTnVZSkI4Qk1QU3lULWF2UEtDRjZBNkU0cXZwOENicUxoVXlTeVNtVThfLXRDbGtwV3BXSDVTdFkzWjJqSnNOZWt4UWUwaERvelE?oc=5",
       "tickers": []
     },
     {
@@ -237,6 +253,36 @@
       ]
     },
     {
+      "id": "e992c27e000e",
+      "time": "2026-08-13T20:07:43.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "SRx Health Decided To Invest In A Psychedelic Drug Company That Just Went Public – Here’s What Aided The Decision",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNW5LdE5JOEdPOTBEdHNYSTJTQTRpUGZldUVPQjliMlc4eWZtR3V4VUxaVDE2QjRhMnhHcXRNeGhYLWZ3ejBIcWhFRjRHeFZ4dndobjMzOEQxZWpxSlpHVVlWNmJMTlJHN0ZCNC1HRm1JOFZDd2dzcl9zVUlkZEcxS0k4Z3ZkdmN5M05qRDRNWE0xeHpZSTZoWVBlZ0VpVUExa0lmY1RUQmJlMjBBT2ZldGJoU19ZT3NKYl8zYUhVUTcySE5yMGJ3dEFiSE5SQWlUQUdNODNyMnNuSUFRLUVRR2Y1ZHpBdGtEc0JZbTJwWXRSZzRFc1JtRms2VlRSWXZoMjNUZ2pPNA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "33733c1091d9",
+      "time": "2026-08-13T20:00:00.000Z",
+      "source": "nautil.us",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The Quest to Understand the Forgotten Psychedelic",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUnNpTTV4TVVMMDhucEFvYnVYQmRHYkpNcHJXWmV1VnBjWDZJS1ROTHFIVUNaRFdPUzF4bVJ4bllqekVuUFo4YXJYYVRSaGVjQ0d0QU1teURYTkV3ZmhCby1VNGJLNExzUEhUNDdYOG9xQS1qNUpVMGZXVWdOSTJZaw?oc=5",
+      "tickers": []
+    },
+    {
       "id": "488cca51aefe",
       "time": "2026-08-13T19:34:05.000Z",
       "source": "LiveNOW from FOX",
@@ -313,7 +359,7 @@
     {
       "id": "7fb90dd19a11",
       "time": "2026-08-13T17:45:46.000Z",
-      "source": "Psychedelic Alpha",
+      "source": "psychedelicalpha.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -621,6 +667,22 @@
       ]
     },
     {
+      "id": "3a98be097a1f",
+      "time": "2026-08-13T12:05:04.000Z",
+      "source": "Investing.com Nigeria",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Canaccord raises Definium Therapeutics price target on trial data By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbVdrQWpINmZFZHF3SUxzNF91UlktMFhBTXNqdWxUb2VwSXJrLWU3VDF4b2JwMkRmcjFXbXRXRDBMbGs0dlBFaHpHQkRIQy1jYWZHS05fdWpKMmtNSmpfaURsNmp4bk91QnZSaFhUM2JDdWo0ZVJXNjJfSmtmdFpJV0RBUkRiZ1RrOFR3djVCTjVxM2U2a29EWkZFLXlCYkxXX1g0OFkwdXluRmVMNENxYVRZREJmZnU1RC10VktSVjV2TzRO?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "71c020325e3f",
       "time": "2026-08-13T11:41:09.000Z",
       "source": "marketscreener.com",
@@ -685,7 +747,7 @@
     {
       "id": "65daa998fb5e",
       "time": "2026-08-13T11:01:16.000Z",
-      "source": "newsbytesapp.com",
+      "source": "NewsBytes",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -759,20 +821,6 @@
       "tickers": [
         "MNMD"
       ]
-    },
-    {
-      "id": "733c4519d77f",
-      "time": "2026-08-13T10:00:00.000Z",
-      "source": "Yahoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The Quest to Understand the Forgotten Psychedelic",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQakE1b2RGRUMxalczYTZGWTFHcHpmVTU2UzUxZm5VV1FWNDdtbWlubXdfODRIa1RNY3VoUnFlWXhlbjR1UF9GSWIyUnhTWjNaUDhhYXF5bVV1TFp2cFB4ZkhoQkRGeC1ZZjhlQ1JHS3hWRmxOMmdzOGJpek1QOTduc1VFTWswRGFRQVNOV0JDV01YM2ZsaXVjcGNRUVFCUQ?oc=5",
-      "tickers": []
     },
     {
       "id": "b2615fb356ee",
@@ -887,7 +935,7 @@
     {
       "id": "21d6d8682868",
       "time": "2026-08-13T04:13:58.000Z",
-      "source": "clinicalleader.com",
+      "source": "Clinical Leader",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -903,7 +951,7 @@
     {
       "id": "9326bb51c1a0",
       "time": "2026-08-13T04:13:58.000Z",
-      "source": "clinicalleader.com",
+      "source": "Clinical Leader",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1136,7 +1184,7 @@
     {
       "id": "54289e7c1563",
       "time": "2026-08-12T18:20:50.000Z",
-      "source": "Psychedelic Alpha",
+      "source": "psychedelicalpha.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1166,7 +1214,7 @@
     {
       "id": "fcce369dde17",
       "time": "2026-08-12T18:00:00.000Z",
-      "source": "Yahoo",
+      "source": "shopping.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1228,7 +1276,7 @@
     {
       "id": "8fb04805f762",
       "time": "2026-08-12T16:25:46.000Z",
-      "source": "Psychedelic Alpha",
+      "source": "psychedelicalpha.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1288,7 +1336,7 @@
     {
       "id": "583e290fb3b8",
       "time": "2026-08-12T16:10:44.000Z",
-      "source": "Gizmodo",
+      "source": "gizmodo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1490,54 +1538,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORjV4QWpZdDI1TWIzNmdONUt1QTJoS2hNcWN0dTdER0dCN2x0X1kwNm5hTTdkNXZDM2MwcmJlTGtvdXRrYkhLOTdQcTMxRjZrMG5aMWwzYUJ5a0NxRkRLUVl0Rzg3bnVHcDYwNzFjMXNhWUdXWEpTRkZZOFNRUER0YUFndGVxZmJ4NE1VWTVvZ21ZRWlTT0Via25FcDYzZjV3SHZsdVJRQnA0TlBuU0RmMXB0SDFVVV9GM1cwOHI5ZVFpUGFoRS14ZWl3LU1hSUREallYZzFqNE1ZdVNMLUJv?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "8613f5fac968",
-      "time": "2026-08-12T14:47:59.000Z",
-      "source": "BioPharma Dive",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Psychedelics developer Definium scores more positive data for LSD pill",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNkh5QmIzNFlWRkJmNk1WTXZfU0dGT2Y3amNNY1QzVmRldEtaUjF4dzdIeEdGcnY1Z1NUcW5wb01uOXM3SE96MU5wcUdtMTRlNVRuY0lWS29ieUtYb3FuU0pNeXJNakVCWXhWQUlWZkFvaUhlSzJNOGd6WnJTMGhTcnlxWGowcXdodUdicG5ndmh0Vms1UGE2NnJB?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "96386185aff1",
-      "time": "2026-08-12T14:41:33.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "DFTX: DT120 showed unprecedented efficacy and safety in phase III GAD, supporting broad clinical impact",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOdlhiZ2luLVlPUUo4b0lsZnV0NkYtcFoxNDRuRmt0a3FwMHpMNWRmd2RvaExyanRDZmxJOGVjMXVWbWlBZjFLWmFqekJEd2JHTDBDMGdlSFZMVFJiRHhpUXVfTGJSRmhJaTZfYXBkU0NPOE5ZQmhyR0x4LUY2bGhyMk0xZjZtNWNFSGhQQk1kUldEZmI0TVV4OXNnZDVZenp2ekdYanhaemg1RHVRa0ZzbnFCM09acms5X0VFdENrbWRBOUFCT0ktWHZZTTBqM21oaEQ2SHljcExxUU1XUGNQTkJzN1JNOGszTlBfQm5qYnh6VmVSOExZSHhTV1d0OVY2NWpzdUhkNDYxd2ppTDViTzdZbzNSOUk?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "d232d7e71c58",
-      "time": "2026-08-12T14:27:29.000Z",
-      "source": "Kalkine Media",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics CEO Robert Barrow Acquires 375,000 Shares via Performance Share Units",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcHkxODhVeTZVX2huTEVKWnp0YTNmbm45VWtPcWJpQzVkRjdrYmg3TklUazNXRGdvenFJNXZBSjRFZUlLSWtUQXgtUmVWR1p5UzFUMm5tcEtiSUZIY2dXWldMOFdWRkRGNjFjSEE2VDB5c2tXdk5NdFBqMGV6cl9iQ2h0QmtaVDhmU2M4aXY2ODBVLWtMdlJKZENqNFJBdEtndDhtb1pmVjMtVEFkRzV3RnBqYmY5WnB1ZkZUcUl0RE05UTNTM3ZmLXd1X1VPTTVLZENr?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     }
   ]
