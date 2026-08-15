@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-15T13:41:57.983Z",
+  "updated": "2026-08-15T14:05:17.266Z",
   "counts": {
     "total": 96,
-    "crit": 11,
+    "crit": 12,
     "warn": 19,
     "bySource": {
       "Fierce Biotech": 1,
@@ -31,7 +31,7 @@
       "Missouri Independent": 1,
       "ad-hoc-news.de": 1,
       "Forbes": 1,
-      "The Business Journals": 1,
+      "bizjournals.com": 1,
       "TradingView": 5,
       "GuruFocus": 2,
       "Investing.com Nigeria": 1,
@@ -46,15 +46,15 @@
       "Wicked Local": 1,
       "geneonline.com": 1,
       "BioSpace": 1,
-      "New Noise Magazine": 1,
+      "newnoisemagazine.com": 1,
       "FirstWord Pharma": 2,
-      "The Center Square": 1,
+      "thecentersquare.com": 1,
       "Nautilus | Science": 1,
       "FOX 35 Orlando": 1,
       "The Maine Wire": 1,
       "ABC News & Headlines – Australian Broadcasting Corporation": 1,
-      "Reuters": 1,
       "Psychedelic Alpha": 1,
+      "Traders Union": 1,
       "STAT News": 3
     },
     "byTier": {
@@ -65,7 +65,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-15T13:41:56.911Z",
+      "time": "2026-08-15T14:05:13.205Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -664,7 +664,7 @@
     {
       "id": "cab7f1dc2d8d",
       "time": "2026-08-14T13:45:00.000Z",
-      "source": "The Business Journals",
+      "source": "bizjournals.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1214,7 +1214,7 @@
     {
       "id": "7147e3f5fbd7",
       "time": "2026-08-14T02:43:37.000Z",
-      "source": "New Noise Magazine",
+      "source": "newnoisemagazine.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1277,7 +1277,7 @@
     {
       "id": "61e72950a6e0",
       "time": "2026-08-13T21:04:00.000Z",
-      "source": "The Center Square",
+      "source": "thecentersquare.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1425,22 +1425,6 @@
       "tickers": []
     },
     {
-      "id": "391d354654f4",
-      "time": "2026-08-13T18:54:43.000Z",
-      "source": "Reuters",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium says LSD-based pill reduces anxiety in late-stage study",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaVJtXzlnUVdYbzdUUzhnSmFFSFB6dm9sNS0wdi1WMjZWc1JvZVlXdVFHcmNZUGROUi1ZcDAxYWl4TlQ5dWJGUGZycHFnLWRvS0xOcTlNWW5VYlU3Y09DT3g2ZDNqNDJrS0p1LTBrSTRzR1VXMkdROTRZeWVHQ2F5QWJyQ0tvS0xacmVSMENrdDVnWUZwa3JDcmNUb0xaM0gzbU1CaW9pUEpRR2N1bUszUnZGVFlPcHNiM3VPVk9mTjBjdEFKc2gyWVFVd2xydw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "9163bcac1ea6",
       "time": "2026-08-13T18:27:52.000Z",
       "source": "MarketBeat",
@@ -1484,6 +1468,22 @@
       "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcFY3a2FqR2YzTVg1MjVvbGkwOHlwMnl5LVJyemlHejI3UEZvQjJ4RnVRa0lURmJ6NXpldFF4VzFob2U1dGRMeVI3MTNtekVpNTVTbm9hRzhjZEs2NHV2Tlg1LVNsbldxNWdTN3pKMW9VQkxEN0VQZ2plZncyRVQ2ZW5IVG1fLV8zUWdteDFiSjNnSFFmSmZNX3g4TzZGS19fU05VUEJxYmNHX1J5RzkxS2VBVTVsdVJtWVUyMklPSXVZREdwakt5X2FISktxeDVzQWkzeG1hWnlRUGl6aDdSZ09CellzazdkSWVnMjQ0Uzl5NmhzSUNfMTFlam1aTTZaTnNMUWJUc3A?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "e6607dce28a7",
+      "time": "2026-08-13T17:15:38.000Z",
+      "source": "Traders Union",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Definium Therapeutics advances pivotal Phase 3 Voyage trial in generalized anxiety disorder",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTHpXVF85VzRSZ25VSnhUajJHSEJSUkhPeVU2bmZENFhvYloza1R3TWRWWXZxc2stQk1Yb3IwNTNUY1VER1BjTENTM0lMUDh6R3BEVkt2LS1IQzQ3bjNKZ0oxOEF0UkxpYmlWQ2ZQMGdRUmpSNHpsMG4tUUtvbUtNQVdPVWt0R1U?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
