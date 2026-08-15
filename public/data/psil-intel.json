@@ -1,24 +1,24 @@
 {
-  "updated": "2026-08-15T07:07:46.496Z",
+  "updated": "2026-08-15T07:42:23.148Z",
   "counts": {
     "total": 95,
     "crit": 13,
     "warn": 17,
     "bySource": {
       "Fierce Biotech": 1,
+      "sharewise.com": 1,
       "MarketBeat": 9,
       "Moomoo": 1,
       "FinancialContent": 1,
-      "Yahoo Finance": 5,
       "Glide Magazine": 1,
       "Stock Titan": 16,
       "AlphaStreet": 1,
       "TipRanks": 3,
       "AspenTimes.com": 1,
-      "elkhornmediagroup.com": 1,
+      "Elkhorn Media Group": 1,
       "Alexandria Echo Press": 1,
       "Behavioral Health Business": 1,
-      "AOL.com": 1,
+      "aol.com": 1,
       "finance.biggo.com": 1,
       "Investing.com": 1,
       "cbs42.com": 1,
@@ -32,7 +32,7 @@
       "TradingView": 5,
       "GuruFocus": 2,
       "scanx.trade": 1,
-      "Investing.com Canada": 1,
+      "Investing.com UK": 1,
       "Quiver Quantitative": 3,
       "The Manila Times": 1,
       "Yahoo! Finance Canada": 1,
@@ -41,6 +41,7 @@
       "Axios": 1,
       "kalkine.ca": 1,
       "Wicked Local": 1,
+      "Yahoo Finance": 4,
       "geneonline.com": 1,
       "BioSpace": 1,
       "New Noise Magazine": 1,
@@ -54,7 +55,7 @@
       "Psychedelic Alpha": 1,
       "Traders Union": 1,
       "theprogressiveaspect.net": 1,
-      "clinicaltrialvanguard.com": 1,
+      "The Clinical Trial Vanguard": 1,
       "JD Supra": 1,
       "Stocktwits": 1,
       "STAT News": 3,
@@ -68,7 +69,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-15T07:07:45.483Z",
+      "time": "2026-08-15T07:42:22.035Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -79,6 +80,22 @@
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
       "tickers": []
+    },
+    {
+      "id": "6ed81b91a807",
+      "time": "2026-08-15T07:38:47.000Z",
+      "source": "sharewise.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals, Inc. (NRXP) Reports Q2 Loss, Misses Revenue Estimates",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOX0VYTWZ6eTNZQ2V0TmFJdGkxcVloMHNBeHd1aGpYWUxKUVBzdTktQlVyNUMyaldqTWR5ajdzTUR1N01Ic3NkcTVhblJzbG1WNUtwTllGMnVUVEkxYlRFYlJNRzA2UVVwX2tVOHNjeEFEWmxTSXlOLWdqQk14UWp3dkVDN3djWlN4MzREX0VhSjJvRFA4QmZPTjllcUk3VThBVXN0UENkYUlfdWFsOVByM2hwYkZib1pDU1ZMcmMxU1gtZ0UtUFJtOVlMTnQ?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
     },
     {
       "id": "80796ad1c153",
@@ -138,22 +155,6 @@
       "impact": "MED",
       "title": "NRx Pharmaceuticals (NASDAQ:NRXP) Issues Earnings Results, Misses Estimates By $0.35 EPS",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMURpOFZ1RXZ1WE1hWkZTZ2tPWHFQRnYyRnZsR044bG1BMS03V0JjWHNvWUJtTTY3TlF0M3Vmazl5YktBVmRPMGQ1Q0lyQTE4dUhGLXV3Wmo1cy10enh3d3c4OEFOMTBZclU3d25xalRVbjVFRHNRSHYwbnVXUXRTZVl0aGVzeXEwY3Y3YzlhTUhQRkFsbzBKS3Y3YkRqcnZvTHNILUc5dDlHdjl2ZVFSNjFvUGMza1VMUkFvd2x5RklEYkwxODNfZkttRExLMTRVM1E?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "887fcae85ce5",
-      "time": "2026-08-15T00:15:00.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "NRx Pharmaceuticals, Inc. (NRXP) Reports Q2 Loss, Misses Revenue Estimates",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjQ5MjlfbHNoU25xLVJoMDc2Nm82dGV2ekp3S3c5S3B5VXdIYllYVWIyUEwwcTBGVXRsbHVnbHlLN01UQUJ6NTRvanRGM3Bzbzlsdk1EYzZsOVBOa2ExRVVCLTRwYXJWWTMzQkZwYjBEODYxeEVadWFPdkc0cHRWZUcwTzUwUURNMm1WSmJRdzhGd2VwX2FESWdSeEJHUQ?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -269,7 +270,7 @@
     {
       "id": "2c75fff871c8",
       "time": "2026-08-14T20:58:37.000Z",
-      "source": "elkhornmediagroup.com",
+      "source": "Elkhorn Media Group",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -407,7 +408,7 @@
     {
       "id": "02e3f652fd8c",
       "time": "2026-08-14T19:52:35.000Z",
-      "source": "AOL.com",
+      "source": "aol.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -652,9 +653,9 @@
       ]
     },
     {
-      "id": "564acb1c9f3b",
-      "time": "2026-08-14T12:48:55.000Z",
-      "source": "Investing.com Canada",
+      "id": "6b37b30b8fb0",
+      "time": "2026-08-14T12:46:00.000Z",
+      "source": "Investing.com UK",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -662,7 +663,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Form 8K VistaGen Therapeutics Inc For: 14 August By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMndFV29VbUF6UnJrS2JTNVhpTEhnd1UxcFRFbDExdUtTS1ZSeU5rMk1tM1B0V1dHN1JKdEVtNUdWVEJrdmRJZ0ZGODdsZkxhRXVKam5US0dWU2I0MXZ6dWIxMkM4STkzX3luQUx0dzl2QWd4V0FaaVBDMU05Z1lmX3NVV2dmTDgtUVBuSk4yU2dJdVNEWTctbU96WVJKbXRTQTRnTFkwS1lYVjZy?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3Q3dUNmcWdmbnQxeUJMckJjU2JiNS1reWJ4Um8zWFc1TjlMX1JUdnhjVWQ1QlVhcF9UVlp3NDU2Rm5HOHBDT3ltQm5zWVc3U1pwQ0czRUpUYkZ6RDhEU3pkNUNsazA5ZGxmVUZKUTh2ZWdNcVo2M3VQM0lWN3Y5eGJYcTRUalE4S1FYY1dwblRLNWdlY0RRR3ZGRUl0SmNDSVN5SDZ6STlqR3Bx?oc=5",
       "tickers": [
         "VTGN"
       ]
@@ -1396,7 +1397,7 @@
     {
       "id": "24ea7a5da52d",
       "time": "2026-08-13T16:14:20.000Z",
-      "source": "clinicaltrialvanguard.com",
+      "source": "The Clinical Trial Vanguard",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
