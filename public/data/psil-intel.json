@@ -1,20 +1,22 @@
 {
-  "updated": "2026-08-14T23:55:05.425Z",
+  "updated": "2026-08-15T01:47:36.065Z",
   "counts": {
     "total": 95,
     "crit": 14,
-    "warn": 15,
+    "warn": 16,
     "bySource": {
       "Fierce Biotech": 1,
+      "MarketBeat": 9,
+      "Yahoo Finance": 5,
       "Glide Magazine": 1,
       "Stock Titan": 16,
       "TipRanks": 3,
       "AspenTimes.com": 1,
-      "marketbeat.com": 9,
       "Elkhorn Media Group": 1,
       "Alexandria Echo Press": 1,
       "Behavioral Health Business": 1,
-      "AOL.com": 1,
+      "aol.com": 1,
+      "finance.biggo.com": 1,
       "AlphaStreet": 1,
       "Investing.com": 1,
       "Yahoo": 1,
@@ -23,24 +25,23 @@
       "Missouri Independent": 1,
       "AD HOC NEWS": 1,
       "Forbes": 1,
-      "The Business Journals": 1,
+      "bizjournals.com": 1,
       "TradingView": 5,
       "GuruFocus": 2,
       "scanx.trade": 1,
-      "Investing.com UK": 1,
+      "Investing.com Canada": 1,
       "Quiver Quantitative": 3,
       "The Manila Times": 1,
       "Yahoo! Finance Canada": 1,
       "marketscreener.com": 2,
-      "audacy.com": 1,
+      "Audacy": 1,
       "Axios": 1,
       "kalkine.ca": 1,
-      "Yahoo Finance": 4,
       "geneonline.com": 1,
-      "BioSpace": 1,
+      "biospace.com": 1,
       "New Noise Magazine": 1,
       "FirstWord Pharma": 2,
-      "NEWStalk 870": 1,
+      "newstalk870.am": 1,
       "The Center Square": 1,
       "Nautilus | Science": 1,
       "FOX 35 Orlando": 1,
@@ -51,14 +52,12 @@
       "theprogressiveaspect.net": 1,
       "The Clinical Trial Vanguard": 1,
       "JD Supra": 1,
-      "stocktwits.com": 1,
+      "Stocktwits": 1,
       "simplywall.st": 1,
       "STAT": 1,
       "STAT News": 3,
       "ClayCoNews": 1,
       "The New York Times": 1,
-      "Fierce Pharma": 1,
-      "insights.citeline.com": 1,
       "Endpoints": 1
     },
     "byTier": {
@@ -69,7 +68,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-14T23:55:01.852Z",
+      "time": "2026-08-15T01:47:34.763Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -80,6 +79,38 @@
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
       "tickers": []
+    },
+    {
+      "id": "6289f6a8f61d",
+      "time": "2026-08-15T00:44:19.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "NRx Pharmaceuticals (NASDAQ:NRXP) Issues Earnings Results, Misses Estimates By $0.35 EPS",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMURpOFZ1RXZ1WE1hWkZTZ2tPWHFQRnYyRnZsR044bG1BMS03V0JjWHNvWUJtTTY3TlF0M3Vmazl5YktBVmRPMGQ1Q0lyQTE4dUhGLXV3Wmo1cy10enh3d3c4OEFOMTBZclU3d25xalRVbjVFRHNRSHYwbnVXUXRTZVl0aGVzeXEwY3Y3YzlhTUhQRkFsbzBKS3Y3YkRqcnZvTHNILUc5dDlHdjl2ZVFSNjFvUGMza1VMUkFvd2x5RklEYkwxODNfZkttRExLMTRVM1E?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "887fcae85ce5",
+      "time": "2026-08-15T00:15:00.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals, Inc. (NRXP) Reports Q2 Loss, Misses Revenue Estimates",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjQ5MjlfbHNoU25xLVJoMDc2Nm82dGV2ekp3S3c5S3B5VXdIYllYVWIyUEwwcTBGVXRsbHVnbHlLN01UQUJ6NTRvanRGM3Bzbzlsdk1EYzZsOVBOa2ExRVVCLTRwYXJWWTMzQkZwYjBEODYxeEVadWFPdkc0cHRWZUcwTzUwUURNMm1WSmJRdzhGd2VwX2FESWdSeEJHUQ?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
     },
     {
       "id": "ce94a8b8c5a0",
@@ -160,7 +191,7 @@
     {
       "id": "33eec904aa7d",
       "time": "2026-08-14T21:25:54.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -314,7 +345,7 @@
     {
       "id": "02e3f652fd8c",
       "time": "2026-08-14T19:52:35.000Z",
-      "source": "AOL.com",
+      "source": "aol.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -328,9 +359,25 @@
       ]
     },
     {
+      "id": "9edc6a7cb6a1",
+      "time": "2026-08-14T18:55:00.000Z",
+      "source": "finance.biggo.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics' Voyage Trial Success Reshapes Valuation Debate for Anxiety Drug",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pS3U1MFlJSGlNZ3VhOWxtN05MVUYxanQ5dXZLTVp6am05bEhZY19nNXlaYzhqNi1UWWJqVENBcG5YMHVKaEZFUUhLVXl4dk1VQkdON0NrSnBsWXlfWDlhVjVtaGc4STNxR3hMZ242QzFzRnNSLXc?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "862df95ecac5",
       "time": "2026-08-14T18:03:47.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -466,7 +513,7 @@
     {
       "id": "cab7f1dc2d8d",
       "time": "2026-08-14T13:45:00.000Z",
-      "source": "The Business Journals",
+      "source": "bizjournals.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -545,9 +592,9 @@
       ]
     },
     {
-      "id": "6b37b30b8fb0",
-      "time": "2026-08-14T12:46:00.000Z",
-      "source": "Investing.com UK",
+      "id": "564acb1c9f3b",
+      "time": "2026-08-14T12:48:55.000Z",
+      "source": "Investing.com Canada",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -555,7 +602,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Form 8K VistaGen Therapeutics Inc For: 14 August By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3Q3dUNmcWdmbnQxeUJMckJjU2JiNS1reWJ4Um8zWFc1TjlMX1JUdnhjVWQ1QlVhcF9UVlp3NDU2Rm5HOHBDT3ltQm5zWVc3U1pwQ0czRUpUYkZ6RDhEU3pkNUNsazA5ZGxmVUZKUTh2ZWdNcVo2M3VQM0lWN3Y5eGJYcTRUalE4S1FYY1dwblRLNWdlY0RRR3ZGRUl0SmNDSVN5SDZ6STlqR3Bx?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMndFV29VbUF6UnJrS2JTNVhpTEhnd1UxcFRFbDExdUtTS1ZSeU5rMk1tM1B0V1dHN1JKdEVtNUdWVEJrdmRJZ0ZGODdsZkxhRXVKam5US0dWU2I0MXZ6dWIxMkM4STkzX3luQUx0dzl2QWd4V0FaaVBDMU05Z1lmX3NVV2dmTDgtUVBuSk4yU2dJdVNEWTctbU96WVJKbXRTQTRnTFkwS1lYVjZy?oc=5",
       "tickers": [
         "VTGN"
       ]
@@ -800,7 +847,7 @@
     {
       "id": "466015aa1a35",
       "time": "2026-08-14T11:35:00.000Z",
-      "source": "audacy.com",
+      "source": "Audacy",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -830,7 +877,7 @@
     {
       "id": "f0647671b4e4",
       "time": "2026-08-14T11:12:07.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -860,7 +907,7 @@
     {
       "id": "84b8b8b2a8f1",
       "time": "2026-08-14T09:43:17.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -892,7 +939,7 @@
     {
       "id": "15b4b8966372",
       "time": "2026-08-14T07:46:02.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -907,7 +954,7 @@
     },
     {
       "id": "cfac15541510",
-      "time": "2026-08-14T06:10:00.000Z",
+      "time": "2026-08-14T06:10:31.000Z",
       "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -940,7 +987,7 @@
     {
       "id": "f411d28fa579",
       "time": "2026-08-14T04:16:19.000Z",
-      "source": "BioSpace",
+      "source": "biospace.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1017,7 +1064,7 @@
     {
       "id": "b394a6db3149",
       "time": "2026-08-13T21:49:40.000Z",
-      "source": "NEWStalk 870",
+      "source": "newstalk870.am",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1059,7 +1106,7 @@
       ]
     },
     {
-      "id": "b87b8b753bbb",
+      "id": "11c11ae61c4c",
       "time": "2026-08-13T20:52:00.000Z",
       "source": "Quiver Quantitative",
       "sourceKind": "gnews",
@@ -1069,7 +1116,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Fund Update: New $18.0M $CMPS stock position opened by Candriam S.C.A.",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWHJhTFUtZVBZRm4ybGZLWHdRcmlhRHlIS3lxRFBOV3NyUEloR2NWVnU0cURfS1pMT2hjVDItZDhvbzZxYVZZT1JYM0g0dHNidkN5VkVVZFUyZlVyYl9oVkdhWFlITFc0dTNkaVdSOFNmblRoMk5sb2Y0bi0zTjRUTEZGQTJKbExnZDNyUElsa1gtR0YzNmVpNThQcUtzaEg5b2JWWWN0elFFZEs2cmc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVDhGdE5HZVdCZkJXemRwdW5RdC0xWmdBYnFldkRNS3dqSHhDYkFlTXdNT2cwUUFUazFUY2czcHpySTYzNUdKMG9nVEtCVGNWU2dFYTliQ3FuSnNTeTlLVmpVems5TjlxZGRTUDhkMUJ2M21tT2ViZHYzSHh3ZGhXVDFQcHVJT3FUVXVaWjNDRGlWTUJuUVlXTzAwajY1MnpZaEJWQlhFbzNESXNi?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -1123,7 +1170,7 @@
       ]
     },
     {
-      "id": "c041e42fccd1",
+      "id": "33733c1091d9",
       "time": "2026-08-13T20:00:00.000Z",
       "source": "Nautilus | Science",
       "sourceKind": "gnews",
@@ -1133,7 +1180,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "The Quest to Understand the Forgotten Psychedelic",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUTZLRVM0enlDMjltalhUVnpHSG5Kd2N4Ymc1ZTBBMjZOUTlzcHRtTjdjcUVTc3NUZ3dvN0Q2MVBRZVIwTVc3cmZWQWw1cXpLYzdQZXN5cXQ3QjJyS3Zrb1Y2eEo1aXRXNXdZNkVXQ1ZkQVdQbmczT3JmcTJ1cjREdUJ3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUnNpTTV4TVVMMDhucEFvYnVYQmRHYkpNcHJXWmV1VnBjWDZJS1ROTHFIVUNaRFdPUzF4bVJ4bllqekVuUFo4YXJYYVRSaGVjQ0d0QU1teURYTkV3ZmhCby1VNGJLNExzUEhUNDdYOG9xQS1qNUpVMGZXVWdOSTJZaw?oc=5",
       "tickers": []
     },
     {
@@ -1181,7 +1228,7 @@
     {
       "id": "9163bcac1ea6",
       "time": "2026-08-13T18:27:52.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1319,7 +1366,7 @@
     {
       "id": "428d2c7b5113",
       "time": "2026-08-13T15:38:31.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1335,7 +1382,7 @@
     {
       "id": "b6a3069ffea5",
       "time": "2026-08-13T15:33:14.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1367,7 +1414,7 @@
     {
       "id": "f51647faf3e8",
       "time": "2026-08-13T15:13:48.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1439,54 +1486,6 @@
       "title": "Video: Opinion | Bryan Johnson’s Psychedelic Experience",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVkJ1UmRSZ2hoVGxxaUJ6aUhDT1ZQWVFiTl9pTEd0d1piclJSX2FjVUFWdGVrNVQxaDgzQUJCbUIzUGtCRmphWnFkaDFlbWxrbEpDbzM3bVRXYXRjN0JzZlpkNFhpWUxDVWZWNWhIQ1lkbUwtOUNHU0R1Sm5TQXphZGFidGdjcTgxbVRYaGJZRVRwQ0h0Y3ZnTFlFSEU?oc=5",
       "tickers": []
-    },
-    {
-      "id": "2ab76013d8dc",
-      "time": "2026-08-13T13:55:34.000Z",
-      "source": "marketbeat.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics (NASDAQ:DFTX) Price Target Raised to $72.00 at Wells Fargo & Company",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUVg5VUdWdFQ5TEg4QXFEVnFPUE96YlV4TElUc3lQdEF2MnBLM3B2TWtJQUtHM21qMGFudVZjdEI2VlFHQ25TcW5yWXNvVmRhZVd5clgyRTFPa3hRWGEtU19NX3ViUXNGVFhpdUhqYjdMMjE1c2pJN2hWNVY3bGdiVkY1bXNmQnN1TVVTY0poZ2NjRUJYR0o4eDNBNzlzbmU0ZTVHczM2UFYtNjA5T1BtWGtSQnJhczViZmR5Y3dNdVZMd2s4MzZSTXpRN3dTMUxESTRV?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "f2930b39de23",
-      "time": "2026-08-13T13:40:54.000Z",
-      "source": "Fierce Pharma",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine stands by blockbuster hopeful Vykat XR as Prader-Willi docs raise potential safety flags",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeWU4R1hoVEpaMXhxeGZUbEpQU3hxZlhpTUNEY3MxSTI5Y0NqVVl2TGJIdERLOVRCMmhyMjN1LTVraTFWdk1iaHYyUDJVaENYYVRfQzhnejlTVk1aSExaUUJWd1F5eXNjUEctVmpZOExhX01wanJxM1VQTmlFMWlvU2JBWGJXeXRlaG9zYVlKMEpXVjU4Z0NMY1h1WmRHbjBTemdNa2dqbTY2T1ZFdHNZQmVjUG9hUzUyeFlBeXgxc3VHUEliV1E?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "07596a0fe840",
-      "time": "2026-08-13T13:37:58.000Z",
-      "source": "insights.citeline.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Vykat Safety Concerns Take Shine Off Neurocrine Soleno Buy",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOcDBydkFyQ0k3V2F5UnltR1ZfV0FpcXc4dTg3Ukk2YTBDQlFDTmt3UWdoTEpESTNqcmVONk1NUUxiY2QxajJ4M2VmV1dPRllGbjJtSF85Qng5eWhzUDdSa0pIeDFUM0EzbFlXZXNnN2h5d0QzcC1kQWtSWFVScm5qRXhxYW04OUw0dEl5cmozTldZbkg4SERWVHZXS3N2RjVQQzlEd3pleXlWeVdtNVZ5d01zbjZoMXVSYWhzYTFtY0JRZ1hmcU9mWlBJeXB1MXhCc3c?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
     },
     {
       "id": "0808f93ecac7",
