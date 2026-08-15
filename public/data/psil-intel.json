@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T18:09:13.248Z",
+  "updated": "2026-08-15T18:45:53.670Z",
   "counts": {
     "total": 96,
     "crit": 12,
@@ -7,13 +7,14 @@
     "bySource": {
       "Fierce Biotech": 1,
       "The Clinical Trial Vanguard": 1,
-      "MarketBeat": 11,
+      "MarketBeat": 10,
       "Ynetnews": 1,
       "Endpoints": 2,
+      "WXYZ 7 News Detroit": 1,
       "Beijing Times": 1,
       "sharewise.com": 1,
-      "Moomoo": 1,
-      "FinancialContent": 1,
+      "Moomoo": 2,
+      "Barchart.com": 1,
       "Glide Magazine": 1,
       "Stock Titan": 17,
       "AlphaStreet": 1,
@@ -21,12 +22,12 @@
       "AspenTimes.com": 1,
       "Elkhorn Media Group": 1,
       "Alexandria Echo Press": 1,
-      "Behavioral Health Business": 1,
+      "bhbusiness.com": 1,
       "marketscreener.com": 4,
-      "AOL.com": 1,
+      "aol.com": 1,
       "finance.biggo.com": 1,
       "Investing.com": 1,
-      "Yahoo": 1,
+      "yahoo.com": 1,
       "Pluang": 2,
       "The Microdose | Substack": 1,
       "Missouri Independent": 1,
@@ -47,12 +48,11 @@
       "Wicked Local": 1,
       "Yahoo Finance": 2,
       "geneonline.com": 1,
-      "BioSpace": 1,
+      "biospace.com": 1,
       "New Noise Magazine": 1,
       "FirstWord Pharma": 2,
-      "NEWStalk 870": 1,
       "The Center Square": 1,
-      "Nautilus | Science": 1,
+      "nautil.us": 1,
       "LiveNOW from FOX": 1,
       "The Maine Wire": 1,
       "ABC News & Headlines – Australian Broadcasting Corporation": 1,
@@ -67,7 +67,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-15T18:09:08.947Z",
+      "time": "2026-08-15T18:45:52.909Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -156,6 +156,20 @@
       ]
     },
     {
+      "id": "da779a0226d3",
+      "time": "2026-08-15T09:15:00.000Z",
+      "source": "WXYZ 7 News Detroit",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Detroit Bass Day returns on Saturday, August 15th",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcm1wNm5KbUxRYlZsWk9scFVfaUlvdG0teHdGdng5N1RjbnVBRlhtM3hlNFlqVlZhZlRQZ0tkMzhJdUNNVFpNWGp4MWxtOWQxb2F3WndPQ3NDT2t3NzdBM1dYcUpLeExqZUlmRld1NmszVEMyZWdmUVQ0QnVWRENzdGFvX1ZjeHFOSW93R0hSeHR1a00?oc=5",
+      "tickers": []
+    },
+    {
       "id": "06d588ce6893",
       "time": "2026-08-15T07:56:25.000Z",
       "source": "MarketBeat",
@@ -220,6 +234,22 @@
       ]
     },
     {
+      "id": "9e997bfd65ca",
+      "time": "2026-08-15T04:24:28.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Vistagen Therapeutics: Runway To Fund Operations Into 2027 >VTGN",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS3pkQzZuZjhuME8tb2xKalhKR2U5eHFNU0pzTDJ3V1l2bUQ3R09SbVZjcG5FRVNvXzBPOUlWM2NXTDd3WUgyakgtX1AxcWRsYmVycExHVjhFUkZuYUlmREN2RHpKX0xVYUotWWUtUDBtVGZVeEl3ZkI3MDBXQW9mY2szeU1DRmRaNm1tNXFLVWhYUzV0MTRoN1RrQ1JIV1Y5THJMZkdMbw?oc=5",
+      "tickers": [
+        "VTGN"
+      ]
+    },
+    {
       "id": "b45e65535361",
       "time": "2026-08-15T03:28:44.000Z",
       "source": "Moomoo",
@@ -236,9 +266,9 @@
       ]
     },
     {
-      "id": "6cf5d6c234e9",
-      "time": "2026-08-15T02:30:00.000Z",
-      "source": "FinancialContent",
+      "id": "df6b269a6eba",
+      "time": "2026-08-15T02:40:03.000Z",
+      "source": "Barchart.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -246,7 +276,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Ibogaine by David Dardashti Proposes Medical Off-Ramp for Displaced Kratom Users Amid Global Bans, Urges Expansion of Right to Try Policy",
-      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPMDNWU2N3ekdCTGdyNkNWbThKM2xrcmJSWkloOEIycE5FRmc1Y1lvY0REb0ZZMEpRUG05b21FQ1otRnFWcjd5WERBRjNGcnF2ZE14amlRdkJ4dUJlOU0zU2NnUEhaUDNyV0padHFiUWFRbnowT05RZEJOYnMyQWNWLWt1WmRpVVp4UXJ2anE2Y3IzYm1PdmFuNy0yU3Q5c2wtWFk0MUdqYnVPRjExZHdVMHlJLWNqWG53cU1PNUNvY2VZdFZyVHlZS3RLNVlmRVRtVElIR0gwZ3UyWWlJMm13aHlfazlRbU1IbExsQTV0VHk5cVAtT0NuY1huRmtnaXVIT0U4RVNGcTFfSW1IYWp4ZTJhbGFjQl9FYzM5RzUyM1NRem9P?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOSzVuOGR2SXo0QTBFbUltbmIwcUI1SUEwcmNBQmNoS1BIVi1uMHZ5S1hhSExDOUwtU2oxVEw1MTdxYmJKU2pFQlMwb28tMDczYndnMWRSaDVCZ3NBWlZIN3N2Z0d6SHdiZWh6THpwRlpYSmRGTjBMbS0zRUdicWVCMklrZzZheEtXM1dBdEpJWk40aGpaUmx3MldYZGhpVGh3X1pvSFZGMkw1ZEdQQkl3MkNSallWYzNuWW15YWlraFZQRkc5NTFCZjJjVXUzcVRDRDBYMzE3UEF3M0REb0xYNVphMFdBdzlLMjVJOGdoWmFOcDhENDhxbUJDNGlTNFBpaTVqWmVRVnB5RU0?oc=5",
       "tickers": []
     },
     {
@@ -452,7 +482,7 @@
     {
       "id": "ad3ef1188bbd",
       "time": "2026-08-14T20:20:15.000Z",
-      "source": "Behavioral Health Business",
+      "source": "bhbusiness.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -530,7 +560,7 @@
     {
       "id": "02e3f652fd8c",
       "time": "2026-08-14T19:52:35.000Z",
-      "source": "AOL.com",
+      "source": "aol.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -594,7 +624,7 @@
     {
       "id": "9a18d9c8e987",
       "time": "2026-08-14T16:08:49.000Z",
-      "source": "Yahoo",
+      "source": "yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1218,7 +1248,7 @@
     {
       "id": "f411d28fa579",
       "time": "2026-08-14T04:16:19.000Z",
-      "source": "BioSpace",
+      "source": "biospace.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1291,20 +1321,6 @@
         "DRUG",
         "NBIX"
       ]
-    },
-    {
-      "id": "b394a6db3149",
-      "time": "2026-08-13T21:49:40.000Z",
-      "source": "NEWStalk 870",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Moses Lake Street Crimes Unit Serves Warrant on Hill Street, Finds Four Guns and Psilocybin Mushrooms",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zeTFqdXdiVUd4WjJELUVNU0VDX0tKRXRoNHRGTWNUc0JLTF9pY2dmZ2lYUDdlNmdpSW5OdGdaOGlwdkVpUjZrSXBYenVTX3JmWXZTTU5LZ1Izdk1kdVZ2NDloMWZsR2hUOVBwT3NFSmRtaC1JWGJCY0dR?oc=5",
-      "tickers": []
     },
     {
       "id": "61e72950a6e0",
@@ -1403,7 +1419,7 @@
     {
       "id": "33733c1091d9",
       "time": "2026-08-13T20:00:00.000Z",
-      "source": "Nautilus | Science",
+      "source": "nautil.us",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1468,22 +1484,6 @@
       "impact": "LOW",
       "title": "Definium says LSD-based pill reduces anxiety in late-stage study",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNaVJtXzlnUVdYbzdUUzhnSmFFSFB6dm9sNS0wdi1WMjZWc1JvZVlXdVFHcmNZUGROUi1ZcDAxYWl4TlQ5dWJGUGZycHFnLWRvS0xOcTlNWW5VYlU3Y09DT3g2ZDNqNDJrS0p1LTBrSTRzR1VXMkdROTRZeWVHQ2F5QWJyQ0tvS0xacmVSMENrdDVnWUZwa3JDcmNUb0xaM0gzbU1CaW9pUEpRR2N1bUszUnZGVFlPcHNiM3VPVk9mTjBjdEFKc2gyWVFVd2xydw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "9163bcac1ea6",
-      "time": "2026-08-13T18:27:52.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics (NASDAQ:DFTX) Price Target Raised to $90.00 at JonesTrading",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdmFkWk1tUVc5OVBNUWJDUTQ4UkVrZzN1X1ctcDdGNnJaT3BzVm9QOHFqQVNQYnNVSmNtbnpBZ0RIRVFMWUdoeW5EMF9qdDVhWmRFSHFoV0JTb3k0V0RSRlBTcENVdnBCTFBsN1ktV3dUMzZCblI1dEdJZHhCS3dPSUl1VU1ia2IzOEg1S2UwdUlfR1Zidmx5VnNESW81akp5MTlCV3dEb1hiN3VRQi1zY1h5dTRPbld1cDViaWVWQ0w3N2lSd3NzR3Zn?oc=5",
       "tickers": [
         "DRUG"
       ]
