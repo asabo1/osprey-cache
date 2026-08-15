@@ -1,21 +1,23 @@
 {
-  "updated": "2026-08-15T05:11:35.262Z",
+  "updated": "2026-08-15T05:40:52.272Z",
   "counts": {
     "total": 95,
     "crit": 14,
-    "warn": 16,
+    "warn": 17,
     "bySource": {
       "Fierce Biotech": 1,
-      "MarketBeat": 9,
+      "MarketBeat": 10,
+      "Moomoo": 1,
+      "FinancialContent": 1,
       "Yahoo Finance": 5,
       "Glide Magazine": 1,
       "Stock Titan": 16,
       "TipRanks": 3,
       "AspenTimes.com": 1,
-      "Elkhorn Media Group": 1,
+      "elkhornmediagroup.com": 1,
       "Alexandria Echo Press": 1,
       "Behavioral Health Business": 1,
-      "AOL.com": 1,
+      "aol.com": 1,
       "finance.biggo.com": 1,
       "AlphaStreet": 1,
       "Investing.com": 1,
@@ -29,20 +31,19 @@
       "TradingView": 5,
       "GuruFocus": 2,
       "scanx.trade": 1,
-      "Investing.com Canada": 1,
-      "Quiver Quantitative": 3,
-      "The Manila Times": 1,
+      "Investing.com UK": 1,
+      "quiverquant.com": 3,
+      "manilatimes.net": 1,
       "Yahoo! Finance Canada": 1,
       "marketscreener.com": 2,
       "Audacy": 1,
       "Axios": 1,
       "kalkine.ca": 1,
-      "wickedlocal.com": 1,
+      "Wicked Local": 1,
       "geneonline.com": 1,
       "BioSpace": 1,
-      "newnoisemagazine.com": 1,
+      "New Noise Magazine": 1,
       "FirstWord Pharma": 2,
-      "NEWStalk 870": 1,
       "The Center Square": 1,
       "Nautilus | Science": 1,
       "FOX 35 Orlando": 1,
@@ -55,9 +56,7 @@
       "JD Supra": 1,
       "Stocktwits": 1,
       "simplywall.st": 1,
-      "STAT": 1,
       "STAT News": 3,
-      "ClayCoNews": 1,
       "Endpoints": 1
     },
     "byTier": {
@@ -68,7 +67,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-15T05:11:31.043Z",
+      "time": "2026-08-15T05:40:50.732Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -78,6 +77,52 @@
       "impact": "HIGH",
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
+      "tickers": []
+    },
+    {
+      "id": "80796ad1c153",
+      "time": "2026-08-15T05:28:52.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "NRx Pharmaceuticals (NASDAQ:NRXP) Downgraded to \"Sell\" Rating by Wall Street Zen",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczJ4LVFRMzFOSDFkYXdYWXNFLWN2X180bXo0TG1FMmE5M2tzc3VtdDI0RzlWQ1Zwc3p0TzEwVlF0WUItTWFpejZsN3NJUXdZaVpscXV2TVd6RE5mUVRvaE9icHZoRHJKdUROczM1dWc1SEZiUnQzZ1h4M3hEbVpvYVc3c3dTYXNtTmV3UUVuaWFweE5Ec3lqYTNuR3NpZ3RPaU5iNTBqYWNtc180T1hsRXY0WDZUQUg2dUJXLUV1WWtYVFR1RXRsVA?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "b45e65535361",
+      "time": "2026-08-15T03:28:44.000Z",
+      "source": "Moomoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "William Blair Maintains VistaGen Therapeutics(VTGN.US) With Hold Rating",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDdkZGNjV3U0VWJVeEdCTEZhZXJnN1d2d1gzMW5MRDZKQjlLRFBkajNYTER3U1E0V3RkZDFoa3dVTlVDb2xiZlM5S29tV29PUU5JajlFeDQzQ29XT24xRTIzeVJYekpheDNxR3F2R01WUjRZSVAxUW5FZ05MMk1wb25RS0YyRkEwV1ozWnNZeWFQUEpjVkd4dUV6R0FlZEZtbjk4VExhM1FQdnVnTWUzVg?oc=5",
+      "tickers": [
+        "VTGN"
+      ]
+    },
+    {
+      "id": "6cf5d6c234e9",
+      "time": "2026-08-15T02:30:00.000Z",
+      "source": "FinancialContent",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Ibogaine by David Dardashti Proposes Medical Off-Ramp for Displaced Kratom Users Amid Global Bans, Urges Expansion of Right to Try Policy",
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPMDNWU2N3ekdCTGdyNkNWbThKM2xrcmJSWkloOEIycE5FRmc1Y1lvY0REb0ZZMEpRUG05b21FQ1otRnFWcjd5WERBRjNGcnF2ZE14amlRdkJ4dUJlOU0zU2NnUEhaUDNyV0padHFiUWFRbnowT05RZEJOYnMyQWNWLWt1WmRpVVp4UXJ2anE2Y3IzYm1PdmFuNy0yU3Q5c2wtWFk0MUdqYnVPRjExZHdVMHlJLWNqWG53cU1PNUNvY2VZdFZyVHlZS3RLNVlmRVRtVElIR0gwZ3UyWWlJMm13aHlfazlRbU1IbExsQTV0VHk5cVAtT0NuY1huRmtnaXVIT0U4RVNGcTFfSW1IYWp4ZTJhbGFjQl9FYzM5RzUyM1NRem9P?oc=5",
       "tickers": []
     },
     {
@@ -207,7 +252,7 @@
     {
       "id": "2c75fff871c8",
       "time": "2026-08-14T20:58:37.000Z",
-      "source": "Elkhorn Media Group",
+      "source": "elkhornmediagroup.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -345,7 +390,7 @@
     {
       "id": "02e3f652fd8c",
       "time": "2026-08-14T19:52:35.000Z",
-      "source": "AOL.com",
+      "source": "aol.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -592,9 +637,9 @@
       ]
     },
     {
-      "id": "564acb1c9f3b",
-      "time": "2026-08-14T12:48:55.000Z",
-      "source": "Investing.com Canada",
+      "id": "6b37b30b8fb0",
+      "time": "2026-08-14T12:46:00.000Z",
+      "source": "Investing.com UK",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -602,7 +647,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Form 8K VistaGen Therapeutics Inc For: 14 August By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMndFV29VbUF6UnJrS2JTNVhpTEhnd1UxcFRFbDExdUtTS1ZSeU5rMk1tM1B0V1dHN1JKdEVtNUdWVEJrdmRJZ0ZGODdsZkxhRXVKam5US0dWU2I0MXZ6dWIxMkM4STkzX3luQUx0dzl2QWd4V0FaaVBDMU05Z1lmX3NVV2dmTDgtUVBuSk4yU2dJdVNEWTctbU96WVJKbXRTQTRnTFkwS1lYVjZy?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd3Q3dUNmcWdmbnQxeUJMckJjU2JiNS1reWJ4Um8zWFc1TjlMX1JUdnhjVWQ1QlVhcF9UVlp3NDU2Rm5HOHBDT3ltQm5zWVc3U1pwQ0czRUpUYkZ6RDhEU3pkNUNsazA5ZGxmVUZKUTh2ZWdNcVo2M3VQM0lWN3Y5eGJYcTRUalE4S1FYY1dwblRLNWdlY0RRR3ZGRUl0SmNDSVN5SDZ6STlqR3Bx?oc=5",
       "tickers": [
         "VTGN"
       ]
@@ -610,7 +655,7 @@
     {
       "id": "4d87fa83516f",
       "time": "2026-08-14T12:45:00.000Z",
-      "source": "Quiver Quantitative",
+      "source": "quiverquant.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -674,7 +719,7 @@
     {
       "id": "0915ae69235f",
       "time": "2026-08-14T12:38:01.000Z",
-      "source": "The Manila Times",
+      "source": "manilatimes.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -799,7 +844,7 @@
     {
       "id": "e0511440e35a",
       "time": "2026-08-14T11:41:00.000Z",
-      "source": "Quiver Quantitative",
+      "source": "quiverquant.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -939,7 +984,7 @@
     {
       "id": "ce228379537a",
       "time": "2026-08-14T08:28:31.000Z",
-      "source": "wickedlocal.com",
+      "source": "Wicked Local",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1017,7 +1062,7 @@
     {
       "id": "7147e3f5fbd7",
       "time": "2026-08-14T02:43:37.000Z",
-      "source": "newnoisemagazine.com",
+      "source": "New Noise Magazine",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1078,20 +1123,6 @@
       ]
     },
     {
-      "id": "b394a6db3149",
-      "time": "2026-08-13T21:49:40.000Z",
-      "source": "NEWStalk 870",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Moses Lake Street Crimes Unit Serves Warrant on Hill Street, Finds Four Guns and Psilocybin Mushrooms",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0zeTFqdXdiVUd4WjJELUVNU0VDX0tKRXRoNHRGTWNUc0JLTF9pY2dmZ2lYUDdlNmdpSW5OdGdaOGlwdkVpUjZrSXBYenVTX3JmWXZTTU5LZ1Izdk1kdVZ2NDloMWZsR2hUOVBwT3NFSmRtaC1JWGJCY0dR?oc=5",
-      "tickers": []
-    },
-    {
       "id": "61e72950a6e0",
       "time": "2026-08-13T21:04:00.000Z",
       "source": "The Center Square",
@@ -1124,7 +1155,7 @@
     {
       "id": "11c11ae61c4c",
       "time": "2026-08-13T20:52:00.000Z",
-      "source": "Quiver Quantitative",
+      "source": "quiverquant.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1186,7 +1217,7 @@
       ]
     },
     {
-      "id": "33733c1091d9",
+      "id": "c041e42fccd1",
       "time": "2026-08-13T20:00:00.000Z",
       "source": "Nautilus | Science",
       "sourceKind": "gnews",
@@ -1196,7 +1227,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "The Quest to Understand the Forgotten Psychedelic",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUnNpTTV4TVVMMDhucEFvYnVYQmRHYkpNcHJXWmV1VnBjWDZJS1ROTHFIVUNaRFdPUzF4bVJ4bllqekVuUFo4YXJYYVRSaGVjQ0d0QU1teURYTkV3ZmhCby1VNGJLNExzUEhUNDdYOG9xQS1qNUpVMGZXVWdOSTJZaw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUTZLRVM0enlDMjltalhUVnpHSG5Kd2N4Ymc1ZTBBMjZOUTlzcHRtTjdjcUVTc3NUZ3dvN0Q2MVBRZVIwTVc3cmZWQWw1cXpLYzdQZXN5cXQ3QjJyS3Zrb1Y2eEo1aXRXNXdZNkVXQ1ZkQVdQbmczT3JmcTJ1cjREdUJ3?oc=5",
       "tickers": []
     },
     {
@@ -1444,22 +1475,6 @@
       ]
     },
     {
-      "id": "7cca3dc9abe8",
-      "time": "2026-08-13T14:51:35.000Z",
-      "source": "STAT",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Eli Lilly targets booming black market for retatrutide",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQemZRSkNQUTU0VUdTUWUwZjcxNWkwUllfblF5NlUyX1lOb1FWZk54OWxlUHBMTTIta2Z4XzhQSmRacWdwTldVdTJ3cjlhSXlYTDNhd1pTdTR0WlMtUE1iWW95ajRnQ3BzcFlTQ2NuQlhjcFB0bVAtV3d3N3lKb05xWWF2RklzenkwZXVQMWJTekFlM285TTNGTmhCYzB6bS1IUnc?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "630f3b6bc3ca",
       "time": "2026-08-13T14:46:37.000Z",
       "source": "STAT News",
@@ -1474,20 +1489,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "a3acfa15e2e4",
-      "time": "2026-08-13T14:35:14.000Z",
-      "source": "ClayCoNews",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "U.S. Department of Veterans Affairs Launches Clinical Trial Testing Psilocybin for Treatment-Resistant Depression",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVFlvTmltN3dEWkViempycWtoZExiNllOeTItOHRXRnR4LUI0N095VUJZYnh6MjY0ZllvVDk2RjVFRktQVG0xVURpWTI5Z0g1WURBSWtfMFlNZm1FVGc5VWhKUUpOUlBpM1EzSFFWWkh5dkRvZlo5ZDd1b0NOV3BaUEYxRm11bjhPM3pMUzRWQ0VmM1JSUXllWUI0NkdVc3lMaHJ1U2FDaDRDTllCZmNBSUNWU05Xb1hDNFpvZjVYUkhNT2RveVVMTVAzeUNwMlBPTHVvM1E2TFJ1bW9U?oc=5",
-      "tickers": []
     },
     {
       "id": "0808f93ecac7",
