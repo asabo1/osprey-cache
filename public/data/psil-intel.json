@@ -1,13 +1,14 @@
 {
-  "updated": "2026-08-15T12:01:17.269Z",
+  "updated": "2026-08-15T12:57:08.492Z",
   "counts": {
     "total": 96,
-    "crit": 13,
-    "warn": 18,
+    "crit": 11,
+    "warn": 19,
     "bySource": {
       "Fierce Biotech": 1,
-      "marketbeat.com": 10,
-      "Ynetnews": 1,
+      "WXYZ 7 News Detroit": 1,
+      "MarketBeat": 11,
+      "ynetnews.com": 1,
       "Endpoints": 2,
       "sharewise.com": 1,
       "Moomoo": 2,
@@ -17,7 +18,7 @@
       "AlphaStreet": 1,
       "TipRanks": 3,
       "AspenTimes.com": 1,
-      "Elkhorn Media Group": 1,
+      "elkhornmediagroup.com": 1,
       "Alexandria Echo Press": 1,
       "Behavioral Health Business": 1,
       "marketscreener.com": 4,
@@ -25,35 +26,34 @@
       "finance.biggo.com": 1,
       "Investing.com": 1,
       "Yahoo": 1,
-      "pluang.com": 2,
+      "Pluang": 2,
       "The Microdose | Substack": 1,
       "Missouri Independent": 1,
       "ad-hoc-news.de": 1,
-      "forbes.com": 1,
-      "The Business Journals": 1,
+      "Forbes": 1,
+      "bizjournals.com": 1,
       "TradingView": 5,
       "GuruFocus": 2,
+      "Investing.com Nigeria": 1,
       "scanx.trade": 1,
-      "Investing.com Canada": 1,
       "Quiver Quantitative": 3,
-      "Yahoo Finance": 4,
-      "Yahoo! Finance Canada": 1,
+      "finance.yahoo.com": 3,
+      "ca.finance.yahoo.com": 1,
       "Audacy": 1,
       "cbs42.com": 1,
-      "Axios": 1,
+      "axios.com": 1,
       "kalkine.ca": 1,
-      "Wicked Local": 1,
+      "wickedlocal.com": 1,
       "geneonline.com": 1,
       "BioSpace": 1,
       "New Noise Magazine": 1,
       "FirstWord Pharma": 2,
-      "The Center Square": 1,
-      "Nautilus | Science": 1,
-      "FOX 35 Orlando": 1,
-      "themainewire.com": 1,
+      "thecentersquare.com": 1,
+      "nautil.us": 1,
+      "fox35orlando.com": 1,
+      "The Maine Wire": 1,
       "ABC News & Headlines – Australian Broadcasting Corporation": 1,
       "Psychedelic Alpha": 1,
-      "Traders Union": 1,
       "STAT News": 3
     },
     "byTier": {
@@ -64,7 +64,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-15T12:01:15.339Z",
+      "time": "2026-08-15T12:57:07.244Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -77,9 +77,23 @@
       "tickers": []
     },
     {
+      "id": "da779a0226d3",
+      "time": "2026-08-15T12:15:49.000Z",
+      "source": "WXYZ 7 News Detroit",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Detroit Bass Day returns on Saturday, August 15th",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcm1wNm5KbUxRYlZsWk9scFVfaUlvdG0teHdGdng5N1RjbnVBRlhtM3hlNFlqVlZhZlRQZ0tkMzhJdUNNVFpNWGp4MWxtOWQxb2F3WndPQ3NDT2t3NzdBM1dYcUpLeExqZUlmRld1NmszVEMyZWdmUVQ0QnVWRENzdGFvX1ZjeHFOSW93R0hSeHR1a00?oc=5",
+      "tickers": []
+    },
+    {
       "id": "d8621eafe023",
       "time": "2026-08-15T11:13:38.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -93,9 +107,25 @@
       ]
     },
     {
+      "id": "f7e604cb4958",
+      "time": "2026-08-15T11:10:12.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "Zacks Research Upgrades GH Research (NASDAQ:GHRS) to Hold",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOUtSaXFkNjBsamhWUkdzYm5DckRQVDhhU3pkTU9ZVExCTUpGb2Z6a3AzdVJEQ3ZjVnRjQTUxWFpkdWY1WGJqUjlsaVh6V25JdUZ6VUx3Zkp4dEgycWdkS3d4dFYxWVR5Y083aDZHSThkcEowX0JPNkd6YVZRT0pkSUk3aUpjS2F4eWtiak1EeGx2T0ZoRXYteW5xZTJMeWVaU3psSDVlUWtEMXoz?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
       "id": "556db332b137",
       "time": "2026-08-15T10:33:06.000Z",
-      "source": "Ynetnews",
+      "source": "ynetnews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -125,7 +155,7 @@
     {
       "id": "06d588ce6893",
       "time": "2026-08-15T07:56:25.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -157,7 +187,7 @@
     {
       "id": "80796ad1c153",
       "time": "2026-08-15T05:28:52.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -219,7 +249,7 @@
     {
       "id": "6289f6a8f61d",
       "time": "2026-08-15T00:44:19.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -327,7 +357,7 @@
     {
       "id": "33eec904aa7d",
       "time": "2026-08-14T21:25:54.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -343,7 +373,7 @@
     {
       "id": "2c75fff871c8",
       "time": "2026-08-14T20:58:37.000Z",
-      "source": "Elkhorn Media Group",
+      "source": "elkhornmediagroup.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -529,7 +559,7 @@
     {
       "id": "862df95ecac5",
       "time": "2026-08-14T18:03:47.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -575,7 +605,7 @@
     {
       "id": "3665984c7ca6",
       "time": "2026-08-14T15:43:23.000Z",
-      "source": "pluang.com",
+      "source": "Pluang",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -635,7 +665,7 @@
     {
       "id": "a1621e93247e",
       "time": "2026-08-14T14:00:00.000Z",
-      "source": "forbes.com",
+      "source": "Forbes",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -649,7 +679,7 @@
     {
       "id": "cab7f1dc2d8d",
       "time": "2026-08-14T13:45:00.000Z",
-      "source": "The Business Journals",
+      "source": "bizjournals.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -696,6 +726,22 @@
       ]
     },
     {
+      "id": "a8ee41461199",
+      "time": "2026-08-14T13:04:27.000Z",
+      "source": "Investing.com Nigeria",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Form 8K VistaGen Therapeutics Inc For: 14 August By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWWI3LW9jazB4OFRJQWg1dzdZX1RMZzQtbDhZZUdaMzk5STZNUkJaeFRCU3R1TjZQM1ZlNkt3MWJCUXZ2bmhzRXdFckNaWktVcXJvQmRYOXNBSjRQZmtjUlZ1WlFBMGF4WEMyYlB2VGZ4VDNRS1JfWEFUYzZwMkZQaXU1X1A2Vm9XLVN2NXU4Tm9ubTQ2QWU1QzNKaUowenY3dWhEQ3NYN2xUd0NO?oc=5",
+      "tickers": [
+        "VTGN"
+      ]
+    },
+    {
       "id": "39d59e1c837a",
       "time": "2026-08-14T12:59:07.000Z",
       "source": "TradingView",
@@ -725,22 +771,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbXd5eWstZFRGLUd5TlVNa242dkRsRWtGeG9ndTBSQWRxQUwwY2lEYk5EellJbkFaOWhFMzlxbXJfRGlJUVJIX2wwb1MtdmhMU2liRTA1bHh5U1VOZWRObWZPcWpLeW1BSi1lZjdFRjFsM216T1RVNXZiZEE0eEZ4T2NqTm5KTVAwX1JXblhOZzJfWHRXMjZYWUtSOGpYN0tJQ3lWd3hEUFVMYnJwMElucDRIRjk?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "564acb1c9f3b",
-      "time": "2026-08-14T12:48:55.000Z",
-      "source": "Investing.com Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Form 8K VistaGen Therapeutics Inc For: 14 August By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMndFV29VbUF6UnJrS2JTNVhpTEhnd1UxcFRFbDExdUtTS1ZSeU5rMk1tM1B0V1dHN1JKdEVtNUdWVEJrdmRJZ0ZGODdsZkxhRXVKam5US0dWU2I0MXZ6dWIxMkM4STkzX3luQUx0dzl2QWd4V0FaaVBDMU05Z1lmX3NVV2dmTDgtUVBuSk4yU2dJdVNEWTctbU96WVJKbXRTQTRnTFkwS1lYVjZy?oc=5",
-      "tickers": [
-        "VTGN"
       ]
     },
     {
@@ -794,7 +824,7 @@
     {
       "id": "4808583aed04",
       "time": "2026-08-14T12:41:32.000Z",
-      "source": "pluang.com",
+      "source": "Pluang",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -842,7 +872,7 @@
     {
       "id": "9327f3b9946c",
       "time": "2026-08-14T12:32:00.000Z",
-      "source": "Yahoo Finance",
+      "source": "finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -888,7 +918,7 @@
     {
       "id": "d459791f63f3",
       "time": "2026-08-14T12:14:00.000Z",
-      "source": "Yahoo! Finance Canada",
+      "source": "ca.finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1045,7 +1075,7 @@
     {
       "id": "f0647671b4e4",
       "time": "2026-08-14T11:12:07.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1075,7 +1105,7 @@
     {
       "id": "1adb26e32c61",
       "time": "2026-08-14T10:23:28.000Z",
-      "source": "Axios",
+      "source": "axios.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1089,7 +1119,7 @@
     {
       "id": "84b8b8b2a8f1",
       "time": "2026-08-14T09:43:17.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1121,7 +1151,7 @@
     {
       "id": "ce228379537a",
       "time": "2026-08-14T08:28:31.000Z",
-      "source": "Wicked Local",
+      "source": "wickedlocal.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1137,7 +1167,7 @@
     {
       "id": "15b4b8966372",
       "time": "2026-08-14T07:46:02.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1153,7 +1183,7 @@
     {
       "id": "cfac15541510",
       "time": "2026-08-14T06:10:31.000Z",
-      "source": "Yahoo Finance",
+      "source": "finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1262,7 +1292,7 @@
     {
       "id": "61e72950a6e0",
       "time": "2026-08-13T21:04:00.000Z",
-      "source": "The Center Square",
+      "source": "thecentersquare.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1340,7 +1370,7 @@
     {
       "id": "a36b9bca1718",
       "time": "2026-08-13T20:08:50.000Z",
-      "source": "Yahoo Finance",
+      "source": "finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1356,7 +1386,7 @@
     {
       "id": "33733c1091d9",
       "time": "2026-08-13T20:00:00.000Z",
-      "source": "Nautilus | Science",
+      "source": "nautil.us",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1370,7 +1400,7 @@
     {
       "id": "ae047de5e31f",
       "time": "2026-08-13T19:34:05.000Z",
-      "source": "FOX 35 Orlando",
+      "source": "fox35orlando.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1384,7 +1414,7 @@
     {
       "id": "0b15c4bed4cf",
       "time": "2026-08-13T19:33:00.000Z",
-      "source": "themainewire.com",
+      "source": "The Maine Wire",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1412,7 +1442,7 @@
     {
       "id": "9163bcac1ea6",
       "time": "2026-08-13T18:27:52.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1453,38 +1483,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNcFY3a2FqR2YzTVg1MjVvbGkwOHlwMnl5LVJyemlHejI3UEZvQjJ4RnVRa0lURmJ6NXpldFF4VzFob2U1dGRMeVI3MTNtekVpNTVTbm9hRzhjZEs2NHV2Tlg1LVNsbldxNWdTN3pKMW9VQkxEN0VQZ2plZncyRVQ2ZW5IVG1fLV8zUWdteDFiSjNnSFFmSmZNX3g4TzZGS19fU05VUEJxYmNHX1J5RzkxS2VBVTVsdVJtWVUyMklPSXVZREdwakt5X2FISktxeDVzQWkzeG1hWnlRUGl6aDdSZ09CellzazdkSWVnMjQ0Uzl5NmhzSUNfMTFlam1aTTZaTnNMUWJUc3A?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "e6607dce28a7",
-      "time": "2026-08-13T17:15:38.000Z",
-      "source": "Traders Union",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics advances pivotal Phase 3 Voyage trial in generalized anxiety disorder",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTHpXVF85VzRSZ25VSnhUajJHSEJSUkhPeVU2bmZENFhvYloza1R3TWRWWXZxc2stQk1Yb3IwNTNUY1VER1BjTENTM0lMUDh6R3BEVkt2LS1IQzQ3bjNKZ0oxOEF0UkxpYmlWQ2ZQMGdRUmpSNHpsMG4tUUtvbUtNQVdPVWt0R1U?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "da5cc6695871",
-      "time": "2026-08-13T17:11:44.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics (DFTX) Hits Phase 3 GAD Goals For DT120 ODT",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYllzRGVzcGRhY1hkWnJVbm9Tb1R3cF8yQk91WEw1aWxBU1duVWJsbWtHWlJIZXpGaUFzX1RZU1ZjMjdQUjU0T21Fa3k4V2N6NWpiSkJkLXVMeHZCVEgtWFJIcG5ZWHR1dXdiaFpEMVpHUllTUXRjMlE1aEFtTFVhMjc0eFJtY2ZSQ09EWEswMnVRNThoZHZWbXM5Mmdta1U?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
