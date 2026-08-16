@@ -1,15 +1,15 @@
 {
-  "updated": "2026-08-16T05:14:32.710Z",
+  "updated": "2026-08-16T05:55:26.132Z",
   "counts": {
     "total": 96,
     "crit": 12,
     "warn": 19,
     "bySource": {
       "Fierce Biotech": 1,
-      "Stocktwits": 4,
-      "clinicaltrialvanguard.com": 1,
+      "MarketBeat": 10,
+      "Stocktwits": 5,
+      "The Clinical Trial Vanguard": 1,
       "cbs42.com": 2,
-      "MarketBeat": 9,
       "Ynetnews": 1,
       "Endpoints": 2,
       "WXYZ 7 News Detroit": 1,
@@ -18,7 +18,7 @@
       "Moomoo": 2,
       "Barchart.com": 1,
       "Glide Magazine": 1,
-      "Stock Titan": 17,
+      "Stock Titan": 16,
       "AlphaStreet": 1,
       "TipRanks": 2,
       "AspenTimes.com": 1,
@@ -41,18 +41,18 @@
       "scanx.trade": 1,
       "Quiver Quantitative": 2,
       "Yahoo Finance Singapore": 1,
-      "Yahoo! Finance Canada": 1,
+      "ca.finance.yahoo.com": 1,
       "Audacy": 1,
       "Helus Pharma": 1,
       "Axios": 1,
       "kalkine.ca": 1,
       "Wicked Local": 1,
       "Reuters": 1,
-      "finance.yahoo.com": 2,
+      "Yahoo Finance": 1,
       "geneonline.com": 1,
       "BioSpace": 1,
       "New Noise Magazine": 1,
-      "FirstWord Pharma": 2,
+      "firstwordpharma.com": 2,
       "The Center Square": 1,
       "STAT News": 3
     },
@@ -64,7 +64,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-16T05:14:31.116Z",
+      "time": "2026-08-16T05:55:25.446Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -75,6 +75,22 @@
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
       "tickers": []
+    },
+    {
+      "id": "1c93ad8916be",
+      "time": "2026-08-16T05:16:24.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Compass Pathways (NASDAQ:CMPS) Raised to \"Sell\" at Wall Street Zen",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUWNETmduYXk1WWVxSF9RbzA0NTl4alZrQzFmMGJSVGtyTGppUm9BLXItX1h2T1BOaXFUX3AzdURSLTNGZXYwM2d6ckpDd2xBWnZtdW55V3VwZlpMN0xhMUItQVZlU0NfdnZlU2RjeVlpZ0FMMzZXNzZYSlFlRFNJVWJhV093ZlZwY2gyNHVRb3BReXRjNXJKUXpOZUd4TExLYktfTVRLNUROYVowbzJISzNyRmZfQQ?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
     },
     {
       "id": "01c1c214588e",
@@ -95,7 +111,7 @@
     {
       "id": "a37fa02d7f87",
       "time": "2026-08-15T17:09:16.000Z",
-      "source": "clinicaltrialvanguard.com",
+      "source": "The Clinical Trial Vanguard",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -293,6 +309,20 @@
       "tickers": [
         "VTGN"
       ]
+    },
+    {
+      "id": "c4eea4c719e4",
+      "time": "2026-08-15T04:18:02.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "PBM Stock On Track For Best Session On Report Of Upcoming Trump Executive Order On Psychedelic Ibogaine",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWxqbFdIeVh2RDgxbVV6a2oxWmx3UUtVSW9OYW90dHlCOVVfU1o1b19GcGtYZzRGdmhkdkREbHhHZzZhaGtPWUFHZHRNU1F0QklKXy13SlRkamVkMVBuVE9SSzVDUTc2Zkg0bFZPamttM2E0bkZuUXF4S0JLX18zX1pkbTB1MlAyX1YxMXBvay0xQndMRFRkU0drZ3hvWjBISi1oQ1ZIck5LcFFKUnhNVUdCOUVyQ2gtN18wSHBwM0V1czNyc3VlV21ROGdKMERSeTByaF9jUlM1UF82ZEdMbWJ6OTVmUWNjSDNhQko4dmJ5NXc?oc=5",
+      "tickers": []
     },
     {
       "id": "b45e65535361",
@@ -1010,7 +1040,7 @@
     {
       "id": "d459791f63f3",
       "time": "2026-08-14T12:14:00.000Z",
-      "source": "Yahoo! Finance Canada",
+      "source": "ca.finance.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1292,7 +1322,7 @@
     {
       "id": "cfac15541510",
       "time": "2026-08-14T06:10:00.000Z",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1352,7 +1382,7 @@
     {
       "id": "ceaec2447c7f",
       "time": "2026-08-14T01:30:18.000Z",
-      "source": "FirstWord Pharma",
+      "source": "firstwordpharma.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1384,7 +1414,7 @@
     {
       "id": "91162c0878f9",
       "time": "2026-08-13T21:50:18.000Z",
-      "source": "FirstWord Pharma",
+      "source": "firstwordpharma.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1458,38 +1488,6 @@
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ1h1Z2VzVVBFYnFic2dpSGJnRWttSFZ5T3BrUExRa19Lakktdmx2ZTF2RUlYcklmU1ZNQjA2UEZPMWZLV3hzUmdDYUhJMkJnRF96NnJJMUlrY2wtN1Etbk11bDBoREw3VUd2TnJqSHAydHpGbDdYT3I4NTlZLXlyNnp5RXU0eVdGMy12U3hrTE50a2tkenh2MHBzTjVaWEdOSi02VVZpcEZoYlg0U2c?oc=5",
       "tickers": [
         "GHRS"
-      ]
-    },
-    {
-      "id": "48df5af5157c",
-      "time": "2026-08-13T20:43:27.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "GH Research PLC (GHRS) grants 102,202 share options to director Michael Forer",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWEpoVUxpT25kb09GTmJveG1NQjRMeG5JSm9pb3NGalBMbG1YcUFTLUd4NUdueTJSenE1R3lKenBOOXhyR3hCR21EUE02Y3ZTc2o0WXBfRTRIVmtwYVRDM2pPeWpBVXppWjVLZk1oek1KMGpuaW1RM3FkT0EyZ25lYXI4NFlFTkE0dWdoWXpXRlFTQlNRbnJacUdjdGd6WWk4NEtxaVJpWHZsVDRKdkE?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "a36b9bca1718",
-      "time": "2026-08-13T20:08:50.000Z",
-      "source": "finance.yahoo.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Is Successful Voyage Phase 3 Data Transforming the Investment Case For Definium Therapeutics (DFTX)?",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1pGQ245ckF2a2lGR1Zoakp5ckdkbi1JVFd2cm9oWmNlREFQN0dPYXdlUngyeXJfbmZYM3hoWUgwQW5SbWY3dko1Q0prN2E0d0hkOTQ0aUQ2R0xHVWtLc0VyX3pqd19Ca1dPZlJHRktCaW1QZjRuVGhqN2ZWUDFUTTUxQVNKTDhnX2Q0S0x6elI3bGF4UHc?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
