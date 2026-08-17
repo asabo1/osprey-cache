@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-17T11:10:30.233Z",
+  "updated": "2026-08-17T11:48:03.429Z",
   "latest": {
     "date": "2026-08-17",
-    "wti": 82.8,
+    "wti": 82.45,
     "wti_prev": 82.4,
-    "wti_delta": 0.4,
-    "brent": 89.32,
+    "wti_delta": 0.05,
+    "brent": 88.87,
     "brent_prev": 88.52,
-    "brent_delta": 0.8,
-    "spread": 6.52,
+    "brent_delta": 0.35,
+    "spread": 6.42,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,23 +160,99 @@
   },
   "intel": [
     {
-      "time": "10:52",
+      "time": "11:42",
+      "severity": "WARN",
+      "direction": "BULL",
+      "text": "Trump Issues Threat to Oman as US-Iran MOU Expires",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-08-17T11:42:26.000Z",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-17/trump-issues-threat-to-oman-as-us-iran-mou-expires-video"
+    },
+    {
+      "time": "11:40",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Strait of Hormuz crisis to spur oil companies into action in building tanker fleets",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-17T11:40:53.000Z",
+      "link": "https://www.tradewindsnews.com/tankers/strait-of-hormuz-crisis-to-spur-oil-companies-into-action-in-building-tanker-fleets/2-1-2029932"
+    },
+    {
+      "time": "11:39",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Trey Gowdy: Strait of Hormuz is an economic nuclear weapon",
+      "outlet": "Fox News",
+      "source": "Hormuz",
+      "date": "2026-08-17T11:39:48.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Rdl80c1hZUEV5cGVXRWNkOTZZRXNyNmxSVnYtWkpJTUVnNnBHTUNPRkVZX2J4NjhsTWFCRmd4eFF2Z1NBR3NObVdobXRFSll1djdjdGVR?oc=5"
+    },
+    {
+      "time": "11:39",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Iran live: Trump says Tehran cannot have nuclear weapon as ceasefire deal expires",
+      "outlet": "The Independent",
+      "source": "Hormuz",
+      "date": "2026-08-17T11:39:12.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEN6TWJuLW5tMWpOMGUzZWowSEhhTVdueEh2YU96RlFrR2c5OUJPUjV5aC1ZOHZvVXJSc3Z0ZncxVHUyWHdaZ1ZUWllrM0stbWc0eGV3Z1F2MzJwclZTMzI4b1RIazhMb2FwQzRzeXR4YTRyODJpM2lORmhWUFZGdjZ1eE5xMW42RDRYR0FpQVlQTWJnSWxSZkk4WjE4TDhoVHJweW5OOTNMV3NjaERKNnRQbzFfQ2xTOWxYUmtKUQ?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "iran-war-latest-trump-tehran-cannot",
+      "first": {
+        "outlet": "thenationalnews.com",
+        "date": "2026-08-17T11:38:59.000Z"
+      },
+      "also": [
+        {
+          "outlet": "thenationalnews.com",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcFlpZzd0a2o1QTVOUi1Ma3R3SFI3U3JZWExUc2s4ZVdOWFFfck5JcDhyVlBMWE9qbzhOc294WDE0UWJnUGRVZ2FMQWdraU5NQ0NXSk42Y0dPUGRNLUF4Wks1U2RFWEE0T0c2dG95TVBmUjR1enJyLVFDNUVwV05Ld1JVOXAtTVE?oc=5",
+          "date": "2026-08-17T11:38:59.000Z"
+        }
+      ]
+    },
+    {
+      "time": "11:27",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "President Trump: U.S. will claim Strait of Hormuz after defeating Iran",
+      "outlet": "KHOU",
+      "source": "Hormuz",
+      "date": "2026-08-17T11:27:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMHh6SnNmenhwWnR1R09xU3Frc2R5S2FheWNaNlh6YkpJRHR3aEs3SWpHenkxMGF4Y0tLMFAyNzhPYjBUN1BIbmNUM2IwTEF5RENVbmNNQm5wMUFHU2pPTDRCZkNKbWRWelRtRG1Ub1lBOWw4S3Izc1hhMnBRVHBySDRtdkZhc2NhUDNGak1Lb2J0a05fa1FsaVo3czBCcEJ3MDRfZXFFbjN1SHRMX1RmaUdkbTFrTWxfNFdHaUpkNnRpRlRUZzJCQklrblNsUldpdTEtZ3VXWjBpY3dFRGJIdTBYTXdQWndX?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "trump-us-could-claim-strait-hormuz",
+      "first": {
+        "outlet": "Effingham Radio",
+        "date": "2026-08-17T07:19:24.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Effingham Radio",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTnVhekxSOHM1UzdPRUp0ZWlYS1dMcVFMdXpKaEk4WEQ1WE9pZEpvNkFudnptbjhDUWtnQmhhQWZzbGVyaWY3bjNyb2NXN2RVeDBSRmJJMmR0VWc2VDFJYWZPcDU0U2dBck1oQkl4OExWdmVDak9CV3NkRkZ3akExWEdVYzNPc3ZIUnRQaHlBOWhvOVNfdTNyZEgtRGE3ajdyWnB3WmN1c1lSVk0zT181MFozUzNlTFFacEU5ZXpyTTZOYUQw?oc=5",
+          "date": "2026-08-17T07:19:24.000Z"
+        }
+      ]
+    },
+    {
+      "time": "11:23",
       "severity": "MKT",
       "direction": "NEUTRAL",
       "text": "Iran working to finalize Hormuz agreement with Oman, and other news from the Middle East",
-      "outlet": "WRAL",
+      "outlet": "Boston Herald",
       "source": "Hormuz",
-      "date": "2026-08-17T10:52:30.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLW56THJFakNGcm5sUzJ2Y3BscmduTl9IbXVtTlFhbU82Yk9melo3cU9xbGZaQ0VuR09reHJJVUNqdWlLaUdrS2Vid3Q0WkRZRW9qQ3hGYnc2WUJGb2xFNVR1MDVpZDNrSHhzemZlXzI0V0N3LVpac3NrMmh2NS0zckZOYzRTaFFpVWt2ZHQzMXBQQnNmMklRVFNnOTFaM0o2NVVNZ3NNZVFZUmVoQ1lLTFBIejNhYWtiZzRadXRybEg?oc=5",
-      "cluster_size": 6,
+      "date": "2026-08-17T11:23:49.000Z",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZXp1MkNWY0pESXVqcS1URVJVc3Flbm1lWWZ1RUVrNDdRNF9hc003U2w0bDlSVFBuZHhBM2k0SWZnSHdpUFNhZ1ZsWThGaG84Q3lYOTlwRlpNbW8xU04xenczM0ZlclFsZ2dBNlhYNUxsc2R5NHhhcWYwcXJlWlI4SzhpWGhFdUtnZlVWQWpwYVNXWUJHWXVWVlBn?oc=5",
+      "cluster_size": 7,
       "cluster_id": "iran-working-finalize-hormuz-agreement-oman",
       "first": {
-        "outlet": "usnews.com",
+        "outlet": "U.S. News & World Report",
         "date": "2026-08-17T09:37:00.000Z"
       },
       "also": [
         {
-          "outlet": "usnews.com",
+          "outlet": "U.S. News & World Report",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObVlZUl9ITVYzS3prQTNTMnM2MmV3RGRxekx1MDhTM00ycHdHSzRFb0p1SVp2clNNbTAyMEhLVE9LWDl4dDBQUW1Ca21QMWllSUl3MnZ0QWMzempkbURLdnNfWWJkM2dybjlnUWFiOUtTNk0zeWZBVzJ1Q25IUVRrbUEtX2pKbFNKd3haREItemZnd05GVnJuTWtxYUs2Zm1yS0JZVzNlWTE4NTVLTEV2bC1xRFdxMlFGNGdwVURfUHJDbmxVZnB0aW5YZGZRTk40ZFFiTUpib3k?oc=5",
           "date": "2026-08-17T09:37:00.000Z"
         },
@@ -191,16 +267,91 @@
           "date": "2026-08-17T09:37:55.000Z"
         },
         {
-          "outlet": "Toronto Star",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQQTFGZ2JLVENNY3Naa0ZOTlNhRl9VNTB4VlpSOXhha2dkZDNBLTRZUkFfZVgxaXhSRDFWclFLdHlNWW9qcVVDMTAxZUlvbk1HUXdOU0Z4alg0NWNGSTl1dThwMFFzZktuNlFHcUM1Z2RzaXo4UXBxVmtzekdhLS1NLW9KVU5XQ001YmFnMG9aazhYUGFGMVU3S2RCbXMwdzlaZGNPNDN2NEZPUkoxd0xWMGRtYVB4TlJ2cHBPTzc3OWpvQkhCdTY4VmJNZVpKRDhLY3hYVVNPZThPZExHTkdkZHRSUHBXNVpxbUQwZVpIM0t4M2RSMGRNLUo0cVJDU3IwLWc?oc=5",
-          "date": "2026-08-17T09:38:00.000Z"
-        },
-        {
           "outlet": "SRN News",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPak16aDZvSlo3blJxd1Vob3Z3UjdneGkxUUh0QjBQV3U5VGxlWV95cm1jS25VVmF5TjJaQ1ZjQlVGa180aUhMM2VlN1FzMWF2Qk9lbWtUWUxBWWNMQUw1bEJLNUR5NEc0Uy16QUJCZDE1V1l4c3ZTQTY1SzdaeTB5c3VmTWVmLXpTMGtWamY2ZXBaQi1vVFBXRzJwLS1teE54djhMR1VRS29rMHU3?oc=5",
           "date": "2026-08-17T10:33:54.000Z"
+        },
+        {
+          "outlet": "WRAL",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQLW56THJFakNGcm5sUzJ2Y3BscmduTl9IbXVtTlFhbU82Yk9melo3cU9xbGZaQ0VuR09reHJJVUNqdWlLaUdrS2Vid3Q0WkRZRW9qQ3hGYnc2WUJGb2xFNVR1MDVpZDNrSHhzemZlXzI0V0N3LVpac3NrMmh2NS0zckZOYzRTaFFpVWt2ZHQzMXBQQnNmMklRVFNnOTFaM0o2NVVNZ3NNZVFZUmVoQ1lLTFBIejNhYWtiZzRadXRybEg?oc=5",
+          "date": "2026-08-17T10:52:30.000Z"
+        },
+        {
+          "outlet": "Spectrum News",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOY2JGall6MEtYcWZXb2RRNkFuVXBUc1VrZURCLVZrX0NkN1hpMVg2WmF5NFRoSHM4UThWdEc0NTJHVXZMcmRNQjVhM3FzRHVlWjhyV3lWQTVVeGFjZTN3WWhfOUZjVjFDNzZVbnBlVGVpbDF4TTBLcnU3UXhWaUxDSUZkLVZwaHF4LTFUMk9xTVFzS0tSdTd5S29pVmRaMUk5UFBMcTZGU05Ja2FleWJ4Vw?oc=5",
+          "date": "2026-08-17T11:17:00.000Z"
         }
       ]
+    },
+    {
+      "time": "11:17",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "'In principle' agreement set between Iran and Oman on new Strait of Hormuz transit route",
+      "outlet": "i24NEWS",
+      "source": "Hormuz",
+      "date": "2026-08-17T11:17:57.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeUpkTUY2TzRNaGlreTZ2ZFlhZjRTRFBueGJocFpXWGpJRGZaSWFDR05Xa0lOaUVZM3J4Q2pBTjNucWdKeGRQTUFJWkJGREVzdWVlM19tS0piMk8tazhaZFl5YWoxa2hxMUFqV0Z0cWRZOUlKVGtab1lzQ1ZkZ2tsaFBhQXZsVzNQVzdibTE1U3R4MkdNV1RSZkpTdTNZUHVLTllGSkVrYmFqblBLTGdwcGhybEU0RGNQbXhDTnpZaUlnYVprbGdDWURBN01VTjNPNVB2ZmNFUTNRbnVWbXBQSGln?oc=5"
+    },
+    {
+      "time": "11:15",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Georgia gas prices rise to $3.79 a gallon as crude oil climbs",
+      "outlet": "Cobb County Courier",
+      "source": "Oil",
+      "date": "2026-08-17T11:15:38.000Z",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR3hhaEV2V09xaGhDbjJxXzI1dEhsanlZVWxqcEdHdXMzYm1yUXZzZXJxTHBub3BkVE8xdEJJd3p6STkxZW9uMkpvZWR2dEc1a2dRQXJWTWxvOFF3QjE5U2UtU0RmQzUxUzBISG9QaDRwX0ZPb1dZM2ZUcGdadDVvZ2R5aUFkdDFLRExRbkI4Sm9yUXFuSl9wUWhIX2pTa0l5?oc=5"
+    },
+    {
+      "time": "11:15",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Trump Seeks to ‘Substantially Reduce’ US-South Korea Drills",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-08-17T11:15:26.000Z",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-17/trump-seeks-to-substantially-reduce-south-korea-drills-video"
+    },
+    {
+      "time": "11:12",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "text": "The 60-day deadline for an Iran peace deal is expiring. Here’s where things stand",
+      "outlet": "Orlando Sentinel",
+      "source": "Hormuz",
+      "date": "2026-08-17T11:12:21.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORGlmbzJOWFVxNVpUckRGUE1MYkViM1F6M194RGQtUUcxOF9iNnh5NkpmWWhGZ0paMjJLbWRJazlVOERLN0JQQ3BQV0NBanh2OVZFaDlDSEkzNU5wUUVLWnphc1hZWm5rd0s0M1U0LUUyTVBPTmhrS2ZsOVJDZnlPLTlRbHN6RGs4UmpjLVJOTklEVjg0TVFTRGpIOG13R25TWXlYSklnYVJhTkFLS1RMTWlEUVRJdDN3V1NnQ0lNNHU?oc=5"
+    },
+    {
+      "time": "11:04",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Iran live updates: MoU 60-day deadline 'irrelevant,' Iranian diplomat says",
+      "outlet": "abcnews.com",
+      "source": "Hormuz",
+      "date": "2026-08-17T11:04:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcURZWGlIaVFIcVREQXpFbE43RGZoM3BSYXpGSGhMUi1naHJ4QU1wazF1bWNPd2Y0bmhHLUVFdnpiZTNXNTQxR2w3UVBqWDhWMk11bV9BREJWT3gxTE1xajdvSjRNQTBtaFl4Vko5TlE1OXk4OWtvWFB0YjVnN0Rfa1N5N1dtOUVfeFRrTy1HNXk5Ujl4S2NPR3VaX3lpUm5ka3RBeU5FMTc3R1Z0d20xSWN3SdIBuAFBVV95cUxOS2YwLTYwVUxUUjd3aG9tRnFlamtqbzIxZEZIUGdDYTlDZ0F3WjVWQmFRWjQ5YTVNSHpVM2Jqb1Zwa0NjaE91TDd6dG1WY0xvMDJQWHZNb0pEZlc0dG01N1NvSzNRM3NzRlV1TGVaR1FpazdvbEhzcXZjeDFGeC1iVC1iVjRYYzJNRTh3TEV0emstNVNFbzlQUEJzSUdsdlBEYmNEWTJzY0VUUTMzUFNDVTEtMGVaVWtw?oc=5"
+    },
+    {
+      "time": "10:54",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Live Updates: U.S. and Iran locked in a stalemate as 60-day negotiation period ends",
+      "outlet": "CBS News",
+      "source": "Hormuz",
+      "date": "2026-08-17T10:54:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSjB6cEFBa2hwQ1ZKNUFmMmxtSEJhNnpITnQ0LTNzdUNoWUZvMy1tV3FxVkR3UlJ2VHpFQ1JVQlNiN2FhNVpvam1pZkNrY0pvajRCandGNjVYUG9QSUxyd3o4U1gzYWtHOE5xSmltVlVwY2lfcVlVVU0xaUwzdFZROURnTERwQQ?oc=5"
+    },
+    {
+      "time": "10:52",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Current price of oil as of Aug. 17, 2026",
+      "outlet": "Fortune",
+      "source": "Oil",
+      "date": "2026-08-17T10:52:44.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fSXp3bHBkaFNMQi1VVDJLRnVSZEQ4bkVYaFB4UUhYZjR5S0JLS3lWcm12X0cwZ2NndlpTMG5lLWJZSUpscFVIclBwcFloaGh1ZnZ3VVVib2w2Wld6WkpsaFZB?oc=5"
     },
     {
       "time": "10:44",
@@ -221,152 +372,6 @@
       "source": "Oil",
       "date": "2026-08-17T10:43:00.000Z",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY3E5MzdoUFFRa2ZTTHZiMEtqZ0U1NTZoTHZUQWdvc2xnR0RFTmNpOU5US2hkbkdoMmJ6QmQ5dDF3WmpBRVdNYkM2TW5CbDJkMG9lNjlxUkF5SzN4aHNoMk1jdm11NTJtTUZwTnVsZlBfMTJhbDBkbXNtN0E1akYtaG83bUl1Y3lFWTctLWFQdExNcUpwVFR0QmdGeVVNMldq?oc=5"
-    },
-    {
-      "time": "10:32",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "text": "The 60-day deadline for an Iran peace deal is expiring. Here's where things stand.",
-      "outlet": "WUSA9",
-      "source": "Hormuz",
-      "date": "2026-08-17T10:32:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPMC15QTVnRXJDc25JY3ZGUklBc1RCLWNMVWt6SHdDU2NwbEhXYWpYdjBaSXYydDlNRkNoN0JjVjM1VUlIV3dMQXJJNmMwcE1ET0ZEZTFOblFCOTQySjZFSXNPZW80UUJ5QnBhcW5Qc0hWMzRUYV95THozclN1NDhmaUhqaEVldHNqTmhoeHNUUmhCNXZmUlc5R1NzQmUxd0VRMVBwa3hyUndEQW1NSTk2cGRSNHJSNDF0QkFFSzNfWEdBYVJQODh4Yjl4OTBoeGdVeGdwampmUjVQaHdxbEZjMDdPcWhMZzRrcldURWgybmpTclYzaUdTSWFvTQ?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "day-deadline-iran-peace-deal-expiring",
-      "first": {
-        "outlet": "MyNorthwest.com",
-        "date": "2026-08-17T08:33:16.000Z"
-      },
-      "also": [
-        {
-          "outlet": "MyNorthwest.com",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOFJySTRDb0pEaE0wUlJkQWdaSnM2blMzdnhrN3M0R0FzVVphU2o0c01XUXFaQjl1SjdybHJsb0hILW90MmxFMlROSjVnRnM0Y0FqNE9IcGlROW5PZExYZnhuZV9MNGI5djdRRDlHTUVvSXc4SXZsMll4THp3dGZmUWhXMVpxcHk5VFdFUWhIWEJSWXBabDVLcmVweV9TTVRpZ2R1M3ozNGVSTXFxTXRJdnR3R25ZSVhKdG8yNQ?oc=5",
-          "date": "2026-08-17T08:33:16.000Z"
-        }
-      ]
-    },
-    {
-      "time": "10:20",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Current price of oil as of August 17, 2026",
-      "outlet": "Fortune",
-      "source": "Oil",
-      "date": "2026-08-17T10:20:25.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fSXp3bHBkaFNMQi1VVDJLRnVSZEQ4bkVYaFB4UUhYZjR5S0JLS3lWcm12X0cwZ2NndlpTMG5lLWJZSUpscFVIclBwcFloaGh1ZnZ3VVVib2w2Wld6WkpsaFZB?oc=5"
-    },
-    {
-      "time": "10:15",
-      "severity": "MKT",
-      "direction": "BULL",
-      "text": "Iran rejects Trump's claim that US now controls Strait of Hormuz",
-      "outlet": "WCNC",
-      "source": "Hormuz",
-      "date": "2026-08-17T10:15:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOOHlnUng1SEY3UmVabGtCVTJYckluWWJRZlVza1g1ZE9xdXhqdC1UZktzVl9XQi0ydTJQdFJWX2p2OVQ5YjNlQ3ZVQ0pNTlVfRExuLTZjSHUzWXY0dTIzWEFKdzY0MGR6WjZOenNCWEExdDNlZWdWdE1iVVd1d2owTDl4MTZzdUJkaGo5TmxyOXhLWjh3OG4tWmFWWTJkWGNXN2NpLWlJT3pXYjRFdDVBa2ZDUWIzXzRiVmc5OXZ5eUtHQ2R2YnlITm5BUFB3LVBrdHktUTRMajFSdW9BVlNlU3FGOGMzUU9UY1EtMWRhakpNZ1I0X3hv?oc=5"
-    },
-    {
-      "time": "10:11",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Why Has Oil Not Rallied to $150 or Higher?",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-08-17T10:11:47.000Z",
-      "link": "https://www.rigzone.com/news/why_has_oil_not_rallied_to_150_or_higher-17-aug-2026-184387-article/?rss=true"
-    },
-    {
-      "time": "10:09",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Iran-US war latest: Trump’s agreement with Tehran expires today as $30k bounty placed on US soldiers",
-      "outlet": "The Independent",
-      "source": "Hormuz",
-      "date": "2026-08-17T10:09:12.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEN6TWJuLW5tMWpOMGUzZWowSEhhTVdueEh2YU96RlFrR2c5OUJPUjV5aC1ZOHZvVXJSc3Z0ZncxVHUyWHdaZ1ZUWllrM0stbWc0eGV3Z1F2MzJwclZTMzI4b1RIazhMb2FwQzRzeXR4YTRyODJpM2lORmhWUFZGdjZ1eE5xMW42RDRYR0FpQVlQTWJnSWxSZkk4WjE4TDhoVHJweW5OOTNMV3NjaERKNnRQbzFfQ2xTOWxYUmtKUQ?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "iran-us-war-trump-day-agreement",
-      "first": {
-        "outlet": "The Independent",
-        "date": "2026-08-17T06:09:04.000Z"
-      },
-      "also": [
-        {
-          "outlet": "The Independent",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd3lWQ2k3NWxXV1ZXWG5hUjhON0FzV0xGWmxmRC1YTEtFM0htWGZ3M3l4eDRGa244aTA2TGdrTmt5WDVtcFhQQ2pVZkNoNjU0eGZsQzlHOF92VmZoeTZ1dGk0NUdiazJJVTV5akNDbkRmRXZMOUs5NkJOaUk5ZDQ0VW1WNnUxRlZKZ3duRnFkbHlzZFZfcy1BdDFBeDZ4UlcxTmxEcWluWUJQWVA3aTQ5eGdYYzV1NlU?oc=5",
-          "date": "2026-08-17T06:09:04.000Z"
-        }
-      ]
-    },
-    {
-      "time": "10:06",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Live Updates: U.S. and Iran locked in a stalemate as 60-day negotiation period ends",
-      "outlet": "CBS News",
-      "source": "Hormuz",
-      "date": "2026-08-17T10:06:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSjB6cEFBa2hwQ1ZKNUFmMmxtSEJhNnpITnQ0LTNzdUNoWUZvMy1tV3FxVkR3UlJ2VHpFQ1JVQlNiN2FhNVpvam1pZkNrY0pvajRCandGNjVYUG9QSUxyd3o4U1gzYWtHOE5xSmltVlVwY2lfcVlVVU0xaUwzdFZROURnTERwQQ?oc=5"
-    },
-    {
-      "time": "10:04",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Bloomberg News Now",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-08-17T10:04:26.000Z",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-17/bloomberg-news-now-video"
-    },
-    {
-      "time": "10:02",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Greek suezmax tanker hit in new Ukrainian Black Sea attack",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-17T10:02:17.000Z",
-      "link": "https://www.tradewindsnews.com/tankers/greek-suezmax-tanker-hit-in-new-ukrainian-black-sea-attack/2-1-2029929"
-    },
-    {
-      "time": "10:00",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "The Rhine drops below 10 cm at Kaub, disrupting European oil logistics",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-17T10:00:59.000Z",
-      "link": "https://www.hellenicshippingnews.com/the-rhine-drops-below-10-cm-at-kaub-disrupting-european-oil-logistics/"
-    },
-    {
-      "time": "10:00",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "UK Natural Gas Rises Further on Supply Risks",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-17T10:00:53.000Z",
-      "link": "https://www.hellenicshippingnews.com/uk-natural-gas-rises-further-on-supply-risks/"
-    },
-    {
-      "time": "10:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Palm Oil Climbs to Highest Level Since April",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-17T10:00:51.000Z",
-      "link": "https://www.hellenicshippingnews.com/palm-oil-climbs-to-highest-level-since-april/"
-    },
-    {
-      "time": "10:00",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "The Commodities Feed: Oil near $90 on escalating Middle East risks",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-17T10:00:49.000Z",
-      "link": "https://www.hellenicshippingnews.com/the-commodities-feed-oil-near-90-on-escalating-middle-east-risks/"
     }
   ],
   "snapshots": [
@@ -1439,8 +1444,26 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-17T11:10:30.233Z",
+  "intel_updated": "2026-08-17T11:48:03.429Z",
   "event_log": [
+    {
+      "date": "AUG 17",
+      "date_iso": "2026-08-17T11:39:48.000Z",
+      "severity": "CRIT",
+      "text": "Trey Gowdy: Strait of Hormuz is an economic nuclear weapon",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Rdl80c1hZUEV5cGVXRWNkOTZZRXNyNmxSVnYtWkpJTUVnNnBHTUNPRkVZX2J4NjhsTWFCRmd4eFF2Z1NBR3NObVdobXRFSll1djdjdGVR?oc=5",
+      "auto": true
+    },
+    {
+      "date": "AUG 17",
+      "date_iso": "2026-08-17T11:39:12.000Z",
+      "severity": "WARN",
+      "text": "Iran live: Trump says Tehran cannot have nuclear weapon as ceasefire deal expires",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEN6TWJuLW5tMWpOMGUzZWowSEhhTVdueEh2YU96RlFrR2c5OUJPUjV5aC1ZOHZvVXJSc3Z0ZncxVHUyWHdaZ1ZUWllrM0stbWc0eGV3Z1F2MzJwclZTMzI4b1RIazhMb2FwQzRzeXR4YTRyODJpM2lORmhWUFZGdjZ1eE5xMW42RDRYR0FpQVlQTWJnSWxSZkk4WjE4TDhoVHJweW5OOTNMV3NjaERKNnRQbzFfQ2xTOWxYUmtKUQ?oc=5",
+      "auto": true
+    },
     {
       "date": "AUG 17",
       "date_iso": "2026-08-17T10:02:17.000Z",
@@ -1511,6 +1534,15 @@
       "text": "Israel Strikes Lebanon as US Prepares Fresh Iran Sanctions | The Asia Trade 8/17/2026",
       "source": "Bloomberg",
       "link": "https://www.bloomberg.com/news/videos/2026-08-17/the-asia-trade-8-17-2026-video",
+      "auto": true
+    },
+    {
+      "date": "AUG 17",
+      "date_iso": "2026-08-17T04:44:10.000Z",
+      "severity": "CRIT",
+      "text": "Live - Preventing nuclear-armed Iran remains US top goal, Trump says",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QcDlqMmlLYS01U01TVHRFdXVHU01jemhoYm9yQXo3cFlwN2lYZzF0a0dDaXdHaWwxRkp6YUhKX1YwYjlxQVpNVlltTFl5cHIwcWw5WGpEcDFBMC1OZ3c?oc=5",
       "auto": true
     },
     {
@@ -1863,40 +1895,13 @@
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd1ZHTWdDVkZ4ZGMxY0FsNlN3VWxoYnJuMFhLZGJwMjl2dkxyeTV5YmtGclBJdGFVMFFqMWIxT3A0UG1fZGxIRFFVWlVTMlJDWWpySlQzV1h0RWVPYnMxWENJNDFMcmc3bVhQbG9TS0RCdWtBd0p1bjhFc0xOb2E4bEFpa0xLSUNJMzFpTHFCR3ZtbWloVm5MLTN3NThxdmdIcTN6WjY2ZVJUempnLXVDYkJQVjgtRGxLRmlNWFdOS3lwLVl4ZnJiVnhLZTI3eWc?oc=5",
       "auto": true
-    },
-    {
-      "date": "AUG 15",
-      "date_iso": "2026-08-15T08:24:22.000Z",
-      "severity": "CRIT",
-      "text": "Israeli strike kills 7 in Lebanon, a vessel attacked in Hormuz and other news from the Middle East",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNODhIbUZxRExLaEJPM1doOXUyOUtwRnBqMXJPejhlOHRWeS1CcGxtQkJvU1RtaUh5RlY5LTdWYlk1QUNxMmVCS1UzcDdmUDJXNlhLUmRXSmNfcUxiMEV5Y0VtM0FHSkIxdnN0aEtTU01tMGtpRjdCUFlYaFBmXzRGN3FWWDNlQkkzRkRBUjF2Z1hWZXVUclNEbWJidWJGcFotVS1Lb0FkTVIwT1ZPZC1KdS1rX1NIQklmdktlVXROX2ZqbHI0SHpBcDhSQ1RXZTR0TWE3NXlaQ2NCdlBIc1g2aw?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 15",
-      "date_iso": "2026-08-15T07:26:42.000Z",
-      "severity": "CRIT",
-      "text": "Israeli strike kills 7 in Lebanon, 2 tankers attacked in Hormuz and other news from the Middle East",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd1ZHTWdDVkZ4ZGMxY0FsNlN3VWxoYnJuMFhLZGJwMjl2dkxyeTV5YmtGclBJdGFVMFFqMWIxT3A0UG1fZGxIRFFVWlVTMlJDWWpySlQzV1h0RWVPYnMxWENJNDFMcmc3bVhQbG9TS0RCdWtBd0p1bjhFc0xOb2E4bEFpa0xLSUNJMzFpTHFCR3ZtbWloVm5MLTN3NThxdmdIcTN6WjY2ZVJUempnLXVDYkJQVjgtRGxLRmlNWFdOS3lwLVl4ZnJiVnhLZTI3eWc?oc=5",
-      "auto": true
-    },
-    {
-      "date": "AUG 15",
-      "date_iso": "2026-08-15T07:23:27.000Z",
-      "severity": "CRIT",
-      "text": "Two vessels, one of them from UAE state-owned company, attacked in Strait of Hormuz",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlRQUEp0YXZiaGV1dGR2bjgxeG5iV2ZFM0VjcmVOM2dub21jZXRjeFQxQTVwQkMwY3lOY052ZkE0bnZvemJRRFBPcDEzZGliZkF0M3AzWlF2c1BfQkw0MllDY1JDOVYzak9zSmVfUVJYY1dPdEQyb3VDMkVrTXVyazRTMV9Pdm5LV2pjRGZQX2o3SXRJQy0zUkJRcE9JU2hGSDRtMk5kbGVpcUVzWE84cElsOWxOLWdWLW1BU21PMjVlZ3FnWXc?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 4,
-    "bear": 2,
-    "neutral": 9,
-    "net": "LEAN BULL"
+    "bull": 2,
+    "bear": 3,
+    "neutral": 10,
+    "net": "LEAN BEAR"
   },
   "vessels_attacked": {
     "count": 43,
@@ -2908,7 +2913,7 @@
     },
     {
       "t": 1786939200000,
-      "p": 89.32
+      "p": 88.87
     }
   ],
   "chart_wti": [
@@ -3914,7 +3919,7 @@
     },
     {
       "t": 1786939200000,
-      "p": 82.8
+      "p": 82.45
     }
   ],
   "signal_outlook": [
@@ -3941,7 +3946,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "The 60-day deadline for an Iran peace deal is expiring. Here..."
+      "val": "Iran live: Trump says Tehran cannot have nuclear weapon as c..."
     }
   ],
   "chart_spread": [
@@ -4947,7 +4952,7 @@
     },
     {
       "t": 1786939200000,
-      "p": 6.52
+      "p": 6.42
     }
   ],
   "chart_sp500": [
@@ -5880,6 +5885,14 @@
       "p": 7443.28
     },
     {
+      "t": 1784640600000,
+      "p": 7509.2
+    },
+    {
+      "t": 1784727000000,
+      "p": 7498.96
+    },
+    {
       "t": 1784813400000,
       "p": 7408.3
     },
@@ -5902,6 +5915,10 @@
     {
       "t": 1785418200000,
       "p": 7437.63
+    },
+    {
+      "t": 1785504600000,
+      "p": 7489.72
     },
     {
       "t": 1785763800000,
