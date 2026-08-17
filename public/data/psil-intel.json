@@ -1,28 +1,29 @@
 {
-  "updated": "2026-08-17T14:13:58.294Z",
+  "updated": "2026-08-17T14:46:05.666Z",
   "counts": {
     "total": 93,
     "crit": 8,
-    "warn": 16,
+    "warn": 17,
     "bySource": {
       "Fierce Biotech": 1,
+      "Investing.com": 3,
       "Investing News Network": 1,
+      "Nasdaq": 1,
       "simplywall.st": 2,
       "scanx.trade": 2,
       "TradingView": 6,
-      "Investing.com": 2,
       "GuruFocus": 2,
       "The Guardian": 1,
       "FXStreet": 1,
       "FirstWord Pharma": 1,
       "Seeking Alpha": 1,
       "CBS News": 2,
-      "AL.com": 1,
+      "al.com": 1,
       "IMDb": 1,
       "Slant Magazine": 1,
-      "tipranks.com": 3,
+      "TipRanks": 3,
       "Psychology Today": 1,
-      "PsyPost": 1,
+      "psypost.org": 1,
       "MarketBeat": 10,
       "azmarijuana.com": 1,
       "Stocktwits": 10,
@@ -35,7 +36,8 @@
       "Moomoo": 3,
       "Barchart.com": 1,
       "Glide Magazine": 1,
-      "Stock Titan": 10,
+      "WVUA 23": 1,
+      "Stock Titan": 9,
       "AlphaStreet": 1,
       "AspenTimes.com": 1,
       "Elkhorn Media Group": 1,
@@ -53,8 +55,7 @@
       "Quiver Quantitative": 1,
       "Pluang": 1,
       "GlobeNewswire": 1,
-      "TMX Newsfile": 1,
-      "marketscreener.com": 2
+      "TMX Newsfile": 1
     },
     "byTier": {
       "T3": 3,
@@ -64,7 +65,7 @@
   "items": [
     {
       "id": "ce07e8608656",
-      "time": "2026-08-17T14:13:57.434Z",
+      "time": "2026-08-17T14:46:04.142Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -75,6 +76,22 @@
       "title": "Definium hits another phase 3 homerun with psychedelic ‘sea change’ for anxiety",
       "link": "https://www.fiercebiotech.com/biotech/definium-hits-another-ph-3-homerun-psychedelic-sea-change-anxiety",
       "tickers": []
+    },
+    {
+      "id": "d00327ab22e0",
+      "time": "2026-08-17T14:29:56.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "NRX Pharmaceuticals earnings missed by $0.33, revenue fell short of estimates",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZWRpX0dmSHB5cU5kVW1wVUM5ak44VzAwdDhXQ2h0MFRRdFd2TjdlRUNUSHJBUmczYUF3ZUI2NTVTM2l0QldfaUhubXpkNXduLTFuT3k2ajI1QUZIaHRtcTZEV2FJOVZxbUtfakQxVmNoenpVYkhCQjFjaFRPT2R4ek5jTWliVENldTQ3dk5sMGsta1pPdWRjZTBzOXdVaUYyMXJHUXBOTE1FTFJDcW84bWNOUHZHOEdRVDhFekZ1dw?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
     },
     {
       "id": "95d7e9f3f72d",
@@ -90,6 +107,22 @@
       "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPM0JfUnZDNHdJV3hHRUZuM0hnejhYTFdkZVJ6TUl6ZEJnZmVfdlk2OTZoZTFBQ014N29sUWZtZ3poV3ZJV2U4N01WUU1iTGVITTVUQllxMlFlemFKVDBmaEtRaGFLQThsbjd4M202YWc1N0ZCd1dQUGxLRWt6LUY4VzF3cFNfY3E3SDdVOF9DYmxOTWVvazdWTGVRaF9IQU9DLXlOTnlSYzBIRF9Cb1JuZTA0bGJBUlJCX2hTZV9Bb29xTVZrUlRDSnVYMWlpZGRBZUIzWVRqSXQxQ01Pc1RKZkdra1Fxd2g0YXFGanJkcmswcDdzaGVBTGtXbEVKVDYwb1VuLW9IWGRsRVVFUF8ycUFR?oc=5",
       "tickers": [
         "NRXP"
+      ]
+    },
+    {
+      "id": "98035e2ae8f3",
+      "time": "2026-08-17T12:47:52.000Z",
+      "source": "Nasdaq",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences Rings the Opening Bell",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9vSmgyNDlIb1RMOG9VLXBwdk5wMUItX1R0QlVHWGNTWVpVZkZaSkNBM1VVX3FnbzhCX2NleXpVRUFuREk3YVVwZjhiX3dfVmttT2lvaXQxRGd5WGtNM1Iyby12LVhWekgwOHU0NEQwSE02R3BObFRzazc3aw?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -265,7 +298,7 @@
     {
       "id": "92fe84568c41",
       "time": "2026-08-16T20:01:00.000Z",
-      "source": "AL.com",
+      "source": "al.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -307,7 +340,7 @@
     {
       "id": "08207d6aaa66",
       "time": "2026-08-16T16:53:43.000Z",
-      "source": "tipranks.com",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -337,7 +370,7 @@
     {
       "id": "b0fb09faf362",
       "time": "2026-08-16T11:29:43.000Z",
-      "source": "PsyPost",
+      "source": "psypost.org",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -851,6 +884,20 @@
       "tickers": []
     },
     {
+      "id": "e3f10faa0cda",
+      "time": "2026-08-14T22:42:00.000Z",
+      "source": "WVUA 23",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Tuscaloosa VA chosen in psilocybin study",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSlg0WE53N0FFSmRKeERNZ0VEMWlJVjhOVWM5dURxZ0QwWXR3WG9Cam93LWk3Smd5V3FKbmh6OFVKa00yNGZmVmtkc1BTRUdJUHRUUjJfUkgyVXFVUHFsNkZSNlMxRWxTU091QkRwRXh5eFBYZmYwVFBUSWI4bWQxRThRbU1sdFM4VWdnNVpZWEpxYVFwUzJIYXlsM1czSnJ4Q3hYYzAzTUdyMlBHVm5LQmNadUo0Slg0NkVLZzFBMA?oc=5",
+      "tickers": []
+    },
+    {
       "id": "7836ec33f323",
       "time": "2026-08-14T22:39:06.000Z",
       "source": "Stock Titan",
@@ -885,7 +932,7 @@
     {
       "id": "4c743353b9ed",
       "time": "2026-08-14T22:20:31.000Z",
-      "source": "tipranks.com",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -1412,7 +1459,7 @@
     {
       "id": "7939e8615e96",
       "time": "2026-08-14T12:18:56.000Z",
-      "source": "tipranks.com",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -1424,20 +1471,6 @@
       "tickers": [
         "HELP"
       ]
-    },
-    {
-      "id": "325ae4e90a26",
-      "time": "2026-08-14T12:14:00.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psilocybin to Be Tested for Depression in Parkinson’s Disease",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNVUzUGpwNF9pNWNXUmJtdUg4Q2VELWRwOWdUZTlMVE9yU1c3b3BCQm1jdjNXa2Y5MHl6MUpNOU5LdFFHYmhwQ21MWGdXZTNsQWltaVpNcnkwOS1nY003ZjZORm1TWTVOOExJODV3YmZQSGoxdmEyMm1ieDdxOVBXSGtJWFUyTDZNem1Xb3VDVVJVc05YbmxHMHJ4Qy1uRkx1T3ZsQnVwNlBuRV9mMmZ6c0Zqa0dEOUpsV2hHSmhlSG9BUQ?oc=5",
-      "tickers": []
     },
     {
       "id": "02eeccab720b",
@@ -1452,38 +1485,6 @@
       "title": "Rhelion Life Sciences Signs Agreement with University Health Network for Randomized Clinical Trial of Psilocybin in Parkinson's Disease Depression",
       "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNVS01SHJHeGMtUFVfdE5aN0xDdlBJLWhRcHZJNjA2d1o0YUh4RTBmaWVtRUh1LWI4b1h3cm1udVVvaTBwQi1vZzVrTHktbHNEMy1uUEdjTWlWSnFYVXM5WThzYnROdGxXbkVBX0Q2V3g4VF91X1lESDlDMU9ZcDlkcHFZaEk0eG1MNC1PNGhPZUVTZDJqWmFJSlNQY19jUFVWMGpkSVl4YzcyVDM5cFZCbUhHUGVFcWlKV3Y3eVZtWjV0M0VSR0kyajlraEZlcjZqMlZqb0U0MXVOaEw2SHdUeWJJUXp4X05maV9Dbmo0dGw3UVd1a3RmUDVFekt5VnhxUHJpZnB3eEZOVkJGZEdUQm5LUnU0b1Vv?oc=5",
       "tickers": []
-    },
-    {
-      "id": "4c6a709ab97b",
-      "time": "2026-08-14T11:50:11.000Z",
-      "source": "marketscreener.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin : MDA Q1 27 FINAL",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRWU82eE43QWhZdjFkVDJHbW1yV0VQc2dESnhvaC1WMVgwYVhmTlhJSkl3aTEzSkUwMmRHWkVBeEx2NzljY2ZMRHVqMld3eXhwbW9aM0YzOW1uT01GenRoRkdXQmkySUNUc1dNY2dhX1NHa1Jzak1sMlBDTExEdUE?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "87663a025a5d",
-      "time": "2026-08-14T11:50:10.000Z",
-      "source": "marketscreener.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin : Financial Statements Q1 27 FINAL",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ0VmczRWcTJ2UTJjM1pBbXVVQW8wS3ZpeDNTeHZBM1BEcF83dERIOE1xQnd3ZVNodTFYSFFTTmUtdFd6UTdwcE9idFJJNjB6MFFKNE5mNzVoYjZvbXFkUGZ3bFNpNmxZdVlYbkkxM3h4bjlGRzRNak9pS011N3RJVkNSNXh3dWZla0poVHUtS2k5R01yMmc?oc=5",
-      "tickers": [
-        "HELP"
-      ]
     },
     {
       "id": "2b9c5c11b552",
