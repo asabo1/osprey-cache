@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-18T19:59:50.009Z",
+  "updated": "2026-08-18T20:35:24.358Z",
   "latest": {
     "date": "2026-08-18",
-    "wti": 84.13,
+    "wti": 84.25,
     "wti_prev": 84.5,
-    "wti_delta": -0.37,
-    "brent": 90.98,
+    "wti_delta": -0.25,
+    "brent": 91.07,
     "brent_prev": 90.87,
-    "brent_delta": 0.11,
-    "spread": 6.85,
+    "brent_delta": 0.2,
+    "spread": 6.82,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,35 +160,204 @@
   },
   "intel": [
     {
-      "time": "19:15",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Late Billionaire’s Heirs Claim Venezuela Seized Oil Assets",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-08-18T19:15:09.000Z",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-18/late-billionaire-s-heirs-claims-venezuela-seized-oil-assets"
-    },
-    {
-      "time": "19:07",
+      "time": "20:32",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Oil Posts Modest Gains With Strait of Hormuz Situation Unclear",
-      "outlet": "WSJ",
+      "text": "UK authorities: Vessel in Strait of Hormuz hit by projectile, one casualty",
+      "outlet": "WCHS",
       "source": "Hormuz",
-      "date": "2026-08-18T19:07:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObWtNbUJLVWcwSXlhTWl0MjBhY2NxdG96cFYxUHRXN0c2U0FvSjZYTjdGeXZSMkU5czhMb0k4cXhYOXlhTTNES2oxVlpRZUY4c196RTVsd0pFTkhXSU8xLUp1ZzVhc043NUE0c3FsUGtuZmtoX3RyTTlvMmkwdG8wSU5qbWZmN3lCQlA5UUdackVqTGdrY2JfVUlpaE5jeFQ4dzZLZ1Fxc29MaUJDQjdVMmo5TTV2bmxIMENLa3d5NjA2VGJOMFhaTXdxRjZ6UQ?oc=5"
+      "date": "2026-08-18T20:32:15.000Z",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQNW05SzhVQnZjQW1GU0h6bThvVXU5NEdNVlJlUjFFRXJoelMxdUlSVWsxMXpOQXpBQWhrZV95MHllUF9SeVBmMUpfcVRQVTVIeXZ2ZmVVanNydHdFRmQtV2ZkcTg3OHFpa3JwbGRVSzdwY3pGQ0VzVi1NZE9GN1ota2JjeTk0LXZlbEVVVERGeXpaQ3BmN1dCXzlncHkydURvXzlkb3k3eEFRZ3ltVTdhRHgtSC1tU05EWmV4VkJ0d2dNVlhsd2pvNEtkUHNLcjhCWllaVlJKcC1pd1FZd3VkM2EyZHY2ZXN4WnBfckw4XzVSV0RMdWk4NElzWEZJSEkxenZUNkNjRE04Yk9jT2ZmU2xfalltUQ?oc=5",
+      "cluster_size": 16,
+      "cluster_id": "authorities-vessel-strait-hormuz-hit-projectile",
+      "first": {
+        "outlet": "local12.com",
+        "date": "2026-08-18T20:26:30.000Z"
+      },
+      "also": [
+        {
+          "outlet": "local12.com",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQZUFjbGh0ZDJReEVCS3V3Slp5THNhYzk1SDdWbThzSjQyR29CdFotLTZYV1BuOUw2djJyTEVMcElzMFFnZGthSDg5WVJHOTFpWGFlSU1KT2ZaNEt2NXJXUGNoTHdDOTgwVFU1WmhYR2RHeVhCM0ZQY3l6TzI3TU9SQ1JieTF6NWxKZ05jWXNZU1pwMks2T09ITmtpbHNGUHJDNTdDTk5WLUFWOGdvWmpYaG9aZnFtNDVidks4U0dWUEk2Q1Jxekp2RlRVT1dWUWJJaXhmeENPbXJEeWFJNS1xRnNBYmlQMnNLMmRCQzhPcHJPZWFBcDd6UkdR?oc=5",
+          "date": "2026-08-18T20:26:30.000Z"
+        },
+        {
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQUpULXM1cThhb0FjbTlkWlNNcHdQNmM2Um40a3RIazlWbGYyWWtxY3FLS25ad2VadnVyX3g3Zi1pblRIZzhoZDIxMlpHQ0N6QmVYVmZESTQxUFNGMkpFODJmY3R6bU9vVjBDaU5mQUJGaEJrOTc0TTR4amJZTVRUWUE1WG1QakVRWGQ0R29WMnhBU1NndnBMRkhieVlPMUFKME5iOEVWUjYwZ1NGLXZuNFZjTnRKM00xZEo1Y3ZtNlU4V1A3N3NxNFQ5TDAwUEVad0Q4akYxQXYyMjR1UllrM0xXbGMzTkhGTG9jeXBoTUEyY0I4N3Fscw?oc=5",
+          "date": "2026-08-18T20:26:37.000Z"
+        },
+        {
+          "outlet": "KOMO",
+          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQeHNJOEtOTUR0NUhyMXViUWpXSGh1RTM2Zzl1Szh5U2RrWi1Nc3BkbnlOd2VreVlnb3VoVEtEbmM0LWpJYVR0eTRuZzFzZmRuV3NwbS1JYTFtU2luaHUzbmxvMVg4dS1VeTdrX3dFZ1UxX2RlRzhMWTJ0NEpzUmNKell5YWlsckk0anotR0hZWHVtTGU4bW9STEJOclQtMEtjR1o0TTVHaHFWc0RzNEQ1cFUwc2NaUk9KaXJTbkl5R2lzSVcyak9UU1Fyalpsdno2UDU1Q2RGR1ZITktRUWJfaldHWmYtazBoMWgxdHc4ck91S2ZWcnJ6ek1Bbw?oc=5",
+          "date": "2026-08-18T20:26:41.000Z"
+        },
+        {
+          "outlet": "WCYB",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOSHR6UU14UlVIUTZkT3VwcFBES1ZRRzlCcjh5UjBFNkNMZ0c2cVNCMHpUcnhKeENXd1RYSFFLOWNTMTYtRDRiU3lrT2ltWGdaSGY0bzYtS3FPZ1dsT2JJUncxbzBqMGtvYTVraGJXVUZXbDFOUW5xd2poRkNkN0diT3dWY0hiM3BRYTBUVDl4eDFOcWxqUjMzNDFNM1FCZG9UNGYtNEVCaFdzZlp6LVFPNXpXbE1RdHU4U01sdGNZZHVrZFJrMlZ6c3NjaEFFd1dRWFFQMzhMSjBGVWJBbmowUU1CcmI1V1F4N202ZnVDcWFVZDF0dEE?oc=5",
+          "date": "2026-08-18T20:26:42.000Z"
+        },
+        {
+          "outlet": "WLOS",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNOVFiMU9ZOGJUdzZ5a0JRWkFwUEQ3VUJXR3NVVVBUMDNydnRLTlZENVZiLUNLaFBSem9VT1c3WFJPSXdraS1lUzI1Tm1oQS1JenI3cm42a0RVSUg1bjQ4Z0twd25fSU93eFduQ0tCZkY1QUVXX3EwcVhvS3pLczlHTjBmT0x4UUpGeGZvbHhrM0k0YUpHeDBNOXFRZWViYm04MTlabTE0N1pKdWhLWWZtWTB0QlVpQUV1eHozSFdpYm1pQzFVQXFyWmQ4OG82aHBwSUJNYVdzeGpkN2hiMG95eG1VNWJaOHpqUkdRWTNaeGZJWmFzSmc?oc=5",
+          "date": "2026-08-18T20:27:07.000Z"
+        },
+        {
+          "outlet": "WJLA",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUWJfY04yNE9Ib25wTEc1TkVkRUpYNXo5M3FtdEh5TXp0dlcyVDhDMFlxc1VsTlN6ZlBQaFE2dFRYcE9BaTZYUUd4cE1ZN0Npa0plX1AwZ2F0cklrZ2hlOG5YMXNEUXA3Skk5Qjg3a2tESUlRR25sZ1JERzVja0pRcXRPQ29sTDhleVMxR3dmVTlKbDFWc3NxRy1XQ2g3WkEtcDlmSkRtal9kZ0pwbG9fRHBWRzFyOUIwUDNSV3dGMzdialpCNFVQZ001MS1IcmlNeURnNUVaRzN0a0xVVDZwUEIxSGFCaHNVNGk3U2JFR0NVc1Nmbnc?oc=5",
+          "date": "2026-08-18T20:27:18.000Z"
+        },
+        {
+          "outlet": "WLUK",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQQVdTOFZ5TDVHVTJOSTFRTm9ZeU1KSDE5U2tRTWFpbTRYbEJsUmlId2lDWDR6RG5qXzBnTlpxd3ltWkFSc2kyOXdTcU5hVTEzYzdGSDJ3ZGRlUkQyU2pvSnYxOGJFWldBWHMwSFFpZkRScDMyUURhMzVVcWY5Q05nVzlUS0s0a19OeE9EZnM2U2VPUkJVQ0NFV2Q1NzNwLUdDMDE2SS1hN1JRLXhRVG94bU85Q05RZk9GSFVzY0l4TENiTFBaVlQ5Tng1T1dHWGFpMkJ5MWxwcko1QUo2RlJuZDhINXVxaGhtenRqSnhfWDZhWUZleXR6RjkxT01QN2M?oc=5",
+          "date": "2026-08-18T20:27:31.000Z"
+        },
+        {
+          "outlet": "KUTV",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOFNYYldHamZmbzdZNkF5NGpjTG92SnJPUTRqS2dvRHdDcVRCNzg5dGJSVWVOM19YVGR0UHltc3VOUDNzLWZqU2h2OS1GdHRPd0ZtbUt6amFFYWhNa3JSeW5ZWk5mR0NXd2lZQk4tV29yM3dXbVh1Ni1zTFNfNmlzSkNDdXpzcElhRGtQZmh0QlU3TE5LNFRYalV6UXE2S3ZBRU9YUGRRQ2FDSDdsZ3RLOU1oM2dYcXlpcHNTbktaTWpKU1BpbVFORi1GY3BvSFhRYnJSZmJCaFprQWw5ajBUOEtQVWtia25yOU9uaFRUbVZBOEpnYkE?oc=5",
+          "date": "2026-08-18T20:27:35.000Z"
+        },
+        {
+          "outlet": "katu.com",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPbmFpRW9MNkl5Tm54U0g4aVE5djUteV9SRGg3WV83aHZXZ0lyRjNPa080VlVOZU1jeVZwc1Z1YWZSTzFHNjlWN3YzTE5jVmZfQ0x0NUo1OUJKNU9hMm55bFVxUExXZnR5MU5pNjJRZ0E0MlVmLTI3UWU0RDVabENBanlkYllTNlJ1czl6Y1ZjUDREU1NxN2tvdENCYTY1MC1hSXVMb2hSS0hETGFOb3J5ZTQtamV2QjNaNmpiNEttZmU1d2tSRUgtQkxPQ2F4eGlyN3hQQ3huUVgyTjcyeVBfeXh5dFVkZmk2dEtkUWNFNEMyOUhLOFE?oc=5",
+          "date": "2026-08-18T20:27:51.000Z"
+        },
+        {
+          "outlet": "KOMO",
+          "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQN0JKN0FvdVBNc2xzcEF1TmdwVGVXSXhacl9FOEdvYWgtRlJjTkVDZlF5eGpraGhHOWNidm13eWdEUlhKb0Vpekk0MlVSRmV1NVlRMXRYVnpLVHhkWUVuQ0NpNEZLemN1LURNZ0Qwak1sc0pmZmg4YXJsTmFvUVJBZXphWVMxQXk4MWp1c2VKTGxoLWlWQmVWWEI4V2JLTEVXQkl4WGttdXhTT08xbVZ2TGFjNU9pbUN6elN3bExmUXFrNm92UzUtVFFDaEY2MlZqLTlvY28wZmJydFBHaTdDLV9RcXh2S0dHaU9iZjhGYm5maV9WYVJ6LVJsZFJpa3BPWWN0NGRLUmdoODE1TnVqNDZJSDNoUWZl?oc=5",
+          "date": "2026-08-18T20:28:34.000Z"
+        },
+        {
+          "outlet": "WLUK",
+          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPUFpHUVRSMm1LdzdPTVlzTzBtVDBMUFp5ZUVTbW1Ndk1fT0VDM29iRkQ1ZkM4cEpzR3hrcl81bEJQSlVMMTczSEN2NUhGT0xyMzRLZjVNUk95U204NDR5ZllPTmpuV1BXQ0hNaFBFTlBKbFNaUkZZX05wQXB4a3F1Q2ZRQ0xoTllzR3ZYcW5nU25PTXh5Tm9HVWZKUC1HN1NNNDMtOU5FLWlQR09yWV9oSlF4QjN1SXdiVGJ3OG5GQkExQ05ha2RYMU5MQ3FwRWtNNElQTUtPbXp4cDJYQkNlRnpQSmM2cjlGWmh5aTNwQnhpOUpzV0YtV21RM2dPaGtTVE84VHZzWm5DV05nMTYyRHBUR3k3QlFjb1VPWg?oc=5",
+          "date": "2026-08-18T20:28:41.000Z"
+        },
+        {
+          "outlet": "WOAI",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNSW5TcXZwNjR4Q01FOFlGeXdmX1pEelpNWDBweWtENTlDQlpXLTN1cU1nazdKWEhvaExFOU9YM0tfMmhGVXRyU1RsNEkxTXdlaG1lQ3VqLW9wWnpfWU1xUHdKYnZ3aFAtN0RSdlJxdzVDanMyV3J4VmlIQUZKMDk2MUM5Wnp2TmVCRGlRTGh3WjVzSFhTdXhsUUs5UjVCck5lei0zc3RIVlp5VGhKQ1VJakpUVlVURm1uWVFGVUQyNnRrQnJESnlqakxKMmdTSTFuTl92MXh3SFFJZWdkd0x1RmVhLWhhMzR1YkRhbDNiWWdOOWN3aTU3MUJvTU5VNVZscjQwQQ?oc=5",
+          "date": "2026-08-18T20:29:05.000Z"
+        },
+        {
+          "outlet": "newschannel9.com",
+          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxORmJuREhoVGZ4X3VWVzM1MklrcnJXNVdxLVhJVmFObWZLaHJaQ0xtMlJSeVdWMHVLM3IxRldJRDZmaU83cFZGZnFYZ3ZKMFhqQmlmZG9CZGNRaUdoQ2Z5UFFXUXlORWcwWk5EY0lyUEJJMnlFWnFJZlhDeDQ5alBsclM4VUl1bTJWR193QVU4dllFWVVnUnlYdXNQYTJwVS12YW90TXhVT0hPeVAwcUQ0bTNZVjM0TDB4dy1HeVNxQTZXQ0VUeXktN1AzNVNZaUhOWlJZWmZ1NUI3UjZVVXdPWG91Y1ZKaGlkclV5QmlXRGFET3FyQm8xNjEtWUJ4a0lVVVVSZURkbmNkSVRCbmlZWExMTWpRd2lTRkxfSUFR?oc=5",
+          "date": "2026-08-18T20:29:44.000Z"
+        },
+        {
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxObVZUajZsVW1tZzJfRlF3WlQ2NE55b29scl9kdXZZM0M0QUsyNlE2YTdpUkRXMnJ2bjFQUWg1MXk3enVNRWlld2Rqb3VtRllBMEYwYkstVmhGSzZFemtoTTBCRUtWTUxzWk5XVmlGN1hUOXVVU3hscnU1YmZ3VV82NWJWSlJibURkSmdYbEwtd3hrV3VZRk5kYkJ4WTdQaVNmRlZXWGRkSEtkU25rb2hxaklsckxObVVxX2p6UjhxZ0JydHNBQm1hOEZ1ZHQ5SnJYNjA0eFM4Qlg2WnNSa0dXU2xFZG16elRqVmFib0dnUGtnQ3NLN2VtcVFPZWNfYTVZcUhTcWJfRGxtRldRblRTeWY4QWZlQQ?oc=5",
+          "date": "2026-08-18T20:30:30.000Z"
+        },
+        {
+          "outlet": "KBOI",
+          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQYklHWmRQZTc0YzNrWldDVHUtTEtCcFREX2Z0Nng4UDBpVFhTS01mZ0lxaDRhOEJWdnBLdmtJbXlka0gyM1d5MkVKUVI0bG1yM2tNUU5OZmxxWnVscXlKcEJPUXZLV2RuUDR5bnUzQkRCU1BFNmQ3WWR6TVIyNTdHV2dfM094eDNiOGpiczJPOTJyRnFsdkRsSThfSjRqdzM3RVJEWHVpM0FjX05URERsQnlaWFliMDdHdXJvSUlablI1eWlEd25LTEdzNmEtWWFXcXdUa0ZvZnF0M04zWjBWN2lrZV85YkFsVGloRnRHOXo4My1yeW5IMFYtenh4d1R0ZXpNSEg0akpnWUhVQXBhaHRCZVdud2xiMWc?oc=5",
+          "date": "2026-08-18T20:31:50.000Z"
+        }
+      ]
     },
     {
-      "time": "19:06",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Iran-US war live: Trump declares Strait of Hormuz as US territory with bizarre map",
-      "outlet": "The Independent",
+      "time": "20:18",
+      "severity": "WARN",
+      "direction": "BULL",
+      "text": "Trump threatened to bomb Oman because he's unhappy with country's deal with Iran, officials say",
+      "outlet": "AP News",
       "source": "Hormuz",
-      "date": "2026-08-18T19:06:58.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTEctb0JOX1RxMG5SQ0xzU09LVXprZ2I2TGU4T0k1cGEwdHhNVjdCTDROb1M2VmFLdVZXUmVXZGxMSzE3aWU2TF9TQ2NjdlMtekdpVVpzZzNmYmNIeEt5aldvcFBfSlc5eVZFNl9CNDByVEJrcDB5V1FNaHgtVkhuTnFjQWxTa3drdS1SVVhpc2pOdFJ3cnlYOFVreUF4akNXaHpSNGM3ZVh2NmpIM254SDl5c3dGZncwVlZOTHNQNnM?oc=5",
-      "cluster_size": 5,
+      "date": "2026-08-18T20:18:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcmtkbmV0b1Bxa0pkWjZkMlVfV2xIN3E3MzdwWmlqWHpXTi1CYng3YVIxZGQtdEJ5b0VWX3llRzdNMTAzcGNLd0IzTmRXNkRGSnAtRlR2WWI2bDZCR1Q4RENTNERlM1VwZWNDQ1NsejlBcER1MDRCeEpCTjRtTGE3OGN2ZmhkM1htVkc4?oc=5"
+    },
+    {
+      "time": "20:07",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Modion bulker was the third to be attacked after grain voyage to Iran",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-18T20:07:34.000Z",
+      "link": "https://www.tradewindsnews.com/bulkers/modion-bulker-was-the-third-to-be-attacked-after-grain-voyage-to-iran/2-1-2030837"
+    },
+    {
+      "time": "20:01",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "U.S.-Iran Updates: Trump says no talks with Iran taking place as standoff over Strait of Hormuz continues",
+      "outlet": "CBS News",
+      "source": "Hormuz",
+      "date": "2026-08-18T20:01:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?oc=5",
+      "cluster_size": 4,
+      "cluster_id": "trump-talks-conversations-taking-place-iran",
+      "first": {
+        "outlet": "euronews.com",
+        "date": "2026-08-18T09:52:08.000Z"
+      },
+      "also": [
+        {
+          "outlet": "euronews.com",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU0hCNzdyUmhGVHJOS2MyWG5LQTRFdDdHVE9aMmF6WVh6ZF9UTHVfVFZTTmNWRXpyNkdoVWZtRWx2Y1Bva2loWnhqRU9QV3c5OUJJZ20yQVo5ZVNrM2JqVGJlVjk2MjNkY2VIYnFNMkxsV2VJY0l5YVRFV2Q5NTRHdVNIdEU3YmVrUzFDOUxJTXphOXNVd21QbEMwOXZyRVBzTktWRWF3?oc=5",
+          "date": "2026-08-18T09:52:08.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSHhKekZqU0IxWEQwY2JOckhOeTBJd0FraHloM25INUJuQXNnRk5BM1JzU05UTl9RbDVSUnVkbWVzYlpaaV9lRG16bloxZGxRRXQ5dlV2a1plTkpHXzQ5Smg0Nlk0c3VjdFZLSjdkRHIxLVl6Sm5yamhoVWF3SlowaDVYV01QdGE0emdOd3N6cnFOeW5FbDRsdEExSTNNMFFMOUtYQjFDakRUbWdVbVNoWkNCcm02RkhYcjUw?oc=5",
+          "date": "2026-08-18T14:39:52.000Z"
+        },
+        {
+          "outlet": "Maritime",
+          "link": "https://gcaptain.com/trump-says-no-talks-are-taking-place-with-iran-and-none-are-scheduled/",
+          "date": "2026-08-18T16:16:20.000Z"
+        }
+      ]
+    },
+    {
+      "time": "19:42",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
+      "outlet": "The Detroit News",
+      "source": "Hormuz",
+      "date": "2026-08-18T19:42:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZmJtZjdzZVRxYmVLei1OMzlWc1JOU2l5SmdKeXFrR2NKRmxuRHdoWEhXQkZRLXVPYXY5RXd2Q1BDQm0ya3d0Q01XcDMxRWFXT2h6eFMwX1pFQmt4b3BsaG5tR0FaaUZ1Yl9JMy1uY3d3NUdDa1AyMTBBTWxzb1E0blMzTUdORVlSX2NFcWtnYWZsY180SXpObXJjT0UzZw?oc=5",
+      "cluster_size": 4,
+      "cluster_id": "trump-talks-planned-iran-tehran-strait",
+      "first": {
+        "outlet": "Reuters",
+        "date": "2026-08-18T15:32:45.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
+          "date": "2026-08-18T15:32:45.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
+          "date": "2026-08-18T15:32:45.000Z"
+        },
+        {
+          "outlet": "Los Angeles Times",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSVpXdXFKRWRIb2xIXzQyOVF5em0xLTJfMGlzSDVQNEN0M0cyWm5Oang0Wk9DejJJM2ctWHIxUEpNSzJxTFB2emhPZnBQOWF6VGZrdUY4bXVVZnFDcUlBZVNzUHc5cTlPVkFyazZiSTdILWM0a2RRRGpsNTY3cXdHOWQ5eDhjNlEycUhJNkxDaTBHWUtVUXYtUlhvTFZYOFpDYUctRFRmdXpyLVJLcFYzMks4RFE2eGNmbW5Ya1d4NzNaS2FiRkVDMTczOVM0Tm40U2ZaY09VU0xQRU5xSS01bQ?oc=5",
+          "date": "2026-08-18T18:42:11.000Z"
+        }
+      ]
+    },
+    {
+      "time": "19:39",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "US natural gas futures rise on higher oil prices, but record output limits gains",
+      "outlet": "TradingView",
+      "source": "Oil",
+      "date": "2026-08-18T19:39:26.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPc3FXWHJWV254dk1JTkNWWWYzZFJCX3hHZUZ5VDZ1ZkV3eTJxZEZnSERLcG1xT1RCaVhyanpkQzhINjA1c1hMamJHUW1PTWxBODg3ajd2UVAzZ1ZzMFRtbUlidVJyT0U3UzNLNGFVdXA0cUprLW9DUjZXNDlodk1McWJ3Vm9aSDJEeTBsdldjM0doR0paWXhpc3RmVUN1b3I4aFhlN29FbXJQak1OT2VpenpBQ2JqUDNBOWROemhETS1tbUNoS1IwZEhyZmRaRWZwU3MzZ2NrNGM2TXl2bTZlOVBQMA?oc=5"
+    },
+    {
+      "time": "19:32",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Trump Declares Strait of Hormuz ‘New US Territory’",
+      "outlet": "The Well News",
+      "source": "Hormuz",
+      "date": "2026-08-18T19:32:23.000Z",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQklhN1BFSm9pc0lRbmxpRWVZRFpnbHBmLUJyeV9UYmtNWHVyLVVrakRIM000ZmFKLVBDaU05NXV0YVZqNGptRmhMZkh4SHZ2LUZiUTdDVURwckxhbTlNQ2YyVGZsOVFma0gwQ0lNVU5KVEdtR09UZ1RSQy03b3hhYXQ0RHdnbjVqVjAwRnRNTENVWjA?oc=5",
+      "cluster_size": 16,
       "cluster_id": "trump-labels-strait-hormuz-us-territory",
       "first": {
         "outlet": "Middle East Eye",
@@ -206,16 +375,162 @@
           "date": "2026-08-18T12:26:59.000Z"
         },
         {
-          "outlet": "The Hill",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaXdqczQxZDJIUFd5QW5MQ3pkXzBKMmFqOGhFdWI4ckdTQUE0cnVOV1p3WTZTU0tFN0Iydk9Mai03MU1QQTlZLVN2YVJ2MTlOWXh5TkpBeDlDaWQzM21YVDk5aVNVYkNubzVZY0NKZWxZTFFSUHNLazBBcTdoYXlSa0V3cXR2WkNuLWNya2dRUy1GRlhJOS1pM09iSHNsVkVmTEdQcFZlZHdqUXRpUkVj0gG0AUFVX3lxTE0tOTZacnBzS0Q5VlJkWXdBdjZuNjFXN3NoTTZpQWMteHg2eFAyS1NSRUtyMFpJTHhkQXZfdlJOVVR2T2RzdEJqeU1FeDFxbGdYM0NkazlDWmNSd3UtRERha3VRV2pmVW5IVnhyVlRLMWxZeXRiMEVONy02c3pJZ1VxOGdmdFlUTUlDNDZ3M09kOWthNFVwTndPTzlDTF9tLWhMdUNHMGlKN2FTc1NMOUt4RGZvTA?oc=5",
-          "date": "2026-08-18T13:20:00.000Z"
+          "outlet": "Anadolu Ajansı",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUWd6cl82SEdkdE5MdVkyOFpZLWJEdkFfWngwSkRiZXFpeXJCcjJBWGpLdF9MdHBSejhWZEhfWWY2QkRrVDFUQzFkM1VSaGlmMnZJeGhwTjBBSHdSckVsaVBuaHBsWjdVQXBLQXdSZjJ0NDQxWlY4MlBxQkJMSEJoT0FMVjItSjRhek05bmNTdkVFYjBrTk1MR1dOM3htbnBzSGJPMG5uaw?oc=5",
+          "date": "2026-08-18T13:14:28.000Z"
+        },
+        {
+          "outlet": "forbes.com",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWHlRX3RjajJSVGxDOHBxQWN4TDdTSzdMRk13T0R5LUZWWDJ0a1F0bUh5dVkyRmo5VkNfS09Mb0lTZzI2V21SVkYyVkp4WERGejBhaktENDlmQzI4UndNZkp6dGwxY0V2TjIzcVhEeHFab3RHcGhKQ1l3cXc1NTJBSENpQW1ReWtBeThQMzJkMkstVlBHaTdPSEtORjNYRU5XRjMwRXF4VHE1REJ3TC1zSm1HSk44Uld3aUUtWDhodTN2eXJBUl9HS0l5aUZLLVFfMmgxbl82Y1VEUWtDT1E?oc=5",
+          "date": "2026-08-18T13:28:40.000Z"
+        },
+        {
+          "outlet": "The New Arab",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSFE4R0pwb3ZwbmNiemlaX2ktcWFEZmNvVXhwR2xIbmdlM3NuTTNXZk9Kbm9SMzlqY1pwTHVfdDlkTW5USjR5bjFqOHNkWVV0Nl95Y3JOWHl5TkpvcXNXYlIwWHMtT1lwNHhDYlRNSVB3b3dEQU15d2RHN1NwaS1YcjB4SkZZSXkxNW9kNVRB0gGTAUFVX3lxTE00LUo4Mkd0WnVnVXJyNGRIUFFzYU5RVFhfamJiUHlQUHRoTkNfRjZ6MDQ2bHNFWHVlYXBfalh6T3pGTHZIdTFDYVNoVGxVNEJzUy1FbDBpTmZBdWprYllfb0FwRzE5M3RfU1J3NGswNmVhSkhlV1Bac2NCaFozOUdEeFROZHpjeWRWWC1TUk1HVjYyUQ?oc=5",
+          "date": "2026-08-18T14:43:31.000Z"
+        },
+        {
+          "outlet": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVVFVNEphMXJ6eHY1UEpfa0FRU0Jvb0x5NTRsRGVudkVfaEI2djVxQ2haeDRFSmktdUFwTHlULXRubWRYVVVhRjVtSHZkeERKLWxZZkhubUhjWDlSTlFrZTZ1TEpsWENDVkJtSE9WOTFULUJLQ2hqdDFjbXM4S21HQ0F3d0hRM1Z0RHhYNVVkUHk2LWZmeTc5RmFlcUtxTXR6Q2VFNnA5Tm16Sk1BS05Nb1Bhb0Frcks5a1hBT2RFNkN1M1VKU1pKTk1CR2o5YUJhdHEyN28xbTJKQQ?oc=5",
+          "date": "2026-08-18T15:13:51.000Z"
+        },
+        {
+          "outlet": "The Independent",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQalRrZjBHM1l2RlFfOUwzOE11QXJLTVhCQTNydVBnMHBObEVJdERhVk5vZXVwWkZXTlE4OVBhbWxsSV90VUpzdEVPbzNCWWZBUmFLMDlUZGI4bVp6cTNSM3pkWmV6RXJLV2VnR2pubXFZamhHZ0hEbm9xZ3hrWGZ4TlFzV3NIY0dzLWs2QUJDV3dLTkZfY2ZEN08yaXRQRzJyUXNhdUxfUERCVFJY?oc=5",
+          "date": "2026-08-18T15:47:00.000Z"
+        },
+        {
+          "outlet": "South China Morning Post",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMnFxRXl4cHEyTks5ME5wWnhGdWpSSVhCMm4yd05pTEg4cE4tWkNpVnNwT2loalBwQjNkb2E2LThNY3BKcTZkRllHcjhTaExJOFNhazlxMDRjUGlxWW9pUi01Mks5Tmg1ZHBKVGlFQjdna3NRTGVwdFUtU0NjUzhJb0ZWajZIOU14Y0ZJNnJCbmE3eE1UbFlCTDA1SlhsWG9yWUV4YlZmdGxmZDVUT1ozTHFWV3E1REJlUVNmRlkyTWltRm5E0gHEAUFVX3lxTFBxT1pJcUpwWkhZUXJqSHFMNy1FbkFfemxoT1p6dWhhSk9OQS1ZT1lxUWhUVmhwVkVlMGhTMzRrZnFIaWZqNTNIZEptV2tpeGVLNHdkSnY0NXkwRDZwNHowVDlSYS1SNW9kWHZNRkgzaHhyVFZQNUtlMm94SUd4bnZ2cTdWS3dvd0NsQm1EM3ZkdHlMdjJha0JiNUtuVTE5YTcyQ3lXRjM4Zkx4a2E2MWFRMjd2TXN5ZXBnTlhGMlY2LTZUVWw?oc=5",
+          "date": "2026-08-18T16:48:03.000Z"
         },
         {
           "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZEZNYU5GQU5xaU9pQ2Nub1VYU1ZvdlZtZXJmcmx0RWFVNTRJV24xUVJTQkFfeEgyLTEtQTJOTURpRHctZUxVSWZkS281UU81R09IVTcwNFhPaW84V3FUakhxR2pmd3VJUmtyLWRXREp3ZEVwTy0yQU5RbHVUWnB4UmZweDFUdVhiVjhYMUN6cXlUVVQ4Wmc?oc=5",
-          "date": "2026-08-18T15:26:59.000Z"
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWDZLWS1ybTNqRlNHUVlIa2JFSkVLYm53dHRDVVFzam9FOW5uVlVRMzJ0TmNmTklIVmw5QUNQLXg3NDVfRmRhakY0ZzNjMVRiSEw1WndsbFBlQU5WYVlpNy1ZcU5zRnMyTWhxc3JsYTVnWU1CNHBqMFk4bU04U2M0Y2VrWGxuZk0?oc=5",
+          "date": "2026-08-18T17:33:00.000Z"
+        },
+        {
+          "outlet": "Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd2h4UmJROHZtb3FuckVtWTBmU3FPWGg2X2Z6Qy1MM3pHVWF2LXFscEN4OHFlWEMyT25fSWQ5dE1UMGQxejZlTzkxUnNWMGIzVXZHVmZaaEM2MW9xcnk3RnloU09aa3lZX1ROY0FGUzVnNklIU3oyRFlBOXZxVVpoZ0tqN0FfMlhWazMzaWVTdkV1bGM?oc=5",
+          "date": "2026-08-18T17:43:00.000Z"
+        },
+        {
+          "outlet": "NDTV",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNFVZSmRfOU5yWjgxT2hyMm1HeWZzNldMeEJPRnppN0NJdnowdDlEbUhDNTRFQk84UjNfc1dtTjh2WVg0ZjlTb2QxQkRESjJ3b0daS05ac3k4d1VlMjUtd0Y3Ml95RGhYOTVPYkJpVU0yc1d1OF9jMnRqeVRNazRtS3VEUlZaTnZfanVnYlVsMmhFQUNPX0VobWltcy1TSGFCR1BtMnJIc1VBV2l5WGRIcWtmcGFreTRMaWVJV1BR0gHGAUFVX3lxTFBfZ1J2ZU5iNndrUzVrRjZnOEZ0aHJLMjQwSGc1SUVySzFkeDhJZHJrRS1rWFFycmEwcERMajZLYzhPay0wQ2VScTBBTWFuc2pSVURHZWh6MlUtXzlWR3lXaUhTVkllYmN4dHpTai1jNFc1ZWtkcmx2M1luMG9DM0UtamhCbV94ZEN4Njg1ZDVsbzRBcXdCVkNwRUVFZi1ldkFzTTVETUVpZW1MWW1xQkdJLVdJT2oxNkdjNEhPdUV0OXlFYTZEdw?oc=5",
+          "date": "2026-08-18T17:51:55.000Z"
+        },
+        {
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcURZWGlIaVFIcVREQXpFbE43RGZoM3BSYXpGSGhMUi1naHJ4QU1wazF1bWNPd2Y0bmhHLUVFdnpiZTNXNTQxR2w3UVBqWDhWMk11bV9BREJWT3gxTE1xajdvSjRNQTBtaFl4Vko5TlE1OXk4OWtvWFB0YjVnN0Rfa1N5N1dtOUVfeFRrTy1HNXk5Ujl4S2NPR3VaX3lpUm5ka3RBeU5FMTc3R1Z0d20xSWN3SdIBuAFBVV95cUxOS2YwLTYwVUxUUjd3aG9tRnFlamtqbzIxZEZIUGdDYTlDZ0F3WjVWQmFRWjQ5YTVNSHpVM2Jqb1Zwa0NjaE91TDd6dG1WY0xvMDJQWHZNb0pEZlc0dG01N1NvSzNRM3NzRlV1TGVaR1FpazdvbEhzcXZjeDFGeC1iVC1iVjRYYzJNRTh3TEV0emstNVNFbzlQUEJzSUdsdlBEYmNEWTJzY0VUUTMzUFNDVTEtMGVaVWtw?oc=5",
+          "date": "2026-08-18T18:19:00.000Z"
+        },
+        {
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaEtObzNLRFV4RTFwNG90RHZ6bGVtTjJHbXh5QXllWTF0UmhhWVoweVZsZmJOeWgyVk1LNVhDbXFadWI2VFVNZlJsdDJ0R0EyMDFtM2hMWGwwTktFSVJ4dEJ3Rk44WmJQODBabUQtNEhLbTN4OU96YnVyVkU5SU81LTlEazRWQ0hadjZoYzVIMFFlS2pYa3dzNnhqZUpYUHFTQnFYb2RtTndwSHRKMVp3VHV4LTZfSkJ0bE41X2x5Q3dFd2NJNW5jdWZ30gG4AUFVX3lxTE5LZjAtNjBVTFRSN3dob21GcWVqa2pvMjFkRkhQZ0NhOUNnQXdaNVZCYVFaNDlhNU1IelUzYmpvVnBrQ2NoT3VMN3p0bVZjTG8wMlBYdk1vSkRmVzR0bTU3U29LM1Ezc3NGVXVMZVpHUWlrN29sSHNxdmN4MUZ4LWJULWJWNFhjMk1FOHdMRXR6ay01U0VvOVBQQnNJR2x2UERiY0RZMnNjRVRRMzNQU0NVMS0wZVpVa3A?oc=5",
+          "date": "2026-08-18T18:19:00.000Z"
+        },
+        {
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQkNHNE9ZUXp2Q0RjLXJPbE1SUjdoN2tYYzZsdXpQWUI5M1NvTEgzTUYtbjV2aENnRjNCY3IybzFydDNFTE9TamotYmgtelVRMkJNWG9ib244Yk5NYWx3dzBEWjkzNmVHUjVSREsza3BuLWlBcEJ0dk5DZ3EzaVh3N1plcmRkUGRlT21sRjFld1Vjak9CRDNTQ01qam1Ud1E2SkJybEVFdFpZYkVBU3V4a1pVbnd1U3l6QWlTLVRZdDJJc29DMEliM0xn0gG4AUFVX3lxTE5LZjAtNjBVTFRSN3dob21GcWVqa2pvMjFkRkhQZ0NhOUNnQXdaNVZCYVFaNDlhNU1IelUzYmpvVnBrQ2NoT3VMN3p0bVZjTG8wMlBYdk1vSkRmVzR0bTU3U29LM1Ezc3NGVXVMZVpHUWlrN29sSHNxdmN4MUZ4LWJULWJWNFhjMk1FOHdMRXR6ay01U0VvOVBQQnNJR2x2UERiY0RZMnNjRVRRMzNQU0NVMS0wZVpVa3A?oc=5",
+          "date": "2026-08-18T18:19:00.000Z"
+        },
+        {
+          "outlet": "Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbFkyd2NpRldiTFcwZFNfTWVldmpUTEplMEE1YVhuT0lXc0ZoOVZCcl91MEZmSi1rM25keE9yVnRacnlfbkx4aDY3SlJkVU1HX3pOUFh5UEoxV2lWVFIyQXpidUdfcnVMQVdIa3dxVG1hN204NjAwSG5jV09fWjNPakgwSVhqRU9Yb2RxMw?oc=5",
+          "date": "2026-08-18T18:25:16.000Z"
         }
       ]
+    },
+    {
+      "time": "19:31",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Oil Hits Three-Week High on Iran Standoff",
+      "outlet": null,
+      "source": "Rigzone",
+      "date": "2026-08-18T19:31:31.000Z",
+      "link": "https://www.rigzone.com/news/wire/oil_hits_threeweek_high_on_iran_standoff-18-aug-2026-184405-article/?rss=true",
+      "cluster_size": 5,
+      "cluster_id": "oil-closes-three-week-high-hopes",
+      "first": {
+        "outlet": "Reuters",
+        "date": "2026-08-18T01:13:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWFFMnZIN09zQ01kSjJtOWZDTzJHTk1xazNXM09aamwwLTBjeVRhc3VodGhQNWI4UlFaUFdEaFhNNDhFRzR6emlja2xYSTRhaHdFYzQwcnBWZnpkckpXSU5qUkFWZ0UyS0xzZ0lFbHdQRTFkWHJYY1JLM3gydXlKTllCLUFkclJiTEFTcFNOMTdEME95ekVaUHRtZmgwTmVDSWQzeHVodGtGNHkx?oc=5",
+          "date": "2026-08-18T01:13:00.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWFFMnZIN09zQ01kSjJtOWZDTzJHTk1xazNXM09aamwwLTBjeVRhc3VodGhQNWI4UlFaUFdEaFhNNDhFRzR6emlja2xYSTRhaHdFYzQwcnBWZnpkckpXSU5qUkFWZ0UyS0xzZ0lFbHdQRTFkWHJYY1JLM3gydXlKTllCLUFkclJiTEFTcFNOMTdEME95ekVaUHRtZmgwTmVDSWQzeHVodGtGNHkx?oc=5",
+          "date": "2026-08-18T01:13:00.000Z"
+        },
+        {
+          "outlet": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUUc3WnBzZzhqTFVUUHprYjQtbnJkbXFyUEttQUVUQlhpNmxLZC1Sb2pEY3dhdjBhTVlxNmxtWVpUNHNyeUtkUDlkdy1sNkdaaFR6WFVtVGxWa1k2OXRianExVGQ2VHNsQV9xRnR1V2hhS2EwbzJnWi1aRnpSWkY5Y2hhcmQ5R3VEQUszN3ZyVFIwVjNYdTdQaFdwNFbSAaIBQVVfeXFMTzNOSEtZMTJPSDlEVFBkMnF5RDZ0Zzcyd1YxS3ZsLVFDeEl5ZDM0WXVWN3VfQnNSclpWai1lREIyUFNKdEMwczVNYktIRFQ4UDRod19OMFFrQTExZEF4MGQyU0N2OHJ4YklCNUlwMEJSYlNvRVQ3d3VSSmNHSWhZV1NrZkJCZkxENmFwUmJYNW5GdEVCQ2Uta1Itbm9LS0Qycnln?oc=5",
+          "date": "2026-08-18T01:23:00.000Z"
+        },
+        {
+          "outlet": "Oil",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaW5Ea1ZDM3AwY2xxMDJacWwwUEt2YzFGdVBEbmFXOVpfRmpOaEViVmExRl9POXp5WXVNZGI0VGZEaWhrcVJMUFBHek5qZWR4dGtZOF91S3VRcjBLUmVxWHZkY1QzUDhKUDB2ZklBRFpxZmpXWGNQcWV0UnRlTFhvcS0zZTg1VGwwcW9nT2dmYThDZy1kS0hpSUhmSnFQUnVvTFViRzQ0OE1hTXdBSDdHX3ExcmU?oc=5",
+          "date": "2026-08-18T08:07:31.000Z"
+        }
+      ]
+    },
+    {
+      "time": "19:20",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Trump Shares Map With New Strait of Hormuz Label",
+      "outlet": "Newser",
+      "source": "Hormuz",
+      "date": "2026-08-18T19:20:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNWNxakpCZ19tRXR0cWplanNHM3hEUVFtbVF3SE10SmVuSTBaTzF2V1M4dUg1cVNtMzMzbVk2TFR6TlRFYmdvUE5TS1J4OTdKMzYtVUZzSFlmcEdwZWVwNkZBM2ZfOElTTWFKWkN4MmMwdC1YRk1XR2l0WThFZ3dPcjFGeUVVNDRfaHlXREs5bnREQQ?oc=5"
+    },
+    {
+      "time": "19:15",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Late Billionaire’s Heirs Claim Venezuela Seized Oil Assets",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-08-18T19:15:09.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-18/late-billionaire-s-heirs-claims-venezuela-seized-oil-assets"
+    },
+    {
+      "time": "19:13",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Current price of oil as of August 18, 2026",
+      "outlet": "Fortune",
+      "source": "Oil",
+      "date": "2026-08-18T19:13:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1KM0xoMEc1a1o5QnZBYk5BbTE3SkVGWHM5bDg3bmJ0LVBKN2I4TGNUOEFzMV9vUVh5M19kQVJDQkZuOWpjaWxKQV9nR293bHhMeEZlbWFsendJbDVSb3FmbGd3?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "current-price-oil-aug-2026",
+      "first": {
+        "outlet": "Fortune",
+        "date": "2026-08-17T10:00:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fSXp3bHBkaFNMQi1VVDJLRnVSZEQ4bkVYaFB4UUhYZjR5S0JLS3lWcm12X0cwZ2NndlpTMG5lLWJZSUpscFVIclBwcFloaGh1ZnZ3VVVib2w2Wld6WkpsaFZB?oc=5",
+          "date": "2026-08-17T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "19:07",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Oil Posts Modest Gains With Strait of Hormuz Situation Unclear",
+      "outlet": "WSJ",
+      "source": "Hormuz",
+      "date": "2026-08-18T19:07:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObWtNbUJLVWcwSXlhTWl0MjBhY2NxdG96cFYxUHRXN0c2U0FvSjZYTjdGeXZSMkU5czhMb0k4cXhYOXlhTTNES2oxVlpRZUY4c196RTVsd0pFTkhXSU8xLUp1ZzVhc043NUE0c3FsUGtuZmtoX3RyTTlvMmkwdG8wSU5qbWZmN3lCQlA5UUdackVqTGdrY2JfVUlpaE5jeFQ4dzZLZ1Fxc29MaUJDQjdVMmo5TTV2bmxIMENLa3d5NjA2VGJOMFhaTXdxRjZ6UQ?oc=5"
     },
     {
       "time": "19:00",
@@ -226,18 +541,13 @@
       "source": "Hormuz",
       "date": "2026-08-18T19:00:00.000Z",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZTFDUmdQWm5lRl80b1FqVUlaZXJFV2MwcFdBSlZRNUppYVRkVXM1dzZfQ2ZGWWI2a0xYS1JFU256TFNDZ0FKS1RRLTlSaFNpTlZoVG9uOGVwTjg0UERXMm9TTEdlVENKSzhaeHh4R3I4ZkxNdTM4Mk5YWG1qOUd3RWRHVC0tUC16a09mNkJkc3llV0xqU2x6cExQUjExX3NsTWpfODZR0gGrAUFVX3lxTE9DbWhSX2RyaVFILXdNMHB0aVFoNXFBaHFra2VBMWZjZTZBUGFpR0Z3R2ZvaFJnY0NwU29lTE92TGotV3ZBNnZLVjRyUXYwS3RvVzVMaE84R2RvNGl4amdjcDdtRUYtbVBKbWFnb0FUMHk2SFFCUUZkN3Q4cEJxdXQ4aEI0VFhFSlFReGFvSjVlVmV3ejJjaGo5T1k2T1g3NFBxTDQyWkhEdVY2Zw?oc=5",
-      "cluster_size": 3,
-      "cluster_id": "tankers-turn-hormuz-iran-tightens-grip",
+      "cluster_size": 2,
+      "cluster_id": "how-gulf-oil-escaping-strait-hormuz",
       "first": {
         "outlet": "Hormuz",
-        "date": "2026-08-18T12:30:00.000Z"
+        "date": "2026-08-18T15:00:00.000Z"
       },
       "also": [
-        {
-          "outlet": "Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTUJGSFlVa3dtUW1qdHgwb0ZsNmpWcWxQZ19SLUVjRzF2Y3F1Y0gzZXJ2eFBTZnktOUs5RGhkcmFzNUw3cVgwZXBWZk5lUVc5SUVXZlhkNk84OURwdUZSNmg4OThSVFZlYWlWTU9jZGt2WU8tak9wMFVVc0hCQlU1VzZIXzQybS12X2dPR3VjR3NvbDQzdGIxQ3UwM1JDYjlWRW5LOTV4NV9KUdIBrwFBVV95cUxOdTdmYUxTMUJvUVpBdmszZGhwM0FvVUtTVVJibGhPUjZ2bVA0dDlKTF95T3IxN2dEXzdqcmZRUzg1MzR5YVM4WGtGb2RqQnhPWFhXd21VR2ZndFV4aUZqRVVLSV85OWk2THJkc2FsQ2tESl9VUGd2dHJZSmVzV3ltQncwX1JNRnp3RGRkMG9EZ2Mxcm8tc2l0d1JCeldYMm95WE9aODUzN1RFN1FyRGk4?oc=5",
-          "date": "2026-08-18T12:30:00.000Z"
-        },
         {
           "outlet": "Hormuz",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNzV3NmE2dGFVTUdBSElrSVQ3SEhOdC14ekJjaUZ6cVV0Zk50MzRGY1VaRWJmN3lFRjE3OURLQWpueEVLendKOTZ0SHRDS1R0c2NTQUltblFCdXdpbUp5MGtyUGJLc0FCclcyQlhhaHZtY2g2RUtwQUtHUTkyejdXcW1OY2lXb1FwOURFazBnTjY4Z9IBlwFBVV95cUxOLWFpT3U2Q0RxQ1llZW5zMHVPSktxWVg3d1ZiUEJla3lpQ1B5OWV5dmlUTVdQWGJnT24tLU5RbTZkd1ZhMUVfaVpMdm1uc1paU09QaktOdzdVc3dNc09jcV9HMXZEekRrSmotMWNwTi1jRGVFRkxPLTJ0RFFBT0VFeGhjUE9xenhDb0xSMEtjajhiWDN0czJJ?oc=5",
@@ -246,52 +556,14 @@
       ]
     },
     {
-      "time": "18:42",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Trump says U.S. has no talks planned with Iran as ships in the Strait of Hormuz still face attacks",
-      "outlet": "Los Angeles Times",
-      "source": "Hormuz",
-      "date": "2026-08-18T18:42:11.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSVpXdXFKRWRIb2xIXzQyOVF5em0xLTJfMGlzSDVQNEN0M0cyWm5Oang0Wk9DejJJM2ctWHIxUEpNSzJxTFB2emhPZnBQOWF6VGZrdUY4bXVVZnFDcUlBZVNzUHc5cTlPVkFyazZiSTdILWM0a2RRRGpsNTY3cXdHOWQ5eDhjNlEycUhJNkxDaTBHWUtVUXYtUlhvTFZYOFpDYUctRFRmdXpyLVJLcFYzMks4RFE2eGNmbW5Ya1d4NzNaS2FiRkVDMTczOVM0Tm40U2ZaY09VU0xQRU5xSS01bQ?oc=5",
-      "cluster_size": 5,
-      "cluster_id": "trump-talks-tehran-insists-strait-hormuz",
-      "first": {
-        "outlet": "Yahoo",
-        "date": "2026-08-18T14:33:27.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnRqeGJaVExjMU9TQmxfYXgtajhsY01pMWV1RnJDZTZENXNRWnBOanhnbWNuS3YyaVNmSGJBVmNQa3FGTi1lVmpuTWE3ZkMxdkhTWllMNzFRYVVrOVd2QUNKcTRPX1pUTGY3Y2ZJZW05R0lPNTlYWHlVSWEwLUlrUzdwWUZXOGlvbEtJd3p0WQ?oc=5",
-          "date": "2026-08-18T14:33:27.000Z"
-        },
-        {
-          "outlet": "U.S. News & World Report",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWGxfZjJXQlkzUGY0NnhZNVJJOVpXaHppMWhCTkZsYVhkR2Z0UHJ3MXNGckhVWl9NbjFLVzdVVkVhSVRqejZ4bDdpOFlSVmR3S0xmZTJJWk12OWpvT0hOR2RSNkNKOGNSZklBZXktTUZqbllRZkdoUnlBNXl4X241eEdmUHdicmUtbTdNdnZSVVVucUo5Y2thQ2VJZ2FqckVkNloxQ28wSnJPNDRRM0ItRUVOekhFOHIyNDZfQi03S0c4VTFaRWVDbUtBMA?oc=5",
-          "date": "2026-08-18T15:25:58.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
-          "date": "2026-08-18T15:32:45.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
-          "date": "2026-08-18T15:32:45.000Z"
-        }
-      ]
-    },
-    {
-      "time": "18:35",
+      "time": "18:25",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "VIDEO: Tensions rising over the Strait of Hormuz",
-      "outlet": "KIRO 7 News Seattle",
-      "source": "Hormuz",
-      "date": "2026-08-18T18:35:33.000Z",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVFNxM3R5c0d2Yi1DaWxMSENTSk5xY1BzN2IxcE9HLWpFVkg4UjlrZW8wLVlCODFWU3FsVjI3aE9rWjA5TzhhWmdrSXNaMW5ZTFNkOVgySGpDYVFaSVVxQ1hJQm9MSnFrLWd0cGw4NHhhWU9VQjAxQWNYRS1FejFOWXBhMTUtaWZpcWlzc3dUaXh0czdGbGhlc2ppdjFPMTRnLXlfVzFHenRzendyQzQzRw?oc=5"
+      "text": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
+      "outlet": "LiteFinance",
+      "source": "Oil",
+      "date": "2026-08-18T18:25:16.000Z",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5"
     },
     {
       "time": "18:21",
@@ -302,208 +574,6 @@
       "source": "Bloomberg",
       "date": "2026-08-18T18:21:52.000Z",
       "link": "https://www.bloomberg.com/news/videos/2026-08-18/trump-will-have-to-make-bad-deal-with-iran-sullivan-video"
-    },
-    {
-      "time": "18:19",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Iran is losing control of the Strait of Hormuz",
-      "outlet": "Yahoo",
-      "source": "Hormuz",
-      "date": "2026-08-18T18:19:21.000Z",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQTFNSUNsR1d2Mk9PUWExYWIyZjR1elg0bmU2MnQ3dWY4VHJMQUZaNlBKdnRlazk3TlkybEhUZDZDSWJHUXBhVUxJUkdNanRVd3JLSVNvZTNicDAwRVlicWlnY3B2M3NfZmstNTlaMlI5OTdha0xvVUtmTG5rcktobFlFN1J0SlFqNmdMS1hFcVg2cFdB?oc=5",
-      "cluster_size": 5,
-      "cluster_id": "trump-tehran-wants-deal-floats-us",
-      "first": {
-        "outlet": "Fox News",
-        "date": "2026-08-18T01:14:39.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYXhZT1kzZWVfaHBjcTRzZS1sbm1GcDVxMWs2c3gtOXdIM1hOSGZxbWZvRkpnaDB1MTktU2RHRTZpd2djdzJiQUhkU0NlR1ZVMTYxN2hHUVFRRDJMUXJyOTlfeGQydFFTUjdnc2NRWEFURTlCTW83SklkMDF3dzZlSFI4NGNVZW8?oc=5",
-          "date": "2026-08-18T01:14:39.000Z"
-        },
-        {
-          "outlet": "NPR",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbGZxLXdfYngzRmZ2QTVlVngzSXFqVUExN0lJcUNyNUtVY29SNnhCaFJnblRqV1piZ2NUME5TTTZ6MndTY1ZYZWQ3Y3UxWXd6akoxZWFuS013MnhpVm9FVE9rMDFaeE9EbWRpS0dTTDFraVRCUGNQR2NaMDJ3NTBFTmNIVVJ6QnpZNHFvZksyZEdvSHp5Z3VQRG5wY01VRUZLaFVrMzhaSWpGUFZlbmRhQnV6RQ?oc=5",
-          "date": "2026-08-18T08:39:28.000Z"
-        },
-        {
-          "outlet": "XTB.com",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOEJ2Q181Z2tzWjZvWUlidWo3R2N6ZGVELXczT0hDQjlHdHJveG0xMUl0Y3pmTWZiWnppTWxNTDN0NnhacF9uZklsb3RsUWZDM0tMcTgxekcwc3VSWThrbDhHYUF4eE5ldnl0MEszM2c0ZncxNG1Kb0FHUXM4elVJOXVlVDZnM0ZyMUtDWDdjcEtackQzZTExTkg3ZGE3bC1RRVc2SkdfNEVla2dIN19OZVdWeUM2WXp1N1kxVXVtcWJ5ZjNtSUJlUW9GOEUyMWJOU3JBOFRVRFE0N1JJN3ZjOTRjc0UtUUdqZWVPUUpCRUNqeHg2RnYxSDBR?oc=5",
-          "date": "2026-08-18T14:20:19.000Z"
-        },
-        {
-          "outlet": "CNN",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5UYmdZbW8tMm55Yzg4Z3VFeDFiWUk2TDNWWU13aVdKU2tSSmtOb3FMWnBaOWRxMW1tMUZna01vZnpZUXdMaDNKLVVVR1FOMTlrZm03V2JWeGVzR2VxY19QbkdCaFR6ckdhOVdFU05PWEhvMnc?oc=5",
-          "date": "2026-08-18T18:17:01.000Z"
-        }
-      ]
-    },
-    {
-      "time": "18:19",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Iran live updates: Trump posts map labeling Strait of Hormuz 'new' US territory - ABC News - Breaking News, Latest Ne...",
-      "outlet": null,
-      "source": "Hormuz",
-      "date": "2026-08-18T18:19:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY1A2SEhjbDJGTTdzMFlrQnE1LWpHMWlpZVkyMTl5SGdmcUpERHdvcm5Bb1dvX25rTW9YTV9yVmtJblF3Y3FtTmxvNC1oWFVMU2RuekMyck9wWEhTTkxidi1JNldkalVxYVplZmtmTWE1RU5KVmZKWXFVTHctR20wcmw1YkthVzNQUTVRbU9OUjZxbklpbEVBelFVWkRGaVJnbUtyUDFZX1h2N3JyQmwwVFpodHhUdjhWTG12VllFUXRHb1lTWXp4LVJB0gG4AUFVX3lxTE5LZjAtNjBVTFRSN3dob21GcWVqa2pvMjFkRkhQZ0NhOUNnQXdaNVZCYVFaNDlhNU1IelUzYmpvVnBrQ2NoT3VMN3p0bVZjTG8wMlBYdk1vSkRmVzR0bTU3U29LM1Ezc3NGVXVMZVpHUWlrN29sSHNxdmN4MUZ4LWJULWJWNFhjMk1FOHdMRXR6ay01U0VvOVBQQnNJR2x2UERiY0RZMnNjRVRRMzNQU0NVMS0wZVpVa3A?oc=5",
-      "cluster_size": 10,
-      "cluster_id": "iran-trump-posts-map-labeling-strait",
-      "first": {
-        "outlet": "Hormuz",
-        "date": "2026-08-18T14:16:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcURZWGlIaVFIcVREQXpFbE43RGZoM3BSYXpGSGhMUi1naHJ4QU1wazF1bWNPd2Y0bmhHLUVFdnpiZTNXNTQxR2w3UVBqWDhWMk11bV9BREJWT3gxTE1xajdvSjRNQTBtaFl4Vko5TlE1OXk4OWtvWFB0YjVnN0Rfa1N5N1dtOUVfeFRrTy1HNXk5Ujl4S2NPR3VaX3lpUm5ka3RBeU5FMTc3R1Z0d20xSWN3SdIBuAFBVV95cUxOS2YwLTYwVUxUUjd3aG9tRnFlamtqbzIxZEZIUGdDYTlDZ0F3WjVWQmFRWjQ5YTVNSHpVM2Jqb1Zwa0NjaE91TDd6dG1WY0xvMDJQWHZNb0pEZlc0dG01N1NvSzNRM3NzRlV1TGVaR1FpazdvbEhzcXZjeDFGeC1iVC1iVjRYYzJNRTh3TEV0emstNVNFbzlQUEJzSUdsdlBEYmNEWTJzY0VUUTMzUFNDVTEtMGVaVWtw?oc=5",
-          "date": "2026-08-18T14:16:00.000Z"
-        },
-        {
-          "outlet": "New York Post",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVVFVNEphMXJ6eHY1UEpfa0FRU0Jvb0x5NTRsRGVudkVfaEI2djVxQ2haeDRFSmktdUFwTHlULXRubWRYVVVhRjVtSHZkeERKLWxZZkhubUhjWDlSTlFrZTZ1TEpsWENDVkJtSE9WOTFULUJLQ2hqdDFjbXM4S21HQ0F3d0hRM1Z0RHhYNVVkUHk2LWZmeTc5RmFlcUtxTXR6Q2VFNnA5Tm16Sk1BS05Nb1Bhb0Frcks5a1hBT2RFNkN1M1VKU1pKTk1CR2o5YUJhdHEyN28xbTJKQQ?oc=5",
-          "date": "2026-08-18T15:13:51.000Z"
-        },
-        {
-          "outlet": "CNN",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOelo2TE5tbnlmd0IwUjV6V0NmRFZSck9iNXBqcTRPZXVyWWZpb1lMQklGWUo0dGNQSE9vUEFqekQzZmM2ZU55UXhCSTlKU2IwWXpmSE1ZeWtkY1ZNYVZsQzN0WV9fbVY1YmE5cFdER1VSUVJpNXE4R3pELXpMSTlpb1k2R0xMSTJPVkxaWUdLUFJBcEFVQlBVRWtPMGV3VG9abDNhX0tWc0E2bFBvdjJvenYtTmVVdTJzYjJGdmNOSFJGb0g5Z2lGcVllZmJodzl4dVVLUk1rcTdKaTNvOUM0?oc=5",
-          "date": "2026-08-18T15:37:33.000Z"
-        },
-        {
-          "outlet": "The Independent",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQalRrZjBHM1l2RlFfOUwzOE11QXJLTVhCQTNydVBnMHBObEVJdERhVk5vZXVwWkZXTlE4OVBhbWxsSV90VUpzdEVPbzNCWWZBUmFLMDlUZGI4bVp6cTNSM3pkWmV6RXJLV2VnR2pubXFZamhHZ0hEbm9xZ3hrWGZ4TlFzV3NIY0dzLWs2QUJDV3dLTkZfY2ZEN08yaXRQRzJyUXNhdUxfUERCVFJY?oc=5",
-          "date": "2026-08-18T15:47:00.000Z"
-        },
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbFkyd2NpRldiTFcwZFNfTWVldmpUTEplMEE1YVhuT0lXc0ZoOVZCcl91MEZmSi1rM25keE9yVnRacnlfbkx4aDY3SlJkVU1HX3pOUFh5UEoxV2lWVFIyQXpidUdfcnVMQVdIa3dxVG1hN204NjAwSG5jV09fWjNPakgwSVhqRU9Yb2RxMw?oc=5",
-          "date": "2026-08-18T15:48:01.000Z"
-        },
-        {
-          "outlet": "France 24",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUTNfaGpyQjRmc18xSnkwWU9oQ0VUZ3laUUNVSDlIWHBJRUFlVWJxM2NuejNKZEp3TF80OFNTZ2luNXE0dHMtUDJQa3JGY2VMVVRKZjVmZmVXT0hUck9wUjJyRzJpODFVSGU5WFo5Ui0zSE40ckd6RUVsZ0xmZDd3ZUZOODJEN29xVGZZd3d6MzJyR3dmM3ZoWDZrYnhQTm5TQXhubHBndlJ0NEV3dTVF?oc=5",
-          "date": "2026-08-18T15:49:17.000Z"
-        },
-        {
-          "outlet": "South China Morning Post",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMnFxRXl4cHEyTks5ME5wWnhGdWpSSVhCMm4yd05pTEg4cE4tWkNpVnNwT2loalBwQjNkb2E2LThNY3BKcTZkRllHcjhTaExJOFNhazlxMDRjUGlxWW9pUi01Mks5Tmg1ZHBKVGlFQjdna3NRTGVwdFUtU0NjUzhJb0ZWajZIOU14Y0ZJNnJCbmE3eE1UbFlCTDA1SlhsWG9yWUV4YlZmdGxmZDVUT1ozTHFWV3E1REJlUVNmRlkyTWltRm5E0gHEAUFVX3lxTFBxT1pJcUpwWkhZUXJqSHFMNy1FbkFfemxoT1p6dWhhSk9OQS1ZT1lxUWhUVmhwVkVlMGhTMzRrZnFIaWZqNTNIZEptV2tpeGVLNHdkSnY0NXkwRDZwNHowVDlSYS1SNW9kWHZNRkgzaHhyVFZQNUtlMm94SUd4bnZ2cTdWS3dvd0NsQm1EM3ZkdHlMdjJha0JiNUtuVTE5YTcyQ3lXRjM4Zkx4a2E2MWFRMjd2TXN5ZXBnTlhGMlY2LTZUVWw?oc=5",
-          "date": "2026-08-18T16:48:03.000Z"
-        },
-        {
-          "outlet": "NDTV",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNFVZSmRfOU5yWjgxT2hyMm1HeWZzNldMeEJPRnppN0NJdnowdDlEbUhDNTRFQk84UjNfc1dtTjh2WVg0ZjlTb2QxQkRESjJ3b0daS05ac3k4d1VlMjUtd0Y3Ml95RGhYOTVPYkJpVU0yc1d1OF9jMnRqeVRNazRtS3VEUlZaTnZfanVnYlVsMmhFQUNPX0VobWltcy1TSGFCR1BtMnJIc1VBV2l5WGRIcWtmcGFreTRMaWVJV1BR0gHGAUFVX3lxTFBfZ1J2ZU5iNndrUzVrRjZnOEZ0aHJLMjQwSGc1SUVySzFkeDhJZHJrRS1rWFFycmEwcERMajZLYzhPay0wQ2VScTBBTWFuc2pSVURHZWh6MlUtXzlWR3lXaUhTVkllYmN4dHpTai1jNFc1ZWtkcmx2M1luMG9DM0UtamhCbV94ZEN4Njg1ZDVsbzRBcXdCVkNwRUVFZi1ldkFzTTVETUVpZW1MWW1xQkdJLVdJT2oxNkdjNEhPdUV0OXlFYTZEdw?oc=5",
-          "date": "2026-08-18T17:51:55.000Z"
-        },
-        {
-          "outlet": "Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQkNHNE9ZUXp2Q0RjLXJPbE1SUjdoN2tYYzZsdXpQWUI5M1NvTEgzTUYtbjV2aENnRjNCY3IybzFydDNFTE9TamotYmgtelVRMkJNWG9ib244Yk5NYWx3dzBEWjkzNmVHUjVSREsza3BuLWlBcEJ0dk5DZ3EzaVh3N1plcmRkUGRlT21sRjFld1Vjak9CRDNTQ01qam1Ud1E2SkJybEVFdFpZYkVBU3V4a1pVbnd1U3l6QWlTLVRZdDJJc29DMEliM0xn0gG4AUFVX3lxTE5LZjAtNjBVTFRSN3dob21GcWVqa2pvMjFkRkhQZ0NhOUNnQXdaNVZCYVFaNDlhNU1IelUzYmpvVnBrQ2NoT3VMN3p0bVZjTG8wMlBYdk1vSkRmVzR0bTU3U29LM1Ezc3NGVXVMZVpHUWlrN29sSHNxdmN4MUZ4LWJULWJWNFhjMk1FOHdMRXR6ay01U0VvOVBQQnNJR2x2UERiY0RZMnNjRVRRMzNQU0NVMS0wZVpVa3A?oc=5",
-          "date": "2026-08-18T18:19:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "18:18",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Aramco Puts VLCCs Back Into Hormuz After Three-Week Pause - Crude Oil Prices Today | OilPrice.com",
-      "outlet": null,
-      "source": "Hormuz",
-      "date": "2026-08-18T18:18:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONXdSZUVzMlRZZDFuWU1ucGhia2daZXgtbUdPTWdZcjd0QVBuSUZDZTFsTmRzbzZBYTc1cXczWFBqY180cEp3LTAwQ2IyU28xTENxZl9MdEtPR1ozRXZlSkoyZnhtTVVTM3U1SVIwN0c5bXZHUnNiNlVtOUdZeE1kSTNpVTY4WDdHRDRKRFVsem5udmFsdWhSc0JvdVdpemZ3RkVEN3MzYlpjU2hEUFIxVDQyMNIBuAFBVV95cUxQdTRVbkRVSElVOHVKNmZUbHFfWUc3eVMzaDBTZnEyejQ3cnhsUV8yaUMzSFpIOWtVajVPMzBKUmxYV09RUndQMXRPZ0JPM2hWdlU3RldkZmFfZ084R3o5aF9DOEFKdS1qSmRIQkpKR0kxY1ktMXZXWnhmdTYtc3pIQWRoVl9rbjhLX3IyZmROTncxRVg3SmViS05lQ2FWZ3ByU0doLWRsU3F6RVBBYlQ3a2dnZ1phVjRM?oc=5"
-    },
-    {
-      "time": "18:14",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "U.S.-Iran Updates: Trump says no talks with Iran taking place as standoff over Strait of Hormuz continues",
-      "outlet": "CBS News",
-      "source": "Hormuz",
-      "date": "2026-08-18T18:14:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?oc=5",
-      "cluster_size": 5,
-      "cluster_id": "trump-talks-conversations-taking-place-iran",
-      "first": {
-        "outlet": "Euronews.com",
-        "date": "2026-08-18T09:52:08.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Euronews.com",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU0hCNzdyUmhGVHJOS2MyWG5LQTRFdDdHVE9aMmF6WVh6ZF9UTHVfVFZTTmNWRXpyNkdoVWZtRWx2Y1Bva2loWnhqRU9QV3c5OUJJZ20yQVo5ZVNrM2JqVGJlVjk2MjNkY2VIYnFNMkxsV2VJY0l5YVRFV2Q5NTRHdVNIdEU3YmVrUzFDOUxJTXphOXNVd21QbEMwOXZyRVBzTktWRWF3?oc=5",
-          "date": "2026-08-18T09:52:08.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSHhKekZqU0IxWEQwY2JOckhOeTBJd0FraHloM25INUJuQXNnRk5BM1JzU05UTl9RbDVSUnVkbWVzYlpaaV9lRG16bloxZGxRRXQ5dlV2a1plTkpHXzQ5Smg0Nlk0c3VjdFZLSjdkRHIxLVl6Sm5yamhoVWF3SlowaDVYV01QdGE0emdOd3N6cnFOeW5FbDRsdEExSTNNMFFMOUtYQjFDakRUbWdVbVNoWkNCcm02RkhYcjUw?oc=5",
-          "date": "2026-08-18T14:39:52.000Z"
-        },
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNnNLRzRPS2lnNW1JSHAxSFpWajl0THNoYzEzREd0VElaUmo5SHNGMXBhVnAxSXl0ZGFZZEpsT3pOZHNPM0pqeFphVWY1R3RyNUNNcGdfTkJEVEM2aTVUOUV4bkZwNGRBbVl6M0l4MmhFMUR6aWVwd1hXS1RKR05Ca1JubmJrMUU3Qmc?oc=5",
-          "date": "2026-08-18T15:23:39.000Z"
-        },
-        {
-          "outlet": "Maritime",
-          "link": "https://gcaptain.com/trump-says-no-talks-are-taking-place-with-iran-and-none-are-scheduled/",
-          "date": "2026-08-18T16:16:20.000Z"
-        }
-      ]
-    },
-    {
-      "time": "18:07",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Iran war live: UAE detects two missiles launched from Iran",
-      "outlet": "Al Jazeera",
-      "source": "Hormuz",
-      "date": "2026-08-18T18:07:06.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?oc=5"
-    },
-    {
-      "time": "17:43",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Canada's pipeline ambitions hinge on uncertain output expansion",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-08-18T17:43:40.000Z",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdlZzSUlUTFByazJmbTFudUFscGZ2Q1FRUUZwUXpDTXc2azNaMXhlV3NWTTdtTmJIX0t4TmRodUJULU5idkIzbEtraktyTnRlZ1E3UkZOcWNxWWJxTnN5NG1Gb1UwX3ZhR3QzS3U3ZkVQX2hSR1Jfb3pJd1NJd1RvbVRpRmlPXzd1NkljaHpzRWNaU0lhUjQ2V3BFTVllZmNXSmVLdWZodGlyTVQ1VlllQWdn?oc=5"
-    },
-    {
-      "time": "17:33",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Trump says US has no talks planned with Iran and other news from the Middle East",
-      "outlet": "AP News",
-      "source": "Hormuz",
-      "date": "2026-08-18T17:33:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUGE0ZXdacDJQQU1FSTNKRzRoV21MR3h5R1FIekhsU054VE9WSzdUdThYNmY3emZwQWpXUFczUklKU2MzZVdUeV9ZaWtoaF9IUXRaT24xS0Y2MmdlbnlxT1JicndhbWpfb1N4Z09GeDV4UGMyQUdLb3Utb3pqNTNDQTR2amh2cTVGZTJ5S3FVVzlWZmoyNHNLUy12WnM3YUtiMW01Vnp5TmRQWjdQS3c?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "trump-threatens-oman-works-iran-strait",
-      "first": {
-        "outlet": "AP News",
-        "date": "2026-08-17T19:51:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVEF1REJ4VlIteVJOUS1hVEppZzNadkVkVTVicGJrWXphNGxmcVZGQlNNTHhvTGttWUUzRGgtWW9kTVJ2T284OWo0RXRoME1yWEpfWGN3cG5FYXBwU0VDdDdOT2hzWDVYZVpyOHpscWR2ZW9oNk9ON1ZRSEwtaWJUX3dvOHpieWVqRWF1cDFEVm9PcFR5dXhoQlh1TlFxWGFUN2JaRlphSENKMk1FUXc?oc=5",
-          "date": "2026-08-17T19:51:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "17:25",
-      "severity": "WARN",
-      "direction": "BULL",
-      "text": "Trump threatened to bomb Oman because he's unhappy with country's deal with Iran, officials say",
-      "outlet": "AP News",
-      "source": "Hormuz",
-      "date": "2026-08-18T17:25:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcmtkbmV0b1Bxa0pkWjZkMlVfV2xIN3E3MzdwWmlqWHpXTi1CYng3YVIxZGQtdEJ5b0VWX3llRzdNMTAzcGNLd0IzTmRXNkRGSnAtRlR2WWI2bDZCR1Q4RENTNERlM1VwZWNDQ1NsejlBcER1MDRCeEpCTjRtTGE3OGN2ZmhkM1htVkc4?oc=5"
     }
   ],
   "snapshots": [
@@ -1577,8 +1647,17 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-18T19:59:50.009Z",
+  "intel_updated": "2026-08-18T20:35:24.358Z",
   "event_log": [
+    {
+      "date": "AUG 18",
+      "date_iso": "2026-08-18T20:07:34.000Z",
+      "severity": "CRIT",
+      "text": "Modion bulker was the third to be attacked after grain voyage to Iran",
+      "source": "Maritime",
+      "link": "https://www.tradewindsnews.com/bulkers/modion-bulker-was-the-third-to-be-attacked-after-grain-voyage-to-iran/2-1-2030837",
+      "auto": true
+    },
     {
       "date": "AUG 18",
       "date_iso": "2026-08-18T18:42:11.000Z",
@@ -2019,21 +2098,12 @@
       "source": "Oil",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWk9raFAzVDg3SEE0QUMwd2FLNXRMSTVsaFZZS2daeE5YQ2xnWlpMVEQxNG1WVHVlbTlfS19aX1M3X2U3T3k4NVQtRmtzTkZtMUhOem11OTFlc2xWZUxpRnVlaFBnRWFreUtGTlRfcEZNWE9ETldkSkV3X1pTWXRfTXdHS21oLUxMQXFXUGFhZ3hxaThoYVVSam9jYWtDQTdRdVk1S0FwTGRySF92aHBPVDFsZmUwem16X0FEYWVueXI?oc=5",
       "auto": true
-    },
-    {
-      "date": "AUG 18",
-      "date_iso": "2026-08-18T01:45:12.000Z",
-      "severity": "CRIT",
-      "text": "Middle East latest: Trump threatens to 'bomb the s***' out of Oman and says US-controlled Hormuz 'a great idea'",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1JLVlV3ZFpWT28xbm9ManBWT0NSM25VV2JSMVBIbHVFYWFPM3lpdlBlZ3NtT1RkbGlTdU4zQ3RVbGpad01wdmctak4taUpnc29lMDhad0szLWlnNnQ4VXZUSDFSd1ZGS3ktc1RlSTVaNUJrZmlCUDc4eURra3JZdlhMSWVWWVNY?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 3,
+    "bull": 2,
     "bear": 1,
-    "neutral": 11,
+    "neutral": 12,
     "net": "LEAN BULL"
   },
   "vessels_attacked": {
@@ -3050,7 +3120,7 @@
     },
     {
       "t": 1787025600000,
-      "p": 90.98
+      "p": 91.07
     }
   ],
   "chart_wti": [
@@ -4060,7 +4130,7 @@
     },
     {
       "t": 1787025600000,
-      "p": 84.13
+      "p": 84.25
     }
   ],
   "signal_outlook": [
@@ -4087,7 +4157,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Trump says U.S. has no talks planned with Iran as ships in t..."
+      "val": "Trump threatened to bomb Oman because he's unhappy with coun..."
     }
   ],
   "chart_spread": [
@@ -5097,14 +5167,10 @@
     },
     {
       "t": 1787025600000,
-      "p": 6.85
+      "p": 6.82
     }
   ],
   "chart_sp500": [
-    {
-      "t": 1755523800000,
-      "p": 6449.15
-    },
     {
       "t": 1755610200000,
       "p": 6411.37
@@ -6107,10 +6173,10 @@
     },
     {
       "t": 1787059800000,
-      "p": 7690.53
+      "p": 7691.76
     }
   ],
-  "latest_sp500": 7690.53,
+  "latest_sp500": 7691.76,
   "vesselCache": {},
   "synthesis": {
     "updated": "2026-07-30T19:46:28.788Z",
