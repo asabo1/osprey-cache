@@ -1,25 +1,25 @@
 {
-  "updated": "2026-08-18T04:11:16.388Z",
+  "updated": "2026-08-18T04:51:01.347Z",
   "counts": {
     "total": 91,
-    "crit": 7,
+    "crit": 6,
     "warn": 14,
     "bySource": {
-      "TipRanks": 7,
+      "TipRanks": 8,
       "GuruFocus": 2,
       "MarketBeat": 12,
       "Quiver Quantitative": 1,
       "simplywall.st": 3,
       "Investing.com India": 1,
-      "nbcmiami.com": 1,
-      "benzinga.com": 1,
-      "Stock Titan": 9,
+      "NBC 6 South Florida": 1,
+      "Benzinga": 1,
+      "stocktitan.net": 8,
       "Grateful Web": 1,
       "Business Wire": 1,
       "The National Law Review": 1,
-      "1819news.com": 1,
+      "1819 News": 1,
       "grafa.com": 1,
-      "WCTI": 1,
+      "wcti12.com": 1,
       "Technology Networks": 1,
       "The Microdose | Substack": 1,
       "Nasdaq": 2,
@@ -27,6 +27,7 @@
       "TradingView": 3,
       "Investing.com": 2,
       "scanx.trade": 1,
+      "Yahoo Finance": 1,
       "The Guardian": 1,
       "FXStreet": 1,
       "FirstWord Pharma": 1,
@@ -36,18 +37,18 @@
       "AL.com": 1,
       "IMDb": 1,
       "Slant Magazine": 1,
-      "Psychology Today": 1,
+      "psychologytoday.com": 1,
       "PsyPost": 1,
       "azmarijuana.com": 1,
       "HELLO! Magazine": 1,
-      "Stocktwits": 9,
-      "The Clinical Trial Vanguard": 1,
+      "Stocktwits": 8,
+      "clinicaltrialvanguard.com": 1,
       "londoninsider.co.uk": 1,
       "Yahoo": 1,
       "Ynetnews": 1,
       "Endpoints": 1,
       "WXYZ 7 News Detroit": 1,
-      "moomoo.com": 3,
+      "Moomoo": 3,
       "Glide Magazine": 1,
       "WVUA 23": 1,
       "AspenTimes.com": 1,
@@ -159,7 +160,7 @@
     {
       "id": "854204123819",
       "time": "2026-08-17T21:24:15.000Z",
-      "source": "nbcmiami.com",
+      "source": "NBC 6 South Florida",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -173,7 +174,7 @@
     {
       "id": "43fd8c8c115a",
       "time": "2026-08-17T21:11:36.000Z",
-      "source": "benzinga.com",
+      "source": "Benzinga",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -203,7 +204,7 @@
     {
       "id": "295a8d41b3e0",
       "time": "2026-08-17T20:50:50.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -279,7 +280,7 @@
     {
       "id": "e68b2c09759d",
       "time": "2026-08-17T19:03:05.000Z",
-      "source": "1819news.com",
+      "source": "1819 News",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -309,7 +310,7 @@
     {
       "id": "540a2056f528",
       "time": "2026-08-17T16:58:14.000Z",
-      "source": "WCTI",
+      "source": "wcti12.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -443,6 +444,22 @@
       ]
     },
     {
+      "id": "1eaf0ea6e280",
+      "time": "2026-08-17T13:25:56.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine price target lowered to $182 from $196 at Morgan Stanley",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeTlNMS00bjVMdFpPY3RwMXB4a3l5dEV4LWplcFpsMWswTGQwS1pPZk1JczRpU2JkakNHSnBCUjNXZWFpUTlTLXBMSldrMmpqUHJ1dFNkNE9JSkZrWWx2UnpQQXZyd19oYTBHYnNueVBBcndlRHhpVTFySUowMm9yWnBHQTJkNnNaMHlMVmR2NnFLZXVzQjlvZTNPWWhmMmRBenE5T1NvUG8tRUdKMlRHYzFaSElzQQ?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "98035e2ae8f3",
       "time": "2026-08-17T13:15:00.000Z",
       "source": "Nasdaq",
@@ -472,6 +489,22 @@
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRkUwMVM1S25wTHdvN3dDcXlVZG5NR0FTeUw2MlpRMGZ3XzBJNmxlako3QTZUcEwzaF9RN0NubHVqVWZiaWlnQkQyblppcmN1bGpyOG9oT2puR2hxTXljd1RaNFdyNUt5UE40SXRhU2E4VkxUZlBnZUxJemprbmRDZXZJUWpwTmVud2JGLUVIV1JhMlVFNjhWMEFCUDhjallKZGhhdVdFUldnbFVOemg3WnhDLWt6Z0U2RHN2MkRRc1p0UUtQZzZXRXJVbjN3LTR2Y2FhNnBsOFo3aV83MGxUdTVWdmFnZ0VNZzJz0gHwAUFVX3lxTE5FRENGSHpad0t2eUF0bW9yLV9hU3VWZGhGYkxsRDVNSXc1SGw1cXo4UDVEeVQ1dW9wQS1oS002bTk5RkdWckFEeG1wSjMxR29OQWkyYm0zanZkXzU3azNjRVhnMVk4azg5d3FoTmcwWlZTVUk2VVBmOVFvWHI3djVEU2JFNEJOeDJEREVYNlFKRWM3N01PN3c4czNXVFk0RGN6Ynh0cDB3R044SXJMVHVGcHIxak5zUFpKZEVvcVctMVdyejJMemZjYzg1ZU9kLTNEMS1TQ0xIcHh5MnMzYXRzY3o2a08ybkRlNjRjcWJDSg?oc=5",
       "tickers": [
         "DRUG"
+      ]
+    },
+    {
+      "id": "c2779635cc7a",
+      "time": "2026-08-17T12:25:22.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine announces INECT-PRO Phase 4 open-label study results",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZUxKaGlwdmREN19WbEthQURjQmlHdHN5N2U0Vnl5azZVOFR3c0gyYkFYR1g4X2I1QXVsTkhWb0tXU3VBZnVTYVB1U3ZRSUVPdkZQSlNWemJGRlRlbXJXVEdUX2NvNHBueWM5RzBQREwyRW00VTVjdlJDaDhWd0hMSHJqTVFpWkdNR1paOFhRMlIzLUVfRUF2N0lMVk93V05nYm5TdnQ2eEpJdjBDZjNQRUpmZw?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -539,35 +572,19 @@
       ]
     },
     {
-      "id": "6297a76c4c4f",
+      "id": "4d1800ee5d61",
       "time": "2026-08-17T11:00:00.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Five million ketamine doses are in production—but when can sales start?",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaVZPRTZpWTNqSDhtbEpTeWdOR0k4cm1pSnlfT21jenNMMlRhUTYtUmJVLW1Ob05KdjltVnI5VXJLLXlFblRDUHVSVkhHaEt2eERtM2FibUhfNDR1UU9pWlNaM0ZrOF9xV2xXVElBMWtUcXA0NVNpZi1xQUZiS2x2MmhLS3RyLXQ5QWN4TkZRWm1zeGVHUENuT3c1RjBqUzFfLVNXazlRZFJOMUx1TkpBanktQ1Zkdw?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "6f97834a7045",
-      "time": "2026-08-17T08:27:36.000Z",
-      "source": "TipRanks",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Definium Therapeutics price target raised to $66 from $57 at RBC Capital",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTWk2NzJYS0hVMmpia0Z1R2tVZHRJWWdhcXpiUzR6M0ZFYkQtbERmUzdWdm5sdjdiUVNxWWVBNUdiNnp0dUVBVVV3TTV6N2ZjVktoUWFyS0liU3NoMzY4d2J2M2dIdkhROXJyWkR2NEdmSWdKaVRVQTNnZ1g4WVlBb0xxVTRYYVpfcXdXTGltRTdqWVo0U2hvSjk0TF9HYmVTODlzc3plRDJxeXQtTG1XQlR1X24xdUdiSWNueA?oc=5",
+      "title": "NRx Pharmaceuticals (Nasdaq:NRXP) Reports Second Quarter 2026 Financial Results and Provides Corporate Update; Conference Call to be Held on Monday, August 17th at 4:30pm ET",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaVpIcjkyWmZjeTNKQXQzaEZVX2ZISi1Bc29YaFE5RllNbUQ2UDdmZjhHOFVra2x3NmFKVTktM3dVczZ2TVk5SGx6N0N1em1ZYVdLT00waUZGMUprVl9WT21PV2xtQXB4b3piRXVJS2hKUkNCTEx6MTRvcTAyR1VWY3R1RENfa1FjWlJDTUVwODE4MFVwbkx5RXRtNnZqbjNkaWc?oc=5",
       "tickers": [
-        "DRUG"
+        "NRXP"
       ]
     },
     {
@@ -737,7 +754,7 @@
     {
       "id": "72aebd8fed16",
       "time": "2026-08-16T15:40:09.000Z",
-      "source": "Psychology Today",
+      "source": "psychologytoday.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -907,7 +924,7 @@
     {
       "id": "a37fa02d7f87",
       "time": "2026-08-15T17:09:16.000Z",
-      "source": "The Clinical Trial Vanguard",
+      "source": "clinicaltrialvanguard.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1108,7 +1125,7 @@
     {
       "id": "9e997bfd65ca",
       "time": "2026-08-15T04:24:28.000Z",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1122,23 +1139,9 @@
       ]
     },
     {
-      "id": "c4eea4c719e4",
-      "time": "2026-08-15T04:18:02.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "PBM Stock On Track For Best Session On Report Of Upcoming Trump Executive Order On Psychedelic Ibogaine",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRWxqbFdIeVh2RDgxbVV6a2oxWmx3UUtVSW9OYW90dHlCOVVfU1o1b19GcGtYZzRGdmhkdkREbHhHZzZhaGtPWUFHZHRNU1F0QklKXy13SlRkamVkMVBuVE9SSzVDUTc2Zkg0bFZPamttM2E0bkZuUXF4S0JLX18zX1pkbTB1MlAyX1YxMXBvay0xQndMRFRkU0drZ3hvWjBISi1oQ1ZIck5LcFFKUnhNVUdCOUVyQ2gtN18wSHBwM0V1czNyc3VlV21ROGdKMERSeTByaF9jUlM1UF82ZEdMbWJ6OTVmUWNjSDNhQko4dmJ5NXc?oc=5",
-      "tickers": []
-    },
-    {
       "id": "b45e65535361",
       "time": "2026-08-15T03:28:44.000Z",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1261,7 +1264,7 @@
     {
       "id": "7836ec33f323",
       "time": "2026-08-14T22:39:06.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1307,7 +1310,7 @@
     {
       "id": "f53d0056f946",
       "time": "2026-08-14T21:50:08.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1323,7 +1326,7 @@
     {
       "id": "3643aff8c4f5",
       "time": "2026-08-14T20:37:51.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -1339,7 +1342,7 @@
     {
       "id": "2c035c1159ab",
       "time": "2026-08-14T20:34:19.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1383,7 +1386,7 @@
     {
       "id": "1e92474c85c3",
       "time": "2026-08-14T20:31:20.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1399,7 +1402,7 @@
     {
       "id": "04a5d2311f71",
       "time": "2026-08-14T20:21:00.000Z",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1429,7 +1432,7 @@
     {
       "id": "8ffd60946e43",
       "time": "2026-08-14T20:19:16.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1445,7 +1448,7 @@
     {
       "id": "230ec0802460",
       "time": "2026-08-14T20:16:38.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
