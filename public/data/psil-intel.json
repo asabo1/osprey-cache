@@ -1,26 +1,28 @@
 {
-  "updated": "2026-08-19T16:45:05.901Z",
+  "updated": "2026-08-19T17:12:34.468Z",
   "counts": {
     "total": 91,
     "crit": 8,
-    "warn": 12,
+    "warn": 11,
     "bySource": {
+      "News-Medical": 1,
       "MarketBeat": 5,
       "Statesman Journal": 1,
       "NPR": 1,
+      "Marijuana Moment": 1,
       "OHSU News": 1,
-      "Mirage News": 1,
+      "miragenews.com": 1,
       "New Atlas": 1,
-      "Medical Xpress": 2,
       "Scientific American": 1,
       "Nautilus | Science": 1,
       "Military.com": 1,
-      "kdhnews.com": 1,
+      "TradingView": 1,
+      "The Killeen Daily Herald": 1,
       "Investing.com": 2,
       "BioSpace": 2,
       "Firefighter Nation": 1,
       "TipRanks": 11,
-      "Stocktwits": 6,
+      "Stocktwits": 7,
       "CNN": 1,
       "simplywall.st": 4,
       "geneonline.com": 1,
@@ -31,8 +33,6 @@
       "citybuzz -": 1,
       "Psychedelic Alpha": 2,
       "GuruFocus": 2,
-      "Investing.com Nigeria": 2,
-      "ABC News - Breaking News, Latest News and Videos": 1,
       "breitbart.com": 1,
       "Quiver Quantitative": 2,
       "The Manila Times": 1,
@@ -40,26 +40,27 @@
       "Florida’s Voice": 1,
       "KJZZ": 1,
       "NewsBreak: Local News & Alerts": 1,
-      "statnews.com": 1,
+      "STAT": 1,
       "Seeking Alpha": 1,
       "STAT News": 1,
       "citybiz": 1,
-      "Yahoo": 1,
+      "yahoo.com": 1,
       "Mugglehead Investment Magazine": 1,
       "kalkine.ca": 1,
+      "Medical Xpress": 1,
       "The Globe and Mail": 1,
       "Pharma Voice": 1,
       "PRLog": 1,
       "PharmaTimes": 1,
       "Benzinga": 2,
-      "Moomoo": 1,
-      "wiod.iheart.com": 1,
+      "Investing.com Nigeria": 1,
+      "WIOD": 1,
       "Ynetnews": 1,
       "Helus Pharma": 1,
       "The Record": 1,
       "CNBC": 1,
       "NBC 6 South Florida": 1,
-      "gratefulweb.com": 1,
+      "Grateful Web": 1,
       "Business Wire": 1,
       "The National Law Review": 1
     },
@@ -69,6 +70,20 @@
     }
   },
   "items": [
+    {
+      "id": "19b8a2ad86a3",
+      "time": "2026-08-19T17:08:00.000Z",
+      "source": "News-Medical",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "World's largest single-site study maps brain changes under psilocybin",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdnhUbjVEaGo1aFVkTEFBWmVOdzJXZEVUMk1rTWtMSUNfX1d6emh2UFpwaXcyM1ItdDNzTkRXanZBR1RycU5tVEZtTVVuYTZ0V25Rbm5LU3FZQjAyTG00UkJxVnJkT1VBeFQwbFVjZkNZTGNXbVl6cXZRYkdIQjZwSnhBWWNDLVVrZE1CSjNxalZfYkRCM2JHaUFJOEt2eUR5bk1JZDhOR0V1U3REMTdWa2VZLW1qNEk?oc=5",
+      "tickers": []
+    },
     {
       "id": "397b5f23563a",
       "time": "2026-08-19T16:03:17.000Z",
@@ -109,8 +124,22 @@
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Real-world study of Oregon's nonmedical psilocybin program shows promise",
+      "title": "A real-world study of Oregon's nonmedical psilocybin program shows promise",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS0daZUN4OEtITHJIdG9YUTZBZDc0RzAyMnJfZ29lVko0dFlFcDhfNVdlNGhMTnZPYm1GX0ctWTRWWFZrd292N04ycDdGNVNMTE96QzhPV1U4azU3NTBSZ1hhWjFzdjE0VWRJeG9lNzRLdVhNMEFFS2d3Y3M1Ukxzdl9KM25ETWJrSF9RdXhpOA?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "70bd2a1660c8",
+      "time": "2026-08-19T15:12:04.000Z",
+      "source": "Marijuana Moment",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Oregon's Psilocybin Program Helps People Improve Mental Health, Federally Funded Study Published By American Medical Association Shows",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOdUNwdkF4YUV5dlBpWkhnem5yMUF5aTQtLVNkdWVZWkRIMkpTZU4ySnJxTVNTZzVSSDlMdDJxZ3NuRTZ0bUo2cTdVc2V6NFJ6RFFlZGNKUUtDNHRKeWx5VUhyT08xZERJWEhMTTJoV1pieWxxeXZ3bTVOTUZrNkgxRHNQX3psbm5oQms0Nkhid0l6WV83QUFFTGNkQ2tINjB6VFVTQ09Zb2NtRkhzTlVFZkc2TWY2M1Y0YVU2WlJBOXgxMWhKSDd3TndnTlViTDNtV0ZuenNQeVlKWmN1c2ptOEszem5TbU9jcjNDdzg4b01rejQyVEZvWg?oc=5",
       "tickers": []
     },
     {
@@ -130,7 +159,7 @@
     {
       "id": "4a776edd10dc",
       "time": "2026-08-19T15:08:00.000Z",
-      "source": "Mirage News",
+      "source": "miragenews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -153,20 +182,6 @@
       "impact": "LOW",
       "title": "Landmark study upends how we think the brain responds to psychedelics",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1fa1FYNHVQX0JPbXhPT043ZmVlLW1YV2hzM2laM2h5cjR2QTQzVXFWbFRrZ09UMFNUdE82MnY4QmxWdEw0QXVuTkZoMllmSUZ1c00wbWR5UUhnU3JGbXVGNXFTaTJFdmZwS29IMEpEVU9pbGFaVFVhUUdn?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "96668fb764c8",
-      "time": "2026-08-19T15:00:19.000Z",
-      "source": "Medical Xpress",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "World's largest psilocybin brain-imaging study maps how context reshapes psychedelic effects",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQUpCM0w5cjJici1HR19xZkRvZ2Z1b1pSR0pMRmhUWm8yaUVPeUpwcExvQjBrUFlOSmV1ZUdpcE44QXhEN2pjeGh5SVBGSHNJNWNhQkZ3aVRXN1JPMlZSZHpCUVIteTVWeXpFc2pTVGcxRG1jazhRdWJDR0VIZ25jbzNYcUdzLTRKbWc?oc=5",
       "tickers": []
     },
     {
@@ -212,9 +227,23 @@
       "tickers": []
     },
     {
+      "id": "e991ec01c280",
+      "time": "2026-08-19T12:14:00.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Rhelion Life Sciences Announces Appointment of Samiuddin Khaja as CFO",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV2c4aDJNQW1pWFI3UWVsbFJIdllKOUVmMUJIeU02bWt6bExCcW9sMW5tQ1VCVC1oazNuQTJaYlZSWE9IYThEVGxrTGE5cV85aF9DcHZrXzJYVUt3bGtmeU9GelNIMXhJcjRsOWNVSmZOLTNza0NZRXNiV1h2bWE1dnotcklJSGptZmtiZWREY0NUX2c4SmJwREhnLUw3eEM2bDRVY1ZSYmV4UHhESGl2MEVmaHQ4X0FNazVtX3loUXhvQ3UzY28xZWQwOVo?oc=5",
+      "tickers": []
+    },
+    {
       "id": "2cda53b1ba88",
       "time": "2026-08-19T12:00:00.000Z",
-      "source": "kdhnews.com",
+      "source": "The Killeen Daily Herald",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -536,34 +565,6 @@
       ]
     },
     {
-      "id": "844712b67f70",
-      "time": "2026-08-18T22:16:35.000Z",
-      "source": "Investing.com Nigeria",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Psyence BioMed responds to Trump ibogaine announcement By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMFZWWWIwaFZicktmamZjbzBaNWR4N2Z6ZzdZLW9Jd0xHZTNuRXEwM3k4dXlrSjY3NFBBSFVtclhnb2Y0bGNzWnJiZjBRXzBXakZGdnVnRDlSbjgyZUNlSm9Nc1U1MU5YT24zSnRkUHRJeVBYV0JIYU4yLWhLX1dxNTRqMmttY1JsNGtCSGk2MDNzbG54OHVlTXMyQVpsZW54ZGhQeUhlTWlUQ3JaNUFoMUNPVzVQUQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "03ae6ecc56bc",
-      "time": "2026-08-18T22:10:25.000Z",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Video Restrictions on psychedelic drugs loosened for research purposes",
-      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE8tRVNMVGthYjRTeW1EREY0X194ME4tQ2xFQVloMElIV0dVMzZBQzhaMDFxYWZEeXo3bWpjREJmS2M3bkw5VW5PcXpUcTM?oc=5",
-      "tickers": []
-    },
-    {
       "id": "0562e2c3fc47",
       "time": "2026-08-18T22:05:00.000Z",
       "source": "breitbart.com",
@@ -712,7 +713,7 @@
     {
       "id": "497792630e22",
       "time": "2026-08-18T18:14:49.000Z",
-      "source": "statnews.com",
+      "source": "STAT",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -802,7 +803,7 @@
     {
       "id": "570327cca8d1",
       "time": "2026-08-18T16:00:00.000Z",
-      "source": "Yahoo",
+      "source": "yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1018,22 +1019,6 @@
       ]
     },
     {
-      "id": "2b19cab52a42",
-      "time": "2026-08-18T12:26:58.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "BTIG Maintains NRX Pharmaceuticals(NRXP.US) With Buy Rating, Cuts Target Price to $10",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUExUWTJDS2hITmFIUnJ2UEZ6ck41WF9VUl9wWUlBYmcwRHFuUUNmQjVqNUVmcFhMWlhZbEZRZGdTbzF2WS0xSXhiWnh4djI3a0diVUREc2NlMmFiaEZxcDVMV2k3T25yUF9HM0cxbFdKakl5ZlJmY2pWZHRYVC1WVkppUnNVc0lzb1YwZGw1cnlNd1BSQ2FoWjl6SHYtbVVjaUpZSU5INWRuUjExMk0xRA?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
       "id": "23796cf30f5a",
       "time": "2026-08-18T12:25:32.000Z",
       "source": "TipRanks",
@@ -1101,7 +1086,7 @@
     {
       "id": "ba8e4b28771e",
       "time": "2026-08-18T12:00:00.000Z",
-      "source": "wiod.iheart.com",
+      "source": "WIOD",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1201,6 +1186,22 @@
       "impact": "LOW",
       "title": "RBC Capital boosts Definium price target, says opportunity will be robust",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMHFLVzhLTWY4TVBkb2I3UTJQdXlWTTJjeTlUb1pDN3NiTmprNmt2LTJvQmxoX2htUHRCSmlwRG5LMF9BaVczeHozZE01TERQNVJjRkxiTWREbUVUU1o3WHRpRGVaNzdiQ1d1VjlWVEdZTDhYVEFsei10VFRFaC03a0lac3dxV3ZudUhGcF9VMGdHSG83XzJhUHAtdG1jSmdEeUxfa0RvdTB3QW5QMHZHWjktZEg5RkRDZDM3YTZ2NA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "cffd5523511e",
+      "time": "2026-08-18T05:06:21.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "DFTX Stock Rallies As Psychedelic Drug Delivers Positive Anxiety Trial Results — Retail Says DT120 Could ‘Disrupt The Market’",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOay00RC1DbXpDVk5HX2JpSVVmNEVpalhoRmwzY19ZSFMxcHJ3amd1eHo3WXBwdnNlQ0l0WGFLOXRYYThSbnJQb2ZHR2lJV1B2ZGxxekZuWkJkZE5JWkhldmFmTkRnSHRLejM4eGpBeU5OcHdxVC1OSXVpTDN4MF9QYUJvRlBpWVVJN19lc1V6RFdBYkp6THdSd0t3TW5mdEk4bks4aURNT181NVduQkdLZzJOQ21mSUJQdm1lZmx4N2I5R2ZXOXVDaVd6bnJTWTlEUkxETHNQaVNYcDNSNFdaZGllajFwRmVaR2ZFaUR1YTZjNUY1YzR4bjRKM0VlbzJQTG5WYmQxNTlEVk1pblZDbGRqWUY?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -1412,7 +1413,7 @@
     {
       "id": "e8d22bfa2d05",
       "time": "2026-08-17T20:15:17.000Z",
-      "source": "gratefulweb.com",
+      "source": "Grateful Web",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
