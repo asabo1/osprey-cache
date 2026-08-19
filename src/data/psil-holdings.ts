@@ -1,5 +1,5 @@
 // PSIL holdings reference data. Replaced by GH Action fetch in production.
-// Last manual update: 2026-08-18 (sparklines auto-refreshed daily)
+// Last manual update: 2026-08-19 (sparklines auto-refreshed daily)
 
 export type Holding = {
   ticker: string;
@@ -18,7 +18,7 @@ export const HOLDINGS: Holding[] = [
   { ticker: "RLMD", company: "Relmada Therapeutics", weight: 9.44, price: 3.12, dayPct: 9.8, spark: [1.00, 0.29, 0.25, 0.33, 0.10, 0.02, 0.00, 0.05], shortInterestPct: 8.7, nextCatalyst: { label: "RESCUE Ph3 init", days: 70 }, category: "Adjacent" },
   { ticker: "DFTX", company: "Definium Therapeutics", weight: 9.35, price: 1.84, dayPct: 18.2, spark: [1.00, 0.37, 0.12, 0.20, 0.79, 0.00, 0.59, 0.80], shortInterestPct: null, nextCatalyst: { label: "Pipeline update", days: 45 }, category: "Pure-Play" },
   { ticker: "CMPS", company: "COMPASS Pathways", weight: 7.49, price: 10.00, dayPct: 50.2, spark: [0.90, 0.41, 0.00, 0.03, 0.86, 0.83, 0.93, 1.00], shortInterestPct: 9.6, nextCatalyst: { label: "COMP006 Part B 26-wk", days: 72 }, category: "Pure-Play" },
-  { ticker: "DRUG", company: "Bright Minds Biosciences", weight: 5.46, price: 24.10, dayPct: 14.5, spark: [0.51, 0.38, 0.00, 0.15, 0.63, 0.40, 0.64, 1.00], shortInterestPct: 6.4, nextCatalyst: { label: "Prader-Willi Ph2 init", days: 35 }, category: "Pure-Play" },
+  { ticker: "DRUG", company: "Bright Minds Biosciences", weight: 5.46, price: 24.10, dayPct: 14.5, spark: [0.51, 0.38, 0.00, 0.26, 0.63, 0.40, 0.64, 1.00], shortInterestPct: 6.4, nextCatalyst: { label: "Prader-Willi Ph2 init", days: 35 }, category: "Pure-Play" },
   { ticker: "GHRS", company: "GH Research", weight: 5.42, price: 17.85, dayPct: 22.7, spark: [0.00, 0.59, 0.20, 0.41, 1.00, 0.79, 0.92, 0.86], shortInterestPct: 11.3, nextCatalyst: { label: "GH001 Global Ph3 init", days: 90 }, category: "Pure-Play" },
   { ticker: "ANRO", company: "Alto Neuroscience", weight: 5.23, price: 6.42, dayPct: 8.1, spark: [0.00, 0.14, 0.04, 0.08, 0.29, 0.74, 0.93, 1.00], shortInterestPct: 14.8, nextCatalyst: { label: "ALTO-100 MDD biomarker readout", days: 110 }, category: "Pure-Play" },
   { ticker: "NRXP", company: "NRx Pharmaceuticals", weight: 5.04, price: 1.45, dayPct: 16.8, spark: [0.93, 1.00, 0.54, 0.00, 0.38, 0.11, 0.25, 0.26], shortInterestPct: 22.1, nextCatalyst: { label: "NRX-100 NDA progress", days: 60 }, category: "Adjacent" },
@@ -33,7 +33,7 @@ export const HOLDINGS: Holding[] = [
   { ticker: "KTTA", company: "Pasithea Therapeutics", weight: 1.87, price: 0.62, dayPct: 13.4, spark: [0.74, 0.00, 0.09, 0.18, 1.00, 0.54, 0.49, 0.84], shortInterestPct: 18.5, nextCatalyst: { label: "PAS-004 Ph1 update", days: 95 }, category: "Pure-Play" },
   { ticker: "QNTM", company: "Quantum BioPharma", weight: 1.86, price: 1.10, dayPct: 9.5, spark: [0.46, 0.38, 0.11, 0.00, 0.62, 1.00, 0.87, 0.49], shortInterestPct: null, nextCatalyst: { label: "unbuzzd Lucid trial update", days: 80 }, category: "Pure-Play" },
   { ticker: "BTRT", company: "BlackRock Treasury Trust", weight: 1.65, price: 1.00, dayPct: 0.0, spark: [0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50], shortInterestPct: null, nextCatalyst: null, category: "Cash" },
-  { ticker: "SILO", company: "Silo Pharma", weight: 1.61, price: 1.84, dayPct: 14.8, spark: [1.00, 0.68, 0.53, 0.43, 0.25, 0.05, 0.00, 0.00], shortInterestPct: 12.4, nextCatalyst: { label: "SPC-15 PTSD Ph1", days: 120 }, category: "Pure-Play" },
+  { ticker: "SILO", company: "Silo Pharma", weight: 1.61, price: 1.84, dayPct: 14.8, spark: [1.00, 0.68, 0.53, 0.45, 0.25, 0.05, 0.00, 0.00], shortInterestPct: 12.4, nextCatalyst: { label: "SPC-15 PTSD Ph1", days: 120 }, category: "Pure-Play" },
   { ticker: "VTGN", company: "Vistagen Therapeutics", weight: 0.76, price: 1.35, dayPct: 7.9, spark: [0.50, 0.00, 0.00, 0.17, 1.00, 0.67, 0.50, 0.20], shortInterestPct: 13.2, nextCatalyst: { label: "Fasedienol PALISADE-3 readout", days: 55 }, category: "Adjacent" },
   { ticker: "IXHL", company: "Incannex Healthcare", weight: 0.40, price: 0.34, dayPct: 6.2, spark: [1.00, 0.51, 0.02, 0.00, 0.48, 0.76, 0.83, 0.93], shortInterestPct: null, nextCatalyst: { label: "PSX-001 GAD Ph2 readout", days: 100 }, category: "Pure-Play" },
   { ticker: "NUMI", company: "Numinus Wellness", weight: 0.24, price: 0.18, dayPct: 8.5, spark: [1.00, 0.79, 0.08, 0.10, 0.29, 0.35, 0.15, 0.00], shortInterestPct: null, nextCatalyst: { label: "Ketamine clinic Q4 update", days: 75 }, category: "Pure-Play" },
