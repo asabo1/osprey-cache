@@ -1,26 +1,26 @@
 {
-  "updated": "2026-08-19T00:02:19.137Z",
+  "updated": "2026-08-19T01:51:19.309Z",
   "counts": {
     "total": 92,
     "crit": 7,
-    "warn": 8,
+    "warn": 10,
     "bySource": {
+      "USA Today": 1,
+      "TipRanks": 18,
       "simplywall.st": 4,
       "breitbart.com": 1,
       "Psychedelic Alpha": 2,
       "Quiver Quantitative": 2,
-      "Yahoo Finance": 1,
+      "The Manila Times": 1,
       "Stock Titan": 3,
       "Florida’s Voice": 1,
-      "TipRanks": 17,
-      "kjzz.org": 1,
-      "NewsBreak: Local News & Alerts": 1,
+      "KJZZ": 1,
       "FirstWord Pharma": 2,
-      "USA Today": 1,
-      "STAT": 1,
+      "NewsBreak: Local News & Alerts": 1,
+      "statnews.com": 1,
       "Seeking Alpha": 2,
       "STAT News": 1,
-      "Stocktwits": 4,
+      "Stocktwits": 5,
       "citybiz": 1,
       "Bloody Disgusting": 1,
       "Yahoo": 1,
@@ -28,15 +28,14 @@
       "kalkine.ca": 1,
       "Medical Xpress": 1,
       "The Globe and Mail": 1,
-      "pharmavoice.com": 1,
+      "Pharma Voice": 1,
       "PRLog": 1,
       "PharmaTimes": 1,
       "Benzinga": 2,
-      "Moomoo": 1,
       "MarketBeat": 4,
       "Investing.com India": 1,
       "WIOD": 1,
-      "Ynetnews": 1,
+      "ynetnews.com": 1,
       "Helus Pharma": 1,
       "The Record": 1,
       "GuruFocus": 2,
@@ -45,20 +44,19 @@
       "Grateful Web": 1,
       "Business Wire": 1,
       "The National Law Review": 1,
-      "1819 News": 1,
+      "1819news.com": 1,
       "grafa.com": 1,
       "WCTI": 1,
       "Technology Networks": 1,
-      "גלובס": 1,
       "The Microdose | Substack": 1,
-      "Nasdaq": 2,
       "New Noise Magazine": 1,
-      "TradingView": 2,
+      "tradingview.com": 2,
+      "Nasdaq": 1,
       "scanx.trade": 1,
       "GlobeNewswire": 1,
       "The Guardian": 1,
       "FXStreet": 1,
-      "CBS News": 1,
+      "CBS News": 2,
       "Endpoints": 1
     },
     "byTier": {
@@ -67,6 +65,36 @@
     }
   },
   "items": [
+    {
+      "id": "182c6e1b8187",
+      "time": "2026-08-19T00:55:00.000Z",
+      "source": "USA Today",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "Trump praises Joe Rogan-backed ibogaine. What is it?",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZE1aTnVBc2hrN3ZNdEtWV0ZibWR4QW9ab2lUbHNFSHQ5b1FvWTlsQ0N4VzVpVjBhaXc0bXc2S2M4enJxTHRwLXBjY2k2UUItSnZ3bFRzc3lsZ2tCQ2ZLUm9kbXZfdFlGemppTGtWdlZkY2VlOGk3YjZqR0UwQmdSRGpQTFpFSmpBOXdzVld3N19ZeTNWMGthMHY4TEdKOW5zWVNjeVZHLXJvSG05aDN5Ymd5aGFaMW9LSEE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "ef4cece69105",
+      "time": "2026-08-19T00:13:11.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Nrx Pharmaceuticals Earnings Call Signals Cautious Momentum",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcVBSOWt6WVA5UnFRbU5UcWRWLVJ4VGpxZVRObDFhSlJYSkJLRjlTYUxDX0RBOE5QdTRmeEV3WVB6R0xCWDQ3VnQxV1g0ZGQyVlNPS3pYSlUyM1RsV0RrdThXVlZXNEVFT3JjMmxXLVdSS3p4ZHBKN01IdEJ5aWZEemczNFlidkZ0X1VSQ0VQclMzcHlLT2JmN3JibzdYVXpaalg4T2swYWZnc05NN19XRQ?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
     {
       "id": "3aa17fcfa647",
       "time": "2026-08-18T22:41:03.000Z",
@@ -128,9 +156,9 @@
       "tickers": []
     },
     {
-      "id": "607cf15d240c",
-      "time": "2026-08-18T21:23:00.000Z",
-      "source": "Yahoo Finance",
+      "id": "5db2dd8c65b0",
+      "time": "2026-08-18T21:26:47.000Z",
+      "source": "The Manila Times",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -138,7 +166,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "Psyence BioMed Welcomes U.S. Administration’s Latest Action to Accelerate Ibogaine Development",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbHlqZFRfcGl3MjBacksxczZQbndIRzJ1anFWY0cza0s0Q2JmOHF3bW55TnhUZTU4Z1RFMUthUm54aWlNMl9HV3d3bUo4VnVPeGhjaUo1VUI1dGFqcHdfVnJPQzFJYzJ1X0FyTlgwVGNWc0xsaGs1MU9sZE1XX0Q0YnN3YmJBWGdGYm5jRlVDbXdua0YyNDZFeVJ1a19McmxlYzk4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWFZ3TXpLelY2bVlMTVVKOEFNSEU2TzBpV0ZpUDQ3cGR1ZEVLMmZ5alpjY08xaGpPZERWd2VxOFRFdElZM050V3RBQW1zRUpRU3hBT3pnVXRvb0Z6Ml9zTEtySHcxMC1oM3d0SmdBU0h1ZmtOZldkVVFieWVreGlwQTJBcFI4MGdZX19KVXZWVUJrZHhzdk40MUtYTVJpM0I1WmpBeEpGYW9aaFRSQkNwR1UtMi1WZDhXT1FUSVB6VTVmQVB0LVFFY01tMlpILUhEMHhWcGQxOVk2SnBjRElVaVlfY1FYTWVZamxQQUk1ekxyV1A0NkVmX9IB_gFBVV95cUxQWkl1a2h1MUpoNTctVS1oNlhTUzhzRFJYX1JpNVk4RVdIU1RmNEN5eFY1dTE4U0VXOGxja2pCeWp4eUNLbEFjTng0OFlPY2xyU3hPRUxJS2ZycHhOV09hWFVWS3Fkb0VBR2VjbnhGMU96bWVTS19CQXlPUzkzUUhoWkpwWXZYN29JWVJUcW5uVmV3aUhiUlNrcnppa3FBNVVKbVlMaEJOdHd1WUtVQnN1VjdYc0dBYlFwWkpPN1F4MnRFYk4yTmFYazU2WFpUZ3MxUll3TGhBSDFCRjgxalp3ZGI1VVhZbFZTV1BMemZUVFlBU1lmM0N5M2FmSTZ5UQ?oc=5",
       "tickers": []
     },
     {
@@ -204,7 +232,7 @@
     {
       "id": "a0061ca6cfb4",
       "time": "2026-08-18T19:53:00.000Z",
-      "source": "kjzz.org",
+      "source": "KJZZ",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -213,6 +241,20 @@
       "impact": "LOW",
       "title": "Arizona awards $5 million grant to Barrow Neurological Institute to study ibogaine for brain injuries",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaU5YUVRuOVc3S2xXMmVjZGJ3NDk1WTV0UXpyVWpaSVlxVVdyd0ZHSmh0MHBsaURZZEJ6VVpBNHZQeGRqNENNVm4xRWNkcmJWaDAxYXk0MWFUV01hWlk3VGFKUU5lR3ZHbkxOUXhlMERLcWY3QjNycTc3WmlsQ3ZqSGdZRV9nMkxGUmhOX1NXV1F4MlZoOVFRbllFU2lHbEJQbUFONXNyanFqSDZZRlF3dU4wanJjd1U5TjVja3BCYXBoUFliTU5QZ1JCUXRKUjl6NW9IalhuOA?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "518dbdbf7335",
+      "time": "2026-08-18T19:10:45.000Z",
+      "source": "FirstWord Pharma",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Physician Views In-Depth: Spravato poised for further growth as psychedelic rivals approach",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xM2xpd1Jpb3lhaXViNGNpVldwZ1ZVUFNXMWU3YUtVLXhnTXdiSTVFekU3cDlQb1FzSmJ0RElBWjFKa3gxVzcwdS1ESVVydkc2WEZJ?oc=5",
       "tickers": []
     },
     {
@@ -230,37 +272,9 @@
       "tickers": []
     },
     {
-      "id": "518dbdbf7335",
-      "time": "2026-08-18T18:51:34.000Z",
-      "source": "FirstWord Pharma",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Physician Views In-Depth: Spravato poised for further growth as psychedelic rivals approach",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xM2xpd1Jpb3lhaXViNGNpVldwZ1ZVUFNXMWU3YUtVLXhnTXdiSTVFekU3cDlQb1FzSmJ0RElBWjFKa3gxVzcwdS1ESVVydkc2WEZJ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "182c6e1b8187",
-      "time": "2026-08-18T18:51:00.000Z",
-      "source": "USA Today",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "Trump praises Joe Rogan-backed ibogaine. What is it?",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZE1aTnVBc2hrN3ZNdEtWV0ZibWR4QW9ab2lUbHNFSHQ5b1FvWTlsQ0N4VzVpVjBhaXc0bXc2S2M4enJxTHRwLXBjY2k2UUItSnZ3bFRzc3lsZ2tCQ2ZLUm9kbXZfdFlGemppTGtWdlZkY2VlOGk3YjZqR0UwQmdSRGpQTFpFSmpBOXdzVld3N19ZeTNWMGthMHY4TEdKOW5zWVNjeVZHLXJvSG05aDN5Ymd5aGFaMW9LSEE?oc=5",
-      "tickers": []
-    },
-    {
       "id": "497792630e22",
       "time": "2026-08-18T18:14:49.000Z",
-      "source": "STAT",
+      "source": "statnews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -281,7 +295,7 @@
       "severity": "WARN",
       "direction": "BULL",
       "impact": "MED",
-      "title": "Ibogaine could rise as potential psychedelic treatment with Trump announcement",
+      "title": "Ibogaine could rise as potential psychedlic treatment with Trump announcement",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcWdZWW1JRmtlQVZ0NmhxNDl0S1pWd1cwUElNSTBtUTVOSWlaMjBnUmNzZDYxRGJDYjN6cl9JMVpjWGM4OWE5NjZtYUZMWDc5WWZSUG9LTkhuSTVIOGpmcGVTRTNsdmhNNGcwY1REWm5zQnlXbERHMHhVV0pHRzNlSEk0cnZueXlkSTc3YjN2bkQzczV0eUU4WDlwSzlFYUVRd2hmQ2VwczhiRVE?oc=5",
       "tickers": []
     },
@@ -436,22 +450,6 @@
       "tickers": []
     },
     {
-      "id": "514be701204b",
-      "time": "2026-08-18T13:52:52.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Helus Pharma appoints Regina Donohue as chief people officer",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVhKZFBXYXhQS3dCR2ZubklwcmxPbmJhMlB1QmItV09jMjBJWkJtazVrckJoNWdXUGFCYXVDeVMwV0VzRVFrVmpxS0VnTC0zTnk3eGRTc2NVa2tGSnEwMy1ianlodWxMbXVfYnF4c0pRemZ3UnJwX29nRkJKWkRBZGlwTkc1NVF2Yjg4WVpwU2J6c3JreWRwVXBvaVAwQVVjMW1mOV9EQ0FPVkMwM3lhUnJkbHZ0bkptX25JT2FiZmZHUC0ySlBr?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "dd21fda3ed96",
       "time": "2026-08-18T13:40:58.000Z",
       "source": "The Globe and Mail",
@@ -470,7 +468,7 @@
     {
       "id": "c2b9218c43af",
       "time": "2026-08-18T13:27:50.000Z",
-      "source": "pharmavoice.com",
+      "source": "Pharma Voice",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -516,7 +514,7 @@
       ]
     },
     {
-      "id": "a6640804829f",
+      "id": "808818eae195",
       "time": "2026-08-18T12:45:56.000Z",
       "source": "Benzinga",
       "sourceKind": "gnews",
@@ -525,8 +523,8 @@
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "This Definium Therapeutics Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Tuesday",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNeWJJTmVqSzlVbFNMTW8zck9CUGU5Z1Z3NkZlOVRNcDdQNDFRb0dZcHdDZXRSV25VWF9JbFRCREV2SjdFbTJqS0RwQUlNWmxxcDh1TjI4SjNTTmo3SVo2VnNjamNIVGN4LWI5NFBVaHU3b2NwVGhScXJtOW00QWNkdFNzNHJmNWFuSGJmWlRJaW1fendFNFd4SC1OaHF6dURpdVNvU25fZm1iZUhuMVhidTFNbC02QzdCSEp1aVlYdG5RLUlSV08ySjBHa3RacHVrem9VX2ZORGx5bUdLS0piSndKMUZsYl9sbGRXUldUMl9JbHZiNHlfbU1kMk9VMzR6U21rR3dnNUVCQmhC?oc=5",
+      "title": "This Definium Therapeutics Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Tues",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPcGR4Qk5DWjdRSDFhd0tJc1dpYkJickU0Q2tWSUZpMWtaeVhPTGNqdlNtbXhaaDlaSGhDX0RSSmdMUTFlRmNRRWpoOWJxb2l2NmZVSmNKcnFEZmU3OUcyMVBESFFVWmFaMU1QVTgwWHYyUWxJYThOcHBxaXhfWUlPWkMxTWF2Q1UwY3dQMm9TbHZzVm03UWpQcDQ3LWZaZkpobURFX3RvSGpCREpLVGY4RXlKSFBwNFk4NnVxRlo0Yy1vWW9DTFo1MlZKaGxkdl9rQThVcDQyUGV6aVdLTmFZb3VqZUg5WHduX0FMeWNvT0tSdU9WbkRvQWdwYVA3LVZES05pd0tBbWZKanc?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -548,19 +546,19 @@
       ]
     },
     {
-      "id": "2b19cab52a42",
-      "time": "2026-08-18T12:26:58.000Z",
-      "source": "Moomoo",
+      "id": "0af8ade77dc9",
+      "time": "2026-08-18T12:29:46.000Z",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
-      "direction": "BULL",
+      "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "BTIG Maintains NRX Pharmaceuticals(NRXP.US) With Buy Rating, Cuts Target Price to $10",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUExUWTJDS2hITmFIUnJ2UEZ6ck41WF9VUl9wWUlBYmcwRHFuUUNmQjVqNUVmcFhMWlhZbEZRZGdTbzF2WS0xSXhiWnh4djI3a0diVUREc2NlMmFiaEZxcDVMV2k3T25yUF9HM0cxbFdKakl5ZlJmY2pWZHRYVC1WVkppUnNVc0lzb1YwZGw1cnlNd1BSQ2FoWjl6SHYtbVVjaUpZSU5INWRuUjExMk0xRA?oc=5",
+      "title": "Helus Pharma appoints Regina Donohue as chief people officer",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcGhqLU5kYTlaWEwwT2NhYTFQSjVuN0dBaEZvYXlfWlZMZGVqU3NNQm5ucWg3dHlYd3lpU1pYcWwzNTNYYlJ4Vmt6ZURZVHVya01lN0J5R3YwbEdLcnc0VU8wbmQ1MC0zLVhpbjZqbXZUN0M1RkFRTFdsUGNqMnhVbFhZNDlGX1ZJQ2NpTi1oX2llbDAwZWZJWjc5eFNYWDZKS2tZODB0OGdENW5HVk4w?oc=5",
       "tickers": [
-        "NRXP"
+        "HELP"
       ]
     },
     {
@@ -659,7 +657,7 @@
     {
       "id": "1bb8e851c037",
       "time": "2026-08-18T11:41:16.000Z",
-      "source": "Ynetnews",
+      "source": "ynetnews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -800,8 +798,8 @@
       ]
     },
     {
-      "id": "2607f882f67e",
-      "time": "2026-08-17T22:34:40.000Z",
+      "id": "441c2f92fbff",
+      "time": "2026-08-17T22:34:43.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -810,7 +808,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "How Rising Losses And Milestone Spending At GH Research (GHRS) Have Changed Its Investment Story",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNXJiOFd3SUozckVKdXlZdEdwb2dDQ082eVlha2JCclNaMlp6TmY0N3RhS244NGNCVkpiSF85c1RfTU5pbmVrQ2s4ckdyNmI1Y3lKSFdtRmNiRGRBSmIwTWVnTlJBUXRNRHVkMXg2U1NsandzbkpmZmY5WHFOMk5aVGlnQkhoMW0xdFFlcXN5emlYbUh5QzBGZGlmcFBWSlNTRjVfb0RYbE1zeDB5VllRdTFvcVpTdDd4VzVDb2VTSGg2cFVPU1FoUV92YnNjVVVLNlhBNGxMeTR2R0lJX0HSAeMBQVVfeXFMTXZVV0V0VmdYR0hqMVRpbEhKaFcyeGs5ckY0ZjhzZXhWU3VtdVhPUjRGYnBVSnlyVzVPSlpZZTBmd1huNGdpVk9qZS1SeFNOMWM1dzR3ZGtTSlZUUGFkZGJnVWtKd0dNVXBkWG1fb3lDUlZvY2RxMW5PZzBKYzRDZGtEaEVqVnh4TVRGd3Bzd0hQY01vXzg3Wk1hemk5OG5kNXlZWTV5ZDJELXRoNGpaal9jVkpfZndWWnN1c0JNX1FQODlncDVZSWRWeXdNMjB0dFRKUnI0NGtLdm0xMVFBMFZEbjA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdlVXRXRWZ1hHSGoxVGlsSEpoVzJ4azlyRjRmOHNleFZTdW11WE9SNEZicFVKeXJXNU9KWlllMGZ3WG40Z2lWT2plLVJ4U04xYzV3NHdka1NKVlRQYWRkYmdVa0p3R01VcGRYbV9veUNSVm9jZHExbk9nMEpjNENka0RoRWpWeHhNVEZ3cHN3SFBjTW9fODdaTWF6aTk4bmQ1eVlZNXlkMkQtdGg0alpqX2NWSl9md1Zac3VzQk1fUVA4OWdwNVlJZFZ5d00yMHR0VEpScjQ0a0t2bTExUUEwVkRuMNIB4wFBVV95cUxNdlVXRXRWZ1hHSGoxVGlsSEpoVzJ4azlyRjRmOHNleFZTdW11WE9SNEZicFVKeXJXNU9KWlllMGZ3WG40Z2lWT2plLVJ4U04xYzV3NHdka1NKVlRQYWRkYmdVa0p3R01VcGRYbV9veUNSVm9jZHExbk9nMEpjNENka0RoRWpWeHhNVEZ3cHN3SFBjTW9fODdaTWF6aTk4bmQ1eVlZNXlkMkQtdGg0alpqX2NWSl9md1Zac3VzQk1fUVA4OWdwNVlJZFZ5d00yMHR0VEpScjQ0a0t2bTExUUEwVkRuMA?oc=5",
       "tickers": [
         "GHRS"
       ]
@@ -986,7 +984,7 @@
     {
       "id": "e68b2c09759d",
       "time": "2026-08-17T19:03:05.000Z",
-      "source": "1819 News",
+      "source": "1819news.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1060,6 +1058,20 @@
       ]
     },
     {
+      "id": "ba4faa896638",
+      "time": "2026-08-17T16:31:23.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "PBM Stock Trips Into Spotlight Again: Rare Ibogaine Supply Edge Gets Boost From Trump’s Psychedelic Push",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDd2OGYwcWpOYUZFa0NlVzVmekZNMDBpcU4zY3NSdDF6R2NxSFZPMy1ySm1NUHZMamRsY09Lem1JSGN0emNQS1g5R0pIci1XUHdFdUg1ck5OSTlaNmZKUXZuZFRLZTN4R3F1TnhkQmVwTXlvWmhmNTBxUEp5WUZtRTZMQjdORWRoeF96TG12SzRreG14emlKLUZNTFpBX2kyUnpTWDdodmhwLUlvZEY0VmpUc0VWaUx0TTI2TF9scDIwX2lYV1hhLU0wRWNKdw?oc=5",
+      "tickers": []
+    },
+    {
       "id": "397f66931429",
       "time": "2026-08-17T16:11:40.000Z",
       "source": "TipRanks",
@@ -1090,22 +1102,6 @@
       "tickers": []
     },
     {
-      "id": "619635ed0c4c",
-      "time": "2026-08-17T15:47:57.000Z",
-      "source": "גלובס",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Globes - Israel Business News",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VcUdHNE9UbXcxeFBmVk1wbDFCdmhBaTNMY2EzWWhvQ2g1T2o3bmYtallzS3JqUXFWZHI2azhScjJBMTJvSHZCNlB0bFJFcHFVRzBRa3VuS1VMaWVKd1N5a3VB?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "084aa4443936",
       "time": "2026-08-17T15:31:10.000Z",
       "source": "The Microdose | Substack",
@@ -1118,22 +1114,6 @@
       "title": "What’s the difference between recreational and therapeutic psychedelic use? 5 Questions with experimental psychologist Harriet de Wit",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZl91eU5xcFMtRVRPNktmWGh5d0FCQlNDeF9aSm9CV1p1emFMWmFQNVJySlVObGkzQ0VPSmg1VlZxcFRhdExXZDJRdHdCVTZjcnR1ZU1aS3p5a0l5M05WenVMVzlIZE91c2ZOU3g5bnhHZnEtY1ZpcUFqOVRfeXlfSE45bw?oc=5",
       "tickers": []
-    },
-    {
-      "id": "e9c8fa59fee1",
-      "time": "2026-08-17T15:14:48.000Z",
-      "source": "Nasdaq",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences Rings the Nasdaq Stock Market Opening Bell",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYkQ2N3N4RnFMSndJRXpSUkxfWTU3bzNIZ1lNN2gteW1Nb0lKMHBYTFhiSWJyRGJqendGOThjcm15ektBVWNJcjYxVThodW1DcW56MDNSOTN5NE03TElMUW83T2JpcFA0VkhYNzZvVUFvb09aQTc1T2lyLWoxWkE5bHYwQTJZaWJIc3IzZHVsNGdaNm1kWHc?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
     },
     {
       "id": "db39d2c035c5",
@@ -1152,7 +1132,7 @@
     {
       "id": "c22e8735e2b2",
       "time": "2026-08-17T14:39:00.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1312,7 +1292,7 @@
     {
       "id": "626e162de687",
       "time": "2026-08-17T12:03:01.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
@@ -1463,6 +1443,20 @@
       "impact": "LOW",
       "title": "Nine veterans with PTSD went to Mexico for a psychedelic retreat. This is how they felt nearly a year later.",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT09lQ1BTSEItal8ydEhLaWJ6cXZuVXp6c244U1V6bS0zS0FWOUdzOFo4dHExdTFyY0xIY2Q2bUxTczY4NktfTjJuUTVibzNzaGcyX2owQzlRTndBVXE2djc1ZmRjQ3QtNjFHd2dUMXgxU0hSV0RBaFNjb293MFBkY3cwTVRLVTVWUm9HWjJENW1aNmpBdHIzQVcxbXJQN0F4Wi0xS1J0R1RkX0prNy01aGF3dmE5dE0walNjeDNrRQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "11d58b47cdd0",
+      "time": "2026-08-16T23:00:00.000Z",
+      "source": "CBS News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "U.S. veterans with PTSD take a psychedelic journey in Mexico | 60 Minutes",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFh2eGg2MGd0Nm5BdFp5RjZyOGVZQlpDeEswQUFKOHk2dVRkRHF5MV9uN2EzMzQ0Vm92ZUVZOFNsRElidzJDSEtPb2NqOExHNy1JVXZqNTMtSzNPTUpvQktLb2M0b3ctaHVHRmlZLVB2ZDg2RjB1bUxjU3c1ZS1LSkppMmF3WkxYcnVJeEhsY0xXd3M0RGlRT2dOWQ?oc=5",
       "tickers": []
     },
     {
