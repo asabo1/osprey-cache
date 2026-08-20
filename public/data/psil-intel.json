@@ -1,12 +1,14 @@
 {
-  "updated": "2026-08-20T14:09:29.795Z",
+  "updated": "2026-08-20T14:53:14.807Z",
   "counts": {
     "total": 90,
-    "crit": 6,
-    "warn": 16,
+    "crit": 5,
+    "warn": 15,
     "bySource": {
+      "Oregon Public Broadcasting - OPB": 2,
+      "Endpoints News": 1,
+      "Zacks Investment Research": 2,
       "Psychedelic Alpha": 3,
-      "Newser": 1,
       "San Francisco Chronicle": 1,
       "CNN": 1,
       "Investing.com": 2,
@@ -16,12 +18,11 @@
       "FinancialContent": 1,
       "Hospital + Healthcare": 1,
       "Daily Mail": 1,
-      "Stocktwits": 4,
+      "Stocktwits": 3,
       "KOIN.com": 1,
       "Central Oregon Daily": 1,
       "New Atlas": 1,
       "FirstWord Pharma": 3,
-      "Oregon Public Broadcasting - OPB": 1,
       "Statesman Journal": 1,
       "Stock Titan": 4,
       "Behavioral Health Business": 1,
@@ -37,7 +38,7 @@
       "MarketBeat": 2,
       "Nature": 1,
       "NPR": 1,
-      "HPPR": 1,
+      "Public Radio Tulsa": 1,
       "OHSU News": 1,
       "Mirage News": 1,
       "Medical Xpress": 2,
@@ -45,13 +46,13 @@
       "Nautilus | Science": 1,
       "Military.com": 1,
       "The Killeen Daily Herald": 1,
+      "Yahoo Finance": 2,
       "Firefighter Nation": 1,
       "TipRanks": 4,
       "simplywall.st": 2,
       "Sahm": 1,
       "geneonline.com": 1,
       "NCHStats": 1,
-      "Yahoo Finance": 1,
       "Vinanet": 1,
       "Moomoo": 2,
       "citybuzz -": 1,
@@ -68,16 +69,73 @@
       "citybiz": 1,
       "Yahoo": 1,
       "Mugglehead Investment Magazine": 1,
-      "kalkine.ca": 1,
-      "AOL.com": 1,
-      "Pharma Voice": 1,
-      "PRLog": 1
+      "kalkine.ca": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "aad6fbd8dda7",
+      "time": "2026-08-20T14:33:51.000Z",
+      "source": "Oregon Public Broadcasting - OPB",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "OPB’s First Look: New video of Longview chemical disaster",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYXpKMWd0OE9nVjROSXdlS1RGN0pkR1FjU3ZoZnJ5LUtBcUpqUzFseUt2bDN3RTdqT21QWEhiakwxUHZicG5RNHJuTER2akVCeFhzS1F3MXllaU1rQmgyY0pOajM3dXZOOFUydzBCQmU5MWI0dlcwWWpPd2VpS2stWE52c3hmSnFlbjEySGFB?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "b881f2aa0e12",
+      "time": "2026-08-20T14:33:00.000Z",
+      "source": "Endpoints News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Lilly partners with Amplitude on vaccines; Otsuka scraps psychedelic trial",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWmNrSERYMWhkVGtiWS1Sb1VfY0RmOFUyRVE4Z1NzOThzTDBNMmNvUFc5WnlXMXpVUkhuUGhrZU56MEhoeHVsN05vMEdld1RpZW1abTR5U3A3QU9YNVVuU3JVUHp6YkpDcDBaWVRkaHNPaFEzRDBPa0NCRk5ZWDFPXzBHYV8tdFhWV1lJMUxiRkFUWFJCdG9HeEc0UG9SUQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "4988b0ccebe4",
+      "time": "2026-08-20T14:31:51.000Z",
+      "source": "Zacks Investment Research",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Can NBIX's Q2 Beat and Higher Ingrezza Guidance Drive More Growth?",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbzJmMHZtUzcyLWNyV05MdWxQWHNYdExDWXNKZEtrUmFxZGt1WnAweUNha3dreXlZcTROaDZmaUV2NkMwZHdTVk1wX2VQYWFaanRqdjhhT2RDU3BmSE9CbWJiS0pkZzNRUllQaEszZkRESV9XREJNWUx0LVpaMzhrenI2QUlSWEJZemU3dUIzOEkwTGNSa2RZZzlWZ3A0UklGTzlBdlNyTHE?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "47b6f109381d",
+      "time": "2026-08-20T14:31:51.000Z",
+      "source": "Zacks Investment Research",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Neurocrine's Ingrezza Sales Keep Growing: Can the Momentum Last?",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXFLcm1ydVJHLWxOdUV6bjY4Q1NkRG9iSlYyb3hZbGlYVjNNVVFRdEQwcmYzWHFfQUZyeWlQYzJyejA2cGxZMlY5S1VSbWRCR0RXblc0V0NCalQ1UUZqM3ZIMUFhVXlUXzd2Ry02ME1YMXdHcE12SmpnRDgydkhaMGtGdEF4bFJ0dTZQRkgtX2RKdk52SWtMYVpOTW5QTi1jbWJMMA?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
     {
       "id": "17b08940fc67",
       "time": "2026-08-20T13:08:09.000Z",
@@ -90,20 +148,6 @@
       "impact": "MED",
       "title": "Credentials, Clinics, and Costs: Stakeholders Respond to HRSA’s Psychedelic Therapy RFI",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaFRkM2dCOHl6WWFKTWxJSkN4M2FjZ0wtQmsweklUTmxTUUZnVzBsVURWLWVOekdOci1XdmFrNnltZ3pQUmJxSTgxRVVTd3U5RzZkRFZyLUF4bnAtOUVfSTZJejFVenVQcTVMd1VHWklxMmJxZ3ctV2tZVmVyNjRocEs0Ync4cnJiU1prSzhrdlIyX0RYZVZQanVlU1ZRcnRtVDdpdmoybmpqOFg0VE5sZ0JKb2FNMWNlSGc?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "6f0bd28b6025",
-      "time": "2026-08-20T12:56:00.000Z",
-      "source": "Newser",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Oregon's Psilocybin Program Brings Mental Health Boosts",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSElRWTRqSkVmaTZqbEF6YzhMbkxOTG82VFVfdkwzZ2hWTW5SV1d3Um5HNW5YRi1QLU1wbU1MUlRIc3k2WldJaE5ETmdYRDJSRHE5dUotc1NGR3h5MVgyck5CcHA4cndMNGdYQnl4UnNqb0l6YkNWV19VX2lWWDBjMnFqTWZBWFkycDBHY19Kc3dVd3E1QjFOc3N4bw?oc=5",
       "tickers": []
     },
     {
@@ -226,7 +270,7 @@
       "tickers": []
     },
     {
-      "id": "50b04fd2f2ea",
+      "id": "f205f0b91414",
       "time": "2026-08-20T06:09:46.000Z",
       "source": "Daily Mail",
       "sourceKind": "gnews",
@@ -236,7 +280,7 @@
       "direction": "NEUTRAL",
       "impact": "MED",
       "title": "Trump pick to lead FDA was architect of Joe Rogan-backed policy to promote psychedelics",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMDVndW1BZHAzbXJENUxVZGl4Zjl0cUZsRTVhTndFMHlBU2RpTkhHVld5bVdEUHdQVTNoZEZzQXFZTVJtSW10QzNrVU9ZM25oVDhXNExoZVlwdERqNnIzcFRLbXh0andoWm14c21FbFVlMUJQOEhISjhaVEw2VThDYVFocGFtV1gzUUdWUFJqMUZnUWVMX2RqTGdPOE9FOXdmc3FYVTNfdXFJTzEteE9TOUY1S2l4bHNt0gGkAUFVX3lxTE1xTEpnYm5SNUJZRGJfdHkwekhOSkU1aUtPQ0lKcThxanJERlc1TTB3b3VMb0VPOFNIVnEyU29yaHRQa3g1bEdfazdXT19KNXcybkxMRXVXRFNVdEpEQmM2U00wZW1uNl9mSlFXQzRXRmgwT2dyYlNTTVNDT1BaWE5laTM3d1VfSDJKaE9YX0p1MG92cF9PVndMUTgxSThQZ1g0OFcy?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVjlQR29YQ2xrZzROTDZMU2ZTXzc0XzZWUmFhQWh4amY0T083RmdMTjU4czUzWTktY2tRQ09aVnZmVlVoTGlaOTdaLUxEejR4NWstY24weF9LZHo1UGlsVktKbDNhYVB5VUZ4UVFrMVl6VDBEaERKMHZuLUFhX1p2RnFNa1l2aWlPeXM0T3h5dlIwcXpjc1NrMTNJWDVLT0nSAaQBQVVfeXFMTXFMSmdiblI1QllEYl90eTB6SE5KRTVpS09DSUpxOHFqckRGVzVNMHdvdUxvRU84U0hWcTJTb3JodFBreDVsR19rN1dPX0o1dzJuTExFdVdEU1V0SkRCYzZTTTBlbW42X2ZKUVdDNFdGaDBPZ3JiU1NNU0NPUFpYTmVpMzd3VV9IMkpoT1hfSnUwb3ZwX09Wd0xRODFJOFBnWDQ4VzI?oc=5",
       "tickers": []
     },
     {
@@ -562,9 +606,9 @@
       "tickers": []
     },
     {
-      "id": "8fc83b208415",
+      "id": "34f874be5757",
       "time": "2026-08-19T15:22:00.000Z",
-      "source": "HPPR",
+      "source": "Public Radio Tulsa",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -572,7 +616,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Real-world study of Oregon's nonmedical psilocybin program shows promise",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd2J0RnRxdkNYU0xrakYtN29FcFhoWkF2LWpfaUhwalp2bUJTbmN4R2VHRVNaZURleW9SUkN2bVNsY2NiTXgwdzBfSEJIU3BrZV81azlkcmdGZm1LZHdJWk93UWVKWFpJb3Uybm9UVGFKZ1NCblVvY1B2X21UYk5mWldTUWpKbTZOVmVmdDBORWRQcWlGUzZEX1hDbXFiRjhzbk5QcG94ejNYb3U1U2dCYjV3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPby1VQ2JiZWFFVUFYanZNYjJTYU1UNm5GZXREU3lfVnhzdkthU1pJMy1zYzhkX216VWltZG5LWklYSVpVYVJzTThMZmtRcWF4c2ktMEdoWExZYlVTM0p1LVZxNU50UnRkMUFNZTV5RHF0X28tbm41TGpGdlJnZ3ZqYkxuMVIzd1BrMTVPbHY3SjllZU9sRXZkNnhFNFJCblFlMHZhVGlMaEhtd0ZiM2dwWFZZVzY3T2h4d0luRHhoaWhwMm9wTDU2cXBvanhHQQ?oc=5",
       "tickers": []
     },
     {
@@ -686,6 +730,22 @@
       "title": "VA launches psilocybin trial for veterans with treatment-resistant depression",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQb3R0VGdaUmwwak9KVC1VOTMwcWRqZ0MwcTg0RndjdEdXTTI5NWlDT3Z5VWJMcm9mLVRSNjBrWTQwQWtOdktlbGlEYTVpNWVsV2huWjNoV1hRRHJhUTRnam5CTUpnM0dpaS1zR1gxZGFwbzFqYVUwVUNvSl9jU1hMTEtuTGNYVk1LVTkzQjlORDAxSi1xd1F2dXZ0OUpRejVGU1k5c0VxU2N1OVhGNzV6M0tINkJVUk1qam50OERTRXlwX1pfSWxJNFdWZjRBWmRVTWtYS1JaaGRKVUNoT0NEZnVMb2FZLVFSVy12QU5UWmF2bTFDeGQw?oc=5",
       "tickers": []
+    },
+    {
+      "id": "a1b16881ad7b",
+      "time": "2026-08-19T11:40:10.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals, Inc. (NRXP) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvN1JET1BTQTNpSmZmQXdvSEswU0szdE9KWkQ1Y2loMlNFZm1yS1pQQ1J0YWlGVENubnhNbVc3YUVQVnlUdHp3UUVvX1NUVUFZY2I0aEJUMXhnZ01BdVE?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
     },
     {
       "id": "2e5bd839cecf",
@@ -1351,70 +1411,6 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeFZrYUZpX3BEeHljVmNxTndoenh5R1VYMmFiS0w5Rk50N19aa3REejlydi1HSlAxU1hDcm9LQUZpRW55clZiV0dPdk9ZOTVBTy1henJoeGdHdG5id2dpLVh5b1NtRHF0VXJrcmdMVDhGVWlKYXZ2U3hEWEJYNXJvV2hYckpvUGNNUkZCYjVkaTI4RVZpNWFWNnhZcGpfd0piX21zSmZyeUdCNVlhc1hKb0JoT2NneUJUc2NxRQ?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "8c8e5d3939d4",
-      "time": "2026-08-18T13:48:45.000Z",
-      "source": "AOL.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "COMPASS Pathways (CMPS) Q2 2026 Earnings Call Transcript",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GRW84bWVtUHI0ZDNzS0w5MVo0Q0c0a29sTXRYZG1MSjFRbVRGS0JwNVpyYTVGdEZLMXFrSnA5VVhqZlRBSGIzT3J6RDBRNGZTTUlBSmxMUE1tSUh5a2JTT2FjYTVuSjJNS2xZdW1MeG9YQndWYkEtY1F6eDRJZw?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "c2b9218c43af",
-      "time": "2026-08-18T13:27:50.000Z",
-      "source": "Pharma Voice",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "How Helus’ new CEO plans to scale its psychedelic drug pipeline",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdHFvOHYzSkt2RUoxUV90cDVIUWZjNEh3dGxDUjNvSm5KbTMwMmRzeGJTS2gwcVhZelZxNUVocWRxNUp2aEliRHZ3S3lpR1NDUFkwTnlwSFFjSzlpNlNnNUlVSHo3NXVFNUJnc0ZybzlpQnVXRXF1d0d2dXFBZERWNDVPcG1iZFhVU2VBbU5Hbk5meDlGMkFiS1hfWkkxZ05BQ0E?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "be23c89d78c6",
-      "time": "2026-08-18T13:27:33.000Z",
-      "source": "PRLog",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FDA Path Clears, Manufacturing Ramps Up + $22.3 Million Strengthens the Balance Sheet; Inflection Point for NRx Pharmaceuticals (N A S D A Q: NRXP)",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRURkOEc3RFNVdU9ScW9ZM3ktQTdJU2JGNmNRTUs3R0FxUFM0dVdDcGxvN1oyWXJpQnVSQnpqY1ZUU0lTRi1KejZpbDExZE5VSVpxYklxQWRWNDZVMjFyT0dfTTBnQm5mS0NZZTNSVExOTE5TTUFGQUZ6bDYwLVRaVGJ1MlJpazE0YzdGOEdxVXZzR081LXYxMzZzYXNaM1h6U2NCNlpTZVlDazFkZG5iTDRTc3MtWEQ0LVctRlVOaXdRaEowT1VJQnZPWmpOQU05QVhrSndFUEZNQXB4QWd3RWFIc0hPU2lGbk1PaWw2ZVhhTm50X2c?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "afd3a2abaf18",
-      "time": "2026-08-18T13:12:35.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
-      "tickers": [
-        "CMPS"
       ]
     }
   ]
