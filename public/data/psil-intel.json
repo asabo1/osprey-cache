@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-20T16:49:23.190Z",
+  "updated": "2026-08-20T17:15:02.808Z",
   "counts": {
     "total": 90,
-    "crit": 4,
-    "warn": 13,
+    "crit": 5,
+    "warn": 15,
     "bySource": {
       "simplywall.st": 4,
       "MarketBeat": 5,
+      "Stocktwits": 4,
       "The Business Journals": 1,
-      "Yahoo Finance Singapore": 2,
+      "Yahoo Finance Singapore": 1,
+      "TradingView": 1,
       "ScienceAlert": 1,
       "Endpoints News": 1,
       "Oregon Public Broadcasting - OPB": 2,
@@ -23,7 +25,6 @@
       "FinancialContent": 1,
       "Hospital + Healthcare": 1,
       "Daily Mail": 1,
-      "Stocktwits": 2,
       "KOIN.com": 1,
       "Central Oregon Daily": 1,
       "New Atlas": 1,
@@ -35,7 +36,8 @@
       "The Conversation": 1,
       "KJZZ": 2,
       "ThePrint": 1,
-      "BioSpace": 4,
+      "BioSpace": 3,
+      "GuruFocus": 1,
       "New Scientist": 1,
       "trialsitenews.com": 1,
       "Medical Daily": 1,
@@ -44,7 +46,7 @@
       "Public Radio Tulsa": 1,
       "OHSU News": 1,
       "Mirage News": 1,
-      "Medical Xpress": 2,
+      "Medical Xpress": 1,
       "Scientific American": 1,
       "Nautilus | Science": 1,
       "Military.com": 1,
@@ -67,8 +69,7 @@
       "azcentral.com and The Arizona Republic": 1,
       "USA Today": 1,
       "citybiz": 1,
-      "Yahoo": 1,
-      "kalkine.ca": 1
+      "Yahoo": 1
     },
     "byTier": {
       "T2": 90
@@ -124,6 +125,22 @@
       ]
     },
     {
+      "id": "afd3a2abaf18",
+      "time": "2026-08-20T15:43:13.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "d3bd851bfd54",
       "time": "2026-08-20T15:21:00.000Z",
       "source": "The Business Journals",
@@ -154,9 +171,9 @@
       ]
     },
     {
-      "id": "47673863da89",
+      "id": "eb7be16d87ce",
       "time": "2026-08-20T15:14:00.000Z",
-      "source": "Yahoo Finance Singapore",
+      "source": "TradingView",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -164,7 +181,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Is NBIX Stock a Buy as Fast Growth Meets a Premium Sales Valuation?",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQXgyMHhvamRPUFQ4U2NHdmhJdWxfRlppUEtyZ25SbzhFeF81S0dVUUtka1BTR2l1WHBRdThEYU5neXRLQ0Zic1dXakFMNVB2NlpIaWhwSXg4SWU5bWFIdW1GaHlEbmZFYk1ZUXNmd0pIS1VOeHZoeHF6OFlrNk8xbA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlpSUVoTlJUWTNDX1FwV0ZqWGpoRFA3LXFuTllLbW80X0N0cmphN2Znb2JkUWRnaE9GNW1QdWNhckZoa1BoTWNNUGpfMWZ6cWsxOTVkZEFCOTZzaGJZVEdJU3k0N0pSb2I2SUZZNGk4dDdNM2dCUUI5dE5aLXFqaV9FblNpMWFxTHJXZ1hlUDg5cmNVdU51MXBJQ2thejRuOGR6ems2MHFmWEJ4R3FaWmxfYjVPNDZMdFJoVy1sSQ?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -625,6 +642,22 @@
       "tickers": []
     },
     {
+      "id": "29d94931f018",
+      "time": "2026-08-19T18:20:35.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Q2 2026 Alkermes Plc Earnings Call Transcript",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBRZ2Jub0NETHVsZWZCN1V5WFdVVGxMQ3dWYjkySHBMeDdlczhteFhZbVlrTWhBb1pXSVFFeS1WT0k4aU05WUxRSVNZRXdod09vd25nQ3FyemtTS1Q3UDJnSE4zOXB3R2IxZ0E0?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "96bd7847bcdd",
       "time": "2026-08-19T17:24:29.000Z",
       "source": "New Scientist",
@@ -1025,22 +1058,6 @@
       ]
     },
     {
-      "id": "592684b2746d",
-      "time": "2026-08-19T04:09:17.000Z",
-      "source": "BioSpace",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Takeda leads wave of orexin drugs with potential to upend narcolepsy market",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTWhSQ2U4dG95bjkycm93MjBuOHRFUlc1WDNmZVYxajRKZmQyZXZQT2tXSFRoTjZIWWpkbGlVVXZWM2h6RlktMXdNS21GSExQVHRPcmtFMU41UHJKWUJWLVp0WkNtY1ZVeThNWFdIWUFvRTM2WjZVbm1wb3hiX1hCWk5ESURaR0ZpMHh6MU8yV1JUdE1Ibm9SR18wd1ZEWXNGTm9feHFEanFMY1pfMlE?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
       "id": "b08575259292",
       "time": "2026-08-19T03:35:49.000Z",
       "source": "FirstWord Pharma",
@@ -1223,6 +1240,20 @@
       ]
     },
     {
+      "id": "558b1b95b6e9",
+      "time": "2026-08-18T20:10:33.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "IBRX Founder Backs Trump’s Psychedelic Push In ‘Transforming’ Health Policy — Flags New Anktiva Breast Cancer Risk Data",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSFNwX0ZjNnNkT29QWEZlNjdKOU13RlpReE1rckdyRzhEYjdDZGZid082LTNxMDNYZi1QRE5IWW5KUWtGQ1lXTGFzbmw0SjhPbEJMQmI4ZElvS2NCNXc4OEdwUURfTmY4WkxjREdhb0t0VEJmVmJlQnRQaVhZWnozNmdVYXk3ejVTTGVsMWlsU0h6RzdkNUotWnpOa2JEU2ZiRWZWb3FUT2o1Mmljb2NmdC1jRVAxYVIyM1NsQjJRM0xydW9pZmpCM0xVMlFRTXhiZW5hTGpFam0xNlE?oc=5",
+      "tickers": []
+    },
+    {
       "id": "a0061ca6cfb4",
       "time": "2026-08-18T19:53:00.000Z",
       "source": "KJZZ",
@@ -1381,36 +1412,6 @@
       "tickers": [
         "HELP"
       ]
-    },
-    {
-      "id": "134429d63560",
-      "time": "2026-08-18T14:41:00.000Z",
-      "source": "kalkine.ca",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin Stock Under Pressure as Clinical Risks and Biotechnology Volatility Weigh on Investors",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTExxdnlOSWVYVWNqcEstMzhiNS1YY196WTFRWmplMV9idWFZM1B4dGtWXzVZbWFSckNveS10MUpHTEI3Z19MX2pOakFIdWdYdXMtY21aeWlRa0o1YTVfVThURGh2VGNhU1FOMHNNWjF5bW52UXB2Nk91V3ZZM3VNRHRGWDRTZVpGYXh2YWpSQU9QdE5CbGh2S05DbEFYNmM1WUlBakxtSDVDenhwZS04WEk1SHJ0cHBNaTRaWDUxYV9sVjEwbGc?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "efde314242dc",
-      "time": "2026-08-18T14:30:01.000Z",
-      "source": "Medical Xpress",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic exposure during adolescence disrupts a brain circuit linked to lasting social avoidance in rats",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcUhTRGVuVTV3N2RFOVVQT2l2dXk2dmR5UEN1SE9fcG9wdVkzSExDbDBEbVdmTUNrcEhCb1BqWDFTVk9fWjlaZWt6dlh4MjBnMURTMGtoclgtS0ZOWmpGZHJRcVFWSmZxT3VfUWpzem0zOGptZWJtdlBWQ05VUVNsc1lVSUpaT2p6R3NnRDVSamFZdjZvLXc?oc=5",
-      "tickers": []
     }
   ]
 }
