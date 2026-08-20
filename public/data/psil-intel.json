@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-20T11:39:55.804Z",
+  "updated": "2026-08-20T12:16:51.427Z",
   "counts": {
     "total": 90,
     "crit": 6,
     "warn": 15,
     "bySource": {
+      "Investing.com": 2,
       "CNN": 1,
-      "Investing.com India": 1,
       "Yahoo Finance": 3,
       "Las Vegas Weekly": 1,
       "SWI swissinfo.ch": 1,
@@ -27,14 +27,14 @@
       "KJZZ": 2,
       "ThePrint": 1,
       "BioSpace": 4,
-      "GuruFocus": 2,
+      "GuruFocus": 1,
       "New Scientist": 1,
       "trialsitenews.com": 1,
       "Medical Daily": 1,
       "MarketBeat": 2,
       "Nature": 1,
       "NPR": 1,
-      "Public Radio Tulsa": 1,
+      "HPPR": 1,
       "OHSU News": 1,
       "Mirage News": 1,
       "Medical Xpress": 2,
@@ -42,7 +42,6 @@
       "Nautilus | Science": 1,
       "Military.com": 1,
       "The Killeen Daily Herald": 1,
-      "Investing.com": 1,
       "Firefighter Nation": 1,
       "TipRanks": 4,
       "simplywall.st": 3,
@@ -55,8 +54,9 @@
       "ABC News - Breaking News, Latest News and Videos": 1,
       "breitbart.com": 1,
       "Quiver Quantitative": 1,
-      "The Manila Times": 1,
+      "Yahoo Finance Singapore": 1,
       "Florida’s Voice": 1,
+      "The Mirror US": 1,
       "STAT": 1,
       "Seeking Alpha": 1,
       "azcentral.com and The Arizona Republic": 1,
@@ -77,6 +77,22 @@
   },
   "items": [
     {
+      "id": "63f0577b26b4",
+      "time": "2026-08-20T11:17:09.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "TD Cowen raises Helus Pharma stock price target to $62 on trial timing",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNlBKdFE0NzdTNFRjYnJWc0RzcVhpRkx3WGQwcGR6U1puVUtWYmZEQ3BrNjlFX3lSQllDZDJ5VjlNVGJ6ZGU5a1NvU2xjY2NZSVNQMjZzcjZmcTNFWUtCMmVuQ0gyV1R0YTdUd29XVmdJU0VIdm5qRWpFQkEtSVpCX0tpMjQ0R09GV0ROMEdtWDNtMGF4V1Y5T3BRUWVOZW8zTVAzSXZsNl9oSnRSUm5HNl9mTnNZWHMxR0RISThkV3FmVWJpcTRodA?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "8ef536cb7237",
       "time": "2026-08-20T10:58:55.000Z",
       "source": "CNN",
@@ -88,22 +104,6 @@
       "impact": "LOW",
       "title": "symbol__ Stock Quote Price and Forecast",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwMGtPT2huOERzcXlCQ2RHZjg2SERwbzBNSUM2T0pZWWJzb2pPNDRtMUd2ck1wdVR6Z2VxSGhDTFNIeTU4dGNHMDlncVp5NGtm?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "e0437a087f64",
-      "time": "2026-08-20T10:56:41.000Z",
-      "source": "Investing.com India",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "TD Cowen raises Helus Pharma stock price target to $62 on trial timing",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYzFGZ00zSU9HcWQybE5IVlJlcGlhTmpjM1JVUlhFQUVod0ZZWVNVUVFxTzl0ZFh1OUJMbFVCTWZRdkpWeDVKUTlEZGlpdXo2Vk1aQ2ZnME1Pa21scGxGVmFpaTFQbUNPMEJEU1pqbHF1R1BPcW1BNmhuREpiZ1pqQWh2bXptX1A3bEJnNkVaYm53ejNUdXhLdVRKUGVZWFUwUW5nTXZVOEZXcUFpTUItZk5Za1dLM19VWF9XU1ZDWkFEQTQ0OVoxeEVB?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -517,9 +517,9 @@
       "tickers": []
     },
     {
-      "id": "34f874be5757",
+      "id": "8fc83b208415",
       "time": "2026-08-19T15:22:00.000Z",
-      "source": "Public Radio Tulsa",
+      "source": "HPPR",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -527,7 +527,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Real-world study of Oregon's nonmedical psilocybin program shows promise",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPby1VQ2JiZWFFVUFYanZNYjJTYU1UNm5GZXREU3lfVnhzdkthU1pJMy1zYzhkX216VWltZG5LWklYSVpVYVJzTThMZmtRcWF4c2ktMEdoWExZYlVTM0p1LVZxNU50UnRkMUFNZTV5RHF0X28tbm41TGpGdlJnZ3ZqYkxuMVIzd1BrMTVPbHY3SjllZU9sRXZkNnhFNFJCblFlMHZhVGlMaEhtd0ZiM2dwWFZZVzY3T2h4d0luRHhoaWhwMm9wTDU2cXBvanhHQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd2J0RnRxdkNYU0xrakYtN29FcFhoWkF2LWpfaUhwalp2bUJTbmN4R2VHRVNaZURleW9SUkN2bVNsY2NiTXgwdzBfSEJIU3BrZV81azlkcmdGZm1LZHdJWk93UWVKWFpJb3Uybm9UVGFKZ1NCblVvY1B2X21UYk5mWldTUWpKbTZOVmVmdDBORWRQcWlGUzZEX1hDbXFiRjhzbk5QcG94ejNYb3U1U2dCYjV3?oc=5",
       "tickers": []
     },
     {
@@ -737,8 +737,8 @@
       ]
     },
     {
-      "id": "336bf180c902",
-      "time": "2026-08-19T08:43:09.000Z",
+      "id": "5da649dacb58",
+      "time": "2026-08-19T08:43:10.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -747,7 +747,7 @@
       "direction": "BULL",
       "impact": "HIGH",
       "title": "Definium Therapeutics (DFTX) Could Be 22% Undervalued On Positive Phase 3 Voyage Results",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVUJsNHhqOWVKVWdSdnUyRnBlWmFNT0JoeXhCTGlrMjZTUzZyd2EyNlFDWjRUSFpFQy1wY3JrMVBfbmJrdEZqd2NRei1XSjJzX3hXaHNuQklpSzBES3M0aXk1X3RNM0ZMZEwzNWhFODBnYlpYU0U2dmFOMExSTWQ2RmQ5dUFYSFBDQm02MFhndmE3N2tpVklvbW5XdHRUbmZldUY3THlGRmptVS14dE5qVkZuU1RGdGdCRUlpTnE3YlB2LXVkZTR5Wk1vcExFVEdhRFozeGRNY3VPdjduT1hGZlg2Um44ZFJhMlhJ0gHwAUFVX3lxTE9WZ2w3VU5INWVoTUdXT2djRzhrYW5EU3pDa3NfSjRHVFE5RVM2c3hJTHdVcF9CTzZIMHE4VGZyMnRIUUxiWF9aTW1CbGRyR29sdHBBY2pLSG5rN0lNOEdaYndiaWtWaUdDTGxMZDJDWkxDV0t5MTAxTXNOdkRIaHZ1c3FNMk9jS3lUMGt3Ui15UDRBR19Rd01Vbm5XNkRWSUVSTkhJby1uWVozY1ljbWRxc3JldmVDUVdqTERnQUlEZDRSQnVyb29hZ0M2Sm1xem9aTFQ1dnJKdTQyY2pRLXl2eXdkYkNGZGVUam5FOVB4MQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVmdsN1VOSDVlaE1HV09nY0c4a2FuRFN6Q2tzX0o0R1RROUVTNnN4SUx3VXBfQk82SDBxOFRmcjJ0SFFMYlhfWk1tQmxkckdvbHRwQWNqS0huazdJTThHWmJ3YmlrVmlHQ0xsTGQyQ1pMQ1dLeTEwMU1zTnZESGh2dXNxTTJPY0t5VDBrd1IteVA0QUdfUXdNVW5uVzZEVklFUk5ISW8tbllaM2NZY21kcXNyZXZlQ1FXakxEZ0FJRGQ0UkJ1cm9vYWdDNkptcXpvWkxUNXZySnU0MmNqUS15dnl3ZGJDRmRlVGpuRTlQeDHSAfABQVVfeXFMT1ZnbDdVTkg1ZWhNR1dPZ2NHOGthbkRTekNrc19KNEdUUTlFUzZzeElMd1VwX0JPNkgwcThUZnIydEhRTGJYX1pNbUJsZHJHb2x0cEFjaktIbms3SU04R1pid2Jpa1ZpR0NMbExkMkNaTENXS3kxMDFNc052REhodnVzcU0yT2NLeVQwa3dSLXlQNEFHX1F3TVVublc2RFZJRVJOSElvLW5ZWjNjWWNtZHFzcmV2ZUNRV2pMRGdBSURkNFJCdXJvb2FnQzZKbXF6b1pMVDV2ckp1NDJjalEteXZ5d2RiQ0ZkZVRqbkU5UHgx?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -939,22 +939,6 @@
       "tickers": []
     },
     {
-      "id": "98499734c85d",
-      "time": "2026-08-18T22:24:26.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "STU:8AK EV-to-OCF: 37.38 — 44% Above Median",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jTDFaSXdTWVZMSWtPdkhEUE13dVhBWDNady1qR1dNM1U5OTdhdW94UGVqa29zdkt3OVh2MkV1cmdBNEoxalFSVEszdi1xUGxLR2pLMFN4TXNuZXZuRXdNX0Jlc1RxUnZnSWdieWJyNA?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
       "id": "e537f406da05",
       "time": "2026-08-18T22:12:39.000Z",
       "source": "Stocktwits",
@@ -1015,9 +999,9 @@
       "tickers": []
     },
     {
-      "id": "5db2dd8c65b0",
-      "time": "2026-08-18T21:26:47.000Z",
-      "source": "The Manila Times",
+      "id": "9c2a5a974b91",
+      "time": "2026-08-18T21:23:00.000Z",
+      "source": "Yahoo Finance Singapore",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1025,7 +1009,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "Psyence BioMed Welcomes U.S. Administration’s Latest Action to Accelerate Ibogaine Development",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPWFZ3TXpLelY2bVlMTVVKOEFNSEU2TzBpV0ZpUDQ3cGR1ZEVLMmZ5alpjY08xaGpPZERWd2VxOFRFdElZM050V3RBQW1zRUpRU3hBT3pnVXRvb0Z6Ml9zTEtySHcxMC1oM3d0SmdBU0h1ZmtOZldkVVFieWVreGlwQTJBcFI4MGdZX19KVXZWVUJrZHhzdk40MUtYTVJpM0I1WmpBeEpGYW9aaFRSQkNwR1UtMi1WZDhXT1FUSVB6VTVmQVB0LVFFY01tMlpILUhEMHhWcGQxOVk2SnBjRElVaVlfY1FYTWVZamxQQUk1ekxyV1A0NkVmX9IB_gFBVV95cUxQWkl1a2h1MUpoNTctVS1oNlhTUzhzRFJYX1JpNVk4RVdIU1RmNEN5eFY1dTE4U0VXOGxja2pCeWp4eUNLbEFjTng0OFlPY2xyU3hPRUxJS2ZycHhOV09hWFVWS3Fkb0VBR2VjbnhGMU96bWVTS19CQXlPUzkzUUhoWkpwWXZYN29JWVJUcW5uVmV3aUhiUlNrcnppa3FBNVVKbVlMaEJOdHd1WUtVQnN1VjdYc0dBYlFwWkpPN1F4MnRFYk4yTmFYazU2WFpUZ3MxUll3TGhBSDFCRjgxalp3ZGI1VVhZbFZTV1BMemZUVFlBU1lmM0N5M2FmSTZ5UQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTVA2U1hYLTl5QmdOU3R4QllRaV9vUW9Wc01XMld1WFBISzF3ZDJFU1NYd0ZBUjZIQmNFZllyaF91MzZXN1F3aEEtTTB2ZFAxeWJyalZXRjFRekEza2tTY1RMOGtaZ1dKb2dyODFQV1hQME5WM1JiTXBQNGp3OUVrU0FvN0h1RXY1UEZtQkYxMDBpNVU?oc=5",
       "tickers": []
     },
     {
@@ -1100,6 +1084,20 @@
       "impact": "LOW",
       "title": "Physician Views In-Depth: Spravato poised for further growth as psychedelic rivals approach",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xM2xpd1Jpb3lhaXViNGNpVldwZ1ZVUFNXMWU3YUtVLXhnTXdiSTVFekU3cDlQb1FzSmJ0RElBWjFKa3gxVzcwdS1ESVVydkc2WEZJ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "051835503ef1",
+      "time": "2026-08-18T18:57:00.000Z",
+      "source": "The Mirror US",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Trump doubles down on plans to give psychedelic drugs to US veterans for mental health",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdGNZSVRLNEd3TFdGWU5lM19jUkRsTExvSzZYZEo3c0otdE10MS1yUVJSbkR2UzJ6S2FBMUNNOE1UY1FBdEZfSzVzZzZxWGEwVE1QSE52alFvNUxpZ3BFT2U4eTNWckc4QTNkbThhS2R0TGdST0pYanptMkY5X2JHTWhYbmdwY0ZQ0gGIAUFVX3lxTE10Y1lJVEs0R3dMV0ZZTmUzX2NSRGxMTG9LNlhkSjdzSi10TXQxLXJRUlJuRHZTMnpLYUExQ004TVRjUUF0Rl9LNXNnNnFYYTBUTVBITnZqUW81TGlncEVPZTh5M1ZyRzhBM2RtOGFLZHRMZ1JPSlhqem0yRjlfYkdNaFhuZ3BjRlA?oc=5",
       "tickers": []
     },
     {
