@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-20T09:46:22.824Z",
+  "updated": "2026-08-20T10:14:18.465Z",
   "latest": {
     "date": "2026-08-20",
-    "wti": 86.48,
+    "wti": 86.52,
     "wti_prev": 85.83,
-    "wti_delta": 0.65,
-    "brent": 93.85,
+    "wti_delta": 0.69,
+    "brent": 93.69,
     "brent_prev": 91.62,
-    "brent_delta": 2.23,
-    "spread": 7.37,
+    "brent_delta": 2.07,
+    "spread": 7.17,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,14 +160,67 @@
   },
   "intel": [
     {
-      "time": "09:33",
+      "time": "10:08",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "VIDEO: ‘Strait of death’ voyage order sparks seafarer revolt",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-20T10:08:43.000Z",
+      "link": "https://www.tradewindsnews.com/people/video-strait-of-death-voyage-order-sparks-seafarer-revolt/2-1-2031675"
+    },
+    {
+      "time": "10:00",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Colombia Imports Rise at Fastest Pace Since 2022",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-20T10:00:53.000Z",
+      "link": "https://www.hellenicshippingnews.com/colombia-imports-rise-at-fastest-pace-since-2022/"
+    },
+    {
+      "time": "10:00",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Washington secures the world's oil lifeline: A secret US move to facilitate the passage of crude oil tankers through ...",
+      "text": "The Commodities Feed: Oil advances as US tightens pressure on Iran",
       "outlet": null,
-      "source": "Hormuz",
-      "date": "2026-08-20T09:33:33.000Z",
-      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOZGVCb0pSeGlnVFdjZm5zQnJlV1JGRzdpdzVQM3Nzc1ZoOG11TGZwNW51RkpkZTNCX0hSOG9XUS1WSHloaDV5NGZtd21aRmF5TllMWE1XRWpTc3dYWmwyQUNTd0w3Umxiam9Qd19fZWxnQkpMdGNqYjI5dmhLM1U5VjBGcnhrWGRqOGg0Ul9fTW04OHVhQ3lHQmJLTFBkUUZxRkNLaHV0cVJaY0dIWWlYNmttdjVIcEZWMEFpM05zV3dWWTlQOEpKb3hUT1lFYXkxQV9sZWRqQmozUGxGZklTVnVvOTNhWVh4UVpfQ2VjLWgtMkdLUTNUdU5fMVFKMks1TnNNOVRoRXU5eWh3NlZjWVhXV1dMZw?oc=5"
+      "source": "Maritime",
+      "date": "2026-08-20T10:00:49.000Z",
+      "link": "https://www.hellenicshippingnews.com/the-commodities-feed-oil-advances-as-us-tightens-pressure-on-iran/"
+    },
+    {
+      "time": "10:00",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Oil prices rise to highest level in nearly a month amid Hormuz impasse",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-20T10:00:47.000Z",
+      "link": "https://www.hellenicshippingnews.com/oil-prices-rise-to-highest-level-in-nearly-a-month-amid-hormuz-impasse/",
+      "cluster_size": 2,
+      "cluster_id": "oil-prices-rise-highest-level-nearly",
+      "first": {
+        "outlet": "Investing.com India",
+        "date": "2026-08-20T09:14:02.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Investing.com India",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbmg2eEJ0SXZyendKRGhLVGFCTmVsYlRRdzQ0Nzl1Yi02cjh1VnFmLV9aM1BxbnpUMjNXY0hycVBNM2tGMXJHakhwMW51VUJuNXl5clRVbjNnYUVRMVlabmZ6Qy1ZSXkwNFAxYzlIZ0pjV21ic3FEazFzT3FDVzNsTExTM2pQU1VDVnRBSkxSNVZscHh5Z01Ray11a0hNVjFLcmNvd1ktQzRtanVuQ2JZTGttVEhCWHRyVE05UVJ5Zms0WHkz?oc=5",
+          "date": "2026-08-20T09:14:02.000Z"
+        }
+      ]
+    },
+    {
+      "time": "09:43",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "China Buys Saudi Crude in Rare Tender as Imports Stay Muted",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-08-20T09:43:05.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-20/china-buys-saudi-crude-in-rare-tender-as-imports-stay-muted"
     },
     {
       "time": "09:32",
@@ -203,42 +256,14 @@
       ]
     },
     {
-      "time": "09:01",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Trump says Strait of Hormuz open amid Iran tensions",
-      "outlet": "WION",
+      "time": "09:04",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "As Iran and U.S. Settle Into an Uneasy Standoff, Who Will Blink First?",
+      "outlet": "The New York Times",
       "source": "Hormuz",
-      "date": "2026-08-20T09:01:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZHlROG9UaXUwdEl6S2JQeGpzR0JPdnFrZzg4Q1BMekgzaGttTXkzUUVBZ29ycWRNYmtKdDREUERWOXdBZzdYNGNxZ3J4c2xldllla3FVMS15Vk03djBaNWptUThTYnMwWGpsNGh0dXRFNkpOM2NESUNDdmJtMG4zRXlGYlJkSlRyaGo2eDcxdGRteHdLRE9md0tBcjY5bkItVkVCcw?oc=5",
-      "cluster_size": 5,
-      "cluster_id": "trump-strait-hormuz-fully-open-trade",
-      "first": {
-        "outlet": "WMUR",
-        "date": "2026-08-19T11:42:14.000Z"
-      },
-      "also": [
-        {
-          "outlet": "WMUR",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FWUJGcDJPNHhSSTBoeVFVdTY4WVJOd1pUYUZXSUFZd05udVU4UkZUaWRIc0dZQldWLWxNbG1Yd1FtZjZLQ19EdllfUE5IR3NpWXM0aExxWXA5Szdpa3F1QndvRlAtcGtRQ3k3V3AxakUwVEdiZUU1QndnTQ?oc=5",
-          "date": "2026-08-19T11:42:14.000Z"
-        },
-        {
-          "outlet": "News 9",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZUV2Y3Z4Umx0Y1BNTS1KSFhtaXhjbGp4b2MtZkY3ZnpmR082VmN6SnpRTDY0U1FVcVc0R3FjSGNSYURfMlJsVTBjRUpFRTZ1SHVsRUN1Y3ZTbDRMdXUySDY4WmdsdWdhWm1EQzVjcVBmTFFidDNpZk9FUGQ3MmJocnJ3WnF5R0xUT2RIUklibzhYUQ?oc=5",
-          "date": "2026-08-19T22:58:39.000Z"
-        },
-        {
-          "outlet": "Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUdUlYQ1Y4OTlxZGFmdGtfV3ZRUm9Rclk0UVY5a3BFTGwxb0RTQ0ZDVFVwYXF4UUhKTlhySk5OVmFMdUVwalB3Q1dYZEt5MERwcmJQQzBlN28xQmFkYUl1NFowRHk?oc=5",
-          "date": "2026-08-20T00:15:59.000Z"
-        },
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa1JwU2JPa01SUnJ5bDgySi1Sb1Z4UzFEMkdPMGxIY1dhbmhqUjVmb25zZ3hrcEE1WlR4dHEyMzZ1cW56MG1UQk8wdDlEZWJCbVBZUmEtU2EtOS1tQ1hvQ1pHMzBET2NuT0dlZmlxbXViNHFVWVVYQ0k0ZFV2a0NGekJlUWdtVlRv?oc=5",
-          "date": "2026-08-20T02:48:00.000Z"
-        }
-      ]
+      "date": "2026-08-20T09:04:06.000Z",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTm5HRzh4UDVvTFZnbk9rdUktaEhjUEptX0N0d0JBekcxSTVtVjNkWENRRHRoZFV2UEpXTzNLc0Fkd3ZfUHE2Tjh4ZDd5UlJwU1pEWno5RHZ0aUVUMENMM1R0N3NFMVlSaFNwamFYSTJoLVZkbEdsYlpxLWxCcGVBclJwQUJuay1EcmlMbQ?oc=5"
     },
     {
       "time": "08:57",
@@ -249,26 +274,6 @@
       "source": "Reuters",
       "date": "2026-08-20T08:57:52.000Z",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5"
-    },
-    {
-      "time": "08:48",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "The Strait of Hormuz and fears of declining energy supplies - صوت الإمارات",
-      "outlet": null,
-      "source": "Hormuz",
-      "date": "2026-08-20T08:48:05.000Z",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQUllrQ3FyNEo1b0pUbVlDcDRiUWF2RURFQjNqNmN4S0NsUXc5eW9FVlBKdF94dHExV3QyMUdPSVdXbFAtenN0dklsdlg5cWROZDJIdHBsbk1DemhBZHJ1RllVaTlYbHlTcDlzN2pwUjZ6RVl1VkcxREpBYWFMV2J0R1FicTJfRXg0UlczVDdTTEFyWktDdjdiOXBKSjd3azZmamxjcENqV2otbTI5NEpKelBVQlBEdDdOUWlVb0U4emdLR2tGWVJhQzZhTk5aWnNIaWNreWZaVWFuQ3YyLWdUNHhvVk9zMnpGNDBXM2VPdXAxdmlsWkxJUUw1SUU5TTlLelNRWTRETFBIeGhOMXVaR0ZXOXU?oc=5"
-    },
-    {
-      "time": "08:46",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "U.S. Armed Forces Secure Secret Oil Route Through Strait of Hormuz",
-      "outlet": "IranWire",
-      "source": "Hormuz",
-      "date": "2026-08-20T08:46:44.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ09QdE56R0NWN0U0SDQwUW1jY2d1UURjb0ZGVzRtdGVrTFBnQ1FTMTRJR0xRMTc3ZTZUdmRkbmUySkJBWXNZYzd2S1BmR3NnVUJkUGs4aFZ3eDFCRmFMRVNIQURuTnlPXzNkVlNQaFdTLTdURG9oYWpaTlBBZkZfRUJ4NTloY25fbERMNzA0eFZjbFhuX2NVRW9xTkRTbjJOZUpr?oc=5"
     },
     {
       "time": "08:43",
@@ -298,51 +303,28 @@
       "outlet": null,
       "source": "Rigzone",
       "date": "2026-08-20T08:35:27.000Z",
-      "link": "https://www.rigzone.com/news/wire/trump_targets_iran_trade_partners-20-aug-2026-184417-article/?rss=true",
-      "cluster_size": 2,
-      "cluster_id": "trump-threatens-iran-trade-partners-military",
-      "first": {
-        "outlet": "The Guardian",
-        "date": "2026-08-20T07:50:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?oc=5",
-          "date": "2026-08-20T07:50:00.000Z"
-        }
-      ]
+      "link": "https://www.rigzone.com/news/wire/trump_targets_iran_trade_partners-20-aug-2026-184417-article/?rss=true"
     },
     {
-      "time": "08:24",
+      "time": "08:25",
       "severity": "MKT",
       "direction": "NEUTRAL",
       "text": "‘Secret’ strait: US claims 20 tankers a day using new route through Hormuz",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-20T08:24:56.000Z",
-      "link": "https://www.tradewindsnews.com/tankers/-secret-strait-us-claims-20-tankers-a-day-using-new-route-through-hormuz/2-1-2031609"
-    },
-    {
-      "time": "08:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "10 million barrels a day: Trump creates secret US-protected oil corridor through Strait of Hormuz",
-      "outlet": "The Business Standard",
+      "outlet": "TradeWinds News",
       "source": "Hormuz",
-      "date": "2026-08-20T08:00:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTUptRlNuck5rWkhINVJfcG4wRTNWdmtobG5GaVlMeDY2Z3M3OG56WHdXM0x2SEJOQkZkNkJBbDBrZ0F3LWZHbi1rTjdQcGo4U3ZSZXBDY2pmMXh5WFJBSkcwWkZKaWFRZHFMWXZRU1hmbjVvTVVWX01hWXBoci1SRWVjaG9IRDFlSHk0STJieXNpQklxUmd2U3ItR21COEFUUW1GeUVSOF9KZk9oaUQtLVF2Mkc2aEtqX0g4R1BsUdIBxAFBVV95cUxNZlI4ZmdwQkhxZkZ0bkpybTRzRkV4MG92MFlwQ193aE5EYWJScUtyaWc2WEtYbWJyQnJMbHpFbFpIU2RzRU43OWZxbGczX0k2Y0NjS3hRdGVheWFZbDNNOWxQU1dndmc3aUdNcTVvVkJyOXVjOG1GZTVTc1dMRzJXekJCUWV1ZU43WDhfSUxBUHdmUjZWbE9OcU5Ca01nakZlUUM3Z2wwOWtoclh6Y1NjUTVIUGZTYnRvUlNMM0IzcUtSSjJI?oc=5",
+      "date": "2026-08-20T08:25:44.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdkpQVFNLbHV6RllaNjFYWVF6TUY5UVpYbHRJMDgwbGFJNDc2bXVaNDBmOGw0WERmSzJ2QlRSd3IxVU1tOUlOZ0hXQVdfMHp3b1dROVU5ZU5tcFlmYXpZTXZuREptbU9XXzFPWXFfMjRhZGdOTkJ2Vm1KcV93cEFrSkdHbEQ5TWRYR1pOOU9kM3FwdV9RVmVSZDZvNmFuc2JKWjYwcHZidXBTa2tFUGhrbVdWWFBQbEZqd2dYREdkemE?oc=5",
       "cluster_size": 2,
-      "cluster_id": "million-barrels-day-trump-creates-secret",
+      "cluster_id": "secret-strait-us-claims-tankers-day",
       "first": {
-        "outlet": "Firstpost",
-        "date": "2026-08-20T06:04:04.000Z"
+        "outlet": "Maritime",
+        "date": "2026-08-20T08:24:56.000Z"
       },
       "also": [
         {
-          "outlet": "Firstpost",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZWNNU2FLQl8yVnVTWVFIWXJwWGZzd1NwLVh2WXp4a3MybDhEaFpDNHhXWnVkdzNpT0lDZUZuU2pWVEo3ZWcwOTNaQnNzWmgtSjc0WV9LdGhoTTIxVDZMbmtRVmJ0cmdnMVNlaERhU1RyaWhOXzhrTkluOU1reE90YUg1V0lGLUtFZVJTTXcyN3NQYTRpNXRsbUxabFdUTGpnN011WXlPenJVeGhsRlAyMkhmRXZadUhmOGxzWVZCb0kySlhOdHpteF9hLU9UWjQ4cWdoTmVsc1dZZ9IB3wFBVV95cUxQbHhsSjlzZEF1VGdDYjJYalVocTN6ajFfdFNnMUJGTF9UZlduOW1UcVJJQmVLUUI3ZVUwRVZfMGs5ZTBFNGRWV0UzWTdCbFp3aHkzSUh5b05UNTlrWmpPdWhKYU1wdFczRTFUVG1mOEp6WTBQSXVZM0NNNTFydk00amVWbm1IcElBOGNfZGtiWElycWhlVmtESnhzRTd0aXpCbU12Q0h0cER4X3NaR0VPb1lVVmNxWUJwWDRXMnlaLVZ6SGVwQmt0VzdmRzV2OW54bTlVWXhZYmdsSmU2MjRV?oc=5",
-          "date": "2026-08-20T06:04:04.000Z"
+          "outlet": "Maritime",
+          "link": "https://www.tradewindsnews.com/tankers/-secret-strait-us-claims-20-tankers-a-day-using-new-route-through-hormuz/2-1-2031609",
+          "date": "2026-08-20T08:24:56.000Z"
         }
       ]
     },
@@ -364,17 +346,20 @@
       "outlet": "CBS News",
       "source": "Hormuz",
       "date": "2026-08-20T07:15:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?oc=5"
-    },
-    {
-      "time": "07:13",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Younan: Regional Tensions Not New for Sovereign Funds",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-08-20T07:13:15.000Z",
-      "link": "https://www.bloomberg.com/news/videos/2026-08-20/younan-regional-tensions-not-new-for-sovereign-funds-video"
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "iran-war-latest-trump-announces-most",
+      "first": {
+        "outlet": "thenationalnews.com",
+        "date": "2026-08-19T22:22:35.000Z"
+      },
+      "also": [
+        {
+          "outlet": "thenationalnews.com",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYmNDZEU5TzhtaEVyZzEtbWZGa3Y5eDcxWTdYRkJSMURXV1ZVNmZLVTRyZVpFRXVpTHBZTFpjelNYTEhLWENkd2tXZVhaeHhXblVUU29uOGpjaU04OG44UUxTX0lKOF9GZURUd2RlRVB4b3c0Y2Z1Z0Y0YzA0QmdfRnQyUVNGVGwzTk55c2NIQQ?oc=5",
+          "date": "2026-08-19T22:22:35.000Z"
+        }
+      ]
     }
   ],
   "snapshots": [
@@ -1450,7 +1435,7 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-20T09:46:22.824Z",
+  "intel_updated": "2026-08-20T10:14:18.465Z",
   "event_log": [
     {
       "date": "AUG 20",
@@ -1905,9 +1890,9 @@
   ],
   "sentiment": {
     "bull": 0,
-    "bear": 1,
-    "neutral": 14,
-    "net": "LEAN BEAR"
+    "bear": 0,
+    "neutral": 15,
+    "net": "NEUTRAL"
   },
   "vessels_attacked": {
     "count": 43,
@@ -2923,7 +2908,7 @@
     },
     {
       "t": 1787198400000,
-      "p": 93.85
+      "p": 93.69
     }
   ],
   "chart_wti": [
@@ -3933,7 +3918,7 @@
     },
     {
       "t": 1787198400000,
-      "p": 86.48
+      "p": 86.52
     }
   ],
   "signal_outlook": [
@@ -4970,7 +4955,7 @@
     },
     {
       "t": 1787198400000,
-      "p": 7.37
+      "p": 7.17
     }
   ],
   "chart_sp500": [
@@ -5891,6 +5876,14 @@
       "p": 7443.28
     },
     {
+      "t": 1784640600000,
+      "p": 7509.2
+    },
+    {
+      "t": 1784727000000,
+      "p": 7498.96
+    },
+    {
       "t": 1784813400000,
       "p": 7408.3
     },
@@ -5913,6 +5906,10 @@
     {
       "t": 1785418200000,
       "p": 7437.63
+    },
+    {
+      "t": 1785504600000,
+      "p": 7489.72
     },
     {
       "t": 1785763800000,
