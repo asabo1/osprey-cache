@@ -1,19 +1,21 @@
 {
-  "updated": "2026-08-20T12:16:51.427Z",
+  "updated": "2026-08-20T13:28:19.413Z",
   "counts": {
     "total": 90,
     "crit": 6,
-    "warn": 15,
+    "warn": 16,
     "bySource": {
+      "Psychedelic Alpha": 3,
+      "Newser": 1,
       "Investing.com": 2,
       "CNN": 1,
-      "Yahoo Finance": 3,
       "Las Vegas Weekly": 1,
       "SWI swissinfo.ch": 1,
       "Health Tech World": 1,
+      "FinancialContent": 1,
       "Hospital + Healthcare": 1,
       "Daily Mail": 1,
-      "Stocktwits": 5,
+      "Stocktwits": 4,
       "KOIN.com": 1,
       "Central Oregon Daily": 1,
       "New Atlas": 1,
@@ -27,14 +29,14 @@
       "KJZZ": 2,
       "ThePrint": 1,
       "BioSpace": 4,
-      "GuruFocus": 1,
+      "GuruFocus": 2,
       "New Scientist": 1,
       "trialsitenews.com": 1,
       "Medical Daily": 1,
       "MarketBeat": 2,
       "Nature": 1,
       "NPR": 1,
-      "HPPR": 1,
+      "Public Radio Tulsa": 1,
       "OHSU News": 1,
       "Mirage News": 1,
       "Medical Xpress": 2,
@@ -42,15 +44,16 @@
       "Nautilus | Science": 1,
       "Military.com": 1,
       "The Killeen Daily Herald": 1,
+      "Yahoo Finance": 2,
       "Firefighter Nation": 1,
       "TipRanks": 4,
-      "simplywall.st": 3,
+      "simplywall.st": 2,
+      "Sahm": 1,
       "geneonline.com": 1,
       "NCHStats": 1,
       "Vinanet": 1,
       "Moomoo": 2,
       "citybuzz -": 1,
-      "Psychedelic Alpha": 2,
       "ABC News - Breaking News, Latest News and Videos": 1,
       "breitbart.com": 1,
       "Quiver Quantitative": 1,
@@ -67,15 +70,41 @@
       "kalkine.ca": 1,
       "AOL.com": 1,
       "Pharma Voice": 1,
-      "PRLog": 1,
-      "PharmaTimes": 1,
-      "Benzinga": 1
+      "PRLog": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "17b08940fc67",
+      "time": "2026-08-20T13:08:09.000Z",
+      "source": "Psychedelic Alpha",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Credentials, Clinics, and Costs: Stakeholders Respond to HRSA’s Psychedelic Therapy RFI",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaFRkM2dCOHl6WWFKTWxJSkN4M2FjZ0wtQmsweklUTmxTUUZnVzBsVURWLWVOekdOci1XdmFrNnltZ3pQUmJxSTgxRVVTd3U5RzZkRFZyLUF4bnAtOUVfSTZJejFVenVQcTVMd1VHWklxMmJxZ3ctV2tZVmVyNjRocEs0Ync4cnJiU1prSzhrdlIyX0RYZVZQanVlU1ZRcnRtVDdpdmoybmpqOFg0VE5sZ0JKb2FNMWNlSGc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "6f0bd28b6025",
+      "time": "2026-08-20T12:56:00.000Z",
+      "source": "Newser",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Oregon's Psilocybin Program Brings Mental Health Boosts",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSElRWTRqSkVmaTZqbEF6YzhMbkxOTG82VFVfdkwzZ2hWTW5SV1d3Um5HNW5YRi1QLU1wbU1MUlRIc3k2WldJaE5ETmdYRDJSRHE5dUotc1NGR3h5MVgyck5CcHA4cndMNGdYQnl4UnNqb0l6YkNWV19VX2lWWDBjMnFqTWZBWFkycDBHY19Kc3dVd3E1QjFOc3N4bw?oc=5",
+      "tickers": []
+    },
     {
       "id": "63f0577b26b4",
       "time": "2026-08-20T11:17:09.000Z",
@@ -106,22 +135,6 @@
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwMGtPT2huOERzcXlCQ2RHZjg2SERwbzBNSUM2T0pZWWJzb2pPNDRtMUd2ck1wdVR6Z2VxSGhDTFNIeTU4dGNHMDlncVp5NGtm?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "a1b16881ad7b",
-      "time": "2026-08-20T09:28:17.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRx Pharmaceuticals, Inc. (NRXP) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvN1JET1BTQTNpSmZmQXdvSEswU0szdE9KWkQ1Y2loMlNFZm1yS1pQQ1J0YWlGVENubnhNbVc3YUVQVnlUdHp3UUVvX1NUVUFZY2I0aEJUMXhnZ01BdVE?oc=5",
-      "tickers": [
-        "NRXP"
       ]
     },
     {
@@ -165,6 +178,23 @@
       "title": "Psychedelic study offers new insights into theraputic potential",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb3ZfY1FrVllkZ250SkZMa010bjA2TW9iemNpemV1eXBqbTZjdjVrRndyWFRHOXZuMDZ4M3p6ZFY2TXVaVW1HREJwWGc3Wkt3eDN6ckJ3dUQ0WXF1cFRkZmh6RWtGUjY1dTBiLWp1Vk5YNWtHTGxSRUtKd0ZmNTZrU0Zta0ZqUk5oVnAtdkZ1dlRoUFVnSWpBWTZFUHl4V2VDRGc?oc=5",
       "tickers": []
+    },
+    {
+      "id": "57aeecbf4182",
+      "time": "2026-08-20T07:32:00.000Z",
+      "source": "FinancialContent",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "FDA First Cycle Review of Preservative-Free Ketamine ANDA with No Drug Related Major Deficiencies Noted for Suicidal Bipolar Depression Treatment from NRx Pharmaceuticals, Inc. (Nasdaq: NRXP)",
+      "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPS05lbVp2bUZoSEdxVHBvbHJIcFU3anBvTDhXU3VqdGNSZFFfcVAyYmhrb0JqSS1EX1dFY01WVlVFWXZFVFBvZm9XYUVpRzNfaUlVajZBX0RxWk54SlF2Q1dab0N1TGROdXgwTWlaM2piSjlEckM5N00zazR4VzMzbG5vS05SVVFoV25OT1d2RS0xRU9WblZIVzJZazJYRnhYVDkwRmlzWkxPWTU2bDlSSFRGN3RNZjhLLWNtZUQ1U1gxY2NqZE5rRnkxaXpSejk5VlljYmJYSzNOM2Fwdmd0RmhFSXB6TlFaU2FjSWU2aXctd0RncGlTa0s4Ukw1MDMtcXRQOWxUZzhIOGwxZnRYZl9UeXpIQWdHYUVMWERLTGpRUWRkcmZEb2h4NFZmN0xvTHhMaG9jaHVRN3gzeFJLbFB6WGdlYzVWYVVQdUl0NnlOUXlvT1FXc09ILWZoeE43Vlk0?oc=5",
+      "tickers": [
+        "DRUG",
+        "NRXP"
+      ]
     },
     {
       "id": "a43c71ffcb26",
@@ -517,9 +547,9 @@
       "tickers": []
     },
     {
-      "id": "8fc83b208415",
+      "id": "34f874be5757",
       "time": "2026-08-19T15:22:00.000Z",
-      "source": "HPPR",
+      "source": "Public Radio Tulsa",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -527,7 +557,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Real-world study of Oregon's nonmedical psilocybin program shows promise",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd2J0RnRxdkNYU0xrakYtN29FcFhoWkF2LWpfaUhwalp2bUJTbmN4R2VHRVNaZURleW9SUkN2bVNsY2NiTXgwdzBfSEJIU3BrZV81azlkcmdGZm1LZHdJWk93UWVKWFpJb3Uybm9UVGFKZ1NCblVvY1B2X21UYk5mWldTUWpKbTZOVmVmdDBORWRQcWlGUzZEX1hDbXFiRjhzbk5QcG94ejNYb3U1U2dCYjV3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPby1VQ2JiZWFFVUFYanZNYjJTYU1UNm5GZXREU3lfVnhzdkthU1pJMy1zYzhkX216VWltZG5LWklYSVpVYVJzTThMZmtRcWF4c2ktMEdoWExZYlVTM0p1LVZxNU50UnRkMUFNZTV5RHF0X28tbm41TGpGdlJnZ3ZqYkxuMVIzd1BrMTVPbHY3SjllZU9sRXZkNnhFNFJCblFlMHZhVGlMaEhtd0ZiM2dwWFZZVzY3T2h4d0luRHhoaWhwMm9wTDU2cXBvanhHQQ?oc=5",
       "tickers": []
     },
     {
@@ -643,6 +673,22 @@
       "tickers": []
     },
     {
+      "id": "a1b16881ad7b",
+      "time": "2026-08-19T11:40:10.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals, Inc. (NRXP) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvN1JET1BTQTNpSmZmQXdvSEswU0szdE9KWkQ1Y2loMlNFZm1yS1pQQ1J0YWlGVENubnhNbVc3YUVQVnlUdHp3UUVvX1NUVUFZY2I0aEJUMXhnZ01BdVE?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
       "id": "2e5bd839cecf",
       "time": "2026-08-19T11:39:00.000Z",
       "source": "Investing.com",
@@ -721,22 +767,6 @@
       ]
     },
     {
-      "id": "ec6542a54c96",
-      "time": "2026-08-19T09:26:55.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
       "id": "5da649dacb58",
       "time": "2026-08-19T08:43:10.000Z",
       "source": "simplywall.st",
@@ -750,6 +780,22 @@
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVmdsN1VOSDVlaE1HV09nY0c4a2FuRFN6Q2tzX0o0R1RROUVTNnN4SUx3VXBfQk82SDBxOFRmcjJ0SFFMYlhfWk1tQmxkckdvbHRwQWNqS0huazdJTThHWmJ3YmlrVmlHQ0xsTGQyQ1pMQ1dLeTEwMU1zTnZESGh2dXNxTTJPY0t5VDBrd1IteVA0QUdfUXdNVW5uVzZEVklFUk5ISW8tbllaM2NZY21kcXNyZXZlQ1FXakxEZ0FJRGQ0UkJ1cm9vYWdDNkptcXpvWkxUNXZySnU0MmNqUS15dnl3ZGJDRmRlVGpuRTlQeDHSAfABQVVfeXFMT1ZnbDdVTkg1ZWhNR1dPZ2NHOGthbkRTekNrc19KNEdUUTlFUzZzeElMd1VwX0JPNkgwcThUZnIydEhRTGJYX1pNbUJsZHJHb2x0cEFjaktIbms3SU04R1pid2Jpa1ZpR0NMbExkMkNaTENXS3kxMDFNc052REhodnVzcU0yT2NLeVQwa3dSLXlQNEFHX1F3TVVublc2RFZJRVJOSElvLW5ZWjNjWWNtZHFzcmV2ZUNRV2pMRGdBSURkNFJCdXJvb2FnQzZKbXF6b1pMVDV2ckp1NDJjalEteXZ5d2RiQ0ZkZVRqbkU5UHgx?oc=5",
       "tickers": [
         "DRUG"
+      ]
+    },
+    {
+      "id": "f4be01def985",
+      "time": "2026-08-19T08:36:20.000Z",
+      "source": "Sahm",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences (NBIX) Could Be 28% Undervalued On Fresh INGREZZA Data",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTW5SVEpNbmFYUTBWcFNEZEZCUFNHQWIyUDdPSUJfclhHM2pQa0hwM2haUHJ6cWppMUdOZ1NYNmRUUFpqQTVWSGgxbFpvSlBGT2tRMU9GdDJLbTVsNmFJbHlMT2xldTBRMkRhZ3gxVlV2UFctS1gzcVRQb09lWnJvb1lIY0N1YWx3dnQyOW92SzltV3ZPQ3Yta0ItR3ZySnRqc0haNTZ5Yng3TnI2b3RidVpmVUhlZ1BtVFRXSWg5VndsblFV?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -939,6 +985,22 @@
       "tickers": []
     },
     {
+      "id": "98499734c85d",
+      "time": "2026-08-18T22:24:26.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "STU:8AK EV-to-OCF: 37.38 — 44% Above Median",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jTDFaSXdTWVZMSWtPdkhEUE13dVhBWDNady1qR1dNM1U5OTdhdW94UGVqa29zdkt3OVh2MkV1cmdBNEoxalFSVEszdi1xUGxLR2pLMFN4TXNuZXZuRXdNX0Jlc1RxUnZnSWdieWJyNA?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "e537f406da05",
       "time": "2026-08-18T22:12:39.000Z",
       "source": "Stocktwits",
@@ -1057,6 +1119,20 @@
       "tickers": [
         "DRUG"
       ]
+    },
+    {
+      "id": "558b1b95b6e9",
+      "time": "2026-08-18T20:10:33.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "IBRX Founder Backs Trump’s Psychedelic Push In ‘Transforming’ Health Policy — Flags New Anktiva Breast Cancer Risk Data",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSFNwX0ZjNnNkT29QWEZlNjdKOU13RlpReE1rckdyRzhEYjdDZGZid082LTNxMDNYZi1QRE5IWW5KUWtGQ1lXTGFzbmw0SjhPbEJMQmI4ZElvS2NCNXc4OEdwUURfTmY4WkxjREdhb0t0VEJmVmJlQnRQaVhZWnozNmdVYXk3ejVTTGVsMWlsU0h6RzdkNUotWnpOa2JEU2ZiRWZWb3FUT2o1Mmljb2NmdC1jRVAxYVIyM1NsQjJRM0xydW9pZmpCM0xVMlFRTXhiZW5hTGpFam0xNlE?oc=5",
+      "tickers": []
     },
     {
       "id": "a0061ca6cfb4",
@@ -1340,84 +1416,6 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
       "tickers": [
         "CMPS"
-      ]
-    },
-    {
-      "id": "8697b0ec2916",
-      "time": "2026-08-18T12:54:00.000Z",
-      "source": "PharmaTimes",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Definium reports positive results for anxiety treatment",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSDZlczN0Q3UzcEVmT3ZyMDdfZlJtMk1kS1I2RzlWVXl1a0RsZmJaNU9YUTBDaFl1ajgzOTF2MTRSbE5pVjZnbjM0NmVPTUJicUUwSWRJM29paEJvbHpPaFU3aFY2bHM4Z3VwWHpVVDZneG9jc2ZyT29vRUhqUFAtdHZjS2NMUXZ5eGprN2xB?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "808818eae195",
-      "time": "2026-08-18T12:45:56.000Z",
-      "source": "Benzinga",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "This Definium Therapeutics Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Tues",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPcGR4Qk5DWjdRSDFhd0tJc1dpYkJickU0Q2tWSUZpMWtaeVhPTGNqdlNtbXhaaDlaSGhDX0RSSmdMUTFlRmNRRWpoOWJxb2l2NmZVSmNKcnFEZmU3OUcyMVBESFFVWmFaMU1QVTgwWHYyUWxJYThOcHBxaXhfWUlPWkMxTWF2Q1UwY3dQMm9TbHZzVm03UWpQcDQ3LWZaZkpobURFX3RvSGpCREpLVGY4RXlKSFBwNFk4NnVxRlo0Yy1vWW9DTFo1MlZKaGxkdl9rQThVcDQyUGV6aVdLTmFZb3VqZUg5WHduX0FMeWNvT0tSdU9WbkRvQWdwYVA3LVZES05pd0tBbWZKanc?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "45b4216d8d36",
-      "time": "2026-08-18T12:35:18.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences (NBIX) Could Be 28% Undervalued On Fresh INGREZZA Data",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNXcxS3pQVTAxRVRPWTkyaVMyWFVhY1NRUkdXdTlKMW1hZVpOWm1IeUtleFh3bmRxQ1p0bVkwRnJ0QkYxUTZBMTNBM1hTeENUalB6U2l5RnpuSDZZMEpQbUw1aEY3QVFhRHNDbkpNc0xjZnJ2aEk1U0UtZW1DaUljRjUzbTkyUVgyZVJuMXlEX2duT3lxODNXZ1RiYkNGeGtvWHctWC1NT3daTGdZTW91dVBnQ0RHWWY2RHRvSTZXX3BNMllEMk52bTJTS3Fnb2IzdnJ5eGtmN01DWFVXLXlsd1pZMHViMFdCOGtiYdIB8gFBVV95cUxPNTV5NjZuS2pvSlJUY2VWWnhlVm56S0ZSNUNiaDJNQUJVdWpLMWFYbEYyODFJR1dvMEV5NVNPSngwWUp1N3ppWkVraDAzZlFOVjhPLXU0d1ZoeGk1d29mc0dJOGRTZ1Bwd0Q2YXRRbFp0ZkgtbVlVaXZVbDVVYlRXS2xLSHNQTXU3YldSTmhockRTa0JUcEUwRU9HSHJHcUFwbnFlV0ZUVjBjSjdkbUVwVWdNdi05VG5HTGl6X1NtV1NlbFd5Nm55enV3eXRSQWlRaTYtSktic0JuZmhEdDVKWTNEX21fRXdDMS03SGxVMkszdw?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "ba4faa896638",
-      "time": "2026-08-18T12:34:29.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "PBM Stock Trips Into Spotlight Again: Rare Ibogaine Supply Edge Gets Boost From Trump’s Psychedelic Push",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDd2OGYwcWpOYUZFa0NlVzVmekZNMDBpcU4zY3NSdDF6R2NxSFZPMy1ySm1NUHZMamRsY09Lem1JSGN0emNQS1g5R0pIci1XUHdFdUg1ck5OSTlaNmZKUXZuZFRLZTN4R3F1TnhkQmVwTXlvWmhmNTBxUEp5WUZtRTZMQjdORWRoeF96TG12SzRreG14emlKLUZNTFpBX2kyUnpTWDdodmhwLUlvZEY0VmpUc0VWaUx0TTI2TF9scDIwX2lYV1hhLU0wRWNKdw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "6607d4468a36",
-      "time": "2026-08-18T12:30:00.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "NRx Pharmaceuticals, Inc. Q2 2026 Earnings Call Summary",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcmx1NmVwX2NoVVp4MmM0SXJvVFFvSGRoUUNIa3Nfam9kXzQ4ZFh4MnotY2ZSbzJFWFVKMy1nUGthVk9Idkp3am53RDhQS0ZZSS1KdDJwS0FoUXEwSHlwdTd6QndxRTBwOXk5d2lBS3pjUFVZQm5jLV9vX3FpUExZQmNiZXBFS1drTHJmQUJtUWFtQS1VWlFj?oc=5",
-      "tickers": [
-        "NRXP"
       ]
     }
   ]
