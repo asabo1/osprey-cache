@@ -1,22 +1,24 @@
 {
-  "updated": "2026-08-21T07:54:47.150Z",
+  "updated": "2026-08-21T08:55:42.042Z",
   "counts": {
     "total": 90,
     "crit": 6,
-    "warn": 12,
+    "warn": 11,
     "bySource": {
-      "KGW": 1,
+      "Technology Networks": 1,
+      "simplywall.st": 4,
       "Stocktwits": 4,
+      "Yahoo": 1,
       "ScienceAlert": 2,
       "GuruFocus": 3,
       "News-Medical": 1,
       "TipRanks": 3,
+      "The Maine Wire": 1,
       "scanx.trade": 2,
       "Bangor Daily News": 1,
       "TradingView": 2,
       "Vinanet": 1,
       "OregonLive.com": 1,
-      "simplywall.st": 4,
       "MarketBeat": 5,
       "The Business Journals": 1,
       "Yahoo Finance": 2,
@@ -24,8 +26,10 @@
       "Oregon Public Broadcasting - OPB": 2,
       "Zacks Investment Research": 1,
       "HMP Global Learning Network": 1,
-      "Psychedelic Alpha": 2,
+      "Psychedelic Alpha": 1,
       "marketplace.org": 1,
+      "PsyPost": 1,
+      "The Debrief": 1,
       "San Francisco Chronicle": 1,
       "Investing.com": 2,
       "Las Vegas Weekly": 1,
@@ -35,17 +39,17 @@
       "Hospital + Healthcare": 1,
       "Daily Mail": 1,
       "openPR.com": 1,
-      "KOIN.com": 1,
       "Central Oregon Daily": 1,
       "CNN": 1,
       "New Atlas": 1,
-      "FirstWord Pharma": 2,
+      "FirstWord Pharma": 1,
       "AOL.ca": 1,
       "Statesman Journal": 1,
       "Stock Titan": 3,
       "Behavioral Health Business": 1,
       "Newsweek": 1,
       "The Conversation": 1,
+      "KOIN.com": 1,
       "KJZZ": 1,
       "ThePrint": 1,
       "BioSpace": 3,
@@ -54,7 +58,7 @@
       "Medical Daily": 1,
       "Nature": 1,
       "NPR": 1,
-      "Public Radio Tulsa": 1,
+      "WCMU Public Media": 1,
       "OHSU News": 1,
       "Mirage News": 1,
       "Medical Xpress": 1,
@@ -66,9 +70,7 @@
       "Sahm": 1,
       "geneonline.com": 1,
       "NCHStats": 1,
-      "dars.gov.et": 1,
-      "Moomoo": 1,
-      "ABC News - Breaking News, Latest News and Videos": 1
+      "dars.gov.et": 1
     },
     "byTier": {
       "T2": 90
@@ -76,17 +78,31 @@
   },
   "items": [
     {
-      "id": "093f0d6c580f",
-      "time": "2026-08-21T03:29:00.000Z",
-      "source": "KGW",
+      "id": "67b2f6b153ee",
+      "time": "2026-08-21T08:45:33.000Z",
+      "source": "Technology Networks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "What an OHSU-led psilocybin study revealed about treating anxiety, depression and PTSD",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaU1lLW45c3hVRGktczRtMGlxT2Vjb25JNHhqekNselhrak5HTkFDLUZhY3hCR1Q2SzQ3QWlQOHE2NU5leENtcTJPNnpEUld2RXM1MUZZSFJlcWtoOFlhUnNiWUhNZ1I1RUUwTmVvMkNlUXZOZWtyeUJrc0RxWG9ZZ1ZJdzg3VmRORVdsV3lOckFaYS1jeEpwelExSkNIYVdIbXIyWTlnZndnQllKOHdvR2tmZVozUGk2dnNac19UTzNGSzdtN1VUbjY4U1VudUlWQzFueEhfY0t0WGlZX3VhUF85RlQ3LU5rblE?oc=5",
+      "title": "Why What Movie or Music You Experience During Psilocybin Matters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWRodVhHcm0zOG52MFhhVFUtcS1XN1EwdHpfN3RUMXZPbEItU0FzRllkZXN3Qmtsa1hSSFhPMkJ6MzJHX1k0cEhrZzg1ZnNodmY4Y0h3MTZhVkxpOW5TYjBUemdOVDFwNUQxM2EzMXFnQVdYcTZSSDJXOE1TLXBBalZ5T0lSQXRCMXU1c09DeFZJekJxaG9QQWZsU3Rya3Z6czhWX09qcW56Y2Z0UUM0UVkzNjU?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "601732c4a194",
+      "time": "2026-08-21T05:19:08.000Z",
+      "source": "simplywall.st",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "impact": "HIGH",
+      "title": "3 Revenue Generating Psychedelics Stocks Retail Investors Are Screening Right Now",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWVpXWkxIWHhhQVRCRlRJLWlKWkJZMzFnNUlIdmM0d0VHNHRXTXd4REhCY3ZrV2tLTXIxY3RUQmZNWkQ4Smd1MXZfdTdVWmlkUEQySDJEUDVqeVhlekR5bEpEYkZ6X3hiekhBVE93ZkR6eUhtZXZXX1pOSXExZURLbmNRZDVKS2FvLWFsdDhWV3RfTE1vaFd5Zms4QjkwSDdPR21vTk5VYVFiMTYyM1dUbmg5dTBoTG94R1FFaWo2TV9PWFl1akxWSnA4YzJjNUxrUWxid2RBN1pGVnlCNWdUQtIB5gFBVV95cUxOTkdSRE9ITDZnaXFBYk9EOXBmWF9ud1hNSks5REJtWDdiRXczVG9mcXNmX2twWHFiUzFSNDduTkJWS25VV015YnotcnBsaFh1dU5uc3o3OGUyWmJtdEtYXzNyS1pDMGgxVXJ1RTJoV3NPYjRlUTVBZDNPVTktT1JzaW1LbjVPeTZuRFhmRjI0alVma3RwT0E0Ymd1dXNMY3E4bjdXbXoyWkJvXzZqamJMVXFCR0NrX2RDMk1ySHg1YzdlNG9SdFZ5TGJnbXZNN0tyTUZ2Q21jRlNZdzFHX3pDcVNsX1R2QQ?oc=5",
       "tickers": []
     },
     {
@@ -104,6 +120,20 @@
       "tickers": [
         "ATAI"
       ]
+    },
+    {
+      "id": "ad6d79d788af",
+      "time": "2026-08-21T02:51:00.000Z",
+      "source": "Yahoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "What an OHSU-led psilocybin study revealed about treating anxiety, depression and PTSD",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUHRGd0ZlWjhBTjR0by03OGlscWhfeVNIS1dZcWVEdTJCSjJLQy00bDdtV19HZE1mREZySUNtVHBrd09waFJmQjQ0b3JxUzhzUUFjOFdtMjZVdVlJbmZGMzd6LVV1a3VhTllXcFR4bG1IdTNVdzRLQ2JHdWVVZG4tOXhKbjY3NnZpbTJwaXJnSERwR2FGN0FNVw?oc=5",
+      "tickers": []
     },
     {
       "id": "d97a402d8bb7",
@@ -180,6 +210,20 @@
       "tickers": [
         "ALKS"
       ]
+    },
+    {
+      "id": "4ae0d0da736e",
+      "time": "2026-08-20T22:27:55.000Z",
+      "source": "The Maine Wire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "MDEA Busts Alleged Psilocybin, DMT Labs Inside Saco Home; Man Held on $250K Bail",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2Uwb1dLV1A0QjBNWC1YeFhZeW00ZWV3VjhTMHc3amhhZGFvOG44WUdRMng2eWhEZWN2LWZOUHZJV2phSXZOQnRFZGRqRWM5YlMtZFJoaDduVVhmX0ZXTVJGUlU3WnpDRlpmMTlBMElENEF2V2l5dVpMZ29nZE52Zk9uYTdRdW9jZzdtWjRWLW5tcll1SW94X0VCMl93cG5PR19PLTZ1SGdoY0pvVVU0eTdkTE9OZw?oc=5",
+      "tickers": []
     },
     {
       "id": "4b21df75dc28",
@@ -287,6 +331,22 @@
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNY0pISEN2ZkxOR0pDa1NsdHNGNmxEUkVGVXBjeFBlMlpBMUxMTXR6ajZuaEtfNjZIRHVZcTVzOW5VVGNwbHZRTC1YZmpWUmtLUVVpa2plUlVPcHlRVjRVRHM5YldDNWtsYjM4Qm1EMjlFaXVJeUpndnRkeWsxQWdfVjdvZld3OFBqLUpjM0doLVpobjNtS2UxRDBwdlBpUUVCQUE3YzB0RlNKbGhZcmdrLXRQaFpCdW9qbjdEU2QxMWlXeTF1MVdPRkF2X2VSeWZmNHptZmlkTHdhQdIB3wFBVV95cUxQRk1qbm1xblFBMjVfZmNDdHNIZVE2Uld1Vkg1NzhKSGVMbjVUM09oYzVzOWQ3RjhMTWl2eU1oX09YaURVOGp0QUpUSko1ZF9WaFBFbFBfQ0R4d3o4dklpRlpNRGc1akE5WDRHeXhRTVFOT1lka1hrYmZ0ZDZiSkgyb3Utb3FnNzFwclFXekZZZzQ1RG4tVmcycDJDQ1JWRG04aU1RTWhTOS01bHRBRDdtdUtuSmtQbm9lSnFsOXV6bXZON1o3RFVCWkxCSWhvUXFoZndNS2hSTnhDQzMxWHNR?oc=5",
       "tickers": [
         "ALKS"
+      ]
+    },
+    {
+      "id": "cca45ce7e516",
+      "time": "2026-08-20T16:09:58.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma price target raised to $62 from $8 at TD Cowen",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYzkzaHF4R1lMaTRlVmNYTERiekszakVvVGxTakYyaklFb1p6QjFoYUtWTUVHX3RUU2NIeVM3NWxPMjcwSHJnVTExaEY5eUFKVjM2cmY2TkZpMEdfNUF1MU96c0ZJTUZrdzhjcGswS0VCRVZpaUJlQm9GVFE5UnFYemt3Qi1QV0dwYVNfZzZ3YXhCTUxjZnJLdC1oeVJLZllCT3J1d1ZTeDNPYVU?oc=5",
+      "tickers": [
+        "HELP"
       ]
     },
     {
@@ -533,6 +593,34 @@
       "tickers": []
     },
     {
+      "id": "347af1cdbc7a",
+      "time": "2026-08-20T12:29:58.000Z",
+      "source": "PsyPost",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "New study tracks oxytocin spikes in MDMA therapy trials",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWVRmdTVxRkc2TmgzS3pVQXpjaEFLeTMwdXJWLW02UWRsN3hJdmU0TkxZeXdJblFPaFJIMkJnRjM4V2RKeHNxOTBPem5rS2Uyd2ZrbnE2OGg4U2c4b0I4cFdUanJOYkplbzlfQVJqLTZVdGFMNzdVUVNNb0VtSHhrRTJhR2NPY0NyZWVQN1Vielgxdw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "1680c85ca6cb",
+      "time": "2026-08-20T12:10:51.000Z",
+      "source": "The Debrief",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Major Study Finds Hidden Order in the Psychedelic Brain That Challenges What We Thought About Psilocybin",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU1FOT3ZBdGYwUkRhZ2prZEZuUG04ZU5YUGQyRWR4TXlpWDlnTEVDdFRfWWlaR2RfWTRnTXFlVDZQVUM5QU8zTDhnaUpnTThoMmxya2dJbDMwNmJRcGdZRTNOMU1SakRKQjNQMUJta3BibFNLVUMwcHViXzRDbmZvOThtU0N6SE9RTUpzd2QyZzNJbDZVLUN1c1c5UUEtT0RHdXZ0ZzJHYjBXaUdGcjJxaUl3WnpzUEVlSDNDQ0RuSlFnWmRNbjVZ?oc=5",
+      "tickers": []
+    },
+    {
       "id": "d21dda3b69a0",
       "time": "2026-08-20T11:03:50.000Z",
       "source": "San Francisco Chronicle",
@@ -680,20 +768,6 @@
       "tickers": [
         "CMPS"
       ]
-    },
-    {
-      "id": "59405d57bbbb",
-      "time": "2026-08-20T01:54:13.000Z",
-      "source": "KOIN.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "OHSU study finds Oregon psilocybin services helped anxiety, depression, PTSD",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd3N4dDdLM0JYVHFnU1h6MlptMi1VSXNxX3Q1bTV3Q2drbXlZMmN0ZHdhaXE1dVBsLWVMbEo0aUtCU0lLMWRGLVB2X3hfN1o2U3ZQWG4tTVZKMGk3b290N25FQzJGOGcyLXlKREJVb016c2lwRGZXSWp5ck9lamZSaHFXMmJKV2puNWRUTW1wTlJoNlpkbnl5UXBlbThMUDktX1YxME1YaS1OZDNDc3R5TQ?oc=5",
-      "tickers": []
     },
     {
       "id": "22e02e2feed8",
@@ -872,6 +946,20 @@
       "tickers": []
     },
     {
+      "id": "495d0af399f7",
+      "time": "2026-08-19T19:35:47.000Z",
+      "source": "KOIN.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "OHSU study finds Oregon psilocybin services helped anxiety, depression, PTSD",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSzN2ejYyOFpKWkRVYWp0Vzd5SXltTUpXMzhZS0QtVHlUVzVxdDFoQlgxazY5OGpFbzJ6RXk4VzRNTDhHcjllQ05YbHNFX0FLUHRqTGdTUDVrXzJaZjdqMC1wOEhDY0luMEhXamlERXpoWjROWU45ZVVkSzZUcXJaeWZfVEZ6OUpWZF8zTXRYUTdVOF9XNHRBRjFwaS1ENWNXX2tCMVJESklNTHot0gGyAUFVX3lxTE5RdjNEbzZ6bkVrTXBhaDAtVHo5dmFRcmxUZ2szOWxvVDJuRUxFem9FVW92MloyUE5WWG9BVEpWWURreWw5WUQwa2NDVUNVT2ZudlloRXpiY2xSZlRRT0FudHBjM2hFMURkUHN4Z25IUkE1UHdJRVpkdjRqb0gyel9OS1hUSHY4Vk52aTNHc2dtOUZJYUh5VG5ONk0yV25tZmhHZXNSVFhPZUNycGNkWXY0dFE?oc=5",
+      "tickers": []
+    },
+    {
       "id": "f9fc10131165",
       "time": "2026-08-19T19:22:00.000Z",
       "source": "KJZZ",
@@ -1018,9 +1106,9 @@
       "tickers": []
     },
     {
-      "id": "34f874be5757",
+      "id": "404fea75bc15",
       "time": "2026-08-19T15:22:00.000Z",
-      "source": "Public Radio Tulsa",
+      "source": "WCMU Public Media",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1028,7 +1116,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Real-world study of Oregon's nonmedical psilocybin program shows promise",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPby1VQ2JiZWFFVUFYanZNYjJTYU1UNm5GZXREU3lfVnhzdkthU1pJMy1zYzhkX216VWltZG5LWklYSVpVYVJzTThMZmtRcWF4c2ktMEdoWExZYlVTM0p1LVZxNU50UnRkMUFNZTV5RHF0X28tbm41TGpGdlJnZ3ZqYkxuMVIzd1BrMTVPbHY3SjllZU9sRXZkNnhFNFJCblFlMHZhVGlMaEhtd0ZiM2dwWFZZVzY3T2h4d0luRHhoaWhwMm9wTDU2cXBvanhHQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdU5TZ0h3TUpPcVZ1QkFsRzB6RDlzWllMYXdneEFOTUs2aHdnV0h6aXZXMlNZamp0VHR6RF9HVVdGdm1qOVpndGUySmxFbXI4U2hOcURpWUN4cml3Vnhnc1hsVl9BVzdZRGpLQVd4U1YwUUItbVF3RnVaOFNoLV9QS09IM3BJQzVfTHhneTRSenB4ZkJPY3V0TkZmOHhDQVF0d1RvUDhYZ2c4NzJOa0FWdE9FRXM0d05xMVNFOUxhVE0?oc=5",
       "tickers": []
     },
     {
@@ -1328,100 +1416,6 @@
       "tickers": [
         "NBIX"
       ]
-    },
-    {
-      "id": "726e81b89d8b",
-      "time": "2026-08-19T05:05:54.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "BofA Securities Maintains Definium Therapeutics(DFTX.US) With Buy Rating, Maintains Target Price $75",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSFVuckh3dGxUR0ZhZVhDSlZITnlicmZGNV83ZGV5bV9URGNSNXQyNzNiaWFzeHN5cFB2NnloQ1VJV1JxZTdKQWZlODhxWTN5WmlYeDVmZ3dobHJWQXo2UG52VUszNEs2TlpUWElxSHZUUURRTmh3dFdsYzU5NVpXdDI0cTV0VkctRkN6RVhuSDJ5NldjUWI0YjBlVTg0ZWRsenJvRmpuNWJidzVGRUE4R0dkdWVyQ1FLdWlCTzVidw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "b08575259292",
-      "time": "2026-08-19T03:35:49.000Z",
-      "source": "FirstWord Pharma",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Physician Views Results: Psychiatrists buy into Definium’s LSD promise, but balk at the baggage",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xNGRpamlEXzlDWlBXX1F1T2pRaWVLcEhyVUd6TFhSZzBqTUlOMzh1azZOTHc3NXR4NGdXVUNUeFBkbEFWN1ppWjF4RE15cmJ5UERV?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "b587cbbe3cf1",
-      "time": "2026-08-19T02:52:53.000Z",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Trump signs executive order accelerating research into psychedelic drug therapies",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1BvY29qdzU3bm1lUEVOWUJHenU5OEpCdkxUajRMdmoxSlpORE9PRTBudnVUd0lkNF9wVzRkUldfbGFDUkNzWXJnb3VpRGp3N0hpaUotTUhBRjFoVnRtWlMtdnNwUjIzSUJnRjNQLXU1YXMyMWxucHNUVWJuWnJvNXVqZmFobEh0aWxmSGFSLXpVel9Wb0ZUVmlrX1FXaXNyRU90ZEw5RUNyV1JOU1JxWE5B?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "ef4cece69105",
-      "time": "2026-08-19T00:13:11.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Nrx Pharmaceuticals Earnings Call Signals Cautious Momentum",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcVBSOWt6WVA5UnFRbU5UcWRWLVJ4VGpxZVRObDFhSlJYSkJLRjlTYUxDX0RBOE5QdTRmeEV3WVB6R0xCWDQ3VnQxV1g0ZGQyVlNPS3pYSlUyM1RsV0RrdThXVlZXNEVFT3JjMmxXLVdSS3p4ZHBKN01IdEJ5aWZEemczNFlidkZ0X1VSQ0VQclMzcHlLT2JmN3JibzdYVXpaalg4T2swYWZnc05NN19XRQ?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "3aa17fcfa647",
-      "time": "2026-08-18T22:41:03.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "COMPASS Pathways (CMPS) Following VA Trial News The Valuation Narrative Is Back In Focus",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRnZLVkxQcUxXUmMtQTQzaHR4M19Yd2YwOThhSUREdkV1QjYwWWNuUVUtSG1ZNktiT0RyU2lNTU83a1VnU2xId3UwblJmRWdUNU85R3VoN044Vk9CdFllRUlXVEpMUzJUWmp3MFN5Mk9JMS1GbUV3NTJmUkZua1l3SzlCWjV0N1hBbkxjQ0xmQmVJZ2ZpTHZXRE4wMVRMeTBSWFB6MllBcmNCQ1NHZF9laE5pWmp0OFZlekptbnA0VFBzTW1BMF9yMjBidHJGZE5vQTVBSVlUUTFSaE1hQlR4dkZWd9IB6AFBVV95cUxPMmdBZ1lGelBRaWYxcGRsM0JUUFFRNmpRakg2aUdzS2dwOU54MzNacDM0ZHdvR05kYS1UalNWVXBKRWxNYV9tTHV2bG93d2FFcHc0c2QyRkcybXVmRi1PS3R4VXVYMFdjQTBRUzI5MXlkQlliSlNMdTdSWDdWQmY5RGcxS09nekZKTmNRZDJwNVRlOXJpYzR2MFItd0FZZGd1TWdrZVV2UG5BOXk0RXJkcTRnNDB4NEgyZXA0NktpSkF3ajBGMEJRNjBvY3FVRWxyVUpDVnFuQjJwVk1VbW9ueXJBZjl1X0h3?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "256ca3f4c3ae",
-      "time": "2026-08-18T22:32:30.000Z",
-      "source": "Psychedelic Alpha",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Scoop: Johnson & Johnson to Lead Delix Therapeutics’ $85M Series C",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM3lxSXF0d0NSdmFvYk52eGJLMVBQaVRNb0Q2OWRhNk9UNFFWMkJEMURFaU5vME1jNk80QS1nSHJsWVczeExoLXEzcTdKZlZjT2s4RWp2NUxXRUt5RTRTYVVORm9DUUVVdXk0RUdMa0lBQWJ1NUJnaVZNQ0lWZFBYV2RzY1F4RHhycUVCUmZyYVFzclpQOEc3RHpfR0Y?oc=5",
-      "tickers": []
     }
   ]
 }
