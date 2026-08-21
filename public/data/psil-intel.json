@@ -1,17 +1,19 @@
 {
-  "updated": "2026-08-21T10:15:25.969Z",
+  "updated": "2026-08-21T10:59:04.379Z",
   "counts": {
     "total": 90,
     "crit": 6,
-    "warn": 12,
+    "warn": 11,
     "bySource": {
+      "U.S. News & World Report": 1,
+      "CNN": 1,
       "Technology Networks": 1,
       "Stocktwits": 4,
       "Yahoo": 1,
       "ScienceAlert": 2,
       "GuruFocus": 3,
       "News-Medical": 1,
-      "TipRanks": 4,
+      "TipRanks": 3,
       "The Maine Wire": 1,
       "scanx.trade": 2,
       "Bangor Daily News": 1,
@@ -38,7 +40,6 @@
       "openPR.com": 1,
       "KOIN.com": 1,
       "Central Oregon Daily": 1,
-      "CNN": 1,
       "New Atlas": 1,
       "FirstWord Pharma": 2,
       "AOL.ca": 1,
@@ -76,6 +77,36 @@
     }
   },
   "items": [
+    {
+      "id": "278a00cc0e3b",
+      "time": "2026-08-21T10:37:52.000Z",
+      "source": "U.S. News & World Report",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Psilocybin Safe And Effective Against Mood Disorders, Real-World Data Show",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdnB5Y3gyeVZuLTluM1VoN2MyM042WmMwcnFZR0RUblNiSkppcDg3VHFUdF9oNWRzX1NVX25QYzJuLWx1S3FMTURCNkxwNjROQnFQV3NfVVI3bkRlTGg5RmsybjJXR1ZxWkU1MzNiYnRnOXYydU9Kbk5GYUpoeUlINEVVTTc3Z0g0djdYbzJyOUxuTzN5MVpZN3FBLVktVkRPY3NQQXhlbzRPWEZpTGlmSU91NXZiUnNZTUNmSTFJYV9nNFhEU0gxSW1HVWFBZw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "8ef536cb7237",
+      "time": "2026-08-21T09:41:58.000Z",
+      "source": "CNN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "symbol__ Stock Quote Price and Forecast",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwMGtPT2huOERzcXlCQ2RHZjg2SERwbzBNSUM2T0pZWWJzb2pPNDRtMUd2ck1wdVR6Z2VxSGhDTFNIeTU4dGNHMDlncVp5NGtm?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
     {
       "id": "67b2f6b153ee",
       "time": "2026-08-21T08:45:33.000Z",
@@ -741,22 +772,6 @@
       "tickers": []
     },
     {
-      "id": "8ef536cb7237",
-      "time": "2026-08-20T01:44:40.000Z",
-      "source": "CNN",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "symbol__ Stock Quote Price and Forecast",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwMGtPT2huOERzcXlCQ2RHZjg2SERwbzBNSUM2T0pZWWJzb2pPNDRtMUd2ck1wdVR6Z2VxSGhDTFNIeTU4dGNHMDlncVp5NGtm?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "686519ffccde",
       "time": "2026-08-20T01:25:39.000Z",
       "source": "New Atlas",
@@ -1406,22 +1421,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1BvY29qdzU3bm1lUEVOWUJHenU5OEpCdkxUajRMdmoxSlpORE9PRTBudnVUd0lkNF9wVzRkUldfbGFDUkNzWXJnb3VpRGp3N0hpaUotTUhBRjFoVnRtWlMtdnNwUjIzSUJnRjNQLXU1YXMyMWxucHNUVWJuWnJvNXVqZmFobEh0aWxmSGFSLXpVel9Wb0ZUVmlrX1FXaXNyRU90ZEw5RUNyV1JOU1JxWE5B?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "ef4cece69105",
-      "time": "2026-08-19T00:13:11.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Nrx Pharmaceuticals Earnings Call Signals Cautious Momentum",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcVBSOWt6WVA5UnFRbU5UcWRWLVJ4VGpxZVRObDFhSlJYSkJLRjlTYUxDX0RBOE5QdTRmeEV3WVB6R0xCWDQ3VnQxV1g0ZGQyVlNPS3pYSlUyM1RsV0RrdThXVlZXNEVFT3JjMmxXLVdSS3p4ZHBKN01IdEJ5aWZEemczNFlidkZ0X1VSQ0VQclMzcHlLT2JmN3JibzdYVXpaalg4T2swYWZnc05NN19XRQ?oc=5",
-      "tickers": [
-        "NRXP"
       ]
     }
   ]
