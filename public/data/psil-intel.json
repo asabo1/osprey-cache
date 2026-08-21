@@ -1,32 +1,34 @@
 {
-  "updated": "2026-08-21T15:20:26.663Z",
+  "updated": "2026-08-21T15:59:49.780Z",
   "counts": {
     "total": 90,
     "crit": 6,
-    "warn": 11,
+    "warn": 12,
     "bySource": {
+      "The Microdose | Substack": 1,
       "kalkine.ca": 1,
       "Psychedelic Alpha": 2,
       "Medical Xpress": 2,
       "Broken Frontier": 1,
       "Earth.com": 1,
-      "MarketBeat": 7,
+      "MarketBeat": 6,
       "WGME": 1,
       "U.S. News & World Report": 1,
       "CNN": 1,
       "Technology Networks": 1,
+      "TipRanks": 4,
+      "ABC News - Breaking News, Latest News and Videos": 1,
       "Stocktwits": 4,
       "Yahoo": 1,
       "ScienceAlert": 2,
       "GuruFocus": 3,
       "News-Medical": 1,
-      "TipRanks": 3,
       "scanx.trade": 2,
       "Bangor Daily News": 1,
       "TradingView": 2,
       "Vinanet": 1,
       "OregonLive.com": 1,
-      "simplywall.st": 3,
+      "simplywall.st": 2,
       "The Business Journals": 1,
       "Yahoo Finance": 1,
       "Endpoints News": 1,
@@ -67,14 +69,27 @@
       "Nautilus | Science": 1,
       "Military.com": 1,
       "The Killeen Daily Herald": 1,
-      "Firefighter Nation": 1,
-      "Sahm": 1
+      "Firefighter Nation": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "dab0f7f6d811",
+      "time": "2026-08-21T15:30:29.000Z",
+      "source": "The Microdose | Substack",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "What is an “embedded” brain? Johnson & Johnson plans to invest in “neuroplastogen” company Delix; and University of Miami gifts Trump Administration accelerated path to research ibogaine",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92bV9tSTRYZTdFUklYb3lxQmpua1hPekpVMTUtVTkyNzN0V2RZMllOOGNORVRCX1FwR2xSQ1BwV3ZxRUl3VzQyQzIzWTczVEJnRXN0ZVFjQmhldG9EVHZkY1RfR0FYVnBLM0NYNVhDUDczQUM3cjFOYg?oc=5",
+      "tickers": []
+    },
     {
       "id": "ba9f52183612",
       "time": "2026-08-21T14:50:00.000Z",
@@ -240,6 +255,38 @@
       "title": "Why What Movie or Music You Experience During Psilocybin Matters",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWRodVhHcm0zOG52MFhhVFUtcS1XN1EwdHpfN3RUMXZPbEItU0FzRllkZXN3Qmtsa1hSSFhPMkJ6MzJHX1k0cEhrZzg1ZnNodmY4Y0h3MTZhVkxpOW5TYjBUemdOVDFwNUQxM2EzMXFnQVdYcTZSSDJXOE1TLXBBalZ5T0lSQXRCMXU1c09DeFZJekJxaG9QQWZsU3Rya3Z6czhWX09qcW56Y2Z0UUM0UVkzNjU?oc=5",
       "tickers": []
+    },
+    {
+      "id": "073e895143c7",
+      "time": "2026-08-21T08:25:39.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma CEO to Spotlight Mental Health Pipeline at Canaccord Growth Conference",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbl9qdTFINjIxR1VGNjhCa3NRMTZaUURzSGZwQnQ0ekV4Rkk4bXl4dkV4MkwyWlBDOVdCLVY1MV9RMGlsYTVWMUNBYmhpQi01czR5MzJjZHVKbVN0XzMyY1hsSkVpcFpDR2pxWENTRHhpSUtOSHFTZklGcmlveS0wbkctV2I3NlZ4MlJVcmZqLVJpTmJLSkR4QXlqa2NzWE9EM1hYdUVjbHpfTWR4Vm9UZzkzYjBIeEZ6eldsUUI3WVdSVjVrakc0TGJCZnozeGlr?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "b587cbbe3cf1",
+      "time": "2026-08-21T07:28:39.000Z",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Trump signs executive order accelerating research into psychedelic drug therapies",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1BvY29qdzU3bm1lUEVOWUJHenU5OEpCdkxUajRMdmoxSlpORE9PRTBudnVUd0lkNF9wVzRkUldfbGFDUkNzWXJnb3VpRGp3N0hpaUotTUhBRjFoVnRtWlMtdnNwUjIzSUJnRjNQLXU1YXMyMWxucHNUVWJuWnJvNXVqZmFobEh0aWxmSGFSLXpVel9Wb0ZUVmlrX1FXaXNyRU90ZEw5RUNyV1JOU1JxWE5B?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "ec6542a54c96",
@@ -1368,54 +1415,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaEJWcGtaQmV3RC1vVFRQMWVsNFFkd0gtSHAxNXBiMnM4UklLLVdzWGlwSm53YzFGMFp6cHdqdUt0Z3FHYnFjb01Odl93T185LVNDblNQYk0xUnp4WnZ5SXluMld0N296RGtLWlpGRmV3MmZfLXVuU191VmdnM3AtcS1DdWpKeDYtVXEzbEJsaXN6bTJXcUdnaUJEdTlYOTloRnpRaVFxZEE?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "5da649dacb58",
-      "time": "2026-08-19T08:43:10.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics (DFTX) Could Be 22% Undervalued On Positive Phase 3 Voyage Results",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVmdsN1VOSDVlaE1HV09nY0c4a2FuRFN6Q2tzX0o0R1RROUVTNnN4SUx3VXBfQk82SDBxOFRmcjJ0SFFMYlhfWk1tQmxkckdvbHRwQWNqS0huazdJTThHWmJ3YmlrVmlHQ0xsTGQyQ1pMQ1dLeTEwMU1zTnZESGh2dXNxTTJPY0t5VDBrd1IteVA0QUdfUXdNVW5uVzZEVklFUk5ISW8tbllaM2NZY21kcXNyZXZlQ1FXakxEZ0FJRGQ0UkJ1cm9vYWdDNkptcXpvWkxUNXZySnU0MmNqUS15dnl3ZGJDRmRlVGpuRTlQeDHSAfABQVVfeXFMT1ZnbDdVTkg1ZWhNR1dPZ2NHOGthbkRTekNrc19KNEdUUTlFUzZzeElMd1VwX0JPNkgwcThUZnIydEhRTGJYX1pNbUJsZHJHb2x0cEFjaktIbms3SU04R1pid2Jpa1ZpR0NMbExkMkNaTENXS3kxMDFNc052REhodnVzcU0yT2NLeVQwa3dSLXlQNEFHX1F3TVVublc2RFZJRVJOSElvLW5ZWjNjWWNtZHFzcmV2ZUNRV2pMRGdBSURkNFJCdXJvb2FnQzZKbXF6b1pMVDV2ckp1NDJjalEteXZ5d2RiQ0ZkZVRqbkU5UHgx?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "f4be01def985",
-      "time": "2026-08-19T08:36:20.000Z",
-      "source": "Sahm",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences (NBIX) Could Be 28% Undervalued On Fresh INGREZZA Data",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTW5SVEpNbmFYUTBWcFNEZEZCUFNHQWIyUDdPSUJfclhHM2pQa0hwM2haUHJ6cWppMUdOZ1NYNmRUUFpqQTVWSGgxbFpvSlBGT2tRMU9GdDJLbTVsNmFJbHlMT2xldTBRMkRhZ3gxVlV2UFctS1gzcVRQb09lWnJvb1lIY0N1YWx3dnQyOW92SzltV3ZPQ3Yta0ItR3ZySnRqc0haNTZ5Yng3TnI2b3RidVpmVUhlZ1BtVFRXSWg5VndsblFV?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "f04366e2bd3f",
-      "time": "2026-08-19T08:35:36.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Empowered Funds LLC Sells 53,381 Shares of Alkermes plc $ALKS",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnlFMFpCWjRkTmFKd1h4eHREQXlKYlZBUElWNFVyUVQyUWVzVWNJbDdBck9XWGtoYWw1THVTcmdLR3lpX2FmaDZoWWNQX3d5T191OHltM3pZUEhpblNUU3RoZ0l6VGhqbVdDLUdFeUlKVmJHRXFUR2M2WDd2RGU2MkQ1WWdVMzdleThUVnhOMUxVM0xibzMwRmwwNWI1ZllRTmFEdWJ4eHEzZWtGNng1MkViT1FaQm1iOUJ1Wg?oc=5",
-      "tickers": [
-        "ALKS"
       ]
     }
   ]
