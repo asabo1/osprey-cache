@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-21T03:14:34.062Z",
+  "updated": "2026-08-21T04:11:02.944Z",
   "counts": {
     "total": 90,
     "crit": 5,
     "warn": 11,
     "bySource": {
+      "KGW": 1,
       "ScienceAlert": 2,
       "GuruFocus": 3,
       "News-Medical": 1,
       "TipRanks": 3,
-      "The Maine Wire": 1,
-      "scanx.trade": 2,
+      "scanx.trade": 1,
       "Bangor Daily News": 1,
       "TradingView": 2,
       "Vinanet": 2,
@@ -26,6 +26,8 @@
       "HMP Global Learning Network": 1,
       "Psychedelic Alpha": 2,
       "marketplace.org": 1,
+      "PsyPost": 1,
+      "San Francisco Chronicle": 1,
       "Investing.com": 2,
       "Las Vegas Weekly": 1,
       "SWI swissinfo.ch": 1,
@@ -64,10 +66,8 @@
       "geneonline.com": 1,
       "NCHStats": 1,
       "Moomoo": 1,
-      "ABC News - Breaking News, Latest News and Videos": 1,
-      "breitbart.com": 1,
-      "Quiver Quantitative": 1,
-      "Yahoo Finance Singapore": 1
+      "ABC News - Breaking News, Latest News and Videos": 2,
+      "breitbart.com": 1
     },
     "byTier": {
       "T2": 90
@@ -75,8 +75,22 @@
   },
   "items": [
     {
+      "id": "093f0d6c580f",
+      "time": "2026-08-21T03:29:00.000Z",
+      "source": "KGW",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "What an OHSU-led psilocybin study revealed about treating anxiety, depression and PTSD",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaU1lLW45c3hVRGktczRtMGlxT2Vjb25JNHhqekNselhrak5HTkFDLUZhY3hCR1Q2SzQ3QWlQOHE2NU5leENtcTJPNnpEUld2RXM1MUZZSFJlcWtoOFlhUnNiWUhNZ1I1RUUwTmVvMkNlUXZOZWtyeUJrc0RxWG9ZZ1ZJdzg3VmRORVdsV3lOckFaYS1jeEpwelExSkNIYVdIbXIyWTlnZndnQllKOHdvR2tmZVozUGk2dnNac19UTzNGSzdtN1VUbjY4U1VudUlWQzFueEhfY0t0WGlZX3VhUF85RlQ3LU5rblE?oc=5",
+      "tickers": []
+    },
+    {
       "id": "d97a402d8bb7",
-      "time": "2026-08-21T02:03:45.000Z",
+      "time": "2026-08-21T02:02:32.000Z",
       "source": "ScienceAlert",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -151,20 +165,6 @@
       ]
     },
     {
-      "id": "4ae0d0da736e",
-      "time": "2026-08-20T22:27:55.000Z",
-      "source": "The Maine Wire",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "MDEA Busts Alleged Psilocybin, DMT Labs Inside Saco Home; Man Held on $250K Bail",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2Uwb1dLV1A0QjBNWC1YeFhZeW00ZWV3VjhTMHc3amhhZGFvOG44WUdRMng2eWhEZWN2LWZOUHZJV2phSXZOQnRFZGRqRWM5YlMtZFJoaDduVVhmX0ZXTVJGUlU3WnpDRlpmMTlBMElENEF2V2l5dVpMZ29nZE52Zk9uYTdRdW9jZzdtWjRWLW5tcll1SW94X0VCMl93cG5PR19PLTZ1SGdoY0pvVVU0eTdkTE9OZw?oc=5",
-      "tickers": []
-    },
-    {
       "id": "4b21df75dc28",
       "time": "2026-08-20T21:15:34.000Z",
       "source": "scanx.trade",
@@ -178,22 +178,6 @@
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRkVaT0dsSC1JelV6ek9Wak9iZWlLaGVqSndIWEpRNXczcnVYemxuTXByUUpXb3RCaXZDd1NKUXdadXhuenYyRWtRQ3hLaFNRekVQMjBFRzFqV1RJNmhRd0Y1ekg4bjhJd0NHMXRjTFpLZzZaSExTOHI4OFExMkw0cFRNeUZOVjAzejRNdXNfN1NKS29sNUhQV3FaVVJZT3hIV25wV053d0ZDYXhtYU8tVEp6aTBNNmc0b285dTVJT2txak9jNmdvaHRnWQ?oc=5",
       "tickers": [
         "NRXP"
-      ]
-    },
-    {
-      "id": "defbb6a2fdd9",
-      "time": "2026-08-20T21:12:41.000Z",
-      "source": "scanx.trade",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Alkermes reports phase 2 Vibrance-2 data; alixorexton meets dual primary endpoints in narcolepsy type 2",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdnJnX25iYWNjUlZVdHVFWG5vOUxsTFpJdVVvSmtTSE9LMFREd2hEU3VtZXZra2pVY1R5dnM2VUVEcWtCa09EYTJCMklxSVl3elNFYWpCQzlVOVd1dXl1S1N1Wkp2NWpOWUNjN3FMdy1vajVkZ2dKdHhDVllwSnMyNl9uUl9lZ29ZT2V4bFNFT1otZUd0X2JKdW9pUWVjR3h4UlpFTHdNdHhzQk5KV1hueTdnUkUybWI2Z0ZKMXJtMElnQQ?oc=5",
-      "tickers": [
-        "ALKS"
       ]
     },
     {
@@ -513,6 +497,34 @@
       "impact": "LOW",
       "title": "Why pharmaceutical companies are interested in psychedelics",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS25WTU5tZWZvLWhTWVBibDFUQXB0X3Y5TE85OXVOOFFueHFVb3p0aldsZklQaUJkMnRYX1FITmVjY29Lc0RnajhfYnFCTEFpbDdpUmV6SWJvc1lwWFhVRXNiemJ5d09OTVpkVTc0QTBxZ1dQeEVQSENxdDJwVVZoWW5vQnhueHQzUVVOdHo0NHl1S1VXNTY2VHVwSUpldw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "347af1cdbc7a",
+      "time": "2026-08-20T12:29:58.000Z",
+      "source": "PsyPost",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "New study tracks oxytocin spikes in MDMA therapy trials",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWVRmdTVxRkc2TmgzS3pVQXpjaEFLeTMwdXJWLW02UWRsN3hJdmU0TkxZeXdJblFPaFJIMkJnRjM4V2RKeHNxOTBPem5rS2Uyd2ZrbnE2OGg4U2c4b0I4cFdUanJOYkplbzlfQVJqLTZVdGFMNzdVUVNNb0VtSHhrRTJhR2NPY0NyZWVQN1Vielgxdw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "d21dda3b69a0",
+      "time": "2026-08-20T11:03:50.000Z",
+      "source": "San Francisco Chronicle",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "‘You can practically get high just seeing it’: Legendary psychedelic bus comes home to San Francisco",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTng1akY3ODNwU28tX3BzUmhMS2U1ZVlQbV9vS0VWcHA4MnBGb1R6TWNfbUd0aWI1ekhueU9Oc0NySmpKZDdIRml5WmpWQ1hFVTdvNmcyWDduYkRWdmlNSXp4RmdWU2NDeURpdDZfdjRpdHdaU0pCUDdxT0RVNXctOFVIUi1TMlFBdnc?oc=5",
       "tickers": []
     },
     {
@@ -1301,6 +1313,22 @@
       ]
     },
     {
+      "id": "b587cbbe3cf1",
+      "time": "2026-08-19T02:52:53.000Z",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Trump signs executive order accelerating research into psychedelic drug therapies",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1BvY29qdzU3bm1lUEVOWUJHenU5OEpCdkxUajRMdmoxSlpORE9PRTBudnVUd0lkNF9wVzRkUldfbGFDUkNzWXJnb3VpRGp3N0hpaUotTUhBRjFoVnRtWlMtdnNwUjIzSUJnRjNQLXU1YXMyMWxucHNUVWJuWnJvNXVqZmFobEh0aWxmSGFSLXpVel9Wb0ZUVmlrX1FXaXNyRU90ZEw5RUNyV1JOU1JxWE5B?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "ef4cece69105",
       "time": "2026-08-19T00:13:11.000Z",
       "source": "TipRanks",
@@ -1391,34 +1419,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "5c7ce5171184",
-      "time": "2026-08-18T21:30:00.000Z",
-      "source": "Quiver Quantitative",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Psyence BioMed Welcomes White House Support for Accelerated U.S. Ibogaine Development",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdU1SWGd1ZGtNNWhiengyZERiWWxwV3dLdjhDV3U2UEZsV01majd6U1NiTXQ4aEhTaW81LUxXNHNTclNndDREUUFmWEpqSGVyUm1IRWs4TEQwOEdQdVBCT2VqRzRsTXVBajFmWFo5a0M1Y3gweFpNYUpST3pUWkpaZW5KYl9lMjBFZmtOdmt3YVRNQ09zdTIwRU4tc2x4b3RubkJJaWdkSXF1SzI2TGUwMUlrYmZ6aW9vMkE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "9c2a5a974b91",
-      "time": "2026-08-18T21:23:00.000Z",
-      "source": "Yahoo Finance Singapore",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Psyence BioMed Welcomes U.S. Administration’s Latest Action to Accelerate Ibogaine Development",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTVA2U1hYLTl5QmdOU3R4QllRaV9vUW9Wc01XMld1WFBISzF3ZDJFU1NYd0ZBUjZIQmNFZllyaF91MzZXN1F3aEEtTTB2ZFAxeWJyalZXRjFRekEza2tTY1RMOGtaZ1dKb2dyODFQV1hQME5WM1JiTXBQNGp3OUVrU0FvN0h1RXY1UEZtQkYxMDBpNVU?oc=5",
-      "tickers": []
     }
   ]
 }
