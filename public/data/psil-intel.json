@@ -1,11 +1,12 @@
 {
-  "updated": "2026-08-21T10:59:04.379Z",
+  "updated": "2026-08-21T11:39:10.889Z",
   "counts": {
     "total": 90,
-    "crit": 6,
+    "crit": 5,
     "warn": 11,
     "bySource": {
       "U.S. News & World Report": 1,
+      "MarketBeat": 6,
       "CNN": 1,
       "Technology Networks": 1,
       "Stocktwits": 4,
@@ -20,8 +21,7 @@
       "TradingView": 2,
       "Vinanet": 1,
       "OregonLive.com": 1,
-      "simplywall.st": 3,
-      "MarketBeat": 5,
+      "simplywall.st": 2,
       "The Business Journals": 1,
       "Yahoo Finance": 2,
       "Endpoints News": 1,
@@ -30,6 +30,8 @@
       "HMP Global Learning Network": 1,
       "Psychedelic Alpha": 1,
       "marketplace.org": 1,
+      "Sahm": 2,
+      "San Francisco Chronicle": 1,
       "Investing.com": 2,
       "Las Vegas Weekly": 1,
       "SWI swissinfo.ch": 1,
@@ -41,7 +43,7 @@
       "KOIN.com": 1,
       "Central Oregon Daily": 1,
       "New Atlas": 1,
-      "FirstWord Pharma": 2,
+      "FirstWord Pharma": 1,
       "AOL.ca": 1,
       "Statesman Journal": 1,
       "Stock Titan": 3,
@@ -65,12 +67,10 @@
       "Military.com": 1,
       "The Killeen Daily Herald": 1,
       "Firefighter Nation": 1,
-      "Sahm": 1,
       "geneonline.com": 1,
       "NCHStats": 1,
       "dars.gov.et": 1,
-      "Moomoo": 1,
-      "ABC News - Breaking News, Latest News and Videos": 1
+      "Moomoo": 1
     },
     "byTier": {
       "T2": 90
@@ -79,7 +79,7 @@
   "items": [
     {
       "id": "278a00cc0e3b",
-      "time": "2026-08-21T10:37:52.000Z",
+      "time": "2026-08-21T11:03:45.000Z",
       "source": "U.S. News & World Report",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -90,6 +90,22 @@
       "title": "Psilocybin Safe And Effective Against Mood Disorders, Real-World Data Show",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdnB5Y3gyeVZuLTluM1VoN2MyM042WmMwcnFZR0RUblNiSkppcDg3VHFUdF9oNWRzX1NVX25QYzJuLWx1S3FMTURCNkxwNjROQnFQV3NfVVI3bkRlTGg5RmsybjJXR1ZxWkU1MzNiYnRnOXYydU9Kbk5GYUpoeUlINEVVTTc3Z0g0djdYbzJyOUxuTzN5MVpZN3FBLVktVkRPY3NQQXhlbzRPWEZpTGlmSU91NXZiUnNZTUNmSTFJYV9nNFhEU0gxSW1HVWFBZw?oc=5",
       "tickers": []
+    },
+    {
+      "id": "23d7a7d1a4d1",
+      "time": "2026-08-21T10:19:01.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin Inc. (NASDAQ:HELP) Receives Average Rating of \"Buy\" from Analysts",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMHJtUk5HVFEwRlJMQUpyTk5HYWZKcWR0YmRGOW5GbWRCN3NQSzdHVFhNUm9OS0RuLUd6UXJhSUpJV0NJMHlHXy1CbFRVSWIySm5keEN0YnBKMUxCcm81V0h1bFFXby1MWXZ3eXBIN3RDTlhmU1hCa1RNcktrTU5md3ZrdlB2MkpOUlc4RkJqSVZCZnRCYi1ydEpRN19FNjhuWHRySWZqampsVmM2ZlhhcXN4Vnc4aW9Cc180?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "8ef536cb7237",
@@ -606,6 +622,36 @@
       "impact": "LOW",
       "title": "Why pharmaceutical companies are interested in psychedelics",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS25WTU5tZWZvLWhTWVBibDFUQXB0X3Y5TE85OXVOOFFueHFVb3p0aldsZklQaUJkMnRYX1FITmVjY29Lc0RnajhfYnFCTEFpbDdpUmV6SWJvc1lwWFhVRXNiemJ5d09OTVpkVTc0QTBxZ1dQeEVQSENxdDJwVVZoWW5vQnhueHQzUVVOdHo0NHl1S1VXNTY2VHVwSUpldw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "ecb088a8e4d5",
+      "time": "2026-08-20T11:41:51.000Z",
+      "source": "Sahm",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Definium Therapeutics (DFTX) Could Be 22% Undervalued On Positive Phase 3 Voyage Results",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONTU3ajBXNlpmckhHNGU5V1dOcjFVampZWUdsMkkzWjFWY3ZBOU5nV2c4WGRocW9mY3lUbnVzR0oxTW55MGVVVi1LbG1lMjRObkNZcnRHbGt0cGZwaVJXYXVzYzhPRzRiTUJHTjhMNUxPUTU4UjhEYnFMUXRKR2tkZ0NDUFJxVU5QcXBFWW1GeFFWNVdHYlJkbUtLS2V5RHlSZWZJTUkwUks1WFdYMjF2Y1hJdUxzM0xhaXI1aDRER2F5enpwdjM2QS1pbjhUeldsWDRZ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "d21dda3b69a0",
+      "time": "2026-08-20T11:03:50.000Z",
+      "source": "San Francisco Chronicle",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "‘You can practically get high just seeing it’: Legendary psychedelic bus comes home to San Francisco",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTng1akY3ODNwU28tX3BzUmhMS2U1ZVlQbV9vS0VWcHA4MnBGb1R6TWNfbUd0aWI1ekhueU9Oc0NySmpKZDdIRml5WmpWQ1hFVTdvNmcyWDduYkRWdmlNSXp4RmdWU2NDeURpdDZfdjRpdHdaU0pCUDdxT0RVNXctOFVIUi1TMlFBdnc?oc=5",
       "tickers": []
     },
     {
@@ -1268,22 +1314,6 @@
       ]
     },
     {
-      "id": "5da649dacb58",
-      "time": "2026-08-19T08:43:10.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics (DFTX) Could Be 22% Undervalued On Positive Phase 3 Voyage Results",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVmdsN1VOSDVlaE1HV09nY0c4a2FuRFN6Q2tzX0o0R1RROUVTNnN4SUx3VXBfQk82SDBxOFRmcjJ0SFFMYlhfWk1tQmxkckdvbHRwQWNqS0huazdJTThHWmJ3YmlrVmlHQ0xsTGQyQ1pMQ1dLeTEwMU1zTnZESGh2dXNxTTJPY0t5VDBrd1IteVA0QUdfUXdNVW5uVzZEVklFUk5ISW8tbllaM2NZY21kcXNyZXZlQ1FXakxEZ0FJRGQ0UkJ1cm9vYWdDNkptcXpvWkxUNXZySnU0MmNqUS15dnl3ZGJDRmRlVGpuRTlQeDHSAfABQVVfeXFMT1ZnbDdVTkg1ZWhNR1dPZ2NHOGthbkRTekNrc19KNEdUUTlFUzZzeElMd1VwX0JPNkgwcThUZnIydEhRTGJYX1pNbUJsZHJHb2x0cEFjaktIbms3SU04R1pid2Jpa1ZpR0NMbExkMkNaTENXS3kxMDFNc052REhodnVzcU0yT2NLeVQwa3dSLXlQNEFHX1F3TVVublc2RFZJRVJOSElvLW5ZWjNjWWNtZHFzcmV2ZUNRV2pMRGdBSURkNFJCdXJvb2FnQzZKbXF6b1pMVDV2ckp1NDJjalEteXZ5d2RiQ0ZkZVRqbkU5UHgx?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "f4be01def985",
       "time": "2026-08-19T08:36:20.000Z",
       "source": "Sahm",
@@ -1387,38 +1417,6 @@
       "impact": "LOW",
       "title": "BofA Securities Maintains Definium Therapeutics(DFTX.US) With Buy Rating, Maintains Target Price $75",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSFVuckh3dGxUR0ZhZVhDSlZITnlicmZGNV83ZGV5bV9URGNSNXQyNzNiaWFzeHN5cFB2NnloQ1VJV1JxZTdKQWZlODhxWTN5WmlYeDVmZ3dobHJWQXo2UG52VUszNEs2TlpUWElxSHZUUURRTmh3dFdsYzU5NVpXdDI0cTV0VkctRkN6RVhuSDJ5NldjUWI0YjBlVTg0ZWRsenJvRmpuNWJidzVGRUE4R0dkdWVyQ1FLdWlCTzVidw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "b08575259292",
-      "time": "2026-08-19T03:35:49.000Z",
-      "source": "FirstWord Pharma",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Physician Views Results: Psychiatrists buy into Definium’s LSD promise, but balk at the baggage",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xNGRpamlEXzlDWlBXX1F1T2pRaWVLcEhyVUd6TFhSZzBqTUlOMzh1azZOTHc3NXR4NGdXVUNUeFBkbEFWN1ppWjF4RE15cmJ5UERV?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "b587cbbe3cf1",
-      "time": "2026-08-19T02:52:53.000Z",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Trump signs executive order accelerating research into psychedelic drug therapies",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1BvY29qdzU3bm1lUEVOWUJHenU5OEpCdkxUajRMdmoxSlpORE9PRTBudnVUd0lkNF9wVzRkUldfbGFDUkNzWXJnb3VpRGp3N0hpaUotTUhBRjFoVnRtWlMtdnNwUjIzSUJnRjNQLXU1YXMyMWxucHNUVWJuWnJvNXVqZmFobEh0aWxmSGFSLXpVel9Wb0ZUVmlrX1FXaXNyRU90ZEw5RUNyV1JOU1JxWE5B?oc=5",
       "tickers": [
         "DRUG"
       ]
