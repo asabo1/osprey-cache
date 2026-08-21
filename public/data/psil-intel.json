@@ -1,8 +1,8 @@
 {
-  "updated": "2026-08-21T05:23:17.930Z",
+  "updated": "2026-08-21T06:00:03.928Z",
   "counts": {
     "total": 90,
-    "crit": 5,
+    "crit": 6,
     "warn": 11,
     "bySource": {
       "KGW": 1,
@@ -40,6 +40,7 @@
       "CNN": 1,
       "New Atlas": 1,
       "FirstWord Pharma": 2,
+      "AOL.ca": 1,
       "Statesman Journal": 1,
       "Stock Titan": 3,
       "Behavioral Health Business": 1,
@@ -66,8 +67,7 @@
       "geneonline.com": 1,
       "NCHStats": 1,
       "Moomoo": 1,
-      "breitbart.com": 1,
-      "Quiver Quantitative": 1
+      "ABC News - Breaking News, Latest News and Videos": 1
     },
     "byTier": {
       "T2": 90
@@ -735,6 +735,20 @@
       "tickers": []
     },
     {
+      "id": "30be234d86e9",
+      "time": "2026-08-19T23:08:03.000Z",
+      "source": "AOL.ca",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Trump doubles down on plans to give psychedelic drugs to US veterans for mental health",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcWZPQm42elJneXo2S2s5bGRUR3phMzVlaXU3cVpiV2ZGS3Nkel8yM21HVkg3ZVJNMlJfMTdneG9jRXlMT3BIOW1EbHhoRU9talE3LWxQUG82b2IwV3N0R19hVEprdG1PRTRoV3ZFQTF6R0tXX1RQM25id0w0a3BCS1NtN0s4dw?oc=5",
+      "tickers": []
+    },
+    {
       "id": "fab93c9026b6",
       "time": "2026-08-19T23:05:10.000Z",
       "source": "Oregon Public Broadcasting - OPB",
@@ -1329,6 +1343,22 @@
       ]
     },
     {
+      "id": "b587cbbe3cf1",
+      "time": "2026-08-19T02:52:53.000Z",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Trump signs executive order accelerating research into psychedelic drug therapies",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1BvY29qdzU3bm1lUEVOWUJHenU5OEpCdkxUajRMdmoxSlpORE9PRTBudnVUd0lkNF9wVzRkUldfbGFDUkNzWXJnb3VpRGp3N0hpaUotTUhBRjFoVnRtWlMtdnNwUjIzSUJnRjNQLXU1YXMyMWxucHNUVWJuWnJvNXVqZmFobEh0aWxmSGFSLXpVel9Wb0ZUVmlrX1FXaXNyRU90ZEw5RUNyV1JOU1JxWE5B?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "ef4cece69105",
       "time": "2026-08-19T00:13:11.000Z",
       "source": "TipRanks",
@@ -1389,36 +1419,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "0562e2c3fc47",
-      "time": "2026-08-18T22:05:00.000Z",
-      "source": "breitbart.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Trump: University of Miami Gives Ibogaine Investigational Drug Application to Federal Government",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQX3NpRnJ5ZS1nTE5WeTVGNUFTNjUwY2dOLTRQUFBrRDJCYUZTMXVMQ3phbzh2QVRtNkNZczJaaW5KLXpsamx2X2FnRGNFNWRfWWdncHR2Z2o4OW0wSVF0S0Y2aGFWenNWbE9MRFpjcEpkU2JUZFB2Mkc0dzVVdzR5cVpqYy1PRlpyS0x2NjM2eDh4aE9GV0JXV1JHRlJBcGVGQmhRa1VIWld2aGJHZ0hEdkpKekh6U01hMUlJMG9jTXRZakxnakJHV3BJYmxCckxlcEI1S1lJaXRmSFBS0gHcAUFVX3lxTFBfc2lGcnllLWdMTlZ5NUY1QVM2NTBjZ04tNFBQUGtEMkJhRlMxdUxDemFvOHZBVG02Q1lzMlppbkotemxqbHZfYWdEY0U1ZF9ZZ2dwdHZnajg5bTBJUXRLRjZoYVZ6c1ZsT0xEWmNwSmRTYlRkUHYyRzR3NVV3NHlxWmpjLU9GWnJLTHY2MzZ4OHhoT0ZXQldXUkdGUkFwZUZCaFFrVUhaV3ZoYkdnSER2Skp6SHpTTWExSUkwb2NNdFlqTGdqQkdXcElibEJyTGVwQjVLWUlpdGZIUFI?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "5c7ce5171184",
-      "time": "2026-08-18T21:30:00.000Z",
-      "source": "Quiver Quantitative",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Psyence BioMed Welcomes White House Support for Accelerated U.S. Ibogaine Development",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdU1SWGd1ZGtNNWhiengyZERiWWxwV3dLdjhDV3U2UEZsV01majd6U1NiTXQ4aEhTaW81LUxXNHNTclNndDREUUFmWEpqSGVyUm1IRWs4TEQwOEdQdVBCT2VqRzRsTXVBajFmWFo5a0M1Y3gweFpNYUpST3pUWkpaZW5KYl9lMjBFZmtOdmt3YVRNQ09zdTIwRU4tc2x4b3RubkJJaWdkSXF1SzI2TGUwMUlrYmZ6aW9vMkE?oc=5",
-      "tickers": []
     }
   ]
 }
