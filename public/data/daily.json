@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-21T03:12:20.659Z",
+  "updated": "2026-08-21T04:07:58.783Z",
   "latest": {
     "date": "2026-08-20",
-    "wti": 86.46,
+    "wti": 86.49,
     "wti_prev": 85.83,
-    "wti_delta": 0.63,
-    "brent": 93.56,
+    "wti_delta": 0.66,
+    "brent": 93.61,
     "brent_prev": 91.62,
-    "brent_delta": 1.94,
-    "spread": 7.1,
+    "brent_delta": 1.99,
+    "spread": 7.12,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,14 +160,82 @@
   },
   "intel": [
     {
+      "time": "04:00",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Iran-US war: Over 770 US service members killed or injured since conflict began",
+      "outlet": "The Independent",
+      "source": "Hormuz",
+      "date": "2026-08-21T04:00:27.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYkJsQk1rWVprWk85M1UtZVJFV1h6dGFnMnFYemNIbFY2QWlQV081S0lRUk5oR254Z0ljZGpnWVVnRmZreVNyS1Vael9kZzgybnJHYUd6a21PTTVwVjhHTmRQVjBoeFl6Zms0NXpyT3AweEJlTmdTNkpXT29WTjVmLUI5ZkV2ZnVmMktxMUsyeEVsOHc3NDdNak81V0dmdXZYdGN6c3dycjhUYnFHdzBmQ2w1c3ZPVWVRVlpqRA?oc=5"
+    },
+    {
+      "time": "04:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Middle East oil squeeze: How much crude is actually flowing through Hormuz",
+      "outlet": "The Times of India",
+      "source": "Hormuz",
+      "date": "2026-08-21T04:00:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOaEtlRTllbF9EZnJXdTNNcEgtSmlwYTBmRXBZUmlOdjduSHZIeFEtN3BuRzUycWxkendud2piV0EzTS1RVExLVnpReEU5OE14N1VtUHBWLUxhVmVLSl9DaEx4cGU4MVlkT2k5V3Z4el9rSklnNmtHV2tTV2FaWHNXb3FORlBtWmpESHBhLTAzNHZhR0xjeWJJRS1FbVcyNXJqd0ZjS2k5UFhXQ3JMVnhZS0lTQzNVYWhEdzlLeklKX05mTzFmYUJldmtnd0dFNk1ieTlOMzE1N1ppbk1WeFNJeUlCNTVLeEg3NUhSVzNIalBDckdLZFVYa3pQTdIBgAJBVV95cUxQdHd5eW5ZTWFJa05ndWp1eG5GU1VKOElPY0gzTDIwYXNfTThaekg3WDBYR25MZ0lGbHhCZE1JTlpjUjZyb3l0MV9PVEFMRXJfNDB3d0ZkVVJrVk1UaTVGQnRwZGZhYTU1RnpMdllkSGZQNUpPeGlaRTQwdFk3RWNybWRHY1RDQ0RGX205YXptbWE1UUFjbmxkQ0RiblZUZkVUNDVFbVRoaG5hWjdpV01KWVVycXhyb19xdUVCNjhkTG5YYjhQUWhzdzFMNnk2Z2dpSzQ0UGRhamdnZ0ZYbEdiejFUWDdROVFNTlNuWTBwU0VBTV8xQmJQY01UWmYzNU83?oc=5"
+    },
+    {
+      "time": "03:48",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Iran Tensions And Hormuz Security Keep Crude Oil Markets On Edge, With Implications For TSX:RY",
+      "outlet": "foreignpolicyjournal.com",
+      "source": "Hormuz",
+      "date": "2026-08-21T03:48:20.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLUV0NWJVNTNqaTFJbmpQWjFSVnMwOW5SUFJGcFUyX01jMUtlWEVpcHhja1dVa3BWSk5zUF91QjlRcEhFWUFySmpUYUZzWEdFTngySlFrVzdRaDhVV08xSHlqdTQ3bWREbGJ6ZENITXo1ZzVQc2k5MkxheW14MTMtZGFRZUw4azFoNi1DV3lzUm85NlZQSEg4X09OT0xldXdmSGlha0hVT2djU0pGSTVaVFpvZUFPYko1aURXb1Q3MklFTHB0SkEtelI3S1VvdlhqTGtja19vLWI?oc=5"
+    },
+    {
       "time": "02:43",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Hormuz ship crossings hover in single digits, data shows",
+      "text": "Ships passing through Hormuz hover in single digits, data shows",
       "outlet": "Reuters",
       "source": "Hormuz",
       "date": "2026-08-21T02:43:00.000Z",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSEhZX09yZU9wMFlFN0FUUjM0dUhpZ01zMEVvWFBlVHpoQ25lY0xFckRtVnpXMHZfZVA3TU0zRjNNYlUydy1pelQ1Q3Rmb1dPeWZmU3hDTXF2ZERfY3UyY2tteGpocUNoY0FkdE13dXV5cjV1VUh3MmN1al9MUm5xVlh6RWpwenRzQ2dzR0dxci05c2kwQ1VSUGNDTVBJVkFFd0RjZm9GRnBBdw?oc=5"
+    },
+    {
+      "time": "02:37",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "US vows 'toughest sanctions in history' against Iran, oil prices surge",
+      "outlet": "news.cgtn.com",
+      "source": "Oil",
+      "date": "2026-08-21T02:37:53.000Z",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY1VTOHloV3FMMVM0N1JoR3ozOVZsZkRrcV9PRXVWN0JER0I3MHZ5eWZPQXV0cWI1MjFUUWJieEJGT0lHeFlxT3JiWEtOcFJiZjdscDh0VDlTMGdURUR3SmNTMGVvbXJWSUFXZnI1RlFFSlNHMUZMZEpXaERnTkttcDUyNU1yVjRuemxjUHV5Uk44NkFGZmtpekVCeGJsT2xuVldjTjlZSnkxUzhxZGZDcWxTZTkzYVE?oc=5",
+      "cluster_size": 3,
+      "cluster_id": "us-will-impose-toughest-sanctions-history",
+      "first": {
+        "outlet": "Reuters",
+        "date": "2026-08-20T02:29:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0t6ejR6ZDNSMllnR0lXWC1vV3ZyTXoxUDEyeHRXczFpRWtRbzEyWmdkRVRqWi1oZzJEaEF6UnAxcHItbXZ6Z1hKTzBQV2hPOUVFQml3Wk80T1F2UmFRSzIwakhFR2hKbmp3MFJ6LUFDX1BHV3BKeDZxYXdaT2wwWi1kaU5LbkFaX19IekRKSGNUT0VBc1FQeWVRdUxLd0U3V1I5WjZoMmtIcXZUQnRBczZKcTFZa19zUVE?oc=5",
+          "date": "2026-08-20T02:29:00.000Z"
+        },
+        {
+          "outlet": "Maritime",
+          "link": "https://gcaptain.com/us-will-impose-toughest-sanctions-in-history-on-iran-bessent-says/",
+          "date": "2026-08-20T20:24:24.000Z"
+        }
+      ]
+    },
+    {
+      "time": "02:32",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "STRAIT OF HORMUZ SHIP CROSSINGS SLOW FROM PREVIOUS DAY, HOVERING AT SINGLE DIGITS, DATA SHOWS",
+      "outlet": "news.cgtn.com",
+      "source": "Hormuz",
+      "date": "2026-08-21T02:32:39.000Z",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xMVFpZ19Ub3kxdUZ2SGtadE5EbkVPb0x6cmp2WUIybVU2bjh2MGZGcEFCOS1weG84Q0psLWg1aFp1eVJzMGJBa0FocnVoQkxvMXliMnQteHpReFZRTmtDOHozVEhfRVBBQ3hCcUZB?oc=5"
     },
     {
       "time": "02:31",
@@ -190,16 +258,6 @@
       "link": "https://www.tradewindsnews.com/shipyards/japan-s-namura-eyes-new-drydock-for-lng-carrier-construction/2-1-2032103"
     },
     {
-      "time": "02:30",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Iran-US war: Over 770 US service members killed or injured since conflict began",
-      "outlet": "The Independent",
-      "source": "Hormuz",
-      "date": "2026-08-21T02:30:27.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYkJsQk1rWVprWk85M1UtZVJFV1h6dGFnMnFYemNIbFY2QWlQV081S0lRUk5oR254Z0ljZGpnWVVnRmZreVNyS1Vael9kZzgybnJHYUd6a21PTTVwVjhHTmRQVjBoeFl6Zms0NXpyT3AweEJlTmdTNkpXT29WTjVmLUI5ZkV2ZnVmMktxMUsyeEVsOHc3NDdNak81V0dmdXZYdGN6c3dycjhUYnFHdzBmQ2w1c3ZPVWVRVlpqRA?oc=5"
-    },
-    {
       "time": "02:19",
       "severity": "WARN",
       "direction": "NEUTRAL",
@@ -208,16 +266,6 @@
       "source": "Maritime",
       "date": "2026-08-21T02:19:25.000Z",
       "link": "https://www.tradewindsnews.com/tankers/odfjell-posts-stronger-second-quarter-as-it-navigates-hormuz-risk/2-1-2032106"
-    },
-    {
-      "time": "02:14",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "'One-two punch': US vows toughest-ever Iran sanctions, presses China to help reopen Hormuz",
-      "outlet": "The Times of India",
-      "source": "Hormuz",
-      "date": "2026-08-21T02:14:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQZEg3X2Ztal9LZ19Hd2dxNmczWDVDbWRmWVdhT1ZseWZ1ZDB6bkNJSjNNb3NtczhWcWt5NDY4dmtkb1VfczJfNmFVTWlYeHBXUEhzZ0lvMHhCb2pjazJQNXVsZUVJVm5manhzdkdacWtUcnBzNjN3bEhVb1d4VkxzYjdMVTViWlU4SGN0X0tGcXZrUUxZTzkwSmQzX2cwODd5MFIxbFhRU2hYd2ZBZ01ReXE0czhXTUE3cVFTZE9FM0JPbDAyRGwwZW4xanRZVThMV2VsT1dfc2hHaWxJWloxSmRfS0QxSjl6bEYxYWZDRWJnYzh2LW01eFh3LS04djBuTG9FWDZPTEgwNEE00gGSAkFVX3lxTE1EUFB1RENpbTZaRHVaSGw3U2xwNkpqOHV0YzNSWEVnSktzM1Btdm4taTdJMHZVUkFBeGNwZThGMTRUVWUxRU1KLWVkcGlnWnBGYjhjMGRQS0pNNGdxVkZFWFdZZ0toVzVDSGFDM2x0MTdQb3VvMUhYUlkxdUJnNzFIRnYxQjRoVndSX1F1N3VzekVDbTk1MEJSWEV1LXp0ekpYZGxOeVF1V0MxUkpMZ0Vyb2I5M2R4elJHZUY4NjBvOXVfYVM0TklBNk1LeUt1cThaMWVBUndDZm9UVHd4eFZVNXV3dnh0RzhQcVM4VzRqSkZLV2RycEE2T09VUXJuTlRHNzhKOGZuV1RlM3NuUWxzR1E?oc=5"
     },
     {
       "time": "01:51",
@@ -250,6 +298,16 @@
       "link": "https://www.bloomberg.com/news/articles/2026-08-21/inghams-shares-drop-as-higher-feed-and-fuel-costs-hit-outlook"
     },
     {
+      "time": "01:23",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Asia shares downbeat on the week as bond yields, oil stay high",
+      "outlet": "Reuters",
+      "source": "Reuters",
+      "date": "2026-08-21T01:23:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTFQMW56em9GbmdpNkt2Y1pGekxZbWNTT2I5bHZDNUJCaFFYem9uWVlkSEd3dzBHQ19mSHA0QzZlUmMzWHJtOEtJX09qRmVaNFdYaC1wZzQ4VmJCdFdlWnFDSkhRLVkwYXRidHJPaVk2ZXFyeVNzU0dCbzNRZnhNc0dLcw?oc=5"
+    },
+    {
       "time": "01:02",
       "severity": "MKT",
       "direction": "NEUTRAL",
@@ -268,59 +326,6 @@
       "source": "Hormuz",
       "date": "2026-08-21T00:51:43.000Z",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZkdIenNtYjE2aTdYcWJSano5dVFYMXE5MVdEa0VnVWJ6R3NMempHVjdfNVU1clJZd2RRY2VRcUtJR2xWZzJFUzI3MDNlWUR2aUtqYmFPRXhLSGdFMHZESXlRYUU3dmhoZTJKcGIzR0N5SEhzTGdtRTFPank2V2NraWUyYVFQbU1VRmdZX0FidVplQQ?oc=5"
-    },
-    {
-      "time": "00:43",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil Prices Rise on Trump's Iran Sanctions Threat | Market Update - News and Statistics",
-      "outlet": "IndexBox",
-      "source": "Oil",
-      "date": "2026-08-21T00:43:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYmJycXU3VmRVcHZZaFhDeWZIZ2FhTFRTTHRSUDh2aG9aYnRYUVNFTGlQYlR4cE9IYnZGZU1JX3RZcmhrWEl6c2RiVEgtQWljMHZIX0J2YnhSWXYzM25leHRPQVdYRHBsVnQwbGJ4TEctQU5qR044aUdKWVp1SWhGLU9mLUtUWGVaRC1ieVZlSQ?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "oil-prices-rise-us-iran-tensions",
-      "first": {
-        "outlet": "IndexBox",
-        "date": "2026-08-20T14:52:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "IndexBox",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQY1lPT2c0WmhiaFZDVTFnQ1ptTW9FLWhwamVZNGJDZS1wRlBSUkFwSlBlb1c2X3Ixa1Zfbi1OZTFBWU1pY1BPcHFPNUlPQUEzR00waDFKMVBJTXNndWdZUHNiTWVIRXpjb1pxSDFva21XUHVKcnZwd0hXck5iUkk5SVJUU2ZfSHRlNkVNVg?oc=5",
-          "date": "2026-08-20T14:52:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "23:53",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "White House's Hormuz Traffic Claims Diverge From Independent Counts",
-      "outlet": "The Maritime Executive",
-      "source": "Hormuz",
-      "date": "2026-08-20T23:53:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMHZMTDBoNjdIdFVtY0xTQzI4aDJQMEF3TWhUM1BPcGtXXzUtTDNPY20xU25PQ0ZjZ0ZCSlJWcVhQSnNfSnlLSjAza2tVYjd2XzFNUzVQb18zSzNockFOb0NjeGp2eHlLRGtiM3hIQV9yQkpGV1cyNmJ6VzBVS2VPSlhSTjU1NTRaQnpPbFpUSHNnNWdkZHVRSDBCVWtUTXYxdUFfTDA1M1BkZw?oc=5"
-    },
-    {
-      "time": "23:14",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Bessent says US to impose 'toughest' ever sanctions on Iran, urges China to cooperate",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-08-20T23:14:32.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUlFnUHhPNjlxRW5kTy03TFctOE1ST1NabGVNalozY2hiR2RKcEtfV1ZRblJ1VlJXQXRNem1yZmpIRVVYUjJOd2pzWElTX0JVeXZVR1V1Tk5NOG5oWWUtRVZzWDNFOE5KbE1VNmtubXdodnVzQ1RZMFV3TnpUUXVHM1N5MXZqZTBtdW1iUG8xS18wdi1ranhQQXpfVDdiYnRsc09iN3JtbEhZTVIwS202X0lmSkF2V0c2dFV5NQ?oc=5"
-    },
-    {
-      "time": "22:09",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Trump Calls for ‘Economic D-Day’ on Iran as US Seeks to Restore Hormuz Shipping",
-      "outlet": "WWD",
-      "source": "Hormuz",
-      "date": "2026-08-20T22:09:02.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWkYwYmlrdDh1UWljdFpPN2s3QVRhVHdnS2dqOVhFRWtScGlnOWxMYndoN21KX2oyV2s3QkxpeHR5cWZXQ3pYWThOU2ZKandpalByVHZmTmJMZTZQbGdYZ0MwTF9KTWJQQ3cwQkhwdWNvaVZkSkRuYzFZV1JQdERNcVZseHpXRVNkYldJMmdGVmVHSEhsZTVzNS1uMW9vSUNGZFV2RTJHRk5ZTTFyN3ZjVXZEOA?oc=5"
     }
   ],
   "snapshots": [
@@ -1396,7 +1401,7 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-21T03:12:20.659Z",
+  "intel_updated": "2026-08-21T04:07:58.783Z",
   "event_log": [
     {
       "date": "AUG 21",
@@ -1851,9 +1856,9 @@
   ],
   "sentiment": {
     "bull": 1,
-    "bear": 1,
-    "neutral": 13,
-    "net": "NEUTRAL"
+    "bear": 0,
+    "neutral": 14,
+    "net": "LEAN BULL"
   },
   "vessels_attacked": {
     "count": 43,
@@ -1863,10 +1868,6 @@
     "last_updated": "2026-05-14"
   },
   "chart_brent": [
-    {
-      "t": 1755662400000,
-      "p": 66.84
-    },
     {
       "t": 1755748800000,
       "p": 67.67
@@ -2868,15 +2869,11 @@
       "p": 91.62
     },
     {
-      "t": 1787281144000,
-      "p": 93.56
+      "t": 1787198400000,
+      "p": 93.78
     }
   ],
   "chart_wti": [
-    {
-      "t": 1755662400000,
-      "p": 63.21
-    },
     {
       "t": 1755748800000,
       "p": 63.52
@@ -3878,8 +3875,8 @@
       "p": 85.83
     },
     {
-      "t": 1787281339000,
-      "p": 86.46
+      "t": 1787198400000,
+      "p": 87.83
     }
   ],
   "signal_outlook": [
@@ -3901,7 +3898,7 @@
     {
       "name": "Iran Sanctions",
       "severity": "WARN",
-      "val": "'One-two punch': US vows toughest-ever Iran sanctions, press..."
+      "val": "US vows 'toughest sanctions in history' against Iran, oil pr..."
     },
     {
       "name": "Diplomacy",
@@ -3910,10 +3907,6 @@
     }
   ],
   "chart_spread": [
-    {
-      "t": 1755662400000,
-      "p": 3.63
-    },
     {
       "t": 1755748800000,
       "p": 4.15
@@ -4915,8 +4908,8 @@
       "p": 5.79
     },
     {
-      "t": 1787281144000,
-      "p": 7.1
+      "t": 1787198400000,
+      "p": 5.95
     }
   ],
   "chart_sp500": [
