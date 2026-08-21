@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-21T12:03:44.977Z",
+  "updated": "2026-08-21T13:07:25.624Z",
   "latest": {
     "date": "2026-08-21",
-    "wti": 86.82,
+    "wti": 86.97,
     "wti_prev": 87.83,
-    "wti_delta": -1.01,
-    "brent": 93.75,
+    "wti_delta": -0.86,
+    "brent": 94.11,
     "brent_prev": 93.78,
-    "brent_delta": -0.03,
-    "spread": 6.93,
+    "brent_delta": 0.33,
+    "spread": 7.14,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,25 +160,151 @@
   },
   "intel": [
     {
-      "time": "11:57",
+      "time": "12:31",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Equinor Secures Deal to Supply Crude to ORLEN",
+      "outlet": null,
+      "source": "Rigzone",
+      "date": "2026-08-21T12:31:29.000Z",
+      "link": "https://www.rigzone.com/news/equinor_secures_deal_to_supply_crude_to_orlen-21-aug-2026-184430-article/?rss=true"
+    },
+    {
+      "time": "12:30",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Current price of oil as of Aug. 21, 2026",
+      "outlet": "Fortune",
+      "source": "Oil",
+      "date": "2026-08-21T12:30:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uWGliTTgwN3hqMGh5Q3VPMFhNeGhrWkhOZ3k2YmlvOUZqbEJsd1I0RERiUVZSdVktUzhiWHZkZkxmMDk3a21tb2NQaTVnYndsMTJTb2lwTW5sTkhDN3lQcG93?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "current-price-oil-august-2026",
+      "first": {
+        "outlet": "Fortune",
+        "date": "2026-08-20T20:21:11.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NSzl1LXBGM1VVVlVzazJjZjVwWjB2ekZhMjFwTkVqNVRJN2tuLXpyYnA5T2xxXzlBSnFCeXFyTVpxRUFtalN1QkNyWVFQc2J5amZtWDBDYVN2OEI1aDM5YjNn?oc=5",
+          "date": "2026-08-20T20:21:11.000Z"
+        }
+      ]
+    },
+    {
+      "time": "12:29",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "U.S. Vows “Toughest Sanctions In History” Against Iran, Urges China To Help Reopen Hormuz",
+      "outlet": "Marine Insight",
+      "source": "Hormuz",
+      "date": "2026-08-21T12:29:48.000Z",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYk50OFA4MG5sLWlodHpxZ2QyQkZWdUpfWFl1bEdYZjRLUVRqN0lSdTZNSWVBTWtsRVZwd0xJSUN5Wl9abTFwTTVQNTNPcmdKa3JmeE9kaGhJOXBkSVpaOXI4MnVnWVNwaVAzQmE2b3oyMXY5TTFvTGZVenBvNThpdHlCTHcxbUE1UWF3VkVMTmkxWS1Nd1JSOWkzSWgwd09ZbE4xRFF0d0l3VXV5NE5vbEh5N3ItSFk?oc=5",
+      "cluster_size": 4,
+      "cluster_id": "us-will-impose-toughest-sanctions-history",
+      "first": {
+        "outlet": "Reuters",
+        "date": "2026-08-20T02:29:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0t6ejR6ZDNSMllnR0lXWC1vV3ZyTXoxUDEyeHRXczFpRWtRbzEyWmdkRVRqWi1oZzJEaEF6UnAxcHItbXZ6Z1hKTzBQV2hPOUVFQml3Wk80T1F2UmFRSzIwakhFR2hKbmp3MFJ6LUFDX1BHV3BKeDZxYXdaT2wwWi1kaU5LbkFaX19IekRKSGNUT0VBc1FQeWVRdUxLd0U3V1I5WjZoMmtIcXZUQnRBczZKcTFZa19zUVE?oc=5",
+          "date": "2026-08-20T02:29:00.000Z"
+        },
+        {
+          "outlet": "Maritime",
+          "link": "https://gcaptain.com/us-will-impose-toughest-sanctions-in-history-on-iran-bessent-says/",
+          "date": "2026-08-20T20:24:24.000Z"
+        },
+        {
+          "outlet": "news.cgtn.com",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY1VTOHloV3FMMVM0N1JoR3ozOVZsZkRrcV9PRXVWN0JER0I3MHZ5eWZPQXV0cWI1MjFUUWJieEJGT0lHeFlxT3JiWEtOcFJiZjdscDh0VDlTMGdURUR3SmNTMGVvbXJWSUFXZnI1RlFFSlNHMUZMZEpXaERnTkttcDUyNU1yVjRuemxjUHV5Uk44NkFGZmtpekVCeGJsT2xuVldjTjlZSnkxUzhxZGZDcWxTZTkzYVE?oc=5",
+          "date": "2026-08-21T02:37:53.000Z"
+        }
+      ]
+    },
+    {
+      "time": "12:20",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Oil prices steady on stalled talks over Strait of Hormuz",
+      "outlet": "Transport Topics",
+      "source": "Hormuz",
+      "date": "2026-08-21T12:20:41.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtbXk3M2NSaFc2Y1VVeG84cXl3RXZFV2NSWHRZVy1sWjR0RTlKNHA2T3Z3Mkd1MW1Xa09GeWhZN0dDa1JDOTRZOFB5NkxPT0FVNTB6b3J6Q0luelkwWVJKM290M2NkMVk?oc=5"
+    },
+    {
+      "time": "12:18",
       "severity": "CRIT",
       "direction": "NEUTRAL",
       "text": "Iran-US war latest: Tehran accuses Trump of ‘economic terrorism’ after he vows to crush it with sanctions",
       "outlet": "The Independent",
       "source": "Hormuz",
-      "date": "2026-08-21T11:57:14.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUFFvMGs0Z1NSXzJITXp6YnBBUUJIMEtvLWpTSGhMdFFZakxRWHJoZzJxOWRkUUw4WXFIVDVuVTlUR004THZoRUlDOEVMeURPb3R6RXdQcHlDdkhxa2w5QXVVWENkd1UwUUpZOWhwY2ctR3NaangwN2FkcllZQzUwUWhCX081S2J1eUVadkJRaVgtbmdCNTEyUklmZFFGYU9RTFlTWjMzQ1pVUFU4TjFDTUhEM2hfZw?oc=5",
+      "date": "2026-08-21T12:18:40.000Z",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUFFvMGs0Z1NSXzJITXp6YnBBUUJIMEtvLWpTSGhMdFFZakxRWHJoZzJxOWRkUUw4WXFIVDVuVTlUR004THZoRUlDOEVMeURPb3R6RXdQcHlDdkhxa2w5QXVVWENkd1UwUUpZOWhwY2ctR3NaangwN2FkcllZQzUwUWhCX081S2J1eUVadkJRaVgtbmdCNTEyUklmZFFGYU9RTFlTWjMzQ1pVUFU4TjFDTUhEM2hfZw?oc=5"
+    },
+    {
+      "time": "12:16",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "South African Rand Gains Below 16 Per Dollar, Cuts War Loss",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-08-21T12:16:10.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-21/south-african-rand-gains-below-16-per-dollar-erasing-war-losses"
+    },
+    {
+      "time": "12:09",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "‘AI Renaissance’ in Old Economy Stocks Starting to Get Stretched",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-08-21T12:09:54.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-21/-ai-renaissance-in-old-economy-stocks-starting-to-get-stretched"
+    },
+    {
+      "time": "12:08",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Global Crude Refining Has No Margin for Error, Says Rapidan’s McNally",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-08-21T12:08:24.000Z",
+      "link": "https://www.bloomberg.com/news/videos/2026-08-21/global-crude-refining-has-no-margin-for-error-mcnally-video"
+    },
+    {
+      "time": "12:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Oil Bulls Take Control as Iran Deal Collapses and Hormuz Stays Restricted - Crude Oil Prices Today | OilPrice.com",
+      "outlet": null,
+      "source": "Hormuz",
+      "date": "2026-08-21T12:00:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbTRrSkJOdDlzc21PQmlFNjllT3NFVzU0YURVWTJkMnZ4eW5pN0sxN3A3M3prcGJSaTNLb0V1aDJTS3FidzJjRWdVQkR2dnE4cUc5LUlSSjVlUlFvWnZNWU1teFRwb1dCUElHVGpDWTE3ZUxGQUlnVGUzYzVHYzR6LWlHNEJvUVc0VjdEcEp5NFU0aWNSYmQtY00tczVIY1dxaEVXcWd3eWR1VGRLUnBBam95YW5uMTM1VGFlNTJB0gHDAUFVX3lxTE82cEZyejdIX2s1MFUwZUhBVzh0U1NzZ3hGdE15dVdOUGQ3dGRYQk81dUU4dnBmVzBQbmd0MTM5NlJiaU44U0lJVGVrSWxma0JXVGRYQ25URlU4X2tyNmJnMHdBQkluLWZuMTVvY3pLSWJzZW82TXpKci0yMU1ab3l0Q0hDWHFBMktSRVVwQ0NHZWRlVFlXNGFNaGFTcUVzTTZzOHptX2l2SFJZTEpUNXUtVzZreEQxaHdsenBxYXlwdm9KZw?oc=5"
+    },
+    {
+      "time": "11:41",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "U.S. Navy Tightens Its Grip on the Strait of Hormuz — But Drivers Aren't Feeling Relief at the Gas Pump",
+      "outlet": "Latin Times",
+      "source": "Hormuz",
+      "date": "2026-08-21T11:41:30.000Z",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZEJ2S0g4UE1oMndHdXY1bWVUenZhN2VYUlBGRUNTLXdrd2otX2hpRGJDLXJ4MG5UQnBOajdoQlpGWGVNTEdiM0ZGOGFVR2J6Qk02YkgtaDYxVjhBbWxjOHIxSmFtM3hweVZaX1VwY1kxY3Z4ZHZVLV9WQ1lXUlNXRDdPZFlLYUtoTy0wd3RHdEhqVkUzRkIwcWkxeGd0X3FxSEpIdVd3dUladmQ5eEhNeQ?oc=5",
       "cluster_size": 2,
-      "cluster_id": "iran-war-tehran-accuses-trump-economic",
+      "cluster_id": "iran-losing-grip-strait-hormuz",
       "first": {
-        "outlet": "The Independent",
-        "date": "2026-08-21T05:30:27.000Z"
+        "outlet": "Caspian Post",
+        "date": "2026-08-21T05:51:00.000Z"
       },
       "also": [
         {
-          "outlet": "The Independent",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYkJsQk1rWVprWk85M1UtZVJFV1h6dGFnMnFYemNIbFY2QWlQV081S0lRUk5oR254Z0ljZGpnWVVnRmZreVNyS1Vael9kZzgybnJHYUd6a21PTTVwVjhHTmRQVjBoeFl6Zms0NXpyT3AweEJlTmdTNkpXT29WTjVmLUI5ZkV2ZnVmMktxMUsyeEVsOHc3NDdNak81V0dmdXZYdGN6c3dycjhUYnFHdzBmQ2w1c3ZPVWVRVlpqRA?oc=5",
-          "date": "2026-08-21T05:30:27.000Z"
+          "outlet": "Caspian Post",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXNMek1RU2FuZmxOV1g4UEI5Z1VfQlo2blhGbjZEQ09ZNTRmMXpkX3ptTjhRNE9xRE5XRnJwNHdrNTRlZHAwQlBQc0xpeWhsMVZsMU5jZGl2cFhfa3QzMGxkcXRZRDFfX2t4Q1NSQzlqanZqZWowemJsVkdhTVhJV2NB?oc=5",
+          "date": "2026-08-21T05:51:00.000Z"
         }
       ]
     },
@@ -196,175 +322,95 @@
       "time": "11:22",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Ships passing through Hormuz hover in single digits, data shows",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-08-21T11:22:01.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSEhZX09yZU9wMFlFN0FUUjM0dUhpZ01zMEVvWFBlVHpoQ25lY0xFckRtVnpXMHZfZVA3TU0zRjNNYlUydy1pelQ1Q3Rmb1dPeWZmU3hDTXF2ZERfY3UyY2tteGpocUNoY0FkdE13dXV5cjV1VUh3MmN1al9MUm5xVlh6RWpwenRzQ2dzR0dxci05c2kwQ1VSUGNDTVBJVkFFd0RjZm9GRnBBdw?oc=5",
-      "cluster_size": 3,
-      "cluster_id": "ships-passing-through-hormuz-hover-single",
+      "text": "U.S. Conducting Stealth Operation To Transport Oil Through Hormuz",
+      "outlet": "RealClearDefense",
+      "source": "Hormuz",
+      "date": "2026-08-21T11:22:49.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMEJOUkNadG9mcEplQnhOdlZWYnlzSkVjTmFOOFExWXo5dFNTRVlSb3VpRlJHMVc1WFlVMUp5TVNxaG1jYnZKVkI4V0ZfMk1OTVRUTXJkb0FrU3hVdk1ZTk9mZFhZODJLMF9rS2FSTU1Vdkg0eXVVU3pTNnprNnJYUXVxeGlvVmpBX1dBUWZweUhfQTU4MWV6SkVVUFJfN3FoZjJ5TkVGZU5aVWVKYmVTMURqSTlIZ2E0TlU2Nw?oc=5",
+      "cluster_size": 4,
+      "cluster_id": "us-quietly-guides-millions-barrels-oil",
       "first": {
-        "outlet": "Yahoo",
-        "date": "2026-08-21T03:15:00.000Z"
+        "outlet": "New York Post",
+        "date": "2026-08-19T20:47:00.000Z"
       },
       "also": [
         {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSFMxSzY3NmNhbzhsOS0yOHN0cjdBM1VvSGU2UWl5dFZwLXBLeDZrUFZOb0UxN25oZG43MTlxajdlSXFWUnFiS1hvU3Nrc1htTkNQeThoRS1UYWZ6SHVBbHlYZEpDdG9uN3FrOEEtaXMxMlgxV2J4UmdNWXQ1RkgwQ0tnelNQekN0eEYwY1NB?oc=5",
-          "date": "2026-08-21T03:15:00.000Z"
+          "outlet": "New York Post",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZWROTEVoUk04WnpQVTkxU1k1QkltMDdISmRsN2FmbHBwdy1Kb3dTeDg5MlpfMEltdzBnemRNM0k3a0dMZm5LdmJOOEJHUmNxa3FVeVZ0OXNhS1hockpUUXlNVWZPQUthQ0hxQ3ZldTFYRnl2VDYxUDVjZ001R3BmVTFnQzM5V21TN3JrTDRJSG5OdXlqZU9XSFBQekwzekt1V2lXTTlJaDBvdUVZU1U1NHROeUY3YkZhV1ZPYV9OeEREdw?oc=5",
+          "date": "2026-08-19T20:47:00.000Z"
         },
         {
-          "outlet": "U.S. News & World Report",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQlQxWVdYcU9FVmdYQ3dyei1TYWVnNDQ5UDBtMW9xTmFNWkRUQ3poNGl0RzAzM1c3SmFWdWxMUXB6R2VQOVpURjA2TUJxSkJEYWl6a05NaGNKM1ZicXRXeFFUOFhOQi1rY1liOUJxaFRmOUFmdzdFX0JiT2lickNIWjFidnlveW40MzY3aHNvYkVDbHRJN1NXQlNKSjY0NEhQVWR4dVplS2ZrWU9fZnc?oc=5",
-          "date": "2026-08-21T04:22:56.000Z"
+          "outlet": "Axios",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?oc=5",
+          "date": "2026-08-19T22:27:03.000Z"
+        },
+        {
+          "outlet": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSDgxLWNFOExmX0JzcEF4MXRNOVlfODdNMmVDZjh1UklwN09obDBCSG1TcG03SHV6YVJKSnI4VGFoVEw5aTBBN0FnSkJhNEZ4aGllcjhDQ2QxT1pfYUtBcHZtZWV1eXFsSUxlVXl1bDc2a1FGQ2dmUEd2Q1o0ZUlNN1FtZXFCSGdKdllmNUdxUmZvVHVJUEtQNDNpYVpQWkppSXFXa2RFaTZMbzV1?oc=5",
+          "date": "2026-08-20T18:04:00.000Z"
         }
       ]
     },
     {
-      "time": "10:49",
+      "time": "11:20",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "How China eased pressure on oil markets by halting purchases and relying on reserves",
-      "outlet": "Middle East Eye",
+      "text": "Shipping traffic continues to decline through the Strait of Hormuz - صحيفة مال",
+      "outlet": null,
       "source": "Hormuz",
-      "date": "2026-08-21T10:49:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMEVTbTBVWDB2cDJZZ3hoeVExd3AwYjBUOW5hNlM2WGk3c1g1NUpWNzY3MF9idkNqbnZHb0JxY0NuWjdKWGN6dml2c3Z2WkRWcExVWU15QVh2TzliV2Z0a1JabkRqd3ZCZFpCWlFwX0o5QUtMTEhkc1ZGdkJfY0RaXy1hMXFvQVZHcVI3OWdfWQ?oc=5"
-    },
-    {
-      "time": "10:20",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Indian shares log weekly losses as higher oil, bond yields dent risk appetite",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-08-21T10:20:35.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORTRaUnV1SklLS1c2TjZIUTAyV0Q5aHI1NDJDLUhYMUNfTUt1SzRzMl9ubnV5ejB1RV9pQnU4YXBrU0piZHF4eXZ5WjBDcnRZdy04LTMxcWs3X0RPaHV5Y3lHRGRScWwzX3pRRjZ6TWRlV0dBNWlHbExJbXlOM2liYjZRQ1pWZ1B5bFRWNXU3b3ZuQkpGeU1senpXZm1MeVJvUXk2SHNRMkdWVFlZZ0NGazlNTnY?oc=5"
-    },
-    {
-      "time": "10:12",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "World shares are mixed and US futures edge higher, while oil prices slip",
-      "outlet": "seMissourian",
-      "source": "Oil",
-      "date": "2026-08-21T10:12:44.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbzNZZlFkeTRibUREbTR3WElsX3owMFgyMUN5VE82aDd4Tm0xQUhpZXBtVVo1WFhPLWNVWGxvSHVCWUxvRkZicXZZeVRTcmNFVVJMdGV0T3kxMUpEQ0JZZ3lrNmNBN3Y4a2g5eHhQMWdQMS03eVhwbXRoWHRBZ1U3UW5qUTRsRHNwOW5KYnFPSmhLSTJWWmpsNWhwcDE3eGZoNzNtVlRlZ1l4M1gtRVBzMjYwSGNXYlRDSmtLTlR6NXMzOHpYeUNraTk1Xy0tbE9aNUdIbA?oc=5"
-    },
-    {
-      "time": "10:01",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "EXCLUSIVE: Tankers stack up as Venezuela sells oil faster than its ports can handle",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-08-21T10:01:44.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcmstT2tWcUdBLXhnOE9WcUlmOWdfSzdyZTVPeGoyVVBVQVVVS2piRVZKT1g4X2RLNG9QMWxETllURmVYbndfLTFhaTJMWnBubTlRdmpHX3dndzcwTW1Yd0hreE9QQ25RdXVEMFA4YV9LY3k3OF92NUx5b0xWaG1BNGRmaGt4ZURmemE5TENmWWl1SzY2ZkRxMFNUaUdRVWVtTnExZzBESFFkMGltdjNtYV9pMldubjVzWnR2YVBR?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "tankers-stack-venezuela-sells-oil-faster",
+      "date": "2026-08-21T11:20:14.000Z",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yMnRQUldhTkJveHhpajZqM19CQ3NpU1dDVWhFZFVsYXk4cjdaeWV0RVFJQ015cEpzN0lMUVJrRUtJc0I4LXRoV1BuTFVad2VxdUR5Z2VpaW5EOVY4dTRpcjExaEs5Z1FHdVAzUg?oc=5",
+      "cluster_size": 3,
+      "cluster_id": "us-operates-clandestine-shipping-corridor-through",
       "first": {
-        "outlet": "Maritime",
-        "date": "2026-08-21T08:32:00.000Z"
+        "outlet": "Daily Sabah",
+        "date": "2026-08-19T21:05:00.000Z"
       },
       "also": [
         {
-          "outlet": "Maritime",
-          "link": "https://gcaptain.com/tankers-stack-up-as-venezuela-sells-oil-faster-than-its-ports-can-handle/",
-          "date": "2026-08-21T08:32:00.000Z"
+          "outlet": "Daily Sabah",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN0FTZEk1S3BqQTU3cHBWNWg1dVEtV1dUM0FtOEZRcWZDNlkwMFRNVWdGaV9xeWtfUGlXcWp5ZXkzU0xlRHQ1Si1HY2tERGNnTU84UU5oTm9NaEdHV3lEcEhsM0c4ZlpWMnczZ1l4YWpoMHg1UDJ2SmFHaTRYcVFweHVsVGJ0Z1czejZKR25NSGMyVGpkNUtYNmNESXF1ODVYdjhlaWI2b0tRaGNI?oc=5",
+          "date": "2026-08-19T21:05:00.000Z"
+        },
+        {
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbUREcnNROE5XT09FWFd5aHZpVy1iSkxOM3VRdnJ2aHV4OHI3OFduRmxaejhoSW5tTzNRTGYyNV90RWVPZTZKd2xuM0RJTVdRa0x6SzdiMzgzcElveE5IWkh0S1ZTMEdyZGh3eHpxWExIU0RJYnZWOGdfQ3ktNkxTaVRiNlpDSVNEdTF2WGx6N0VVNjhaM0Q4Sw?oc=5",
+          "date": "2026-08-20T11:51:59.000Z"
         }
       ]
     },
     {
-      "time": "10:00",
+      "time": "11:03",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Olam Agri and Vitol Bunkers complete world’s first co-processed VLSFO bio-bunkering operation in Singapore",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-21T10:00:57.000Z",
-      "link": "https://www.hellenicshippingnews.com/olam-agri-and-vitol-bunkers-complete-worlds-first-co-processed-vlsfo-bio-bunkering-operation-in-singapore/"
-    },
-    {
-      "time": "10:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil prices on track for second straight weekly rise amid Mideast tensions",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-21T10:00:49.000Z",
-      "link": "https://www.hellenicshippingnews.com/oil-prices-on-track-for-second-straight-weekly-rise-amid-mideast-tensions/"
-    },
-    {
-      "time": "10:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Asian stocks mostly rise as South Korea leads rebound; Nikkei set for weekly loss",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-21T10:00:47.000Z",
-      "link": "https://www.hellenicshippingnews.com/asian-stocks-mostly-rise-as-south-korea-leads-rebound-nikkei-set-for-weekly-loss/"
-    },
-    {
-      "time": "10:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "The Strait of Hormuz Isn’t the Only Major Shipping Route in Crisis",
-      "outlet": "The New Republic",
+      "text": "More than 1,500 ships stuck in Strait of Hormuz may trigger global biological invasions",
+      "outlet": "The Express Tribune",
       "source": "Hormuz",
-      "date": "2026-08-21T10:00:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQc2o0NktqckhUQWhIMGx6TDF4NGhGOVowUkhMOTJ1RXdIMWVJMXhuTzEyZDQzQ0trX3BNUnk3WXB3OXptcl80Uks0X284RTR4THVkZWlRekxGM0VLa2E3b0Y2WVlhUTgwZ3JtcllxU2RObGMzUHNCd2ZiN09zcnNxa0xhcGpnTG1GdHJnVXZmRGN6Nng2dzRMa3Y0dWFhSnhKV2ZDUQ?oc=5"
-    },
-    {
-      "time": "09:56",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil set for second weekly gain as US ramps up pressure on Iran",
-      "outlet": "Reuters",
-      "source": "Oil",
-      "date": "2026-08-21T09:56:09.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
+      "date": "2026-08-21T11:03:45.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYU9EOTFzZzZRbVF5cjFzMXVhRERaM05Cd28ybEQyWFl2OWxSZFpsS1VPbms2U1l6OFRQck5IVmZhLWE4a1hwV1U4a1VKelA2bS03bU0tR2hUb3ExTzZNSjBqREhTbG9hdzByck9pcWp3UW9vejZHUXV4QkowamktRndBY1VPUWU1WVpNZHV1TG5LVnlwd1NUbV9GZkh4LXJ0a3VvMllVTFRJaGs0ZU5oSk5QZ3djWnBodlBQeWN4c03SAcgBQVVfeXFMTXlmZ2Q4d1RxS1J2RWVWSDF6NGxMMm5laEJUN2laYjFvQW1rUF9MeEN0eFZtOUhHem91bXM3QWN2aXdnelozT19ZX243dnNsekpWOTFGazc4LUd0a0ZpaDZ4empuU2ZiVlJkOGZVMXIxTjV0elVaYVBQMnU5S3N2T2NlenlLYmdmT3gtUDdEb0ZPV3VJWlZZNzhSTU1rTFBsb1o3bTZsc2Zhd19RNWNZZVFRTXl4ZHdmYXdKcGE1ZmVsZ2JTbnV2aDU?oc=5",
       "cluster_size": 2,
-      "cluster_id": "oil-set-second-weekly-gain-us",
+      "cluster_id": "more-than-500-ships-stuck-strait",
       "first": {
-        "outlet": "Reuters",
-        "date": "2026-08-21T09:56:09.000Z"
+        "outlet": "Anadolu Ajansı",
+        "date": "2026-08-21T10:02:01.000Z"
       },
       "also": [
         {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
-          "date": "2026-08-21T09:56:09.000Z"
+          "outlet": "Anadolu Ajansı",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNlY2ZTl5ZUtmdlpWdElxOTRRcmxseDIxS09RSDFJTHNoWUVVdTNMWVVuOVVZLW1ib1dJcjRxbUhRb1ZhTTRqSy11UWlEdDRlN3dpSV9oTk1VQkZNMy1qRW9rN2o1OERCcXRnalpJVWtkYnJLU1ZWakl1Ty1OYjc5M3VjcmtvcFZpV0s1SlEzT2hKZmtIOUtySlpEVHpJVFgzb3pZdkVWUm9iaFdjbzZKMnpCWGg4UlJJRkZzbmJEaTFHVlVkSkpaLXR6cnBwb19meFVXWDNR?oc=5",
+          "date": "2026-08-21T10:02:01.000Z"
         }
       ]
     },
     {
-      "time": "09:37",
+      "time": "11:00",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Dangote Offers East African States 30 Pct Stake in Planned Refinery",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-08-21T09:37:20.000Z",
-      "link": "https://www.rigzone.com/news/wire/dangote_offers_east_african_states_30_pct_stake_in_planned_refinery-21-aug-2026-184429-article/?rss=true"
-    },
-    {
-      "time": "09:18",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Various Tankers Shuttle Saudi Oil North to Evade Houthis",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-08-21T09:18:13.000Z",
-      "link": "https://www.rigzone.com/news/wire/various_tankers_shuttle_saudi_oil_north_to_evade_houthis-21-aug-2026-184428-article/?rss=true"
-    },
-    {
-      "time": "09:17",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Dow falls 704 points as surging bond yields and oil prices overshadow Walmart earnings miss - TechStock²",
-      "outlet": null,
-      "source": "Oil",
-      "date": "2026-08-21T09:17:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWUhSLUh6d1ZNdXY1alpTRUF1WGVmYTZIWTVXdEpJRnpwRUx4ODhUZWdlb215TndQNmw3WGx6elRDWkJXUnRQSzkycWFXNnNpZFJ4eE1ITUVTcVA1NzdDOVdUSFV3dTBXNzRXbjhpR2FyZ1BucXJzUjFYdWxvdG9TZTBaNG56a0x5TEMzZkxZejNrTHYxMjZMVg?oc=5"
+      "text": "From Hormuz to Petrodollars: The New Middle East Security Equation",
+      "outlet": "Modern Ghana",
+      "source": "Hormuz",
+      "date": "2026-08-21T11:00:55.000Z",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYy1HS2xaamRqazhnV0RNQUFBNW40NXcxWk1YM04zU1NFYkRBM0dfUGhvdGxVVWZFMWdGSl8tdUkyeVU1LTZRVk53c0ttVmFhNGhEWlJIWUxrcUdxams4MXNsYmdjRmVHUDdlUmpNWDlVUkNiSGttRTRzMHpXcVNQV1pKN011bVB5NGR3N2VQbDhwRVV2NklkddIBlwFBVV95cUxPdDY5MEtwNlhLM0c0QUNWUTlFeWtSYUdtVFo5TVEtUUZOR1k3NmFfdE92cHcwdEgzc3lJeEJxRW54cDZBUWstWGxEV0pqVjVkY0hNaVVrSkNINUJvWW5zQjR3eFdWOHhjX1l0bURjNUFXU0ZncjNjSkU5R3dvNHJyeHFqLU8yV2dIUzVJWjZ6NXdvOVJaOEI4?oc=5"
     }
   ],
   "snapshots": [
@@ -1441,8 +1487,17 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-21T12:03:44.977Z",
+  "intel_updated": "2026-08-21T13:07:25.624Z",
   "event_log": [
+    {
+      "date": "AUG 21",
+      "date_iso": "2026-08-21T11:03:45.000Z",
+      "severity": "CRIT",
+      "text": "More than 1,500 ships stuck in Strait of Hormuz may trigger global biological invasions",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYU9EOTFzZzZRbVF5cjFzMXVhRERaM05Cd28ybEQyWFl2OWxSZFpsS1VPbms2U1l6OFRQck5IVmZhLWE4a1hwV1U4a1VKelA2bS03bU0tR2hUb3ExTzZNSjBqREhTbG9hdzByck9pcWp3UW9vejZHUXV4QkowamktRndBY1VPUWU1WVpNZHV1TG5LVnlwd1NUbV9GZkh4LXJ0a3VvMllVTFRJaGs0ZU5oSk5QZ3djWnBodlBQeWN4c03SAcgBQVVfeXFMTXlmZ2Q4d1RxS1J2RWVWSDF6NGxMMm5laEJUN2laYjFvQW1rUF9MeEN0eFZtOUhHem91bXM3QWN2aXdnelozT19ZX243dnNsekpWOTFGazc4LUd0a0ZpaDZ4empuU2ZiVlJkOGZVMXIxTjV0elVaYVBQMnU5S3N2T2NlenlLYmdmT3gtUDdEb0ZPV3VJWlZZNzhSTU1rTFBsb1o3bTZsc2Zhd19RNWNZZVFRTXl4ZHdmYXdKcGE1ZmVsZ2JTbnV2aDU?oc=5",
+      "auto": true
+    },
     {
       "date": "AUG 21",
       "date_iso": "2026-08-21T09:58:56.000Z",
@@ -1883,21 +1938,12 @@
       "source": "Rigzone",
       "link": "https://www.rigzone.com/news/wire/greekrun_oil_tanker_comes_under_attack-18-aug-2026-184402-article/?rss=true",
       "auto": true
-    },
-    {
-      "date": "AUG 18",
-      "date_iso": "2026-08-18T18:42:11.000Z",
-      "severity": "CRIT",
-      "text": "Trump says U.S. has no talks planned with Iran as ships in the Strait of Hormuz still face attacks",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSVpXdXFKRWRIb2xIXzQyOVF5em0xLTJfMGlzSDVQNEN0M0cyWm5Oang0Wk9DejJJM2ctWHIxUEpNSzJxTFB2emhPZnBQOWF6VGZrdUY4bXVVZnFDcUlBZVNzUHc5cTlPVkFyazZiSTdILWM0a2RRRGpsNTY3cXdHOWQ5eDhjNlEycUhJNkxDaTBHWUtVUXYtUlhvTFZYOFpDYUctRFRmdXpyLVJLcFYzMks4RFE2eGNmbW5Ya1d4NzNaS2FiRkVDMTczOVM0Tm40U2ZaY09VU0xQRU5xSS01bQ?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 0,
-    "bear": 0,
-    "neutral": 15,
+    "bull": 1,
+    "bear": 1,
+    "neutral": 13,
     "net": "NEUTRAL"
   },
   "vessels_attacked": {
@@ -2914,7 +2960,7 @@
     },
     {
       "t": 1787284800000,
-      "p": 93.75
+      "p": 94.11
     }
   ],
   "chart_wti": [
@@ -3924,14 +3970,14 @@
     },
     {
       "t": 1787284800000,
-      "p": 86.82
+      "p": 86.97
     }
   ],
   "signal_outlook": [
     {
       "name": "Reserve Runway",
       "severity": "CRIT",
-      "val": "How China eased pressure on oil markets by halting purchases..."
+      "val": null
     },
     {
       "name": "War Risk Premium",
@@ -3946,12 +3992,12 @@
     {
       "name": "Iran Sanctions",
       "severity": "WARN",
-      "val": "Iran-US war latest: Tehran accuses Trump of ‘economic terror..."
+      "val": "U.S. Vows “Toughest Sanctions In History” Against Iran, Urge..."
     },
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": null
+      "val": "Equinor Secures Deal to Supply Crude to ORLEN"
     }
   ],
   "chart_spread": [
@@ -4961,7 +5007,7 @@
     },
     {
       "t": 1787284800000,
-      "p": 6.93
+      "p": 7.14
     }
   ],
   "chart_sp500": [
