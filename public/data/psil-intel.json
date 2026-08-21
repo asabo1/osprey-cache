@@ -1,10 +1,11 @@
 {
-  "updated": "2026-08-21T17:15:24.228Z",
+  "updated": "2026-08-21T17:57:44.662Z",
   "counts": {
     "total": 90,
     "crit": 6,
-    "warn": 14,
+    "warn": 13,
     "bySource": {
+      "drugdiscoverytrends.com": 1,
       "ASU News": 1,
       "The Microdose | Substack": 1,
       "kalkine.ca": 1,
@@ -16,13 +17,14 @@
       "U.S. News & World Report": 1,
       "CNN": 1,
       "Technology Networks": 1,
+      "TipRanks": 3,
       "ABC News - Breaking News, Latest News and Videos": 1,
-      "Stocktwits": 5,
+      "Stocktwits": 4,
       "Yahoo": 1,
       "ScienceAlert": 2,
       "GuruFocus": 3,
       "News-Medical": 1,
-      "TipRanks": 2,
+      "The Maine Wire": 1,
       "scanx.trade": 3,
       "Bangor Daily News": 1,
       "TradingView": 2,
@@ -35,8 +37,8 @@
       "Oregon Public Broadcasting - OPB": 2,
       "Zacks Investment Research": 1,
       "HMP Global Learning Network": 1,
-      "Newser": 1,
       "marketplace.org": 1,
+      "The Debrief": 1,
       "San Francisco Chronicle": 1,
       "Investing.com": 2,
       "Las Vegas Weekly": 1,
@@ -63,20 +65,34 @@
       "Medical Daily": 1,
       "Nature": 1,
       "NPR": 1,
-      "Public Radio Tulsa": 1,
+      "kedm.org": 1,
       "OHSU News": 1,
-      "Mirage News": 1,
       "Scientific American": 1,
       "Nautilus | Science": 1,
       "Military.com": 1,
-      "The Killeen Daily Herald": 1,
-      "Firefighter Nation": 1
+      "The Killeen Daily Herald": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "aca1feeda388",
+      "time": "2026-08-21T17:35:01.000Z",
+      "source": "drugdiscoverytrends.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Before its recent Phase 3 LSD win, Definium modeled up to $70,000 a year for a therapy that could fill a clinical shift",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZmRJVU1fWnBjZjNvMS10dlg0SEtVbHhTTDM0OHNJQ2tDbHhya0I1UTZYZU85Ukp5LXZCX3pzb2JUWTh6Mk53dG1PbHdzMDQybENxWVBGRDlTRlJLbTRTUDZMUjNSckx1WnpWb2RUNDMzYnVvSEFUOHRrRzFfdnNrVDNSLVBqc1Z1YmdVdmJDNkFYWlUyNE41YkNwbmtvNEc2ek9DNi02MWtaQ09GN0djT1FXNWlnaFdCaXZQc2N2ZjJGRzZ0U2hlVDVKbGRybFVnQm5pZEJrVF9xMUxVbEhrN09neTR4am9o?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
     {
       "id": "70306c60538b",
       "time": "2026-08-21T17:13:00.000Z",
@@ -258,6 +274,22 @@
       "tickers": []
     },
     {
+      "id": "073e895143c7",
+      "time": "2026-08-21T08:25:39.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma CEO to Spotlight Mental Health Pipeline at Canaccord Growth Conference",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbl9qdTFINjIxR1VGNjhCa3NRMTZaUURzSGZwQnQ0ekV4Rkk4bXl4dkV4MkwyWlBDOVdCLVY1MV9RMGlsYTVWMUNBYmhpQi01czR5MzJjZHVKbVN0XzMyY1hsSkVpcFpDR2pxWENTRHhpSUtOSHFTZklGcmlveS0wbkctV2I3NlZ4MlJVcmZqLVJpTmJLSkR4QXlqa2NzWE9EM1hYdUVjbHpfTWR4Vm9UZzkzYjBIeEZ6eldsUUI3WVdSVjVrakc0TGJCZnozeGlr?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "b587cbbe3cf1",
       "time": "2026-08-21T07:28:39.000Z",
       "source": "ABC News - Breaking News, Latest News and Videos",
@@ -334,22 +366,6 @@
       ]
     },
     {
-      "id": "f54baeb83e02",
-      "time": "2026-08-21T00:43:49.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "CMPS Stock Jumps Overnight After Trump Order Fast-Tracks Psychedelic Therapies",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd2JnZC1YMF9BcTl0bDJwSkpxTXk5V09SZXh0U21qNzRzZU5wRTNZR25jckI4WVVQTmJpLTgzSGVZcG8wUE9XS3F4Z29ublpQWEJubFExMUtjMC1MS2ttcmZaSC1iek9jWWNVYW9SSkpHQ1E1Ql9lcE4yV0xuOE9COVFEMjE0MG9zTVZHY0hwNkk5SVY3S0Y5UHlEVjQ1bGVZcDVWZFhIRWs3VFYyZ2ZCOFVWN1FkOHBpMWFWanJpUWtub043NGNaaUVWdS11ekExeUw1dFdTOU16TGwtbXVN?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
       "id": "b0d3d56892f3",
       "time": "2026-08-21T00:43:00.000Z",
       "source": "News-Medical",
@@ -394,6 +410,20 @@
       "tickers": [
         "ALKS"
       ]
+    },
+    {
+      "id": "4ae0d0da736e",
+      "time": "2026-08-20T22:27:55.000Z",
+      "source": "The Maine Wire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "MDEA Busts Alleged Psilocybin, DMT Labs Inside Saco Home; Man Held on $250K Bail",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2Uwb1dLV1A0QjBNWC1YeFhZeW00ZWV3VjhTMHc3amhhZGFvOG44WUdRMng2eWhEZWN2LWZOUHZJV2phSXZOQnRFZGRqRWM5YlMtZFJoaDduVVhmX0ZXTVJGUlU3WnpDRlpmMTlBMElENEF2V2l5dVpMZ29nZE52Zk9uYTdRdW9jZzdtWjRWLW5tcll1SW94X0VCMl93cG5PR19PLTZ1SGdoY0pvVVU0eTdkTE9OZw?oc=5",
+      "tickers": []
     },
     {
       "id": "9a28b988224d",
@@ -517,6 +547,22 @@
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNY0pISEN2ZkxOR0pDa1NsdHNGNmxEUkVGVXBjeFBlMlpBMUxMTXR6ajZuaEtfNjZIRHVZcTVzOW5VVGNwbHZRTC1YZmpWUmtLUVVpa2plUlVPcHlRVjRVRHM5YldDNWtsYjM4Qm1EMjlFaXVJeUpndnRkeWsxQWdfVjdvZld3OFBqLUpjM0doLVpobjNtS2UxRDBwdlBpUUVCQUE3YzB0RlNKbGhZcmdrLXRQaFpCdW9qbjdEU2QxMWlXeTF1MVdPRkF2X2VSeWZmNHptZmlkTHdhQdIB3wFBVV95cUxQRk1qbm1xblFBMjVfZmNDdHNIZVE2Uld1Vkg1NzhKSGVMbjVUM09oYzVzOWQ3RjhMTWl2eU1oX09YaURVOGp0QUpUSko1ZF9WaFBFbFBfQ0R4d3o4dklpRlpNRGc1akE5WDRHeXhRTVFOT1lka1hrYmZ0ZDZiSkgyb3Utb3FnNzFwclFXekZZZzQ1RG4tVmcycDJDQ1JWRG04aU1RTWhTOS01bHRBRDdtdUtuSmtQbm9lSnFsOXV6bXZON1o3RFVCWkxCSWhvUXFoZndNS2hSTnhDQzMxWHNR?oc=5",
       "tickers": [
         "ALKS"
+      ]
+    },
+    {
+      "id": "cca45ce7e516",
+      "time": "2026-08-20T16:09:58.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma price target raised to $62 from $8 at TD Cowen",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYzkzaHF4R1lMaTRlVmNYTERiekszakVvVGxTakYyaklFb1p6QjFoYUtWTUVHX3RUU2NIeVM3NWxPMjcwSHJnVTExaEY5eUFKVjM2cmY2TkZpMEdfNUF1MU96c0ZJTUZrdzhjcGswS0VCRVZpaUJlQm9GVFE5UnFYemt3Qi1QV0dwYVNfZzZ3YXhCTUxjZnJLdC1oeVJLZllCT3J1d1ZTeDNPYVU?oc=5",
+      "tickers": [
+        "HELP"
       ]
     },
     {
@@ -749,20 +795,6 @@
       "tickers": []
     },
     {
-      "id": "6f0bd28b6025",
-      "time": "2026-08-20T12:56:00.000Z",
-      "source": "Newser",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Report Card Arrives for Oregon's Legal Magic Mushrooms",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSElRWTRqSkVmaTZqbEF6YzhMbkxOTG82VFVfdkwzZ2hWTW5SV1d3Um5HNW5YRi1QLU1wbU1MUlRIc3k2WldJaE5ETmdYRDJSRHE5dUotc1NGR3h5MVgyck5CcHA4cndMNGdYQnl4UnNqb0l6YkNWV19VX2lWWDBjMnFqTWZBWFkycDBHY19Kc3dVd3E1QjFOc3N4bw?oc=5",
-      "tickers": []
-    },
-    {
       "id": "0a01723477f0",
       "time": "2026-08-20T12:49:35.000Z",
       "source": "marketplace.org",
@@ -774,6 +806,20 @@
       "impact": "LOW",
       "title": "Why pharmaceutical companies are interested in psychedelics",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS25WTU5tZWZvLWhTWVBibDFUQXB0X3Y5TE85OXVOOFFueHFVb3p0aldsZklQaUJkMnRYX1FITmVjY29Lc0RnajhfYnFCTEFpbDdpUmV6SWJvc1lwWFhVRXNiemJ5d09OTVpkVTc0QTBxZ1dQeEVQSENxdDJwVVZoWW5vQnhueHQzUVVOdHo0NHl1S1VXNTY2VHVwSUpldw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "1680c85ca6cb",
+      "time": "2026-08-20T12:10:51.000Z",
+      "source": "The Debrief",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Major Study Finds Hidden Order in the Psychedelic Brain That Challenges What We Thought About Psilocybin",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU1FOT3ZBdGYwUkRhZ2prZEZuUG04ZU5YUGQyRWR4TXlpWDlnTEVDdFRfWWlaR2RfWTRnTXFlVDZQVUM5QU8zTDhnaUpnTThoMmxya2dJbDMwNmJRcGdZRTNOMU1SakRKQjNQMUJta3BibFNLVUMwcHViXzRDbmZvOThtU0N6SE9RTUpzd2QyZzNJbDZVLUN1c1c5UUEtT0RHdXZ0ZzJHYjBXaUdGcjJxaUl3WnpzUEVlSDNDQ0RuSlFnWmRNbjVZ?oc=5",
       "tickers": []
     },
     {
@@ -1229,9 +1275,9 @@
       "tickers": []
     },
     {
-      "id": "34f874be5757",
+      "id": "6b2a1e81070d",
       "time": "2026-08-19T15:22:00.000Z",
-      "source": "Public Radio Tulsa",
+      "source": "kedm.org",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1239,7 +1285,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Real-world study of Oregon's nonmedical psilocybin program shows promise",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPby1VQ2JiZWFFVUFYanZNYjJTYU1UNm5GZXREU3lfVnhzdkthU1pJMy1zYzhkX216VWltZG5LWklYSVpVYVJzTThMZmtRcWF4c2ktMEdoWExZYlVTM0p1LVZxNU50UnRkMUFNZTV5RHF0X28tbm41TGpGdlJnZ3ZqYkxuMVIzd1BrMTVPbHY3SjllZU9sRXZkNnhFNFJCblFlMHZhVGlMaEhtd0ZiM2dwWFZZVzY3T2h4d0luRHhoaWhwMm9wTDU2cXBvanhHQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWUstS2h2V1lCYnc5aXplYnhDSDdBZ0RxOUZwVkd4U3JTTW5JdXRNMGx6UmgwcVctZWY1bXl5RUxhT1llTkl6b0FWMTFSOWVIWnN4R3YxMWNLUHFjN3RfSUV3WDRyUURTMVB5MkJEMS0tOEZDT1VNTkcySV96aXF3aHRVVWFKWXcwdHRzX3VEZHNiald0NmJleDBnVDJNRzRtbURqZmZPMENlWThsenNscEVR?oc=5",
       "tickers": []
     },
     {
@@ -1254,20 +1300,6 @@
       "impact": "LOW",
       "title": "Study finds sustained benefit for people using Oregon psilocybin services",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFA3Y3NSMmE0WG5MLUpiamFXRl9QeUNqR0h4WTE4UkNvTTE0RDJOV20xS0h0UUF1WDUxdTVRenFZQjdORi1SZl8zWFcyTGtKelBGbHIyQWpaRzVyWDRrSmY2YmNsak05d2V1c212M2w3eGEtMkY5LUZUSXFSSW1LaFAwdS1fZk40UjlZdGY1dGtfT3JINHhFSzI1cmI4NERTNm1SWVZMbzhBUQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "4a776edd10dc",
-      "time": "2026-08-19T15:08:00.000Z",
-      "source": "Mirage News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Oregon's Psilocybin Services: Safety, Mental Health Impact",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOai0zUGdlMy03dmZ1bnhDc2RrRjJPOEk4akVjUU95SENSbV9UX3dqYUxwVk5FeGJXMldVX2pab2V3aUNId000cEdLQ3gyWlZKNHlZbVJ6amhkVHc2V0ZUbWZ0UXNjZkQ1QTRZZy11Um5sakh5N2c4ZzlCbkNoMUxic21ZVQ?oc=5",
       "tickers": []
     },
     {
@@ -1384,36 +1416,6 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONFA1T1kwYmVzVWxwV2FNRWppdnRDT2VyekNTWEJQNHN6TG9hNjRnS2ZKeWdfN2hFX2JST1BMcGhIVUNwQThtR2VKeU93ajNjbk43SG1aZEx4LVBxa1JtMjBlUmRUbDZ3QjdQSTVRcExFaXc2VkIxZFI2b3pBRGZqYWpjWjQyc0wwanVXaS1NU1dLc2VIbXhHQ0VoQVQ1MFJEZVNGNw?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "699d302ad3e9",
-      "time": "2026-08-19T10:52:30.000Z",
-      "source": "Firefighter Nation",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "PTSI, Psychedelics, and the Fire Service",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeVpHTzh6T0VMc2xxOXZ0QVN3UkVFWnhOdU43Mkh1ZENpOWdnRWpyOHlDWWNPVUtFTElncmpHRHZIMEJwNkdrMC03OWNlS05YOHdxcWVDRWF0ZUpUNWN1TGZ2cGk3Ym1ONVVaOF9LMVRNVnFPUzVFTDZYTHlVWEg2czhrcnVIOGU5MUNCcEJYRE9FQ1RNeTFZeFhJYjdxSmpDR0NHXzNmSWEwQ2JiODF4cUZPT2VIZw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "1b25574a6003",
-      "time": "2026-08-19T10:28:13.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Helus Pharma: Buy Rating Reaffirmed as Phase 3 MDD Program Advances; $70 Price Target Maintained",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPNUpXbUhWYy02ZVctMWc0VjU5TENXczJjU2JfSElBZGh3YUNtX1hJdW9xbE9VNmdERjhzbjlrWXJ1dnNMTnRkLU15cHlodzF2Rk1MS2Z1ZG5aTnNhak1TZEN3al9SZURtZUZPaDFYSTk1aHdWZUZvWmRaV2tHOUlFVUtFaldvREVKVXpoVWhxUXREc0FXeXJYVzloRHJpR0k0NUR5c0xiY2ZfT2F1Y21jLVhxVDFPR3YzTndpY3JSQkpiRlBFQ2wyS0d5dG9OMkxWc1RBY3RjLW5wbWts?oc=5",
-      "tickers": [
-        "HELP"
       ]
     }
   ]
