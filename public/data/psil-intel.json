@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-22T15:33:37.363Z",
+  "updated": "2026-08-22T15:52:05.206Z",
   "counts": {
     "total": 90,
     "crit": 6,
-    "warn": 12,
+    "warn": 14,
     "bySource": {
+      "Comic Watch": 1,
       "Yahoo Finance": 3,
-      "Stocktwits": 4,
+      "Stocktwits": 3,
       "Pluang": 2,
       "Earth.com": 2,
       "Seeking Alpha": 2,
       "KTVZ": 1,
       "scanx.trade": 4,
-      "TradingView": 4,
       "ASU News": 1,
       "PoPville": 1,
       "drugdiscoverytrends.com": 1,
@@ -32,8 +32,8 @@
       "ScienceAlert": 2,
       "GuruFocus": 3,
       "News-Medical": 1,
-      "The Maine Wire": 1,
       "Bangor Daily News": 1,
+      "TradingView": 2,
       "vinanet.vn": 2,
       "dars.gov.et": 1,
       "OregonLive.com": 1,
@@ -48,6 +48,7 @@
       "San Francisco Chronicle": 1,
       "Investing.com": 1,
       "Las Vegas Weekly": 1,
+      "STAT": 1,
       "SWI swissinfo.ch": 1,
       "Health Tech World": 1,
       "Hospital + Healthcare": 1,
@@ -56,6 +57,7 @@
       "Central Oregon Daily": 1,
       "New Atlas": 1,
       "FirstWord Pharma": 1,
+      "AOL.ca": 1,
       "Statesman Journal": 1,
       "Stock Titan": 2,
       "Behavioral Health Business": 1,
@@ -65,13 +67,28 @@
       "KJZZ": 1,
       "ThePrint": 1,
       "BioSpace": 1,
-      "New Scientist": 1
+      "New Scientist": 1,
+      "Medical Daily": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "04af6078c28d",
+      "time": "2026-08-22T12:00:32.000Z",
+      "source": "Comic Watch",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Garth Ennis & John McCrea Team Up For Psychedelic Horror Tale THE SNAIL This November",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON2JwM29EWU1ETGNCSTdIcHFRZ09STGxXdmg4czZVekhFVGNLclN1R0JGMDM3Q3pQSVQ4b2dzellOdmkxWjdVUnVhbS1xRFpDZDQ1MDBzTk5oVFdSMjBvVF9RT0NZT0tHME03eG1iaUFDelNlaGFBelc0aGhxamVSMkYtcDRCOGVqTURBbTF2ektBb1VuT1k5WlQ3d1NwQ1dxTUpFVDBQdEJLeTdRa194VFNR?oc=5",
+      "tickers": []
+    },
     {
       "id": "e3387b435928",
       "time": "2026-08-22T10:09:08.000Z",
@@ -197,22 +214,6 @@
       ]
     },
     {
-      "id": "65b05483f76a",
-      "time": "2026-08-21T20:32:39.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "GH Research Plc Balance Sheet – HAM:1KA",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83NGpPU3lWMkZRdkVsc0MxRG9DNkt2SUJndWx6UXZXWW84MXc4RFFIRWhhMnZSRlh3d0lYUlgzOE5XVk5vTHFWX3Y0c1RtNUpUbGNjN0xlVzlHdTRkRWhXcXlLV09ENzF1eWlGa3JpZGxPMUdUQ21xZQ?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
       "id": "c5d8ccd18440",
       "time": "2026-08-21T20:10:56.000Z",
       "source": "Seeking Alpha",
@@ -225,38 +226,6 @@
       "title": "Helus Pharma: An Undervalued Psychedelic Platform Approaching A Major Catalyst",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOGNjQUxuSHd5YVhkc0NSMEVDRFZvUHBsT3UxS2ozc3AyYXNGbEtVVDZUbzBBZVB4MUg5QkhJN19pX29EMWEwalpObVBNaHNrVllXNFo0NzRoV1FzVWloS0ZMM19DU2R2eUxUbmNKNFl5bEgtYWhHT3BvR0lMSUtxM05NTk5pRTRFaGk3alp5TzczX3hJbU13MVlMd2lqamZIX2J0UjIxeHFaNFB4OXc4Q3NpbDdsd0tkUFE?oc=5",
       "tickers": []
-    },
-    {
-      "id": "46e41eff30b9",
-      "time": "2026-08-21T19:07:09.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Revenue per share of GH Research Plc – HAM:1KA",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaF9Nb1lseWdTdEVUanNRb09IT3k4NU1ob0w3RVRNcld3dHZxQm5lcmdTdmMxMFU3bVZ6STNyYkVsZ2UzMFI3MTNMVldxNWwzRGZiNlVqaUNlR2VEakdXUmRkYU44RDVjQkpkUE5ZNkktQm1Gd2xQdk9mT2xDWDUyZnN4Wlk4b1NSYXZETlZmUXJLQkFESFB4b3gtNA?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "ec6542a54c96",
-      "time": "2026-08-21T19:00:41.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
     },
     {
       "id": "70306c60538b",
@@ -633,20 +602,6 @@
       "tickers": [
         "ALKS"
       ]
-    },
-    {
-      "id": "4ae0d0da736e",
-      "time": "2026-08-20T22:27:55.000Z",
-      "source": "The Maine Wire",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "MDEA Busts Alleged Psilocybin, DMT Labs Inside Saco Home; Man Held on $250K Bail",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2Uwb1dLV1A0QjBNWC1YeFhZeW00ZWV3VjhTMHc3amhhZGFvOG44WUdRMng2eWhEZWN2LWZOUHZJV2phSXZOQnRFZGRqRWM5YlMtZFJoaDduVVhmX0ZXTVJGUlU3WnpDRlpmMTlBMElENEF2V2l5dVpMZ29nZE52Zk9uYTdRdW9jZzdtWjRWLW5tcll1SW94X0VCMl93cG5PR19PLTZ1SGdoY0pvVVU0eTdkTE9OZw?oc=5",
-      "tickers": []
     },
     {
       "id": "9a28b988224d",
@@ -1101,6 +1056,20 @@
       "tickers": []
     },
     {
+      "id": "b0783ea23549",
+      "time": "2026-08-20T08:19:59.000Z",
+      "source": "STAT",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "How Trump loyalist Heidi Overton became the president’s pick to run the FDA",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdmZEUm1Nd25MUG5JQ285M3d3dHFHb2dNZDMwbkJvbFowM3RQREFkYW9PQVJwLWdNMFVVNGV4Ri1TNnp4OV84YXhOYThRb25kX09iQUdQRTl2dm9DNVU5LWNsZWVNU3E2OTVfRzRSWHo1UTVoamExMUszQ2xwUklvSUw1YUNxb1Q1QmZRVFh6UVpMVkM2S0txMFFXVlNBR05NZXI0?oc=5",
+      "tickers": []
+    },
+    {
       "id": "ef1fdb547e57",
       "time": "2026-08-20T08:17:08.000Z",
       "source": "SWI swissinfo.ch",
@@ -1228,6 +1197,20 @@
       "impact": "LOW",
       "title": "Physician Views In-Depth: Docs signal readiness to prescribe Compass' psychedelic for depression",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Bc1dNYkV3VXgxQ1pqOGMzQWx5TlRZTzZuUHFER21HVWhlNS1nOE1GMi0tTzlld1JNVTVGVFI1SklrMy1LNnF3ZXk1VUZiOF9OU2Jv?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "30be234d86e9",
+      "time": "2026-08-19T23:08:03.000Z",
+      "source": "AOL.ca",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Trump doubles down on plans to give psychedelic drugs to US veterans for mental health",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcWZPQm42elJneXo2S2s5bGRUR3phMzVlaXU3cVpiV2ZGS3Nkel8yM21HVkg3ZVJNMlJfMTdneG9jRXlMT3BIOW1EbHhoRU9talE3LWxQUG82b2IwV3N0R19hVEprdG1PRTRoV3ZFQTF6R0tXX1RQM25id0w0a3BCS1NtN0s4dw?oc=5",
       "tickers": []
     },
     {
@@ -1418,6 +1401,20 @@
       "impact": "LOW",
       "title": "The wild, gripping story of the psychedelic secreted by desert toads",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUWgzUDlZRkROcUxBR19sZkhDUGFnV3FLcG0xN3A2WjNVZkFuVXZoUjJlLU16V3NTQTg0eVYxQUZ5SHBJX0VQb3AyYXhlMnhpdm8xN2NiV093azRWTjBtRnBtdnRwQkhZZmtKV0NobEFZT0drOFY1VWZsc0hZMmRxSGpBMEgxSndGeFMyZzNpd1NPdFVWSEhIN2dIYy1iLVNEcFVUMm02TVh0M09hN013SF83QQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "151b3a821561",
+      "time": "2026-08-19T16:31:00.000Z",
+      "source": "Medical Daily",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "A 1960s Psychedelic Was Rebuilt to Skip the Nausea, and Mice Got the Brain Benefits Anyway",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdHp4cnRYX05BOUZZN25iMHJYUk5rODc0MlNOdF9SVkFsazhoNWliN0lsVWphQUlmdERKd0RhSU1Mb1FUV3NiS1RheHAxaXVYWWIwN2ItMXhIVllVLUxXbl9GZ2FqMWlHamY3Q3JWY2VMMGRPR3NwajR5YkptZzZzd1lSc21pb3JSOWc?oc=5",
       "tickers": []
     }
   ]
