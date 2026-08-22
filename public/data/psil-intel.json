@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-22T15:02:15.910Z",
+  "updated": "2026-08-22T15:33:37.363Z",
   "counts": {
     "total": 90,
     "crit": 6,
-    "warn": 13,
+    "warn": 12,
     "bySource": {
       "Yahoo Finance": 3,
       "Stocktwits": 4,
@@ -18,7 +18,6 @@
       "drugdiscoverytrends.com": 1,
       "Broken Frontier": 1,
       "The Microdose | Substack": 1,
-      "ABC News - Breaking News, Latest News and Videos": 2,
       "kalkine.ca": 1,
       "Psychedelic Alpha": 2,
       "Medical Xpress": 1,
@@ -28,10 +27,12 @@
       "Technology Networks": 1,
       "TipRanks": 3,
       "simplywall.st": 3,
+      "ABC News - Breaking News, Latest News and Videos": 1,
       "Yahoo": 1,
       "ScienceAlert": 2,
-      "GuruFocus": 2,
+      "GuruFocus": 3,
       "News-Medical": 1,
+      "The Maine Wire": 1,
       "Bangor Daily News": 1,
       "vinanet.vn": 2,
       "dars.gov.et": 1,
@@ -47,7 +48,6 @@
       "San Francisco Chronicle": 1,
       "Investing.com": 1,
       "Las Vegas Weekly": 1,
-      "STAT": 1,
       "SWI swissinfo.ch": 1,
       "Health Tech World": 1,
       "Hospital + Healthcare": 1,
@@ -56,7 +56,6 @@
       "Central Oregon Daily": 1,
       "New Atlas": 1,
       "FirstWord Pharma": 1,
-      "AOL.ca": 1,
       "Statesman Journal": 1,
       "Stock Titan": 2,
       "Behavioral Health Business": 1,
@@ -65,7 +64,8 @@
       "KOIN.com": 1,
       "KJZZ": 1,
       "ThePrint": 1,
-      "BioSpace": 1
+      "BioSpace": 1,
+      "New Scientist": 1
     },
     "byTier": {
       "T2": 90
@@ -328,20 +328,6 @@
       "impact": "MED",
       "title": "What is an “embedded” brain? Johnson & Johnson plans to invest in “neuroplastogen” company Delix; and University of Miami gifts Trump Administration accelerated path to research ibogaine",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92bV9tSTRYZTdFUklYb3lxQmpua1hPekpVMTUtVTkyNzN0V2RZMllOOGNORVRCX1FwR2xSQ1BwV3ZxRUl3VzQyQzIzWTczVEJnRXN0ZVFjQmhldG9EVHZkY1RfR0FYVnBLM0NYNVhDUDczQUM3cjFOYg?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "a3678f481136",
-      "time": "2026-08-21T14:56:04.000Z",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Video Denver votes to effectively decriminalize psychedelic mushrooms",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ndDhaYUZGN0ZYNGZXT1NCamNfMWVlV1pFY1ZzMmliQW16OGlRWTV4Mm5QMTZsSUtaMXd3UXdOa0VnNmc4THRmSU9tUQ?oc=5",
       "tickers": []
     },
     {
@@ -647,6 +633,20 @@
       "tickers": [
         "ALKS"
       ]
+    },
+    {
+      "id": "4ae0d0da736e",
+      "time": "2026-08-20T22:27:55.000Z",
+      "source": "The Maine Wire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "MDEA Busts Alleged Psilocybin, DMT Labs Inside Saco Home; Man Held on $250K Bail",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2Uwb1dLV1A0QjBNWC1YeFhZeW00ZWV3VjhTMHc3amhhZGFvOG44WUdRMng2eWhEZWN2LWZOUHZJV2phSXZOQnRFZGRqRWM5YlMtZFJoaDduVVhmX0ZXTVJGUlU3WnpDRlpmMTlBMElENEF2V2l5dVpMZ29nZE52Zk9uYTdRdW9jZzdtWjRWLW5tcll1SW94X0VCMl93cG5PR19PLTZ1SGdoY0pvVVU0eTdkTE9OZw?oc=5",
+      "tickers": []
     },
     {
       "id": "9a28b988224d",
@@ -1101,20 +1101,6 @@
       "tickers": []
     },
     {
-      "id": "b0783ea23549",
-      "time": "2026-08-20T08:19:59.000Z",
-      "source": "STAT",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "How Trump loyalist Heidi Overton became the president’s pick to run the FDA",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdmZEUm1Nd25MUG5JQ285M3d3dHFHb2dNZDMwbkJvbFowM3RQREFkYW9PQVJwLWdNMFVVNGV4Ri1TNnp4OV84YXhOYThRb25kX09iQUdQRTl2dm9DNVU5LWNsZWVNU3E2OTVfRzRSWHo1UTVoamExMUszQ2xwUklvSUw1YUNxb1Q1QmZRVFh6UVpMVkM2S0txMFFXVlNBR05NZXI0?oc=5",
-      "tickers": []
-    },
-    {
       "id": "ef1fdb547e57",
       "time": "2026-08-20T08:17:08.000Z",
       "source": "SWI swissinfo.ch",
@@ -1242,20 +1228,6 @@
       "impact": "LOW",
       "title": "Physician Views In-Depth: Docs signal readiness to prescribe Compass' psychedelic for depression",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Bc1dNYkV3VXgxQ1pqOGMzQWx5TlRZTzZuUHFER21HVWhlNS1nOE1GMi0tTzlld1JNVTVGVFI1SklrMy1LNnF3ZXk1VUZiOF9OU2Jv?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "30be234d86e9",
-      "time": "2026-08-19T23:08:03.000Z",
-      "source": "AOL.ca",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Trump doubles down on plans to give psychedelic drugs to US veterans for mental health",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcWZPQm42elJneXo2S2s5bGRUR3phMzVlaXU3cVpiV2ZGS3Nkel8yM21HVkg3ZVJNMlJfMTdneG9jRXlMT3BIOW1EbHhoRU9talE3LWxQUG82b2IwV3N0R19hVEprdG1PRTRoV3ZFQTF6R0tXX1RQM25id0w0a3BCS1NtN0s4dw?oc=5",
       "tickers": []
     },
     {
@@ -1416,6 +1388,36 @@
       "impact": "MED",
       "title": "Trump's FDA pick Overton good for psychedelics, new pain meds but bad for vaccines: Analysts",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONi1PcG1CcngxTll2WGg3aE9Bd19mOWEyT1BGb1FLRlQ2ZDk5Zzd3Tk9fcFd0emtidlNGVFQ3NHJzMFE5X205ZlFWb0lsSnlRNEZxejBtVnk1U1VwV3B1OW1MSExUNDk1TkdwaGlfYUlPT1Q5cEZHblFlTHh3WWtsbHV0RjJJQkJJNmhYZnpMLWNvbVJiU1EtR0JheVdPM1FNSlpWQ2FEYlUyTUw0VVZEdGNqN1F3RUVLZ1E?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "29d94931f018",
+      "time": "2026-08-19T18:20:35.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Q2 2026 Alkermes Plc Earnings Call Transcript",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBRZ2Jub0NETHVsZWZCN1V5WFdVVGxMQ3dWYjkySHBMeDdlczhteFhZbVlrTWhBb1pXSVFFeS1WT0k4aU05WUxRSVNZRXdod09vd25nQ3FyemtTS1Q3UDJnSE4zOXB3R2IxZ0E0?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "96bd7847bcdd",
+      "time": "2026-08-19T17:24:29.000Z",
+      "source": "New Scientist",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The wild, gripping story of the psychedelic secreted by desert toads",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUWgzUDlZRkROcUxBR19sZkhDUGFnV3FLcG0xN3A2WjNVZkFuVXZoUjJlLU16V3NTQTg0eVYxQUZ5SHBJX0VQb3AyYXhlMnhpdm8xN2NiV093azRWTjBtRnBtdnRwQkhZZmtKV0NobEFZT0drOFY1VWZsc0hZMmRxSGpBMEgxSndGeFMyZzNpd1NPdFVWSEhIN2dIYy1iLVNEcFVUMm02TVh0M09hN013SF83QQ?oc=5",
       "tickers": []
     }
   ]
