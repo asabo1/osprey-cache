@@ -1,14 +1,16 @@
 {
-  "updated": "2026-08-22T08:12:17.953Z",
+  "updated": "2026-08-22T08:47:43.916Z",
   "counts": {
     "total": 90,
-    "crit": 6,
-    "warn": 13,
+    "crit": 5,
+    "warn": 14,
     "bySource": {
       "Pluang": 2,
+      "Earth.com": 2,
       "Seeking Alpha": 2,
       "KTVZ": 1,
-      "Stocktwits": 2,
+      "TradingView": 3,
+      "Stocktwits": 3,
       "ASU News": 1,
       "drugdiscoverytrends.com": 1,
       "Broken Frontier": 1,
@@ -16,25 +18,22 @@
       "kalkine.ca": 1,
       "Psychedelic Alpha": 2,
       "Medical Xpress": 1,
-      "Earth.com": 1,
       "MarketBeat": 6,
       "WGME": 1,
       "U.S. News & World Report": 1,
       "Technology Networks": 1,
-      "simplywall.st": 3,
+      "TipRanks": 3,
       "ABC News - Breaking News, Latest News and Videos": 1,
       "Yahoo": 1,
       "ScienceAlert": 2,
       "GuruFocus": 3,
       "News-Medical": 1,
-      "TipRanks": 2,
-      "The Maine Wire": 1,
       "scanx.trade": 3,
       "Bangor Daily News": 1,
-      "TradingView": 2,
       "vinanet.vn": 2,
       "dars.gov.et": 1,
       "OregonLive.com": 1,
+      "simplywall.st": 2,
       "Yahoo Finance": 2,
       "The Business Journals": 1,
       "Endpoints News": 1,
@@ -55,7 +54,7 @@
       "openPR.com": 1,
       "Central Oregon Daily": 1,
       "New Atlas": 1,
-      "FirstWord Pharma": 1,
+      "FirstWord PHARMA": 1,
       "AOL.ca": 1,
       "Statesman Journal": 1,
       "Stock Titan": 2,
@@ -70,9 +69,7 @@
       "Medical Daily": 1,
       "Nature": 1,
       "NPR": 1,
-      "Marijuana Moment": 1,
-      "OHSU News": 1,
-      "Mirage News": 1
+      "HPPR": 1
     },
     "byTier": {
       "T2": 90
@@ -96,6 +93,20 @@
       ]
     },
     {
+      "id": "89e1a551113e",
+      "time": "2026-08-22T07:39:00.000Z",
+      "source": "Earth.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Veterans with severe PTSD saw major improvement after psilocybin treatment",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOel94cGFKMUlNcXdIeHcwdzRIbVdtZ1N6UHBQbFdHVF9NUVRjQmd1bXVNbmt6OXVRa1lTQnhhYUdpTFhjWmtxNEFIX2xFQWhGRlVLN3BYMnBmZXJIcGtPcGgwY3dJeENsOGxSTXNVSWk2S3piMFFrelo2R3drU3NZMEFaNF9zZXl0b1htUms5aWFZQURNSEhMbmpadw?oc=5",
+      "tickers": []
+    },
+    {
       "id": "5752e96b975c",
       "time": "2026-08-22T06:57:57.000Z",
       "source": "Seeking Alpha",
@@ -105,7 +116,7 @@
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Neurocrine Biosciences Stock: 'House Full Of Options' (NASDAQ:NBIX)",
+      "title": "Neurocrine Biosciences: 'House Full Of Options'",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV1RKZTN4UGdJU19hRGVGaWJlRXhvNDM2SE9lTW9GOWdWR3ZDYzhXaWFlZWJGOERCZlh4LUkxM2R1TktoT1RNZllYRGMwdFFoRUNqZVc5M0NqTGlhSVJLMTI0cU1MWkFvVktNM25RSGNfMEZjb0ZxOVl5dHdMMUR3RlVXdXl3LUtnemRyemd3?oc=5",
       "tickers": [
         "NBIX"
@@ -139,6 +150,22 @@
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOWtlcWhqakVHMUYxLWU1OWtPaVVodDVJVzIyTHQtTTJPTXdka3V4dnVuTlhEUF95OXd6bHdaenhIbHdVTGUxRjU4cHVBZmtGcWlUMVlkUDRCZzNKdWtGVnRCLV93VmtUZVNTZzVuR3haN1BqWTNqdlpMVzJVN0FNNWRRcUJuUDJCWVB6TjFtYS10Q2FnY0h3T3R6dmdTMHhNQlg5U1ZmOXI?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "65b05483f76a",
+      "time": "2026-08-21T20:32:39.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "GH Research Plc Balance Sheet – HAM:1KA",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83NGpPU3lWMkZRdkVsc0MxRG9DNkt2SUJndWx6UXZXWW84MXc4RFFIRWhhMnZSRlh3d0lYUlgzOE5XVk5vTHFWX3Y0c1RtNUpUbGNjN0xlVzlHdTRkRWhXcXlLV09ENzF1eWlGa3JpZGxPMUdUQ21xZQ?oc=5",
+      "tickers": [
+        "GHRS"
       ]
     },
     {
@@ -366,18 +393,20 @@
       "tickers": []
     },
     {
-      "id": "601732c4a194",
-      "time": "2026-08-21T05:19:08.000Z",
-      "source": "simplywall.st",
+      "id": "073e895143c7",
+      "time": "2026-08-21T08:25:39.000Z",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "earnings",
-      "severity": "CRIT",
-      "direction": "BEAR",
-      "impact": "HIGH",
-      "title": "3 Revenue Generating Psychedelics Stocks Retail Investors Are Screening Right Now",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWVpXWkxIWHhhQVRCRlRJLWlKWkJZMzFnNUlIdmM0d0VHNHRXTXd4REhCY3ZrV2tLTXIxY3RUQmZNWkQ4Smd1MXZfdTdVWmlkUEQySDJEUDVqeVhlekR5bEpEYkZ6X3hiekhBVE93ZkR6eUhtZXZXX1pOSXExZURLbmNRZDVKS2FvLWFsdDhWV3RfTE1vaFd5Zms4QjkwSDdPR21vTk5VYVFiMTYyM1dUbmg5dTBoTG94R1FFaWo2TV9PWFl1akxWSnA4YzJjNUxrUWxid2RBN1pGVnlCNWdUQtIB5gFBVV95cUxOTkdSRE9ITDZnaXFBYk9EOXBmWF9ud1hNSks5REJtWDdiRXczVG9mcXNmX2twWHFiUzFSNDduTkJWS25VV015YnotcnBsaFh1dU5uc3o3OGUyWmJtdEtYXzNyS1pDMGgxVXJ1RTJoV3NPYjRlUTVBZDNPVTktT1JzaW1LbjVPeTZuRFhmRjI0alVma3RwT0E0Ymd1dXNMY3E4bjdXbXoyWkJvXzZqamJMVXFCR0NrX2RDMk1ySHg1YzdlNG9SdFZ5TGJnbXZNN0tyTUZ2Q21jRlNZdzFHX3pDcVNsX1R2QQ?oc=5",
-      "tickers": []
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma CEO to Spotlight Mental Health Pipeline at Canaccord Growth Conference",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbl9qdTFINjIxR1VGNjhCa3NRMTZaUURzSGZwQnQ0ekV4Rkk4bXl4dkV4MkwyWlBDOVdCLVY1MV9RMGlsYTVWMUNBYmhpQi01czR5MzJjZHVKbVN0XzMyY1hsSkVpcFpDR2pxWENTRHhpSUtOSHFTZklGcmlveS0wbkctV2I3NlZ4MlJVcmZqLVJpTmJLSkR4QXlqa2NzWE9EM1hYdUVjbHpfTWR4Vm9UZzkzYjBIeEZ6eldsUUI3WVdSVjVrakc0TGJCZnozeGlr?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "b587cbbe3cf1",
@@ -440,6 +469,22 @@
       ]
     },
     {
+      "id": "f54baeb83e02",
+      "time": "2026-08-21T00:43:49.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "CMPS Stock Jumps Overnight After Trump Order Fast-Tracks Psychedelic Therapies",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd2JnZC1YMF9BcTl0bDJwSkpxTXk5V09SZXh0U21qNzRzZU5wRTNZR25jckI4WVVQTmJpLTgzSGVZcG8wUE9XS3F4Z29ublpQWEJubFExMUtjMC1MS2ttcmZaSC1iek9jWWNVYW9SSkpHQ1E1Ql9lcE4yV0xuOE9COVFEMjE0MG9zTVZHY0hwNkk5SVY3S0Y5UHlEVjQ1bGVZcDVWZFhIRWs3VFYyZ2ZCOFVWN1FkOHBpMWFWanJpUWtub043NGNaaUVWdS11ekExeUw1dFdTOU16TGwtbXVN?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "b0d3d56892f3",
       "time": "2026-08-21T00:43:00.000Z",
       "source": "News-Medical",
@@ -470,6 +515,22 @@
       ]
     },
     {
+      "id": "f25c1e31b88a",
+      "time": "2026-08-21T00:14:59.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Dow, S&P 500, Nasdaq Futures Dip As AI Fears Hit Software Again: Why APLD, PANW, CMPS, INFQ, IAG Are Trending After-Hours",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZmZlYTFQcVVJXzRzREZqWUZ2Qmk0X0JvUkZ6LUI0LVZfTVhsQ0s2RXRpTVN6UHdrX3Q5NlJSa01pNkxoV1ByRWtxVjY5emttUDhTSHowdm5sRkg0NUU2NzBoSlQtZ1ExUVZBVnd6MGhHYkZqSjBzNnJPSWluczliLTZVME5HTHBwbmh3Wm51ZVRjemVjbFRia1hROEdadmkwY09oUWREV1hXMzhQUjhVM0NWS0J4cVV1QTdUbjhKM3J6c0NIUDJJNFpB?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "307a34b3ee5b",
       "time": "2026-08-20T22:34:27.000Z",
       "source": "GuruFocus",
@@ -484,20 +545,6 @@
       "tickers": [
         "ALKS"
       ]
-    },
-    {
-      "id": "4ae0d0da736e",
-      "time": "2026-08-20T22:27:55.000Z",
-      "source": "The Maine Wire",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "MDEA Busts Alleged Psilocybin, DMT Labs Inside Saco Home; Man Held on $250K Bail",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN2Uwb1dLV1A0QjBNWC1YeFhZeW00ZWV3VjhTMHc3amhhZGFvOG44WUdRMng2eWhEZWN2LWZOUHZJV2phSXZOQnRFZGRqRWM5YlMtZFJoaDduVVhmX0ZXTVJGUlU3WnpDRlpmMTlBMElENEF2V2l5dVpMZ29nZE52Zk9uYTdRdW9jZzdtWjRWLW5tcll1SW94X0VCMl93cG5PR19PLTZ1SGdoY0pvVVU0eTdkTE9OZw?oc=5",
-      "tickers": []
     },
     {
       "id": "9a28b988224d",
@@ -685,23 +732,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLTFCU2E2UGx5Sk50RS03TWtWMExWMThkOXBvQlpYU3o4cHo4ME1wRGtBRWVvMFA5RTk3cXZiUDl2R2ROTU9HWkFHZFFHV2tFMXlGeDBnMkUwamRjWTRQNU03SnA4ZmdDOTdVUTBkbVlDYXdIYmM2TkJUWWkyQnppSDFMTXNmekNjdlNYTUVCVUZvcFJqUU9kQWE0VndsUy1JVGpGQjhfV0hFMHM?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "b645ac3d36aa",
-      "time": "2026-08-20T15:36:23.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "CMPS Stock Clocks Muted Gains But Analysts Back Psychedelic Drug’s Durability Ahead Of FDA Filing",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNMjFhaEsxVWwtTjBVbGVhN3pQdjFoUjNzbEVmcVRraWUxb096N0R5YkpnSnlLcVFqMVRoaXQ1UWkxRHoyemd5RHgxS0RWQlN3MUduR25LSml3Ym4wamVRSkcxRnVxWlNOeGVDWHRrOG8tX2FrRldPckNNazR3MUhlc2NYbHhqdTA4dEdJUElRZ0xVVHExMjNCTV80TmlGVGNLSWwtR1kybUhXQlgtTzEzdll0U2ZpRHV1Uk1JN25fd0poNk1xZmo0Z2lqbnp3S1dIbVRQcVpNT0NCSTNiY241dlhPcldOTWNyTEhhZDFBLVh3QQ?oc=5",
-      "tickers": [
-        "CMPS",
-        "DRUG"
       ]
     },
     {
@@ -1101,7 +1131,7 @@
     {
       "id": "7b286d10b7e6",
       "time": "2026-08-20T00:48:25.000Z",
-      "source": "FirstWord Pharma",
+      "source": "FirstWord PHARMA",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1375,45 +1405,17 @@
       "tickers": []
     },
     {
-      "id": "70bd2a1660c8",
-      "time": "2026-08-19T15:12:04.000Z",
-      "source": "Marijuana Moment",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Oregon's Psilocybin Program Helps People Improve Mental Health, Federally Funded Study Published By American Medical Association Shows",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOdUNwdkF4YUV5dlBpWkhnem5yMUF5aTQtLVNkdWVZWkRIMkpTZU4ySnJxTVNTZzVSSDlMdDJxZ3NuRTZ0bUo2cTdVc2V6NFJ6RFFlZGNKUUtDNHRKeWx5VUhyT08xZERJWEhMTTJoV1pieWxxeXZ3bTVOTUZrNkgxRHNQX3psbm5oQms0Nkhid0l6WV83QUFFTGNkQ2tINjB6VFVTQ09Zb2NtRkhzTlVFZkc2TWY2M1Y0YVU2WlJBOXgxMWhKSDd3TndnTlViTDNtV0ZuenNQeVlKWmN1c2ptOEszem5TbU9jcjNDdzg4b01rejQyVEZvWg?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "7d6fe3100a5c",
-      "time": "2026-08-19T15:09:30.000Z",
-      "source": "OHSU News",
+      "id": "8fc83b208415",
+      "time": "2026-08-19T15:22:00.000Z",
+      "source": "HPPR",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Study finds sustained benefit for people using Oregon psilocybin services",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeFA3Y3NSMmE0WG5MLUpiamFXRl9QeUNqR0h4WTE4UkNvTTE0RDJOV20xS0h0UUF1WDUxdTVRenFZQjdORi1SZl8zWFcyTGtKelBGbHIyQWpaRzVyWDRrSmY2YmNsak05d2V1c212M2w3eGEtMkY5LUZUSXFSSW1LaFAwdS1fZk40UjlZdGY1dGtfT3JINHhFSzI1cmI4NERTNm1SWVZMbzhBUQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "4a776edd10dc",
-      "time": "2026-08-19T15:08:00.000Z",
-      "source": "Mirage News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Oregon's Psilocybin Services: Safety, Mental Health Impact",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOai0zUGdlMy03dmZ1bnhDc2RrRjJPOEk4akVjUU95SENSbV9UX3dqYUxwVk5FeGJXMldVX2pab2V3aUNId000cEdLQ3gyWlZKNHlZbVJ6amhkVHc2V0ZUbWZ0UXNjZkQ1QTRZZy11Um5sakh5N2c4ZzlCbkNoMUxic21ZVQ?oc=5",
+      "title": "Real-world study of Oregon's nonmedical psilocybin program shows promise",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd2J0RnRxdkNYU0xrakYtN29FcFhoWkF2LWpfaUhwalp2bUJTbmN4R2VHRVNaZURleW9SUkN2bVNsY2NiTXgwdzBfSEJIU3BrZV81azlkcmdGZm1LZHdJWk93UWVKWFpJb3Uybm9UVGFKZ1NCblVvY1B2X21UYk5mWldTUWpKbTZOVmVmdDBORWRQcWlGUzZEX1hDbXFiRjhzbk5QcG94ejNYb3U1U2dCYjV3?oc=5",
       "tickers": []
     }
   ]
