@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T20:35:28.482Z",
+  "updated": "2026-08-23T21:00:56.107Z",
   "latest": {
     "date": "2026-08-23",
     "wti": 87.06,
@@ -160,6 +160,46 @@
   },
   "intel": [
     {
+      "time": "21:00",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Equinor and ORLEN strengthen energy partnership with crude oil agreement",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-23T21:00:16.000Z",
+      "link": "https://www.hellenicshippingnews.com/equinor-and-orlen-strengthen-energy-partnership-with-crude-oil-agreement/"
+    },
+    {
+      "time": "21:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Bintulu Port expects positive cargo throughput growth in 2026",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-23T21:00:03.000Z",
+      "link": "https://www.hellenicshippingnews.com/bintulu-port-expects-positive-cargo-throughput-growth-in-2026/"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Tanker traffic at Saudi Arabia’s Yanbu port falls by a third, report says",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-23T21:00:03.000Z",
+      "link": "https://www.hellenicshippingnews.com/tanker-traffic-at-saudi-arabias-yanbu-port-falls-by-a-third-report-says/"
+    },
+    {
+      "time": "21:00",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Oil Holds Near Highs as Iran Conflict Uncertainty Persists",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-23T21:00:02.000Z",
+      "link": "https://www.hellenicshippingnews.com/oil-holds-near-highs-as-iran-conflict-uncertainty-persists/"
+    },
+    {
       "time": "14:47",
       "severity": "MKT",
       "direction": "NEUTRAL",
@@ -188,16 +228,6 @@
       "source": "Rigzone",
       "date": "2026-08-23T11:00:00.000Z",
       "link": "https://www.rigzone.com/news/wire/exxonmobil_warns_of_looming_decline_at_kazakhstans_top_oilfield-23-aug-2026-184436-article/?rss=true"
-    },
-    {
-      "time": "21:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Excelerate’s FSRU resumes operations, gas supply improves",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-08-22T21:00:27.000Z",
-      "link": "https://www.hellenicshippingnews.com/excelerates-fsru-resumes-operations-gas-supply-improves/"
     },
     {
       "time": "15:54",
@@ -291,36 +321,6 @@
       "source": "Maritime",
       "date": "2026-08-21T14:06:03.000Z",
       "link": "https://www.tradewindsnews.com/tankers/us-giant-sunoco-moves-into-european-bunker-market-with-joint-venture/2-1-2032301"
-    },
-    {
-      "time": "13:07",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Buru Mulls Mini Refinery in Western Australia",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-08-21T13:07:19.000Z",
-      "link": "https://www.rigzone.com/news/buru_mulls_mini_refinery_in_western_australia-21-aug-2026-184431-article/?rss=true"
-    },
-    {
-      "time": "12:31",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Equinor Secures Deal to Supply Crude to ORLEN",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-08-21T12:31:29.000Z",
-      "link": "https://www.rigzone.com/news/equinor_secures_deal_to_supply_crude_to_orlen-21-aug-2026-184430-article/?rss=true"
-    },
-    {
-      "time": "09:37",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Dangote Offers East African States 30 Pct Stake in Planned Refinery",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-08-21T09:37:20.000Z",
-      "link": "https://www.rigzone.com/news/wire/dangote_offers_east_african_states_30_pct_stake_in_planned_refinery-21-aug-2026-184429-article/?rss=true"
     }
   ],
   "snapshots": [
@@ -1399,7 +1399,7 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-23T20:35:28.482Z",
+  "intel_updated": "2026-08-23T21:00:56.107Z",
   "event_log": [
     {
       "date": "AUG 23",
@@ -1854,9 +1854,9 @@
   ],
   "sentiment": {
     "bull": 0,
-    "bear": 0,
-    "neutral": 15,
-    "net": "NEUTRAL"
+    "bear": 1,
+    "neutral": 14,
+    "net": "LEAN BEAR"
   },
   "vessels_attacked": {
     "count": 43,
@@ -3893,7 +3893,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Equinor Secures Deal to Supply Crude to ORLEN"
+      "val": null
     }
   ],
   "chart_spread": [
