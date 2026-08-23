@@ -1,10 +1,12 @@
 {
-  "updated": "2026-08-23T13:03:36.681Z",
+  "updated": "2026-08-23T13:44:03.889Z",
   "counts": {
     "total": 90,
-    "crit": 5,
+    "crit": 6,
     "warn": 11,
     "bySource": {
+      "Toronto Star": 1,
+      "Stocktwits": 4,
       "marketscreener.com": 1,
       "Willamette Week": 1,
       "PsyPost": 2,
@@ -17,7 +19,7 @@
       "Seeking Alpha": 2,
       "KTVZ": 1,
       "scanx.trade": 4,
-      "TradingView": 3,
+      "TradingView": 4,
       "ASU News": 1,
       "PoPville": 1,
       "drugdiscoverytrends.com": 1,
@@ -33,7 +35,6 @@
       "TipRanks": 3,
       "simplywall.st": 3,
       "San Francisco Chronicle": 1,
-      "Stocktwits": 3,
       "Yahoo": 1,
       "ScienceAlert": 2,
       "GuruFocus": 2,
@@ -50,12 +51,11 @@
       "Newser": 1,
       "marketplace.org": 1,
       "The Debrief": 1,
-      "Investing.com UK": 1,
+      "Investing.com": 1,
       "Las Vegas Weekly": 1,
       "STAT": 1,
       "SWI swissinfo.ch": 1,
       "Health Tech World": 1,
-      "Globes - Israel Business News": 1,
       "Hospital + Healthcare": 1,
       "Daily Mail": 1,
       "openPR.com": 1,
@@ -66,15 +66,43 @@
       "Stock Titan": 2,
       "Behavioral Health Business": 1,
       "Newsweek": 1,
-      "The Conversation": 1,
-      "KOIN.com": 1,
-      "KJZZ": 1
+      "The Conversation": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "40bbc1c2cc60",
+      "time": "2026-08-23T11:00:00.000Z",
+      "source": "Toronto Star",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "This Toronto writer took a massive dose of psilocybin to face stage-four cancer. It changed how she saw her final days",
+      "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNZWNWVnlLaXNJd0l1OGd4WlA4LUVVLUNTdk5yTVN0NFNzRXNPajlVYmo4LUU2a3B3aFBIQy1meXJJa3dKVVFoMVJ5dnVuTHo2MWFEblU1NVlsWlk1ckxLMDRKUmRPNWtUcFNtZEpLc3lFMjZ3eGtWd1hJTDR5b2VKeDNKTURMbzNWUTEydlpqNXEtajZENFFGTkh5cllkaHBhZFNhZjFrc1pJS2JrQm1xWUVnZkVSVDczNnRtMG1lZTFCR1dObmwyQkVBZjBWbFM2M0tGWXg2SVVqc2lKa3hTenVoeFhFVHpHWGZaQ21PdHV3YzRQWTFvbExlY2ZsZ3oyc1NTalJqeUg4MjhyN0xzb0F1em1nOWIwTmw4MjJlSWROa01KZzNjVU05Qmo?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "e992c27e000e",
+      "time": "2026-08-23T06:02:23.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "SRx Health Decided To Invest In A Psychedelic Drug Company That Just Went Public – Here’s What Aided The Decision",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNW5LdE5JOEdPOTBEdHNYSTJTQTRpUGZldUVPQjliMlc4eWZtR3V4VUxaVDE2QjRhMnhHcXRNeGhYLWZ3ejBIcWhFRjRHeFZ4dndobjMzOEQxZWpxSlpHVVlWNmJMTlJHN0ZCNC1HRm1JOFZDd2dzcl9zVUlkZEcxS0k4Z3ZkdmN5M05qRDRNWE0xeHpZSTZoWVBlZ0VpVUExa0lmY1RUQmJlMjBBT2ZldGJoU19ZT3NKYl8zYUhVUTcySE5yMGJ3dEFiSE5SQWlUQUdNODNyMnNuSUFRLUVRR2Y1ZHpBdGtEc0JZbTJwWXRSZzRFc1JtRms2VlRSWXZoMjNUZ2pPNA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
     {
       "id": "b96faad1af79",
       "time": "2026-08-23T00:37:14.000Z",
@@ -540,17 +568,17 @@
       ]
     },
     {
-      "id": "5b150033ff64",
-      "time": "2026-08-21T05:19:10.000Z",
+      "id": "601732c4a194",
+      "time": "2026-08-21T05:19:08.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "impact": "HIGH",
       "title": "3 Revenue Generating Psychedelics Stocks Retail Investors Are Screening Right Now",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTkdSRE9ITDZnaXFBYk9EOXBmWF9ud1hNSks5REJtWDdiRXczVG9mcXNmX2twWHFiUzFSNDduTkJWS25VV015YnotcnBsaFh1dU5uc3o3OGUyWmJtdEtYXzNyS1pDMGgxVXJ1RTJoV3NPYjRlUTVBZDNPVTktT1JzaW1LbjVPeTZuRFhmRjI0alVma3RwT0E0Ymd1dXNMY3E4bjdXbXoyWkJvXzZqamJMVXFCR0NrX2RDMk1ySHg1YzdlNG9SdFZ5TGJnbXZNN0tyTUZ2Q21jRlNZdzFHX3pDcVNsX1R2QdIB5gFBVV95cUxOTkdSRE9ITDZnaXFBYk9EOXBmWF9ud1hNSks5REJtWDdiRXczVG9mcXNmX2twWHFiUzFSNDduTkJWS25VV015YnotcnBsaFh1dU5uc3o3OGUyWmJtdEtYXzNyS1pDMGgxVXJ1RTJoV3NPYjRlUTVBZDNPVTktT1JzaW1LbjVPeTZuRFhmRjI0alVma3RwT0E0Ymd1dXNMY3E4bjdXbXoyWkJvXzZqamJMVXFCR0NrX2RDMk1ySHg1YzdlNG9SdFZ5TGJnbXZNN0tyTUZ2Q21jRlNZdzFHX3pDcVNsX1R2QQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWVpXWkxIWHhhQVRCRlRJLWlKWkJZMzFnNUlIdmM0d0VHNHRXTXd4REhCY3ZrV2tLTXIxY3RUQmZNWkQ4Smd1MXZfdTdVWmlkUEQySDJEUDVqeVhlekR5bEpEYkZ6X3hiekhBVE93ZkR6eUhtZXZXX1pOSXExZURLbmNRZDVKS2FvLWFsdDhWV3RfTE1vaFd5Zms4QjkwSDdPR21vTk5VYVFiMTYyM1dUbmg5dTBoTG94R1FFaWo2TV9PWFl1akxWSnA4YzJjNUxrUWxid2RBN1pGVnlCNWdUQtIB5gFBVV95cUxOTkdSRE9ITDZnaXFBYk9EOXBmWF9ud1hNSks5REJtWDdiRXczVG9mcXNmX2twWHFiUzFSNDduTkJWS25VV015YnotcnBsaFh1dU5uc3o3OGUyWmJtdEtYXzNyS1pDMGgxVXJ1RTJoV3NPYjRlUTVBZDNPVTktT1JzaW1LbjVPeTZuRFhmRjI0alVma3RwT0E0Ymd1dXNMY3E4bjdXbXoyWkJvXzZqamJMVXFCR0NrX2RDMk1ySHg1YzdlNG9SdFZ5TGJnbXZNN0tyTUZ2Q21jRlNZdzFHX3pDcVNsX1R2QQ?oc=5",
       "tickers": []
     },
     {
@@ -566,22 +594,6 @@
       "title": "‘You can practically get high just seeing it’: Legendary psychedelic bus comes home to San Francisco",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTng1akY3ODNwU28tX3BzUmhMS2U1ZVlQbV9vS0VWcHA4MnBGb1R6TWNfbUd0aWI1ekhueU9Oc0NySmpKZDdIRml5WmpWQ1hFVTdvNmcyWDduYkRWdmlNSXp4RmdWU2NDeURpdDZfdjRpdHdaU0pCUDdxT0RVNXctOFVIUi1TMlFBdnc?oc=5",
       "tickers": []
-    },
-    {
-      "id": "8ed429cf2bb2",
-      "time": "2026-08-21T03:25:15.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "This Stock Lost 71% Of Value After Anxiety Therapy Missed Key Goals – But Retail Believes It’s Oversold, Says Won’t Panic-Sell",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOSDY3Q1E0VU45eWo4LVRzSG85WU1zTzVCUDdVekxycEdielpKN1d0cFZJVnJZMXdrSmJLY3hFZHZ2T2pEV29lc050cHhBcWI3LUx2VmxRSFNPeUxISVJjUGVTdjZzUl8xb1VhUVQ5c0V4SHdmWWdIREJGN2ZydkpLbG5MelBiVnVLU2tWV0hhanMwTHJHMDhtZXA5a25FRno4aWNYc2E2OEVzU0JncmJnQ1M4V3R4Sk9EbmVFUUdTYTMwT0ZTQmpfU09QdTIwVUl5d0xsSU1rN1NGN3hkMURScDdzVHRXS3VUdFh3dHVqX0RfZi11N2dFdHRJU3BKd3AtMGN2WEZLTUlCRE5RNE0yd1NTNA?oc=5",
-      "tickers": [
-        "VTGN"
-      ]
     },
     {
       "id": "ad6d79d788af",
@@ -685,6 +697,22 @@
       "impact": "MED",
       "title": "Compass Pathways (CMPS) Earnings Call Highlights COMP360’s Path",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVh5UXVPZ2xoUDBERDZzSjhyMkRMRHo3VEJfMmo1TEkzWE1acDJQS01DRTlTbHlkRE0wcmtIaFZPNGk2aVFDZ2ZvTC1nX1pVeFBvQ2g5SVFDajdsdGlpem5xdVNGWUFPaTExT3M1SExQcmFHSFhuaGFUc09XclpReTdkSmtnS3ByZlJRWF90dE1ma3RGYU9EWld2NjZ1SjFLZy1ldVItNHRDQXBwdE04N0F3?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "f25c1e31b88a",
+      "time": "2026-08-21T00:14:59.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Dow, S&P 500, Nasdaq Futures Dip As AI Fears Hit Software Again: Why APLD, PANW, CMPS, INFQ, IAG Are Trending After-Hours",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZmZlYTFQcVVJXzRzREZqWUZ2Qmk0X0JvUkZ6LUI0LVZfTVhsQ0s2RXRpTVN6UHdrX3Q5NlJSa01pNkxoV1ByRWtxVjY5emttUDhTSHowdm5sRkg0NUU2NzBoSlQtZ1ExUVZBVnd6MGhHYkZqSjBzNnJPSWluczliLTZVME5HTHBwbmh3Wm51ZVRjemVjbFRia1hROEdadmkwY09oUWREV1hXMzhQUjhVM0NWS0J4cVV1QTdUbjhKM3J6c0NIUDJJNFpB?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -938,6 +966,22 @@
       ]
     },
     {
+      "id": "eb7be16d87ce",
+      "time": "2026-08-20T15:14:00.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Is NBIX Stock a Buy as Fast Growth Meets a Premium Sales Valuation?",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlpSUVoTlJUWTNDX1FwV0ZqWGpoRFA3LXFuTllLbW80X0N0cmphN2Znb2JkUWRnaE9GNW1QdWNhckZoa1BoTWNNUGpfMWZ6cWsxOTVkZEFCOTZzaGJZVEdJU3k0N0pSb2I2SUZZNGk4dDdNM2dCUUI5dE5aLXFqaV9FblNpMWFxTHJXZ1hlUDg5cmNVdU51MXBJQ2thejRuOGR6ems2MHFmWEJ4R3FaWmxfYjVPNDZMdFJoVy1sSQ?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "59380b2aeb23",
       "time": "2026-08-20T15:01:11.000Z",
       "source": "ScienceAlert",
@@ -1096,9 +1140,9 @@
       "tickers": []
     },
     {
-      "id": "ac78b432c2e6",
-      "time": "2026-08-20T10:52:00.000Z",
-      "source": "Investing.com UK",
+      "id": "63f0577b26b4",
+      "time": "2026-08-20T11:17:09.000Z",
+      "source": "Investing.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1106,7 +1150,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "TD Cowen raises Helus Pharma stock price target to $62 on trial timing",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOREpQVUNDVmFJalEwSnpZUmRzcW1fOVdLaEpmQTRid1dGZGhDN01iUU1BMTA1bFF0bzdOelQ1MW5aY1VKckFhZmFFN3J6WDZfS3hUZURCbVU0Q1A2LUx6RjhWc1JXZXRXQnkyLVpLS212cUpmeV82WG14X3g2T0VHWld1SGMxMHFEMHJtU0tTZDlTX0JzczhJSmlTbXFNSnhiOF9NclM2UmlTN0txTVNuSzByTEZsUmlEaUcycWowc1kyTTluSVNpaUlB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNlBKdFE0NzdTNFRjYnJWc0RzcVhpRkx3WGQwcGR6U1puVUtWYmZEQ3BrNjlFX3lSQllDZDJ5VjlNVGJ6ZGU5a1NvU2xjY2NZSVNQMjZzcjZmcTNFWUtCMmVuQ0gyV1R0YTdUd29XVmdJU0VIdm5qRWpFQkEtSVpCX0tpMjQ0R09GV0ROMEdtWDNtMGF4V1Y5T3BRUWVOZW8zTVAzSXZsNl9oSnRSUm5HNl9mTnNZWHMxR0RISThkV3FmVWJpcTRodA?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -1181,22 +1225,6 @@
       "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNMC1sSUZhd1ljbFFJYWQyM2tFN3p5UEFTTzBaMGNXdmtJYW9Hd3lLZkNNeXB4NG5YSzkxcktrck1qbEgwemsxNW1MZng1cjhxZWVQZEJ3ZlhKYW5sdXFpNnZrVHE0LVZ6LTY5UUZMaHZXekZpZ0JINDZCTmNEazVUYWZyTXBieHU5Zjh5MXJObU0xekxOcHY3LXFiMnNwZDQteUJEWDR4VDFYeDN0MHJTQ21HdDZmSGFZRm5fZEU3aDBiM2Y0X2xrT2NpbmsyYktQTi1vRFJvbHBYZ0w2TEpNMllDOXhwOGhMcEJidkRmeXFKdTRUNHFNSTlRZHVKVG15aEV2TQ?oc=5",
       "tickers": [
         "CMPS"
-      ]
-    },
-    {
-      "id": "5057318fa994",
-      "time": "2026-08-20T07:00:00.000Z",
-      "source": "Globes - Israel Business News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Zacks Investment Research",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54SVJBa0NZT0N6amNWUEF5aVZ2ZFYyT0xRUmhkODFfU3NrU19vcm5DbnBuWGJod3VGaFh0OW9zYXBQa1Q2TFFnOUpQajBMVVpYdGFhTVZiQ2ZxQkxoSlMyTQ?oc=5",
-      "tickers": [
-        "NBIX"
       ]
     },
     {
@@ -1385,34 +1413,6 @@
       "impact": "LOW",
       "title": "New research shows how psychedelics reorganise the patterns in your brain",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVWg2Y0J5bmtESVNnc0xQcVJqRHRmMHJOSEI2T2JSMURGTms0TVR0RzFVVmkxcVl6Yk5jZnRVbGZqMVpxc3NpU1Zod3FsZ3Uwa1d0NFJkZlRCOGlHc0RTS1l4MXRHS0pjTngwTUVBWkJNSXJXNm1pWU1neEdwV2Y1R2lyNUdrUU83VWI3WFY4bHdYMHZkZW45S2dBcUxrUmlvaC1scmlDck1QcF90?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "495d0af399f7",
-      "time": "2026-08-19T19:35:47.000Z",
-      "source": "KOIN.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "OHSU study finds Oregon psilocybin services helped anxiety, depression, PTSD",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSzN2ejYyOFpKWkRVYWp0Vzd5SXltTUpXMzhZS0QtVHlUVzVxdDFoQlgxazY5OGpFbzJ6RXk4VzRNTDhHcjllQ05YbHNFX0FLUHRqTGdTUDVrXzJaZjdqMC1wOEhDY0luMEhXamlERXpoWjROWU45ZVVkSzZUcXJaeWZfVEZ6OUpWZF8zTXRYUTdVOF9XNHRBRjFwaS1ENWNXX2tCMVJESklNTHot0gGyAUFVX3lxTE5RdjNEbzZ6bkVrTXBhaDAtVHo5dmFRcmxUZ2szOWxvVDJuRUxFem9FVW92MloyUE5WWG9BVEpWWURreWw5WUQwa2NDVUNVT2ZudlloRXpiY2xSZlRRT0FudHBjM2hFMURkUHN4Z25IUkE1UHdJRVpkdjRqb0gyel9OS1hUSHY4Vk52aTNHc2dtOUZJYUh5VG5ONk0yV25tZmhHZXNSVFhPZUNycGNkWXY0dFE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "f9fc10131165",
-      "time": "2026-08-19T19:22:00.000Z",
-      "source": "KJZZ",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Arizona researchers will study ibogaine as PTSD, brain injury treatment. What it will look like",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcXFZVFdhMVlRUE9najM1WERNVTdVQWVQdkFvM0FlUjMwQ0oyQ0d1S2JrLVhFNjV5RDMzc3R5N2hnbW0zMi1Gb3Uta3hUbVZfOWxtREFCYjBmYm5ILVZXeDd4ODgxUWlEM3c4U3lteGE2UjVRdnNfeHBKMTBjQlV3ejBtckN5WXQ3cDd0QTljdEp4elNlMF9Hd3JfLTZnN1huT0xNaGc0YUNidmxyaEQyblhUc0FTX09jUjcyNUNueXpuRVhXM1dmMmVGc1dzZDg?oc=5",
       "tickers": []
     }
   ]
