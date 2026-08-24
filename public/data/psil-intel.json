@@ -1,15 +1,16 @@
 {
-  "updated": "2026-08-24T21:55:06.885Z",
+  "updated": "2026-08-24T22:42:22.018Z",
   "counts": {
     "total": 90,
     "crit": 6,
-    "warn": 7,
+    "warn": 8,
     "bySource": {
+      "Investing.com Canada": 1,
+      "Stock Titan": 5,
+      "Université de Montréal": 1,
       "New York Post": 1,
       "Seaside Signal": 1,
-      "Stock Titan": 4,
       "simplywall.st": 3,
-      "WAtoday": 1,
       "The Microdose | Substack": 2,
       "Minnesota Spokesman-Recorder": 1,
       "huckmag.com": 1,
@@ -36,14 +37,13 @@
       "Earth.com": 2,
       "Seeking Alpha": 2,
       "KTVZ": 1,
-      "TradingView": 5,
+      "TradingView": 4,
       "ASU News": 1,
       "PoPville": 1,
       "drugdiscoverytrends.com": 1,
       "Broken Frontier": 1,
-      "The Business Journals": 3,
       "kalkine.ca": 1,
-      "Psychedelic Alpha": 1,
+      "Psychedelic Alpha": 2,
       "Medical Xpress": 1,
       "Moomoo": 1,
       "MarketBeat": 3,
@@ -61,13 +61,61 @@
       "Inyo Register": 1,
       "Bangor Daily News": 1,
       "dars.gov.et": 1,
-      "OregonLive.com": 1
+      "OregonLive.com": 1,
+      "The Business Journals": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "57401fbcb5c4",
+      "time": "2026-08-24T22:40:10.000Z",
+      "source": "Investing.com Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "Alkermes narcolepsy drug shows positive phase 2 trial results By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTHVfYkVrN2hUUlNobTRJaEJuN1Z4VTFnUTJWMjdHVTVQV0xVVFNkd3Z5UGhGcXdDYU9TaWZaTGI4YUx1SlRvMmJQZTRQREgwNGJrLWREOEFFcVg1eWxGcDhIT2FWOERXU0szSXZrMXAxVm85Z3M4d3RLUWZueW1QZi1VSHc1aWM3OGk1QnYxemhNdmNzWDFmUzNtYTVfQ3MzZ3hIbGVFd1BfamxoNGRCbXFPdVFrRHhNWUlKUVU0SQ?oc=5",
+      "tickers": [
+        "DRUG",
+        "ALKS"
+      ]
+    },
+    {
+      "id": "d1126b20d3ae",
+      "time": "2026-08-24T22:34:33.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Alkermes’ investigational narcolepsy treatment improved wakefulness at every dose",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTDcyWFJ0LURQb1AtbU4xN2tpQ1BCUDdQb3J2WDVpTWZiMUVlWkJ0RUZrUmxPLWZIUnZlWUlZSlFMSUN1WW9nQ2NMU00wQjBBVmd0enI4RC1fWnpOT1o1bENrejFnU3M0MzF6LXl4RUs5dmZtVXlIZEtyS3JkdXN2V1RMeGt2cmJqaUFjQTRsU3hHSmh6MC1SX0FKTV9fUXpQSXFsME1MWGltbE5uMFNndEtNZzJYdzlwY01aNm9lZw?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "49143ab6b625",
+      "time": "2026-08-24T22:13:25.000Z",
+      "source": "Université de Montréal",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Magic mushrooms in palliative care: Clinicians are keen but ill-equipped",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUGZmZU5xNUs5YTRDdkEydUNiZFUzejFyaUxsRGRKaVRNX0pyYWFuOW94QnNUT2lDVC1Mc2V2NEVveHFtbDJnSm55SXRLdENoTllUVGZyaGVOaGtjQUFtX3dvQ1JEUjFpUEVNQ2FNUEttbTBJelhMRzU1c2RIR0VlRC1wOU51VVRZUVFIc3cxOFNlWURPeE8yV3FiY2lJN0hHM0F3Rm1ZTnBkdWpyY2dfdmg2S0lYSkFHU2lqS2FpMA?oc=5",
+      "tickers": []
+    },
     {
       "id": "359eeef2b67c",
       "time": "2026-08-24T20:47:00.000Z",
@@ -124,22 +172,6 @@
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZGxCblk5b3diNm1oWW12VTNuSm9qa19GYzNlZW9NNGFYWWZxSXE0ZWRERWl1TUZhUEN5cF9uS3NBUXRCV2lSa1Jyb21uZnpkU0wyVncwZlhDaC02NWFudzNHMlR3U1RKc18zN3d1RXNEakRWZVZwWHU0S0pTbnVzMjlnV2V0cFV6N015Q040M1NoNzZsNUdzUTNpUThJY2luTVFwNVhwLUhWRm9lck1qdkExZENPRGduYk5HTFVVVklYZjZHVjhXTFVGeGlUc0U3c2hsOU5jbDE3V3lEaFdOQlZoVkhfOUdQS09NUtIB8gFBVV95cUxNRzhnMXBOczAzbXk1WU0tNGdmbDVLNDF5d3pqVGVNb3dMLXB1RWFpQnhJUGhoRTBDTjdsV3BiS0h2N1lsdUZYUmk2ZXJUY2Z0VmNWdTg1dzFxeHk2QzB0bG5meXJOT1ZXRDhOcjBkQm96UE9xaTRSRTBtYWV1alZIX1pJeUw1OF9TWDN1dV9DcUM2WDdjeFdrbFJmN09uQjBUWE5WR09GTzlBaTk3Mlg5a3cyTkVZellRbUNsdTFjaHNjd3pUbXItcUhfTlFBRDNBcHI1eTlvbm9QSTNGSXZBZFpydTdQNDd6OEZqTFNQTFhUdw?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "b8feb5a53865",
-      "time": "2026-08-24T19:00:00.000Z",
-      "source": "WAtoday",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Big pharma’s next $10 billion gamble: Ozempic for your brain",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd2VzVXlTX1o0SjFqNkp5T2hrVTJLVXVJcXp1dVgyYmk2TFhOMWRTalFiUmdEUTQyQkx0U1RqX0RfUGNCNUlSRW4zVXBQVW94end4N25jZVRqeTc0ZEktS3JkRDhUOTZYYzFxSEJJaW55bDByc2E0dFhOeWtMUkdMMXV4UlpHZHNkd29RTVBiOEJWcFByeUhxaHZPaFVVazRVWWcyVW1heklHOF9KMGQ5b2NITURNT2IyZGV0eW9oY0ZCX00?oc=5",
-      "tickers": [
-        "ALKS"
       ]
     },
     {
@@ -405,6 +437,22 @@
       "tickers": [
         "CMPS",
         "DRUG"
+      ]
+    },
+    {
+      "id": "f54baeb83e02",
+      "time": "2026-08-23T21:21:16.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "CMPS Stock Jumps Overnight After Trump Order Fast-Tracks Psychedelic Therapies",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd2JnZC1YMF9BcTl0bDJwSkpxTXk5V09SZXh0U21qNzRzZU5wRTNZR25jckI4WVVQTmJpLTgzSGVZcG8wUE9XS3F4Z29ublpQWEJubFExMUtjMC1MS2ttcmZaSC1iek9jWWNVYW9SSkpHQ1E1Ql9lcE4yV0xuOE9COVFEMjE0MG9zTVZHY0hwNkk5SVY3S0Y5UHlEVjQ1bGVZcDVWZFhIRWs3VFYyZ2ZCOFVWN1FkOHBpMWFWanJpUWtub043NGNaaUVWdS11ekExeUw1dFdTOU16TGwtbXVN?oc=5",
+      "tickers": [
+        "CMPS"
       ]
     },
     {
@@ -712,6 +760,22 @@
       "tickers": []
     },
     {
+      "id": "46e41eff30b9",
+      "time": "2026-08-21T19:07:09.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Revenue per share of GH Research Plc – HAM:1KA",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaF9Nb1lseWdTdEVUanNRb09IT3k4NU1ob0w3RVRNcld3dHZxQm5lcmdTdmMxMFU3bVZ6STNyYkVsZ2UzMFI3MTNMVldxNWwzRGZiNlVqaUNlR2VEakdXUmRkYU44RDVjQkpkUE5ZNkktQm1Gd2xQdk9mT2xDWDUyZnN4Wlk4b1NSYXZETlZmUXJLQkFESFB4b3gtNA?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
       "id": "70306c60538b",
       "time": "2026-08-21T18:42:10.000Z",
       "source": "ASU News",
@@ -782,54 +846,6 @@
       "title": "What is an “embedded” brain? Johnson & Johnson plans to invest in “neuroplastogen” company Delix; and University of Miami gifts Trump Administration accelerated path to research ibogaine",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92bV9tSTRYZTdFUklYb3lxQmpua1hPekpVMTUtVTkyNzN0V2RZMllOOGNORVRCX1FwR2xSQ1BwV3ZxRUl3VzQyQzIzWTczVEJnRXN0ZVFjQmhldG9EVHZkY1RfR0FYVnBLM0NYNVhDUDczQUM3cjFOYg?oc=5",
       "tickers": []
-    },
-    {
-      "id": "58ec25f18d8a",
-      "time": "2026-08-21T15:29:15.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Operating income of GH Research Plc – HAM:1KA",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ2lnV2xHWlIxRk5EV1dQUWJjYVhXdTJybk41dzktYmxRRy1Ia3A3YnJHX3I3dk1RbWF2LWRBdlowelRzWVM0amRTZUhBRXhLRk1DT3l4T2FuaGNuTXlza2FSRXl5MHJ2amFRSkd0YVZYRzNGd1RhcklOSDE4bWtTQ3VRaE1PZVZnVEwtcA?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "283de8bd27bb",
-      "time": "2026-08-21T15:24:44.000Z",
-      "source": "The Business Journals",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "1919 Investment Counsel",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWlMbjY5eG9rU2JZZzgxalVEaHJGM2k5NFQ0Tjkwdk5zRG02SHl6UWxRUTA4LXJfUVdqclFiM2pZRlVVZ2xHSnFPSzg1UFBaWHZzN014Vl91cXJubVdOdlJPSlJrUnQ1aGlaWXJYNGNHYXBxV1ROdVpDM3M0aC05UFJDRUFiS0pPclFzVUhGZWhLYWZtOUtaQnozWktDeTV4dmFUaVBFMXRHdS1R?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "3fcdacbaced9",
-      "time": "2026-08-21T15:24:43.000Z",
-      "source": "The Business Journals",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Welcome House Inc.",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdHpVRU11ckp0Sy1TSUJPNWUxN2t0RmlKaHF6RWpQelctb1FtUGxoMHZMdzVaalZfSU5OeUx3YXpQVmlSdGNKMG4tcTRlZEU1MnU3OTJjUEFYWnluTFRkSzFaMUh4bzd1SV9mdFVMeHU2RWVNVWM4UjRPcTQ5UjR2WTNsc0VGZDdtRzlNd2dodVE5c2tLRkVOWVo0Z2hCd0pmTWhlRQ?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
     },
     {
       "id": "ba9f52183612",
@@ -1016,6 +1032,20 @@
       ]
     },
     {
+      "id": "7fb90dd19a11",
+      "time": "2026-08-21T07:00:00.000Z",
+      "source": "Psychedelic Alpha",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The Psychedelic Practitioner Issue 6: Preparedness (People)",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc2NJRDRtVE5xRVI1TU95T3NLcXNaNjgydUtQbmtMQ1Y1VFNWQmRMczk0QS1Wam5kSnNLakh0ajRPREp3dXB2dDNhN3dPQjE1bWRXUHdWaU51Ti01TjA3LWU0RnlOTjJkd0pEallFV1NYLUFGdmNSMW43c2dSNWVUYTBFQ3RFTEF4aVBvVURnYml1OGNyNlE?oc=5",
+      "tickers": []
+    },
+    {
       "id": "dadbacf0726f",
       "time": "2026-08-21T07:00:00.000Z",
       "source": "ChartMill",
@@ -1131,22 +1161,6 @@
       "impact": "HIGH",
       "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "f54baeb83e02",
-      "time": "2026-08-21T00:43:49.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "CMPS Stock Jumps Overnight After Trump Order Fast-Tracks Psychedelic Therapies",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd2JnZC1YMF9BcTl0bDJwSkpxTXk5V09SZXh0U21qNzRzZU5wRTNZR25jckI4WVVQTmJpLTgzSGVZcG8wUE9XS3F4Z29ublpQWEJubFExMUtjMC1MS2ttcmZaSC1iek9jWWNVYW9SSkpHQ1E1Ql9lcE4yV0xuOE9COVFEMjE0MG9zTVZHY0hwNkk5SVY3S0Y5UHlEVjQ1bGVZcDVWZFhIRWs3VFYyZ2ZCOFVWN1FkOHBpMWFWanJpUWtub043NGNaaUVWdS11ekExeUw1dFdTOU16TGwtbXVN?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -1407,22 +1421,6 @@
       "impact": "LOW",
       "title": "Can NBIX's Q2 Beat and Higher Ingrezza Guidance Drive More Growth?",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMVhzczUyQW5HMGNFay1hVktocHROR3hMeTdrWWt5eElkdlhpbGNra04xaG90bUJTUmpDamRuY0ZJZFhPRlVUMy1ndXpuN0t1ckFocEx4Qzl1ZDBybW1oeHNDUzJSWWYzZFgwWnpZeDNpa1VyUVFoeGNtSTVUU2Uxb3JyMHNzRm40ODVMZUlXcmlPQlZL?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "eb7be16d87ce",
-      "time": "2026-08-20T15:14:00.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Is NBIX Stock a Buy as Fast Growth Meets a Premium Sales Valuation?",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWlpSUVoTlJUWTNDX1FwV0ZqWGpoRFA3LXFuTllLbW80X0N0cmphN2Znb2JkUWRnaE9GNW1QdWNhckZoa1BoTWNNUGpfMWZ6cWsxOTVkZEFCOTZzaGJZVEdJU3k0N0pSb2I2SUZZNGk4dDdNM2dCUUI5dE5aLXFqaV9FblNpMWFxTHJXZ1hlUDg5cmNVdU51MXBJQ2thejRuOGR6ems2MHFmWEJ4R3FaWmxfYjVPNDZMdFJoVy1sSQ?oc=5",
       "tickers": [
         "NBIX"
       ]
