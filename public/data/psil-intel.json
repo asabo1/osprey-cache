@@ -1,14 +1,15 @@
 {
-  "updated": "2026-08-24T07:18:13.908Z",
+  "updated": "2026-08-24T08:11:35.116Z",
   "counts": {
     "total": 90,
-    "crit": 7,
-    "warn": 10,
+    "crit": 6,
+    "warn": 11,
     "bySource": {
+      "The Clinical Trial Vanguard": 1,
       "UMass Chan Medical School": 1,
       "vinanet.vn": 4,
-      "Toronto Star": 1,
       "Stocktwits": 5,
+      "Toronto Star": 1,
       "That Eric Alper": 2,
       "marketscreener.com": 1,
       "Willamette Week": 1,
@@ -26,12 +27,10 @@
       "PoPville": 1,
       "drugdiscoverytrends.com": 1,
       "Broken Frontier": 1,
-      "ABC News - Breaking News, Latest News and Videos": 1,
       "The Microdose | Substack": 1,
       "kalkine.ca": 1,
       "Psychedelic Alpha": 2,
       "Medical Xpress": 1,
-      "Moomoo": 1,
       "MarketBeat": 4,
       "WGME": 1,
       "U.S. News & World Report": 1,
@@ -66,13 +65,28 @@
       "Central Oregon Daily": 1,
       "New Atlas": 1,
       "FirstWord Pharma": 1,
-      "Statesman Journal": 1
+      "Statesman Journal": 1,
+      "Stock Titan": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "cc8df26495b6",
+      "time": "2026-08-24T07:33:56.000Z",
+      "source": "The Clinical Trial Vanguard",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psilocybin Works in the Lab. Can It Survive the Clinic?",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMzUzeHl4NzVEMml1M3ljMzFaeGRJSm05ZFBCc29pb2ItY3RNc2ljVy1WWXNXcktHVEpKVHlhQTBMT1lxQTZpWkRDdHhaYkZ2ZGVwY29XVmFyUThEZUhraGRhWjEyVkFUTE9NMjdTdlQ4VU5tSkZueWphLTl2aTk2QmtRSVNtWUY5MGZBeDR6NTRYem5LczJkbnVQWVlfb0Q1dlhBR2lhaEZDalptZ0NaM0t4a1BwNzhoOUE?oc=5",
+      "tickers": []
+    },
     {
       "id": "75a505fcda8c",
       "time": "2026-08-24T04:17:26.000Z",
@@ -117,6 +131,22 @@
       "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPZlpYMFp2MEVZbEU1UGdKQ1JhNVBqTWZvdmJmN0w4dWtLQnhxUXBoMXllMkJNcW8yMmRFWGpQd1hUbTZueEQyUUZuWU1PSGN5TExoNkd0WGZtcW91ellBUVJzbmZnQWxVNXpiMGN6S3lhRVg0MDgybG5BaW9GWGh4ZlA4X3RsZmxPSmxLMk9TQ3RWZHBLQXRGT0dMdjdUajVZX1ViWHhIMWx2ZEtOWnE0WXBNRF9PRTRQS0xpMWl6bmVjUUhoTWx4TDZHeVItMUgteWlORE9GZjRhbGs2ZUZaS2w4VlpMUTVIV3VaUG1sd0dCWnRQQU5zM1RSZmI4T0oyMTFaak1wYldsLVM2bm5iR1BSU2l0UFFPUkxYMEJR?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "b6a3069ffea5",
+      "time": "2026-08-23T19:22:27.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "CMPS Stock Slumps Premarket As $150M Offering Cuts Into Psychedelic Trial Buzz",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdmh2Zm8zT19qU2d1MWpDbS1NN1pYY1hjdWhUckdVUUtfUjFfSlR2MmZCOVdDcE9nVk9hd0FxTDlzQVpqSEsxNWkydVZpNkxVbVpxWUNqTktidFJPTWhXbENtOTlib1NrbFpIQjB6cHczWWoxbkZwVVZ5VUN0SUk2bGJkb0N4Mi1LcElFd0FnbHo1QzBFRmJ3anpuTUlKUWNGenJZUmFXclIxTkQ2NFJDNWxDYTY4TjBrQS1vSTZDWjNIdE5XWC1VS0JMZ0xTbWRaTzc0YkxISlU?oc=5",
+      "tickers": [
+        "CMPS"
       ]
     },
     {
@@ -250,22 +280,6 @@
       "title": "Garth Ennis & John McCrea Team Up For Psychedelic Horror Tale THE SNAIL This November",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON2JwM29EWU1ETGNCSTdIcHFRZ09STGxXdmg4czZVekhFVGNLclN1R0JGMDM3Q3pQSVQ4b2dzellOdmkxWjdVUnVhbS1xRFpDZDQ1MDBzTk5oVFdSMjBvVF9RT0NZT0tHME03eG1iaUFDelNlaGFBelc0aGhxamVSMkYtcDRCOGVqTURBbTF2ektBb1VuT1k5WlQ3d1NwQ1dxTUpFVDBQdEJLeTdRa194VFNR?oc=5",
       "tickers": []
-    },
-    {
-      "id": "ddf961f65f55",
-      "time": "2026-08-22T11:41:08.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "CMPS Stock Climbs Toward 2-Year Highs – What’s Driving This Rally?",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM3ZyTGNNaGl5U1BJY295aUp6SjM4eUJPd3VxQWRIX0h3aWRocTJoem1OUlBFU0x0YlBzcG50SmZDcUdCNFdaYWRndlZscFBxX0dCcnp6NVNtLXdJR056RHc4a3hTY3NFUHAtSUxpUHZvUHZrVEJnZENEQ190RXVheDloaEtUUVFBNHkwcnU2Vk5fOTBYXzMwQ0h5dUlsMlJvOW0zX2t5QWpjSl9WMzE3VENTblQxeDdVU1E?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
     },
     {
       "id": "e3387b435928",
@@ -462,7 +476,7 @@
       "title": "Before its recent Phase 3 LSD win, Definium modeled up to $70,000 a year for a therapy that could fill a clinical shift",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZmRJVU1fWnBjZjNvMS10dlg0SEtVbHhTTDM0OHNJQ2tDbHhya0I1UTZYZU85Ukp5LXZCX3pzb2JUWTh6Mk53dG1PbHdzMDQybENxWVBGRDlTRlJLbTRTUDZMUjNSckx1WnpWb2RUNDMzYnVvSEFUOHRrRzFfdnNrVDNSLVBqc1Z1YmdVdmJDNkFYWlUyNE41YkNwbmtvNEc2ek9DNi02MWtaQ09GN0djT1FXNWlnaFdCaXZQc2N2ZjJGRzZ0U2hlVDVKbGRybFVnQm5pZEJrVF9xMUxVbEhrN09neTR4am9o?oc=5",
       "tickers": [
-        "CMPS"
+        "MNMD"
       ]
     },
     {
@@ -478,22 +492,6 @@
       "title": "Exclusive Preview: Queen of Cosmos Comix Trilogy - Barbara \"Willy\" Mendes' Psychedelic Trilogy Collected for the Very First Time by Fantagraphics",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ISHJSQU1zZkl1OFgxUHFHUXExUDhFZWEzQjRhekJwSXE2cHhTbkxiTW9XZG5IazlCSmRBZ3Npa0pGWUVCVWFELVNqX19tU1VxWGV2NTM3SGxUWEtBWnllQmt0SXI2dw?oc=5",
       "tickers": []
-    },
-    {
-      "id": "b587cbbe3cf1",
-      "time": "2026-08-21T16:52:33.000Z",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Trump signs executive order accelerating research into psychedelic drug therapies",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1BvY29qdzU3bm1lUEVOWUJHenU5OEpCdkxUajRMdmoxSlpORE9PRTBudnVUd0lkNF9wVzRkUldfbGFDUkNzWXJnb3VpRGp3N0hpaUotTUhBRjFoVnRtWlMtdnNwUjIzSUJnRjNQLXU1YXMyMWxucHNUVWJuWnJvNXVqZmFobEh0aWxmSGFSLXpVel9Wb0ZUVmlrX1FXaXNyRU90ZEw5RUNyV1JOU1JxWE5B?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     },
     {
       "id": "dab0f7f6d811",
@@ -554,22 +552,6 @@
       "title": "More than 2,300 psilocybin users report real-world outcomes in Oregon and Colorado",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYmhZUmtLb0lpUnhWWEU1anRTSVcxUnRRZzZhTlYyM0ZzaFFJbFR2clJTSVQ1aGRUM3NDY3FTTE1GejdJSHFWV24wRDNjYUJpV0JaWDZsNE1fcVRWMjFER3ViOWxrSFNpOXhHUHRZMHc4anV0WTI1RUVYaWxMXy0tblVlejNaSTQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "983639951e4d",
-      "time": "2026-08-21T13:46:19.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Here's Why Neurocrine Biosciences (NASDAQ:NBIX) Has Caught The Eye Of Investors",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc29PalRUSl82T0Q0X05WS2pZZmhpX1JjbXVFcWZNUkhwaDgwQ0NtRUtGV2V6eGFobVdZREo2RFVOQ2o3T203S0J1Nl9QTmt1UWZlS3pkOFR1YXdEb19GWVZQRXRQcl9rT3dRM0QyVnUyanVaajFjRFBJQS0zb0xocG5PV2R2ZGR3N1RzMUlXa0loZ09ITmE1RUxIZDIzdXJHLTA2OA?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
     },
     {
       "id": "466751b40129",
@@ -1416,6 +1398,22 @@
       "title": "Why people said Oregon psilocybin services improved mental well being",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOVmZCdWZnXzFvZUNBbjFpVWpwUXF6c3JHZGNQQS1TejIxdWVMR2pRZEhQWjJHX01Mb2FKWnBsN0xfYmQ4dTlJUm1HcjNKem5yTFRvY3ZPZFNfNzExWERXaDZwczM0QjFhY0t6YjJNWXpYX201al9Pa3l5MFVLTjh0bEtZSGpwbXk1QUFHdWU1ZnowVUNzTGVabnM3UEtBRUMtc09wWjBJU3VkTkFLU3ZwMFFhQUVkNDZJdTRhWER6N0UyMnpOSHZCcWF1Ul9ybnREQVpPRXp5ZEgyd1lB?oc=5",
       "tickers": []
+    },
+    {
+      "id": "9a16039f8222",
+      "time": "2026-08-19T21:02:11.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin (NYSE: HELP) plans 1.18M RSUs with first sale in 2026",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNN21ZOEdHVkdfWXRHeGlyTDV5NF9FcGdBYjhsdmtORHl2V2Rfc2FwaE9pY0diYTEzQTEtUDNacG9oMnpmY1JtdzMyOWZjOThIZnc5QWprcDdpbVRoenJEckljQ3ZRbWFhdzRVMWptSENjbWlYeVJPZUlRTEhJdmZDcXN0SHNqZEJwZXowQQ?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     }
   ]
 }
