@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-24T23:31:27.061Z",
+  "updated": "2026-08-25T00:00:23.327Z",
   "latest": {
     "date": "2026-08-24",
-    "wti": 85.19,
+    "wti": 85.18,
     "wti_prev": 87.06,
-    "wti_delta": -1.87,
+    "wti_delta": -1.88,
     "brent": 92.13,
     "brent_prev": 94.39,
     "brent_delta": -2.26,
-    "spread": 6.94,
+    "spread": 6.95,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,16 +160,6 @@
   },
   "intel": [
     {
-      "time": "23:22",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil Tanker Hit By Unknown Projectile Off Oman In Hormuz: UK Maritime Agency",
-      "outlet": "NDTV",
-      "source": "Hormuz",
-      "date": "2026-08-24T23:22:41.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR05jVm83S3RKUklGaUloTGFaamtBbFBTVERCM1JnSG9QT2lnU0lHeGhkcEFSU3ItaXhKTlpmemtCT1BRTGJ1RTc0TG1YeGhQNEp2VWl2Qm5qUzZ0LWJnakZWRE5IZ3lqWlF4TkxKeDVleFRMSDN5Ny1Tcm4xbDhDWkNsTnMtRDhBQzhJM1BpRElGRGFoM2Q3NXUwdEZCM0I4TmhLeURoaDBuRTF4RmRneV9fTERoUdIBvgFBVV95cUxPeGVMVVNleEtNZGFyQlBlZTdyS2ZFQk9za1p4d3g0REhZdThkOEsxRFhic01HU2lwVy1JM1NTdTBrVm00ZzB1S2FDdDExT2Z2QzFDM0FyVUVXakhXck5SYk1CTnJlWWpMc1N4ckZRS3NIcTFGTGVkT2ViMVZLMGFuQlVSSjVWYWhnQzlsMlpLaERiVGkySjhpN3pVTTZDaGdvU3VhQVNJeVg1NVJfazRPdmNlWHEtdnVWMHBzeERn?oc=5"
-    },
-    {
       "time": "23:04",
       "severity": "MKT",
       "direction": "NEUTRAL",
@@ -215,7 +205,20 @@
       "outlet": null,
       "source": "Maritime",
       "date": "2026-08-24T22:47:13.000Z",
-      "link": "https://gcaptain.com/iran-blacklists-46-ships-on-hormuz-non-compliant-list/"
+      "link": "https://gcaptain.com/iran-blacklists-46-ships-on-hormuz-non-compliant-list/",
+      "cluster_size": 2,
+      "cluster_id": "iran-blacklists-ships-hormuz-non-compliant",
+      "first": {
+        "outlet": "gCaptain",
+        "date": "2026-08-24T22:47:13.000Z"
+      },
+      "also": [
+        {
+          "outlet": "gCaptain",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaWVsNUl5QkxIWEVJb2pMeWNkQjkxV19Pd09TMHlIdE5BT0I5S0Jua0hheGY4MkVpYVBNZG1QOHltNURSaWJraERTSlM2MUFFbXNaVjJ6TkhxcVVzQ2hJRnl3SUdmZnRXNXg0MVVGZmNubTk0VWtOM1FBVDhlSENxZA?oc=5",
+          "date": "2026-08-24T22:47:13.000Z"
+        }
+      ]
     },
     {
       "time": "22:42",
@@ -352,6 +355,16 @@
       "source": "Maritime",
       "date": "2026-08-24T21:00:58.000Z",
       "link": "https://www.hellenicshippingnews.com/greek-shipping-and-the-methane-pathway-a-decade-in-and-only-getting-started/"
+    },
+    {
+      "time": "21:00",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Syria’s tanker trade: what the data shows",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-08-24T21:00:57.000Z",
+      "link": "https://www.hellenicshippingnews.com/syrias-tanker-trade-what-the-data-shows/"
     }
   ],
   "snapshots": [
@@ -1431,7 +1444,7 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-24T23:31:27.061Z",
+  "intel_updated": "2026-08-25T00:00:23.327Z",
   "event_log": [
     {
       "date": "AUG 24",
@@ -3906,7 +3919,7 @@
     },
     {
       "t": 1787544000000,
-      "p": 85.19
+      "p": 85.18
     }
   ],
   "signal_outlook": [
@@ -4939,7 +4952,7 @@
     },
     {
       "t": 1787544000000,
-      "p": 6.94
+      "p": 6.95
     }
   ],
   "chart_sp500": [
