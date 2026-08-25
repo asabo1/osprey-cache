@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-25T10:52:00.667Z",
+  "updated": "2026-08-25T10:57:54.238Z",
   "latest": {
     "date": "2026-08-25",
-    "wti": 82.31,
+    "wti": 82.45,
     "wti_prev": 85.01,
-    "wti_delta": -2.7,
-    "brent": 87.93,
+    "wti_delta": -2.56,
+    "brent": 88.1,
     "brent_prev": 92.17,
-    "brent_delta": -4.24,
-    "spread": 5.62,
+    "brent_delta": -4.07,
+    "spread": 5.65,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -159,6 +159,29 @@
     "stale": true
   },
   "intel": [
+    {
+      "time": "10:39",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Greek-owned tanker hit in Strait of Hormuz",
+      "outlet": "Lloyd's List",
+      "source": "Hormuz",
+      "date": "2026-08-25T10:39:23.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcnNDM0xicVpwTkVlN0ZDZHc3cTM2Qy1EdHd6TVNUdUktSkF5TEZUU085MUNyUk9KNWlOa3NfR0NJRmI2ZHh1X2VvbUpfRjhtV3JuSFdBbkVieFJyVm9feG1ZY2JTRVNMSXFZUjd2NVR0U0pEeXNUaGRZSWlfTV80dEhkOGRqQQ?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "tanker-hit-disabled-near-strait-hormuz",
+      "first": {
+        "outlet": "The Maritime Executive",
+        "date": "2026-08-25T02:02:56.000Z"
+      },
+      "also": [
+        {
+          "outlet": "The Maritime Executive",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOFFLdWtNNUVVWm9UdEVnVS1CdDhKRzB1aUwwVnNwZkJ0N2NHOUxpUnFpTEFXcDdGUFVDMHdROUM3eUVTN2VuTWZaSkJhT2VfZ2xTeXhfdGIxYU50czFlUTZfRGVzdklHa21TQTU4WWZNV3ZNV042QnNxUXU0N095d2k0SFdEZzc4aHE0Sg?oc=5",
+          "date": "2026-08-25T02:02:56.000Z"
+        }
+      ]
+    },
     {
       "time": "10:34",
       "severity": "MKT",
@@ -311,8 +334,8 @@
           "date": "2026-08-25T09:46:16.000Z"
         },
         {
-          "outlet": "thetimestribune.com",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNN2JSSXlycHBTVjlURFlVYnREUFFLWEtVLVprNFNCeGRodmRaR0w3YnZUTnhtQ2k4YVZqTE14b2thTDhlWW55UzFKbmJQeGxESDBoSUhkNW5hTkwxQW1jZmx6bmhoMUpDTkpKcXd4T1hlZVk3U1A2UnFSVGtBbFNKTVRkM3dyVzJSNWM0cjBDd3JBekFQYVgwZllYalZ5Q21hdU1VLU9PSUpmOUJpbUVTeUZ1bER6V3FBQUdqY2xJazdVVDVyOXpyckVoSTRkTEJ1MTFPODFBMzVKLVpSeUJnZllWQ1VRM0MxSGg0LXJPRW1UeHVaY2Q5ZHNHM0stS1k5Vy1RMGFuV1JQMkJqcks4?oc=5",
+          "outlet": "Goshen News",
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPSTJHWDY4a0IwYmtzMzVsT0hlM2tUTEZyWnJiSWRISy1rMWkyZE9GX3kyNVBkNEdfTzdJaERoYUdhbkgtZy1ZX0VTQjlWZ0V1b0V2dmZZN3NORDZ6aEo5NzdIY2dEcFNoQjI0T2gxVU1jdE9XVVo3SDMxSUhqdFVQdjRJYXZRMkc2NnZEeE1YNmxPenZUdFU3OGZCbWhEd2dyNGZnc1NnbmxsdFZOTWk0TnpqSGpZTldkb2E1a1gxYWlaTmtDenI3UUhDMzltTU4yR3hFVmlfd2xZcGpEbWh4QnJWanNmY1NZMWp6UDZSRWlObDB6UXlhZzk3dHN2cEN6SWVXRFV4dmk?oc=5",
           "date": "2026-08-25T09:46:16.000Z"
         }
       ]
@@ -392,16 +415,6 @@
           "date": "2026-08-25T04:20:00.000Z"
         }
       ]
-    },
-    {
-      "time": "09:21",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Iran war latest: Oil tanker attacked in Strait of Hormuz off Oman",
-      "outlet": "thenationalnews.com",
-      "source": "Hormuz",
-      "date": "2026-08-25T09:21:37.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?oc=5"
     }
   ],
   "snapshots": [
@@ -1482,7 +1495,7 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-08-25T10:52:00.667Z",
+  "intel_updated": "2026-08-25T10:57:54.238Z",
   "event_log": [
     {
       "date": "AUG 25",
@@ -2955,7 +2968,7 @@
     },
     {
       "t": 1787630400000,
-      "p": 87.93
+      "p": 88.1
     }
   ],
   "chart_wti": [
@@ -3965,7 +3978,7 @@
     },
     {
       "t": 1787630400000,
-      "p": 82.31
+      "p": 82.45
     }
   ],
   "signal_outlook": [
@@ -5002,7 +5015,7 @@
     },
     {
       "t": 1787630400000,
-      "p": 5.62
+      "p": 5.65
     }
   ],
   "chart_sp500": [
