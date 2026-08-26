@@ -1,17 +1,19 @@
 {
-  "updated": "2026-08-26T09:55:13.706Z",
+  "updated": "2026-08-26T10:50:15.539Z",
   "counts": {
     "total": 90,
     "crit": 1,
-    "warn": 8,
+    "warn": 10,
     "bySource": {
+      "pharmaphorum": 1,
       "kalkine.ca": 3,
       "The New York Times": 1,
       "NAI500": 1,
-      "Investing.com": 1,
       "The Manila Times": 2,
+      "Investing.com": 1,
+      "GlobeNewswire": 2,
       "Business Weekly": 1,
-      "Stocktwits": 5,
+      "Stocktwits": 6,
       "MyChesCo": 1,
       "Yahoo Finance": 5,
       "KRIS 6 News Corpus Christi": 1,
@@ -20,8 +22,8 @@
       "WFAE": 1,
       "PsyPost": 2,
       "Kalkine Media": 1,
-      "Seeking Alpha": 4,
-      "Pluang": 4,
+      "Seeking Alpha": 3,
+      "Pluang": 3,
       "The Luxe Review": 1,
       "PR Newswire": 1,
       "Oregon Public Broadcasting - OPB": 1,
@@ -32,10 +34,10 @@
       "MarketBeat": 3,
       "TechStock²": 1,
       "The National Law Review": 1,
-      "vinanet.vn": 3,
+      "vinanet.vn": 5,
       "TipRanks": 2,
       "Your Oregon News": 1,
-      "TradingView": 2,
+      "TradingView": 1,
       "Investing.com Canada": 1,
       "Earth.com": 2,
       "Université de Montréal": 1,
@@ -50,7 +52,6 @@
       "Psychiatric Times": 1,
       "Psychology Today": 1,
       "NewMediaWire": 1,
-      "GlobeNewswire": 1,
       "openPR.com": 1,
       "DirectorsTalk Interviews": 1,
       "UMass Chan Medical School": 1,
@@ -61,15 +62,29 @@
       "Comic Watch": 1,
       "Intellectia AI": 2,
       "KTVZ": 1,
-      "lucid.news": 1,
-      "ASU News": 1,
-      "PoPville": 1
+      "lucid.news": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "e157f69fc62f",
+      "time": "2026-08-26T10:09:10.000Z",
+      "source": "pharmaphorum",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Neurocrine receives FDA IND Acceptance for Alzheimer’s Ph2",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3FwQnBFVUIwMjBQc1N1eHhvYTg5clZodXdwTnJyOTM4c1RxSkxKS21SZVIteGFjY3FSQ3lfSDlxNDF3Yl9pXzJFNHIzMGduTkxfdjRLdUJ0OFFDNnJ1LUk4SUpXT1I1RDhEWlZSTkU3aVN2VkdWd2JwUTJ3anlzWnhKbk5ZajZBbWdV?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
     {
       "id": "9f4181020b3a",
       "time": "2026-08-26T09:20:00.000Z",
@@ -117,6 +132,22 @@
       ]
     },
     {
+      "id": "49ebbc89cc13",
+      "time": "2026-08-26T08:21:32.000Z",
+      "source": "The Manila Times",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "No. 10/2026 - INTERIM REPORT, H1 2026",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM2R5WUVnRnM2X2ZRREdicFM4UktnSVJyUF9GVmQxRU5YbFJMN1JfTndaMEtBd0xzU3M3Q1h2MXZvX1RLa2tRck1TVnpadDRhQUhvZDY5LXc4VHhyUFBuUFliVUhqQXJ2b1gybC00VHd4alJYejVpVUtDdUNtSWRjeHlXZWNDVFd3Qjk5WURJSUhieW4ySTlnYVRGY2ZLR3hWRlpZX2hxMjJaZ3RLNGpv0gGvAUFVX3lxTFAzZHlZRWdGczZfZlFER2JwUzhSS2dJUnJQX0ZWZDFFTlhsUkw3Ul9Od1owS0F3THNTczdDWHYxdm9fVEtra1FyTVNWelp0NGFBSG9kNjktdzhUeHJQUG5QWWJVSGpBcnZvWDJsLTRUd3hqUlh6NWlVS0N1Q21JZGN4eVdlY0NUV3dCOTlZRElJSGJ5bjJJOWdhVEZjZktHeFZGWllfaHEyMlpndEs0am8?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "38cb9e286a08",
       "time": "2026-08-26T07:50:21.000Z",
       "source": "Investing.com",
@@ -134,17 +165,17 @@
       ]
     },
     {
-      "id": "87be731e231e",
-      "time": "2026-08-26T07:41:18.000Z",
-      "source": "The Manila Times",
+      "id": "2f86c64a3b6d",
+      "time": "2026-08-26T07:33:21.000Z",
+      "source": "GlobeNewswire",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "WARN",
+      "category": "sector",
+      "severity": "INFO",
       "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Nxera Pharma’s Partner Neurocrine Biosciences Receives IND Acceptance from the FDA for Phase 2 Study of NBI-1117567 for Alzheimer's Cognition",
-      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQMjZpczlIeGhkV19wSGVTUk1GNlc3RDdIbTBIcWROWVNobzVPQ0NxUWYxbnRqOExUQlJkR0pfSzlYNVZJOWwwWjNhc0dZMmt3Q2NXcllKOUsyR3ZCSU9EVXlSakpHa0RKMU5BQ0RvdmlybzJQMy0xSlZoVVFtYTlieWNxbW9ZMjFYWGc2aEtza1EzLUlIZERqenQ0cWRsUEVHcWtDU3UyaTZOcUhrbkpwZXY1akpGcVpVWFhqNHR0ZFdiMEpKN3ZJZmljQ3lYNUVMbjVQbVJPdTh4QzhzYlY4dnMzcGdJa0FsdzUzeEdDbmI4UHQweG9oYXFCWEJHcmhLbC1MX1l2ZThOOGpyQ2ZoVkw3ZEhrbW01WnU4c2FUQUVxVTlRTXB5eEl4NE56MHpWcGpRVVpsQU3SAb4CQVVfeXFMUDVLaHJJYkpUckdmajZkODViWDFsY0hzeDFSQmZfLTJvZHZPM2tJQVNnT0ZhRlJKZXo4bVNodDBJQXVKWXVKekdkOGR6aC1oMTR3c0tCVHR1Y1hYU1RRcnh0a3ZTSTZoM1Z4M3B2Sjh5Mkp1Yy1Xb2VDa1o0R1UwTmFCRGhHX0c1TnFPWUt2cEpnQzE1U3RJblVOWWNYcXJ0QVVMcU4wVFJtVHR2M2o4S3FKYnhMbHZGY2N2T2NwNmhEaDRHZlVzZkxzYW5tM2ZGMWNtNEpjMlN6dGVCakt6UURCTmRBa1UtUmZTRDFHd3R4Zkp6SFpmX19Ed1N6em1tRFZDQzBDeTh5aVlCMjVhRnBuNllTX2hrUURQR0FmNzV1cDQtV01vLTdoRUFyWjV1Qm5memwtMTd1cHF4ektR?oc=5",
+      "impact": "LOW",
+      "title": "Nxera Pharma’s Partner Neurocrine Biosciences Receives IND",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOY29PajQtcEN1QTlWZE9wbVRIY1UzTlpsdmZDbUZJanRNTG45UG95R0RINHNaLTFyRWY0SWtyajhibmVraTFLVzdvUG94TEtLblo0cmNWeUhhRC0xcVVLcjRHWS02dTZST0JSRkJtODBySVNSMjlCWTIzcHhMd2xQQkFmU284ZXNYS25YSndWcGRyc0xXOFhsamw5Z3ZJcW1XcUZLN0xTTlY4ai1zcExqSS1DbVhQcDN4c2YyVTU4ellIcnJKWllweUFZei1kRGNJZlo3eWxlMmVCUDJoQmhqMzc3bkhkaDk3SzFZYlNPRFhsbWVMSWdTRTB1UWZhMV9Db3VmV3dPSTNaZmJPd1VXaWZpR1JSbFFjVkZ3VkRSZlNCMGRzWVo4WFN5QlVWUUh0VXo3eU9VZzU?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -167,7 +198,7 @@
     },
     {
       "id": "0f80ac63f186",
-      "time": "2026-08-26T04:20:09.000Z",
+      "time": "2026-08-26T05:18:23.000Z",
       "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -607,6 +638,22 @@
       "title": "The McGrath Project Begins a Powerful New Era With a Psychedelic Rock Journey",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjZxRjhma3J3cHpOc3llbEZIbjZGYmMxY3EzTGluTE5Xd0lVVTI1MVVFVE5TSXBGM3BadW9YLW9XQU9qaG95R2s0WXZkenk3T3VUWjFpYlZnWmNFaWJSajZDM3VJMURzQW9lZzNJeGVoYmVDcDRuMEdmQk1VTkxZUUNXbFY1Vll6ZU1fbHBVUlI3bVpEZ3ZKNVBpXzhlYXhBa0lxM0FqMA?oc=5",
       "tickers": []
+    },
+    {
+      "id": "dfa3961b3cb9",
+      "time": "2026-08-25T05:41:16.000Z",
+      "source": "vinanet.vn",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "GH (GHRS) Results at a Glance: Reported EPS Tops Expectations on the Day; Market Move: Shares Fall 0.81% in the Latest Session - Preliminary Results",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZ25DNUJjbk9POTM1Q2w2X0xQMmdlYUI2ZnhNZ0lUZzg0U2tOc1dvT2hrVDN3N3ZES01qeWRzcTRJcnJ3WE9OWWFEZlFJLUkzbzRMVU5Nd0dPVFZadkF4dDA5ZnplYlQxcG9XcHRvZHVDWmxwS3o4TEhobEhSWmVZeEdSN21VOHFKREVkU1dOY2xjbXFxUk5ReHB4eGFRbXNBLVllUWk1QUhoRkFVb0pwYUVudEVFWTcta0dwZnJfU1BVenVlTm5XUWRFbzZNTUNtRW5qeGxqZHh0ekZIcDlqajBLRW1rZlZpbDk0U29UR2l1SHc?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
     },
     {
       "id": "01c1c214588e",
@@ -1074,6 +1121,22 @@
       "tickers": []
     },
     {
+      "id": "f6a1b6b62d9e",
+      "time": "2026-08-24T04:47:18.000Z",
+      "source": "vinanet.vn",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "COMPASS (CMPS) Q2 2026 Earnings: EPS Falls Short of Its Estimate in the Reported Period; Share Move",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNOFN5RVhNc1l6NlpwZERGMjZNY182Mk5OYm9odk5zamdieURQNC1EdTlFOXVaMk1kZ3FNLUd0UUtBZGFzcUlIUFNMNmR1Z3dwUnVudG9USnN6cnRpcHV4X3BJQjlqT2NxNlB4SklwVlUxT3dfVi1qbTZ4bkpoQjd5Uk1UbWZHNWQtaS1UTjhfWk9NaGdHLVIwWURRMXlKOWh2Y0ZRbmVKVzlYa3VOZ3NIVDZJMFZmMUxtNU5ZMF8wYmZ2bnREaGYyQ3duUWdGMjFwODZHeWVaMS1oWFFySWhEYi1OTVBjdmxuY3ZYQ0lrWDdHUi1aZzF6SzN0dy1sSUJXNldTTVpsbzExb3FxcjZnRA?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "75a505fcda8c",
       "time": "2026-08-24T04:17:39.000Z",
       "source": "UMass Chan Medical School",
@@ -1099,6 +1162,22 @@
       "impact": "LOW",
       "title": "Dow, S&P 500, Nasdaq Futures Dip As AI Fears Hit Software Again: Why APLD, PANW, CMPS, INFQ, IAG Are Trending After-Hours",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZmZlYTFQcVVJXzRzREZqWUZ2Qmk0X0JvUkZ6LUI0LVZfTVhsQ0s2RXRpTVN6UHdrX3Q5NlJSa01pNkxoV1ByRWtxVjY5emttUDhTSHowdm5sRkg0NUU2NzBoSlQtZ1ExUVZBVnd6MGhHYkZqSjBzNnJPSWluczliLTZVME5HTHBwbmh3Wm51ZVRjemVjbFRia1hROEdadmkwY09oUWREV1hXMzhQUjhVM0NWS0J4cVV1QTdUbjhKM3J6c0NIUDJJNFpB?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "f54baeb83e02",
+      "time": "2026-08-23T21:21:16.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "CMPS Stock Jumps Overnight After Trump Order Fast-Tracks Psychedelic Therapies",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd2JnZC1YMF9BcTl0bDJwSkpxTXk5V09SZXh0U21qNzRzZU5wRTNZR25jckI4WVVQTmJpLTgzSGVZcG8wUE9XS3F4Z29ublpQWEJubFExMUtjMC1MS2ttcmZaSC1iek9jWWNVYW9SSkpHQ1E1Ql9lcE4yV0xuOE9COVFEMjE0MG9zTVZHY0hwNkk5SVY3S0Y5UHlEVjQ1bGVZcDVWZFhIRWs3VFYyZ2ZCOFVWN1FkOHBpMWFWanJpUWtub043NGNaaUVWdS11ekExeUw1dFdTOU16TGwtbXVN?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -1359,80 +1438,6 @@
       "impact": "LOW",
       "title": "Psychedelic Policy Briefing 8.21.26",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DMFR5cHJGaTNZZWhJMmw1MkEtcEFCRngtVlF5STlHakJ3WXBtRlVwOFd3Sy1zalJYR1R6WnlybDZDU1JBTHl1dTdFRjl6TzZLMEdqMUt2bXNkMUhJa2t6d01oZUhHV1h5VGpJ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "30abb8272593",
-      "time": "2026-08-21T20:55:58.000Z",
-      "source": "Pluang",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Helus Pharma advances psychedelic treatments fo...",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOWtlcWhqakVHMUYxLWU1OWtPaVVodDVJVzIyTHQtTTJPTXdka3V4dnVuTlhEUF95OXd6bHdaenhIbHdVTGUxRjU4cHVBZmtGcWlUMVlkUDRCZzNKdWtGVnRCLV93VmtUZVNTZzVuR3haN1BqWTNqdlpMVzJVN0FNNWRRcUJuUDJCWVB6TjFtYS10Q2FnY0h3T3R6dmdTMHhNQlg5U1ZmOXI?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "65b05483f76a",
-      "time": "2026-08-21T20:32:39.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "GH Research Plc Balance Sheet – HAM:1KA",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83NGpPU3lWMkZRdkVsc0MxRG9DNkt2SUJndWx6UXZXWW84MXc4RFFIRWhhMnZSRlh3d0lYUlgzOE5XVk5vTHFWX3Y0c1RtNUpUbGNjN0xlVzlHdTRkRWhXcXlLV09ENzF1eWlGa3JpZGxPMUdUQ21xZQ?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "c5d8ccd18440",
-      "time": "2026-08-21T20:10:56.000Z",
-      "source": "Seeking Alpha",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Helus Pharma: An Undervalued Psychedelic Platform Approaching A Major Catalyst",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOGNjQUxuSHd5YVhkc0NSMEVDRFZvUHBsT3UxS2ozc3AyYXNGbEtVVDZUbzBBZVB4MUg5QkhJN19pX29EMWEwalpObVBNaHNrVllXNFo0NzRoV1FzVWloS0ZMM19DU2R2eUxUbmNKNFl5bEgtYWhHT3BvR0lMSUtxM05NTk5pRTRFaGk3alp5TzczX3hJbU13MVlMd2lqamZIX2J0UjIxeHFaNFB4OXc4Q3NpbDdsd0tkUFE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "70306c60538b",
-      "time": "2026-08-21T18:42:10.000Z",
-      "source": "ASU News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "ASU-led project to examine psychedelic therapy for mental health",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXhGbFBySjhySU1SY2xzMFVsQUxsdElHNGtmVnVlbFd5bjluU2JIclNvdzd0N0MzZDBnQlp0dzNsb25yVDltNHMxUk9VRVMzOGZnTEIyb3luamJPWV9nUnQ4bmRBQzdDcTRGVmY0cEhVVGpRN0YwN2R3RXI4YW1DR2hvNjV2aXhlYTB4cHg5RXpuN3lXZU5lZ2I0YUxTM2MtUFhBeFpJbjFuUQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "2772b03c430c",
-      "time": "2026-08-21T17:36:15.000Z",
-      "source": "PoPville",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Profs & Pints DC: Psychedelic-Assisted Therapy",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeFkxZjlkU1llQWJFNkpXNXhYVF9yc3hud3FPeFVxc0tpdFJ1OHFmNEVDenFmcVJDeEdGd1pUdFhWT2tsQ1ltR1puU18yRmVZZm05VHUxRVdMVEY2UGNKQmQ5OFdSSjlQYXllUGxoTXR6eUQ0TmZvQnRmcXFYSU5STndtTHJUNXUxUFE?oc=5",
       "tickers": []
     }
   ]
