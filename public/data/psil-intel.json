@@ -1,14 +1,15 @@
 {
-  "updated": "2026-08-26T05:48:05.465Z",
+  "updated": "2026-08-26T06:21:51.566Z",
   "counts": {
     "total": 90,
     "crit": 4,
     "warn": 7,
     "bySource": {
+      "MyChesCo": 1,
       "Yahoo Finance": 4,
       "KRIS 6 News Corpus Christi": 1,
-      "Stocktwits": 5,
       "simplywall.st": 2,
+      "Stocktwits": 8,
       "East Bay Express": 1,
       "The Manila Times": 1,
       "גלובס": 1,
@@ -26,15 +27,15 @@
       "SMH.com.au": 1,
       "kalkine.ca": 2,
       "SILive.com": 1,
-      "MarketBeat": 4,
+      "MarketBeat": 2,
       "TechStock²": 1,
       "The National Law Review": 1,
       "vinanet.vn": 2,
       "TipRanks": 2,
       "Your Oregon News": 1,
       "TradingView": 3,
-      "Investing.com Canada": 1,
-      "Earth.com": 3,
+      "Investing.com": 1,
+      "Earth.com": 2,
       "Université de Montréal": 1,
       "WLNS 6 News": 1,
       "New York Post": 1,
@@ -55,7 +56,7 @@
       "Willamette Week": 1,
       "News Ghana": 1,
       "Comic Watch": 1,
-      "Intellectia AI": 1,
+      "Intellectia AI": 2,
       "KTVZ": 1,
       "lucid.news": 1,
       "ASU News": 1,
@@ -63,15 +64,30 @@
       "drugdiscoverytrends.com": 1,
       "Broken Frontier": 1,
       "Psychedelic Alpha": 1,
-      "Medical Xpress": 1,
-      "Moomoo": 1,
-      "WGME": 1
+      "Medical Xpress": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "5c03430c5a01",
+      "time": "2026-08-26T04:00:00.000Z",
+      "source": "MyChesCo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "NRx Advances Ketamine Bid After FDA Review Clears Drug",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUGFtcVN3aW1TRUFLT2tWRHpVUWxDVm1GT0QwR2dKVy1KbmFGRTNCNjhRem9pQ3JPVmVSZEdZRUk1ZlUyTmMySjI4Y0FJUExPRi1YRFBhVFVDbFJhN051bTNvLUZVY2YyN3kycmNQYW8zSEZtOHlCZ2xXZVJJaXNTZklxV0dSM1ZnRjJyZHBLTDVjcnp1SmV0QjBUMXc?oc=5",
+      "tickers": [
+        "DRUG",
+        "NRXP"
+      ]
+    },
     {
       "id": "88f9173b35f9",
       "time": "2026-08-26T02:16:00.000Z",
@@ -103,22 +119,6 @@
       "tickers": []
     },
     {
-      "id": "0f80ac63f186",
-      "time": "2026-08-26T01:36:28.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94dV9aakNOQi1wRkFjcDBRV01jZ1NMaFpLTXNyM1pzWDU5Nzh1d1h0c29vc0IzSFVfbVFIMktLWVNwaU4xTTU0?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "09d0e002ae71",
       "time": "2026-08-26T00:45:34.000Z",
       "source": "simplywall.st",
@@ -132,6 +132,22 @@
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPb3VDN1Q2SUlaczBLNEVjaW9hcndaR3dxaWdrenVDUURfdnlXQjg5WXVJdnUyOVZ6SlU3QXkxN19YVXM3bTFFV1kxNWdiTk43cDRmc0hGb0d0VHM1RU5xdlNaSXMtUmVlLWZ3a3VNYzNjZGJQRWNkcC1WVlFtNWlBcElUVVNVTjBFODJiYl9fdGJMMEpLUHBnbVRlT1ZqMGlMaDBBNTF5UHZjemtpUVpLZ0JrRU5pSk9OVVpZeEgtQVg5SVhWc1pLWnBDQjhYOFJwQXRfVU1pT0d1YVI3UGRVT2VFM1pYaWRyNUJnNEFHUEvSAfABQVVfeXFMT291QzdUNklJWnMwSzRFY2lvYXJ3Wkd3cWlna3p1Q1FEX3Z5V0I4OVl1SXZ1MjlWekpVN0F5MTdfWFVzN20xRVdZMTVnYk5ON3A0ZnNIRm9HdFRzNUVOcXZTWklzLVJlZS1md2t1TWMzY2RiUEVjZHAtVlZRbTVpQXBJVFVTVU4wRTgyYmJfX3RiTDBKS1BwZ21UZU9WajBpTGgwQTUxeVB2Y3praVFaS2dCa0VOaUpPTlVaWXhILUFYOUlYVnNaS1pwQ0I4WDhScEF0X1VNaU9HdWFSN1BkVU9lRTNaWGlkcjVCZzRBR1BL?oc=5",
       "tickers": [
         "DRUG"
+      ]
+    },
+    {
+      "id": "0f80ac63f186",
+      "time": "2026-08-26T00:26:31.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94dV9aakNOQi1wRkFjcDBRV01jZ1NMaFpLTXNyM1pzWDU5Nzh1d1h0c29vc0IzSFVfbVFIMktLWVNwaU4xTTU0?oc=5",
+      "tickers": [
+        "HELP"
       ]
     },
     {
@@ -467,22 +483,6 @@
       ]
     },
     {
-      "id": "862df95ecac5",
-      "time": "2026-08-25T06:35:08.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Top Cybin (HELP) Competitors 2026",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "95ddd9193ff8",
       "time": "2026-08-25T06:22:06.000Z",
       "source": "The National Law Review",
@@ -608,7 +608,7 @@
       "tickers": []
     },
     {
-      "id": "75ddef9ac53f",
+      "id": "883b3eb75ca7",
       "time": "2026-08-24T23:23:49.000Z",
       "source": "TradingView",
       "sourceKind": "gnews",
@@ -618,24 +618,24 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "CMPS Stock Clocks 25% Gains In August Ahead Of Application Filing For Drug, FDA Hearing On Psychedelics",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUWZ4X2JmLU9wTFRJZ0lJVy1rTFNmMV9FM3lJaGpQY1pjZlZBbHdjSXE2N0ZHSURMQVp4SWR6Mm1SWVNBb1VvRWhpOVVjRFItOUlwVFU4UEpzSEctRG9uZHhqUXQ2bmZwODlhZ29mbXdUZHlTZkxxSkE0LVFGdDV5OWtxOUV3dUtOWTJmUVR3VkJ5ZzZzRi1LZGdzcFR4am5EZ2N0WmViTnV2LVBRRVV0THFfc045RllZY1dIX0h2N1NwQ3VsckQwVUs1VzBPYWpSSkNyTjFwMF95MDBfR29acjdueWRzcjlzam9qam9hSHVXOFVV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdk14b3V1OF90bGkwR1dJRUVIcUZYZGplclRjc3pQeGV3XzQyem1pOEFJUjEyYTFlY3VhUC1LWVJfNkdaeUVOSXl6S01FRi1mbUYtczVLNGVsaXdEcEFnU21qVFNLRU9xeDRxUlZiWHhHQU0zTXpGak5EWEtzTnpYTHF2TkV0M3JNSXFzdXJsdVhCclpseFYwNENyTjV5Y2hVV3hrTXRUOEg0QWZ4Zl8zN3Q3Zy1MbE1Eand1aTdVd2ZtdEplS0lGVUhMajJremNGY0FaZmNuWUN0VDBGZXVaZ1VuTS1JUHZSVk9GTGUyNkM2YVE?oc=5",
       "tickers": [
         "CMPS",
         "DRUG"
       ]
     },
     {
-      "id": "57401fbcb5c4",
-      "time": "2026-08-24T22:40:10.000Z",
-      "source": "Investing.com Canada",
+      "id": "0a440404d433",
+      "time": "2026-08-24T22:49:49.000Z",
+      "source": "Investing.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
       "severity": "WARN",
       "direction": "BULL",
       "impact": "MED",
-      "title": "Alkermes narcolepsy drug shows positive phase 2 trial results By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTHVfYkVrN2hUUlNobTRJaEJuN1Z4VTFnUTJWMjdHVTVQV0xVVFNkd3Z5UGhGcXdDYU9TaWZaTGI4YUx1SlRvMmJQZTRQREgwNGJrLWREOEFFcVg1eWxGcDhIT2FWOERXU0szSXZrMXAxVm85Z3M4d3RLUWZueW1QZi1VSHc1aWM3OGk1QnYxemhNdmNzWDFmUzNtYTVfQ3MzZ3hIbGVFd1BfamxoNGRCbXFPdVFrRHhNWUlKUVU0SQ?oc=5",
+      "title": "Alkermes narcolepsy drug shows positive phase 2 trial results",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNLWk2d2ZKUFNfT1YyYnBVdW5ueEpWQWNOUHFFMXdiSjFtWHdwbnNHQjVrajZNR3lKTk1jNWUxX3VjcS13NTk3UkI0NDRwcWR3RXB4VS1JV0NoUGR3MlMtUldlZVB1VVU2aU53aS1UTW9rRHJYWEdTRXlzVm55b0stWHJZSEJPelRwMEw2TXJqSENBLXJpcnhGVkpobXIyNUNjb0d0ZjVnOGx2Yzk5QlI1a0JnSlFUOF9mMlE?oc=5",
       "tickers": [
         "DRUG",
         "ALKS"
@@ -979,6 +979,38 @@
       "tickers": []
     },
     {
+      "id": "f25c1e31b88a",
+      "time": "2026-08-24T03:21:01.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Dow, S&P 500, Nasdaq Futures Dip As AI Fears Hit Software Again: Why APLD, PANW, CMPS, INFQ, IAG Are Trending After-Hours",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZmZlYTFQcVVJXzRzREZqWUZ2Qmk0X0JvUkZ6LUI0LVZfTVhsQ0s2RXRpTVN6UHdrX3Q5NlJSa01pNkxoV1ByRWtxVjY5emttUDhTSHowdm5sRkg0NUU2NzBoSlQtZ1ExUVZBVnd6MGhHYkZqSjBzNnJPSWluczliLTZVME5HTHBwbmh3Wm51ZVRjemVjbFRia1hROEdadmkwY09oUWREV1hXMzhQUjhVM0NWS0J4cVV1QTdUbjhKM3J6c0NIUDJJNFpB?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "f54baeb83e02",
+      "time": "2026-08-23T21:21:16.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "CMPS Stock Jumps Overnight After Trump Order Fast-Tracks Psychedelic Therapies",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd2JnZC1YMF9BcTl0bDJwSkpxTXk5V09SZXh0U21qNzRzZU5wRTNZR25jckI4WVVQTmJpLTgzSGVZcG8wUE9XS3F4Z29ublpQWEJubFExMUtjMC1MS2ttcmZaSC1iek9jWWNVYW9SSkpHQ1E1Ql9lcE4yV0xuOE9COVFEMjE0MG9zTVZHY0hwNkk5SVY3S0Y5UHlEVjQ1bGVZcDVWZFhIRWs3VFYyZ2ZCOFVWN1FkOHBpMWFWanJpUWtub043NGNaaUVWdS11ekExeUw1dFdTOU16TGwtbXVN?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "edfa0e3019df",
       "time": "2026-08-23T19:46:07.000Z",
       "source": "vinanet.vn",
@@ -1008,6 +1040,22 @@
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdmh2Zm8zT19qU2d1MWpDbS1NN1pYY1hjdWhUckdVUUtfUjFfSlR2MmZCOVdDcE9nVk9hd0FxTDlzQVpqSEsxNWkydVZpNkxVbVpxWUNqTktidFJPTWhXbENtOTlib1NrbFpIQjB6cHczWWoxbkZwVVZ5VUN0SUk2bGJkb0N4Mi1LcElFd0FnbHo1QzBFRmJ3anpuTUlKUWNGenJZUmFXclIxTkQ2NFJDNWxDYTY4TjBrQS1vSTZDWjNIdE5XWC1VS0JMZ0xTbWRaTzc0YkxISlU?oc=5",
       "tickers": [
         "CMPS"
+      ]
+    },
+    {
+      "id": "1e44127844b3",
+      "time": "2026-08-23T18:18:00.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "ALKS Stock Surges 15% On Lilly-Centessa Buyout Igniting Sleep Pipeline Hopes",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUktiTFRlT2NkRXRsZ3RyM1hMc2hJMHlyZlpTdzVNQUg0TUlHWlNpTHRGTWFJWVByenFfczRMSHZlWVBUeURCcEJSM1d2bUlERWlYU1hRQ1JVU3NjTndZOHRMLWo0enYyT01UREl3VG82MWxWSXVobjVuNjVNdEFmTmk0eHpqVkNFTjdNNFVNS1pDeWdEQWZ1d0ZWZ1duZXl0VlFORU1RanlPc0N1NHpWMlJKZ0dpRVA3R0UtVnRMNGE3Mi1SRmsyaWhHWGYtQl91dWc?oc=5",
+      "tickers": [
+        "ALKS"
       ]
     },
     {
@@ -1143,6 +1191,22 @@
       "title": "Veterans with severe PTSD saw major improvement after psilocybin treatment",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOel94cGFKMUlNcXdIeHcwdzRIbVdtZ1N6UHBQbFdHVF9NUVRjQmd1bXVNbmt6OXVRa1lTQnhhYUdpTFhjWmtxNEFIX2xFQWhGRlVLN3BYMnBmZXJIcGtPcGgwY3dJeENsOGxSTXNVSWk2S3piMFFrelo2R3drU3NZMEFaNF9zZXl0b1htUms5aWFZQURNSEhMbmpadw?oc=5",
       "tickers": []
+    },
+    {
+      "id": "60d8037be999",
+      "time": "2026-08-22T07:00:00.000Z",
+      "source": "Intellectia AI",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "HELP Should I Buy",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5od2Z0U1V1djR4LVF4LWZkMS0yZERMN2lWNEYwZ3hpLWhjS3IyZktQWGNVcDV5aWJiYWhEeExtVVo2cnFIeGNoTkRsd2daUlNRM3k1OUxWZlVBcjQyU0E?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "2d750793f250",
@@ -1369,68 +1433,6 @@
       "title": "More than 2,300 psilocybin users report real-world outcomes in Oregon and Colorado",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYmhZUmtLb0lpUnhWWEU1anRTSVcxUnRRZzZhTlYyM0ZzaFFJbFR2clJTSVQ1aGRUM3NDY3FTTE1GejdJSHFWV24wRDNjYUJpV0JaWDZsNE1fcVRWMjFER3ViOWxrSFNpOXhHUHRZMHc4anV0WTI1RUVYaWxMXy0tblVlejNaSTQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "983639951e4d",
-      "time": "2026-08-21T13:46:19.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Here's Why Neurocrine Biosciences (NASDAQ:NBIX) Has Caught The Eye Of Investors",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPc29PalRUSl82T0Q0X05WS2pZZmhpX1JjbXVFcWZNUkhwaDgwQ0NtRUtGV2V6eGFobVdZREo2RFVOQ2o3T203S0J1Nl9QTmt1UWZlS3pkOFR1YXdEb19GWVZQRXRQcl9rT3dRM0QyVnUyanVaajFjRFBJQS0zb0xocG5PV2R2ZGR3N1RzMUlXa0loZ09ITmE1RUxIZDIzdXJHLTA2OA?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "466751b40129",
-      "time": "2026-08-21T13:39:44.000Z",
-      "source": "Earth.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psilocybin reorganizes the brain in a surprisingly orderly way",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLWpaUDltZWNacUJGTUY5N1gwc2ZEWTlFWHdZVzBHUmIwZlRVOHJnMXZ5dGJuVG52eGtRaXZEN2dndkhyT083WmxiMWl5YW9Wb0x4bkJPOUdiZXBvUmxSX0NRZEJEWXppdVlGaXlCdXNFYWtleGstR1VsNmpCQW9VZ1BfN1YwLUxwdzlrZjFOSV9UTXRXRE1PMw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "1f1bfcfa2fe7",
-      "time": "2026-08-21T12:39:30.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "HC Wainwright Issues Positive Outlook for Cybin Earnings",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMDUwckhpX0p4YzktcWl1cm82c2lSV3hoVlFVRWRMaThKTlRrWWZnTzlnVVducjJZb2V4aEw4UG1OMl9Oa1JKaFhjMnE3VEZrLXpRdnJydDZHczdGVjRSblBQUExDQ1k1M215MmRmRkhfM1JCUmtsMk9EdzRRcHh6dFBGU2dnblVqUzJEM2hBQWh0blEycjFnQ2pHYjZac3pMMFlnWEdNSWNjR2diWnlJ?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "3da0e76bc668",
-      "time": "2026-08-21T11:17:13.000Z",
-      "source": "WGME",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Domestic violence call leads authorities to two drug labs in Saco",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUkZORXZhaV9tMTBONzZwS0pLdy14Q3Q2bnlVTThhWmZzNE5qbS1YVW40U3NXeWZCbV9HZ2hyRlhfNEl3eFcxczJoX2U1VUUyZ0llVXJIN0lxOFMxNzI0cTZ3WkZya3ZfVjZDX3k3ekhiWnZGWWJ1aFoyVUJhY1VkaUpudW9tSVkzYmJpUFZYdmptZmFQQXJuRA?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     }
   ]
 }
