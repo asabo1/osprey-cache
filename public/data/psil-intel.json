@@ -1,21 +1,20 @@
 {
-  "updated": "2026-08-26T07:27:24.164Z",
+  "updated": "2026-08-26T08:09:25.665Z",
   "counts": {
     "total": 90,
-    "crit": 4,
-    "warn": 7,
+    "crit": 2,
+    "warn": 10,
     "bySource": {
+      "Investing.com": 1,
+      "The Manila Times": 2,
       "MyChesCo": 1,
-      "Yahoo Finance": 4,
-      "KRIS 6 News Corpus Christi": 1,
       "Stocktwits": 6,
+      "Yahoo Finance": 5,
+      "KRIS 6 News Corpus Christi": 1,
       "simplywall.st": 2,
       "East Bay Express": 1,
-      "The Manila Times": 1,
-      "גלובס": 1,
       "WFAE": 1,
       "PsyPost": 2,
-      "The Source - Bend, Oregon": 1,
       "Kalkine Media": 1,
       "Seeking Alpha": 4,
       "Pluang": 4,
@@ -25,7 +24,7 @@
       "The Clinical Trial Vanguard": 2,
       "Specialty Pharmacy Continuum": 1,
       "SMH.com.au": 1,
-      "kalkine.ca": 2,
+      "kalkine.ca": 1,
       "SILive.com": 1,
       "MarketBeat": 3,
       "TechStock²": 1,
@@ -40,6 +39,7 @@
       "WLNS 6 News": 1,
       "New York Post": 1,
       "Stock Titan": 4,
+      "The Source - Bend, Oregon": 1,
       "Barchart.com": 1,
       "The Microdose | Substack": 1,
       "Minnesota Spokesman-Recorder": 1,
@@ -52,26 +52,57 @@
       "DirectorsTalk Interviews": 1,
       "UMass Chan Medical School": 1,
       "Toronto Star": 1,
-      "That Eric Alper": 1,
       "marketscreener.com": 1,
       "Willamette Week": 1,
       "News Ghana": 1,
       "Comic Watch": 1,
-      "Intellectia AI": 1,
+      "Intellectia AI": 2,
       "KTVZ": 1,
       "lucid.news": 1,
       "ASU News": 1,
       "PoPville": 1,
       "drugdiscoverytrends.com": 1,
-      "Broken Frontier": 1,
-      "Psychedelic Alpha": 1,
-      "Medical Xpress": 1
+      "WMTW": 1,
+      "Broken Frontier": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "38cb9e286a08",
+      "time": "2026-08-26T07:50:21.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "Nxera to receive $10m milestone as partner’s Alzheimer’s drug enters phase 2",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYkNQNlk1eHoxS2phQm9lYVV6NlFMT2lrbkRpYUxRQkU2cVlKaEcxUHhzT2lPZkxmM2NsWk9naEstUjdMZzBnNnBwR04tdTJ2ekpKWTJNSU5ZZ0FNRTg5eGMyekY0Nzh2VFJfM283SC1ibFNqT0dFOUpsTkxtNXlGa2xEVW83R2htR2dTbmJsV0NFaHdScnh4UVF3cnc3RXVscERqUUZCbXZVWW9yUzRZdnBDYmljdHJKckdJRC1oWDV2LVdCLWNqdlFn?oc=5",
+      "tickers": [
+        "DRUG",
+        "NBIX"
+      ]
+    },
+    {
+      "id": "87be731e231e",
+      "time": "2026-08-26T07:41:18.000Z",
+      "source": "The Manila Times",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Nxera Pharma’s Partner Neurocrine Biosciences Receives IND Acceptance from the FDA for Phase 2 Study of NBI-1117567 for Alzheimer's Cognition",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQMjZpczlIeGhkV19wSGVTUk1GNlc3RDdIbTBIcWROWVNobzVPQ0NxUWYxbnRqOExUQlJkR0pfSzlYNVZJOWwwWjNhc0dZMmt3Q2NXcllKOUsyR3ZCSU9EVXlSakpHa0RKMU5BQ0RvdmlybzJQMy0xSlZoVVFtYTlieWNxbW9ZMjFYWGc2aEtza1EzLUlIZERqenQ0cWRsUEVHcWtDU3UyaTZOcUhrbkpwZXY1akpGcVpVWFhqNHR0ZFdiMEpKN3ZJZmljQ3lYNUVMbjVQbVJPdTh4QzhzYlY4dnMzcGdJa0FsdzUzeEdDbmI4UHQweG9oYXFCWEJHcmhLbC1MX1l2ZThOOGpyQ2ZoVkw3ZEhrbW01WnU4c2FUQUVxVTlRTXB5eEl4NE56MHpWcGpRVVpsQU3SAb4CQVVfeXFMUDVLaHJJYkpUckdmajZkODViWDFsY0hzeDFSQmZfLTJvZHZPM2tJQVNnT0ZhRlJKZXo4bVNodDBJQXVKWXVKekdkOGR6aC1oMTR3c0tCVHR1Y1hYU1RRcnh0a3ZTSTZoM1Z4M3B2Sjh5Mkp1Yy1Xb2VDa1o0R1UwTmFCRGhHX0c1TnFPWUt2cEpnQzE1U3RJblVOWWNYcXJ0QVVMcU4wVFJtVHR2M2o4S3FKYnhMbHZGY2N2T2NwNmhEaDRHZlVzZkxzYW5tM2ZGMWNtNEpjMlN6dGVCakt6UURCTmRBa1UtUmZTRDFHd3R4Zkp6SFpmX19Ed1N6em1tRFZDQzBDeTh5aVlCMjVhRnBuNllTX2hrUURQR0FmNzV1cDQtV01vLTdoRUFyWjV1Qm5memwtMTd1cHF4ektR?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
     {
       "id": "5c03430c5a01",
       "time": "2026-08-26T04:00:00.000Z",
@@ -87,6 +118,22 @@
       "tickers": [
         "DRUG",
         "NRXP"
+      ]
+    },
+    {
+      "id": "0f80ac63f186",
+      "time": "2026-08-26T02:23:40.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94dV9aakNOQi1wRkFjcDBRV01jZ1NMaFpLTXNyM1pzWDU5Nzh1d1h0c29vc0IzSFVfbVFIMktLWVNwaU4xTTU0?oc=5",
+      "tickers": [
+        "HELP"
       ]
     },
     {
@@ -107,7 +154,7 @@
     },
     {
       "id": "51cdae08b4c1",
-      "time": "2026-08-26T02:04:38.000Z",
+      "time": "2026-08-26T02:03:13.000Z",
       "source": "KRIS 6 News Corpus Christi",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -118,22 +165,6 @@
       "title": "Veterans push for ibogaine access as psychedelic treatment shows promise for PTSD and suicide",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdEItWDVIWlQ1R044Njl6TU5IaGp5bGJTeURCN3JJQmpSZXlTT3p2UElJbzg2T1loaVBhTi1jd19jT2piT1ZFeWZmUy1FcW4xR3k1TnVYVGhEazd0aUlZRGhjSnE2cVN5U0JiUjNfUWZCOHJ1WnBPNXZzYnJwUXpONlF3WG5QSGxLYnRXdV9lU0Z6MEdqQ250MlJMd05BV1ZfV3JtalFsdU1EUEJZZVpjYm5IUVAxY3RQdVk4OWFkSkNrWDVrbzB6U0xTMnE?oc=5",
       "tickers": []
-    },
-    {
-      "id": "0f80ac63f186",
-      "time": "2026-08-26T01:36:28.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94dV9aakNOQi1wRkFjcDBRV01jZ1NMaFpLTXNyM1pzWDU5Nzh1d1h0c29vc0IzSFVfbVFIMktLWVNwaU4xTTU0?oc=5",
-      "tickers": [
-        "HELP"
-      ]
     },
     {
       "id": "09d0e002ae71",
@@ -180,22 +211,6 @@
       "tickers": []
     },
     {
-      "id": "387b65e2cb78",
-      "time": "2026-08-25T20:45:48.000Z",
-      "source": "גלובס",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "NBIX vs. TEVA: Which Drugmaker Is the Better Investment?",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tbHNSMHhtY2ZhVHBmcUl4YkNHdzBZaVczSjlWMWFPUmFKek93VllDNWdobWEtbmdPTWJ6NlBDLXI5WTlaazE2V0RVUkRZU2gtaUFJNVZydGVOSWxka1l0REF3?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "081cefbc167b",
       "time": "2026-08-25T20:44:00.000Z",
       "source": "WFAE",
@@ -221,20 +236,6 @@
       "impact": "LOW",
       "title": "A unique psychedelic shows promise for pain and stroke",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZ2M3WW9EZW5xa0hEMXU2aS1mekFWRG93NWNJektOcmRPeDVNV0xISmVVSG1ZaW9lNTgySW1DSktQemoxVGhWS0J2aDRzSk5XbzF3RXJtVW5qTlBfRm9BNHhuWFdwTUlfMjI0dV83MzhtRW1jc3RHLWVkcU1BNXVIYlFuTHA3dw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "e27bc1608956",
-      "time": "2026-08-25T20:00:00.000Z",
-      "source": "The Source - Bend, Oregon",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The Psychedelic Frontier",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sUWNFOHk0YVVxUU1RRHhWbnQteVU5QlpDNUYxeUNjWEVZZHVTQVVIaUE1UHBIdTZZLXloWjNJcml0YWZYbGl3bmtYdThveW1vOG5Yd01YZzlQOTZkbHppS25DZm1CbnRPbXVnVUZVNV9JWlFXcGZtYXZn?oc=5",
       "tickers": []
     },
     {
@@ -283,6 +284,22 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM29HbTU3R2tGVGItSERmcE1zeE5JM3loeDFibmROU1JJQ0l6bTl1X2xpZFVpRTRjWEw5YkVnNFpTLUg2NlAzd2luMVo2c2N0b2E5WUV2WmVXQ0xqSmo0bW1tcWtLeEVYanJTNC1xcHVObzBELXBFUTlKbkhQQ1VySGN3dW9iaThoNUE?oc=5",
       "tickers": [
         "CMPS"
+      ]
+    },
+    {
+      "id": "dc3ab4533f70",
+      "time": "2026-08-25T17:26:00.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "NBIX vs. TEVA: Which Drugmaker Is the Better Investment?",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV2ZyMVVHcy1pSkk2dTJzLXhSWGxRTE1lY3NGNERJRmpRVUxHYXlZTVdnYWFCM19OclZBNVV4dU8yR2Y4a3dCVFVodXZsZWRhV2ZFQlhOek1aYW1SaC1PUHoySm1kS3dYZzN2Z29ka0Z0bk44VVllWWFhMElKMy1CbWRxWk1zWThPNUMwUk1aS0oxcDlq?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -574,7 +591,7 @@
       "title": "Top Definium Therapeutics (DFTX) Competitors 2026",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOei1hblhLV0daTTVDX3p4QlhfOWphZWdsTGVLdTAxcTYyLXVfNUgtQlJzcEZFLVZZOTlzSHM4YjhHOTVpMTFKRkxGOW9ScUVLOVpvMm9hOE9tZ0llQnRfVlZaRTNNSlBjOUEtcEZad0d4UnFjLWxQT2hJa2NzWUxOcw?oc=5",
       "tickers": [
-        "NBIX"
+        "DRUG"
       ]
     },
     {
@@ -725,6 +742,20 @@
       "impact": "LOW",
       "title": "New MDMA combo targets PTSD, anxiety at Clearmind (NASDAQ: CMND)",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLUpsRzFJT1lBYzQxSEQ1QjFQcXJ0TFotbm1qd1ZSY0FPWHh1YVpacUpPbzNTb3V6TE1MMnBMc1hLdXl2S2lWUm5sX3Z6ZTIzTXFWdzhVRUhFY1djc1dwa1poWmRpVTMxV0Q0QW51NV95akxZT1ZzMzRxLVhkNlZZMGpjRUloUzUwM241NG5OSlVPdnZmeUprNUgyRHk5a3RleDFoeUlRQk9fYWQ0Q0FlVDc5Ry1VSHFWOXc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "e27bc1608956",
+      "time": "2026-08-24T20:00:54.000Z",
+      "source": "The Source - Bend, Oregon",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The Psychedelic Frontier",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sUWNFOHk0YVVxUU1RRHhWbnQteVU5QlpDNUYxeUNjWEVZZHVTQVVIaUE1UHBIdTZZLXloWjNJcml0YWZYbGl3bmtYdThveW1vOG5Yd01YZzlQOTZkbHppS25DZm1CbnRPbXVnVUZVNV9JWlFXcGZtYXZn?oc=5",
       "tickers": []
     },
     {
@@ -1011,6 +1042,22 @@
       ]
     },
     {
+      "id": "f54baeb83e02",
+      "time": "2026-08-23T21:21:16.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "CMPS Stock Jumps Overnight After Trump Order Fast-Tracks Psychedelic Therapies",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd2JnZC1YMF9BcTl0bDJwSkpxTXk5V09SZXh0U21qNzRzZU5wRTNZR25jckI4WVVQTmJpLTgzSGVZcG8wUE9XS3F4Z29ublpQWEJubFExMUtjMC1MS2ttcmZaSC1iek9jWWNVYW9SSkpHQ1E1Ql9lcE4yV0xuOE9COVFEMjE0MG9zTVZHY0hwNkk5SVY3S0Y5UHlEVjQ1bGVZcDVWZFhIRWs3VFYyZ2ZCOFVWN1FkOHBpMWFWanJpUWtub043NGNaaUVWdS11ekExeUw1dFdTOU16TGwtbXVN?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "edfa0e3019df",
       "time": "2026-08-23T19:46:07.000Z",
       "source": "vinanet.vn",
@@ -1043,22 +1090,6 @@
       ]
     },
     {
-      "id": "1e44127844b3",
-      "time": "2026-08-23T18:18:00.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "ALKS Stock Surges 15% On Lilly-Centessa Buyout Igniting Sleep Pipeline Hopes",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUktiTFRlT2NkRXRsZ3RyM1hMc2hJMHlyZlpTdzVNQUg0TUlHWlNpTHRGTWFJWVByenFfczRMSHZlWVBUeURCcEJSM1d2bUlERWlYU1hRQ1JVU3NjTndZOHRMLWo0enYyT01UREl3VG82MWxWSXVobjVuNjVNdEFmTmk0eHpqVkNFTjdNNFVNS1pDeWdEQWZ1d0ZWZ1duZXl0VlFORU1RanlPc0N1NHpWMlJKZ0dpRVA3R0UtVnRMNGE3Mi1SRmsyaWhHWGYtQl91dWc?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
       "id": "40bbc1c2cc60",
       "time": "2026-08-23T11:00:00.000Z",
       "source": "Toronto Star",
@@ -1070,20 +1101,6 @@
       "impact": "LOW",
       "title": "This Toronto writer took a massive dose of psilocybin to face Stage 4 cancer. It changed how she saw her final days",
       "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNZWNWVnlLaXNJd0l1OGd4WlA4LUVVLUNTdk5yTVN0NFNzRXNPajlVYmo4LUU2a3B3aFBIQy1meXJJa3dKVVFoMVJ5dnVuTHo2MWFEblU1NVlsWlk1ckxLMDRKUmRPNWtUcFNtZEpLc3lFMjZ3eGtWd1hJTDR5b2VKeDNKTURMbzNWUTEydlpqNXEtajZENFFGTkh5cllkaHBhZFNhZjFrc1pJS2JrQm1xWUVnZkVSVDczNnRtMG1lZTFCR1dObmwyQkVBZjBWbFM2M0tGWXg2SVVqc2lKa3hTenVoeFhFVHpHWGZaQ21PdHV3YzRQWTFvbExlY2ZsZ3oyc1NTalJqeUg4MjhyN0xzb0F1em1nOWIwTmw4MjJlSWROa01KZzNjVU05Qmo?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "788b1a7f596a",
-      "time": "2026-08-23T01:39:27.000Z",
-      "source": "That Eric Alper",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Melanie Meets Hawkwind Veterans On A Psychedelic “Candles In The Rain”",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbGNtUFh2a3BTMUJnVExYdFBMeHh2bUlQOUNaRWpMNF9WVDVwQ1lrMFUyekVSUFdnYUcybS0ybzUwVzNCSEdObmY4VDNabVkzelhwQ1QwcVYxUTNOMmFsMENBeVdsVEZ3cmdiWnA2X1p3emdWSTJGd0U1RTdhbTNIVzV3YnNaYUNmOU1DWnNmbW5xbW1STl9Xbm96Ty1ENjZmNFRyakluc3RQSEh0T3JV?oc=5",
       "tickers": []
     },
     {
@@ -1205,6 +1222,22 @@
       "title": "Veterans with severe PTSD saw major improvement after psilocybin treatment",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOel94cGFKMUlNcXdIeHcwdzRIbVdtZ1N6UHBQbFdHVF9NUVRjQmd1bXVNbmt6OXVRa1lTQnhhYUdpTFhjWmtxNEFIX2xFQWhGRlVLN3BYMnBmZXJIcGtPcGgwY3dJeENsOGxSTXNVSWk2S3piMFFrelo2R3drU3NZMEFaNF9zZXl0b1htUms5aWFZQURNSEhMbmpadw?oc=5",
       "tickers": []
+    },
+    {
+      "id": "60d8037be999",
+      "time": "2026-08-22T07:00:00.000Z",
+      "source": "Intellectia AI",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "HELP Should I Buy",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5od2Z0U1V1djR4LVF4LWZkMS0yZERMN2lWNEYwZ3hpLWhjS3IyZktQWGNVcDV5aWJiYWhEeExtVVo2cnFIeGNoTkRsd2daUlNRM3k1OUxWZlVBcjQyU0E?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "2d750793f250",
@@ -1357,6 +1390,22 @@
       ]
     },
     {
+      "id": "7cc833bff3c6",
+      "time": "2026-08-21T17:34:00.000Z",
+      "source": "WMTW",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Police find hidden drug lab inside Saco home, Maine DEA says",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLVdIc29TSXc4b0tiSG5NRm9kUHdGU3NzTGdyYUdYYVZNalNES2xaV05kMlR5TnViS0FObjh1cS1PMklHeUh3blB2TDN0M250eUlkelpDVktaOEdwelc0TzhJYXJwTHh5UnhTSWItejVtLUVCRnJ3bFkyVVhhZEJXeVFOYkFBQU9iM3A1ZXBqamNIUQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "90703f8636c9",
       "time": "2026-08-21T17:32:57.000Z",
       "source": "Broken Frontier",
@@ -1385,52 +1434,6 @@
       "tickers": [
         "GHRS"
       ]
-    },
-    {
-      "id": "ba9f52183612",
-      "time": "2026-08-21T14:50:00.000Z",
-      "source": "kalkine.ca",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Cybin Stock Advances 5.23% as Phase 3 Depression Program, Leadership Expansion and Late-Stage Catalysts Lift Optimism",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUWNkUm9ZZjJwckxqeWFVRGZ2WkR0ODlPeHFtU3dJMGtnSUR4SGVhZUJUNXl4MVlmR1BRT1FCM1pZZEVxalpOc1ZaUVRJakMwMk1Tb1VTZ2gzOGtSOE1YOF9SYjRlMWpYYlBUWEcwWmZ6R2hGcUJMdW1KY1ZzUjl6RGRsc09fTlJYOTdVY3h6aTRmLUFEZmI2QW9sbkp3ZXlGSlF4ZTRTWmtZbFhzbHVvdTZWR19kUU1OdWFkWEVndU9GSDcyYThuUGtnUEhHbWRvMVpWN1V6QTBTLXlOTy1kalA2NA?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "1e81d9bf0614",
-      "time": "2026-08-21T14:42:57.000Z",
-      "source": "Psychedelic Alpha",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Field Notes #4: Resilient Refiles, Definium's Readout, HRSA's RFI Responses, and J&J's Neuroplastogen Bet",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNWxOZWhMZnFoLXY3UnJrODJoMVd6ZHlqbUpMTVlEREV0Q2lORXQ3NXNxZEV1MUxISXU3SzVGYVNlT1QwT2tTSWFfZXo4cUV3bmF4OFNrV2M2QkkyeUFFYXAxSWxXSl9HelFfbzd6Y0JIRG1vLVlsUFMyZnFYVHo5Y0ZLVHhZNkxFTmRiR0tSZ2w2cXZWT3loTmJCMzA4c3BxQ2NrbFVScmFXTktidlNWV0VRcUdsTXh2TGZ6VWkzb3g5OWJHdlFqajNhVQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "64b6589c3e18",
-      "time": "2026-08-21T14:00:06.000Z",
-      "source": "Medical Xpress",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "More than 2,300 psilocybin users report real-world outcomes in Oregon and Colorado",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYmhZUmtLb0lpUnhWWEU1anRTSVcxUnRRZzZhTlYyM0ZzaFFJbFR2clJTSVQ1aGRUM3NDY3FTTE1GejdJSHFWV24wRDNjYUJpV0JaWDZsNE1fcVRWMjFER3ViOWxrSFNpOXhHUHRZMHc4anV0WTI1RUVYaWxMXy0tblVlejNaSTQ?oc=5",
-      "tickers": []
     }
   ]
 }
