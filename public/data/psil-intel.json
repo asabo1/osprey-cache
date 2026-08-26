@@ -1,11 +1,12 @@
 {
-  "updated": "2026-08-26T11:15:59.609Z",
+  "updated": "2026-08-26T11:57:41.832Z",
   "counts": {
     "total": 90,
-    "crit": 2,
-    "warn": 10,
+    "crit": 1,
+    "warn": 9,
     "bySource": {
-      "Stock Titan": 5,
+      "Investing.com UK": 1,
+      "Business Wire": 1,
       "TheUnion.com": 1,
       "pharmaphorum": 1,
       "kalkine.ca": 3,
@@ -15,28 +16,30 @@
       "Investing.com": 1,
       "GlobeNewswire": 2,
       "Business Weekly": 1,
-      "Stocktwits": 6,
       "MyChesCo": 1,
-      "Yahoo Finance": 5,
+      "Yahoo Finance": 4,
       "KRIS 6 News Corpus Christi": 1,
       "simplywall.st": 2,
       "East Bay Express": 1,
       "WFAE": 1,
       "PsyPost": 2,
       "Kalkine Media": 1,
+      "Yahoo Finance Australia": 1,
       "Seeking Alpha": 3,
       "Pluang": 3,
+      "Zacks Investment Research": 1,
       "The Luxe Review": 1,
       "PR Newswire": 1,
       "Oregon Public Broadcasting - OPB": 1,
       "The Clinical Trial Vanguard": 2,
       "Specialty Pharmacy Continuum": 1,
+      "Syracuse.com": 1,
       "SMH.com.au": 1,
-      "SILive.com": 1,
       "MarketBeat": 3,
       "TechStock²": 1,
       "The National Law Review": 1,
-      "vinanet.vn": 5,
+      "vinanet.vn": 6,
+      "Stocktwits": 3,
       "TipRanks": 2,
       "Your Oregon News": 1,
       "TradingView": 1,
@@ -45,6 +48,7 @@
       "Université de Montréal": 1,
       "WLNS 6 News": 1,
       "New York Post": 1,
+      "Stock Titan": 4,
       "The Source - Bend, Oregon": 1,
       "Barchart.com": 1,
       "The Microdose | Substack": 1,
@@ -61,7 +65,8 @@
       "Willamette Week": 1,
       "News Ghana": 1,
       "Comic Watch": 1,
-      "Intellectia AI": 2
+      "Intellectia AI": 1,
+      "KTVZ": 1
     },
     "byTier": {
       "T2": 90
@@ -69,17 +74,33 @@
   },
   "items": [
     {
-      "id": "4341006cec0b",
-      "time": "2026-08-26T11:01:00.000Z",
-      "source": "Stock Titan",
+      "id": "7b8b6ae1ddcf",
+      "time": "2026-08-26T11:32:00.000Z",
+      "source": "Investing.com UK",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
+      "category": "sector",
+      "severity": "INFO",
       "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium will discuss Phase 3 anxiety-drug results at September events",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY0ZnZE9zMlhQWndVRTNTZzNGbkFNRVpTNzVyYUFQREF2LWkzQWV6cE5BTjhrS2lqLU83NEppVUJha2FLX2l2WGpGa1ZoNXV2ajY5QldUQnNBWFRLeVV6eFhNQTd4a0pYVzNNd1Z0SU9lY21PQW9TdnBsWGUxT1gxSGp1WTdENFhJRXhUbFgtdmt4TUhEa2FVMGdRLTl5MHFtOFJaSDl3QmxiZ3ZqMGJlUlVR?oc=5",
+      "impact": "LOW",
+      "title": "H.C. Wainwright reiterates Buy on NRx Pharmaceuticals stock at $45 By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcTh1TEpqdzh6MDVhSlZIR3RNb1ZDVEh4OVh5SEkwdzYxWEpOYUV6TkZqX2lMaEVhLWxyT0NQSFBkQ2dnRTZRc1J6djZDWGZ5enFSU25hOTdOcmxPdWdoU0dneGtNQ3VFeEN0cGd0d3Y0TkZGbFNJY3RFMzlYVk10d3ZOSDE2dnktVjJpV2pDVk1zWDh6MFRZdF82YjJmemVOQUVfeEg1WUxZRjcwcUx3NHBuVnlXWkFXTExtLVp6cjJlQQ?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "225071171c8e",
+      "time": "2026-08-26T11:01:00.000Z",
+      "source": "Business Wire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics to Participate at Upcoming Investor Conferences and Events",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdTJtaHVzWFBMbEp2RlpwLVBxNXRxcl9OY3M0XzJGclFxVVhUclduTmtqTHZaOFlvNHVSU1ZIUTR0dThtckZNYmVjV1BSX2xGNFpoc1oxdTRQOU9ZNHQwUm5NclN3R010bGtaQlhpMkRWS2xQRzVwTmU5Q2lSMUptMU9EYk43TkVuMFVxZUVEYS1CV1YzejBpdVpidHhVSzZXT0NxZkREN25mWE5aTnBWUUlONk4wRTB6NWlVVnZESEkxSkNKbzAzWDNCeGZtSnk4bHow?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -223,22 +244,6 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd2I4dmVsU0xjQUtOZ1kxcVcwRXBfc3JPQjFfc21MTU9CX2FFdTk2MFFNUXBVTFJaMU42b3Fhc0JZaldodERNV3V5WXRWdmtiQVUwLXZNV2dZX3FyVU0tYlRaazRfaGdfbVRMTjA2Z3dPOUxKVmlNUElFdm5YZDdHclRsbWlNWGF3c0h5N3FtVmtiOXNKRGNxTGNnQjFxTms0N1NqUUZlM0dHcEpYZl9wT1I1MjEtb3FQc201QTBn?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "0f80ac63f186",
-      "time": "2026-08-26T05:18:23.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
-      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94dV9aakNOQi1wRkFjcDBRV01jZ1NMaFpLTXNyM1pzWDU5Nzh1d1h0c29vc0IzSFVfbVFIMktLWVNwaU4xTTU0?oc=5",
-      "tickers": [
-        "HELP"
       ]
     },
     {
@@ -393,6 +398,22 @@
       ]
     },
     {
+      "id": "4bb60afa2e07",
+      "time": "2026-08-25T17:49:59.000Z",
+      "source": "Yahoo Finance Australia",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Teva Pharmaceutical Industries Limited (TEVA) latest stock news and headlines",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qVTVxNEo4eXBrcmU4MUJTZGFJRFhfOEQzR05rRDh6OWdSbzcxbXlqZ01JaG5sQnJoaDJVLWNrT29GMm1wTVZGTVBFV2dHYktTZ1NhekhpV1I?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "e98971da632f",
       "time": "2026-08-25T17:42:09.000Z",
       "source": "Seeking Alpha",
@@ -425,9 +446,9 @@
       ]
     },
     {
-      "id": "dc3ab4533f70",
-      "time": "2026-08-25T17:26:00.000Z",
-      "source": "Yahoo Finance",
+      "id": "f628975a6fa6",
+      "time": "2026-08-25T17:27:25.000Z",
+      "source": "Zacks Investment Research",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -435,7 +456,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "NBIX vs. TEVA: Which Drugmaker Is the Better Investment?",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV2ZyMVVHcy1pSkk2dTJzLXhSWGxRTE1lY3NGNERJRmpRVUxHYXlZTVdnYWFCM19OclZBNVV4dU8yR2Y4a3dCVFVodXZsZWRhV2ZFQlhOek1aYW1SaC1PUHoySm1kS3dYZzN2Z29ka0Z0bk44VVllWWFhMElKMy1CbWRxWk1zWThPNUMwUk1aS0oxcDlq?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYlZCbUhua1c5TW52WnJfVDF0OEZPQk00WTg2b3YxdGRLdWxlclFBZXNDU2dtb1lWdGx0ckZvMXZBQ0JDOTNRMGlveG03NXVPMnNmc0VNVVhDOUZTRDBsQVJxRllRd21mTmNfTjYyWXRmNTF0ZjRuYndsODdJVnRJYlhTMGotQTBpMEZpelE2WFBiSWx3a3o1WWtB?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -561,6 +582,22 @@
       ]
     },
     {
+      "id": "7e9e30272dc9",
+      "time": "2026-08-25T10:00:00.000Z",
+      "source": "Syracuse.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Dear Doctor: For two years, I’ve lived with a constant head bob. What’s causing it?",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbnJHNnB3bEtWejdPWlVPQ1NYeHRLZGp4YkZnbkxSSlJzWW4zNFJNNnNlekZoTkg3NmVOLU1ndjZRMnpUeDdQeUxXVkNpbUgxMnFnMGdBMFhheG81Qjc1aDlOVDl2cmVhYU00SmFKZjZYRDA1M2ZKc2NxS1JpVTh4YmFvZjBvVDdaYmFwNmlMLXphNHJQMkg5NnZlaGVtWFREZEw5d2JTb3NVWEpRM203X0JHVnpXcVFUUm02R2w2RdIB0wFBVV95cUxOZXdQN2pIQ0FuTGxOcHFlcG13XzJxQkkxSXlmN2MwLWYybHRSVVg1NGJxbFFmUjlGYXRNX09SUkwzdUgzVTc3MjV0SzlGa2dieXFzYnhFVVlSRDNjaUQzdmM5OGdjcmtEcFVhNnFnV01XUTJ0T0pmdFZOR1RzSlQwSU0yM0ZnZE1xbk1WcFZaUjN1M0FYYlVuY3NxTjlNMHVlVTQzLWdMMXpBTFl2MTJTX2tGTVBjajRnMkZRRzZ6WHNZSDFVUk41RWhacUtab0RQR1FB?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "51372e7291bb",
       "time": "2026-08-25T09:45:00.000Z",
       "source": "SMH.com.au",
@@ -588,22 +625,6 @@
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWVlIUWRnRGNnRmtaSjFGYzJTRWlOSjByZ3puSVFMZHdNdTlkTm9vSE1DLVUyck9yc0dyRWkyRWk4QmdtMEZPXzBBVEphTWlVUXRmRnJSc3pDbEJudEV0Wk5Gclcyd2xORU95VU5HUmxEY1JjNmNac3RuR3MzdG1GZlAxaUNoem00U09nWGdpUzg2RmZQUHJRcXB6X2RseFJBT3U3MzRuREcwRVhYSlRJa3VYUzlWVDE3RDFvVHdxNWE1TjE3bFNrampneEF6S2RjSzI1eG1YbkpyMG85Y0hFaFo1Q2ZRSzRXMGJ3?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "46fdd3b7a2f3",
-      "time": "2026-08-25T09:00:00.000Z",
-      "source": "SILive.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Dear Doctor: I’ve seen specialist after specialist and still don’t have answers to my endless head bobbing",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOX2djaGlCMVFxRmJkZll4MTlFU1RHVjVkZGNfYlhybXZ4UmhxLVRCdjJWejFrOVpoUWE2eUVhLXNjdGJieEtJQU5hNGlQM2tKdHI0U2Y4SndhaDhpeGR2ZkhRSmV3MHhYUUdLVWsycEEyUGgtZk9fV0FUNjAzRnBuZTRhdEJtYW9FUU5reUZFeGdYSVB3eU1sejl2LTdXZXBDazFGQkU3SDFnVjVRR1BPeTltcGtVbHFtXzhva1RrcXlrbS1vNVhlTW1mQjhyMDFMTC1pT2M4VjZCMlFabG930gHzAUFVX3lxTE1jeUg4T2hFQXhYRS02MnU2QzVGU2ZpSUwtSzlPU2ZtWDV4aDR3VWtwUzNVaTlwOXZRNDNXWTA3RGp0UzIxdkVKRmNfbEstMHB6MmxFdUlON2dRZkNlQXJTY2VhMmZpRmJWRVpNMGpRcmU4cXVCdEdrd0dOMmRleTV4M09BX2dISEs4b0RqQWYwSlF5b0I3ZzdsZ0hyV2tPV01ES0dnWnFfV2xVRTJLMDZxMmpxbkp0VFpwZjYtcDFFV0s5SDVnaVNfM0JqZmxNaW9aRmk3SUlYT21OUkVNNmxLNVVVNzhKOEUtUmdGdGdibzA2bw?oc=5",
-      "tickers": [
-        "NBIX"
       ]
     },
     {
@@ -1180,38 +1201,6 @@
       "tickers": []
     },
     {
-      "id": "f25c1e31b88a",
-      "time": "2026-08-24T03:21:01.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Dow, S&P 500, Nasdaq Futures Dip As AI Fears Hit Software Again: Why APLD, PANW, CMPS, INFQ, IAG Are Trending After-Hours",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZmZlYTFQcVVJXzRzREZqWUZ2Qmk0X0JvUkZ6LUI0LVZfTVhsQ0s2RXRpTVN6UHdrX3Q5NlJSa01pNkxoV1ByRWtxVjY5emttUDhTSHowdm5sRkg0NUU2NzBoSlQtZ1ExUVZBVnd6MGhHYkZqSjBzNnJPSWluczliLTZVME5HTHBwbmh3Wm51ZVRjemVjbFRia1hROEdadmkwY09oUWREV1hXMzhQUjhVM0NWS0J4cVV1QTdUbjhKM3J6c0NIUDJJNFpB?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "f54baeb83e02",
-      "time": "2026-08-23T21:21:16.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "CMPS Stock Jumps Overnight After Trump Order Fast-Tracks Psychedelic Therapies",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd2JnZC1YMF9BcTl0bDJwSkpxTXk5V09SZXh0U21qNzRzZU5wRTNZR25jckI4WVVQTmJpLTgzSGVZcG8wUE9XS3F4Z29ublpQWEJubFExMUtjMC1MS2ttcmZaSC1iek9jWWNVYW9SSkpHQ1E1Ql9lcE4yV0xuOE9COVFEMjE0MG9zTVZHY0hwNkk5SVY3S0Y5UHlEVjQ1bGVZcDVWZFhIRWs3VFYyZ2ZCOFVWN1FkOHBpMWFWanJpUWtub043NGNaaUVWdS11ekExeUw1dFdTOU16TGwtbXVN?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
       "id": "3899c0d7e73a",
       "time": "2026-08-23T20:46:21.000Z",
       "source": "vinanet.vn",
@@ -1257,6 +1246,22 @@
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdmh2Zm8zT19qU2d1MWpDbS1NN1pYY1hjdWhUckdVUUtfUjFfSlR2MmZCOVdDcE9nVk9hd0FxTDlzQVpqSEsxNWkydVZpNkxVbVpxWUNqTktidFJPTWhXbENtOTlib1NrbFpIQjB6cHczWWoxbkZwVVZ5VUN0SUk2bGJkb0N4Mi1LcElFd0FnbHo1QzBFRmJ3anpuTUlKUWNGenJZUmFXclIxTkQ2NFJDNWxDYTY4TjBrQS1vSTZDWjNIdE5XWC1VS0JMZ0xTbWRaTzc0YkxISlU?oc=5",
       "tickers": [
         "CMPS"
+      ]
+    },
+    {
+      "id": "0b4009c9f405",
+      "time": "2026-08-23T17:48:32.000Z",
+      "source": "vinanet.vn",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Alkermes (ALKS) Move: Rises 0.65% to $48.33; Next Test: the Session Ends Within the Reported Technical Boundaries - IPO Entry Watch",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNT1BNcEpZZTR6dmlIUE9oS21rWHRZY0Z5d3RmZ1ViVURCa25lZnBoTEdVbVU4bFZDckg0eUJCcnlocTQwemJTbWZ1NlBnMElhTkk1cmI5bzdGamNaVUxGSWZfS3UydWxyU1JfNHg4eHhHTjU1N2F2TFlrS3NDQV94WXM1OGhkb3c1NHQ1emhQSFJYR2szSWtOSVZKbTBKS1dkZE9qVFZ4X0FaX0ZXQTVVMGdjTER6d29UUHl2a2lucjZWT2I4WWJBdURWR21YbmFqTktWbk9wX285NFJORC13?oc=5",
+      "tickers": [
+        "ALKS"
       ]
     },
     {
@@ -1394,22 +1399,6 @@
       "tickers": []
     },
     {
-      "id": "60d8037be999",
-      "time": "2026-08-22T07:00:00.000Z",
-      "source": "Intellectia AI",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "HELP Should I Buy",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5od2Z0U1V1djR4LVF4LWZkMS0yZERMN2lWNEYwZ3hpLWhjS3IyZktQWGNVcDV5aWJiYWhEeExtVVo2cnFIeGNoTkRsd2daUlNRM3k1OUxWZlVBcjQyU0E?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "2d750793f250",
       "time": "2026-08-22T07:00:00.000Z",
       "source": "Intellectia AI",
@@ -1440,6 +1429,20 @@
       "tickers": [
         "NBIX"
       ]
+    },
+    {
+      "id": "ff52a3dc868e",
+      "time": "2026-08-21T23:57:40.000Z",
+      "source": "KTVZ",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Study: Oregon psilocybin services linked to major drops in anxiety, depression and PTSD",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY2RyaWFSdzZOMC1lQjd1U0lIdzd4M0F2WVpYVWJ3VmpIZ0ZiVFE2R01HN1FFSzBRaUF2ZG05dXpHa1duWGd3dk81eVdlSUZPamt3TUZ2M1JFcTJhWUxFeXRDRHU0Mzc1Ul90VzBianZocTRwQllrQU1zZVRwNFo3T2dFQmthVDYxMHJDZXZzMDVKYzNoa0NVS2FTdU94TmZJZ2Z0X20ydWZEU25QOF8yYWIxV3NiVC1CdEg4?oc=5",
+      "tickers": []
     }
   ]
 }
