@@ -1,10 +1,12 @@
 {
-  "updated": "2026-08-26T10:50:15.539Z",
+  "updated": "2026-08-26T11:15:59.609Z",
   "counts": {
     "total": 90,
-    "crit": 1,
+    "crit": 2,
     "warn": 10,
     "bySource": {
+      "Stock Titan": 5,
+      "TheUnion.com": 1,
       "pharmaphorum": 1,
       "kalkine.ca": 3,
       "The New York Times": 1,
@@ -43,7 +45,6 @@
       "Université de Montréal": 1,
       "WLNS 6 News": 1,
       "New York Post": 1,
-      "Stock Titan": 4,
       "The Source - Bend, Oregon": 1,
       "Barchart.com": 1,
       "The Microdose | Substack": 1,
@@ -60,15 +61,43 @@
       "Willamette Week": 1,
       "News Ghana": 1,
       "Comic Watch": 1,
-      "Intellectia AI": 2,
-      "KTVZ": 1,
-      "lucid.news": 1
+      "Intellectia AI": 2
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "4341006cec0b",
+      "time": "2026-08-26T11:01:00.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Definium will discuss Phase 3 anxiety-drug results at September events",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY0ZnZE9zMlhQWndVRTNTZzNGbkFNRVpTNzVyYUFQREF2LWkzQWV6cE5BTjhrS2lqLU83NEppVUJha2FLX2l2WGpGa1ZoNXV2ajY5QldUQnNBWFRLeVV6eFhNQTd4a0pYVzNNd1Z0SU9lY21PQW9TdnBsWGUxT1gxSGp1WTdENFhJRXhUbFgtdmt4TUhEa2FVMGdRLTl5MHFtOFJaSDl3QmxiZ3ZqMGJlUlVR?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "dc4b4d9835db",
+      "time": "2026-08-26T10:45:00.000Z",
+      "source": "TheUnion.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psychedelic mushrooms to be considered as low-priority by law enforcement in Nevada City",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPMVE4R09xR1lZT21hYlhKWmJnMG5VZEpacEw2UG85VVgtUTN2QjdtYUExNDc3RzhnVGFfaVh3NENKTndwcGwxZW5tNGNlN2V2bmlwZTQ1N09saFpHejRBWHlBZWpmLVFGRk1OMlNjT1hHX1RnaG1sV08xMjFCdmJhTDlNLTJBdjVBZkJYMmNYZFRwWG0wdDFqSUthY1Y3eExvSGRrRkVjRjhhNXA2SGxwOVBPSThxbVFHQmtjbi1qV01uaHZKR3dud3R0aFVTbTZ5WDR0TG9BaTNKSDVLLTJFa2lOSEhjUGVuOEJsTE9Oa0dwU3EzeThlZW0wUzY?oc=5",
+      "tickers": []
+    },
     {
       "id": "e157f69fc62f",
       "time": "2026-08-26T10:09:10.000Z",
@@ -1411,34 +1440,6 @@
       "tickers": [
         "NBIX"
       ]
-    },
-    {
-      "id": "ff52a3dc868e",
-      "time": "2026-08-21T23:57:40.000Z",
-      "source": "KTVZ",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Study: Oregon psilocybin services linked to major drops in anxiety, depression and PTSD",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY2RyaWFSdzZOMC1lQjd1U0lIdzd4M0F2WVpYVWJ3VmpIZ0ZiVFE2R01HN1FFSzBRaUF2ZG05dXpHa1duWGd3dk81eVdlSUZPamt3TUZ2M1JFcTJhWUxFeXRDRHU0Mzc1Ul90VzBianZocTRwQllrQU1zZVRwNFo3T2dFQmthVDYxMHJDZXZzMDVKYzNoa0NVS2FTdU94TmZJZ2Z0X20ydWZEU25QOF8yYWIxV3NiVC1CdEg4?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "fa3302ed9c64",
-      "time": "2026-08-21T22:20:43.000Z",
-      "source": "lucid.news",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic Policy Briefing 8.21.26",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DMFR5cHJGaTNZZWhJMmw1MkEtcEFCRngtVlF5STlHakJ3WXBtRlVwOFd3Sy1zalJYR1R6WnlybDZDU1JBTHl1dTdFRjl6TzZLMEdqMUt2bXNkMUhJa2t6d01oZUhHV1h5VGpJ?oc=5",
-      "tickers": []
     }
   ]
 }
