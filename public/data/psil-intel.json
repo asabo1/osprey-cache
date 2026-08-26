@@ -1,11 +1,14 @@
 {
-  "updated": "2026-08-26T00:25:26.578Z",
+  "updated": "2026-08-26T02:09:53.416Z",
   "counts": {
     "total": 90,
-    "crit": 3,
+    "crit": 4,
     "warn": 7,
     "bySource": {
+      "KRIS 6 News Corpus Christi": 1,
+      "simplywall.st": 2,
       "East Bay Express": 1,
+      "Stocktwits": 6,
       "The Manila Times": 1,
       "WFAE": 1,
       "PsyPost": 2,
@@ -15,29 +18,26 @@
       "Pluang": 4,
       "Zacks Investment Research": 1,
       "The Luxe Review": 1,
-      "Proactive Investors": 1,
       "PR Newswire": 1,
+      "Yahoo Finance": 3,
       "Oregon Public Broadcasting - OPB": 1,
       "The Clinical Trial Vanguard": 2,
       "Specialty Pharmacy Continuum": 1,
       "Syracuse.com": 1,
       "SMH.com.au": 1,
       "kalkine.ca": 2,
-      "MarketBeat": 5,
+      "MarketBeat": 4,
       "The National Law Review": 1,
-      "Stocktwits": 5,
       "vinanet.vn": 2,
-      "TipRanks": 3,
+      "TipRanks": 2,
       "Your Oregon News": 1,
       "TradingView": 3,
       "Investing.com Canada": 1,
       "Earth.com": 3,
-      "Yahoo Finance": 2,
       "Université de Montréal": 1,
       "WLNS 6 News": 1,
       "New York Post": 1,
       "Stock Titan": 4,
-      "simplywall.st": 1,
       "The Microdose | Substack": 1,
       "Minnesota Spokesman-Recorder": 1,
       "huckmag.com": 1,
@@ -64,14 +64,43 @@
       "Medical Xpress": 1,
       "Moomoo": 1,
       "WGME": 1,
-      "U.S. News & World Report": 1,
-      "Technology Networks": 1
+      "U.S. News & World Report": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "51cdae08b4c1",
+      "time": "2026-08-26T02:04:38.000Z",
+      "source": "KRIS 6 News Corpus Christi",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Veterans push for ibogaine access as psychedelic treatment shows promise for PTSD and suicide",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdEItWDVIWlQ1R044Njl6TU5IaGp5bGJTeURCN3JJQmpSZXlTT3p2UElJbzg2T1loaVBhTi1jd19jT2piT1ZFeWZmUy1FcW4xR3k1TnVYVGhEazd0aUlZRGhjSnE2cVN5U0JiUjNfUWZCOHJ1WnBPNXZzYnJwUXpONlF3WG5QSGxLYnRXdV9lU0Z6MEdqQ250MlJMd05BV1ZfV3JtalFsdU1EUEJZZVpjYm5IUVAxY3RQdVk4OWFkSkNrWDVrbzB6U0xTMnE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "09d0e002ae71",
+      "time": "2026-08-26T00:45:34.000Z",
+      "source": "simplywall.st",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "How Investors May Respond To Definium Therapeutics (DFTX) Phase 3 Anxiety Trial Success With DT120 ODT",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPb3VDN1Q2SUlaczBLNEVjaW9hcndaR3dxaWdrenVDUURfdnlXQjg5WXVJdnUyOVZ6SlU3QXkxN19YVXM3bTFFV1kxNWdiTk43cDRmc0hGb0d0VHM1RU5xdlNaSXMtUmVlLWZ3a3VNYzNjZGJQRWNkcC1WVlFtNWlBcElUVVNVTjBFODJiYl9fdGJMMEpLUHBnbVRlT1ZqMGlMaDBBNTF5UHZjemtpUVpLZ0JrRU5pSk9OVVpZeEgtQVg5SVhWc1pLWnBDQjhYOFJwQXRfVU1pT0d1YVI3UGRVT2VFM1pYaWRyNUJnNEFHUEvSAfABQVVfeXFMT291QzdUNklJWnMwSzRFY2lvYXJ3Wkd3cWlna3p1Q1FEX3Z5V0I4OVl1SXZ1MjlWekpVN0F5MTdfWFVzN20xRVdZMTVnYk5ON3A0ZnNIRm9HdFRzNUVOcXZTWklzLVJlZS1md2t1TWMzY2RiUEVjZHAtVlZRbTVpQXBJVFVTVU4wRTgyYmJfX3RiTDBKS1BwZ21UZU9WajBpTGgwQTUxeVB2Y3praVFaS2dCa0VOaUpPTlVaWXhILUFYOUlYVnNaS1pwQ0I4WDhScEF0X1VNaU9HdWFSN1BkVU9lRTNaWGlkcjVCZzRBR1BL?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
     {
       "id": "a50a97e276f9",
       "time": "2026-08-25T23:01:14.000Z",
@@ -85,6 +114,22 @@
       "title": "Oakland’s entheogenic churches build community through psychedelic healing",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOXlyZDk2dV9mNktmT0VTUkdLRXphS2s1bGhhbk9KbURtUDRES1lUdjU0aHBOam5yMWpMLW1GNGJxT181eXMzYjlIT1pKMDdrNnBMbTNZeXo5U1VKWVNtOHFpQkpIa09oT3pPRnc1ZGVhMTRYeFFGbGxveVNpeVFxUHpqS0RTUmtoTENQUUNQMGFiSXFUaXdVcUZud1ZHRlJUNi1V?oc=5",
       "tickers": []
+    },
+    {
+      "id": "0f80ac63f186",
+      "time": "2026-08-25T22:07:30.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94dV9aakNOQi1wRkFjcDBRV01jZ1NMaFpLTXNyM1pzWDU5Nzh1d1h0c29vc0IzSFVfbVFIMktLWVNwaU4xTTU0?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "77e3bb2f5a7e",
@@ -116,7 +161,7 @@
     },
     {
       "id": "726517ca989a",
-      "time": "2026-08-25T20:08:08.000Z",
+      "time": "2026-08-25T20:32:16.000Z",
       "source": "PsyPost",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -251,20 +296,6 @@
       "tickers": []
     },
     {
-      "id": "17c6f327c46e",
-      "time": "2026-08-25T14:39:00.000Z",
-      "source": "Proactive Investors",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Rhelion Life Sciences advances clinical footprint with University of Washington psilocybin supply deal",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNY0lWQnJuWE9OOUZIT0pNc1BIZERiVHQ0WURIZmZaTUYzYkRhT2dwdlozNElzek0tWXh1eDE5T2tud3dNVFBfNjdmNmlYcEJPaWlERWVZVnptRURPaXVjc2s3QTFmNWhNWmtuTjhFUDNBcXdHVzA4RGRvcDZiT000R0RTX0tGTWptSGVEZHhpR1o4d3NvTTk4S1JVTGdXTV95VTVYWC03Z3lzLXAxYWhVMUlQX2xacW9WdGtqRTc1RnlQMzdNY0tiV0UyX1o3S1dWVmhGSDQ5d1NsaHJNOHZqR0Y3VkNOb19JZ1VsNlNPX0ZCZnI2M3pBcnRWYU0xSmx2WlBjNEt3?oc=5",
-      "tickers": []
-    },
-    {
       "id": "8e61191519b1",
       "time": "2026-08-25T14:31:00.000Z",
       "source": "PR Newswire",
@@ -279,6 +310,20 @@
       "tickers": [
         "GHRS"
       ]
+    },
+    {
+      "id": "3cbb385301da",
+      "time": "2026-08-25T13:39:00.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Rhelion Life Sciences advances clinical footprint with University of Washington psilocybin supply deal",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbDFCc2xpcGVEeWtVQVU0YmlIVFdKS0hFcmhmLU01R05DRUNjTmhTT0JSdU4wZ2p3R2hwYWhvZEFwdkZIQnllVGVWRktrNmxzT25DR0RZbUhsYy1QcjZLaHNmNmdmRnQyZldyRWxYTGtaZlNpQXppNzdaS2Rwa3lkLVFPamppVTgxc0lkYjJZSWozUUdRekJOZWlqcHU1dzc5V3c?oc=5",
+      "tickers": []
     },
     {
       "id": "6cc2afa0f7d6",
@@ -1380,52 +1425,6 @@
       "title": "Psilocybin Safe And Effective Against Mood Disorders, Real-World Data Show",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdnB5Y3gyeVZuLTluM1VoN2MyM042WmMwcnFZR0RUblNiSkppcDg3VHFUdF9oNWRzX1NVX25QYzJuLWx1S3FMTURCNkxwNjROQnFQV3NfVVI3bkRlTGg5RmsybjJXR1ZxWkU1MzNiYnRnOXYydU9Kbk5GYUpoeUlINEVVTTc3Z0g0djdYbzJyOUxuTzN5MVpZN3FBLVktVkRPY3NQQXhlbzRPWEZpTGlmSU91NXZiUnNZTUNmSTFJYV9nNFhEU0gxSW1HVWFBZw?oc=5",
       "tickers": []
-    },
-    {
-      "id": "23d7a7d1a4d1",
-      "time": "2026-08-21T10:19:01.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin Inc. (NASDAQ:HELP) Receives Average Rating of \"Buy\" from Analysts",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMHJtUk5HVFEwRlJMQUpyTk5HYWZKcWR0YmRGOW5GbWRCN3NQSzdHVFhNUm9OS0RuLUd6UXJhSUpJV0NJMHlHXy1CbFRVSWIySm5keEN0YnBKMUxCcm81V0h1bFFXby1MWXZ3eXBIN3RDTlhmU1hCa1RNcktrTU5md3ZrdlB2MkpOUlc4RkJqSVZCZnRCYi1ydEpRN19FNjhuWHRySWZqampsVmM2ZlhhcXN4Vnc4aW9Cc180?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "67b2f6b153ee",
-      "time": "2026-08-21T08:45:33.000Z",
-      "source": "Technology Networks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Why What Movie or Music You Experience During Psilocybin Matters",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcWRodVhHcm0zOG52MFhhVFUtcS1XN1EwdHpfN3RUMXZPbEItU0FzRllkZXN3Qmtsa1hSSFhPMkJ6MzJHX1k0cEhrZzg1ZnNodmY4Y0h3MTZhVkxpOW5TYjBUemdOVDFwNUQxM2EzMXFnQVdYcTZSSDJXOE1TLXBBalZ5T0lSQXRCMXU1c09DeFZJekJxaG9QQWZsU3Rya3Z6czhWX09qcW56Y2Z0UUM0UVkzNjU?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "073e895143c7",
-      "time": "2026-08-21T08:25:39.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Helus Pharma CEO to Spotlight Mental Health Pipeline at Canaccord Growth Conference",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbl9qdTFINjIxR1VGNjhCa3NRMTZaUURzSGZwQnQ0ekV4Rkk4bXl4dkV4MkwyWlBDOVdCLVY1MV9RMGlsYTVWMUNBYmhpQi01czR5MzJjZHVKbVN0XzMyY1hsSkVpcFpDR2pxWENTRHhpSUtOSHFTZklGcmlveS0wbkctV2I3NlZ4MlJVcmZqLVJpTmJLSkR4QXlqa2NzWE9EM1hYdUVjbHpfTWR4Vm9UZzkzYjBIeEZ6eldsUUI3WVdSVjVrakc0TGJCZnozeGlr?oc=5",
-      "tickers": [
-        "HELP"
-      ]
     }
   ]
 }
