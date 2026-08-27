@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T20:42:13.408Z",
+ "updated": "2026-08-27T00:18:08.519Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 0,
@@ -104,10 +104,10 @@
   },
   "ALKS": {
    "buyFilings": 0,
-   "sellFilings": 10,
+   "sellFilings": 9,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 103367,
+   "sellShares": 87150,
    "latest": [
     {
      "date": "2026-08-17",
@@ -155,10 +155,10 @@
   },
   "NBIX": {
    "buyFilings": 0,
-   "sellFilings": 11,
+   "sellFilings": 10,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 127636,
+   "sellShares": 116636,
    "latest": [
     {
      "date": "2026-07-28",
@@ -222,54 +222,6 @@
   }
  },
  "parsed": {
-  "0001816952-26-000004": {
-   "ticker": "CMPS",
-   "owner": "Karydas Daphne",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001276038-26-000004": {
-   "ticker": "CMPS",
-   "owner": "SANTINI GINO",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001754129-26-000004": {
-   "ticker": "CMPS",
-   "owner": "Gover Justin D.",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001042021-26-000002": {
-   "ticker": "CMPS",
-   "owner": "JONAS JEFFREY M",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001432895-26-000002": {
-   "ticker": "CMPS",
-   "owner": "Riley Wayne Joseph",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001898317-26-000002": {
-   "ticker": "CMPS",
-   "owner": "McQuade Robert",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001529193-26-000002": {
-   "ticker": "CMPS",
-   "owner": "Norton David Y",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001830764-26-000004": {
-   "ticker": "CMPS",
-   "owner": "Tregoning Kathleen",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
   "0001140361-26-028137": {
    "ticker": "ATAI",
    "owner": "HERSHBERG ROBERT",
@@ -492,19 +444,6 @@
     }
    ],
    "filingDate": "2026-06-01"
-  },
-  "0001520262-26-000095": {
-   "ticker": "ALKS",
-   "owner": "Parisi Samuel Joseph",
-   "txns": [
-    {
-     "code": "S",
-     "shares": 16217,
-     "price": 42.3634,
-     "date": "2026-05-29"
-    }
-   ],
-   "filingDate": "2026-05-29"
   },
   "0001533568-26-000012": {
    "ticker": "NBIX",
@@ -785,79 +724,6 @@
     }
    ],
    "filingDate": "2026-06-02"
-  },
-  "0001894425-26-000010": {
-   "ticker": "NBIX",
-   "owner": "Onyia Jude",
-   "txns": [
-    {
-     "code": "S",
-     "shares": 11000,
-     "price": 155.5332,
-     "date": "2026-05-27"
-    }
-   ],
-   "filingDate": "2026-05-29"
-  },
-  "0001201096-26-000012": {
-   "ticker": "NBIX",
-   "owner": "GORMAN KEVIN CHARLES",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001126490-26-000005": {
-   "ticker": "NBIX",
-   "owner": "POPS RICHARD F",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001123343-26-000008": {
-   "ticker": "NBIX",
-   "owner": "LYONS GARY A",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001782135-26-000020": {
-   "ticker": "NBIX",
-   "owner": "Mercier Johanna",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001189014-26-000007": {
-   "ticker": "NBIX",
-   "owner": "POON CHRISTINE A",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001377202-26-000006": {
-   "ticker": "NBIX",
-   "owner": "Sharp Shalini",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001079462-26-000004": {
-   "ticker": "NBIX",
-   "owner": "SHERWIN STEPHEN A",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001068754-26-000004": {
-   "ticker": "NBIX",
-   "owner": "MORROW GEORGE J",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001205903-26-000004": {
-   "ticker": "NBIX",
-   "owner": "RASTETTER WILLIAM H",
-   "txns": [],
-   "filingDate": "2026-05-29"
-  },
-  "0001533568-26-000007": {
-   "ticker": "NBIX",
-   "owner": "Norwalk Leslie V",
-   "txns": [],
-   "filingDate": "2026-05-29"
   },
   "0001520262-26-000111": {
    "ticker": "ALKS",
