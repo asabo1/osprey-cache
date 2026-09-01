@@ -1,49 +1,52 @@
 {
-  "updated": "2026-08-31T22:50:09.157Z",
+  "updated": "2026-09-01T01:27:07.254Z",
   "counts": {
     "total": 90,
-    "crit": 6,
+    "crit": 5,
     "warn": 5,
     "bySource": {
       "Psychiatric Times": 2,
       "ASU News": 1,
       "The Globe and Mail": 1,
-      "moomoo.com": 1,
+      "Moomoo": 1,
       "Yahoo Finance": 4,
-      "Gympie Today": 1,
+      "gympietoday.com.au": 1,
+      "Stock Traders Daily": 1,
       "Glide Magazine": 1,
       "greenstate.com": 1,
       "Zacks Investment Research": 1,
       "Military.com": 1,
       "MarketBeat": 3,
       "kalkine.ca": 4,
+      "peakprosperity.com": 1,
+      "Fierce Biotech": 1,
       "The Marijuana Herald": 1,
       "AD HOC NEWS": 1,
       "VCU News": 1,
       "TipRanks": 3,
       "marketexclusive.com": 1,
       "Investing.com": 2,
-      "ganjapreneur.com": 1,
+      "Ganjapreneur": 1,
       "Pharma Voice": 1,
       "TradingView": 2,
       "Bloody Disgusting": 1,
       "PsyPost": 3,
-      "Stocktwits": 6,
+      "Stocktwits": 8,
       "News-Medical": 1,
-      "thedakotascout.com": 1,
+      "The Dakota Scout": 1,
       "thestrand.ca": 1,
       "Texas Public Radio | TPR": 1,
       "fortworthreport.org": 1,
       "Dagens.com": 1,
       "Seeking Alpha": 1,
       "Vicente LLP": 1,
-      "That Eric Alper": 1,
+      "thatericalper.com": 1,
       "ScienceAlert": 1,
       "The Motley Fool": 1,
-      "Stock Titan": 2,
+      "Stock Titan": 1,
       "Medical Xpress": 1,
       "ChartMill": 1,
-      "simplywall.st": 3,
+      "simplywall.st": 2,
       "WIRED": 1,
       "Your Oregon News": 1,
       "RAND": 1,
@@ -51,7 +54,7 @@
       "ACCESS Newswire": 2,
       "YouTube": 1,
       "The Microdose | Substack": 1,
-      "valueresearchonline.com": 1,
+      "Value Research": 1,
       "The Dales Report": 1,
       "Mshale": 1,
       "Penn Today": 1,
@@ -59,7 +62,7 @@
       "TheUnion.com": 1,
       "webull.com": 1,
       "Wallowa County Chieftain": 1,
-      "Sleep Review": 1,
+      "sleepreviewmag.com": 1,
       "Law360": 1,
       "PAUSE Online": 1,
       "Microdose": 1,
@@ -67,10 +70,7 @@
       "Marijuana Moment": 1,
       "The Tico Times": 1,
       "Le Monde.fr": 1,
-      "Source New Mexico": 1,
-      "IFLScience": 1,
-      "Westword": 1,
-      "UpToHear": 1
+      "Source New Mexico": 1
     },
     "byTier": {
       "T2": 90
@@ -122,7 +122,7 @@
     {
       "id": "bf2a62cd68d4",
       "time": "2026-08-31T20:12:46.000Z",
-      "source": "moomoo.com",
+      "source": "Moomoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -154,7 +154,7 @@
     {
       "id": "b639862ce38e",
       "time": "2026-08-31T20:00:54.000Z",
-      "source": "Gympie Today",
+      "source": "gympietoday.com.au",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -166,8 +166,24 @@
       "tickers": []
     },
     {
+      "id": "88b136b9d8c3",
+      "time": "2026-08-31T19:40:02.000Z",
+      "source": "Stock Traders Daily",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "(GHRS) Movement Within Algorithmic Entry Frameworks",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX1QtM1B0WkFFOXdBWTJpXzN1SjhfSDVXdUhCa3dXN21FcGhYRFN2R09ndXpaTXZDTlhDdTk0dkx1RU1teXppNk5LX0hxSndJOTY0b3pmMl91T3BxeFlwY1poNDY0bWcxT2N0by13bndhcjQwZXhWWE43SS1vNXdoenh5UTFfeU5UdGJENThGaHQ0cGE0SWFtN3F4SDBMNnBfZ3p3LVNiWlNrZ2tXUGpZZTJNbGhjbXlmb0NSZDFIUm1TX05FRlpqQQ?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
       "id": "cff346219a66",
-      "time": "2026-08-31T18:27:25.000Z",
+      "time": "2026-08-31T19:01:44.000Z",
       "source": "Glide Magazine",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -255,6 +271,36 @@
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVzJJczFFTDVaVGVtd04xTUI0QThiSXBjQ3YzLWVSSXgtRklZaGVpR1hOTUllZkQ0YjJXNVN3cXFkUEZ3WDZqc3o2Z1RkX1VXRmhfdFFOWm9zS3NjX00yMlMxMHAwS1pLWW8tZnhHYXhuRlBQNWl5UDA0OFJ2SG5xTnAxRkl2dlpGcWk0b1ozUjZINVBJT0FvbHgxY1kxQTRualdKeXRwZ2NOZ0ZkTE5TamlqSnlMN0RyZ3BOd3dPSQ?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "45aea6831864",
+      "time": "2026-08-31T15:44:36.000Z",
+      "source": "peakprosperity.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Good News Friday: Psilocybin Treats Depression, Hero Goose Saves the Flock |",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX2FUaHpLbVN6cDNtZXNOT0ZJT3ZpZ0xUS21uakMtMzZib0V4TE5sVjZfbXNvYzVRa21maGRYeUJVN2ZPUURzRlpPVHdsT1ZLYzl5OWpoaTdnZklJbHJ3alZIUGJ5NXBYazMweElEUFdwNGJzRzZXM3g3Q1duaThvdzAtX3FOOGZvenpYT2tmc0h4TVNHWFV2a2NJeWpYM3BFVGc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "dd91618f1fc5",
+      "time": "2026-08-31T15:24:03.000Z",
+      "source": "Fierce Biotech",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "‘A neuroscience revolution’: The GLP-like race to keep us awake and make billions doing it",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRlBHSHhJTnpQRmNWUlM2QUc4bklnTGktaXE5akZkNmpKNTVJUlpkU1NNMWkwN1Jyei01X0ZUaGtUcTJjbXcyNk9WVWZfWGc0ZWhpcHZId2hmMlZmTmlDSDZMQlUybzlfSm1tWVd5ZUhCVHkzSFZ2aGlOcmpwSVNYQVg2OG9sNmZLWmxaNlNPT1MzNlJZbXZRSFQ5S0JXcHFjTFZTakZiUWdhVG5JMGhLcA?oc=5",
+      "tickers": [
+        "ALKS"
       ]
     },
     {
@@ -368,7 +414,7 @@
     {
       "id": "5bf3251c1ddb",
       "time": "2026-08-31T13:34:00.000Z",
-      "source": "ganjapreneur.com",
+      "source": "Ganjapreneur",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -501,6 +547,38 @@
       ]
     },
     {
+      "id": "0f80ac63f186",
+      "time": "2026-08-31T05:25:02.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE94dV9aakNOQi1wRkFjcDBRV01jZ1NMaFpLTXNyM1pzWDU5Nzh1d1h0c29vc0IzSFVfbVFIMktLWVNwaU4xTTU0?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "f25c1e31b88a",
+      "time": "2026-08-31T04:21:40.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Dow, S&P 500, Nasdaq Futures Dip As AI Fears Hit Software Again: Why APLD, PANW, CMPS, INFQ, IAG Are Trending After-Hours",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZmZlYTFQcVVJXzRzREZqWUZ2Qmk0X0JvUkZ6LUI0LVZfTVhsQ0s2RXRpTVN6UHdrX3Q5NlJSa01pNkxoV1ByRWtxVjY5emttUDhTSHowdm5sRkg0NUU2NzBoSlQtZ1ExUVZBVnd6MGhHYkZqSjBzNnJPSWluczliLTZVME5HTHBwbmh3Wm51ZVRjemVjbFRia1hROEdadmkwY09oUWREV1hXMzhQUjhVM0NWS0J4cVV1QTdUbjhKM3J6c0NIUDJJNFpB?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "465890d79abe",
       "time": "2026-08-31T02:45:00.000Z",
       "source": "News-Medical",
@@ -517,7 +595,7 @@
     {
       "id": "deb81f396227",
       "time": "2026-08-30T21:33:43.000Z",
-      "source": "thedakotascout.com",
+      "source": "The Dakota Scout",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -675,7 +753,7 @@
     {
       "id": "24b46e1a4ba6",
       "time": "2026-08-30T03:00:20.000Z",
-      "source": "That Eric Alper",
+      "source": "thatericalper.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -714,6 +792,22 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWEYyU0RidGNKWHh3WHJUM2FFVHZ1UkxoVF8yb29nRENGaU96LXBTbjc4UHdObHRGTFhYdTRGckhsZFQ1RmlfSlVWOUJ4b2pxU1dFMUVwcVA4Zm5DbV9Hci03SHJNS3BQVTV0Z0lNSEk2WjZ2Tk0tb1BDR2txS054c08tV0JPaF8wR1Iya2JlbFNMS2hhTjY3SkwzUUVtOHVJcWlfbEFWMkIxaks1S0x1OEVn?oc=5",
       "tickers": [
         "ALKS"
+      ]
+    },
+    {
+      "id": "3d1e4b95d73f",
+      "time": "2026-08-29T17:31:22.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Unusually active option classes on open August 26th",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUnZqdlpUMFlDU2xvSFBQeHRWaU1KeUdZNUFwUGpYVmlLOUNCQ2ZtQ0RsWENiUjFiSzFFOHg0blRfTS1GdkRyaEg3c1dxMFYtZVpwZ0pCaHBjUmZwc1dxUXdMLXdLZTFhZ2ZYYmZRUWFUNUFaZEpfUnd2eFFzNm9jWmtrRE1NZC1IQmtWNXpuZ091MlFYNVJ4LXFTYkhVN2drbjlj?oc=5",
+      "tickers": [
+        "CMPS"
       ]
     },
     {
@@ -976,7 +1070,7 @@
     {
       "id": "9a85a35a2d59",
       "time": "2026-08-28T14:28:00.000Z",
-      "source": "valueresearchonline.com",
+      "source": "Value Research",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1174,7 +1268,7 @@
     {
       "id": "be116f9dac87",
       "time": "2026-08-28T01:00:22.000Z",
-      "source": "Sleep Review",
+      "source": "sleepreviewmag.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1332,92 +1426,6 @@
       "impact": "LOW",
       "title": "New Mexico psilocybin program opens permitting applications for psychedelic mushroom producers",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcE1zWlI3dzlMMC1Ec0hhQnZ0RXc5SVA0NDhSbEk3amx5SlFIN2RuV1dEajRmeDE3ZGd3ZVN6WFM1TElZYUI3V0hqVHlRYjNfckVOb0c4VFlzelBsM01Vakh0aDFTTUJBWVVRLWgyR1lCWWJQVEViR0Fqa3BSY1RtZk0wRDBuWm1EalQ0VVNfWWYxZjVNUXFKVGZRU2ZEZkxfdzROTmdub09FTmY4OTBuUEVyMEN4T3JiZ3JtbEx3VzhPOW1QZ2c?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "9c6dc9381045",
-      "time": "2026-08-27T14:35:18.000Z",
-      "source": "IFLScience",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "20,000 People In Oregon Have Now Received Legal Psilocybin Therapy, And The Outcomes Are Overwhelmingly Positive",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTl9EYUFTMjJuU3BleEJINHpjV1ZDcjVncHdLeWI2eUNrdjV1SjA2ZzhkcmZSVXlsRzVrc3hyVVZsY3lzWVlJb3ZTQU5YU1BYR3lNaUppZGJoRjFiWWNMd1BfdVQ0bHM5X3lmZU5Fd3d4cjdUa1hSU1doUVc1MDVtVWQ1MktqbFFMcWZRZ2xOYU9SNFZJam1mVFdzWTlEcEVfeTNlRmY4RmxqWE1RZTlMQUQ5TGxGQ2ZySUNrQlR6YlpzV0xidFFROGFmTEdXOXlMcEdST1c4MUZZTk0?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "1667914ae649",
-      "time": "2026-08-27T13:45:00.000Z",
-      "source": "Westword",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychs Peak fest wants to build on momentum sparked by King Gizz",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnpiU2xfWDQxZ3hYeGlFaTlRLUtlUFFGR1NVRnNwcllKU1VHNEFvWXBNMjFETnlMVUZzcWlIb2ZheEs2NjktMzZSaWlLWDdLT2w1bnJCamtWT0NjdV9SZkZaOG1CYU4yVTJfcU1yckk5Smg5cDA2Y0RCZUJoUld4eEhXOTV6V3gzRE45Z3RLdlFYX2hablkwYg?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "81d9592cf21b",
-      "time": "2026-08-27T13:24:51.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Rhelion’s Filament Unit Wins New U.S. Patent, Expanding Natural Psilocybin IP Estate",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX0FTTTJJRk9uWXlxUnNrZXJraEZLcnlrbHdtUzJQYm1BdU5SWE01cDBxYmlvQkJpc0ZTVXFpdlJRTVNCNThjbW1Sdk9TZ2Z4bV90ZnVrRXJlREFnSGRaeEl0bGEwNUJNbldsUFJXM3ZsanNXMUJTLU04MVloMEZzeTBTdUNkSFVPWEVVeGQxZFFEQWUyT0t5VTJQM0xoQVVHZjN3NTVYUGFoUGh6eWlPbzBxc2FWNGN1elBEbEFEOXZWdUxaczhmbjdMalZjZw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "bcac4cf3728b",
-      "time": "2026-08-27T12:52:39.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Did Positive Vibrance-1 Data and Brilliance Phase 3 Launch Just Shift Alkermes' (ALKS) Investment Narrative?",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWDdfdUtlODNKMXdsR2dlY3JaZlFIZE5MQlNwam1jS2tnWTRWQTU5MjdmSDZraWpNeFdjREx0WGktU3FNVXlsbm1KR2FXQklqdl9rV1NHQkpiTFhHN0lPeEhJRE12WmNjNXR0UTFjTzBPNlRoT0hrNkFIODZYUE12eGdHNFpfcUdhYmcxM3dubDMwV0VqazJQdHhhRy1VN0M2MkJhRkNqcXVZREdNTUs4bzJBN3BQVGhHc3FEV2ljQjc4WXVGOGtGaDNXOHkyVXVYRVpiZ3Q1dXRRZ9IB3wFBVV95cUxQcXpQWjBIal9fYmhSVW5jZzBsaGkyRkxuYlhkWlBOR0dkd1ZDdV9NWEg2cnJXQzZDbW1Zc0FsdmJuc25nUkdBZGZCVFRZSEUtU3U2MWVJd1F0YzFSTG1HYnJ6aTYxSzR2YnJfLTBTeXgycU84S1RlaXItbDhKSVprVjJsbGZSbWlVMFBUald5WnBtSTFhWHVORGFLMkxGNFNGOThFQm5yY2k2U1B3NlF6RW4xUndrdmFZV2dnSFMyRlRNdV9STVQwc0kxNl9DdGpzMTRDRDFCaXMxRzVYNEc0?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "8ec1655abdc3",
-      "time": "2026-08-27T12:45:16.000Z",
-      "source": "UpToHear",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Steady Sun – “Rosie”",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0WUlyUDNIWjVIMGNvUWZXVTZJSnRLSklFV0NfN3JNWTVrNllzVEZvSHRtWVl6Ynd4SDEwT1V5MW53Q1pUSEFteUlDYlIzY3lLSzJ0alZoVnZVRWdhd0tiUA?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "63248f04ae98",
-      "time": "2026-08-27T12:24:00.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "PEX010 is backed by 77 issued patents and supports more than 80 studies worldwide",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbXRUS25sNWJTSUZTYVZBc0lOVWFKTzlwN0R0TzFxS0VqOWU4aW55MWNDb0llRDRSYjlueVlrVEkwZDRpY05ZRGhXMk9xV1pkdjJibVZpOVl1eFJHSFE3elFyM1V4ekxLaUZwT3QzbGNiUy1kc1ZKdWEyYWlUS1FvMndhUE1tNHJsZlFadWhKTXJJd3cwdDJfYl82eHFPX0tvNG5GQnlJOFpueldSX1Z1d1NDeWFCRTBpRmFidkg4bFhHUQ?oc=5",
       "tickers": []
     }
   ]
