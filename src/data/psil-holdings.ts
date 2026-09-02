@@ -1,5 +1,5 @@
 // PSIL holdings reference data. Replaced by GH Action fetch in production.
-// Last manual update: 2026-09-01 (sparklines auto-refreshed daily)
+// Last manual update: 2026-09-02 (sparklines auto-refreshed daily)
 
 export type Holding = {
   ticker: string;
@@ -16,7 +16,7 @@ export type Holding = {
 export const HOLDINGS: Holding[] = [
   { ticker: "ATAI", company: "AtaiBeckley", weight: 10.58, price: 2.85, dayPct: 28.4, spark: [0.00, 0.00, 0.35, 0.40, 1.00, 0.85, 0.80, 0.80], shortInterestPct: 12.1, nextCatalyst: { label: "VLS-01 (DMT) Ph2 topline", days: 120 }, category: "Pure-Play" },
   { ticker: "RLMD", company: "Relmada Therapeutics", weight: 9.44, price: 3.12, dayPct: 9.8, spark: [0.86, 1.00, 0.61, 0.46, 0.28, 0.17, 0.00, 0.11], shortInterestPct: 8.7, nextCatalyst: { label: "RESCUE Ph3 init", days: 70 }, category: "Adjacent" },
-  { ticker: "DFTX", company: "Definium Therapeutics", weight: 9.35, price: 1.84, dayPct: 18.2, spark: [0.61, 0.66, 1.00, 0.54, 0.84, 0.70, 0.16, 0.00], shortInterestPct: null, nextCatalyst: { label: "Pipeline update", days: 45 }, category: "Pure-Play" },
+  { ticker: "DFTX", company: "Definium Therapeutics", weight: 9.35, price: 1.84, dayPct: 18.2, spark: [0.61, 0.66, 1.00, 0.54, 0.84, 0.32, 0.16, 0.00], shortInterestPct: null, nextCatalyst: { label: "Pipeline update", days: 45 }, category: "Pure-Play" },
   { ticker: "CMPS", company: "COMPASS Pathways", weight: 7.49, price: 10.00, dayPct: 50.2, spark: [0.00, 0.03, 0.67, 0.65, 0.61, 1.00, 0.67, 0.59], shortInterestPct: 9.6, nextCatalyst: { label: "COMP006 Part B 26-wk", days: 72 }, category: "Pure-Play" },
   { ticker: "DRUG", company: "Bright Minds Biosciences", weight: 5.46, price: 24.10, dayPct: 14.5, spark: [0.06, 0.29, 1.00, 0.66, 0.78, 0.44, 0.10, 0.00], shortInterestPct: 6.4, nextCatalyst: { label: "Prader-Willi Ph2 init", days: 35 }, category: "Pure-Play" },
   { ticker: "GHRS", company: "GH Research", weight: 5.42, price: 17.85, dayPct: 22.7, spark: [0.09, 0.33, 1.00, 0.76, 0.41, 0.51, 0.00, 0.12], shortInterestPct: 11.3, nextCatalyst: { label: "GH001 Global Ph3 init", days: 90 }, category: "Pure-Play" },
@@ -34,7 +34,7 @@ export const HOLDINGS: Holding[] = [
   { ticker: "QNTM", company: "Quantum BioPharma", weight: 1.86, price: 1.10, dayPct: 9.5, spark: [0.11, 0.00, 0.62, 1.00, 0.60, 0.26, 0.31, 0.16], shortInterestPct: null, nextCatalyst: { label: "unbuzzd Lucid trial update", days: 80 }, category: "Pure-Play" },
   { ticker: "BTRT", company: "BlackRock Treasury Trust", weight: 1.65, price: 1.00, dayPct: 0.0, spark: [0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50], shortInterestPct: null, nextCatalyst: null, category: "Cash" },
   { ticker: "SILO", company: "Silo Pharma", weight: 1.61, price: 1.84, dayPct: 14.8, spark: [1.00, 0.86, 0.64, 0.37, 0.10, 0.05, 0.02, 0.00], shortInterestPct: 12.4, nextCatalyst: { label: "SPC-15 PTSD Ph1", days: 120 }, category: "Pure-Play" },
-  { ticker: "VTGN", company: "Vistagen Therapeutics", weight: 0.76, price: 1.35, dayPct: 7.9, spark: [0.00, 0.17, 1.00, 0.67, 0.17, 0.50, 0.50, 0.22], shortInterestPct: 13.2, nextCatalyst: { label: "Fasedienol PALISADE-3 readout", days: 55 }, category: "Adjacent" },
+  { ticker: "VTGN", company: "Vistagen Therapeutics", weight: 0.76, price: 1.35, dayPct: 7.9, spark: [0.00, 0.17, 1.00, 0.67, 0.17, 0.33, 0.50, 0.22], shortInterestPct: 13.2, nextCatalyst: { label: "Fasedienol PALISADE-3 readout", days: 55 }, category: "Adjacent" },
   { ticker: "IXHL", company: "Incannex Healthcare", weight: 0.40, price: 0.34, dayPct: 6.2, spark: [0.01, 0.00, 0.29, 0.45, 0.84, 1.00, 0.55, 0.32], shortInterestPct: null, nextCatalyst: { label: "PSX-001 GAD Ph2 readout", days: 100 }, category: "Pure-Play" },
   { ticker: "NUMI", company: "Numinus Wellness", weight: 0.24, price: 0.18, dayPct: 8.5, spark: [0.76, 0.79, 0.96, 1.00, 0.72, 0.57, 0.44, 0.00], shortInterestPct: null, nextCatalyst: { label: "Ketamine clinic Q4 update", days: 75 }, category: "Pure-Play" },
   { ticker: "ENVB", company: "Enveric Biosciences", weight: 0.18, price: 1.62, dayPct: 11.7, spark: [0.00, 1.00, 0.93, 0.87, 0.50, 0.29, 0.29, 0.29], shortInterestPct: 16.8, nextCatalyst: { label: "EB-003 Ph1 init", days: 130 }, category: "Pure-Play" },

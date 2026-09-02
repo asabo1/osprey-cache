@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01T22:07:20.423Z",
+ "updated": "2026-09-02T00:11:26.759Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 0,
@@ -107,8 +107,15 @@
    "sellFilings": 8,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 78150,
+   "sellShares": 85116,
    "latest": [
+    {
+     "date": "2026-09-01",
+     "owner": "Hopkinson Craig C.",
+     "code": "S",
+     "shares": 9000,
+     "price": 46.986
+    },
     {
      "date": "2026-08-17",
      "owner": "Nichols Christian Todd",
@@ -143,22 +150,15 @@
      "code": "S",
      "shares": 2034,
      "price": 48.58
-    },
-    {
-     "date": "2026-07-06",
-     "owner": "Gaffin David Joseph",
-     "code": "S",
-     "shares": 2034,
-     "price": 54.03
     }
    ]
   },
   "NBIX": {
    "buyFilings": 0,
-   "sellFilings": 8,
+   "sellFilings": 7,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 103375,
+   "sellShares": 66438,
    "latest": [
     {
      "date": "2026-07-28",
@@ -419,19 +419,6 @@
    ],
    "filingDate": "2026-06-12"
   },
-  "0001520262-26-000099": {
-   "ticker": "ALKS",
-   "owner": "Gaffin David Joseph",
-   "txns": [
-    {
-     "code": "S",
-     "shares": 2034,
-     "price": 43.05,
-     "date": "2026-06-04"
-    }
-   ],
-   "filingDate": "2026-06-04"
-  },
   "0001533568-26-000012": {
    "ticker": "NBIX",
    "owner": "Norwalk Leslie V",
@@ -643,49 +630,6 @@
    "txns": [],
    "filingDate": "2026-06-15"
   },
-  "0001776977-26-000010": {
-   "ticker": "NBIX",
-   "owner": "Cooke Julie",
-   "txns": [
-    {
-     "code": "S",
-     "shares": 14214,
-     "price": 154.8252,
-     "date": "2026-06-02"
-    },
-    {
-     "code": "S",
-     "shares": 5466,
-     "price": 155.4566,
-     "date": "2026-06-02"
-    },
-    {
-     "code": "S",
-     "shares": 4216,
-     "price": 156.766,
-     "date": "2026-06-02"
-    },
-    {
-     "code": "S",
-     "shares": 9521,
-     "price": 157.6161,
-     "date": "2026-06-02"
-    },
-    {
-     "code": "S",
-     "shares": 3520,
-     "price": 158.5897,
-     "date": "2026-06-02"
-    }
-   ],
-   "filingDate": "2026-06-04"
-  },
-  "0001818524-26-000004": {
-   "ticker": "NBIX",
-   "owner": "Keswani Sanjay Chandru",
-   "txns": [],
-   "filingDate": "2026-06-04"
-  },
   "0001520262-26-000111": {
    "ticker": "ALKS",
    "owner": "snyderman nancy lynn MD",
@@ -809,6 +753,19 @@
     }
    ],
    "filingDate": "2026-08-17"
+  },
+  "0001520262-26-000118": {
+   "ticker": "ALKS",
+   "owner": "Hopkinson Craig C.",
+   "txns": [
+    {
+     "code": "S",
+     "shares": 9000,
+     "price": 46.986,
+     "date": "2026-09-01"
+    }
+   ],
+   "filingDate": "2026-09-01"
   }
  }
 }
