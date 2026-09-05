@@ -1,26 +1,28 @@
 {
-  "updated": "2026-09-05T13:34:24.593Z",
+  "updated": "2026-09-05T16:18:01.223Z",
   "counts": {
     "total": 90,
     "crit": 5,
-    "warn": 6,
+    "warn": 5,
     "bySource": {
-      "simplywall.st": 2,
-      "Men's Journal": 1,
+      "WSJ": 1,
+      "PsyPost": 1,
+      "simplywall.st": 3,
+      "Yahoo": 1,
       "International Business Times, Singapore Edition": 1,
-      "americansongwriter.com": 1,
+      "Stocktwits": 5,
+      "American Songwriter": 1,
       "njtoday.news": 1,
-      "stocktwits.com": 6,
       "boldnewsonline.com": 1,
       "CBS News": 1,
+      "Investing.com South Africa": 1,
       "That Eric Alper": 1,
-      "Investing.com": 1,
       "Kalkine Media": 1,
       "Fast Company": 1,
       "SFist": 1,
       "marketscreener.com": 1,
       "TipRanks": 4,
-      "chch.com": 1,
+      "CHCH": 1,
       "Newser": 1,
       "KCRA": 1,
       "News-Medical": 1,
@@ -30,31 +32,33 @@
       "inkorr.com": 1,
       "FlamboroughToday.com": 1,
       "The Manila Times": 1,
-      "EurekAlert!": 2,
       "StratCann": 1,
       "The Microdose | Substack": 1,
       "The Indian Practitioner": 1,
       "WhatNow": 1,
       "Quiver Quantitative": 1,
-      "Pharma Voice": 1,
       "Alabama Political Reporter": 1,
       "streamlinefeed.co.ke": 1,
       "BioWorld News": 1,
-      "newsbytesapp.com": 2,
       "Daily Sabah": 1,
       "pharma.economictimes.indiatimes.com": 1,
       "StocksToTrade": 1,
-      "WION": 1,
+      "NewsBytes": 1,
+      "wionews.com": 1,
+      "Reuters": 1,
       "Yahoo News Canada": 1,
-      "ksat.com": 1,
+      "KSAT": 1,
       "Free Press Journal": 1,
       "IndexBox": 1,
       "tag24.com": 1,
       "The Straits Times": 1,
       "Kuwait Times": 1,
-      "NDTV": 1,
-      "Stock Titan": 6,
+      "ndtv.com": 1,
+      "CNBC TV18": 1,
+      "stocktitan.net": 6,
       "GuruFocus": 1,
+      "Discover Magazine": 1,
+      "UA.NEWS": 1,
       "Live Science": 1,
       "MarketBeat": 3,
       "Talk-N West TN": 1,
@@ -65,22 +69,48 @@
       "Medical Xpress": 1,
       "Scientific American": 1,
       "Fierce Biotech": 1,
-      "PR Newswire": 2,
+      "StreetInsider": 2,
       "Psychedelic Alpha": 1,
       "kalkine.ca": 1,
       "Helus Pharma": 1,
-      "StreetInsider": 1,
+      "EurekAlert!": 1,
       "facebook.com": 1,
       "Pluang": 1,
-      "Investing.com Canada": 1,
-      "Tech Times": 1,
-      "Business Wire": 1
+      "PR Newswire": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "55f2df5781d8",
+      "time": "2026-09-05T16:00:00.000Z",
+      "source": "WSJ",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Elon Musk’s Inner Circle Is Pouring Cash Into Making Psychedelics Mainstream",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU2lmWXZTQkIxbTdmQXRTTEJXNUcyRVhrcGd3TkxnWXRlbFZ2VXE2b1VNV3RTQVRGS003UkE1WXZVdnJiWVBIdlFIOXBOcUNZaGt3eDU0STFBLWphQkFWWHZrdXB0UnZNemRJZ1FNYTZQRlZNU25uQnJRczhXY0ZMeWM3LUIzeXh1aXNQdHp1Tm0xOHVsTXdEVHZiRG0yM181SkN4MGJNdFhvR3NlVUZoczhRTVg1cG03dlNjTU1iSQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "e3ab050add84",
+      "time": "2026-09-05T14:22:33.000Z",
+      "source": "PsyPost",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "First human trial of psilocin since the 1960s reveals better tolerability than psilocybin",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORUhXSzBoV1BSUnVOaUJ2U3pBakpFRVBuVy1hZlFDNFkwR0hhVXhJYWk0VFNGOTRHT2xYdllPQmdESTE2TFFsbnU1amVUcFhZbkNXVG42SEdIZGpuMXV5aks3MF9tNWVLbnVSY3JwcWVHc2ZzbVFZQ05vX1BhdGdvWlU5VmNDSnp1RklLX29tdEtaMHhUVWlsbzRTN1VRejJjR1JfU0N3ZTVDNUpTY3hmVVFRX0M?oc=5",
+      "tickers": []
+    },
     {
       "id": "f90536785e16",
       "time": "2026-09-05T13:30:15.000Z",
@@ -98,9 +128,25 @@
       ]
     },
     {
-      "id": "036e8523762a",
+      "id": "291e7e0b29da",
+      "time": "2026-09-05T13:26:14.000Z",
+      "source": "simplywall.st",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Co-Founder of Cybin Picks Up 2.2% More Stock",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLS0tQ0txWHEyVE43WndHYTd2UElVS3BlSExYdW81TDktQXFSbkJjTVphTlJJTTE1NVkyMi1zR3lBd3J6MzdLZUNsQTg4R3ZIeEhLdFBSektmR1ozMjJkTWI3RGlfVDZ5SnhtRHFKTWN1dUVSN1R1Rm1EaXhvNVB6dTRJRG44dEIyRWhvZXdBaDZfTDBaS1U0OHdHQWpjaVFTZUphNjBFVnFxQXRYVmN4bGhYaUdlUE9KMmV5RWpR0gHDAUFVX3lxTE9CY05CbVpoVWgyNUtTTUxZS1VXZzVDX09ZZWxzRlR4dTR0SURiMXBvZ2ZLRDFlSlo5bXJsSjNJVkh3QVNad1E4cGVUNXV5UU1fUDAtUjFGVEtLb2RqbW9vd3g0dUN6NXJaalNlV0tseTY1Q1BHdmVwR1hmd2dDQnpvb2JiQVlHeUVoejdTN1F1S3BxLVVCYkNZM0JlYzZXc1R0dVpSRjFvUHFEdW1XR2o5bjBpaTNIWUlDQzhPQ3ZYekhjMA?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "3df310da0d66",
       "time": "2026-09-05T12:59:00.000Z",
-      "source": "Men's Journal",
+      "source": "Yahoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -108,7 +154,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "59 Years Ago Today, a Psychedelic Beatles B-Side Began Taking Shape at Abbey Road and Became a Cult Masterpiece",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQdGhDd0ZrQ2JpeUh3b2JxSjA0eVFudEg0Y0t2QlNsMW5zUUtCa3RwTUtpdS1rM25WU2s1YzA5c0FaTW4tSTgwbFBDbHdTbTNJZ0M2YXR4ZWJNZTcxaUVfSEJxUU1MRmp0MnkzZUtNLWU4dkRNaDNwYXVfYUZLT3A3cXBaaEFIOE1Kc2dPR1pYd0pqbDBjNzFobXBQMU5ZNmpzMUVRaGswdjc5QS1TaGhTZnBJSWtfckFYVkVnY2xEVVd0SzIzU0ZIME9HSkVqcS1TT1RXU2VWc3hCeDlvME1HbjB0M3c2MGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORnRFMEpodndjbEJuTXUwZms2b0xOYVZDRTAxbkNJTGhkYWlsdjJIazFTNzZGdnpQVi15RkxJcExiWEVoOG4tQko4UDJQWm8wZFV4ODNFSWVSeUdQcGR5ZkxuWFdzcklucnBNdFpYRUItY0daZjZhc1FpZ0NqX21sbUliV3AweDB6LUZfYmVGLWJ1TUpKUlBaRG9oY3I?oc=5",
       "tickers": []
     },
     {
@@ -126,9 +172,25 @@
       "tickers": []
     },
     {
+      "id": "ec6542a54c96",
+      "time": "2026-09-05T12:11:48.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
       "id": "6dc9b477847c",
       "time": "2026-09-05T11:00:00.000Z",
-      "source": "americansongwriter.com",
+      "source": "American Songwriter",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -156,7 +218,7 @@
     {
       "id": "e537f406da05",
       "time": "2026-09-05T06:31:49.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -198,19 +260,19 @@
       "tickers": []
     },
     {
-      "id": "8ed429cf2bb2",
-      "time": "2026-09-05T03:32:24.000Z",
-      "source": "stocktwits.com",
+      "id": "533b16a5b1d9",
+      "time": "2026-09-05T03:00:57.000Z",
+      "source": "Investing.com South Africa",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
-      "direction": "BEAR",
+      "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "This Stock Lost 71% Of Value After Anxiety Therapy Missed Key Goals – But Retail Believes It’s Oversold, Says Won’t Panic-Sell",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOSDY3Q1E0VU45eWo4LVRzSG85WU1zTzVCUDdVekxycEdielpKN1d0cFZJVnJZMXdrSmJLY3hFZHZ2T2pEV29lc050cHhBcWI3LUx2VmxRSFNPeUxISVJjUGVTdjZzUl8xb1VhUVQ5c0V4SHdmWWdIREJGN2ZydkpLbG5MelBiVnVLU2tWV0hhanMwTHJHMDhtZXA5a25FRno4aWNYc2E2OEVzU0JncmJnQ1M4V3R4Sk9EbmVFUUdTYTMwT0ZTQmpfU09QdTIwVUl5d0xsSU1rN1NGN3hkMURScDdzVHRXS3VUdFh3dHVqX0RfZi11N2dFdHRJU3BKd3AtMGN2WEZLTUlCRE5RNE0yd1NTNA?oc=5",
+      "title": "Definium Therapeutics CEO Robert Barrow sells $721,732 in shares By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTUc3M2lfVFc1MzFIa2VmTmV4OHVEZ04wVU5KTU95NzZ5N05pdEhGd0padUdQUFROdGg1N3dJUTlrZDA2ZnQxZGxEUHlxdzJFbEtSZlpSb3dPRkNlLVlhbkhwcmpFeFc5NjJXbW1OLU9sZWF2bkFfY1NoQi16UmllQUtZUU9OQjBkWHZKV28yN3FGRm4wQk5BZ2ZuOUdPZ3BOVVFnR1k2bUpkT2lLM205WEZaNFViRkhRZ1k5TFlaOC0?oc=5",
       "tickers": [
-        "VTGN"
+        "DRUG"
       ]
     },
     {
@@ -226,38 +288,6 @@
       "title": "Pleasure Pill Chase Britpop Euphoria and Psychedelic Haze on ‘ALIVE’",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZlgzdEVlVk40SkFDekxDalBfM2dnVGVTd096dzVqTEVWQUlrdV9RZk5Qdnl1NlQxNUlxSGw4dHFEZWs2Y1FLaE9vRlU5WXdLN3FuM0lKOUZDUEdybjZPazFnaEswTHFEZl80YUVYSFhHVUFoVmhvVVIxXzc1ZjdPUWF3TDlXeWcwN0hrNGVpUFFhcElZeW1hS3dBVWhsREhMZlJ3S2JVMkJJM1ZB?oc=5",
       "tickers": []
-    },
-    {
-      "id": "5b8cfcbc3338",
-      "time": "2026-09-05T02:01:00.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics CEO Robert Barrow sells $721,732 in shares",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOX1pqMVM2RkV5TU01MXZiaURYRVZLb1N5cnpKdDBuZF9oNEdXTmxjSEZJZkxETVZ1TDVIOTJOWDdoZzh5ejRnMzR2T3dsSGhJR3QyNzZLZkowR25yUFpaS1pjT3lPQ0xDZ2kwbWg3MUtENUxwZnBsUTMxMWhPWjVhN3NBdEFkQ243bUFtWm5QbW9icy1GVUJiNVVLamVaU1FvOXJDY0YwUDNQcGRfYTJnYUQxRW9RY0RvTFdUVWtpdkVzaUg2Wl9KbWMybExBWTEy?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "01c1c214588e",
-      "time": "2026-09-05T01:53:29.000Z",
-      "source": "stocktwits.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "DFTX Vs CMPS: Which Stock Has More Upside From Trump’s New Psychedelic Therapy Push?",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2tKT2FBODN0eXlWZHhOYjBHRmhQdzNDM1dJZkpibWFPZ1lBcXpWcnptTi1iVE4xSFpRMmE0RWZnSkhJVl9DNDROOWNfcjZ1NTdrb24wYllWTkFNMGpfQTRFeWVnY0x2UGwySFFhOWdPOVNrMWhxWC1RWXRqbGozY192cjZ1N1JBNzdzRGZKYXJkeWVoLS1HZjVENTF0YzJBWVlqM2FFSUt2WVNkRFBrUDhBWVU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
     },
     {
       "id": "4d39ab5e3d8d",
@@ -278,7 +308,7 @@
     {
       "id": "cfafc11bfd4a",
       "time": "2026-09-04T23:11:09.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -355,7 +385,7 @@
     {
       "id": "4706bc0ad639",
       "time": "2026-09-04T18:56:57.000Z",
-      "source": "chch.com",
+      "source": "CHCH",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -507,20 +537,6 @@
       "tickers": []
     },
     {
-      "id": "3cbda426d733",
-      "time": "2026-09-04T15:14:45.000Z",
-      "source": "EurekAlert!",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Carilion Clinic researcher receives NIH award to study use of psychedelics to treat cocaine addiction",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBlcHgzZXJiMDFGSVFwQm16anZ1U2hOZGpCRUc5QVVYc25NOHd4VlY4NmJkU0ZzTjZmZlhHSktMTUhnbjduVHhaZHNxS2pMaS13cHVpMUNIUWxmQkhR?oc=5",
-      "tickers": []
-    },
-    {
       "id": "ccd6d32d583d",
       "time": "2026-09-04T15:12:00.000Z",
       "source": "StratCann",
@@ -567,7 +583,7 @@
     {
       "id": "f54baeb83e02",
       "time": "2026-09-04T14:36:29.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -611,20 +627,6 @@
       ]
     },
     {
-      "id": "4430380062b4",
-      "time": "2026-09-04T13:21:51.000Z",
-      "source": "Pharma Voice",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Gilead’s growing HIV franchise; cell therapy licensing deals plummet",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNDRUYTdKOTZ1YUZSVjdCVC1Ed0kwZF8wRU1pU0dUdUlGWFFxLWpzb2x0RTNXVEZfQzFUb2cwNWktSEJtbTZjNXpGdmVObnNqVE0wYmV5ZU5UZWtCeURScU56ZG5HbzNBVndEeTUxZmV1VlhZLW0tNHN1TzNOYnc5eldhMG52NGFyZFFxckNrdnAtZldHSlRsTDFKYW00WHozVEk5RDRkR1FhQQ?oc=5",
-      "tickers": []
-    },
-    {
       "id": "cbccd173b893",
       "time": "2026-09-04T13:03:00.000Z",
       "source": "Alabama Political Reporter",
@@ -664,20 +666,6 @@
       "impact": "LOW",
       "title": "MD Anderson poised for trial of psilocybin in blocking neurotoxicity of chemotherapies",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNVlmVTRkWGl6dmIwaEV6X2paRmpmQUlsWktJQnNfTGRZbjZjU00zLVNxNmdEMDVUbXFDS1VlU2tZQk1nWnVOMGVMdkhpVXhOeVdBb2VjZEJrQkNuXzBjY2FBNkpWejF4cjFaS2JhSXBJWmdmVU9fUU9LdS1Ickt4MzVBNzhNSE9Yc2lzRUE1bTVnX2pNNGRoMVY0emg1RTNpc3BTUmRLVTItMllGTFo5eFJoc2FXRU1zUUhtTDNxN1BvVTd4Q2c?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "6c1cb40705d8",
-      "time": "2026-09-04T12:39:26.000Z",
-      "source": "newsbytesapp.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "New Zealand approves MDMA for treating PTSD",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUHl3QXdQNlZ2ZEMyUWtqWHlFNE0zQ0VZNHM5aV95SjVvWVp5RXhsVDhjeFVDdHdsNGZUcUZlQzhlSmo0OG1KekdKYnhGT3hoQjRhMUVRMlJxUEJPS25pcy1BdElIeHNvdWNnU3RZUGMzajVWQUJfaHozZ3B3N0JYYkZYMm5XbXBmd2o4d0RBbk91Z0U?oc=5",
       "tickers": []
     },
     {
@@ -729,7 +717,7 @@
     {
       "id": "8b79b019613b",
       "time": "2026-09-04T11:29:19.000Z",
-      "source": "newsbytesapp.com",
+      "source": "NewsBytes",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -743,7 +731,7 @@
     {
       "id": "04e79a20b235",
       "time": "2026-09-04T11:20:00.000Z",
-      "source": "WION",
+      "source": "wionews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -753,6 +741,22 @@
       "title": "New Zealand greenlights MDMA therapy for severe PTSD",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUDlINnZRaHhEelpmUFM5M0lfV2ZFbkpGSDlHa3EzOVpmNXR0cDBhc3FvY0psVzhCOWRtUUhnYkIwTy1yNDc0ZjNHOXhncXhsV2lqVWtNSWdwNHYyMzBjamZKeXNHc1JRMHhMRW45eGJlRHZQd3ltSTNTd250cmRieW5sZzZpMkpiSFNUZFVBY293V3hwekRHSVV4ak56d9IBowFBVV95cUxQNHdUVE1LRUR4SnBDQW81NmJKYVctSHhsM0dKMDBpUEhzUTA1Y2xaSFhUYXUyMlRZWlV2TTNjV1EwcEItRVZXTmtzVk5FS21hMlVVOUY0SmFRWUVTYkVsNHZkWkVkd2gzQWdqYWcwTTFEM19mTTM5U3RlTE1UWTBZVHdveEJOZzhCR0gyUFNNYTREbVliZlpFbTBTMk5lTHdrNFdz?oc=5",
       "tickers": []
+    },
+    {
+      "id": "e04df1309cd0",
+      "time": "2026-09-04T11:15:30.000Z",
+      "source": "Reuters",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NEWSLETTER: Psychedelic drug shows promise for preventing chemotherapy-induced nerve damage",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOX05YTHNjS013RmlEWlJvUHZrZlplSllNcTN3UWhQX0RoMXJ4QUZvLUM3SXZlZnctSDFHZXlNUlRmY0dzSlA4SHhIXzBLZGt1RWM1bmp5SDcyRkxqLW56Sk1nVmhieXREM185UGVTcFk4RWt0Tmx6Z3pMRkF4cTdseDNzYmFIMUtaUm41UEhrekNILUs1UTZMNjFpTjF4TFhsRHA1YlQ4dWpuZ1phQm1DeFFXcnE4LUxVQ0swSlBSX2R4WmVYT2JxV3pRNVNxQmlLejkxbFVyTXFnVE9ESzV3Mw?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
     },
     {
       "id": "370629f181a7",
@@ -773,7 +777,7 @@
     {
       "id": "2490ed80c84d",
       "time": "2026-09-04T11:03:19.000Z",
-      "source": "ksat.com",
+      "source": "KSAT",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -873,7 +877,7 @@
     {
       "id": "1dd0b54888f8",
       "time": "2026-09-04T04:38:26.000Z",
-      "source": "NDTV",
+      "source": "ndtv.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -885,25 +889,23 @@
       "tickers": []
     },
     {
-      "id": "b6a3069ffea5",
-      "time": "2026-09-04T02:55:29.000Z",
-      "source": "stocktwits.com",
+      "id": "8263da8b9272",
+      "time": "2026-09-04T02:48:17.000Z",
+      "source": "CNBC TV18",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "trial",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "impact": "MED",
-      "title": "CMPS Stock Slumps Premarket As $150M Offering Cuts Into Psychedelic Trial Buzz",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdmh2Zm8zT19qU2d1MWpDbS1NN1pYY1hjdWhUckdVUUtfUjFfSlR2MmZCOVdDcE9nVk9hd0FxTDlzQVpqSEsxNWkydVZpNkxVbVpxWUNqTktidFJPTWhXbENtOTlib1NrbFpIQjB6cHczWWoxbkZwVVZ5VUN0SUk2bGJkb0N4Mi1LcElFd0FnbHo1QzBFRmJ3anpuTUlKUWNGenJZUmFXclIxTkQ2NFJDNWxDYTY4TjBrQS1vSTZDWjNIdE5XWC1VS0JMZ0xTbWRaTzc0YkxISlU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "New Zealand approves MDMA therapy for PTSD, second country after Australia",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZUlIeEFqVnotR2dXc2VEMThxQmo4VGVaeVQ0MksxOWw5LV9TMUxpNnF2czVMT2hDcTNBS3plM0RwTWtOaU9EWUdkTFpuSHhJa0l2amNuODV5bkx2eDlBaHlpVkxXQm9OdHpfRXRTUlF1ZE5IcjJ2cnA2YjA2MHcya0JjNDZyaFQxQkE5VnhIMTVGMC1UcGFLV21mRFZSYUpqMWIwaUdBaW5PSWNQODRiYnFmN29HWUQwVDc3OWV30gG-AUFVX3lxTE1lSUh4QWpWei1HZ1dzZUQxOHFCajhUZVp5VDQySzE5bDktX1MxTGk2cXZzNUxPaENxM0FLemUzRHBNa05pT0RZR2RMWm5IeElrSXZqY244NXluTHZ4OUFoeWlWTFdCb050el9FdFNSUXVkTkhyMnZycDZiMDYwdzJrQmM0NnJoVDFCQTlWeEgxNUYwLVRwYUtXbWZEVlJhSmoxYjBpR0Fpbk9JY1A4NGJicWY3b0dZRDBUNzc5ZXc?oc=5",
+      "tickers": []
     },
     {
       "id": "b9c7e34d7a2d",
       "time": "2026-09-04T01:54:58.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -933,9 +935,37 @@
       ]
     },
     {
+      "id": "6712114fac63",
+      "time": "2026-09-03T23:02:45.000Z",
+      "source": "Discover Magazine",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Two Doses of Psilocybin Protected Mice From Nerve Damage Through Six Chemotherapy Cycles",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbU5BTGNESFJvWmlJZ0g1TGxFN0EyZGg3bWRfRG93a25ieS1YX1FIa0tYdzQ0QkhvVlFEUEZUdTU3M0drR1NXYmVuY0lTYjB6b0RaSmdmUlg3M0U2Q0hYQ3p1VTRmWFRKSlVSVHdORGRnU0c2NTExSTZXcGpRRzgwdDY5YXJsM3Jjd2hCSElET0xLYmJZTXoxVGFoMEFSc1dXamRvNGFaa1NLQlREVy16aC1GaWoxaEFxczVGRGJ2aGJhb2M2Qmc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "93aa26ecc7ae",
+      "time": "2026-09-03T22:31:29.000Z",
+      "source": "UA.NEWS",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psilocybin may protect nerves from chemotherapy damage — mouse study",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRmpCUVJWcUdQVGF2bmFCUjEtMjJWM1ZLQm9ta19NRGpSeXJ5T1FvaGFHdHl4bUJETVZsV3d0bXI3ekFpMnBNU0JLQWkxYThMTUZOT190aHpoN1RlRDBjLXpUeWhWeUttUHpZWi00RFp0dzNaV09UdXA1R01MeGpLbGZyT2c2eDJvZDdqQlVUNEYtU09uanJBQ25TMy1nQk1zUGNHa0dGSVRGcDBndEt4TTFDTVFYVjg5QVBB?oc=5",
+      "tickers": []
+    },
+    {
       "id": "5b7244c0e0e7",
       "time": "2026-09-03T21:50:21.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -981,7 +1011,7 @@
     {
       "id": "4c6ef894407f",
       "time": "2026-09-03T21:04:43.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1111,9 +1141,9 @@
       "tickers": []
     },
     {
-      "id": "40948bde611d",
-      "time": "2026-09-03T15:43:00.000Z",
-      "source": "PR Newswire",
+      "id": "78c2049f71ca",
+      "time": "2026-09-03T15:45:28.000Z",
+      "source": "StreetInsider",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1121,13 +1151,13 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "HMP Global's Psych Congress Brings Marcus and Amber Capone, HHS Deputy General Counsel Matthew Zorn and Leading Clinicians Together for Five Days on the Future of Psychedelic Medicine",
-      "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNMy01NC1ESTUwWkNSNm5KbjlVYk12c0VTZ05PS3lOM3BHdmVIQTkwSC1naDE2Qk1QT2JaY1pfTGlpY0dHR2tia1NyVXgwdEF0LU9NcklzTEU1a0l1ZGMxcmJIbk5qbjNmSmduMWxiWTNmNVYtcGdMTEt2NHBBLXNleEZvS3A0UTRyNkw3QnNOVllYNDZvV0hzQkQwV0h4Ykl0bzJnSk40TkU1RXBpX3VlelZsX0ZXazBNR2wtVVZ4b2F4RHFnRk84RV9QR19odVZKRE9QNlh4M1FLQkhoSHdXclpNU3RHVmlZUlVLYm5Td0p1YjRJa0ZqeENaRDM0UnBZenpTS3NjVjR2ekVxckd0NktmRGMtTU1XTFVKaFhhbHljVGtoR1M0RTFoVWU2X1BOa2ZsMHhkeFR6R3lqeGlOWVFPcVZxTW95RGF1NTJDT0JmeGptMGt6Zg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNa3BDanY1cXRwc2l5T3dTQWJaMHlBMEhZTzAxQ2p6ODNDc2l4RG10LVdvTnJTaUZvMERURDkyRUJWRG5QdHdxUTJYb1lHVENJRFVJWTJ1LU1wbi1CYUVBeTdJMEdUeEEzRUNJWVZJbHMxZ291TmRUcnVPM2o1V0c4TU9YWk5yZDhTX2FEQm9PMkgxRUllTDNMYXBsaHFiTDgyWkh2VWxfa2xDNmZvLWFwNVNOYjlWdTNqZ1RyM1ptdWZyX0ozOWhVUFBKMDR0cGRoaUFLLXRzWTkzYlNmY2w2eWFMaWpYQzRmUE1KbmVNS2ZGMHlNSEtsZHVpSS1FelgwYTMzS25VR3VFNVZCR3pRMHE4aEFlVHJDa182NEhIMFFrdVB5OVN1SjVNenc2QTNQRkVyMXdHSm0xZ04yU2RXWFd2dUJjWUQ0Y1B4djEzMXZnUGp2V2FKaTJvRQ?oc=5",
       "tickers": []
     },
     {
       "id": "91e8e7b2fd8a",
       "time": "2026-09-03T15:11:42.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1295,7 +1325,7 @@
     {
       "id": "6a6a80b0c866",
       "time": "2026-09-03T07:00:00.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1322,6 +1352,22 @@
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSlFGRkIwZXFHSk42WkVpOHZyOFF1YWVFSUNKZkhaVVpnU1M2WTUtQl9aUjZac1d3RzRCUmRYellBZEFIVU1CLVdxbkUySUstck84bFhGRGFxOTkwMmtPX0ppam5HRVBjdzFMSzZfeTF3bWMzM3JqWkFzWDQ5T241SUhIWnY5LXVycWdpSkgwemx2aFQ5TlpLQkRfamZ6ZmVESWxGZjYtMnV6a2FWZkNOSEhfVGFRZWc?oc=5",
       "tickers": [
         "DRUG"
+      ]
+    },
+    {
+      "id": "01c1c214588e",
+      "time": "2026-09-03T02:39:19.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "DFTX Vs CMPS: Which Stock Has More Upside From Trump’s New Psychedelic Therapy Push?",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2tKT2FBODN0eXlWZHhOYjBHRmhQdzNDM1dJZkpibWFPZ1lBcXpWcnptTi1iVE4xSFpRMmE0RWZnSkhJVl9DNDROOWNfcjZ1NTdrb24wYllWTkFNMGpfQTRFeWVnY0x2UGwySFFhOWdPOVNrMWhxWC1RWXRqbGozY192cjZ1N1JBNzdzRGZKYXJkeWVoLS1HZjVENTF0YzJBWVlqM2FFSUt2WVNkRFBrUDhBWVU?oc=5",
+      "tickers": [
+        "CMPS"
       ]
     },
     {
@@ -1359,7 +1405,7 @@
     {
       "id": "8a38129a03f4",
       "time": "2026-09-02T20:01:00.000Z",
-      "source": "Stock Titan",
+      "source": "stocktitan.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1370,52 +1416,6 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNm5FdWF4VnBNVlFpdk5oQUQ1UWhDb2ZVN2VScXFlcTlBaDhoYXJweVh2dHdyT2dzeTloa1BldEoyTVYwSDBZX2xFLUp2b184cVFFQ01McTRSbUgydHU1cWI2b3ZUVkFjY005NVN6eUtSWTZhZmhHUEFud1VlSnRlR01qc2VCd0tnRmJRYVpjMnFBdDMxcTM1dE5YMHZzdGJpaFRLcnhBREpvRXA1Wm5xUWlUT1dwTXNlYV9zV3VB?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "cf75f2d3c089",
-      "time": "2026-09-02T13:56:21.000Z",
-      "source": "Investing.com Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Stifel reiterates Buy on Definium Therapeutics stock, $60 target By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU3N1SzJiekFrMTNjWmVXY2ItTnFId3Fxcm5XRW92Mmc5UExNeF81RjR5WWlNdEJrQWx3dFFnSHRTY25rT0Q1cy0yQ1c2N3dEd1I1QUVNVW9RS1lpSGo2b1ZUSGZURlViby1PZ3pCTzBuYUJ1U0ZFVnlDVjh4VlJvQmdYNVpxOXJhMkZyNGFoSnFIRHdDMW14NHplOHZmSkl3ZUdKdTBNLVY4ekVFWUNCUGVYcnBzVW9ldHhUbGRaREk?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "2118f69b582d",
-      "time": "2026-09-02T13:40:10.000Z",
-      "source": "Tech Times",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psilocybin, LSD Hallucination Fingerprint Identified: Cell Test Bypasses Animal Screens",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWUc0eW8wOXZYZ3RzcHRrbEw3MEFhUEFrMzJaOGI4MkhidElmQjhjTW5wZGhJb21FaDBaZGt4dkY1TGRPSU5Sa085MHEyNXgyald2RWoyMm5EVDU1YUEyalZHdEVWVlVYWWJNcElVRi1ZdkF0WWExclFIMllqU0VDbE5XS1lCY2J4UEgycUpkUUVETUJ4bWQyUm5zNFowbEJ4d3RiSE9vaDhjdXg3SGFaUjlwUW9LUllxb0RaYXQtbHNPeGhfSF9VdjhrNHZ0SnA3ZE45WHVGTQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "8dd4003d8559",
-      "time": "2026-09-02T10:30:00.000Z",
-      "source": "Business Wire",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Compass Pathways Recognized as a 2026 Fierce 50 Breakthrough Honoree",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdC13cmc3UWhUeFpwRDlRa2p0ZUlSa1JFVzI2cDE2NTV0clRrd09JclJnVDFuT3pFdWdpbTBweEcyMElBdUlRZi1UNEFIaGJPaV9pN2VxbHJ3eFY1aUdFSTNPNzh2cmFRRngwcUtENUlmaWRMWDNwM0ItdmdZRmVsbDNyMzN6eHAzWFRGaFROWFVSeUVWZ0RDVFkwUWV1ajJNX1RkcGROLU85aU1UZmpWMlJ2RHlUeWRYU1FKTk5HanQ1Nk0?oc=5",
-      "tickers": [
-        "CMPS"
       ]
     }
   ]
