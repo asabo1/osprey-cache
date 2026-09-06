@@ -1,16 +1,18 @@
 {
-  "updated": "2026-09-06T21:46:14.169Z",
+  "updated": "2026-09-06T23:16:51.802Z",
   "counts": {
     "total": 90,
-    "crit": 4,
+    "crit": 5,
     "warn": 5,
     "bySource": {
+      "TipRanks": 2,
       "Grateful Web": 1,
-      "newser.com": 2,
+      "Newser": 2,
       "simplywall.st": 4,
-      "NewsBytes": 3,
+      "newsbytesapp.com": 3,
       "Health and Me": 1,
-      "International Business Times Australia": 1,
+      "Neurology Live": 1,
+      "ibtimes.com.au": 1,
       "The Times of India": 1,
       "Nature": 1,
       "NewsNation": 1,
@@ -22,11 +24,11 @@
       "PsyPost": 1,
       "Men's Journal": 1,
       "International Business Times, Singapore Edition": 1,
-      "American Songwriter": 1,
-      "RNZ": 1,
-      "- NJTODAY.NET": 1,
-      "cbsnews.com": 1,
-      "thatericalper.com": 1,
+      "americansongwriter.com": 1,
+      "youtu.be": 2,
+      "njtoday.news": 1,
+      "CBS News": 1,
+      "That Eric Alper": 1,
       "Investing.com": 2,
       "MarketBeat": 3,
       "Kalkine Media": 1,
@@ -36,49 +38,61 @@
       "CHCH": 1,
       "News-Medical": 1,
       "Western Standard": 1,
-      "The Independent": 1,
+      "independent.co.uk": 1,
       "inkorr.com": 1,
-      "tipranks.com": 2,
-      "YMCA Canada": 1,
+      "ymca.ca": 1,
       "FlamboroughToday.com": 1,
-      "YouTube": 1,
+      "The Microdose | Substack": 1,
       "WhatNow": 1,
       "Quiver Quantitative": 1,
       "Pharma Voice": 1,
-      "alreporter.com": 1,
+      "Alabama Political Reporter": 1,
       "BioWorld News": 1,
       "Daily Sabah": 1,
       "pharma.economictimes.indiatimes.com": 1,
       "StocksToTrade": 1,
       "WION": 1,
       "Reuters": 1,
-      "ca.news.yahoo.com": 1,
       "Free Press Journal": 1,
       "ChartMill": 1,
       "CNN": 1,
-      "Stock Titan": 7,
+      "Stock Titan": 6,
       "Live Science": 1,
-      "Via TT": 1,
+      "via.tt.se": 1,
       "UT MD Anderson": 1,
       "The New York Times": 2,
       "Chronicle of Philanthropy": 1,
       "New Scientist": 1,
       "Scientific American": 1,
       "Fierce Biotech": 1,
+      "The Chronicle-Journal": 1,
       "PR Newswire": 2,
       "Psychedelic Alpha": 1,
       "kalkine.ca": 1,
       "Helus Pharma": 1,
-      "EurekAlert!": 1,
+      "eurekalert.org": 1,
       "facebook.com": 1,
-      "pluang.com": 1,
-      "Tech Times": 1
+      "Pluang": 1
     },
     "byTier": {
       "T2": 90
     }
   },
   "items": [
+    {
+      "id": "c4b6f0fa21a9",
+      "time": "2026-09-06T20:31:34.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Compass Pathways Advances Redefine PTSD Trial, Keeping Psychedelic Therapy Hopes Alive",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMXg1eS1Bc1lleHNtMENFeFkzazJRZ2F5czJqQmFFaGFWVkd6N2ltTU0tQ3dqeDZxajZpNU5UY3kyX1pQZ1NTdVNrRWhUMlhSRkRWOUVCbjZJUXY0ZXBKb2RjVFRNMk14ZHBteUpfcjFESHVNUkc5UkRiYmZROTY1V1NGUjNaS2xNOGZGVmZ3UDNEemRGVzloZnJ4ZVNhVUJxMVNRbUthR3RtdGVnaURVTU1HUXFURndSOUd4UnZ0NEwxcUwxbUVUWm02dEt5TDBjSmFV?oc=5",
+      "tickers": []
+    },
     {
       "id": "79da7271f696",
       "time": "2026-09-06T20:17:23.000Z",
@@ -96,7 +110,7 @@
     {
       "id": "3199eebab5ec",
       "time": "2026-09-06T19:50:00.000Z",
-      "source": "newser.com",
+      "source": "Newser",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -108,7 +122,7 @@
       "tickers": []
     },
     {
-      "id": "123b7c54d8a2",
+      "id": "df1d6ac67820",
       "time": "2026-09-06T18:30:32.000Z",
       "source": "simplywall.st",
       "sourceKind": "gnews",
@@ -118,7 +132,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Neurocrine Biosciences (NBIX) Stock Could Still Be A Bargain After A 61% Run",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdE1OUG9nNlRIMG94S081MmoxTmtxeHFHeEZDczQ5RmxCbXpBcjFRRjgydnhMbTE4VDZTaFVLb3d1UTMzZk5HZVVoRllRZWxzeVBlMFZLVHliQ1V1NElnbDNiSmsweUd6d2RfanhFN1JsVjBaNGtCQzFwRE0wanhFaGdKWVRZWExOd01zSUFWQmpsa0t2Ukhwdy01OU10dDg0XzBkUWVIaXdTQkVJSXhoT3pmb1lnUTV5UVZKQVE0NTdJWDlGV0VtWnFWRUxZVkk4OHY3UXRBdDJIbU02dEgzV3dtazFmUHAtbkZoSA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdE1OUG9nNlRIMG94S081MmoxTmtxeHFHeEZDczQ5RmxCbXpBcjFRRjgydnhMbTE4VDZTaFVLb3d1UTMzZk5HZVVoRllRZWxzeVBlMFZLVHliQ1V1NElnbDNiSmsweUd6d2RfanhFN1JsVjBaNGtCQzFwRE0wanhFaGdKWVRZWExOd01zSUFWQmpsa0t2Ukhwdy01OU10dDg0XzBkUWVIaXdTQkVJSXhoT3pmb1lnUTV5UVZKQVE0NTdJWDlGV0VtWnFWRUxZVkk4OHY3UXRBdDJIbU02dEgzV3dtazFmUHAtbkZoSNIB8gFBVV95cUxPcWF2RFJUQXNORmV5bEtPVG5jb0VXY3V0cnVXLXNxWUtuYURBRTJ4OTd0TnlXTF9pN2MxRlcwakpLbV9DTVhVbjdpN2k0QzZFY21ibkl0eUJUMGE4LWlXWnhjS1BrbHd2cklCU1RQNVhQNVFjVVhFNllsbnlsU25ScWtET0Nxdzc5RWtwa051c2N3YWNueFl6R25WaFc5eEFsb1V0WEZqUWVOWlkySVJTTlNKSjdSLU43Wk5rUEFFTGVvaFFpNFhvU3Bpd3ZERGdWam02VTluUHRhaF9ZczEwOWxmc0hyY3lESHJjYkRkYnZkZw?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -126,7 +140,7 @@
     {
       "id": "1719f1d00f25",
       "time": "2026-09-06T17:26:12.000Z",
-      "source": "NewsBytes",
+      "source": "newsbytesapp.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -154,9 +168,25 @@
       ]
     },
     {
+      "id": "8a66d7946425",
+      "time": "2026-09-06T15:20:19.000Z",
+      "source": "Neurology Live",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Phase 4 Study Highlights Valbenazine's Positive Impact on Patient-Reported Quality of Life, Daily Functioning in Tardive Dyskinesia",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRW1OM1VSRy1kTkVnRndVMkJzZXlFZXhXNGdYamNxTUxvSTI1alE4MGlRVnBHY3dnbDRzMGl1cTVPQ1duZjRRbUNkeHR0MEYwc0dEbnR0WHFBWk5MY2tDaHlqZ1U4cE9wTDY1Q1V2bGRqNDlfOEsxejJkMHREbkhWT05xSGpDWjNkUEpremw3TnMtUGoxUzBWcjh4VkRrYWY0b2JhcUxQNjI2QXplc1lsQTl5WEV5bDE2eUZ6UTlTbVFmVXhsUnRLcklsUTBnajRoLW9hVVgxbjc2NE1BLVF5ZVd6Q0o?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "01794a90d20a",
       "time": "2026-09-06T12:32:05.000Z",
-      "source": "International Business Times Australia",
+      "source": "ibtimes.com.au",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -197,7 +227,7 @@
     },
     {
       "id": "cac20ca7a004",
-      "time": "2026-09-05T22:33:29.000Z",
+      "time": "2026-09-05T22:41:02.000Z",
       "source": "NewsNation",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -393,7 +423,7 @@
     {
       "id": "6dc9b477847c",
       "time": "2026-09-05T11:00:00.000Z",
-      "source": "American Songwriter",
+      "source": "americansongwriter.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -405,23 +435,23 @@
       "tickers": []
     },
     {
-      "id": "10a2d22486fb",
-      "time": "2026-09-05T07:39:46.000Z",
-      "source": "RNZ",
+      "id": "6d22e1c9b900",
+      "time": "2026-09-05T10:00:14.000Z",
+      "source": "youtu.be",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "The psychiatrist who can now prescribe MDMA",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMUtRLXU5Ym92ZDloMEZyZl9IWl9GUldhNVRwcVNzbENubk1ETnhQMENDR3psMDRrV0FDLTJ4ejRYYTZ4ajZEdjJ1NU1Xa0pDMGNFRTN4bDRCcFJ5VUU2YnpYMEQ3QktxRldfNWR3YUxkVWxuYW1reGlZb1ZLYkVLd0VtMGNjeVFLenE3YjdR?oc=5",
+      "title": "Psycho Psychedelic | Bass-Heavy Psychedelic Jazz Funk Music 🌀",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ScFhJWmw0OGdUcjY2SmZJWDB1SmF4QXJzVkNyYWRFRFNJU3drV0w0ZDRKUjMzRzBFZExPXzktd1JBajBJYjI0ejByRFpXMGY3Vi1TbVBFU2hGS2xk?oc=5",
       "tickers": []
     },
     {
       "id": "9e18e35d02ab",
       "time": "2026-09-05T06:34:00.000Z",
-      "source": "- NJTODAY.NET",
+      "source": "njtoday.news",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -435,7 +465,7 @@
     {
       "id": "4e559ee49759",
       "time": "2026-09-05T05:35:00.000Z",
-      "source": "cbsnews.com",
+      "source": "CBS News",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -465,7 +495,7 @@
     {
       "id": "fbe23c2e972d",
       "time": "2026-09-05T02:02:04.000Z",
-      "source": "thatericalper.com",
+      "source": "That Eric Alper",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -583,7 +613,7 @@
     {
       "id": "bab14ee25cff",
       "time": "2026-09-04T18:39:00.000Z",
-      "source": "newser.com",
+      "source": "Newser",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -625,7 +655,7 @@
     {
       "id": "d52ca3e02af3",
       "time": "2026-09-04T16:56:00.000Z",
-      "source": "The Independent",
+      "source": "independent.co.uk",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -651,23 +681,9 @@
       "tickers": []
     },
     {
-      "id": "c4b6f0fa21a9",
-      "time": "2026-09-04T16:34:24.000Z",
-      "source": "tipranks.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Compass Pathways Advances Redefine PTSD Trial, Keeping Psychedelic Therapy Hopes Alive",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMXg1eS1Bc1lleHNtMENFeFkzazJRZ2F5czJqQmFFaGFWVkd6N2ltTU0tQ3dqeDZxajZpNU5UY3kyX1pQZ1NTdVNrRWhUMlhSRkRWOUVCbjZJUXY0ZXBKb2RjVFRNMk14ZHBteUpfcjFESHVNUkc5UkRiYmZROTY1V1NGUjNaS2xNOGZGVmZ3UDNEemRGVzloZnJ4ZVNhVUJxMVNRbUthR3RtdGVnaURVTU1HUXFURndSOUd4UnZ0NEwxcUwxbUVUWm02dEt5TDBjSmFV?oc=5",
-      "tickers": []
-    },
-    {
       "id": "1ac5d1975d2f",
       "time": "2026-09-04T16:28:50.000Z",
-      "source": "YMCA Canada",
+      "source": "ymca.ca",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -697,7 +713,7 @@
     {
       "id": "c7041a74a52b",
       "time": "2026-09-04T16:19:29.000Z",
-      "source": "YouTube",
+      "source": "youtu.be",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -707,6 +723,22 @@
       "title": "What is psychedelic extreme metal?",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00YUU3el9jajhRbUl3eDVmTjBWYnBxNHhTZEl3dHk3aGFYOHlSaDJ4eUNyeWlMbzZGXzJyZm1TY2ljMUY1NE1aM3k4UGFNWjhpcS1SLTYxNExldE5H?oc=5",
       "tickers": []
+    },
+    {
+      "id": "d22cee30b843",
+      "time": "2026-09-04T15:00:51.000Z",
+      "source": "The Microdose | Substack",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "A federal report encourages states to prepare for FDA approval of psychedelics; Could THC help with the psychedelic blinding problem?",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xMG9lbXIxd0NIM3piUmdWckp5akRSMks3bWIxa0tkMXBtVzZXd2NUdUxTOFpQWUdrV1ktMG5MZ0YwSUZ5ZGFZSlN0RGRpckZ6M0hyQkpZbWluTmcta3RPb2hwd09oZFJoQzZDX3hZRHRNbnBkU3FCakh3?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "f54baeb83e02",
@@ -771,7 +803,7 @@
     {
       "id": "cbccd173b893",
       "time": "2026-09-04T13:03:00.000Z",
-      "source": "alreporter.com",
+      "source": "Alabama Political Reporter",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -799,7 +831,7 @@
     {
       "id": "6c1cb40705d8",
       "time": "2026-09-04T12:39:26.000Z",
-      "source": "NewsBytes",
+      "source": "newsbytesapp.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -859,7 +891,7 @@
     {
       "id": "8b79b019613b",
       "time": "2026-09-04T11:29:19.000Z",
-      "source": "NewsBytes",
+      "source": "newsbytesapp.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -896,22 +928,6 @@
       "impact": "LOW",
       "title": "NEWSLETTER: Psychedelic drug shows promise for preventing chemotherapy-induced nerve damage",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOX05YTHNjS013RmlEWlJvUHZrZlplSllNcTN3UWhQX0RoMXJ4QUZvLUM3SXZlZnctSDFHZXlNUlRmY0dzSlA4SHhIXzBLZGt1RWM1bmp5SDcyRkxqLW56Sk1nVmhieXREM185UGVTcFk4RWt0Tmx6Z3pMRkF4cTdseDNzYmFIMUtaUm41UEhrekNILUs1UTZMNjFpTjF4TFhsRHA1YlQ4dWpuZ1phQm1DeFFXcnE4LUxVQ0swSlBSX2R4WmVYT2JxV3pRNVNxQmlLejkxbFVyTXFnVE9ESzV3Mw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "370629f181a7",
-      "time": "2026-09-04T11:13:09.000Z",
-      "source": "ca.news.yahoo.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Health Rounds: Psychedelic drug shows promise for preventing chemotherapy-induced nerve damage",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY3VJaVhjaUc5YmtNUFhjVm1hblV6cVJXd2FxR0dVN1VGcXdLcHJVcmFkcThBSzFxZno3SkhTQU0xbUk0dGlLSXhWWnhDaDhPVG0xZDlRSmZONU5COVg3dFMyemxEVnJBejdQV1RleEtKMUp0a0FsOXVXdk51WnNPa2phQQ?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -1043,7 +1059,7 @@
     {
       "id": "d98fe549d9fb",
       "time": "2026-09-03T20:30:00.000Z",
-      "source": "Via TT",
+      "source": "via.tt.se",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1141,6 +1157,20 @@
       "tickers": []
     },
     {
+      "id": "1afab76dcc7f",
+      "time": "2026-09-03T16:15:00.000Z",
+      "source": "The Chronicle-Journal",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Oregon Psilocybin Fee Increase Threatens Satya Therapeutics as Company Challenges OHA's Financial Basis",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNSFphdER6ejk5NFVkZGdmdXdNSkR3UHBrc3NMZ2hJUjJJTU1UVDJpeFFTVEh0UUdPY1VLSWRJOTRoSWR4ZW1vbXc5Wmw2VUxzQ3hnQ3NqOWFjOE5BQWFRU3VVUjM3bFR3ek0wMlhManp6Zy1QRVNfME1JcDFQSFhqS0NsTWxtZXctMndaTm1sNG9VZll2Q1FBYlN5SFMxRzdxMVE4UHNua2M2ZFVVZ0hMeEJORVZvZU1BRXA3akUyek9vaF81WnFPb080OWkxcTctai1SVkc3MDhxVHJaNUtsblBtT1dhVWFVVGVWdHh0eTVyajNPb0VVZTRveThWZFZ4UE45R2twSUtDQQ?oc=5",
+      "tickers": []
+    },
+    {
       "id": "40948bde611d",
       "time": "2026-09-03T15:43:00.000Z",
       "source": "PR Newswire",
@@ -1201,7 +1231,7 @@
     {
       "id": "b248fcc7146b",
       "time": "2026-09-03T12:19:02.000Z",
-      "source": "tipranks.com",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1265,7 +1295,7 @@
     {
       "id": "f934d65c8259",
       "time": "2026-09-03T07:00:00.000Z",
-      "source": "EurekAlert!",
+      "source": "eurekalert.org",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1325,7 +1355,7 @@
     {
       "id": "60230a415abd",
       "time": "2026-09-02T20:19:02.000Z",
-      "source": "pluang.com",
+      "source": "Pluang",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1385,34 +1415,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "2118f69b582d",
-      "time": "2026-09-02T13:40:10.000Z",
-      "source": "Tech Times",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psilocybin, LSD Hallucination Fingerprint Identified: Cell Test Bypasses Animal Screens",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWUc0eW8wOXZYZ3RzcHRrbEw3MEFhUEFrMzJaOGI4MkhidElmQjhjTW5wZGhJb21FaDBaZGt4dkY1TGRPSU5Sa085MHEyNXgyald2RWoyMm5EVDU1YUEyalZHdEVWVlVYWWJNcElVRi1ZdkF0WWExclFIMllqU0VDbE5XS1lCY2J4UEgycUpkUUVETUJ4bWQyUm5zNFowbEJ4d3RiSE9vaDhjdXg3SGFaUjlwUW9LUllxb0RaYXQtbHNPeGhfSF9VdjhrNHZ0SnA3ZE45WHVGTQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "c74f6e50ff9e",
-      "time": "2026-09-02T12:30:00.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "An FDA hearing on psychedelic drugs is set for Sept. 14. Ensysce will take part.",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbWVibFIxQ0NuZTlQbjNmdmdKYTBRRENmdEhiRlY5TFk4RUJBOGx2UTdsck5zckJubWpFRWpsdFdLTVAyaFpIZVM1MUc3YjVfSThIa3RuamJSOUw3ODdGR2lhQjhVMFdGY28yZVcxOGhGZS1BMnJ5QWp4OXZ5dmE4ZXNTZHppRlc4R1ZQek1WM2h3bENfVHFHSFN2aUo5X3FveEw5bkhHOE9va3NwLVF1eW1Tck1OWVE3SWd5TjBBclc?oc=5",
-      "tickers": []
     }
   ]
 }
