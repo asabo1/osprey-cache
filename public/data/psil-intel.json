@@ -1,15 +1,16 @@
 {
-  "updated": "2026-09-06T12:52:22.098Z",
+  "updated": "2026-09-06T15:51:53.583Z",
   "counts": {
     "total": 90,
     "crit": 5,
-    "warn": 6,
+    "warn": 5,
     "bySource": {
+      "Health and Me": 1,
       "International Business Times Australia": 1,
-      "The Times of India": 1,
+      "timesofindia.indiatimes.com": 1,
       "Nature": 1,
       "NewsNation": 1,
-      "stocktwits.com": 8,
+      "Stocktwits": 7,
       "A Rich Life": 1,
       "Yahoo": 1,
       "Phys.org": 1,
@@ -20,11 +21,11 @@
       "International Business Times, Singapore Edition": 1,
       "American Songwriter": 1,
       "YouTube": 2,
-      "njtoday.news": 1,
-      "boldnewsonline.com": 1,
-      "CBS News": 1,
+      "- NJTODAY.NET": 1,
+      "cbsnews.com": 1,
       "Investing.com South Africa": 1,
       "That Eric Alper": 1,
+      "MarketBeat": 3,
       "Kalkine Media": 1,
       "Fast Company": 1,
       "KQED": 1,
@@ -38,7 +39,7 @@
       "The Independent": 1,
       "inkorr.com": 1,
       "TipRanks": 3,
-      "YMCA Canada": 1,
+      "ymca.ca": 1,
       "FlamboroughToday.com": 1,
       "The Microdose | Substack": 1,
       "WhatNow": 1,
@@ -48,26 +49,25 @@
       "NewsBytes": 2,
       "Daily Sabah": 1,
       "pharma.economictimes.indiatimes.com": 1,
-      "stockstotrade.com": 1,
+      "StocksToTrade": 1,
       "WION": 1,
-      "reuters.com": 1,
+      "Reuters": 1,
       "Yahoo News Canada": 1,
       "Free Press Journal": 1,
       "Stock Titan": 6,
       "Live Science": 1,
-      "Talk-N West TN": 1,
       "Via TT": 1,
       "UT MD Anderson": 1,
       "The New York Times": 2,
       "Chronicle of Philanthropy": 1,
       "New Scientist": 1,
       "Scientific American": 1,
-      "Fierce Biotech": 1,
+      "fiercebiotech.com": 1,
+      "The Chronicle-Journal": 1,
       "PR Newswire": 2,
       "Psychedelic Alpha": 1,
       "kalkine.ca": 1,
       "Helus Pharma": 1,
-      "MarketBeat": 2,
       "StreetInsider": 1,
       "EurekAlert!": 1,
       "facebook.com": 1,
@@ -80,6 +80,22 @@
     }
   },
   "items": [
+    {
+      "id": "27c061af18c2",
+      "time": "2026-09-06T15:30:00.000Z",
+      "source": "Health and Me",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Psychedelic Compound Found In 'Magic Mushrooms' May Help Prevent Painful Chemotherapy Side Effects, Study Finds",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaE5KbFFNa1F4czFFdjZ3TzhJQ1I0emJwQUZNckYyMTVpdmFYZVI3WmhFa2V4V3V1b19ncDB2QVZ4SEV0djI5eS1qc2pTNTZ2SFlnVGRJNDZxZWJkaUJiZExkeXJuLWR2bGM3aXJuZ0l6RW1hV0pTN01ZNlZhTkFNQjQwWmFkT2FwOEREdDRzd3ZWOEowTm95SE5TZzlmelhGaktOTzl1RFU1eGNFLW5JanBGRjNVeFRTRWRfNDhnNzNKWVVUOGVjVFlrU3J5R09pNWJvZjFZcGhCbnhSTzJOR2NfTXlzdGZZUnV0bm9Zei0tMVNCUmZpcDBB?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
     {
       "id": "01794a90d20a",
       "time": "2026-09-06T12:32:05.000Z",
@@ -97,7 +113,7 @@
     {
       "id": "435e0a643053",
       "time": "2026-09-06T11:00:00.000Z",
-      "source": "The Times of India",
+      "source": "timesofindia.indiatimes.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -141,7 +157,7 @@
     {
       "id": "cfafc11bfd4a",
       "time": "2026-09-05T21:11:26.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -200,7 +216,7 @@
     {
       "id": "01c1c214588e",
       "time": "2026-09-05T16:42:37.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -304,7 +320,7 @@
     {
       "id": "ec6542a54c96",
       "time": "2026-09-05T12:11:48.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -348,7 +364,7 @@
     {
       "id": "9e18e35d02ab",
       "time": "2026-09-05T06:34:00.000Z",
-      "source": "njtoday.news",
+      "source": "- NJTODAY.NET",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -360,23 +376,9 @@
       "tickers": []
     },
     {
-      "id": "26661b456391",
-      "time": "2026-09-05T06:09:36.000Z",
-      "source": "boldnewsonline.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psilocybin Shows Potential to Protect Nerves During Chemotherapy, Study Finds",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOVZqYmQxajV1U0dJU1pRNmhSdXJrZmRJR2VKUzhQNFpuSF9rM3hZV2owalpWQlNvQkNZYVMzWUh3aTZPNVlmRGtzblVjTnJyczVwalh1U3g2M19qeGJHTTRUaU5nWjc2S252Vy1qSjVjR1VoRnVhWTI0NGMzM2RrbVBwTHN4Q0VlSGRZRmM5bS01TnlzYzZpbUw3dXc2NWJjbGJ0aUYydw?oc=5",
-      "tickers": []
-    },
-    {
       "id": "4e559ee49759",
       "time": "2026-09-05T05:35:00.000Z",
-      "source": "CBS News",
+      "source": "cbsnews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -390,7 +392,7 @@
     {
       "id": "8ed429cf2bb2",
       "time": "2026-09-05T03:32:24.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -432,6 +434,22 @@
       "title": "Pleasure Pill Chase Britpop Euphoria and Psychedelic Haze on ‘ALIVE’",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZlgzdEVlVk40SkFDekxDalBfM2dnVGVTd096dzVqTEVWQUlrdV9RZk5Qdnl1NlQxNUlxSGw4dHFEZWs2Y1FLaE9vRlU5WXdLN3FuM0lKOUZDUEdybjZPazFnaEswTHFEZl80YUVYSFhHVUFoVmhvVVIxXzc1ZjdPUWF3TDlXeWcwN0hrNGVpUFFhcElZeW1hS3dBVWhsREhMZlJ3S2JVMkJJM1ZB?oc=5",
       "tickers": []
+    },
+    {
+      "id": "e070a2d07842",
+      "time": "2026-09-05T00:24:08.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Top Generate Biomedicines (GENB) Competitors 2026",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMHpDLXBNa2VYbUZId1luWnVudFgzUXFXUFpwV2doLVYzVVJzWEEtcDRqOUtmSW9jM0NSQi1JM1FaQnRaSURrX3pkTjRfNXdSVVZUamkzS0U4VnlwQkt3c1pkOTRwRFdWWm9DQzBmUlRPcGFEd3hmcUF5QkNHcGFVeA?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
     },
     {
       "id": "4d39ab5e3d8d",
@@ -622,7 +640,7 @@
     {
       "id": "1ac5d1975d2f",
       "time": "2026-09-04T16:28:50.000Z",
-      "source": "YMCA Canada",
+      "source": "ymca.ca",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -682,7 +700,7 @@
     {
       "id": "f54baeb83e02",
       "time": "2026-09-04T14:36:29.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -728,7 +746,7 @@
     {
       "id": "9bfd10a2356b",
       "time": "2026-09-04T13:16:49.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -818,7 +836,7 @@
     {
       "id": "7d2e8aefe47f",
       "time": "2026-09-04T11:48:00.000Z",
-      "source": "stockstotrade.com",
+      "source": "StocksToTrade",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -860,7 +878,7 @@
     {
       "id": "e04df1309cd0",
       "time": "2026-09-04T11:15:30.000Z",
-      "source": "reuters.com",
+      "source": "Reuters",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -917,22 +935,6 @@
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWlU1MXV2cmwtczlVbXB5ekNHUTd4N0NmeHJqbk1yS2tkV3R0N1kyYlNzN0NlZDg3WF9yT294amxaVmVrZVc1V01QV3RIS0RNSGVWOVNmaThlVEo0cnh1TVZmdllsM1NsY3VSMmdYT3UzdGlQY0ExckFVMnRwMDNVeUNQa25GQXJzREdmbjdkenJ4QzdNRmxmWUwxa0hidEZNRWpLMVA2NnB5WXp6VWpBaldzT0FzenJ3YW00ZE1BUF84c3RLRzlNa1dYUVFpa1dIczhocjBQTnJVd9IB3wFBVV95cUxNM1NXcGVSX3BJRzNKdmd1N3JiZTdUczRuMHFXMjR4b2lWSXJUV2VxWC00ZW1EZ2ZKRzJrQUVZWHNxRnlySWc2V01KUzl5SWViSDdQWmdCaXI3bFVRWG10OVFQa2w5Q1c5UDY4eGZ4a3oySWtFTTZIWU15V1poa2RkTldDa2F5dG1PVjJaQV9QNXV6M0JXY0pMa05aaklRcm9DUW1HX3Y4d0t1c01ZMVRpVkZRVy12U2xQZXNVOWRKSDU2a1ZlMU1uYU9WcEhyR1dQM3FFUUU3QjRKdGs2R0o0?oc=5",
       "tickers": [
         "ALKS"
-      ]
-    },
-    {
-      "id": "b6a3069ffea5",
-      "time": "2026-09-04T02:55:29.000Z",
-      "source": "stocktwits.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "impact": "MED",
-      "title": "CMPS Stock Slumps Premarket As $150M Offering Cuts Into Psychedelic Trial Buzz",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdmh2Zm8zT19qU2d1MWpDbS1NN1pYY1hjdWhUckdVUUtfUjFfSlR2MmZCOVdDcE9nVk9hd0FxTDlzQVpqSEsxNWkydVZpNkxVbVpxWUNqTktidFJPTWhXbENtOTlib1NrbFpIQjB6cHczWWoxbkZwVVZ5VUN0SUk2bGJkb0N4Mi1LcElFd0FnbHo1QzBFRmJ3anpuTUlKUWNGenJZUmFXclIxTkQ2NFJDNWxDYTY4TjBrQS1vSTZDWjNIdE5XWC1VS0JMZ0xTbWRaTzc0YkxISlU?oc=5",
-      "tickers": [
-        "CMPS"
       ]
     },
     {
@@ -995,22 +997,6 @@
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeTFxazNZT2Y1X1QwSUtMWmNsamxhSzFobjBQR2M1TUdfQ2VMU1o4TmdjekxIbWlrQ0YtZzNvd0N2bGJQRVlqZE9Eb1NybWkyWlhjVFRmQWMyZEdfVVJKNHhhZ2RCY3o1cWdxWlpSQmprZjYtODhOOEF3LWZha0VxM0Y2OGJuWEdCelVTTHVxX0ROcVE?oc=5",
       "tickers": [
         "ALKS"
-      ]
-    },
-    {
-      "id": "c7273d2c5201",
-      "time": "2026-09-03T20:58:04.000Z",
-      "source": "Talk-N West TN",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Road work construction for West Tennessee counties",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN01iSXlZUUMyOFBzWFo5YXFhQ24zU08wZDRLeHBLeTVDek5JWTA0aFRVaFFoeGlkLXVRWThGN0lyT0FSU3lydWoyTmNOVzVMbXVCdjdwRWdRZllPMU9vMjVjMkxqNFcwZ2ZwcjdxNDdBTTdaYndPZlEyU0c3Rk9TNQ?oc=5",
-      "tickers": [
-        "MNMD"
       ]
     },
     {
@@ -1102,7 +1088,7 @@
     {
       "id": "d922344d5d6d",
       "time": "2026-09-03T18:00:00.000Z",
-      "source": "Fierce Biotech",
+      "source": "fiercebiotech.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1111,6 +1097,20 @@
       "impact": "LOW",
       "title": "Psilocybin proves promising in neuropathic pain mouse study",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNDlpTjJLNDJCcmlUTTRiSDlHMnhQaS1Ja2ZLT0xndDlRVnlwbWJobmpHbGtzTm04NUFQOU1yWWw3aWNmdm50S1lTQTZoVi1YdHlEa3NyV0VST2NZQk8wTE82emhRYlpsci1FaFNtZGJFOGM1NzhKMnlmVzh3RDdsQjFvLXNNbjk2blNOdG0yRmdfVDFUYTVvbFZR?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "1afab76dcc7f",
+      "time": "2026-09-03T16:15:00.000Z",
+      "source": "The Chronicle-Journal",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Oregon Psilocybin Fee Increase Threatens Satya Therapeutics as Company Challenges OHA's Financial Basis",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNSFphdER6ejk5NFVkZGdmdXdNSkR3UHBrc3NMZ2hJUjJJTU1UVDJpeFFTVEh0UUdPY1VLSWRJOTRoSWR4ZW1vbXc5Wmw2VUxzQ3hnQ3NqOWFjOE5BQWFRU3VVUjM3bFR3ek0wMlhManp6Zy1QRVNfME1JcDFQSFhqS0NsTWxtZXctMndaTm1sNG9VZll2Q1FBYlN5SFMxRzdxMVE4UHNua2M2ZFVVZ0hMeEJORVZvZU1BRXA3akUyek9vaF81WnFPb080OWkxcTctai1SVkc3MDhxVHJaNUtsblBtT1dhVWFVVGVWdHh0eTVyajNPb0VVZTRveThWZFZ4UE45R2twSUtDQQ?oc=5",
       "tickers": []
     },
     {
@@ -1270,7 +1270,7 @@
     {
       "id": "1e44127844b3",
       "time": "2026-09-03T07:50:45.000Z",
-      "source": "stocktwits.com",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
