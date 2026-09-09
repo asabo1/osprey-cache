@@ -1,8 +1,8 @@
 {
- "updated": "2026-09-09T19:32:05.201Z",
+ "updated": "2026-09-09T21:55:29.611Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
- "totalClusterBuyers": 1,
+ "totalClusterBuyers": 2,
  "tickers": {
   "CMPS": {
    "buyFilings": 0,
@@ -102,12 +102,19 @@
    ]
   },
   "HELP": {
-   "buyFilings": 1,
+   "buyFilings": 2,
    "sellFilings": 0,
-   "clusterBuyers": 1,
-   "buyShares": 90000,
+   "clusterBuyers": 2,
+   "buyShares": 185000,
    "sellShares": 0,
    "latest": [
+    {
+     "date": "2026-09-01",
+     "owner": "So Eric H. L.",
+     "code": "P",
+     "shares": 95000,
+     "price": 11.805
+    },
     {
      "date": "2026-08-31",
      "owner": "Glavine Paul",
@@ -719,6 +726,25 @@
      "shares": 90000,
      "price": 11.5853,
      "date": "2026-08-31"
+    }
+   ],
+   "filingDate": "2026-09-09"
+  },
+  "0001140361-26-036052": {
+   "ticker": "GHRS",
+   "owner": "Schonharting Florian",
+   "txns": [],
+   "filingDate": "2026-09-09"
+  },
+  "0000912282-26-001254": {
+   "ticker": "HELP",
+   "owner": "So Eric H. L.",
+   "txns": [
+    {
+     "code": "P",
+     "shares": 95000,
+     "price": 11.805,
+     "date": "2026-09-01"
     }
    ],
    "filingDate": "2026-09-09"
