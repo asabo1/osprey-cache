@@ -1,49 +1,49 @@
 {
-  "updated": "2026-09-08T23:42:35.977Z",
+  "updated": "2026-09-09T01:37:13.864Z",
   "counts": {
     "total": 90,
     "crit": 4,
-    "warn": 5,
+    "warn": 4,
     "bySource": {
+      "WSJ": 1,
+      "Stocktwits": 5,
       "WWMT": 1,
       "Stanford Medicine": 1,
-      "SSBCrack": 1,
-      "Kalkine Media": 1,
-      "Stocktwits": 5,
       "Westword": 1,
       "WAVY.com": 1,
-      "marketbeat.com": 2,
+      "MarketBeat": 2,
       "drugdiscoverytrends.com": 1,
       "Yahoo": 1,
       "Bitget": 1,
       "Vicente LLP": 1,
-      "hcplive.com": 1,
+      "HCPLive": 1,
       "Everything Is Noise": 1,
       "Psychiatric Times": 1,
-      "Investing.com": 2,
+      "Investing.com": 1,
+      "Minichart": 2,
       "StreetInsider": 1,
       "TipRanks": 4,
-      "Minichart": 1,
-      "citybiz": 1,
-      "investingnews.com": 1,
+      "citybiz.co": 1,
+      "Kalkine Media": 1,
+      "Investing News Network": 1,
       "simplywall.st": 6,
       "The Conversation": 1,
-      "gurufocus.com": 1,
+      "GuruFocus": 1,
       "Pluang": 1,
       "Stock Titan": 2,
       "Yahoo Finance UK": 1,
       "TMX Newsfile": 1,
       "Business Wire": 1,
-      "finance.yahoo.com": 1,
+      "Yahoo Finance": 1,
       "kalkine.ca": 1,
       "Forbes": 1,
-      "Military.com": 1,
+      "military.com": 1,
       "Kalkine": 1,
       "News-Medical": 2,
       "That Eric Alper": 1,
       "ABC News & Headlines – Australian Broadcasting Corporation": 1,
       "CBS News": 2,
-      "The Virgin Islands Daily News": 1,
+      "virginislandsdailynews.com": 1,
       "Phys.org": 2,
       "YouTube": 2,
       "Quiver Quantitative": 1,
@@ -54,23 +54,23 @@
       "DirectorsTalk Interviews": 2,
       "Opportunity Desk": 1,
       "Zenopa": 1,
-      "hanf-magazin.com": 1,
+      "Hanf Magazin": 1,
+      "ScreenRant": 1,
       "attractionsmanagement.com": 1,
       "PressReader": 1,
       "Grateful Web": 1,
       "Newser": 1,
       "Health and Me": 1,
       "ABC News - Breaking News, Latest News and Videos": 1,
-      "ibtimes.com.au": 1,
+      "International Business Times Australia": 1,
       "The Times of India": 1,
       "Nature": 1,
       "NewsNation": 1,
       "A Rich Life": 1,
       "New York Post": 1,
-      "WSJ": 1,
       "PsyPost": 1,
       "Men's Journal": 1,
-      "americansongwriter.com": 1,
+      "American Songwriter": 1,
       "RNZ": 1,
       "Intellectia AI": 1,
       "njtoday.news": 1,
@@ -81,6 +81,36 @@
     }
   },
   "items": [
+    {
+      "id": "55f2df5781d8",
+      "time": "2026-09-09T01:01:30.000Z",
+      "source": "WSJ",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Elon Musk’s Inner Circle Is Pouring Cash Into Making Psychedelics Mainstream",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU2lmWXZTQkIxbTdmQXRTTEJXNUcyRVhrcGd3TkxnWXRlbFZ2VXE2b1VNV3RTQVRGS003UkE1WXZVdnJiWVBIdlFIOXBOcUNZaGt3eDU0STFBLWphQkFWWHZrdXB0UnZNemRJZ1FNYTZQRlZNU25uQnJRczhXY0ZMeWM3LUIzeXh1aXNQdHp1Tm0xOHVsTXdEVHZiRG0yM181SkN4MGJNdFhvR3NlVUZoczhRTVg1cG03dlNjTU1iSQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "ec6542a54c96",
+      "time": "2026-09-08T23:44:58.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
     {
       "id": "1ae36ac29976",
       "time": "2026-09-08T22:41:05.000Z",
@@ -107,34 +137,6 @@
       "impact": "LOW",
       "title": "Could anesthesia dreams be a more palatable psychedelic therapy?",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaWM0UEVRRGlHUlVReFowT0RVLTZUczNKRHg3MVV1U2NHcTVpRDR2TkdaQXRSd2RacjVvZjJQdUxYLWVNNWJWX3dCSEFDZ3NUb3ZnWFlWbmswZU9UUWVka2Exa21VX3dFR0g1UnM1LTBHNWRYUXpJbnpOMTBEOVJadnVieHNOQTlCTDJnVUdDakszSzBvN2ZDYl9rVTJfM0h5b204QjNwVjN2QQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "5ea5d8228502",
-      "time": "2026-09-08T22:38:17.000Z",
-      "source": "SSBCrack",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "Trump Administration Names Permanent Leaders at FDA Amid Ongoing Controversies",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbW5qcEdaejFsejJvT1lwT2xvSmY4Nk1NVWV3UzJ0ZlV1RUZmTkh2bUdRQWEwSWlsdEh2LUViWWV3RUczWkhxNUxPWGNrMkdpWV8wOVNraFhPTnYxdmZiTzRUZVFkcFF6THdmLUFKbFpqRWs2bl9yUVNRTUFVbmJrd3IzeDBPTWVZcE5QYmtWa2tnb0NqNE81eFFoOTNFQlJHaEx6bDVLVC0?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "6ad1c1adff6e",
-      "time": "2026-09-08T22:34:46.000Z",
-      "source": "Kalkine Media",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Filament Health Delivers PEX010 to Australia for Groundbreaking Psilocybin-Assisted Physiotherapy Trial in Functional Neurological Disorder",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOLTJaTFRPb2xrdE5mRGdRSTlLNEVIWW1teC1FbUx2c1ZaWmVUb3IzV0hhQU1WR1FCTUJ4R2ppR01tb19QOENZRUdYaUR2V29vYzZmdFlLbW5XZlJWcV92aUgyaU94ZjVPczhYMjB5eDZ1VEp3Ymp1dzAyX3pjS1NxcTEydkNLYzNkSWJxX0Z5b09XWnFXWVZfRFhaTTRueko5SnMxNHZIVDA2QXh6eWVuTkZMbEpBSmMtVUdFVzBhV1M3b3QtaUR5ek9nMlFZMWR4MWxheEdiVnNJaWszcG1udkJXQkZsYWd1WFYxal80WERlTGl4VUtsU3A0VGs2bXdJWlpNWGdwaVhBcC1XamRLSVJRaWM?oc=5",
       "tickers": []
     },
     {
@@ -184,7 +186,7 @@
     {
       "id": "33eec904aa7d",
       "time": "2026-09-08T16:43:18.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -258,7 +260,7 @@
     {
       "id": "a250933978b6",
       "time": "2026-09-08T14:40:28.000Z",
-      "source": "hcplive.com",
+      "source": "HCPLive",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -315,6 +317,22 @@
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaFRVR3BzOG4yOUNTdFNQMnBFZkFkWUYyT0ZhUWFiaVBkYzNrdlZVZjZYTnFJWHpDRGJYTlFBYjM5VEY4ZklZV3dPbjZSZXpUOHpON3JwSnVmTU01a1F0WVFrZjZqVXZZbjdnaEt5Rnl0bkFIRFJERTdqS0pkU1dkOEk1dW94MzN0akF5U1dfLUlhRHZpbGtMS1FFZ1Rsb3VUWWNOQlRwS3lVR05HekhUYXVWLXdPRWZZclRlMnRNVkY0VTNBQXFNQQ?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "2747d3164d3e",
+      "time": "2026-09-08T13:25:00.000Z",
+      "source": "Minichart",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Anteris Appoints Brent Moen as Chief Financial Officer",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFJMWmdkNUg5WERDQ2o0ak5SSDVZeF9YR2NCbkJXU3pYLWJlMGZqRDhKcTBtVUQwRzRxSDFrR3U3eDM3RElCWWVfUjR6S1FuY1MzMEJGR1pHWFlSMG42bExpVDJOZFdQaEt2TUZacVBFQTFEc2wyWWdOZHl1SUN4eU8tNXh5NHlON205dk11WXJMdERJMTZlYVVlSQ?oc=5",
+      "tickers": [
+        "VTGN"
       ]
     },
     {
@@ -382,7 +400,7 @@
     {
       "id": "947e1afef4b7",
       "time": "2026-09-08T13:07:18.000Z",
-      "source": "citybiz",
+      "source": "citybiz.co",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -396,9 +414,23 @@
       ]
     },
     {
+      "id": "6ad1c1adff6e",
+      "time": "2026-09-08T12:56:09.000Z",
+      "source": "Kalkine Media",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Filament Health Delivers PEX010 to Australia for Groundbreaking Psilocybin-Assisted Physiotherapy Trial in Functional Neurological Disorder",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOLTJaTFRPb2xrdE5mRGdRSTlLNEVIWW1teC1FbUx2c1ZaWmVUb3IzV0hhQU1WR1FCTUJ4R2ppR01tb19QOENZRUdYaUR2V29vYzZmdFlLbW5XZlJWcV92aUgyaU94ZjVPczhYMjB5eDZ1VEp3Ymp1dzAyX3pjS1NxcTEydkNLYzNkSWJxX0Z5b09XWnFXWVZfRFhaTTRueko5SnMxNHZIVDA2QXh6eWVuTkZMbEpBSmMtVUdFVzBhV1M3b3QtaUR5ek9nMlFZMWR4MWxheEdiVnNJaWszcG1udkJXQkZsYWd1WFYxal80WERlTGl4VUtsU3A0VGs2bXdJWlpNWGdwaVhBcC1XamRLSVJRaWM?oc=5",
+      "tickers": []
+    },
+    {
       "id": "b2cc99aa26d2",
       "time": "2026-09-08T12:46:17.000Z",
-      "source": "investingnews.com",
+      "source": "Investing News Network",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -458,7 +490,7 @@
     {
       "id": "f2622db3e9c7",
       "time": "2026-09-08T12:18:27.000Z",
-      "source": "gurufocus.com",
+      "source": "GuruFocus",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -566,7 +598,7 @@
     {
       "id": "f32569db2d06",
       "time": "2026-09-08T11:00:00.000Z",
-      "source": "finance.yahoo.com",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -582,7 +614,7 @@
     {
       "id": "e070a2d07842",
       "time": "2026-09-08T10:49:08.000Z",
-      "source": "marketbeat.com",
+      "source": "MarketBeat",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -628,7 +660,7 @@
     {
       "id": "cd2ac2291997",
       "time": "2026-09-08T07:00:13.000Z",
-      "source": "Military.com",
+      "source": "military.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -726,7 +758,7 @@
     {
       "id": "3399909f5159",
       "time": "2026-09-07T22:17:43.000Z",
-      "source": "The Virgin Islands Daily News",
+      "source": "virginislandsdailynews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -948,25 +980,9 @@
       ]
     },
     {
-      "id": "ec6542a54c96",
-      "time": "2026-09-07T07:12:51.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
       "id": "85b1ee1ded81",
       "time": "2026-09-07T06:38:17.000Z",
-      "source": "hanf-magazin.com",
+      "source": "Hanf Magazin",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -989,6 +1005,20 @@
       "impact": "LOW",
       "title": "Psilocybin protects sensory nerves from chemotherapy damage in preclinical study",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPc2NxVlpuR2RQNjQ2YjJ1dEdmUXRFUkUtbXExMHVmQlFjWW9UNEtPZUREVmprZGxLWmlUUkd2QnFlS2lJOEZ0Zll4OGhqeDZIX1doY2IxQ0ZVVU00bUFMRFRJdjYxTjFTNmlteVBJRG4xYkJvSXh1VFlRdnEtdmt6cTE5aDh4OXZyVlZ5WjBJYnFPTDA1OHpYWjR6S0VBdGZlLTAxLU1fX3FUUjliYVZreUJQUnZRVm41bS1xRndsNTd4SkxIUzU0?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "fcde15ecbbf7",
+      "time": "2026-09-07T01:09:00.000Z",
+      "source": "ScreenRant",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "10 Best Marvel TV Shows Not In The MCU",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSZ1FtcS1wMXNybWlTTjNidGhPRjZfNDBrei1leU5sYVp2dHhZRzZyVnpmRnVNOVBUQUQtT2p1WWppa1ZPXzZaSnMzMFVwcHY3MHNPV29NZHNNVGlhR1hVMmZQM1V3TFE?oc=5",
       "tickers": []
     },
     {
@@ -1131,7 +1161,7 @@
     {
       "id": "01794a90d20a",
       "time": "2026-09-06T12:32:05.000Z",
-      "source": "ibtimes.com.au",
+      "source": "International Business Times Australia",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1229,20 +1259,6 @@
       "tickers": []
     },
     {
-      "id": "55f2df5781d8",
-      "time": "2026-09-05T16:00:00.000Z",
-      "source": "WSJ",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Elon Musk’s Inner Circle Is Pouring Cash Into Making Psychedelics Mainstream",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPU2lmWXZTQkIxbTdmQXRTTEJXNUcyRVhrcGd3TkxnWXRlbFZ2VXE2b1VNV3RTQVRGS003UkE1WXZVdnJiWVBIdlFIOXBOcUNZaGt3eDU0STFBLWphQkFWWHZrdXB0UnZNemRJZ1FNYTZQRlZNU25uQnJRczhXY0ZMeWM3LUIzeXh1aXNQdHp1Tm0xOHVsTXdEVHZiRG0yM181SkN4MGJNdFhvR3NlVUZoczhRTVg1cG03dlNjTU1iSQ?oc=5",
-      "tickers": []
-    },
-    {
       "id": "e3ab050add84",
       "time": "2026-09-05T14:22:33.000Z",
       "source": "PsyPost",
@@ -1305,7 +1321,7 @@
     {
       "id": "6dc9b477847c",
       "time": "2026-09-05T11:00:00.000Z",
-      "source": "americansongwriter.com",
+      "source": "American Songwriter",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1401,22 +1417,6 @@
       "title": "Grateful Dead exhibit in San Francisco to feature trailblazing psychedelic \"Furthur\" bus",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZWdnVFZPUmROQWlKR3Q3SkJJNEpwNVJUQVZLb3BDWllqY093QUtsb2VLQ1VVNXYyelp1SHBfRWdxeko0dV95U1U4N0I5dnRSTkM3b1U3ZndXZ1ZyMW5nT3BuSkVaNkpTOXd4dDZxb3lheUlhXzZJT0pGa2V6dWxwYTRzMXlDcGR3UGRQOGZ0VV9zdkJz?oc=5",
       "tickers": []
-    },
-    {
-      "id": "1411af4385ce",
-      "time": "2026-09-05T02:11:48.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics CEO Robert Barrow sells $721,732 in shares",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS1oxZHk2UUplMXBsU21TenNZSnRzVVEwTHZHeWllSlU5MXBjMXdvLTYwcUQ1UzRyR3VOeVg4R292TXVuaV9HZUxuRTY4Skstbml3LXFYVVlnWlZkZ3BIUXpLaGFlOW1jQjJ5Zkk1ZmZPQzdWcGtJNF9wdHM0Q1daOGdQUG5BdjBsaWRNc3FUU3NZVjNmZ3pvTXZFY25oU0ljMWtBSDcxSDhDaUNpdWF3NDhjMU5xNzlKLXZIQUViS29pR1ZtQVE?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     }
   ]
 }
