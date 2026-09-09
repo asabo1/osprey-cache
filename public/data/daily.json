@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-09T11:38:39.022Z",
+  "updated": "2026-09-09T15:18:55.415Z",
   "latest": {
     "date": "2026-09-09",
-    "wti": 95.36,
+    "wti": 96.41,
     "wti_prev": 93.03,
-    "wti_delta": 2.33,
-    "brent": 100.77,
+    "wti_delta": 3.38,
+    "brent": 101.26,
     "brent_prev": 97.92,
-    "brent_delta": 2.85,
-    "spread": 5.41,
+    "brent_delta": 3.34,
+    "spread": 4.85,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,35 +160,40 @@
   },
   "intel": [
     {
-      "time": "11:25",
-      "severity": "WARN",
+      "time": "15:12",
+      "severity": "CRIT",
       "direction": "NEUTRAL",
-      "text": "Oil Prices Surge Amid Middle East Tensions",
-      "outlet": "Devdiscourse",
+      "text": "Greek-owned VLCC hit by drone in Iraqi waters",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-09-09T15:12:25.000Z",
+      "link": "https://splash247.com/greek-owned-vlcc-hit-by-drone-in-iraqi-waters/"
+    },
+    {
+      "time": "15:08",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates",
+      "outlet": "ktbs.com",
       "source": "Oil",
-      "date": "2026-09-09T11:25:01.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOVF0cTY5cmt1bjcyZW5idXNuU3FQWjlnSDhJTVNDdWJLbklFV0d2cWRKbmxJSmc4OVNpQjFFMS1ISHRrNjE4U0Zpb3BJQXY2MllsV3V6ZHJJcnU4MjAwQ1BqUTBxSEVIZ3RGM1c0QXMwMHZTMjVlUnZEcVRqdXh5bU9VNTlOam5QV19YcUxnbHVpOFVvYTItYlVYN0UxYTJhdXg0VWxpWktvQlXSAbABQVVfeXFMTmljTkhBV2pfY0wyeGFPSHFnb1lTU0RDTEthMlRxaE1GM29ta1VDMmUwN19ESm14S2Q4ejJoXzRQSHV4OUNjdHdsY1d0X1BYYl9qenpPdW00LVFFR25VSVUyT3F2UTNQdVZfcmZRNC1tMGFvWTZ4R3dkV2lUM3lSZTYtRjY4czhPcUQ0WUVXeUNLMDhwdXBJUzNJZ2U0bGE3QnRNSy1fUVh3cUF5YlVtb3g?oc=5",
-      "cluster_size": 8,
-      "cluster_id": "oil-prices-rise-six-week-highs",
+      "date": "2026-09-09T15:08:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVy0yckljb2ZBZmtGYXRaa2xlWXJNMFZWY2tBTi1EZDFOQ1loV3VlMzhJVG95bVMxbEhkQVFBZ3hWaExjemJUQnhhMGpyMVpkV0lsVWk4THI3QnIzUUcxcEg0TFlQTjRMdHFLYVV3ekE4OFdwVWxCSVFrV2wzMjlYZ1NDajJkZjhJd29IeXJkczBNSGlPX0JWaDVuaXpkR3RORzY5QVpJYl82UEhEVGdtNkwzZWlUTE1mdnBpMklDNUhGeXhXREtDeU1faTRGNjZUWERBSHE1QXZGV3FMSXoyeVdOdVB0SEp5RXAxeDl6d1ZQQQ?oc=5",
+      "cluster_size": 6,
+      "cluster_id": "stocks-fall-wall-street-oil-prices",
       "first": {
-        "outlet": "Reuters",
-        "date": "2026-09-08T00:57:12.000Z"
+        "outlet": "U.S. News & World Report",
+        "date": "2026-09-09T04:18:00.000Z"
       },
       "also": [
         {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
-          "date": "2026-09-08T00:57:12.000Z"
+          "outlet": "U.S. News & World Report",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY2IyR3BtQnNDRTVYcHIwMDdBRU5FSWtQOWZhOHZiTGNYWDZORWdFQUthZGFfS3IzekE2a1MzUDJsOTJ6Zkg4RnpwU3A2UV9hUFBETnBDdHJIOEg5cWdoXzF0U01aV1dfUlJJTWJoR0xoM1RNVWhQRExSUHdQX2NWcGVwM0F3VGVLRVJjdzVLRm5kdW5aeUdaNS10VFFwbGZsRkxWX0w3aU1GMG5SLUlROXlUM2ZUVjYxTUE?oc=5",
+          "date": "2026-09-09T04:18:00.000Z"
         },
         {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
-          "date": "2026-09-08T00:57:12.000Z"
-        },
-        {
-          "outlet": "Rigzone",
-          "link": "https://www.rigzone.com/news/oil_prices_hit_3month_highs-08-sep-2026-184562-article/?rss=true",
-          "date": "2026-09-08T11:34:16.000Z"
+          "outlet": "www.israelhayom.com",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc3pXT043elBXaXBnWmxWLVgxYllZUUtiZFpSQnFsVkY4QURHS3VpOE43QkVPNzNnQVpNMDlyQndjLTJSMTI4Q1VNYndZZlZjOER3WjBuZzRkem50a19mNWFMZjVvQUVKV3ZTaFhaVzAzSEZqcU5NQjluOUJlc3FfcXNoZGFMUQ?oc=5",
+          "date": "2026-09-09T06:29:09.000Z"
         },
         {
           "outlet": "The Guardian",
@@ -196,233 +201,255 @@
           "date": "2026-09-09T07:28:00.000Z"
         },
         {
-          "outlet": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaHNCdG5udTk5WkFZT1g1Ml9kXy1zc1Myc0N0aVAtUHQwTlU3ZEVwZVE3X3oxb2YyWnZoaWhqZUN0T0JDbTVLaFlwRzc0a2ttYmJud3dSblgxN280UU9fNS1JaGlnb1VOT2EzblI1SmRGdk9OeFBBX3huYWZlSHlFV1ExdHo?oc=5",
-          "date": "2026-09-09T07:51:42.000Z"
+          "outlet": "The Killeen Daily Herald",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTVNzZFhjS3YtcjJfeHNUYUJZWUI2RVlHcVZyLTJTa1lNYlZvV2p0anR5LXJrdEZKYzd4NGQ0alpMQU5XaDI4WnBuemhXZkEwSWxJeTJPWU5HVDdsLW9CemEyNUdnWjhybjA1WkFZTVZqTVFuMzJVSTloS0NSVHNOaW9kUnBxTTQ0VkhpZ1NqUGtDMWdsMXBQVUQ2Q2thQ2FrazdSSFJWM0FMX0FYR1VSbHJEN0ppQmVjMXU1Q3VjRFlFRGpwcmc1a2JOaDFibDJxYjVfcnhNdUtHcTZhRW53NGUtaGJMdjJQdFlv?oc=5",
+          "date": "2026-09-09T14:00:39.000Z"
         },
         {
-          "outlet": "CNN",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXLWc4eEZvbUdHMW5zVjhTcTJFYUZpNEFGS3h2TkZmZGw1ODN3M0JXc0x0d3lXUklDbU1xaWFLZWZraWtXRWRiTkZJUk1NUFJTSDNMV25HSXRXd09kSlFYNzREb3F0Z1Uy?oc=5",
-          "date": "2026-09-09T08:14:16.000Z"
-        },
-        {
-          "outlet": "www.israelhayom.com",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc3pXT043elBXaXBnWmxWLVgxYllZUUtiZFpSQnFsVkY4QURHS3VpOE43QkVPNzNnQVpNMDlyQndjLTJSMTI4Q1VNYndZZlZjOER3WjBuZzRkem50a19mNWFMZjVvQUVKV3ZTaFhaVzAzSEZqcU5NQjluOUJlc3FfcXNoZGFMUQ?oc=5",
-          "date": "2026-09-09T10:30:49.000Z"
+          "outlet": "Boston Herald",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIMVBkeWRvcFVlY3dJdlc0SWdDYmJxZnFINGxTNEFMMHkxZDhMa2hSNi1YdUE4cFVXNkRfaHFObU1nQ2lZSGtqZFFnYW9SSzZVUk8wSWo1Uk5ybjBMWU5ENE50Wlp5ek1BX1NlMnNR?oc=5",
+          "date": "2026-09-09T14:30:39.000Z"
         }
       ]
     },
     {
-      "time": "11:24",
+      "time": "15:04",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "COMMENTARY: Oil prices fly blind as the Hormuz enigma deepens",
+      "outlet": "Reuters",
+      "source": "Oil",
+      "date": "2026-09-09T15:04:58.000Z",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHRWamh0dmRPM3B6NjlrWE5YbnVtMGxDVll0ZGdKalVwOXh2QzMyUmtmR0R6UWg1Sk4xRjV0MVlwb0c2bzJKYWwxVUU2VmszZnpYd2NSQ2U2OXRNZkgzZVc1N3Zaa05IV0hKX3pKSlM0d0JoUnFFdVlXUTE2dXdMaHZhdDdrd1RHcm5tTzlUaFI0VDBxMzNINkw2eEVSREowcmJaOTIzSlQ5ZHBzU3lScg?oc=5",
+      "cluster_size": 3,
+      "cluster_id": "commentary-oil-prices-fly-blind-hormuz",
+      "first": {
+        "outlet": "Reuters",
+        "date": "2026-09-09T15:04:58.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHRWamh0dmRPM3B6NjlrWE5YbnVtMGxDVll0ZGdKalVwOXh2QzMyUmtmR0R6UWg1Sk4xRjV0MVlwb0c2bzJKYWwxVUU2VmszZnpYd2NSQ2U2OXRNZkgzZVc1N3Zaa05IV0hKX3pKSlM0d0JoUnFFdVlXUTE2dXdMaHZhdDdrd1RHcm5tTzlUaFI0VDBxMzNINkw2eEVSREowcmJaOTIzSlQ5ZHBzU3lScg?oc=5",
+          "date": "2026-09-09T15:04:58.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHRWamh0dmRPM3B6NjlrWE5YbnVtMGxDVll0ZGdKalVwOXh2QzMyUmtmR0R6UWg1Sk4xRjV0MVlwb0c2bzJKYWwxVUU2VmszZnpYd2NSQ2U2OXRNZkgzZVc1N3Zaa05IV0hKX3pKSlM0d0JoUnFFdVlXUTE2dXdMaHZhdDdrd1RHcm5tTzlUaFI0VDBxMzNINkw2eEVSREowcmJaOTIzSlQ5ZHBzU3lScg?oc=5",
+          "date": "2026-09-09T15:04:58.000Z"
+        }
+      ]
+    },
+    {
+      "time": "14:58",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "One third of Gulf oil is still missing despite 'dark crossings', data shows",
+      "outlet": "Reuters",
+      "source": "Hormuz",
+      "date": "2026-09-09T14:58:09.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeHRKeTZua1NSdzMyanlSSGlkMXg0eWIxZmRWVlFxUWdSQmFrc2dsb2l5WTB2a0JGemdFY1hUeUFOSlFpYWUtSGNNWG1YbXNYa29KU0gzVlVFTUZmS0RsX3hCNlRwT0wxS3JqR085MTNyeU40czBWNUFtMEtiaXMwYmxieWt4NXJDeFpGT3RrVXRSdk9PSy1wSUZDUkhaVlBWNXBJTmdEMk9NRkN3dXJ1ajB2cFZGYnc5WWowX2Nn?oc=5"
+    },
+    {
+      "time": "14:57",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Brent crude oil tops $100. Here's what that means for U.S. oil prices",
+      "outlet": "WPTZ",
+      "source": "Hormuz",
+      "date": "2026-09-09T14:57:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZjViel8zV1RhRVZJTXdkQzNDdkowLXNaZ2JRYktRTy1PYzBrY25zbWg3bDZpSDU4endlVEsxNFdJTmtVN0pMQWJvbFVhWDM2TFhjeHJ1ZktmeHRrVzdHaHpsSWRJR0Nkek9ZZ3p5WUxscXdpUzRxbldVY0dib2lTODZlMA?oc=5",
+      "cluster_size": 12,
+      "cluster_id": "brent-crude-oil-tops-$100-here",
+      "first": {
+        "outlet": "WCVB",
+        "date": "2026-09-09T14:57:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "WCVB",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTUJ3S2t4cjdaTzQ0X3VEZ3BBdldBZU5MbjZmQTNsNmh0MkdQT0xkWGZPYUtKT1NLQk11b2haS0g2WWRuTkN1cDh0NFNxRVk0dk9GTVZTUlo4R1BBell1b3RhZTdyVlFmRUg5eHlYN000U0FVazNBY280R2IyTGtKZw?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "KCRA",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRDRHRm95Qm44d0lDOFJNbWMycmlicW8yLVhCS1VjU0xPZU4wc2hzTFFFVUl3TG42cm9NY1lTTXJid2p5WVJ4cGg0dWJ4UlNOcmRpUGZvTUJoanpZY3IzQzVFOWxveHBCR3ZuUnFCbDlBYnFhaVExX19Za21vaDY2Zw?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "wdsu.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVTdLVk1BNE1LR2RZZ1UtUTFJS1RzQjdIVW02WEFfY0hkV1hSUUp1UzNtX0I3MmFVd3RGbGdHczhUOGZXTFBLUUUxTW5RanlMX2RoRF9Fb2ZsX3NEbVhha0ZrNWQ0amRSOUFtVHJtc3MxNEVfYi1STDBoQkw4dFZHcA?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "KMBC",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdlZHSFBZNkNXZUN4T3ZRUHM2NHR6d0N0TUE1UlZRMlI0cW1qLW1FTzZrelVubWVLMVc2VkhPdXlybmdCTDVWbjZSSkd4UVpwWUZ4V3ZtUWxoSTF4UHR2WERGMy1HMWN5bW1lNFJDZmgtR3dhVHhZT3JkbGVydlFGWQ?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "WESH",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOW5tbUxtNG1xcDJjSFEyY2ozUjBNei1jbEs0bWhEeFk4VmFHZTItSU1EcW9VV25pQ05vNjduQTlCS0JJaVJWdTV1S1pnZG0tZkoyWm9FVWRNanFYMzFseXBmYUZMY3VBVkdYeHNYM3dvNXhuUzlEamlkWVZvbklpaA?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "wxii12.com",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZGEwSFBBVXZZZ00wb2VZazV2WGU5TTBDMTN1VThEcnh0b1djZDZFTmxIS3J4V3g5djdIV0Q4dEltVWZmcURWVzZyOEVOaDBYUk84MU9IQ0FDUkxzY3F0UFVPdzYxUU5DSmFWdUQ1R0hweXY4UmJIWlBRbDJpcUVUX0ZrTQ?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "WTAE",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVU9WRjNIaFhfZDk1aTBqSnVGTGlNWk13eVIwOUpWSnJkZHBNR0tlNFVlTUZVWEZlRC1hUVYxeEZ6bjUwM2NTY3JnREI1ZnZBTjRfdFRYOUFFMDV0MVp0eVBVQ1VvSGdjeDZSMVRLbDlScS14RGp3N3JicGtTejEyOQ?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "WMTW",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZllTbVhDTzZ3aEN5MkdTdXRxOXNlSGdINElvVnhYNm1wV1FVcF96OXN5b2FSSXJheDNVdTVLVXFvM1pnNVhjX1ZVZFdGNkRJNnFwZi02YUlrRDlMSUJRd1B2LXNJZkNUNE5JdG5pZC1SZDlvTUtlY0w1RlBqQ3VMcQ?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "WGAL",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdW1IaU10bFN6NmdIQWdSaGlyVWVzSmZFWXFlbHMxTmdzdjRONzFOSDNFOWh6LU5QLW15Rks3VVY1T0hmU0UtcTRTME9ZSmc4dGx3X2YtQUw5LXR5NURlVkZid09SUXZFLWgzam82X1dkX01jdXFrcG1RR3ZtWmtNdw?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "KSBW",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQVJpNWN0clJzWV8xVFZDb3dzNW0yMDNGMHRVMXBIVzBHemEzRUZlcGJzRWI2aUpqWkxrTmpJUm4xWWRyM0pQb3lOekFCbjduNTI3cExHa1V1N21GbXdFaG1BZWN6MGdrNlkxR2hhakZFbzhfR3pGY3JZc2g5TWtFdg?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        },
+        {
+          "outlet": "WAPT",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPczg4WVVaU0R3TkhBSW42MEhJYXF1WXYxdFlFUzhHWjVoVGdWWHl2Q2doNUdRTVZpX2tycWxNakR6WUk1WldYT3Y4UjNYR1J6OHZqcDlyZmJOOGdSYU1xQm5FTi1pOFdiZ0x5M1VuV0pQZTlUMG1JeHExNmxMOW51WQ?oc=5",
+          "date": "2026-09-09T14:57:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "14:48",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "USA Oil, Gas Workforce Figures Buck Trend",
+      "outlet": null,
+      "source": "Rigzone",
+      "date": "2026-09-09T14:48:55.000Z",
+      "link": "https://www.rigzone.com/news/usa_oil_gas_workforce_figures_buck_trend-09-sep-2026-184576-article/?rss=true"
+    },
+    {
+      "time": "14:44",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "South Africa Plans Oil-Refining Revival to Cut Import Dependence",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-09-09T14:44:16.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-09/south-africa-plans-oil-refining-revival-to-cut-import-dependence"
+    },
+    {
+      "time": "14:43",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Why Diesel Is On Track To Set A 2026 Price Record",
+      "outlet": "Forbes",
+      "source": "Oil",
+      "date": "2026-09-09T14:43:28.000Z",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ2RZSmRRaDFJRHZRLTE5MU5aYWt1TVljUW9mWGYxOUU5OVhhQjI5T3NBVUJaYTEzTEdzYU1Lci1tOGlNQ04wSnJ0UUtZSUo2RjZORHU4MlNtcW15REtBMXdBcVpfaTRIVFlsTWNOMV9vQXo2NjN5dWVxdXRiTm9DYzFBRG9PNkFaQW5LVS1CeU5lSThKZDFGb3JqRzBMaXM?oc=5"
+    },
+    {
+      "time": "14:43",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Oil rises past $100 a barrel after the latest wave of Middle East attacks",
+      "outlet": "Los Angeles Times",
+      "source": "Oil",
+      "date": "2026-09-09T14:43:27.000Z",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS2d4X3p0dXVKalVQbDE0c0ZyTmVUbnJZazkwMUU1ZXhvWjdxY1hOTXZub1pDVHNEaFpOWmczU19DZEs4NEo2ZE1VdnhxbklCQ2l6TzJHZjJuNTdFeE5sQWZEOC1sZVFaNHJtSFdCM1dXTnZjVWdBWGhjOWFDMmRheFJTNEROMFZzLTF1XzV0cGZRaHVYZW1wNlVQUHpoUFBtcXBuSnB0TlIzdXJRRmd1X29XdVhXalk?oc=5",
+      "cluster_size": 5,
+      "cluster_id": "oil-rises-past-us$100-barrel-latest",
+      "first": {
+        "outlet": "BNN Bloomberg",
+        "date": "2026-09-09T11:12:17.000Z"
+      },
+      "also": [
+        {
+          "outlet": "BNN Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZWJfM2RTLThtR2ZjWGkzZHotcTI4dWxYVmgwVjJtMmVyQWkxb19iT01McHA5OC1qVzNOTnZwSUIxMWJ2V3NjT0NsSGgyTHMwODRheUtSdnNUY0RBeHRheFBzUkl5ZkloYmlTN1poOFJBdG1QbmQzZ3dyMEhEbnVmNjhXQVlDZkplM0I3LVRsYkVpS2FfVXFEbzQtN3RDaTFRaHBFZDRadENmcWs4Ml9NSDRnaXhTamtja1ZGOW1vWWVoTVlR?oc=5",
+          "date": "2026-09-09T11:12:17.000Z"
+        },
+        {
+          "outlet": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaHNCdG5udTk5WkFZT1g1Ml9kXy1zc1Myc0N0aVAtUHQwTlU3ZEVwZVE3X3oxb2YyWnZoaWhqZUN0T0JDbTVLaFlwRzc0a2ttYmJud3dSblgxN280UU9fNS1JaGlnb1VOT2EzblI1SmRGdk9OeFBBX3huYWZlSHlFV1ExdHo?oc=5",
+          "date": "2026-09-09T12:15:01.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
+          "date": "2026-09-09T13:54:20.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
+          "date": "2026-09-09T13:54:20.000Z"
+        }
+      ]
+    },
+    {
+      "time": "14:41",
       "severity": "CRIT",
       "direction": "NEUTRAL",
       "text": "Iran-US war latest: US says submarine drone ‘malfunctioned’ after Tehran celebrates capture of unmanned vessel",
       "outlet": "The Independent",
       "source": "Hormuz",
-      "date": "2026-09-09T11:24:59.000Z",
+      "date": "2026-09-09T14:41:04.000Z",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOTBieWRtMWFnMGZtaGJDcEk1bmxsVHhEdU1KTmJwT2NwVUNZdWZ0OEFaaGNKMzVKS0dNUC1PU0dJdW9EcUw0ZVdvXy00cHJoaUxIclRKRXR4WF9kUE9PUllWbGxMZlBqc1VyY19oZWpwampzTmllTmpab3g0ODFQd3hHQ3RLSGs3TnpmVGJxdkpPSlE5M1NVV1EzNDBLRGtjSlBxX2pxbWVneTYteXlqRjFHMEdVTFBrTFJ3djNjbFBlbk50bXdkbGxjUTNkR1k2RFJDYlBEVlFkeUU?oc=5"
     },
     {
-      "time": "11:20",
+      "time": "14:39",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Economic cracks showing as Strait of Hormuz chaos sends oil price soaring",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-09-09T11:20:35.000Z",
-      "link": "https://www.tradewindsnews.com/tankers/economic-cracks-showing-as-strait-of-hormuz-chaos-sends-oil-price-soaring/2-1-2041064"
+      "text": "Why Did US Crude Oil Prices Rise 4.93% in Early September 2026?",
+      "outlet": "ChemAnalyst",
+      "source": "Oil",
+      "date": "2026-09-09T14:39:28.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb0xBYmpjT0toOHRrSV96S2hoVUpjeUpjSWExUTdTTm5JdVNvc2tpdDd3SkNMZTMzR3hNZjh0QjM4ZEw2emxVNWtrZXdzdUV2dDBhV2dMZFJZcVpRZ0oteG8xUE5IVnRWX29FQnVaanVNSVYtQzk0cUxpNURoUzB0amZHUXdtdWJld2JHSks4eG5MeFYzeEpBdlpFSERpN3hWaGxERklkd18?oc=5"
     },
     {
-      "time": "11:08",
+      "time": "14:27",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Sapphire Expands Southwest Presence into LNG Production",
+      "outlet": null,
+      "source": "Rigzone",
+      "date": "2026-09-09T14:27:50.000Z",
+      "link": "https://www.rigzone.com/news/sapphire_expands_southwest_presence_into_lng_production-09-sep-2026-184574-article/?rss=true"
+    },
+    {
+      "time": "14:06",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Key oil benchmark tops $100 a barrel for first time since July, as midterms loom",
+      "outlet": "Politico",
+      "source": "Oil",
+      "date": "2026-09-09T14:06:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS2lnQ0FmZWJuR3lOdHNHQzQ0ZjduekNOOFNleG83RlJQN0FHNmxZakpNT3VkT1l2UHB2SG96ank0QjhJRnpSRWRvT01UYlJUWTBwLVZZcERpc0VGeVJqeVpKWnpWWHp3eTdGOXJCQ0V0a1dpR2xDRmxQbGJOOHpXa1cwaFZ2aDA?oc=5"
+    },
+    {
+      "time": "14:03",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Today's Mortgage Rates Keep Rising as Oil Hits $100 a Barrel: Sept. 9, 2026 - U.S. News",
+      "outlet": "Money",
+      "source": "Oil",
+      "date": "2026-09-09T14:03:09.000Z",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQU1mR1hNRmVxNkN4WERKUy11TG13WGdsNktfY2dGaDZxeVJ2b2UyOE95NG00RjdvM0ZMdnlWQUNzbkI4NUdRMmJKYnlfM2JsTHpucll4bG5RekVoaU9vaWl2NGR4eWtSYkh5LTlRanhiWnVwNkM2SFI1X3N3UThqdnRnVjlvZU8zVWtXRVYwel8?oc=5"
+    },
+    {
+      "time": "14:00",
       "severity": "WARN",
       "direction": "NEUTRAL",
-      "text": "Iran Signals Readiness to Escalate Fight in Face of Rising U.S. Pressure",
-      "outlet": "The New York Times",
-      "source": "Hormuz",
-      "date": "2026-09-09T11:08:45.000Z",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdW1lN2hjSFlvN24zcWNhcTlQNGUyb3pkQ3JwZTdIeGU3eTB1bGJaSncyM293ZWRGM0F4QlFoN01FeHFOUjZ6d1k1cHJ6ZGVPdlB5WDY5YTBPV1hYUWRMRVNXNi1aNjlaaG9EVG5NbTlEMS0wbER6X3ZaSWlUNGFtYTd5NWhZR2VwNjZBUTloOA?oc=5"
-    },
-    {
-      "time": "11:04",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "A history of oil price swings this century",
-      "outlet": "rte.ie",
-      "source": "Oil",
-      "date": "2026-09-09T11:04:11.000Z",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeXlxNW1rbkxJVlpfT1YyTkJoUFFHRmROTXlaMzUybkpfc0VnTDRqS2dRQkVOQVl1M01RcDhPRHVYM2ZFTnRCNlgwVDZETEZsdl9ONXJYSHBNVE5Nc29kNGl2RnNtVGNZeHEyVUVQNXdxSkw3ZE9ZU29VcHJ5aXo3OUJPR1dhdFBPVHRLOTJZZlpIMHBqVl91RWpR?oc=5"
-    },
-    {
-      "time": "11:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Current price of oil as of Sept. 9, 2026",
-      "outlet": "Fortune",
-      "source": "Oil",
-      "date": "2026-09-09T11:00:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1NlFmcFZ4SkE0ZXJjcng2RWNEX0dzdFFWZE80QWZGT2pFWWgwem5IemJONUNZNGlfLXRIQ3ZjWGo1QUhqMjFZa3ZVcGtXU053NUFhUWFLMnVLUXEzY1JTdVB3?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "current-price-oil-september-2026",
-      "first": {
-        "outlet": "Fortune",
-        "date": "2026-09-08T13:00:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Fortune",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55MmI1QXRVV2dSQm11MnRGdlluWmhDUmkxajVxakUtX3Y0djBFLWhnQmFwQ1cySWNpdmwyOURnUDNfbDRvNS0wV1daZDJQVS1SbzkwRlc0NlhHZnRBclF3dFpR?oc=5",
-          "date": "2026-09-08T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "10:51",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Brent crude rises above $100 a barrel as Middle East conflict intensifies",
-      "outlet": "Reuters",
-      "source": "Oil",
-      "date": "2026-09-09T10:51:59.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
-      "cluster_size": 3,
-      "cluster_id": "brent-crude-rises-above-$100-barrel",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-09-09T10:51:59.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
-          "date": "2026-09-09T10:51:59.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
-          "date": "2026-09-09T10:51:59.000Z"
-        }
-      ]
-    },
-    {
-      "time": "10:45",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Treasuries Weaken as Soaring Oil Prices Revive Rate Hike Worries",
+      "text": "Morgan Stanley's Mike Wilson Says We're Still in a Bull Market",
       "outlet": null,
       "source": "Bloomberg",
-      "date": "2026-09-09T10:45:43.000Z",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/treasuries-weaken-as-soaring-oil-prices-revive-rate-hike-worries"
-    },
-    {
-      "time": "10:43",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "China Oil Demand to Shrink This Year, Sinopec Research Arm Says",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-09-09T10:43:46.000Z",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/china-oil-demand-to-shrink-this-year-sinopec-research-arm-says",
-      "cluster_size": 4,
-      "cluster_id": "china-oil-demand-fall-2026-sinopec",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-09-09T05:29:00.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU2E1RzRlY1M2Q0pGbFFXTUhxVEJsMFRfVjhrVldkT2dESG9WclY0QnZ3blEzUTlveTUybXdCY0pWRWtob1dUbXVDU3FlZkdXdTI2UVdQcVdIUTBNUndWYVp1Z2lHcTducTZnMlBWd1FabXB5V0dKRUhCWkNnTFByczBQZzFoTzlUNFNYdE1wWFpPMjMwWGdweXZqRU1UZXF5R0VjV1lB?oc=5",
-          "date": "2026-09-09T05:29:00.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU2E1RzRlY1M2Q0pGbFFXTUhxVEJsMFRfVjhrVldkT2dESG9WclY0QnZ3blEzUTlveTUybXdCY0pWRWtob1dUbXVDU3FlZkdXdTI2UVdQcVdIUTBNUndWYVp1Z2lHcTducTZnMlBWd1FabXB5V0dKRUhCWkNnTFByczBQZzFoTzlUNFNYdE1wWFpPMjMwWGdweXZqRU1UZXF5R0VjV1lB?oc=5",
-          "date": "2026-09-09T05:29:00.000Z"
-        },
-        {
-          "outlet": "Oil",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSzRQVXp3d1BubERrYlRsZFdQd1Q0RzRPbERZMG9IUFE2TElBUVdyOUxuNW5UdENGcFBtZ0ZPQnU0enphdmhKYmNDeXhNQ1lEQW1jaVItX2lIX0tYTXlVeHZsYlIzbnRuV09mUXRkdmlOUl9taFM3SnZNbjY4cmtlaExjTWdJT05mV1lRN0wtT2hSdEE1dkZjdjIyRTdxZHBlYU5NaXFTaE1xR1lvTEVpZlZiOA?oc=5",
-          "date": "2026-09-09T09:14:36.000Z"
-        }
-      ]
-    },
-    {
-      "time": "10:43",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Stock Market Today (Sept. 9, 2026): Nasdaq futures fall as U.S.-Iran tensions boost oil prices",
-      "outlet": "thestreet.com",
-      "source": "Oil",
-      "date": "2026-09-09T10:43:13.000Z",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd2NERm5YS0JBZjJRNjlFMjgwNnJKbXZYQ2R4UnlZWTV6T3hna3JrTW9pV1ltbC03QkZwUXlqRnpDcGtHaXc1Q1VIcWpicnVMRFd5RzJFNGl1UmJEQnBzOV9jMno2ZGlYdnJ5WldCblVtM1pFRTFidlpfZjFZTDZTSXFHX2dncl9yN0dScHVLWjFWSTFsbXlBdVAxWk9CQ3ZEV3l6UDZpNFlSSGpI?oc=5"
-    },
-    {
-      "time": "10:41",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Oil Tops $100 as US-Iran Conflict Escalates | The Pulse 9/9/2026",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-09-09T10:41:56.000Z",
-      "link": "https://www.bloomberg.com/news/videos/2026-09-09/the-pulse-9-9-2026-video"
-    },
-    {
-      "time": "10:41",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Gold price today, Wednesday, September 9, 2026: Gold prices drop following U.S. strikes on five Iranian oil tankers",
-      "outlet": "Yahoo Finance",
-      "source": "Oil",
-      "date": "2026-09-09T10:41:23.000Z",
-      "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPQ044TTFqYzdjN01rSFJyS3RMSHRkWFlFS1lvcVpQMjJLYWU0eUFOdkw3T0xhNElaaDl3dWVITXExQkxZRnR0RWZLWExpdDVSRmZRWkJ0VlRaOUZNekhwMHBJQnhIQk1hVzVxQmh6NzloVmlmQzJuTUFaZWFZX2tTajNQM3ZrU3ExMFFvdnhNUWVPdjUxVGRObDRHUmJfRUx3SDNobV9qNG1LdTFnOENYcy1vT1psVHdpMU5SSVhkUzZBWXNoVjB6WkVtOFlFUWg1WWJMemdZaU5UOWJ5dGZPd1RqbWloM2I4QllORElzY2l3Ym5QV1RYMUxiRDVpVE85Z0NjVXQwN25ZelZZeGJCU2hWQQ?oc=5"
-    },
-    {
-      "time": "10:35",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "US achieves 'extraordinary tactical success' de-mining the Strait of Hormuz",
-      "outlet": "Fox News",
-      "source": "Hormuz",
-      "date": "2026-09-09T10:35:32.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3UG9za0pCeXVuRl93Zlk5cjl6NDQyQ01uZU1vSUNreFd4bUJ2YURubjhWR1Q0WmdfNnRtaEJRdTlIbWpPRlpRTUpaclRDaVZvazFZLXFB?oc=5"
-    },
-    {
-      "time": "10:34",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Dangote Refinery Cuts Debt to $5.7 Billion Ahead of Record IPO",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-09-09T10:34:54.000Z",
-      "link": "https://www.bloomberg.com/news/articles/2026-09-09/dangote-refinery-cuts-debt-to-5-7-billion-ahead-of-record-ipo"
-    },
-    {
-      "time": "10:22",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Could Strait of Hormuz Uncertainty Push Oil Prices Above $100 a Barrel?",
-      "outlet": "Modern Diplomacy",
-      "source": "Hormuz",
-      "date": "2026-09-09T10:22:24.000Z",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdC1MX01kcUFWQ1llQkFnWXB3Zng5clQ2a2NwM1VfOURNSTRINnJMaW4td2dnSUc1MnlYVllBTmRCc2RRcWx3dXBHRUdaZzFhampCMXYxNUxnQldVM2ZTaWI4Y3duN1BlY0c2Q0ZiOUtmX1VLZ2xKSmNzTG1xQ09iZXhza3ZOczdVT09wWl9KUGhlWlRVMmgzbXlPOFNkUWNHOUNtWU9Tb09ObGRO?oc=5",
-      "cluster_size": 3,
-      "cluster_id": "oil-jumps-above-$100-barrel-us",
-      "first": {
-        "outlet": "Business Insider",
-        "date": "2026-09-09T08:39:45.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Business Insider",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNam1rUXJ0N2lkcmRfVUJmQlltQkRmREV6bmUyaFV5NE1IYWptSGRWamFNcXFPZmwyelUyVDJ0MEJTYlRWS3hfUEFQZXhEVHhGUHFjVEliQlh5cDZSTnNpd3E4Mm5CMUJMUmVfb1J4OER3Z2tOa3BrQjJIcDdmeGx5djZuYkhWZElkeUxDVVlsdVl1aUJtWkZHaVFYYw?oc=5",
-          "date": "2026-09-09T08:39:45.000Z"
-        },
-        {
-          "outlet": "The Independent",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZGw5U25IWHd2V0dQQkw4M21ZTmdhTm9jd0FOYzBwdWNoajVfdllLVVBHb0E0ZVh0VmNHeDBIQk5Wb1lnQUJOajFrQ3l0YnpkaGFCUFZCbl9Dak9MSDI2LVBlUl9VZkZoSk9xam14dFhwVGhGYUtPQUtEeTRXVmdmLW5TcWM2cU9YS0JwekY3OE94bTF0NTJNaA?oc=5",
-          "date": "2026-09-09T08:41:00.000Z"
-        }
-      ]
+      "date": "2026-09-09T14:00:57.000Z",
+      "link": "https://www.bloomberg.com/news/videos/2026-09-09/mike-wilson-says-we-re-still-in-a-bull-market-video"
     }
   ],
   "snapshots": [
@@ -1518,8 +1545,80 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-09-09T11:38:39.022Z",
+  "intel_updated": "2026-09-09T15:18:55.415Z",
   "event_log": [
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T13:56:11.000Z",
+      "severity": "CRIT",
+      "text": "Oil pushes past $100 as wave of US-Iran attacks exposes dwindling safety net",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWk83eHNVQXFWUEdoZGxYdmRpdnhuMFFKM3JfMkRRNDMxWmM0c1JPVmpkRWhQVVBvX0VLdjlhZ296NHpDVDdUNS0xZl9jRXJEeWZ1N1ZWSnZGUjVueEc2MzdjNTAwUTNlUFEtZWZ5el9Jc3dBYjJzVzN6R080aFJLLVlYWEVqUTU0WHRGX1hMSXQ3cnFpaVNHeHM3enRkYjZDcEUyb0Vic1JhMExzU1BCZVBvZlh2dExCZ3dRTVBlNWxNZw?oc=5",
+      "auto": true
+    },
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T13:38:18.000Z",
+      "severity": "CRIT",
+      "text": "Iran attacks US forces in Jordan as Strait of Hormuz tensions escalate",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaHFQTFZXeWUxY1pLVjU1ZXlkS3VqcE1iYW94VzlVcDRnOHRpcFJhUUJ6V3ZsVFpGbGpmckVwQkhxNUxuS3lleHd0aE4yVVUwaWh3c3pldnpIdjI3Y0hyWkkxVi12WmZzek96Q0o1NFFMamQ5RERPSnZCZ0hRMnprU0VR?oc=5",
+      "auto": true
+    },
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T13:35:58.000Z",
+      "severity": "CRIT",
+      "text": "Oil tanker hit in Iraqi waters, as vessels get caught in US-Iran attacks",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNckd4WVFmZEhoNEFkVzRzdE9JMVJ2QVUwMmk3MDRuUTA3NHc3N0xrY2VLZl9GY2Q2WU1ybzBodjhINEQwaV9GQmpKS3FSdXpSY3B3M0VUY3V6NUJvSU1zR1NPYmpLMUtvN3ZrYlZEVlZVNmhZTWZhdnhpM2dEaEZJZzBlbDN3cE42cXNsbDdnYmNkT3ROZTVzVjdBZUJ0NjRCYW4tQUdQQk5NNTV4NFIw?oc=5",
+      "auto": true
+    },
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T12:48:56.000Z",
+      "severity": "CRIT",
+      "text": "Iran war drives oil prices to $100 per barrel as Tehran strikes ships",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNelJtZjM0dGdMS3NqMEZvRHNVbGtqSUhlVzV2VnVLckVqS2RwVmJSSmZTdHByR2xRc0RFWWVJR3BDelpjb0ZOX0ZIdDBESG1pN1lGeDVwYVRzdk9RcTFtSk9nUHA5dFhfWERZN0E1X29LNDlxeGM4T251bnBVRGxWRks3Q0RHd201aklr?oc=5",
+      "auto": true
+    },
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T12:15:00.000Z",
+      "severity": "CRIT",
+      "text": "Iran live updates: CENTCOM denies IRGC claim of strikes on US destroyers - ABC News - Breaking News, Latest News and ...",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMEIteHN2VUVqdjV4c0hsVVloTHRMcnVkbnFlVXBLT1V4TWVJWThYX3NTQXJDdnBMakpFeWZiM1VVRDk2dnQxazh4UjhQcVhIT0x4UFZXb3FGQUJsSFZkRDFTZFVhVy05ODBEMXBBWFdMN2Y1Z2pGMUJmTXFlSUQyYzBGMURJRlkzV251WUxWbF90emhNb1B2ckdfTUV2N2xzT250bWMtbVV0ZGFjckwxetIBtgFBVV95cUxNR0dDT2ZaUTFySFpSQ3RqbFVYWXNkVzZIWTVnX0JvbVJ3Tnl2NG1UNDU5R3JDTXJacEliQ0Z6SzlnSWZ4MWxoaDVtdjhwMUNUSlJxcWp6bjZjN3lRdjhhdmtlcEZlNS1SNTRhYlRrY0pDTmNqTFJ5NmtDb1FMQVNqRVFfVTVPenJ0VzF2RzBEUkRWc1dURGdfQmxpVGljWWdWeENBTzN0YWhsWU1PTWpwZmdmX1dRQQ?oc=5",
+      "auto": true
+    },
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T12:05:35.000Z",
+      "severity": "CRIT",
+      "text": "New Shipping VLCC set alight in apparent Iranian retaliation for US tanker attacks",
+      "source": "Maritime",
+      "link": "https://www.tradewindsnews.com/tankers/new-shipping-vlcc-set-alight-in-apparent-iranian-retaliation-for-us-tanker-attacks/2-1-2041115",
+      "auto": true
+    },
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T12:03:00.000Z",
+      "severity": "CRIT",
+      "text": "Iran attacks vessels, US base in Jordan after tankers sunk",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZDlvNkxwRHppand2djA3MGlDR0JReU9haWF2RHlxMWNXWXptZjAwYmZ6WGxGaG5odHY1X3pYaUxhT3JaaXd6RkNDT1draUhmemlaY0xVOWE2ekxpQkdLSUZfZm5VclAxV2ptb3lUSGxfSFJCVGZLUF9QUVJydzNqSEZhTlZQX25uR3pHcUFUZm5ITFVWbmZNQVB4a0lRUdIBowFBVV95cUxPaTdLMkdhVDhrUWJxRHZ0MVZBazhHd0lPcEtPSUVVekE5S1ljSDlQVThpek5pQ2dFdDBMODdVTEx6NjExYk9kMFBfWG9XR0ROREhDNllWRE5qeGFmTTFWanJEeFJ4ZXNEYmZUQ0pqSVFhckJZbE9LNkZ4U3E4MmQzb0pJOV9oZG5lemlrNW5IdEdLZmZTMldWMVRtNndhcjdnU1BN?oc=5",
+      "auto": true
+    },
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T11:46:40.000Z",
+      "severity": "CRIT",
+      "text": "US strikes five Iranian oil tankers, as Iran attacks 10 ships, Jordan base",
+      "source": "Oil",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSVZkSGpmVEVQUWxwTVJzMktrLWQ1R0RESXZqbktnZlo3SmJGM0prNEs3dVg0UUp3WWlzQVdZaUdONHQwOWFwVFU0R19hbm1zZGIyVVFqWkJ3S2c2dEpQQUJ4SHd4VE52UXBwa2pHSGZjWFd3U0xQeTFLQVIzZFBQdS11Y1VoY3NzVGlsTF9WYTduYVVZaUhlV05ob3c0RWFWY3M2Q19zSnlYdkpOTW13LUZrdFpKclnSAbwBQVVfeXFMT3pFYTcwbEJBMkxXWEEya3hZRFhRbzV0dTg4SkFIay1nWkthZFlEY3pFTUNVMnhuRnpTdTZkSzcwT0tmNjBncmpaNzk1akNsUldnWEZkVXNrejB6UEUtMXRpTXhQbHVQYkRiSDZxclQ0S1BUdVc0d1lUT0FmNGdfdzVLLU80czBXSHIwSXJCT3lqTXBCc29qaE9KZk5xM3JjSXBCSm1XX0JEd0VqNjNnY19DMHo3S2M0aWZQWU8?oc=5",
+      "auto": true
+    },
     {
       "date": "SEP 09",
       "date_iso": "2026-09-09T10:41:23.000Z",
@@ -1554,6 +1653,15 @@
       "text": "Iran hits ships near Hormuz in retaliation for U.S. attacks on tankers as conflict escalates",
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsM2lvaHlZdnQ0ODU3NDNUcTV5TWtpNE14ai1HaDJ6YjZaOFV6NUpzN1lTYUdKaHhCdm1sYjVNRUlNcnFaY0pTclJwLUdLcGw1QWZ4VTE0YWE5RzZkbGpLMHBVdWFsaHQ5RlVMR1dvZ0NURkpzQ2VKeFhtRHo?oc=5",
+      "auto": true
+    },
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T09:17:28.000Z",
+      "severity": "CRIT",
+      "text": "Oil hits $100 a barrel as US launches new strikes on Iranian tankers",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS2NHekpqZjhhY1BVVVlYRjN1bWJfclpqLW5uVE5rd2ZBUHZQQTMtdFdaTlpzX1FCeUZaVnQ0aFdOc0pOVXZ4WU5OUzlXMFA3VUJ3Qi1DZ2NIMjBBTExPM0FfdFBWOG93Y3hqQjFuYmFoNXBlNVItNUJadE81TWJlTTZUWURFM0MyWF9QZGRHczM2aDYtVWw2ZVd5SFlqNnhDZTJUc2JHeDhZUkJIbjQxcm9lamRwa0tveXQ0eTV1MF9fdw?oc=5",
       "auto": true
     },
     {
@@ -1758,6 +1866,15 @@
       "date": "SEP 09",
       "date_iso": "2026-09-09T00:23:00.000Z",
       "severity": "CRIT",
+      "text": "Oil nears $100 as fresh Middle East strikes raise supply risks",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
+      "auto": true
+    },
+    {
+      "date": "SEP 09",
+      "date_iso": "2026-09-09T00:23:00.000Z",
+      "severity": "CRIT",
       "text": "Oil jumps $1 in early trade after Iran launches missiles at Jordan",
       "source": "Reuters",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
@@ -1879,103 +1996,13 @@
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92WjZjZEV5NnlTM1FXMF9ObzdZaDJobjNaNk9LazVNd0owSUE4YkhTYzh0cU5hYmk4cmFLV3RCYlBPYXJ2Z05ucHNSVEZWSFVxYjNmS0FWRmRkRWxVekM4SDFHWGtBZ3RIMHRnWFJBNEw?oc=5",
       "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T20:34:00.000Z",
-      "severity": "CRIT",
-      "text": "US says Iranian tankers ‘destroyed’ after missile attacks on American warship",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWmlqeDdsTWM5SmRhZE95ZmZVcVFrYkNYelVGTExQTGlnSFJvTGNuaURuV0o4MXFybUhRT3JfYWFVVDB4TnJOM3haOXhSdXBKVmNVaUlHSkhqSEZKbDF5RUxzYmhXc2JCLXlqRVNCYS1Eb2dTdmxwN2kxRkw2bzlmbEljdFRHYlE0dTJGRmJ6TQ?oc=5",
-      "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T20:21:00.000Z",
-      "severity": "CRIT",
-      "text": "Iran retaliates against US allies after its oil tankers destroyed",
-      "source": "Oil",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
-      "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T20:17:36.000Z",
-      "severity": "CRIT",
-      "text": "Brent Nears $100 on Mideast Strikes",
-      "source": "Rigzone",
-      "link": "https://www.rigzone.com/news/wire/brent_nears_100_on_mideast_strikes-08-sep-2026-184568-article/?rss=true",
-      "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T20:03:41.000Z",
-      "severity": "CRIT",
-      "text": "Explosions reported on Iran's key oil export island of Kharg",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR2tQTnBpaTVRTzdIT3VFTkNuUmFIWm9udWxycjczV085LWRNd0pnbkRTS2Iyb1AzQlE0STlONXVSVUFybjc1ZW1NY1pYT0dLRmlGb0lkOEZLM3JlbWUwSVVCOFY3OEVId0ljel90SDlwcTNneFBtc09MQ2pCSzdvX2ZDSFlSaTc5YjF0aGdFZFV6Tm5B?oc=5",
-      "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T19:43:51.000Z",
-      "severity": "CRIT",
-      "text": "Oil prices hit six-week high after Houthis attack Saudi sites",
-      "source": "Oil",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
-      "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T19:14:45.000Z",
-      "severity": "CRIT",
-      "text": "Iran says it hit American vessels, oil tankers in Hormuz in retaliation for U.S. strikes",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9uY0c0aHNlR2NIZ1hQWHRnUHVqUngzS0g0VHRmZWt0WWRJd0pvcjQyX25YMlBfd1JudzVyUEdTNHA3ZzFXMmNlMHBQd1FqRTdwSHg3VkVLdGNYNUJseFdWclJGUF9tQmgtVUR2azVrVdIBdEFVX3lxTFBjY0E0dzVIRXhqSlp4LTlJMXVKcDhPQ1Y3YlJ3VjhKWm1fLWdQMXZFM1NWYkhVd3hPMUZZQVRXeldQQ1VlcDBqUnEzeTJDY0hjRTZYUzdibmVpY3dJYVFlSVBRVGg2RENYWXpuNFRTU2VXNDdG?oc=5",
-      "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T17:33:23.000Z",
-      "severity": "CRIT",
-      "text": "Oil prices spike after Houthis strike Saudi oil facilities",
-      "source": "Oil",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQUVkc1diZ29tRWdGcWZEZ0VRY3FOM291dk83Z2dGVzdxc1RQUURQYjhUVEw0SnJlQkdRbFBMYUJ6X01qU21Fd1prdjlxRlZjaTB5eHptQWhDZkdOa0JNMnhGUmlKeEdteTdHU1p6cXVFWFdLZWkwdVZiR3ZwN2FTQW5tY3A4V2dsYXQyMl9WX0FnS1NuQjN3ajVYR01Ld3ZD?oc=5",
-      "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T17:18:15.000Z",
-      "severity": "CRIT",
-      "text": "Iran war latest: Arab and Gulf countries condemn 'malicious' Houthi attacks on Saudi Arabia",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWWZwYVd5ZkUwZE1QSU9VclpYam10NVFMZ194cDRqMEJ3YVZjTHp2NVpISkVFQ0k2R0wyeS1Gem9INUFObWN3TmUtZUFyZDRkUUJOVlFrb2xKODRvdTBMWi1abUUzVFFQZ25TMXVJalBoRXZ5QmhPdlJ1REpqYlBpalBfTnV5NHFYRUhlUjd1SVNHRW9WNHVqdVRYUQ?oc=5",
-      "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T17:04:57.000Z",
-      "severity": "CRIT",
-      "text": "Iran war: Tensions escalate as US strikes more oil tankers in Hormuz",
-      "source": "Maritime",
-      "link": "https://www.hellenicshippingnews.com/iran-war-tensions-escalate-as-us-strikes-more-oil-tankers-in-hormuz/",
-      "auto": true
-    },
-    {
-      "date": "SEP 08",
-      "date_iso": "2026-09-08T16:27:43.000Z",
-      "severity": "CRIT",
-      "text": "New risk for US consumers as Iran-backed attacks threaten a second major oil chokepoint",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVBXeUNDTjgybDZweUZkWjlwQlhkX2tNTkp5bEE2UFJVSk8wOF94ZGhVdFBjMnZQVTJUT21JczRFZUt0c19iakdNNGstU2Jtc2dMODZySkstblJLQXVzZG1NVk1HbVpETktJdkFtTXZQc2FQaGh6aUFUUENRSDJaZGRRcHFHX3RLRU85MWttWjNESTlZYXZYZTdiZmNRSlV3YUNoMnVVbnNCOVVXRnNPZm5NZDJPNl85SmlF0gHAAUFVX3lxTE83aE5JQ1dTa21UNmRYVmljckhRN0p1S292SWs5X3dfSjR1cmVyMVpheWF6S3hKUjdvaUZvd3ltWDFOaGRsdnBlbzRCMXd0LXZuU0hIcllWV1lMZU5pNTF3ZklsTVRvQ0pHRE5IVDQ2ZXUwZ2dISnRTbXF5Skd1NW9kbk5rd1VfbkZVTDd3R3ZQTE9EeGN3RGpDVmxfQURsbE01LUloMEd2RnFkTkkwYWF6aGFGODUtV3k1TkV2V1hhUA?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 1,
-    "bear": 1,
+    "bull": 2,
+    "bear": 0,
     "neutral": 13,
-    "net": "NEUTRAL"
+    "net": "LEAN BULL"
   },
   "vessels_attacked": {
     "count": 43,
@@ -2991,7 +3018,7 @@
     },
     {
       "t": 1788926400000,
-      "p": 100.77
+      "p": 101.26
     }
   ],
   "chart_wti": [
@@ -4001,7 +4028,7 @@
     },
     {
       "t": 1788926400000,
-      "p": 95.36
+      "p": 96.41
     }
   ],
   "signal_outlook": [
@@ -5038,7 +5065,7 @@
     },
     {
       "t": 1788926400000,
-      "p": 5.41
+      "p": 4.85
     }
   ],
   "chart_sp500": [
@@ -6045,9 +6072,13 @@
     {
       "t": 1788874200000,
       "p": 7673.52
+    },
+    {
+      "t": 1788960600000,
+      "p": 7634.39
     }
   ],
-  "latest_sp500": 7673.52,
+  "latest_sp500": 7634.39,
   "vesselCache": {},
   "synthesis": {
     "updated": "2026-07-30T19:46:28.788Z",
