@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10T09:14:19.353Z",
+ "updated": "2026-09-10T13:38:05.087Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 2,
@@ -102,12 +102,26 @@
    ]
   },
   "HELP": {
-   "buyFilings": 2,
+   "buyFilings": 4,
    "sellFilings": 0,
    "clusterBuyers": 2,
-   "buyShares": 185000,
+   "buyShares": 385000,
    "sellShares": 0,
    "latest": [
+    {
+     "date": "2026-09-04",
+     "owner": "So Eric H. L.",
+     "code": "P",
+     "shares": 100000,
+     "price": 12.089
+    },
+    {
+     "date": "2026-09-03",
+     "owner": "Glavine Paul",
+     "code": "P",
+     "shares": 100000,
+     "price": 11.7828
+    },
     {
      "date": "2026-09-01",
      "owner": "So Eric H. L.",
@@ -735,6 +749,32 @@
     }
    ],
    "filingDate": "2026-09-09"
+  },
+  "0000912282-26-001257": {
+   "ticker": "HELP",
+   "owner": "So Eric H. L.",
+   "txns": [
+    {
+     "code": "P",
+     "shares": 100000,
+     "price": 12.089,
+     "date": "2026-09-04"
+    }
+   ],
+   "filingDate": "2026-09-10"
+  },
+  "0000912282-26-001256": {
+   "ticker": "HELP",
+   "owner": "Glavine Paul",
+   "txns": [
+    {
+     "code": "P",
+     "shares": 100000,
+     "price": 11.7828,
+     "date": "2026-09-03"
+    }
+   ],
+   "filingDate": "2026-09-10"
   }
  }
 }
