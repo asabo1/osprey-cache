@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11T00:30:15.873Z",
+ "updated": "2026-09-11T05:05:45.891Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 2,
@@ -191,11 +191,18 @@
   },
   "NBIX": {
    "buyFilings": 0,
-   "sellFilings": 5,
+   "sellFilings": 6,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 40188,
+   "sellShares": 42342,
    "latest": [
+    {
+     "date": "2026-09-09",
+     "owner": "BENEVICH ERIC",
+     "code": "S",
+     "shares": 2154,
+     "price": 154.61
+    },
     {
      "date": "2026-07-28",
      "owner": "Norwalk Leslie V",
@@ -230,13 +237,6 @@
      "code": "S",
      "shares": 2737,
      "price": 178.543
-    },
-    {
-     "date": "2026-07-07",
-     "owner": "Delaet Ingrid",
-     "code": "S",
-     "shares": 3401,
-     "price": 178.5666
     }
    ]
   },
@@ -772,6 +772,19 @@
      "shares": 100000,
      "price": 11.7828,
      "date": "2026-09-03"
+    }
+   ],
+   "filingDate": "2026-09-10"
+  },
+  "0001643653-26-000016": {
+   "ticker": "NBIX",
+   "owner": "BENEVICH ERIC",
+   "txns": [
+    {
+     "code": "S",
+     "shares": 2154,
+     "price": 154.61,
+     "date": "2026-09-09"
     }
    ],
    "filingDate": "2026-09-10"
