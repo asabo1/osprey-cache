@@ -1,8 +1,8 @@
 {
- "updated": "2026-09-11T09:38:27.800Z",
+ "updated": "2026-09-11T13:53:22.648Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
- "totalClusterBuyers": 2,
+ "totalClusterBuyers": 4,
  "tickers": {
   "CMPS": {
    "buyFilings": 0,
@@ -102,12 +102,33 @@
    ]
   },
   "HELP": {
-   "buyFilings": 4,
+   "buyFilings": 7,
    "sellFilings": 0,
    "clusterBuyers": 2,
-   "buyShares": 385000,
+   "buyShares": 685000,
    "sellShares": 0,
    "latest": [
+    {
+     "date": "2026-09-08",
+     "owner": "Glavine Paul",
+     "code": "P",
+     "shares": 100000,
+     "price": 12.4719
+    },
+    {
+     "date": "2026-09-08",
+     "owner": "Glavine Paul",
+     "code": "P",
+     "shares": 100000,
+     "price": 12.4719
+    },
+    {
+     "date": "2026-09-08",
+     "owner": "So Eric H. L.",
+     "code": "P",
+     "shares": 100000,
+     "price": 12.3867
+    },
     {
      "date": "2026-09-04",
      "owner": "So Eric H. L.",
@@ -128,13 +149,6 @@
      "code": "P",
      "shares": 95000,
      "price": 11.805
-    },
-    {
-     "date": "2026-08-31",
-     "owner": "Glavine Paul",
-     "code": "P",
-     "shares": 90000,
-     "price": 11.5853
     }
    ]
   },
@@ -249,12 +263,41 @@
    "latest": []
   },
   "RLMD": {
-   "buyFilings": 0,
+   "buyFilings": 2,
    "sellFilings": 0,
-   "clusterBuyers": 0,
-   "buyShares": 0,
+   "clusterBuyers": 2,
+   "buyShares": 400000,
    "sellShares": 0,
-   "latest": []
+   "latest": [
+    {
+     "date": "2026-09-10",
+     "owner": "Shenouda Maged",
+     "code": "P",
+     "shares": 79800,
+     "price": 4.25
+    },
+    {
+     "date": "2026-09-10",
+     "owner": "TRAVERSA SERGIO",
+     "code": "P",
+     "shares": 100000,
+     "price": 4.1
+    },
+    {
+     "date": "2026-09-09",
+     "owner": "Shenouda Maged",
+     "code": "P",
+     "shares": 120200,
+     "price": 4.2
+    },
+    {
+     "date": "2026-09-09",
+     "owner": "TRAVERSA SERGIO",
+     "code": "P",
+     "shares": 100000,
+     "price": 4.18
+    }
+   ]
   }
  },
  "parsed": {
@@ -788,6 +831,83 @@
     }
    ],
    "filingDate": "2026-09-10"
+  },
+  "0000912282-26-001264": {
+   "ticker": "HELP",
+   "owner": "Glavine Paul",
+   "txns": [
+    {
+     "code": "P",
+     "shares": 100000,
+     "price": 12.4719,
+     "date": "2026-09-08"
+    }
+   ],
+   "filingDate": "2026-09-11"
+  },
+  "0000912282-26-001263": {
+   "ticker": "HELP",
+   "owner": "Glavine Paul",
+   "txns": [
+    {
+     "code": "P",
+     "shares": 100000,
+     "price": 12.4719,
+     "date": "2026-09-08"
+    }
+   ],
+   "filingDate": "2026-09-11"
+  },
+  "0000912282-26-001261": {
+   "ticker": "HELP",
+   "owner": "So Eric H. L.",
+   "txns": [
+    {
+     "code": "P",
+     "shares": 100000,
+     "price": 12.3867,
+     "date": "2026-09-08"
+    }
+   ],
+   "filingDate": "2026-09-11"
+  },
+  "0001213900-26-098970": {
+   "ticker": "RLMD",
+   "owner": "Shenouda Maged",
+   "txns": [
+    {
+     "code": "P",
+     "shares": 120200,
+     "price": 4.2,
+     "date": "2026-09-09"
+    },
+    {
+     "code": "P",
+     "shares": 79800,
+     "price": 4.25,
+     "date": "2026-09-10"
+    }
+   ],
+   "filingDate": "2026-09-11"
+  },
+  "0001213900-26-098969": {
+   "ticker": "RLMD",
+   "owner": "TRAVERSA SERGIO",
+   "txns": [
+    {
+     "code": "P",
+     "shares": 100000,
+     "price": 4.18,
+     "date": "2026-09-09"
+    },
+    {
+     "code": "P",
+     "shares": 100000,
+     "price": 4.1,
+     "date": "2026-09-10"
+    }
+   ],
+   "filingDate": "2026-09-11"
   }
  }
 }
