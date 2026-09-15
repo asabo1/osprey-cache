@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T20:29:16.032Z",
+ "updated": "2026-09-15T23:06:46.657Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 4,
@@ -205,11 +205,18 @@
   },
   "NBIX": {
    "buyFilings": 0,
-   "sellFilings": 6,
+   "sellFilings": 7,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 42342,
+   "sellShares": 43168,
    "latest": [
+    {
+     "date": "2026-09-14",
+     "owner": "Boyer David W.",
+     "code": "S",
+     "shares": 826,
+     "price": 157.4462
+    },
     {
      "date": "2026-09-09",
      "owner": "BENEVICH ERIC",
@@ -244,13 +251,6 @@
      "code": "S",
      "shares": 8433,
      "price": 178.7187
-    },
-    {
-     "date": "2026-07-08",
-     "owner": "Delaet Ingrid",
-     "code": "S",
-     "shares": 2737,
-     "price": 178.543
     }
    ]
   },
@@ -992,6 +992,61 @@
    "owner": "Barrow Robert",
    "txns": [],
    "filingDate": "2026-09-14"
+  },
+  "0001894425-26-000020": {
+   "ticker": "NBIX",
+   "owner": "Onyia Jude",
+   "txns": [],
+   "filingDate": "2026-09-15"
+  },
+  "0001504783-26-000019": {
+   "ticker": "NBIX",
+   "owner": "Lippoldt Darin",
+   "txns": [],
+   "filingDate": "2026-09-15"
+  },
+  "0001818524-26-000006": {
+   "ticker": "NBIX",
+   "owner": "Keswani Sanjay Chandru",
+   "txns": [],
+   "filingDate": "2026-09-15"
+  },
+  "0001201096-26-000018": {
+   "ticker": "NBIX",
+   "owner": "GORMAN KEVIN CHARLES",
+   "txns": [],
+   "filingDate": "2026-09-15"
+  },
+  "0001567160-26-000009": {
+   "ticker": "NBIX",
+   "owner": "Gano Kyle",
+   "txns": [],
+   "filingDate": "2026-09-15"
+  },
+  "0001965808-26-000015": {
+   "ticker": "NBIX",
+   "owner": "Delaet Ingrid",
+   "txns": [],
+   "filingDate": "2026-09-15"
+  },
+  "0001776977-26-000013": {
+   "ticker": "NBIX",
+   "owner": "Cooke Julie",
+   "txns": [],
+   "filingDate": "2026-09-15"
+  },
+  "0001909817-26-000010": {
+   "ticker": "NBIX",
+   "owner": "Boyer David W.",
+   "txns": [
+    {
+     "code": "S",
+     "shares": 826,
+     "price": 157.4462,
+     "date": "2026-09-14"
+    }
+   ],
+   "filingDate": "2026-09-15"
   }
  }
 }
