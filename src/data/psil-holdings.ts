@@ -1,5 +1,5 @@
 // PSIL holdings reference data. Replaced by GH Action fetch in production.
-// Last manual update: 2026-09-14 (sparklines auto-refreshed daily)
+// Last manual update: 2026-09-15 (sparklines auto-refreshed daily)
 
 export type Holding = {
   ticker: string;
@@ -34,7 +34,7 @@ export const HOLDINGS: Holding[] = [
   { ticker: "QNTM", company: "Quantum BioPharma", weight: 1.86, price: 1.10, dayPct: 9.5, spark: [0.00, 0.62, 1.00, 0.60, 0.20, 0.38, 0.34, 0.63], shortInterestPct: null, nextCatalyst: { label: "unbuzzd Lucid trial update", days: 80 }, category: "Pure-Play" },
   { ticker: "BTRT", company: "BlackRock Treasury Trust", weight: 1.65, price: 1.00, dayPct: 0.0, spark: [0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50, 0.50], shortInterestPct: null, nextCatalyst: null, category: "Cash" },
   { ticker: "SILO", company: "Silo Pharma", weight: 1.61, price: 1.84, dayPct: 14.8, spark: [1.00, 0.79, 0.53, 0.27, 0.22, 0.16, 0.01, 0.00], shortInterestPct: 12.4, nextCatalyst: { label: "SPC-15 PTSD Ph1", days: 120 }, category: "Pure-Play" },
-  { ticker: "VTGN", company: "Vistagen Therapeutics", weight: 0.76, price: 1.35, dayPct: 7.9, spark: [0.00, 1.00, 0.60, 0.00, 0.20, 0.00, 0.00, 0.06], shortInterestPct: 13.2, nextCatalyst: { label: "Fasedienol PALISADE-3 readout", days: 55 }, category: "Adjacent" },
+  { ticker: "VTGN", company: "Vistagen Therapeutics", weight: 0.76, price: 1.35, dayPct: 7.9, spark: [0.00, 1.00, 0.60, 0.00, 0.20, 0.00, 0.00, 0.00], shortInterestPct: 13.2, nextCatalyst: { label: "Fasedienol PALISADE-3 readout", days: 55 }, category: "Adjacent" },
   { ticker: "IXHL", company: "Incannex Healthcare", weight: 0.40, price: 0.34, dayPct: 6.2, spark: [0.00, 0.31, 0.49, 0.90, 1.00, 0.44, 0.46, 0.50], shortInterestPct: null, nextCatalyst: { label: "PSX-001 GAD Ph2 readout", days: 100 }, category: "Pure-Play" },
   { ticker: "NUMI", company: "Numinus Wellness", weight: 0.24, price: 0.18, dayPct: 8.5, spark: [0.87, 0.97, 1.00, 0.83, 0.69, 0.28, 0.06, 0.00], shortInterestPct: null, nextCatalyst: { label: "Ketamine clinic Q4 update", days: 75 }, category: "Pure-Play" },
   { ticker: "ENVB", company: "Enveric Biosciences", weight: 0.18, price: 1.62, dayPct: 11.7, spark: [1.00, 0.90, 0.82, 0.30, 0.00, 0.10, 0.25, 0.55], shortInterestPct: 16.8, nextCatalyst: { label: "EB-003 Ph1 init", days: 130 }, category: "Pure-Play" },
