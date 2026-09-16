@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T23:06:46.657Z",
+ "updated": "2026-09-16T01:23:53.978Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 4,
@@ -205,10 +205,10 @@
   },
   "NBIX": {
    "buyFilings": 0,
-   "sellFilings": 7,
+   "sellFilings": 8,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 43168,
+   "sellShares": 45479,
    "latest": [
     {
      "date": "2026-09-14",
@@ -216,6 +216,13 @@
      "code": "S",
      "shares": 826,
      "price": 157.4462
+    },
+    {
+     "date": "2026-09-14",
+     "owner": "ABERNETHY MATT",
+     "code": "S",
+     "shares": 2311,
+     "price": 157.1981
     },
     {
      "date": "2026-09-09",
@@ -244,13 +251,6 @@
      "code": "S",
      "shares": 10000,
      "price": 179.6014
-    },
-    {
-     "date": "2026-07-09",
-     "owner": "Delaet Ingrid",
-     "code": "S",
-     "shares": 8433,
-     "price": 178.7187
     }
    ]
   },
@@ -1043,6 +1043,25 @@
      "code": "S",
      "shares": 826,
      "price": 157.4462,
+     "date": "2026-09-14"
+    }
+   ],
+   "filingDate": "2026-09-15"
+  },
+  "0001643653-26-000018": {
+   "ticker": "NBIX",
+   "owner": "BENEVICH ERIC",
+   "txns": [],
+   "filingDate": "2026-09-15"
+  },
+  "0001724097-26-000010": {
+   "ticker": "NBIX",
+   "owner": "ABERNETHY MATT",
+   "txns": [
+    {
+     "code": "S",
+     "shares": 2311,
+     "price": 157.1981,
      "date": "2026-09-14"
     }
    ],
