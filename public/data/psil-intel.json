@@ -1,17 +1,19 @@
 {
-  "updated": "2026-09-18T17:39:49.847Z",
+  "updated": "2026-09-18T20:00:53.723Z",
   "counts": {
     "total": 93,
-    "crit": 8,
+    "crit": 7,
     "warn": 2,
     "bySource": {
+      "tradingview.com": 3,
+      "GuruFocus": 1,
+      "MarketBeat": 3,
       "HCPLive": 2,
       "TipRanks": 7,
-      "The Microdose | Substack": 1,
-      "MarketBeat": 2,
+      "statnews.com": 2,
+      "themicrodose.substack.com": 1,
       "KOIN.com": 1,
       "Psychedelic Alpha": 2,
-      "STAT": 2,
       "Artsy": 1,
       "StreetInsider": 1,
       "Jackson Hole News&Guide": 1,
@@ -34,27 +36,27 @@
       "Investing.com Nigeria": 4,
       "Artnet News": 1,
       "Denver7": 1,
-      "Nature": 1,
+      "nature.com": 1,
       "Detroit Free Press": 1,
       "Geisel School of Medicine at Dartmouth": 1,
       "The Manila Times": 2,
-      "TradingView": 3,
       "STAT News": 2,
-      "talknwesttn.com": 1,
+      "Talk-N West TN": 1,
       "Wyoming Public Media": 1,
       "The Washington Post": 2,
       "Endpoints": 1,
-      "gritdaily.com": 1,
+      "Grit Daily News": 1,
       "Nautilus | Science Connected": 1,
       "American Songwriter": 1,
-      "NBC News": 1,
+      "nbcnews.com": 1,
       "High Times Magazine": 1,
+      "parade.com": 1,
       "ABC News - Breaking News, Latest News and Videos": 1,
       "The Globe and Mail": 1,
       "TMX Newsfile": 1,
-      "quiverquant.com": 1,
-      "WGAU Radio | Athens, GA": 1,
-      "Medscape": 1,
+      "Quiver Quantitative": 1,
+      "wgauradio.com": 1,
+      "medscape.com": 1,
       "Benzinga": 1,
       "upi.com": 1,
       "kalkine.ca": 1,
@@ -68,12 +70,11 @@
       "The Guardian": 1,
       "AP News": 1,
       "The Herald Journal": 1,
-      "SILive.com": 1,
+      "silive.com": 1,
       "Press Release Distribution Australia": 1,
       "KTVB": 1,
       "News-Medical": 1,
-      "mlive.com": 1,
-      "kalkinemedia.com": 3
+      "MLive.com": 1
     },
     "byTier": {
       "T2": 90,
@@ -81,6 +82,55 @@
     }
   },
   "items": [
+    {
+      "id": "2980faed4443",
+      "time": "2026-09-18T19:02:41.000Z",
+      "source": "tradingview.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "HELP Stock Gaps Higher, Then Fades, On $35 Barclays Target Ahead Of Q4 Psychedelic Drug Trial Results",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxONG1Ba25oTGFvd1FRWEczZjBldE8tRVZkVk9qNWNmb2hPVFg2b0l3RU1hRFY0bVluTFktS2F1cmJEbzNELVVuaXRodktURlZzbTBiQzR6U2htSXpxLXVkRndxNGpzZ0hvQnVzLUZUUUFNLU1wWnBIc29rZDUwTWRVd1hHbVBlYUdZc2prQWNTaDBBY2ZENHRteHVHdTZGNjhhODdrZHBjZFVWMnlsTUZpVU8xX0dCM0l2Um0ycE1LSUNlcUtOTmVCbEFPUVFPdnp3TFJzYmVEbkZFWm5oV05TM2ZYcm1aZkE4TjI2NTM5UlY?oc=5",
+      "tickers": [
+        "HELP",
+        "DRUG"
+      ]
+    },
+    {
+      "id": "513976f204cc",
+      "time": "2026-09-18T18:25:39.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "HELP Initiates Coverage On by Barclays -- Rating Set to Overweight",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRm1fcm1XVC0zaDMzYV9zQnczRTk2bmxKYzZaZm9SemRRRi1fVjdWcTVfOWFfenNfMU84d0Z2TktqeVF6U0MwSzNZSzRHYzlDMGoxamE4QmtoZzNjOFpLVGJFM29xUG83VXBUV21CZk5nbTRhVThXMWJjeEVmcWg0MmE4UHhObkxibmcyT01rWXJOT2NhaEJuZVd4ZkstUmZZQTZKNQ?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "64965a45921c",
+      "time": "2026-09-18T18:00:44.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin (NASDAQ:HELP) Now Covered by Barclays",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON3JQN2NtU3ZiMlFkb1NOaV9QWUZJNzctMGJDUk1oWnB6Z292TmRCamR1dXFsQ1dnUzhPTC1MWGhKQ3NaYzJmZ2hqYkpGTWtTdktqUUlKdVlRSzlRNlFyZUYybVNjRkVCRnZGdElyUWo1ZDFGWFAyam41TVZSUjNWbVFTSmFiTjl4UnFwVnVkd01oZ0hBek5VTExkVEFKckFpR0xWenpR?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
     {
       "id": "d1236921ca33",
       "time": "2026-09-18T17:03:46.000Z",
@@ -112,9 +162,25 @@
       ]
     },
     {
+      "id": "03666603dd67",
+      "time": "2026-09-18T15:33:37.000Z",
+      "source": "statnews.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Roche expands its Boston footprint with new research center",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVFdSMjh2VmNQaWYxX1JIOWl3NFUyZEtRVlZQSXMxRDNmd0daOEtWUEdUb1BCQ0tQTVhTYlM2ZjVvUU1nME8wbkliYmtGQWVReTNaUHc2TDEzS1dDbGJMMGtlNE5XY3ZyVTdSdG9ZYndrZUtDaHlUZjVTNUhiazVEdGM3c2s5ZlFYWmM5LVVkLW1BdnpWeEg2NlFyZGxxUDZqN1pwVHM5Yw?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "f8e7bdb00248",
       "time": "2026-09-18T15:30:35.000Z",
-      "source": "The Microdose | Substack",
+      "source": "themicrodose.substack.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -170,22 +236,6 @@
       "title": "Field Notes #5: ‘Psychedelics Week’ in Washington D.C.",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaG9YSF9jTzRaeXZYeDB0UXZ4LWh5Zl9Ob1d4YkxfaGdDdDROdUtPYzRZZG9EUDRJUW5leF83VnM3b2FtcVUtWnIxME82OFpQb1hucThXRlZReUxCcjNXMjFZUFdTQkJJeTZqUGp0ZkgzY09xb3Z0MV9JVkdpN29SWWZxNUdrZmNSbGJ5cw?oc=5",
       "tickers": []
-    },
-    {
-      "id": "03666603dd67",
-      "time": "2026-09-18T13:43:52.000Z",
-      "source": "STAT",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Roche expands its Boston footprint with new research center",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVFdSMjh2VmNQaWYxX1JIOWl3NFUyZEtRVlZQSXMxRDNmd0daOEtWUEdUb1BCQ0tQTVhTYlM2ZjVvUU1nME8wbkliYmtGQWVReTNaUHc2TDEzS1dDbGJMMGtlNE5XY3ZyVTdSdG9ZYndrZUtDaHlUZjVTNUhiazVEdGM3c2s5ZlFYWmM5LVVkLW1BdnpWeEg2NlFyZGxxUDZqN1pwVHM5Yw?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     },
     {
       "id": "d12f95b0ebc0",
@@ -522,7 +572,7 @@
     {
       "id": "a3682955e55c",
       "time": "2026-09-17T17:51:20.000Z",
-      "source": "Nature",
+      "source": "nature.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -610,7 +660,7 @@
     {
       "id": "a5e9d687efe2",
       "time": "2026-09-17T16:53:19.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -654,7 +704,7 @@
     {
       "id": "70e58493f696",
       "time": "2026-09-17T16:08:35.000Z",
-      "source": "talknwesttn.com",
+      "source": "Talk-N West TN",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -728,7 +778,7 @@
     {
       "id": "7a26ea288e5a",
       "time": "2026-09-17T14:34:39.000Z",
-      "source": "STAT",
+      "source": "statnews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -776,7 +826,7 @@
     {
       "id": "c6f685e2409e",
       "time": "2026-09-17T14:00:30.000Z",
-      "source": "gritdaily.com",
+      "source": "Grit Daily News",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -820,7 +870,7 @@
     {
       "id": "a65fd0e0c4dc",
       "time": "2026-09-17T13:28:57.000Z",
-      "source": "NBC News",
+      "source": "nbcnews.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -843,6 +893,20 @@
       "impact": "LOW",
       "title": "The FDA Wants to Talk Psychedelic Therapy. The Movement Has Bigger Questions.",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdEF3X0EtM1ZlV2pMYkJzWTVCeTdENnhUY1djbmFGYmwyWjRyMjNYb0ZqMDZQYW1zTFJ0Q0QwWmVLc2VTaFEzZ2RNdlhERjJrNC1CZXpha1VjTWp4eGoxRHRpdGQwa0N4NTNfMHRSaEFOeG83YndteldrWVVSSGxNeExhOA?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "37270498c9bf",
+      "time": "2026-09-17T12:46:25.000Z",
+      "source": "parade.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "1968 Byrds Track, Written by Carole King, Remains a Psychedelic Country-Rock Masterpiece",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLVFPQzZZVUcydzdZRUt2YWhxY2V2UlNyR0lXbEFUYXhtLUlGMEQwS1pQZC1FdExqWW93OHVVTDVCS1h5aFJ2ZjdQa2NIbWdrbXRrejV6TDdaRUFHNF9Ka2V6aWNjWVBYdXlhc0JJQTFJaXFXbzJvT2xpSlZKNjVqSGpDTnN2QkI5ZHBnLVFYWjZUM1l3ZG9CLXVPd3J4eDBqMW5CMWV6ZVpLUWpzNUxn?oc=5",
       "tickers": []
     },
     {
@@ -908,7 +972,7 @@
     {
       "id": "e2462d625583",
       "time": "2026-09-17T11:50:00.000Z",
-      "source": "quiverquant.com",
+      "source": "Quiver Quantitative",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -950,7 +1014,7 @@
     {
       "id": "cfa38155752f",
       "time": "2026-09-17T10:45:00.000Z",
-      "source": "TradingView",
+      "source": "tradingview.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -966,7 +1030,7 @@
     {
       "id": "371a55ea5955",
       "time": "2026-09-17T10:27:34.000Z",
-      "source": "WGAU Radio | Athens, GA",
+      "source": "wgauradio.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -980,7 +1044,7 @@
     {
       "id": "1a40568fdb28",
       "time": "2026-09-17T09:57:35.000Z",
-      "source": "Medscape",
+      "source": "medscape.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1210,7 +1274,7 @@
     {
       "id": "84a9a95dcd87",
       "time": "2026-09-16T23:24:00.000Z",
-      "source": "SILive.com",
+      "source": "silive.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1348,7 +1412,7 @@
     {
       "id": "8591010e2abf",
       "time": "2026-09-16T20:01:00.000Z",
-      "source": "mlive.com",
+      "source": "MLive.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1389,70 +1453,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWW9xd2VjaDFFNm9qWlB1dndPcFlHUHZJcGhNam15VVpBc3B2UmxHWkRMRXh2eVlrMDR6djM4T3ZFR29LcXFRVmhIUG9GUjNpZEUyZ3M3bWNNbnZiX2RxUV9BcVBObm02ZmoyRlJXd3ZRTHpMZTFxcUZRYW1sWWZRQjBjLVlvZndackZiaExMZDVqZ1B0OUhCUkh6YVVndmc?oc=5",
       "tickers": [
         "ALKS"
-      ]
-    },
-    {
-      "id": "104b52ded60c",
-      "time": "2026-09-16T17:49:00.000Z",
-      "source": "kalkinemedia.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences' CCO Eric Benevich Reports Share Award and Forfeiture on September 11, 2026",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUXJxcGNkVlVVQXBweUcwSjdadlVsTGQxR3l0ZmdTS0NieENuNTdSaDdqOXFGSVVibG1kVi1XVXZjTlJ2WXczTEV2am9aVm5GUUNLRGs1MlE3QjcyZm5nZG1MZkdlUHZoM0syNGlYRlhKcVFBQTcxT0VwTG85anZ1VTl1bXp4MkhnOE5abjhDQnlad0JocnJ0TE1ZbFAzWWJxQXl3QmNyMXJqbEFsZFNwRWdpOVBqdWlOVkdDd3pzUExVc0xhcm5nTFZ1dkF0cnBNeHlncHJhSVF2aWs?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "71ce0c87ca81",
-      "time": "2026-09-16T17:18:43.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "CMPS: Psychedelic therapy for TRD nears FDA approval, promising rapid, durable relief and broad adoption",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPWlp4ckdXTFZaR3dZbHZoRFllVUEtemFIOUVrbDNPcVRIdW5VR01fU0g3d3hFNlppeVdBYTVXcFhvWnc1UjRIQnJiLXlPcWotTjhiLWtORi1zUjZHNFFWSGE3TFZhc1JKSWZsWU1ZNU1jTG5aMWoybGhpdUlDU0ZhdHI5M1BFc0pQZDVfdjl5dXh3Nm85Y3YwTFB3Q3ZOa0dPYzlFNnZGbXVPeDBvT29SSDA0bHNDN1BFU2E5SGctbDlkOGk4T0JfcnNFNkFteGU0VVBfTU5BUFFnTXFiOVFsMlJITEsyZnlkck9YdlVaNnRiVm00Y1ZEcFp0VU5qOS1BemNLcWxzMzhCR1FLTm1GRjZJYUF6V0k?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "cac46e3d5d41",
-      "time": "2026-09-16T16:37:00.000Z",
-      "source": "kalkinemedia.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences CFO Matt Abernethy Reports 42,808 Shares After Recent Award, Forfeiture, and Sale",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTDZtdGI3RnBNTTZRTWZhWG53OTV5S3BZQzhTSkNfY2NuTk90VHRDNmFNYlVmaFM0ODYwcXZqeWdtR21HVWV1ZXlsRTZrYk1VNjJuemQ5OTY1RUFTOEZibXR4SUNBTTA5eUpIVF9Ec1lGeEE3aUxGNDIxYTJLX2M5SXNUMXlBWGYycEVQcTQ5WTQ2STl5OEhUT3hiRk9yWUtOaDM2Z01Jc2ZUU0poRFVRQ1VldXNYZTM3b3VJOWZ5ckRtcHN3RjVGaUtqcFFzQlc5RURZTHJpN0Nqd2ZPLXBDRFpB?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "078f026307c5",
-      "time": "2026-09-16T16:37:00.000Z",
-      "source": "kalkinemedia.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences CEO Gano Kyle Receives 8,117 Shares at No Cost, Forfeits 4,380 Shares on September 11, 2026",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPeENvdjBObjBTanRfdWNKMWNiWGlDUjIySEF3cnNLSVJaSmNkSmZSY2txUU9OY0RwMGxyZG95UU1Ma3Uwb1FwelliVDR3VTNOV3NRQTB5QU9GbjhJTFBhUkVVYzRva1dzTVExaUs0TllfU1Axa2N0VVZadzJGcmZqLVRhT29tMFoycTVWbDZaSjI5SGdhZ1pYNWMwVUdWQmoxNHlsNGx1dDNZQkVUMVU4Sm5rMkJnMlBtc0NqLW5NRmpXdGk1UFVVMzdaMmZwNy1RTlAwS0xma2hNVTRXNGU3UEdxZklRblRHQWExOHJB?oc=5",
-      "tickers": [
-        "NBIX"
       ]
     }
   ]
