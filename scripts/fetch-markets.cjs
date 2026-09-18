@@ -66,6 +66,11 @@ const SYMBOLS = [
   { key: 'rice', sym: 'ZR=F', tier: 'resources', label: 'Rough rice' },
   { key: 'oj', sym: 'OJ=F', tier: 'resources', label: 'Orange juice (FCOJ)' },
   { key: 'soyoil', sym: 'ZL=F', tier: 'resources', label: 'Soybean oil' },
+  // Precious metals + feed (2026-09-18): same chart source, no new auth.
+  { key: 'silver', sym: 'SI=F', tier: 'resources', label: 'Silver' },
+  { key: 'platinum', sym: 'PL=F', tier: 'resources', label: 'Platinum' },
+  { key: 'palladium', sym: 'PA=F', tier: 'resources', label: 'Palladium' },
+  { key: 'soymeal', sym: 'ZM=F', tier: 'resources', label: 'Soybean meal' },
 ];
 
 function get(url) {
