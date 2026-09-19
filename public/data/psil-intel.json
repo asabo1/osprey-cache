@@ -1,14 +1,16 @@
 {
-  "updated": "2026-09-19T13:20:04.962Z",
+  "updated": "2026-09-19T16:43:25.677Z",
   "counts": {
     "total": 93,
-    "crit": 4,
+    "crit": 5,
     "warn": 3,
     "bySource": {
+      "Montreal Gazette": 1,
       "AD HOC NEWS": 1,
       "Stocktwits": 1,
       "simplywall.st": 3,
       "Stock Titan": 5,
+      "TipRanks": 3,
       "GuruFocus": 3,
       "Patch": 2,
       "Quiver Quantitative": 2,
@@ -16,13 +18,12 @@
       "TradingView": 3,
       "MarketBeat": 3,
       "HCPLive": 2,
-      "TipRanks": 1,
       "finance.biggo.com": 1,
       "STAT": 2,
       "The Microdose | Substack": 1,
-      "Yahoo": 3,
+      "Yahoo": 2,
       "Psychedelic Alpha": 2,
-      "Artsy": 1,
+      "artsy.net": 1,
       "StreetInsider": 1,
       "Yahoo Finance": 1,
       "Firefighter Nation": 1,
@@ -35,6 +36,7 @@
       "The Badger Herald": 1,
       "GlobeNewswire": 1,
       "CarePlus VietNam": 1,
+      "The Columbus Dispatch": 1,
       "Artnet News": 1,
       "Denver7": 1,
       "Nature": 1,
@@ -49,33 +51,30 @@
       "Talk-N West TN": 1,
       "The Washington Post": 2,
       "Endpoints": 1,
-      "gritdaily.com": 1,
+      "Grit Daily News": 1,
       "Nautilus | Science Connected": 1,
       "American Songwriter": 1,
       "NBC News": 1,
-      "That Eric Alper": 1,
       "High Times Magazine": 1,
       "parade.com": 1,
       "The Globe and Mail": 1,
-      "TMX Newsfile": 1,
-      "Investing.com UK": 1,
+      "newsfilecorp.com": 1,
+      "Investing.com India": 1,
       "95.5 WSB": 1,
       "Medscape": 1,
-      "benzinga.com": 1,
+      "Benzinga": 1,
       "upi.com": 1,
       "kalkine.ca": 1,
       "Ynetnews": 1,
       "Reuters": 1,
-      "Dawn Images": 1,
+      "images.dawn.com": 1,
       "Yahoo News New Zealand": 1,
       "The Jerusalem Post": 1,
       "People.com": 1,
       "Vulture": 1,
-      "Rolling Stone": 1,
+      "rollingstone.com": 1,
       "The Guardian": 1,
-      "AP News": 1,
-      "WSFA": 1,
-      "The Herald Journal": 1
+      "AP News": 1
     },
     "byTier": {
       "T2": 90,
@@ -83,6 +82,20 @@
     }
   },
   "items": [
+    {
+      "id": "719ef1a7fa7d",
+      "time": "2026-09-19T15:15:00.000Z",
+      "source": "Montreal Gazette",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Right Chemistry: It’s not a far leap from psychedelic cats to neuroleptics",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYnFoNXh1dkNHRlBpT1RQaGlWbGlsR25yZEdVMlBPSmRhM1ZUNEZpRUZKMFlfVkhmbkpXLWt6VGhUQS1OZ1B4NTZkMUlKcTN6czl4dWJsWGN3dDBZT2JTTUhjaGlYZF9SSV9id3lPYVVGSG01VTJScjVaNExuU0hRTnNZLW5URWs5ZGpaWGNxTGZHTGpXc0VaRmNQVnAzLVlxVkJjQ2pWNG9XcXhTaGc?oc=5",
+      "tickers": []
+    },
     {
       "id": "f59d1cf87097",
       "time": "2026-09-19T13:13:05.000Z",
@@ -159,6 +172,22 @@
       "impact": "MED",
       "title": "Director boosts Definium (DFTX) stake with option exercise",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd2l0Tm1mQVJlQzhRaDlCZjNoRXAwQXRnMmtKVzB3aFRYX2Fuczd2dk5vcDUzeEZ4SExHY2hOVFNONlVMeXAwOHpDWTNEMmpuZEFLWmdBeC12UnB6M2lXajhZZEJHRjZIa3g4ai1fRnBiNjlMYmRJU00tcFBLNTNjNnZFeFFXZEhEN2hCSXlaQzdGNTU2MFZiLXlNeVNKcDdUZm9rMzJFTGJQd2NSajNrUDVXMG9sOTlkLXZJ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "0bfe0f9a8302",
+      "time": "2026-09-18T23:48:44.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Definium Therapeutics Logs Third Positive Phase 3 Readout for DT120 in Anxiety",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa2pzTmRkRV9PTjBWV2NGb3d6S2d5TnhOdkhicWpDM0FONy1hdG9yUXFVMnR4d1JHMWxGeGFwVVFrUWp4eTJFaDJVeXcweWRxemV6UkVtczRyalFMSUp1OWcxMTdyOFlXTXNQS3RHejBiaWkzS3I4RDdFcndoc2RmODNWU092Y1BmX2Q4SDNPZU1JaExjWEF2Ui1aaTFmS2FTYzRKVEtZR1FpaExCZnU3T0g0X050LV9MZ0RoZEJTdmwyUWlON1Z3bS1B?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -427,7 +456,7 @@
     {
       "id": "d12f95b0ebc0",
       "time": "2026-09-18T11:08:27.000Z",
-      "source": "Artsy",
+      "source": "artsy.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -645,9 +674,9 @@
       ]
     },
     {
-      "id": "44499250960d",
+      "id": "a3379b426eb5",
       "time": "2026-09-17T18:59:00.000Z",
-      "source": "Yahoo",
+      "source": "The Columbus Dispatch",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -655,7 +684,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Peter Max, psychedelic artist who designed AmeriFlora '92 poster, dies at 88",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTzctQXdTc0hJZDlUNmRMeTRGd2J3VlprUmhTQkY1THVWZDBpOHA3Z1N0S1JLNmVWTFlpcmw3TkVnS2JDaW1lU2x1U1BLN3V4Nm9iTjR1NW8yZ0VxSnhOdkdaelByQ3hjQ1NOWlM5elg5VS11UFFaVTZfRWJIOWhiZjI2Z05hUDlEczFtNUNDMjJhb3pHeG5CQjU1Z2N5Z2pFeDhCMU1tbk1yelU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb3pnSWRqZk9GTFB4bTlaU0xWTUVpY1UwNTBRbGlKSVRyOHV6MDJuNlNFNktkbHdweGNHMnRWUUZ5RWxRdDZvZHZ0TWJkT0xoVVlfckZyU3VzczIwaFNTbHBCVXNRaEd6WmVJMy02ZWdZWVlYeHJpc1A2czZSOWtkMG15R0gxcGJJMXpNa2JOblhmT0tNTENRSzIzUQ?oc=5",
       "tickers": []
     },
     {
@@ -971,9 +1000,25 @@
       ]
     },
     {
+      "id": "acf7cdbd3e2c",
+      "time": "2026-09-17T14:02:53.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psychedelic: Definium’s LSD-based drug meets endpoints in GAD study",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUTNsTlV3R3VXQk9DRmFsbHl1cVg5S3pHWkFhZmpsdXk4OHZTRzhnMmU0SERFVFA3S0I1UlpFMXU1eHFfMngxNHQ4U1hQZHVDc2V6SmpUS1FLUzlwLS1DODZxaThDejloeDhaTjdlV1drZS1WbE9zWGVYcjFzaW9KWEZteWVzZElvcDhqRUdBUUh5aVFCUnJReVB1TkNEMVpMWHZjVXVMV1I2aGtrVTF6NzZVenhpdw?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "c6f685e2409e",
       "time": "2026-09-17T14:00:30.000Z",
-      "source": "gritdaily.com",
+      "source": "Grit Daily News",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1026,20 +1071,6 @@
       "impact": "LOW",
       "title": "Psychedelic pop art icon Peter Max dies at 88",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOODBBNFI4ay1VdVdYUkxoYjAtemFaR1RDOUc4U0lHRkJRbUJTeF9DVVc5VFdtV3pwNmJPMUN2QnBxVEVjMU8xSHBPdnlqbk1nUk8tbkVadENOVEwzelAyOXNHOENjYV9sVzBPUzdTcGdQSWNmckhyRlhWUnI5TUt6N1RmQUloakgxOWpHelBTakRDckZDUWNvQ1dycw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "f636971f6216",
-      "time": "2026-09-17T13:16:35.000Z",
-      "source": "That Eric Alper",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Peter Max, Psychedelic Pop Artist Behind Iconic 1960s Poster Art, Dies at 88",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcjlCemhCZVV2SEZFbHhyMHFtNHJleWY4ZXE4WFNtRDg0RU5wWFBMNTB6ZGJFR3JzNGRIM0FTQndxTE9SUkhBZGp4NW94YUNtbDlBMDZPOHV4NmljU3BkZGJlWUFma3Y0MVZkOTVxVjM4RG14X3Fia0QyVG5uOGhKWG9fT29mMF94bDdHWnpFa2dEcElwcjRkRkRfcEZhTjlCNzhkUkZVQ2ptaDZ3bGdhX20xaTlZeEk?oc=5",
       "tickers": []
     },
     {
@@ -1103,7 +1134,7 @@
     {
       "id": "71b37e04c6a3",
       "time": "2026-09-17T11:52:00.000Z",
-      "source": "TMX Newsfile",
+      "source": "newsfilecorp.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1117,6 +1148,20 @@
       ]
     },
     {
+      "id": "ea814cd917b6",
+      "time": "2026-09-17T11:51:32.000Z",
+      "source": "Investing.com India",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Clearmind testifies at FDA hearing on psychedelic therapies",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV2JjTW1TVU9TMVlINVBXSDdxU2RCNmJjT3ljWTdRbmQzbTYzS01fTVBpVVlqWDV3N1YtT0NEYXVQdC1BZkVoOW10ZDJicUd4Qmc0NWw2aUtYR3hUODRpXzBXWjJneWJJMUJDVEZndmpKakNhQkFKU0ZzQ2VSWDJFU3JyQjJlM0s0WURpdHBlUE5SU3piaWhJRFk4R3lnYndybWZNcm5sZEJJblJhRlR2bmI2Q0QwVjl6UUhNNQ?oc=5",
+      "tickers": []
+    },
+    {
       "id": "e2462d625583",
       "time": "2026-09-17T11:50:00.000Z",
       "source": "Quiver Quantitative",
@@ -1128,20 +1173,6 @@
       "impact": "LOW",
       "title": "Clearmind Medicine Testifies at FDA Psychedelic Hearing on Patient Access and MEAI Clinical Trial Insights",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeDgtRFFVNkxpc21Mdm83RzQ2OHNPamVXNkxRWjZxTGh1eWd0XzNKdldEeDdJM2JfQkRkR1p1TTRWWDVyWXpha1J4OUQtN2duVkROYXFmN3BSWGI1X20wRDhUNHBKQlFOTjRDU1JZY0NZalVJNzhHU0JMMFpaa05UYmxBWFdqV29rUlVqV3hYc1JlSnRkb1FKWFZRRjNLZncwM0FZNjhYWi1UOG9DdXJUTVMydndKU1ZDNVJEZ3ExaU5UeDdkczhkWDJuZ09samRDbjR5UFNR?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "3a11b08935c8",
-      "time": "2026-09-17T11:50:00.000Z",
-      "source": "Investing.com UK",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Clearmind testifies at FDA hearing on psychedelic therapies By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSWVCMzZ5dnFyZ2VNU3hDSnhPZks5UlNhdmV5MmpQTkQ5MkhpTmVhZGtwOWlJVFRxeDVYQW9WZmRMTVBKVTVhRWJ0VDJ4M2lLamoyS0FJQXBwOHFhWExPblR5ekVDdHNnZWU3bHhUa2F3UnBwZF9kYXpQb29JQUc3bk5UQVFtV2R4YzZNNWR6bmU1anppMEk0Um92ZG44VVdna2xqNEVXMW1vc1Z3bThiYV81Y0xWR3pTc1JrZQ?oc=5",
       "tickers": []
     },
     {
@@ -1219,7 +1250,7 @@
     {
       "id": "24b76a9258e1",
       "time": "2026-09-17T08:31:06.000Z",
-      "source": "benzinga.com",
+      "source": "Benzinga",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1293,7 +1324,7 @@
     {
       "id": "a05f80b742d2",
       "time": "2026-09-17T06:40:31.000Z",
-      "source": "Dawn Images",
+      "source": "images.dawn.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1393,7 +1424,7 @@
     {
       "id": "8dce5ea8ceec",
       "time": "2026-09-17T01:09:35.000Z",
-      "source": "Rolling Stone",
+      "source": "rollingstone.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1430,34 +1461,6 @@
       "impact": "LOW",
       "title": "The psychedelic pop artist Peter Max has died at 88, his son says",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRGtsNmJWMy0tNFBJWVUtUktydkdQblpxd0tHZEp1VW1tT1E3c21YRzkyd2dWWk15ZzNUMi1fVmhCQ1Vnc1RnM05XQkJkaHY3UUx6OHlod0N0SHl4ZlJPTWN0TXgzcGRaODBReFFMRkdDLWdRUWJqeTZ3Q2xrbU4yZ2VqR1A?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "441a72b44dda",
-      "time": "2026-09-16T23:57:04.000Z",
-      "source": "WSFA",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic pop artist Peter Max has died at 88, his son says",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnQySHpDNUwyOUFmdTZ0WEd0NnlfWmtsWXQ2U05QbVBFWWlROEE1VHM2dG5yVGVfdXhKUHA2cDFCUkRoSEctdEV5TXpydXgxUzVnV3pUeTUyU19wT3hPbmxZZXV3UDBFSW50WG1iUUhCT0I5SzExZnVUWmFwaHF1TVRRVnY2bHlacWZYSUhrRnRRN1dJ0gGoAUFVX3lxTFAwZ0pXVEVFb1N1VDJITWxWSWJaOEtLMExMNzIzdzdFcUktN20zQXNjQkNOMzBMd050SEVXN2hZLWZ3YVpoUTViZTlZX2J2dnJCMjMxU25Sb3kyV1NYTDk4QURSZG90cFNScXRDenVSWnRlWDNlYVRnbjVicG1MX1RQekNzNWQzSkZ4NmdlLXR6bjUxM1hsU1B1UVNUR3VtWjFmTW50a25LMA?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "9207234c4058",
-      "time": "2026-09-16T23:34:13.000Z",
-      "source": "The Herald Journal",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The psychedelic pop artist Peter Max has died at 88, his son says | Nation | hjnews.com",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUE5KNXdmZS03UFlGVXpJN2RCdFpuejNGbFM5OTBRaTlKd2oteElfbGhlTlcyU3doa1ZBWm82ek1nNDdwN01sTndrUEJMZG8ya0c4WDNPSHE1X1FDTzJ5ZENaX2QzM1pLTEpwNHlzcUJCbV8wNzFncWZqUEVMbFJYZGJxbjhuUHlNeEZBcmZyLUdNUzFNbGlHeHp0S1hpOWhsQUh1VGdtaFJzeXdYOW80T1dHQ2hpeTlDUTg3U1dRX0pnVU1sRkl6bmoydmlaRnJkMjdndk94VG5hdGtP?oc=5",
       "tickers": []
     }
   ]
