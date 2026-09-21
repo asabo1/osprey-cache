@@ -92,8 +92,21 @@ async function fetchChart(sym) {
   }
   if (series.length < 2) throw new Error('series too short: ' + series.length);
   const last = series[series.length - 1];
-  const prev = series[series.length - 2];
-  return {
+  let prev = series[series.length - 2];
+  // Roll guard: a continuous front-month symbol switches contracts on roll
+  // day, so last-vs-prev compares two different months. In a steep curve that
+  // prints a fake move (2026-09-21: Brent "-6.8%" on a true -3.6%, RBOB
+  // "-10%" on -1.4%). On any large futures move, find the named contract the
+  // symbol now tracks and take the prior close from THAT contract. Any failure
+  // leaves the series-based delta untouched.
+  let rolled = false;
+  if (/=F$/.test(sym) && Math.abs((last.c - prev.c) / prev.c) >= 0.01) {
+    try {
+      const named = await namedPrevClose(sym.replace(/=F$/, ''), last);
+      if (named != null && Math.abs(named - prev.c) / prev.c > 0.003) { prev = { d: prev.d, c: named }; rolled = true; }
+    } catch (e) { /* keep the series-based delta */ }
+  }
+  const out = {
     price: last.c,
     prev: prev.c,
     delta: +(last.c - prev.c).toFixed(4),
@@ -103,6 +116,37 @@ async function fetchChart(sym) {
     series,
     ok: true,
   };
+  if (rolled) out.rolled = true;
+  return out;
+}
+
+const ROLL_SUFFIX = { BZ: 'NYM', CL: 'NYM', RB: 'NYM', HO: 'NYM', NG: 'NYM', GC: 'CMX', HG: 'CMX', SI: 'CMX', PL: 'NYM', PA: 'NYM', ALI: 'CMX', HRC: 'CMX',
+  ZW: 'CBT', ZC: 'CBT', ZS: 'CBT', ZL: 'CBT', ZM: 'CBT', ZR: 'CBT', KC: 'NYB', SB: 'NYB', CT: 'NYB', CC: 'NYB', OJ: 'NYB',
+  LBR: 'CME', HE: 'CME', LE: 'CME', CB: 'CME', CSC: 'CME', DC: 'CME' };
+const MONTH_CODE = 'FGHJKMNQUVXZ';
+
+// The named contract whose latest close equals the continuous symbol's latest
+// close (same date) IS the contract the symbol now tracks; return its prior
+// close. Probes the next 8 delivery months; null if none matches.
+async function namedPrevClose(root, last) {
+  const suffix = ROLL_SUFFIX[root];
+  if (!suffix) return null;
+  const now = new Date(last.d + 'T00:00:00Z');
+  for (let k = 0; k < 8; k++) {
+    const m = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + k, 1));
+    const named = root + MONTH_CODE[m.getUTCMonth()] + String(m.getUTCFullYear()).slice(2) + '.' + suffix;
+    let r;
+    try {
+      r = JSON.parse(await get('https://query1.finance.yahoo.com/v8/finance/chart/' + encodeURIComponent(named) + '?range=10d&interval=1d')).chart.result[0];
+    } catch (e) { continue; }
+    const ts = r.timestamp || [], cl = (r.indicators.quote[0] || {}).close || [];
+    const rows = [];
+    for (let i = 0; i < ts.length; i++) if (cl[i] != null) rows.push({ d: new Date(ts[i] * 1000).toISOString().slice(0, 10), c: cl[i] });
+    if (rows.length < 2) continue;
+    const nl = rows[rows.length - 1];
+    if (nl.d === last.d && Math.abs(nl.c - last.c) / last.c < 0.0015) return +rows[rows.length - 2].c.toFixed(4);
+  }
+  return null;
 }
 
 
