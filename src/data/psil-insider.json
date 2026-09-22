@@ -1,8 +1,8 @@
 {
- "updated": "2026-09-21T21:02:47.505Z",
+ "updated": "2026-09-22T00:05:17.925Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
- "totalClusterBuyers": 4,
+ "totalClusterBuyers": 5,
  "tickers": {
   "CMPS": {
    "buyFilings": 0,
@@ -102,12 +102,19 @@
    ]
   },
   "HELP": {
-   "buyFilings": 7,
+   "buyFilings": 8,
    "sellFilings": 0,
-   "clusterBuyers": 2,
-   "buyShares": 685000,
+   "clusterBuyers": 3,
+   "buyShares": 785000,
    "sellShares": 0,
    "latest": [
+    {
+     "date": "2026-09-21",
+     "owner": "Halstead Michael",
+     "code": "P",
+     "shares": 100000,
+     "price": 13.4705
+    },
     {
      "date": "2026-09-08",
      "owner": "Glavine Paul",
@@ -142,13 +149,6 @@
      "code": "P",
      "shares": 100000,
      "price": 11.7828
-    },
-    {
-     "date": "2026-09-01",
-     "owner": "So Eric H. L.",
-     "code": "P",
-     "shares": 95000,
-     "price": 11.805
     }
    ]
   },
@@ -1048,6 +1048,19 @@
    "owner": "Krebs Andreas",
    "txns": [],
    "filingDate": "2026-09-18"
+  },
+  "0000912282-26-001293": {
+   "ticker": "HELP",
+   "owner": "Halstead Michael",
+   "txns": [
+    {
+     "code": "P",
+     "shares": 100000,
+     "price": 13.4705,
+     "date": "2026-09-21"
+    }
+   ],
+   "filingDate": "2026-09-21"
   }
  }
 }
