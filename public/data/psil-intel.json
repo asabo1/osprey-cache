@@ -1,13 +1,17 @@
 {
-  "updated": "2026-09-26T12:30:05.239Z",
+  "updated": "2026-09-26T16:40:28.065Z",
   "counts": {
     "total": 91,
-    "crit": 6,
-    "warn": 3,
+    "crit": 7,
+    "warn": 2,
     "bySource": {
       "Fierce Biotech": 1,
+      "Pluang": 1,
+      "Seeking Alpha": 1,
+      "IndexBox": 1,
       "HCPLive": 2,
-      "cnbctv18.com": 1,
+      "ca.finance.yahoo.com": 8,
+      "CNBC TV18": 1,
       "Yahoo Finance": 6,
       "Law360": 1,
       "Stock Titan": 3,
@@ -26,23 +30,21 @@
       "Yahoo": 3,
       "TMX Newsfile": 1,
       "simplywall.st": 3,
-      "ca.finance.yahoo.com": 7,
       "Psychedelic Alpha": 1,
       "NAI500": 1,
-      "Stocktwits": 3,
+      "Stocktwits": 4,
       "Kalkine Media": 2,
       "MyCentralOregon.com": 1,
       "timothysykes.com": 1,
       "Oncodaily": 1,
       "insights.citeline.com": 1,
       "MLex": 2,
-      "oregonlive.com": 1,
-      "Yale Journal on Regulation": 1,
+      "OregonLive.com": 1,
       "Moomoo": 1,
       "KTVZ": 1,
-      "Mugglehead Investment Magazine": 2,
+      "Mugglehead Investment Magazine": 1,
       "KPTV": 1,
-      "Marijuana Moment": 2,
+      "marijuanamoment.net": 2,
       "Yahoo Finance UK": 1,
       "Healthcare Brew": 1,
       "KOIN.com": 1,
@@ -50,21 +52,19 @@
       "The Hacker News": 1,
       "PsyPost": 1,
       "PharmaVoice": 1,
-      "Techzine Global": 1,
+      "techzine.eu": 1,
       "FM News 101 KXL": 1,
-      "Investing.com": 3,
+      "Investing.com": 2,
       "GuruFocus": 1,
       "MindBodyGreen": 1,
-      "globenewswire.com": 1,
+      "GlobeNewswire": 1,
       "TradingView": 2,
-      "pharmainfocus.com.au": 1,
+      "Pharma in Focus": 1,
       "NPR for Oregonians": 1,
-      "drugscience.org.uk": 1,
-      "theaustralian.com.au": 1,
+      "Drug Science": 1,
+      "The Australian": 1,
       "AD HOC NEWS": 1,
-      "Willamette Week": 1,
-      "Oregon Capital Chronicle": 1,
-      "kalkine.ca": 1
+      "Willamette Week": 1
     },
     "byTier": {
       "T3": 1,
@@ -74,7 +74,7 @@
   "items": [
     {
       "id": "92056a3b2a97",
-      "time": "2026-09-26T12:30:01.132Z",
+      "time": "2026-09-26T16:40:26.148Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -89,8 +89,54 @@
       ]
     },
     {
+      "id": "9453b1326fc7",
+      "time": "2026-09-26T13:03:45.000Z",
+      "source": "Pluang",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Alkermes eyes growth with LUMRYZ's new idiopathic hypersomnia use after positive Phase 3 results",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRXBHay1aWEZ5QkF5VzBJOC1aelhYdndqUldXQWRMMS1qU0JVQkFzNS1FTGFmWW9mdkpuTUZTVlpDeXB0MjBET2UtMXE3RVdEeGNPdFFvRzE5QlNfMDU0Q25KNFYyYld6c0FpVzlOc2JLN0VHX1hkOE1WUHNhUWRaaEdDSEdreXJTZkR3bEhwSlpXSEFW?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "da7852e499eb",
+      "time": "2026-09-26T12:48:05.000Z",
+      "source": "Seeking Alpha",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes: Idiopathic Hypersomnia Could Expand LUMRYZ Into A Larger Growth, Margin Driver",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbHljVGZWUElHLWRqd2lNNUJ3U045YmJNQUhtaEhfcFBHWjJRalo5c2tmWklLRmtiQjBmRE5yMFh3Vm1oajBYbFFqbGxPQWlsa0NqRFZ0Tnp6VS1pcy1XbFdJX3JYWTc5YW5HbDFiRG5lSjVVa2prbEdPdEUtWTlNcWtWRnBzZmNqX0d1WTVKWFVUNGhjYjdZeWM0S0E3ZUNoTTBCTE5QZVI5SzBoakd6eF9SWDlDUnRYWG85VllVcVdBYnEtWk9ENTd2NA?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "87f7400669d3",
+      "time": "2026-09-26T12:26:04.000Z",
+      "source": "IndexBox",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Psychedelic Drugs Market Forecast to 2035: Demand Accelerates on Mental Health Crisis and Regulatory Breakthroughs",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWUY2eWs3WVhXd2Vvbzd2MC1NOTNkVHp6YlBoRGdGdjR1ZEg1aFRfc3kwMXk5MjNkLTh5bnpqTFJTelg1ODNCaFVfdjNxRFlrVG9mYms3TDVKNmhFSHB5LUdUanBqWHJGZ3d2SjRfRldsczhSUFQ3dXFiSU41N0VpdTJBNk9pdlU5OG1IMmZubnBmeU5wZHdIcXNVWm10UW9LNXd5OFNpdE1wZWhMaFBZWm5MbjhYWW5IRDk0MmNGdkluYzlETElGZkRGcGFROURiX3p5bHNRb1daekU?oc=5",
+      "tickers": []
+    },
+    {
       "id": "8953edd7b780",
-      "time": "2026-09-26T12:07:53.000Z",
+      "time": "2026-09-26T12:06:47.000Z",
       "source": "HCPLive",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -103,9 +149,25 @@
       "tickers": []
     },
     {
+      "id": "d812c9e0ebf5",
+      "time": "2026-09-26T10:50:23.000Z",
+      "source": "ca.finance.yahoo.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals, Inc. (NRXP) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vcV92OW1CeHY3b1BCNHhGSTZkbVh1X0pfeFE1YjJaWHJqYlVvUFBRSFprQ2xNRkZwV3lRb3R1ZlVQMTRsc0dRRFlXMHFvVkF4Rnc?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
       "id": "996a2c183ed7",
       "time": "2026-09-26T04:25:50.000Z",
-      "source": "cnbctv18.com",
+      "source": "CNBC TV18",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -301,6 +363,22 @@
       "tickers": []
     },
     {
+      "id": "93a339b1ffb3",
+      "time": "2026-09-25T14:15:33.000Z",
+      "source": "ca.finance.yahoo.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin D/B/A Helus Pharma (HELP) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qZHZCQk1PZ0hMdjgwc19PY1R2OV9MQnVjOUQxcy00TjRDTHg0OVJNakpIWHl0MzZjYkhNZmRRVG5XUzUtS1dLck9XV2JGeFNKbVE?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "f40ecea5a2bf",
       "time": "2026-09-25T14:06:52.000Z",
       "source": "Security Affairs",
@@ -433,22 +511,6 @@
       "impact": "LOW",
       "title": "NRx Pharmaceuticals (NASDAQ:NRXP) Is In A Good Position To Deliver On Growth Plans",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPOHVfaUJ0MTBsNG5SNFk4N0dkdkxVVW9rY3FaT0RUOW1zVG5zMVc0b3E3ajFrbDdVZXl0STgxX1FfaUhndmFmLTd2TFRDMGg0OGJibTItMkNZV0NidFZkUjRNMl9VR3pPQV9ZMWFUQUdIbHpva19lNXBpVk5MVi1MLU5kWUdaTGpWTkJLMzFJRldFZ2Q5UUpqdmFkTjh0c1ZMcndENXpVaUtEb1p3SkMyd2N5Ri1tbEJzVkJLSk4wTEsyLVViOXN3UmpIbEpxZW5RR09BSE9oR1hHenRVSVdya01QY1o2ZFBl0gHuAUFVX3lxTFBVNm1mSFhoUExTcHhDTkRIME1Zcm1WRnh0aE44ZDVYTFRDRmI3bW5Ec21kbEtkNS1ZYy1zUEcwWUJGS21KdUZ1QXlDZjZhUlByNW5YbmxBTWkwQWF2ZlJ2Zm9YZXVuTXZPQnRNMVlTU0FmZ1BYZFlYVk9NTGxjb1BDYVFIQjcxSFRMNFZuVWtGcmhxdFZFaWxxcG1zMjdOdXRBNnYyR2N1eEtZRTBVdV9fRGswT0VDZEMyMUZiTjMtSXdSdFBZSkpFc0p1YTJ1bVRhMEVreUpkcU9fMFNLY1g2ZkxDNWJFTjFRV0pFOUE?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "d812c9e0ebf5",
-      "time": "2026-09-25T09:44:25.000Z",
-      "source": "ca.finance.yahoo.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRx Pharmaceuticals, Inc. (NRXP) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vcV92OW1CeHY3b1BCNHhGSTZkbVh1X0pfeFE1YjJaWHJqYlVvUFBRSFprQ2xNRkZwV3lRb3R1ZlVQMTRsc0dRRFlXMHFvVkF4Rnc?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -715,7 +777,7 @@
     {
       "id": "8a3d1bd699a0",
       "time": "2026-09-24T20:40:00.000Z",
-      "source": "oregonlive.com",
+      "source": "OregonLive.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -752,20 +814,6 @@
       "impact": "LOW",
       "title": "Ensysce Biosciences, Inc. (ENSC) Latest Stock News & Headlines",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51TncybGhwSEdCZERzcmZmbkNtLW5vWXJCNzVmaEpSZV96bFMxRE40ai13WmQyQXc1VE95ZFdKRDQyU01BUGkxUGg2NVVjNnEzdmhfVG9lRnE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "bec3b31e9d9f",
-      "time": "2026-09-24T20:05:06.000Z",
-      "source": "Yale Journal on Regulation",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic Churches in a Time of Religious Exemption",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNGNDQ3JnTDVLMWRMcTZtbE9kd0d3THp2UGNOXzVPUENISU5xeUhvMUpTZEVFdXk3MWRSd2tFc0RKTnlZdVk5MDlkWWNYM0E4dUxSVVBCTTJidVdSbl9NbTE2SzBhbUVWUFp4dTRHc2JzQ0E3R1VBajVlN2pWam1SUE9QM2lNbTNTa1E?oc=5",
       "tickers": []
     },
     {
@@ -847,7 +895,7 @@
     {
       "id": "ba4de960b7a6",
       "time": "2026-09-24T17:51:09.000Z",
-      "source": "Marijuana Moment",
+      "source": "marijuanamoment.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1059,7 +1107,7 @@
     {
       "id": "89dfc6b718eb",
       "time": "2026-09-24T13:00:00.000Z",
-      "source": "Techzine Global",
+      "source": "techzine.eu",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1131,9 +1179,25 @@
       "tickers": []
     },
     {
+      "id": "88370eb438f4",
+      "time": "2026-09-24T11:00:21.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "SLNO Stock Soars Over 39% — What’s Fueling The Rally?",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTExjSGFEZGRPOHlNRWE5aEcxZ01VUjZIa083bFlzTnNFVXp6U3haeFZsaXR0Q3hpa2lYajJSR09iUFhRa3p3WjJ4SExyRmhfNlduaWlvYy1CN2pFSW1ER2c4dUs4dGhCS1UwUWkwUThzTTJLMjJ4enpjMVFhQ3N2TWtRNV9ZYTZ3dzlVbS1QWldjX1B1bzRQUTlNaVFTR0g5cXJNRlJVSEFocGNSNG1lS3h1dw?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "de022d42fb39",
       "time": "2026-09-24T11:00:00.000Z",
-      "source": "globenewswire.com",
+      "source": "GlobeNewswire",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1243,7 +1307,7 @@
     {
       "id": "0a912c1636a9",
       "time": "2026-09-24T05:03:05.000Z",
-      "source": "pharmainfocus.com.au",
+      "source": "Pharma in Focus",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1273,7 +1337,7 @@
     {
       "id": "6cef9617e5cb",
       "time": "2026-09-24T02:19:03.000Z",
-      "source": "drugscience.org.uk",
+      "source": "Drug Science",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1283,7 +1347,8 @@
       "title": "Royal College of Psychiatrists Calls for Improved Trauma Care: Could Psychedelic-Assisted Therapy Help?",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVmdNZ3ZJZUViREZNYXBQNkVFZFNPdGZfSURsekFxcU9nMVdrTnFFeUlyQXV3NFVwRmQtSm12OW5odlhOMTkxbUkxRHRfU1FrM1g3VzJzWGhIVzU0eEJrNThPQk51VnFQbklWWnh0dDRxTHpQQXJBWjAxRW9CaGs1VS0yLWNLMGtnWXozbFFHWjRvM3hmLUJmaUo2X3FqYW5SWjFRUjJ2dXRTa0pmSEtXYS1zSlgwUHNkdG5oUzBEY0pNN045VkNCREN3?oc=5",
       "tickers": [
-        "HELP"
+        "HELP",
+        "DRUG"
       ]
     },
     {
@@ -1305,7 +1370,7 @@
     {
       "id": "4e04bee203e6",
       "time": "2026-09-23T23:48:00.000Z",
-      "source": "theaustralian.com.au",
+      "source": "The Australian",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1366,7 +1431,7 @@
     {
       "id": "71ddd9240430",
       "time": "2026-09-23T20:16:03.000Z",
-      "source": "Marijuana Moment",
+      "source": "marijuanamoment.net",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1392,66 +1457,6 @@
       "tickers": [
         "CMPS"
       ]
-    },
-    {
-      "id": "49b45a3aa589",
-      "time": "2026-09-23T19:38:17.000Z",
-      "source": "Investing.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "COMPASS Pathways at TD Cowen summit: launch prep meets regulatory risk",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUkN4clFINjhkR1pTVzJIR1ZDLWdJNzVmZnRrM05wZld4dHpvaF9pSmxOY1lJdnVhZWFwUjc4b1JuVWtfTlg1ampDajBCVG5mRFBPZ1hJLTlIRVlQZ3JMejhyZWxSa0ZTRlA5N2pLcG5lUFhHd2l1ZHk5T2s0eGE2Q3dUcHEzYldfQ0d5MHVobzhRdi1KZktPQWpINFZoeEFHZlVqai03WFdZa2lmTlhYR3JNVnFHbkV2SjFMeHRaWldueEE?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "6617a87ea160",
-      "time": "2026-09-23T18:55:47.000Z",
-      "source": "Oregon Capital Chronicle",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Oregon regulators nix higher fees for psilocybin after industry backlash",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeHJCbVUwS1FZQ0hYS3VlWkdsWDd3aWJUOERYYzIxSW1RUU9KTHhuYmhsYUtSNVFpbDRiN0tJVUR3a2hjMWEyS0JpM1NJMGhhcmZUTU1VMDM0RERuTE9nMnFsTXZ5T3kxRmI5LWpidHk3N2EzakFWdDRYZjMyVS1mNjhzcXd6NEFIVWdveERoN1V6WmtiTEtkYzdCbk80Zkpwa3Z4MU9hUXhPN2VyRDhMUHRUMzVaZHhwWVhr?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "74886e514593",
-      "time": "2026-09-23T18:12:00.000Z",
-      "source": "kalkine.ca",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin Inc. Common Stock (NASDAQ: HELP) Share Price, HELP Stock News, HELP Share Price & Updates",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE50WHdhU1VVV2RNZFFoVDY5T2FMYWEyNHRvTG9GMXRrWW1ZcGNkemg1eXRGUVlTVENTOHNlMGJOdHZHRExUZUw4blpRaVd2YlEt?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "a3da91c46381",
-      "time": "2026-09-23T17:09:12.000Z",
-      "source": "Mugglehead Investment Magazine",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "WARN",
-      "direction": "BULL",
-      "impact": "MED",
-      "title": "Optimi Health releases 5 mg psilocybin batch for Canadian Phase 2 trial",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeXBNclBuYllwc2kxWmt4QnpmTzRwTFRqMHhlRHdCR0JMamRDQVV4Vlo3enpvd1hQcmRMWXpPR1pOb21qYmY5NHhSZkxMelhtZTNEUnhITHdQaUkyUklrX1RLYWowTG5tOEJnNGxEMEwwNC1iTUYxbHIxRE5rbWRRNVBGRQ?oc=5",
-      "tickers": []
     }
   ]
 }
