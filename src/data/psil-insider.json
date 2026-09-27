@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-26T22:09:05.769Z",
+ "updated": "2026-09-27T00:34:12.513Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 5,
@@ -14,10 +14,10 @@
   },
   "ATAI": {
    "buyFilings": 0,
-   "sellFilings": 3,
+   "sellFilings": 1,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 192579,
+   "sellShares": 100000,
    "latest": [
     {
      "date": "2026-07-07",
@@ -25,20 +25,6 @@
      "code": "S",
      "shares": 100000,
      "price": 4.96
-    },
-    {
-     "date": "2026-06-26",
-     "owner": "Kochendoerfer Gerd",
-     "code": "S",
-     "shares": 50000,
-     "price": 5
-    },
-    {
-     "date": "2026-06-25",
-     "owner": "Craig Kevin James",
-     "code": "S",
-     "shares": 42579,
-     "price": 4.51
     }
    ]
   },
@@ -278,32 +264,6 @@
     }
    ],
    "filingDate": "2026-07-09"
-  },
-  "0001140361-26-026787": {
-   "ticker": "ATAI",
-   "owner": "Craig Kevin James",
-   "txns": [
-    {
-     "code": "S",
-     "shares": 42579,
-     "price": 4.51,
-     "date": "2026-06-25"
-    }
-   ],
-   "filingDate": "2026-06-29"
-  },
-  "0001140361-26-026786": {
-   "ticker": "ATAI",
-   "owner": "Kochendoerfer Gerd",
-   "txns": [
-    {
-     "code": "S",
-     "shares": 50000,
-     "price": 5,
-     "date": "2026-06-26"
-    }
-   ],
-   "filingDate": "2026-06-29"
   },
   "0001520262-26-000105": {
    "ticker": "ALKS",
