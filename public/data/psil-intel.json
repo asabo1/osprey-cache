@@ -1,22 +1,23 @@
 {
-  "updated": "2026-09-27T05:40:06.577Z",
+  "updated": "2026-09-27T10:50:08.218Z",
   "counts": {
     "total": 91,
     "crit": 6,
     "warn": 2,
     "bySource": {
       "Fierce Biotech": 1,
+      "Yahoo! Finance Canada": 7,
+      "TipRanks": 8,
+      "The Observer": 1,
       "Albuquerque Journal": 1,
-      "marijuanamoment.net": 3,
+      "Marijuana Moment": 2,
       "Pluang": 1,
       "Seeking Alpha": 1,
-      "IndexBox": 1,
+      "indexbox.io": 1,
       "HCPLive": 2,
-      "Yahoo! Finance Canada": 7,
       "CNBC TV18": 1,
       "Yahoo Finance": 6,
       "TMX Newsfile": 2,
-      "TipRanks": 6,
       "Law360": 1,
       "Stock Titan": 3,
       "Investing.com UK": 1,
@@ -30,9 +31,9 @@
       "Investing.com Canada": 1,
       "FirstWord": 2,
       "Medical Xpress": 1,
-      "shopping.yahoo.com": 1,
+      "Yahoo": 3,
       "simplywall.st": 3,
-      "psychedelicalpha.com": 1,
+      "Psychedelic Alpha": 1,
       "nai500.com": 1,
       "Kalkine Media": 2,
       "MyCentralOregon.com": 1,
@@ -49,8 +50,8 @@
       "KPTV": 1,
       "Yahoo Finance UK": 1,
       "Healthcare Brew": 1,
-      "koin.com": 1,
-      "arcticwolf.com": 1,
+      "KOIN.com": 1,
+      "Arctic Wolf": 1,
       "The Hacker News": 1,
       "PsyPost": 1,
       "PharmaVoice": 1,
@@ -58,14 +59,11 @@
       "Investing.com": 2,
       "MindBodyGreen": 1,
       "GlobeNewswire": 1,
-      "Yahoo": 2,
       "TradingView": 1,
       "Pharma in Focus": 1,
       "NPR for Oregonians": 1,
-      "Drug Science": 1,
-      "The Australian": 1,
-      "AD HOC NEWS": 1,
-      "Willamette Week": 1
+      "drugscience.org.uk": 1,
+      "The Australian": 1
     },
     "byTier": {
       "T3": 1,
@@ -75,7 +73,7 @@
   "items": [
     {
       "id": "92056a3b2a97",
-      "time": "2026-09-27T05:40:05.088Z",
+      "time": "2026-09-27T10:50:06.808Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -88,6 +86,52 @@
       "tickers": [
         "DRUG"
       ]
+    },
+    {
+      "id": "93a339b1ffb3",
+      "time": "2026-09-27T07:37:17.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin D/B/A Helus Pharma (HELP) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qZHZCQk1PZ0hMdjgwc19PY1R2OV9MQnVjOUQxcy00TjRDTHg0OVJNakpIWHl0MzZjYkhNZmRRVG5XUzUtS1dLck9XV2JGeFNKbVE?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "6d8a821cfc94",
+      "time": "2026-09-27T05:55:49.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma Showcases New HLP003 Data in Major Depressive Disorder at Psych Congress 2026",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcWotRDAtdGZoT1M0N1VSVldma3R5WDhhR2wxVUpBZzZueHpMS0JhQVo2b0lNcEFmVFl0RW9rY1BpMFlHdmV4TFhIMWh3U0ZJdHhxblc4eHNPeElWb1ZScUFDSUNVOUVnZkJ5U1lVUkx5ekdFSFprdUpSc05vejNCamZrNHBZWHcxYU5zTWZSLXRGaU90THdrUmRTb3F6N0x3X3dIUk5EOEI4S2NnenQtamkzTFNUT1UzV0hLQTFqSlF0TVdxLW92MkRWdC1oc1dOZHFoWV9acjhpUQ?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "be5b1816dd45",
+      "time": "2026-09-27T04:10:35.000Z",
+      "source": "The Observer",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Peter Max: psychedelic artist whose work travelled throug...",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa0RGaUJVQlJZZmVGOVNrcjM1a3poWGdNMjJuMXRoM084eDlCYy14YllHZlpBWFpvd0VvTHNxMTU3S1ZpR1lJVVFUTVUxRFE4V2N2amFrbFVNWENFMFNWNEhlVDZGa3Q4NnFaenEwOHkydFkxcnpGVGRpU194Mm1CbE9xcXp0dEtvNHVxNUxvZVdpZlBfdHFWRXB1OGtkMUk0TC1Na0NmR3ZIMWRJMmxEODhyaFQ1cDE5OG5lNQ?oc=5",
+      "tickers": []
     },
     {
       "id": "92f8c0d29995",
@@ -104,9 +148,23 @@
       "tickers": []
     },
     {
+      "id": "3ac7afedc33f",
+      "time": "2026-09-26T14:27:10.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Osmind Platform Spotlighted in Expanding Psychedelic-Assisted Therapy Market",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeV9PM1NVMWNxNzZZNWltN1JFXzk5cldKTGVuUkVhTWVZbUpYRXVoWDRxRlh4Qlh0YXlUZUdHNDc4TlducVIwMlg1NUNXV2ozU1dOUkFRN0FrY3drOTNFaE9kYkdKRnpzYks5NGJRc1gyT3VGQU9NQVA4aHNCajVLbDB4alhtTWVOS1c2NGtHaWtKWnZOazFwM1BIRWZpOWVLZnZhSncycUQ5VEVuWmNkVVhiWm9sb19NSjV4cGNEN3Z1UQ?oc=5",
+      "tickers": []
+    },
+    {
       "id": "843546bfe6b1",
       "time": "2026-09-26T14:16:20.000Z",
-      "source": "marijuanamoment.net",
+      "source": "Marijuana Moment",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -152,7 +210,7 @@
     {
       "id": "87f7400669d3",
       "time": "2026-09-26T12:26:04.000Z",
-      "source": "IndexBox",
+      "source": "indexbox.io",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -456,22 +514,6 @@
       ]
     },
     {
-      "id": "93a339b1ffb3",
-      "time": "2026-09-25T14:15:33.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin D/B/A Helus Pharma (HELP) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qZHZCQk1PZ0hMdjgwc19PY1R2OV9MQnVjOUQxcy00TjRDTHg0OVJNakpIWHl0MzZjYkhNZmRRVG5XUzUtS1dLck9XV2JGeFNKbVE?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "f40ecea5a2bf",
       "time": "2026-09-25T14:06:52.000Z",
       "source": "Security Affairs",
@@ -567,7 +609,7 @@
     {
       "id": "6e131f82aadc",
       "time": "2026-09-25T13:00:00.000Z",
-      "source": "shopping.yahoo.com",
+      "source": "Yahoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -627,7 +669,7 @@
     {
       "id": "f5dd49cc06c8",
       "time": "2026-09-25T08:23:28.000Z",
-      "source": "psychedelicalpha.com",
+      "source": "Psychedelic Alpha",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -940,7 +982,7 @@
     {
       "id": "ba4de960b7a6",
       "time": "2026-09-24T17:51:09.000Z",
-      "source": "marijuanamoment.net",
+      "source": "Marijuana Moment",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1034,7 +1076,7 @@
     {
       "id": "0310daa723e3",
       "time": "2026-09-24T15:00:00.000Z",
-      "source": "koin.com",
+      "source": "KOIN.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1048,7 +1090,7 @@
     {
       "id": "ac5d4346d17f",
       "time": "2026-09-24T14:57:10.000Z",
-      "source": "arcticwolf.com",
+      "source": "Arctic Wolf",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1352,7 +1394,7 @@
     {
       "id": "6cef9617e5cb",
       "time": "2026-09-24T02:19:03.000Z",
-      "source": "Drug Science",
+      "source": "drugscience.org.uk",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1362,8 +1404,7 @@
       "title": "Royal College of Psychiatrists Calls for Improved Trauma Care: Could Psychedelic-Assisted Therapy Help?",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVmdNZ3ZJZUViREZNYXBQNkVFZFNPdGZfSURsekFxcU9nMVdrTnFFeUlyQXV3NFVwRmQtSm12OW5odlhOMTkxbUkxRHRfU1FrM1g3VzJzWGhIVzU0eEJrNThPQk51VnFQbklWWnh0dDRxTHpQQXJBWjAxRW9CaGs1VS0yLWNLMGtnWXozbFFHWjRvM3hmLUJmaUo2X3FqYW5SWjFRUjJ2dXRTa0pmSEtXYS1zSlgwUHNkdG5oUzBEY0pNN045VkNCREN3?oc=5",
       "tickers": [
-        "HELP",
-        "DRUG"
+        "HELP"
       ]
     },
     {
@@ -1412,50 +1453,6 @@
         "DRUG",
         "ALKS"
       ]
-    },
-    {
-      "id": "923c16162359",
-      "time": "2026-09-23T22:55:24.000Z",
-      "source": "AD HOC NEWS",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "COMPASS Pathways stock falls 6.97 percent after TD Cowen summit",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT3ZvU3paa0JOOHFTTGxHX2p3XzM5dW9JS2QzTFM3SDdHejdpek54TU1vN2dZeWtlSm5OdEx2UmtoeWdTTjJFbUp4cjV1X1FTQU9XeUV4QlAzSXM1SDVYaTZ0ZFZQa0ZZcGNBODRTMlF1aGFyMjlibFJlako5bXN5Ulc0UnBtMlFQS0k2cDdTWGEwMVRUN0NIemlFVzA1bUtfXzRLSWJOQTJ0bEdfdy0tYjNhM3E4UXV1VS16NE5Ydw?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "685184ec65d6",
-      "time": "2026-09-23T22:17:59.000Z",
-      "source": "Willamette Week",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Documentary on Psychedelics Shows Real-Deal Trips",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdTg1OHdQQk9tdG95TkxSMENsRlpCRE95NGduY29URE5JTGgxU2R4cTBGMTg1Wlp1RzdKdTRiRG9kX3l5THpRSlZENVNfTUM4dksyYTRaSlFpWjY3bi15c01oYWlVYkVOYkg2QU9vVTA0ZktIR1ZVR2pZa2N6N05KOVVXajJUQXcyanFySDNzdmxtejRuYmxadlVJZw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "71ddd9240430",
-      "time": "2026-09-23T20:16:03.000Z",
-      "source": "marijuanamoment.net",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "DEA Moves To Ban Several Psychedelics As FDA Takes Steps To Accelerate Legal Access To Therapies",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX0M4dEhLT2ZRSkhSei0yNm5YSnVmYjJ3T1dYV05TVVNHNmdLZzVtbkQ3NVZiSm9RcFIyckE3a0NuYms2NDlpS1ZuS0hQVzFNdVMydlFpa1pVOGJtZjRvQXdsVzZSeHlFMFBPcXNiejBfWmFFVTVNM0xFU3VjV1M0VTJNVElWandsTFBuOWZXV1BhM2syMk5xN3dPYVFCS0wzbkVzOUNWMnNZcU1FVGJYTnNPYk9EMjFRcUtnaHNCRktwd1YwTm5heg?oc=5",
-      "tickers": []
     }
   ]
 }
