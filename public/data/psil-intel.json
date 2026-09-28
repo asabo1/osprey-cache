@@ -1,19 +1,22 @@
 {
-  "updated": "2026-09-27T22:12:35.851Z",
+  "updated": "2026-09-28T00:47:28.107Z",
   "counts": {
     "total": 91,
-    "crit": 7,
+    "crit": 6,
     "warn": 3,
     "bySource": {
       "Fierce Biotech": 1,
+      "News-Medical": 1,
+      "Yahoo": 3,
       "MarketBeat": 1,
+      "The Globe and Mail": 3,
       "Yahoo! Finance Canada": 6,
       "TipRanks": 8,
       "The Observer": 1,
-      "Stocktwits": 4,
-      "abqjournal.com": 1,
-      "marijuanamoment.net": 2,
-      "pluang.com": 1,
+      "Stocktwits": 3,
+      "Albuquerque Journal": 1,
+      "Marijuana Moment": 2,
+      "Pluang": 1,
       "Seeking Alpha": 1,
       "IndexBox": 1,
       "HCPLive": 2,
@@ -29,15 +32,14 @@
       "theroanokestar.com": 1,
       "Oncology Nursing News": 1,
       "Medical Daily": 1,
-      "Security Affairs": 1,
+      "securityaffairs.com": 1,
       "Investing.com Canada": 1,
       "FirstWord": 2,
       "Medical Xpress": 1,
-      "shopping.yahoo.com": 1,
       "simplywall.st": 3,
       "Psychedelic Alpha": 1,
-      "nai500.com": 1,
-      "kalkinemedia.com": 2,
+      "NAI500": 1,
+      "Kalkine Media": 2,
       "MyCentralOregon.com": 1,
       "GuruFocus": 1,
       "Oncodaily": 1,
@@ -45,9 +47,9 @@
       "MLex": 2,
       "OregonLive.com": 1,
       "Yale Journal on Regulation": 1,
-      "Moomoo": 1,
+      "moomoo.com": 1,
       "KTVZ": 1,
-      "mugglehead.com": 1,
+      "Mugglehead Investment Magazine": 1,
       "KPTV": 1,
       "Yahoo Finance UK": 1,
       "Healthcare Brew": 1,
@@ -58,12 +60,7 @@
       "Techzine Global": 1,
       "Investing.com": 2,
       "MindBodyGreen": 1,
-      "GlobeNewswire": 1,
-      "Yahoo": 1,
-      "TradingView": 1,
-      "Pharma in Focus": 1,
-      "NPR for Oregonians": 1,
-      "Drug Science": 1
+      "GlobeNewswire": 1
     },
     "byTier": {
       "T3": 1,
@@ -73,7 +70,7 @@
   "items": [
     {
       "id": "92056a3b2a97",
-      "time": "2026-09-27T22:12:33.879Z",
+      "time": "2026-09-28T00:47:26.712Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -86,6 +83,36 @@
       "tickers": [
         "DRUG"
       ]
+    },
+    {
+      "id": "aef9de63b44f",
+      "time": "2026-09-28T00:29:00.000Z",
+      "source": "News-Medical",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Could age help explain why psychedelic studies reach different conclusions?",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMHNUd1hlTGZmQkl5dFlPTFVrRmRhRmh2T1RZdGw1WXNzem56ZXhlbmV3NjJicEItdE9EdTJtMGcxdTloRnZ0Yl9ocTM1cXlLTXcxMUQ1cFlrNUVJendwSzlJekdZWXZ3Z1ZRcHQ1UnBtX2F1cXZvTmd0NzI1Q01uQlgxVjNsQTJhVzAxMS1nS3c2X3JuRV9oNnUtNE56SlhPTkZ6YVhrN3NIYURKVllfT3ZhLUN3ZHd2NGpfSlc2dw?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "525895893fe4",
+      "time": "2026-09-27T17:00:00.000Z",
+      "source": "Yahoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "Sensory Overload: A Psychedelic Free-Falling Experience",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTHVHd1dNY0h6UG82X0lFQVZtREFsZFZISjNwcjR1d0ctWmVHYWJibFRDeHFZcWJKYlE5WXVRNWVXLWVkOG5FVTl4YlcyRW1PbVNrYWVHZVNpM0VES2VBdWxuaGRTU3hRYnpTaEJ0OWh6S29qM29xOGJlMGc4M3pwUS15V1RLWlFrVlRHMDBpMTlLTXM0ek4xSEVfN2Vpb091?oc=5",
+      "tickers": []
     },
     {
       "id": "862df95ecac5",
@@ -101,6 +128,22 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmxXdmY0Z2V0WW9ORnYzSGlBSndTUU44NXlrNVdZQzJLamdpc2Q1LTVXX2JNVDkwdDVBR2pNUjgxZlg0ajFRaHpLa3drTzU1V1RCNXBIMEliRlZaaFJNc3VwREhLYWl0S2pFb05LQm50M0JXZ0p0OFdzUWhtSDJLOA?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "4aba785c00f0",
+      "time": "2026-09-27T14:32:19.000Z",
+      "source": "The Globe and Mail",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Bernstein Reaffirms Their Hold Rating on Summit Therapeutics (SMMT)",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOT0YwbUpUOEdaeUUtQk9tMS1GVlREU3FjZUZGd0RXaXpXZHZXWlZrNjBTZXN2aWhTTXV1OGlFU28tdWVSMmVub05nS2lVTU0zRHpoQ282cDhkS0NBdDg5SmxUQXpHejdEcnNnaU9qM3BSRnFyNVh6T3FvanNKQzdIQkJKQ0Yya3VtS2pKRmZhelhaQmE4VjRPUmlYbHR3WWxRYklvZjlzTUpOalpQSlhFeDBOdFdRYU5vU0JfcmhaSXV5VVNvNDgyTWlsV2F1UnA4NUpHQWIySHZNZ1hpYnhV?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -198,7 +241,7 @@
     {
       "id": "92f8c0d29995",
       "time": "2026-09-26T17:15:00.000Z",
-      "source": "abqjournal.com",
+      "source": "Albuquerque Journal",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -226,7 +269,7 @@
     {
       "id": "843546bfe6b1",
       "time": "2026-09-26T14:16:20.000Z",
-      "source": "marijuanamoment.net",
+      "source": "Marijuana Moment",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -240,7 +283,7 @@
     {
       "id": "9453b1326fc7",
       "time": "2026-09-26T13:03:45.000Z",
-      "source": "pluang.com",
+      "source": "Pluang",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -406,6 +449,20 @@
         "DRUG",
         "ALKS"
       ]
+    },
+    {
+      "id": "e030705214c7",
+      "time": "2026-09-25T21:01:14.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Energy Focus, Inc. (EFOI) Latest Stock News & Headlines - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxSExoc2lDOE14a01GbFphSC1jVk9VdHYxcmZvNGg3ekVrQ3JOZnNHNlg2LTBkbUhRbUNLVE93ZzY2a0hDLWlKQnlfNVc3cF95VHRienhCVEU?oc=5",
+      "tickers": []
     },
     {
       "id": "c11397cccff3",
@@ -578,7 +635,7 @@
     {
       "id": "f40ecea5a2bf",
       "time": "2026-09-25T14:06:52.000Z",
-      "source": "Security Affairs",
+      "source": "securityaffairs.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -671,7 +728,7 @@
     {
       "id": "6e131f82aadc",
       "time": "2026-09-25T13:00:00.000Z",
-      "source": "shopping.yahoo.com",
+      "source": "Yahoo",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -697,6 +754,22 @@
       "tickers": []
     },
     {
+      "id": "532938df39f4",
+      "time": "2026-09-25T11:47:36.000Z",
+      "source": "The Globe and Mail",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "RBC Capital Sticks to Their Hold Rating for Regeneron (REGN)",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMjdDNS1aTGN3dzBoOWJXYUpDYko1d3E0em4zWmFCbzJSUEduZVZGbkcxWF90MnphanFIMXFGQ25NTzUxX1lwNzg4VXNJc2ZPWXFHSHk5S1Rsb2dBY2lhbUVZbFctSGk3UHZ5NjdRSmUtbVI2ZkVualNxeXM2eUtoTXlPaWtGeGRTYWJUejBtNXRJUGpzUWwzMDBFNlZ4YVZxQU02bDBCTUhtYVdGM3RGV2FXTGZtTXctc0w4eEUxZnJKMk9fSDB3bFFxQVV0LTBtd2h6MEV5UXYtMDhyd1E?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "a9a4f1633712",
       "time": "2026-09-25T10:56:06.000Z",
       "source": "simplywall.st",
@@ -710,6 +783,22 @@
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPOHVfaUJ0MTBsNG5SNFk4N0dkdkxVVW9rY3FaT0RUOW1zVG5zMVc0b3E3ajFrbDdVZXl0STgxX1FfaUhndmFmLTd2TFRDMGg0OGJibTItMkNZV0NidFZkUjRNMl9VR3pPQV9ZMWFUQUdIbHpva19lNXBpVk5MVi1MLU5kWUdaTGpWTkJLMzFJRldFZ2Q5UUpqdmFkTjh0c1ZMcndENXpVaUtEb1p3SkMyd2N5Ri1tbEJzVkJLSk4wTEsyLVViOXN3UmpIbEpxZW5RR09BSE9oR1hHenRVSVdya01QY1o2ZFBl0gHuAUFVX3lxTFBVNm1mSFhoUExTcHhDTkRIME1Zcm1WRnh0aE44ZDVYTFRDRmI3bW5Ec21kbEtkNS1ZYy1zUEcwWUJGS21KdUZ1QXlDZjZhUlByNW5YbmxBTWkwQWF2ZlJ2Zm9YZXVuTXZPQnRNMVlTU0FmZ1BYZFlYVk9NTGxjb1BDYVFIQjcxSFRMNFZuVWtGcmhxdFZFaWxxcG1zMjdOdXRBNnYyR2N1eEtZRTBVdV9fRGswT0VDZEMyMUZiTjMtSXdSdFBZSkpFc0p1YTJ1bVRhMEVreUpkcU9fMFNLY1g2ZkxDNWJFTjFRV0pFOUE?oc=5",
       "tickers": [
         "NRXP"
+      ]
+    },
+    {
+      "id": "85945647abd8",
+      "time": "2026-09-25T10:48:00.000Z",
+      "source": "The Globe and Mail",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Aardvark Therapeutics, Inc. (AARD) Gets a Hold from RBC Capital",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVmJWUGtRU2JHTzUwXy1ua2tNc3ZHSGFRUnNIaWVSU3RxdExRVFU0SjBPLUxkdmpLdWR0bzROVHJRZHo5R0lDd1h2RGZCdEY5ei1LRjBramZIMjRlV1FOSFZhTEJIa1VHYzVRdVEzeGdZYmQ0d2lXbjdpeE1Oc0pOVmVReEZvLXBVeTNuMThBaFVPUGpfZmlFRFM0R3JlTncwblJfWlpKZFNiOGItU1dmVHRxbHFjVVRZWmwzYzNLdk9YN0FIT1Atc3ZMWFJEdGR2X19MZDB6eUlETDlH?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -745,7 +834,7 @@
     {
       "id": "20e6b4f14b17",
       "time": "2026-09-25T08:08:10.000Z",
-      "source": "nai500.com",
+      "source": "NAI500",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -761,7 +850,7 @@
     {
       "id": "212e40023f38",
       "time": "2026-09-25T01:16:00.000Z",
-      "source": "kalkinemedia.com",
+      "source": "Kalkine Media",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -954,7 +1043,7 @@
     {
       "id": "f079e1f7ddb3",
       "time": "2026-09-24T19:50:24.000Z",
-      "source": "Moomoo",
+      "source": "moomoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1002,12 +1091,12 @@
     {
       "id": "aef158aae60d",
       "time": "2026-09-24T19:09:19.000Z",
-      "source": "mugglehead.com",
+      "source": "Mugglehead Investment Magazine",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
-      "direction": "NEUTRAL",
+      "direction": "BULL",
       "impact": "LOW",
       "title": "Clearmind Medicine reports three published US patent applications",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV1RDWGdXOGF1SkJGT2czWHRRRExaQ053QUp2QUo1bnYtQnBkWkFSVGpVSHN2YU15NTJBQXFQX05DYTZYVEhoSTBLQnI1ODl1a3hOUEhDc0M1TUNNSTBuR0JfYTdBeFF0R0ZvbW9WLVpxMWdkVXIzaFZWVm5iUktidzYydHRmOS1ieFE?oc=5",
@@ -1030,7 +1119,7 @@
     {
       "id": "ba4de960b7a6",
       "time": "2026-09-24T17:51:09.000Z",
-      "source": "marijuanamoment.net",
+      "source": "Marijuana Moment",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1108,7 +1197,7 @@
     {
       "id": "71f94225da6f",
       "time": "2026-09-24T15:04:38.000Z",
-      "source": "kalkinemedia.com",
+      "source": "Kalkine Media",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -1270,22 +1359,6 @@
       "tickers": []
     },
     {
-      "id": "88370eb438f4",
-      "time": "2026-09-24T11:00:21.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "SLNO Stock Soars Over 39% — What’s Fueling The Rally?",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTExjSGFEZGRPOHlNRWE5aEcxZ01VUjZIa083bFlzTnNFVXp6U3haeFZsaXR0Q3hpa2lYajJSR09iUFhRa3p3WjJ4SExyRmhfNlduaWlvYy1CN2pFSW1ER2c4dUs4dGhCS1UwUWkwUThzTTJLMjJ4enpjMVFhQ3N2TWtRNV9ZYTZ3dzlVbS1QWldjX1B1bzRQUTlNaVFTR0g5cXJNRlJVSEFocGNSNG1lS3h1dw?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "de022d42fb39",
       "time": "2026-09-24T11:00:00.000Z",
       "source": "GlobeNewswire",
@@ -1377,85 +1450,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMF9xb1pjaHEyMnkwUmV2bTJkOTZDQXNHMENGV1Q1cFYzNjJoRW56dEtPbXNKd2FwZ3dmb2twSlVUVVg0d09Cb3d3SzhMMGZHa1RFa3lqb0haaFUxY096d2tHNFg1bDV4S1VtQmRUZFBKSlF1dGlKTDBZeXVzZDdRQjkwRzM2TkNoY0FOaDJ3WURUZUxRWjVyVEVxYm9zdWc?oc=5",
       "tickers": [
         "ALKS"
-      ]
-    },
-    {
-      "id": "3eff90b3afbf",
-      "time": "2026-09-24T07:18:43.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences, Inc. (NBIX) Stock Forecasts",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPalZRRWdicE9yR0FleUZnNFVKcTFIY2djaTlyYXQtaUhma1pFM3ZnTEhFMkNfMUV0cGRTdDBFT1dyRk1ZaE5GVUdGNkhfOVVheXB4TnU2cUtudFBjeU9sVWhYZEhnS3lQa1BLR1hCNWd0SzZITnlZR1p0eWNZdFBDVktYTGR5RUFrQVJRSTgzNEFJT0E?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "454542bffef3",
-      "time": "2026-09-24T06:02:00.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics Highlights Phase III DT120 Gains in Anxiety and Depression",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTktIajhoZEFBbThDcjhUdFhSakN6SmUwd0hsVi1ZVlJGelJEUk0tcE5sQk9GTC1xaEJHNnBWN3NfTkpGWWp1X29FRnMzU3RlWW5FVU9SbTRyQ2FSeS1zZDQzbkpsNVJCNTdWWkF0VklHMF9td1Etc3Nsc2tnUzJUamJfdUxuRjhNelFoTDJUbVUtajlaV20xZ2Q1U2xSR01tbWRTMUlsR3RqT3dLc0hNV2FhbGJyVlRnQnliLV8zNUd2ekliWW1JeXRBSXlmX3hTX1AyOHBrYTY?oc=5",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "0a912c1636a9",
-      "time": "2026-09-24T05:03:05.000Z",
-      "source": "Pharma in Focus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic medicines flying high",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5d0k1bWtuclMyR3ZvMzBaQkJlUVZvYkhTWnRPV21MMzQ3dTlCYWZNYlBpaV9tdFpURGdGVUZ0S1hxQUJfNkNBVVkzc2RYMDdIcTB5UENsR3JtWHRpVE5uUmxRZw?oc=5",
-      "tickers": [
-        "MNMD"
-      ]
-    },
-    {
-      "id": "e194336a4a91",
-      "time": "2026-09-24T02:32:00.000Z",
-      "source": "NPR for Oregonians",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Oregon abandons proposed fee hikes for psilocybin therapy industry",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcElMSmJyUGMxWm9HeEFES29yeTNlZmVqZXc3SVR1c25Fd2xEYTc1VC1pZW9vNmpRX0NJZEpGZmIzWi04SFlxb2FlVHBEa1A5TFlLeHFBTTB1Slh2eHNNczBtQ1A4WjlwVXV2NXUzUk1XaFQzY3ZqZExhVHlRX1M5Mmlxal9LSTFHSmlXUFNKcGZKbTFWdDZUYnNwSFdxVW13eFBaUWx6eTF4ZzhG?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "6cef9617e5cb",
-      "time": "2026-09-24T02:19:03.000Z",
-      "source": "Drug Science",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Royal College of Psychiatrists Calls for Improved Trauma Care: Could Psychedelic-Assisted Therapy Help?",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNVmdNZ3ZJZUViREZNYXBQNkVFZFNPdGZfSURsekFxcU9nMVdrTnFFeUlyQXV3NFVwRmQtSm12OW5odlhOMTkxbUkxRHRfU1FrM1g3VzJzWGhIVzU0eEJrNThPQk51VnFQbklWWnh0dDRxTHpQQXJBWjAxRW9CaGs1VS0yLWNLMGtnWXozbFFHWjRvM3hmLUJmaUo2X3FqYW5SWjFRUjJ2dXRTa0pmSEtXYS1zSlgwUHNkdG5oUzBEY0pNN045VkNCREN3?oc=5",
-      "tickers": [
-        "HELP",
-        "DRUG"
       ]
     }
   ]
