@@ -1,32 +1,34 @@
 {
-  "updated": "2026-09-29T12:47:42.740Z",
+  "updated": "2026-09-29T18:19:50.675Z",
   "counts": {
     "total": 91,
-    "crit": 3,
-    "warn": 2,
+    "crit": 4,
+    "warn": 3,
     "bySource": {
       "Fierce Biotech": 1,
+      "Yahoo": 3,
+      "Investing.com": 3,
+      "PRovoke Media": 1,
+      "streetinsider.com": 1,
+      "Pluang": 3,
       "TMX Newsfile": 3,
-      "simplywall.st": 6,
+      "Stock Titan": 9,
+      "simplywall.st": 5,
       "USA Today": 1,
-      "greatreporter": 1,
+      "greatreporter.com": 1,
       "technologynetworks.com": 1,
-      "Next Investors": 1,
-      "Yahoo": 4,
       "BBC": 1,
       "larongeNOW": 1,
       "KTTC": 1,
       "CancerNetwork": 1,
-      "Investing.com": 1,
       "SC Media": 1,
       "MarketBeat": 1,
-      "TipRanks": 6,
+      "TipRanks": 5,
       "marketscreener.com": 2,
-      "stocktitan.net": 8,
-      "Pluang": 2,
       "PR Newswire": 1,
       "Business Wire": 1,
       "Oncology Nursing News": 2,
+      "FOX21 News Colorado": 1,
       "American Songwriter": 1,
       "EurekAlert! Science News Releases": 1,
       "PRWeek": 1,
@@ -34,6 +36,8 @@
       "TalkingDrugs": 1,
       "mugglehead.com": 1,
       "GlobeNewswire": 1,
+      "Geisel School of Medicine at Dartmouth": 1,
+      "Biostock": 1,
       "Investing.com Canada": 1,
       "KRDO": 1,
       "FirstWord": 2,
@@ -41,32 +45,28 @@
       "grunge.com": 1,
       "The Observer": 1,
       "Stocktwits": 1,
-      "Albuquerque Journal": 1,
+      "abqjournal.com": 1,
       "Marijuana Moment": 1,
       "Seeking Alpha": 1,
       "IndexBox": 1,
       "HCPLive": 2,
-      "CNBC TV18": 1,
-      "Insider Monkey": 1,
+      "The Clinical Trial Vanguard": 1,
+      "cnbctv18.com": 1,
+      "Yahoo Finance": 2,
       "timothysykes.com": 1,
       "Law360": 1,
       "Investing.com UK": 1,
       "Bloomberg Law News": 1,
       "kalkine.ca": 1,
       "McGill University": 1,
+      "Metalheads Forever Magazine": 1,
       "theroanokestar.com": 1,
+      "Operativ Məlumat Mərkəzi": 1,
       "Medical Daily": 1,
       "Security Affairs": 1,
       "Investing.com India": 1,
       "Medical Xpress": 1,
-      "Yahoo Finance": 3,
-      "psychedelicalpha.com": 1,
-      "NAI500": 1,
-      "ChartMill": 1,
-      "Kalkine Media": 1,
-      "MyCentralOregon.com": 1,
-      "insights.citeline.com": 1,
-      "MLex": 1
+      "shopping.yahoo.com": 1
     },
     "byTier": {
       "T3": 1,
@@ -76,7 +76,7 @@
   "items": [
     {
       "id": "92056a3b2a97",
-      "time": "2026-09-29T12:47:39.731Z",
+      "time": "2026-09-29T18:19:49.659Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -86,6 +86,84 @@
       "impact": "HIGH",
       "title": "Indivior ends PAM drug collab with Addex ahead of Supernus merger",
       "link": "https://www.fiercebiotech.com/biotech/indivior-hands-back-pam-drug-addex-ahead-supernus-merger",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "1bcf1a625639",
+      "time": "2026-09-29T15:00:00.000Z",
+      "source": "Yahoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Ayahuasca for the Soul Is Chicken Soup for the Psychedelic Age",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY1BVZS1fTW9kdkV3NDNpc1d2Q21Sd1R6MC1BemtEZGk0NWJwa2FNelh6N2VObDdnS2RFWVZtanFQNk1KWWRPVEd5QVBfMHIwcjNkdmRGOTJUUGt0bXJRZUgwTWc3elBzMXpUR1NrNk5kUjdZaGJfNHpMSWVrbkYxNjFqaUZzVmtsck9BSl84bUdWVWNzX3p6T1RIWQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "ac07a7c86c4f",
+      "time": "2026-09-29T14:38:55.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "UBS cuts Neurocrine Biosciences stock price target to $214 on competition",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVmpXTTdwUk4wVDh0cTJYYktWZ3dlWWFMR21PUWNDaFh0TnZ3WkJIWFNjSHUyZXRjYkY4WDl1bk05c1ZiVk83MDlfUWsyQmpZcFA4dWtjT0l6VEg0RWFzTUx1NWZDbTJlRVpQV0ozSXRqY3RPQlJzWDBLX0d4S3FxeUwxbXdZZkdvQkpjLTE0T3lxRjlWbkNYbUQ4Z3BPb083bkc2WnBYNnZ4U2lEb1BFeUtCMlh5Mm1QNXJjdWU1VFFTeFd0ZlFZYllqdFg?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "a16abf3b03e8",
+      "time": "2026-09-29T14:06:00.000Z",
+      "source": "PRovoke Media",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Ruder Finn Wins Neurocrine Biosciences US AOR",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS0MzQ0QyVlhoTnlzWW9Heko1SHE5YzVJUC0yempiNDZSZzZ2WG5FUGN4OTlpdHhzci1wT2FXVk9SVmhWQzZqNTZwbnpiR0I4ekVfN1V3eG9saEplSEsyWGpkMkh5a1ZkMmFFZnF3dkZNaUJjcDNrZUp3eGxienRZcHU2a0RaQnd0T2xTYUpLdlZFalE?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "5a7b4788a827",
+      "time": "2026-09-29T13:13:57.000Z",
+      "source": "streetinsider.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Neurocrine Bio. (NBIX) PT Lowered to $214 at UBS, Buy Rating Maintained",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYTdTWWdCUlFpb1JqY090Mmk3SGxpNTRJUEROQkVWNlB6SGRSLXotZ3ZDQko4R3hoeXdGWHNxVndUVHdwMXJqX3FSTlJ4SFZxRWVrcDdvNExGN3ZzWnJZdGJrNjRXemlMZFZjREYzaEVxNkVKbGZRcDNZUFFPVEhPYU81aS1aUEhOa2s5QWdtVk1qMXFyb09ZcjNVbVBfb1djbnR5bmh2QXd6STZGSndnaWdFX1RZZnY4ZXBSYUp3WVZlYldSUGRSQ1FHM0M3TXpfWGRNcEV6NA?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "0633c4a1a47c",
+      "time": "2026-09-29T12:05:07.000Z",
+      "source": "Pluang",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Filament ships psilocybin drug PEX010 for Phase 2 PTSD trial at University of Calgary",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMVNZRGp2SmY5eWRoMjdKY0RFY3hDcTFQSUd1TFBuRk15b0RsWVRSeHpmMDlHM3JtUzR6Z2dLR2ZaYjRud0UxTmt4dDNzTHVMcDlBVDBBRmMzUlgxcjUyNWpEdnVJOEtSd2p1TERTQ3BTSlpmUGNGeThnck5BVkpPRkJ5VnEtdDNnQUZOU1RjTHdrREs2SE5wUmdDcVQ2LUE?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -102,6 +180,20 @@
       "impact": "MED",
       "title": "Rhelion Life Sciences' Wholly Owned Subsidiary Filament Health Ships PEX010 to the University of Calgary for Phase 2 Trial of Psilocybin-Assisted Therapy for PTSD in Survivors of Intimate Partner Violence",
       "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxOTlBMSzJ3aFYtMUk2d0F1d2ZKOWdZTUFzaUFOUjZJVlZjQm40NjZFSUlPei1WeGxyWERxaFVHTl96d0FyNTRRRFdNc2V6bWh1MTBXbkhBa1FvYUFSQmhIajJvYmlWN2xkY0NjZHV4YkdIOHEyX2dwdy1LellWMWl4N084WFRzNjhFeVoteWg0Z1pFZ2o0WVQ2WktwS1FTdE1pYUxJNVRyQjdOeWxLLUUwMmE5NjYxZXVtRk1hNW9KWXdEWjZSTm9sanlwaUphT2hTSVMzOXVZUEpFYXA3NGo5SmdnRkFKWEtqRk1wd3o5SFJXZGpmb3lrcHhGd3MzV0J3b2EtU0xUWXZIdnRRVkJhU1h2eFZrMnhFbzItYU93SmNYY3pmdGdNbGdQbExza1hMMEtIVXVVb3JzM2d6STBFNDVHSGw2aE1ScWVUVDFhX3VicVNLemtkLVhkNDk0SXlJcE1KZg?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "e1c6df578fde",
+      "time": "2026-09-29T11:53:00.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "A Calgary trial will test psychedelic therapy for PTSD in survivors of partner violence",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM1VtbFlobFM5UUV5RzRxakFnTjZjVEVxQVhqSmRCNlVQVkFlNjU4eG5wUnJNZVllUWNQMWFwOW1RYkFubk9jWkQ0M0JCMVJfZGxUZGhDRHdPZjd6WVdHRjNNR2paaWxSUFhnOHhxRGZtZE1ja3F5Rm9MVG5xNHI1RERsU2hHSjRmY3loc1RzX1ZqWkJ5LVB2SVFvenRfMWY2djFoeHk1UXdpZlMtcjBVV3FwRVBzbjN5elAwU3FVZjM?oc=5",
       "tickers": []
     },
     {
@@ -137,7 +229,7 @@
     {
       "id": "0fe0db1fe5b2",
       "time": "2026-09-29T09:20:12.000Z",
-      "source": "greatreporter",
+      "source": "greatreporter.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
@@ -160,20 +252,6 @@
       "impact": "LOW",
       "title": "1960s Psychedelic Safety Advice Still Resonates With Users Today",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMFFneXNqa1R3ZGxNYXdsdzJhTi15UnU4bEh2OFgxTXNYQTlGZlUtYkNOUGtYWWZ5UlpqZ1JZOXdGXzhTZGdQNnJUVFlOcmdudDlFdjU5OWFWVUpiTWY2WEFUQ1U5MUJoWXJZOXhmSjVUeHUxZ1lVVk56eURjcTdYWWFtNnZlb2ZQZ282d0NRRTlBVUszUWNqVVBpYmJjZTF0elA2ZFdtR01uY05FVENobzNLX20?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "9e60f5d68828",
-      "time": "2026-09-29T03:54:31.000Z",
-      "source": "Next Investors",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "EMD opens Sydney clinic - now in Australia's four most populated states",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMFdhbjk3Qm1Fb0FIWHd6bXBEVjd6ZlpNUzlhNFpNazIyRW1VeE5DLTY4c29rNE16SHBkak4xLW9VSWJlbkZBUl9VZWx6Uk1yZjlIN0ZPX2hNMWhseDAtVUR6aFFqaGwzSW9fQnl5LWpUU0lHWTFIZDJtd2l6WWd0cDhocTRwdjU4blN1bGNrTXB6UGdSYzByQ0xBdFNvRm9ZYUpUSjIwTEx0R28?oc=5",
       "tickers": []
     },
     {
@@ -359,25 +437,9 @@
       ]
     },
     {
-      "id": "ea360055a62a",
-      "time": "2026-09-28T20:51:31.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine names Eiry Roberts, M.D., as Chief Medical Officer",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcWF0Q01NRHBnQmJ2VElPX2dKUlIxU1U5T0VoeWktdHVJTWgwWm95RXNCVkhRNXNtVm9NS05VaWNIUFZldlpoSlZBeHBNeUhiTWx5MmgySzJFc2RMQjM0emdmUWM3QUxYY1RnaGd6NGFhR2Q4WHQydDZ3WG1HdVJ5R3NHRnRTaTViaVJLQ19KZ25ORzQwSmowUnJoaDZiajBsa1NsbEN4MnM5WmhF?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
       "id": "8b9a725370e1",
       "time": "2026-09-28T20:21:27.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -469,17 +531,17 @@
       "tickers": []
     },
     {
-      "id": "a8f488367578",
+      "id": "7bf767b2af4e",
       "time": "2026-09-28T19:16:38.000Z",
-      "source": "Yahoo",
+      "source": "FOX21 News Colorado",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Suspect on ‘psychedelic drug’ lies in street, harrasses people: CSPD",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc2hxRUhmSm1HdG1rZjh1a3hjU1h2eDRqNXc3UmZDUUFyQlEzZkZscEh3bmlkSTFvWlNSRHpjNGtyYzE0bXlqS2N2MzM0V1lTNzZkZHg1enZxNG1zZ1RVQ1diZnZSU3Njc2wtbVVXby1OZW1hbkt3eVJlMVI1QThGOER6T3FGSVZ0Sl9rZklHbko?oc=5",
+      "title": "Suspect on ‘psychedelic drug’ lies in street, harasses people: CSPD",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd2JWQ2VXM18zRHJYR3lxalVYTFU3aXhZNllJVWR3MGhveWVWX3Q1X2twXzVHR1NXcmVpNDdWdUppZjhNQzJaYkp6UjBmUXE5SElDVU4ybjNKa2lNOVVUcDh1SmtzX1FKOTYyUE8yVjJ2TVVRMlh2NHQyeDZrLWprVFc2N2ZqRG0zQUVXUE1YUHFYalRVZ1dKdlI2cmxkWTRyMjQ0cNIBqgFBVV95cUxOY3RoTHp4eGdUVHpsYVIyYmhVd0dPOUlXQTZqb25xNkp2UVROTlpWQkVYUEdrODRTdjZ6MVlySmtGQW05M2ZCdk1SbDBmU0Q0RUlYWXpiUlRqS3FIemQ0TTRCaVAwbE1Qb3FyY205bmF5Ql9KSm1yVEtaMXprcDh3U1hDazc2TEZMZnplVS1zNHZnby1wR05GNkpLS0tHa2EzZVRfd210cnQ2QQ?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -571,9 +633,23 @@
       "tickers": []
     },
     {
+      "id": "c43468210978",
+      "time": "2026-09-28T12:09:49.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psyence BioMed unit signs term sheet for U.S. ibogaine rights",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1ROYzVJbGdTRkJUQ2h6VWtMRm11X3FtbFNiYS1jam16aVhoZUdTMDBjTnU1NWhqWHNMblVaVWhoN0E2ajczSWRyY21QZkxoM3liaGtxM1o4bjNwTUNTcVBaSGt1b05GNEVrako5N1dmQXFuU3I1YnB4bEw4TUNZWlBaNmxkbGVQVGJraHl2dkY1NEl5dDRZb2xOUWVtd0dOb25yVEFTQjNwSEdJazJ3bVFXcm5oaE0?oc=5",
+      "tickers": []
+    },
+    {
       "id": "9684cc74f65a",
       "time": "2026-09-28T11:00:44.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -601,7 +677,7 @@
     {
       "id": "f98583edbd12",
       "time": "2026-09-28T11:00:00.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -613,6 +689,34 @@
       "tickers": [
         "DRUG"
       ]
+    },
+    {
+      "id": "622e96f23111",
+      "time": "2026-09-28T07:00:00.000Z",
+      "source": "Geisel School of Medicine at Dartmouth",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "FDA Approval of Ameluz Seen as Boon to Skin Cancer ArmamentariumMedscape",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVHNPZ04xNzJrR2xuMXhWMlIzaWgwUF8wQUlKcVNNRGJGdHVXbmpBdFU0UXZuT256ME44N2wzZ2JWdTFQTVNWTThHNXdoUm9DRGZXWEVzWTg3alh5TkFlNzlLamJvQmVvbWNrUS1vdHVhSlpfUjNBejBCZ3pMR2tFZXQ0ZlljUHMxRklzYS1SWmR6c1ROY0JNRkJhNFY2MkdRZWNhdFU4Ym5pbFM0NGNveVZyRWRVdw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "d92b04d8d548",
+      "time": "2026-09-28T06:20:48.000Z",
+      "source": "Biostock",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Finnish Kasvu raises €30 million for psychedelic effect without tripping",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObjZ3VlVtX0FWVWxaTFpTcVg2aDJnVmhldE4yWmNmamhjUHg2WEhqV3V5ME42OVBIUHlMWmlyaU1PM3pxVlhvRUFCLVMtejJjRHRMQ0VVRk9WTjBqZ2FXdGlJd1RaMGw5VDZkWjExMzVRZ3FDQ0kwSTQtS3dtSTdEa1FEN3d1Rm93TUhFeFJRN1BGNTg0V0xhQk1KajkzS2hNZEJ6Vm5SNGZxQQ?oc=5",
+      "tickers": []
     },
     {
       "id": "ef8280670165",
@@ -753,7 +857,7 @@
     {
       "id": "92f8c0d29995",
       "time": "2026-09-26T17:15:00.000Z",
-      "source": "Albuquerque Journal",
+      "source": "abqjournal.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -853,9 +957,23 @@
       "tickers": []
     },
     {
+      "id": "4a8c7fbf7abd",
+      "time": "2026-09-26T07:28:44.000Z",
+      "source": "The Clinical Trial Vanguard",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Platform Trials Are Rewriting the Rules of Evidence Generation. Regulators Haven’t Caught Up.",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaUUzUWx6c1YtVjVFaENtV0JDZHJOQmEwYzRMT1VDR0cyc0xVX0N3dEJ4Y3l3ZlVvSm9iWWJrOGo4RHNHU0ZGcWlMNDdrbFhsUklEa3ZvYS01RldyM3RuQU8wdVk5dEtuUDJpb1pKWW05eHpBQjZDRzRIeExMMHJvblFiU0QtZDZzMzd0MWIyR2tzcnVkcHZiT0RhV1RFQzNiODhUbGRFZS1ub3BKbkpna1ptekc1R2MtMWRSOW1zdjZ2dzVwbFdPY3pXNjdDaUNuQW9Z?oc=5",
+      "tickers": []
+    },
+    {
       "id": "996a2c183ed7",
       "time": "2026-09-26T04:25:50.000Z",
-      "source": "CNBC TV18",
+      "source": "cnbctv18.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -867,9 +985,9 @@
       "tickers": []
     },
     {
-      "id": "87c14a346a79",
-      "time": "2026-09-26T03:59:02.000Z",
-      "source": "Insider Monkey",
+      "id": "bb8b6e3def30",
+      "time": "2026-09-26T03:59:00.000Z",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -877,7 +995,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Alkermes (ALKS) Reports Early ADHD Drug Results. Can a Larger Trial Show it Works?",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeFVIemFsTi0wUnpQWDhDdnpCWlRaN1R2TC1kVE1YXy1PMHAyanNSMkZScDRtbGRwV2pNNVFOQVJZRVpfWEVRejdnXzJsaDJ3YWRaMXFpYmlzZ1JfV3hMalVOVTNQbmlHdTNEVkoyZ1ptaFNqdU9JVGk3cEx6WEctcVVtNEZYbGFOYlJNREw5MTVjQ3JDYXFsTnNNdnp3TDlkbVVrakhrM1l2cFNNNURraXo5ZkJRVVhXcURKbkJTT2xyNGVjdUNn0gHHAUFVX3lxTFB4VUh6YWxOLTBSelBYOEN2ekJaVFo3VHZMLWRUTVhfLU8wcDJqc1IyRlJwNG1sZHBXak01UU5BUllFWl9YRVF6N2dfMmxoMndhZFoxcWliaXNnUl9XeExqVU5VM1BuaUd1M0RWSjJnWm1oU2p1T0lUaTdwTHpYRy1xVW00RlhsYU5iUk1ETDkxNWNDckNhcWxOc012endMOWRtVWtqSGszWXZwU001RGtpejlmQlFVWFdxREpuQlNPbHI0ZWN1Q2c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcnRLb29tMGUyMF9sRFZXQkxuRTlTT3N3OUJFNTBCekVMaFNoUUFEaXpfRU5ITlktZWMwcEVaeTdUaXlyWXlsV1Itb19PUlFoWmFkQzR2MmF5X2cwcTRrYnJIT0UwTUhmQzR5WGRDTFc2bV9ZcF8zSTJVMDJOekJYdU1hNHlXZTBQcjQ0bGx3dG83WjdmRDFqRg?oc=5",
       "tickers": [
         "DRUG",
         "ALKS"
@@ -949,7 +1067,7 @@
     {
       "id": "c11397cccff3",
       "time": "2026-09-25T20:41:45.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -965,7 +1083,7 @@
     {
       "id": "3b8acfc26298",
       "time": "2026-09-25T20:34:31.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1013,7 +1131,7 @@
     {
       "id": "c0bc80dc72ba",
       "time": "2026-09-25T20:17:31.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1071,6 +1189,20 @@
       "tickers": []
     },
     {
+      "id": "e917b9e72a4d",
+      "time": "2026-09-25T16:49:58.000Z",
+      "source": "Metalheads Forever Magazine",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psychedelic Rock outfit TANGERINE STONED release video for \"I Shoot The Moon\"!",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQmlBeTBOREMtTlYzeEJKMk1qS2tmclF0Wk5maTRfTXJfLWEzQUhIRFdLQnFDeVVpdUZMUTQ2YjBDeHNOU1F6QThKalJicDVYR19OT0xDM2RqSm00SUdiT0JsWERVRkVCeFJubkpLSDhIbXdkYXFLSjVPUlBoeHZfNGUtUE0tYVFDam5oSWhuaTBYYU8xaC1fc3JoYTg?oc=5",
+      "tickers": []
+    },
+    {
       "id": "3a9a86ff2757",
       "time": "2026-09-25T16:47:11.000Z",
       "source": "theroanokestar.com",
@@ -1097,6 +1229,22 @@
       "title": "Psychedelic Medicine in Cancer Care: What Nursing Teams Need to Know",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeEdSRjJLZk9Ta3RyVXN2alBDblZnNDlqRWlqN0RtLUoyMGVSX1JVdXdfREN4dVd0STNudFk5eWhvZkJoeTQ4Q1lDNE5wR1VFeW9fZ3ZmVHBIRnU5NndnQVkxSVNMTEYxZ3dSMmN2MWszNzdOb19CdmhhVUgtTEZMZGluSXpWUnlhdU5pNGFSVGV1YTFnZWVhNzZoWHhIZENER1hibHZn?oc=5",
       "tickers": []
+    },
+    {
+      "id": "cd01000de0d4",
+      "time": "2026-09-25T15:57:44.000Z",
+      "source": "Operativ Məlumat Mərkəzi",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Rapamun price in Azerbaijan — price cap",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1RUowbEk1Z0NIV2VZM3RTcmFxYTl1N3hxbHpzdFhtSVlfcnJqVTdMRVJkd05vclFxbWNsNWxjWnpIb2RCc1BBTVRwWmx1b0pkTTU0SG5MQmJBLXlfWjJB?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
     },
     {
       "id": "7f3b4b56d434",
@@ -1179,7 +1327,7 @@
     {
       "id": "457ae63bb44b",
       "time": "2026-09-25T13:12:08.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1210,7 +1358,7 @@
     {
       "id": "6e131f82aadc",
       "time": "2026-09-25T13:00:00.000Z",
-      "source": "Yahoo",
+      "source": "shopping.yahoo.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1252,7 +1400,7 @@
     {
       "id": "37593c461283",
       "time": "2026-09-25T12:48:00.000Z",
-      "source": "stocktitan.net",
+      "source": "Stock Titan",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "trial",
@@ -1293,157 +1441,6 @@
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa1RIM1N5M1FTRGx3UllOSTV2ZXptcEFtbGtXYzZXaGNnZUV6THZSNlBja2ZITlVlSUpjQVlrRkZlUk16el9HNWNzQmJmU2FobkF6Rk9jZVVPQXVmUV9aTjg2cGVfbGZRMUhLWk1pMVlpLVpOSW1RUlM3bjJzNDV1M19VLU9SYnYyaG5qTG1JSzM1cVhHQnRHMGFpUEhGbnM4UlhzX2FoLVdNRWxFczFOcVhYSUJKdERpd0QzTXJyZHY0bUg2ZWxrNWo3YXc5YnZ5SlNiZHByUFcyMTNtcUR5WUx5WHNBVkZWWkJ30gHwAUFVX3lxTE1heTVNOGdLblcyOERNX2dheXNpRGpZbkpFdE9VYjhCZkRhUnktbGZ2VjBVdzh5MWdiUWFGX3VnSjREZUFMZzc5U1F5OXZmVjJqajFWVlVZY0p5MndpUXg3V1FSSjhwVEhOQTRQV1BxM3k1N3p0VGllODdsSWFXQ1ZXYVlWWDhYdnB2dmNyb3J6cXZHY3lpSzNzdjRsUk9QblpNUHNSNFZTdXZKLXRranNkcDRFdjltWHFXV3BvUzM1ZWdnaE9DTzJFS2lVVHZrSTNJOEs1NGNlbEdPaU5qZ3ZrTnQzWXE2ZFV4aGxNRmNpbQ?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "f5dd49cc06c8",
-      "time": "2026-09-25T08:23:28.000Z",
-      "source": "psychedelicalpha.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Pα+ Psychedelic Bulletin #232: Q2’26 Psychedelic Lobbying Update; DEA Again Moves to Schedule 5 Tryptamines; Oregon Backpedals Psilocybin Fee Hike",
-      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPMTJYYXB1cG5KRUhiMGtENTdCU00zVnVBN2pvWms1cmJ6QnZzdVVSejJOOGRtN1ZJMW5ORFFHQ21MOGhTMUEzbURIUWdCdEdESWNkY19XMEtpMUtYdzhBeDRCNkxXVW9pOHlGTXl5cU96eERKZjZmSTMtUzZNVDU4WTZQTElCNVJiZnA5b3B1MkhvbllDVlFvckc4RXlCaldmVGxMb1RGNEhQeEt2SktkOFFWTG5PLS15WXZzN3VhMFBOSGhSbVE2VmdmbDdwYzBSSldlZVFOdkZreGZ5NnlBQ0xUOGNqZzZvOURUVU9fLTMyQXdqUkx0LXQ4LWxRVFNWMzBNUVItS1I0ckdu?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "20e6b4f14b17",
-      "time": "2026-09-25T08:08:10.000Z",
-      "source": "NAI500",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Revolution Medicines Receives FDA Breakthrough Designation, Royalty Pharma Offers a Diversified Investment Path",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNTZ5V1BvdXFrWWZnbko1UVYtV3QwMDlPdjAtUFJZZFU1ZUVvYTZXOFJST1BVaUFCUktVbHc1UFFIQ2ZPWUZEUjBKNFdMZjNjSWRETEx1SWdiRC1xVUs4OVdrTTk1bXA2N1JWdGQtdGFxb3phZXEtMS1ucWtiNnZJaHhGWmFJMmxhMHJHbkEyVlBXWXBad2E4WF9wWDdUZWxtRGFnT2dndXpSbXUyZTdrWHVjeUNVS011WlZ3RWRTUEJHMFh0QzR1SVlrNDBFdV9QV0MyenY1WDQ2em8?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "dadbacf0726f",
-      "time": "2026-09-25T07:00:00.000Z",
-      "source": "ChartMill",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRXP Stock Price, Quote & Chart",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FLWFOUm9yb3dFMU0wVV85V3h6dFFyYWhYTDFCN1AtWkJZREZMV0VSdUhqZHBMMVVjRUJkQzllQ2I5a3o1NDNvdHhCVWNoLUNGczJ5UGRoNnhOZkI2N1BN?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "212e40023f38",
-      "time": "2026-09-25T01:16:00.000Z",
-      "source": "Kalkine Media",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Could an FDA Hearing Open America's Door for Emyria (ASX:EMD)?",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeFdIVXc5YUF0MHViTWV5SUJRVFBweGpkS19aVUw0VEdNUVNnaktwSTdrQUlGX1pYNmZpa3JEa1g0b2xPWFM1WmIyQzluOUUzLVRSSnA1ekhYRllJRWNtLXZmQzFXMHJual9ZUFd2dm8zX1VSbEIwOERFM3huQ1hJOElRVlBmcTByc0FxMzZLM05uUkpyU2kxTVlMY2ExMWo2cnM0?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "3edbaf2310b7",
-      "time": "2026-09-25T01:14:00.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin (HELP) Stock May Be Trading At A Premium Despite Fresh Depression Trial Data",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd2luOE1KWUktME9nVWNMRmVUR29BQW15UXBySTRZUkZoSzYzVGV6YnZ3dFU5aC1pdHEwbXppWkhTNHpIN0xnY2ljX1FIWDFmbTVNUWRfdHZDQ09OOG90N3NwTzY3eHVPR1Z0MjJQV1FoNm5zcDRuQzgzMDliTWFqbjNuVnZUdW5Ka1FCSndEaWRtUHc0TTN2dw?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "a326975aac2a",
-      "time": "2026-09-25T00:31:45.000Z",
-      "source": "MyCentralOregon.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Oregon Not Raising Fees For Psilocybin Licenses",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUE1aHFhVzViLVVUY0JJUXNRZTVqRldCMmNsbTRJV0I0QTV2WXRpRGlrNkw1M0tvTHBBTF95RGpvME5pWWFzTjkzeU15R3NjNFFlNzFjWGVYVkZFRFgxeDFYUDhrT0NqeEJPaGNhWm9EXzRhYzN2dkNrVlVRNkRKZjkwX3V3U2hRWVRQeUs4NGhvd3ZzLUE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "d6fdd2b870a9",
-      "time": "2026-09-25T00:02:00.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways Targets Q4 COMP360 NDA Completion, Eyes 2027 Launch",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmc3NjY2ZG11SmpwMnR0T0FIS1hnVVNLVXFyNHpLSUhWTldMTTFkWlVIdzhieXBqQ3RTeWJ6bHNUSWVla01UNHZHbncyeXUyVVhxdGg2Q2pTSzVyNkMwWFRBSGtkY1BnSnd4MFlOZUJBOUZNQjJNLTVPRzJyLVBkVGVmQWFGODkyV2s5MThWUUhDTk5qNllZLWpGam4?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "23a6e72a8fba",
-      "time": "2026-09-24T21:32:29.000Z",
-      "source": "insights.citeline.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Due Diligence: Is Big Pharma Interest In Psychedelic Medicine Blooming?",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSFJtTlhZaWxOOENZdG1XSVVGaFgwSF9ULUMwS1dyWmZ1enhHTl82VGZYT1hWalVVV05MUzBQOWVadExVbktPd2RqLXI5dzZFcE9IdUFaV1RpcUVPcGpJSWt3U1R1cDFjRE5tbTlNSUFfYVNBdEpGanA2QUdxZzRaYUJUX29jODgzendUVXk0V0hUaE9ObnlyYVBLMmV0ZGZLc3EtZmhZb2lSTDNnalpSbmJGUHNrWlF1MXRHb3lHaXJDQmFCeHN4dUJBNEVKaTl0OWtyUTNiX2JkLVAxbjBkNkhR?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "86e0230d3a1b",
-      "time": "2026-09-24T20:53:00.000Z",
-      "source": "MLex",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Value Drug plausibly alleges Alkermes duped USPTO, judge says in antitrust suit",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPamZNMFV0ellMQmRHWDh1Q3l6NGJfMnhHVnZPZjlULWVDb1pkUVZ2VURBQWMta2MzamlqSmVqbkt1Q2ZyTDRPaWJ2SjJuVWQydzg3SnE1am50SUpsRlpDUjZkNklpNEQtVFR3YTlJcm5BMkI3TEE0YklfQUIzc3gzXzRJY3R1blZQaUNJaE54cWtZSTNXajBNcC12bWRTUHBoaExfX2N3ZDJGd1hpdDF5ZExHclE2ZDc5ajJremd30gFaQVVfeXFMUEx3LURzdXdua3QxSS1NNGRZNVRaRHNLdmItaFMxT2hqVWZMWjhGUWhnckU4cUthWE8zdVJaSEpSZHZMZ19xTDVxa180aHRIRTdRa3ZOWG9Udmx3?oc=5",
-      "tickers": [
-        "DRUG",
-        "ALKS"
-      ]
-    },
-    {
-      "id": "b976e4f21b2e",
-      "time": "2026-09-24T20:42:03.000Z",
-      "source": "simplywall.st",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin (CYBN) Presented 12 Month HLP003 Efficacy Data At A Psychiatry Congress",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQXpPRWk5YXF1TDBmQ0YtS3VobURCZ0toN2NqbHRXSVlDUnVadFVtNE1SYk12WEJGdkVIT1VISzJKeGFxNEx0SnVaamVJZDNEQ19EamtSckdKRm9QWjVSY01rOVdBeG90NzFtSUhsTmJvNE9PSUYxODU4cVhDaVZLR2hyLXlZNDRQUEswWE5WZ0dna2xKbHoxRUZYUzJrWnNkTWtjc3d0R2xIWndYYkV1eC01ZjRWYzVpVFR4OFFld0p2YV8tUFpxTWl1aVowbVRKdk1uTDhR0gHbAUFVX3lxTE00WVg3OUZIaEFYRVpQdVRSanlIMWJxRUtLMGtQMHItcDhNYlBpZkxhUW54Y2g1LWpWay1wQVlnMnpGWmp3WGVSempiUm1iWXZETW9Ed0VCOFJmZF90WDh4ck1nLVZQb1NNN181M0JxUWNOc053MzFKREh6SDFXbVFHMnpka2QtYkdRLXItZEZDdGRoNWgxSGYxWTg0RUw1dzdZczlQZG9kb1Z3RVMxb1dNbnBaU2RiNlpvX2g5RnZjLWg2M0VhYkYxWHZTR1JLRFRyOTFBckw2YTM0WQ?oc=5",
-      "tickers": [
-        "HELP"
       ]
     }
   ]
