@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-30T22:11:17.786Z",
+  "updated": "2026-10-01T01:22:59.952Z",
   "latest": {
     "date": "2026-09-30",
-    "wti": 90.33,
+    "wti": 90.05,
     "wti_prev": 89.38,
-    "wti_delta": 0.95,
-    "brent": 97.95,
+    "wti_delta": 0.67,
+    "brent": 97.89,
     "brent_prev": 102.59,
-    "brent_delta": -4.64,
-    "spread": 7.62,
+    "brent_delta": -4.7,
+    "spread": 7.84,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,13 +160,136 @@
   },
   "intel": [
     {
-      "time": "21:48",
+      "time": "00:16",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "Rail Traffic SURGES: Intermodal Hits Record Highs",
+      "outlet": null,
+      "source": "Freight",
+      "date": "2026-10-01T00:16:51.000Z",
+      "link": "https://www.freightwaves.com/news/rail-traffic-surges-intermodal-hits-record-highs"
+    },
+    {
+      "time": "00:13",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "text": "US Iran War Live Updates: Iran receives US 'feedback' on 7-day proposal to reopen Strait of Hormuz",
+      "outlet": "The Times of India",
+      "source": "Hormuz",
+      "date": "2026-10-01T00:13:44.000Z",
+      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNRU1zVzRseDdaVnFPazA0OTYzLVQ5Zk56MkJub0E2Y1dYdG9kZGpQNWJVc0ZxbmYxNHRMUm9qcG1JZ3NReGtTQWVYTDJ4MXQ5cFFTdG0xdjdPdDR5OHVua2JkLV9QYXhNb3BiNnVvZkdISjJPeVJWMWVHMHAyNF9YMEtvam14ZmJpZThScmtYNWxWb2dCMlpKOUg3M3A3U0xjTU95cHNLR01NdEpJckxOR1FBU1ZUbWhYWGtmNXRGdmQ1V2lZZkRZUW1YVlN3czlfWnNBMjZEUF9SMGE0NjM4MVQ3alB5cm1NTmVHWHFXMXZjWS12cFBsWTJWM3FtdHY3OGRSdUdmeHF2WnM4T3M1SmwzYzl4X2ctTVN2UE5DY3UtT0dZX2tUTkRMYnlWY0Zj0gG2AkFVX3lxTE1KSDlmcUg4NUY2QW03OFdfTnAtSmRPN3p1TGZ1RUhHUFJkQkoxLXplVkpGRzJmMmJhVGRqb0RWdmRLMVh6U1RCc1QtSlN3S2lnRkcxLUpBeHA2dkZwMWVZbWh1cURmeWpLTUZZck0yc2k5Y0wtU25wS29raERhcjZ4dDRZRGR0SjM5UHh5VUZVWTg2aU9oYXdXRzZVYXd5MHBnV2FCLWUteDJvd0tBV29TLTlzVTJvdlVvT19uYU5nV3pqQVRyTm9hSzFIbkNlb2pzYnF0YndaaVEwem9jNnh5NzFqRG94MGRYT0JmWW1tRG5HdG5TRF9qR3NxY1BYcURZc1FZcHE4dnZjYzdmRWt6dnZocjA4UXJ4TWV2S1kzN1dER1J6ZkE0U1F3d2k0Z3hzcTNnb1E?oc=5",
+      "cluster_size": 6,
+      "cluster_id": "iran-expects-us-response-tuesday-plan",
+      "first": {
+        "outlet": "France 24",
+        "date": "2026-09-29T06:32:31.000Z"
+      },
+      "also": [
+        {
+          "outlet": "France 24",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWXNNNkpQeU9xQW9OTGVaSVFFckNmWkVNb0NoRTc5RHZpSllEaHFYS3RYODlfdFV3VVQxTGpMZGo2b0hQbWdGVGMtS0Rfd2hGUjg1OXJqczVCaWFPSmZTX0xuSnc5UlpNYXpLR283NFJwX3RXcWoyMVBnTC01Um1udDd1MkFaQ0NUSExsNlFid0RiSnJKenQ2Rm5BZWN0amhjZUtRV1pLeGVYblR4cmM4dmktYmgtdw?oc=5",
+          "date": "2026-09-29T06:32:31.000Z"
+        },
+        {
+          "outlet": "CNN",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwTERwRDRWQ09TMkh1S1Y1RDBURHRZamlxWXluV3JXN0RyNjlVVWdDVlV0aWRSZXJRY3lqck5BaGVUSHpyZXJZajZVRmxwNW51eGhvNlluVkpXNzQzSHRfbFp5Vk9sQ19SdkJCRVRmWUV3QQ?oc=5",
+          "date": "2026-09-29T14:09:48.000Z"
+        },
+        {
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVnJPNnhzRzdOX3JYTDdHbE55YVhuMDZXQVpZaEw4TU9oZlhhNDRnVjhPSGZKeV82VDdBOVBYQmw1OGFlOXVMUHNxS2xKWFpQcU51RkpZTV9BaXhGTkZ0eEVhdkZQa0xfV0tPRC13VFlLdFRuX1RXcmFJOEVSX3hMR2JxTGJWZGlvdmpTaQ?oc=5",
+          "date": "2026-09-29T17:15:56.000Z"
+        },
+        {
+          "outlet": "thenationalnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLTFQZ1FDSHo4QV9hZE1CV3FoVHFYTHVld0lteVRyNFhzN0dhT1l0aVZLenowbUhhZDZaSWlEbzYzY1hKX0xOdzlSQWNJTXhJTGNWNEpLT281NDNFMmdkOWFtUXlWT0RrM0pYMC1UcDA2cVYxeUNJamZGaWp1NWdLd3Y2ME1XRXBHNm51NnhBQWZxbEdSZ3MyN3cxeFYyRTZ3Ny01ZFY0OHVfQQ?oc=5",
+          "date": "2026-09-30T02:36:47.000Z"
+        },
+        {
+          "outlet": "The Free Press",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4X0tPcm1YNkdrbjdRZW5mZ2VSZ2hXdVVoOW5CNEVJTDBtOGcwRTdzR1F6STlxcHRDOHFhNXZTLTFQUjZRZG1FWjcxdmRCT1YzQU5WY1BHY056blA5eUdSTmV3?oc=5",
+          "date": "2026-09-30T03:04:43.000Z"
+        }
+      ]
+    },
+    {
+      "time": "23:58",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "text": "The Hormuz Paradox: Why Oil Prices Remain High Despite a Surge in Flows? - Anas Alhajji | Substack",
+      "outlet": null,
+      "source": "Hormuz",
+      "date": "2026-09-30T23:58:54.000Z",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNZk10Qnl3V1F5aENNMXZHX0UzV3lqZmF4VnplZGtRWEFPM3VLLVhha29KcUtWMGFxWDZFcVZCQ1ZJREcxSU83RFBhcUVPWlJvUm5jdEplZDFpQ1hlUXJIb0VMVHJsN01rcEVnMjg3NjV4Wnk3WThqUHVfbw?oc=5"
+    },
+    {
+      "time": "23:37",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Brit Hume: The Strait of Hormuz situation is easing for everyone except Iran",
+      "outlet": "Fox News",
+      "source": "Hormuz",
+      "date": "2026-09-30T23:37:21.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YR2NyVHRKUFJWdExnWUxMTjh3cHhZTkZLRnRuVzhCVWQzOW15R3pEYk90ZDFxSEZCdTVlYmhzOTRwU3Jad0syamw5SXFOenJWY043TWl3?oc=5"
+    },
+    {
+      "time": "23:09",
+      "severity": "MKT",
+      "direction": "BEAR",
+      "text": "Oil prices slip below $100 as Iran talks advance",
+      "outlet": "Punch Newspapers",
+      "source": "Oil",
+      "date": "2026-09-30T23:09:50.000Z",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yamNTVkMwVHp6VnFoeGVoaWgzdWVCWTJUcFJWQTMwM0plNENZYm9kM0RxdmVENXFVbUFpYlg5RXNBMDM4MmYybVJiMGN2Uk1PZzZqMkxtY1U2Q0t5N1dxX2dTU3hpR0RMYjdad2pNeG9DWXlCcWlqSmxzTVM?oc=5"
+    },
+    {
+      "time": "22:44",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Iran war updates: Trump says may ‘blow up’ Iran",
+      "outlet": "Al Jazeera",
+      "source": "Hormuz",
+      "date": "2026-09-30T22:44:35.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWlkxSG8wVkZ1Q0VFS2JDNE5WblUtN3hQU0twSnVrMFNrWmxOaDVlVS1HUGZXbVFGWkJtTkNqQTdhR281Wm9DbEpOY1BqX05PMDBSTWV2eGxOSzMwMWFJNHRJWlktV0txM1pWMEF1RG10UVk0d041dW9xNXRyenljd0l1T2Rqek9jZWVKWHgzUXowdXN4SUhfZ0VtQWRsOFdIdUlZWXdNTncxb1pwb09hYUlNcGdORWFVak5v0gHAAUFVX3lxTE0tbmZweW4xTWxhNm1QTnB4ZEpoWHhMU0RiZ09XX0wxLW1wM3hYZzNkX2ppQkgwRko5M1ROU2l0eEVlQ2Z2a2d2MWtWNm5FQjhLWUY2ZDVLSVBRZlNTb0FVRHJYZDI4UE04ZzZ2YlZwUjdBMUVoLUtYdC0xX3pISV84YUFuTWlNM3ZLMndjeTYzS0tNX0Fja0VQMjlpcWtSaUdaWXJnMDBqU3dZQldqQWxFNVRlOUVyU1l5NXo2c2UxYg?oc=5"
+    },
+    {
+      "time": "22:19",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Asian Bonds Follow Treasuries Lower, Stocks Fall: Markets Wrap",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-09-30T22:19:53.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "time": "22:02",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Latest Oil Market News and Analysis for Oct. 1",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-09-30T22:02:36.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-09-30/latest-oil-market-news-and-analysis-for-oct-1"
+    },
+    {
+      "time": "21:57",
+      "severity": "MKT",
+      "direction": "BULL",
+      "text": "Live Updates: Iran says it has received U.S. counterproposal to 7-day ceasefire plan rejected by Trump",
+      "outlet": "cbsnews.com",
+      "source": "Hormuz",
+      "date": "2026-09-30T21:57:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaXNwVUhFZkZrZmxLRFd1QVZwZFFWVjFLcEgxWmNJWnJCMlNnOExuY3BsdWlLaG9HYzF1VjJKYnB6eHlfU1NLZWlUcWhDMmpCVFI1eGczV19kR3kycThHd0ducEtLejdicmJXanhmWWFUcWRJeVVDb28xUlRmTWxPSWRwbXBfRU1uSW1N?oc=5"
+    },
+    {
+      "time": "21:51",
       "severity": "MKT",
       "direction": "NEUTRAL",
       "text": "How the U.S. got oil shipments moving and what it would take to bring prices down",
       "outlet": "The Washington Post",
       "source": "Oil",
-      "date": "2026-09-30T21:48:03.000Z",
+      "date": "2026-09-30T21:51:35.000Z",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWEVDaGlGOWZKcXREN1ZKVmI4UzdiY2FIZXVDMXJDMmRNTGxMeURydXpZNEtEbExOWXRmRUNiRVAzSzZuWS1va0x0akNQWVJHaHctNGJVcm9MczdlTHpOSDVfdWtsOTl2d3pFTFlacUIzQ0NJMzkwZWpRSkNsVjF0Y0RpY0RrYkd3T2M2YXkyMVprVGM5Q05hNVY4TnBtcDgxeUVUR2Z3T2h1emc?oc=5",
       "cluster_size": 3,
       "cluster_id": "how-got-oil-shipments-moving-what",
@@ -183,7 +306,7 @@
         {
           "outlet": "The Washington Post",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWEVDaGlGOWZKcXREN1ZKVmI4UzdiY2FIZXVDMXJDMmRNTGxMeURydXpZNEtEbExOWXRmRUNiRVAzSzZuWS1va0x0akNQWVJHaHctNGJVcm9MczdlTHpOSDVfdWtsOTl2d3pFTFlacUIzQ0NJMzkwZWpRSkNsVjF0Y0RpY0RrYkd3T2M2YXkyMVprVGM5Q05hNVY4TnBtcDgxeUVUR2Z3T2h1emc?oc=5",
-          "date": "2026-09-30T21:48:03.000Z"
+          "date": "2026-09-30T21:51:35.000Z"
         }
       ]
     },
@@ -196,7 +319,7 @@
       "source": "Oil",
       "date": "2026-09-30T21:09:41.000Z",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zWThlR2pVTHZxRklIWDZNUUp5M3lnWDc5Y0s2QTJuRUVHdEVSVlhpVHRVTkMtLTVVNWxsZW5NbU1JQzhoaHFGWExfWkU3MDRtZkliSUNKRFY3d0VXUXhDem1RSUpyV3c3WkVfazB4UG52Zw?oc=5",
-      "cluster_size": 4,
+      "cluster_size": 3,
       "cluster_id": "morning-wrap-drives-nikkei-225-gains",
       "first": {
         "outlet": "XTB.com",
@@ -212,11 +335,6 @@
           "outlet": "Oil",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YUi1jYWtTaUJKVzhiTnBqYURoRGJVZFhQSTdWbXcxN1RuY1BFOW91ck5nSEwtQkNVM2phZ0NzcDZXV2tPMjg4Z2NsaGZoMEVKYm4xbE1RLTItTTdUS05UalZfZ1pfZ19Q?oc=5",
           "date": "2026-09-30T14:44:32.000Z"
-        },
-        {
-          "outlet": "Inbox.eu",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVmZyTnNVVjZmZnp0b2VjX1A2bEwySEZIdktFWHFJbTU3dm9mbUotc0hpYmU3bDhBdFJRU2hBVkFjVTVQOHBZem5KRWVrbmdTU0MxcTNuWGRMeGJfa29wNmdfYkRPaTFydy1nSkFBWW1CMHQyV3hKOTZUOVlneURtc1NWSkk0WXFPQ2NuMGc3YWU2NERPVnl0NVJtSFpNcnFjY1o4cw?oc=5",
-          "date": "2026-09-30T19:49:18.000Z"
         }
       ]
     },
@@ -239,42 +357,17 @@
       "source": "Maritime",
       "date": "2026-09-30T21:00:55.000Z",
       "link": "https://www.hellenicshippingnews.com/is-iran-losing-its-grip-on-strait-of-hormuz-traffic/",
-      "cluster_size": 7,
-      "cluster_id": "iran-lost-considerable-leverage-strait-hormuz",
+      "cluster_size": 2,
+      "cluster_id": "iran-losing-leverage-strait-hormuz",
       "first": {
-        "outlet": "CNN",
-        "date": "2026-09-29T14:09:48.000Z"
+        "outlet": "Al Jazeera",
+        "date": "2026-09-30T15:10:49.000Z"
       },
       "also": [
         {
-          "outlet": "CNN",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwTERwRDRWQ09TMkh1S1Y1RDBURHRZamlxWXluV3JXN0RyNjlVVWdDVlV0aWRSZXJRY3lqck5BaGVUSHpyZXJZajZVRmxwNW51eGhvNlluVkpXNzQzSHRfbFp5Vk9sQ19SdkJCRVRmWUV3QQ?oc=5",
-          "date": "2026-09-29T14:09:48.000Z"
-        },
-        {
-          "outlet": "CNN",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwTERwRDRWQ09TMkh1S1Y1RDBURHRZamlxWXluV3JXN0RyNjlVVWdDVlV0aWRSZXJRY3lqck5BaGVUSHpyZXJZajZVRmxwNW51eGhvNlluVkpXNzQzSHRfbFp5Vk9sQ19SdkJCRVRmWUV3QQ?oc=5",
-          "date": "2026-09-29T14:09:48.000Z"
-        },
-        {
-          "outlet": "The Maritime Executive",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVnJPNnhzRzdOX3JYTDdHbE55YVhuMDZXQVpZaEw4TU9oZlhhNDRnVjhPSGZKeV82VDdBOVBYQmw1OGFlOXVMUHNxS2xKWFpQcU51RkpZTV9BaXhGTkZ0eEVhdkZQa0xfV0tPRC13VFlLdFRuX1RXcmFJOEVSX3hMR2JxTGJWZGlvdmpTaQ?oc=5",
-          "date": "2026-09-29T17:15:56.000Z"
-        },
-        {
-          "outlet": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVjA0cERJdW9rd1VFY1FyQWxFR1o0Y0NIeTRReGhMbkR2MzNCR1VrUTlicE01aHFnNFp1c3FuSU1WeDVtZElzR3d6Mk1MbS11SmJFeEpQaFgwVWpFNlhpZUVMMmdzQm54R0h1LVRQLVlhd2RzZmFVSDVzdENyS0ljVGl5a2cxbmxM?oc=5",
-          "date": "2026-09-30T01:39:22.000Z"
-        },
-        {
-          "outlet": "thenationalnews.com",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLTFQZ1FDSHo4QV9hZE1CV3FoVHFYTHVld0lteVRyNFhzN0dhT1l0aVZLenowbUhhZDZaSWlEbzYzY1hKX0xOdzlSQWNJTXhJTGNWNEpLT281NDNFMmdkOWFtUXlWT0RrM0pYMC1UcDA2cVYxeUNJamZGaWp1NWdLd3Y2ME1XRXBHNm51NnhBQWZxbEdSZ3MyN3cxeFYyRTZ3Ny01ZFY0OHVfQQ?oc=5",
-          "date": "2026-09-30T02:36:47.000Z"
-        },
-        {
-          "outlet": "The Free Press",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4X0tPcm1YNkdrbjdRZW5mZ2VSZ2hXdVVoOW5CNEVJTDBtOGcwRTdzR1F6STlxcHRDOHFhNXZTLTFQUjZRZG1FWjcxdmRCT1YzQU5WY1BHY056blA5eUdSTmV3?oc=5",
-          "date": "2026-09-30T03:04:43.000Z"
+          "outlet": "Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQclg2QUFjcWhrSGJicV9BQWRqN3JSOGtBRW9UQW9DOWFMRzduaDR1TWZ3M2lqSkFFekd1RTdYdUJRSlJHUzE0LUc5LUc3Um1OdlVrQzJyZVRSbE9pY01BMkVjQS1ES1l4V0NCMllCWjVhay1FYlg1MHhCckdNN2wxemlvcjduNTRlc09jRXVEZFg0SFhoZ3J4aDZoNTRxWktfTU1GRlF1V25pcGvSAbABQVVfeXFMT0J6bVI5TUJoVnVmbGJaLXVGa3FxLVFpVTh2Wlh4aVl2QW1sMXQ4eDFBS3B4TlgySVo3Z3piSVBmNVE3SHAwQTh1YUEzeEdUaDhQZk9wY3hYeTVKRTVFUDRUSXZsYnh4dFR5QWdSZFAtYnAtUDN4WG4xTkVtamRHTEV6a29PdHFFVTM2M3JZWldHbXJuQk9wREFjUjlCVl9FWjU0ZG1Ga2Vxb25zdDVuZnA?oc=5",
+          "date": "2026-09-30T15:10:49.000Z"
         }
       ]
     },
@@ -293,133 +386,10 @@
       "severity": "MKT",
       "direction": "NEUTRAL",
       "text": "Texas oil and gas activity continues to increase so far in 2026 despite cost pressures",
-      "outlet": "Yahoo Finance",
+      "outlet": "finance.yahoo.com",
       "source": "Oil",
       "date": "2026-09-30T20:40:45.000Z",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObGNGbldFYWNaVHpxUWJzWkxXTlp1VURIVldzQ0ZVVEYzZHdGbk5pNlRELTFJU3hqVEtUMnp1aEtRaVVZa2xYVmt0RkhjdWlKbXFVTDQ0VGtZSGJQUmdud0dyNWRaeDQ5bmRSdllKZ2xEQnZjSy1mWFpwZ1RZMlVyTGZPQmJRdl82NW5aVVlxaW5nZWM?oc=5"
-    },
-    {
-      "time": "20:35",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Oil Futures Rise Despite Increasing Flows",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-09-30T20:35:59.000Z",
-      "link": "https://www.rigzone.com/news/wire/oil_futures_rise_despite_increasing_flows-30-sep-2026-184743-article/?rss=true"
-    },
-    {
-      "time": "20:29",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Trump touts record Hormuz oil flow and military wins ahead of midterms - CHOSUNBIZ",
-      "outlet": "Chosunbiz",
-      "source": "Hormuz",
-      "date": "2026-09-30T20:29:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRU9kNk9QeXZobVdMT0djWjRpNVhvRE5JY2drVVRwRnM0ZHh1UWs4S2h4QVZnM0xSNWhRUGo3ZlM3QVAzY3VZWHRFSW15NU5RbGdmOVpUZkpMWXpmMlhaVHFFTW9SaGdLZS03cVhKajYzVlRKdWV4ZEM4VDFYZ0FDZGRRY0wyTndE0gGcAUFVX3lxTFBPbGJlVnJ2NEE4N0VCMEx6WjR0RTNOc1J1TFYweE9pSzBIeUFmTkExUkZhbzNFNXJzU3JUcDE4MG01WGQxNWh3UUZFRlV6YXBGVXU3cHBNcUdtM3ZQLWoydEFwMXEyd1k4bzNuWEFRMjFrMURpZVNaekwwaEtSOEp4V1RGQUdDc1Atc2h1YzhBOE9ZbDRqS0s1YjFJTw?oc=5"
-    },
-    {
-      "time": "20:26",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Iran reviews US ceasefire counterproposal as Strait of Hormuz terms remain unclear",
-      "outlet": "wjla.com",
-      "source": "Hormuz",
-      "date": "2026-09-30T20:26:15.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQVFzVXFiSzYyOFZxZkpiTGFRSnAwTHJ3UmRKTVljTUNPRkROV09NbGIxS0huaXROVVNCOHBselNoUklDQk9NUW5qNzJiVl9XNF83c0o2QXpPVkh3NGRZbndMOGdQeGxuWjJoWXlicGNvZlF0LWQ2ck92SDhyRzBiX2pBVjRfTVdVRDZtRzhCS0xyRldLc0pXM0JtNGFFRVlmam11U0twQWhWaGNZM0FHVmllVE4tSjVp?oc=5",
-      "cluster_size": 6,
-      "cluster_id": "iran-considering-ceasefire-counterproposal",
-      "first": {
-        "outlet": "Yahoo",
-        "date": "2026-09-30T13:56:33.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRFRsLWQwOGJ5RExzUEVrc0FhNXUyS2dTY0tJQlU2cFlqc0ZobS1ZaU1ZSmYwWkN1d0NGTUlEQkd3cDZMRE5CQk1aNlZrNGVuNnlqSkxLODFfbTFoLUFxR1NxVnRhS2lqY0UtYUZBU1NBTHlNaFdjY3pCdXlVSGZ0NmgyMTdTS24wNFZQU053S2VsZw?oc=5",
-          "date": "2026-09-30T13:56:33.000Z"
-        },
-        {
-          "outlet": "KATU",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR0tzRkZGSENpVjdNanBMLXJtdThTNV9fX0xNUXdaRUExUXVWM0lfbzdrOVB1TzhOSTVSdk9FSmExdEZyendzaGNHMWZBdzRfV3ZWdFpSTXNjZGNJdUdFbnlYMW9wVU9TSng0UG1nNlVmNTIycENWVUZuc3BqLVNxTVdTQnhmbWwwZnBpa3FBRzB3NC1oTzZ3aC1jOUFrMFlWNTFlbmlVNENuTGJOZk52X3NOVFpkYm5Z?oc=5",
-          "date": "2026-09-30T14:31:32.000Z"
-        },
-        {
-          "outlet": "Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ3I4TUVnY2ZqZ1BZUlo1QVpPRExoeElWNk5wM3YzYXc3dWZLOVk3WVJZdmNoMnhrUzRpaDBnNlY1bXlpVWhPeXlkQ1kyZ1ZEU2kwVnVaSkFhbmpQbjMtMFJGWk9lY2RwdVZQMVJ3MHZfcGpEaDNLUkg0MDh0X0paLTJvQlJNdlBmcjhnM0pMQkxWMEhWWWpNY1MtcU5lQVdIWEhaSWQ1SVZ4WDBNeGlldFJjcHlRNG9BclIw?oc=5",
-          "date": "2026-09-30T14:40:07.000Z"
-        },
-        {
-          "outlet": "KUTV",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeGRYQXNNY3hEQUlnaFgwZnVrYU14aHJvTGU5UEhCaWZkODZhU2owSHhXYzNTamJKbGI5aXZZTnRUVU5NNEEyU0Z6Z2VOUTZEZXdyWGVYRnNEeUVsS0FzeUs3Z0ZaVDhHWW4tV2lDWmNHdTZqVnp1R2RfY2ZFdGd2QmtyS0EyTDliMURfMXppYURiY3EydF9wUEE0RmNhSnIyQzJLeTFMSU11ZS1FdFRodS1ZMEtMVk90?oc=5",
-          "date": "2026-09-30T14:55:29.000Z"
-        },
-        {
-          "outlet": "WOAI",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdjBpNXFKcGlTWEdyVXdndXZJWnZQYTZuZ0V5QU5HbTdPRkVhdzg0cDNXRmlQeENvMHVMeXhLaTl2SElrbF83U29CUXo5WExPdXRUazNRSUpUR21sY3VhcFNYT2Q2aEVkSlNGX1VjcmxfbGRQLXhXLUlDR3NwR1E4NEh3NVJ5Nzc5ME9XVFJjSDR1ek5ZR1prNThNc05zbm02STRVM2JUc3Mxd1RuX1A4RlQtYWNaVU56WGR3MmtTUldfZkEtVlBz?oc=5",
-          "date": "2026-09-30T15:06:13.000Z"
-        }
-      ]
-    },
-    {
-      "time": "20:19",
-      "severity": "CRIT",
-      "direction": "BEAR",
-      "text": "US Iran War Live Updates: Iran receives US 'feedback' on 7-day proposal to reopen Strait of Hormuz",
-      "outlet": "timesofindia.indiatimes.com",
-      "source": "Hormuz",
-      "date": "2026-09-30T20:19:53.000Z",
-      "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNRU1zVzRseDdaVnFPazA0OTYzLVQ5Zk56MkJub0E2Y1dYdG9kZGpQNWJVc0ZxbmYxNHRMUm9qcG1JZ3NReGtTQWVYTDJ4MXQ5cFFTdG0xdjdPdDR5OHVua2JkLV9QYXhNb3BiNnVvZkdISjJPeVJWMWVHMHAyNF9YMEtvam14ZmJpZThScmtYNWxWb2dCMlpKOUg3M3A3U0xjTU95cHNLR01NdEpJckxOR1FBU1ZUbWhYWGtmNXRGdmQ1V2lZZkRZUW1YVlN3czlfWnNBMjZEUF9SMGE0NjM4MVQ3alB5cm1NTmVHWHFXMXZjWS12cFBsWTJWM3FtdHY3OGRSdUdmeHF2WnM4T3M1SmwzYzl4X2ctTVN2UE5DY3UtT0dZX2tUTkRMYnlWY0Zj0gG2AkFVX3lxTE1KSDlmcUg4NUY2QW03OFdfTnAtSmRPN3p1TGZ1RUhHUFJkQkoxLXplVkpGRzJmMmJhVGRqb0RWdmRLMVh6U1RCc1QtSlN3S2lnRkcxLUpBeHA2dkZwMWVZbWh1cURmeWpLTUZZck0yc2k5Y0wtU25wS29raERhcjZ4dDRZRGR0SjM5UHh5VUZVWTg2aU9oYXdXRzZVYXd5MHBnV2FCLWUteDJvd0tBV29TLTlzVTJvdlVvT19uYU5nV3pqQVRyTm9hSzFIbkNlb2pzYnF0YndaaVEwem9jNnh5NzFqRG94MGRYT0JmWW1tRG5HdG5TRF9qR3NxY1BYcURZc1FZcHE4dnZjYzdmRWt6dnZocjA4UXJ4TWV2S1kzN1dER1J6ZkE0U1F3d2k0Z3hzcTNnb1E?oc=5"
-    },
-    {
-      "time": "20:00",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Iran Considers US Counterproposal on Ceasefire, Hormuz Reopening",
-      "outlet": "Yahoo",
-      "source": "Hormuz",
-      "date": "2026-09-30T20:00:20.000Z",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZTRUZzJzV0JyQzFQZ2xmSEVic1pmZlBFV0JycERFRG9XamRidHA2Z3Z0RUZsejk4a3pERi1KUVdVUTJzN3pZdGs1enBMRzI3NmtKQ3pnT214MXg4V3F5S01MbldtVWtBMUdMOFdZSTI1cG5uZVFBR0NWeDNkS1R5Y0x0b29LZVAybE5NOFhvOUptS3d2bnF1OFJQazUxOWt3d2JuWWRR?oc=5"
-    },
-    {
-      "time": "19:52",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Will Glencore and US miners bring Venezuela back to coal-exporting big leagues?",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-09-30T19:52:43.000Z",
-      "link": "https://www.tradewindsnews.com/bulkers/will-glencore-and-us-miners-bring-venezuela-back-to-coal-exporting-big-leagues-/2-1-2052023"
-    },
-    {
-      "time": "19:36",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil and gas activity increases despite cost pressures, longer supplier delivery times",
-      "outlet": "Federal Reserve Bank of Dallas",
-      "source": "Oil",
-      "date": "2026-09-30T19:36:37.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3bEViaWRKem5STThFZ1J2NlhvMlE0TUZmUzY3NmhvejZJZE9WQXM3MV9PdTUycVRTeWpLX1oxTE9DM25CdnBaek81QmM5VGN1TnF4S3pvb1NiY1dzTWZYMW5NTHBSMnc?oc=5"
-    },
-    {
-      "time": "19:32",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Iran war live: Trump says ‘you’ll see things happening very soon’",
-      "outlet": "Al Jazeera",
-      "source": "Hormuz",
-      "date": "2026-09-30T19:32:47.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWlkxSG8wVkZ1Q0VFS2JDNE5WblUtN3hQU0twSnVrMFNrWmxOaDVlVS1HUGZXbVFGWkJtTkNqQTdhR281Wm9DbEpOY1BqX05PMDBSTWV2eGxOSzMwMWFJNHRJWlktV0txM1pWMEF1RG10UVk0d041dW9xNXRyenljd0l1T2Rqek9jZWVKWHgzUXowdXN4SUhfZ0VtQWRsOFdIdUlZWXdNTncxb1pwb09hYUlNcGdORWFVak5v0gHAAUFVX3lxTE0tbmZweW4xTWxhNm1QTnB4ZEpoWHhMU0RiZ09XX0wxLW1wM3hYZzNkX2ppQkgwRko5M1ROU2l0eEVlQ2Z2a2d2MWtWNm5FQjhLWUY2ZDVLSVBRZlNTb0FVRHJYZDI4UE04ZzZ2YlZwUjdBMUVoLUtYdC0xX3pISV84YUFuTWlNM3ZLMndjeTYzS0tNX0Fja0VQMjlpcWtSaUdaWXJnMDBqU3dZQldqQWxFNVRlOUVyU1l5NXo2c2UxYg?oc=5"
-    },
-    {
-      "time": "19:28",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "LNG Prices Fall From 2026 Highs",
-      "outlet": "The Maritime Executive",
-      "source": "Oil",
-      "date": "2026-09-30T19:28:13.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zM29nQmxlRnhPZGJna0MtUTZyX1BEY0xBcGRzU1dKZ1MyMzRtaHpiTnU4NXUyME9LY3RkWnl2M3RUekdHM3dTTThZV3lCYzdqc1pkMUc3RU9vNFhhc2llSC1pODQwY3dqZ2RpR241a3hUcjVXM2NVTEFn?oc=5"
     }
   ],
   "snapshots": [
@@ -1519,7 +1489,7 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-09-30T22:11:17.786Z",
+  "intel_updated": "2026-10-01T01:22:59.952Z",
   "event_log": [
     {
       "date": "SEP 30",
@@ -1974,8 +1944,8 @@
   ],
   "sentiment": {
     "bull": 1,
-    "bear": 3,
-    "neutral": 11,
+    "bear": 2,
+    "neutral": 12,
     "net": "LEAN BEAR"
   },
   "vessels_attacked": {
@@ -2991,8 +2961,8 @@
       "p": 102.59
     },
     {
-      "t": 1790740800000,
-      "p": 97.95
+      "t": 1790817174000,
+      "p": 97.89
     }
   ],
   "chart_wti": [
@@ -4001,8 +3971,8 @@
       "p": 89.38
     },
     {
-      "t": 1790740800000,
-      "p": 90.33
+      "t": 1790817179000,
+      "p": 90.05
     }
   ],
   "signal_outlook": [
@@ -4029,7 +3999,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Iran reviews US ceasefire counterproposal as Strait of Hormu..."
+      "val": "Oil prices slip below $100 as Iran talks advance"
     }
   ],
   "chart_spread": [
@@ -5038,8 +5008,8 @@
       "p": 13.21
     },
     {
-      "t": 1790740800000,
-      "p": 7.62
+      "t": 1790817174000,
+      "p": 7.84
     }
   ],
   "chart_sp500": [
