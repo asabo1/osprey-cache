@@ -38,5 +38,5 @@ export const HOLDINGS: Holding[] = [
   { ticker: "IXHL", company: "Incannex Healthcare", weight: 0.40, price: 0.34, dayPct: 6.2, spark: [0.84, 1.00, 0.08, 0.12, 1.00, 0.26, 0.00, 0.00], shortInterestPct: null, nextCatalyst: { label: "PSX-001 GAD Ph2 readout", days: 100 }, category: "Pure-Play" },
   { ticker: "NUMI", company: "Numinus Wellness", weight: 0.24, price: 0.18, dayPct: 8.5, spark: [1.00, 0.91, 0.65, 0.50, 0.42, 0.01, 0.00, 0.00], shortInterestPct: null, nextCatalyst: { label: "Ketamine clinic Q4 update", days: 75 }, category: "Pure-Play" },
   { ticker: "ENVB", company: "Enveric Biosciences", weight: 0.18, price: 1.62, dayPct: 11.7, spark: [0.24, 0.00, 0.08, 0.20, 1.00, 0.52, 0.44, 0.44], shortInterestPct: 16.8, nextCatalyst: { label: "EB-003 Ph1 init", days: 130 }, category: "Pure-Play" },
-  { ticker: "CMND", company: "Clearmind Medicine", weight: 0.03, price: 0.52, dayPct: 5.4, spark: [0.98, 1.00, 0.43, 0.24, 0.08, 0.08, 0.00, 0.00], shortInterestPct: null, nextCatalyst: { label: "CMND-100 Ph1/2a update", days: 110 }, category: "Pure-Play" },
+  { ticker: "CMND", company: "Clearmind Medicine", weight: 0.03, price: 0.52, dayPct: 5.4, spark: [0.20, 0.21, 0.09, 0.05, 0.02, 0.02, 0.00, 1.00], shortInterestPct: null, nextCatalyst: { label: "CMND-100 Ph1/2a update", days: 110 }, category: "Pure-Play" },
 ];
