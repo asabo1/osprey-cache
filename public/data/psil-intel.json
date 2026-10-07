@@ -1,15 +1,22 @@
 {
-  "updated": "2026-10-06T20:57:51.801Z",
+  "updated": "2026-10-07T00:39:49.912Z",
   "counts": {
     "total": 93,
     "crit": 2,
-    "warn": 2,
+    "warn": 4,
     "bySource": {
       "Fierce Biotech": 1,
+      "WBBJ-TV": 1,
+      "Stanford Medicine": 1,
+      "Mirage News": 1,
+      "Bioengineer.org": 1,
+      "Far Out Magazine": 1,
+      "Hanford Sentinel": 1,
+      "Newswise": 1,
+      "Law360": 2,
       "PsyPost": 3,
-      "UC San Diego Today": 1,
       "High Times Magazine": 1,
-      "MarketBeat": 3,
+      "MarketBeat": 2,
       "kalkine.ca": 2,
       "PR Newswire": 2,
       "Quiver Quantitative": 1,
@@ -24,7 +31,6 @@
       "Medscape": 1,
       "NBC News": 1,
       "ROI-NJ": 1,
-      "Yahoo Health": 1,
       "Health and Me": 1,
       "Voice of Healthcare": 1,
       "Rockum": 1,
@@ -33,7 +39,7 @@
       "Courthouse News": 1,
       "Investing.com": 2,
       "The Music Universe": 1,
-      "Investing.com South Africa": 1,
+      "Yahoo Finance": 2,
       "The Pharma Letter": 1,
       "Yahoo! Finance Canada": 1,
       "TipRanks": 3,
@@ -42,7 +48,7 @@
       "Marijuana Moment": 1,
       "Medscape Reference": 1,
       "StreetInsider": 2,
-      "www.marketscreener.com": 2,
+      "www.marketscreener.com": 1,
       "Reuters": 1,
       "The Conversation": 1,
       "Stocktwits": 6,
@@ -54,11 +60,9 @@
       "Variety": 1,
       "The Microdose | Substack": 1,
       "Yahoo Finance UK": 1,
-      "Yahoo Finance": 1,
-      "Investing News Network": 1,
       "FDA": 1,
       "Psychedelic Alpha": 1,
-      "ChartMill": 2,
+      "ChartMill": 1,
       "GlobeNewswire": 1,
       "AD HOC NEWS": 2,
       "KOAT": 1,
@@ -72,10 +76,7 @@
       "Investing.com Nigeria": 1,
       "https://www.siam.in/": 1,
       "Live Science": 1,
-      "Simply Wall Street": 1,
-      "British Psychological Society": 1,
-      "The Globe and Mail": 1,
-      "GuruFocus": 1
+      "Simply Wall Street": 1
     },
     "byTier": {
       "T3": 3,
@@ -85,7 +86,7 @@
   "items": [
     {
       "id": "dd8db38af366",
-      "time": "2026-10-06T20:57:47.666Z",
+      "time": "2026-10-07T00:39:47.696Z",
       "source": "Fierce Biotech",
       "sourceKind": "rss",
       "sourceTier": 3,
@@ -95,6 +96,136 @@
       "impact": "LOW",
       "title": "Biotech’s peptide shows promise as ‘bait molecule’ to treat neuropathic pain in mice",
       "link": "https://www.fiercebiotech.com/research/mimetics-peptide-shows-promise-non-psychedelic-method-reducing-neuropathic-pain",
+      "tickers": []
+    },
+    {
+      "id": "07b6b3604840",
+      "time": "2026-10-07T00:23:00.000Z",
+      "source": "WBBJ-TV",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Memphis drug raid nets $1 million cash, 25 pallets of fake-tested kratom and marijuana products",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOE0wT0daV2lyYmU0cURqYUxhd203ZW84R3pCdUR0ckhQVjlvWXZYS1FLNmozdUVWNTY0ZFo1cUUwV05KeTNneDZTM1V4V0ZsbEJFaC1zbzFXUF9PVEFaQ3FZMjhjTWJhM1hTNWc1T3NaWEpsb0JVWDM5LTNXQ1pRLTdJNDBEXzVPTXN6Tm82LUw3b0xHMmtlelNObURSTmppSXVjRnJUR3k2anF5Y2trQjB4VmdEM2VkMEJHRUJ30gHSAUFVX3lxTE1ERElSaEliaGpablVvWXFNRDdVaTRYdXM4NjNPT0dRNkd5c0RUbVZGZmh2QUxNNmJQX0x5Q3BRcUlRMGdVVmZYUFBxSVpVdDk2Y2UydGg4ZEdzSWs4RmJaQlRHZDNSMlhnTjFEbVpFaGtyZjlWMTBzLUM5c3RMRHJUVTg4Wmhxcjh6WDZvU2N1dWU4RDBfeG5lekZPb2xlclVacU9raHBJQm5GVlo1MVFPLUZEMFNKdDlyQ0xXSUItUWhyb2RTNGFWMm1FcEZka2tBdw?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "146223563723",
+      "time": "2026-10-07T00:16:09.000Z",
+      "source": "Stanford Medicine",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "BULL",
+      "impact": "MED",
+      "title": "One year after taking ibogaine, veterans find continued relief from PTSD",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvdFdMYURUSkhmMWd0R1NrbTg5YjNMZXVtMmFmTl9tdHk5eHhKQVZ2elBCX0RDeE13dnJMVG15RHNQRVJpOHkwRXZWbF9ybFFlVXRrWVh0WXRtTGRmX2JfZ01WOUZnT0xBV2NneGtkbkd6U3RKZnFocA?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "a2895b343323",
+      "time": "2026-10-07T00:03:00.000Z",
+      "source": "Mirage News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Depressed Psilocybin Users Continue Seeking Treatment, Study Finds",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLWlkLTVKZVc5UFBIT0tGcUNPalZORnlCb0txMVM4T3ZNU1BiUWs5MThhelNFbUdRaHhxUkptcmw0WFl6T0JDT3F5cklUX3hsR0NhUnNDMGxvSGlNU2hGaFZNeTVZU3RuNlJZMnV6NE5VOC1HSVk5MVoyTjFrOXNlQlZ1UU9Odw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "f56eeb97d550",
+      "time": "2026-10-07T00:00:29.000Z",
+      "source": "Bioengineer.org",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Mindfulness Meets Magic Mushrooms: USC Trials Psilocybin Therapy for Depression",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbGZ1WTVNdTVYNF9jVEg3bi1MY3ExaVRfYWlXMEROOXExeWJ4Q1dUSURURGZVRV9PSjY1REJ6VjVCX3REdmp3SFlqOGtyRmR2RlFrcW5vOWZHQUVVWXF4bjR1cy1UQWtTWVJsZmNRV0w5OWhJSWV5NmZxQU9TYmFqemFFTGo5c1hkd2VZQlJLU1JvXzhWQUhYQ1o1aTZlSkE1RG03SzZn?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "fee6d6504103",
+      "time": "2026-10-07T00:00:00.000Z",
+      "source": "Far Out Magazine",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The five most unusual instruments in psychedelic rock history",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVTFLS1J3UEVtSFg5RkwzQjcwdzNBZU1MTTBrUXRWVnBoMTZRak9kY3g2bXZOWXFRMmItT3NpM3JMaFRlYmVVN25xeklPMklvTEFwRmxqbjU4WkRyZHFRSV9Rd2FYVUhuTmMtT3NNOFJiNy0wRTMyM1VRUVdJVTVQRkIwQU43NWxSWElrT0c1Zw?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "c5e8a50ec4e9",
+      "time": "2026-10-06T22:40:00.000Z",
+      "source": "Hanford Sentinel",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Study: Psilocybin may ease suicidal thoughts",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR3lzRlJiaTBnTk5rMWFnQy10QlU0X1ZBYzZ5bDhRdURlMEVaU3paUWx0dy1zWEtVb0tKck9jeGMxa0FJYmxwUVpRZUlZTFZkWTkxRUplcDFVSXpMaDBiZE9lUXphMnVNNTA0bDB2QWxCZk5uSVc1djNFQ3p6SmlfcEw3azB1SUN6RC1HdGM2a0M2VmppNVVtM29rbnhqOWNCX29zVS0xcXNpb0RRYkpYMFVzYnVQdnJzRjdjd1NteTAwRTRIRmlQRXZ0aWXSAdIBQVVfeXFMT3FOU2ZMUzhFd3lXWHNERVFfZm9SaHZUcm5jU2pnTHlOWUxpbkhaUVpUZmw0V2I2R2VaMHZRVHFIX1BSNzd5YVVlNUxaMmRuTm5yZ29Ta2VEVmJkakVEWEpZbGVsNlhkLXZmT3d1bTNWQmtTYWhtR0hoRXNuLW5pc2Z3NWZ1Y0g0UXZJVDNIUDV3bnZmRmU4aWl1WGdzYmY4S0ZnTWRhZWNjalFjWmFRSEVDQWZhMDJ6OWVzekpXa3gxSTBCNmhqOHk2Tl9scVZLV3V3?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "d399707cb02c",
+      "time": "2026-10-06T22:25:00.000Z",
+      "source": "Newswise",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Contrary to Fears, Psilocybin Users with Depression Continue to Seek Treatment | Newswise",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcXBSVDBSajc3cFVEMjc5N29VU2d5MXl0cGdjMGJNM3JOdWhQUmZmRVJQMlhrNU5zNUZaNzVnTS1aaWpPWXBNTnMzTmQyd3VjZk5XVHRxeGJGUjdTbmJwbWZCdnRhbVUxcFNlNUZFVkdLazVlUG1jM1Q4aW9VMUlOQ0tUdkVPUTdnSG1PS0xub2lXNkk2d1k2NFdvMFNtSU5Uc0xRQ3FKT19tV0NuVkdDTdIBsAFBVV95cUxOcXBSVDBSajc3cFVEMjc5N29VU2d5MXl0cGdjMGJNM3JOdWhQUmZmRVJQMlhrNU5zNUZaNzVnTS1aaWpPWXBNTnMzTmQyd3VjZk5XVHRxeGJGUjdTbmJwbWZCdnRhbVUxcFNlNUZFVkdLazVlUG1jM1Q4aW9VMUlOQ0tUdkVPUTdnSG1PS0xub2lXNkk2d1k2NFdvMFNtSU5Uc0xRQ3FKT19tV0NuVkdDTQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "b7bbb3dcf8a0",
+      "time": "2026-10-06T21:28:18.000Z",
+      "source": "Law360",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Dentists Can't Avoid Delta Dental MDL",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN0JQNGxyMEtrUGZxNE1TYVhTOEJwbnc5MGJlNlhORThZSk5WQTQ4U24ydm52ZW55WVc1NV9pRFdWQlN6VEdvT1Q5OHJuVE9FbVFOLXZqU3NFRjdZUVNtYTRtekVYNFRRTFBKemRFTTVSQ2JsQVFjaUg4MHFQVTZTc2FLbHFndTRxbjdMTGVyWmw5dzdDMHNodlp1Nzlta2Z1RV9kX2FXODFwZEpqNnRreXU3Z3Q4YXVZdFUxLXRVUXlUdXPSAXJBVV95cUxPYkhuSXFyT1MyUVc4X3FBbUotT2pqd2lMUVIydnhpeWg3YlBOZ1dadVRNUzFaVjd3UDExSlBNcVJPdGRsRWkwdXRLN01mQ3JRak4zNlN0UVJ3S1p3LXBSUnhaV0w4eF9WX0hfRzl4QVRoc0E?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "e10db77dd5be",
+      "time": "2026-10-06T20:50:20.000Z",
+      "source": "Law360",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "10th Circ. Revives Prosecution Of Utah Psilocybin Church",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbzBsbVhaT1lPb0ZrOHRFUUlWZlZtQVRCWWZKZm9oaXdlRTc5c1VMNTFBLU5RbkhKZHFXVlhGZUdENjVTMk9zOW9yU0huU0kxUjZIbXNzeWF0NXZXM1hBTE1LSVpFS3J5QWZ3b2VrSkJKbkZoVWM0bWVvazYzc3B6QnZGcFNFbEwtOGRZWlhvMTlBTEYzdHdQVzRfbml1NzlMR204dXR5WdIBVkFVX3lxTE8tMlpBM3V2d0drUmN6a0ZOVWROVmNzVWROa1J1Q3BpQlFFVms1OGZZUjlWMGVTd1FLNkJRVTZMTzlHMGl2YjU4WkIzRTdCLWVWM2hCTGxR?oc=5",
       "tickers": []
     },
     {
@@ -109,20 +240,6 @@
       "impact": "LOW",
       "title": "Tripping during a political convention was linked to more support for political violence in a recent psychedelic study",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ1ctdEVoN1lTdUtqOTVhU3lndktPY0c2LWN0NklIWGlzVE1mb1duczFRd2s0M2lib0dEYTZIUVg5M1plM01vZ2w2NFJMQnhJRkwzMWJFaGNMNmRacm5mVUd6WkpqUGdpbzcwWWI3bzdydUpQRHhQUGV3ZWlPZXNOYkpJdkF4Y0ZBeWI3RGVxU3BzTzRkLXQ5U1pycEtUdTBkQWZLY1ZLT1JoLTcxdWFrY3U0TC1hWkh5R29aWEhyOUpjZHg0VXJNS2xud09hMjY2U05GQjI1aGdvYVE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "6d2335b119a7",
-      "time": "2026-10-06T17:02:04.000Z",
-      "source": "UC San Diego Today",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Contrary to Fears, Psilocybin Users with Depression Continue to Seek Treatment",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNalBIV2ZzWUxKUnZoYlg1SDhCN1hHc2RTRy0wRWRBXzlIMDY0dFh1dnRtdFlWemJON1k3Rm04VGdvUzROY0M1RHFkT09UdEFLTURETXhWWmhadlhOUUdCeUhxLTh5dTRtOHdMam9CYVRNdy0yVllUMWhPVUxDandWcVYwRVNYcFN1M2J0LVdRUnVhTFRPMFltZzR3d0pGWUotN2JVVDExTlZoUQ?oc=5",
       "tickers": []
     },
     {
@@ -378,20 +495,6 @@
       ]
     },
     {
-      "id": "ab801977064c",
-      "time": "2026-10-06T08:00:00.000Z",
-      "source": "Yahoo Health",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Study: Psilocybin may ease suicidal thoughts",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZGRjUEtnNC1iNm9qM0tSdGowVlpVX29TRUk0Y1lPRmwtZU1hMkh3NjlPQlAtVDlWaUEzNGhNUzVzVmxSRUxBYXFhS3RhdEExcThrWlpVYzZSS2l2UlB5dGtrX2lrcFZrTUpoUmFBXzRIb1dKNlpQdUh3S1Zyc0VzVEJ1YTJOa3BJZnp6NzRqSGt2VC1BY0FqZzhJbzZMWURPdlNxSjFvY3pLS3ZC?oc=5",
-      "tickers": []
-    },
-    {
       "id": "248849d44810",
       "time": "2026-10-06T07:30:43.000Z",
       "source": "Health and Me",
@@ -534,17 +637,17 @@
       "tickers": []
     },
     {
-      "id": "858511c76699",
-      "time": "2026-10-05T23:44:29.000Z",
-      "source": "Investing.com South Africa",
+      "id": "88485c92094f",
+      "time": "2026-10-05T23:36:03.000Z",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
+      "category": "earnings",
+      "severity": "WARN",
       "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Stifel reiterates Alkermes stock rating on pipeline confidence By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaXpnU2FfZkt3R1EwQzNRR2JtMTUyWWZzQjhpWWU3WXI4aTNTWVRUeHJGS3JzTHE4V2x2WUNWbWF1NGZ1dWdieFNYanJiTXFaNXlidUpyRDZkNGVCdTdnNzMzc051Y2M2TTRtc2V1bFdOdGtHWjBkSzZZdEhRWGtaVTk4emNwd1JDZXRIQ1hMN2ZWNVNBTVloUU5pRVl2c0dBeTh0Mm5vb1dXX2xUSXJodnZIdFpfU3p5ZHBUTVowSWs?oc=5",
+      "impact": "MED",
+      "title": "Alkermes PLC (8AK.SG) Q2 FY2026 earnings call transcript",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV1ZWLUo3VkdOSXRKZ0tTWHU1aFZwcDFlSjg2ZHRkUmQ5WmJ3ZXVFUHk2YXhhVzhuWkJUcUdsRGFfNERZbU5nSVlOX1R1M2RwSVFmWTRlbHlIZ3FfVWt6WndqZHlBbGRTNzdQNDN2bmFpTWxUTG00VHdENXRQVXdmdWx6cjYtSU9RWDJHRHNuX29mUQ?oc=5",
       "tickers": [
         "ALKS"
       ]
@@ -886,20 +989,6 @@
       "tickers": [
         "ALKS"
       ]
-    },
-    {
-      "id": "56b99c05938b",
-      "time": "2026-10-05T13:05:13.000Z",
-      "source": "Investing News Network",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "PharmaTher Outlines Corporate Strategy and Upcoming Milestones; Launches New Corporate Website and Rebrands PERSONALIZ3D as M3DICINES",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSTY3Wmt0eEU3WkhhMURLQnFNcGEzeVIzRHUyRkNSMTdkVXZhNTBNejVvMWtFbTB1S3B2enpiYVcxQlNUUDFxRGV0eTE0T19JQ2RpQUd3dnpqQU1oc2JvT2xfaDcxQjE4MEFiSFRoTUZpN2tWZWUxZjZKTkZzb055SWVBVXdydDhyT2ltT0QwZi11akd0T3g4YjFaYzFZNW54UnJtNU1EWU1sZV9FYjZ2SkYwMUJTZk5ndU1DRXJFLUpPekN3TEw4Q25ZUUFoRkNCZnVleGNsVDkzbURoV2Y0SHBrVXlnS0FzZ0tsTEdjM0M?oc=5",
-      "tickers": []
     },
     {
       "id": "4cc6fa18388c",
@@ -1367,100 +1456,6 @@
       "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNSkp4NnZFVS1FdHM2VWpMQzNsNW5nZk4zYzg3emZkX25TU2FSRFA3R1B4U01RVjZZWGpCamFZTjVyc3QtM3RJTWRmYTVjblBFbEJDZjZMX2hkZkZHbEZHQXdDUjFmaHg3Umw3bmsxbFZjcTNIYWh3UG9MSGxsX3NYajNsTW94UTJJYnNTSjU5emc1X1N6T0R6X1Nhc18xSi1lUWFTTXB1THpBd0dFY182bF9iTXJLbmZmNUF3S0t1N1JxOGhRWGpNS3laZlFUZk9BODlpakF1S1dPSmNLcVNsT1RuSDJhX19yemEybURIUVpPc0tOTEY4NjdDYmlWbFpRRmZlb25aOVFaT0hJLVBGZm0tZERNR0FMMl9vbzNoVDNiaWxZUUplLV9DM043RWd4?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "f0f3a84d836c",
-      "time": "2026-10-03T08:05:26.000Z",
-      "source": "British Psychological Society",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "\"Psychedelic therapy important development in mental health practice,\" says BPS",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcFdrNlZoNTF0M3hOXzNXcHJwMml6M3VDRGJZXzVCV0o0TG5GRndNYUdqNE5hdU83WlhUNEI3S2lpMEtpc2NLWWdjX00xMjlLWXBBZjIzRGVSVTFsaHZsVExBNkhQVDNqTmJHSWNTazFQNENtMG1FeUE5Mkg3WmszemJuR2xIT2l3U3NFQl9KS1BaRHA2LWp2MU5EQ3o2WVFjcEJZ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "edddff209ca1",
-      "time": "2026-10-03T07:37:33.000Z",
-      "source": "The Globe and Mail",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin Inc. (HELP-NE) Insider Trade Summaries",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50LUJjNDg5THlOTHlKRC1aZV9wQVdaMjhMRUo3QnZwQzNTQkp0NTBrU25nUDV3WEJtZ09TLTRNbEZidEtlRDVteFF1NnE3ZW5xXzFIRWZIX3VvcGxwQzlrTU9GdllINzlqV09ydWtIMm55bjU3eThqN3ZqVC1zN1U?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "5c7e7c00f92f",
-      "time": "2026-10-03T07:19:58.000Z",
-      "source": "www.marketscreener.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Helus Pharma Inc.: Target Price Consensus and Analysts Recommendations | CLXPF | CA4234921076",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMDIwUHBDcTRBTmxJdEN0MTRSVXdKNlg2UFFpRFFva1BoZ3BjTXdPT3BzQkg3WGI1b3p2bXRZZEhwS0JpOWtPTzdVOVUtWXlYVlRQSUNKemZ5aGhXWFVKWEJwZ0tUbWxuam1xTUgxUEZueDEyRk1tVWloSHZzNVV5V3FVRGQwUQ?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "41a91b66bbc1",
-      "time": "2026-10-03T05:29:29.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin (NASDAQ:HELP) Rating Lowered to \"Strong Sell\" at Wall Street Zen",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdlowZ0RrQTdURTBLQl9zUEMxUGthbnc2WjIxV0J6VGJNTTlUb2pQY1dDSm5DM0Z5UjFwS0MyblB6LWNSLURkemtCRGE4dDRFbGhVbWJWd0NOVUFpTG5yUmVBb0kzUnVmWUE3S3laQ0tpc3dLdW01dThSNnVWWG9nSTFLTjM1NWM3b0ZYMDhjdV9JR0dVWmMwZ2kzd1NNTTFST1lGYVMza1ZXbnZWSVBxUnNfYXFrdTRIb05zMHhEV0FJLWVqQThJ?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "84bbf0cc2dc7",
-      "time": "2026-10-03T02:29:07.000Z",
-      "source": "GuruFocus",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes (ALKS) Insider Sale: EVP, Chief Legal Officer David Gaf",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaGJOQV85RVZNWUh2NlhFaVZpTzVfRXh6LS05NkpERVpBT1QyRnBWQk1sMmpDT3I5Sjd1aW5kVkk4bzBsMkNvZG02aTBORXpVenFQVTBROXV3b21IaS1kWmluN2M2NkdzRmhtQXFQXzVrZjlHY2NFbzdoc0h4ZUdzQk1Oam1FZVVBVHNSWGRySkJPVEp5RjVYZ2hHcnRhQVF4RVpZMWstS1hfYnYwblhBSEN5SzlDT3dpbHdXZQ?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "16ec0b75ef1b",
-      "time": "2026-10-03T00:19:59.000Z",
-      "source": "ChartMill",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NEUROCRINE BIOSCIENCES INC (NBIX) Stock Chart",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4TWdGYmo5N01lVF9hc2tfcXFpWkNQZjExcXpxNGZyT0JJeHpEbF9GYnVIbjY0SmVsOVptSWNxSFduMHJJQy1CRzVfcFVrRE0wYW1zLXdPcWNlR1QxeWVSS0g2dEQ?oc=5",
-      "tickers": [
-        "NBIX"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 // PSIL holdings reference data. Replaced by GH Action fetch in production.
-// Last manual update: 2026-10-06 (sparklines auto-refreshed daily)
+// Last manual update: 2026-10-07 (sparklines auto-refreshed daily)
 
 export type Holding = {
   ticker: string;
@@ -24,9 +24,9 @@ export const HOLDINGS: Holding[] = [
   { ticker: "NRXP", company: "NRx Pharmaceuticals", weight: 5.04, price: 1.45, dayPct: 16.8, spark: [1.00, 0.91, 0.78, 0.66, 0.18, 0.05, 0.00, 0.10], shortInterestPct: 22.1, nextCatalyst: { label: "NRX-100 NDA progress", days: 60 }, category: "Adjacent" },
   { ticker: "HELP", company: "Helus Pharma (fka Cybin)", weight: 4.03, price: 5.02, dayPct: 0.0, spark: [0.64, 0.66, 1.00, 0.73, 0.84, 0.43, 0.30, 0.00], shortInterestPct: 15.2, nextCatalyst: { label: "HLP-003 Ph3 enrollment update", days: 250 }, category: "Pure-Play" },
   { ticker: "ABBV", company: "AbbVie", weight: 4.44, price: 198.40, dayPct: 1.2, spark: [0.00, 0.09, 0.15, 0.76, 0.79, 0.65, 0.92, 1.00], shortInterestPct: 1.4, nextCatalyst: { label: "Q1 2026 earnings", days: 8 }, category: "Big Pharma" },
-  { ticker: "JNJ", company: "Johnson & Johnson", weight: 4.25, price: 165.80, dayPct: 0.8, spark: [0.68, 1.00, 0.57, 0.77, 0.82, 0.14, 0.00, 0.08], shortInterestPct: 0.9, nextCatalyst: { label: "Q1 2026 earnings", days: 2 }, category: "Big Pharma" },
-  { ticker: "ALKS", company: "Alkermes", weight: 4.24, price: 32.15, dayPct: 3.4, spark: [1.00, 0.80, 0.78, 0.39, 0.00, 0.14, 0.29, 0.12], shortInterestPct: 4.2, nextCatalyst: { label: "Q1 earnings + ALKS 2680 readout", days: 22 }, category: "Adjacent" },
-  { ticker: "NBIX", company: "Neurocrine Biosciences", weight: 4.20, price: 142.50, dayPct: 2.1, spark: [0.88, 0.97, 1.00, 0.44, 0.00, 0.27, 0.33, 0.40], shortInterestPct: 3.1, nextCatalyst: { label: "Q1 earnings", days: 18 }, category: "Adjacent" },
+  { ticker: "JNJ", company: "Johnson & Johnson", weight: 4.25, price: 165.80, dayPct: 0.8, spark: [0.65, 1.00, 0.53, 0.74, 0.80, 0.06, 0.00, 0.00], shortInterestPct: 0.9, nextCatalyst: { label: "Q1 2026 earnings", days: 2 }, category: "Big Pharma" },
+  { ticker: "ALKS", company: "Alkermes", weight: 4.24, price: 32.15, dayPct: 3.4, spark: [1.00, 0.80, 0.78, 0.39, 0.00, 0.14, 0.12, 0.12], shortInterestPct: 4.2, nextCatalyst: { label: "Q1 earnings + ALKS 2680 readout", days: 22 }, category: "Adjacent" },
+  { ticker: "NBIX", company: "Neurocrine Biosciences", weight: 4.20, price: 142.50, dayPct: 2.1, spark: [0.88, 0.97, 1.00, 0.44, 0.00, 0.27, 0.40, 0.40], shortInterestPct: 3.1, nextCatalyst: { label: "Q1 earnings", days: 18 }, category: "Adjacent" },
   { ticker: "STIM", company: "Neuronetics", weight: 4.10, price: 1.92, dayPct: 6.7, spark: [0.90, 0.83, 1.00, 0.85, 0.67, 0.00, 0.05, 0.06], shortInterestPct: 7.5, nextCatalyst: { label: "Q1 earnings", days: 14 }, category: "Adjacent" },
   { ticker: "SUPN", company: "Supernus Pharmaceuticals", weight: 3.91, price: 35.20, dayPct: 1.8, spark: [1.00, 0.90, 0.00, 0.17, 0.49, 0.35, 0.54, 0.57], shortInterestPct: 4.8, nextCatalyst: { label: "Q1 earnings", days: 16 }, category: "Adjacent" },
   { ticker: "NEUP", company: "Neuphoria Therapeutics", weight: 3.34, price: 4.65, dayPct: 11.2, spark: [0.97, 1.00, 0.88, 0.78, 0.63, 0.06, 0.00, 0.00], shortInterestPct: 9.8, nextCatalyst: { label: "BNC210 anxiety readout", days: 65 }, category: "Pure-Play" },
