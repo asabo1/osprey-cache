@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T21:58:03.585Z",
+ "updated": "2026-10-11T01:01:14.680Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 6,
@@ -183,10 +183,10 @@
   },
   "NBIX": {
    "buyFilings": 0,
-   "sellFilings": 6,
+   "sellFilings": 4,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 20908,
+   "sellShares": 6541,
    "latest": [
     {
      "date": "2026-09-14",
@@ -215,20 +215,6 @@
      "code": "S",
      "shares": 1250,
      "price": 182.006
-    },
-    {
-     "date": "2026-07-10",
-     "owner": "Delaet Ingrid",
-     "code": "S",
-     "shares": 4367,
-     "price": 181.02
-    },
-    {
-     "date": "2026-07-09",
-     "owner": "Lippoldt Darin",
-     "code": "S",
-     "shares": 10000,
-     "price": 179.6014
     }
    ]
   },
@@ -291,32 +277,6 @@
     }
    ],
    "filingDate": "2026-07-30"
-  },
-  "0001965808-26-000013": {
-   "ticker": "NBIX",
-   "owner": "Delaet Ingrid",
-   "txns": [
-    {
-     "code": "S",
-     "shares": 4367,
-     "price": 181.02,
-     "date": "2026-07-10"
-    }
-   ],
-   "filingDate": "2026-07-13"
-  },
-  "0001504783-26-000017": {
-   "ticker": "NBIX",
-   "owner": "Lippoldt Darin",
-   "txns": [
-    {
-     "code": "S",
-     "shares": 10000,
-     "price": 179.6014,
-     "date": "2026-07-09"
-    }
-   ],
-   "filingDate": "2026-07-13"
   },
   "0001520262-26-000111": {
    "ticker": "ALKS",
