@@ -1,32 +1,33 @@
 {
-  "updated": "2026-10-12T01:41:25.478Z",
+  "updated": "2026-10-12T08:06:35.417Z",
   "counts": {
     "total": 91,
-    "crit": 7,
-    "warn": 1,
+    "crit": 6,
+    "warn": 2,
     "bySource": {
+      "Stock Traders Daily": 1,
+      "Stocktwits": 9,
       "Kalkine Media": 3,
       "MyChesCo": 1,
       "LiveNOW from FOX": 1,
       "Pluang": 2,
       "Seeking Alpha": 1,
-      "Yahoo! Finance Canada": 6,
-      "Stocktwits": 8,
+      "Yahoo! Finance Canada": 5,
       "That Eric Alper": 1,
       "The Jerusalem Post": 1,
       "Targeted Oncology": 2,
       "Yahoo Finance": 3,
       "The Globe and Mail": 5,
       "Ars Technica": 1,
-      "Simply Wall Street": 3,
+      "Simply Wall Street": 5,
       "MarketBeat": 2,
       "FinancialContent": 1,
       "Investing.com": 1,
       "Your Oregon News": 1,
       "Yahoo Finance UK": 3,
-      "Investing.com Nigeria": 2,
+      "Investing.com Nigeria": 1,
       "TipRanks": 6,
-      "Stock Titan": 6,
+      "Stock Titan": 5,
       "GlobeNewswire": 1,
       "kalkine.ca": 1,
       "Chemical & Engineering News": 1,
@@ -48,12 +49,11 @@
       "Colossal": 1,
       "AD HOC NEWS": 1,
       "Psychedelic Alpha": 1,
+      "Investing.com India": 1,
       "Quiver Quantitative": 1,
+      "The New York Times": 1,
       "Military.com": 1,
       "Benzinga": 1,
-      "VVNG": 1,
-      "Spectrum News": 1,
-      "Lelezard": 1,
       "FDA": 1
     },
     "byTier": {
@@ -62,6 +62,38 @@
     }
   },
   "items": [
+    {
+      "id": "464f61fbf443",
+      "time": "2026-10-12T03:54:01.000Z",
+      "source": "Stock Traders Daily",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Trading Systems Reacting to (GHRS) Volatility",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMjByYWtjU0FpaXVzVHM5TUlyZmotTVdVRWFZVVptTUwwX0hDSmd2d0p1Zm1HRkN4Rlo4ZnRIZnc3VkVDYnluTUg5SC1vSFlWcWgyenpGTkI0clU3dVFmc0doYm9kNGt4cEZWbFJoZ0RXdXhYQWtZSV9VQWdVMUZNUWJtcmQ4TTBfZ292Z0JNNzVLeG1xdFBhYVRWRzNFRXV0b2JMSTFlNV9kdkMtaHZGY2VzTDRhUTg0ZGdDblVHV0Q?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
+      "id": "afd3a2abaf18",
+      "time": "2026-10-11T21:08:38.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
     {
       "id": "84515b4f0e5f",
       "time": "2026-10-11T20:01:00.000Z",
@@ -79,6 +111,22 @@
       ]
     },
     {
+      "id": "e992c27e000e",
+      "time": "2026-10-11T19:54:34.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "SRx Health Decided To Invest In A Psychedelic Drug Company That Just Went Public – Here’s What Aided The Decision",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQNW5LdE5JOEdPOTBEdHNYSTJTQTRpUGZldUVPQjliMlc4eWZtR3V4VUxaVDE2QjRhMnhHcXRNeGhYLWZ3ejBIcWhFRjRHeFZ4dndobjMzOEQxZWpxSlpHVVlWNmJMTlJHN0ZCNC1HRm1JOFZDd2dzcl9zVUlkZEcxS0k4Z3ZkdmN5M05qRDRNWE0xeHpZSTZoWVBlZ0VpVUExa0lmY1RUQmJlMjBBT2ZldGJoU19ZT3NKYl8zYUhVUTcySE5yMGJ3dEFiSE5SQWlUQUdNODNyMnNuSUFRLUVRR2Y1ZHpBdGtEc0JZbTJwWXRSZzRFc1JtRms2VlRSWXZoMjNUZ2pPNA?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "de4923beb47e",
       "time": "2026-10-11T17:45:27.000Z",
       "source": "MyChesCo",
@@ -93,7 +141,7 @@
       "tickers": []
     },
     {
-      "id": "a3861922c455",
+      "id": "cf021d1fc7bc",
       "time": "2026-10-11T17:04:28.000Z",
       "source": "LiveNOW from FOX",
       "sourceKind": "gnews",
@@ -103,7 +151,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Exploring Psilocybin as an Emerging Treatment for CTE",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRWUpTWE1LMDV1SFd0V3lyejlWdHB3SHF2M0JCTnp5UFh3TWRGdzZDZGFtSi1ldmkwbDNjZjVGNGlBUnRPazVaX0Z5dW5rekZ0UE9hREdNNTk2bDF1aHdmZ0JkWdIBaEFVX3lxTE02NFdtVXlscUl1UUJ6VUxvNW9mcUFEVnh4M01OYkJ4YS1Fd0k5d19vc21oaFAyWFlSQktuaVEtV1hyVEd2RUNaSVlvSzNRb2plOW11T19LZW1QWEhYZWlkc2hOaXE4d1dV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02NFdtVXlscUl1UUJ6VUxvNW9mcUFEVnh4M01OYkJ4YS1Fd0k5d19vc21oaFAyWFlSQktuaVEtV1hyVEd2RUNaSVlvSzNRb2plOW11T19LZW1QWEhYZWlkc2hOaXE4d1dV0gFoQVVfeXFMTTY0V21VeWxxSXVRQnpVTG81b2ZxQURWeHgzTU5iQnhhLUV3STl3X29zbWhoUDJYWVJCS25pUS1XWHJUR3ZFQ1pJWW9LM1FvamU5bXVPX0tlbVBYSFhlaWRzaE5pcTh3V1U?oc=5",
       "tickers": []
     },
     {
@@ -171,38 +219,6 @@
       ]
     },
     {
-      "id": "ec6542a54c96",
-      "time": "2026-10-10T19:52:59.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "afd3a2abaf18",
-      "time": "2026-10-10T19:18:33.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
       "id": "138bc62a2208",
       "time": "2026-10-10T16:05:25.000Z",
       "source": "That Eric Alper",
@@ -230,6 +246,22 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90QUxNWklTS01DelFhMXNQVkx2NV9telJXT3FuamxFWmJSUUpiaUNrSUE2Y0tmdnhTOE55TGw3SGs5Y0xWbWZGbk9XcWNwWUkteV85TmFVVjJKVFJGUzlwWExMVXNOaFlxTVpHMXY2TzlkQUdMTEFYdElhY1k?oc=5",
       "tickers": [
         "HELP"
+      ]
+    },
+    {
+      "id": "b6a3069ffea5",
+      "time": "2026-10-10T15:45:06.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "WARN",
+      "direction": "BEAR",
+      "impact": "MED",
+      "title": "CMPS Stock Slumps Premarket As $150M Offering Cuts Into Psychedelic Trial Buzz",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdmh2Zm8zT19qU2d1MWpDbS1NN1pYY1hjdWhUckdVUUtfUjFfSlR2MmZCOVdDcE9nVk9hd0FxTDlzQVpqSEsxNWkydVZpNkxVbVpxWUNqTktidFJPTWhXbENtOTlib1NrbFpIQjB6cHczWWoxbkZwVVZ5VUN0SUk2bGJkb0N4Mi1LcElFd0FnbHo1QzBFRmJ3anpuTUlKUWNGenJZUmFXclIxTkQ2NFJDNWxDYTY4TjBrQS1vSTZDWjNIdE5XWC1VS0JMZ0xTbWRaTzc0YkxISlU?oc=5",
+      "tickers": [
+        "CMPS"
       ]
     },
     {
@@ -275,6 +307,22 @@
       "tickers": [
         "ALKS",
         "ABBV"
+      ]
+    },
+    {
+      "id": "53477880f196",
+      "time": "2026-10-10T12:27:00.000Z",
+      "source": "The Globe and Mail",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Analysts Are Bullish on Top Healthcare Stocks: Argenx Se (ARGX), Neurocrine (NBIX)",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVWttV25xX0M3UlFVc1FFdVZCN3FoTkpFa0l2LXU3bDRJeTduT1N6dVJLcE03TjdxMGVDTlctMkFIMnNxaVdHSXFNdlhoQUViN21CelNxZTQyeXQwS0hWd0FkS2tZQjlTLV85SFp3NEY2Q2J4TzZmVzJxSzF4b1RwZmI4NDVDdzlKR3ZBVEJ4TlJsUkdWNURnRllyX0c0cm1YVVYySVh2STRzMEg1Wjk5U3NaRFBQZmNkMHQ3SjRnU05obkNmemhfT1B3UFN0N3RzNmZNdjdSNFRWZ0ZDMm5ZUmF1bGk3UURqODM2V3dEU2Y5ek9ZSHc?oc=5",
+      "tickers": [
+        "NBIX"
       ]
     },
     {
@@ -551,22 +599,6 @@
       "impact": "LOW",
       "title": "Cybin (NASDAQ:HELP) Shares Climb 7.8% - Should You Buy?",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXlPVlRBcHVDbHRES21rTlRSNTZzSnBVVk1QUGNFVkozUzlhOGFTa2ZXbXJEQjFXMmtfd0FzZnhycGozT0Q4WWVnd0VTZVVxVVJCTFJWOVZraWw5Z3A1S2VHcldHUWh5cWZwNFBGTU1rX2QwalR6S3YtN0pBcmo3ZVlBZmgwWEdJRW1YX0RwUC0yVzBqNy1Xc1dvS2FDOUZYbkNSeDItRnJueVYt?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "6ef87801ae9d",
-      "time": "2026-10-09T17:17:42.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin D/B/A Helus Pharma (HELP.NE) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84UFdtVHR1SW5QVTlLMWszdWtad1VEemZRYXFRT3pnNGoxTDMyZ3dXRlJSMXQ5R3Ffb3BFQjRmem01Wk9GbDZNaTBSSm8xcjRhc25VN0N3?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -895,6 +927,38 @@
       ]
     },
     {
+      "id": "66f60dfa7bed",
+      "time": "2026-10-09T07:00:00.000Z",
+      "source": "Simply Wall Street",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (NasdaqGS:DFTX) Aktienprognose & Analystenprognosen",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRWQwU3JQWDFXM0RsTTJfWEtvRlpOd2thS3NFSFRVQzlJVVNVMGxZUXZnYWwxVFlBWVZGZ2ttZzh1aDkxUmoyVjV4VFAyd21xYUQwSGFrME1ORDVkVlpLSS05aVlSTzZBM2JzT3FPM215bTNjSXQzUjdOVl95OFEzWnNKY3FoLWFHYmowaXhiS1ByUnhLcXhhSVFOeHBhZXQ2?oc=5",
+      "tickers": [
+        "MNMD"
+      ]
+    },
+    {
+      "id": "6e59fa85e08f",
+      "time": "2026-10-09T07:00:00.000Z",
+      "source": "Simply Wall Street",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes (NasdaqGS:ALKS) Stock Forecast & Analyst Predictions",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcGJsMWQwRnplUUNGVG5tRUpERllnMXZHU3BQSm44NF9faUZ1MjQ1SHdLdm5ETWU1cExTY1BIV3NjLXlXTWVRVDNLcGZSVXpXbngyNTZKSjJuRFhYQ2ktNUZDRkYxTEhMV18yOTZlYVhycVZLMk9qdm5hUjZkdXVIRFdHTTZBdDdiTHlJ?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "07265c87c1c8",
       "time": "2026-10-09T07:00:00.000Z",
       "source": "BioSpace",
@@ -1185,6 +1249,22 @@
       "tickers": []
     },
     {
+      "id": "8fb9b5eae35a",
+      "time": "2026-10-08T12:52:54.000Z",
+      "source": "Investing.com India",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "H.C. Wainwright reiterates Helus Pharma stock rating at buy By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUGtUX1dJUE1FM3pCMGxLMDhlNl9GS2duNW11Z3VCMDBGNWRTWDVSdk4yUXEyblhPSWg4QXExcm5zS3NlLXJsS2JNVF9icHQzZTFRSXNhc0VqcmZQTTc4bXhKR2hRclhDRi1DMkhiYURfQUdJYk5HNjJRTlgtaTQ5dHl0MEZnZHJ2bWZNUk1wU3ZPVktBQW02OXhpMHFWU2lVU1BCdUdrbVZ4VGh5bDV0TnluWkF1Vk9TQ1E?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "2dc57109b85f",
       "time": "2026-10-08T12:31:14.000Z",
       "source": "TipRanks",
@@ -1196,22 +1276,6 @@
       "impact": "LOW",
       "title": "Helus Pharma Sets Investor Presentation to Spotlight Late-Stage Mental Health Pipeline",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYkkxb19iTGFyampoYXM2YkhrblR4dFI1Mjl0aWhrUUpXaXFESWgtazVlQ1NIRHdxU1ZoT0xNdm9aS3BiX1lQMENYZVloUGZ0Q2NiQTlQZVJjMU13VFJUbGFxdExxMkc2cXlIeWRnR3F0SVQ2WmprTDBVbVgzU29ZeTlwTGlSaC1GeUNidDNHVF9fa19aLTNfNlhJSnRaM0FWSjJXVUlObzkwdDFDaTAwZkREOHNkTU9NMml0SHRxLWpGNGdWbkFLVFAxSHF4UC1NSDZCMA?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "b7da3fd8965c",
-      "time": "2026-10-08T12:28:38.000Z",
-      "source": "Investing.com Nigeria",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "H.C. Wainwright reiterates Helus Pharma stock rating at buy By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMXo2ZXFJc3NnaHdxMFNub1U0UXdRLVdSMWlwREVTZXZGMDJic2F6UDVjcDJTNTRZdDhxMzZIaU9BX0NMNDRIMGNnOUVpa3VqRDdDOWhmYWIxSk9ZQV9kUUV6QnY5bDRnMzAyUEF0ZjZEVHVheTcyaGczWGxWUXZsN0FZTmhaSFlfczdiOGhMUy1lejhjT25HX3d2dzNfT21CWjNuc0ZiV2tlVXVTcUlfNllReTR5M0ZHTnc?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -1314,6 +1378,20 @@
       ]
     },
     {
+      "id": "1327e128e91c",
+      "time": "2026-10-08T09:11:47.000Z",
+      "source": "The New York Times",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Presley Gerber Documented His Own Struggles, in His Own Words for Years",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS3kxRG5yd1VRZldEb2dTT2VjRllvU21VNVBPY252ZnlRSU9LMjNnVkVCWUpXNnoxd1VtVHh0RlVTRm5KUmJoTkVwbnFUMTF2YjRzVTNqZ1d3TWRGb1F6X0tHNU1UaUtFS1RqMlZmMGk5NGl1UmNuUGpoa3VoX2tkd1ZVdnlqNHdr?oc=5",
+      "tickers": []
+    },
+    {
       "id": "e0f64a10489e",
       "time": "2026-10-08T09:00:15.000Z",
       "source": "Military.com",
@@ -1373,82 +1451,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QaV9Cc0pqTlV1VzhLbTE4bzlPNDRCLVJvWUdwUGtSeFRHbXN5SDdxUGVCa1l4TlpRR2xoclNFMDRZX1g2eVpoTXNVakFpRy1mTnlVYw?oc=5",
       "tickers": [
         "HELP"
-      ]
-    },
-    {
-      "id": "3d1e253e1a26",
-      "time": "2026-10-07T23:33:51.000Z",
-      "source": "VVNG",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Victorville Traffic Stop Leads to Discovery of Marijuana, Psychedelic Mushrooms, Search Warrant and Two Arrests",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPanVvYUMzSjhFZEthRG82WUNlcmY1VmU3Vm54NGRVaVd6MWFLRVRxbDFkVWEtNW1mWU1FYjBqT2lRVjBIcXItY0QxVWNwNE1LLTUxZHV3b1pvRXJSMUhzYXM3ZjNoR3hBMzFvcEZpUXhRaVJlUnh3b0d0SHZtYklkMkdjUFFpaFpkUkZkT2VnZ0ZGOHg4SUtzamdCSkI3cVoxQXpoNnVja25SUWRWS0VlQVhQZ2I1d21JOExETDNnX2dfWnpNOXZ6aHN0dw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "00848e75da3c",
-      "time": "2026-10-07T23:06:00.000Z",
-      "source": "Spectrum News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Push to increase access in N.Y. to mental health treatments",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOclNkZGU3MGRyLXdYbTNNSzI2dTNyNkVGTTh2bTExdXgxT0tSMUhjdEdSc3NmamNtc3VWRHpqNDZmRU1pRkhrMlU0QjNacmc3NTN1c1hOWF9zV0dndEUtQk5rcjV3RTRrUmY0MjQ0ZVlxWTJnWnVkZTBMNkRKbkwtb01hN3Z3QThBU2hYR3NxRzFwUkpPeVRLRzVITjlZVjRSbTJNVUkyQzhodWlKNHc4emZGaDA?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "befcd301a323",
-      "time": "2026-10-07T22:15:26.000Z",
-      "source": "Stock Titan",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "A joint trust holds 50,146 shares for Neurocrine Biosciences (NBIX) medical chief Eiry Roberts.",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRy01WXhKTFdEcFloRVdkYmpoZDd2T25IMVZlbGdwU1FZaloxX2otVWFrTXJ2THVwWHU1UE9ETkh4MVdfSTNTVXBhckIxTV9fVEtZbFNzQ3E1QkIzNjA2Nzc1clhMOXNjLWFsTlp1YTJfWGtuUnk4R1Rnajh3RXhSQWpGZTNGaTlMUEI4M2pvMk45d3lMMG45U2E5dWJIQXVSRlh3T21DNE10TU51VlpfVlJMTm9ONHlCODVHbzVkN1QtWUJKVm9pQzY0SQ?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "753348cfc3f2",
-      "time": "2026-10-07T22:00:00.000Z",
-      "source": "The Globe and Mail",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Growth Stocks: 3 Top Picks for the Rest of the Year",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUzhXb0FGcUdSamhaYnlkQW9WS1hCb0F1OGY0UEZOV1U5Tk1wNC13bXlkdXhrR1hhN3cxdGVHcUZScDFsN3lLeHFPdHg2aWtJTGg0c1F3ZVNXdlNyQUs1TXZNeFE0aGtVZ0NBLWk4WjctaDlSRnhLTFFLNkJjdlB5WjdoZ1NnNHExc242ZjJlLXNmc0JXZUt0NEVwTHN4SUNDbGVEX2JSdXJ4VUlrNmozSGxja3J4VklDWENVVHItRHYtcjlUN3V0dm1FM0tXbkE?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "5a61243812fd",
-      "time": "2026-10-07T20:13:31.000Z",
-      "source": "Lelezard",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "AmyriAD Therapeutics Acquires Recognify Life Sciences, Expanding Its Clinical-Stage Cognition Pipeline with RL-007 (Inidascamine)",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLVZ4REZ3SkRjWjdwQ2FaUFZWUEstaXk4dk13Z3A2cGFMdThXZUltVy1EV0p0RXJGeXV6R2IyMzFnS3A5Z3cwZVBESjczUU1ZTk1MOHBHSzRtNWZGdFpMYXIxTHFMNjBiVUJUNE1hcE9TbFloU0pWeHlkSEZzamtiV3htU3dOVjl4d0EzZ3h5YUFCR3Y5YXE1SXpGNjdPZkExQVE?oc=5",
-      "tickers": [
-        "ATAI"
       ]
     },
     {
