@@ -1,8 +1,10 @@
 {
- "updated": "2026-10-13T18:32:14.243Z",
+ "updated": "2026-10-13T23:04:19.559Z",
  "source": "SEC XBRL company-concept dei:EntityCommonStockSharesOutstanding (cover-page share counts; quarterly cadence, not float)",
  "covered": [
   "ALKS",
+  "ATAI",
+  "CMPS",
   "DFTX",
   "GHRS",
   "HELP",
@@ -11,9 +13,7 @@
   "RLMD"
  ],
  "gaps": [
-  "ANRO",
-  "ATAI",
-  "CMPS"
+  "ANRO"
  ],
  "not_in_edgar": [
   "DRUG",
@@ -27,6 +27,77 @@
   "NUMI"
  ],
  "tickers": {
+  "CMPS": {
+   "sharesOut": 138476822,
+   "asOf": "2026-07-30",
+   "ageDays": 76,
+   "stale": false,
+   "series": [
+    {
+     "asOf": "2024-10-28",
+     "sharesOut": 68420818,
+     "filed": "2024-10-31"
+    },
+    {
+     "asOf": "2025-02-24",
+     "sharesOut": 92673132,
+     "filed": "2025-02-27"
+    },
+    {
+     "asOf": "2025-05-06",
+     "sharesOut": 93561753,
+     "filed": "2025-05-08"
+    },
+    {
+     "asOf": "2025-07-28",
+     "sharesOut": 95941264,
+     "filed": "2025-07-31"
+    },
+    {
+     "asOf": "2025-10-30",
+     "sharesOut": 96017044,
+     "filed": "2025-11-04"
+    },
+    {
+     "asOf": "2026-03-17",
+     "sharesOut": 128923295,
+     "filed": "2026-03-24"
+    },
+    {
+     "asOf": "2026-05-06",
+     "sharesOut": 134949320,
+     "filed": "2026-05-13"
+    },
+    {
+     "asOf": "2026-07-30",
+     "sharesOut": 138476822,
+     "filed": "2026-08-05"
+    }
+   ]
+  },
+  "ATAI": {
+   "sharesOut": 370864669,
+   "asOf": "2026-08-07",
+   "ageDays": 68,
+   "stale": false,
+   "series": [
+    {
+     "asOf": "2026-02-27",
+     "sharesOut": 364745985,
+     "filed": "2026-03-06"
+    },
+    {
+     "asOf": "2026-05-08",
+     "sharesOut": 368166674,
+     "filed": "2026-05-12"
+    },
+    {
+     "asOf": "2026-08-07",
+     "sharesOut": 370864669,
+     "filed": "2026-08-11"
+    }
+   ]
+  },
   "GHRS": {
    "sharesOut": 62029395,
    "asOf": "2025-12-31",
