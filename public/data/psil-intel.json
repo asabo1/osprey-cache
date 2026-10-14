@@ -1,19 +1,23 @@
 {
-  "updated": "2026-10-14T01:52:54.491Z",
+  "updated": "2026-10-14T06:51:57.652Z",
   "counts": {
     "total": 93,
     "crit": 8,
-    "warn": 3,
+    "warn": 4,
     "bySource": {
+      "Yahoo": 1,
+      "Netflix": 1,
       "Barron's": 1,
       "Opus": 1,
+      "Stocktwits": 6,
       "GuruFocus": 1,
-      "MarketBeat": 4,
+      "MarketBeat": 3,
       "STAT": 2,
       "Yahoo Finance Singapore": 1,
       "BookTrib": 1,
       "reactormag.com": 1,
       "High Times Magazine": 1,
+      "Trentonian": 1,
       "Yahoo Finance": 2,
       "Traders Union": 1,
       "Live For Live Music": 1,
@@ -23,7 +27,7 @@
       "LBB - Little Black Book": 1,
       "BioSpace": 1,
       "STAT News": 2,
-      "TipRanks": 3,
+      "TipRanks": 2,
       "U.S. News & World Report": 1,
       "Investing.com": 3,
       "Yahoo! Finance Canada": 3,
@@ -35,10 +39,10 @@
       "Moomoo": 1,
       "Hays Post": 1,
       "Vicente LLP": 1,
-      "Stocktwits": 7,
       "ACCESS Newswire": 1,
       "Stock Titan": 2,
       "Porterville Recorder": 1,
+      "Nature": 1,
       "News-Medical": 1,
       "Glide Magazine": 1,
       "Neuroscience News": 1,
@@ -48,10 +52,10 @@
       "Psychiatric Times": 1,
       "Fortune": 1,
       "PsyPost": 1,
+      "selecta bisso": 2,
       "Investing.com Canada": 1,
       "iXBT.games": 1,
       "Stock Traders Daily": 1,
-      "selecta bisso": 1,
       "Kalkine Media": 2,
       "MyChesCo": 1,
       "LiveNOW from FOX": 1,
@@ -69,8 +73,6 @@
       "Yahoo Finance UK": 1,
       "GlobeNewswire": 1,
       "Chemical & Engineering News": 1,
-      "Value Research": 1,
-      "Psychology Today": 1,
       "FDA": 1
     },
     "byTier": {
@@ -79,6 +81,34 @@
     }
   },
   "items": [
+    {
+      "id": "299a4bfb5da7",
+      "time": "2026-10-14T02:03:00.000Z",
+      "source": "Yahoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Janis Joplin Paid $4,000 for Her Psychedelic Porsche—It Later Sold for $1.76 Million",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY2ZTZVE4RksyaUdLaGVxSmEwWTA3a1NHcDhHTTIyUWJZVVFKZDM0ek1TYS0wNVhUNlRhcmFNTnhpZV8wdWsxZmNSdUJibkt2ZlJxNDdFUTJEWld2a2RURXJRMGVGQzVsNVZqT2FtMHFKU0ZpWHdoNlBLeWNXSkFMVEt5SUtmTkppc1ZWMjRGZXp4RGxfMmJJbg?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "fdd7606e8ed4",
+      "time": "2026-10-14T01:32:34.000Z",
+      "source": "Netflix",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "TYSON Director Floyd Russ on Mike Tyson, Access, Archives, and the Toad",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWUdDaHhnNUNIaVp2RzBNYzZhNmxuM2M3aWJrSk9BbzV3cWVDN2NobVItdWtNYkxLTkx6ZXlPc1c5Y1VpVFpIMTlQam9QVFZWZk1XcU5qVHROVkZ2UUMyQ1R1X181NlhFTUlNMkhma0diNWNEd0VONjhMa2tfcmQ2elBR?oc=5",
+      "tickers": []
+    },
     {
       "id": "65403690441b",
       "time": "2026-10-14T00:00:00.000Z",
@@ -110,8 +140,24 @@
       "tickers": []
     },
     {
+      "id": "ec6542a54c96",
+      "time": "2026-10-13T22:48:13.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
       "id": "a176196abdcc",
-      "time": "2026-10-13T21:51:15.000Z",
+      "time": "2026-10-13T22:02:18.000Z",
       "source": "GuruFocus",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -214,6 +260,20 @@
       "impact": "LOW",
       "title": "Jason Silva Made a Psychedelic Film With AI. He's Asking You to Watch It Before You Hate On It.",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUOEtacWlFWHVWV2FzaXdBcjNQU3VydXA3TXhMa1Z5N0VYb0FpNWM0NF9WRHdYTkM4NW91MHdtQ1hYQm01MzF0YjI2S0hqM2JoaHVLUTU4aE1wSVBFNXdqN1NGcG03VjJYLUdFYVpHZkxyM0hvRDE5OHRjeDVCOTg?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "794d1b21f453",
+      "time": "2026-10-13T17:45:22.000Z",
+      "source": "Trentonian",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Guest Oped: Washington has a chance to save veterans’ lives",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOWtRNnp4Y2JxUG9BQ2QzcWxKMG04R0JqbUdqTEc4UXlsSS1ySUd2UFBmMTZLdG5LVlBwblQzMHhKSDJKd1FabzNseDN0c0szd2IxV0RYYXJnWm9iVjF3SlRiUmVrb0FXOTN5Z3pOQk9xY0RoR3RCNjdrdHJ5cFN0RXJORFY3cU91b09Mb0Y2VnpvX1pWZUczSFRnTGM?oc=5",
       "tickers": []
     },
     {
@@ -539,6 +599,22 @@
       "tickers": []
     },
     {
+      "id": "ddf961f65f55",
+      "time": "2026-10-13T05:51:10.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "CMPS Stock Climbs Toward 2-Year Highs – What’s Driving This Rally?",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM3ZyTGNNaGl5U1BJY295aUp6SjM4eUJPd3VxQWRIX0h3aWRocTJoem1OUlBFU0x0YlBzcG50SmZDcUdCNFdaYWRndlZscFBxX0dCcnp6NVNtLXdJR056RHc4a3hTY3NFUHAtSUxpUHZvUHZrVEJnZENEQ190RXVheDloaEtUUVFBNHkwcnU2Vk5fOTBYXzMwQ0h5dUlsMlJvOW0zX2t5QWpjSl9WMzE3VENTblQxeDdVU1E?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "2c8595bc56e9",
       "time": "2026-10-13T05:03:29.000Z",
       "source": "Bioengineer.org",
@@ -689,38 +765,6 @@
       ]
     },
     {
-      "id": "afd3a2abaf18",
-      "time": "2026-10-12T19:47:06.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "CMPS Stock Rises 23% Pre-Market As Compass Achieves Primary Endpoint In Phase 3 Treatment-Resistant Depression Trial",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdkZXUnVmcl9lb3hlbS1DMm1vUEItNVhFbHhzclRaUUItOGFVWVNlQmdiSE81aW1IVWpmVVVuVzhWT0JvbS1VdWRWRkNhQlYxcUVQRzRTQ01pT3pjYTBienJUOVFUME5fcnhwSGdZaGJsampuNlgwLVdxZWxFcTlzZnRSNHZDSGJiR2VqYVk1ZXRuSUpvT1hwZEVwSEVkRnRqcjNIT0xjVk9nMi1LU1RjNGVZbVdaS0FFNGZhMUFvNXZPeGJFYlNWVGlQTVRBZlU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "ec6542a54c96",
-      "time": "2026-10-12T19:46:20.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
       "id": "f54baeb83e02",
       "time": "2026-10-12T19:11:50.000Z",
       "source": "Stocktwits",
@@ -737,20 +781,18 @@
       ]
     },
     {
-      "id": "ddf961f65f55",
-      "time": "2026-10-12T19:07:20.000Z",
-      "source": "Stocktwits",
+      "id": "c99df362dffa",
+      "time": "2026-10-12T18:51:01.000Z",
+      "source": "Nature",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "CMPS Stock Climbs Toward 2-Year Highs – What’s Driving This Rally?",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM3ZyTGNNaGl5U1BJY295aUp6SjM4eUJPd3VxQWRIX0h3aWRocTJoem1OUlBFU0x0YlBzcG50SmZDcUdCNFdaYWRndlZscFBxX0dCcnp6NVNtLXdJR056RHc4a3hTY3NFUHAtSUxpUHZvUHZrVEJnZENEQ190RXVheDloaEtUUVFBNHkwcnU2Vk5fOTBYXzMwQ0h5dUlsMlJvOW0zX2t5QWpjSl9WMzE3VENTblQxeDdVU1E?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "impact": "HIGH",
+      "title": "Enhancing cGMP signaling with psilocybin reduces head twitch and restructures the synaptic proteome while maintaining antidepressant response",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zczZCRlJRTFN3U2NZY09ab3dISG4zV3Q0dnp4Q2EtLVlJekk2V09adHA2WXNydG5XYTc4QnlaNzFHSnFZT3gyc24zeVR3YjRNb1ItNkZKemZ1eXpUYU80?oc=5",
+      "tickers": []
     },
     {
       "id": "356ae4d794c2",
@@ -920,6 +962,20 @@
       "impact": "LOW",
       "title": "Brain entropy during a psychedelic trip tracks later gains in insight and well-being",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQWVIMkhZRDZYT0FXNzY2bkkzNktQSlNyT2tYWXRYREhKeXdZTXB2dlBTZjFjSm9zM3J1QmFSdzNaRFlFa1Q4T2NUMlBSTnFVRzVHcEV6RTFjS2NpVFpLWno2OGdvbG02TkRUUWFUN1l5TkdnLXpHdlNjOHkxaUE2ZVd1b01JYi1ERThZSG1CTnZ1UlhPVEhTbEFFMXJVUDgyRFB0Q0QwY20wT3gzYkE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "f981305a5d85",
+      "time": "2026-10-12T07:00:00.000Z",
+      "source": "selecta bisso",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "NIKE BLAZY \"TIE DYE\": THE BLAZER'S PSYCHEDELIC COUSIN ARRIVES FOR HOLIDAY 2026",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUYxcVpTTTVSd3NybklBNFpRLTdXbW92TWMtdVFXMHhLUFo5VUdqSGZGbE40amdNM013dGw4Tk1NLVd2RnF5dWpMd256ZmhmV194eFB0cXFnYjJydGZta1Y3UUx4SmlxYThIVGxfbVg4eXpiUDhjX0c3RFBVcHJ3YnJvNXdNc3FVQ1lTMDM4aUxSc1B4X3F4YXY0YWNoQTRtYTlhMTdEZVdoRnFGdjZz?oc=5",
       "tickers": []
     },
     {
@@ -1331,22 +1387,6 @@
       ]
     },
     {
-      "id": "6f4247f7ec32",
-      "time": "2026-10-09T22:00:59.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "VistaGen Therapeutics Updates Executive Severance and Control Plan",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObWdnbTVsMzdOMzFNdGVxYU1xM3F5VzBnell2M0dLM01jX2FyVDJ2V3BsWXpfQmNVLWZ4dzIxeWdNWFI0bW5QYkdCdm53S3F6MkJ2STRlN1k3RFdoZER6QnA0M3lnby02cTVodUFhNEoya3RpZEp2UzlDVGZWVnZta2xBS21JLXBVNmc4RFdDR1duNHRFZ1ppNVByeVZKWlNIcHBXYm1oakJSQ2VWOXRtLXVCeGo4ZWZmc2c?oc=5",
-      "tickers": [
-        "VTGN"
-      ]
-    },
-    {
       "id": "c0171308c734",
       "time": "2026-10-09T21:16:23.000Z",
       "source": "Stock Titan",
@@ -1418,54 +1458,6 @@
       "impact": "LOW",
       "title": "Which Milestones Sit Behind the Recent Rise in Cybin Shares?",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbHM0bm9lc253cExSc3hjMk10TkJWa3dqTHFRMVJEMk9FRnA4Z2RGOGhtZXhSNkd5Z1JtYm45M1ZHSV9vaVhmOFEyWjdVaUtkUmJ6Y1BRRGhJVy1Zd1h5bWRveWJOdHhpX0ZmeGRKYjIyRlZjUzNYQzlIWENiSW0yRjY4dDdXRnYxdmlPeGJubFRRemlrUTJDUzAzOWRJZ3FpcWRjVXhscEc?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "807c05cff951",
-      "time": "2026-10-09T17:38:00.000Z",
-      "source": "Value Research",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "VistaGen Therapeutics Inc. (VTGN) Key Financial Ratios – Valuation, Profitability & More",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd2F3eW1KNjdZTXBCTGRvd2hEYldpTVdfTzNDRERhTFR5YzEtdmdLVHFEZVVoXzJTdFFjVHBaSW9YM3plUlNobTZwODZTbGYxVzN0c3V3dzh4TllNZGpxYnZqcE1wa0pKa21QSE1URk1ncW9KOHFUR0JVckhhZlFoUUhKemJKd0w4N0JpUFV1LWstbzlabUxJ?oc=5",
-      "tickers": [
-        "VTGN"
-      ]
-    },
-    {
-      "id": "e9c2c3d9c871",
-      "time": "2026-10-09T17:23:23.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin (NASDAQ:HELP) Shares Climb 7.8% - Should You Buy?",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXlPVlRBcHVDbHRES21rTlRSNTZzSnBVVk1QUGNFVkozUzlhOGFTa2ZXbXJEQjFXMmtfd0FzZnhycGozT0Q4WWVnd0VTZVVxVVJCTFJWOVZraWw5Z3A1S2VHcldHUWh5cWZwNFBGTU1rX2QwalR6S3YtN0pBcmo3ZVlBZmgwWEdJRW1YX0RwUC0yVzBqNy1Xc1dvS2FDOUZYbkNSeDItRnJueVYt?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "3c2124b9e31a",
-      "time": "2026-10-09T15:54:23.000Z",
-      "source": "Psychology Today",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Could Psilocybin Help the Brain After Repeated Concussions?",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQmhnOE1VUGJzdE1OYWFtc1llT0FKSHBweHlvdXdQU1hSakNJT1hIRktMZFJ0aV96c2oyVEtONmU2U0RCTlhKamY4QURVZ2I2Z3lkTXF4Q2JTSVdtdWpLMjB5amppaDFVYW5iSjlTWkNIOEV2Y2k5cHl2bE42OGdVb1FFNlFjcVhQVDBCY3JuWGF6VEF3MzZQaXpBd181NUV3SkFEb0FNSDZEY21TeE1oWkpXM1RHUjVBRmN5b1huU1ItNkt2ZkE?oc=5",
       "tickers": [
         "HELP"
       ]
