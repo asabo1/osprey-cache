@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-14T22:41:11.112Z",
+  "updated": "2026-10-15T00:56:13.734Z",
   "latest": {
     "date": "2026-10-14",
-    "wti": 95.02,
+    "wti": 94.46,
     "wti_prev": 94.14,
-    "wti_delta": 0.88,
-    "brent": 105.91,
+    "wti_delta": 0.32,
+    "brent": 105.31,
     "brent_prev": 105.69,
-    "brent_delta": 0.22,
-    "spread": 10.89,
+    "brent_delta": -0.38,
+    "spread": 10.85,
     "crisis_score": 85,
     "score_method": "v2-2026-06-11"
   },
@@ -160,35 +160,103 @@
   },
   "intel": [
     {
-      "time": "22:25",
+      "time": "00:49",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Wyoming Insight: Oil prices, tax collections both increased in September",
+      "outlet": "WyomingNews.com",
+      "source": "Oil",
+      "date": "2026-10-15T00:49:12.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWmJUTHpteko0c2VWblp1NzJJQng5cllXSENtWks4bDdFT2FvR3B4WVYtWEdHcWhHSkxXS2VTamktTEpGN3diZDh6cExDTUtGTlp2N3hJSV9RQmdRMnV1QklPZlYzWndxTEtnX3lTbWhjZF83TXc5SzFCbWRtZ0NiczNielRQUkVobXFCLS1JM0FIeUFVTlZFcWI4UWo4R3ppNzQxdGFwbXlEVGd1My15c3FuREpkbUZ3RDJKQ0VncTlXNFppb3loVGdfSXRvR0JUQ21JVjZxUWJPbXRZQ1ZjZ0MzUFdNamdyS2FDUl9PN1V5Y2pOZ3c?oc=5"
+    },
+    {
+      "time": "23:21",
       "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Iranian attacks sink two ships in Strait of Hormuz",
-      "outlet": "The Washington Post",
+      "direction": "NEUTRAL",
+      "text": "Ship carrying 2,500 containers sinks after hitting mine in Strait of Hormuz, claim Iran’s Guards",
+      "outlet": "The Independent",
       "source": "Hormuz",
-      "date": "2026-10-14T22:25:14.000Z",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVg0eWh4OTZ1NG5IR1M1ZWJJejUxUncyYVVWeHB3QTdHaHYzUnRDOHBpaFpEZldsb0RNZG5SNVZDMWJIVUV6U0JZRVhLSmdtWEZfSnpGSDlXWVU1UlRRSF9wT0JSbktPRTRWT2dkazNCSmJoWDBaUl9wZEI3bjVpLUNZS2ZDWW9IQk9oUndRNU1qYUpHclhnUzhVYVU1RE0?oc=5",
-      "cluster_size": 4,
-      "cluster_id": "oil-prices-rise-reported-attacks-ships",
+      "date": "2026-10-14T23:21:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYnFKdG5Fb0RKUUxQWUM3dERsOTFCMXBYZ3p6LVR4akVXZ3M5b3pkT2VBcXV6UVdzSVcybzFua19fU2xDeFVfekl2Y1BINDNCV1ktSTlKc2RaMWhPOU4yMGNKcDBvUV9UUUNJcS1qbWNaa0d1LTFhLWoyRm52LXZJX0hFWnRza1RLSVRUZVFSUVd5NGJ2TVhmNEd4NE4?oc=5",
+      "cluster_size": 9,
+      "cluster_id": "iran-irgc-container-ship-sinks-strait",
       "first": {
-        "outlet": "Euronews.com",
-        "date": "2026-10-14T06:28:49.000Z"
+        "outlet": "Al Arabiya English",
+        "date": "2026-10-14T09:29:00.000Z"
       },
       "also": [
         {
-          "outlet": "Euronews.com",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeU9vRWR5S19Bbi1PQzJTMW5nYkozVWU3MHFuQ3ZiMzhjN1FkMEF6MUN2bkEyRWc1Y0VtYWFnRzFMQmUtb25BbXd3emFoUUNlWm5vOGd3QmdVODlBYi1KVm9qYXNubDFFSmllRzQ2dllIRVJkRTFJM0RHUFpKdzAzY3pCY0Y2dVZHaWFIcklndWVVbU5QTVlkcHdYMGpraVdQbHIyQUR3?oc=5",
-          "date": "2026-10-14T06:28:49.000Z"
+          "outlet": "Al Arabiya English",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbnphVk5XU1hFNFRYTTQtUmdsanRDYmhQRjFNb0F6cmxSVzhKUEhQWXJvRzdSMThweFZ3T0haRDByRlc5cHdHbzg1NW9oaHFhVElJcmsyaGJDdW5YOGVObkczYlozMDNEZmZKdnpwdnV6aVBJOEJGSzhuSm1FTVcteU1zdk1PZER0andPd1h6elo1N0VUVWZGVE96ZFRabFZ0dVd5cUQwcWZ5OWZnRzluTHUwcWRoT1FOWWVUcFNrOHc3aE9v0gHKAUFVX3lxTE1BbHFRck9ySzZUZlhad0VEV2VmZ1poZlUtTjRLSHhVcGljZTRndDJOMldzZDc0Y19xYm56QWFqMTYtV1dsenlXTmtSMUtIaWpZdXQyUDVWR2Y3RmphemFqV1d0MS01U3ExOGo3d1RjbGx5bXFNcE9pOU5OSW9EejljQ09KUUE2blc5WXdSeVhUSUJwQ21zY2FXTVVWR3FCcWFNdVMzMVJBYS02aTJibVR6YWs0dmlmNDhzdUdSa2s2TVRLQUgycjVTTFE?oc=5",
+          "date": "2026-10-14T09:29:00.000Z"
         },
         {
-          "outlet": "Euronews.com",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeU9vRWR5S19Bbi1PQzJTMW5nYkozVWU3MHFuQ3ZiMzhjN1FkMEF6MUN2bkEyRWc1Y0VtYWFnRzFMQmUtb25BbXd3emFoUUNlWm5vOGd3QmdVODlBYi1KVm9qYXNubDFFSmllRzQ2dllIRVJkRTFJM0RHUFpKdzAzY3pCY0Y2dVZHaWFIcklndWVVbU5QTVlkcHdYMGpraVdQbHIyQUR3?oc=5",
-          "date": "2026-10-14T06:28:49.000Z"
+          "outlet": "Newser",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRUJOakRmZFhQOEE0OU9IUmhMZjVicWZYTHdIMU5nQjFYM3pPcUEwX3V4Q2RaU3VzYTdDSElVWTN0TXZiNG1nZ0pNZzZvVXlFczh5YmZoZHB4c2JZdTFSSUFBYjVBbXl6TXhpZlY3N3RrOGhqcEJXRlhQS1dBa2ZxOUN0RThwa3VkQnQ0WEtwd1AzOTI1YTVz?oc=5",
+          "date": "2026-10-14T11:51:00.000Z"
         },
         {
-          "outlet": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1uTTFfTURzNnFkMDYyU0czbk5Oai1adnh2U0dLVlA4eFlZUGJ6MlgtS2VNejU4c09aVE55d2ZyQXJMR0VuZ0xHUDRIdlNiUWJZUlhBUUFDX2NZRlpOU0c2T0ZXYWlUSnJYbGw2VVZiTkJiZ2szdEtNdmxzYXY?oc=5",
-          "date": "2026-10-14T18:20:24.000Z"
+          "outlet": "Firstpost",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOWdXNjlDajRRcUFCLTdMNFpaa0NsSmcwMW04a1M0YnZGdVZpZEtaOXcwcGtxZnEzbXVzekVtbG1aS242c2FVUTZmVzVXTWlhcnltc2h0eHI2XzlpUlRTSjkwOXhGQzdmLTdaRnhyOHFMdlBOeVR0VDFEamVhdHZUTjZiU0JMWVFwSGFpdTdaeHp1am9VczktOW4wOTJpMk5hVkZsVk1SemlCV2Q4d1Z1YjlLa05RNlU0bEx0YldVMWNfdkXSAcgBQVVfeXFMTVZxNnFEa0owLVg2ZjZaenFzdGJRTkQ5Y1ZQazBOMngwbHZwaWhKaDVYaHpnemVPcWlkNklsVzJjQUhwaWxEVFZmdWs1RUNRckNERGtPOHNMQ0xPVFVURVlZNnBfaU92RkdhNGUwYzJQOUlNRFU4Mk9rQzl3eUFtZWtjanBxNzhYRnBvdkxNRXZzREpTSmg5eWhlanRUNXpfMnluREY4NUpXb1Uwcm1LZEhrcDl5RmxOWXk4NDVDUlVoZEdwTWNDU3U?oc=5",
+          "date": "2026-10-14T11:54:51.000Z"
+        },
+        {
+          "outlet": "Yahoo",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80NUFBY01KbzVwZXAteUdSaGlaRWdqZGFfSDBxcGRBSzFMelYtQkZERm9fOXVETzNtLXNPbDZyUUUtSEFpbmJsY21ub0E3R2RLLThqWFlaMlBSQlp5Vko2Vk84SDVtaW4zc2d5TS1qclhKWWp6bi1naU53ZGVvTEk?oc=5",
+          "date": "2026-10-14T12:51:43.000Z"
+        },
+        {
+          "outlet": "Yahoo News UK",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xdUtpSU16bVNCN3BTS213aWVJa1ZFaDFyRS05ZVpPaWdHWlhjS1EyU3JSWHVvY1RiQjVqS0FtZ0xVdERFWmtramg5WTB3R1A4eEZkcXRKSWVLVDBzQXYzenJzSW1EMW5RMElOazl1aXVXd21aTm05NEZlUm9lSTQ?oc=5",
+          "date": "2026-10-14T13:08:35.000Z"
+        },
+        {
+          "outlet": "Spectrum News",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQlNHaFZ1bG9WNlpBSjFEc3F5MUpiem9tOU05NEpidDBwRUluN2VtVk1SZkp3dVhjOXFFSUpvTExKVzdJa0o5RUh6UWdVY1lCLWp5bVpIV0xQSTlqSTNFenFlR2FyX3VCWjZVa2w1WTVFMkZTNkVCd2tHcW9SeTJWWnBFVy1DOWhNMDdoYWgxUEN4N0ZoTEVhRHVPanRYQQ?oc=5",
+          "date": "2026-10-14T13:28:00.000Z"
+        },
+        {
+          "outlet": "The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQelpvaUZOeUF5OEFwS3NfN0FTVVFoYzdHMjRWM2dLbzZMS3BPX193bjFua2JndE1CaWJOVGhsbXdsTXlHYjM2YU4xdXNDVFo5M1Rta2tqOHItU093WW5VeFZtV0xhU1BTeU9HcGVjWHRQMGVOem5xb3Q0ZVpOQkIwYWxKRFJCd0pxRldCTm9VUEZDYmdibE1iSVVkWjl4N2VrRmVHbk1vYWc1SzhVNU1JZWNPQ2ZXWk1QMVUxdzl5ZDlKcmY0c0ctX0Y0Q1LSAdMBQVVfeXFMUFZ5Q2hUR0l3ZktQb3lROGwxanJsR21zWlRxZDJRQTY0Zmk0RDZHVm1aTVBQUVgxalU4WFVwOXMyY1FMWGstemM4LUFvbkJFVWJobUU3WnVyVHdKVWFUb08wbjhDYWozLWkwbzc3cEFMQ0dDX18wUVU5aGF1QjlrM09kdl9NZmZmRENnSGkxTWM5RFI3Y0RYeldUYXdfS0x3OC1aM1hIX1c4LUotQWdtWlRmVkpUWXJFTWNXNV9rU19xaDhjUVV5OUtTNWNUTWUzempaRQ?oc=5",
+          "date": "2026-10-14T16:41:54.000Z"
+        },
+        {
+          "outlet": "The Times of Israel",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFE4OHJNQng2SjZhSUJwUk10aGt2MklIQjJOQ1VDLTdvTDlHZmd5aFc3c2w0RUJ4X0JrNmpfX0d6dk1KWGU3Sk1NYzYxRzZGbjFXT3dIQTN2M01QN2pJQWxuVHdackZuWlB4a19ST3h2TEl2QlJFeXRBdGVpNDhOazI4cC1XUk1IMWVsdTVNVWlVMFZqY3fSAZsBQVVfeXFMTkpsMUl0YjNBNnl3NUdoUkFfU1N3anFyb1Y5akhkQmFSUnhjM2NNemxsUk9EV2l0TnBDeExrcE5IeXdUaUhBZW1rYlBXdFBqOGVlUVNDdVlVd3FpSG9fYnVFTDhvVU5hbkY4SzBBZlNYc05jbDAtN1VxRTR1dWgybGdvTjBpM0s3WEprOEdmcVVQNnhlNHBaUWdtY0k?oc=5",
+          "date": "2026-10-14T20:37:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "23:00",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Oil price hikes, Saudi-Houthi strikes carry on amid Trump's midterm pause on Iran war",
+      "outlet": "Fox News",
+      "source": "Hormuz",
+      "date": "2026-10-14T23:00:46.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZWVpMUFEeDIzNVZsN1hTVlFCbTJXWm1qRHh6RUgyczJVUF9Ha3FLblZOVzVaS2QtSDJDMDRIaUFrRzRkZmlOaTR4OFVVcml1Z21NWXhDUjl6SmZtWkE0SFVHRmszbnYwRU5oRFVCTHVNQm15dkNSRWo4dGl0Y3lnSmZBZWx6Z3hZRVVBMWJ2eWxLeENhd3NZNmppLVRxNlF2Qmlv?oc=5"
+    },
+    {
+      "time": "22:44",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "NYSERDA: Heating oil prices up 67% compared to 2025",
+      "outlet": "WENY News",
+      "source": "Oil",
+      "date": "2026-10-14T22:44:33.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRi1tN1ZoUFlDcEVBRHVsclcwSWxKN1VJQTloUDFzQVkwTy1paTFVc3g2ejZrb2IyUmdlSjdIVERPbnVSRmxWakMtNW9XZ0MxUEFDZi05TWFhZlhqODg4b1otR0FCb2ZKV0c3bWluaGd5ckZ2bmlqNDRtN0dtc2xUOGFaVWRpYTJuRmRhM1VYQlVqX3UxX00yZUxZY2NTRE01WmJXYVNTdm5pSmk4SjZOUFE0cjVTWDdqMGc?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "nyserda-heating-oil-prices-67%-compared",
+      "first": {
+        "outlet": "WENY News",
+        "date": "2026-10-14T21:34:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "WENY News",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYWdRSk1tSnZxVlVlYkM5YlFBUmY5ZW9GSmVTTWRkVW14QlhYQ0hJazN1QlVJY0xMNWN5TlJ3bFdCc1lORVZuVXlZSXVfdHd2bXpycFhoRXdYWjZoNUR2SE42NEt0TTlIYk1fVk9yTmhMN1FDZWJYRlVaTUNkWE5MUS15Mm9yaTQyQWZ5aThsenZKdElYUEVNSHZ3SlN5emlPclV4SWJ0aUU3aWVEN0phaGR0MV9Lbkp4ZzRaTEo4N3AtMkU?oc=5",
+          "date": "2026-10-14T21:34:00.000Z"
         }
       ]
     },
@@ -213,15 +281,15 @@
       "link": "https://www.bloomberg.com/news/articles/2026-10-14/latest-oil-market-news-and-analysis-for-oct-15"
     },
     {
-      "time": "21:50",
+      "time": "21:55",
       "severity": "CRIT",
       "direction": "NEUTRAL",
-      "text": "Iran says a ship sank after striking a mine in Strait of Hormuz, and other Middle East developments",
-      "outlet": "WRAL",
+      "text": "Video Iran says navy cargo ship sank after striking mine in Strait of Hormuz - ABC News - Breaking News, Latest News ...",
+      "outlet": null,
       "source": "Hormuz",
-      "date": "2026-10-14T21:50:35.000Z",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeUlmcEpCUnhiT25SeThMNXRaSmFxb0U3cGd4TGtnYTRrdi1XaFBXUlU1NFBpaHlIX1B4ZTdpS0dHUjh2aW1uSk5rNnFhcDR3dHFYM2NPRkVtODY0Nm5lcV9EU1hyRjRkbldoRG85emFPUHpmeXIwYkxhVjZzYjZoR1Z1d0txRFY3R3NfQTJvTzNiSUxfN0pORDNEZnBBbkhFOWJ2QkV1Vy04M3hhMmVWM2Q5YmdDYzh0SDVaTmZKekY3VDJYYmIteXh2TGwyUm8?oc=5",
-      "cluster_size": 14,
+      "date": "2026-10-14T21:55:44.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzVjlsNklTZ2FWeTFuYzhHSUE2NjEtSlZyWXpmWFZMX2xIVE9nWjlnNFdnbFNwLThxdzdBa3MtNFhNRS1HS2prN3JDdW4?oc=5",
+      "cluster_size": 11,
       "cluster_id": "iran-increases-threat-strait-hormuz-shipping",
       "first": {
         "outlet": "PIX11",
@@ -249,19 +317,9 @@
           "date": "2026-10-14T11:10:16.000Z"
         },
         {
-          "outlet": "Newser",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRUJOakRmZFhQOEE0OU9IUmhMZjVicWZYTHdIMU5nQjFYM3pPcUEwX3V4Q2RaU3VzYTdDSElVWTN0TXZiNG1nZ0pNZzZvVXlFczh5YmZoZHB4c2JZdTFSSUFBYjVBbXl6TXhpZlY3N3RrOGhqcEJXRlhQS1dBa2ZxOUN0RThwa3VkQnQ0WEtwd1AzOTI1YTVz?oc=5",
-          "date": "2026-10-14T11:51:00.000Z"
-        },
-        {
-          "outlet": "Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80NUFBY01KbzVwZXAteUdSaGlaRWdqZGFfSDBxcGRBSzFMelYtQkZERm9fOXVETzNtLXNPbDZyUUUtSEFpbmJsY21ub0E3R2RLLThqWFlaMlBSQlp5Vko2Vk84SDVtaW4zc2d5TS1qclhKWWp6bi1naU53ZGVvTEk?oc=5",
-          "date": "2026-10-14T12:51:43.000Z"
-        },
-        {
-          "outlet": "Spectrum News",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQlNHaFZ1bG9WNlpBSjFEc3F5MUpiem9tOU05NEpidDBwRUluN2VtVk1SZkp3dVhjOXFFSUpvTExKVzdJa0o5RUh6UWdVY1lCLWp5bVpIV0xQSTlqSTNFenFlR2FyX3VCWjZVa2w1WTVFMkZTNkVCd2tHcW9SeTJWWnBFVy1DOWhNMDdoYWgxUEN4N0ZoTEVhRHVPanRYQQ?oc=5",
-          "date": "2026-10-14T13:28:00.000Z"
+          "outlet": "Hormuz",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObDBma2xDcl9fbGNsbElydFZlSzhHSGZzdW81MkwzenpUc1RVWkYwUTJfVHRrQklQNUpyZkctMXlRUVBYNzlka0UydFBxa0xDSzREYjVhaUQ4SVJQYV8wYk45WVFUQkQ5QzBtTnRGYjM2UXVIN2hYZUw5X04wNWxyckpZTQ?oc=5",
+          "date": "2026-10-14T12:39:45.000Z"
         },
         {
           "outlet": "Middle East Monitor",
@@ -269,52 +327,37 @@
           "date": "2026-10-14T16:09:00.000Z"
         },
         {
-          "outlet": "The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQelpvaUZOeUF5OEFwS3NfN0FTVVFoYzdHMjRWM2dLbzZMS3BPX193bjFua2JndE1CaWJOVGhsbXdsTXlHYjM2YU4xdXNDVFo5M1Rta2tqOHItU093WW5VeFZtV0xhU1BTeU9HcGVjWHRQMGVOem5xb3Q0ZVpOQkIwYWxKRFJCd0pxRldCTm9VUEZDYmdibE1iSVVkWjl4N2VrRmVHbk1vYWc1SzhVNU1JZWNPQ2ZXWk1QMVUxdzl5ZDlKcmY0c0ctX0Y0Q1LSAdMBQVVfeXFMUFZ5Q2hUR0l3ZktQb3lROGwxanJsR21zWlRxZDJRQTY0Zmk0RDZHVm1aTVBQUVgxalU4WFVwOXMyY1FMWGstemM4LUFvbkJFVWJobUU3WnVyVHdKVWFUb08wbjhDYWozLWkwbzc3cEFMQ0dDX18wUVU5aGF1QjlrM09kdl9NZmZmRENnSGkxTWM5RFI3Y0RYeldUYXdfS0x3OC1aM1hIX1c4LUotQWdtWlRmVkpUWXJFTWNXNV9rU19xaDhjUVV5OUtTNWNUTWUzempaRQ?oc=5",
-          "date": "2026-10-14T16:41:54.000Z"
-        },
-        {
-          "outlet": "Hormuz",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzVjlsNklTZ2FWeTFuYzhHSUE2NjEtSlZyWXpmWFZMX2xIVE9nWjlnNFdnbFNwLThxdzdBa3MtNFhNRS1HS2prN3JDdW4?oc=5",
-          "date": "2026-10-14T16:59:20.000Z"
-        },
-        {
           "outlet": "Boston Herald",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNLVBPUVZ6UXZTOXE0RGo0am5wYUJiOXFhVnROcFlrdlEyNXhFemgwTUhpWDFMcHdBSG9iRXYwUjlTMWlpb0VlMjJPQnZ6RWdTZnR4cHU4b3dQdnFFM3NreVdfM2dBbm92Q01UOTRnSlEtVGVVc1ZIdkdrVnlrZTh5Y1VyeVNTS1Q5c085eW1LbUpqa2c?oc=5",
           "date": "2026-10-14T18:38:10.000Z"
         },
         {
-          "outlet": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnpCTWlhR21RaWFXLXJlVTA2Ym5CcVlfZlJqcHZycC11QkN5UEtieS0xTEZBVlZEeHJ1TzM5NmhlNGUtTk5vYWEyVU50ZVIxbDdjVkxfeHFCZnh5UV9ZaTJsbWdrWFJNYlRSNFpjRmtkRWtZdHNOTE1EVkIxX0J3djZ6N0VBNDJ6NGpvRlZ4ZFVDRWIzdVozV0pudllQOFIybE1qdlhWZkJoeWJy?oc=5",
-          "date": "2026-10-14T19:50:00.000Z"
-        },
-        {
           "outlet": "Sentinel Colorado",
           "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMGN2bDA2eXhZNTZCWGg5S1FsMzh4Skp6SkJQbmZCOFJtR2JBbllMaFZ6OWtQM1pxVWlWanlGcXNuU1JuellCMzZ1cGJoandTeGpTOWxTMzNsWFp5bUtYbVZFTW5Mb1BUNTZqeHJuYjVfSHVJVGxuY1ljZHBzNHkwMGVrX1l0WmlQMEV0cGU4M3Fscml0MXI2dWRnbWdFVHJkVGw2ZXFXWmdIcV9LZ3Vlbnl1QldwcWtQcEhsbktmZVhiWnMyYmY4OHF2a2RwRWZ0S0I5ZWwxNWpBZw?oc=5",
           "date": "2026-10-14T20:31:27.000Z"
+        },
+        {
+          "outlet": "WRAL",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeUlmcEpCUnhiT25SeThMNXRaSmFxb0U3cGd4TGtnYTRrdi1XaFBXUlU1NFBpaHlIX1B4ZTdpS0dHUjh2aW1uSk5rNnFhcDR3dHFYM2NPRkVtODY0Nm5lcV9EU1hyRjRkbldoRG85emFPUHpmeXIwYkxhVjZzYjZoR1Z1d0txRFY3R3NfQTJvTzNiSUxfN0pORDNEZnBBbkhFOWJ2QkV1Vy04M3hhMmVWM2Q5YmdDYzh0SDVaTmZKekY3VDJYYmIteXh2TGwyUm8?oc=5",
+          "date": "2026-10-14T21:50:35.000Z"
+        },
+        {
+          "outlet": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnpCTWlhR21RaWFXLXJlVTA2Ym5CcVlfZlJqcHZycC11QkN5UEtieS0xTEZBVlZEeHJ1TzM5NmhlNGUtTk5vYWEyVU50ZVIxbDdjVkxfeHFCZnh5UV9ZaTJsbWdrWFJNYlRSNFpjRmtkRWtZdHNOTE1EVkIxX0J3djZ6N0VBNDJ6NGpvRlZ4ZFVDRWIzdVozV0pudllQOFIybE1qdlhWZkJoeWJy?oc=5",
+          "date": "2026-10-14T21:53:00.000Z"
         }
       ]
     },
     {
-      "time": "21:46",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Oil prices rise as Iran steps up attacks and Houthi-Saudi fighting intensifies",
-      "outlet": "Inquirer.com",
-      "source": "Hormuz",
-      "date": "2026-10-14T21:46:56.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdHpaY3JEdE50WW95N216QW1DUGdNaEUtOVRZS0VqWXhDb0JidjBWb0hLVVdkZTROLTA0bGFnQ0NsRDd1czY1bHc1UWR6QldreXY4S1JSMUpscV9qYnZqX3ZBRlZLVTRFQ0pCZXYyeGlKYVNOVW95SFV4MUhkV0FYM3JIWXlPcGI1RWMzQzM1VFlzV3l2aE4yUG1VY1N0Z3FRamRrTU1HT0VVSGtoQVdoMTExbGRIcmItZWNUc2lmT01OV1JIRl9PQUdMVElab1NTc3NUNWJMaw?oc=5"
-    },
-    {
-      "time": "21:46",
+      "time": "21:53",
       "severity": "CRIT",
       "direction": "BULL",
       "text": "Trump faces new Iran war challenges as Houthi attacks threaten energy supplies",
-      "outlet": "KHGI",
+      "outlet": "KOKH",
       "source": "Hormuz",
-      "date": "2026-10-14T21:46:47.000Z",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNSE1SakpJTDhsQUYzckVTYmRnUEkyRXpjV1g2TXUtQW0xLU1hZzQxdGh6cUhTa1VZZ0VraWRUMjlCRFhfNjhveDI5Mlp1a2lSYnZPbEUwekEyTWltTVczUVpmUmlLMGRhc3ZxaFZiS2ZSSkFkbWRHT2FEQ3ZKeTRsUXBYMnNEQXFkQWprNEdDX3B6SVhFVVJ5aGVqbmVPWWl3akRvd0pCR0FqSk5sZGVoYXE1Z2lubVJhejNaWVNGVURiSjEwZG5WNHljWEVWMG1SamdfU293SlJiMG9fS2Y4VHJtMzFfTnpYOGZqODBnbTNzX054cWdiYjI1M2VZYmEt?oc=5",
-      "cluster_size": 19,
+      "date": "2026-10-14T21:53:23.000Z",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOSVBadXNkeThHTjY2enZ4MC0yZWtiUGVSS3pxRWxDLXI3UE5zMXR5LVpKdWk5NmVZcUQ4Q3JHMVpYa1BLR2lPTkpscEFfQVNjUnNBZDk0aGZHSHhVejJuaEtlcl9rSldlZlI4c3BHUTk5U1hlbDBWTWZYcGNmOE9NR3VlR3B0TXZPa3U4WFVFUElHVVNGMWFQQVVBRURxWTQxeTFzWmg2NXRySWVVa0FScnVHQ0lBXy1ZTUxObGNtMmJmZTQ3OTdLeUZ3ak00NUVYRWdJQ05YRTlKcmVBX1p0UjgtSnEzdjFtdHlzbExXUmFibGVPYTNzNFRodm1najZnaHJ0eVpUSEdIMnB1ZTVlN2hQNVNCWlptQk1RcQ?oc=5",
+      "cluster_size": 17,
       "cluster_id": "trump-faces-new-iran-war-challenges",
       "first": {
         "outlet": "KUTV",
@@ -327,34 +370,24 @@
           "date": "2026-10-14T20:28:13.000Z"
         },
         {
-          "outlet": "KATV",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNXYtbzRJSklrY0N1WnF2ZXQ2YmV3WklDOFV1OThXQk04RGxNVTM4Q1RvXzdHb0NqemE2T2Z6eWhiMUszelJNczFKUnBjNXZweklRcDVzSzBBdzhBWGZSeEx2cElGX0pWalhxTklNajBUQVNaLXUwcUFYUE9nc1RyWnVNZUVwWGVDQ3paRDZudHNLT1dBdEVVNGFOaWNpNm15N0VOdWdseDRJZGI1ZU1XNTY5Q2ZlVzhRdEFLejFmZnVWYVh3RGZMUlFOdHAtbnhCS2xGZ1FVTlRkb2dqWDlXUk9PNmItWGIxMGt0V0dzaTczVjF4ZDFmeVl0dVM?oc=5",
-          "date": "2026-10-14T20:28:43.000Z"
-        },
-        {
           "outlet": "KBOI",
           "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNThkMDU3WUdfQkpCTnBRR3dyVGZzQWoxNTZOaU5nSFQxSHNOOVRMbkNTbVpqVmhURHBZXzdFQW1FdkFhUjJlYkIzYlJYcGU2SWg5bXh5cjhzVDZ6SmhMTXFnbXZnREFWWXR6Nm8yZXhWZ09NaFRGUDM2SWMySjIxdl9ic2xDYXNySkhkbEFWMWwweE9vOXlsRWczYktTYWt5dE93SnJsYVMzN2ZVVW1lWHFnRGRkUWFjM1ZuUXpZeVo2enBSNDBFcVlxYmRkdlMxa2xEa2JyTy0xVU1Tc1FNelNoUXpSbHprWlhjN2JOVHU1WnRWNEVSZFVsUGNUcmlxVTZZ?oc=5",
           "date": "2026-10-14T20:28:43.000Z"
         },
         {
-          "outlet": "WJAC",
-          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQbF80c0prTlozY2U1blVXSldHODgzZEJjbFF2d01xSEpobzlud0dBdmJ1ak9FXy1xNGtDNG5jUGZYem5mZGFoVFJHT2J2MHlSTGd5MUdsYlB5MVc5eUkwdW5ERTE0X3ZFT1ZoNjFGR2VtdHJDUWRsN25hVjJTVkdYNFpPRnQ5SVhwb08zMGtyVFZ6TzBiNlVhTWRXNnlaSHhieExwaXV2TXlBeDMzanU5V0FvbmMyQi1qaHdsUmVRUy1xMzVVaFBoQWtqU1dzMUpfOWU4N2VIY0s4SmNpcE1HNHBEUlItVGdUVTVVbzV2S0dBRWV0ZnExeUZOYkE5X1E?oc=5",
-          "date": "2026-10-14T20:29:23.000Z"
+          "outlet": "KATV",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNXYtbzRJSklrY0N1WnF2ZXQ2YmV3WklDOFV1OThXQk04RGxNVTM4Q1RvXzdHb0NqemE2T2Z6eWhiMUszelJNczFKUnBjNXZweklRcDVzSzBBdzhBWGZSeEx2cElGX0pWalhxTklNajBUQVNaLXUwcUFYUE9nc1RyWnVNZUVwWGVDQ3paRDZudHNLT1dBdEVVNGFOaWNpNm15N0VOdWdseDRJZGI1ZU1XNTY5Q2ZlVzhRdEFLejFmZnVWYVh3RGZMUlFOdHAtbnhCS2xGZ1FVTlRkb2dqWDlXUk9PNmItWGIxMGt0V0dzaTczVjF4ZDFmeVl0dVM?oc=5",
+          "date": "2026-10-14T20:28:43.000Z"
+        },
+        {
+          "outlet": "KFOX",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUUZpbWdnNVJLdUVzX1pmeXN4ZHF5VEdWdzhxNjBzWTk2aEgzOGNKMWRnV0N6MUQxWUIteG12MmNZUWRkVDRFbVRDR3pvcmI5VThVZzdQZ1hWMWFPSldvQ1d5d3plYkwtTUhnUmpDSXFxYkdfWHBFZ3ZvbXpqQjRzaklOT0xOdHhyZFlwZnVKdWRjbFh5QlprOVdFd2xDLXF5VE1PVE5HVWFpMkYtVkNYM24xekIyRzNSTlUzUkxEcDJxdGk5WkVWN01VQ0I4NlFId2hwc2Vja0ltLXdDQklDUnZ3Ym9PV19kczcxU2dIbk9mdTNSVUsySlFGeW1RSEk?oc=5",
+          "date": "2026-10-14T20:29:06.000Z"
         },
         {
           "outlet": "WBFF",
           "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPazJJMDBGR1NXU25weXpIaEh4S1hnU3FidGk5ZC1DZWdCdFM0TU5XSzltc25nNjFvR181bVFtZE1kVUpFVVNnY0xzY3Y5eURnMTl0bjFCeThmWnpKSEltWjZ0cUNuLWhvYXozQ1RlbXF3OTRueHNwSkxNX2lZVUhpc09SRWNxLUxTdWk5N3h4UGJqVEZRWkZHMWdzbVpSR056aG82eGp5LVlSTFl6eHIyRk8wLUcwV2ZTLXVmUDNFT2RMRUJZc0hTSmpvRnhOcHJyMTJXbUkyNE9Fa0trNE1KazRzbzVOZDhNeHJya0tEWkVmTWR2eVNfVzZ5eWprMVpZSWg5b2RBOA?oc=5",
           "date": "2026-10-14T20:29:31.000Z"
-        },
-        {
-          "outlet": "WKRC",
-          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxObnFUbVRqQTVNOEs0TG90NzdDTzZ1REh5bTBCczhSZkdlMzJuREJCTkJROG11TGpJendJaVFjVlFjNWdoM19ZQWFlN25HYS1ZOEQwUi1DSEpEZ002S0VQSElETGptT3dRMnYwbjVnZXVhYTlFaWFfc0ZwNlc4WVg0ZExiY3RJdUR6ZXVDdU5OWVExQnh6dm16Y2NVTE91LW0zZC0zYUxTR1lVWE50Z1VPNnNtaXJRdld3aW93cVZ2WkNRWkdJSkYxWVhGWVowaUgwNTRHbFVGNmtsRmF4T2loY0gyNUlYRFZ3ZUFTNmlUX25pMDZZTXZaR2o1UEFDaDZ5?oc=5",
-          "date": "2026-10-14T20:30:16.000Z"
-        },
-        {
-          "outlet": "KFOX",
-          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOV1JwVjVnNE1mVEc4WDNtaXlVck9DOGJMZFVhLXd0UjFQM080aTE0NFd5QTEyWlBFNEJFcGNMS3JLSzBUeThVTnlRZTlFcllTUGNFazFyYnhOcVlNaUVNQjFmc2tublRpZlNPNTlzb2xmcC1nbFFqWVp6TVpaWWtfVXozUDU1aUdraEZiZXVnOXhuR3pGRzhneUhtZTU2Wmw2NzlSMDJ0QmZ4eTJvaUJ6VW9ETWRzeHhyTnJoOTRlTEhvUUh6RkRkWjZyYlB2bTREZkt0YVFQTDRWMlJlYVo1WWRoTllteWhYZDBPOS1acmg3eUUteGFpTzJaLUxrSEg0cVZjUW01a0h4aFIwX1NrdmhGRXhlWDNKUFFFVg?oc=5",
-          "date": "2026-10-14T20:30:29.000Z"
         },
         {
           "outlet": "WGME",
@@ -372,9 +405,9 @@
           "date": "2026-10-14T20:32:33.000Z"
         },
         {
-          "outlet": "KFDM",
-          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQazlPMGptbVJhMF9veWN5ZmtzamdYUnh0SUE3UXRhMTNQTndHMDQ0S1BXUExUTGotREhnX2NnNEVvemFkVExXQV9UbnB2UjRQMnFBaHhhMXJIMWhGR3dRZ0xwVGw0Tk9fbHpiUGIwTlBqYkpya2JKRFVjX2J3VGtvb1h6Q2Z1UjJJdlEycExEUmFTNUdDTnVmUEtQTkpZRk9rVlhDLTlXODVIM0FFZTZWMHF0MWJ1ZzlObERPTXRmSkNJQTlUY3NOTGlxVUh2UEdXcEZNOXhGejE1QTRTdHA2WjQtZFk3YVJ5Zk1tNVMwczQ1WWVNQ1ZYRjJTYVEwWTdmemFQbXNidm5VR2pZRGdwakI4c1FqVW5aMHc?oc=5",
-          "date": "2026-10-14T20:33:33.000Z"
+          "outlet": "WKRC",
+          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOclBfbHhqNFFDNU53elBlWVQ5aEo3LTIxNHphdDFqdGJvZDhVOERoc1lReFRKTnZUUGlMekFObmpzWVV1N1V5ZHJ6UmluS29aVUQ3MVdRMFdodmxTb3RMancwYThKMHphckYxaEpmVU5YUG5YeTlybndkQ1Nmd0RsNW9DTi03OC1CZHBlc1BoWFVoSHRFZHB2Wi1FbEdZYzRTaERiRTBRTUVFQkE0anV0N1hFYnRjX3VZR3d6MEdpMzR1eklXdlJBSmV3WXBvN0ZZd0tPWXc0REd2UkJxcS0yN25QQnNtbFd1TmNuMk5mUmVmS1ZHWDcwMFN1UnV2Y1hZdWctVVhvQkxmNEpObmZmQVF4SXljNkZMUFZTWVd3?oc=5",
+          "date": "2026-10-14T20:32:35.000Z"
         },
         {
           "outlet": "WLUK",
@@ -407,21 +440,21 @@
           "date": "2026-10-14T20:48:26.000Z"
         },
         {
-          "outlet": "WHP Harrisburg",
-          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOeUJEZWRCYVkxdlVPN25JajdPMXVSSnYwVnRwZXBwVjZjNmw2M3FGN2dvMWhYNDd2OXBaREpHYWhyRjFsQkluaHVhQnNHb2VEcWMwOERid2pKTk5zRVVvMGZ0aVltY2kycXlTTVpJSHc4bG1rWWNvcmtMbl9wZUFnTHpVWWYtZHE1dS1JMzRDQVBCZmdhWWdvZGVTb0JJUXhSaVM1MXhRQ3Fackk4S0R6emlwenhIN2hNaEYzczhGMzZ6bklWelAtQjdqQktyMGhqQVM5cUxQbElVMlc3TzdYVkJsdWQtOV9oNU1SVUxFU2RtSTIxaEZyVDI3QWhJYUE0dUV5ZjhR?oc=5",
-          "date": "2026-10-14T20:48:45.000Z"
+          "outlet": "KHGI",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNSE1SakpJTDhsQUYzckVTYmRnUEkyRXpjV1g2TXUtQW0xLU1hZzQxdGh6cUhTa1VZZ0VraWRUMjlCRFhfNjhveDI5Mlp1a2lSYnZPbEUwekEyTWltTVczUVpmUmlLMGRhc3ZxaFZiS2ZSSkFkbWRHT2FEQ3ZKeTRsUXBYMnNEQXFkQWprNEdDX3B6SVhFVVJ5aGVqbmVPWWl3akRvd0pCR0FqSk5sZGVoYXE1Z2lubVJhejNaWVNGVURiSjEwZG5WNHljWEVWMG1SamdfU293SlJiMG9fS2Y4VHJtMzFfTnpYOGZqODBnbTNzX054cWdiYjI1M2VZYmEt?oc=5",
+          "date": "2026-10-14T21:46:47.000Z"
         }
       ]
     },
     {
-      "time": "21:34",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "NYSERDA: Heating oil prices up 67% compared to 2025",
-      "outlet": "WENY News",
-      "source": "Oil",
-      "date": "2026-10-14T21:34:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYWdRSk1tSnZxVlVlYkM5YlFBUmY5ZW9GSmVTTWRkVW14QlhYQ0hJazN1QlVJY0xMNWN5TlJ3bFdCc1lORVZuVXlZSXVfdHd2bXpycFhoRXdYWjZoNUR2SE42NEt0TTlIYk1fVk9yTmhMN1FDZWJYRlVaTUNkWE5MUS15Mm9yaTQyQWZ5aThsenZKdElYUEVNSHZ3SlN5emlPclV4SWJ0aUU3aWVEN0phaGR0MV9Lbkp4ZzRaTEo4N3AtMkU?oc=5"
+      "time": "21:46",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Oil prices rise as Iran steps up attacks and Houthi-Saudi fighting intensifies",
+      "outlet": "Inquirer.com",
+      "source": "Hormuz",
+      "date": "2026-10-14T21:46:56.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdHpaY3JEdE50WW95N216QW1DUGdNaEUtOVRZS0VqWXhDb0JidjBWb0hLVVdkZTROLTA0bGFnQ0NsRDd1czY1bHc1UWR6QldreXY4S1JSMUpscV9qYnZqX3ZBRlZLVTRFQ0pCZXYyeGlKYVNOVW95SFV4MUhkV0FYM3JIWXlPcGI1RWMzQzM1VFlzV3l2aE4yUG1VY1N0Z3FRamRrTU1HT0VVSGtoQVdoMTExbGRIcmItZWNUc2lmT01OV1JIRl9PQUdMVElab1NTc3NUNWJMaw?oc=5"
     },
     {
       "time": "21:33",
@@ -490,31 +523,11 @@
       "time": "21:00",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
-      "outlet": "The Jerusalem Post",
-      "source": "Hormuz",
-      "date": "2026-10-14T21:00:05.000Z",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Sa3ZYeTVENmdfUTFydVBtYWU3a1FZZXJyMFVzaHhabmFfdV9mWTRnSzBPYWN1MDRNbEFFSDlhUkwxYTA4cW8wTGc2bnFmcmFoMHZDZTliZm9CWFk0T29LQzlGcE1SSDljcFZfejJ0eVdkOFlWSTV4bENUTnJqZUU?oc=5"
-    },
-    {
-      "time": "21:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
       "text": "Aramco's New China Refinery Venture Gets 1st Crude Cargo",
       "outlet": null,
       "source": "Rigzone",
       "date": "2026-10-14T21:00:00.000Z",
       "link": "https://www.rigzone.com/news/wire/aramcos_new_china_refinery_venture_gets_1st_crude_cargo-14-oct-2026-184848-article/?rss=true"
-    },
-    {
-      "time": "20:54",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Oil Gains as Middle East, Russia Hostilities Imperil Flows",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-10-14T20:54:40.000Z",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-14/oil-gains-as-middle-east-russia-risks-imperil-flows-video"
     }
   ],
   "snapshots": [
@@ -1614,7 +1627,7 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-10-14T22:41:11.112Z",
+  "intel_updated": "2026-10-15T00:56:13.734Z",
   "event_log": [
     {
       "date": "OCT 14",
@@ -1704,6 +1717,15 @@
       "text": "Attacks on ships in Strait of Hormuz reach highest level since start of war",
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLXJPa0JkV3UtZHNpbUNJbFJBcTlJZDk4MktwWGFPcFdjTUQwLUs2ZUZFaklWQkJNT2xwRmRhTFVPYXlWXzBZMVM2ZXlEbVN5NmdRekU1Z0YyS1EtRzRDT0xMdURUMm9jajZ5bWNSRTRZZlMwQVNPY3dWNWkzenMwRVo4MEFrY1NGQUpiN1N1eDhIT3lUWnRIRWFmNHY5b2piTjkzbWctWXlkVTQ2VHRncmlfa2ZfWmVQVHB5dm1MNnZwSy1TU3c?oc=5",
+      "auto": true
+    },
+    {
+      "date": "OCT 14",
+      "date_iso": "2026-10-14T18:20:24.000Z",
+      "severity": "CRIT",
+      "text": "Attacks on Ships in Strait of Hormuz Escalate Sharply",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1uTTFfTURzNnFkMDYyU0czbk5Oai1adnh2U0dLVlA4eFlZUGJ6MlgtS2VNejU4c09aVE55d2ZyQXJMR0VuZ0xHUDRIdlNiUWJZUlhBUUFDX2NZRlpOU0c2T0ZXYWlUSnJYbGw2VVZiTkJiZ2szdEtNdmxzYXY?oc=5",
       "auto": true
     },
     {
@@ -1933,6 +1955,15 @@
     },
     {
       "date": "OCT 14",
+      "date_iso": "2026-10-14T09:29:36.000Z",
+      "severity": "CRIT",
+      "text": "Iran war updates: Cargo ships sunk in Hormuz, Houthis claim Riyadh attack | US-Israel war on Iran News",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUTRUUUk1T3A4eVQ1MnhCQ2ZkaGlHWDM2M2RQV3BxYWJzZ3JpUDVRTVFSMUg5MjFlNFlfakttOVdlamc1cVUwclhwc1BjemRRSzJsVW1IbHZVUld1Q3BjMzBtRmtpbTg3WGRDdXVvS21lNURLeEdfUkNEaVFMcmtTSXR1d2RCMlhfVlFHRF9lSUpQVlhKQzI0d1M0ekdYRFl5aVJjcENnV0tBcnoxVng4ejJiX3Q2dHhyV3JxQ19yUW5uQQ?oc=5",
+      "auto": true
+    },
+    {
+      "date": "OCT 14",
       "date_iso": "2026-10-14T09:28:46.000Z",
       "severity": "WARN",
       "text": "Attacks on commercial vessels raise concerns over security in Strait of Hormuz - سانا",
@@ -2047,30 +2078,12 @@
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb3lyOTVoVVM4ZWJtX0FaZU5ReUV2WmNVMFpqSGRlaGR3MkJxMlZxOEw3NDJHUU1na0o5cHUzcHhoZzFXTUQ1bGJtVnR3TUxuSi1JS1RQaWFwZFB0cWdOckVmSXVheHNHTmE4OTdicVNIS2ZRZHAzTjVlZTFEdy1QZFU2ZVlPLVREZkRBamNaNFMzdGdPcmhOMmJn?oc=5",
       "auto": true
-    },
-    {
-      "date": "OCT 14",
-      "date_iso": "2026-10-14T03:45:24.000Z",
-      "severity": "CRIT",
-      "text": "Two More Ship Strikes Reported in the Strait of Hormuz",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS3Q1elZLLXlMWmRiUXpFb3FvV1I0dWlOeVgwQlI0UnpnT2pfenh6VmVHTmxfWWV1LTU4NkZQZTdxVGZVeDd5S0dVM25JVUt1aFhGSTU3WTlGaDU4U2V5cG1jdUxmRG9IckJFZFEzY3F4ZVpjb1hZajRpVFNiU3JVNG5fMFZIT0s3V2ZJQ0ozaEd4S2RVampjQg?oc=5",
-      "auto": true
-    },
-    {
-      "date": "OCT 14",
-      "date_iso": "2026-10-14T03:36:39.000Z",
-      "severity": "CRIT",
-      "text": "'We're going to hit them hard': Trump threatens Iran as Tehran escalates shipping attacks",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5lUVJBSVpMSmRlT0ZIb29BaDdwUVdIQk1qMzBPNWdjSVFCZTdYMVpmTDBUR3dpVDM2R0RDYU02VnY4SHBNQzVzX21fWUxuenNJNExsbHl1N01RTnBoSXcw?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 6,
+    "bull": 5,
     "bear": 0,
-    "neutral": 9,
+    "neutral": 10,
     "net": "BULLISH"
   },
   "vessels_attacked": {
@@ -3086,8 +3099,8 @@
       "p": 105.69
     },
     {
-      "t": 1791950400000,
-      "p": 105.91
+      "t": 1792025162000,
+      "p": 105.31
     }
   ],
   "chart_wti": [
@@ -4096,8 +4109,8 @@
       "p": 94.14
     },
     {
-      "t": 1791950400000,
-      "p": 95.02
+      "t": 1792025173000,
+      "p": 94.46
     }
   ],
   "signal_outlook": [
@@ -5133,8 +5146,8 @@
       "p": 11.55
     },
     {
-      "t": 1791950400000,
-      "p": 10.89
+      "t": 1792025162000,
+      "p": 10.85
     }
   ],
   "chart_sp500": [
