@@ -1,36 +1,40 @@
 {
-  "updated": "2026-10-15T20:29:26.192Z",
+  "updated": "2026-10-15T23:12:27.339Z",
   "counts": {
     "total": 91,
-    "crit": 5,
+    "crit": 4,
     "warn": 3,
     "bySource": {
+      "citybiz": 1,
+      "MarketBeat": 3,
+      "Investing.com": 4,
+      "Talk-N West TN": 1,
       "ad-hoc-news.de": 2,
-      "Stock Titan": 4,
       "PRLog": 1,
+      "Stock Titan": 4,
+      "TipRanks": 1,
       "RHCJC": 1,
+      "GlobeNewswire": 2,
       "Timothy Sykes": 2,
       "Investing.com India": 2,
       "Benzinga": 1,
       "Johns Hopkins University": 1,
       "StocksToTrade": 2,
-      "StreetInsider": 3,
-      "Yahoo Finance": 7,
+      "Stocktwits": 5,
       "PsyPost": 2,
       "MoneyWise.com": 1,
       "Nature": 1,
-      "Stocktwits": 6,
       "Endpoints News": 1,
-      "Seeking Alpha": 2,
+      "Seeking Alpha": 1,
       "GoodRx": 1,
       "Earth.com": 1,
       "KRDO": 1,
       "Talking Joints Memo": 1,
       "Yahoo": 2,
       "Colorado Springs Gazette": 2,
+      "Yahoo Finance": 5,
       "STAT": 2,
       "FOX21 News Colorado": 1,
-      "MarketBeat": 3,
       "Wilmington News Journal": 1,
       "MyChesCo": 1,
       "Ars Technica": 1,
@@ -38,14 +42,13 @@
       "Clash Magazine": 1,
       "IMDb": 1,
       "Psychedelic Alpha": 2,
-      "Investing.com": 1,
       "That Eric Alper": 2,
       "Yahoo Sports": 1,
       "TV Insider": 1,
       "Simply Wall Street": 1,
       "Ganjapreneur": 1,
-      "WBTV": 1,
-      "Investing.com Canada": 1,
+      "StreetInsider": 2,
+      "www.investigatetv.com": 1,
       "The Globe and Mail": 1,
       "Bioengineer.org": 1,
       "kalkine.ca": 1,
@@ -64,8 +67,6 @@
       "Yahoo Finance Singapore": 1,
       "High Times Magazine": 1,
       "Trentonian": 1,
-      "Traders Union": 1,
-      "Live For Live Music": 1,
       "FDA": 1
     },
     "byTier": {
@@ -74,6 +75,68 @@
     }
   },
   "items": [
+    {
+      "id": "b0fbcfd6a95d",
+      "time": "2026-10-15T22:18:45.000Z",
+      "source": "citybiz",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals Receives FDA Labeling Review Letter for Preservative-Free Ketamine",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTXAyX1M3T2VwY2dQUDhRcHh5RS1vWHB5WlRhd0tleUt5enB5V29lM052N2RhMTN1MXNRWTlVbEJYWlUxOHFHS2RzY05DS1dQTUhZay0yRmhRWjJVQXphdUhpam5Zd0JLc2xETGR0YWtKUHVpYXBlZ20wTjA3TzJjVXlmeG42MWR5UjR6ZEVZam9ZUkNXR2U3LTQzTWU5Rndmd2ZyX1NBOFkxMFNhRG9CYndDMW1Ib2Y2Umh4S3FtNmh3TzQ?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "dbef216bd345",
+      "time": "2026-10-15T21:33:28.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Cybin (NASDAQ:HELP) Stock Jumps 6.5% - Here's Why",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOai1HbW9rWTg3UjduWEFCYkhJUkZjQ29WMFIxQl84SWRmTkxRMlNXd1pQRDdQb2dXVGg2MlloSElLU0ZOUGNlMkZhZXpKTXZZSzJDams4eXhfeDY4cmw0QVYyWWFIdkEtRlJfUVFZS1dSSDdsUjhhX3FLWUVGejZfZnJJMWFJY3BzcERHTXkzUHBreUJBZHA2RVZUdzJ3NnF1cWFiYQ?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "a9a82c8f1894",
+      "time": "2026-10-15T21:00:56.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Optimi Health at the ThinkEquity Conference: natural psilocybin push",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN25iRUctTDJTa0JySlRVcmZLcXYyeHNONmlhUXdWbXo3V2RCb0hLdjVSQmpmV0liS3hzY2EybmpYaEJzMzNFT3gwYW9iQ1Jza01hS3FhR1JRUEVJOThfYWRTVmxtV3J3UU1WQjlPUVJrRUZDQzZZWG5ZZDEtMzNxLUZNOHJFZXBCSmVjbG5KdThmWk40N2VUTmlxQWhrc3RtYnJCQ18xOVBacVhmNDFPcmx5RDVYTjBoMlJFcGZPa1A?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "2db88953c1e0",
+      "time": "2026-10-15T19:17:30.000Z",
+      "source": "Talk-N West TN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Road work schedule for West Tennessee counties",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdktTV3FwMVlZajhYcG1wNWROaVlMTTd1aUJpYmE1cVI4S2ZWTS1ubkkzTU5VanNqT1l3blo5NGFMMnNTemFZc1VwR2YxQ05GeDJqdS1ramgweWVlUmNzV3RFYnpGcV9VYmhDa0E3MVJtczhFNlNsSDBvak9LTzJRSQ?oc=5",
+      "tickers": [
+        "MNMD"
+      ]
+    },
     {
       "id": "2ac4f3200bf5",
       "time": "2026-10-15T19:05:05.000Z",
@@ -88,6 +151,22 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYkJsUWFhODlKRnFFQkFObGhnaHBZajIyRkJtS3pUc3RHWE9XSHpEdzlxTWN0OW5ITXVyS252dUFBS2NJcW1vTy1aakFjbFNnd3FIQ1pVNEJnZ3BkSTlVWVFuaGhGUHQtNi1vNmxTQkpHbUw0YkUtdTI5VW9hYnE1bzBodGQ1a0tPMjl3UmNHMTZmTWZsUWl1VTZ0ajJRcFRmcThyVTlnUQ?oc=5",
       "tickers": [
         "ALKS"
+      ]
+    },
+    {
+      "id": "e65fe6c7e1c4",
+      "time": "2026-10-15T18:14:20.000Z",
+      "source": "PRLog",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Critical FDA Milestone much Closer as Preservative-Free Ketamine Review Advances: NRx Pharmaceuticals (N A S D A Q: NRXP)",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYS1vUzlDTlltSTMtdTBLU3RQUUtnR3NodjlJb01fQ3lRazhjRjhFX184VEI5MkVwREJJY3BMMVpDZEdxOW5PVHJ0Q2NpLVFILTZmQVFSeVlRNWZrdmxTRDMtSVYyRGtjZDV5ZV9KVnVtaG8xMGxtamFOWFBxc0RRMkZscmZ0dmRUTnNDZFNuYzZxWFZDYzBjMlo2UV9ucmkyMTA4NDNqM19yVTVRdmZodTFjb0E0bm5mYjMyVnBScGlxUjNyaWo2dEpfc3BHalhKOEhmUlR1LXQ?oc=5",
+      "tickers": [
+        "NRXP"
       ]
     },
     {
@@ -123,17 +202,17 @@
       ]
     },
     {
-      "id": "e65fe6c7e1c4",
-      "time": "2026-10-15T16:24:38.000Z",
-      "source": "PRLog",
+      "id": "59274f780b70",
+      "time": "2026-10-15T17:33:45.000Z",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
       "severity": "INFO",
-      "direction": "BULL",
+      "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Critical FDA Milestone much Closer as Preservative-Free Ketamine Review Advances: NRx Pharmaceuticals (N A S D A Q: NRXP)",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYS1vUzlDTlltSTMtdTBLU3RQUUtnR3NodjlJb01fQ3lRazhjRjhFX184VEI5MkVwREJJY3BMMVpDZEdxOW5PVHJ0Q2NpLVFILTZmQVFSeVlRNWZrdmxTRDMtSVYyRGtjZDV5ZV9KVnVtaG8xMGxtamFOWFBxc0RRMkZscmZ0dmRUTnNDZFNuYzZxWFZDYzBjMlo2UV9ucmkyMTA4NDNqM19yVTVRdmZodTFjb0E0bm5mYjMyVnBScGlxUjNyaWo2dEpfc3BHalhKOEhmUlR1LXQ?oc=5",
+      "title": "Psychedelic: NRx Pharmaceuticals receives FDA labeling review letter",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNGQ5c1I0RU8wclNaRW4zQzRRZmtzdmkwNm1KY2d1WE9xTUJJbjZPNmhRekRpajhuRzBqYm5vTE12YmdOd1FlcGxTMFpZeU92dHNCUmhmZW1BMkhHczJmeThIVTFrc2xLU2x6R01JNFQ5UktqUjJudjM3Z1B2T3o5eDF1MmQ5dDZQMzF5MkRuNGFTcEg0VzFvYTFqeFFRaUVZM0I0RHhWZGJhNGI2bzc5dl9wMW5MWk9r?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -153,6 +232,20 @@
       "tickers": [
         "CMPS"
       ]
+    },
+    {
+      "id": "e7d6b9de9eca",
+      "time": "2026-10-15T14:00:00.000Z",
+      "source": "GlobeNewswire",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Ambio Life Sciences Partners with Athletes for Care to",
+      "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxQbDRSaWs0R2lJdTV2ajJqcWxqdjlUaW45aWdwLTlqU19OOUhEa3FHeTdiQ25hZmxzbzQ4TEVMbnJHbnl0V2wzMXg1bG1qbmFuQnF3WXhsU1dCVllQQlpGUldBTGxPTk9wOFJGNnFBa3NReXlIRnBCd0F0aERwem9wbzRyT3Fxb1ZIcHRnVzN4dHBXekgzcW52bEsyalhuazRFc1FGcDBTRW1qVWlwdXgyTkpROThSUHZ2SnZnZVZXY2NSb3R6bU9HUGk4ZTRqeFp2Q0ZkbGE3UURHcGNRY2VfeDBwTkpoMEMyR25MV3B5QUxzT1FCeFpCSV9pN0tralhNWDhidWhfWjdhWmtBUjlkSU1TS0IwbTJJV2VscFA5Mk1tNWpNdmRFTXZ4QTFVNm9qaC1BdFliWnl3V3RMc1NsQVotRDViYVhYaXdlT29KTEV1N1dldlM1NWRtVjRBU25vNG1RQ3JxRQ?oc=5",
+      "tickers": []
     },
     {
       "id": "426ebead8cbb",
@@ -196,6 +289,22 @@
       "impact": "LOW",
       "title": "NRx Pharmaceuticals receives FDA letter on ketamine product By Investing.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNHVDZWc2bmZ6MGtQWWZ4UnpMUDFJMnkwRV96MHA5TkwtaEhDZ1ZNZFViTTM3dnhCaDZXZktZZXhJd015bFVNeWppSENjRFlaRFFUQUVhd0IyMVpYMFN5eEhMUlNiOVc2NkNJR1BRTXhJQnVZV3NrNkYzbks1S3BlbkswYnZ5dGhYUVRMa0dqeVNkWmh5SDRRUUNyQ0ZZbktYZEgzZERwVlFxYU9EeXRiN01pb21xQ1JmLTlDdg?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "32fc4ae2696f",
+      "time": "2026-10-15T13:12:28.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals receives FDA letter on ketamine product",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS0FjTWFJZVFWeEdWOE5DTHhTWF9aLWp0ZFBlcTRWdExyX3ZEeWtMLXJsZnhLYWY1UGprQjBjUEY1Q2dRN3BBdlh0RS12WXN2TjdtemNWS2ItT3NCRmJjbGxfdm94cklLMWVJamVhSXQ1UmQ5bHJvYmdkREttWUR3RE9samQ4c3pxcXh0aWUwb2xXVEVqTGtwdmFqQ19KMktmdEZSdzVFVnZKZldwUDBwVE1XSWk2MFU?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -245,33 +354,17 @@
       "tickers": []
     },
     {
-      "id": "a2b5f06b5fe0",
-      "time": "2026-10-15T12:28:23.000Z",
-      "source": "StreetInsider",
+      "id": "aa323e38c99f",
+      "time": "2026-10-15T12:27:44.000Z",
+      "source": "GlobeNewswire",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FDA sends minor labeling comments to NRx for ketamine ANDA",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT19IcVFSZGwxN3JBZWtLR05TaXBpbENPZjlqSmdlVF9jcXRzNl95eXNHZG1IQ29zQVhrdlp0V3RvMkl5a01oNHk3UDRua19hdWZzTjhEeEtjRGp2VEY3MF9tUFZRdVoyVGdXU2xRYllhYVpiZkFsTjBJLTdiSE1aN1RuRG1qMC1uYVFOSko0alZjN2ltX3BsWDhXSktPa1JWZmFfWTd0d2I4U1JYUl9laWxUbm9xTHZE?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
-      "id": "7c3704d7ceaf",
-      "time": "2026-10-15T12:27:00.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "impact": "HIGH",
       "title": "NRx Pharmaceuticals Announces Receipt of FDA Labeling Review Letter for Preservative-Free Ketamine",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQVVNSmNmTTJtM2J5d0kzZGt2MmQ0MHRfTmVjeDFBTFpXUEVDbm1ZVzJsLTlET1gxU3NrWWE5N3RIT2IyMHZvY0xpZlByYWhTTXlEUWphaVo4OXZidTYyZXhxUzI0bm9IemJ5eU9iNFZQdHlSR2hMd3hpWEQtbGpod3U5M3JUQmE3Tng0Sk9vbTJmb0dCM3RyYzNKLWZQNGdJTEtaRA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNZTNmcTV4T3o1RU1fZmJkeXZMZW12T2RERlZUTlZ1bDc5LW05OS0tT045cTlGYWxiS2U5ZjllUHVkSC1PRGtNRW5od0xfYUdpS2FXSjVmNzlSOHpUQWx1U3dIQWRMdXV5Z240ekQ2cVlibjdfb2tRTnh4aFBfbzY2cldpTmVNLVBxenNzZVo4UkVDVVgyVFBaSFNlZjN3MEdLcl9CRlpUVVRwRU1Cb1VRX3pBeGt2dVdiWEc2T0cxTVdFR0xOSlVJN1AxMEFpb0N1dlQ1Z0dyQ2JUbXlnbkQyNE9rSWlfRS01Z0pkdjJRYVdQazJ4c3QxTUl5blQ1dTQ?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -335,6 +428,22 @@
       "title": "SPRC Stock Draws Traders As Psychedelic IP And Quantum Push Expand",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpNm5jOU04TTlRN1pJQlRjNjV4eGlLVmdfaEctMFFmVUtadFBlZFJueHZuMTdtRk9HWGxiUFhrN2g1RFBLcTJSaHoyOWxFdi14V0FWZ2tCQjA4N1pXY1prRkpfcjZYaG9hYnhTUzQyOWthT0U?oc=5",
       "tickers": []
+    },
+    {
+      "id": "ec6542a54c96",
+      "time": "2026-10-15T11:41:58.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
     },
     {
       "id": "a630204fce3b",
@@ -530,22 +639,6 @@
       "tickers": []
     },
     {
-      "id": "ec6542a54c96",
-      "time": "2026-10-15T01:22:47.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
       "id": "68ae8f3257b4",
       "time": "2026-10-15T00:53:23.000Z",
       "source": "Colorado Springs Gazette",
@@ -590,7 +683,7 @@
       "tickers": []
     },
     {
-      "id": "98c9b124947a",
+      "id": "304c9904c698",
       "time": "2026-10-14T23:57:49.000Z",
       "source": "FOX21 News Colorado",
       "sourceKind": "gnews",
@@ -600,7 +693,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "CSPD: THC, psilocybin products seized from unlicensed liquor stores, smoke shops",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlVTUGM3ZnVTRHRpMzFIcUx0bTN5eDg0Tnoxc3ZURE0xcmpsQW8wSy1CNGkzUmdPWVFCbmstaTc4VGJLUHRIbmU2NUtmUWR0aVFMZS1aa1JGbF9tV2RjNXZIbjc1MnY3d3dyS3ROWldDLWV2ZHF1R1AtN0dMMURnSE9xQ3VNa3dhMDl3N0ZsQmhFOHZIYTJXa1d1U0stdjVLVDgwNDNVU3FiRDR0OGpxUEdVRHdPQdIBuwFBVV95cUxOcUpHM3JURDBLTkVVVzJvb2puSjU5RU5VMWFjMUwwZDJUM3JFNDFRM1pGejc5R0FFZEw3WXdmSmROZWRrOFQ3SU90cXdHeVo4WVFyQ2d4aVdxNDVvVkhGN1pJQ2VvcEtrajBFeVd2ZFhCUEN3dnBqWGE4NVFuMG1iWlowZmR3Ums1THE0bVNkQWVHQmFxU3ZCb21LVkdhUS1FLXBXcmRGSVRLM2dpRm81bG0xM1RUNmhnVUQw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlVTUGM3ZnVTRHRpMzFIcUx0bTN5eDg0Tnoxc3ZURE0xcmpsQW8wSy1CNGkzUmdPWVFCbmstaTc4VGJLUHRIbmU2NUtmUWR0aVFMZS1aa1JGbF9tV2RjNXZIbjc1MnY3d3dyS3ROWldDLWV2ZHF1R1AtN0dMMURnSE9xQ3VNa3dhMDl3N0ZsQmhFOHZIYTJXa1d1U0stdjVLVDgwNDNVU3FiRDR0OGpxUEdVRHdPQQ?oc=5",
       "tickers": []
     },
     {
@@ -929,9 +1022,9 @@
       ]
     },
     {
-      "id": "a5542425f9eb",
+      "id": "afe98cd74e3b",
       "time": "2026-10-14T12:02:00.000Z",
-      "source": "WBTV",
+      "source": "www.investigatetv.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -939,24 +1032,8 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "New research on psychedelics could have big impact on mental health patients",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdkFncUk4UnR5T2pRcW5nZ1Vuc3hkVm9wc3hqWWZhVlZKTS1NVDEwNk1EMWhUdk1qOWIwb3dtcTNrOHhGTElwWHpmWktCSlZZT1ZSaU1XaXk4THBJLXFTRHFYcEV3SGJTV1k2emNhR2J2bGFEdkhGbTVxbl9keUdfT1dTaFpGUkV2NUszcW5fbTkySzJXaURrc09ndEgwMDVDbnkxLWFn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQS12ZXBNQTZ6VWF6TGhQMldBcmtneGlySmZMczdCRWFGbW9JMkxadVViRUViQVpjT3pyNnN0WXpJNS11NlVkdDlSUUpfODVrYXpSSG85YWNEYXd6SURxLXdXSHB2eXZCQkpTU1VUcDNOZDVsR3lNa052dmtDajRXdnFsTlBQemJSeGRaVDVlNnBvQklQd0dfbHU2djZLUWVUYWxXS2ZJd3NmSUdTWkFHSmFB?oc=5",
       "tickers": []
-    },
-    {
-      "id": "3b16b203ea4d",
-      "time": "2026-10-14T11:33:40.000Z",
-      "source": "Investing.com Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways announces first TRD awareness day in U.S. By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQmJnZUVEOU1BR1ZaaGd3eEJ3ZVl5d2pRUWpqOTdQQmpjc1VZYUQ3bFU5cmhNZEVuR0hZMGhoNU5TUUhqRGZWLVNIaF84V093d0JXYTZEYmRIZG5vNUVRU0J5aWxpdGtTb1RCVER6aWRXNlZ3ZXZWcE9IbVc2akxHTEdkQlhVdjhJTkc0Q3ZBQ0VrbHJ3TDJZM0JEWHBycjM0VHFveHJqMG50VExMNmk5d3NTeEVEdVh4?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
     },
     {
       "id": "290ca6a2b16a",
@@ -972,6 +1049,22 @@
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWUJvZlVpTmd0WXVnSC1TVkVXSnBHT000c2x4MzZTMjlFS0pRMVhtLVBBRXpCZkxOeTltZ1F0OTYwcDVlNDRXakR5LWZZaGpaQm9xU202dldjYkc4eWNSZlFLbktZRTZOY2wwRHh2X05rSzBGYW1PQS1iSjFyM2dfWW92NTZud0Y5Zk5jdXgtSmVNWXo3NVVmQ1BDNTdoMUxwMkZRTGNWTGRyZUFtaE13cWg5UDF2eHFOMFJmRnZ6V2s1Q3c2Z1VnUm1xVTM1dEluYXZTMER4bjFUVWM?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "1b489bbf7b0f",
+      "time": "2026-10-14T10:56:10.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Compass Pathways announces first TRD awareness day in U.S.",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd1dkc1Q3b0hyeWF5dTZBWnA2YW5SWGF3QjJ6ZDRRWmJrRVNWRG9PRmgyQ1NwOWtXbkdMLTh3M0xwaHRmcUNsNWoySXlrcVkxdnA1TWQzd1BEQWh4U0dYWjRReHkwQ0x1LTRFSFFreHV1RmczVnJlN0RVcFBmSVh2NHI5ZGtXNFBUdVAxQUE1dEIzcS1VdFNfVVdWSWo5N2lZRUdhTU42dHNQTnl4WDdZekRRbw?oc=5",
+      "tickers": [
+        "CMPS"
       ]
     },
     {
@@ -1095,22 +1188,6 @@
       "tickers": [
         "DRUG",
         "NBIX"
-      ]
-    },
-    {
-      "id": "c9f1739564ba",
-      "time": "2026-10-14T04:48:49.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "ATAI Stock Slips After Blockbuster Week: Cathie Wood Calls $3.8B Lilly Deal ‘Well-Deserved’ Return For Shareholders",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWHQxenNBSy02MzZSdVB3S2w5SVRMb2oyX2NFdjNJakJfYndHOXhaTm04cG5ldWNrY0NuX3JiaWJQMllIbE0ySWdrVnlNY3ppcU1tc0pjM3FXb0RaV1pscmdraVFTX1Y1LThQVFdPeE9saEJvSmRTT3BVaTdOTHI1OGxZSE5FY3NaX2tCUmlkLW91UUR6UU9TbU9aRUpzV1lmNHFmRXJ2VUVpVnNESk5tMnVKcGFhYnAtTmtYYmcwQkhheXM?oc=5",
-      "tickers": [
-        "ATAI"
       ]
     },
     {
@@ -1352,84 +1429,6 @@
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdlN3anRXVk9RQXVBU0Z6aVhzTkcyUXc1Tk9fQldfWnB6NHJTaERKeWZpSURnNDc3eWtET2ZPY3BXQW9zZXlWeW1rRk1wRFdOeWh0WExmS1NoMzRJd25EcHpoOTNqTW00c1pMZ3g0RmxDb2VXMVRPY0RweHhzWnJnSVBEWll5RGMxckJBSlk3YUNIUm9kNTEza0kxUkNYU2Qx?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "1b31e2cacfde",
-      "time": "2026-10-13T16:30:28.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Cybin (NASDAQ:HELP) Stock Falls 5.6% - Should You Sell?",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFBXVlR2OU8tbTBjcHdEZ3M5Q1hXSnpjcG43STZEVnJjdUNVQVhPLVRjaXEyNVpVdWxZZnFHbWJmcXhzT2lzSEc0YVptMm1fWjQ0S0wwXy1JQU5tSnFud2ZNMHppZFVkejN5eHlhRXVWQmNLTFpmRUJBZFBVaDFTSWZyVkVibkpIY3VTdnpCWktqYzZkcWRtcmp6SFpkQzJyNzJpVkxiODJWYlRQ?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "8ee1e31f2889",
-      "time": "2026-10-13T16:30:21.000Z",
-      "source": "Traders Union",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics advances Phase 3 trials for DT120 in major depressive disorder and anxiety",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mLXJIdEJSYTcwQzllbzViTU9PTnR3dFF3YlZFUm1JQ1FmOGltNmlWQnhuZmhVbVZYbjI2Y3BYQ1ZvMkswR3gzdkFsMHdWcGRBN0FFcHA3Zk1MV2E0Wi1iRDNHYk9hU25PWGxBM0ZTaXV4Nk5wNmFhUngzX1BZQQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
-      "id": "1b88a9c03983",
-      "time": "2026-10-13T16:25:54.000Z",
-      "source": "Yahoo Finance",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences' Vykat XR Sales Likely to Remain 'Flattish' Near Term, RBC Says",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRUxJcEhHMmZncm1QeWxrbXNCQW5sNlpUVXVTdEFwZVI0cy1qN0hBYU9CWmVEeUwxT3dkMWtpang3d0xrRnprTHB1Z0RfcFlsdFVxTGFuakdoYmRabGc0dU14eDVCTmN2Q2t0OEFsTWhFbjJscEx2Y2Z5TVZnQ1U1V3llMDNmbDBONmxkUUtjSjhZLTJsMGpmTGJ2cXBFZw?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "4c0820e9f046",
-      "time": "2026-10-13T16:16:27.000Z",
-      "source": "Live For Live Music",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic Six-Pack: The Top 6 Live Garage-Psych LPs",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT1BGR3A0Vm84b1R2U0ZKZW13ckdIdzZiQUNBZXRaYVdZbGxzUm85a3lKcFVfbXlYY1c1Y0FHd0VtbEJ0SjI1Mm5GSW03ODJLSk9sS2IxVHBkOXl6dk4yWF8tX2V6cWg4S29fNkVZZzRSSjFiY3h6STlsNS12UnVWaTlKc0M0bzlqNHExVWtkbkZLcDk5UlE?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "d69a1a2f476d",
-      "time": "2026-10-13T16:11:24.000Z",
-      "source": "Seeking Alpha",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Definium Therapeutics: Outstanding Phase III Data De-Risks Pipeline, But Patience Required Ahead Of 2027",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWmhNWlV0MzVlcFBmc2xveVpsZFpnaFYtbHliRTg0OE1SOG1Wbm1iWUk1cjhQMEdWcmhZdVEtUXBlNWpKNEllUmFoNjhMWF9HeW9WUkNZWkFDWmNxUkxaLVZRNFo0OVBxVi00cU40Ni1SSnQ5eXJXa0RnSTRIeDFVbzd0ZkM4bHU3Wi1UeExERVg1M3pRVjNibG1YS2pmNlFoV3YxR05mZTBDM0RoQzhCdVd5QQ?oc=5",
-      "tickers": [
-        "DRUG"
       ]
     },
     {
