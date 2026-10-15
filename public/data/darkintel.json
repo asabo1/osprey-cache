@@ -1,57 +1,15 @@
 {
-  "updated": "2026-10-14T09:56:36.487Z",
+  "updated": "2026-10-15T09:38:24.954Z",
   "sources": {
     "portwatch": {
       "ok": true,
       "latest": {
-        "date": "2026-10-04",
-        "total": 4,
-        "tanker": 0,
-        "cargo": 4
+        "date": "2026-10-11",
+        "total": 2,
+        "tanker": 1,
+        "cargo": 1
       },
       "series": [
-        {
-          "date": "2026-09-05",
-          "total": 2,
-          "tanker": 0,
-          "cargo": 2
-        },
-        {
-          "date": "2026-09-06",
-          "total": 6,
-          "tanker": 2,
-          "cargo": 4
-        },
-        {
-          "date": "2026-09-07",
-          "total": 5,
-          "tanker": 2,
-          "cargo": 3
-        },
-        {
-          "date": "2026-09-08",
-          "total": 6,
-          "tanker": 2,
-          "cargo": 4
-        },
-        {
-          "date": "2026-09-09",
-          "total": 3,
-          "tanker": 0,
-          "cargo": 3
-        },
-        {
-          "date": "2026-09-10",
-          "total": 5,
-          "tanker": 1,
-          "cargo": 4
-        },
-        {
-          "date": "2026-09-11",
-          "total": 8,
-          "tanker": 3,
-          "cargo": 5
-        },
         {
           "date": "2026-09-12",
           "total": 2,
@@ -189,9 +147,51 @@
           "total": 4,
           "tanker": 0,
           "cargo": 4
+        },
+        {
+          "date": "2026-10-05",
+          "total": 8,
+          "tanker": 1,
+          "cargo": 7
+        },
+        {
+          "date": "2026-10-06",
+          "total": 2,
+          "tanker": 1,
+          "cargo": 1
+        },
+        {
+          "date": "2026-10-07",
+          "total": 6,
+          "tanker": 1,
+          "cargo": 5
+        },
+        {
+          "date": "2026-10-08",
+          "total": 4,
+          "tanker": 0,
+          "cargo": 4
+        },
+        {
+          "date": "2026-10-09",
+          "total": 3,
+          "tanker": 0,
+          "cargo": 3
+        },
+        {
+          "date": "2026-10-10",
+          "total": 4,
+          "tanker": 0,
+          "cargo": 4
+        },
+        {
+          "date": "2026-10-11",
+          "total": 2,
+          "tanker": 1,
+          "cargo": 1
         }
       ],
-      "lag_days": 10
+      "lag_days": 4
     },
     "nga": {
       "ok": false,
@@ -405,17 +405,17 @@
     "adsb": {
       "ok": true,
       "sample": {
-        "total": 99,
-        "military": 2,
+        "total": 105,
+        "military": 3,
         "mil_method": "dbFlags_bit1",
         "types": {
-          "A320": 11,
+          "A320": 22,
           "TWR": 10,
-          "B38M": 8,
-          "B77L": 7,
-          "SR22": 7
+          "unknown": 9,
+          "SR22": 8,
+          "B77L": 7
         },
-        "observed": "2026-10-14T09:56:35.195Z"
+        "observed": "2026-10-15T09:38:22.278Z"
       }
     }
   }
