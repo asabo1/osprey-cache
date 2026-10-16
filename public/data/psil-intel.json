@@ -1,14 +1,19 @@
 {
-  "updated": "2026-10-16T19:03:06.668Z",
+  "updated": "2026-10-16T22:03:49.700Z",
   "counts": {
     "total": 92,
-    "crit": 3,
+    "crit": 4,
     "warn": 2,
     "bySource": {
+      "MarketBeat": 4,
+      "TradingView": 2,
+      "StreetInsider": 4,
+      "GuruFocus": 2,
       "Seeking Alpha": 2,
       "PsyPost": 3,
-      "Psychiatric Times": 1,
       "EIN News": 1,
+      "Psychiatric Times": 1,
+      "GreenState": 1,
       "Bioengineer.org": 1,
       "The Microdose": 1,
       "WPEC": 1,
@@ -16,14 +21,10 @@
       "Endpoints News": 2,
       "Investing.com": 5,
       "Stock Titan": 4,
-      "Simply Wall Street": 2,
-      "StreetInsider": 3,
+      "Simply Wall Street": 1,
       "PR Newswire": 1,
-      "GuruFocus": 1,
-      "TradingView": 1,
       "Shortlist": 1,
       "Yahoo Finance Australia": 1,
-      "MarketBeat": 3,
       "kalkine.ca": 1,
       "CT Examiner": 1,
       "Yahoo! Finance Canada": 3,
@@ -37,15 +38,14 @@
       "Talk-N West TN": 1,
       "ad-hoc-news.de": 2,
       "PRLog": 1,
+      "CNN": 1,
       "TipRanks": 1,
       "RHCJC": 1,
       "Timothy Sykes": 2,
-      "CNN": 1,
       "Benzinga": 1,
       "Johns Hopkins University": 1,
       "GlobeNewswire": 1,
       "Investing.com India": 1,
-      "StocksToTrade": 1,
       "MoneyWise.com": 1,
       "Nature": 1,
       "GoodRx": 1,
@@ -64,11 +64,9 @@
       "Clash Magazine": 1,
       "IMDb": 1,
       "Psychedelic Alpha": 2,
-      "That Eric Alper": 2,
+      "That Eric Alper": 1,
       "Yahoo Finance UK": 1,
       "Yahoo Sports": 1,
-      "TV Insider": 1,
-      "Ganjapreneur": 1,
       "FDA": 1
     },
     "byTier": {
@@ -77,6 +75,70 @@
     }
   },
   "items": [
+    {
+      "id": "9d4ac07b4f70",
+      "time": "2026-10-16T21:48:11.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin (NASDAQ:HELP) Shares Down 4.5% - Here's What Happened",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOVJYRFFRempaTFBYUXA5bDlHTHBsOWNYZGUzTC1BbVpuY3BvUklwQkM0V2Z0SGxjZ1llZzQtUVo1YlZ1SGotTG5FQTlmNUx1OVlZc0hqSmtXdmNKcjlzUUd1WGhWR1F5RDFDTTdWTndGUnZUVHVUeTRFbTVKeGJ2UnlOMW1NbnBsenEtOXhNVlc0MFFXSm02T0xiYU1TVm95eU5ZWmVieVRFd3RycElBeHpR?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "96ab23ef27cf",
+      "time": "2026-10-16T21:23:00.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BEAR",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals sets Dec. 17, 2026 virtual annual meeting; submission deadlines Oct. 25–26",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOWEdtbWJEUEdyTTdXUHJkcnpGeEdpOWU5TlVzQnBWMWlOOW9ORlVJSm5nQ1RkUkFVQl9ydE9iZElFeDZjclMxR0hhd1Y0aWR0N193S2V2TnMwc1lXSWg4S0NSWmdOTWFCeXN2d1ZmQmtQRDYtWmloRlpIM3lOeHNDUWFVcGE5dmZSdncwSnhDT2JjSHotUDU5enF3U0o0M2xSSk9ZNUVIZGJSZlFCMV9PdVo0dFhYdDgyWm1pbVlQSGIxMERwNkZlZ0hfNXZCeHRWSU55X1RDMExaZkpBSnh3VmtMN252OUU?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "2372857999b5",
+      "time": "2026-10-16T21:16:58.000Z",
+      "source": "StreetInsider",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Form 8-K NRX Pharmaceuticals, For: Oct 16",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUlRIU25WY1pSWHdoWDNZQzhmanNvOWlhVURtVnZXdlVZeDdQNDFLMjlTc2pPY2FpM0RNZ0RXQlMtQUZybHlmWWgya0RucHQycFV1RWZRZFZWUVE2ZFNhN2FTRUxvT0ctRTd6c1Z5QzI0U0ZkU3pPV09uS3FjMWhXLTdPWmZpNmVQdXBxdGc1cEQ2b2NOUER3WXE1UWNpdTRzZlY4?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "b10e8cd2fbf1",
+      "time": "2026-10-16T19:17:21.000Z",
+      "source": "GuruFocus",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Truist Securities Reinstates Alkermes (ALKS) Coverage with Buy R",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNemMzdEF6QnVvQ1dJcGt0VC1vX0RaNjZsS0RtcWpjb0RiWTd1dFROWEFhVElvZGdhTWE0UXNDSkpNT2FoblBpTkpRLUlSMmYteHd3QVBQdk96dXdKSjRqaGM4dWRxVzBKdmNBWFNwV3pXd0JINi11RlJGWTdFcW9scXg0TG5iTWJ4eVBJNkJ0V29lSEZjdS1DUDdmTHBteTVhNE5uQm9TRTNwX0Ryc0VmcS0tQlcyT2lhWmNHUi04NXc5amFT?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
     {
       "id": "cf02eed08c27",
       "time": "2026-10-16T18:31:07.000Z",
@@ -95,7 +157,7 @@
     },
     {
       "id": "868f407530dd",
-      "time": "2026-10-16T18:27:36.000Z",
+      "time": "2026-10-16T18:27:19.000Z",
       "source": "PsyPost",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -105,6 +167,20 @@
       "impact": "LOW",
       "title": "Psilocybin therapy has mostly reached the well-off. A small Oregon study tested a cheaper group model for low-income patients",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeVVDRFlNNEw1RkxsOWE2eGN1czk0QXZ5M2txU29qNHpwOXVnbHEzaWJlZlJvaXhjeFRZYU8xV09acUZJVXEzMm1OQk5Qai1IdWF5RV9pbmdDN3ZsVkNDb0c1bkk2ZTJNdUs5MVREakVQQmlCdlFZdGthZ2RkYjdGeWZmRTB4Uk9sRGFkbEFmY0tmUjdKRnREQWhrajJIbkRvYS0yVjhwanBUb09QVnJnRXFmODliZmVJVjhUWUc3WUlHbHM4QmoxWXRKbEYwdmRJVzFIVnRZLS05aGRlN2Jta2I1VQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "74534cd92e63",
+      "time": "2026-10-16T18:10:46.000Z",
+      "source": "EIN News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Dr. Lynn Puana Advances Psilocybin Research and Physician-Led Mental Health Care",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQVQzUy1PejFlNXRmakZOc29Lckl2am5JeXdOdWFwVEY1al9mYTlyMFNPcVB0eE5sbHN0a1FtSnI4aDhUMGRsN1dVbHBhbEMwVWpiM3pWY2p3ZTJ4T19mUTB3dEY3NVpWb2FSVTh5WjB1a0dlSkR1WDB4dnQ1dDRWdzhYWmk5azhFOVRaQ0VZU0dXY1IwQWg3VzFpWGZJLTNHNmRMNlBQLVhrazlPZi1xNTNZU25qVjF6TnFtMFo5bw?oc=5",
       "tickers": []
     },
     {
@@ -122,17 +198,17 @@
       "tickers": []
     },
     {
-      "id": "503583b5f577",
-      "time": "2026-10-16T18:09:00.000Z",
-      "source": "EIN News",
+      "id": "2444312ad253",
+      "time": "2026-10-16T18:03:34.000Z",
+      "source": "GreenState",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
-      "direction": "BULL",
+      "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Dr. Lynn Puana Advances Psilocybin Research and Physician-Led Mental Health Care",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPY0NsWGNCcFdPXzYzbWJUMG44SU5xQWUxSG1DZ1JiR2xGa0dlZk9HeVVGb1pKQVVaMmlKcDUxX09LTWlNQ1dVUVZQUWEyYnFXQnoxTmwwNTZQNHM3QktQU0tQcXpoRy1DZ0lCbEVpRXdhcHI5Q2F0WVNxSnRQY3B5cWdPNFplR0lvWXg0UXAxVk5JVUg2Smtra1lJd3pja3V5YmJ0ZXVSeF8wUmlsT2ozRGJQVjUxVU94YXVkWmxR?oc=5",
+      "title": "Does microdosing work differently for women and men?",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUE1rRUVtaGhlUm0wV0Y4VDg3Y0FibWlFZ0pJMjZoZUQ3SDVmODlRV2Q5N0o1TkhSTTN5Z251bWt4QzBGRC1DTTV5QWRfZU83VFlJT3o1eWlJODVodjRLVUlqYkZtR0dWcjViRzdzSllBcEQtMHVDOGdhdWw5WGxBOU9MbWlOQk41cUdGTVZDd0pCbUd4eDBn?oc=5",
       "tickers": []
     },
     {
@@ -410,6 +486,22 @@
       "tickers": []
     },
     {
+      "id": "6ef87801ae9d",
+      "time": "2026-10-16T07:01:37.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin D/B/A Helus Pharma (HELP.NE) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84UFdtVHR1SW5QVTlLMWszdWtad1VEemZRYXFRT3pnNGoxTDMyZ3dXRlJSMXQ5R3Ffb3BFQjRmem01Wk9GbDZNaTBSSm8xcjRhc25VN0N3?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "d812c9e0ebf5",
       "time": "2026-10-16T05:25:05.000Z",
       "source": "Yahoo! Finance Canada",
@@ -498,22 +590,6 @@
       "title": "Johnny Blue Skies and the Dark Clouds Turn Boston's TD Garden Into a Psychedelic Honky-Tonk Playground (SHOW REVIEW)",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOTVqcm1KQnc5Vmw1bUY0Tlk4OXRISkFuWV92N3BKQWk5clZTWFQyeTNabDg2Z3F6MzU1ZlJvQmhnODY5cXdmQktCbEZJNS0tSHJSa0xUSkVDb3lrSldqMjg2ck9IbmxwbVdtUnBDcklTZ0tsZlQ1U3JjVE5EWjFGYTd1STVpcU9ESXktZFJJMTVFM25MNzZuT2wyaFFCTmhpZHJYZHBMLTVWMlZzd2NZZHllMVZUTEZmWUY2c3JwLWxXb21NbjV1c3ZXR3pyRURSTk12QzVvLUwwdGlhSG53Qw?oc=5",
       "tickers": []
-    },
-    {
-      "id": "6ef87801ae9d",
-      "time": "2026-10-15T23:10:08.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin D/B/A Helus Pharma (HELP.NE) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84UFdtVHR1SW5QVTlLMWszdWtad1VEemZRYXFRT3pnNGoxTDMyZ3dXRlJSMXQ5R3Ffb3BFQjRmem01Wk9GbDZNaTBSSm8xcjRhc25VN0N3?oc=5",
-      "tickers": [
-        "HELP"
-      ]
     },
     {
       "id": "b0fbcfd6a95d",
@@ -659,6 +735,22 @@
       ]
     },
     {
+      "id": "d80a99b648f2",
+      "time": "2026-10-15T17:38:48.000Z",
+      "source": "CNN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "symbol__ Stock Quote Price and Forecast",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBfcnQ5dWJkcU1Ob2VXUk1YUmxyOVVIbDhPaWdVbk1MX3RsbkZmQm1abWdoOUdWVmRQZTZUaHByT29HZ1cxXzVUYUU1VDJXMFVu?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
       "id": "59274f780b70",
       "time": "2026-10-15T17:33:45.000Z",
       "source": "TipRanks",
@@ -746,22 +838,6 @@
       "impact": "LOW",
       "title": "Helus Pharma names former Intra-Cellular CMO to its board",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcVNPX2t1SFVOVUQ5aW04aDNMRGdnRmRYSUtaWms5NjY1TEc4N3N6QThZSXRWMjVXWHNoOHpLQ3Y1V0Q4UER0NlM3MEQ5UUJrUjdPRXVoc2t0X0RTbEJmaTVIYk9zeWZDMVpwcU02WHBLRDh5M1JIcDZVWFVlOTA2cDlOM04xZGpYTmgwMjZrSGtrWFVaeHpXY244c2Qzc21VMHpRSXI5Ry1aZWo4ZkZBTjB5cnd0QQ?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "8ef536cb7237",
-      "time": "2026-10-15T12:56:07.000Z",
-      "source": "CNN",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "symbol__ Stock Quote Price and Forecast",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwMGtPT2huOERzcXlCQ2RHZjg2SERwbzBNSUM2T0pZWWJzb2pPNDRtMUd2ck1wdVR6Z2VxSGhDTFNIeTU4dGNHMDlncVp5NGtm?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -872,20 +948,6 @@
       "impact": "LOW",
       "title": "SPRC Stock Draws Traders With Psychedelic IP And Quantum Edge",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0ZUhmUXBJdnJQX2REbkhMU25ZVk9YdkgzSkphVGRzRGpRdXI5d0tYTG5haEYtXzNVcE1EeXRZVXoxTEhIMF82MzFhMHo0YU9ndGhIQ1BGdVB4dy1RRzdiQkZya3lVT0ptTWhkVmtqVFEzRFp4U01N?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "c7241a94261e",
-      "time": "2026-10-15T11:48:00.000Z",
-      "source": "StocksToTrade",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "SPRC Stock Draws Traders As Psychedelic IP And Quantum Push Expand",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpNm5jOU04TTlRN1pJQlRjNjV4eGlLVmdfaEctMFFmVUtadFBlZFJueHZuMTdtRk9HWGxiUFhrN2g1RFBLcTJSaHoyOWxFdi14V0FWZ2tCQjA4N1pXY1prRkpfcjZYaG9hYnhTUzQyOWthT0U?oc=5",
       "tickers": []
     },
     {
@@ -1391,64 +1453,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "80e311a24215",
-      "time": "2026-10-14T14:35:17.000Z",
-      "source": "TV Insider",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Mike Tyson Recalls Overdoses & Being Saved by Toad Venom",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSVJCSC1Mc0JCOVlLbDNSRWc0TERQaG5EeGoxN2s4SU94blpHYm9KcGFaTnZLaEpVaTJqRHo5NGNUbjZ4czBKRV9lMUsyNkROejJodERlR1dENFJsVVl2RUxNbmJrZzYtLWhKeUlveEN5Umc1OHI3eGlING1fOEZkOXBPeHBBckV4TkdJbEVXaW5fYmoyT1FNeF9CelZfYnhRWVpPSQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "6c2eb5130621",
-      "time": "2026-10-14T14:33:02.000Z",
-      "source": "Simply Wall Street",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Sleep Data Might Change The Case For Investing In Alkermes Stock (ALKS)",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcHExUWcxdG1MWEh3RFpsSVI0QW5QZF9UMFZIMjI3bWNkdHBRZEZTX3lud0VYQ3NrVTlRRTVrLXIzaGEzWTFtbk1SdkFDQV9nMDlrbVdDSmNfZnB5cTJYb1ZJY2w5RVQ1U3B6WXlObU1oX3pxOWVqLU5HOXdPYkxIMlBMZFU4TnhTT216ems5UGdfYXdybk1Jc2oyckV3MXJ4eHBPUktIcWNHT2tGYThJUEpvWFljcFBoZUVzTWoyanQ4SmN1RGp3OWhCZ0UxXzVOVWVpekZvUXpUWlhJN1lF0gHfAUFVX3lxTE5wcTFRZzF0bUxYSHdEWmxJUjRBblBkX1QwVkgyMjdtY2R0cFFkRlNfeW53RVhDc2tVOVFFNWstcjNoYTNZMW1uTVJ2QUNBX2cwOWttV0NKY19mcHlxMlhvVkljbDlFVDVTcHpZeU5tTWhfenE5ZWotTkc5d09iTEgyUExkVThOeFNPbXp6azlQZ19hd3JuTUlzajJyRXcxcnh4cE9SS0hxY0dPa0ZhOElQSm9YWWNwUGhlRXNNajJqdDhKY3VEanc5aEJnRTFfNU5VZWl6Rm9RelRaWEk3WUU?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "23ba2a46047f",
-      "time": "2026-10-14T14:21:46.000Z",
-      "source": "That Eric Alper",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Omah Lay Brings \"Canada Breeze\" To Life In Psychedelic New Music Video",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPczc3aDVFVlp2NDZTQzVSbWpaM21VU1I0M2ZDTjNMZ1lOZUZnN2EzLTBOSkdWMWg3cEl0MjRGWk10UVpwb1hZWWptY2xGT2lDRGJKZEd0MXI5M0xGX1N4aS1ydkM3ZER2a09XMkFSQTExbkZJaE9URFcwU0lCd1NPcDNwTVBFeHpJVWlkTzVhTkRJZlhMUjhvWDI3Y3JlYVZIcFNEUmpSUEEyWEo4TGlr?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "c8e6699c2cd6",
-      "time": "2026-10-14T13:49:20.000Z",
-      "source": "Ganjapreneur",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Secret Shoppers Study Finds Oregon Psilocybin Centers Highly Compliant",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMHoyTHVGY196ZjlHSThUTkVQMmwxcm5sc3lvekg3UVBHcTNySHJTV2w5anBOaGF4SUw2RlR1U0NlZWdUTEJvR3NyR0lrTkNHV2tCOERENE9BVEc4Z1VKRzdwbkxBbFhnOFA2RzN4SElTTGs0YVdfMllaTHoweGZmUWlVRmxGTV9CQjBZY051ZndfTExLRWViOFlKNWs?oc=5",
-      "tickers": []
     },
     {
       "id": "4cc6fa18388c",
