@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-24T01:09:26.611Z",
+  "updated": "2026-10-24T06:07:24.516Z",
   "latest": {
     "date": "2026-10-23",
-    "wti": 103.44,
+    "wti": 103.27,
     "wti_prev": 99.47,
-    "wti_delta": 3.97,
-    "brent": 111.66,
+    "wti_delta": 3.8,
+    "brent": 111.7,
     "brent_prev": 113.17,
-    "brent_delta": -1.51,
-    "spread": 8.22,
+    "brent_delta": -1.47,
+    "spread": 8.43,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,116 +160,35 @@
   },
   "intel": [
     {
-      "time": "23:47",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "UPDATES: US War on Iran, Day 239 - Attacks on Shipping in Strait Of Hormuz Highest Since March",
-      "outlet": "EA WorldView",
-      "source": "Hormuz",
-      "date": "2026-10-23T23:47:33.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGFPalEwcG1TVkVNMGx6N18wbzN2WUxScnNOQkFLRE5yakViZFU5NzFJRzNqU0pTakp4bUlVY1d5bzRDYnBPQ1FSbUtSdjJ0RWZQRm82YVE1MmhNbW5FdVNHUWtHUG04dFNkQnhnLUZyanJrWXNuMVQwRHFFTUVrTko0NDZKNGtk?oc=5"
-    },
-    {
-      "time": "23:01",
+      "time": "04:24",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Stock Market News, Oct. 23, 2026: Dow Slides as Oil Prices Climb to Highest in Five Months",
-      "outlet": "WSJ",
-      "source": "Oil",
-      "date": "2026-10-23T23:01:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUVdOTmZOSm56YVBnLW5NcjFJa2NTeGVpeGhvdmF4cG5ETjhEU0owdTlfVHhLY0Q2VUt5aXFqczdiY2NOcHQwWmFMQU9jM3F3MzYxcGVjNnlVQ3dOZUo0dEx6QlpiLXlOOWpaclB2T0wwbXpUZ3RhTlhZX1BOZ0pfZU84Qm95Q28?oc=5"
+      "text": "US LNG Project Developer Funded by Russia’s Novatek, FT Says",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-10-24T04:24:04.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-24/us-lng-project-developer-funded-by-russia-s-novatek-ft-says"
     },
     {
-      "time": "22:28",
+      "time": "03:18",
       "severity": "CRIT",
       "direction": "NEUTRAL",
-      "text": "Iran Has Plans to Hit Gulf Undersea Cables if War Resumes, Officials Say",
-      "outlet": "Haaretz",
+      "text": "Iran War Updates: Trump's U.N. ambassador says war could last another year as oil prices continue rising",
+      "outlet": "CBS News",
       "source": "Hormuz",
-      "date": "2026-10-23T22:28:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPZDJ3LUlyVi1VSWQ4ZlFLQTFHMUJsdzd5cFpCZXE0aFJDbFhULXVfSDFycTRnc28wU2RxRFdSanpWLUdZaEhpNk9DQXFHWWNXcjduTzhuS0RCN29iR1JaS2J0ZXRLUkh4d2pIVTlhT2J1NnNWUHRaMnBrRm1mMlBDbktUX2dFSzNIX05FdWhPaGVlWnFYZzhvQXlmdE1adnVqMUlOc1VNTUZpN2hkNmotRndlWk9nTW5jNzVhNWRSSWNIN2Y4ME5DcXU4Q0hNQkNhYXFGWG9qRWlrYXNsTXdwWXpYMXZmd2x2cVlsb3A4WGkxaEZJLUxPWmNEMEk2bF9jZXV2eFRNdw?oc=5",
-      "cluster_size": 4,
-      "cluster_id": "iran-detailed-plans-hit-gulf-undersea",
-      "first": {
-        "outlet": "The Express Tribune",
-        "date": "2026-10-23T18:17:30.000Z"
-      },
-      "also": [
-        {
-          "outlet": "The Express Tribune",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYkVNdjFqQzEySW5KUEI4NTZMYThMSHItMkdUQkgzYUlwb2xOdzhsTVZFZFRaYy1NUTRZaDFfU1J0SW1DUks0TUpGT3A2VU5abm1NZXREN0x5eDAtRlpVNm1VUFE0NjFjVXp2NllYSkllb0c1cldtYmZMVmdjRFdnZ1FiSElPY21mUXJpSll3cTdWalNpa0gyd254UTRzR3pORVpTZkVnZVdDcmt3MThjUnE5Sk4yc2FQ0gHAAUFVX3lxTE9ibFhNVnJwRjhKQXpkMkpYNzJja2VqalAzS01EaUluR0s0YTNkWnMwYzM2WUhMSl8zUG96ekIwS19jcnVNNkhxbmpZdGlzRnNHaEs4cWEzYVJ0UEY2MFJqX09pRmN1VmRIaWtrcmpVaTFnejVGTnJma3FlSy1kcEgzQWFGaWw0TE94aTBIY0EtNTFST3Q3Ylk3eVdsOGFfTUFseHRwdkpzcUNPSFpWY1FvWWc4N3AzZTlyZnozZjFqWg?oc=5",
-          "date": "2026-10-23T18:17:30.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?oc=5",
-          "date": "2026-10-23T20:04:09.000Z"
-        },
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?oc=5",
-          "date": "2026-10-23T20:04:09.000Z"
-        }
-      ]
+      "date": "2026-10-24T03:18:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXdRdW1Db041UUN4dlYyNURUdmFWS0V0V1hCc0hnNVBZWlIxYk5Pdkg0Nks0Ri01UkRsM0NVR3VVTEVzc2psaWhpZDk1ZlRTTG0tcHgzcEZkTURsUDFoejN3MVl0NVBKZXNwU1ZVeDI0VWY5TEJ2M2dqSXBDcFpRTzRvSExKWEtVQlNzLUZINnZsT3phZ0xROHd3VXc?oc=5"
     },
     {
-      "time": "22:16",
-      "severity": "MKT",
+      "time": "02:47",
+      "severity": "CRIT",
       "direction": "NEUTRAL",
-      "text": "Top LNG exporter QatarEnergy in talks to buy US LNG from Woodside's Louisiana plant",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-10-23T22:16:02.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLWo4ZHBtWXB5blhDUlU3d0lLRXRUX2NfeUVuY3FQSjYzenBjVlppVDA3Nk42VnJaUWtMQWtLZzdLSTNPMWhDc1NmSjVJa1UzN1pGb2dTWEg0Q2lHTzVjamdndGVZRml5VGFjSnlJcjAzcHdwQ21EUkxNZGdiclJjNkYySnFkVVVzYThVV2FGcThsS3hfb25jZTZXdzZxRE45ejF0YzNYcjBjc1pVTFlidElOWWxjeG9zdHZqdldQUUQ?oc=5"
-    },
-    {
-      "time": "21:42",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Wall Street loses ground under pressure from rising oil prices, more swings for Big Tech stocks",
-      "outlet": "Chicago Tribune",
-      "source": "Oil",
-      "date": "2026-10-23T21:42:15.000Z",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaXR6aVAzc3Y3UHctRW9HeXpBdDF4QWItU1lEbU1JWGVlRFpnazlLeDZxX2hDTmJMaXNJSUo3Z1FxQzhNZzF6MjQ5ZFRZakVMckRYM1Nwb2t3R1c4VldfTUNoRlMyUjNiVGFMVV9HNmNiZmVBbU02enhuVUM2TkhvNEdiTHg?oc=5",
+      "text": "Two tankers hit by mines in Strait of Hormuz amid escalating maritime tensions: Iran's IRGC - 巴士的報",
+      "outlet": null,
+      "source": "Hormuz",
+      "date": "2026-10-24T02:47:08.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdzE3Vjh2cnBLZy1ZWlM0MG4xYjdrV0lNZF80bTctR2wxNU9WN1V4R0JFTEpwWGZ1dmdSd2ZHa1JibkFxUV9pYzQyMzlJaTQzY3BHTXVOWHFtelV2QWI2X3hEVzF1YjNCMzQwZ0JIak5QMnJqaFJ1b1ZRQ3JHdWFBT3JEckNUU290bzRMSk9JZlVoUlRDbGJrV2Z3VE43S3hUd3NPazNWdUhTbVk0MjRvdWRTdUpPblkzSXJxZ3l2QkVlMklvTlg2QmhxRXREaGw0SDhMODVTM0M?oc=5",
       "cluster_size": 5,
-      "cluster_id": "wall-street-mostly-loses-ground-under",
-      "first": {
-        "outlet": "Click2Houston",
-        "date": "2026-10-23T03:54:30.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Click2Houston",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSHczdXZiUTk0SmRpcW9TMk9WNldOcW9fZnZ5VllkQWVxRzBKXzVmb2xXLU9SR2Nkc0Z2WVhrWmZRUC1ibXRvdlZackZFX2MyYTEwd2otSThnWEVmTjFFUUF2Qm9qc29udEd1aUMzN2ZuM1BXQ2MwTGYzRUdEdkZoUXl6cHNjcnlIV3Z2Zms5ZjRHRGRUdEVvQ2tjbGF2aHNGN29jeWFGZ0ZQaERrMy1QcUtfZnNvZHZHN25iRnNuUWw?oc=5",
-          "date": "2026-10-23T03:54:30.000Z"
-        },
-        {
-          "outlet": "The Daily Reflector",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNWhPdFozMjRmd0RHcVllS2JJdGl4MDNoS0szRjd3Q1VxMU0zT01UTDZLZmwydTBqcHFOOC1rZTJtVjAtTVZqT0lPMWZFMEo3c1hldzBadTlIQUtObzJZYTlsMkg5SFBvTHdwZ3RYbEh4R2R2Uk1oSjJ2b05QMDVOWWdRS0hyS2p1QUxhaVdOX29pZ01tWUQyYWdsNUh1cU5WVmJNN01EbGZQTktzaWxZeVF5NldKdklia05xcXlpRU1kQURReEtWdGoyYmxTZUM0LTRLX1ByNDlsNXBqWURLVTdrbEhlZw?oc=5",
-          "date": "2026-10-23T20:10:14.000Z"
-        },
-        {
-          "outlet": "Oil",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPZ2VBdlY5Zm1EWURIU0JVNktrY0xVR0FpWGxubVVPMmIyMUZNV1JFNnVhNHFLaUFXbzRidV85aUVOSDlOakYwVTQ4d3BGYnVQMUVncjJycm9OVGs0X21vQjFPdkxldk83Vm5PeE9uMGktME9yUjNXdEtXRHVZVVB3TG00ZHpLWjZQQXNpQWw0TW1YSE5LcE5sMkxkMGtfbHFFOHpmUXVwUy1EaEV0eURQR1RST2MzVm9kbFgxZGRlSXJHdUNZdmZMVGNfU256ZmlaclphZHMwMlhnRVp6TV80NWJHYUxOcGtU?oc=5",
-          "date": "2026-10-23T20:10:14.000Z"
-        },
-        {
-          "outlet": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWpGTk1fbkF2SWY0S1Q2MHN6WjRqQ1R3VWp4WXFKd3VQUG5WSlI1ZXFDY1pSUGJyampWMGtwZ3dRQmxGRzlTbERHSnlraUZ4WmFCSXM4U3J1Z1VSdV81eTB2ck1lWElpSnR2Qi1FbWUwUmJBT1l5enVZLVpsYmMySnBhZ0FDWHZBTElJVEhGYl9tN2tXblE?oc=5",
-          "date": "2026-10-23T20:44:00.000Z"
-        }
-      ]
-    },
-    {
-      "time": "21:07",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Iran says 2 supertankers hit naval mines in Strait of Hormuz",
-      "outlet": "Türkiye Today",
-      "source": "Hormuz",
-      "date": "2026-10-23T21:07:05.000Z",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONTJCWmJaMVNCQnFYd0NXZkFwLS01azZmN1NaU09pam92Wk5QbFlaeEhfZWZIQkNoX09rYm1TMlVtMk8xcjRhUWx4Nk1TZHBfYjJ5dENzZW9MMlRHSWk5VWluRVNMQWpVVW52YnQ3bDA5dVd6N2NCeXRSM0NFTWI1SUpTbFBJWllmQzA2Sktsa0ZpeXpwaktZOEREMVZWR3E4Mm1uNUgtMA?oc=5",
-      "cluster_size": 4,
       "cluster_id": "iran-revolutionary-guards-two-supertankers-hit",
       "first": {
         "outlet": "NewsCord",
@@ -290,8 +209,174 @@
           "outlet": "Middle East Online",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSnQ3UjRTY25kT3R1bHpsVEZPV3MtYi01R2UyNEtWSExRVVdObExhX2dtdVVNaGI5U0xpODFneEE2QzgxdEFOdE5oS1pIMTJlYzIwT1NFVE02MzRyLXpBbmhWbDV3elhFQXpZNWctaUxvQ09pSzRhLW9GTG80RU9BZ0lsUzR3WVE2RTBOYkdIVnpBVUc3SlpmVm04ZHNUb2tkdXJzNzNqWTBId0JnVXhUag?oc=5",
           "date": "2026-10-23T20:37:48.000Z"
+        },
+        {
+          "outlet": "Türkiye Today",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONTJCWmJaMVNCQnFYd0NXZkFwLS01azZmN1NaU09pam92Wk5QbFlaeEhfZWZIQkNoX09rYm1TMlVtMk8xcjRhUWx4Nk1TZHBfYjJ5dENzZW9MMlRHSWk5VWluRVNMQWpVVW52YnQ3bDA5dVd6N2NCeXRSM0NFTWI1SUpTbFBJWllmQzA2Sktsa0ZpeXpwaktZOEREMVZWR3E4Mm1uNUgtMA?oc=5",
+          "date": "2026-10-23T21:07:05.000Z"
         }
       ]
+    },
+    {
+      "time": "02:43",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Iran Plots, Houthi Attacks Spur US Departure Orders in Mideast",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-10-24T02:43:17.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-24/iran-plots-houthi-attacks-spurred-us-depature-orders-in-mideast"
+    },
+    {
+      "time": "02:10",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
+      "outlet": "LiteFinance",
+      "source": "Oil",
+      "date": "2026-10-24T02:10:45.000Z",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5"
+    },
+    {
+      "time": "01:33",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "The Hormuz Crisis Causing Second-Order Impacts Globally",
+      "outlet": "Energy News Beat",
+      "source": "Hormuz",
+      "date": "2026-10-24T01:33:16.000Z",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYjh5OWx0bGZRYXpVYmxNNjAtSkgyS3MzenRNUXFSbVhlM2hhdUtqLVdBM2MydGVPSmVadXVkdS16bmdjdUViMUJqekVzUVFaNV9uczhkaWdWQ2FIaHRuV3ptODJiVF83eERqWFZJUkFnVlhsa2VrWHc4THpkUXVpSTVYN0V2NFhaVXZUV0FhVWVWYlk?oc=5"
+    },
+    {
+      "time": "23:47",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "UPDATES: US War on Iran, Day 239 - Attacks on Shipping in Strait Of Hormuz Highest Since March",
+      "outlet": "EA WorldView",
+      "source": "Hormuz",
+      "date": "2026-10-23T23:47:33.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaGFPalEwcG1TVkVNMGx6N18wbzN2WUxScnNOQkFLRE5yakViZFU5NzFJRzNqU0pTakp4bUlVY1d5bzRDYnBPQ1FSbUtSdjJ0RWZQRm82YVE1MmhNbW5FdVNHUWtHUG04dFNkQnhnLUZyanJrWXNuMVQwRHFFTUVrTko0NDZKNGtk?oc=5"
+    },
+    {
+      "time": "23:01",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Stock Market News, Oct. 23, 2026: Dow Slides as Oil Prices Climb to Highest in Five Months",
+      "outlet": "WSJ",
+      "source": "Oil",
+      "date": "2026-10-23T23:01:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUVdOTmZOSm56YVBnLW5NcjFJa2NTeGVpeGhvdmF4cG5ETjhEU0owdTlfVHhLY0Q2VUt5aXFqczdiY2NOcHQwWmFMQU9jM3F3MzYxcGVjNnlVQ3dOZUo0dEx6QlpiLXlOOWpaclB2T0wwbXpUZ3RhTlhZX1BOZ0pfZU84Qm95Q28?oc=5"
+    },
+    {
+      "time": "22:54",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "CHARTED: Oil Trade Through the Strait of Hormuz by Country – Visual Capitalist",
+      "outlet": "EnergyNow.com",
+      "source": "Hormuz",
+      "date": "2026-10-23T22:54:36.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeU1tdWFDbEwyc2R5ZEFYN3Y4Q3czZEZKX2ZMWUZWUjVDaHljOVZXY1dTX1h1LXFMSlNJcGtad1VURWhBaHFPWm5nNmY5YzJDX1B1RU1ISDFKWEs1US1TNkptS3lIYXVyWUZsdUM4OTFzRk8zOU1abWE5M3IwV0dtX2VqWlhBUW5mbERvOVVoU2EyR25PQk5qbk9PNXBfbmZ3NTFlR1hXVVZNUQ?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "oil-shipping-through-strait-hormuz",
+      "first": {
+        "outlet": "Gray TV",
+        "date": "2026-10-22T13:19:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Gray TV",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVjRrcmdKTERGaU5SbWU2Y3FmWHpWVVBuS2lRQzkxQ214b1duUnJVcDN4TU96dk5TQXVEVmdOMDB6NFVwS0l3OWVWalRoU1VjdGJfNzRoQWJaREN4THlPalVxa0k1eE5aRnh0ZERZSDVMVllDOWd4UFU3eHJaX21GOUZkaWZLREhFZXc?oc=5",
+          "date": "2026-10-22T13:19:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "22:22",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Can A Bigger Superior Refinery Lower Gas Prices? Economists Say No",
+      "outlet": "Urban Milwaukee",
+      "source": "Oil",
+      "date": "2026-10-23T22:22:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQWt0Vm95V2FCOVRqSUNUY2k0WlRRMEFEYllYMVRGcHV3UVJhM1VuOS0xYUtYSFQzcmVMZFlxNVVYUzZUYzhDQ09HenpsTGFlWjJHa1lCcjd2aVVFSjYwLUF1WWp0VURoc2tXTHp1V1FtNXJmTjhNX0xsaUdKZGljY1dhV3EyODZMcEVqOGlIQXFucHZiQzh4YklJdnIyTXI2YzR5a1dJMA?oc=5"
+    },
+    {
+      "time": "22:16",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Top LNG exporter QatarEnergy in talks to buy US LNG from Woodside's Louisiana plant",
+      "outlet": "Reuters",
+      "source": "Reuters",
+      "date": "2026-10-23T22:16:02.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLWo4ZHBtWXB5blhDUlU3d0lLRXRUX2NfeUVuY3FQSjYzenBjVlppVDA3Nk42VnJaUWtMQWtLZzdLSTNPMWhDc1NmSjVJa1UzN1pGb2dTWEg0Q2lHTzVjamdndGVZRml5VGFjSnlJcjAzcHdwQ21EUkxNZGdiclJjNkYySnFkVVVzYThVV2FGcThsS3hfb25jZTZXdzZxRE45ejF0YzNYcjBjc1pVTFlidElOWWxjeG9zdHZqdldQUUQ?oc=5"
+    },
+    {
+      "time": "21:42",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Wall Street loses ground under pressure from rising oil prices, more swings for Big Tech stocks",
+      "outlet": "Chicago Tribune",
+      "source": "Oil",
+      "date": "2026-10-23T21:42:15.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaXR6aVAzc3Y3UHctRW9HeXpBdDF4QWItU1lEbU1JWGVlRFpnazlLeDZxX2hDTmJMaXNJSUo3Z1FxQzhNZzF6MjQ5ZFRZakVMckRYM1Nwb2t3R1c4VldfTUNoRlMyUjNiVGFMVV9HNmNiZmVBbU02enhuVUM2TkhvNEdiTHg?oc=5",
+      "cluster_size": 7,
+      "cluster_id": "wall-street-mostly-loses-ground-under",
+      "first": {
+        "outlet": "Oil",
+        "date": "2026-10-23T03:54:30.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Oil",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRmdNalhQalg0a3FKUnhSbUcwLUxYbjZtREVYX3VIX0ZkdDhSZkJMTWhrWUlySUtZM2JpTFc1cC1SRC0zUHdLT1oycFl0ZlJLUVdLc3lfVGtva1V5LWZQc21hLXRmT0ItWTkyM1l5Tkw4NjRaNXpoVlRoTjdqanQ3Umx0aDV2OThQN0lOcUtJaGFIWkNlaU5FTi0wQjhjZjJxcGxFdUhjYVoza0NYUUlRRjlsVV9OODlKbU5UeW5DSUZ4SHd0eHJUdDFOS1VLNGlJRndiWmp3MEdMM202clJF?oc=5",
+          "date": "2026-10-23T03:54:30.000Z"
+        },
+        {
+          "outlet": "Click2Houston",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSHczdXZiUTk0SmRpcW9TMk9WNldOcW9fZnZ5VllkQWVxRzBKXzVmb2xXLU9SR2Nkc0Z2WVhrWmZRUC1ibXRvdlZackZFX2MyYTEwd2otSThnWEVmTjFFUUF2Qm9qc29udEd1aUMzN2ZuM1BXQ2MwTGYzRUdEdkZoUXl6cHNjcnlIV3Z2Zms5ZjRHRGRUdEVvQ2tjbGF2aHNGN29jeWFGZ0ZQaERrMy1QcUtfZnNvZHZHN25iRnNuUWw?oc=5",
+          "date": "2026-10-23T03:54:30.000Z"
+        },
+        {
+          "outlet": "Voice of Alexandria",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSDA4TGlXeFBoc2JhWE5GNzZkelFNSmJQSmFmT1YwZTI2TDBPbDhlVm5IX1pPb0U1aXdWTU1ia1pmdkk5LUhiWnZOTUFsTGdzYWYySFBkdzEzamMtTlF2V3Z2Wk1YaDhiMzdqcHZPTk9ITERhVzl6U3duY2xlUUdhNTN6QWYzMGVXa3VxODl6Sk5VWlFMNEF2REVfMEpSeWpiVTU3cDFlN0NqUGIySVE3UEZUS2lEN1p2b1dmeHNQT3dLMWtHallVMXlrTm5kNmRVWTZTX3l5SXRsai1MVVZzWG9oaDZ5YXJMSHFkdWQ4dE5tSGtOQWtvamI2U0J3R2NBemRNcWNIekRuSUZ3N3c?oc=5",
+          "date": "2026-10-23T19:47:09.000Z"
+        },
+        {
+          "outlet": "BNN Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQ3VJNk9JbDVoRVlfUFhVUXNTZUc3SktoMDlXNEFiVk9zLUNuZ3h0N1lIdTdOX2lKYkdKU0dHenVWR2FUSHI3akttRFk5VzM4NzJxZU8wNkN3VUNYMzc4c25wUWY3eDZXdDkydWR5cHEyNVFHQkVncUZQZUFJU1RQdXBEQnI2M2Y5QkpCbXc5TVp5a1hmMm90SUhLV0N1OXNZV0poemM0TUlueU12U0Y1dzNNaF9nZ1NS?oc=5",
+          "date": "2026-10-23T20:37:21.000Z"
+        },
+        {
+          "outlet": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNWpGTk1fbkF2SWY0S1Q2MHN6WjRqQ1R3VWp4WXFKd3VQUG5WSlI1ZXFDY1pSUGJyampWMGtwZ3dRQmxGRzlTbERHSnlraUZ4WmFCSXM4U3J1Z1VSdV81eTB2ck1lWElpSnR2Qi1FbWUwUmJBT1l5enVZLVpsYmMySnBhZ0FDWHZBTElJVEhGYl9tN2tXblE?oc=5",
+          "date": "2026-10-23T20:44:00.000Z"
+        },
+        {
+          "outlet": "Ottumwa Courier",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNak1JSEowMHJ0WURIQ3FIMDhqN2lTanZ5bjM1TFlnOEkxVTRKYmRhbk9NbmtCS2xaemRoMnJfS2V6LWFlLThEbk5VdGRHTUdoS2xaTGZkWHJCcndmek5yMkdwVHhGdS1LSzc5cE1ZWVZFOGpiOG85elpEVDNBeVlpcl9Hb2hEVGtsak04bVRfT3JwMzY3QnpCMVY1RzBmN3E2TmU5VXVmcm85eWMxSTNYZGZFNFYtSTNSSFgtTGlWRUJiclVWRWNULVJuQXNpZnVDZnRReFpFV1FMelZSYUhEellrNThubWdwcm5qYzhR?oc=5",
+          "date": "2026-10-23T21:13:47.000Z"
+        }
+      ]
+    },
+    {
+      "time": "21:30",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Gold, silver extend weekly losses as Hormuz tensions push crude above $116 - Kitco PM Report",
+      "outlet": "Kitco",
+      "source": "Hormuz",
+      "date": "2026-10-23T21:30:50.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVHV5TDc4V3N5eUVHY3hqcGhHMjZwN1JuM2lXTHl5NGZrckpLQ3UzQnFaYld2bE4yaVJ3c0p4a0dIU09xZmtlaWlkSlk0NzlPYXpXUHZ1VmhTdlM4NlVSNHhEbV9BaDUxbi0ybEQtbTdiQ2RFTmtVcEZ6LU96dDFLa2pEWE95UlpHZ1pGVFRlYnhDZlgzOW9oYVdSb1REbDVjbnhNc3FJOE1JNUh3Vnk3OUpQOWpFS3pKeE1iZ3N3?oc=5"
+    },
+    {
+      "time": "21:17",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Yet two other supertankers hit mines in Hormuz: IRGC",
+      "outlet": "Mehr News Agency",
+      "source": "Hormuz",
+      "date": "2026-10-23T21:17:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQXB2T2JQVTgtUDRvUE9iaFFscmU3Z0tzXzRiVmF1ZUNPV0o4ZXNqQTl3VEhZVkRIbjhXRVFiTWpLdGNzbUdOWUl1aHFya1k2V1hUd2g4cXA0X244ancwV25NSExEZ3JGaUdwWXQ1T2FwNEp5WmIzSUphU1BEb0wtZHFsaDUxSTM0cFlqVDhYM1A?oc=5"
     },
     {
       "time": "21:00",
@@ -302,143 +387,6 @@
       "source": "Maritime",
       "date": "2026-10-23T21:00:58.000Z",
       "link": "https://www.hellenicshippingnews.com/sanctions-risks-reshape-commodity-trading/"
-    },
-    {
-      "time": "20:57",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Chipmakers Post Longest Weekly Drop Since November",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-10-23T20:57:57.000Z",
-      "link": "https://www.bloomberg.com/news/videos/2026-10-23/chipmakers-post-longest-weekly-drop-since-november-video"
-    },
-    {
-      "time": "20:49",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Trump's diesel price relief efforts grow costlier as election nears",
-      "outlet": "Reuters",
-      "source": "Oil",
-      "date": "2026-10-23T20:49:10.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3AwOWFSMUtfNXFVU01WekJVSDBWbHlRSC1CLS1GOGZJak5qeXRXclpHMF8xM2pzNVpXaGthMkRXMEZidWFuRU5UTVY5d3BvNjZHTUxIdzB1RnZWbnNFWXlMWHFFX1JrZllMNjN2dDZfZ1pNaDZmNkpxckRFRFdLOUlnZGt6X3FQaGs3VGRrZllULXdtVHB4SlpzYzlIdktfbW8xTy1UeVVTdjk5LWxLOUpkTURodw?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "trump-diesel-price-relief-efforts-grow",
-      "first": {
-        "outlet": "Reuters",
-        "date": "2026-10-23T20:49:10.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3AwOWFSMUtfNXFVU01WekJVSDBWbHlRSC1CLS1GOGZJak5qeXRXclpHMF8xM2pzNVpXaGthMkRXMEZidWFuRU5UTVY5d3BvNjZHTUxIdzB1RnZWbnNFWXlMWHFFX1JrZllMNjN2dDZfZ1pNaDZmNkpxckRFRFdLOUlnZGt6X3FQaGs3VGRrZllULXdtVHB4SlpzYzlIdktfbW8xTy1UeVVTdjk5LWxLOUpkTURodw?oc=5",
-          "date": "2026-10-23T20:49:10.000Z"
-        }
-      ]
-    },
-    {
-      "time": "20:27",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Oil prices reach six-month high as tensions with Iran escalate",
-      "outlet": "upi",
-      "source": "Oil",
-      "date": "2026-10-23T20:27:50.000Z",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTlR0enNvUXZTbHo3d3NMREtnSllYd1VsdkQzbXBUTngzMzkzUWw2ak11eTJacExySEREel9SVDVzNFBKYzA0VnllRkR0bWMyd2JwS1llakZzODVsOGg0RksyVFExUk1jUXFULVUxQkI5b3liamVPaEdSWFl2RXZuQlkzTmxkcWZVUGZMZ0ZB0gGTAUFVX3lxTE0ybUo4cjZ3bDFVeXdKM1NfRWQ3SmFlclNoZ19RYzhUUXZrSnBWREc1WjRUcWJRcW95YXVrdEo4NWxTc1IyaUZwcVhyU1hnd1dEX1pWT0pORTl4OGs2RXZLYjlLTW9wTjZjVGprNjB6YU52ZXEwN1RGRTlkdl9oR3Vza0pKbUp3VmJTRUI5YzFRRnM2SQ?oc=5"
-    },
-    {
-      "time": "20:17",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Iran oil isn't doing well as the US put a blockade on the Strait of Hormuz",
-      "outlet": "Fox Business",
-      "source": "Hormuz",
-      "date": "2026-10-23T20:17:13.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PQUVrSml5bDVCVXRCQ21BSnF3Vk4wUkFVTEdkelM4MFdNSWJITDBUbWtTMi1kcERJb2lrRk1TdVYtR3R4Nk5FUFpqOHFjRmhPeHJCc0RzNVRWcUU?oc=5",
-      "cluster_size": 3,
-      "cluster_id": "iran-oil-tankers-damaged-strait-hormuz",
-      "first": {
-        "outlet": "Denver Gazette",
-        "date": "2026-10-23T13:05:11.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Denver Gazette",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOXzljQVpvTVFUUlUzOFM3cFVadi1Wa2ZoajRHdGx2RC0xZ3QyckpRZ0tqS2FlLWNNUkRNU19Yd0k2aDd1c0xzdTZVcE8wQmZqVHRuTFlhSGZPczI0cjBGUFRXM1JyYjlULTh1U3hzWUEzYnJKMjhxZk54elpmbl9iWm1VU09rVnc2bjRrWVpva3QtZ2lZM2FtMQ?oc=5",
-          "date": "2026-10-23T13:05:11.000Z"
-        },
-        {
-          "outlet": "Fox News",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ScXdFeElWb0ZfRU95V01NZDFsN2xzLWJUOXJTelF3a0xCQjdZWXVld3RNSkdZM29pSzRtc09rOUxLd3dEcFlJN3FTLXhhS0hsSUx5SVhB?oc=5",
-          "date": "2026-10-23T15:07:35.000Z"
-        }
-      ]
-    },
-    {
-      "time": "20:06",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Trump and Burnham discuss North Sea oil, Ukraine and Falklands",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-10-23T20:06:35.000Z",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNUNKODFrR1F2TUlucF9FcWd0TV8xUHFzc0RKOHdfUk4tcEtaa1ZCUGZLNV80NXFUQlJLajRxOHRZSTZ5NUJnSllzWDZJMFNFbnBkd3NTaTNkNWV0NTFrZnF2THNmd3U4S1E4cU5hN0VJRFdUR1FHeEJLcFBhUTUtMHRjaEQycVN5Zkx2SThGaVZKMzNQdnVGaUtuaFBmaTVLZ1pmN0g0T09vZDVZWmc?oc=5"
-    },
-    {
-      "time": "20:06",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Brent Tops $116 as Middle East Risks Grow",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-10-23T20:06:26.000Z",
-      "link": "https://www.rigzone.com/news/wire/brent_tops_116_as_middle_east_risks_grow-23-oct-2026-184925-article/?rss=true",
-      "cluster_size": 2,
-      "cluster_id": "brent-crude-oil-tops-$116-six",
-      "first": {
-        "outlet": "CNBC",
-        "date": "2026-10-23T09:02:44.000Z"
-      },
-      "also": [
-        {
-          "outlet": "CNBC",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSVBHUDhjeG5sQkpOblUzQm9hSTdWRkduWHJwNXdibUgyM1FHNEtJeFpnWEVQclk1czRKV2hLbHNGS2FYem5sRzJ0N0sxakctZld4QmN4UnozQ2h3ZGFBcE1NZDdESDVRTkVQSTRVMUdxbUtHTnk2anV6Z3h4cmtmOU5COXTSAYoBQVVfeXFMT1RHRzc0UlM1VlFlakxiSU51Mk9FTXNoYndtX2tpb3RNQVNRQ1J5dGs2YnFYQUFxa0I3UUV4OHNkZFBRTVhGcjJ2SWpuQldna1VuM2VqQngyMHJXTW1YWXlPbUY4UE9CZklMbFdwQzdiMGlhS0xteVoydTEwNGlKdzhDSFRKQnZiNXJR?oc=5",
-          "date": "2026-10-23T09:02:44.000Z"
-        }
-      ]
-    },
-    {
-      "time": "20:03",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Global Oil Price Hits $116 a Barrel, Highest Since April",
-      "outlet": "The New York Times",
-      "source": "Oil",
-      "date": "2026-10-23T20:03:29.000Z",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONjZmQ1hOTHp4RFVzdWVRRWdzYnFPeEExcnNLS3J3RlRlc3A1OVprRXoxck1hUy1iejdTSGtucjFVSFFSQzFSelg3ZjFmRzNPSDlMdU1OX3F1YUJmZVBjNnY2Ykx3LTV4Q2VBZHRkQmJqcTRubnpqSTFKa1V5b24walJCTC1nT2ZfQ1hJalg4aHo?oc=5"
-    },
-    {
-      "time": "20:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Physical Oil Prices Drop in Mideast",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-10-23T20:00:00.000Z",
-      "link": "https://www.rigzone.com/news/wire/physical_oil_prices_drop_in_mideast-23-oct-2026-184922-article/?rss=true",
-      "cluster_size": 2,
-      "cluster_id": "physical-oil-prices-drop-mideast-flows",
-      "first": {
-        "outlet": "Bloomberg.com",
-        "date": "2026-10-23T07:24:06.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU2JHWWVTdGUzemo5WVMyVy1IcFZ0QUFhSlNueVh1NDhLbkpQNFpuNmo5VFNvSF9ISkpCNHQxM2ZqZWVLZUJOZ01XTUhUU0dzbmVOdmtaUklwSU9ldExUaV9OdldDNUVBLUViVmRKeUh2YTh6QjZfR09tb3R1QnhnTFcyS0I0ZWJCRS14TDBEYTNzcjN5V19CRWRudWwtYnkycFRyMjhDXzhjWDhZTG4tbXd5Rkw?oc=5",
-          "date": "2026-10-23T07:24:06.000Z"
-        }
-      ]
     }
   ],
   "snapshots": [
@@ -1538,8 +1486,17 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-10-24T01:09:26.611Z",
+  "intel_updated": "2026-10-24T06:07:24.516Z",
   "event_log": [
+    {
+      "date": "OCT 24",
+      "date_iso": "2026-10-24T02:43:17.000Z",
+      "severity": "CRIT",
+      "text": "Iran Plots, Houthi Attacks Spur US Departure Orders in Mideast",
+      "source": "Bloomberg",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-24/iran-plots-houthi-attacks-spurred-us-depature-orders-in-mideast",
+      "auto": true
+    },
     {
       "date": "OCT 23",
       "date_iso": "2026-10-23T19:08:36.000Z",
@@ -1547,6 +1504,15 @@
       "text": "GasLog to redeliver chartered LNG carrier to owner after drone strike and repairs",
       "source": "Maritime",
       "link": "https://www.tradewindsnews.com/gas/gaslog-to-redeliver-chartered-lng-carrier-to-owner-after-drone-strike-and-repairs/2-1-2063417",
+      "auto": true
+    },
+    {
+      "date": "OCT 23",
+      "date_iso": "2026-10-23T16:58:09.000Z",
+      "severity": "CRIT",
+      "text": "Brent Crude Prices Reach Five-Month High Amidst Continued Houthi Attacks, UAE Oil Spill",
+      "source": "Oil",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaW9qa3Y3TWVVdjlGNFF3ZllOaU0xdXpRN3FhTlVGOUFQSXBSUnc5MzdtLWFjVWM2N2ZxMkp6OUtBZ2pLbTFzdnJNMFFuT3dxWmY2QmF2OVN4NmNQRms4cFk4amttY1RaaG1LbXVYdW5JUldjNmJ5LThVWEIwMHR3Q3NYQjA?oc=5",
       "auto": true
     },
     {
@@ -1971,24 +1937,6 @@
       "source": "Bloomberg",
       "link": "https://www.bloomberg.com/news/videos/2026-10-22/horizons-middle-east-africa-10-22-2026-video",
       "auto": true
-    },
-    {
-      "date": "OCT 22",
-      "date_iso": "2026-10-22T06:13:33.000Z",
-      "severity": "CRIT",
-      "text": "Iran targets Gulf STS transfers as it claims fresh batch of Hormuz strikes",
-      "source": "Maritime",
-      "link": "https://www.tradewindsnews.com/casualties/iran-targets-gulf-sts-transfers-as-it-claims-fresh-batch-of-hormuz-strikes/2-1-2062319",
-      "auto": true
-    },
-    {
-      "date": "OCT 22",
-      "date_iso": "2026-10-22T05:48:29.000Z",
-      "severity": "CRIT",
-      "text": "Iranian Revolutionary Guard Threatens Strait of Hormuz Cable Attacks as U.S. Moves Troops: 12 outlets compared",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWjhDNXJFUTZfbVo2emhBenhBR2o3NjFGTk5OVmJ5enZyNTFhVmpwU2N4QjBsRXhQeHlYWXUxcERFRVM5TWlPX2JDSldjSjBxTHQ3dDFlcm1JYm1hNmhrMmxZQVpvX0VpY05lWjYyaG03TEFHOVRLN0hURkhzTVNYeXdXdkVhUU0tQzRlMF83cXQxZHY2eTRIOHg1cFJIRG1YWGZxUjJWUFpkQlQxV3dTc2tqNWRsQ253WkFXMWpZZVp0UGh3SVRVXzJtbHVlS1ZScTZJdXNLNkhzV2ZLdUNLaw?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
@@ -2005,10 +1953,6 @@
     "last_updated": "2026-05-14"
   },
   "chart_brent": [
-    {
-      "t": 1761192000000,
-      "p": 65.99
-    },
     {
       "t": 1761278400000,
       "p": 65.94
@@ -3011,14 +2955,10 @@
     },
     {
       "t": 1792728000000,
-      "p": 111.66
+      "p": 116.72
     }
   ],
   "chart_wti": [
-    {
-      "t": 1761192000000,
-      "p": 61.79
-    },
     {
       "t": 1761278400000,
       "p": 61.5
@@ -4021,7 +3961,7 @@
     },
     {
       "t": 1792728000000,
-      "p": 103.44
+      "p": 103.27
     }
   ],
   "signal_outlook": [
@@ -4038,7 +3978,7 @@
     {
       "name": "IRGC Activity",
       "severity": "CRIT",
-      "val": null
+      "val": "Two tankers hit by mines in Strait of Hormuz amid escalating..."
     },
     {
       "name": "Iran Sanctions",
@@ -4052,10 +3992,6 @@
     }
   ],
   "chart_spread": [
-    {
-      "t": 1761192000000,
-      "p": 4.2
-    },
     {
       "t": 1761278400000,
       "p": 4.44
@@ -5058,7 +4994,7 @@
     },
     {
       "t": 1792728000000,
-      "p": 8.22
+      "p": 13.45
     }
   ],
   "chart_sp500": [
