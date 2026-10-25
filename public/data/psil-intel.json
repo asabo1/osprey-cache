@@ -1,22 +1,25 @@
 {
-  "updated": "2026-10-25T05:08:47.425Z",
+  "updated": "2026-10-25T09:46:39.242Z",
   "counts": {
     "total": 91,
     "crit": 7,
     "warn": 5,
     "bySource": {
+      "Ynetnews": 1,
+      "MarketBeat": 2,
       "Simply Wall Street": 3,
+      "khorasantimes.com": 3,
+      "Stocktwits": 3,
       "centralmoinfo.com": 1,
-      "Stocktwits": 2,
       "Neuroscience News": 1,
       "TradingView": 11,
       "Bioengineer.org": 2,
       "Mashable": 1,
       "ABC News - Breaking News, Latest News and Videos": 1,
+      "CoinCodex": 1,
       "Yahoo Finance": 2,
       "Vietnam.vn": 1,
       "Seeking Alpha": 2,
-      "khorasantimes.com": 2,
       "MycoStories": 1,
       "Hollywood Times": 1,
       "New York Post": 1,
@@ -33,15 +36,12 @@
       "The Detroit News": 1,
       "UA.NEWS": 1,
       "Moomoo": 1,
-      "Time Out Worldwide": 1,
       "The National Law Review": 1,
-      "EurekAlert!": 1,
       "Left Voice": 1,
       "PR Newswire": 1,
-      "KOKI FOX 23": 1,
+      "WGXA": 1,
       "UC Santa Cruz": 1,
       "106.9 KROC": 1,
-      "MarketBeat": 2,
       "WRTV": 1,
       "WPTA | 21Alive | Fort Wayne, IN": 1,
       "TipRanks": 2,
@@ -71,8 +71,6 @@
       "Pluang": 1,
       "GlobeNewswire": 1,
       "RamaOnHealthcare": 1,
-      "HMP Global Learning Network": 1,
-      "NPR": 1,
       "FDA": 1
     },
     "byTier": {
@@ -81,6 +79,36 @@
     }
   },
   "items": [
+    {
+      "id": "3bd2fbceabe8",
+      "time": "2026-10-25T09:01:58.000Z",
+      "source": "Ynetnews",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Israel to test MDMA and psilocybin on hundreds with severe PTSD in first national trial",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqeE1ZaDUtSHlGNkMxM3RWNEF3SUY4a1pVZ0R4dHQ4YklYeEpvbFVZS05jcS1lUTRFRFg0M0duZV8wZWw5c2c5SjdqUkkyRDZwYXZrR2FfSGFHU3ZHVmlqelhKc3BQUGZaYlE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "799be5851791",
+      "time": "2026-10-25T05:30:52.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin (NASDAQ:HELP) Raised to Sell at Wall Street Zen",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaDRscWNqU1JpUXdFdHlwNlRmMEY5aVdBQlAzU2ZqZUhpTk9ZNU16U1NQdEhKT0c3cmU4dDFIQ0QxbjBxYWRuaXY2N0F6RjV5aDUyRVhrSUdGbFFSdkhQVUxTcXIxM203cW9TWWJZQ0xTb2gySWVXME45U1dmWVBGVlRrZkxuX1RsMzRPN1ZReXJ3elFQdkhSVW9XNDUyQ0ljVUV5ODFqX1J4aVVhaTRwUDhLSQ?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
     {
       "id": "b62cce3b1e6f",
       "time": "2026-10-25T00:39:10.000Z",
@@ -95,6 +123,37 @@
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSmhjQjB1el9mdkN1b3NKUk1iSExCRnBsWlE4bW1kR2paOGRScWtlX01Gd3liQTh5bE5Wek5hdUxXbWZKRzFWQWgwOEwxTEJsRnEwVy1ZMW1USExLdmtGQks3OUExOXhTdHYzZUpMVllGMGV4bWtxUThpV0JFdHZzV3NOQ19uLUsyLTFHamR1SncxcTZ0a1ppS2hRbkpVVFpZY2hxV053TWVBSkZyUUU5b2wtWG5iRFVBR2djY1pDSi1sa1Y3SVdBdFVteERMR0hPVFRMd1FwZ2hlRFQ1U2NmYzd3cldBOW1QcnJwTtIB8gFBVV95cUxObUljNkMyYi1VX0FXVzlFTXRONmNrNV92a1Q5ek5wOE41RE05S2N1ZV90Wjl0VUhvd25BeFV2TnY3ODlLZDA5R2gycFJ5SGZwdXp2TlRxUWt3NThHSVRlc3JGSnZKZXNLWUVWdWhXUjJfNjU2dVo0ZmRITTFuU0pfS3FmZWpQM2FhNHZSVkZYLTk0SVBZRGtvd0hvMnpMYThhOGdESE1McVlsRDVNbVNCbWxFX0djRkI4dnVIbHJTcnZKdVRxbXAwOW9HMEI0U0dreGJ0eU5JaTZ1U1R6ZlE4ZmJSaTFpUkhPQVBvUXRsajROQQ?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "52d116023321",
+      "time": "2026-10-24T23:40:11.000Z",
+      "source": "khorasantimes.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psychedelic Goth Butterflies Graphic Tapestry Wall Decor",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hOVdheXd5cWh2T0hBenJCUUhCVUxBREJ0YkpPRE5tOXFsM1k1VV8zS19qeE54d3UzQm10Y1pGUmJ4OGM1aHdqeXA0NERwQQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "d7fecfe984d4",
+      "time": "2026-10-24T22:26:29.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "CMPS Stock Clocks 25% Gains In August Ahead Of Application Filing For Drug, FDA Hearing On Psychedelics",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUxZYUtOSXZJR2c2WVhDS0p3SDZob1hRTXNsaG1uZHhQc3JqYkFaTTVEbU50WERaMEp6VG45dTIzNEV0TGxISnV0UkZCamlMT0xkY1ZGR254eHUwUm5ONzFKajZhRzRPZTVUSHRWWmlXcDNfVjd1NjN6VGxOWDJ0NXNPMHFIbE9hVDZRazZEUUhhempQeEoyWDFQVnBDb0lnWGxrbVNoSnJpdUZkVk91WC1kQjRrcXIzOHBab09SUDEzS2ZkVy0xX0txeGIzeFdRTkNmVTM2d2I3MWtFb0xxMHVyTTdDdDJkZFlpN2NWbXJhMW9nbmJ1X2xhdnQxTms4TW1j?oc=5",
+      "tickers": [
+        "CMPS",
+        "DRUG"
       ]
     },
     {
@@ -229,6 +288,22 @@
       "impact": "HIGH",
       "title": "Trump signs executive order accelerating research into psychedelic drug therapies",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1BvY29qdzU3bm1lUEVOWUJHenU5OEpCdkxUajRMdmoxSlpORE9PRTBudnVUd0lkNF9wVzRkUldfbGFDUkNzWXJnb3VpRGp3N0hpaUotTUhBRjFoVnRtWlMtdnNwUjIzSUJnRjNQLXU1YXMyMWxucHNUVWJuWnJvNXVqZmFobEh0aWxmSGFSLXpVel9Wb0ZUVmlrX1FXaXNyRU90ZEw5RUNyV1JOU1JxWE5B?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "715c6bf9e66b",
+      "time": "2026-10-24T05:35:00.000Z",
+      "source": "CoinCodex",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (DFTX) Stock Forecast & Price Prediction 2026–2030",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wWGIwU2p0dEdiZlBsTVFoR01Kby0zVmJZNUdmSEtCMEZyYld4MFo3S19KZVBWUl9IbklBTHdOb21IdlJYblpnUl9iSG4wX3Z5eWV2QWJGSEVVWFg1clc0?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -731,20 +806,6 @@
       ]
     },
     {
-      "id": "c66cc815d151",
-      "time": "2026-10-22T23:00:00.000Z",
-      "source": "Time Out Worldwide",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Ginger Johnson: Show Pony",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB5ZkhMQVNzVXBNUkJYQXdEa2xhVVV6czJldGZnS2M4UURaQjR3WmxKZEI4QWlyUllERkdsMy1pdEJIS0hFMkp2a1VzTS13NkZTOTRYU1NYa0hKQnphRG94R0pzd3FTQ29MS2otNEM0OA?oc=5",
-      "tickers": []
-    },
-    {
       "id": "488aa1d31ea2",
       "time": "2026-10-22T22:59:56.000Z",
       "source": "The National Law Review",
@@ -759,20 +820,6 @@
       "tickers": []
     },
     {
-      "id": "198658418e40",
-      "time": "2026-10-22T22:53:33.000Z",
-      "source": "EurekAlert!",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psilocybin effects (IMAGE)",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtNS1PekswNklmNGhDLUV5UDNlb21OSmxxZ3JzTGlHc0p4dkVlUTlyUDAybjVqLWdTM1oxcnliclZQaDJuSEE4TU9LSk00MVlkRDZ4VGRyeTU?oc=5",
-      "tickers": []
-    },
-    {
       "id": "7cc1783a9d75",
       "time": "2026-10-22T20:40:37.000Z",
       "source": "Left Voice",
@@ -784,7 +831,9 @@
       "impact": "LOW",
       "title": "Psychedelic Toad Venom to Solve the Capitalist Crisis!",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWXc0cV9VMDNYOV9oYjg4LUowaGd3N2l4MkNGQ0ZrTHBVcmp3UmNoX3RrT0NnSUNCWE1xVmt3c0ExTWo1OFJUb3dKNDl0ek1zZ0dHSTVMTmhqTmFPSHAzcDZrclM0dE80Y2d6bk5FNTlBb0JHVi12bHFYelo0WnNzMjdhcW9ubnc?oc=5",
-      "tickers": []
+      "tickers": [
+        "ATAI"
+      ]
     },
     {
       "id": "7a680edc1d9c",
@@ -803,17 +852,17 @@
       ]
     },
     {
-      "id": "e7a4cdd04473",
-      "time": "2026-10-22T19:28:55.000Z",
-      "source": "KOKI FOX 23",
+      "id": "9ee79dcfc565",
+      "time": "2026-10-22T19:27:14.000Z",
+      "source": "WGXA",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
       "severity": "WARN",
-      "direction": "BEAR",
+      "direction": "NEUTRAL",
       "impact": "MED",
       "title": "Calley Means, senior adviser to RFK Jr. at HHS, resigns from Trump administration",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZkNQamdDSi1ZQ2pVYWNJSnBmdUtjUElBcTFWbnV0ck1VTUVzX29wbWxnUWxLLVNOQ0tValpkU2ZWbWNpcXNFNU5CcUNRUWZDWlV0dlhVTHFqdFpoV1pwODBPd0hOamJYUzZyVW9XMk9XNHBBanZGN0tSWWhSZk1hYUVvTHpDd0lKNzAxeTBfUVlGS05uZU91Q3RNcGJEakJLcEZBZEZQby14UWZjZUJjRDlDVmJYZmFqQVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPekxYak9fdzh4bmRobjVPWV9TVEE1bnZ2ODVnUG81R1UtN3ltYjdqLUszY2FLcFVBVG5PRlVMODZ4RmVnaWlNQkhvNGdicnZyS1NiQWlNWUdpdWxtQ0ZxSG9RaVdaVGYzWFlMMUs0dUp0VmhuRVhJNnlOa1B6Y1NrMnBxR29SeGlqbkNzcWxydml2MEpIQXNaMlBJbXk2emhUWkVzYjRNemt4NjZzdGRnWU1n?oc=5",
       "tickers": []
     },
     {
@@ -1333,7 +1382,7 @@
       "tickers": []
     },
     {
-      "id": "c46449aa8cef",
+      "id": "edd37e1515e2",
       "time": "2026-10-21T18:04:12.000Z",
       "source": "TradingView",
       "sourceKind": "gnews",
@@ -1343,7 +1392,7 @@
       "direction": "BULL",
       "impact": "HIGH",
       "title": "Cybin Eyes Q4 Phase III Depression Data as Anxiety Program Advances",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNelBqajl2NFdHeWNDNlNVX1BnRy1LV0NQVHdYWnBxZDdITFpnMlc4WWRBU2NaRlhLY0tuUzFiNS1xenliYk1KUnhQMW9UT1RPZmRjX21GS1RHNC0xbFpucXNpQmdkd0publJDUHVIcGprdnJra0FCaDU1eTN5WFFPTzREM2pna2RwdXhoMXM2dnpFbVJqSUlxUzJrOGdma3RuTm5OMmVXMHRKRjNObVRIbUxPQ2VpMEt1cWx2Y2NRQ0s3bWpQbHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM3RoRlVWQzlZTEhma2xQbTJKb050eVpQR29hemtEanBzbng4UWZYSW8tT2xmOUhtaGJZZGpIcU9IN3VaUzlkNnFZRldjdkZCcnNUNUlfRjVLeVhQVmdibi1FVnJnWHllekFJT1lub3NWcTlydi1QTEFKYUJUSVNUYld1SVJCRmdpMUhsUmRQNkxQVi1UMnhtVERnb0VFUTNLZ3NScHFHWWtUcXdqRGh2YVRBZ2hMdmZ6QkxvVFA5TVRFblBIbEtJ?oc=5",
       "tickers": []
     },
     {
@@ -1358,50 +1407,6 @@
       "impact": "HIGH",
       "title": "Ketamine drugmakers seek FDA approval as providers raise concerns: 5 things to know",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYWkxMUk3MnZ5cWx2UWY4al8zNUswRGxNTzNCLXVQU001Q0hoN05ZWnZVMVc5SjU1VDBzbVpDSnBKbldMZ0lPbTU3OExwX25fWFAzZURINGN4bVBXN190YUNoME9SUURuSGVueW9XOTB0SmhQbVh0aV8ySVRhMDJER2RNREEzQmZBVkR2dUlMa1RYWU1sNV82QTlRMnNEOXM3cHNjQVVOcGlRcGVLYk5PMklR?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "2f5989cf14e2",
-      "time": "2026-10-21T17:14:56.000Z",
-      "source": "HMP Global Learning Network",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Beyond the Clinic: Operational Strategies to Expand Access and Improve Engagement in Substance Use Disorder Treatment",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeVJWUTd4SFAyRXgyNE9ISTN6WkwyTk1RWkJkX3dzNkRhWlpZbUNNWjY3SDhSVld2c2hrVnZLdXI1a3JZVmtWTkxmVzFEQ0xGa24yQ3prYkRPV25CMkZOelZmZWVHdUZTNDlMN3ZwRGRXN0RPclV0MmFWZVExbnU2b1E5UFpuWmpQUUs5RXdlTWRfSExmemZ1anpocG1rM3NMUHhVU0UxZjgwdFJvekZFX1dLMEY4T2RXeTZWNFZJeENCN3JiMDdqNWhRWGJCc2pmRkEzU1JfMA?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "26aaf807c259",
-      "time": "2026-10-21T15:41:41.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin Sees Unusually High Options Volume (NASDAQ:HELP)",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOS2dvTWdEdnZUZVdIZEZ5TUt1ZlZ0WnktQVlzNmlzcnN3cDRoQ3FBRV93VEZHczBoZWt5OFV6NVpXUlNPMF8wMG1EOVE2ZmdIWnY4cGZjS3dIVHRZZDRreUZuQ2RxQ3NZVjV3MlVHVDU1WE1DOWl4WGpSUFNxZXdaU1RyYkJydVd4M19qLTRVMjlTSnA0ZUxHZXVIdjlUeHBId21Na0FRUTVwSm5ZX2dYWWdOaVA?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "54c415362c37",
-      "time": "2026-10-21T15:33:18.000Z",
-      "source": "NPR",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "New human data hints at psychedelics' potential to combat inflammation",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMjRzdmZFN1lFUmpxZUNiQUJyWEVRS2pROE1xT1BzU2ZaOFh5ZDRzYl9SM2lyMExOT0NlbUpzRF9ObnFId0F5bVNHNWcwQUtjOWVEdVpsTkVwVE93cWdybGhRdENULXF2ZTUyZGtKNXc0QnExWEVTemtqTVBoRkFfTVRfellXUFl4NHh4Yk0yRk81Q1pY?oc=5",
       "tickers": []
     },
     {
