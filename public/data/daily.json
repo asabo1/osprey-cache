@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-25T22:30:08.252Z",
+  "updated": "2026-10-26T00:44:06.024Z",
   "latest": {
     "date": "2026-10-25",
-    "wti": 101.69,
+    "wti": 101.76,
     "wti_prev": 103.27,
-    "wti_delta": -1.58,
-    "brent": 110.19,
+    "wti_delta": -1.51,
+    "brent": 110.4,
     "brent_prev": 116.72,
-    "brent_delta": -6.53,
-    "spread": 8.5,
+    "brent_delta": -6.32,
+    "spread": 8.64,
     "crisis_score": 85,
     "score_method": "v2-2026-06-11"
   },
@@ -160,14 +160,67 @@
   },
   "intel": [
     {
+      "time": "23:29",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Oil Prices Fall By Almost $1 After Six-Month Highs in Global Trade",
+      "outlet": "Global Banking & Finance Review",
+      "source": "Oil",
+      "date": "2026-10-25T23:29:56.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON3VRS3AzQlJsTy1RaWZQcnhuOGRCbHNuUVNfcDJmbWQzaW9LMDg5NDNGYTFFRzJUM1RvRXc1b3U3UGNzR0YtT1ZyaWN5YlBfc1NaSFh2eWxSbFY2V19xT3BqNjFTVUNnS2VseDdBSWd3ZFBHdmxaUGc1RWlSOW5wMFBHUWRRdw?oc=5"
+    },
+    {
+      "time": "23:25",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Oil prices down almost $1 in early trading",
+      "outlet": "Reuters",
+      "source": "Oil",
+      "date": "2026-10-25T23:25:43.000Z",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb2J2QlNheno1OW9FdmN3RTJWVHF1RXdLX0VQSGlKSkZlZEtNTnFxU3FUd1Zab1FPME1felpOVl9oM1oyNXc0T2xkdDZhc0JfUVlSTFU4Vm9aYWRrd1BhQmw1QThZRDZHbEZZR3Y5UlhNaDlWWm8tbjU2bjVtaFRVM0VMcml2OXY4TUtxNXRZU2c3c0lC?oc=5",
+      "cluster_size": 4,
+      "cluster_id": "oil-prices-down-almost-early-trading",
+      "first": {
+        "outlet": "TradingView",
+        "date": "2026-10-25T23:10:26.000Z"
+      },
+      "also": [
+        {
+          "outlet": "TradingView",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTVI1aVBBWl9zOU41SWM5TzVpN2NuT2pUcUUwLXVvd1BFV1hhZndVaFN3MEY2V2ZMaVJKR3FyVVRIZmptOGd5Ql9ldV9CN2lIdVRBbjdlYW1kc3ZuX2ZTU1JSdE1ldnVWTXZvWWkyUl9WOXlJNzd0MUIxempmRUFXN1dabWtjNzRaY2NtUUVodkpGd2ExZE4tVWM2ZHFlQThKcHVvWWhwUVlVYjVBM1pTVw?oc=5",
+          "date": "2026-10-25T23:10:26.000Z"
+        },
+        {
+          "outlet": "Money",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOME1fUXM3VnpJVVFMNjFZekxNOWNjRHJ1d1V4UHdicDQ1dlRpMjhCOXhNTTdnb0hyTkg2UHhyTEhudVQ2Y3F4czlneG1UYTdZbWlQaGlJdzBxejRJVzZQV3RtajRoSDI2T0JDa2ZqZW81RjFIZ0h5NEp1aWQtUDM3WTY4dkE1emwyZ3lYX2JOVG1xOG9BQk5qN3dCYnIwNkFkNnRR?oc=5",
+          "date": "2026-10-25T23:24:00.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQb2J2QlNheno1OW9FdmN3RTJWVHF1RXdLX0VQSGlKSkZlZEtNTnFxU3FUd1Zab1FPME1felpOVl9oM1oyNXc0T2xkdDZhc0JfUVlSTFU4Vm9aYWRrd1BhQmw1QThZRDZHbEZZR3Y5UlhNaDlWWm8tbjU2bjVtaFRVM0VMcml2OXY4TUtxNXRZU2c3c0lC?oc=5",
+          "date": "2026-10-25T23:25:43.000Z"
+        }
+      ]
+    },
+    {
       "time": "22:09",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "US Equity Futures Climb as Crude Oil Price Dips: Markets Wrap",
+      "text": "Stocks Under Pressure Before Earnings, Oil Dips: Markets Wrap",
       "outlet": null,
       "source": "Bloomberg",
       "date": "2026-10-25T22:09:07.000Z",
       "link": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap"
+    },
+    {
+      "time": "22:04",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Latest Oil Market News and Analysis for Oct. 26",
+      "outlet": null,
+      "source": "Bloomberg",
+      "date": "2026-10-25T22:04:00.000Z",
+      "link": "https://www.bloomberg.com/news/articles/2026-10-25/latest-oil-market-news-and-analysis-for-oct-26"
     },
     {
       "time": "22:00",
@@ -178,6 +231,16 @@
       "source": "Maritime",
       "date": "2026-10-25T22:00:59.000Z",
       "link": "https://www.hellenicshippingnews.com/tankers-more-complications-ahead-for-diesel-cargoes/"
+    },
+    {
+      "time": "22:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Star Asia Shipbroking Weekly Market Report",
+      "outlet": "WEEK 43",
+      "source": "Maritime",
+      "date": "2026-10-25T22:00:57.000Z",
+      "link": "https://www.hellenicshippingnews.com/star-asia-shipbroking-weekly-market-report-week-43-5/"
     },
     {
       "time": "22:00",
@@ -281,46 +344,6 @@
       "source": "Maritime",
       "date": "2026-10-25T17:56:45.000Z",
       "link": "https://gcaptain.com/sri-lanka-rescues-40-iranian-sailors/"
-    },
-    {
-      "time": "17:37",
-      "severity": "MKT",
-      "direction": "BEAR",
-      "text": "Hormuz Negotiations Between Iran and US Stall as Oil Remains Above $116",
-      "outlet": "Energi.Media",
-      "source": "Oil",
-      "date": "2026-10-25T17:37:04.000Z",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FZEU0NnRUQmlMaXpjRko3NDk0Y1huQTNKT1ktVlNTeDRlVVdJeHk4d2xxRWdxTlhjd3JLbWJFQk92dnRNR2E4dUhSTENsT1NFbmY2eEthUjhSRG9hM2RzWi1QQXp3dldFQUhkS1lobmwxS1pm?oc=5"
-    },
-    {
-      "time": "17:04",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "US-Iran War Live Updates: ‘There will be no strike today’, says Donald Trump on Iran",
-      "outlet": "The Indian Express",
-      "source": "Hormuz",
-      "date": "2026-10-25T17:04:52.000Z",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxObkdyS1V2QVQ0WXRYQkF2UmxvUXBoZU5WaWZwYktzeWZVcmZnRkJyZUhhY0hGWU5vS2ZZb2tuTEU2cWNRdUFfX1dPX3M2QVRNRGVUWXIwMmxZSmcxdnFKQkxmVW15SUhtS3RCSVdkdzMwV1BhOVZIcmZvQVJYTTdoLVNGTDNaM19hWW9UTWVVRGJJQnQ0SnVkZDZyTTQxMWFEaG95U2RuVE80UWgyT0gwQllqVnEtQzBTTTVzMjl1bk00aHNReVNMM1MtRS1kcnhmUnNSMTMydVJpTmd2YjVZdkhhZWp1MXk0WnFpZDB6UXhsWWJvNzB4T0hUcV85OWtlcUM40gGKAkFVX3lxTE5QbjlJaUt1OTN0Y3dmcnoxYXNOT19yaUFHaU1NbGRvOEdScUszOGptaTVjSUdRdnZ3VU9LVkxtSVZRcm43WDZEcTQxTWlGcWJQeFo5UDkxLTRoRUpjOXk1TDVQV3l2T0tkU0dZSm56V3ZyWllWTVF2Qm0zTU9zamUxNTNBNW9iSFF1VFc0N19sSkFnUjRLWnJ3cy1rN0x0cXp2LXROX280dVB3MklHUXhySUJBVl9wYnczQ3VsZ0lBUUE0V2s2R2N1OUZaWkFpcFpyVjJNR2dOUmpKZkFBbEZpRlMxUVN3dEVKMVF2clNjRmpKbU9IaTZQdkx3SzhleXdIVmlSNmxSa0tB?oc=5"
-    },
-    {
-      "time": "16:58",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "CENTCOM chief visits Hormuz Strait, says US helped export 1.5 billion barrels of oil",
-      "outlet": "Al Arabiya English",
-      "source": "Hormuz",
-      "date": "2026-10-25T16:58:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYkVoR3JwMDNrcTlwckM2U2NScVVHTk8wTGU1YXZjOG82bTVseGw0UU5sV2l6cHVvSVQtWjNrMnJOSElrQ2FfRmhJbXA5bmg2d0pUWC1ETVVtanB4MTdPWlh2THJwVllwZ0RBT1VrN3hhTHJNSUxIWElJcjhQN3RjU1ZUalFUZEpoZnNwRnlOQ2FiSHNGc3EwUEhzNElucmdwS3dQRjhMLUVvSzA4b1hqakFaYTF1SzIzMHdUSThOTFRKTkpVMXd2dDFFTHpzU1VWVHN0c1JmRdIB3AFBVV95cUxOZElCcEp2LTF4R0I1NkFncVRJSUtsc0tsalJfQkhxdEl5WnNDdlZFbG5HQ1hCOVJQQzVGODlYZW1nT0ROTm9wRFRkaEJfX0ZmNWdBUmJBNGktWFhsN05LSEpPTTBCejNvVjRzd2ZHZmtvT0x0UzFRd2dxR3dMcHRHb2NsaFBYQTNHUVg1VXhIVXlxa2ZMbmRucWFoWF9CNHRhQVhaSTZ4QUlES3J6Vl83ckVyNHNiSDR6TzJmZ1VNQ093aW9GUmpxbFRFTUZHMXBtY1ozUDBGNWczN3NR?oc=5"
-    },
-    {
-      "time": "16:22",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Strait of Hormuz crisis: Nearly 500 vessels delayed amid new tanker attack and rising maritime threats",
-      "outlet": "Gulf News",
-      "source": "Hormuz",
-      "date": "2026-10-25T16:22:41.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS1QwN2hrTUszZUY4XzJkQk16NGkzSW1tUXdDcXg1aHhvNUh2RHJhTi1peDRvX2s5Qmdnb1dqRWg5SGxoOHUwaUlfSG1WN1pXNWJSSWQ4Wkk3dGRHYVIyYU5ENld5T1BxSC03Q1NMRG9OV0xWZjNtUDZuc0tKc182UVFRQzFweEp2LUl3clB3WUo3VWtuNGt3YnlIT0tEdkRXX1JZVGYtVllacXgtMTVVNTgxRWs5Q3FrLWRzLUdjMER4UUU?oc=5"
     }
   ],
   "snapshots": [
@@ -1420,7 +1443,7 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-10-25T22:30:08.252Z",
+  "intel_updated": "2026-10-26T00:44:06.024Z",
   "event_log": [
     {
       "date": "OCT 25",
@@ -1874,9 +1897,9 @@
     }
   ],
   "sentiment": {
-    "bull": 3,
-    "bear": 1,
-    "neutral": 11,
+    "bull": 1,
+    "bear": 0,
+    "neutral": 14,
     "net": "LEAN BULL"
   },
   "vessels_attacked": {
@@ -2888,8 +2911,8 @@
       "p": 116.72
     },
     {
-      "t": 1792966765000,
-      "p": 110.19
+      "t": 1792974829000,
+      "p": 110.4
     }
   ],
   "chart_wti": [
@@ -3894,8 +3917,8 @@
       "p": 103.27
     },
     {
-      "t": 1792966803000,
-      "p": 101.69
+      "t": 1792974829000,
+      "p": 101.76
     }
   ],
   "signal_outlook": [
@@ -4927,8 +4950,8 @@
       "p": 13.45
     },
     {
-      "t": 1792966765000,
-      "p": 8.5
+      "t": 1792974829000,
+      "p": 8.64
     }
   ],
   "chart_sp500": [
