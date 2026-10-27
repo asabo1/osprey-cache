@@ -1,15 +1,17 @@
 {
-  "updated": "2026-10-27T18:11:14.164Z",
+  "updated": "2026-10-27T22:12:55.057Z",
   "counts": {
     "total": 91,
     "crit": 4,
-    "warn": 6,
+    "warn": 7,
     "bySource": {
-      "StreetInsider": 2,
+      "Newsweek": 1,
+      "High Times Magazine": 1,
+      "StreetInsider": 3,
       "Yahoo Health": 1,
       "PsyPost": 1,
       "openPR.com": 1,
-      "Investing.com India": 1,
+      "Investing.com Canada": 1,
       "Yahoo! Finance Canada": 3,
       "www.marketscreener.com": 1,
       "Yahoo Finance": 3,
@@ -17,12 +19,12 @@
       "MyChesCo": 1,
       "Artnet News": 1,
       "재경일보": 1,
-      "Simply Wall Street": 7,
+      "Law360": 1,
+      "Simply Wall Street": 6,
       "Market Exclusive": 1,
       "The Globe and Mail": 1,
-      "Finviz": 1,
       "Marijuana Moment": 1,
-      "The National Law Review": 1,
+      "The National Law Review": 2,
       "Science, Public Health Policy and the Law": 1,
       "UA.NEWS": 2,
       "ScienceAlert": 2,
@@ -31,12 +33,11 @@
       "International Business Times UK": 1,
       "Politico": 2,
       "The Debrief": 1,
-      "PR Newswire": 2,
+      "PR Newswire": 1,
       "Oregon Public Broadcasting - OPB": 1,
       "Psychedelic Alpha": 2,
       "TipRanks": 2,
       "The Business Journals": 1,
-      "The Border Mail": 1,
       "Investing.com Nigeria": 1,
       "Hindustan Times": 1,
       "Tech Times": 1,
@@ -44,14 +45,15 @@
       "TradingView": 9,
       "Business Insider": 1,
       "JFeed": 1,
-      "The Times of Israel": 1,
       "The Motley Fool": 1,
       "Ynetnews": 1,
+      "Psychology Today": 1,
       "Yahoo Finance Australia": 1,
       "Science Daily": 1,
-      "MarketBeat": 3,
+      "MarketBeat": 2,
       "Moomoo": 2,
       "Neuroscience News": 1,
+      "Stocktwits": 1,
       "小豆島町": 1,
       "Vietnam.vn": 1,
       "Timothy Sykes": 1,
@@ -64,7 +66,6 @@
       "Castanet": 1,
       "Britannica": 1,
       "Left Voice": 1,
-      "UC Santa Cruz - News": 1,
       "FDA": 1
     },
     "byTier": {
@@ -74,8 +75,36 @@
   },
   "items": [
     {
+      "id": "a8ab3ef31ff1",
+      "time": "2026-10-27T19:48:00.000Z",
+      "source": "Newsweek",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "VA Benefits Update—Trump Aims for Millions of Veterans to Get Illegal Drugs",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcG5QaWpUaTM3Y21nNmFmSWo2cTlsMVM5dnQ2MTk2SWp3WHZpWU5jdU1rMzRJcDBqX2h3NzZjeHdfSnJxc0xhczlHdnluR2RfYUJFVDlBdVdtNGY2WUVRV240eFVWNE52c01YNGRXeEpiR1piWUEwc1FENUJWdHJXSWdPbmttUXQ5M2JxM0pFMGNsVDlyQkdSczd0c0lSaTVjd1V3RHUzRm1LX0piVWc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "865d57c8a2c2",
+      "time": "2026-10-27T18:56:41.000Z",
+      "source": "High Times Magazine",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The Pentagon Is Spending $41 Million on Ketamine Wafers for Soldiers—But Why?",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOGNIX1RaVDlIYUN5dHhIVnNoMTQ5UmNMS3ZNUk1uNVc3QVYwdkZHa0hoSnpRUlU2dkRuTk15ckkyaFo2d3JHd1gzdU5YWlRKbDQ4SzVuRVFVaW5nQnV5RWVRdTZKTWIweFNRbEV1RnFRMXNZZEVHZ0ZvLV93RlZmSjVUOVg5TjZUUnJYUUtTNGFNbGNfclpsNGZxWXVUaG5Mc0g5MnFn?oc=5",
+      "tickers": []
+    },
+    {
       "id": "79c82eeda069",
-      "time": "2026-10-27T16:03:18.000Z",
+      "time": "2026-10-27T16:02:44.000Z",
       "source": "StreetInsider",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -105,7 +134,7 @@
     },
     {
       "id": "4ab6cb7310a7",
-      "time": "2026-10-27T14:31:19.000Z",
+      "time": "2026-10-27T14:34:44.000Z",
       "source": "StreetInsider",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -121,7 +150,7 @@
     },
     {
       "id": "065a8866c25b",
-      "time": "2026-10-27T14:26:15.000Z",
+      "time": "2026-10-27T14:32:43.000Z",
       "source": "PsyPost",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -148,9 +177,25 @@
       "tickers": []
     },
     {
-      "id": "8f6bbd193618",
-      "time": "2026-10-27T12:32:55.000Z",
-      "source": "Investing.com India",
+      "id": "1795461a1788",
+      "time": "2026-10-27T13:56:43.000Z",
+      "source": "StreetInsider",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Narcolepsy Pipeline Outlook 2026: Oral, Injectable, and Novel Delivery Candidates Advancing Through Clinical Trials | Novartis, Shionogi Inc., Takeda, Avadel Pharma, Harmony Biosciences, Jazz Pharma",
+      "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNMVhRU3BoUFBlaVN1SXVtMjVuVHBROUtXclRwaERHd2dlTUg5OW9PRnBCdzVnU3lVbHhQUGpBYzhXa3FFSVNRQl9HVGw3NVpYR1dfV3hTaDQxN1ZIZkVSSEdTSC1EeGZLaHdCODQ4dXZjYkxRY2tuQmpXeDNDOEI0WTZDYlhVZWg0Q2xsRkdRdnBTZGtQbGFXNzktNFVBZEpDbURhcjNNM1dEOFFpZGpfUUhUTVhKOXJkNFJndHJhSE15RkZOakxaODNqT2hKMjBVcUZTZ2ozRDJGZ2I4SXBFMVNnRkhZd0toYTlIUkFKMDh4dDVwWTRpbjlfRFpDT0U0TkRMSFI3dkctQ0lMMmlORVJ4M2U4Y1R3dlU1cVFubHdHRXVkSDBSS0c1MWlDekVOSjVTZUVvTlM4blhIMUVTM2M0elJlRHFLYk10Z091YVB4a3NWem5wUE44QWY1SXlXWUhvNUcwMGpzeDBpWVRaMWZpY2tLUmVWMzBSbVpVVmY2dw?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "d2b6b44473f1",
+      "time": "2026-10-27T12:27:48.000Z",
+      "source": "Investing.com Canada",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -158,7 +203,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Helus Pharma co-founders step down from executive roles By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMmZvMXVhTDl6QnBWb2U1VFZyQTFMRG5SREt0YXllaEhlY1RvWlh0Um05OEhfVHlPYzdyal9GdW1ORzEydjVvVHhYaWlpUnJIMER3dFlpV1BlUXd5aUg3YW9ZcXpOUVl1bFdLWFNsbkFpc20zUzhWdzluWkh6bE5QbnkybHV4amlvbkduVF82RUo2LTlSMTlOX1JWOERhcVBUZXNJMnYzQS0xX3lMb055RFZCUXRRZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMm9aY04tdTBXX2RSTW5zZmJhS3hKWTFwWndLUFVvR19iemtKdnNNTzQ5UGRqMGJlUVAwWmVqYV9sZWhuUTlLdWVNRDlSaGJjenRSUU4wRzJVX3JBMFFtdWFLelRkMDhrOUxVQlJ2em9rbGVDM3hXV011YzgwZWNLdjF1RktKWm5rUXJpUGxPUUdMVEd4akQ3cmtlbE5qV25qTlpHRmp2dGJiRzNQbU1KRkxzMUZGZw?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -286,6 +331,22 @@
       "tickers": []
     },
     {
+      "id": "2b86e5f4da26",
+      "time": "2026-10-26T23:21:24.000Z",
+      "source": "Law360",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "In 2/3 Generics Cases, Mylan Execs Allowed To Revoke 5th",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdW81aFRSZjg3OGdyTE9qNGJ6X2xBcnhNWEdiWExIeXpDejlpRmlkZDFkVWt3WDNwUVRUenpEeks5OGdOcFQ1Wk5zQUdYWEVSUzNPQ3gwV011UlBBZXFBcWE1cWU3ZnYzQ0NvVlVIeWZySlVLc05CZVE1Q0VldVhhNm1OdWw3WDNoNF9Ya3hQVGt0ckZHX2MyejVwR3h1M0EwblZOLVN5R3M1MkU4a0NtZEk2WEVLX2xfMUFxcFJzeDY2MVJwc0xyWUdxVVNEU2V5c1JRaFJEakcxVzTSAXJBVV95cUxPeEdkZVZ0cUphQno0YXI5Y0lfX3R3c0RXeXktUWl5UXVQT2tRM1dsU05LTXMyOW1Sa1dNeTNvbEpITWk4anJPNGFoUHdRWHFfM2RDVjFjZDJlRm9IeUtrRTZ0RE5VZndXVjl5VUE3c3VRNXc?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "609538cec7cf",
       "time": "2026-10-26T22:50:32.000Z",
       "source": "Simply Wall Street",
@@ -329,22 +390,6 @@
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPV2JEV3k3UU16UEh4Q3RaRy1KclNhdFNqV08waktEak54Z3djMndyZWhEM2U1MmpSUHlQbTdTbm02NFlCTGRlaEpBRlAwLVZ2Q3VJRzNzSl85a1kzM0M5Qy1ZcXpONlJ0bTJKRXA4eUY5ejRNajJ3Z1VkUzhYNWlEUmxsX1FrTHpOaDhNTlBqNXVYUFlPQkFpOFVLZ2dzd3EwZTJRWnJFbGdaSHY0enNzem13S2Q1T1ZycDZLUU5FYVV5TEpGSEtOOVNrb0x5RW9Pai1FbVhoR0lTejFLNkpXZEFEWDI?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "06306af2648d",
-      "time": "2026-10-26T20:04:21.000Z",
-      "source": "Finviz",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes Faces A Planned Profit Dip As R&D Ramp Tests Orexin Optimism",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMHhRczRBZ0kteXlHbTRoZEVVMzdOeVJWR1RHTFg5VEpleV91a0VEU29XZkEtb1YzeUZDMEgwREVpQ2trbFR3cjVCSFpteVoxVUk4SEFrS21Sd3VpemNnRURtY1dPMDVpQnVOdllZSkRRSGhHQk5HRDRmeHVObUktcVdONm05R2FFdlJOb3VVZFQ5V2FTSTA2SURNNm1pZTJJ?oc=5",
-      "tickers": [
-        "ALKS"
       ]
     },
     {
@@ -582,20 +627,6 @@
       "tickers": []
     },
     {
-      "id": "52b4938dda15",
-      "time": "2026-10-26T08:07:43.000Z",
-      "source": "The Border Mail",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Horror royalty will soon arrive amid ghostly halls and psychedelic music",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ1hmRkNLTmVMakc5c0VLUVU3Y2FzNnJhZWExempWZXUxSWt0eURiZFVWVkNQZkJYcmRkUHBUSFBVQV9keUZxaXhSdWFacTBKbloxblZWRE5VbTZLcHJfQzRZTXdkbG02T2Q5N0dlWWV3N1EzVmRBRVlWQVJGZ2ZHZnBCZlRTbERNNmVYVXVTQXRjaldseDdFb3hoQkZhWTdLcmJ6YVhn?oc=5",
-      "tickers": []
-    },
-    {
       "id": "c88782ed8e33",
       "time": "2026-10-26T07:00:00.000Z",
       "source": "Investing.com Nigeria",
@@ -772,20 +803,6 @@
       ]
     },
     {
-      "id": "96ff21a28836",
-      "time": "2026-10-25T12:45:21.000Z",
-      "source": "The Times of Israel",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Health Ministry announces national clinical trial of psychedelic substances for treatment of PTSD",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORHBZMUxmN21tcGhaUkhtdU00eUgxd0NSdHEyVDFMZUdONlR0RkFyNlU3QkZkdXMxZzUtV0YzWVZ4bEtxSzJ1WVBhQl95TzR0ckRIS1V5RnpBd25CM19uelkxRTJxczhTMlc5SDF3cU80Yld4M0Zza3VvODVvWWp1ME5XS0pQSFByMUF6SzNKUk95ZFRGOThpa2otTl9Ud2tWTEVNUmx6MFNTTlB3ZHg3SmlyNUZ2YXh2MVFkRVdza3otWk0tYTQyXzNkTUc2WmJ2VXQ4X3dQeDFCamc?oc=5",
-      "tickers": []
-    },
-    {
       "id": "a0f43438b08c",
       "time": "2026-10-25T11:45:00.000Z",
       "source": "The Motley Fool",
@@ -813,6 +830,20 @@
       "impact": "LOW",
       "title": "Israel to test MDMA and psilocybin on hundreds with severe PTSD in first national trial",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqeE1ZaDUtSHlGNkMxM3RWNEF3SUY4a1pVZ0R4dHQ4YklYeEpvbFVZS05jcS1lUTRFRFg0M0duZV8wZWw5c2c5SjdqUkkyRDZwYXZrR2FfSGFHU3ZHVmlqelhKc3BQUGZaYlE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "271f4eb8301c",
+      "time": "2026-10-25T07:00:00.000Z",
+      "source": "Psychology Today",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "MDMA (Molly) for PTSD: Hope, Hype, and Hard Evidence",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa1k2ZDlobXBESG9jLVM5bnFSM3MtRklUOE4wbTJzSDV6bHJyb3lHSElhbzBXbUJEeHlCOHNCU2tEV1F6M2EtV1YtQWhRNUxXeHFnZl9tWUpQOW4xY0lCTnlUZ0RtY0JfVW9naEV3TGVFblp0Y0RpdFh0bU1EdTNzQTNFTXRMdzZSX1JMTFRmM1ptTm9PcDBDSW5LNnlQUExGQWk1TGllalFySVNHbjFaMUNB?oc=5",
       "tickers": []
     },
     {
@@ -908,6 +939,22 @@
       "tickers": []
     },
     {
+      "id": "ddf961f65f55",
+      "time": "2026-10-24T18:38:46.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "CMPS Stock Climbs Toward 2-Year Highs – What’s Driving This Rally?",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM3ZyTGNNaGl5U1BJY295aUp6SjM4eUJPd3VxQWRIX0h3aWRocTJoem1OUlBFU0x0YlBzcG50SmZDcUdCNFdaYWRndlZscFBxX0dCcnp6NVNtLXdJR056RHc4a3hTY3NFUHAtSUxpUHZvUHZrVEJnZENEQ190RXVheDloaEtUUVFBNHkwcnU2Vk5fOTBYXzMwQ0h5dUlsMlJvOW0zX2t5QWpjSl9WMzE3VENTblQxeDdVU1E?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
       "id": "a94d6b603871",
       "time": "2026-10-24T17:29:29.000Z",
       "source": "TradingView",
@@ -939,7 +986,7 @@
     },
     {
       "id": "b88ebb58a24b",
-      "time": "2026-10-24T05:16:00.000Z",
+      "time": "2026-10-24T05:16:04.000Z",
       "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -1274,9 +1321,7 @@
       "impact": "LOW",
       "title": "Definium Therapeutics (NasdaqGS:DFTX) Stock Forecast & Analyst Predictions",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQV0VrMzNfT1FQa24wbjYyS1dBQzhDWGZ4TUFwTXdEWE1zbnExcURQekQtMEVCVVZnQmNXNFJHd05XTmNHYktnVF9QT195NWRpcXFsN3ZERkg5NXd6R2V4VG15Rk95RnpsTFFEOW8tbGxuR1hGTDhiaXVmRVhZTm5hZ0NsbFRvSmlwX2JTN01tQnJiYkZhY08tdUo2aGk?oc=5",
-      "tickers": [
-        "MNMD"
-      ]
+      "tickers": []
     },
     {
       "id": "f6b8dddde494",
@@ -1357,6 +1402,20 @@
       ]
     },
     {
+      "id": "5e46571a93bd",
+      "time": "2026-10-22T22:59:19.000Z",
+      "source": "The National Law Review",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psychedelics Move Toward the Mainstream: Lawyers’ Bird’s-Eye View from the Horizons Conference",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUGo1QkRuYnJ2ZlkwU1cxcjhvYXA1c1hSV1BNWS1jQ2I5dFdVaVB1V2dUa2xzRllYTTZwLXVldjM1RHZUS2hIazBJZkc2RDBnMk5WRjQ4SkhlYkNvNEgycXhRTzhwbmhIN3o0Vl9RdjB4NFMtWUw1Q0hIQTNfUWpjWFYtSFJoTkstU0ZQamI3ckN2WlFqZTlVYXBBa2dKendzaTlNd3FkS2xaS0hBVkpLZtIBtgFBVV95cUxOM0c1RUxJLUhXYmRKd3VMT08yUTFtSUFyMjdEbHFrZFF1SUtOSDhlekNfVjNTWFloQ1NkZWY4aUxKMVRKc0dUSW9lc2J6eWwyS0Zvb1ZMb2IyblJtM1VTSElRR0tMbDJucXZJcnh3Y3VGS0NRRzIzemE3dHhsUkFnRlN0OW12bDYxdW1FbkhEZk9DY1JYaWotWHdzVnVwWEJFeFl3TllNRUtEZ0hHRTJUZ2h0U1ZJUQ?oc=5",
+      "tickers": []
+    },
+    {
       "id": "7cc1783a9d75",
       "time": "2026-10-22T20:40:37.000Z",
       "source": "Left Voice",
@@ -1370,68 +1429,6 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWXc0cV9VMDNYOV9oYjg4LUowaGd3N2l4MkNGQ0ZrTHBVcmp3UmNoX3RrT0NnSUNCWE1xVmt3c0ExTWo1OFJUb3dKNDl0ek1zZ0dHSTVMTmhqTmFPSHAzcDZrclM0dE80Y2d6bk5FNTlBb0JHVi12bHFYelo0WnNzMjdhcW9ubnc?oc=5",
       "tickers": [
         "ATAI"
-      ]
-    },
-    {
-      "id": "7a680edc1d9c",
-      "time": "2026-10-22T20:05:00.000Z",
-      "source": "PR Newswire",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences Announces Publication in Orphanet Journal of Rare Diseases Advancing Understanding of Hyperphagia in Prader-Willi Syndrome",
-      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOdllscW9nTW8xY1EwRDBISml5NEFvLUZ4eW5nclIxdlpPNXZ6NjVjQUVSVzVDVVRMY01mMU1xS05Kc2ZZM3ZZZkFzbFlsNDJEVGVnOS04NWlWcE9oYzV4eHB6SHNTY09wSUJGOWFJMnNVT2NnSUxhQ2k5N0UwLVdEU0lLY1BRSG9oOUZBQVhJUk5mVlBDZTRUaVBaNDZSN2pIZ3VqMXpaLXRnYW1xWDZORi15NGlNN19OU0x0RkdjTkZub1IxUlpDNFRKaTNkNXR1OHdMalpxOGdLQ0luNW1rRENtVi1IeGZfX1ZwMURObDVzYWJFZzB0Y000Y0VSMENzODdYRmdJTWYyRnZ5QmROTWNQUXNpOHBtSXJHSmoyX2VPcnkzRXFGTA?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "26828913cd5e",
-      "time": "2026-10-22T19:15:53.000Z",
-      "source": "UC Santa Cruz - News",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "How psilocybin reshapes brain circuits",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51SHJqZkgxSEtYS1Jobm1lYU5XRjJiRnQwTG1ET1ZTd0doanZKMmVYUWNTLWNXT1Vjcl9vZlFMN0N5M2dITkdOR1ptY04tQjg5R1NSQTBsbmZDMlBHck1oMmV3X0ptY3dqVnZlNHR5RVpDWXFlNEFlTA?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "b5dd338c7195",
-      "time": "2026-10-22T18:48:46.000Z",
-      "source": "Simply Wall Street",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes (ALKS) Sleep Research Push Keeps Undervalued Narrative In Focus",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRnQxTzVoU0NvMGFhNkdrWlNpU3BoNUsyWjVTWndkYmpBRWprYW54Njk5anMwV0VVM2ZjRllpVU9nalM4WmxvaE9vR2lIbHY0TENjWXZMOHlod3luVDBWSC1HMVRhVG5UZGZ3a3FpaVd0WUg3OEY4Q0hxcnpfakpRX3RqLW5XbEFOWi1JYzZueGIyWm1fWlBPb0s4LWdtUmNRM1VVcG9TdzBaUXFLYWpMajdfMURsZk5BLXNVMzB1OWFzVFRaZGtEYWMtRlN4U1ctZ2k5VGRPdy1DQdIB3wFBVV95cUxPVkZqWGNPTEc4cFhWbkxCVkdVWEhEU0lFUkNGcVVPbTh0dFJad1lzcFpNSFdta1hiUE1GUWRRRnRmYWVMb3o2MTJSejJpZ1VJUzFLODlaVVFmdHB1d09tclZJZmtMZk8yMGJsRXVRRWhSNElON1hGNUJlM3lDT0dEVm9YTXJkY2VoY2hOR0s1aVFRLWlqMGhZdmNaRkVqU0hnakZFbGllZGE1OUdYVlBWLVJqVE1ncmdpZGgwY2EyNzdYTENsR1VybXVzQXBKZngwNXl3ZmJHTnBvSVJVVVpn?oc=5",
-      "tickers": [
-        "ALKS"
-      ]
-    },
-    {
-      "id": "4b83ee3ad54b",
-      "time": "2026-10-22T15:54:04.000Z",
-      "source": "MarketBeat",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin (NASDAQ:HELP) Stock Price Target Raised at Wells Fargo & Company",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSFhIa2JnUVpYNExqOEctZlU1c3RIWlhBalhaMlhFZVhUUFFRRXc4dkZtTjZFdXJKUTZWX19sempjUFhvN3BrMG9TOVlOMG1fRjNWa09URkQ4dmJPQ1JMSWVEUGVCakFHZkZNX2NHSk42c0FBY2ZxUVdSNVdIMlJlRHZTOERIdlBBZURnUUlOS3VHOVN1TmNpZXJFSXQzUlkzRUw1a2I5SHIxUE9la1JySG5HdldvOVFVeG9aTVdkWHRUU2NCTlIw?oc=5",
-      "tickers": [
-        "HELP"
       ]
     },
     {
