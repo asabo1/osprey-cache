@@ -1,197 +1,9 @@
 {
-  "updated": "2026-10-28T11:01:20.972Z",
+  "updated": "2026-10-29T11:19:33.623Z",
   "sources": {
     "portwatch": {
-      "ok": true,
-      "latest": {
-        "date": "2026-10-25",
-        "total": 2,
-        "tanker": 1,
-        "cargo": 1
-      },
-      "series": [
-        {
-          "date": "2026-09-26",
-          "total": 4,
-          "tanker": 1,
-          "cargo": 3
-        },
-        {
-          "date": "2026-09-27",
-          "total": 1,
-          "tanker": 1,
-          "cargo": 0
-        },
-        {
-          "date": "2026-09-28",
-          "total": 4,
-          "tanker": 2,
-          "cargo": 2
-        },
-        {
-          "date": "2026-09-29",
-          "total": 1,
-          "tanker": 0,
-          "cargo": 1
-        },
-        {
-          "date": "2026-09-30",
-          "total": 4,
-          "tanker": 4,
-          "cargo": 0
-        },
-        {
-          "date": "2026-10-01",
-          "total": 0,
-          "tanker": 0,
-          "cargo": 0
-        },
-        {
-          "date": "2026-10-02",
-          "total": 4,
-          "tanker": 0,
-          "cargo": 4
-        },
-        {
-          "date": "2026-10-03",
-          "total": 2,
-          "tanker": 0,
-          "cargo": 2
-        },
-        {
-          "date": "2026-10-04",
-          "total": 4,
-          "tanker": 0,
-          "cargo": 4
-        },
-        {
-          "date": "2026-10-05",
-          "total": 8,
-          "tanker": 1,
-          "cargo": 7
-        },
-        {
-          "date": "2026-10-06",
-          "total": 2,
-          "tanker": 1,
-          "cargo": 1
-        },
-        {
-          "date": "2026-10-07",
-          "total": 6,
-          "tanker": 1,
-          "cargo": 5
-        },
-        {
-          "date": "2026-10-08",
-          "total": 4,
-          "tanker": 0,
-          "cargo": 4
-        },
-        {
-          "date": "2026-10-09",
-          "total": 3,
-          "tanker": 0,
-          "cargo": 3
-        },
-        {
-          "date": "2026-10-10",
-          "total": 4,
-          "tanker": 0,
-          "cargo": 4
-        },
-        {
-          "date": "2026-10-11",
-          "total": 2,
-          "tanker": 1,
-          "cargo": 1
-        },
-        {
-          "date": "2026-10-12",
-          "total": 3,
-          "tanker": 0,
-          "cargo": 3
-        },
-        {
-          "date": "2026-10-13",
-          "total": 7,
-          "tanker": 0,
-          "cargo": 7
-        },
-        {
-          "date": "2026-10-14",
-          "total": 3,
-          "tanker": 0,
-          "cargo": 3
-        },
-        {
-          "date": "2026-10-15",
-          "total": 2,
-          "tanker": 1,
-          "cargo": 1
-        },
-        {
-          "date": "2026-10-16",
-          "total": 7,
-          "tanker": 1,
-          "cargo": 6
-        },
-        {
-          "date": "2026-10-17",
-          "total": 0,
-          "tanker": 0,
-          "cargo": 0
-        },
-        {
-          "date": "2026-10-18",
-          "total": 4,
-          "tanker": 2,
-          "cargo": 2
-        },
-        {
-          "date": "2026-10-19",
-          "total": 4,
-          "tanker": 1,
-          "cargo": 3
-        },
-        {
-          "date": "2026-10-20",
-          "total": 3,
-          "tanker": 1,
-          "cargo": 2
-        },
-        {
-          "date": "2026-10-21",
-          "total": 3,
-          "tanker": 0,
-          "cargo": 3
-        },
-        {
-          "date": "2026-10-22",
-          "total": 4,
-          "tanker": 1,
-          "cargo": 3
-        },
-        {
-          "date": "2026-10-23",
-          "total": 5,
-          "tanker": 1,
-          "cargo": 4
-        },
-        {
-          "date": "2026-10-24",
-          "total": 2,
-          "tanker": 1,
-          "cargo": 1
-        },
-        {
-          "date": "2026-10-25",
-          "total": 2,
-          "tanker": 1,
-          "cargo": 1
-        }
-      ],
-      "lag_days": 3
+      "ok": false,
+      "error": "Request timed out after 10000ms"
     },
     "nga": {
       "ok": false,
@@ -405,17 +217,17 @@
     "adsb": {
       "ok": true,
       "sample": {
-        "total": 112,
-        "military": 3,
+        "total": 129,
+        "military": 6,
         "mil_method": "dbFlags_bit1",
         "types": {
-          "B77W": 14,
-          "A320": 12,
-          "unknown": 12,
+          "A320": 17,
+          "B77W": 11,
+          "B38M": 11,
           "TWR": 11,
           "B789": 9
         },
-        "observed": "2026-10-28T11:01:20.923Z"
+        "observed": "2026-10-29T11:19:24.103Z"
       }
     }
   }
