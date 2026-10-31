@@ -1,25 +1,28 @@
 {
-  "updated": "2026-10-31T02:39:39.584Z",
+  "updated": "2026-10-31T08:57:50.416Z",
   "counts": {
     "total": 91,
-    "crit": 5,
+    "crit": 6,
     "warn": 8,
     "bySource": {
+      "Yahoo Finance": 3,
+      "Investing.com Australia": 1,
+      "UA.NEWS": 1,
       "freeyork": 1,
+      "Grunge": 1,
       "Hindustan Times": 1,
       "Earmilk": 1,
-      "Grunge": 1,
+      "TipRanks": 2,
       "TradingView": 7,
       "Investing.com": 4,
       "Investing.com Canada": 1,
-      "Stock Titan": 3,
-      "Yahoo! Finance Canada": 5,
+      "Stock Titan": 4,
       "Gizmodo": 1,
       "NZ Herald": 1,
       "Glide Magazine": 1,
       "Popular Science": 1,
       "404 Media": 1,
-      "Medical Xpress": 1,
+      "Medical Xpress": 2,
       "PetaPixel": 1,
       "Yahoo Health": 2,
       "Female First": 1,
@@ -31,9 +34,10 @@
       "Psychiatric Times": 2,
       "StocksToTrade": 2,
       "PR Newswire": 1,
+      "Yahoo! Finance Canada": 5,
       "High Times Magazine": 1,
       "BioSpace": 1,
-      "Simply Wall St": 3,
+      "Simply Wall St": 2,
       "Psychedelic Alpha": 1,
       "UpToHear": 1,
       "citybiz": 1,
@@ -44,8 +48,8 @@
       "Intelligent Living": 1,
       "Genetic Literacy Project": 1,
       "Law360": 1,
-      "RouteNote": 1,
       "Scienceline": 1,
+      "Stocktwits": 1,
       "The People's Pharmacy": 1,
       "Rolling Stone Australia": 1,
       "TheDailyNewsOnline.com": 1,
@@ -53,21 +57,14 @@
       "Los Angeles Times": 1,
       "Traders Union": 1,
       "Business Wire": 1,
-      "Yahoo Finance": 2,
       "Seeking Alpha": 1,
       "The Indian Practitioner": 1,
-      "TipRanks": 1,
       "PopMatters": 1,
       "RTTNews": 1,
       "IFLScience": 1,
       "The Clinical Trial Vanguard": 1,
       "SciTechDaily": 1,
       "News18": 1,
-      "Stocktwits": 1,
-      "People.com": 1,
-      "Yahoo Finance Australia": 1,
-      "Yahoo": 1,
-      "greatreporter": 1,
       "FDA": 1
     },
     "byTier": {
@@ -76,6 +73,52 @@
     }
   },
   "items": [
+    {
+      "id": "3f2f432f2c06",
+      "time": "2026-10-31T06:15:40.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Alkermes (ALKS) Starts Phase 2 MDD Trial, Is The Upside Already Priced In?",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT2dMb3QxdWhvWHA0SXd0SERGN2FmM1ZTcEUyeW1uQ3Zqa0szazNWWVo1TEtZYkZWM3J6VkdrN0xRX1BLbzlKTGFWOTZBdG5admVhRmtHWDFWbXpCYVQxZjhFdUhmNHVxeXJYUTA4d0lsSkVhdG8xcW9RMHFIeGs5THltV0ZaS1F3eEhnOGRxbHliS3c?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "1167af2b6120",
+      "time": "2026-10-31T05:37:57.000Z",
+      "source": "Investing.com Australia",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Form 144 NEUROCRINE BIOSCIENCES For: 31 October By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWhISlI5QVJBVGUwMWd0UHZoSkYxb0gyWHlGaUxnVlNQM29CR1ZhYTRDYk9QUGVINEMxbEtHTXR6WDdFX3ROUGJZU3UyYTczUG5nSjA0RE05cGhfYzl3RUhta004TTI0NjFienR6SzZRdl9EQzhxR2NQTTItZ0pBVmdwOFZERzRCaVJ1N2FPSWdfWW4zWjI3U01nMXhvdlV2aWk0bTl2bXh0NzA?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
+      "id": "cb4fddcd4652",
+      "time": "2026-10-31T03:48:03.000Z",
+      "source": "UA.NEWS",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Science Advances study analyzes 25,419 psychedelic support calls",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVFZWME8zRmFzLXMzODNiWlRvQS1STzNocUJrd2IxWHFTajNTUG1UMzRfSUNqMzI1SkpNRkVNM2VLRW5LY2ZsSUladmZFV0FSZ2w4U29ROExhNUh0eC1KcXZUWmJSeW1RQS02Q3J4YzQwdkxXQ1hqazBIZEk2OWU5OU1pTVQ0UUlyc0Vsa0RoTjIxYnBzam1SVVlzc0h3QzNiM1hXdjdneGk1bmJoR25yTkJabVotaFE?oc=5",
+      "tickers": []
+    },
     {
       "id": "d091dc91a171",
       "time": "2026-10-31T02:00:16.000Z",
@@ -88,6 +131,20 @@
       "impact": "LOW",
       "title": "Dive into the World of Psychedelic Blues: Unique Film Artistry with Unpredictable Effects",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0S2dNWmx0Vnh6ZURXSGs3UWhXVE9pUmpMZTYyV2pwSmd4UHR1YnR1UGJEci1qZ1JoUmJZR2U3SmVwbzBMbGNLUE1hWjVDNlI2UDE3c0dRc0N4ZzAybVNJQjFJOVdFdDMtdXh1WHNxQ2hUSlRJQWc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "f908375e4eae",
+      "time": "2026-10-31T01:37:00.000Z",
+      "source": "Grunge",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "The 5 Best One-Hit Wonders Of Psychedelic Rock",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yYmJiR3k4M0dlbThjcVlhVXdjZms3dktIQXh1Yl91Q090akVDeDJBMVp5YXBoZk9SbWpsWVJlWEtMWHFoWEptXzdyN2NMTEU3ZFBfZ0ZlVWt0UU5kOGlIb2RmNEFOX3BteVZUOUhTSGN3aTh2R0EyUw?oc=5",
       "tickers": []
     },
     {
@@ -108,7 +165,7 @@
     },
     {
       "id": "301c4ce54c0d",
-      "time": "2026-10-31T00:56:17.000Z",
+      "time": "2026-10-31T01:20:35.000Z",
       "source": "Earmilk",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -121,18 +178,20 @@
       "tickers": []
     },
     {
-      "id": "f908375e4eae",
-      "time": "2026-10-31T00:48:16.000Z",
-      "source": "Grunge",
+      "id": "29eedacbf9ef",
+      "time": "2026-10-30T21:49:55.000Z",
+      "source": "TipRanks",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "The 5 Best One-Hit Wonders Of Psychedelic Rock",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yYmJiR3k4M0dlbThjcVlhVXdjZms3dktIQXh1Yl91Q090akVDeDJBMVp5YXBoZk9SbWpsWVJlWEtMWHFoWEptXzdyN2NMTEU3ZFBfZ0ZlVWt0UU5kOGlIb2RmNEFOX3BteVZUOUhTSGN3aTh2R0EyUw?oc=5",
-      "tickers": []
+      "title": "VistaGen Therapeutics Announces Significant Workforce Restructuring Initiative",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONXRWZWlzM0RDaHhHM1NKRzZuRHExN0tjZGtrZGZUWGlweDc4Tjc4RFBCMVBNSkM5eUdfZHpkeS1rejdjc0NWWmszSjJkTkRRem9tZExmckdjYzUxb2dNTWhZR2lPQ2QzcTFyRXphbFdnazM0LXZHRWxfbUt0YlVNaXFmU0ZqdTZOTzhYbzVUdG9DblhFQ25HSExjb1FKeEFIa3YyN1ExVFg2UjM5bG44T21WU0FQdDdHb19mdF9EbVZ1RDMzZ052T1dB?oc=5",
+      "tickers": [
+        "VTGN"
+      ]
     },
     {
       "id": "e7034520c6d8",
@@ -244,22 +303,6 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYlZ6NXVuVjRZT0JiaVMyS2JqSWJ5RmxILXJVc0ZNVkpfU0Z6eG40eGR6bGNjeDRDdHBXMGZYampacVZuYVNzcEl3c2lKc3pZTjdjcVo0bkdmM0NGXzVGQUFRSGNSMDQ3MnRJbEM2NG5CUEZ6MDBUbF9LSERTbEhPdjZtTmZJbU5fRHRXLVZwOElaTlJ3Vkd1TGtGOHRCQ2NzY0JFXzBB?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "822c6ec980d9",
-      "time": "2026-10-30T20:20:38.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics, Inc. (DFTX) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tVEpGelRENGFNRjdVOWJRdmRKSHZFOXZlcnY3LTdlZHFFY3hrRW0wcWpEOF92blFZZjBabHVSbHd2VDAwMWdHWFBJMlVXN0pMX3c?oc=5",
-      "tickers": [
-        "MNMD"
       ]
     },
     {
@@ -483,7 +526,7 @@
       ]
     },
     {
-      "id": "580f06ab6301",
+      "id": "17e19d3f25c4",
       "time": "2026-10-30T14:14:47.000Z",
       "source": "TradingView",
       "sourceKind": "gnews",
@@ -493,7 +536,7 @@
       "direction": "BULL",
       "impact": "HIGH",
       "title": "NRx Pharmaceuticals Wins FDA Approval for Preservative-Free Ketamine Injection",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMURReFo1QnJTZjVlenU4eGNsUkJRRFg2UE9ibFcyM2s4eTFDMkxlQVVpeDJRX2dzSFlHSmtMeDltc0h4MXZMQjlhcjVyb2wzRG1JME82ejVCWUpxdGoyR0thWXVFaFFSWXJQa1BVZWNaTVNBUXU3RUh6ZFNST0ZOdm9DWGY5ZXZHcnp4QW1IaTlZbWM0bEZFVmlEbjhDRVdiS2xxTWZzcjBwZXlreVBISy1BODNvcHBhN2NPMWJEcDJvTEM1QXBSLUFHdlVmV1RjRUVtMjV3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUXUyMDhweFhiaUtBTkhfTmNqMU0tWUMtSnNNZnZManowQzFDOVFxLW16ZFRhaF9EWXVnQzBSNzByVkZzYV9VQkE4VUR0WmFjU3NreE5hQU1ucXQ3c3ZhcDkzTzNDYUNGQTlrd3REWUFESHlPZUhBbHp0aExka1hFWDRZYWpzandfSzhJR0hEd0hQa283VGlXYzBGSXp5WFN4YzRnUGswYV9ObnRybXdQQW9TSlhUWUR2aG1mUEpXSWxKNzNJblNhYWZvZXpRZ1A0NkN2eA?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -558,6 +601,22 @@
       "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOeXE2YXl2UE9XUFVla0VoSXc3b0xQMlpQRi14ZF9ZNVdYQ2puQUltZVRKUTlwVWxQdGpCQl9FaVVZdEg1aXJPV2RyOFhEZVFEMldOanBLV1BOSmpsU0ZsbVN4dFNtUldwZzRiTGFjNEVjQjBZVlVnLVN2WE9GNXdabGpKLUdma0k3MEh4cnMwSmdZa1BKU09ld1M0MjdmSlNnR2NzcEE3X2RwRUVRcm9tWW9iTkc1OE1HV3c1c0trbTd4NVlnNVhibHJjazJuLUV3NHd5WnNvdzdyM09hbjBLSFhmTE9lSEdrSGJDUkEzRUhMX0hTRnB3NUtRYWtWdFR4ZlYzM3pSZ2htUTE0aTNLOE9WQXNKWmZiY2lyMA?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "56c34586cae6",
+      "time": "2026-10-30T13:22:42.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes plc (ALKS) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uUlVBczRXQWtkQ2NnOC1nRENXRy1wSTBfNVUzNUZSanlNNVUzS2Q1OFNKRDJvak05bzFWeXhzVFppdlAzR1V0cVRQa0hHLUVRR3c?oc=5",
+      "tickers": [
+        "ALKS"
       ]
     },
     {
@@ -780,6 +839,22 @@
       ]
     },
     {
+      "id": "d812c9e0ebf5",
+      "time": "2026-10-30T11:24:24.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRx Pharmaceuticals, Inc. (NRXP) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vcV92OW1CeHY3b1BCNHhGSTZkbVh1X0pfeFE1YjJaWHJqYlVvUFBRSFprQ2xNRkZwV3lRb3R1ZlVQMTRsc0dRRFlXMHFvVkF4Rnc?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
       "id": "0c6e56be3e8e",
       "time": "2026-10-30T11:15:03.000Z",
       "source": "Pluang",
@@ -791,6 +866,22 @@
       "impact": "LOW",
       "title": "FDA approves preservative-free ketamine by NRx Pharmaceuticals ahead of deadline",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3VDVm9VTFBvclhWTDVJdExNZUhuazkwQjBCLTFjdjdTaWN1dW93Q2Rzb19IM2xBOUhyYmlNU3JYcS1TSi1WbnZXZ0lYNUdxWm9BTjJPWDFsc0I1OW5PeXNLMEVJTks0Q2NKaVFPakw5MVh0d3RDQ1BmLU1iTGF3WnU4dFZDdjExVlRsYUxqLVI1WWFy?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "ee3b23ad422a",
+      "time": "2026-10-30T11:00:00.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "The FDA approved ketamine without a preservative found in every currently available ketamine injection.",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVUlfQXRwNEY1TnRfZzI5aGpVN3MxYllIOTlRTGlmUHk0dTJFVTJHQlFpN2RMVTZpVmFyYVBQV3FialpxR1NOeU0tdEd3Ry1EaEZyaVZ4TWZrNmVGdnJvTGhndGR5ZEhEZnhGUDg3TW9kLW5HNEpMX0xKaGZ4UUZVa09lNEw1QU40Q0lQdFJ4NTQ0bHg3Wk9xUFdkUTlRdWJPVzBQY0JnUllzZEFIQllGaHJB?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -856,6 +947,22 @@
       ]
     },
     {
+      "id": "7b4d60e3135f",
+      "time": "2026-10-30T05:23:32.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Neurocrine Biosciences, Inc. (NBIX) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XbHpKS3ljOURKWXNNX1c4cFRIYkhSeko4RXJWUXRzMC1uSGQtWkhaclh1MlJDZnJOa1FmTTkwVjJOcENib19QMVRLTmZfbE1DTXc?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
+    },
+    {
       "id": "bc7f998a9599",
       "time": "2026-10-30T04:43:46.000Z",
       "source": "Psychiatric Times",
@@ -898,36 +1005,6 @@
       "tickers": []
     },
     {
-      "id": "6fe610f91969",
-      "time": "2026-10-30T02:08:00.000Z",
-      "source": "RouteNote",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Who Originally Sang “Season of the Witch”? Before Lana Del Rey",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQllIM2JFUGVrWHFSSnhnOC1reDhzS0E0MlhiR0VsT280a05JUk9FaER6QTJMQ01ONk9Wcld3Q1JDeEQxTDBjSWlBN1hCbHZYbmZ1c3BqRXpRVDgtUG9wTnZhNXJMT29IZnFGQ1FpTmxPSzRiN29GQ3ZnSzROTGE1R3ppY01uTVdNZ29ZRXFpOVEzQQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "d812c9e0ebf5",
-      "time": "2026-10-30T01:51:54.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "NRx Pharmaceuticals, Inc. (NRXP) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vcV92OW1CeHY3b1BCNHhGSTZkbVh1X0pfeFE1YjJaWHJqYlVvUFBRSFprQ2xNRkZwV3lRb3R1ZlVQMTRsc0dRRFlXMHFvVkF4Rnc?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
       "id": "dcc86942a22d",
       "time": "2026-10-30T00:58:39.000Z",
       "source": "Scienceline",
@@ -955,6 +1032,23 @@
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHh1U2FPNmFiaTNyd0NkM3VYR1I5VWp3V2hKNzN5RTRPUVhvOHB3bzRGTldfVTZtWC1uSGdFYWVwb3RxdURIOTRUOVRMdlBzZXcta0JBUlZMQXZDVlYtRVFTbWpoTTU3ZkEzYTZEcGQ5WDJkNGh6Rkx0MEZOdlZhQVBwY3dGSVZQOWZ1N21odndHbTFob0cyOWV2WW94VzI3YWx6QkNxdi0wS0dwaUFpZXcyLTUzVFpo?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "cfafc11bfd4a",
+      "time": "2026-10-30T00:02:34.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "CMPS Stock Climbs After-Hours: Analyst Sees Depression Drug Approval By H1 2027 Or Sooner After Strong Trial Data",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN3p0UWVmSEZvcHA3aW5MbkhUdDlDbTYxRFRMXzZZdmpwREJsS2RDQzhEd2kzZ0gwWXBiaHUyQTF4dnhfOGtFQmU2YXhNUHNLODNfc0lxYjZKT0toQVd1enZQTGxjbjNxbVNWYmRISnlIeHhOVmV0UlYwUm1rNmhpUnJnTkNoLVQ2aUVTNnFuWUlMenJ6MlhWSXVWM0RYb09XcldGcHZ5TGI5X053M09fSzJiTGZHQzg?oc=5",
+      "tickers": [
+        "CMPS",
+        "DRUG"
       ]
     },
     {
@@ -999,6 +1093,20 @@
       "impact": "LOW",
       "title": "Tame Impala Put a Psychedelic Spin on Seal’s ‘Kiss From a Rose’ for Like a Version",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVS1TUnZCVEh4cEpiVUk3aHdkeUxJb2lhY042cGpNY09rdjdmVU13MW9ZZFFkT2FmbGRXYmlmX3dmZE9FUDVyWEJZUGt4aC1nNHUwbE1qQ3FzSWRtNTRCLWNUNnNfV1VjZ0I4RlVSV0NWVjJ3a2U4cmpfVUlOejV5dkxkU0d6NV9wZllQTjVJWjlxTUJ2MnBXTG8za1dfNTVDcmVMVjJXQkRyV1FvMlNqdlpGTXE4TU5HVEt3REJvallnTFFjbm5SWXZmWkM?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "4ca418bf4933",
+      "time": "2026-10-29T22:00:10.000Z",
+      "source": "Medical Xpress",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "How psychedelics could deliver antidepressant benefits without hallucinogenic effects",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYzZxemg3YTUzUWpZckFDX05qTHB2MU9oUV8wRWtNel9vS0g5SGNvejhzMDc1VkswRWR0b1pqNWs1RmZPU2NYRnJTNUtKR2tKT09NZ0FuUkQ2VEdpOGE3VEpJUFQxNlBMNDJRdmRsQUk0LThQMmZYMGJmQWpMWWVIVTY1RURqMjZVUUJoN3BNWUNRaWdTSUFPVlVWTW5UYy1lUmFoeXN3?oc=5",
       "tickers": []
     },
     {
@@ -1333,112 +1441,6 @@
       "tickers": [
         "ALKS"
       ]
-    },
-    {
-      "id": "eaeca504cfe8",
-      "time": "2026-10-29T03:48:30.000Z",
-      "source": "Simply Wall St",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "COMPASS Pathways (CMPS) Draws Focus At NEI Congress As Undervalued View Holds",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPay05OUVnRUpSS2IzTEFWWnZPaG1PZFowbzZHeW1zb1g4VE9DNmlMS01zTlNweWc4YlJ3Z0I2dWIyQW5pSkVNaFN6ODJKU3k3djlWeDduT3JtSWNQVEpfMmtVSkw5ZEtWbUxlMHc4ZGZPSG9sZXNzSXU5NTRsbzBWLWZ4UjJRb0VBZnZQd0hSd1RUNHJ0UGkwbF9NdG5aYmhjVGtoem5ncDNOLTNQMFpFMjlmOXItUEdhQ2lNQm5xTW5UeHd3NWNPbHlYYk1VWVNxc0hxT0stazFzMlZzLWdoYjh1c3PSAeoBQVVfeXFMTnA2VXdNNU54ZEtqaDZKWXhyOUFEM0JiUmhydFZmcC1BTU9IM25IcnBUelY4dFRueUJWelZRbTF5ZTVJQkRJdXdIalA1cGxqa1pMLUowQUpySDRQVFpwMDBYMW9fTWtyLTJyWU84MVNidEF4WmVKSlBEZlcyY3l6U1M0YTJoYURTR0Z1bXR0MnY4TmVRenc0dHVNWXpWZmJKOHdoZnNGNWh3a0MtZkk3MTNaYTZVRzVDNzdyenRDOTVjNTU1bDE2OW85LWwwWUJFV0s1cm9XMWdVZHh5c09HNXpvTlhERGpnUWZB?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "01c1c214588e",
-      "time": "2026-10-29T00:12:17.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "DFTX Vs CMPS: Which Stock Has More Upside From Trump’s New Psychedelic Therapy Push?",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ2tKT2FBODN0eXlWZHhOYjBHRmhQdzNDM1dJZkpibWFPZ1lBcXpWcnptTi1iVE4xSFpRMmE0RWZnSkhJVl9DNDROOWNfcjZ1NTdrb24wYllWTkFNMGpfQTRFeWVnY0x2UGwySFFhOWdPOVNrMWhxWC1RWXRqbGozY192cjZ1N1JBNzdzRGZKYXJkeWVoLS1HZjVENTF0YzJBWVlqM2FFSUt2WVNkRFBrUDhBWVU?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "93a339b1ffb3",
-      "time": "2026-10-28T23:39:32.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin D/B/A Helus Pharma (HELP) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qZHZCQk1PZ0hMdjgwc19PY1R2OV9MQnVjOUQxcy00TjRDTHg0OVJNakpIWHl0MzZjYkhNZmRRVG5XUzUtS1dLck9XV2JGeFNKbVE?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "6f7325a8356c",
-      "time": "2026-10-28T21:49:07.000Z",
-      "source": "People.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "‘Jersey Shore’ Star Ronnie Ortiz-Magro Credits Psychedelic Ibogaine for 4 Months of Sobriety",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPYllhVUpIcXdJU1BKWlZaMXBiaVpvOUhldkstX1RDZW91Um43UGJCOXY2dDk5U1hEOTRTcUdaZDNaay1ZeEIyTDZXbENXZTBTdVVZTEhyYzRDQk93eF9TdUVjOTJTcXBXX0VZamhicUpENWpuZDVXcWR4WWxhZHJwbjFxM2d6UFZCLTc4cFBrQ0JSdms?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "216a5e7c3530",
-      "time": "2026-10-28T20:59:51.000Z",
-      "source": "Yahoo Finance Australia",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Neurocrine Biosciences, Inc. (NBIX) stock price, news, quote and history",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MTVV0Ykd0RU5Gb0tNb2NaNHVkRXVjVjJ2UTE4Y1UtXzR1UHRJcW9JTTZyZmhnTHMtb0ZPZ0w1OGdIYUdvektpSmR1TXA4X1k0dmc?oc=5",
-      "tickers": [
-        "NBIX"
-      ]
-    },
-    {
-      "id": "075768e7efb5",
-      "time": "2026-10-28T20:30:00.000Z",
-      "source": "Yahoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Nike Ja 4 'Radar': Where to Buy Ja Morant's Psychedelic Sneaker",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVFRLbVVpSGF3akhLYjQxYmVWY2lKUkt1ek5DODVtcWI1di1fWlhqQWY0NEdBdUJHWkNaOUw0R0NtTTYyb3ZmOWNjdnlsbnJJd0RHOXhrNTdUQ1hoUlh6aHJjQl9DQnQyZGJqWU5YVWpkQThzcE1nV1FRT0VVSl96aDY4akdDZ0hKTUZpcA?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "fb3c906c031f",
-      "time": "2026-10-28T17:28:16.000Z",
-      "source": "greatreporter",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Scientists Launch Legal Challenge to DEA's Proposed Psychedelic Scheduling, Which Would Criminalize Research Compounds and Jeopardize FDA Breakthrough Therapy for Postpartum Depression",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcjRzb1hFZ1dOblB6RGg2bk9NeENnMDNvdUdqUmR3MzYzQ3RnTkt5d2g2cW84MWZYSU8ya2pqb29iZlpvdUtTaUlaUFE4LUFKYVVrV2VNTXp4eHBNOEFjbW1PRWQwNnBpejRac01EcXBHVnlYc0RtN2pueENNN3YtdGh6dmlWSm1hRzloajBmak5ocnZJNFJsdDBVdlBGYzRqYUEzRWNlUTl6bE92dWZjTTVoWndWN2Nn?oc=5",
-      "tickers": []
     },
     {
       "id": "4cc6fa18388c",
