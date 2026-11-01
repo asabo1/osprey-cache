@@ -1,10 +1,12 @@
 {
-  "updated": "2026-11-01T01:31:42.222Z",
+  "updated": "2026-11-01T08:02:45.983Z",
   "counts": {
     "total": 91,
-    "crit": 6,
+    "crit": 7,
     "warn": 8,
     "bySource": {
+      "Ynetnews": 1,
+      "Stocktwits": 3,
       "New York Post": 1,
       "Dealroom": 1,
       "Timothy Sykes": 1,
@@ -12,31 +14,29 @@
       "Yahoo Finance UK": 1,
       "PsyPost": 1,
       "Simply Wall St": 2,
-      "Yahoo! Finance Canada": 7,
-      "Yahoo Finance": 2,
-      "Investing.com UK": 1,
+      "Yahoo! Finance Canada": 8,
+      "Yahoo Finance": 3,
+      "Investing.com Nigeria": 1,
       "UA.NEWS": 1,
       "freeyork": 1,
       "Grunge": 1,
       "Hindustan Times": 1,
       "Earmilk": 1,
       "Investing.com Australia": 1,
-      "TipRanks": 2,
-      "TradingView": 6,
+      "TipRanks": 1,
+      "TradingView": 7,
       "Investing.com Canada": 1,
-      "Stock Titan": 3,
+      "Stock Titan": 4,
       "Gizmodo": 1,
       "NZ Herald": 1,
-      "Glide Magazine": 1,
       "Popular Science": 1,
       "404 Media": 1,
-      "Medical Xpress": 2,
+      "Medical Xpress": 1,
       "PetaPixel": 1,
       "The Business Journals": 1,
       "Female First": 1,
       "Dr. Axe": 1,
       "The Microdose": 1,
-      "01net": 1,
       "PRLog": 1,
       "ad-hoc-news.de": 2,
       "Psychiatric Times": 2,
@@ -46,18 +46,14 @@
       "BioSpace": 1,
       "Psychedelic Alpha": 1,
       "citybiz": 1,
-      "TOKENPOST": 1,
       "Investing.com": 3,
-      "Benzinga": 2,
       "Pluang": 3,
       "www.marketscreener.com": 1,
       "kalkine.ca": 3,
       "Yahoo Health": 1,
-      "Intelligent Living": 1,
       "Genetic Literacy Project": 1,
       "Law360": 1,
       "Scienceline": 1,
-      "Stocktwits": 1,
       "The People's Pharmacy": 1,
       "Rolling Stone Australia": 1,
       "TheDailyNewsOnline.com": 1,
@@ -68,6 +64,7 @@
       "Seeking Alpha": 1,
       "The Indian Practitioner": 1,
       "RTTNews": 1,
+      "IFLScience": 1,
       "FDA": 1
     },
     "byTier": {
@@ -76,6 +73,52 @@
     }
   },
   "items": [
+    {
+      "id": "f304f045ea70",
+      "time": "2026-11-01T05:37:41.000Z",
+      "source": "Ynetnews",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "One dose of psychedelic nasal spray eased depression for eight weeks, study finds",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aaHdBeURYZTJKdy1GaHlNLUM2TGdPN2ZUaW9Bd0x2dlNUTDEtUWFWMWliTVk0b2pqM3l3MHliQ2RWZml3OXJRMHZzU2M3Y2MzSUtvOFUtZTI1Q3VFYXZlRE9JN2lRYVF6ZHc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "c9f1739564ba",
+      "time": "2026-10-31T20:49:59.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "ATAI Stock Slips After Blockbuster Week: Cathie Wood Calls $3.8B Lilly Deal ‘Well-Deserved’ Return For Shareholders",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWHQxenNBSy02MzZSdVB3S2w5SVRMb2oyX2NFdjNJakJfYndHOXhaTm04cG5ldWNrY0NuX3JiaWJQMllIbE0ySWdrVnlNY3ppcU1tc0pjM3FXb0RaV1pscmdraVFTX1Y1LThQVFdPeE9saEJvSmRTT3BVaTdOTHI1OGxZSE5FY3NaX2tCUmlkLW91UUR6UU9TbU9aRUpzV1lmNHFmRXJ2VUVpVnNESk5tMnVKcGFhYnAtTmtYYmcwQkhheXM?oc=5",
+      "tickers": [
+        "ATAI"
+      ]
+    },
+    {
+      "id": "3a2c9b4fa130",
+      "time": "2026-10-31T20:16:20.000Z",
+      "source": "Stocktwits",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "CMPS Stock Rallies On Launch-Prep Push Ahead Of FDA Psychedelics Hearing",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY09vTlV0UVRrbzU4VUkwUG9vOXZERkZVSVp4TVM5MXNnUVpoYUdQRlJiTnZkSmdFaEE5a1g2b0xlMFJYZXhCM2RuZ2tfZ2cyYmlRRnFtWWt3TGF2aGdWU2N3RTZ0MFhoMWNucE9RcjIxWk9jRDI3ZFY4dTFyRWpJREQtWllXQ0E0ZnRNTmFzNENESHYzcVZOclZ5YTVpQ3BKZHdWSVd1Mzl1OVFMUk4tQl9JejFNNHFya2lvckE5V2VmMFNyVUVuOEdKU2RzMldCN0E?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
     {
       "id": "d2d123590a05",
       "time": "2026-10-31T17:07:00.000Z",
@@ -215,6 +258,22 @@
       ]
     },
     {
+      "id": "de4f5575e928",
+      "time": "2026-10-31T08:01:08.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics, Inc. (DFTX) Seasonal Returns Chart - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xSDVUN2JqQnBRazBTQVFLdkF0Q25femNHM3dxb0t2N2ZybDhRang5NWswY3ZtTjlTT0xjR21pVy1yNi14a1Blc2FyelphemU5WFNuYThsSURjUE5Zc3hfbVZR?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
       "id": "d812c9e0ebf5",
       "time": "2026-10-31T07:45:23.000Z",
       "source": "Yahoo! Finance Canada",
@@ -247,9 +306,9 @@
       ]
     },
     {
-      "id": "f33bd125c5ca",
-      "time": "2026-10-31T05:32:00.000Z",
-      "source": "Investing.com UK",
+      "id": "b2ecfa6cacbc",
+      "time": "2026-10-31T05:38:56.000Z",
+      "source": "Investing.com Nigeria",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -257,7 +316,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Form 144 NEUROCRINE BIOSCIENCES For: 31 October By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN3RFLU1jaDJfRXE5LXAyMlkxVlNfTlRIR21fTXBhYXhYMmNwcEZyX1VGOWhkcjY3aVRadzFMV2dtZUpVWW1JSF9SZ1BLWmpSdWVLTm1CUmZ5Qm5OYy14MU5NVXQzd0RCdnVqd0xOUzR3Q3FScTNLaFRscVlxdDBMLUl0R1R1T1E5WTZHZjl1N3NnSmdKR2dwWDk2N044NmZQZHRHaUFiZFVxelU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcFJuZVpIMEt4cmhVMUhaNlNDS1luTVV1Q0VDTzVQT29Ta3BuS1ZYaWxoWVdhVFM4YjdvbGVFYkRYcTg5Rl9wTll6WVh6eTBWT1dEM2RPcmRUZTF0RktjRTRvUzFSdHYwSHpiYmJOM1lBNm0zT25Pc1VyNEtnUFkydENtU2dud1gyVWE4b1J6cml0RW5zSmk0d1Y4bU5xZDdUck9JN0V3WTVHLTQ?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -431,6 +490,22 @@
       ]
     },
     {
+      "id": "e687467f6016",
+      "time": "2026-10-30T21:30:11.000Z",
+      "source": "TradingView",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Book value per share of Alkermes Public Limited Company – DUS:8AK",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcE1tR2MtMzg3VTVoNUg2NDNvWWpsd3hWeGNUQWRIN1VoNUo4dUdkOHZ1V3hFTjJ4Q0pJZ1AzdXBiV0VGSUNTZW13bHV0cU1ueVN4TFpKZlVRZUFiT2FIZ0J5ZVJRQTFRSjFmS3duQXpIZTVjeHRpX3hvMVZGcVlaQjFxNXpqdERzTlc3dGRkOXJhYUZDeTZWOGlPcnJ3U1E?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
       "id": "ac7231e87def",
       "time": "2026-10-30T21:24:43.000Z",
       "source": "Stock Titan",
@@ -444,22 +519,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTnFUWXpRNENqWWgwUlc1ZW5SMFBsamN0T2JEcmpOdHpKX29LdF9ScHQxU28xQS1tLWoyZkNzcnJzMDdKeTFwTGpkdzRja3JuVDFod1R0eUQtNmVVWDRGeFhDdlh5eEVPN1l0NXhJUm5SNTc1NTlvOVF0R2g2RmhBTUpKRk80dko4eXJrNFlOTzNsRllIdkk4RHVYX3d6dXZWQmFoaExocjNoQVV6bllFNkUyTmQ?oc=5",
       "tickers": [
         "VTGN"
-      ]
-    },
-    {
-      "id": "3f0ccdeaacb7",
-      "time": "2026-10-30T20:28:39.000Z",
-      "source": "TradingView",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Long term debt to total assets ratio of Alkermes Public Limited Company – DUS:8AK",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaWRkMzBDVVdpeElTRld0NGc5YmtCZV9fU2U2VzlaUEg0cjJKSFcxRUZpTGk3R2xReGRMVV8zUG9HR3l3R25vdlcwbkpnT3U4TTBhd1M0Nk1DTWhUTGNhYV8xeEhuc3pJX3RqWXBoTUJicmhuWjdtTkItZFZFVUxtcU9lU2d1TG41TjZyUW5KOUlKazZyTHhMaU1tSTU0S3BWb0RUOA?oc=5",
-      "tickers": [
-        "ALKS"
       ]
     },
     {
@@ -504,20 +563,6 @@
       "impact": "LOW",
       "title": "The Kiwi doctor who gives MDMA to dying strangers",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmltTXVDMG5HVUppa2E4M3dIV3dObzBVSHRQcy1qQVMzVWtUZHYtRUlPN1dmeXo1aFRlcEVRODRPb3dsdHl2cnFpX29XVHV0Z0dMS0JtTnQwMWlLTHdMYjFVNWowSkpJR0M4bW5yZGFyTndiWk1TZXlFdzd4Uzc5NW5LS3RLLVF3Q2JVM2dyZU5hYTZfQVlwQVJySU9MOTc1Y0djNF9oS2lQRlIzeFlkaDh6MDhocm50VE92cF9waw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "6c9b777e49bd",
-      "time": "2026-10-30T19:45:33.000Z",
-      "source": "Glide Magazine",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "LISTEN: Ritchie Royale’s “Seventh Heaven” Blends Blues and Psychedelic Rock Over a Deep Groove",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNODNfSTVYQ2ZhdVhaYWxOMVdybENTXzBPTVlOTENlc2xBTzVLR2NMU0psLUVsSjBHa0NmOHpSRDM3Vzh5REZDNGlHX3NyVzEtblExd24tYjJlbmRCQXpJa0ZsaEJ0eXRtQ3pkbzVhNzdFdTROYjBlbUEwVXdBdE1iMkNMME5FOGtqOU5FY0lRbDNJdnY2b3BOLS1PQnZlUmZmV2czLUxUaVFFMXUtVzRsWXIwZWduQkh0MkNUdHA5UFZLQQ?oc=5",
       "tickers": []
     },
     {
@@ -650,20 +695,6 @@
       "impact": "LOW",
       "title": "Psilocybin has anti-inflammatory effects in Parkinson’s disease patients; Should 2 million veterans get psychedelic treatment?",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85ZmROTkNPc3hLWThVa2tjelk4UXRzZ3NvRGMtYU4ydjhjMEtseXo5aHh4M2U5UVhjeEJIY2ZvNWVQdjFPUzRrMnlzMmx4SlgzT1BJcmxoWEZNR3ViSEhZYi1Ta3ZkNFB5TmI3amthSXNBQ2dTN3lj?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "107034085545",
-      "time": "2026-10-30T15:00:00.000Z",
-      "source": "01net",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "MycoMeditations Launches “The Bridge” to Connect Psychedelic Therapy with Traditional Mental Health Care",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOVNHZDg4VXBWYnQ4UTNYYVl5UER3WU96MFpHb0QzREJsd1dnbWsyeE0zWEJLeThYc0s2Tnp6QURmU2F4SldFY3NQaVFTNGxaTFhMN1dIWWNXdjM3YVNjNUp0SVVjakNzb2xxcGdzNlFSbmFKMFlITFBHS2s3Qk9TbkYxLXd6alhiMURvQ0VnM0NmOUx5QXJmU3hhdUYwTXc2QkRWX21VS21nMEUwQ3VORGVIZnZHZFlDaF9zMms0a2dxdw?oc=5",
       "tickers": []
     },
     {
@@ -901,22 +932,6 @@
       ]
     },
     {
-      "id": "954ef75fbee1",
-      "time": "2026-10-30T12:38:19.000Z",
-      "source": "TOKENPOST",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FDA Approves NRx Pharmaceuticals’ Generic Ketamine Injection",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zTS1Xdjc1NElJakVsbFNUc1RQSVNSQlo3N1lMbWcxdVM2SUFJOHlqcnZjakRPbzNNZ3VneWJ5WW5EUWpuZUVqNk1xbFZtSzV5VVd3UE5LbWhjV1E?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
-    },
-    {
       "id": "e48c07e10c74",
       "time": "2026-10-30T12:25:02.000Z",
       "source": "Investing.com",
@@ -933,20 +948,18 @@
       ]
     },
     {
-      "id": "df394580af58",
-      "time": "2026-10-30T12:05:30.000Z",
-      "source": "Benzinga",
+      "id": "34a8b9fe5229",
+      "time": "2026-10-30T12:00:00.000Z",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "12 Health Care Stocks Moving In Friday's Pre-Market Session",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLXJrZldrbEN3bms0TVpmOWF5ejc4V3c1WXJxUGlDSHo2RUpjUEl5SElLQkh5ZEFrLXRIQ2h6MGRxN2dEMnJyQVViUmNncWxobldFY0p4UTItSTlCTkpxU1RoaG9ZZDktR2VIcGNUeTJDNjJQZzR3TXNtVnE4Z1dmMUt5Tnh3SXA2OWxJbmIwbVdwQ3N0NmlIeEpwRHFaTlB0UEpHRDJEQjg3dmN6ZGlRNzlRMWtZVEdD?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
+      "title": "MycoMeditations Launches \"The Bridge\" to Connect Psychedelic Therapy with Traditional Mental Health Care",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcVBEdndpLU94VlBLSU1oT05ISUhTaDNwWkpUeWFheG43OUVKejE3bGV2cHByQWdqeDFCX0hGdnBGbDI1NS02aWt2a01kREZzRGxLYXBzYl9UM2MzOEFTTlk1eUZSZ25oYkR4NjRmU2JqVHpyV0Nra3ZfbmQ0a0FEb3BjREJheDdFYWVmczlDUUhyOUV6ZWh5QXN6akdQRXp4ZEpFOHphV1kxajBnRmlVQmZB?oc=5",
+      "tickers": []
     },
     {
       "id": "5f99b351eb14",
@@ -1030,6 +1043,22 @@
       ]
     },
     {
+      "id": "ee3b23ad422a",
+      "time": "2026-10-30T11:00:00.000Z",
+      "source": "Stock Titan",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "The FDA approved ketamine without a preservative found in every currently available ketamine injection.",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVUlfQXRwNEY1TnRfZzI5aGpVN3MxYllIOTlRTGlmUHk0dTJFVTJHQlFpN2RMVTZpVmFyYVBQV3FialpxR1NOeU0tdEd3Ry1EaEZyaVZ4TWZrNmVGdnJvTGhndGR5ZEhEZnhGUDg3TW9kLW5HNEpMX0xKaGZ4UUZVa09lNEw1QU40Q0lQdFJ4NTQ0bHg3Wk9xUFdkUTlRdWJPVzBQY0JnUllzZEFIQllGaHJB?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
       "id": "9660828424f9",
       "time": "2026-10-30T10:46:00.000Z",
       "source": "kalkine.ca",
@@ -1060,23 +1089,9 @@
       "tickers": []
     },
     {
-      "id": "70f5c43e1868",
-      "time": "2026-10-30T06:45:05.000Z",
-      "source": "Intelligent Living",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic Antidepressant Without the Trip May Hinge on Timing",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zTVJnVTZFdkotWXE0MzVRM1Ryci1pMjJXNWlJRGNjQ1BQZGhsaGFPUXIzeGFaTW1ha1FpcC1FMmtZa0h1WVY0NHVnWnBUS1VRMzRWWFFkdFNvaXlEZ2tWTnQ3S1dubWgwRWN1Tl9QV0ppSzAwdk5mSUF5STVkUQ?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "a942b80e6cad",
+      "id": "82924d3c5088",
       "time": "2026-10-30T06:21:34.000Z",
-      "source": "Benzinga",
+      "source": "TradingView",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -1084,7 +1099,7 @@
       "direction": "BULL",
       "impact": "LOW",
       "title": "NRx Pharmaceuticals (NRXP) Stock Jumps Over 26% After Hours: What's Behind the Surge?",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOU3ZOb0c1U1gyWVp4eFpfTmNEVE1PUUJaaWNwcUZ0eGRpU1BEeTh1ZFFyQ1RxU2dJdGxGeERiUllhc3NtUzh1cTJiLWxXSnVWMDJNZlRObzdBVjBxdkVNWkVLWHBUMEFnM3ZRZXBJUUdWaDNIOFRFdWJIQWIwVFoxTDZzRHR0VjVOVWpVMVdUMkhDM0tBN2JDY1dTY1ZWV00xVVFrUEMwbmtvQ0xMZERTbUF3Z2NlWnJzNnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZFpXVUd4S09NdDJPSWVVOXRyQXczNFFZZHItWjU1cThzVVVtTWFNMkVqNmRjc2pMcHdSQWRSNjQxNDhSNXlQQV85U3U4MnJCM05jWUphbzFsSGlfekFqbHJ1Z0JQYzV2V3RtWWZMUC1pcTM5Skk0enFTb25kR01zdW50UjVDUDRqSVFBOGJzR3ZiRmdpT1FHejA0LVZlenNMaVpXV3A5N0FQb19aV3BsZWFCdkRlMVlLZGxudUlUMGdkNU5oRm9UaUhoaUdDcUhtVThZR0Fn?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -1220,20 +1235,6 @@
       "impact": "LOW",
       "title": "Tame Impala Put a Psychedelic Spin on Seal’s ‘Kiss From a Rose’ for Like a Version",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVS1TUnZCVEh4cEpiVUk3aHdkeUxJb2lhY042cGpNY09rdjdmVU13MW9ZZFFkT2FmbGRXYmlmX3dmZE9FUDVyWEJZUGt4aC1nNHUwbE1qQ3FzSWRtNTRCLWNUNnNfV1VjZ0I4RlVSV0NWVjJ3a2U4cmpfVUlOejV5dkxkU0d6NV9wZllQTjVJWjlxTUJ2MnBXTG8za1dfNTVDcmVMVjJXQkRyV1FvMlNqdlpGTXE4TU5HVEt3REJvallnTFFjbm5SWXZmWkM?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "4ca418bf4933",
-      "time": "2026-10-29T22:00:10.000Z",
-      "source": "Medical Xpress",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "How psychedelics could deliver antidepressant benefits without hallucinogenic effects",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYzZxemg3YTUzUWpZckFDX05qTHB2MU9oUV8wRWtNel9vS0g5SGNvejhzMDc1VkswRWR0b1pqNWs1RmZPU2NYRnJTNUtKR2tKT09NZ0FuUkQ2VEdpOGE3VEpJUFQxNlBMNDJRdmRsQUk0LThQMmZYMGJmQWpMWWVIVTY1RURqMjZVUUJoN3BNWUNRaWdTSUFPVlVWTW5UYy1lUmFoeXN3?oc=5",
       "tickers": []
     },
     {
@@ -1421,20 +1422,6 @@
       "tickers": []
     },
     {
-      "id": "2ba51a13f74a",
-      "time": "2026-10-29T14:00:50.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psychedelic: Clearmind completes recruitment for AUD cohort of CMND-100 trial",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQamdUTDZTU01BbjV6WHl4RGNnbzUtWjlfdU5vdVdLOTdkby13ZFNoSVltOHBTeFZoRFRqeTl2V1V1SFMwUGR4NEVhRjF3RmdWb1QwVXlUb3dCMkVfdXdmdDJpaGtEVktfRjhuNU9ldHV1Tzl5N0dQSTI1OU1oZjlDV0F4LWNIVnVJSHd6VDZpMFNpT1YwUUY0YTFmVWVzX1g3RHN6Wm5DeFEteFdHZ1BtU1p5MWxlYnBZM0VFS1oxZkFZZDhY?oc=5",
-      "tickers": []
-    },
-    {
       "id": "c2f1ed16d3b8",
       "time": "2026-10-29T12:15:00.000Z",
       "source": "RTTNews",
@@ -1446,6 +1433,20 @@
       "impact": "LOW",
       "title": "Will COMP360's Upcoming Regulatory Milestones Put Compass Pathways In Focus?",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY0FTSWFWOW9yN3lRczdQZGMwLVBtMWFwa25vUkptS1RLYk1yTzZKU1c1SzgxQ0hJLUN2SHFaUGN2bTRyYWd2ZHo2MVhJU21oS1pzRTlzN3Rqa1N5c2libkpvV2xKd2NxRDVZUWRNT2hPTllGMmd2bEZXRjYtdEh6R0tfb2ltYkZSaWgxNWVrUG96ZHZ5aHVSWDBTTVc2WUpPZ3lkN1BiSk0yei1WVWNSRUxB?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "358f80773e1c",
+      "time": "2026-10-29T11:05:35.000Z",
+      "source": "IFLScience",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Psychedelic Substance Derived From Toad Venom Could Treat Major Depression",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa1VXejV4aDVwelVuQ3QxcVRpakxHQklobzZWeF8zZlJWSkR5bkZUekwzMjhOeVFqRGE1U3VoWkdBZnZVN3FnSTVCSU8yZ0VUbC1IcjhiMXFOWHJ5UVcxdzFYZTVCQm41TjhITHI1NUFONEUtXzZiaXp1WHR1dGZIMzNkLS14dDN3S2tKZU1jMWRWaE5YbVFGVjdDazRtR2taVkpxMzBLeXp3YUU?oc=5",
       "tickers": []
     },
     {
