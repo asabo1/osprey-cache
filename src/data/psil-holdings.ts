@@ -1,5 +1,5 @@
 // PSIL holdings reference data. Replaced by GH Action fetch in production.
-// Last manual update: 2026-11-03 (sparklines auto-refreshed daily)
+// Last manual update: 2026-11-04 (sparklines auto-refreshed daily)
 
 export type Holding = {
   ticker: string;
@@ -28,7 +28,7 @@ export const HOLDINGS: Holding[] = [
   { ticker: "ALKS", company: "Alkermes", weight: 4.24, price: 32.15, dayPct: 3.4, spark: [0.05, 0.22, 0.00, 0.12, 0.59, 0.93, 0.84, 1.00], shortInterestPct: 4.2, nextCatalyst: { label: "Q1 earnings + ALKS 2680 readout", days: 22 }, category: "Adjacent" },
   { ticker: "NBIX", company: "Neurocrine Biosciences", weight: 4.20, price: 142.50, dayPct: 2.1, spark: [0.09, 0.26, 0.23, 0.00, 0.24, 0.36, 0.33, 1.00], shortInterestPct: 3.1, nextCatalyst: { label: "Q1 earnings", days: 18 }, category: "Adjacent" },
   { ticker: "STIM", company: "Neuronetics", weight: 4.10, price: 1.92, dayPct: 6.7, spark: [1.00, 0.32, 0.29, 0.00, 0.26, 0.43, 0.20, 0.44], shortInterestPct: 7.5, nextCatalyst: { label: "Q1 earnings", days: 14 }, category: "Adjacent" },
-  { ticker: "SUPN", company: "Supernus Pharmaceuticals", weight: 3.91, price: 35.20, dayPct: 1.8, spark: [1.00, 0.98, 1.00, 0.67, 0.86, 0.95, 0.95, 0.00], shortInterestPct: 4.8, nextCatalyst: { label: "Q1 earnings", days: 16 }, category: "Adjacent" },
+  { ticker: "SUPN", company: "Supernus Pharmaceuticals", weight: 3.91, price: 35.20, dayPct: 1.8, spark: [0.94, 0.93, 0.94, 0.53, 0.78, 0.89, 1.00, 0.00], shortInterestPct: 4.8, nextCatalyst: { label: "Q1 earnings", days: 16 }, category: "Adjacent" },
   { ticker: "NEUP", company: "Neuphoria Therapeutics", weight: 3.34, price: 4.65, dayPct: 11.2, spark: [1.00, 0.73, 0.56, 0.47, 0.68, 0.09, 0.08, 0.00], shortInterestPct: 9.8, nextCatalyst: { label: "BNC210 anxiety readout", days: 65 }, category: "Pure-Play" },
   { ticker: "KTTA", company: "Pasithea Therapeutics", weight: 1.87, price: 0.62, dayPct: 13.4, spark: [0.81, 0.67, 0.62, 0.32, 0.23, 0.01, 0.00, 1.00], shortInterestPct: 18.5, nextCatalyst: { label: "PAS-004 Ph1 update", days: 95 }, category: "Pure-Play" },
   { ticker: "QNTM", company: "Quantum BioPharma", weight: 1.86, price: 1.10, dayPct: 9.5, spark: [1.00, 0.75, 0.45, 0.16, 0.02, 0.10, 0.03, 0.00], shortInterestPct: null, nextCatalyst: { label: "unbuzzd Lucid trial update", days: 80 }, category: "Pure-Play" },
