@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:04:49.672Z",
+ "updated": "2026-11-04T02:17:42.063Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 6,
@@ -132,11 +132,18 @@
   },
   "ALKS": {
    "buyFilings": 0,
-   "sellFilings": 4,
+   "sellFilings": 5,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 20644,
+   "sellShares": 22679,
    "latest": [
+    {
+     "date": "2026-11-03",
+     "owner": "Gaffin David Joseph",
+     "code": "S",
+     "shares": 2035,
+     "price": 46.17
+    },
     {
      "date": "2026-10-02",
      "owner": "Gaffin David Joseph",
@@ -176,31 +183,52 @@
   },
   "NBIX": {
    "buyFilings": 0,
-   "sellFilings": 3,
+   "sellFilings": 4,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 5291,
+   "sellShares": 20291,
    "latest": [
     {
-     "date": "2026-09-14",
-     "owner": "Boyer David W.",
+     "date": "2026-11-03",
+     "owner": "MORROW GEORGE J",
      "code": "S",
-     "shares": 826,
-     "price": 157.4462
+     "shares": 100,
+     "price": 158.18
     },
     {
-     "date": "2026-09-14",
-     "owner": "ABERNETHY MATT",
+     "date": "2026-11-03",
+     "owner": "MORROW GEORGE J",
      "code": "S",
-     "shares": 2311,
-     "price": 157.1981
+     "shares": 100,
+     "price": 162.05
     },
     {
-     "date": "2026-09-09",
-     "owner": "BENEVICH ERIC",
+     "date": "2026-11-03",
+     "owner": "MORROW GEORGE J",
      "code": "S",
-     "shares": 2154,
-     "price": 154.61
+     "shares": 600,
+     "price": 163.7083
+    },
+    {
+     "date": "2026-11-03",
+     "owner": "MORROW GEORGE J",
+     "code": "S",
+     "shares": 1226,
+     "price": 164.7402
+    },
+    {
+     "date": "2026-11-03",
+     "owner": "MORROW GEORGE J",
+     "code": "S",
+     "shares": 908,
+     "price": 165.706
+    },
+    {
+     "date": "2026-11-03",
+     "owner": "MORROW GEORGE J",
+     "code": "S",
+     "shares": 1466,
+     "price": 166.7748
     }
    ]
   },
@@ -850,6 +878,104 @@
    "owner": "Whitaker Anne Clem",
    "txns": [],
    "filingDate": "2026-10-09"
+  },
+  "0001520262-26-000133": {
+   "ticker": "ALKS",
+   "owner": "Gaffin David Joseph",
+   "txns": [
+    {
+     "code": "S",
+     "shares": 2035,
+     "price": 46.17,
+     "date": "2026-11-03"
+    }
+   ],
+   "filingDate": "2026-11-03"
+  },
+  "0001068754-26-000009": {
+   "ticker": "NBIX",
+   "owner": "MORROW GEORGE J",
+   "txns": [
+    {
+     "code": "S",
+     "shares": 300,
+     "price": 149,
+     "date": "2026-10-30"
+    },
+    {
+     "code": "S",
+     "shares": 1900,
+     "price": 144.9751,
+     "date": "2026-11-02"
+    },
+    {
+     "code": "S",
+     "shares": 4300,
+     "price": 145.8591,
+     "date": "2026-11-02"
+    },
+    {
+     "code": "S",
+     "shares": 1300,
+     "price": 146.7562,
+     "date": "2026-11-02"
+    },
+    {
+     "code": "S",
+     "shares": 100,
+     "price": 158.18,
+     "date": "2026-11-03"
+    },
+    {
+     "code": "S",
+     "shares": 100,
+     "price": 162.05,
+     "date": "2026-11-03"
+    },
+    {
+     "code": "S",
+     "shares": 600,
+     "price": 163.7083,
+     "date": "2026-11-03"
+    },
+    {
+     "code": "S",
+     "shares": 1226,
+     "price": 164.7402,
+     "date": "2026-11-03"
+    },
+    {
+     "code": "S",
+     "shares": 908,
+     "price": 165.706,
+     "date": "2026-11-03"
+    },
+    {
+     "code": "S",
+     "shares": 1466,
+     "price": 166.7748,
+     "date": "2026-11-03"
+    },
+    {
+     "code": "S",
+     "shares": 1500,
+     "price": 167.7248,
+     "date": "2026-11-03"
+    },
+    {
+     "code": "S",
+     "shares": 1300,
+     "price": 168.5325,
+     "date": "2026-11-03"
+    }
+   ],
+   "filingDate": "2026-11-03"
+  },
+  "0001567160-26-000011": {
+   "ticker": "NBIX",
+   "owner": "Gano Kyle",
+   "txns": [],
+   "filingDate": "2026-11-03"
   }
  }
 }
