@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-04T23:34:56.877Z",
+  "updated": "2026-11-05T03:45:11.578Z",
   "latest": {
     "date": "2026-11-04",
-    "wti": 88.15,
-    "wti_prev": 96.09,
-    "wti_delta": -7.94,
-    "brent": 94.64,
-    "brent_prev": 103.6,
-    "brent_delta": -8.96,
-    "spread": 6.49,
+    "wti": 86.83,
+    "wti_prev": 88.12,
+    "wti_delta": -1.29,
+    "brent": 93.69,
+    "brent_prev": 94.62,
+    "brent_delta": -0.93,
+    "spread": 6.86,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,180 +160,251 @@
   },
   "intel": [
     {
-      "time": "23:31",
+      "time": "02:57",
       "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Asian Markets React as Trump Cools Iran Fears",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-11-04T23:31:57.000Z",
-      "link": "https://www.bloomberg.com/news/videos/2026-11-04/asian-markets-react-as-trump-cools-iran-fears-video"
-    },
-    {
-      "time": "23:19",
-      "severity": "WARN",
       "direction": "NEUTRAL",
-      "text": "Gen. Ghaani Warns US Against Miscalculating Resistance Front Unity in Strait of Hormuz, Bab el-Mandeb",
-      "outlet": "NewsCord",
-      "source": "Hormuz",
-      "date": "2026-11-04T23:19:53.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcHlWUTczZFNrR19XZWxlX3NFRU9PQVloVEY5YS0wbmtOMktzQ0hFOEg2eF9CN285Q1k2ak5WYXo1YThKRXJ4clBiVjBlNmp0UWxWeGx4c2NQUkxFZmpLeFJzclNkbUZGd2FiTzRtRGY5MXZxQldXX1drQ1VMUjF2TE40bFVxV3VkcGRsbnNKUG96Sy0xLU9XN3hST0NUWG9UMzUtNUVBU2lUVmFlUTVlaTJUM0dqeWo1eU5KX29BRW9rQ0V4Q1BoOWpCamkzZnEwM2I1a2JYdDNLdTZMSXByU09mdXY4NmxRWGc?oc=5"
+      "text": "Oil prices fall for fourth day as US midterm results ease Iran war fears",
+      "outlet": "Business Standard",
+      "source": "Oil",
+      "date": "2026-11-05T02:57:45.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNMjhybXNuYlZEeTAzbno2cmFWdkdIcU5pOGdCNTJvTW5nMDBmTzVEdTQzeGNWRkFJU3pRVjFwa2E0OFBkNzJucUxjSmFMOUdGc3E3aFM5VzhMVU42RWRMOENEWG55RlB6Tjg1V2JlZmZraEMxeGhGaG11aG5IRjNUU3FUR0RwV1VoOXhibDZVdzE3TnZZc3dmRXdqZ3dyOExuQkNEekFvYjdXY3dQN3E3NHItLW5hSGNBbi1Mc016QmFfZzRaQzVabUxfaXJIV3hMQWxmQjBQZjB6Z0NNcDc40gHkAUFVX3lxTE9FRDdqREtKWkpxY3dnTzBtd3o4V0NDcXhFakZPYkp2eV95cXctNlVtU0hWcm9yX0xJOU9zZ0JMdDJnSVNtWTlJcUk0Z2dJSF9sZzM0REZVMjNkV3ZTN1d3X1FPa1BlYkxnSEM0RV90YjFqM3VCTTZocFlMX1ltcE03XzZrR0NqQVdKcWpCcVdWLVUwbEVmSUVkbTBMbUlselIxYjZNM2pRbXpXUXdPaGxzclNiTEplZmUyZjE0NHVGS0hDMS1OV1BUVkJlbEpqX21aYWFlMUx0a1RyeEhYWU9IVHBpVg?oc=5",
+      "cluster_size": 5,
+      "cluster_id": "crude-oil-prices-fall-second-day",
+      "first": {
+        "outlet": "CNBC",
+        "date": "2026-11-03T06:41:07.000Z"
+      },
+      "also": [
+        {
+          "outlet": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNjh3NEVPYnU5cTEtUE1OU0pwY3hYNE1qaHdxRVRjNGVSYlQxdndWM0hVNWpaa3RuRVd2MGZFQzY1aVQtVHVJSURmQ0lfdFFRdVB6MEpGV2lOR3VNbG8xSkFzRTZSUEFOSG9NMV9wZ3NiR1NOOHBmalNqeWlTTnFWU0dWbGFkaXAyNU5JQjMxODdwN1VnQzF1OGZoc2RtRWpLS3fSAacBQVVfeXFMTzVnZ0dQYzNVdFdLR0FiRVVXeWozMGZmNTR3QXVmUUNJaGF6QWJZMEtuanJuZUNNbVdncmRnY0FhYjFkSWQ5LUUxWEMwLVdoMUpiWk9ndElqQW1uSkliTjRIem5oNkJJek1Va1h4YkY2MTZVU0NEVEYxbFAtbXhaX3Rwc3VZaklkQ01CWDdrUTlQUEpEY2tFWDVNclR6cVhxNk53Vm91bU0?oc=5",
+          "date": "2026-11-03T06:41:07.000Z"
+        },
+        {
+          "outlet": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUUY1eDVzNHZ6MmNpdWJ1aVE4MEk5azk5QlpXV3dHTDdTYzJUeGtnc0lUdWFRNHZaY0hiOEt0Z1hGTVBjVkgycGU4ZE90OEdRUlN4czVBcXV0S2Z0RXctRlNicG5UOTFEeGNkZTZtNlBlUjJSbWVrVl9qLUJST0x5cGt4T0t5SG9E0gGOAUFVX3lxTE9ZT2lFbGJEQWs5RkRuNG9xQTBJTVM3M0hqVHJfSkpiYVBIMl9oa2JmbWNtaFZfRnVQMC1RbU9NeHFqOG5icHZyYUlBa0FSMUg0dmJqcDlBdG04czRiVVlaZlFoNnFEWEJGNjBOX01UWFI0VUtJQXdSZzdzVS0xR2JOaHl3LW1YemRhdF82WHc?oc=5",
+          "date": "2026-11-04T16:43:16.000Z"
+        },
+        {
+          "outlet": "Politico",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0Q5aFRYMzZ5OEhGUU54cXg2VzMwSVozdjNrNjRQWGx4cGxvZHM5Ry11RHh5RlZDUzNicUtpMFVVQ0I4SGkyVzU3WEdOQlRDcTZlbEVvazEtdGtfUGlvWjJGcER6RDJqejBQclVKWFZyWlBUUVAyS0ttTUJTYkdWdmN5elVjN2lBWW00?oc=5",
+          "date": "2026-11-04T20:46:00.000Z"
+        },
+        {
+          "outlet": "Investify",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyYlU3NWNtLWtkeEJIN3FQQm5xQXBYc2lhUElncjBudHozeWJocmc2Z3ZtRnlzQU1PYlpRcTZrdjBaWEZrY3Qtcl9EbENvRVBDbXh5LUdSdkFHSV9TVjJGV2VMVk9mMFh0SHhwckdLRDdyNm9TSmc?oc=5",
+          "date": "2026-11-05T02:31:49.000Z"
+        }
+      ]
     },
     {
-      "time": "23:12",
+      "time": "02:52",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Excelerate Energy advances Bahamas LNG Hub with supply deal",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-11-04T23:12:09.000Z",
-      "link": "https://www.tradewindsnews.com/gas/excelerate-energy-advances-bahamas-lng-hub-with-supply-deal/2-1-2069399"
+      "text": "Oil prices hit two-month low after U.S. Democratic win",
+      "outlet": "The Hindu",
+      "source": "Oil",
+      "date": "2026-11-05T02:52:10.000Z",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc2QwUVRfM3RCbG84OWNiRTI5ejZrYk1DMEU3bkxCSzdjVmxqdWZ4cGQ2eVM0NGMyVmxPTmwxRkhEaThJMjQ1bzk5ZEJfcDlKeXo4SGZoTHhiQW9ZQkdyVm4td1hTQ0VTTVd0bnFUUE5mdWRfRU5qQzBpeklLMFhpbW1WOUhfenRrUmdwNFlMYUNHWFhjY19jQlNzVjJaWUJrY0hwUzd4YXR4Nno4U2w2SWowSnLSAbsBQVVfeXFMTlh5dkRsQTd5SlJFVFVzNkpFckk3ZlhFdV90WmJ6X09QLXFKYXJjRmxnclMwU2oxbFBQd2JxUDNpb0JCal9xcHFyQld6emtvWllyb0dMTGZ4TmwxaEhZUWtsaVRwZ2ZCWXFGWjBua2xCcXFZNmRzTjJNdlRqcmZfVjJOaVRKLVhneHlwN0Jsbm1Nd2FNeE03Z2FUNy00ZjFvU0NCRjlrby0yX3V3cVFMT1M5WGRpcC1qQnA5cw?oc=5"
     },
     {
-      "time": "23:12",
+      "time": "02:45",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Diesel gets major November relief as petrol prices edge lower",
+      "outlet": "thenational.co.za",
+      "source": "Oil",
+      "date": "2026-11-05T02:45:03.000Z",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYS1xWFpJMDhOODkzWXl0MjFmWEw0bkN4MDMxcFFJZkhlZE9GTFo3LWVXZnZFVjBRV2NPNEdQaW9ydWVGZkVOVDNGUUFkeGd4Q3NpOWFwVjNRd0FvY1hBTDR2Wkc1QU41S3RheXJrZUhvbkR4SHhrbl93VURYaURQc3JnY1VxM2c1ckI3bTZMTE5tTzVfUmhpRm9Oc2g5SXRFX1ZmVzJuWQ?oc=5"
+    },
+    {
+      "time": "02:38",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Iran war latest: Iranian general warns of Red Sea attacks if fighting resumes",
+      "outlet": "The National",
+      "source": "Hormuz",
+      "date": "2026-11-05T02:38:45.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZUJpWFN1Mk9MR1J5dGYzd0xld25oanpjSXJvcS1jQWhVY2tBUi1iY2Q5Z3RUZW9Ia0hkcURmMHhoM3VvU1ZrMnRzcHM3S093cVNGQzdvR3NoRERIMmkxUWpuYnJaODBHU1pfTFNjNGk2WTdVNFRrVU5jUFJza19TUS1Mb3JWQTk0M0E?oc=5"
+    },
+    {
+      "time": "02:36",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Crude oil plunges 8%: Why Asian Paints, MRF, IndiGo, IOC, HPCL, BPCL and RIL are in focus",
+      "outlet": "Upstox",
+      "source": "Oil",
+      "date": "2026-11-05T02:36:28.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQblZ2SnByNmEwSmxDdzIyTWNBc29HX2dXT19aQ2x6eWo5OTUtNEliTzRFY3JQS1R3UlVSSjJFMFdPamJzOWlKS0Nka3ViOXQ2TkJDWnAtODkzWFVNTV9wblRBX0UwQ0ltaklqd1FCbjFBc0ZLd2JTR1ZqSGduS1ZibGtacUprTzBHWW9jOXNHQmtTeDdTZExPVUcxV3E2VzBKcjh0TnNLd21SZVBmeWE1SGM0UDdZY05ibjVRSHRQM3pheVVrbG5GN3kwc1B0WldWR19uZ3plLUJHZw?oc=5"
+    },
+    {
+      "time": "02:33",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Oil falls for a fourth day on expectations for lower risk of Iran war escalation",
+      "outlet": "Investify",
+      "source": "Oil",
+      "date": "2026-11-05T02:33:35.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd3BFS1Z3bmRNb0tVSXM1VnlxbjZUY1lUa19McUVPblhZZ0RWWXhPT2lxM05ZSExVYjRyTlVCdmZGQUxudVlTeU1yNUdPdDhLVGx1RkE4aDdSNUhoM2tsNzZzNnJWVGRrckdCYnFnNE5Nbjk0YldZT2lYdTFZcHpkN2txY2NUbDVPcTg0VXU3clYyYVFZSlZ5SXg4SXhBSWFsc3Zvbm02cVo0WTByLVlnVlg3SmIyeHdtS3FPX3RQMGU?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "oil-falls-fourth-day-expectations-lower",
+      "first": {
+        "outlet": "Reuters",
+        "date": "2026-11-05T02:20:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdzM2c3YzcktwU285aS1QaVVzTk51WFR0UnpxMXlnaFdEd2RtZWYzMm81TDZQUTJZS0ZlLXFVV3ZhcGFibkdLZm9Remo3YjlhNHJTd1lxSXNMUFNzejhIMkt0TlFRXy1RZl9TdTkxbDhfdjQxUEIzcUhaYlpOMjZJSVViNmVPV0dRV0RmaTJ3dDJ3QUs4TTFleFlnZnNyUHhVYlQ5NldaZVRZRFd5dU5nVnRKVUQ0UFE?oc=5",
+          "date": "2026-11-05T02:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "02:18",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Iran exempts India, China, Iraq and Qatar from transit restrictions in Strait of Hormuz",
+      "outlet": "Asia News Network",
+      "source": "Hormuz",
+      "date": "2026-11-05T02:18:38.000Z",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNb0dTVGZzQVZHN2doa2N6ME81ZkVQR3d0SGlqOU4zVmN1d0t1UjVUM3lDM0theV9FSzZLRGFQTWtnR2FZZEpQYmUybHBYRDhkVVVvT1dKMS1DU2o5anZEZi01RmVENklOX283OTh5OFdESXhqa3Q0VHZhdFE1Tl9UYkJmYlNtRTRGU2J5STB0a1U2bjRnMkg4WHNTX1M3YkRndlRxWDdLaHpBZ2J4dC1odg?oc=5",
+      "cluster_size": 6,
+      "cluster_id": "iran-exempts-ships-four-countries-strait",
+      "first": {
+        "outlet": "Middle East Online",
+        "date": "2026-11-03T20:35:47.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Middle East Online",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWDJfYjA2RzlndWhqVG5SU0Fhdl9NRmtIdll0dUFYYjYzSmVycXhQZUMwbWVwYzlOZDlLQ0xZLVoyR1BaYUVRUTZWUGtQWTV2YmJaUHUyX1dWVlh0OXFlZ19veFR0d19iRE5KMXFKUWc0aEV1WjJYdW9YcFhJUkZmSUNpZUZXcmh4WnlFQUJReUkxNzNESWxjQWdtXzNsT0dXeDBSVw?oc=5",
+          "date": "2026-11-03T20:35:47.000Z"
+        },
+        {
+          "outlet": "IranWire",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeWZNMWN2Z2NuVjE2UHVCWFNCbEJYMlFBWGFtWFh2Q1VlU3RKRnJ3UTZJLUFPeVNxQWNFUXVDVW5EQU5xeFdpdzc2YUh3U3pOY1JrTHlBc2V1Wkt4cTZQNHRJdzhHaE16YmpjZ01qNlZ0TkVYWG82OV94RFV0RWVranI0TzlLV014UFhtd000RkNiQldDNGRnRW91M3NjSlZrVlpwSDRDaTVTNmRtbWU1Sw?oc=5",
+          "date": "2026-11-04T08:24:36.000Z"
+        },
+        {
+          "outlet": "Hindustan Times",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa3JyOWpTQU5yVV80QjZLVUk3ejZDazNUdWd5ajZMTmVNNXA4c19lTV9xTVJwNjdWTkZMZ0NEZjF2em1NVFV1ZDJodjZrbDJGNnRWcDI3SFJmeXI5WkxsNGcxY0k5b2VqaTJxcGhKZC1Rdlp2Y2ZGMGFJakxsd0V4NVFjX1lBdTJrTkVJeHEzWEFGOVdDWjFUQmxOWHhFbE80bjdxTXJCanVVeUl3LTNKem1wS2tQbl9IbTFpcU01M0dJa2JTMEJoMEdES3VxQTVEVURITXc0V3JROVFYeF9lcHJUQWxjZjVvX1FtenFyYUjSAfYBQVVfeXFMTVlNbG5mSm1NaGJTZkRab2FjU0xoUEpGdDhhU29LNDJaV056SDNOQjBmRmlXM01WblU1bDBkbDUwbHdpeGZoczNNTUhrcnJtWElqU0plUko0WU1nMVNSWk1MMmIxM2I0V2RnNnJDcVFQUHZNSlJKcmlBRzN4eUJ2WWV6dUQyY2NZWjRXalpHdFNxZGNVUk83RWVmd09vd1RtT1FPdHpJeTM2eWJpbGxUUlNTeDRCbVpwV2dSanlpNU1JelZDcjJwQ0Zxc0ZBdUZJZS0yM3dTMWI0UDloa0piQ2w2cGJOTFBwaEFNRURjY3Atc0xVenZR?oc=5",
+          "date": "2026-11-04T09:25:39.000Z"
+        },
+        {
+          "outlet": "safety4sea",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQUhpS3hqRFBiNHlubFBMbXJqQXpyam0zN3MyQmZHTG9xaFphLTdyVFVCbXBnM18yV3NFNF81TGMxWHdlUUJLTEE0N0x0WHUtWHFRT25ycFpyZXN5TkRSLVdHdk5Mb1JYdGNoM3BuZ3lucXA3SDhHNVMwdHBMNV9JeXJPd21WTXA3NkZpTFFYWlZGMFBKRnduSmpzMjE?oc=5",
+          "date": "2026-11-04T12:19:42.000Z"
+        },
+        {
+          "outlet": "WION",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZjUwSVZVZ0xmOEE4Z2Y2Tm82R0YwRnJtSXBOWmhETzhRckJBbzlIdk1JODJlSnhmdGpoQkxXV2d3c3IxdFlPUTdPZGI4eTQ2SGotTDhOOUhKclJmMkJUbnA4VWtMeGl2Rlo4OTNEZkxEUmdsUzdFcFg0aWpFdUFGOEF0b0g1NkdGRThFMHU5bWhNWmk2UUw3UUJXSWFGUzJUS2t0dmUxUzRZdXlFNGxfc0JOVEU1ajBYVmlwQy1rRkt5bW5UbWRQWdIBzgFBVV95cUxPczhVWGpRM19PRDNFN1J1a2E3b3RoWVJQR0dzYU5jSUYyLU1IZDB4S2ZXODRMZkRjV08yUzVUUFpVRDhYYVF1YXROTklERmh1TDJCaEJYZS0wTDdqYjdCdG4yMmJUdUZlVWd1aFZLUThaa2dGN2FiWVpyWmJPTFIwNVZtNUl4aUZSbnRuWFpNemZNMkoyakxoQWhYNnlianRsY1owd3o0VGpnd2R4RkdIUGdpcUZWWFlaLVdZelpmS0MzcGY3SnFGUHJCSGJWQQ?oc=5",
+          "date": "2026-11-04T13:24:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "02:17",
+      "severity": "MKT",
+      "direction": "BULL",
+      "text": "South Korea to deploy military mission to keep Strait of Hormuz open",
+      "outlet": "France 24",
+      "source": "Hormuz",
+      "date": "2026-11-05T02:17:44.000Z",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ0Q1VWtaeXpoeUNSbm44YmthamNhOWhjRE1sckxKVzhZeXNkX3NGanp1SXZtNlRpY1dRQlVjM3d1SVh3TDR0ZWQtcUhmUThET3VUVjEyUDhHYU9JeEpDNHVIOENWOFVfMm1la3c5UHpsU0JTUHBnamdGY01kUXRRQkpLUXprYXV5NzJDdVI4MGVyQmN1Q0dVdGtIVQ?oc=5"
+    },
+    {
+      "time": "02:12",
       "severity": "MKT",
       "direction": "NEUTRAL",
       "text": "Stocks surged and oil prices fell as markets responded to the midterm rout",
       "outlet": "The Washington Post",
       "source": "Oil",
-      "date": "2026-11-04T23:12:08.000Z",
+      "date": "2026-11-05T02:12:08.000Z",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUnRkLUd3SEJnVkQzeHdYM1E1VUVfcGhHblh1bVp1dTIyTEprN3FQMFZ2b0dFUkVGMzliWmMzUU1VZDVISlNIRG9CMmxuNG1xS2ZjdnF6V2FNcUc1V1B6SG1ZU1B5QUFBQThBY0tPbjBKXzRoSHhNX2hDOGJpQlJ4YjZXWW1FSkVYZUxpcm95aklvSFBiLWxYMk1xYW9vM2kybG5FbmFfVjBfNDdLYXF5NW5R?oc=5"
     },
     {
-      "time": "23:08",
+      "time": "02:07",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "ASX Preview: Australian Shares to Rise as Oil Prices Tumble; National Australia Bank Fiscal 2026 Cash Earnings Down, ...",
-      "outlet": "marketscreener.com",
-      "source": "Oil",
-      "date": "2026-11-04T23:08:26.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZDFvNlRlNTdVZU1KVUJoWHBHTTF1M0w2NVdVUlVGeDEydWNyTWhaZ0owWnNZcTVjNU1CYThLTC1hN0x0Z3pfR1Fya2dGOTl6bzZYVEt4QlA3RUtjT09jd0VsUktHSmZPaWt3V25RS0hPNmF2TWNiTWd0NjhPU0ZfN08tTGFnb1poY3h5S25wbllLNGVZaUhzOUdrOFFBc2VhXzRjWW9iaTI0VDlZTWFFajNXaGg2Z1BXQzlmamxmcy0xU0NRMkRuSEN0OUNpa1ZvcjdaWjFZR0UzOU9faGlXTFN6X1F3dw?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "asx-preview-australian-shares-rise-oil",
-      "first": {
-        "outlet": "Yahoo Finance Australia",
-        "date": "2026-11-04T23:06:53.000Z"
-      },
-      "also": [
-        {
-          "outlet": "Yahoo Finance Australia",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVHlCRllvNV92dkl6TzFlQlNUX3FsMGc5cUhkSnF2S3BGcDFQNkphdjg1eGk5QkJHZDlvaGJiN01nS1o5RW9Zc1k4ZVZZdGVtRnNVdUI3ZVZ1UEJoVzNEZW8zY1ZNc1dKcjZheXNKcUV5S2lhZWtZVlFnYTNfMHlUQ1Iya1pMeHpSaTVR?oc=5",
-          "date": "2026-11-04T23:06:53.000Z"
-        }
-      ]
-    },
-    {
-      "time": "23:08",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Latest Oil Market News and Analysis for Nov. 5",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-11-04T23:08:01.000Z",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5"
-    },
-    {
-      "time": "23:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Qatar Becomes Largest Buyer of U.S. LNG Amid Hormuz Crisis - Crude Oil Prices Today | OilPrice.com",
-      "outlet": null,
+      "text": "South Korea to Expand Anti-Piracy Unit Operations Closer to Strait of Hormuz",
+      "outlet": "U.S. News & World Report",
       "source": "Hormuz",
-      "date": "2026-11-04T23:00:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVlR4WXZtczcxOHc3VC1SNnNMQ0daSjJWeVNPVDRmN1pMWVM2S3VMVTh5SjJybk1VeFRTM3JCc2FlUDVGb1dwRHhFV1Z0Z2RjRGJiMW1EYThKc19fSnVUeEgtaThNbHN0eEJMbF9KbWxMZ2Z3ZFJCalJBN3l1bkhaR0dWLXVPUExrVk4tc0hkbEtJdEh0bHU3aDNEMG1PSmptdngw0gGoAUFVX3lxTE9ETEE2aUw5cENYUzI4a0c5RmRaWVVmNFhvMEFmaTB6eFFxZXRmdGcyTmhKRHFFVHNfbzlRREduSDZxRmgtb0VHallmZUU0aTNOdTNPaXhSbFlDNXJ6djhFYzZobHl0V3BNRUlxaGxrU2wxZm81OEktdUNEY2I5LXpCVUxlbzE2YTh1Q0o5Y2RPZ2gtWEN0TGdKQnhYU2J6Z1BSOU1XMF9JVA?oc=5"
-    },
-    {
-      "time": "22:32",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Trump blames losses on GOP candidates, oil prices and his absence from ballot",
-      "outlet": "The Washington Post",
-      "source": "Oil",
-      "date": "2026-11-04T22:32:39.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcm8yRDN0ODJJUUd4WVlJTjk0Y0Z3ZWM2SFNOZ0pfUTJaUjd1QThhTDRveDdxV0hoZW12WUZKeFp0aUVZQnpucVRHZjZzcHZRVk1NRmRibXdjdW1WSk5VTmc1dGRVOW1CeDNLMzFmVFlUcklENUhGMC00OHdEUHlhZ1dpOWs0SFQzWEx2ZmpwMlJiTGxxVWozaVJWcHBleWU5S0pyU012VzRUcnNLcWFNV19rbzdLbDBpbkdzRUNTU3JZZw?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "trump-blames-losses-gop-candidates-oil",
+      "date": "2026-11-05T02:07:54.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ0d1Tk5iS0FUWWlyUGJFc1NBdmhFU0plS3pPX3BOaXBoSElEVVlub1BhaGZHbHBjNzlDUHh3MG9aRVQ1ZjlNVll0WEJzcWxacUFiUXRzbXpNeE5WMnNiSERic05qVmllVFF1SlpBOEtoV1lZQlNCRDZjeVdnemgyQWxSY2xTSVAtb1FjZm5VSWpLOHVpeEJkZ2lwYVAzZUZwYmloMlJQV2RMQjdnbjF0eDNaR2lsN0lGQnl0QVJXam8zQ0JmZEhiZ2tn?oc=5",
+      "cluster_size": 4,
+      "cluster_id": "south-korea-expand-anti-piracy-unit",
       "first": {
-        "outlet": "The Morning Sun",
-        "date": "2026-11-04T16:35:23.000Z"
+        "outlet": "Reuters",
+        "date": "2026-11-05T01:54:00.000Z"
       },
       "also": [
         {
-          "outlet": "The Morning Sun",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRXBaMnF1TDN5SzFFc1FtWXZxTjU4aTg2MlRpLU1zRmJfbHNkWmRNNS1YazBoN0JfNEZWUDVwLXNmUUdXRGNHNG9STHBiRjZBUlJ5OW5Uel9HTGZTd2dLQlgyLWFFM3dQVW5oQ3pJTDQ4aDNqWGdCeTg5RG5NV19HYy1tNUt6eFVPWnphbjRVY3hiZC1TcmJRS2FhZkhQWm04ZVFIUjZ5OVRHTGZrLTFveUlTYUd1b2VfS2c?oc=5",
-          "date": "2026-11-04T16:35:23.000Z"
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWmlVV005TWpIcUdLT2ZZaUpORmNMc09CYnNzQnFBRUhJeF8yTklGM20tcHlpZkI3bGpCa2VXQlJfOGd2MEdOTWtpN1BpMnNmUVUyYzF1R2U5SjN4bl90X2xGRDZ2MzY2aGU1WTVYM3otVlRhTjRXR2JMUWp5cGZsZFV1MFUtWG83QW1tMG44aXY3dmg4Zl9GbGFjMEZ5bWhUbGliempaM2dRaE9pZHlHUldkUndDZEtLTkdTUlQ1RQ?oc=5",
+          "date": "2026-11-05T01:54:00.000Z"
+        },
+        {
+          "outlet": "The Jerusalem Post",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxODhKRDRlTW5NVU5qZm5KdlU3NloyUW5JdDVqT3Y2d0txU2JCOEpkYVBSQmktV0VING01a0JTbENxQ2VTWDU1MlZBZ1Nta1d4NXRmLTg3YmlVcWFjWXFn?oc=5",
+          "date": "2026-11-05T02:03:06.000Z"
+        },
+        {
+          "outlet": "Arab News",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlktb3hFc1lxS0pVN3otYkpCa3p1QUd1ajF3OFBIUDlUcV92ZWFzQ0wySHk2YWswWEFyLU5sTzVMU21pOU1wQUtianpDVk1KZDh0OE91QVJRSnlBMlhReU5kNDg3dHR2bjZodkdvbWhOQUlYRVc0a0hPcUFCc2xhRFhrcDN6dnBabGpTbGlaejVpcXFYekR3RXo1ZTlJbC1rWGNPUm1UVWU4ZlJwNlpYa1VLbmx2UQ?oc=5",
+          "date": "2026-11-05T02:07:16.000Z"
         }
       ]
     },
     {
-      "time": "22:15",
+      "time": "02:03",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Asian Stocks to Rise as Oil Slides After US Vote: Markets Wrap",
-      "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-11-04T22:15:04.000Z",
-      "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates"
+      "text": "Financial advisor links stock market jump to election results, drop in oil prices",
+      "outlet": "KOLD",
+      "source": "Oil",
+      "date": "2026-11-05T02:03:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON196VHpvRHRURlF0S3ZyYmdQczFWZGd1dkF4b2NsYkFqdm9kVEtBV3MtS0RDeDd3WWlKOHNJTE5fU3VpbmdUcGFtRnpOUDd0R212VWw1NkN5S3Jpd3BYMDBNVHI0anJ3azlHaXdwTHRtV1NzaVpGeHhFQUdjRDRJaXpMaU1VNE9MeW56STZSYUd2VzY0Zm1obkFrdkE1cDNFLU5ERDhpNXFJVHPSAb8BQVVfeXFMT291ZWVEQU90MXZmNDEwV0VlU2VLdEhaTm9LVkxJM0RoenFOWktqQkhUV1hqemktX3ctLTZLMk1kNkVZWXF4RVk1Q29hRzkzN2J2Y2tFeUdMc3RqRG5Sb2ZjdDJMUWFRRmozUzRLUlZFa25lOWI3TUpfV2E3THZFaE1qM1c1d1VMUWJBbDFlczNvalhDYmFqd3ZDVFpqWGw5SW9yOTNteUJvY1NmQUpsSlJIeEluNVdfWmhlRWstLVE?oc=5"
     },
     {
-      "time": "22:00",
+      "time": "01:19",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Only One Russian Diesel Tanker Still Appears Bound for the U.S.",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-11-04T22:00:55.000Z",
-      "link": "https://www.hellenicshippingnews.com/only-one-russian-diesel-tanker-still-appears-bound-for-the-u-s/"
+      "text": "Korea to expand antipiracy mission closer to Hormuz, send more naval assets",
+      "outlet": "Korea JoongAng Daily",
+      "source": "Hormuz",
+      "date": "2026-11-05T01:19:07.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY18xYXVTOUhYWjJ3ejQ4YVkyczNCY2treWVZNVh6cjRTMzF3bWd3V2hJMjdKSjh3OVpId0stUGFDc0ZOekdld3hCc3lCZGhGMlR1ZEZMTUxsZ21IWlFSOFVFdXpaMDBGQWF4MHUzaF9QZ0h1YV95ODg1NEZ3RWJ0UG1sdXR4RTJ2VGNzUWM5SV84TzZReENDVnNHc2dxRlJkSHV5RDZaRHNSR19vZGhWM0F6RnZXSkR4ckUwM3FBaEN2UQ?oc=5"
     },
     {
-      "time": "22:00",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Fearnleys Week 45 2026",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-11-04T22:00:54.000Z",
-      "link": "https://www.hellenicshippingnews.com/fearnleys-week-45-2026/"
-    },
-    {
-      "time": "22:00",
+      "time": "00:48",
       "severity": "WARN",
       "direction": "NEUTRAL",
-      "text": "Saturn Oil & Gas Inc. Announces Record Third Quarter 2026 Results with Production Exceeding Guidance and Analyst Expe...",
-      "outlet": "TMX Newsfile",
-      "source": "Oil",
-      "date": "2026-11-04T22:00:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPUlRGUHJtekh6RWpFNDRqQUJ6RnhXS3kwNXI0V002V0ZzeW1NQjd4azgxV3gzbmFuQlV3STl5dXJkd0hDRkVaQXpseDZsUEZqTlRtSngyU1lhNFllRVY5czVjaHZGZ25weFFqY1dCMEpGY3R6ZDJQcTZVZlVOSm91bUhfUlRITm1FSnk1RE9WcEU3LU5FbTNiaGdlUUNyd0xDdUJoZk56Y05IZkE1UVNTVjc0OFdHNVRGdGs3ejNzWXdsRi0wckhENEpMMUtjai1KdDdvQ3VtSlBmZWVJdXZqV1JiTW1pWmJ1Zk9pcHVYQ2xYTkRyc2VPbnRpOGU4bGMxYzkyX01VYzNfZzF5eU8zQmpXSXU3eDRSQ2tTSUwyMDJuUmFRNWpoM3Bn?oc=5"
+      "text": "A rare glimpse inside the high-risk, high-reward Hormuz trade",
+      "outlet": "Lloyd's List",
+      "source": "Hormuz",
+      "date": "2026-11-05T00:48:46.000Z",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY0J3ekFQS055QzlWd011QklkeVhtYXAwajQ0UHJrMkZYNENvVW5lOTNCcG91aDdkVkVBMnJ6VEtFOUNuM193UlFjMnJxTEpWYklRSURpZlo3Rk1WdEUxdWhmN0NhVDk2aFFyZFhfbGZCc3YzZjQzQnpSdzFiS3phSE1PWG5FeUtMRlRnLU53YUh0SkhJaUZ6VFdaYw?oc=5"
     },
     {
-      "time": "21:31",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "‘Seismic’ blue wave triggers the sinking of oil prices, energy stocks, and the chances of power permitting reform",
-      "outlet": "Fortune",
-      "source": "Oil",
-      "date": "2026-11-04T21:31:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUjhfQlk2YVZjTW9CUGdkMHlxQnZMc2Y5TnhrWUhZbVhIVEFLbnpTakVKY1Z0dXRoTFUxZ2pxTm1PVVJqbkRwN2w5Mkp0LUQ4T01OQVJubXpEOGQ3UngyQ3NjQ1B2TG10MVhNSi1mVmJ6V3Q5UVAyRUZheU9ZTHZ2Y1k3cXJiX0JRZTR5RTcyZXBZMEptTV81UUc3Z1h3cE5lTldITXlEbndhZw?oc=5"
-    },
-    {
-      "time": "21:22",
+      "time": "00:10",
       "severity": "WARN",
       "direction": "NEUTRAL",
-      "text": "Beaten at home, Trump faces stark choice on Iran: deal or escalation",
-      "outlet": "Reuters",
-      "source": "Reuters",
-      "date": "2026-11-04T21:22:42.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc3dTRDFGYS1HSWtZcGh3ZTh2MjRleFhNUkwtR0wwSUd3TWlsQU1tcjI2ZG1fa1RxNHEyRDJsSUpjTzNGb0xTRE90Umh1RVdncGxtN29NNVhXel9PMlZ3UEQ1bDJzTkh4V052MEh5UFFteDRHakRVTzVQLS1rdjEzM2xjZDlYdjhCWkxwMkZOMjVSUlhOV2NCVl9ETFROeEN3ZENWQmZiejJhLXctcHFDUkc5d3k?oc=5"
+      "text": "BOJ sees rising crude oil prices sustaining inflation risks",
+      "outlet": "Crypto Briefing",
+      "source": "Oil",
+      "date": "2026-11-05T00:10:33.000Z",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbzREOWlZdFcxNmQ3RlVkUnE0RW1lWC15Z215MGMtY1hwa1h1TmZLTWhlZjVpaWhXWEhWcFJ3NHlsdHYzdmhPYTNHQ1gwTDkwUXhTdHNMdFVXbGFDN2lFVnk2VktqTXVJMXI2UEpIODRFTF9aTE82TzcwNDZISEFmdF9xLV9kSHJBekRjYS01RFY?oc=5"
     },
     {
-      "time": "21:20",
+      "time": "00:07",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "What Trump’s Midterm Defeat Means for Iran and Oil Prices",
-      "outlet": "The New York Times",
+      "text": "Explained - Key triggers behind why Brent, WTI crude oil prices fell 8% overnight",
+      "outlet": "CNBC TV18",
       "source": "Oil",
-      "date": "2026-11-04T21:20:36.000Z",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeTg3TkZ0TWJkWUt2Sl9OTG1LRU9JZGhqazhzSWxEVTl4SDFwYU9HcktqMGRQS2VOd2libmF3a1pDb2NESTN1bmthUWhlc2NFV1k4WDRrdEE1SVBJOW54X3ZTN04wUjJOeldDSUNhdU8wanFqZXlTV3U0RGw1TFVhOWNta3RXb21IQXFHQl8wWQ?oc=5"
+      "date": "2026-11-05T00:07:29.000Z",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNd1lqZGtFcmF3WXFJYnEzckFUU2dQSGs3OWN2eVRDcG9DMVMzQzhZNVFKQVJ2MlRxcHRRWjFVLXpQSmRINklHd2JQLWpxdUxaSXRyQ0otWU9IRzR3QzRFU0RqTGdHZktfOVVSSU5BMTQxVHo3a21OdkFkTjJwT3hXTlhkVU5LUHV2VUREY0d2b3RUWkstYXFnRXdPYUdYY2xZaS03QzRMbXdUdzRsdHgwNVZCU2RjUU43ME0zWGUtaTc1SzJyd3FXZEQ3R2pIMlI2V2hCSVUzbmFJY084Vm1LeUdvRHVMWEVrcHNxQnRHZXhhZkx3MjhXaHFralDSAYICQVVfeXFMUEtPQXE3V0g5UC12a3RvZkNHVWg5ejA3R1hwUEdEanFiZVhPSVNFeHlDNHpUUnBiV1c5WkVrR2d2V3QySjBBM1QtejJ5aVMwNDFITk1oOE54N1lhVDFVXzE5d2hGN29LR2lpb0hjQmlmbDFNOVB3d0FyR2hRUEY5SnV0Ulp5X0ZwWHFKWU12RU9NWVBFdjUycFdfNjdJNXRRRG5McEN2a0pObFJUS0RVR2JEWUFUWWYtNmlFUTVxU3h4OGpHblZ3SGVza1ZIYnd2aUhqYW1xTDdOOXhIUlk3amF5NlBtN0s0bTJpZWZNSGZBQlpjUTdXTFpNV1NHYzZWekRn?oc=5"
     }
   ],
   "snapshots": [
@@ -1433,8 +1504,26 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-11-04T23:34:56.877Z",
+  "intel_updated": "2026-11-05T03:45:11.578Z",
   "event_log": [
+    {
+      "date": "NOV 05",
+      "date_iso": "2026-11-05T02:17:44.000Z",
+      "severity": "WARN",
+      "text": "South Korea to deploy military mission to keep Strait of Hormuz open",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ0Q1VWtaeXpoeUNSbm44YmthamNhOWhjRE1sckxKVzhZeXNkX3NGanp1SXZtNlRpY1dRQlVjM3d1SVh3TDR0ZWQtcUhmUThET3VUVjEyUDhHYU9JeEpDNHVIOENWOFVfMm1la3c5UHpsU0JTUHBnamdGY01kUXRRQkpLUXprYXV5NzJDdVI4MGVyQmN1Q0dVdGtIVQ?oc=5",
+      "auto": true
+    },
+    {
+      "date": "NOV 04",
+      "date_iso": "2026-11-04T22:40:45.000Z",
+      "severity": "WARN",
+      "text": "Citi targets $5,000 gold as a Hormuz reopening could flip the Fed from hikes to cuts",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT1J3MU5yN3NTN3ZCWlRINXlpelVIOWVDZXoxLXl2SWM3Tksza3dkUHNEWXV6ZDhLc2dkTFAxcWM4ZmlaWERQMU14YTNJSkVYamYxd0RCeFcxcEJsWjNQbk1ZT25SNEhFT0NJTEZMdjM3V1B6NExzV2RiWWdUTVEzbzFFVlV4bzcxQkh1NTNjZ0JhQ1p4a0NsRjNjVTRhMW55TEpmUVNkLVFaN3ZiRzdyek1mOUpHRFp1RHdZTE5wZw?oc=5",
+      "auto": true
+    },
     {
       "date": "NOV 04",
       "date_iso": "2026-11-04T20:49:59.000Z",
@@ -1866,31 +1955,13 @@
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUW9iaUN1YmNnZlZ0a05YVklpS2I1dFp2UHR0VzNRaXRubGN6ZWczLWNqdlhaTENzcUtZYjQ4OG5Ca19nVmZjZTVEYlNGTTU4QXpZYVVXOXhnMTIzYXJBeWY5ZXdTREpkN1ZCNmNzd0d4eThoOTZmVUtFSEQ1NHg0b2VQU08xaHh5R01MUWhNN0NlY0l3d1gwVDRNM0RUTnZPMjR5TENVRVpETWIxenJ3?oc=5",
       "auto": true
-    },
-    {
-      "date": "NOV 03",
-      "date_iso": "2026-11-03T09:06:57.000Z",
-      "severity": "CRIT",
-      "text": "Iran war latest: Oil prices edge higher after US strikes Iran’s Qeshm Island",
-      "source": "Oil",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONEdGYmtVNkIyRGM4VzRZYTU3OHN4amJnWWFWWk91Y3Z5ZGJNQ3dmMEdBMXZIMnJCOFBseFdpTFpmTVFQanFvc2Fpd1ltQnNPekpwT2xCMUdqeC1GTGVyWlg4VlF6cW80R01udWQ0Q3F6cmdyV0d2OHdpM2FfeEZ3MU9iQ1ExUHlkTjJ6SGtJLXlfMTVFRWc?oc=5",
-      "auto": true
-    },
-    {
-      "date": "NOV 03",
-      "date_iso": "2026-11-03T09:04:05.000Z",
-      "severity": "CRIT",
-      "text": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOW0tRlhmb3AtbjI2TGE0dGJjWURQVHN6RVNoLUlfYkJ5a1VFc2JhYlR2Q1BndmFNYXJoaWZYRVdYaDdVNUJlUTluSEV3YXJaY2g1Z0N5T2JvNTFITHRheF9vRkhwT3QzaHZ1TGpSMUdmMkRPQVJsNXVLdHdMSmpXVHhUeWxMaWNJR3VuQzJOQ3pEVDVHdXFWZnNpWkVxZDFwX3MzNnpwUG0?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 1,
+    "bull": 3,
     "bear": 0,
-    "neutral": 14,
-    "net": "LEAN BULL"
+    "neutral": 12,
+    "net": "BULLISH"
   },
   "vessels_attacked": {
     "count": 43,
@@ -2906,7 +2977,11 @@
     },
     {
       "t": 1793768400000,
-      "p": 94.64
+      "p": 94.62
+    },
+    {
+      "t": 1793849696000,
+      "p": 93.69
     }
   ],
   "chart_wti": [
@@ -3916,7 +3991,11 @@
     },
     {
       "t": 1793768400000,
-      "p": 88.15
+      "p": 88.12
+    },
+    {
+      "t": 1793849705000,
+      "p": 86.83
     }
   ],
   "signal_outlook": [
@@ -3943,7 +4022,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Excelerate Energy advances Bahamas LNG Hub with supply deal"
+      "val": null
     }
   ],
   "chart_spread": [
@@ -4953,7 +5032,11 @@
     },
     {
       "t": 1793768400000,
-      "p": 6.49
+      "p": 6.5
+    },
+    {
+      "t": 1793849696000,
+      "p": 6.86
     }
   ],
   "chart_sp500": [
