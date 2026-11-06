@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-06T14:58:46.691Z",
+  "updated": "2026-11-06T20:49:59.803Z",
   "latest": {
     "date": "2026-11-06",
-    "wti": 90.92,
+    "wti": 90.73,
     "wti_prev": 90.52,
-    "wti_delta": 0.4,
-    "brent": 98.04,
+    "wti_delta": 0.21,
+    "brent": 98.16,
     "brent_prev": 98.29,
-    "brent_delta": -0.25,
-    "spread": 7.12,
+    "brent_delta": -0.13,
+    "spread": 7.43,
     "crisis_score": 78,
     "score_method": "v2-2026-06-11"
   },
@@ -160,181 +160,151 @@
   },
   "intel": [
     {
-      "time": "14:42",
+      "time": "20:31",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Iran Turns to Guerrilla Tactics in Bid to Reassert Grip on Strait of Hormuz",
+      "outlet": "WSJ",
+      "source": "Hormuz",
+      "date": "2026-11-06T20:31:50.000Z",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNY0NDalZkZFhSSHNoLW9LRnRFdFVQVUFQaUVZRkdwSzliM2k3RHh2VnAwTk84Uy0zTmlzQUttejQ3cjl4bXEyNHQxYWlBWlRpTEota1JVT0trQS03cUJqVGNPRFhPSEEtT0V3bEpOZmlPYXF0bHFydWt0V3ZlWkFqQ1F4ZUllZXlKbndnUFhoUEMtS1RIdWNzbGx0V3Z1dVIzTUFXQWw5UU1fZWI2ZE0xUUlzYWh4NG11N1Jza3ZLUQ?oc=5"
+    },
+    {
+      "time": "20:15",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Gas was pricier on this Election Day than any before it — up almost 40% to $4.15 a gallon since the Iran war began",
+      "outlet": "Fortune",
+      "source": "Oil",
+      "date": "2026-11-06T20:15:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNnBFa0xvbkoxSHU2WC1OX3ZidFB2VkpWc1BVODQtcmJZZ09UZG9HaFF1S0VoVENjcTBpTzNZcGgwcE4wWmNFRXN6b2pDSzZvT1MyUkxVSDY3XzFrc0dKaURrRUNZVzZaMzROcUtEZXpoSEtNcXVoVmdndjI3UmVKN2FkbGlYQQ?oc=5"
+    },
+    {
+      "time": "20:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "UK Cabinet in Push to Approve Drilling at Rosebank",
+      "outlet": null,
+      "source": "Rigzone",
+      "date": "2026-11-06T20:00:00.000Z",
+      "link": "https://www.rigzone.com/news/wire/uk_cabinet_in_push_to_approve_drilling_at_rosebank-06-nov-2026-185032-article/?rss=true"
+    },
+    {
+      "time": "19:45",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Strait of Hormuz disruption ‘to keep oil prices high’",
+      "outlet": "The Times",
+      "source": "Oil",
+      "date": "2026-11-06T19:45:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTHZWMGltMHdVelNuSG9yWG9VdDV5czg2Y01HUk42WUwyWlRkejZsbVQ0c3dwRzdfQ3RqR2M1SUxQY1l5THdRTENwVUFZczNNbWFsRDEtOXRtdG9BdnVXOXd4d3pkYkNtMWgtSHlELUtvZ19DV3NDVHpxQzNDYXNFcy1TMFZGdklJbW1EejNjZndKUGl2M1RPaDZ0VTJ5S3Q0?oc=5",
+      "cluster_size": 2,
+      "cluster_id": "strait-hormuz-disruption-keep-oil-prices",
+      "first": {
+        "outlet": "The Times",
+        "date": "2026-11-06T19:45:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "The Times",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTHZWMGltMHdVelNuSG9yWG9VdDV5czg2Y01HUk42WUwyWlRkejZsbVQ0c3dwRzdfQ3RqR2M1SUxQY1l5THdRTENwVUFZczNNbWFsRDEtOXRtdG9BdnVXOXd4d3pkYkNtMWgtSHlELUtvZ19DV3NDVHpxQzNDYXNFcy1TMFZGdklJbW1EejNjZndKUGl2M1RPaDZ0VTJ5S3Q0?oc=5",
+          "date": "2026-11-06T19:45:00.000Z"
+        }
+      ]
+    },
+    {
+      "time": "19:39",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Expanded Iranian blacklist seeks to raise perception of risk to shipping",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-11-06T19:39:23.000Z",
+      "link": "https://www.tradewindsnews.com/casualties/expanded-iranian-blacklist-seeks-to-raise-perception-of-risk-to-shipping/2-1-2071014"
+    },
+    {
+      "time": "19:39",
       "severity": "CRIT",
       "direction": "BULL",
       "text": "Iran War Updates: Trump touts imminent decision on new U.S. strikes, keeping up threats, but also diplomacy",
       "outlet": "CBS News",
       "source": "Hormuz",
-      "date": "2026-11-06T14:42:00.000Z",
+      "date": "2026-11-06T19:39:00.000Z",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?oc=5"
     },
     {
-      "time": "14:23",
+      "time": "18:52",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Adnoc Logistics & Services tied to fresh crude tanker buys worth close to $300m",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-11-06T14:23:33.000Z",
-      "link": "https://www.tradewindsnews.com/tankers/adnoc-logistics-services-tied-to-fresh-crude-tanker-buys-worth-close-to-300m/2-1-2070803"
-    },
-    {
-      "time": "14:19",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "text": "Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections",
-      "outlet": "CNBC Africa",
+      "text": "APA Q3 Earnings Beat on Strong Oil Prices and U.S. Output",
+      "outlet": "TradingView",
       "source": "Oil",
-      "date": "2026-11-06T14:19:11.000Z",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUXBTRHQ4Q2xFNTFGSlYtcGZYTFZ3M2RyWHBCSlA3RlB5cmZIZnBhZ0I5QnhGSlZRcU9QRHBkaE0zMXBYbTgyaGJ1UnhjbE1vZWFpVlZpRE5lUmlkczQxS2hKTExxUGVqaGVwdWZMS1JXbzVyWkVJUDE3TnNEMUtOb0Fkd2I1VVUxaERTWW4wRTlmVDQweFVsdjJ4aU1TdVRmOWdIRGVPUkUxTXNYR3BWTHJOb1pLSmpnaEJTTU5ZQQ?oc=5",
+      "date": "2026-11-06T18:52:58.000Z",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWFNY09rWV9RQzktVVhocXBrTmZqTWRnR0YtbXp2TWlld2l4U2tjd2J0UTdwQ0dIOWRTR3lzY0wzb1dCUzA0UVhMYklrM0dyeDNrUXlBZ2ViTlQwN18zNi14d1RyTnhieDQ4dlYzb1JlZG5hWnJCT3NFNDJmRllTZ0g5WHdlT05WcnlXRUZnYS1fWFJna3FwTm9QS2hJU0hXb3FsRmNvUjRKT0NpMUhRWmlR?oc=5",
       "cluster_size": 2,
-      "cluster_id": "oil-prices-rise-uncertainty-iran-conflict",
+      "cluster_id": "apa-earnings-beat-strong-oil-prices",
       "first": {
-        "outlet": "Idaho Business Review",
-        "date": "2026-11-06T03:56:15.000Z"
+        "outlet": "Zacks Investment Research",
+        "date": "2026-11-06T16:01:12.000Z"
       },
       "also": [
         {
-          "outlet": "Idaho Business Review",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR0hQYkxUMVdQRUxhb3lHSDlkcjhYZWRwWlRnQzZRZUlNX1hZUjF1UDdBcEtBYWM1TTVkX2hlWnFhQ0hFNlFlVDZsd0FZT0k2bjFDd0NtSDBWLTdaRzdabThucHRCdWhIYUtxay1zdEFnaDA2N1ljeUEzU1BvQlRWSkRtSXRsdkxIQmtraEp2TFhhcklGNjR5MFVna0JWQQ?oc=5",
-          "date": "2026-11-06T03:56:15.000Z"
+          "outlet": "Zacks Investment Research",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYnhoQ01MMV9DTVlRdGVQTDhtY2gwblBBbklwYVNFdWNDQ0pKS1JtLS1RNEwtNFQwWm0xODduZmZwOTkyY2dZM1BiWklPNG5xT1dTNE5IalVVODQ3aTRNQnBJdWdJTW1Dc1lVbnp3cXAtMzRpRW9yMU1zcWhPdUljcnV2TDQycmh2ZUczSGNjRG90bUhNWUwyVTlqX2Q?oc=5",
+          "date": "2026-11-06T16:01:12.000Z"
         }
       ]
     },
     {
-      "time": "13:37",
-      "severity": "CRIT",
-      "direction": "NEUTRAL",
-      "text": "Researchers identify legal grounds to turn back shadow tankers",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-11-06T13:37:04.000Z",
-      "link": "https://www.tradewindsnews.com/insurance/researchers-identify-legal-grounds-to-turn-back-shadow-tankers/2-1-2070717"
-    },
-    {
-      "time": "13:32",
+      "time": "18:47",
       "severity": "MKT",
       "direction": "NEUTRAL",
-      "text": "Saudi Arabia Lowers Oil Prices for Asia in December to Lowest Level in 6 Years - صحيفة مال",
-      "outlet": null,
-      "source": "Oil",
-      "date": "2026-11-06T13:32:43.000Z",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DcEhGOTFlTU5LaDJkbGtGZG9qOUQzVmlEaFZPbS1HZk5IYTd1N096dUxIUTRQeDBvSFFhT1k4WmtuZXlnMTQtZTh6YlVad1RnSXpjd0tvcjNCN0xfQ1kyRHk2Zm9lTlU2cTdtMw?oc=5"
-    },
-    {
-      "time": "13:19",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Oil Market Arrives at 'Remarkable Destination'",
-      "outlet": null,
-      "source": "Rigzone",
-      "date": "2026-11-06T13:19:43.000Z",
-      "link": "https://www.rigzone.com/news/oil_market_arrives_at_remarkable_destination-06-nov-2026-185028-article/?rss=true"
-    },
-    {
-      "time": "13:11",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Explosion Reported Aboard Oil Tanker Near Oman’s Coast in Strait of Hormuz",
-      "outlet": "WANA News Agency",
+      "text": "Weekly Graphic: Making Sense of Hormuz Traffic Data",
+      "outlet": "Geopolitical Futures",
       "source": "Hormuz",
-      "date": "2026-11-06T13:11:48.000Z",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdVJ1SGQ5Y1lRR2tGQlNuZVFjVl9wczM5dWtpUG9jZ2tCWjJVa2NzQXVNVlpDczE1azZVMHVsV0k1TFJsLXlQOHJtTGdPV0ZQWHlkYnk4REdPQ2FqMjJOc1ExS0w1ZmIzU0VEbm5wT0hJMndodkNxcXZveDQwSll5SlVmcmUwU0Z3allzb0Exd2p1N0QyWjZvWg?oc=5"
+      "date": "2026-11-06T18:47:37.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQamZnRFdEbk84TE1Ha2NJMG56ajk1VExET3BoLUYwUmxZMUt2MVBxQzViR2JuSFRwZjBjT1VubEk3SXY3Nko5bmhfNFpfd2VpODJwWXdJY2t1SFVqNklBUXdueUgxdjhjZUxwN2N3WTJsSHpRRmswRUExZjVPZURWLW16YWZqZjYzWEs0?oc=5"
     },
     {
-      "time": "13:08",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Iran-linked ships go dark over Persian Gulf internet cables after threats - FT",
-      "outlet": "Iran International",
-      "source": "Hormuz",
-      "date": "2026-11-06T13:08:14.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKREZxUFZQckt1WnlmbEptNzlVUERxT0ZHVGM3dzBOSS1zZjBZQ3dkUThtM29lNHdsSUUyZlNRejZKMjhFT21ZV2IycnhBZzBHTHc?oc=5"
-    },
-    {
-      "time": "13:06",
-      "severity": "CRIT",
-      "direction": "BEAR",
-      "text": "Iran Oil Exports Near Zero But Peace Deal Not Likely, FGE Says",
-      "outlet": null,
-      "source": "Maritime",
-      "date": "2026-11-06T13:06:54.000Z",
-      "link": "https://gcaptain.com/iran-oil-exports-near-zero-but-peace-deal-not-likely-fge-says/"
-    },
-    {
-      "time": "13:06",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Malaysian palm oil prices plunge 9% in a week, steepest drop in nearly two years",
-      "outlet": "UkrAgroConsult",
-      "source": "Oil",
-      "date": "2026-11-06T13:06:23.000Z",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVlg5ZW90aGVpQVhZRlJIUHdBMjdxalE1RGphaDA3clZxWUQ4SzZnalR3NVFPWlZwZFlwcW12LUFucGt0VkNzUTVfbnRMWWRFNGFkd1pURkJaeXlfdDJOdVdZNlp5SnVrQnNvYkdfRWVidzg4TkFoN0MzQ0E4VDc4U2xnTHdNa1pKQWlzUFFveVQtOW1ydlBSZTZ0RGplTEhCcVpKc29XR201NldwUjZBMzNTSmU?oc=5"
-    },
-    {
-      "time": "12:52",
+      "time": "18:31",
       "severity": "CRIT",
       "direction": "NEUTRAL",
-      "text": "Iran challenges US naval blockade by granting China and 3 other countries passage through Hormuz as African economies...",
-      "outlet": "Business Insider Africa",
+      "text": "Iran Says Two Tankers Hit Mines In Strait Of Hormuz",
+      "outlet": "Eurasia Review",
       "source": "Hormuz",
-      "date": "2026-11-06T12:52:18.000Z",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZGRwNWtoTkZEUjVXZTBBRkZMdDg1TjQxXy1oZS1NSUpTM1FnQWJnSThLSVctRW1yS0lBR213MC1ibmNiVng4a2VoU29zWEplTmlsZEhzcE5aaFp2N3JLZ2dtT0NUVkd1ZFNJTl9PaGdTQ1J1M2Rsa0RJUzJKMmN5V3g4UGlSejBPdnF3QVdzUXFuN3Q4dEgtR3p3alI4QlFkWFE0SF9ERGVBaE8wX2JDMkVDZHZ1anN0TzVhNkM0Rlpxb3J2MmQwRzRiSWhjU2lhTDE3OA?oc=5"
-    },
-    {
-      "time": "12:48",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Explosion hits tanker off Oman near Strait of Hormuz",
-      "outlet": "Latest news from Azerbaijan",
-      "source": "Hormuz",
-      "date": "2026-11-06T12:48:08.000Z",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pQzVFZnYwR05JWFRXZXBRNTZibEVKVS1wVllCR0pkRnFud0NVNTd0LTVjQkdobXVpaDhENUdYbWUwN04wNTRXMnJqejRlRFViUlkzTHM1S19DWGZ2bTBtTDZBT2t0T3h0Y2dDRHRnWk43S1FHRHNucWFYdXcyZw?oc=5"
-    },
-    {
-      "time": "12:45",
-      "severity": "MKT",
-      "direction": "NEUTRAL",
-      "text": "Current price of oil as of November 6, 2026",
-      "outlet": "Fortune",
-      "source": "Oil",
-      "date": "2026-11-06T12:45:00.000Z",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tLS05aEZoYnpmYVNaMjVoUTVBY05NWWkyeEdETUFvRGlLdkxlTmpQa3dKeElqbzdOZGdlWEJVYW01TU9tcUNJZktXanpzWVhXclVDc3JWRWFkSzNSV0NZb213?oc=5",
-      "cluster_size": 2,
-      "cluster_id": "current-price-oil-november-2026",
+      "date": "2026-11-06T18:31:16.000Z",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQkhydUFWRnZ0N2l1TUc5LTNrTDVfTkhvSWFNOG1VYS1QYWdPMTNTM3ZKTTcxSTNpdUxGVEN4NjdpaFpaMThQcVFIeFNkaWFWWFVUSS00dlVTNFB1cnRBYVN2cGNRemRHc2xnVlhZWDF2VjZTaVR3eDVJbzFDcDljS1ZSdmJyNlhPbEFZcjhGaFFTaWpQa2c?oc=5",
+      "cluster_size": 15,
+      "cluster_id": "iran-irgc-two-tankers-tugboat-caught",
       "first": {
-        "outlet": "Fortune",
-        "date": "2026-11-05T12:10:05.000Z"
+        "outlet": "Reuters",
+        "date": "2026-11-05T04:21:00.000Z"
       },
       "also": [
         {
-          "outlet": "Fortune",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUblBRaXV3bHVma0s3Uk9nT2d5cXBrRWFiUEU2NnZ2VVFyV3RRVGZfOHdVTThDcXpxUzZwSkMtYlhobl9EWUFKcEhERTl0WE9SS3g5V2loeUN4UGFaRHJmV1VB?oc=5",
-          "date": "2026-11-05T12:10:05.000Z"
-        }
-      ]
-    },
-    {
-      "time": "12:35",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "text": "Two oil tankers struck by mines in Strait of Hormuz",
-      "outlet": "NewsNation",
-      "source": "Hormuz",
-      "date": "2026-11-06T12:35:46.000Z",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ybjUtX3JLMmFGeWNyN0JmTU9xUm5MbGhKb2FjMXAwM3NZM2FxUUN4Sk1oZnowbkswSVBVMDlZMjBrZTJHTjFERVhHOERmcXBaUm1kTlJSOUItQVlFczE1Y2hKSF9mR1NPcHo1dndWTXRtQWlycGs0amZLVdIBgAFBVV95cUxPUVpoWGtMRVYzVjFBaWNLLXhWWUo0cFRJTl82bzFwM3YyU040MWRPMF96dmJNU1VkNEVEczVXWFpyeWFXaEM1SFU0bUd5aTBQcjlQV1laSlBwckpnQmxwV1l0MmpRTU00Zl9Dd1J2MmNqOTBlTnI5NmpoUDNndVFRYw?oc=5",
-      "cluster_size": 9,
-      "cluster_id": "iran-tankers-catch-fire-striking-naval",
-      "first": {
-        "outlet": "South China Morning Post",
-        "date": "2026-11-05T15:35:51.000Z"
-      },
-      "also": [
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2pHcmkxeDJDM184TXNiS2xIOUdXdHNrTXcyVHFKcUNGZEgtanhxTm9TR0UxWjA5cGlXSy12RVBLT3JYYVVBVEltbXFTNWtFT09OMVBIUkFEVlZiaW1mcVhPM3JfQ2tnZm1uRnJSQlVoX1FfNTl5bmh1c1pZMUJBVlVZeVdoWnlQMURoR0g0WVZYcjU4WDloZzRxMHh3Q24zMlRSYXV3MUFZTGxEQXM3NXNuNExxUQ?oc=5",
+          "date": "2026-11-05T04:21:00.000Z"
+        },
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2pHcmkxeDJDM184TXNiS2xIOUdXdHNrTXcyVHFKcUNGZEgtanhxTm9TR0UxWjA5cGlXSy12RVBLT3JYYVVBVEltbXFTNWtFT09OMVBIUkFEVlZiaW1mcVhPM3JfQ2tnZm1uRnJSQlVoX1FfNTl5bmh1c1pZMUJBVlVZeVdoWnlQMURoR0g0WVZYcjU4WDloZzRxMHh3Q24zMlRSYXV3MUFZTGxEQXM3NXNuNExxUQ?oc=5",
+          "date": "2026-11-05T04:21:00.000Z"
+        },
         {
           "outlet": "South China Morning Post",
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRHN2T3lzaFZtaGxoYTZwdGdUR2lkeE93aWQ1b3VTbk5ENnlQNjQzM09CWVhVTXdHZWcwNGRxRnFhQ0duR0lWSFdPRjh3enpfajMyXzFFM1M3UHNGbnA2TnVqU3YzQWl2Qkh3cWhuZVBsdnVJbkl5VFBpaThKVEc1d1pXWXEyWXl6algzQUdxa0VTYWFpTDY3YS1RbmtGX2NJMVZkaTZVWGlZVjVCc0ZIeC1PaG9DaWozbjkxSFFUa0h1ZHU1X3gyZm9lNNIBywFBVV95cUxPcmtkbG9aLVdJbXlpNHFUQUJqSHIxR2MwUHhqb0NtQjVmVGo4RUh3NW5QU3RhRXg1M205T0ZHMHFZME4wUDlVVTktcW1IU25PRERWZm4xS09FTlNMdnlkUXNadXYwY2U2ZnMxcklxN3ktWXRIa0lPVTFiRHlRLTA2RzVJZE5FOHl4WXFHZVFELWZvRlZSYWF1QndmUklwRkFPYk50QW9RcXB5V1AtWkh4c1FPa3hxcGhkVmRRYzU3NHpnWXBESEsya1FRbw?oc=5",
           "date": "2026-11-05T15:35:51.000Z"
+        },
+        {
+          "outlet": "energynews.pro",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd3BLMEtOX3EyOENKSThCUE5rUHBjVlNkU3hySUVjc1ZIRWFaVUpObWhZOGZQUVp5WHY4WEpSZ3JNTHFPTG1ZdTFEOGNabUNaWU5JT1BZLWRYQVhlMlBSTjlobTBDelNkVDdTaGdXaU5PRVEtU3loblVKTTFpdlJsaW9PVmVFdEtDb3dWWFRnbWstT3BpSmZHZ3FqZGNlTHRiYmpr?oc=5",
+          "date": "2026-11-06T07:02:19.000Z"
+        },
+        {
+          "outlet": "Al Arabiya English",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVBhQUVzcVlMU3E5blZkTmVJWEhKanV2a0owd1o5NUt0a1BCaWI2WUtJbThTSDFYWDFtNVBwemNXVi1JeVdoV3BVMGxpdzhpdENwZVdYbHAwV0NSVVNuVmpELUpKbTR2U0xWLVpNQ0VwOUl3LUQ2enJZZzBsOHJTaE5fNHEzYXJvbzlDYVVCbXFCekhaY2Y0NU8yVzBxS1lxV3Bka0NHd05nem04SUdjanJKUm9HVWYzUi1wWTlUWFVidnBtZEpkZEVNONIB0AFBVV95cUxQcDBjTUlQZzVEOTlwT19obUlNTWxOdjkwUjFhWmV1SG81bFE1ZVpHOEI4S0FSRHVhT2ZlSGpzQ3FKbjYtWnVZMnNKaGxnTnVrajNVeEV3ZExpZ3dKaTd6TzNjQld6TV9PdzJ3eFhBX3ZhcVdlR3J5SEpHVmVDVEs5UURIYkhTbmlZb2lIdVZZNnJEdnRCOGR6c1Z2Y0EzUGdJUlJmQm83RjBsYjdBSFRHU0YyempiZTlFcFlmbDk5bHF2ZUtDVnc2REhJV1gwYjYx?oc=5",
+          "date": "2026-11-06T07:33:00.000Z"
         },
         {
           "outlet": "TodayPress.tv",
@@ -370,18 +340,104 @@
           "outlet": "Caspian Post",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM0p5WGs4VmRUZlp0dzdUc0dOOUpyZnRGQUg0TlFwNC1DZzJvRi1fbEdLSnRxNEFnbHNFSXRkYXgxUnFhSFMzV0JBTE9nTmJoT2VCem5KOXlrUEdZdE51TWI1NjZaeTAzNEFmZnluWHhiakdldjRqeGZzOV85d3c0S0Z6R3pQVWhQVmRRMm1RWXRaOHdCdVd2QTd2UQ?oc=5",
           "date": "2026-11-06T11:52:32.000Z"
+        },
+        {
+          "outlet": "Tehran Times",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTi16VVZPeTRtWURhUTlsamx6RnUxMkNoU3IzLVRtc3FGM0M5LUp4bjMwMGVwOW5kVHpMTURTeUl3MTM2TXRvM0xrZG9sd2h3ZE1fSVhlSU92SzBKZ2Q5VWkyazhPUXlBaDhpcU9vSzZIVTQ4R2IwZnpja1VYR2RoYVRfSVRoZmFGaDhHNFRhRTd4bmJlQ1J6T1JB?oc=5",
+          "date": "2026-11-06T16:35:03.000Z"
+        },
+        {
+          "outlet": "NewsCord",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbkMzV2pVNXhzaUJtZEctalgzQ1lwYlI1S1FjX05CUDFaOTNSVFhqc1g0OE1iRTBnd0tlQTNoVExmWTRybkNiMHFIWlRiVVl6RTN6VWlPYjc5YnlkWlJkaEZQRWFEQm11WUhqSzhNY1E2YjJ1c0pIX0FqRE9jN0tuUldMYXZnX2duU3p4b3J4N3VsN0o5NmZlSjkyNEpBb2NFdHlEakpTZFhSUU9uZlRUbVY5bDBlaEhRRW9Sb0tRM2ZnQkhHcWw0Z0gzOGE4WmpvY3dBYmszYXYwQQ?oc=5",
+          "date": "2026-11-06T17:31:20.000Z"
         }
       ]
     },
     {
-      "time": "12:33",
-      "severity": "WARN",
-      "direction": "BEAR",
-      "text": "Oil’s Plunge Below $100 Doesn’t Mean Markets Are Out of Jeopardy",
+      "time": "18:18",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "As Iran Chokes Hormuz, Egypt’s Energy Crisis Could Become Israel’s Problem",
+      "outlet": "Middle East Forum",
+      "source": "Hormuz",
+      "date": "2026-11-06T18:18:25.000Z",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM3lSMXJreE04Q0s5cnpxVEwxR0xxbldka3BKc2ZkVWZEWU1iODlTUjJZUGx4OS1iMmltY19qeG5RaklZYjhURGRmOFBValhEYXlYTDFZeWl3MF84MmZRWHhxN2dzNk5CQjFxVEpDQnVSOGNNSE0yY1RLOWFEVUhTTmQ5WnJnMUdvR0lDbXNzRnBBMGU3NTdwN3JDREhIUjRIMG9YTXMtZzBqZw?oc=5"
+    },
+    {
+      "time": "18:12",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "text": "Iran war latest: UN maritime agency condemns Houthi attacks on international shipping",
+      "outlet": "The National",
+      "source": "Hormuz",
+      "date": "2026-11-06T18:12:53.000Z",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5"
+    },
+    {
+      "time": "18:05",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Identity politics may have cost the Democrats 2024, but the Iran war cost Trump 2026",
+      "outlet": "Fortune",
+      "source": "Oil",
+      "date": "2026-11-06T18:05:00.000Z",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVTNBZjB4X1ZCbFNrTEROc0RBdnNmbGwtTmpRQjdFQTFneENoTG54cTdQMHZGdnBTQXZHQ1BLSUg5ajJ5WWlac0dOSExDZ0lxbEo3UUc2T3JGY1dVTFNEQmRCbGNIeGFlT3ZlSnVqa1diQXJlcmVwbFBSWUhCNDNHV1BMOEJ0UQ?oc=5"
+    },
+    {
+      "time": "18:00",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "text": "Iran’s IRGC says two tankers caught fire in Hormuz",
       "outlet": null,
-      "source": "Bloomberg",
-      "date": "2026-11-06T12:33:16.000Z",
-      "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/oil-s-plunge-below-100-doesn-t-mean-markets-are-out-of-jeopardy"
+      "source": "Maritime",
+      "date": "2026-11-06T18:00:59.000Z",
+      "link": "https://www.hellenicshippingnews.com/irans-irgc-says-two-tankers-caught-fire-in-hormuz/",
+      "cluster_size": 2,
+      "cluster_id": "iran-guards-two-tankers-caught-fire",
+      "first": {
+        "outlet": "Arab News",
+        "date": "2026-11-06T08:13:45.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Arab News",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVjFuajctUXNDWHM5dThwNmxlbXdRSi1iVFk5Mmc0dUJMUmdpQmJVOTRwR3drRF92c1VXaWJDSk0tSEZmX0Q2eUkyaU1iTHhGN3RqRUdSSXJObzFaa09PbXpyeUowWnhMMTNIeGZOckJBVzJmVUltcVpuSFIzVUlRT2NpMWhVUlpNNE04QmFZUXBMSEFkSWJMM2Zn?oc=5",
+          "date": "2026-11-06T08:13:45.000Z"
+        }
+      ]
+    },
+    {
+      "time": "18:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "Sawgrass LNG & Power completes LNG bunkering in Port Everglades",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-11-06T18:00:53.000Z",
+      "link": "https://www.hellenicshippingnews.com/sawgrass-lng-power-completes-lng-bunkering-in-port-everglades/"
+    },
+    {
+      "time": "18:00",
+      "severity": "MKT",
+      "direction": "NEUTRAL",
+      "text": "ADNOC signs 10-year LNG supply deal worth $3 billion with Gujarat Energy",
+      "outlet": null,
+      "source": "Maritime",
+      "date": "2026-11-06T18:00:49.000Z",
+      "link": "https://www.hellenicshippingnews.com/adnoc-signs-10-year-lng-supply-deal-worth-3-billion-with-gujarat-energy/",
+      "cluster_size": 2,
+      "cluster_id": "adnoc-signs-year-lng-supply-agreement",
+      "first": {
+        "outlet": "Reuters",
+        "date": "2026-11-06T06:01:00.000Z"
+      },
+      "also": [
+        {
+          "outlet": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYmVHTnM2czN3MDBGVkg1X01kRC01WUVLOXZYU2lGWW1vWENPOElfRW5mUnBVUTZfQm81WnY2SEdRNGxqWm1SdjRwS0xMV3lEZkJhUkRJaVlsRDBLc1Vzbm1zWmExRUJKYlNqVkRZNkVqZVlXY3F2MDVnbjd2azFJdWFraEN1RkRJMzBOYjE5bF8zTVprOUZaTmhJZ2h0SWdLMVFhZ0ptWlptZnU1YXVkNHVwOTh0WGh6b3JV?oc=5",
+          "date": "2026-11-06T06:01:00.000Z"
+        }
+      ]
     }
   ],
   "snapshots": [
@@ -1481,8 +1537,35 @@
     "copper": null,
     "dxy": null
   },
-  "intel_updated": "2026-11-06T14:58:46.691Z",
+  "intel_updated": "2026-11-06T20:49:59.803Z",
   "event_log": [
+    {
+      "date": "NOV 06",
+      "date_iso": "2026-11-06T18:12:53.000Z",
+      "severity": "CRIT",
+      "text": "Iran war latest: UN maritime agency condemns Houthi attacks on international shipping",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFNGVjU3UzU0cjFEQUhzeDVsZGJsRUsxeTVNUHNRbldqRWtZVFhiejFqNEZFMEs3T2luRkhkVXNmRkx4RVMyR2hjOUEzMXIyZU9Pak9KOU9WcVJCWEFnQUd2MVZhUWxIaWtwOHczMHRkaWwtZC1ua3VWU0R0ZEhIXzdBUENXN3NlT2pkYlJzdWg?oc=5",
+      "auto": true
+    },
+    {
+      "date": "NOV 06",
+      "date_iso": "2026-11-06T17:54:59.000Z",
+      "severity": "CRIT",
+      "text": "Iran war: Gulf tanker attacked, 1 seaferer killed",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNk1KUEc4UEU2TzQ4eFRSaUozNGM0LWxCeXNJYUpzWmtSUkxOWW53a2M3ekpFTzRiTElScWJfUHFWM2FoNDkzSTQwTXB3bmkzYVNFa0liaG40T29Kcld6RHdkQnNHbWZETTZlZFVRYXNuenFZR3NLZ2l5WUtrTjRSc1dEVXRIMGfSAYcBQVVfeXFMTy1wLTlEdy1RajY3bE1BdjllT1RmQktJOXF6MXppQUxfVUd5QXVIWTYyQTJZTG5fR0p1QUY4Ql9YSklLdlBDZ3BCbzZfZDJ3cE1sb2o3M0U4cHhZQy1TRG9rREczTnQ5b1dPYi1OZFduNmRKQ3A3VkxFWkNYS1Z5TlFHMF9pc1lB?oc=5",
+      "auto": true
+    },
+    {
+      "date": "NOV 06",
+      "date_iso": "2026-11-06T16:32:47.000Z",
+      "severity": "CRIT",
+      "text": "Seafarer Killed in Suspected Missile Attack on Tanker in Gulf",
+      "source": "Maritime",
+      "link": "https://gcaptain.com/seafarer-killed-in-suspected-missile-attack-on-tanker-in-gulf/",
+      "auto": true
+    },
     {
       "date": "NOV 06",
       "date_iso": "2026-11-06T14:42:00.000Z",
@@ -1508,6 +1591,15 @@
       "text": "Explosion hits tanker off Oman near Strait of Hormuz",
       "source": "Hormuz",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5pQzVFZnYwR05JWFRXZXBRNTZibEVKVS1wVllCR0pkRnFud0NVNTd0LTVjQkdobXVpaDhENUdYbWUwN04wNTRXMnJqejRlRFViUlkzTHM1S19DWGZ2bTBtTDZBT2t0T3h0Y2dDRHRnWk43S1FHRHNucWFYdXcyZw?oc=5",
+      "auto": true
+    },
+    {
+      "date": "NOV 06",
+      "date_iso": "2026-11-06T12:24:36.000Z",
+      "severity": "CRIT",
+      "text": "Tanker reports explosion near Oman’s Khasab while transiting Strait of Hormuz, UKMTO says",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSF8wV2F6T1VYVGxHQS1pTkR4QjVjTHVLbFRmRW1HLWw0LWltbm1kSDVObWxwNkJIWlhZdEdBNWxRWmJRb0NjbThsaUQtN18tM3RaU21mb1lVRV9WMWJoODFPZHpiVlh5MU1SV09kU2ZvdDc1MUppYWpCVjBnaDFsZExyMjVoNFhRbFhpUW5kVmFkUzRXNE44Q2VaeHlnMnZjeU5TYWsyd3BESmxHSjZWeXhSZUNSaUlTUm1raXlSYlVUdkxfUXMzZlB4UkQ?oc=5",
       "auto": true
     },
     {
@@ -1827,6 +1919,15 @@
     },
     {
       "date": "NOV 04",
+      "date_iso": "2026-11-04T10:11:23.000Z",
+      "severity": "CRIT",
+      "text": "IRGC Claims Four Tankers Destroyed by Mines in Strait of Hormuz",
+      "source": "Hormuz",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcTM5em41SmJwVVRTeFEwdk9la2MySzJCTVhEZ3lZekdHUjEyWDFhRzk5ZEV6REFkY0haQXhnRWFkSUJqcEdFSkRyaXVxeF9tNW43UVJULTBqUmJlaGEydGVMUWFoSy04Q0loOXF0TEVySDN5bWdBN1VnXzlEb0xrNjg0VmZJaWFvZ3N2V1BlTmFjbG1GYmRIUmsyQmpKMUhkanc?oc=5",
+      "auto": true
+    },
+    {
+      "date": "NOV 04",
       "date_iso": "2026-11-04T08:43:31.000Z",
       "severity": "CRIT",
       "text": "Four oil tankers destroyed in Hormuz after hitting mines, Tehran says",
@@ -1887,58 +1988,13 @@
       "source": "Maritime",
       "link": "https://www.hellenicshippingnews.com/hormuz-oct-crossings-at-3-month-high-despite-attacks-red-sea-traffic-also-rises/",
       "auto": true
-    },
-    {
-      "date": "NOV 03",
-      "date_iso": "2026-11-03T22:00:53.000Z",
-      "severity": "CRIT",
-      "text": "Limpet Mines Return to the Gulf as Iran Strikes Four Tankers Near the Strait of Hormuz",
-      "source": "Maritime",
-      "link": "https://www.hellenicshippingnews.com/limpet-mines-return-to-the-gulf-as-iran-strikes-four-tankers-near-the-strait-of-hormuz/",
-      "auto": true
-    },
-    {
-      "date": "NOV 03",
-      "date_iso": "2026-11-03T21:56:15.000Z",
-      "severity": "CRIT",
-      "text": "US strikes in the Strait of Hormuz create more questions about what’s ahead",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSm84NGhVUERKRjBVVWdabGdpNkhxRC1RNnQwaklqWXVtbEk5VGJ3WWg5dHFQbFVNaDJTSEx4S2RSOUVNb0pWa0hmM000NnYxRVlHbEc5WmRuYVQ3MEVvRUg1LUF0TGJtVm5mNHhLZmZOc2taM0loVlpQSDFEbmdScC1QajlrSElObkNRQWJ1WGFSbTFFS1dGVkpaRGdCX0pGZ3RVbVlwaEgyQmtIdDdnaWlxbndIbjIwbE83aEtkUElmX0lVZjdKSW92SHQ?oc=5",
-      "auto": true
-    },
-    {
-      "date": "NOV 03",
-      "date_iso": "2026-11-03T21:55:40.000Z",
-      "severity": "CRIT",
-      "text": "U.S. strikes Iranian targets in the Strait of Hormuz, official says, leaving unclear what comes next - Pittsburgh Pos...",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWGRtWTlUNjI1eTFZR2F0cWwzdWVHN0tGY2VJYkRVVUZYSUhhTXQ1ZU4yV1dmOFVlbW42MWYxTXE2QnFFSmtaV0FUOUs5Xzc0MmZJQzctaTJVb2pkWThIVWxyc2FDM3Q3Tk0yaHZKeEp1RHAwMl9HUmxfT29HUUk4SElXWTNaTnRZN0Y2Z2JmTkZwQ2g4NXFycTdteXN0RllqMWtGbTNnZXU0eEtFWDBoejVB?oc=5",
-      "auto": true
-    },
-    {
-      "date": "NOV 03",
-      "date_iso": "2026-11-03T19:46:00.000Z",
-      "severity": "WARN",
-      "text": "Live Updates: Iran plays down hope for deal to end war after new U.S. strikes on eve of midterm elections",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbWVWWDlkaXg5ZDdDZ1c5R21YM3FiSm5xbkVDYTBFTHFQdmlLdFRCOFdBbWtNVjBBLVBmTVM3aUFQZGg2c3duOFFINjNKSkxTbkgwd2NXYXhZQ0hiM2FTYjdkTUk5V2g4ZFdiQnhGZmN1VklkQlozamlESzdYYWNmSFBZdw?oc=5",
-      "auto": true
-    },
-    {
-      "date": "NOV 03",
-      "date_iso": "2026-11-03T19:30:07.000Z",
-      "severity": "CRIT",
-      "text": "Renewed U.S. strikes in Strait of Hormuz raise questions about future of Iran conflict",
-      "source": "Hormuz",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQemNZVDNoZW1ZWnRxbXdDOEZQbnRZUXVWT1FuS01tR2ZjQnZLM2VCNjBsM3J4cTZKSGhBeTQxampnWlRoNUlxd3oxelJ3cjBBcHhENXFyV2lma2VjcWJzS3BSa2paUGJ5WnVCTDJUTjdiUDI0LXBnUnQwcnlOVlpRMnVvMHk?oc=5",
-      "auto": true
     }
   ],
   "sentiment": {
-    "bull": 4,
-    "bear": 2,
-    "neutral": 9,
-    "net": "LEAN BULL"
+    "bull": 3,
+    "bear": 0,
+    "neutral": 12,
+    "net": "BULLISH"
   },
   "vessels_attacked": {
     "count": 43,
@@ -2954,7 +3010,7 @@
     },
     {
       "t": 1793941200000,
-      "p": 98.04
+      "p": 98.16
     }
   ],
   "chart_wti": [
@@ -3964,7 +4020,7 @@
     },
     {
       "t": 1793941200000,
-      "p": 90.92
+      "p": 90.73
     }
   ],
   "signal_outlook": [
@@ -3981,7 +4037,7 @@
     {
       "name": "IRGC Activity",
       "severity": "CRIT",
-      "val": null
+      "val": "Iran’s IRGC says two tankers caught fire in Hormuz"
     },
     {
       "name": "Iran Sanctions",
@@ -3991,7 +4047,7 @@
     {
       "name": "Diplomacy",
       "severity": "WARN",
-      "val": "Iran Oil Exports Near Zero But Peace Deal Not Likely, FGE Sa..."
+      "val": "ADNOC signs 10-year LNG supply deal worth $3 billion with Gu..."
     }
   ],
   "chart_spread": [
@@ -5001,7 +5057,7 @@
     },
     {
       "t": 1793941200000,
-      "p": 7.12
+      "p": 7.43
     }
   ],
   "chart_sp500": [
@@ -6011,10 +6067,10 @@
     },
     {
       "t": 1793975400000,
-      "p": 7424.47
+      "p": 7391.49
     }
   ],
-  "latest_sp500": 7424.47,
+  "latest_sp500": 7391.49,
   "vesselCache": {},
   "synthesis": {
     "updated": "2026-07-30T19:46:28.788Z",
