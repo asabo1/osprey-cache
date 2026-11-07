@@ -1,12 +1,14 @@
 {
-  "updated": "2026-11-07T18:13:07.087Z",
+  "updated": "2026-11-07T21:52:26.389Z",
   "counts": {
     "total": 91,
-    "crit": 4,
+    "crit": 8,
     "warn": 3,
     "bySource": {
+      "MedPage Today": 1,
+      "Oxford Mail": 1,
       "PsyPost": 3,
-      "WDRB": 1,
+      "KLTV.com": 1,
       "The Globe and Mail": 2,
       "MarketBeat": 1,
       "azcentral.com and The Arizona Republic": 1,
@@ -23,15 +25,12 @@
       "That Eric Alper": 2,
       "Yahoo Finance Singapore": 2,
       "Daily Mail": 1,
-      "Earth.com": 1,
       "StratCann": 1,
       "Knewz": 1,
       "Petrie-Flom Center": 1,
       "Report.az": 1,
       "The Microdose": 1,
       "RouteNote": 1,
-      "Stocktwits": 2,
-      "High Times Magazine": 1,
       "Psychedelic Alpha": 1,
       "Newsweek": 1,
       "Wallpaper*": 1,
@@ -41,14 +40,11 @@
       "Bioengineer.org": 1,
       "12News": 1,
       "Vicente LLP": 1,
-      "Investing.com Canada": 1,
+      "Investing.com Canada": 2,
       "Yahoo News Singapore": 1,
       "Via TT": 1,
       "SSBCrack": 1,
-      "NewsBreak: Local News & Alerts": 1,
-      "Stocks Down Under": 1,
       "San Diego Union-Tribune": 1,
-      "10News.com": 1,
       "Stock Titan": 2,
       "Santa Fe Reporter": 1,
       "Patch": 1,
@@ -60,20 +56,22 @@
       "GE Healthcare": 1,
       "FOX 5 San Diego & KUSI News": 1,
       "Nature": 1,
-      "Investing.com Nigeria": 1,
+      "Investing.com Nigeria": 2,
       "kobi5.com": 1,
-      "Investing.com India": 2,
+      "Investing.com India": 1,
       "We Got This Covered": 1,
-      "kalkine.ca": 1,
       "Consequence of Sound": 1,
-      "Moomoo": 1,
-      "Yahoo Finance": 2,
+      "Yahoo Finance": 3,
       "Investing.com UK": 1,
-      "StreetInsider": 1,
       "Pluang": 1,
       "Yahoo Finance UK": 1,
       "Kalkine": 3,
       "Medical Xpress": 1,
+      "RealClearHealth": 1,
+      "Investing.com": 2,
+      "Daily Cal": 1,
+      "TipRanks": 1,
+      "Traders Union": 1,
       "FDA": 1
     },
     "byTier": {
@@ -82,6 +80,36 @@
     }
   },
   "items": [
+    {
+      "id": "0adda8606b94",
+      "time": "2026-11-07T21:47:22.000Z",
+      "source": "MedPage Today",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Oral LSD Drug Hits Phase III Endpoints in Anxiety, Depression",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Kcm42UnJ6YXBWaVR4SF9rNEZma1FvZG1VMmlRU0QtSldBQ2U2V2dPRV9uZHBjbUxUZjlSSEVfNXFVRHhDRFVhQmJQNnhsQ0x4ZXJqS09VaC1VQjF1eGhmcGo2Y3VMdnZ2ajFGaTZCOHY?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "c0c0f5b001b3",
+      "time": "2026-11-07T20:00:00.000Z",
+      "source": "Oxford Mail",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Oxford psilocybin depression study reaches final participant milestone",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSjlzRlh1c3BWOTVaeDVQYkJtNC1wOTltQWRUVXBBQlZ4NHdOUzFIOTVwaXlIVUk1S0t2cXptWF9KWGs2ZGlRR0hFX1EzZnVyOXFzVWEyLV9xbjFXbGtjUlRuU3RWS245UWJlUndKb1NPeDdDYklpTzV0TWZrLXRzMmlFSzVoeThnVUdjbHhkamVvSk1wd2dsWkxWekhWMkE?oc=5",
+      "tickers": []
+    },
     {
       "id": "c3a724a370ce",
       "time": "2026-11-07T17:20:32.000Z",
@@ -99,9 +127,9 @@
       ]
     },
     {
-      "id": "0cb1e42ec206",
+      "id": "3988ffc05de0",
       "time": "2026-11-07T16:55:00.000Z",
-      "source": "WDRB",
+      "source": "KLTV.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -109,7 +137,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Two men accused of handing out psychedelic gummies to nearly 15 kids on Halloween, police say",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOEIxdlhWWmRWeWl6bm9sd3ZSVzlaWG9WVEl6ZXJWaDg5MDc3MUpGZE9fYlNBc0hVb1gtSU1UNXNZWmM5UlVzYUhRZnZtcHRFaV9STzFBeENENFUxejNEZFZoUTA0M3JqMDVuTHhMUDlBNzR4b0ZjOFVkUEVCamUtMWlvSUJlSjZmelg0dGJZVDJRMGlkeXE4bUpWcWxMdU1KUnJzNjRCVU9jSUViTVNzb3JtWUJSdTln?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTG1EekFzdnFJRVBWTDR1Q3J4YVEtUUxTaU9DVmF6SWVvRExlNjFmTXVTZ0hnOTgzME9XUjFRT0dHeHlYc0hsYXAyM2JJYzNhQTJiQ2RyQ0hZd2pWREJBS2FURlEyNUxkZGpzc2dqZDk0ZXU1bUlvLU16Vi1hRmZ3c0NNQXdyUDZia3Vwem02LTdaZTRHTDNkT19Bd2piWmxwbi01WHVUZTRpVUtsbktnM09seEgycWc?oc=5",
       "tickers": []
     },
     {
@@ -349,20 +377,6 @@
       "tickers": []
     },
     {
-      "id": "3fe15536ea7c",
-      "time": "2026-11-06T20:12:21.000Z",
-      "source": "Earth.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Intensive breathing exercises can create psychedelic ‘tripping’ effects by changing how the brain talks to itself",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeG5LRTZrdHlaVGtzRHpwVWNQdFplanhMYjBVVVBrakZaQUljWG44ZVpob0UwUWZiSnRVUnJYcGlya1RKbkNZeV9wWlFCNE1rcXZJYWZxSGlPWVNyeXhsdkxHT2NoMkdVV1E4cXlmZWZabElYbWZmWXAyT3E1alVwQlpyY2F2Zm1JdTFzWjdUWnBkQm9CQWsyblVLQjdMMGxYTGRhT2hXTWR1MU05cC1ycXIyVE1teUdNXzRvSENMMzhEeDZjSnhmbVdKbS1OZkJmMU1YNlRYN2JBQQ?oc=5",
-      "tickers": []
-    },
-    {
       "id": "82db146df5f5",
       "time": "2026-11-06T20:09:19.000Z",
       "source": "StratCann",
@@ -463,54 +477,7 @@
       "tickers": []
     },
     {
-      "id": "d7fecfe984d4",
-      "time": "2026-11-06T14:49:51.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "CMPS Stock Clocks 25% Gains In August Ahead Of Application Filing For Drug, FDA Hearing On Psychedelics",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUxZYUtOSXZJR2c2WVhDS0p3SDZob1hRTXNsaG1uZHhQc3JqYkFaTTVEbU50WERaMEp6VG45dTIzNEV0TGxISnV0UkZCamlMT0xkY1ZGR254eHUwUm5ONzFKajZhRzRPZTVUSHRWWmlXcDNfVjd1NjN6VGxOWDJ0NXNPMHFIbE9hVDZRazZEUUhhempQeEoyWDFQVnBDb0lnWGxrbVNoSnJpdUZkVk91WC1kQjRrcXIzOHBab09SUDEzS2ZkVy0xX0txeGIzeFdRTkNmVTM2d2I3MWtFb0xxMHVyTTdDdDJkZFlpN2NWbXJhMW9nbmJ1X2xhdnQxTms4TW1j?oc=5",
-      "tickers": [
-        "CMPS",
-        "DRUG"
-      ]
-    },
-    {
-      "id": "fbfbf99c6c8a",
-      "time": "2026-11-06T14:09:00.000Z",
-      "source": "High Times Magazine",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "The Picks and Shovels of the Psychedelic Economy",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBJUFdmTEJzb19ZUlVWN3F5UWtEMXN0NWR0cVNJLWhmQmZGWDdJaWM1dzh2Y1JMWTlSZWdtNjJNVVdJNGJSSnk1dHpEU3BqemFvaFhJT052N3I3WmhIbkxSSnZ6elB3dnk2OUdsT1dXMUtxT3Vmb3RvYUc2bw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "ec6542a54c96",
-      "time": "2026-11-06T13:37:18.000Z",
-      "source": "Stocktwits",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Why Is ATAI Stock Soaring 59% After-Hours?",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ21TbUplOGM4VnM2dFQ1X2kydFJJdlRfZGxOSkRORUdmcWVqdExVMG95ZGNBUzRmSkQ4SDRrYzUzYjh1d3ZkcDhQbVRLMzdBbktaYkp1QkdnQjBmdmZqMC10OFpScDhVUzJVUmlMUDh2dl9ycXdzbzRvV1ZrM08tMFlQQTVlQXZGLThKWEFLT3pjcWZJM0hoajlUVTNsdWN6V0NOZmFySQ?oc=5",
-      "tickers": [
-        "ATAI"
-      ]
-    },
-    {
-      "id": "9b669aed8e44",
+      "id": "99ddee4f91e8",
       "time": "2026-11-06T13:34:35.000Z",
       "source": "Simply Wall St",
       "sourceKind": "gnews",
@@ -520,7 +487,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "COMPASS Pathways Stock In Focus As FDA Filing Nears Completion",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaHh0aEZUVHB0WTRiLU5QdFVHMUdIQl9BN25GTFhCdjd3NEtaQ0l0ZXBSWjNNVlVHeGEyZEQwdFRGcHV5elBUMkNIVU1Qd213YlM1a051SjVLY3k1RVdNaGRzNFQyMFdlUF83dk40X2hQb2N2TmZDUHpPQ2NkVEY1czBPRWVHNVp3V2RWN09WR25HTWZ6TGxCN21KaF9CZEdmclQ3T2p1a1lXTkM5bkpsSW1FNHBNVXdTOHdmUWNyR2k2aUVmaFdNVmc5WkwtWmRmNm05ak1WOW5wTXlFMHRMSTJnTUTSAeoBQVVfeXFMTS03aVdBaFAtNzgtNWVwZHdYeXItRm8tVXpheEkzVC1yN2M3RGMtM1BlX3pkTThDMHZiMHNLdHZiN0pTZXMxaXJsZnpxU1hWQmNOUmhRMm5jZlJhUjFCZFozT1RJQW1pODVYWFhsaXpGZWxQeXF3bVE0aU81aFRQQ3pZTVAxd1g1a0Fjb2FoMW4xUDVtSmgxZzYxeWo5NlQxNEpZYngtN3R6VHZPalQ5dFVRNW9FVWxPYVRBM1N2R3RyUFl2bGl0UjZ4VGZuamxaSldwemJPQkhaSU0zSUFYVDU3NURmU2hocF9R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLTdpV0FoUC03OC01ZXBkd1h5ci1Gby1VemF4STNULXI3YzdEYy0zUGVfemRNOEMwdmIwc0t0dmI3SlNlczFpcmxmenFTWFZCY05SaFEybmNmUmFSMUJkWjNPVElBbWk4NVhYWGxpekZlbFB5cXdtUTRpTzVoVFBDellNUDF3WDVrQWNvYWgxbjFQNW1KaDFnNjF5ajk2VDE0SllieC03dHpUdk9qVDl0VVE1b0VVbE9hVEEzU3ZHdHJQWXZsaXRSNnhUZm5qbFpKV3B6Yk9CSFpJTTNJQVhUNTc1RGZTaGhwX1HSAeoBQVVfeXFMTS03aVdBaFAtNzgtNWVwZHdYeXItRm8tVXpheEkzVC1yN2M3RGMtM1BlX3pkTThDMHZiMHNLdHZiN0pTZXMxaXJsZnpxU1hWQmNOUmhRMm5jZlJhUjFCZFozT1RJQW1pODVYWFhsaXpGZWxQeXF3bVE0aU81aFRQQ3pZTVAxd1g1a0Fjb2FoMW4xUDVtSmgxZzYxeWo5NlQxNEpZYngtN3R6VHZPalQ5dFVRNW9FVWxPYVRBM1N2R3RyUFl2bGl0UjZ4VGZuamxaSldwemJPQkhaSU0zSUFYVDU3NURmU2hocF9R?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -584,7 +551,7 @@
       ]
     },
     {
-      "id": "99edde6f08e0",
+      "id": "8d8529f630e3",
       "time": "2026-11-06T10:30:17.000Z",
       "source": "Simply Wall St",
       "sourceKind": "gnews",
@@ -594,7 +561,7 @@
       "direction": "BULL",
       "impact": "HIGH",
       "title": "Definium Therapeutics (DFTX) Posts Positive Phase 3 Data, Is The Pullback Making It Cheap?",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNlJlYUdBSDh4YzNqdmlwQlVwM2o1VnJnck1sYTYzd2M5aWwyUFpkV1dfUXJqUE1JaXB3dUhPRndtYkxSVE4xZ2JYOWZxNFVmZE5GREdkcUpUNEVFR05YbkNIaHVXcnhIZGU1dERTckpQdk4zODh0RjhDN3duU282R0tmOG9mY1d6NUpvVXpLanIySTVQSEhyYllaUU9xS2ltZEhydkNjaHl6aktwXzcxUHlrZkU1aEhtTmxsNTJxYjN5ME9LMk9YOFFfZTRKM0hsVHpCVXFpMUFFclBjb3M1cDRhYUNGOUZOQzlINFVFUkzSAfABQVVfeXFMTTZSZWFHQUg4eGMzanZpcEJVcDNqNVZyZ3JNbGE2M3djOWlsMlBaZFdXX1FyalBNSWlwd3VIT0Z3bWJMUlROMWdiWDlmcTRVZmRORkRHZHFKVDRFRUdOWG5DSGh1V3J4SGRlNXREU3JKUHZOMzg4dEY4Qzd3blNvNkdLZjhvZmNXejVKb1V6S2pyMkk1UEhIcmJZWlFPcUtpbWRIcnZDY2h5empLcF83MVB5a2ZFNWhIbU5sbDUycWIzeTBPSzJPWDhRX2U0SjNIbFR6QlVxaTFBRXJQY29zNXA0YWFDRjlGTkM5SDRVRVJM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRGpWQTFDcGtPZnplaTJqeXBGRHI3bC1xUFhEQ0pMeG5BMlhPTUx0cnljZU0xWVZDNmFUWmVYWWpoazlvZ1lNV255OEFDN2szdWNHRHFXbk9tb1RFaFd4M2FWX0V4RzQ4bzJxQ3BvNTJiZy1xY3BJZWJHbUZyRTVEMDJmY1hEd0JnSkpGTVI0U2FUMVJGdEluMVN4TGs2eWJ5NmlWZ0Y0bVVKWTJPSGFsVGpGVXJ1VHpnTFY4ZmZCeXJ3RVJUUXMtZGIxNXF4SzczTXl5MW1mY0FzWHkxa1RhNGFsNkZ5QWZNRUc40gHwAUFVX3lxTE02UmVhR0FIOHhjM2p2aXBCVXAzajVWcmdyTWxhNjN3YzlpbDJQWmRXV19RcmpQTUlpcHd1SE9Gd21iTFJUTjFnYlg5ZnE0VWZkTkZER2RxSlQ0RUVHTlhuQ0hodVdyeEhkZTV0RFNySlB2TjM4OHRGOEM3d25TbzZHS2Y4b2ZjV3o1Sm9VektqcjJJNVBISHJiWVpRT3FLaW1kSHJ2Q2NoeXpqS3BfNzFQeWtmRTVoSG1ObGw1MnFiM3kwT0syT1g4UV9lNEozSGxUekJVcWkxQUVyUGNvczVwNGFhQ0Y5Rk5DOUg0VUVSTA?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -758,20 +725,6 @@
       "tickers": []
     },
     {
-      "id": "684df6b566eb",
-      "time": "2026-11-05T19:43:38.000Z",
-      "source": "NewsBreak: Local News & Alerts",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Two men arrested after kids grab psilocybin gummies on Halloween",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeHhhTVZtem81WW1tTUh0UUJFZHVZcHR6Mks5TzRzV19MQ1FzdE9qZTQxWk1oLWhPblFCbGNuQUJjNGI0RGJVNjlqZHdwU2tJeWZ1d1hjS2hPUmFSeWswMUNXanV4SXdzaEtyYnh1ckx1aGk5YkRwOVcwZm93NWZiZDFwVkdqMlhWbV9LSGJBQWNCelZvT1JaWVNqQ0duQnlpSjdJTHZ4QkZHR0lwelpNcVhzbnhIRmJz?oc=5",
-      "tickers": []
-    },
-    {
       "id": "58c18e16b78d",
       "time": "2026-11-05T19:09:53.000Z",
       "source": "Yahoo Finance Singapore",
@@ -783,22 +736,6 @@
       "impact": "LOW",
       "title": "Is COMPASS Pathways (CMPS) Pricing In Too Much On Book Value?",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdkxmMjZIQWExcFRyMFBXQVFBbXBIaHllT2ZpUldGSVlIaGxHbDA1Wkl2UlpjTEU2WjlVQjNSUXZrcDFUcEZzTFk4NDcyN05nVEM3TjBJb1NTWFZzT1kxZlRyQnRBc3hINlB3X1F2Q0NwekZvbDl0bGduWjF4NExzZFZCTVcwZk5CUWc?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "3349f0c83146",
-      "time": "2026-11-05T18:44:00.000Z",
-      "source": "Stocks Down Under",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways (NDQ:CMPS): Can Psychedelic Therapy Become Mainstream Medicine? If So, This Company Is Well Poised To Win!",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHbHpHVEJabnVLYUwwMHFvNFVXRHlvMWdiek1uWUlzcmdpbUpuODE1bzR4eDUxTUhtZll0TTlmM0E2dnlBWVdzajlZT2JxUDYxRXh5TmxNUDEzTFNvZllSdzRJS3g2N2VCZ01XTDlQX2paWkZsQVhPYklR?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -818,20 +755,6 @@
       "tickers": [
         "DRUG"
       ]
-    },
-    {
-      "id": "57e433e35aa0",
-      "time": "2026-11-05T18:33:01.000Z",
-      "source": "10News.com",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Two men arrested after police search Ocean Beach home connected to distribution of 'magic' mushrooms",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb081UmFFMVdpOS1ySDljaHdydTdaaU5YVHhfMU40M2ttWVlFelBLbWR5R1ZpT1dDMy14NzlwNHhRX2tzV3BSanNocXk5ZHJsc01JVWRSQnZ4bDhRQXRUNTFoak1yaE1jTUozcS1EOW4teFZiQkJTa3ZSaGlNRTZDa0RtX0dWdndWWDlHUVE0N1lJeWk4ZTVMdVR2RU1OZ3l3OE1MLXhjZC1jT3k2MEM5VUFOeFIzTlFnTVF1Ry03NTVFTGlTN2ZYV0t0cndsaVdfSjFz?oc=5",
-      "tickers": []
     },
     {
       "id": "64bcfff66c4c",
@@ -1124,7 +1047,7 @@
       "tickers": []
     },
     {
-      "id": "3090a58f130e",
+      "id": "b75318d663fb",
       "time": "2026-11-05T02:54:30.000Z",
       "source": "Simply Wall St",
       "sourceKind": "gnews",
@@ -1134,7 +1057,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Should Raised Sales Guidance Require Action From Neurocrine Biosciences Stock Investors?",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOWnN3a3otRjVRbC1QZFJpRG1CSy1ycmtYeWFWNTRPeURJMnE4dEVybTdDaFBjbzc3N1F3WE9JdUpKdWc5WFNyTzRuYzZ5bWRwWGh5LThqTG0zQzBEV2R5SzNHNldiWjlIeVZ0d01kM2NkQTBBYmtlYTYybFJ0SU1IY3ppNUk4YlJYcFhTT3BCNHl6M3kyc2M5YllkSW8taFJZaEJwYmJtM1p3aU1wNjRtTTZHWjkzQmVlaEpILTJCbUhfc2RDMFYzandwZ242czZHNG9DeHpucTAxSzNURmpSXzJMdmJkR01EdkpBQThwbXXSAfABQVVfeXFMTlpzd2t6LUY1UWwtUGRSaURtQkstcnJrWHlhVjU0T3lESTJxOHRFcm03Q2hQY283NzdRd1hPSXVKSnVnOVhTck80bmM2eW1kcFhoeS04akxtM0MwRFdkeUszRzZXYlo5SHlWdHdNZDNjZEEwQWJrZWE2MmxSdElNSGN6aTVJOGJSWHBYU09wQjR5ejN5MnNjOWJZZElvLWhSWWhCcGJibTNad2lNcDY0bU02R1o5M0JlZWhKSC0yQm1IX3NkQzBWM2p3cGduNnM2RzRvQ3h6bnEwMUszVEZqUl8yTHZiZEdNRHZKQUE4cG11?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPVDJyYnVBa0tmcnVPelB5elVxMHkxS2lfbkFpdjgtcFlHbzY5MVNHN0hQQW9RczBtd01FZ0pZcW1QMUtpbW9pczFLcnAyNW00aHJ1bXd5RHJ4aExFbkhRRVFEdjBhZ2tXUmZ5dDJTdU0yWlRfTlN3eFhYeVp4U1JtcmhzWFlQSG9WOGlDc1dNWmdkempPUGxCRWNHTU41eUx4b0JYeU1lUE85RlBQOUhydEZfalVZdnFLS0pKZFN3SjRkTWxYTWFwX25vZE02ZS0wSjdNeVNPUnRadS0xUjQ3ZkFmTDI5aS1mbTlr0gHwAUFVX3lxTE5ac3drei1GNVFsLVBkUmlEbUJLLXJya1h5YVY1NE95REkycTh0RXJtN0NoUGNvNzc3UXdYT0l1Skp1ZzlYU3JPNG5jNnltZHBYaHktOGpMbTNDMERXZHlLM0c2V2JaOUh5VnR3TWQzY2RBMEFia2VhNjJsUnRJTUhjemk1SThiUlhwWFNPcEI0eXozeTJzYzliWWRJby1oUlloQnBiYm0zWndpTXA2NG1NNkdaOTNCZWVoSkgtMkJtSF9zZEMwVjNqd3BnbjZzNkc0b0N4em5xMDFLM1RGalJfMkx2YmRHTUR2SkFBOHBtdQ?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -1186,22 +1109,6 @@
       "tickers": []
     },
     {
-      "id": "8f393fb4694b",
-      "time": "2026-11-04T17:32:00.000Z",
-      "source": "kalkine.ca",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BEAR",
-      "impact": "LOW",
-      "title": "What Kept the Compass Pathways (NASDAQ:CMPS) Loss to USD 9.8 Million Before Its COMP360 Filing?",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc291T1ZtcFZ2S0NlYkxkNkF0T1VDT0F3OFlvZDFvTnpkNWgyajZkSkthVE9UaDV2NVBmcVdkZm1vUTlTZGlyOG9GT29vQUpjLUdtb2owelBWSjIxR1lNeFZ0TjdTaktXUzRQNloyaFVMQmNHNEdINkE3QTVkaE1kX1RGSDRpMHdrLWJXdVB1d0Zrby1lOWQ4UFlhV0JTLUpDRlVoNXM5eTRZTm1lX1BhSnQtTnNKVnRPb2xreVFhdENUQ1k?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
       "id": "056e4a7ee2ff",
       "time": "2026-11-04T17:17:00.000Z",
       "source": "Consequence of Sound",
@@ -1213,20 +1120,6 @@
       "impact": "LOW",
       "title": "Mexican Indie Standouts Ed Maverick and Little Jesus Join Forces on Psychedelic New Single “SAHUARO”: Watch",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYUs3NC02SENGWjgzQUFRTS1NXzUxNnZTb0JSZGhqU2dGWWUycl9rNUUtU3JTVUJVLWZydHlNbndGamRyN2laeHZvQS1seFQ4Y05RQjQtTDBFOUZBaHVIclQzTm1xWlJjM2RTZlZMVmU5UmRGWHFLM3lLd0JVeW5zT2U4OGoxZw?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "14bd46cddb88",
-      "time": "2026-11-04T17:04:04.000Z",
-      "source": "Moomoo",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways Remains on Track for COMP360 Launch Following Q3 Results, RBC Says",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORWowc0tDSWYzV1E0Y2JleWxvd3B4czQzTUZ1eVFnbndGQjltRWYxWmxULXo3SmNBVUpEMjdyQmRtZkRjU0h5M1FuOERqbmtkQ3VfQ2FzZXdSUG9JRDVLVjhRS0UzUk9DZkNIaXpKNmhLN3VuaVJmQTFOVHRUMWRZRGdiLWdhQ3ZaZThMcVF3bURGQWwzNU8xMHlZZllpMXlNdi1jSERib2lMSE91WEE?oc=5",
       "tickers": []
     },
     {
@@ -1262,22 +1155,6 @@
       ]
     },
     {
-      "id": "dc588b29d7ed",
-      "time": "2026-11-04T14:46:42.000Z",
-      "source": "Investing.com India",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways stock price target maintained at $21 by RBC Capital By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOeEpQanhkQVlwX2JQdUxkWVVjeHc3R2xydHJ1LWNTSHFDMThBTFVodng4ODlMQmJManN4WFRZX2xpdE9DbFJ5WXVhX3ZMbVRUTTY1VlRvazR4SEhtT0pfSXdrWE9GbW4tdUlFakJlSmFSOEpWR3RlSEtJN2pHZm1LN0oxdjl1S0oyVjBpUUIxa1AxZjI0VEY0UGRzREFNb0ZBYS1fdk5RYi1FQ3hYNEg3dzBHc0JXSExSc1hMdVNRdDdLaXh3eFZV?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
       "id": "33df59e8e2a8",
       "time": "2026-11-04T14:44:00.000Z",
       "source": "Investing.com UK",
@@ -1291,22 +1168,6 @@
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcWNteHFQZlZJTGR5OUduRmIzU1JNLXd1OTdpTEcwT2dqUlEzZm01dHlHTl9Kd1Z5ODF2U0VjVlhrVko5dVAxQmRWOXhOT2tnVndqRjN0V09EWmZDRWREVkxvbzhDUHJPUVMyMVNPWF85ZEUyTmFsUEZBenc4UkxaMzE3MmRLS0k2NHVkcHY4MUhHdnJESzMyaEFNWHIxN3J1bnF4T1lFUk13cHhNZ3BCa3hJU0dnZHZhRzd3U1V2V3hVMURxS0c4?oc=5",
       "tickers": [
         "NBIX"
-      ]
-    },
-    {
-      "id": "793904a9fecc",
-      "time": "2026-11-04T14:22:33.000Z",
-      "source": "StreetInsider",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "RBC Capital on Compass Pathways (CMPS): 'We See an Opportunity to Buy on Weakness'",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdWttVno4UjhNRzRMcWtDdXpWc0p6YlppNjJLcFJiUEhwSTBLZTBnUlZBSmZMMDRTM0g4cFI2RXRpSG5WTEVzV3BsZ2dENlJ0Vm5sZ3JGWnB2cWFCVTgtRTd6OG5kWHdUck9wWkhDOGtOdXV1bEU0LWJyYzRMeFdIZ0VLVk1WTmZQd3l6T2MtM0xQQ2NDOFppTXFhZzlPS2NudjNMQzIxRV9pVDEyenkwYW0yTDk5SnpiNFlnSFZJbXpwenNyRTBrSU5fNlpLNEl3VUhQWUd0dDMyNUFwMHNfNA?oc=5",
-      "tickers": [
-        "CMPS"
       ]
     },
     {
@@ -1434,6 +1295,147 @@
       "title": "Age may influence links between psychedelic use and mental health",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNHVRbjBYOFNZNGZSMC1oR2tZcnZHOVp4QzQ0TWF0eVJkVndlUEswWFF6X0R2MW5EUnU4QmI1YnpXQWtOTWFKVmNPYVFpd04xSEJLbWc0Ri1NVTllX0thR180QkZyN01IbURab3U2NWxjZXd2RmRuS1FfWXg4dktway1ncDNmQQ?oc=5",
       "tickers": []
+    },
+    {
+      "id": "5c940a2559a6",
+      "time": "2026-11-04T13:18:56.000Z",
+      "source": "RealClearHealth",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "FDA Approval Won't Be Enough for Psychedelic Medicines",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSE1NQTdYYkpwRXNPd3hReWl6bE5MMzh1MWowbFB5WFR0emtKSHJVNHUzRjBxNHR4UE9CRWtEdnFsOGNqRThOenlUbzVCbFItX1pIeTBHQlVPa2VtZUNDY29EN2h3T2lIZjVQbEx1Z0VLR1k5OUpLbjBUTUdnMzcwUHc4b1ZkSjB4dkp0SW1DeFA4aHRNd1JabER4dzRLS1psaGVoTVdyeTNqbHFOSlJRMU9iTUYzTXVkLWc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "84d2a205309b",
+      "time": "2026-11-04T13:10:11.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "H.C. Wainwright raises Alkermes stock price target to $50 on pipeline progress",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUWg1SmVTd2dzVkxjdHlMbE1BNmFRamYtRWdlbTAtRHpOMVoxUjY5N0M1Z1kxRHBkSFpEQjdZY3kxV2R5dG5yS25mTS1obkFMaFBmbE15WWhPMUgyS2p0N0VWcThFRDV1Yy1qck9NcXZsRXdpeG9RdXVfa2p0T1YzeHZPTXlxdi1BSGFPVzJuaFRZbTBFNmFLRzIzYjRyWnAzRHB1Znh5M3dQRmR2bHBKanRHQ0FlV2t4V0tyM1U5RVVjT3FoQ1hhRmR6SU5oWmZU?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "7939cfeee74f",
+      "time": "2026-11-04T13:00:00.000Z",
+      "source": "Daily Cal",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "What happens if you give a mouse a magic mushroom? Not much, UC Berkeley researchers say",
+      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNZWZudW9iZUY3bElRNlJ0NWNVNEJFaFVVZU1LeEVYZHdKd0V3T2hIbXpqNnRlRnRMWmZteTE4ZEZTakd5U2ptbzVLOW1rN3Rrb3RwNHVzX2VMOUp5X3EyYmZZQ3NDUTNTek90YS1DNW9PYjJVNjV0QjRhT2JCdGgyZ2JzakRtT2lXRUl0bjlhdWhVRGNCYUhRbXZpQ3lOTnJjN1Ruc0ZCY2VzSjlLQVdSTDEzdmhObTIwUlBMWDNvcHV4RDNCUnlUXzg3MndZMVVtT1ZuOFg0YzhYS09SdU53UXQ5ajBoSlhPOVU5TmtGczl3cHpyTzcyNHNxbFpVWlI3d3VLVE1FNm83bEpGWVFDZ1QyNGpGLWc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "557b6ce4dcf7",
+      "time": "2026-11-04T12:58:32.000Z",
+      "source": "Investing.com Nigeria",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium to present DT120 anxiety, depression data at congress By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSE5rdW43akZNdVFWb1NtMllsVGVfNlpxY1k3Z0x5SEIxVUdfZ2lrNjJ6TzZXMFFFc3AxZTR1ZV9lbzJmcUNfZW9xRzB6SGdLb1dIVVdHOFk0cTBoVG11Znc4d3VfZTB3ekQ2bWc2RWNEakZLX3FQNi1MdUNxSGxQZF92MWZNazFqN0V6cHhzVHBFZlhLR0Z6djlRMk5rU2V5N0hmZXM2dTZmbC0zUFJxUml4SHpFUVctbEdKTVdtQQ?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "515fd4124767",
+      "time": "2026-11-04T12:40:59.000Z",
+      "source": "TipRanks",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BEAR",
+      "impact": "HIGH",
+      "title": "Definium Therapeutics presents Phase 3 data for DT120 ODT at NEI Fall Congress",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNGJyajR3ZWg1TFE0VTdnT3JlMW9fenJJX1FMcmR1RlhhenZKby1XYnZMLVFGUFBjcXdiT0NvQWRTellvOWlRdnNfUm92cEFFMW43dVhFWjA1RTN2N3JYQ3k5aDNzS3NtU3dSSkRqMC12N0lBSEw1ekFjRkg2bmNaeTNWYndMa3Q1NVdKWkJueS1RakNpdkJ1R1Bubk1fQWRfa3ZUUzZ0NHM2eEcxeFNvZnQ4NnR3NTlHQ3l1dWIybTB5SXZVLUFV?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "48e7dbc82a66",
+      "time": "2026-11-04T12:15:32.000Z",
+      "source": "Traders Union",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "CRIT",
+      "direction": "BULL",
+      "impact": "HIGH",
+      "title": "Definium Therapeutics unveils positive topline data from DT120 program at medical congress",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVThPOGVCQWtvVy1JbWFjQXBSekNnWG1Pbm5pcXpLX1BQbHlxMmdMOUNPemtKSGNCVHVuSXBKa1IwTzg0NzFLOVV3a3oyUTNUTjJKU0JHeHFkREVZZlkzVi1pWWZmT0gwNHI3a3JZRVVUVzk1ZlNRdmZWdlllMjZqM2Z6N25zcVJQWWc?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
+    {
+      "id": "fe3cca55197d",
+      "time": "2026-11-04T12:15:13.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Alkermes (ALKS) Stock Could Be Overvalued Following ALKS 7290 Trial Launch",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQamhYR2huRXRhLUJhWHV2V1NWWEx4cDhCbC1vVVVHcXg3SjJrNmZVVjBzUzdMMWtUeE1KcnFvTnhZZkp0Q0NzRWpRSERZOU9lTTFMTVdiMDdjYzR2N1lUS3RNZ3VDOUdsY01JMXZiTEpHS29oc1NlMVR0ejNlaGV4Uk8yY3NIaUQ3QUJFYzRsbm5aZ2Zqa1JNYjBETWhaamFCVVpz?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "68160fe8f17b",
+      "time": "2026-11-04T12:12:59.000Z",
+      "source": "Investing.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Wells Fargo raises Alkermes stock price target on sleep drug potential",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPX3N4X2dLZG1rZzV3NUcyX28wZ2tkWVo5a3ZRWm5ESldORHZXbGxhckRXYVhXVHZFR041MzlTT2M2Z1dGa0R5bGhLQ051cVFXU2ctWmpKV1lRaHlNM04yN0liU1R6WlZZUzBTT2MtRW94VXd1M2JBSGExTW11N0FXRURHcGNtRXJ0cXh3LUttS3M1TXQxZ1BaTVE3ZWZLNnRJRk56QVlZcmRxdHZMaWZmNHhIRFJDTDlrWUVVakk3QUlZcWNwOEFmTkdn?oc=5",
+      "tickers": [
+        "DRUG",
+        "ALKS"
+      ]
+    },
+    {
+      "id": "8a1fa4d00cd2",
+      "time": "2026-11-04T12:09:19.000Z",
+      "source": "Investing.com Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Guggenheim raises Neurocrine Biosciences price target on revenue beat By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOFV4dE1qcmhZdG1iWF9jUUFOUHNCbWRMb1ZoRE1QZTJKTE52UXNwdWZJakVqNUhsWFh1MzVLeG5xSG5GTFZTMTVBNHBfTmc2NE1WcExSTXlxZkxCZmZKVXY4X0VoVjF5VjNSMEpsXzlia0ZkTUdyMVlqZ0x6RDRwTGtvRkIxdVlSN3RVSVFDcnJHdHZWb2p2aHpmcHR1dElLcWtaOTU2MFZ4R3dIUnhMN3VqNTVSX2J1NWpJYS01M2xCTmJyV1lZZmFn?oc=5",
+      "tickers": [
+        "NBIX"
+      ]
     },
     {
       "id": "4cc6fa18388c",
