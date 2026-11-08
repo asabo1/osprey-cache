@@ -1,14 +1,16 @@
 {
-  "updated": "2026-11-07T21:52:26.389Z",
+  "updated": "2026-11-08T00:56:52.174Z",
   "counts": {
     "total": 91,
-    "crit": 8,
+    "crit": 7,
     "warn": 3,
     "bySource": {
+      "New York Post": 1,
       "MedPage Today": 1,
       "Oxford Mail": 1,
+      "Yahoo Finance Singapore": 3,
       "PsyPost": 3,
-      "KLTV.com": 1,
+      "KTIV": 1,
       "The Globe and Mail": 2,
       "MarketBeat": 1,
       "azcentral.com and The Arizona Republic": 1,
@@ -17,24 +19,21 @@
       "BBC": 1,
       "cbs8.com": 2,
       "Flickering Myth": 1,
-      "Publishers Weekly": 1,
       "Science Daily": 1,
       "GuruFocus": 1,
       "NBC 7 San Diego": 2,
       "scanx.trade": 1,
-      "That Eric Alper": 2,
-      "Yahoo Finance Singapore": 2,
+      "That Eric Alper": 1,
       "Daily Mail": 1,
       "StratCann": 1,
       "Knewz": 1,
       "Petrie-Flom Center": 1,
       "Report.az": 1,
       "The Microdose": 1,
-      "RouteNote": 1,
+      "Stocktwits": 1,
       "Psychedelic Alpha": 1,
       "Newsweek": 1,
       "Wallpaper*": 1,
-      "ABC News - Breaking News, Latest News and Videos": 1,
       "SFGATE": 1,
       "The Santa Barbara Independent": 1,
       "Bioengineer.org": 1,
@@ -44,23 +43,24 @@
       "Yahoo News Singapore": 1,
       "Via TT": 1,
       "SSBCrack": 1,
-      "San Diego Union-Tribune": 1,
+      "NewsBreak: Local News & Alerts": 1,
+      "The Mercury News": 1,
+      "10News.com": 1,
       "Stock Titan": 2,
       "Santa Fe Reporter": 1,
       "Patch": 1,
       "The Coast News Group": 1,
       "BioSpace": 1,
-      "citybiz": 1,
       "PR Newswire": 1,
+      "CoinCodex": 1,
       "Seeking Alpha": 4,
       "GE Healthcare": 1,
       "FOX 5 San Diego & KUSI News": 1,
       "Nature": 1,
-      "Investing.com Nigeria": 2,
+      "Investing.com Nigeria": 1,
       "kobi5.com": 1,
       "Investing.com India": 1,
       "We Got This Covered": 1,
-      "Consequence of Sound": 1,
       "Yahoo Finance": 3,
       "Investing.com UK": 1,
       "Pluang": 1,
@@ -68,7 +68,7 @@
       "Kalkine": 3,
       "Medical Xpress": 1,
       "RealClearHealth": 1,
-      "Investing.com": 2,
+      "Investing.com": 3,
       "Daily Cal": 1,
       "TipRanks": 1,
       "Traders Union": 1,
@@ -80,6 +80,20 @@
     }
   },
   "items": [
+    {
+      "id": "5b9140b0727a",
+      "time": "2026-11-08T00:36:00.000Z",
+      "source": "New York Post",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Daughter claims 'witch house' feud behind dad's arrest in Halloween mushroom gummy case",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSGpZS2hUbW5xcWdqVWNmc2hkbzFwTHlCRnhTOVE3U2tCYXBKdHBPbm91Y3BXNTgzcFVRMmdMS3dJR2ZIMURrREVkZE5HVjJnaVFJUjhrYTF6VlR5M20xb3hGOEhON1d2Wi1VMXUzX3Zvb0xzLTdfMTdhUTV6Yy1Jd3ZYXzhQSVpJdVJ6MGxNOHJqSEJpcjljcEV0YXh1Xzl5TVFvYklTVXZ1eE1DYXVud1NXaUxQMjhHZm5idHRZVEI?oc=5",
+      "tickers": []
+    },
     {
       "id": "0adda8606b94",
       "time": "2026-11-07T21:47:22.000Z",
@@ -111,6 +125,22 @@
       "tickers": []
     },
     {
+      "id": "4cc6df9c71b2",
+      "time": "2026-11-07T18:50:50.000Z",
+      "source": "Yahoo Finance Singapore",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRX Pharmaceuticals Inc (B1Q.HA) stock price, news, quote and history",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9JRjF2elFQUno2TWIyVVpvNDlXQjgwak9YVk01cmU5UFFqaTFIaWo5Wi1qMHMwSmVhemQ1WVVEX1NZY0RDTmV6UUdaR2JlSzF3MFJURA?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
       "id": "c3a724a370ce",
       "time": "2026-11-07T17:20:32.000Z",
       "source": "PsyPost",
@@ -127,9 +157,9 @@
       ]
     },
     {
-      "id": "3988ffc05de0",
+      "id": "435d23ff68a8",
       "time": "2026-11-07T16:55:00.000Z",
-      "source": "KLTV.com",
+      "source": "KTIV",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
@@ -137,7 +167,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Two men accused of handing out psychedelic gummies to nearly 15 kids on Halloween, police say",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTG1EekFzdnFJRVBWTDR1Q3J4YVEtUUxTaU9DVmF6SWVvRExlNjFmTXVTZ0hnOTgzME9XUjFRT0dHeHlYc0hsYXAyM2JJYzNhQTJiQ2RyQ0hZd2pWREJBS2FURlEyNUxkZGpzc2dqZDk0ZXU1bUlvLU16Vi1hRmZ3c0NNQXdyUDZia3Vwem02LTdaZTRHTDNkT19Bd2piWmxwbi01WHVUZTRpVUtsbktnM09seEgycWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcFdaYWxnY2lLUkR3YWpmTldzU0IwamI3NmVtdXJhTlEzcHVVQ1RvVTUtVWZtUXpydktJMUVpNlJpUXVXM3J3XzcyeHlFXzFrd0dkVVZjRF9MNVNYN0NzcmVNTllRS3NDT3ptVUtWS200WHh3MFU5WUJFMm5FZnkwQmU5R0lEZ0NPdXN0ZWFnNlZFX3E2dmUzUUlDejd0Q201bExCcElWaHJIaGhxM0REU2tTckJBVkE?oc=5",
       "tickers": []
     },
     {
@@ -256,20 +286,6 @@
       "impact": "LOW",
       "title": "Psychedelic documentary Magic in the Mundane unveils trailer ahead of digital release",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZEJSOGJEQm52ZzhUemRJVFU5c3loaHVZeE5sN05aTlVNRXM5SnUwaFdyTWs5cTk2QlRhWWxmNUVXekJfZ2ozV1QzOGlaMUdNTFRYWUdfLUtJSHhTZnZiUExNV3REUU1nbjRVVWFQMnYtSlI1cjJFNjQtN0lQSWRQa21rMlJnTlBwb2JQUXFCSkJERnpTMHg5YXFZOF93U3dFRDR5NkJ3TGdGbzc2SHhBNDhMNmdHNW5J?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "20329bac9064",
-      "time": "2026-11-07T01:51:49.000Z",
-      "source": "Publishers Weekly",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "AAR/SBL 2026: Jaime Clark-Soles Says Amen to Psychedelics",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS0ItX29ydVJxOTNrZFY4RjhZTERXbDJ0RE4ydDNhUG83a0tfVDZaOTU4YVBYTDYydUxndHcxME44X19HZndQRFp6UXVFUi1tWHZzeVdCc0haZXQxSVBtZi14MHY4QVBGY2JhUGtoRVpoT3VlM3pfZGNTV2ZOaFQ2QXM1c1p1LUtzbjQyZTBONW1vZXpMNXRHeDVvQkRnREdJN3BuMXA0WV9lOEswd242cWJDOGhCVHFKX3RsaVV0b0x3eFBCakdUQ1VKa2ljVEZ1WHgyOA?oc=5",
       "tickers": []
     },
     {
@@ -421,20 +437,6 @@
       "tickers": []
     },
     {
-      "id": "21287f34bea3",
-      "time": "2026-11-06T17:42:48.000Z",
-      "source": "That Eric Alper",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Stephanie Gilbert Unleashes Psychedelic Glam Rock On “Lovers Do” From Debut EP ‘Elvish’",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYVYwSy15ZENrc2ctLWlyU19MVzVicnhvZ3ZobnVtZk1pUjh4czdBVmdmUUhHV0xxcXE5RmlVZnRGVkt3aVJ1bG1kWXN4cEhJX2hUZHVHaEVSVy1ZOGUxQWlXa2pZd1VSUlhVLW4wcG15dlpseFhRbWlUa2tTelFQd3YwaFdDWjFJRXZ5WS1XdXNYaF82c2FTUnNXeGc0aFRkUVl1LXNKVUNzQ1d3WGlTVDlWVlppQlJscVd0anZIZkJvV3M?oc=5",
-      "tickers": []
-    },
-    {
       "id": "f5b0150806df",
       "time": "2026-11-06T17:19:24.000Z",
       "source": "Report.az",
@@ -463,18 +465,21 @@
       "tickers": []
     },
     {
-      "id": "1151e229e101",
-      "time": "2026-11-06T16:05:00.000Z",
-      "source": "RouteNote",
+      "id": "d7fecfe984d4",
+      "time": "2026-11-06T14:49:51.000Z",
+      "source": "Stocktwits",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "sector",
+      "category": "regulatory",
       "severity": "INFO",
-      "direction": "NEUTRAL",
+      "direction": "BULL",
       "impact": "LOW",
-      "title": "15 Songs Like Tame Impala and JENNIE’s “Dracula” for Psychedelic Dance-Pop Fans",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQjJEM2ZEME5veUc2WlZWWlU4cFFzTHktSkVoZ1ZyZGhCUUJxYm9reE1KTk9ITFpfNVVQZGJIXzBodm50U2dKbUQxekI2Q2phX0lDQUtRRmExQjJERkZyb3FhR1hqTE5tSlNuV2EzaXFhRFQyUmNFWDRTUFZFX2tpMm9Cdm5PRDFZR3hFcDVWNW0wR0stLTlpc0dEUV9HZHVfRTUweHgzc0c?oc=5",
-      "tickers": []
+      "title": "CMPS Stock Clocks 25% Gains In August Ahead Of Application Filing For Drug, FDA Hearing On Psychedelics",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUxZYUtOSXZJR2c2WVhDS0p3SDZob1hRTXNsaG1uZHhQc3JqYkFaTTVEbU50WERaMEp6VG45dTIzNEV0TGxISnV0UkZCamlMT0xkY1ZGR254eHUwUm5ONzFKajZhRzRPZTVUSHRWWmlXcDNfVjd1NjN6VGxOWDJ0NXNPMHFIbE9hVDZRazZEUUhhempQeEoyWDFQVnBDb0lnWGxrbVNoSnJpdUZkVk91WC1kQjRrcXIzOHBab09SUDEzS2ZkVy0xX0txeGIzeFdRTkNmVTM2d2I3MWtFb0xxMHVyTTdDdDJkZFlpN2NWbXJhMW9nbmJ1X2xhdnQxTms4TW1j?oc=5",
+      "tickers": [
+        "CMPS",
+        "DRUG"
+      ]
     },
     {
       "id": "99ddee4f91e8",
@@ -533,22 +538,6 @@
       "title": "The 1970 psychedelic Porsche 917 racing car that pre-empted the art car movement",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1RRW41bnlCUWc1SG1iRFUteTJpcXlrMzBGcnVqVUpOYlR4cjQ1bUcxVmxiV09pRFJQNXQ3bTNpY3ZRQUZLWndDdkdXNFVnTGF5TDV6ZmtPZkhkWFJSdm1oQXRVOUE4V1RuU0tlNG03RWphNVVnc3JIMjFDZEJ2UQ?oc=5",
       "tickers": []
-    },
-    {
-      "id": "b587cbbe3cf1",
-      "time": "2026-11-06T10:42:53.000Z",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Trump signs executive order accelerating research into psychedelic drug therapies",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR1BvY29qdzU3bm1lUEVOWUJHenU5OEpCdkxUajRMdmoxSlpORE9PRTBudnVUd0lkNF9wVzRkUldfbGFDUkNzWXJnb3VpRGp3N0hpaUotTUhBRjFoVnRtWlMtdnNwUjIzSUJnRjNQLXU1YXMyMWxucHNUVWJuWnJvNXVqZmFobEh0aWxmSGFSLXpVel9Wb0ZUVmlrX1FXaXNyRU90ZEw5RUNyV1JOU1JxWE5B?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
     },
     {
       "id": "8d8529f630e3",
@@ -725,6 +714,20 @@
       "tickers": []
     },
     {
+      "id": "684df6b566eb",
+      "time": "2026-11-05T19:43:38.000Z",
+      "source": "NewsBreak: Local News & Alerts",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Two men arrested after kids grab psilocybin gummies on Halloween",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeHhhTVZtem81WW1tTUh0UUJFZHVZcHR6Mks5TzRzV19MQ1FzdE9qZTQxWk1oLWhPblFCbGNuQUJjNGI0RGJVNjlqZHdwU2tJeWZ1d1hjS2hPUmFSeWswMUNXanV4SXdzaEtyYnh1ckx1aGk5YkRwOVcwZm93NWZiZDFwVkdqMlhWbV9LSGJBQWNCelZvT1JaWVNqQ0duQnlpSjdJTHZ4QkZHR0lwelpNcVhzbnhIRmJz?oc=5",
+      "tickers": []
+    },
+    {
       "id": "58c18e16b78d",
       "time": "2026-11-05T19:09:53.000Z",
       "source": "Yahoo Finance Singapore",
@@ -741,20 +744,32 @@
       ]
     },
     {
-      "id": "24793e3f415c",
-      "time": "2026-11-05T18:39:28.000Z",
-      "source": "San Diego Union-Tribune",
+      "id": "d36dbf24d8ce",
+      "time": "2026-11-05T18:38:36.000Z",
+      "source": "The Mercury News",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Arrests made after parents complain drug-laced gummies left on Ocean Beach porch on Halloween",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWFZpNW5aR25Tcmg0S1FHYnR0aVdWRkUyOU93THAzNklFLUxqRlV5U2xJSWktQ1IwVWtFZW4wd1ZFVzExMTNxbWxvNjZSemY4cUhPcFZwMWxBcDlZWkFUb3pYYnBWMVNJRmltTDUtYVByU0ZuaDU5OF80V3hDZ1FVT0FMNTBhOXYzaEgzRnBWVHR0cXVNaVc5Q0QzSGNfVThHMEozSWZtSDJULTZaQTh2cGgwTVNHa19RODJvWkF3NjJabDhrS3F0WnhWeXlRSTVQb243R0hLMFZZUQ?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
+      "title": "Police find drugs and weapons in California home tied to psilocybin-infused Halloween gummies picked up by children",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRVdLQkRNb05HVUdzSi1uZjN3MWs1ZHNDVzRWci1WdndQUHdLV3pMRGRYRkFPWl84c21rdndaUk1uRHQtYmZrT2gyMXRaUlZtcVFkQUswVGttNG85QXpiMEdKNEd5T1AxdVhwOVpxeU5wdDBtd05IaEVBZ3J3SDRoUGlFRmhKNVJHRTdSU2dEbFR2QjBEUGU4dVUtOGRNTENwM3ZMOVpHRkNMb1gtY2NKelZsVEozOElXQkJmZzVLb3RzYlYyd0NfeDNZV2V5QQ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "57e433e35aa0",
+      "time": "2026-11-05T18:33:01.000Z",
+      "source": "10News.com",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Two men arrested after police search Ocean Beach home connected to distribution of 'magic' mushrooms",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb081UmFFMVdpOS1ySDljaHdydTdaaU5YVHhfMU40M2ttWVlFelBLbWR5R1ZpT1dDMy14NzlwNHhRX2tzV3BSanNocXk5ZHJsc01JVWRSQnZ4bDhRQXRUNTFoak1yaE1jTUozcS1EOW4teFZiQkJTa3ZSaGlNRTZDa0RtX0dWdndWWDlHUVE0N1lJeWk4ZTVMdVR2RU1OZ3l3OE1MLXhjZC1jT3k2MEM5VUFOeFIzTlFnTVF1Ry03NTVFTGlTN2ZYV0t0cndsaVdfSjFz?oc=5",
+      "tickers": []
     },
     {
       "id": "64bcfff66c4c",
@@ -847,22 +862,6 @@
       "tickers": []
     },
     {
-      "id": "31c19295cb80",
-      "time": "2026-11-05T13:51:27.000Z",
-      "source": "citybiz",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "BioAdaptives to Acquire Xycota Biosciences, Expanding Into Psilocybin-Based Drug Development",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYVY1bWdUZmU2V3V0TF9CX1d2bTdfeWJlRVg5QnJneWJEUi1zWGdueTFIVjZJNzFnZC14NlNzQkhaVHVuOFJZMFZlZ1B0TmdVemRBZVE0OVhGTThnSlFZX1ZGbndaUVRzQXUyWDlZdkpTYWlfb0w3X3htdzUzSnR1VHF6M21lMHZGcF9ST2t1OEdwOXlDQmE2d05oelJCUUJONmVfdWd0ZFc0YkpuQ0RzV2REd2I0YS1pdzVwZGh0LUt2YnItdFlCa2ln?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "6defb799286c",
       "time": "2026-11-05T13:30:00.000Z",
       "source": "PR Newswire",
@@ -892,6 +891,22 @@
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEhQMVdHQWY2Z3VSZWt5YVdoMERXQTJxM0VCeWxOMGFnNGRvbzBoeEJ2YnZSVUo3Rm9PM3h2U1BHOGRsMEdWN1BxSFlOMnZBS2d5RWF2TFFLQ0JlbzctWEV5TVlyQkxwckFxdUhjb2pDLW1EaWJwNUUzUklMeVdlVWlQVERTclEwNjF1dFlrR3EtV1FlVDdEbFFHUVpnT0tBVnJVZzVXZXZPcGJMV3VQbGJ5UFJqb2c?oc=5",
       "tickers": [
         "NBIX"
+      ]
+    },
+    {
+      "id": "715c6bf9e66b",
+      "time": "2026-11-05T12:47:00.000Z",
+      "source": "CoinCodex",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Definium Therapeutics (DFTX) Stock Forecast & Price Prediction 2026–2030",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9wWGIwU2p0dEdiZlBsTVFoR01Kby0zVmJZNUdmSEtCMEZyYld4MFo3S19KZVBWUl9IbklBTHdOb21IdlJYblpnUl9iSG4wX3Z5eWV2QWJGSEVVWFg1clc0?oc=5",
+      "tickers": [
+        "DRUG"
       ]
     },
     {
@@ -1106,20 +1121,6 @@
       "impact": "LOW",
       "title": "Furious San Diego parents confront adults who allegedly gave their kids psychedelic gummies instead of Halloween candy",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaFV4QzdicG9qbVN4eXU4T2NERTRfVDFGNEhtWDJ1emlEN3BxYU9nMFUwdW5xWjVqZjFZMkZMZ1hJemcwY3oyWm9OQ3BqcTZMMUU1YnluRVV6X0lXd3JJYWNCTV9vVjdJcTBNUnVUckNjM1YxbEtlVkFSNnVmWERIVkFHZGZYOXFUMHZpMEhYQlNpZ083NC1XdHQ4aC10UzAwWjRYeWhoSHZ6cDM3TjR5Z0hERHdoUmtnOE1SZlBuWWp4SUI1ODM2bHdrLTVBbmt3b0JuT3I1Zi0zdWF3d05YTU5uVktmVUl6?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "056e4a7ee2ff",
-      "time": "2026-11-04T17:17:00.000Z",
-      "source": "Consequence of Sound",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Mexican Indie Standouts Ed Maverick and Little Jesus Join Forces on Psychedelic New Single “SAHUARO”: Watch",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYUs3NC02SENGWjgzQUFRTS1NXzUxNnZTb0JSZGhqU2dGWWUycl9rNUUtU3JTVUJVLWZydHlNbndGamRyN2laeHZvQS1seFQ4Y05RQjQtTDBFOUZBaHVIclQzTm1xWlJjM2RTZlZMVmU5UmRGWHFLM3lLd0JVeW5zT2U4OGoxZw?oc=5",
       "tickers": []
     },
     {
@@ -1341,17 +1342,17 @@
       "tickers": []
     },
     {
-      "id": "557b6ce4dcf7",
-      "time": "2026-11-04T12:58:32.000Z",
-      "source": "Investing.com Nigeria",
+      "id": "153b3196f07f",
+      "time": "2026-11-04T12:54:27.000Z",
+      "source": "Investing.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "regulatory",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Definium to present DT120 anxiety, depression data at congress By Investing.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSE5rdW43akZNdVFWb1NtMllsVGVfNlpxY1k3Z0x5SEIxVUdfZ2lrNjJ6TzZXMFFFc3AxZTR1ZV9lbzJmcUNfZW9xRzB6SGdLb1dIVVdHOFk0cTBoVG11Znc4d3VfZTB3ekQ2bWc2RWNEakZLX3FQNi1MdUNxSGxQZF92MWZNazFqN0V6cHhzVHBFZlhLR0Z6djlRMk5rU2V5N0hmZXM2dTZmbC0zUFJxUml4SHpFUVctbEdKTVdtQQ?oc=5",
+      "title": "Definium to present DT120 anxiety, depression data at congress",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ1R6dlQtNVRSWTRsb1VQaW1hMzJ4cWkyMFBYalg1YU1YNXhRc1Zmbm9ucWZKUDRxNFVvNTR5YmI2NXVwakxuRk14V3JvZlNKdkhaUkNsaTBKQWI4dFpmRGVaeWE3Nmt5QlJQM3Ytal9BNjN2Q0QxbGc1dXhwWVlRR3pkNmhxZjc4a29oNDd2NWxXcnJEVDhSZDg4X1JRT1dLdHktYW1OTkgzUmFweG9IUV90QUZjd2h6V1E?oc=5",
       "tickers": [
         "DRUG"
       ]
