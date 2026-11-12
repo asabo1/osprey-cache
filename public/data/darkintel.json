@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T12:27:40.543Z",
+  "updated": "2026-11-12T13:33:16.593Z",
   "sources": {
     "portwatch": {
       "ok": true,
@@ -191,26 +191,26 @@
           "cargo": 2
         }
       ],
-      "lag_days": 4
+      "lag_days": 5
     },
     "nga": {
       "ok": false,
-      "error": "HTTP 503"
+      "error": "Request timed out after 10000ms"
     },
     "adsb": {
       "ok": true,
       "sample": {
-        "total": 83,
-        "military": 1,
+        "total": 75,
+        "military": 3,
         "mil_method": "dbFlags_bit1",
         "types": {
-          "unknown": 11,
-          "A320": 10,
-          "B77W": 7,
-          "B738": 7,
-          "B38M": 6
+          "A320": 13,
+          "TWR": 11,
+          "B38M": 10,
+          "A20N": 9,
+          "B77L": 4
         },
-        "observed": "2026-11-11T12:27:40.543Z"
+        "observed": "2026-11-12T13:33:07.112Z"
       }
     }
   }
