@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T20:59:25.090Z",
+ "updated": "2026-11-15T01:00:47.586Z",
  "window_days": 90,
  "source": "SEC Form 4 XML, transaction codes parsed; only open-market P counts as buying, only S as selling (awards/exercises/gifts/withholding ignored)",
  "totalClusterBuyers": 6,
@@ -132,10 +132,10 @@
   },
   "ALKS": {
    "buyFilings": 0,
-   "sellFilings": 5,
+   "sellFilings": 4,
    "clusterBuyers": 0,
    "buyShares": 0,
-   "sellShares": 22679,
+   "sellShares": 15103,
    "latest": [
     {
      "date": "2026-11-03",
@@ -164,20 +164,6 @@
      "code": "S",
      "shares": 9000,
      "price": 46.986
-    },
-    {
-     "date": "2026-08-17",
-     "owner": "Nichols Christian Todd",
-     "code": "S",
-     "shares": 6912,
-     "price": 49.1851
-    },
-    {
-     "date": "2026-08-17",
-     "owner": "Nichols Christian Todd",
-     "code": "S",
-     "shares": 664,
-     "price": 49.6526
     }
    ]
   },
@@ -279,25 +265,6 @@
   }
  },
  "parsed": {
-  "0001520262-26-000116": {
-   "ticker": "ALKS",
-   "owner": "Nichols Christian Todd",
-   "txns": [
-    {
-     "code": "S",
-     "shares": 6912,
-     "price": 49.1851,
-     "date": "2026-08-17"
-    },
-    {
-     "code": "S",
-     "shares": 664,
-     "price": 49.6526,
-     "date": "2026-08-17"
-    }
-   ],
-   "filingDate": "2026-08-17"
-  },
   "0001520262-26-000118": {
    "ticker": "ALKS",
    "owner": "Hopkinson Craig C.",
