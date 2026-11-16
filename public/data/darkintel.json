@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T12:31:38.523Z",
+  "updated": "2026-11-16T13:23:40.532Z",
   "sources": {
     "portwatch": {
       "ok": false,
@@ -10,20 +10,8 @@
       "error": "HTTP 503"
     },
     "adsb": {
-      "ok": true,
-      "sample": {
-        "total": 101,
-        "military": 1,
-        "mil_method": "dbFlags_bit1",
-        "types": {
-          "unknown": 13,
-          "A20N": 12,
-          "B38M": 11,
-          "TWR": 11,
-          "A320": 10
-        },
-        "observed": "2026-11-15T12:31:38.453Z"
-      }
+      "ok": false,
+      "error": "Request timed out after 10000ms"
     }
   }
 }
