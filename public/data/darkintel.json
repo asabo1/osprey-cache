@@ -1,17 +1,29 @@
 {
-  "updated": "2026-11-16T13:23:40.532Z",
+  "updated": "2026-11-17T14:08:33.148Z",
   "sources": {
     "portwatch": {
       "ok": false,
-      "error": "No features in PortWatch response"
+      "error": "Request timed out after 10000ms"
     },
     "nga": {
       "ok": false,
       "error": "HTTP 503"
     },
     "adsb": {
-      "ok": false,
-      "error": "Request timed out after 10000ms"
+      "ok": true,
+      "sample": {
+        "total": 96,
+        "military": 1,
+        "mil_method": "dbFlags_bit1",
+        "types": {
+          "A320": 19,
+          "TWR": 11,
+          "B38M": 10,
+          "B77W": 8,
+          "A20N": 8
+        },
+        "observed": "2026-11-17T14:08:23.982Z"
+      }
     }
   }
 }
