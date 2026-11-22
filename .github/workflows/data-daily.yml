@@ -33,6 +33,8 @@ jobs:
         run: node scripts/fetch-darkfleet.cjs || echo "non-fatal"
       - name: Freight signals
         run: node scripts/fetch-freight.cjs || echo "non-fatal"
+      - name: Chip supply chain (export rules, Taiwan Strait activity, foundry revenue)
+        run: node scripts/fetch-chips.cjs || echo "non-fatal"
       - name: Segment markets
         run: node scripts/fetch-markets.cjs || echo "non-fatal"
       - name: Country oil registry
