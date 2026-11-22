@@ -1,20 +1,23 @@
 {
-  "updated": "2026-11-22T01:21:54.129Z",
+  "updated": "2026-11-22T08:40:55.515Z",
   "counts": {
     "total": 91,
-    "crit": 9,
+    "crit": 7,
     "warn": 4,
     "bySource": {
+      "Yahoo": 1,
+      "Drug Discovery News": 1,
       "KOAT": 1,
       "Marijuana Moment": 2,
+      "Springer Nature Link": 1,
       "Hoodline": 1,
       "The Strange Brew": 1,
       "Stock Traders Daily": 2,
+      "Artsy": 1,
       "Simply Wall St": 5,
       "Australian Musician Magazine": 1,
       "NewsBreak: Local News & Alerts": 1,
       "Moomoo": 1,
-      "Bioengineer.org": 1,
       "kalkine.ca": 2,
       "BioPharma Dive": 1,
       "BigGo Finance": 1,
@@ -31,29 +34,28 @@
       "The Source - Bend, Oregon": 1,
       "Discover Magazine": 1,
       "The Washington Post": 1,
-      "TipRanks": 2,
+      "TipRanks": 1,
       "FOX One": 1,
       "Stocktwits": 1,
-      "Investing.com": 4,
+      "Investing.com": 3,
       "GuruFocus": 2,
       "NPR": 1,
-      "Yahoo Finance": 5,
-      "Investing.com Canada": 1,
+      "Yahoo Finance": 6,
+      "Investing.com India": 1,
       "MyChesCo": 1,
-      "Yahoo! Finance Canada": 4,
+      "Yahoo! Finance Canada": 1,
       "Florida Museum of Natural History": 1,
-      "Wisevoter": 2,
       "OregonLive.com": 1,
       "Military Times": 1,
       "Psychiatric Times": 2,
       "Los Angeles Review of Books": 1,
-      "Investing News Network": 1,
-      "Quiver Quantitative": 3,
       "CT Mirror": 1,
-      "Yahoo Finance UK": 1,
+      "Yahoo Finance UK": 2,
       "MycoStories": 1,
       "StockInvest.us": 2,
+      "The Globe and Mail": 1,
       "Yahoo Finance Singapore": 1,
+      "Wisevoter": 1,
       "The Hype Magazine": 1,
       "The Microdose | Substack": 1,
       "KLTV.com": 1,
@@ -62,12 +64,16 @@
       "The American Journal of Managed Care": 1,
       "House.gov": 1,
       "Futurity": 1,
+      "Investing.com UK": 1,
       "New Scientist": 1,
+      "Quiver Quantitative": 1,
+      "Scienceline": 1,
+      "C-SPAN": 1,
       "The Economist": 1,
       "House Committee on Veterans' Affairs (.gov)": 1,
-      "C-SPAN": 1,
       "Medical Xpress": 1,
       "StreetInsider": 1,
+      "Yahoo Finance Australia": 1,
       "FDA": 1
     },
     "byTier": {
@@ -76,6 +82,36 @@
     }
   },
   "items": [
+    {
+      "id": "2d07fe72c0c6",
+      "time": "2026-11-22T02:43:00.000Z",
+      "source": "Yahoo",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Man arrested after 8 pounds of marijuana, psilocybin mushrooms found during Walton County search",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMERfb2FlR05iMjgxQWJZVVNzVVlPSkRDOGtwTm5LUl9OOTRLcDk4MzNDX1VNVFBxLXN2d1pjSE45TFBaXy1pMmhzMGtTMnluRDhsVEVUa0pJY3E0Yzg2M0JsbGwwTTlRaG4yemNrRGFTdlFRaUxkMGlzdng4VG04c0pLc2dNdFI5OGc?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "909ab9fe2dfe",
+      "time": "2026-11-22T02:07:27.000Z",
+      "source": "Drug Discovery News",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Five labs fail to replicate therapeutic effects of psilocybin in mice",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYnpkVVY3d2tiQzNvZUtWSEtLdjNHbm03OVdrY1Vyc3hKTEhCcW02VkR1LVdNQU5yQ0NiNGpKV2ZQVEhIbDNCYnAtRlFJUlZDNzViYjBGc0ZZdXlNdjk0enRya1FYQkRhSHNwM3JyMGlISGtfWl9Zb205bE1vc3lzQUdOUU96b0tJaEhwUlFJWU12WEZ6Rk1TdlVuSUlFN25NZ1AzNjdiTFFrOUN6ZkE?oc=5",
+      "tickers": [
+        "DRUG"
+      ]
+    },
     {
       "id": "65bd07298e4d",
       "time": "2026-11-22T00:38:00.000Z",
@@ -102,6 +138,20 @@
       "impact": "LOW",
       "title": "New Mexico Officials Move To Ease Medical Psilocybin Rules Following Pushback",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOWtmck9SMDk1OWFwZi1YZ3JHU0tmMG9hRi15SlJQVWxLczlONk1iRHBDakxRNXN4TVktd3dWSm10b21ZWmt5U0laQmJ2b21OX0Vsa2sxRzNBNy1xem1lY2tETnF1U004RGxaeFYyZWlsb192THhoUUNBWGVadDBrTURWQ3dHQThsSFJfQVlRSVhJZEJrYXlDb1dtR3A5RGNFMmpxeXNrWVl3RGIwaHlZ?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "ac99d7114499",
+      "time": "2026-11-21T14:13:45.000Z",
+      "source": "Springer Nature Link",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "A paradigm shift in psychiatry? Evaluating the future of psychedelic medicine",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oUTBQenZiQnppNHVWeTR0TU5fa2lPck5jU2YxUF9SSHRkOXpqVWVBci0tRXEwVGtzMm9DeVFfNm1HajBfQlVMNFcxS1hHX01WWnBjNmEteEs2eUdpaW9OQTNIbWpXb0psYUE1cQ?oc=5",
       "tickers": []
     },
     {
@@ -149,7 +199,21 @@
       ]
     },
     {
-      "id": "b20fb66a5665",
+      "id": "d94e2eb9c26c",
+      "time": "2026-11-21T09:11:50.000Z",
+      "source": "Artsy",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "H18-3 Psychedelic (The Kaleidoscopes) (2024) by Damien Hirst - For Sale",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFFKMXdCSkRiZ2tjWHl5d3BpZENBUDBJQ2pkczBFMTZxYTZPblRua1JzQUFMbXROU2hMZEl1YXpNc1BmeEY4OXFnRlh3ZEtQUmFqVTkwWjk0cElYaFNQNXUtOWc2anFmdHBVTmJuckRONWFhMlE5UmxtemNHX1ZKeEI2MGp4NlE?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "26794bd47a5b",
       "time": "2026-11-21T03:12:09.000Z",
       "source": "Simply Wall St",
       "sourceKind": "gnews",
@@ -159,7 +223,7 @@
       "direction": "NEUTRAL",
       "impact": "LOW",
       "title": "Learn Why The Bull Case For Definium Therapeutics Stock Could Change Following DT120 Filing Plan",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMWl6ZjFQN3JMMFh0ZUl2X2RnOGU5cEJJbklHQmp1TjM0andRVFBLZ21FbXJrbTN5RldXOWllWmpfaVItTk9sbTVlYWwwazV6QnA2ZWRqZzBmX3A4NWJaU2NVWGx3eV9Vb0wyQ3ZHM0dqMTVfRG5nUVZLZ3NWeFpOU1Rfa21FbnVjb1VZSVRxM1k2aXVyUU9SMWYzV1dhUE5WcXdnc1ZGZmkwVEQyRnVNZTVidFpydkRybHN1QXQ4Y3RRd25iMU03eXIwcEc0X05LYkpxSHBDWWE2RURfSHZzRWJCY2Y0VHBENDBN0gHwAUFVX3lxTE1BX3FaT3VoeFVGRzA0bTQ5a2pYR1NsdWVzbHY4aW9TQ3RIcVlSNWRyQWVhZVRUc09sM3dkQ011REN6WHZLOTJEb2ZobDZVUjR4TXRETnFUeS11OGtyNUtrSGNjTjRVVzlxR0pQSEsxTXFqRVEwUk5kSXRya0FlbmxkSXRYZlUwTzJvUXVFaVVnZUZaS2NxanMtSHYzTXJQYVdseHhVUmhpLThHc1o1azBtSmRTWjN0MmY5SjE5MkZCSUVSeHJEQVQyMjFSQ1FJeWRKMXNyVmdTRUQ2M0lldE1VdVVZbGc2Z3Vkb3AzNGlHOA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQV9xWk91aHhVRkcwNG00OWtqWEdTbHVlc2x2OGlvU0N0SHFZUjVkckFlYWVUVHNPbDN3ZENNdURDelh2SzkyRG9maGw2VVI0eE10RE5xVHktdThrcjVLa0hjY040VVc5cUdKUEhLMU1xakVRMFJOZEl0cmtBZW5sZEl0WGZVME8yb1F1RWlVZ2VGWktjcWpzLUh2M01yUGFXbHh4VVJoaS04R3NaNWswbUpkU1ozdDJmOUoxOTJGQklFUnhyREFUMjIxUkNRSXlkSjFzclZnU0VENjNJZXRNVXVVWWxnNmd1ZG9wMzRpRzjSAfABQVVfeXFMTUFfcVpPdWh4VUZHMDRtNDlralhHU2x1ZXNsdjhpb1NDdEhxWVI1ZHJBZWFlVFRzT2wzd2RDTXVEQ3pYdks5MkRvZmhsNlVSNHhNdEROcVR5LXU4a3I1S2tIY2NONFVXOXFHSlBISzFNcWpFUTBSTmRJdHJrQWVubGRJdFhmVTBPMm9RdUVpVWdlRlpLY3Fqcy1IdjNNclBhV2x4eFVSaGktOEdzWjVrMG1KZFNaM3QyZjlKMTkyRkJJRVJ4ckRBVDIyMVJDUUl5ZEoxc3JWZ1NFRDYzSWV0TVV1VVlsZzZndWRvcDM0aUc4?oc=5",
       "tickers": [
         "DRUG"
       ]
@@ -209,20 +273,6 @@
       "tickers": [
         "CMPS"
       ]
-    },
-    {
-      "id": "81a486f794ed",
-      "time": "2026-11-20T21:11:08.000Z",
-      "source": "Bioengineer.org",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Psilocybin and Ketamine Improve Decision Accuracy in Mice by Reducing Repetitive Habits",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSXBNWC1Td2lfcmZnVUMzZDRkTURTRi1ma1Bmd0pjODdrZzJhMjhWUXMydjFOcE1FV1FMLV9GekZrUFVmdkJxUmVCTHVKVEl4UDdsdThCbG1TejdBZ2NVMHFXakZ4cG9ZeUZmQTBpRzRzY0dwaXlHRzFsNk5LTkhNUTZTWmZ2a1hHeW5yMUYyNTRHNVgyeDBDdmVDa21fNXpsRmU4QVBWdC1NY0J6WUptY1Bn?oc=5",
-      "tickers": []
     },
     {
       "id": "5d840c88d3ce",
@@ -525,7 +575,7 @@
       ]
     },
     {
-      "id": "edcfe609475d",
+      "id": "e486a429f953",
       "time": "2026-11-20T01:09:10.000Z",
       "source": "Simply Wall St",
       "sourceKind": "gnews",
@@ -535,14 +585,14 @@
       "direction": "NEUTRAL",
       "impact": "MED",
       "title": "Definium Therapeutics (DFTX) Could Be 52% Undervalued Following Third Quarter Earnings",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQT3cycnRZSVlUU3ZHU3Y2WUM5MlRBY2lUTjU4OHFOVG1KWG96blNHTGpvaVkza3Znb21UcE42ZkN3SkVGbEhTMDFoVmlwdWZtaTUtcVE3YU11M0diTE12cGJOTGVtTnNXSnZtOC1RN1d0ZUNhSmpsQlZBYVFTb2ZzR01kTHNncHhjZlo1R3FtVlhFSElhQlVSU21uNFZma0swcm4zZThVNmF0VGlQZ2FfaWUwOGZsU0JsaDNDOGpUeXA5MnA1bEZiUVR4dHhCd25Rd3IxWFBGY3B0UmozWmlTVEpORGZ2Qk54Z0dvLUxFT2nSAfABQVVfeXFMUE93MnJ0WUlZVFN2R1N2NllDOTJUQWNpVE41ODhxTlRtSlhvem5TR0xqb2lZM2t2Z29tVHBONmZDd0pFRmxIUzAxaFZpcHVmbWk1LXFRN2FNdTNHYkxNdnBiTkxlbU5zV0p2bTgtUTdXdGVDYUpqbEJWQWFRU29mc0dNZExzZ3B4Y2ZaNUdxbVZYRUhJYUJVUlNtbjRWZmtLMHJuM2U4VTZhdFRpUGdhX2llMDhmbFNCbGgzQzhqVHlwOTJwNWxGYlFUeHR4QnduUXdyMVhQRmNwdFJqM1ppU1RKTkRmdkJOeGdHby1MRU9p?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQkpzZW44SnlRdXc5MV90RVV4dUNYUm00dVZFS3hIbnFtMmY5UnJVdkRCb3hvNkZOVmN2UXdzOFBjUjdHYnVGTGd6WXQ5SHJPTGd2R1dUMDF3TFExZFNRSElnaFlrb192dlBjRmx0c2lRZGc4bUxIOHhpUlZ0ZGc2d2dsR2I3dVZNY3pvMnEyUzZrbkI3cm92dlRGcmtaSjlnUEN5WjZhODllb2NwakpaYjZPVVZCazRUOGhHaHBBdjhMeDcyaFB2eTVjenFpcUlEYjBOcVh5NXZDaGJuYmNjNFhEM2tHVDJ4TnhF0gHwAUFVX3lxTFBPdzJydFlJWVRTdkdTdjZZQzkyVEFjaVRONTg4cU5UbUpYb3puU0dMam9pWTNrdmdvbVRwTjZmQ3dKRUZsSFMwMWhWaXB1Zm1pNS1xUTdhTXUzR2JMTXZwYk5MZW1Oc1dKdm04LVE3V3RlQ2FKamxCVkFhUVNvZnNHTWRMc2dweGNmWjVHcW1WWEVISWFCVVJTbW40VmZrSzBybjNlOFU2YXRUaVBnYV9pZTA4ZmxTQmxoM0M4alR5cDkycDVsRmJRVHh0eEJ3blF3cjFYUEZjcHRSajNaaVNUSk5EZnZCTnhnR28tTEVPaQ?oc=5",
       "tickers": [
         "DRUG"
       ]
     },
     {
       "id": "42f880ddfbf0",
-      "time": "2026-11-20T00:15:40.000Z",
+      "time": "2026-11-20T00:15:39.000Z",
       "source": "Investing.com",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -558,7 +608,7 @@
     },
     {
       "id": "17f82fccc80d",
-      "time": "2026-11-20T00:11:51.000Z",
+      "time": "2026-11-19T23:52:11.000Z",
       "source": "GuruFocus",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -603,17 +653,17 @@
       ]
     },
     {
-      "id": "7584274d04d3",
-      "time": "2026-11-19T21:49:08.000Z",
-      "source": "Investing.com Canada",
+      "id": "6385ed199d67",
+      "time": "2026-11-19T21:51:23.000Z",
+      "source": "Investing.com India",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Form 4 Neurocrine Biosciences Inc: Gary A. Lyons (Director) For: 17 November",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQTBDcjdwWnJiMGlzWldPTXRlb3RmTTRnbEVNYmdFTWxmWGpKWTBkSnZ5YkVRZ2E1ZmRYb3JObk44VzlxNkxmdTNEY0ROWlE4UDRMcHViaUd1VXVFWjMxOG5nVWY0dWdtb0puUXlESVRtb0ZYcFRhNEVhazdDWGpwTk5WS0VBS05tRHd4bXlPRXJGYmI2UDFuNUREa2xwMy1LQkZTUXZwQXZDa0lPMXhENGlhbkZfTzJadUpKb2tBUjFhREo4VENhWWZzVFg?oc=5",
+      "title": "Form 4 Neurocrine Biosciences Inc: Gary A. Lyons (Director) For: 17 November By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPc3RJSWJqUGc5aE1xN0FnUlltREV3QVlyUjBSenkyR09FZEZIN2pFWHg2eWx2cGVueTlld1N4aW5BZzlDQmNkR0lGODBfb1ZIckk3MkxxUlVIQ0RrbkZkMTFxS1VuREJtMXhvS3JvczB4T0NDYnFWdjVwVHNha2tyZ2ZWY1JWUWJwYmdaUG5tRm9ybjJFNmlfSkhVRnZ0cUw2ajVrQlpnTGZiUEZjakdjTC1xYmlmdGJXcHVJS3MwMWFEbFVPbHVSTmg0dXk?oc=5",
       "tickers": [
         "NBIX"
       ]
@@ -667,22 +717,6 @@
       ]
     },
     {
-      "id": "93a339b1ffb3",
-      "time": "2026-11-19T18:08:12.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Helus Pharma Inc (HELP) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qZHZCQk1PZ0hMdjgwc19PY1R2OV9MQnVjOUQxcy00TjRDTHg0OVJNakpIWHl0MzZjYkhNZmRRVG5XUzUtS1dLck9XV2JGeFNKbVE?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
       "id": "ea976de3680a",
       "time": "2026-11-19T16:35:55.000Z",
       "source": "Florida Museum of Natural History",
@@ -697,22 +731,6 @@
       "tickers": []
     },
     {
-      "id": "781a454cfa65",
-      "time": "2026-11-19T16:22:41.000Z",
-      "source": "Wisevoter",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Definium Reports Positive Phase 3 DT-120 Results",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS1NOU0l6MnJUTGRNZDNrSW1EdzRlcFdBZDlnalV5NjN3SjVTXzBkMWxibFJFajd6TGhnTE9YLUl4OXNUU0tZeFdLYVRoNUF5VjA4aEZLenlEQW1oTkp1VkxaQVpZODY3SThoWHl4cGozQjU3aVRqdXpCUi11cVdfWWFiNHRxOFZkdFM3N210WFg5OWlV?oc=5",
-      "tickers": [
-        "DRUG"
-      ]
-    },
-    {
       "id": "8c0d684cc8dd",
       "time": "2026-11-19T16:06:00.000Z",
       "source": "OregonLive.com",
@@ -725,22 +743,6 @@
       "title": "Psilocybin home services case argued at UO law school",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSEt5YnZocjZQTGl6ellJYWFMQzlqNGhGaUVvTE1CSWg1M2RBVGNlOTJoZkhSYUE3RG16Qmhnei0tREVUa3pOeGdWRzlxUU5YT0E0bWkzUkM4UnRkUjlWMHZpME9sUWh3QndNSnh6OXkyUDlMc3YyVmZhSGtXeThBQVhjRGhiMExFN0VsSDZJOV9EelFIa3hfUzQ4RzBJRERZb3MxOG9R?oc=5",
       "tickers": []
-    },
-    {
-      "id": "6ef87801ae9d",
-      "time": "2026-11-19T15:16:48.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin D/B/A Helus Pharma (HELP.NE) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84UFdtVHR1SW5QVTlLMWszdWtad1VEemZRYXFRT3pnNGoxTDMyZ3dXRlJSMXQ5R3Ffb3BFQjRmem01Wk9GbDZNaTBSSm8xcjRhc25VN0N3?oc=5",
-      "tickers": [
-        "HELP"
-      ]
     },
     {
       "id": "4b473baa1184",
@@ -787,34 +789,6 @@
       "tickers": []
     },
     {
-      "id": "b2a578cdf286",
-      "time": "2026-11-19T13:09:37.000Z",
-      "source": "Investing News Network",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Compass Pathways to Participate in 9th Annual Evercore Healthcare Conference on December 1",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZnJJaWZjZnA5SThqVmszdGJZS3NUeXNCRjF4Um1MUndsdFBUc21XSHAydS1XM2hrbHZMdHNPWjRyNi1MRXRoaXg2UHRMalFJRVV1QlhJVlJfdERMZXhPbDJxVGtWOEdkS1dzVVEzUzNQQ1FPQUlsNUFDcU9lNVNNQlRLdjBzbUozMjBxR1JyWWxxRnZqdThqQ3I2R0FPTTdoQWVfQy14Znh0bnVLUmwzRzZqelVMUlB3?oc=5",
-      "tickers": []
-    },
-    {
-      "id": "1c0e49d2d44f",
-      "time": "2026-11-19T12:41:00.000Z",
-      "source": "Quiver Quantitative",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Clearmind Medicine Announces Hong Kong Patent Publication for PTSD-Focused Psychedelic Compounds",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcWxzSldDamY5eDVQTTIyYTk2S1pfVHhzSjEteHJ0WEMzU1d5dnZNNkpLSkNkZmVveWkyQ1hRNEpzSW15TUNWdWlFdHFWSnZqU0IwZDlrYUxsQVUwdktWZ0Z2Tm9RZG1LUFpqZHRBRElPT3V5WFlyWTFqT0tOamVFVlY1Y2RqcWZ4WG5hd2pvaWYzWE45czQxRnNHcEdFTzBYZ1JBa2N3ZmpGSV9zN1VmRVNLOUpXVnRDU3lKRWhSUVdISkx6eWxkRw?oc=5",
-      "tickers": []
-    },
-    {
       "id": "3d8a915d46a1",
       "time": "2026-11-19T12:30:00.000Z",
       "source": "CT Mirror",
@@ -829,17 +803,17 @@
       "tickers": []
     },
     {
-      "id": "598025432433",
-      "time": "2026-11-19T12:19:04.000Z",
-      "source": "Yahoo! Finance Canada",
+      "id": "65a2b06639f9",
+      "time": "2026-11-19T11:30:00.000Z",
+      "source": "Yahoo Finance",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "COMPASS Pathways plc (CMPS) Interactive Stock Chart - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuODFPMWJrTFgwUHo4TUJXY1dYb1VnVUtpazVQRngxWWRycjYxaE5QR0pJSklwVmZwZWRJOFB3Z3VLQ1J5ZW80SzZxUGVhWFJ1c2x6aUFBdnZCUQ?oc=5",
+      "title": "Compass Pathways to Participate in 9th Annual Evercore Healthcare Conference on December 1",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQnQxckJDVnRKamZKTDZoNUpQRDJCX3JZN3REdmtJN01FaDBVYWFQYldkckdlZVpGNUpYVGtGU0hqZ01oZEtqU0JHQ0tRd2ZCQVZrUXpPMTJBY2I1cWYzN05rcEpZakxJZEs0Z2F3YmJkdWFFS2tOUkVta1JkWUVUd2piSEEyMXE2X0xSc3FqUnNZUEZFcnp6VGxNRUpOaGxBd0E?oc=5",
       "tickers": [
         "CMPS"
       ]
@@ -875,6 +849,22 @@
       "tickers": []
     },
     {
+      "id": "587054432dbf",
+      "time": "2026-11-19T08:57:35.000Z",
+      "source": "Yahoo Finance UK",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma Inc (R7E0.DU) options chain",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1xOHpqV1BFZzRXeXRqRE1sRThZQnFSb2lJbHRQZS1VMElWN1AwQVJnZmN5czVIOFpJb2FPdmdvSVZJVnpCQXZpSkctWjlZeHZnVUNWMUt5Y1BhUVNhS29Deg?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "e5388b84ee7f",
       "time": "2026-11-19T08:00:00.000Z",
       "source": "StockInvest.us",
@@ -902,6 +892,22 @@
       "impact": "LOW",
       "title": "Nrx Pharmaceuticals Stock Price Forecast. Should You Buy NRXP?",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB0Si1NUGR2c0ZMVkRGMFFqSUp3QnRtUkdtTkxESVpyU3lIcWNyNkxNOWU1aHFLT2Nfb0VkcEZHLXVYQm14Z3JUNA?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "8ffb062f9148",
+      "time": "2026-11-19T08:00:00.000Z",
+      "source": "The Globe and Mail",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "NRx Pharmaceuticals Earnings Call Signals Commercial Turnaround",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZl95OFRYNnQ2VnhJLTZldDBNaGxaa09wVmZRclp5YmhTUUlPSkROODRBc1Baend5OHNHbktfcVV2M01WbVAtaFMyU2x4RzFPWlFWZlhpOUhBY3J6QlExRVJHY0dMdGNFbTRTNUpCLTFZajhhdXVwNUVuemVxUjRJT0JJTUk2QVdPeGY3RjJqbFlkeWY4TVh0bVlfemljdFFmWl9vbkxpa25scl9ZaTNKQXhTcWZOYU9oeEpGNGczME5hN1FXZjllYmU2RmdiMmR2WFBGTlozbXYtOGwtd21BMkhWM1o?oc=5",
       "tickers": [
         "NRXP"
       ]
@@ -979,22 +985,6 @@
       "title": "Report from U.S. House Veterans’ Affairs subcommittee hearing on psychedelic-assisted therapies",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFb19GX2NkNU1BaFVWeFdpWTMwZk9JcXNVZmNqSUxhWi14dHVjR2pYOFdZUWhGZGlvcllrcmhlNHE4R3E3ZTFNMThsWXNEU244NER1SEpwaVFwYVVQRXpkZmlkWm1nX2FUOHVWZ0xSZmMxZVFwQmZCRGNYWEN1Zw?oc=5",
       "tickers": []
-    },
-    {
-      "id": "ee569ac0073e",
-      "time": "2026-11-19T00:53:26.000Z",
-      "source": "TipRanks",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "earnings",
-      "severity": "WARN",
-      "direction": "NEUTRAL",
-      "impact": "MED",
-      "title": "NRx Pharmaceuticals Earnings Call Signals Commercial Turnaround",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVlBjb3dwdTZxUzR5d2JYYUp0QktMM3NfOW1aVW9FRTJEMXZrU0wwWjRSVk1RanRhTkhWWFJ1NTF4WjhSdjVkMjA1VVlHQXNoWnR5OEZ2NU5hTUJudGktMjlia3JHODhjZjhXaEJUbW13MWJyc0NXRjVhcjFWbkFUYmh4Y1pId3BMbE5zQk9LMlpwS2ExNEE0c3NEdkgwY2xrbWRDdE52ajVHT2J2X21YbTlvUjdXQQ?oc=5",
-      "tickers": [
-        "NRXP"
-      ]
     },
     {
       "id": "a047b76c826a",
@@ -1143,17 +1133,17 @@
       "tickers": []
     },
     {
-      "id": "c210c589efb5",
-      "time": "2026-11-18T18:08:28.000Z",
-      "source": "Investing.com",
+      "id": "d612c8954a39",
+      "time": "2026-11-18T17:48:00.000Z",
+      "source": "Investing.com UK",
       "sourceKind": "gnews",
       "sourceTier": 2,
       "category": "sector",
       "severity": "INFO",
       "direction": "NEUTRAL",
       "impact": "LOW",
-      "title": "Alkermes at Jefferies Global Healthcare Conference: orexin push widens",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVlV5Ym9WeWpVUDNfME9FM2tlbnQyVTNZR2dGZ29LT0pkOGZ4b21POFVfOENhbjh2dFhrR0xCZEE2ek94Vm01czByTFNHak1ndlZ5U2ZreksxUW1UWnZjUFFadEdnNXk5SmJYNHFsTWRPNU50Q0NZbkNNeGxKQWtsVjFlQnpuWHh6SnhUR3BBZjBvNjFucjZiQThMUjJXMU5Pb2NKVWVMbjNMWGw0SFcwVXJSakNnVlRDUm5Tcnd5TEJKVDQ?oc=5",
+      "title": "Alkermes at Jefferies Global Healthcare Conference: orexin push widens By Investing.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV2J2WkpYelVyTGJnc2hHZThSTThrX3NYd2c1YTVsa0pianZCU3kyTzZrZlVCV2NvOU1ETFpyeXd3R0p3dmZzUzBhUEdscm9ISHJBVkFuMGN5TWVUMmhaamxSeEVVN1hLR0p1QlhOclRwVjVPeFZWZi1yUkJvTFNGeTR4aG91R2U1bThfSmVac1BCWWU3SVFQWExDNzRpVXAyMVBzek9DeXh2X2RHT2ZhQnJUNXFCZjYxcWktOFNfaUQ3c1I1dXYyblVB?oc=5",
       "tickers": [
         "ALKS"
       ]
@@ -1235,17 +1225,31 @@
       ]
     },
     {
-      "id": "e8da2d452b78",
-      "time": "2026-11-18T12:42:00.000Z",
-      "source": "Quiver Quantitative",
+      "id": "8d20ec644bb0",
+      "time": "2026-11-18T13:14:19.000Z",
+      "source": "Scienceline",
       "sourceKind": "gnews",
       "sourceTier": 2,
-      "category": "trial",
-      "severity": "CRIT",
+      "category": "sector",
+      "severity": "INFO",
       "direction": "NEUTRAL",
-      "impact": "HIGH",
-      "title": "Optimi Health Updates Psychedelic Clinical Pipeline with Amended OPTI-101 Phase 2b, Planned OPTI-201 Phase 3 and U.S. IND Filings",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOWGhlVWVzTk5qOS1MYnhEMkpJX2o5akpwTlR3NUVyTU9vVXZsc1ZIWHYySGJ3UWNWTVkxMzNWY3NHeXhfanNPZDY4SVo5SnlFVTRFQjM3c1gtTXRnYU5IclcxR2VIenNqUkdaSWN1aDQ3ZlM0N3dMQURtRmN5anY2bVlGcFpUZ3pOOGNlbk9sb3NFNmctaDZvX0lvSl9wNFdZUUxRUEF4RklXRW91WWFXVGxva01iU1hPZUNENTVFRnNLdWRJeTE2RlBqREI1SEZ6LThMTUZVbW9URkY0RmZFS25JcjZrRy1YOWRkczhMREhLV2Yt?oc=5",
+      "impact": "LOW",
+      "title": "Oregon’s state-regulated mushroom therapy linked with mental health improvements",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTWFpQmVMdGhDMVVVQmI2TE84SEhVNkliV1VLRUZ3eWNfZG1PTHYxcERDYlBVYjlFa29fUlp2bFlaeTFMeXBZTDdDMnVBbWhRSndnYVpwUFVtdmtQWmJQZWV2bmFVSEZLLWNJRTJwbTR5ejczUkt6UUYtMWJHVUlKS3FTSmxsaU9LOERMaXFLZ3BlSUxEZ0F0bTF3ZXllYmptVVRBVmZ4aFA3QW04NzkzLVF3?oc=5",
+      "tickers": []
+    },
+    {
+      "id": "f7934c1bbf47",
+      "time": "2026-11-18T12:12:32.000Z",
+      "source": "C-SPAN",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Witnesses Testify on Psychedelic Therapies for Veterans, Part 1",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS280OTdYaTctTThUOXF6MUJWQUU2WFVGS3AteDVmN3pLSVFoRTlFMEhBOHJFdjBnYno1Yk1JcGVzd210d2ptUFhLOWM5MUZvS0VYOXYtZHc1MlZTZ09mcUpqRWNlSnZfTWtNbFBrRnhvZllCSC1QRGVMTGhmWTJzRHJDV0RrY1R1Y21uYldfNzg0WjJRZERNT2h3c29mcUhWQ2lpWkRIeW5MbVpITlE?oc=5",
       "tickers": []
     },
     {
@@ -1389,20 +1393,6 @@
       ]
     },
     {
-      "id": "8a5a5417b18f",
-      "time": "2026-11-18T05:00:00.000Z",
-      "source": "C-SPAN",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Witnesses Testify on Psychedelic Therapies for Veterans",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRDlZeTROSHBnMEwzeUlmN01TVHJ5X01DbC05TXdlU0dBV3pPRkxkdGJmNGtLQVVSOGUtbXJNc3EwUnE5VzlLdXJGNzZSZVJ1RkJZNnlfdHFuV21sRl9uUFlhbW5Ja0xsYm5rYnpCSGVybEREY1hHWGw2YVAxMDlZODNOUTktQjN5ZGxtVTlPYUJxaGdDMHFnMXdkRWIxcEExcjQycHJZaXF3bXc?oc=5",
-      "tickers": []
-    },
-    {
       "id": "e6a74d716144",
       "time": "2026-11-18T03:00:01.000Z",
       "source": "Medical Xpress",
@@ -1428,6 +1418,22 @@
       "impact": "LOW",
       "title": "NRx Pharmaceuticals (NRXP) Tops Q3 EPS by 18c",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM29zR2ZXYmZ0LXRXcUpQY0s0S3hwN3VPTlNlR0lLQ2pYQ1IyVk5UZllTN2NuQ2RMZEhDaW1tblh6WHNpaEc1WWNzd1dGMW81UUhOdmZRcU41TXlRb25idHNIcUhNdGlRY1I0ODk5TFVsTmVkaWtRNi1iOXhsY1FHTE1uX3hVcUFBV1lENWhuWDV2MUZVczlCWExpZVYzZHdncFBnMQ?oc=5",
+      "tickers": [
+        "NRXP"
+      ]
+    },
+    {
+      "id": "d4e5898eedb6",
+      "time": "2026-11-17T22:14:20.000Z",
+      "source": "Yahoo Finance Australia",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "NRX Pharmaceuticals Inc (B1Q.HA) stock price, news, quote and history",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXVG4xbHhUV3hQV29ZYUhPZDBoc0MtUmMxR3dzbXdvV2FMQlNkYi1WZjVsalNlelU1aExkVjlLQkRCYTBQaFI0Y0IyMnlFdEhfdXlzLQ?oc=5",
       "tickers": [
         "NRXP"
       ]
