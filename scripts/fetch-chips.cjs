@@ -27,7 +27,10 @@ async function get(url, as = 'json', headers = UA) {
 }
 
 // ── 1. BIS documents ────────────────────────────────────────────────────────
-const CHIP = /semiconductor|integrated circuit|advanced computing|entity list|supercomput|chip|wafer|lithograph|export administration regulations|\bEAR\b/i;
+// Chip relevance is judged on the TITLE only, with specific terms. The first version also
+// matched the abstract and the generic phrase "Export Administration Regulations", which
+// every BIS rule contains, so a firearms rule was tagged as chip-related (2026-11-22).
+const CHIP = /semiconductor|integrated circuit|advanced computing|supercomput|\bchips?\b|\bwafers?\b|lithograph|polysilicon|foundr(y|ies)|artificial intelligence|\bAI\b|data cent(er|re)|entity list|end-user controls/i;
 async function bis() {
   const q = 'https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau&order=newest&per_page=40'
     + ['title', 'type', 'publication_date', 'html_url', 'document_number', 'abstract'].map((f) => '&fields%5B%5D=' + f).join('');
@@ -36,7 +39,7 @@ async function bis() {
   const docs = (d.results || [])
     .filter((r) => r.publication_date && r.publication_date <= today && /^\d{4}-\d{2}-\d{2}$/.test(r.publication_date))   // scheduled, not-yet-published items are excluded
     .filter((r) => r.type === 'Rule' || r.type === 'Proposed Rule')                                                    // paperwork notices are noise
-    .map((r) => ({ date: r.publication_date, type: r.type, title: String(r.title || '').trim(), url: r.html_url, number: r.document_number, chip: CHIP.test((r.title || '') + ' ' + (r.abstract || '')) }))
+    .map((r) => ({ date: r.publication_date, type: r.type, title: String(r.title || '').trim(), url: r.html_url, number: r.document_number, chip: CHIP.test(r.title || '') }))
     .slice(0, 15);
   if (!docs.length) throw new Error('no rules in response');
   return { ok: true, latest: docs[0].date, docs };
