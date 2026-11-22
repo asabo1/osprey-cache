@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-22T08:52:42.590Z",
+  "updated": "2026-11-22T13:05:42.744Z",
   "latest": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "wti": 83.41,
     "wti_prev": 83.21,
     "wti_delta": 0.2,
@@ -13,6 +13,10 @@
     "score_method": "v2-2026-06-11"
   },
   "scores": [
+    {
+      "date": "2026-11-22",
+      "score": 78
+    },
     {
       "date": "2026-11-21",
       "score": 78
@@ -127,10 +131,6 @@
     },
     {
       "date": "2026-10-24",
-      "score": 78
-    },
-    {
-      "date": "2026-10-23",
       "score": 78
     }
   ],
@@ -472,6 +472,18 @@
     }
   ],
   "snapshots": [
+    {
+      "date": "2026-11-22",
+      "wti": 83.41,
+      "wti_prev": 83.21,
+      "wti_delta": 0.2,
+      "brent": 89.95,
+      "brent_prev": 91.98,
+      "brent_delta": -2.03,
+      "spread": 6.54,
+      "crisis_score": 78,
+      "score_method": "v2-2026-06-11"
+    },
     {
       "date": "2026-11-21",
       "wti": 83.41,
@@ -1539,23 +1551,11 @@
       "spread": 7.04,
       "crisis_score": 78,
       "score_method": "v2-2026-06-11"
-    },
-    {
-      "date": "2026-08-24",
-      "wti": 85.6,
-      "wti_prev": 87.06,
-      "wti_delta": -1.46,
-      "brent": 93.06,
-      "brent_prev": 94.39,
-      "brent_delta": -1.33,
-      "spread": 7.46,
-      "crisis_score": 78,
-      "score_method": "v2-2026-06-11"
     }
   ],
   "currencies": {
-    "mxn": 19.03,
-    "gbp": 1.3123,
+    "mxn": 19.12,
+    "gbp": 1.3089,
     "eur": 1.0977
   },
   "natgas": {
