@@ -390,7 +390,7 @@ function verdict(kpis) {
   const parts = [`AI spending is ${out.word === 'Not enough fresh data' ? 'not readable yet' : out.word.toLowerCase()}.`];
   if (out.leading) parts.push(`Strongest: ${NAME[out.leading]}. Weakest: ${NAME[out.lagging]}.`);
   parts.push(`${out.improved} of ${out.total} readings improved.`);
-  if (out.markets !== 'n/a') parts.push(out.markets === 'agree' ? 'Markets agree.' : 'Markets disagree.');
+  if (out.markets !== 'n/a') parts.push(out.markets === 'agree' ? 'Chip and memory stocks agree.' : 'Chip and memory stocks are not following.');
   out.headline = parts.join(' ');
   return out;
 }
