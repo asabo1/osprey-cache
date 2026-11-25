@@ -33,9 +33,9 @@ const DRY = process.argv.includes('--dry-run');
 const FORCE = process.argv.includes('--force');
 
 // Editorial backdrop — keep in sync with src/lib/hormuz-status.ts.
-const STATUS_PHRASE = 'open but contested under a fragile US-Iran ceasefire';
+const STATUS_PHRASE = 'disrupted: Iran has declared it closed and attacks on shipping are at their highest of the war, but ships still cross under escort';   // refreshed 2026-11-25
 const BACKDROP =
-  'Structural backdrop: a global supply glut and soft demand have kept Brent near multi-month lows (down from a ~$126 wartime peak), so even kinetic Hormuz headlines have produced only muted, fading price spikes. The war-risk premium is being capped by oversupply.';
+  'Backdrop (Nov 2026): Brent has fallen for three weeks to near $89 as Gulf barrels return by pipeline and transfer at sea, even as attacks on shipping near Hormuz reached their highest level of the war; the market prices next year\'s surplus more than this month\'s risk.';
 
 // Mirror WireChronicle.astro's dedupe key so takes line up with rendered rows.
 function rowKey(text) {
