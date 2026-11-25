@@ -227,9 +227,49 @@ const KEYWORDS = [
 ];
 
 const TICKERS = [
-  "CMPS", "ATAI", "GHRS", "HELP", "MNMD", "RLMD", "DRUG", "ANRO", "NRXP",
+  "CMPS", "ATAI", "GHRS", "HELP", "DFTX", "MNMD", "RLMD", "DRUG", "ANRO", "NRXP",
   "ALKS", "NBIX", "STIM", "SUPN", "NEUP", "VTGN", "JNJ", "ABBV", "PSIL",
 ];
+
+// ---- PSIL relevance gate. Mirrors crude-signal src/lib/psil-relevance.ts; keep in sync.
+const _stems = (l) => new RegExp("\\b(?:" + l.join("|") + ")", "i");
+const _words = (l) => new RegExp("\\b(?:" + l.join("|") + ")\\b", "i");
+const _TK = "CMPS|ATAI|GHRS|HELP|DFTX|MNMD|RLMD|DRUG|ANRO|NRXP|NEUP|KTTA|QNTM|SILO|IXHL|NUMI|ENVB|CMND|VTGN|PSIL";
+const R_ENTITY_TAGGED = new RegExp("\\$(?:" + _TK + ")\\b|(?:NASDAQ|NYSE(?: ARCA)?|OTC)[: ]+(?:" + _TK + ")\\b", "i");
+const R_ENTITY_BARE = /\b(?:CMPS|ATAI|GHRS|DFTX|RLMD|ANRO|NRXP|NEUP|KTTA|QNTM|IXHL|NUMI|ENVB|CMND|VTGN|PSIL)\b/;
+const R_ENTITY_NAME = _stems([
+  "compass pathways", "comp360", "comp005", "comp006", "atai ?beckley", "gh research", "gh001", "helus", "cybin",
+  "definium", "mindmed", "mm120", "relmada", "bright minds", "alto neuroscience", "nrx pharma", "neuphoria",
+  "pasithea", "quantum biopharma", "silo pharma", "incannex", "numinus", "enveric", "clearmind", "vistagen",
+  "advisorshares psychedelics", "psychedelic alpha", "alkermes", "neurocrine", "supernus", "neuronetics",
+]);
+const R_BLOCK = _words([
+  "album", "songs?", "lyrics", "setlist", "playlist", "concert", "festival", "tour dates", "tickets?", "band", "rock",
+  "blues", "jazz", "soul", "garage", "folk", "vinyl", "lp", "dj", "rapper", "record label", "premiere",
+  "film", "movie", "trailer", "dune", "novel", "series finale", "gallery", "exhibit", "fashion", "shirt", "hawaiian",
+  "apparel", "perfume", "police", "arrest(?:ed)?", "charged", "sentenced", "admits", "overdose", "killed", "attack",
+  "weather app", "horoscope", "astrology", "tarot",
+]);
+const R_MOLECULE = _words(["psilocybin", "psilocin", "mdma", "dmt", "5-meo", "mebufotenin", "lsd", "ibogaine", "mescaline", "esketamine", "spravato", "ketamine"]);
+const R_MOL_CTX = _stems(["depress", "ptsd", "trd\\b", "anxiety", "addiction", "alcohol use", "therap", "clinical", "trial", "phase [123i]+\\b", "topline", "readout", "endpoint",
+  "fda\\b", "dea\\b", "nda\\b", "approv", "breakthrough", "voucher", "reschedul", "schedule i\\b", "hhs\\b", "nih\\b", "va\\b", "veterans?", "legislat", "bill\\b",
+  "executive order", "stock", "shares", "price target", "analyst", "upgrade", "downgrade", "acquisition", "acquire", "merger", "offering", "financing", "8-k",
+  "biotech", "research", "stud(?:y|ies)\\b", "funding", "legal", "law\\b", "states?\\b"]);
+const R_GENERIC = /\bpsychedelics?\b/i;
+const R_GEN_CTX = _stems(["fda\\b", "dea\\b", "hhs\\b", "nda\\b", "ind\\b", "phase [123i]+\\b", "trial", "topline", "approv", "breakthrough", "voucher", "reschedul",
+  "schedule i\\b", "executive order", "legislat", "bill\\b", "congress", "senate", "medicaid", "va\\b", "stock", "shares", "price target", "analyst", "acquisition",
+  "merger", "offering", "financing", "biotech", "policy", "legaliz", "decriminaliz", "ballot", "lawmakers", "governor", "state action", "states\\b"]);
+const R_SEC_KEEP = /\b(?:8-K|424B\d?|S-1|S-3|SC 13[DG]|SCHEDULE 13[DG]|DEFM14A|PREM14A)\b/i;
+function isRelevant(title, source) {
+  if (String(source || "").startsWith("SEC")) return R_SEC_KEEP.test(title || "");
+  const t = String(title || "").trim();
+  if (t.length < 20) return false;
+  if (/^[A-Z0-9_-]{15,}$/.test(t)) return false;
+  if (R_ENTITY_TAGGED.test(t) || R_ENTITY_BARE.test(t) || R_ENTITY_NAME.test(t)) return true;
+  if (R_BLOCK.test(t)) return false;
+  if (R_MOLECULE.test(t) && R_MOL_CTX.test(t)) return true;
+  return R_GENERIC.test(t) && R_GEN_CTX.test(t);
+}
 
 const CRIT_KEYWORDS = [
   "fda approval", "fda decision", "approved", "rejection",
@@ -453,11 +493,9 @@ async function fetchFeed(feed) {
       // Apply keyword filter for non-trusted feeds
       if (!feed.trusted && !matchesKeyword(title, it.description)) continue;
 
-      // Noise gate: obvious off-topic hits on the "psychedelic" keyword
-      // (music/entertainment/weather listicles). News feeds only — SEC and
-      // company feeds are never gated.
-      const NOISE = /psychedelic furs|tickets? on sale|setlist|album|playlist|emo ballad|time signatures?|festival|concert|weather app|images reveal|film review|movie review|\bsong\b|\bband\b|\bvs\b.*\bguardians\b/i;
-      if (feed.kind === "gnews" && NOISE.test(title)) continue;
+      // Relevance gate (replaces the old NOISE regex): applies to every feed.
+      // SEC items keep 8-K / 424B / S-1 / S-3 / 13D/G / merger proxies only.
+      if (!isRelevant(title, feed.name)) continue;
 
       let time;
       try {
@@ -524,7 +562,7 @@ async function fetchFeed(feed) {
     if (seenIds.has(i.id)) return false;
     seenIds.add(i.id);
     if (i.sourceKind === "atom") return true;
-    const titleKey = i.title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60);
+    const titleKey = i.title.toLowerCase().replace(/by investing\.com/g, "").replace(/[^a-z0-9]/g, "").slice(0, 60);
     if (seenTitles.has(titleKey)) return false;
     seenTitles.add(titleKey);
     return true;
