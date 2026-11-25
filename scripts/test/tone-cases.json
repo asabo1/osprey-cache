@@ -1,0 +1,21 @@
+{
+  "note": "Seeded with the 15 prototype headlines from the 2026-11-25 spec. expect = prototype tone; the shipped scorer must land within tol. Failures found in production become new cases here.",
+  "tol": 2,
+  "cases": [
+    { "n": 1, "desk": "hormuz", "text": "Oil falls as Hormuz fears ease", "expect": 39 },
+    { "n": 2, "desk": "hormuz", "text": "Iran attacks tanker in Strait of Hormuz, Brent jumps", "expect": -55 },
+    { "n": 3, "desk": "hormuz", "text": "No attack reported as tankers resume Hormuz transit", "expect": 70 },
+    { "n": 4, "desk": "hormuz", "text": "Ceasefire talks collapse as Iran seizes vessel", "expect": -94 },
+    { "n": 5, "desk": "oil", "text": "Oil slides on demand worries despite Gulf tensions", "expect": -46 },
+    { "n": 6, "desk": "hormuz", "text": "U.S. and Iran agree truce, oil drops 4%", "expect": 88 },
+    { "n": 7, "desk": "hormuz", "text": "Hormuz reopens, tanker rates ease", "expect": 64 },
+    { "n": 8, "desk": "hormuz", "text": "Iran threatens to close Hormuz if sanctions persist", "expect": -82 },
+    { "n": 9, "desk": "oil", "text": "Brent rises as OPEC+ cuts output", "expect": -12 },
+    { "n": 10, "desk": "hormuz", "text": "Will Iran close the Strait of Hormuz?", "expect": -24 },
+    { "n": 11, "desk": "chips", "text": "Nvidia beats estimates, raises guidance on record AI demand", "expect": 93 },
+    { "n": 12, "desk": "chips", "text": "U.S. tightens export controls on advanced chips to China", "expect": -46 },
+    { "n": 13, "desk": "chips", "text": "Chip stocks fall as AI bubble fears grow", "expect": -83 },
+    { "n": 14, "desk": "chips", "text": "Micron says HBM supply not a concern, memory prices rise", "expect": 44 },
+    { "n": 15, "desk": "ai", "text": "Data center project canceled over power delays", "expect": -70 }
+  ]
+}

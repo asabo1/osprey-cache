@@ -50,6 +50,8 @@ jobs:
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/fetch-wpsr.cjs || echo "non-fatal"
+      - name: Fear baselines
+        run: node scripts/fetch-fear-baselines.cjs || echo "non-fatal"
       - name: Census snapshot (Mondays)
         run: |
           if [ "$(date -u +%u)" = "1" ] && [ -f public/data/darkfleet.json ]; then
@@ -60,7 +62,7 @@ jobs:
         run: |
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
-          git add src/data/countries-data.json src/data/open-current.json src/data/markets-data.json public/data/ data-archive/
+          git add public/data/fear-baselines.json src/data/countries-data.json src/data/open-current.json src/data/markets-data.json public/data/ data-archive/
           git diff --cached --quiet || { git commit -m "data: daily update"; git push || { git pull --rebase --autostash -q; git push; }; }
       - name: Ping IndexNow
         if: success()

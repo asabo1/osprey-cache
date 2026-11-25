@@ -1,0 +1,15 @@
+{
+  "enabled_when": "X_BEARER_TOKEN is set",
+  "accounts": { "hormuz": [], "oil": [], "chips": [], "ai": [] },
+  "queries": {
+    "hormuz": "(hormuz OR \"strait of hormuz\") lang:en -is:retweet",
+    "oil": "(brent OR \"crude oil\" OR opec) lang:en -is:retweet",
+    "chips": "(semiconductor OR nvidia OR tsmc OR hbm) lang:en -is:retweet",
+    "ai": "(\"data center\" OR hyperscaler OR stargate) lang:en -is:retweet"
+  },
+  "sample_per_desk_per_hour": 10,
+  "min_followers": 1000,
+  "account_weight": 1.5,
+  "engagement_weight": "1 + log10(1 + likes + 2*reposts), capped at 3",
+  "dedupe": "token Jaccard >= 0.8 within 6h"
+}
