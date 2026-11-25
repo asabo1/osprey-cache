@@ -15,6 +15,17 @@
  *   node scripts/oil-pulse.cjs --issue <md>     -> announce a published weekly issue (includes link)
  *
  * Exits 0 quietly when no channel is armed.
+ *
+ * Guardrails (2026-11-25, before X goes live):
+ *   PULSE_OFF=1      kill switch: nothing posts on any channel (repo variable, flip from a phone)
+ *   PULSE_X_LIVE=1   X posts for real; until then X runs in SHADOW mode: what it would have
+ *                    posted is logged and kept in pulse-state.json (x_shadow, last 50)
+ *   PULSE_X_WIRE=1   X may also repost CRIT wire headlines (default: X posts our own numbers only)
+ *   PULSE_DRIVER=1   allow the model-written "driver" line (default off)
+ *   Freshness: no instrument post when daily.json is older than 3 hours.
+ *   Sanity: no post on impossible values or a Brent jump >12% vs the last alerted price
+ *           (usually a contract roll or bad data); held items are logged, not posted.
+ *   Banned phrases: process or desk-meta language never posts.
  */
 const fs = require('fs');
 const path = require('path');
@@ -92,21 +103,31 @@ async function postBluesky(text) {
 function channels() {
   var ch = [];
   if (process.env.TELEGRAM_BOT_TOKEN && process.env.TELEGRAM_CHAT_ID)
-    ch.push({ name: 'telegram', send: (t, link) => postTelegram(link ? t + '\n\n' + link : t, !!link) });
+    ch.push({ name: 'telegram', send: (t, link) => postTelegram(link ? t + '\n\n' + utm(link, 'telegram') : t, !!link) });
   if (process.env.BSKY_HANDLE && process.env.BSKY_APP_PASSWORD)
-    ch.push({ name: 'bluesky', send: (t, link) => postBluesky(link ? t + '\n\n' + link : t) });
+    ch.push({ name: 'bluesky', send: (t, link) => postBluesky(link ? t + '\n\n' + utm(link, 'bluesky') : t) });
   if (process.env.X_CONSUMER_KEY && process.env.X_CONSUMER_SECRET && process.env.X_ACCESS_TOKEN && process.env.X_ACCESS_TOKEN_SECRET)
-    ch.push({ name: 'x', send: (t, link) => postTweet(link ? t + '\n\n' + link : t) });
+    ch.push({ name: 'x', send: (t, link, kind) => {
+      if (kind === 'wire' && process.env.PULSE_X_WIRE !== '1') return null;      // X posts our own numbers only
+      var body = link ? t + '\n\n' + utm(link, 'x') : t;
+      if (process.env.PULSE_X_LIVE !== '1') { X_SHADOW.push({ at: new Date().toISOString(), text: body }); console.log('[x-shadow] ' + body); return 'x-shadow'; }
+      return postTweet(body);
+    } });
   return ch;
 }
 
 var DRY = process.argv.includes('--dry-run');
+var X_SHADOW = [];
+function utm(link, src) { return link + (link.indexOf('?') >= 0 ? '&' : '?') + 'utm_source=' + src + '&utm_medium=social&utm_campaign=pulse'; }
+// Process or desk-meta language never posts (editorial doctrine 2026-09-08).
+var BANNED = /\b(we were late|our pipeline|data feed|cron|scraper|methodology change|missed (?:the|our) (?:issue|monday)|publish(?:ing)? schedule|cadence|apolog)/i;
 
-async function broadcast(text, link) {
+async function broadcast(text, link, kind) {
+  if (BANNED.test(text)) { console.log('[held: banned phrase] ' + text); return []; }
   if (DRY) { console.log('[dry-run] ' + text + (link ? ' | ' + link : '')); return ['dry']; }
   var sent = [];
   for (var c of channels()) {
-    try { sent.push(await c.send(text, link)); }
+    try { var r = await c.send(text, link, kind); if (r != null) sent.push(r); }
     catch (e) { console.error(c.name + ' failed: ' + e.message); }
   }
   return sent;
@@ -137,6 +158,7 @@ function hash(s) {
 }
 
 async function main() {
+  if (process.env.PULSE_OFF === '1') { console.log('Oil Pulse OFF (PULSE_OFF=1): nothing posts.'); return; }
   if (DRY && channels().length === 0) {
     // dry-run works unarmed
   } else if (channels().length === 0) {
@@ -155,7 +177,8 @@ async function main() {
     var slug = path.basename(file, '.md');
     var text = fmtSquawk('CRUDE SIGNAL ' + title).slice(0, 200);
     var link = 'https://' + 'crude' + 'signal' + '.io' + '/posts/' + slug;
-    var ids = await broadcast(text, link);
+    var ids = await broadcast(text, link, 'issue');
+    if (X_SHADOW.length) { var st0 = loadState(); st0.x_shadow = (st0.x_shadow || []).concat(X_SHADOW).slice(-50); saveState(st0); }
     console.log('Issue announced: ' + (ids.join(', ') || 'no channel succeeded'));
     return;
   }
@@ -171,6 +194,12 @@ async function main() {
   var L = daily.latest || {};
   var day = Math.floor((Date.now() - new Date('2026-02-28').getTime()) / 864e5);
   var instrument = [];
+  var ageH = daily.updated ? (Date.now() - new Date(daily.updated).getTime()) / 36e5 : 99;
+  var sane = !(L.brent != null && (L.brent < 20 || L.brent > 250)) && !(L.crisis_score != null && (L.crisis_score < 0 || L.crisis_score > 100));
+  var lastBrent = st.last.brent_px;
+  var jump = L.brent != null && lastBrent ? Math.abs(L.brent / lastBrent - 1) : 0;
+  var hold = ageH > 3 ? 'data ' + ageH.toFixed(1) + 'h old' : !sane ? 'value out of range' : jump > 0.12 ? 'Brent moved ' + (jump * 100).toFixed(0) + '% vs last alert' : null;
+  if (hold) console.log('[held: ' + hold + '] no instrument posts this run');
 
   // 1. Crisis score moved >=5 pts since last alerted
   if (L.crisis_score != null) {
@@ -215,7 +244,7 @@ async function main() {
   var sdDay = Math.max(1, Math.floor((Date.now() - new Date('2026-06-28').getTime()) / 864e5) + 1);
   if (day > 0 && day % 10 === 0 && st.last.milestone !== day) {
     instrument.push({ key: 'day:' + day, text:
-      'HORMUZ CRISIS DAY ' + day + '; STAND-DOWN HOLDING DAY ' + sdDay + '; ' +
+      'HORMUZ CRISIS DAY ' + day + '; ' +
       'BRENT $' + (+L.brent).toFixed(2) + '; CRISIS SCORE ' + (L.crisis_score != null ? L.crisis_score + '/100' : 'N/A'),
       commit: function () { st.last.milestone = day; } });
   }
@@ -223,7 +252,7 @@ async function main() {
   // 5. Synthesis driver changed — our best content, already written hourly by
   // the desk LLM: one sentence connecting the top story to the price. Post it
   // when it changes (dedupe on text hash).
-  var drv = daily.synthesis && daily.synthesis.driver;
+  var drv = process.env.PULSE_DRIVER === '1' && daily.synthesis && daily.synthesis.driver;
   if (drv && drv.length > 30) {
     var dh = hash(drv);
     if (st.last.driver !== dh) {
@@ -263,8 +292,8 @@ async function main() {
       else if (Math.abs(m0.yes_pct - prevOdds) >= 5) {
         instrument.push({ key: 'odds:' + m0.yes_pct, text:
           'POLYMARKET: "' + m0.question.toUpperCase().replace(/\?$/, '') + '" NOW ' + m0.yes_pct + '%, ' +
-          (m0.yes_pct > prevOdds ? 'UP' : 'DOWN') + ' FROM ' + prevOdds + '%; BRENT $' + (L.brent != null ? (+L.brent).toFixed(2) : 'N/A'),
-          commit: function () { st.last.odds = m0.yes_pct; } });
+          (m0.yes_pct > prevOdds ? 'UP' : 'DOWN') + ' FROM ' + prevOdds + '%' + (st.last.odds_at ? ' ON ' + new Date(st.last.odds_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }).toUpperCase() : '') + '; BRENT $' + (L.brent != null ? (+L.brent).toFixed(2) : 'N/A'),
+          commit: function () { st.last.odds = m0.yes_pct; st.last.odds_at = new Date().toISOString(); } });
       }
     }
   } catch (e) {}
@@ -276,6 +305,19 @@ async function main() {
     .filter(i => !st.posted[hash(i.text)])
     .map(i => ({ key: i.text, text: null, raw: i.text }));
 
+  var gapH = st.last_run ? (Date.now() - new Date(st.last_run).getTime()) / 36e5 : 1e9;
+  st.last_run = new Date().toISOString();
+  if (gapH > 48) {
+    instrument.forEach(c => { if (c.commit) c.commit(); });
+    (daily.intel || []).forEach(i => { if (i.text) st.posted[hash(i.text)] = st.posted[hash(i.text)] || new Date().toISOString(); });
+    if (L.brent != null) st.last.brent_px = +L.brent;
+    saveState(st);
+    console.log('Baselines re-seeded after a ' + (gapH > 1e8 ? 'first' : gapH.toFixed(0) + 'h') + ' gap; nothing posts this run.');
+    return;
+  }
+  if (hold) instrument = [];
+  instrument.forEach(c => { c.kind = 'instrument'; });
+  wire.forEach(c => { c.kind = 'wire'; });
   var candidates = instrument.concat(wire);
 
   var sent = 0;
@@ -285,7 +327,7 @@ async function main() {
     var text = fmtSquawk(c.raw || c.text);
     if (text.length < 20) continue;
     if (st.posted[hash(c.key)]) continue;
-    var ids = await broadcast(text, null);
+    var ids = await broadcast(text, null, c.kind);
     if (ids.length === 0) { console.error('All channels failed; stopping this run.'); break; }
     st.posted[hash(c.key)] = new Date().toISOString();
     if (c.commit) c.commit();
@@ -294,6 +336,8 @@ async function main() {
   }
   st.counts = {};
   st.counts[today] = usedToday + sent;
+  if (!hold && L.brent != null && sent > 0) st.last.brent_px = +L.brent;
+  if (X_SHADOW.length) st.x_shadow = (st.x_shadow || []).concat(X_SHADOW).slice(-50);
   saveState(st); // always persist: baselines (st.last) seed on first run
   console.log('Done: ' + sent + ' alert(s) (' + instrument.length + ' instrument, ' + wire.length + ' wire candidates), ' + (usedToday + sent) + '/' + DAILY_CAP + ' today.');
 }
