@@ -30,6 +30,11 @@ jobs:
           X_CONSUMER_SECRET: ${{ secrets.X_CONSUMER_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          # Guardrails (2026-11-25): repo variables, flippable from a phone.
+          PULSE_OFF: ${{ vars.PULSE_OFF }}
+          PULSE_X_LIVE: ${{ vars.PULSE_X_LIVE }}
+          PULSE_X_WIRE: ${{ vars.PULSE_X_WIRE }}
+          PULSE_DRIVER: ${{ vars.PULSE_DRIVER }}
         run: node scripts/oil-pulse.cjs || echo "pulse failed (non-fatal)"
       - name: Thermal
         env:
