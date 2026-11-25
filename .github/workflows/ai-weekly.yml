@@ -1,0 +1,33 @@
+name: AI infrastructure digest
+# Rolling seven-day digest of AI infrastructure news (power, fabs, memory,
+# chips, data-center builders, money) for the site's AI infrastructure report.
+# Model-free by default; scripts/ai-weekly.cjs keeps the previous file if a
+# run comes back thin.
+on:
+  schedule:
+    - cron: '20 12 * * *'   # daily, 12:20 UTC
+  workflow_dispatch:
+concurrency:
+  group: ai-weekly
+  cancel-in-progress: false
+permissions:
+  contents: write
+  models: read
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build digest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/ai-weekly.cjs || echo "digest failed (non-fatal)"
+      - name: Commit
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add public/data/ai-weekly.json 2>/dev/null || true
+          git diff --cached --quiet || { git commit -m "data: AI infrastructure digest"; git push || { git pull --rebase --autostash -q; git push; }; }
