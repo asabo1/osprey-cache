@@ -1,0 +1,985 @@
+{
+ "generated_at": "2026-11-25T21:38:35.427Z",
+ "verdict": {
+  "word": "Accelerating",
+  "score": 0.5,
+  "leading": "SPEND",
+  "lagging": "POWER",
+  "improved": 4,
+  "total": 9,
+  "markets": "disagree",
+  "groups": {
+   "SPEND": {
+    "score": 0.75,
+    "fresh_weight": 1
+   },
+   "CHIPS": {
+    "score": 0.33,
+    "fresh_weight": 0.5
+   },
+   "MEMORY": {
+    "score": -1,
+    "fresh_weight": 0.56
+   },
+   "POWER": {
+    "score": 0,
+    "fresh_weight": 1
+   }
+  },
+  "headline": "AI spending is accelerating. Strongest: Spending. Weakest: Power. 4 of 9 readings improved. Markets disagree."
+ },
+ "kpis": [
+  {
+   "unit": "USD B",
+   "value": 230.4,
+   "value_prev": 181.5,
+   "change": {
+    "kind": "yoy",
+    "pct": 117.8,
+    "prev_pct": 86.5,
+    "delta_pp": 31.3
+   },
+   "signal": 1,
+   "state": "fresh",
+   "as_of": "2026-09-30",
+   "note": "Latest quarter, five biggest cloud companies combined.",
+   "spark": [
+    {
+     "t": "2024-11-30",
+     "v": 76.3
+    },
+    {
+     "t": "2025-02-28",
+     "v": 77.8
+    },
+    {
+     "t": "2025-05-31",
+     "v": 97.3
+    },
+    {
+     "t": "2025-08-31",
+     "v": 105.8
+    },
+    {
+     "t": "2025-11-30",
+     "v": 130.7
+    },
+    {
+     "t": "2026-02-28",
+     "v": 148.4
+    },
+    {
+     "t": "2026-05-31",
+     "v": 181.5
+    },
+    {
+     "t": "2026-08-31",
+     "v": 230.4
+    }
+   ],
+   "partial": false,
+   "id": "K1",
+   "group": "SPEND",
+   "label": "Cloud capital spending",
+   "age_days": 56,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "USD B",
+   "value": 107.6,
+   "value_prev": null,
+   "change": {
+    "kind": "yoy",
+    "pct": 110,
+    "prev_pct": null,
+    "delta_pp": null
+   },
+   "signal": 0,
+   "state": "fresh",
+   "as_of": "2026-11-17",
+   "note": "Guided growth next quarter is 20.8% against 21% last quarter.",
+   "spark": [
+    {
+     "t": "2026-11-17",
+     "v": 107.6
+    }
+   ],
+   "partial": false,
+   "id": "K2",
+   "group": "CHIPS",
+   "label": "Nvidia data center revenue",
+   "age_days": 8,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "NT$ B",
+   "value": 586.9,
+   "value_prev": 511.9,
+   "change": {
+    "kind": "yoy",
+    "pct": 59.7,
+    "prev_pct": null,
+    "delta_pp": null
+   },
+   "signal": null,
+   "state": "fresh",
+   "as_of": "2026-10-28",
+   "note": "Up 14.7% on the month.",
+   "spark": [
+    {
+     "t": "2026-10-01",
+     "v": 59.71
+    }
+   ],
+   "partial": false,
+   "id": "K3",
+   "group": "CHIPS",
+   "label": "TSMC monthly revenue",
+   "attribution": "TWSE",
+   "age_days": 28,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "USD B",
+   "value": 116.8,
+   "value_prev": 100.5,
+   "change": {
+    "kind": "yoy",
+    "pct": 84.7,
+    "prev_pct": 67.9,
+    "delta_pp": 16.8
+   },
+   "signal": 1,
+   "state": "stale",
+   "as_of": "2026-09-01",
+   "note": "Chip shipments at a record in the latest customs headlines.",
+   "spark": [
+    {
+     "t": "2024-10-01",
+     "v": 57.1
+    },
+    {
+     "t": "2024-11-01",
+     "v": 57.3
+    },
+    {
+     "t": "2024-12-01",
+     "v": 57.2
+    },
+    {
+     "t": "2025-01-01",
+     "v": 53.9
+    },
+    {
+     "t": "2025-02-01",
+     "v": 56.2
+    },
+    {
+     "t": "2025-03-01",
+     "v": 57
+    },
+    {
+     "t": "2025-04-01",
+     "v": 57.7
+    },
+    {
+     "t": "2025-05-01",
+     "v": 57.8
+    },
+    {
+     "t": "2025-06-01",
+     "v": 58.9
+    },
+    {
+     "t": "2025-07-01",
+     "v": 59.9
+    },
+    {
+     "t": "2025-08-01",
+     "v": 59.9
+    },
+    {
+     "t": "2025-09-01",
+     "v": 63.2
+    },
+    {
+     "t": "2025-10-01",
+     "v": 60.1
+    },
+    {
+     "t": "2025-11-01",
+     "v": 61
+    },
+    {
+     "t": "2025-12-01",
+     "v": 65.4
+    },
+    {
+     "t": "2026-01-01",
+     "v": 71.4
+    },
+    {
+     "t": "2026-02-01",
+     "v": 73.6
+    },
+    {
+     "t": "2026-03-01",
+     "v": 85
+    },
+    {
+     "t": "2026-04-01",
+     "v": 85.7
+    },
+    {
+     "t": "2026-05-01",
+     "v": 88.2
+    },
+    {
+     "t": "2026-06-01",
+     "v": 100.4
+    },
+    {
+     "t": "2026-07-01",
+     "v": 98.2
+    },
+    {
+     "t": "2026-08-01",
+     "v": 100.5
+    },
+    {
+     "t": "2026-09-01",
+     "v": 116.8
+    }
+   ],
+   "partial": true,
+   "id": "K4",
+   "group": "CHIPS",
+   "label": "Korea exports",
+   "age_days": 85,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "USD B",
+   "value": 172.6,
+   "value_prev": null,
+   "change": {
+    "kind": "yoy",
+    "pct": 146.8,
+    "prev_pct": null,
+    "delta_pp": null
+   },
+   "signal": null,
+   "state": "fresh",
+   "as_of": "2026-11-03",
+   "note": "Up 7.9% on the month.",
+   "spark": [
+    {
+     "t": "2026-11-03",
+     "v": 146.8
+    }
+   ],
+   "partial": false,
+   "id": "K5",
+   "group": "CHIPS",
+   "label": "Global chip sales",
+   "age_days": 22,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "index",
+   "value": 100,
+   "value_prev": null,
+   "change": null,
+   "signal": null,
+   "state": "building",
+   "as_of": "2026-11-25",
+   "note": "Change over the last four weeks.",
+   "spark": [
+    {
+     "t": "2026-11-25",
+     "v": 100
+    }
+   ],
+   "partial": false,
+   "id": "K6",
+   "group": "MEMORY",
+   "label": "DDR5 spot price index",
+   "age_days": 0,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "index",
+   "value": 100,
+   "value_prev": null,
+   "change": null,
+   "signal": null,
+   "state": "building",
+   "as_of": "2026-11-25",
+   "note": "Server module spot, four-week change.",
+   "spark": [
+    {
+     "t": "2026-11-25",
+     "v": 100
+    }
+   ],
+   "partial": false,
+   "id": "K7",
+   "group": "MEMORY",
+   "label": "Server memory price index",
+   "age_days": 0,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "%",
+   "value": 12.5,
+   "value_prev": 40,
+   "change": {
+    "kind": "qoq",
+    "pct": 12.5,
+    "prev_pct": 40,
+    "delta_pp": -27.5
+   },
+   "signal": -1,
+   "state": "fresh",
+   "as_of": "2026-09-30",
+   "note": "Forecast 10 to 15% for 4Q26.",
+   "spark": [
+    {
+     "t": "3Q26",
+     "v": 40
+    },
+    {
+     "t": "4Q26",
+     "v": 12.5
+    }
+   ],
+   "partial": false,
+   "id": "K8",
+   "group": "MEMORY",
+   "label": "DRAM contract price outlook",
+   "age_days": 56,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "USD B",
+   "value": 54.2,
+   "value_prev": 41.5,
+   "change": {
+    "kind": "qoq",
+    "pct": 30.8,
+    "prev_pct": 73.7,
+    "delta_pp": -42.9,
+    "yoy_pct": 379.3
+   },
+   "signal": -1,
+   "state": "fresh",
+   "as_of": "2026-09-03",
+   "note": "Latest quarter; growth rate against the quarter before.",
+   "spark": [
+    {
+     "t": "2024-11-28",
+     "v": 8.7
+    },
+    {
+     "t": "2025-02-27",
+     "v": 8.1
+    },
+    {
+     "t": "2025-05-29",
+     "v": 9.3
+    },
+    {
+     "t": "2025-08-28",
+     "v": 11.3
+    },
+    {
+     "t": "2025-11-27",
+     "v": 13.6
+    },
+    {
+     "t": "2026-02-26",
+     "v": 23.9
+    },
+    {
+     "t": "2026-05-28",
+     "v": 41.5
+    },
+    {
+     "t": "2026-09-03",
+     "v": 54.2
+    }
+   ],
+   "partial": false,
+   "id": "K9",
+   "group": "MEMORY",
+   "label": "Micron revenue",
+   "age_days": 83,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "USD B",
+   "value": 11.1,
+   "value_prev": 7.8,
+   "change": {
+    "kind": "qoq",
+    "pct": 42,
+    "prev_pct": 22.5,
+    "delta_pp": 19.4,
+    "yoy_pct": 96.4
+   },
+   "signal": 1,
+   "state": "fresh",
+   "as_of": "2026-09-03",
+   "note": "Micron capital spending: money in now, supply later.",
+   "spark": [
+    {
+     "t": "2024-11-28",
+     "v": 3.2
+    },
+    {
+     "t": "2025-02-27",
+     "v": 4.1
+    },
+    {
+     "t": "2025-05-29",
+     "v": 2.9
+    },
+    {
+     "t": "2025-08-28",
+     "v": 5.7
+    },
+    {
+     "t": "2025-11-27",
+     "v": 5.4
+    },
+    {
+     "t": "2026-02-26",
+     "v": 6.4
+    },
+    {
+     "t": "2026-05-28",
+     "v": 7.8
+    },
+    {
+     "t": "2026-09-03",
+     "v": 11.1
+    }
+   ],
+   "partial": false,
+   "id": "K10",
+   "group": "SPEND",
+   "label": "Memory maker capex",
+   "age_days": 83,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "pp",
+   "value": 0.7,
+   "value_prev": null,
+   "change": {
+    "kind": "3mo",
+    "pct": 0.7,
+    "prev_pct": null,
+    "delta_pp": null
+   },
+   "signal": null,
+   "state": "fresh",
+   "as_of": "2026-11-25",
+   "note": "Three-month gap, memory basket minus Nvidia.",
+   "spark": [
+    {
+     "t": "2026-08-27",
+     "v": 0
+    },
+    {
+     "t": "2026-09-01",
+     "v": 1.4
+    },
+    {
+     "t": "2026-09-03",
+     "v": -3.8
+    },
+    {
+     "t": "2026-09-09",
+     "v": -0.7
+    },
+    {
+     "t": "2026-09-14",
+     "v": 6.7
+    },
+    {
+     "t": "2026-09-17",
+     "v": 6.2
+    },
+    {
+     "t": "2026-09-21",
+     "v": -0.4
+    },
+    {
+     "t": "2026-09-24",
+     "v": 3.5
+    },
+    {
+     "t": "2026-09-29",
+     "v": 6.5
+    },
+    {
+     "t": "2026-10-02",
+     "v": 2
+    },
+    {
+     "t": "2026-10-06",
+     "v": 0.3
+    },
+    {
+     "t": "2026-10-09",
+     "v": 1.1
+    },
+    {
+     "t": "2026-10-14",
+     "v": -9.2
+    },
+    {
+     "t": "2026-10-19",
+     "v": -12.9
+    },
+    {
+     "t": "2026-10-21",
+     "v": -16.2
+    },
+    {
+     "t": "2026-10-26",
+     "v": -12.4
+    },
+    {
+     "t": "2026-10-29",
+     "v": -3.1
+    },
+    {
+     "t": "2026-11-03",
+     "v": -4.7
+    },
+    {
+     "t": "2026-11-05",
+     "v": -3.6
+    },
+    {
+     "t": "2026-11-10",
+     "v": -3.9
+    },
+    {
+     "t": "2026-11-13",
+     "v": 5.1
+    },
+    {
+     "t": "2026-11-18",
+     "v": 2.6
+    },
+    {
+     "t": "2026-11-20",
+     "v": 12.2
+    },
+    {
+     "t": "2026-11-25",
+     "v": 0.7
+    }
+   ],
+   "partial": false,
+   "id": "K11",
+   "group": "MEMORY",
+   "label": "Memory stocks vs Nvidia",
+   "confirm": 0,
+   "age_days": 0,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "USD/GPU-hr",
+   "value": 3.06,
+   "value_prev": 8.99,
+   "change": null,
+   "signal": null,
+   "state": "building",
+   "as_of": "2026-11-25",
+   "note": "B200 at $8.99 per GPU-hour.",
+   "spark": [
+    {
+     "t": "2026-11-25",
+     "v": 3.06
+    }
+   ],
+   "partial": false,
+   "id": "K12",
+   "group": "CHIPS",
+   "label": "GPU rental price, H100",
+   "age_days": 0,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "GW",
+   "value": 122,
+   "value_prev": 116,
+   "change": {
+    "kind": "qoq",
+    "pct": 5.2,
+    "prev_pct": 16,
+    "delta_pp": -10.8
+   },
+   "signal": -1,
+   "state": "fresh",
+   "as_of": "2026-10-28",
+   "note": "Backlog plus reserved slots, latest quarter.",
+   "spark": [
+    {
+     "t": "2026-07-22",
+     "v": 116
+    },
+    {
+     "t": "2026-10-28",
+     "v": 122
+    }
+   ],
+   "partial": false,
+   "id": "K13",
+   "group": "POWER",
+   "label": "Gas turbine backlog",
+   "age_days": 28,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "USD/MW-day",
+   "value": 333.44,
+   "value_prev": 329.17,
+   "change": {
+    "kind": "yoy",
+    "pct": 1.3,
+    "prev_pct": null,
+    "delta_pp": null
+   },
+   "signal": 1,
+   "state": "fresh",
+   "as_of": "2025-12-01",
+   "note": "Latest auction cleared at the price cap.",
+   "spark": [
+    {
+     "t": "2026-07-01",
+     "v": 329.17
+    },
+    {
+     "t": "2027-07-01",
+     "v": 333.44
+    }
+   ],
+   "partial": false,
+   "id": "K14",
+   "group": "POWER",
+   "label": "Grid capacity price",
+   "age_days": 359,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "USD B",
+   "value": 191.7,
+   "value_prev": 189.9,
+   "change": {
+    "kind": "3mo",
+    "pct": 4.7,
+    "prev_pct": 4.4,
+    "delta_pp": 0.4
+   },
+   "signal": 0,
+   "state": "stale",
+   "as_of": "2026-09-01",
+   "note": "Annualized rate, monthly.",
+   "spark": [
+    {
+     "t": "2024-10-01",
+     "v": 170.7
+    },
+    {
+     "t": "2024-11-01",
+     "v": 173.2
+    },
+    {
+     "t": "2024-12-01",
+     "v": 170.6
+    },
+    {
+     "t": "2025-01-01",
+     "v": 170.8
+    },
+    {
+     "t": "2025-02-01",
+     "v": 170
+    },
+    {
+     "t": "2025-03-01",
+     "v": 171.4
+    },
+    {
+     "t": "2025-04-01",
+     "v": 171.1
+    },
+    {
+     "t": "2025-05-01",
+     "v": 172.6
+    },
+    {
+     "t": "2025-06-01",
+     "v": 171.6
+    },
+    {
+     "t": "2025-07-01",
+     "v": 172.4
+    },
+    {
+     "t": "2025-08-01",
+     "v": 171.4
+    },
+    {
+     "t": "2025-09-01",
+     "v": 172.5
+    },
+    {
+     "t": "2025-10-01",
+     "v": 172.7
+    },
+    {
+     "t": "2025-11-01",
+     "v": 173.8
+    },
+    {
+     "t": "2025-12-01",
+     "v": 176.2
+    },
+    {
+     "t": "2026-01-01",
+     "v": 174.2
+    },
+    {
+     "t": "2026-02-01",
+     "v": 175.3
+    },
+    {
+     "t": "2026-03-01",
+     "v": 175.4
+    },
+    {
+     "t": "2026-04-01",
+     "v": 175.7
+    },
+    {
+     "t": "2026-05-01",
+     "v": 178.4
+    },
+    {
+     "t": "2026-06-01",
+     "v": 183
+    },
+    {
+     "t": "2026-07-01",
+     "v": 187.3
+    },
+    {
+     "t": "2026-08-01",
+     "v": 189.9
+    },
+    {
+     "t": "2026-09-01",
+     "v": 191.7
+    }
+   ],
+   "partial": true,
+   "id": "K15",
+   "group": "SPEND",
+   "label": "US power plant construction",
+   "age_days": 85,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  },
+  {
+   "unit": "pp",
+   "value": -14.1,
+   "value_prev": null,
+   "change": {
+    "kind": "3mo",
+    "pct": -14.1,
+    "prev_pct": null,
+    "delta_pp": null
+   },
+   "signal": null,
+   "state": "fresh",
+   "as_of": "2026-11-25",
+   "note": "Three-month gap, chip index minus Nasdaq-100.",
+   "spark": [
+    {
+     "t": "2026-08-27",
+     "v": 0
+    },
+    {
+     "t": "2026-09-01",
+     "v": -3.1
+    },
+    {
+     "t": "2026-09-03",
+     "v": -4
+    },
+    {
+     "t": "2026-09-09",
+     "v": 1.1
+    },
+    {
+     "t": "2026-09-14",
+     "v": -4.7
+    },
+    {
+     "t": "2026-09-17",
+     "v": -1.8
+    },
+    {
+     "t": "2026-09-21",
+     "v": 1.8
+    },
+    {
+     "t": "2026-09-24",
+     "v": 2.4
+    },
+    {
+     "t": "2026-09-29",
+     "v": 4
+    },
+    {
+     "t": "2026-10-02",
+     "v": 6.6
+    },
+    {
+     "t": "2026-10-06",
+     "v": 5.9
+    },
+    {
+     "t": "2026-10-09",
+     "v": 1.6
+    },
+    {
+     "t": "2026-10-14",
+     "v": -2.8
+    },
+    {
+     "t": "2026-10-19",
+     "v": -4.4
+    },
+    {
+     "t": "2026-10-21",
+     "v": -3.7
+    },
+    {
+     "t": "2026-10-26",
+     "v": -5.5
+    },
+    {
+     "t": "2026-10-29",
+     "v": -2.3
+    },
+    {
+     "t": "2026-11-03",
+     "v": -5.8
+    },
+    {
+     "t": "2026-11-05",
+     "v": -13.9
+    },
+    {
+     "t": "2026-11-10",
+     "v": -9.4
+    },
+    {
+     "t": "2026-11-13",
+     "v": -8.9
+    },
+    {
+     "t": "2026-11-18",
+     "v": -10.2
+    },
+    {
+     "t": "2026-11-20",
+     "v": -13.6
+    },
+    {
+     "t": "2026-11-25",
+     "v": -14.1
+    }
+   ],
+   "partial": false,
+   "id": "K16",
+   "group": "MARKET",
+   "label": "Chip index vs Nasdaq-100",
+   "confirm": -1,
+   "age_days": 0,
+   "fetched_at": "2026-11-25T21:38:35.427Z"
+  }
+ ],
+ "sources": {
+  "K1": {
+   "ok": true,
+   "error": null
+  },
+  "K2": {
+   "ok": true,
+   "error": null
+  },
+  "K3": {
+   "ok": true,
+   "error": null
+  },
+  "K4": {
+   "ok": true,
+   "error": null
+  },
+  "K5": {
+   "ok": true,
+   "error": null
+  },
+  "K8": {
+   "ok": true,
+   "error": null
+  },
+  "K9": {
+   "ok": true,
+   "error": null
+  },
+  "K10": {
+   "ok": true,
+   "error": null
+  },
+  "K12": {
+   "ok": true,
+   "error": null
+  },
+  "K13": {
+   "ok": true,
+   "error": null
+  },
+  "K14": {
+   "ok": true,
+   "error": null
+  },
+  "K15": {
+   "ok": true,
+   "error": null
+  },
+  "K6": {
+   "ok": true,
+   "error": null
+  },
+  "K7": {
+   "ok": true,
+   "error": null
+  },
+  "K11": {
+   "ok": true,
+   "error": null
+  },
+  "K16": {
+   "ok": true,
+   "error": null
+  }
+ }
+}
