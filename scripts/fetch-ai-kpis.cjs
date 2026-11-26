@@ -314,7 +314,7 @@ async function k12() {
     ch = { kind: '4wk', pct: r1(c), prev_pct: r1(cp), delta_pp: cp != null ? r1(c - cp) : null };
     if (have8) sg = sig(c, 3, -3);
   }
-  return mk({ id: 'K12', group: 'CHIPS', label: 'GPU rental price, H100', unit: 'USD/GPU-hr', value: r2(med), value_prev: b200 ? r2(b200) : null,
+  return mk({ id: 'K12', group: 'CHIPS', label: 'GPU rental price, H100', unit: 'USD/GPU-hr', value: r2(med), value_prev: null,   // B200 belongs in the note, not in the H100 series
     state: have8 ? 'fresh' : 'building', change: ch, signal: sg, note: b200 ? `B200 at $${r2(b200)} per GPU-hour.` : '', spark: sparkOf('K12') });
 }
 
