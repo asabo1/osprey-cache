@@ -6,6 +6,8 @@ on:
   schedule:
     - cron: '20 13 * * *'   # daily, 13:20 UTC
   workflow_dispatch:
+  push:
+    branches: [chip-retail]   # TEMPORARY probe trigger, remove before merge
 concurrency:
   group: chip-retail
   cancel-in-progress: false
