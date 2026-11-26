@@ -1,0 +1,30 @@
+name: Chip retail prices
+# Daily price collection for the /chips desk (GPUs, DDR5 kits, DDR5 chip spot index,
+# AI GPU rental). Daily on purpose: these series only exist as our own snapshots,
+# so every missed day is lost history. Each source fails alone.
+on:
+  schedule:
+    - cron: '20 13 * * *'   # daily, 13:20 UTC
+  workflow_dispatch:
+concurrency:
+  group: chip-retail
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  retail:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Collect
+        run: node scripts/fetch-chip-retail.cjs || echo "chip retail failed (non-fatal)"
+      - name: Commit
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          # Explicit add-list by file name (the odds.json lesson): a new file must be named here.
+          git add public/data/chip-retail.json public/data/chip-retail-backfill.json data-archive/chip-retail-log.jsonl 2>/dev/null || true
+          git diff --cached --quiet || { git commit -m "data: chip retail prices"; for i in 1 2 3; do git push && break; git pull --rebase --autostash -q; done; }
