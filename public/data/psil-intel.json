@@ -1,27 +1,28 @@
 {
-  "updated": "2026-11-26T02:10:31.859Z",
+  "updated": "2026-11-26T10:49:51.465Z",
   "counts": {
     "total": 91,
     "crit": 11,
-    "warn": 4,
+    "warn": 5,
     "bySource": {
-      "Yahoo Finance": 2,
+      "MarketBeat": 5,
+      "Kalkine": 5,
+      "Yahoo Finance": 4,
+      "The Australian": 1,
+      "Yahoo! Finance Canada": 7,
       "The Washington Stand": 1,
       "Investing.com Canada": 3,
       "Stock Titan": 2,
-      "Yahoo! Finance Canada": 9,
       "Healthcare Brew": 1,
       "Yahoo Finance UK": 5,
       "TradingView": 9,
       "PsyPost": 2,
       "Investing.com": 3,
-      "MarketBeat": 4,
       "Seeking Alpha": 2,
       "Psychedelic Alpha": 2,
       "Kalkine Media": 1,
-      "Kalkine": 4,
       "Vicente LLP": 1,
-      "Simply Wall St": 4,
+      "Simply Wall St": 3,
       "Small Caps": 1,
       "VailDaily.com": 1,
       "GuruFocus": 3,
@@ -45,8 +46,6 @@
       "Stock Traders Daily": 1,
       "StockInvest.us": 1,
       "BigGo Finance": 1,
-      "Zacks Investment Research": 1,
-      "Pharma Voice": 1,
       "FDA": 1
     },
     "byTier": {
@@ -55,6 +54,100 @@
     }
   },
   "items": [
+    {
+      "id": "f7044b3012fe",
+      "time": "2026-11-26T07:43:16.000Z",
+      "source": "MarketBeat",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin (NASDAQ:HELP) Share Price Breaks Above 200 Day Moving Average - Time to Sell?",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVUtlbUp4S0IzQzlOSzFRRWhHVXdfeFJyZm9wUG5hbzRFNUxrV3l2S21hMmRTdmRxMGNJeE5SNmhkVnM3U2NQQmNJdjJoZC1SZ2k5azVDRlBld2xvZmh0VmN4M0hRTDE4Q1ZLTE8tSlFKVkVJOVR3TnpwQndRRDhLcnRLNWJrMFRiU1VKeHl5Nm5adnFncEM2amNCT1c1ZTVwLU9jeTBzRTh0eldxSzVYdUdJalZfdWZidHZMT1hicTFQdGtmZExUbFVPQVJ0d0V0VXY4bQ?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
+      "id": "b5307d163812",
+      "time": "2026-11-26T06:27:00.000Z",
+      "source": "Kalkine",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Emyria (ASX:EMD): What Does Selection for Compass Pathways' PTSD Study Mean for the Empax Clinic?",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcFhHTUt2OGxRVWxKZFVGT2VjaHlGT1oxRHFXVnJpZ19ZcmNhTWhGUklQMDJ4bllPVV84UEF1WngtMXR2dGh3bUt2a2Q1Tk1kYXQxTDBQS09EN1RIVWxzTnNsNnA2S2FzZ1JSQ0ZZejY5TkdyTE9DTDg5T2lFeC1hVzBBNWFnbWY3V3lTZnV3RUtTaF9QclpHUk1Od3BGVERLQVdIeTVpY185R29hTkg4cEh0aUgxZ2lhUWprelI1WGpVNml0TTNTQUp3?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "8029d4a7ed57",
+      "time": "2026-11-26T06:16:00.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "CRIT",
+      "direction": "NEUTRAL",
+      "impact": "HIGH",
+      "title": "Clinical Trial Readouts Could Be A Game Changer For Alkermes (ALKS)",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaExzQlY2Z0h3emo3Sm8yNV9hVlBFbjhpeWFacmhrOTBpS3FLSzJJb0U0LURvcXgzaXE2T0IzSVZMTzJKWjNRaWZDY1NsVDVuaFd2ODhOSjdUeW1MZ01Eakw2MFljeWI3V2VSZVNoS2c0LXlpOTFpSGt3T1YyclMzYjNYNVVwSTdjcEtaMEtJWTlFN2tMZXpUR3ZRdw?oc=5",
+      "tickers": [
+        "ALKS"
+      ]
+    },
+    {
+      "id": "cfc8e45837d7",
+      "time": "2026-11-26T05:06:19.000Z",
+      "source": "The Australian",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "trial",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "Long Shortz with Emyria: Global trial deal secured with Compass Pathways",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOSy1OVmVSQ1hEUVZqYXFESUNBaHJQbDVyRUtxcFlyQUdQU2x0cVoydlY5NXZZZzBGUzJIMERPTmZUSDR4WWtSS1pYb2RiYVM5MUN6WjAxbWxPU09sUmN5bHlsY1hVSlpqZURjV1R1Wjg3VTIzWXE3V1pZQjVzTTRhcGhPb3dWeXFXcWYwS0ZBakJpQnJmdEZNT0tmalNlU2NlUDlvbmp2dV9MeTRROVBIcnJXNmVkdGpzV1c1OUNTU1o5WV84YVk5bmlFcWlQeEVvS1JNQWx4dG1pdzQ4YTVuRDBQRjYyZ0NsRUFRNlpRbTdnM280cVJ1dmUxQXQxbkZodllFWg?oc=5",
+      "tickers": [
+        "CMPS"
+      ]
+    },
+    {
+      "id": "995882a9a6b7",
+      "time": "2026-11-25T23:12:12.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "GH Research PLC (1KA.MU) Seasonal Returns Chart - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGUkcyNUVlRTRoN290Y29VZmR2TFFtejFVUnVSVFVKQ0VRb3pMb1J4aTVfSHh1RnJtck9TOE9EUEduWm9CZ2pLUF9LQkZuV1NMYnljWGRjZmh3cmhDMVh2RjR4eXY?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
+      "id": "911cecc11610",
+      "time": "2026-11-25T23:02:29.000Z",
+      "source": "The Washington Stand",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "regulatory",
+      "severity": "INFO",
+      "direction": "BULL",
+      "impact": "LOW",
+      "title": "As FDA Trials of Psychedelics Accelerate, Experts Wave Red Flags",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZFE2aGRfd1Fpd090VjFja1FNRHI1R1BGV1ZfVm9kTHI2Zk5YekJyVWZqdEhZaVZ0dFp5SFJ6S0piMUl3SVdxQnBCeG9HTF9uOVFXSFVRNDVrb09yVTFUSkFrUUhiekpOZE8xODVsYXk1UFBXU2lPQzk1dTJJNGpONE1CTnUzRTYtUEFPeTM3NkRENlJxNEFEMFlZOTUzMGRE?oc=5",
+      "tickers": []
+    },
     {
       "id": "c3af30749bea",
       "time": "2026-11-25T22:43:23.000Z",
@@ -72,22 +165,8 @@
       ]
     },
     {
-      "id": "911cecc11610",
-      "time": "2026-11-25T22:32:29.000Z",
-      "source": "The Washington Stand",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "As FDA Trials of Psychedelics Accelerate, Experts Wave Red Flags",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZFE2aGRfd1Fpd090VjFja1FNRHI1R1BGV1ZfVm9kTHI2Zk5YekJyVWZqdEhZaVZ0dFp5SFJ6S0piMUl3SVdxQnBCeG9HTF9uOVFXSFVRNDVrb09yVTFUSkFrUUhiekpOZE8xODVsYXk1UFBXU2lPQzk1dTJJNGpONE1CTnUzRTYtUEFPeTM3NkRENlJxNEFEMFlZOTUzMGRE?oc=5",
-      "tickers": []
-    },
-    {
       "id": "f9385962303d",
-      "time": "2026-11-25T21:21:15.000Z",
+      "time": "2026-11-25T21:36:15.000Z",
       "source": "Investing.com Canada",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -115,22 +194,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWktKWVVna25EblJLRjA4eTlQcUIyRENGRmlHeDR2NjFITnAtbDN5aGFUMkJueWUyRFJGV25wMmtuNDFXMmZGdW5hdzVKN09kUXJSNG9SbVUtbHVoTFk0enV1dEdKQ3lpelQwc3lZcnZDU3Q5Y3JVLVk2R1YzdHI0SzBLbVhwaV93X29nb0VjYUF6UkRtWnZ6bjFTOEtxZ05rV2ZKenV2a2RWQ3FWaVNSVERSdEk?oc=5",
       "tickers": [
         "VTGN"
-      ]
-    },
-    {
-      "id": "56c34586cae6",
-      "time": "2026-11-25T21:05:15.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Alkermes plc (ALKS) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1uUlVBczRXQWtkQ2NnOC1nRENXRy1wSTBfNVUzNUZSanlNNVUzS2Q1OFNKRDJvak05bzFWeXhzVFppdlAzR1V0cVRQa0hHLUVRR3c?oc=5",
-      "tickers": [
-        "ALKS"
       ]
     },
     {
@@ -260,7 +323,7 @@
       ]
     },
     {
-      "id": "5ccc8d1cb8d7",
+      "id": "eb582e94b8ef",
       "time": "2026-11-25T10:42:14.000Z",
       "source": "Seeking Alpha",
       "sourceKind": "gnews",
@@ -270,23 +333,7 @@
       "direction": "NEUTRAL",
       "impact": "HIGH",
       "title": "Helus Pharma Inc. (HELP) Phase 3 APPROACH Topline Results for HLP003 in Major Depressive Disorder - Slideshow",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOazdIdGxNbU04YzEzZmJrZnYzVWpQY3NBQ010WU9HdDFiRnlCQzlaUW1GeUZfSDFLVjZuV2gyRlFDaE9oUDFWOE9DZGF1akxYaXM0SWVHWk1JaWJFSE9qMHdyaXhQOUJZUjZvcjlBcUNKVUxPWENYVWRvUG15dURjX3JKeFNMN0RzZUFqaU5nWXlmVVdaTXdpNWZ2SUZRcVJlb3FQZkxTWG51Zm5tXzJMTzIxWDQxZkYwbFgwTWpTUV9JNFRx?oc=5",
-      "tickers": [
-        "HELP"
-      ]
-    },
-    {
-      "id": "6ef87801ae9d",
-      "time": "2026-11-25T09:33:32.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Cybin D/B/A Helus Pharma (HELP.NE) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84UFdtVHR1SW5QVTlLMWszdWtad1VEemZRYXFRT3pnNGoxTDMyZ3dXRlJSMXQ5R3Ffb3BFQjRmem01Wk9GbDZNaTBSSm8xcjRhc25VN0N3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQcm14RDdxRGZLTzlLSjVxODdWQ2NEaDhrVm9zSjBaZ1Z5VnV5UGRkWmR1dHVIT3phb1RGUVdtNG16QUNZRWsyVTgtZWZmaEYtZ0NRUjk1Mlc3dEdxamx6QVQ4blN5d0x5VmpmN05VWHBqT3BGZjZGZk45QmR3dHNGbWhOclZvQkh0V3c1UEpUdUdOWE1kQmswOVdkeVdUWFdEcDloQVhRSFRQRmp6dlJjNDJMSVRPR29mQ2NLci01d3FoWG1fYXJTaUthWTU3dGd2TXBNVVQxTDVKS29aRVBHRkFSUzkyQQ?oc=5",
       "tickers": [
         "HELP"
       ]
@@ -368,6 +415,22 @@
       "tickers": []
     },
     {
+      "id": "e88e039a1655",
+      "time": "2026-11-25T05:06:48.000Z",
+      "source": "Yahoo Finance UK",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Helus Pharma Inc (HELP) stock price, news, quote and history",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XakJnSUZOaWFzVHJZNXhLakhFeWRHRF9CYm9YRHpKRHBFNFBkbk5NaTJQd0JPQkJMaGJOUWQ5RVlYNGdqR3pZcXhvVVBjbzJyMXc?oc=5",
+      "tickers": [
+        "HELP"
+      ]
+    },
+    {
       "id": "586b4f3eede0",
       "time": "2026-11-25T05:04:59.000Z",
       "source": "Vicente LLP",
@@ -380,6 +443,22 @@
       "title": "Commercial Psychedelics in the United States: An FAQ on State Programs, FDA Approval and What Comes Next",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZ1BQbklzZmVBLUZ6MTRwaXJDMmtJZ01TOTZhV1I4Zl90cDZybGpRVEc2S3dZSTNKZmFWeS1wckJ4cjNCLUtqZ2JlU1MySW1NcDNqcXB3YS1wa1VBbnJ5R2VUaVJITEc5YVNST2ttUG85MGthY2lkaE16b1JzQWp4RFhqa3F1Z0JxbDVWa2p2MVkzTHFGZlJLbV9VY3pzOHZOdkxvNXpTWU1hcFprNXV1VzRwNDhaT2l6dWJnS0hUem1WN1liSEJQN3VySVNXSlIy?oc=5",
       "tickers": []
+    },
+    {
+      "id": "6ef87801ae9d",
+      "time": "2026-11-25T04:46:15.000Z",
+      "source": "Yahoo! Finance Canada",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "sector",
+      "severity": "INFO",
+      "direction": "NEUTRAL",
+      "impact": "LOW",
+      "title": "Cybin D/B/A Helus Pharma (HELP.NE) Stock Price, News, Quote & History",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84UFdtVHR1SW5QVTlLMWszdWtad1VEemZRYXFRT3pnNGoxTDMyZ3dXRlJSMXQ5R3Ffb3BFQjRmem01Wk9GbDZNaTBSSm8xcjRhc25VN0N3?oc=5",
+      "tickers": [
+        "HELP"
+      ]
     },
     {
       "id": "deb3b76be333",
@@ -399,7 +478,7 @@
     },
     {
       "id": "93a339b1ffb3",
-      "time": "2026-11-25T04:04:26.000Z",
+      "time": "2026-11-25T03:20:28.000Z",
       "source": "Yahoo! Finance Canada",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -489,7 +568,7 @@
     },
     {
       "id": "372ee667e276",
-      "time": "2026-11-25T00:04:00.000Z",
+      "time": "2026-11-25T00:04:51.000Z",
       "source": "GuruFocus",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -583,7 +662,7 @@
     },
     {
       "id": "a944011a0fde",
-      "time": "2026-11-24T21:59:34.000Z",
+      "time": "2026-11-24T21:56:15.000Z",
       "source": "GuruFocus",
       "sourceKind": "gnews",
       "sourceTier": 2,
@@ -626,23 +705,6 @@
       "title": "Trump and RFK bet on Ibogaine to save veterans in unlikely alliance with Mark Cuban",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNG5TaFpBWXJwRDNTSGdHTkx6aHNIN2taOW1ZaXA2b3RyLVJlV05jcWhpZmp6TE5KTkZxQm52MFQ5OE85Z2pJbDRKWnVWUWU2UmVjLWdVcHJETDBkTnNaN2NRNkVaNldUS1pibjFUREdqaDk4VG00Nmg5alhvZEdIVWhTVWNnSmszVjhmMmZkVlJyRm10TFdVRTBSVTJFdEJDYTZLclRGNHBoY1UzM1RxWWJUaU9oREE?oc=5",
       "tickers": []
-    },
-    {
-      "id": "822c6ec980d9",
-      "time": "2026-11-24T17:53:52.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Definium Therapeutics, Inc. (DFTX) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tVEpGelRENGFNRjdVOWJRdmRKSHZFOXZlcnY3LTdlZHFFY3hrRW0wcWpEOF92blFZZjBabHVSbHd2VDAwMWdHWFBJMlVXN0pMX3c?oc=5",
-      "tickers": [
-        "DFTX",
-        "MNMD"
-      ]
     },
     {
       "id": "d08690b5268d",
@@ -752,22 +814,6 @@
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWWxKRHhSbDN1empCNGtiQ0g5WEVOVGtDQUVTdDRoTE1mRVprOURMYlB1Tms2c1VPYy00QTNjX1dFYUxLMEVHc1RLbVlPcWk5dk9lMEpSUTA1d1VFeGRfVlQ2ckVaX05KLTYxNzlkVldUVmtOeGxfejBYaHBPSENpeXhkWjhEVmdJbzNkd0xnbmh0Xy1jQnBJRmhjNHpMYlpDWm9iYTFMVHBlSjNJOHJDWFR3elFneWlMbU1qanJ4YzJzZ2xXLWxKbmtTMkZVUFJQemdJWXpYQ1ZGNjRyRFVZMFpiS3M?oc=5",
       "tickers": [
         "DRUG"
-      ]
-    },
-    {
-      "id": "e88e039a1655",
-      "time": "2026-11-24T15:28:22.000Z",
-      "source": "Yahoo Finance UK",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "Helus Pharma Inc (HELP) stock price, news, quote and history",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XakJnSUZOaWFzVHJZNXhLakhFeWRHRF9CYm9YRHpKRHBFNFBkbk5NaTJQd0JPQkJMaGJOUWQ5RVlYNGdqR3pZcXhvVVBjbzJyMXc?oc=5",
-      "tickers": [
-        "HELP"
       ]
     },
     {
@@ -1278,6 +1324,22 @@
       ]
     },
     {
+      "id": "48f670600c07",
+      "time": "2026-11-21T05:12:00.000Z",
+      "source": "Yahoo Finance",
+      "sourceKind": "gnews",
+      "sourceTier": 2,
+      "category": "earnings",
+      "severity": "WARN",
+      "direction": "NEUTRAL",
+      "impact": "MED",
+      "title": "Chief Development Hire And Earnings Update Put GH Research Stock In Focus",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTENvb3Q0aWE5MzhaWTZBUmloYkZpSU1HcHVhMWtTZmZzWVhFV1N0dmxhSVlIX2wyMFdta0ZYb1pGS0lLdkR3TmxRMGlmbll1N3E1VU5nTkdDVEw1LTNmQjdUeGVONS1oS1hUNEhxelNKaFF1Q19hN0tFeGljc1dZUXlLdHJpc2p1ekdRcU4tYUlsVUlJb3Yyc0Y5VktkRzJGQ1E?oc=5",
+      "tickers": [
+        "GHRS"
+      ]
+    },
+    {
       "id": "b20fb66a5665",
       "time": "2026-11-21T03:12:09.000Z",
       "source": "Simply Wall St",
@@ -1324,20 +1386,6 @@
       "tickers": [
         "NBIX"
       ]
-    },
-    {
-      "id": "243e9415deb0",
-      "time": "2026-11-20T21:00:00.000Z",
-      "source": "Yahoo! Finance Canada",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Universal Ibogaine Inc. (IBOGF) Stock Price, News, Quote & History",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkcHBPbWxvaWVneUFlVjctQjdaQWpab1JjX0laZVVwV3c4UVdkWE5fRHphbUItbzhoRU1EejdwRlpsUjlsTm9DTEF6THFiMEM5MVdV?oc=5",
-      "tickers": []
     },
     {
       "id": "5d840c88d3ce",
@@ -1419,52 +1467,6 @@
         "DRUG",
         "MNMD"
       ]
-    },
-    {
-      "id": "42aaa43f6a4a",
-      "time": "2026-11-20T15:11:21.000Z",
-      "source": "Simply Wall St",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "regulatory",
-      "severity": "INFO",
-      "direction": "NEUTRAL",
-      "impact": "LOW",
-      "title": "FDA Filing Could Change The Case For Compass Pathways Stock (CMPS)",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOeFVCcGdpV3oyVU9JMFdWa2dlLVJ4X0V1VFNHeC1JbDZQanA0dUlsR3hQaERtcWhHQ2EyVzVuZjFwUEJTT0I5N1piRmxuZHRfcTFBQUV4TVJLeVNwX2xIaGQyaU1ia0NhVHRTcWp0ZnZaVzE4NHNSQ0xhU1ZZS2RDal9CbThUbE1jcUpzdHI0dnkxZ1BqSEE2djh5Y1FpTDdUNW83cm55Y2F3dWtVQkd6c3JUZ09JNHlnQlhpcGlDNFBiSl9OLTVyOVN6TS16aTBuSm1xdHVBRS1MSExDOS05ZFlnVQ?oc=5",
-      "tickers": [
-        "CMPS"
-      ]
-    },
-    {
-      "id": "e0b0e92afd10",
-      "time": "2026-11-20T14:30:33.000Z",
-      "source": "Zacks Investment Research",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "INFO",
-      "direction": "BULL",
-      "impact": "LOW",
-      "title": "Wall Street Analysts See a 128.66% Upside in GH Research (GHRS): Can the Stock Really Move This High?",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc1A0dlVXbjVTeERESTB4dkxsNjEyOTgwbjNLdGxiZTREU0J2UXhYNFAzaEoyRWxzVnJGTmJtQVhrbFlSYy1icHA3ZEVRYUFFRDJ6VWQ4T1A0dVcxS20tc3g2R2xZV0Rfd3hqUXZEcUZsX2E4VV8xcE1FTWpOakVWbWtBRmV1S2JhUkprbWxUUXBLQ1V3MHY0aVozdklDTFQ5SlhIWm1qMVM2SVRvRDF4Uk1YX2s4Rkl4YW5RRlBzRGxwR3ZfYWwxT25tLVdyR1ZfckE?oc=5",
-      "tickers": [
-        "GHRS"
-      ]
-    },
-    {
-      "id": "b452c56d54c5",
-      "time": "2026-11-20T14:12:28.000Z",
-      "source": "Pharma Voice",
-      "sourceKind": "gnews",
-      "sourceTier": 2,
-      "category": "sector",
-      "severity": "CRIT",
-      "direction": "BULL",
-      "impact": "HIGH",
-      "title": "Will the first approved psychedelic become a blockbuster?",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV3FJTEdjNEhuYURrbTJlZEhmLUNzRW1HREVrWTFzT3N1cWpJLU5IMlJhaG9Xc3pqVVlYbXJEelFKWGd1Mjc2YVotVGhEU0dIcG1fQ3phOWJROWJQT3d2SVg1OWIwVDV5dnJiRU1VQWNyT3Z6THNRV1NiMWNjQjNKQnBNU2FlRlk0dzBRV3pwX2JhUQ?oc=5",
-      "tickers": []
     },
     {
       "id": "4cc6fa18388c",
